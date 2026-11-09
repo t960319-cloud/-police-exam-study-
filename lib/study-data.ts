@@ -1,5 +1,5 @@
 export const CONTENT_DATE = "2026-11-09";
-export const SUBJECTS = ["警察法規", "警察勤務", "犯罪偵查", "刑事訴訟法"] as const;
+export const SUBJECTS = ["警察法規", "警察勤務", "犯罪偵查", "刑事訴訟法", "警察情境實務"] as const;
 export type Subject = typeof SUBJECTS[number];
 export const TOPICS = [
   { id: "powers", name: "警察職權行使法", short: "身分查證與強制", subject: "警察法規", color: "indigo", description: "先判斷發動要件，再寫措施與程序。" },
@@ -13,9 +13,10 @@ export const TOPICS = [
   { id: "procedure", name: "刑事訴訟法基礎", short: "逮捕、搜索與告訴", subject: "刑事訴訟法", color: "slate", description: "把你會背的第88條，接上權利告知與搜索。" },
   { id: "theory", name: "勤務原理與制度", short: "勤務條例、編排與督導", subject: "警察勤務", color: "indigo", description: "分清勤務方式、編排原則與制度版本。" },
 ];
-export type AmendmentNote = { status:"changed"|"review"|"none"; note:string; law?:string; date?:string; oldRule?:string; newRule?:string; sources?:{title:string;url:string}[] };
-export type ExamFields = { paperYear?:number; paperTrack?:"內軌"|"外軌"; paperNumber?:number; answerStatus?:string; initialAnswer?:number; initialAnswers?:number[]; correctionNote?:string; amendment?:AmendmentNote; sources?:{title:string;url:string}[] };
+export type AmendmentNote = { status:"changed"|"review"|"none"; note:string; law?:string; date?:string; oldRule?:string; newRule?:string; sources?:{title:string;url:string}[]; checkedAt?:string; effectiveStatus?:"in-force"|"announced"|"mixed"|"unverified"; effectiveDate?:string };
+export type ExamFields = { paperSubject?:"警察勤務"|"警察情境實務"; currentAnswer?:string; paperYear?:number; paperTrack?:"內軌"|"外軌"; paperNumber?:number; answerStatus?:string; initialAnswer?:number; initialAnswers?:number[]; correctionNote?:string; amendment?:AmendmentNote; sources?:{title:string;url:string}[] };
 export type Law = {
+  amendment?: AmendmentNote;
   id: string; topic: string; title: string; subtitle: string; original: string; originalLabel: string;
   core: string; points: string[]; traps: string[]; memory: string; scenario: string;
   version: string; verified: boolean; verificationNote: string; sources: { title: string; url: string }[];
@@ -130,7 +131,7 @@ export const LAWS: Law[] = [
 ];
 
 export type Option = { text: string; explanation: string; correction: string; trueStatement: boolean };
-export type Question = ExamFields & { id:string; subject:Subject; topic:string; title:string; stem:string; options:Option[]; answer:number; acceptedAnswers?:number[]; creditedAll?:boolean; lawIds:string[]; difficulty:"基礎"|"進階"; target:"正確"|"錯誤"; verified:boolean; origin:string; takeaway:string; };
+export type Question = ExamFields & { id:string; subject:Subject; topic:string; title:string; stem:string; options:Option[]; answer:number; acceptedAnswers?:number[]; acceptedCombinations?:number[][]; creditedAll?:boolean; lawIds:string[]; difficulty:"基礎"|"進階"; target:"正確"|"錯誤"; verified:boolean; origin:string; takeaway:string; };
 type O = [string,string,string?];
 function q(id:string,subject:Subject,topic:string,title:string,stem:string,answer:number,options:O[],lawIds:string[],takeaway:string, extra:Partial<Question>={}):Question {
   const target=extra.target??"正確";

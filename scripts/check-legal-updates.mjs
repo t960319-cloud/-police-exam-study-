@@ -1,0 +1,22 @@
+import assert from 'node:assert/strict';
+import {validateLegalEvent,applyLegalEvents} from '../lib/legal-updates.ts';
+import {isAnswerCorrect} from '../lib/grading.ts';
+const official={title:'正式法規',url:'https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020025'};
+const q={id:'scene-test',answer:0,stem:'原題',options:Array.from({length:4},(_,i)=>({text:`原選項${i}`,explanation:'原解析',correction:'原修正',trueStatement:i===0}))};
+const essay={id:'essay-test',prompt:'原申論',model:{intro:'原前言',basis:'原依據',analysis:'原論述',conclusion:'原結語'}};
+const event={eventId:'update-test',kind:'update',checkedAt:'2026-11-09',summary:'確認條文修正',sources:[official],patches:[{targetId:q.id,amendment:{status:'changed',note:'舊新差異',checkedAt:'2026-11-09',sources:[official],effectiveStatus:'announced',effectiveDate:'2026-12-31'},currentAnswer:'未生效部分仍依舊法',optionOverrides:[{index:0,explanation:'新解析',correction:'新修正'}]}]};
+assert(validateLegalEvent(event,new Set([q.id,essay.id])));
+const result=applyLegalEvents([q],[essay],[{...event,createdAt:1}]);
+assert.equal(result.questions[0].answer,0);assert.equal(result.questions[0].stem,'原題');assert.equal(result.questions[0].options[0].text,'原選項0');assert.equal(result.questions[0].options[0].explanation,'新解析');assert.equal(q.options[0].explanation,'原解析');assert.equal(result.questions[0].amendment.effectiveStatus,'announced');
+const bad=structuredClone(event);bad.patches[0].targetId='unknown';assert(!validateLegalEvent(bad,new Set([q.id])));
+const wrongSource=structuredClone(event);wrongSource.sources[0].url='https://unofficial.example/tips';assert(!validateLegalEvent(wrongSource,new Set([q.id])));
+const wrongDate=structuredClone(event);wrongDate.patches[0].amendment.checkedAt='2026-11-08';assert(!validateLegalEvent(wrongDate,new Set([q.id])));
+assert(validateLegalEvent({eventId:'check-test',kind:'check',checkedAt:'2026-11-09',summary:'未有新變動',sources:[official]},new Set()));
+const law={id:'law-test',title:'法條卡',original:'舊法條原文',core:'舊重點'};
+const lawEvent=structuredClone(event);lawEvent.patches=[{targetId:law.id,amendment:event.patches[0].amendment,lawContent:{original:'已生效原文',originalLabel:'法條原文',core:'新重點',points:['常考'],traps:['易錯'],memory:'短背誦',scenario:'情境',version:'已生效版本',verified:true,verificationNote:'核對日期及條次',sources:[official]}}];
+assert(validateLegalEvent(lawEvent,new Set([law.id])));const laws=applyLegalEvents([],[],[{...lawEvent,createdAt:2}],[law]).laws;assert.equal(laws[0].original,'已生效原文');assert.equal(laws[0].title,'法條卡');assert.equal(law.original,'舊法條原文');
+const grading={...q,acceptedAnswers:[0,1,3],acceptedCombinations:[[0],[1],[3],[0,1],[0,3],[1,3],[0,1,3]]};
+for(let mask=0;mask<16;mask++){const a=[0,1,2,3].filter(i=>mask&(1<<i));assert.equal(isAnswerCorrect(grading,a),a.length>0&&!a.includes(2));}
+assert(isAnswerCorrect({...q,acceptedAnswers:[1,2]},[2]));assert(!isAnswerCorrect({...q,acceptedAnswers:[1,2]},[1,2]));
+assert(isAnswerCorrect({...q,creditedAll:true,acceptedAnswers:[0,1,2,3]},[3]));
+console.log('Legal update validation, source requirements, immutable originals and 16 grading combinations passed.');
