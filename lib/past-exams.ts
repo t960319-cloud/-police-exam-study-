@@ -1,0 +1,15 @@
+import { QUESTIONS, ESSAYS, type Question, type Essay } from "./study-data";
+import p110 from "./past-papers/duty-110.json";
+import p111 from "./past-papers/duty-111.json";
+import p112 from "./past-papers/duty-112.json";
+import p113 from "./past-papers/duty-113.json";
+import p114 from "./past-papers/duty-114.json";
+import p115 from "./past-papers/duty-115.json";
+import externalScope from "./past-papers/external-scope.json";
+export type PastPaper = {meta:{year:number;track:string;exam:string;subject:string;indexUrl:string;questionUrl:string;answerUrl:string;correctionUrl?:string;selectionCount:number;essayCount:number};questions:Question[];essays:Essay[]};
+export const PAST_PAPERS=[p110,p111,p112,p113,p114,p115] as unknown as PastPaper[];
+export const ALL_QUESTIONS:Question[]=[...QUESTIONS,...PAST_PAPERS.flatMap(p=>p.questions)];
+export const ALL_ESSAYS:Essay[]=[...ESSAYS,...PAST_PAPERS.flatMap(p=>p.essays)];
+export const EXTERNAL_SCOPE=externalScope;
+export const acceptedAnswers=(q:Question)=>q.acceptedAnswers?.length?q.acceptedAnswers:[q.answer];
+export const answerLabel=(q:Question)=>q.creditedAll?"一律給分":acceptedAnswers(q).map(n=>String.fromCharCode(65+n)).join("／");

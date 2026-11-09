@@ -11,7 +11,10 @@ export const TOPICS = [
   { id: "chase", name: "路檢攔檢與追緝", short: "攔停與風險判斷", subject: "警察勤務", color: "teal", description: "辨別一般盤查、交通違規與刑案追緝。" },
   { id: "cross", name: "越區辦案通報", short: "通報、會同與補報", subject: "犯罪偵查", color: "orange", description: "跨轄協調與搜捕法源分別審查。" },
   { id: "procedure", name: "刑事訴訟法基礎", short: "逮捕、搜索與告訴", subject: "刑事訴訟法", color: "slate", description: "把你會背的第88條，接上權利告知與搜索。" },
+  { id: "theory", name: "勤務原理與制度", short: "勤務條例、編排與督導", subject: "警察勤務", color: "indigo", description: "分清勤務方式、編排原則與制度版本。" },
 ];
+export type AmendmentNote = { status:"changed"|"review"|"none"; note:string; law?:string; date?:string; oldRule?:string; newRule?:string; sources?:{title:string;url:string}[] };
+export type ExamFields = { paperYear?:number; paperTrack?:"內軌"|"外軌"; paperNumber?:number; answerStatus?:string; initialAnswer?:number; initialAnswers?:number[]; correctionNote?:string; amendment?:AmendmentNote; sources?:{title:string;url:string}[] };
 export type Law = {
   id: string; topic: string; title: string; subtitle: string; original: string; originalLabel: string;
   core: string; points: string[]; traps: string[]; memory: string; scenario: string;
@@ -127,7 +130,7 @@ export const LAWS: Law[] = [
 ];
 
 export type Option = { text: string; explanation: string; correction: string; trueStatement: boolean };
-export type Question = { id:string; subject:Subject; topic:string; title:string; stem:string; options:Option[]; answer:number; lawIds:string[]; difficulty:"基礎"|"進階"; target:"正確"|"錯誤"; verified:boolean; origin:string; takeaway:string; };
+export type Question = ExamFields & { id:string; subject:Subject; topic:string; title:string; stem:string; options:Option[]; answer:number; acceptedAnswers?:number[]; creditedAll?:boolean; lawIds:string[]; difficulty:"基礎"|"進階"; target:"正確"|"錯誤"; verified:boolean; origin:string; takeaway:string; };
 type O = [string,string,string?];
 function q(id:string,subject:Subject,topic:string,title:string,stem:string,answer:number,options:O[],lawIds:string[],takeaway:string, extra:Partial<Question>={}):Question {
   const target=extra.target??"正確";
@@ -176,7 +179,7 @@ q("q39","警察勤務","report","線上執勤員警遇民眾報案","依114年�
 q("q40","警察法規","powers","安全檢查不是例行搜身","依警職法第7條第1項第4款，身體及隨身物品檢查的條件何者正確？",2,[["只要攔查即當然可以全面搜身","忽略法定事實門檻。","須有明顯事實足認攜帶危險物。"],["只要想找犯罪證據就可使用本款","危險物安全檢查不等於一般證據搜索。","依目的與相應法源判斷。"],["有明顯事實足認攜帶足以自殺自傷或傷害他人生命身體之物","符合第7條第1項第4款。"],["當事人提出異議就自動可搜身","異議與檢查要件無直接等同關係。","仍須有本款明顯事實。"]],["a7","a29"],"明顯事實＋危險物；不能變成無條件搜身。"),
 ];
 
-export type Essay = { id:string; subject:Subject; topic:string; title:string; prompt:string; points:number; minutes:number; allocation:{title:string;points:number}[]; lawIds:string[]; model:{intro:string;basis:string;analysis:string;conclusion:string}; checklist:string[]; verified:boolean; };
+export type Essay = ExamFields & { id:string; subject:Subject; topic:string; title:string; prompt:string; points:number; minutes:number; allocation:{title:string;points:number}[]; lawIds:string[]; model:{intro:string;basis:string;analysis:string;conclusion:string}; checklist:string[]; verified:boolean; origin?:string; };
 function essay(id:string,topic:string,subject:Subject,title:string,prompt:string,allocation:{title:string;points:number}[],lawIds:string[],basis:string,analysis:string,checklist:string[],verified=true):Essay{
   return {id,topic,subject,title,prompt,points:allocation.reduce((s,x)=>s+x.points,0),minutes:25,allocation,lawIds,model:{intro:"警察執行職務，應有法定依據並符合發動要件，兼顧勤務目的、比例原則及人民權益。茲依題示配分分述如下。",basis,analysis,conclusion:"綜上，應依法行政，依個案事實審查要件、採取必要措施並遵守法定程序，隨情勢檢討其必要性，以兼顧執法目的與人民權益保障。"},checklist,verified};
 }

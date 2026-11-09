@@ -1,0 +1,1817 @@
+{
+  "meta": {
+    "year": 111,
+    "track": "內軌",
+    "exam": "111年公務人員特種考試警察人員考試四等考試・行政警察人員",
+    "subject": "警察勤務概要",
+    "indexUrl": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=111070&y=2022",
+    "questionUrl": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1",
+    "answerUrl": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1",
+    "correctionUrl": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A",
+    "selectionCount": 25,
+    "essayCount": 2,
+    "correctionNote": "最終更正清冊6601科目註記「無更正紀錄」；本卷實際為2大題申論，部分二手網站誤計為4題。"
+  },
+  "questions": [
+    {
+      "id": "duty111_01",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "勤務以外勤運作掌握脈動",
+      "stem": "有關警察勤務的運作原則，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "警察勤務主要是透過內勤的運作，以掌握環境與脈動",
+          "explanation": "警察勤務主要透過外勤接觸現場，掌握環境變化，並非主要靠內勤運作。",
+          "correction": "內勤改為外勤。",
+          "trueStatement": false
+        },
+        {
+          "text": "勤務永不間斷是指警察勤務活動不會間斷",
+          "explanation": "勤務活動永不間斷不等於同一員警必須連續不休息；是組織勤務持續。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "關於警力的部署、運用以及勤務的分配，必須考慮時間、空間與事故的變化",
+          "explanation": "警力部署與分配須適應時間、空間及事故變化，體現勤務機動與彈性。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "攻勢勤務的共同特徵是能夠選擇目標並透過反覆、動態的勤務",
+          "explanation": "攻勢勤務強調主動選擇對象、反覆動態接觸及預防犯罪。",
+          "correction": "無須依本題學理修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 0,
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "111年內軌四等・警察勤務概要・第1題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 1,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "none",
+        "note": "已依現行公開法律文字或本題分類核對核心；未確認直接影響本題答案的修法差異。",
+        "sources": []
+      },
+      "takeaway": "警察勤務主要透過外勤接觸現場，掌握環境變化，並非主要靠內勤運作。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        }
+      ]
+    },
+    {
+      "id": "duty111_02",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "個別勤務與共同勤務分類",
+      "stem": "下列警察勤務方式之敘述，何者非屬警察勤務條例第 12 條所列之「共同勤務」？",
+      "options": [
+        {
+          "text": "劃分巡邏區（線），由服勤人員循指定區（線）巡視；並執行檢查、取締、盤詰及其他一般警察勤務",
+          "explanation": "本項為巡邏，是第12條列舉共同勤務。",
+          "correction": "若要選非共同勤務，不能選此項。",
+          "trueStatement": true
+        },
+        {
+          "text": "於警勤區內，由警勤區員警執行之，以家戶訪查方式，擔任犯罪預防、為民服務及社會治安調查等任務",
+          "explanation": "本項為勤區查察，定義本身正確，但屬個別勤務，故是題目要求的答案。",
+          "correction": "不需改寫定義；分類應標為個別勤務。",
+          "trueStatement": false
+        },
+        {
+          "text": "於衝要地點或事故特多地區，設置崗位或劃定區域，由服勤人員在一定位置瞭望，擔任警戒、警衛、管制",
+          "explanation": "本項為守望，是共同勤務之一。",
+          "correction": "若問非共同勤務，應排除此項。",
+          "trueStatement": true
+        },
+        {
+          "text": "於公共場所或指定處所、路段，由服勤人員擔任臨場檢查或路檢，執行取締、盤查及有關法令賦予之勤務",
+          "explanation": "本項為臨檢，是共同勤務之一。",
+          "correction": "若問非共同勤務，應排除此項。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "111年內軌四等・警察勤務概要・第2題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 2,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "none",
+        "note": "已依現行公開法律文字或本題分類核對核心；未確認直接影響本題答案的修法差異。",
+        "sources": []
+      },
+      "takeaway": "本項為勤區查察，定義本身正確，但屬個別勤務，故是題目要求的答案。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警察勤務條例現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080026"
+        }
+      ]
+    },
+    {
+      "id": "duty111_03",
+      "subject": "警察勤務",
+      "topic": "weapons",
+      "title": "防護型噴霧器裝備分類",
+      "stem": "警察執勤領用裝備中，依據警察勤務裝備機具配備標準，何者非屬「警械裝備機具」之配備？",
+      "options": [
+        {
+          "text": "警銬",
+          "explanation": "警銬列在配備標準第6條警械裝備機具。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "防暴網",
+          "explanation": "防暴網列在第6條警械裝備機具。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "防護型噴霧器",
+          "explanation": "防護型噴霧器列第3條防護型裝備，不屬第6條警械裝備，因此為答案。",
+          "correction": "分類應為防護型；不是說噴霧器不存在或不得使用。",
+          "trueStatement": false
+        },
+        {
+          "text": "警槍",
+          "explanation": "警槍列在第6條警械裝備機具。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "111年內軌四等・警察勤務概要・第3題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 3,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "changed",
+        "law": "警察勤務裝備機具配備標準第3條",
+        "date": "115-08-07",
+        "oldRule": "111年考試時第3條防護型裝備已包含防護型噴霧器；第6條警械裝備含警銬、防暴網及警槍。",
+        "newRule": "115.08.07修正第3條，增列防割手套、戰術臂盾及防暴鋼叉及其配發標準；第6條本題四選項分類未因此變動。",
+        "note": "法規考後已修正，但本題分類答案仍為C。不要誤把防護型噴霧器當成第6條警械裝備。",
+        "sources": [
+          {
+            "title": "全國法規資料庫・配備標準現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080206"
+          },
+          {
+            "title": "115.08.07行政院公報正式修正",
+            "url": "https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg032145/ch02/type1/gov10/num3/Eg.htm"
+          }
+        ]
+      },
+      "takeaway": "防護型噴霧器列第3條防護型裝備，不屬第6條警械裝備，因此為答案。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "全國法規資料庫・配備標準現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080206"
+        },
+        {
+          "title": "115.08.07行政院公報正式修正",
+          "url": "https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg032145/ch02/type1/gov10/num3/Eg.htm"
+        }
+      ]
+    },
+    {
+      "id": "duty111_04",
+      "subject": "警察勤務",
+      "topic": "powers",
+      "title": "酒醉管束24小時上限",
+      "stem": "警察處理酒醉鬧事民眾，依據警察職權行使法規定，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "為預防酒醉鬧事民眾發生攻擊他人行為，得為管束",
+          "explanation": "酒醉且有危害，須符合非管束不能預防他人生命身體危險的必要性，不是只要喝酒就能管束。",
+          "correction": "原題列為正確；適用時補審具體危害及必要性。",
+          "trueStatement": true
+        },
+        {
+          "text": "管束時間最長不得逾 3 小時；並應即時以適當方法通知或交由其家屬或其他關係人，或適當之機關（構）或人員保護",
+          "explanation": "管束上限為24小時，3小時是身分帶往查證上限。",
+          "correction": "3小時改24小時，危害消滅仍應立即終止。",
+          "trueStatement": false
+        },
+        {
+          "text": "管束應於危險或危害結束時終止管束",
+          "explanation": "警職法第19條明定危險危害結束即終止。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "管束期間有攻擊、毀損行為之虞時，得對其使用警銬或其他經核定之戒具",
+          "explanation": "依法管束期間有攻擊毀損之虞，必要時得依第20條使用警銬或核定戒具。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "lawIds": [
+        "a19"
+      ],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "111年內軌四等・警察勤務概要・第4題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 4,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "none",
+        "note": "已依現行公開法律文字或本題分類核對核心；未確認直接影響本題答案的修法差異。",
+        "sources": []
+      },
+      "takeaway": "管束上限為24小時，3小時是身分帶往查證上限。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警察職權行使法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        }
+      ]
+    },
+    {
+      "id": "duty111_05",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "警勤區調整的列舉事項",
+      "stem": "依據警察勤務條例規定有關警勤區劃分除依自治區域及人口疏密等原則外，並應參酌相關事項作適當調整，下列何者非屬列舉事項？",
+      "options": [
+        {
+          "text": "治安狀況",
+          "explanation": "治安狀況為第6條調整警勤區時的明文考量。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "警力多寡",
+          "explanation": "警力多寡為法定考量事項。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "交通電信設施",
+          "explanation": "交通電信設施為第6條明文事項。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "過往歷史背景",
+          "explanation": "過往歷史背景不是第6條列舉的調整事項；不代表實務永不得參考歷史資料。",
+          "correction": "依原條文列舉應改為地區特性、工作繁簡、面積廣狹或未來發展趨勢等。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "111年內軌四等・警察勤務概要・第5題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 5,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "none",
+        "note": "已依現行公開法律文字或本題分類核對核心；未確認直接影響本題答案的修法差異。",
+        "sources": []
+      },
+      "takeaway": "過往歷史背景不是第6條列舉的調整事項；不代表實務永不得參考歷史資料。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警察勤務條例現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080026"
+        }
+      ]
+    },
+    {
+      "id": "duty111_06",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "勤務條例法源與章節內容",
+      "stem": "有關警察勤務條例之論述，下列何者正確？",
+      "options": [
+        {
+          "text": "本條例是依據警察法第 2 條規定制定之",
+          "explanation": "勤務條例第1條依警察法第3條制定，非第2條。",
+          "correction": "第2條改第3條。",
+          "trueStatement": false
+        },
+        {
+          "text": "警察機關執行業務依本條例行之",
+          "explanation": "本條例規範執行勤務，並非所有行政業務的一般依據。",
+          "correction": "業務改為勤務。",
+          "trueStatement": false
+        },
+        {
+          "text": "本條例規定警察勤務機構、勤務方式、勤務時間、勤務規劃、勤前教育及勤務督導等事項",
+          "explanation": "本項掌握條例各章的勤務組織、方式、時間、規劃、教育及督導內容。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "警察勤務之實施，應晝夜執行，普及轄區，並以刑事警察為中心，其他各種警察配合之",
+          "explanation": "條例第3條以行政警察為中心，而非刑事警察。",
+          "correction": "刑事警察改行政警察。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 2,
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": true,
+      "origin": "111年內軌四等・警察勤務概要・第6題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 6,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "none",
+        "note": "已依現行公開法律文字或本題分類核對核心；未確認直接影響本題答案的修法差異。",
+        "sources": []
+      },
+      "takeaway": "本項掌握條例各章的勤務組織、方式、時間、規劃、教育及督導內容。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警察勤務條例現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080026"
+        }
+      ]
+    },
+    {
+      "id": "duty111_07",
+      "subject": "警察勤務",
+      "topic": "powers",
+      "title": "治安顧慮人口查訪對象",
+      "stem": "依警察職權行使法第 15 條規定，犯下列何罪，經執行完畢或假釋出獄者，非為得定期實施查訪之對象？",
+      "options": [
+        {
+          "text": "曾犯貪污之罪",
+          "explanation": "貪污罪不在警職法第15條第1項所列定期查訪罪名，故為本題答案。",
+          "correction": "不能只憑貪污前科援引本條查訪。",
+          "trueStatement": false
+        },
+        {
+          "text": "曾犯詐欺之罪",
+          "explanation": "詐欺為第15條列舉罪名之一，仍須其他期間與要件。",
+          "correction": "無須依本題分類修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "曾犯持有毒品之罪",
+          "explanation": "曾犯持有毒品之罪為列舉類型之一，並須執行完畢或假釋等條件。",
+          "correction": "無須依本題分類修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "曾犯組織犯罪之罪",
+          "explanation": "組織犯罪為第15條列舉犯罪類型。",
+          "correction": "無須依本題分類修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 0,
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "111年內軌四等・警察勤務概要・第7題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 7,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "none",
+        "note": "已依現行公開法律文字或本題分類核對核心；未確認直接影響本題答案的修法差異。",
+        "sources": []
+      },
+      "takeaway": "貪污罪不在警職法第15條第1項所列定期查訪罪名，故為本題答案。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警察職權行使法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        }
+      ]
+    },
+    {
+      "id": "duty111_08",
+      "subject": "警察勤務",
+      "topic": "procedure",
+      "title": "警察職權與刑訴程序法源",
+      "stem": "有關警察法及其施行細則對於警察職權之規定，下列何者錯誤？",
+      "options": [
+        {
+          "text": "發布警察命令，中央由內政部、直轄市由直轄市政府、縣（市）由縣（市）政府為之",
+          "explanation": "警察法施行細則按中央、直轄市及縣市規定發布警察命令機關。",
+          "correction": "無須依本題修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "協助偵查犯罪與執行搜索、扣押、拘提及逮捕，依刑法之規定行之",
+          "explanation": "偵查、搜索、扣押、拘提及逮捕是程序法規範，應依刑事訴訟法而非刑法。",
+          "correction": "刑法改刑事訴訟法。",
+          "trueStatement": false
+        },
+        {
+          "text": "行政執行依行政執行法之規定行之",
+          "explanation": "行政執行應依行政執行法，程序及權限仍須各別遵守。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "有關警察業務之保安、正俗、交通、衛生、救災、營業、建築、市容整理、戶口查察、外事處理等事項，以警察組織法令規定之職掌為主",
+          "explanation": "警察業務以組織法令職掌為主，但具體侵權措施仍另需作用法授權。",
+          "correction": "無須依本題修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "111年內軌四等・警察勤務概要・第8題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 8,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "none",
+        "note": "已依現行公開法律文字或本題分類核對核心；未確認直接影響本題答案的修法差異。",
+        "sources": []
+      },
+      "takeaway": "偵查、搜索、扣押、拘提及逮捕是程序法規範，應依刑事訴訟法而非刑法。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        }
+      ]
+    },
+    {
+      "id": "duty111_09",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "勤務指揮中心的調度職責",
+      "stem": "依據警察勤務條例規定，各警察機關內具有統一調度、指揮、管制所屬警力，執行各種勤務或轄區內發生重大災害、事故或其他案件時，得洽請非所屬或附近他轄區警力協助之單位為何？",
+      "options": [
+        {
+          "text": "偵查隊",
+          "explanation": "偵查隊主要負責偵查，不是本題統一調度指揮管制所屬警力的單位。",
+          "correction": "改為勤務指揮中心。",
+          "trueStatement": false
+        },
+        {
+          "text": "勤務指揮中心",
+          "explanation": "勤務指揮中心依法負責統一調度、指揮及管制，必要時洽請非所屬警力協助。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "警備隊",
+          "explanation": "警備隊不是本題條例所定統一勤務指揮單位。",
+          "correction": "改為勤務指揮中心。",
+          "trueStatement": false
+        },
+        {
+          "text": "分駐（派出）所",
+          "explanation": "分駐派出所是勤務執行機構，不能取代全機關勤務指揮中心功能。",
+          "correction": "改為勤務指揮中心。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 1,
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": true,
+      "origin": "111年內軌四等・警察勤務概要・第9題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 9,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "none",
+        "note": "已依現行公開法律文字或本題分類核對核心；未確認直接影響本題答案的修法差異。",
+        "sources": []
+      },
+      "takeaway": "勤務指揮中心依法負責統一調度、指揮及管制，必要時洽請非所屬警力協助。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警察勤務條例現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080026"
+        }
+      ]
+    },
+    {
+      "id": "duty111_10",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "巡邏收勤與無線電離網",
+      "stem": "執行巡邏勤務時，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "出勤時，應向勤務指揮中心試通無線電，報告入網列管",
+          "explanation": "出勤先試通無線電並報告入網，可確認聯繫與勤務掌握。",
+          "correction": "無須依原題修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "受命支援刑案現場，應於抵達現場時，立即向勤務指揮中心報告",
+          "explanation": "到達支援刑案現場應立即報告位置與到場狀態。",
+          "correction": "無須依原題修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "收勤時，應向勤務指揮中心報告離網，經允准後將電台關閉始可收勤，然後返回駐地",
+          "explanation": "不能在返駐地途中便先關閉電台及宣告收勤，仍應維持聯繫。",
+          "correction": "返駐地並完成規定收勤程序後，始依規定離網關機。",
+          "trueStatement": false
+        },
+        {
+          "text": "返回駐地後，如有巡邏期間未了狀況，應逐班列入交代",
+          "explanation": "未了狀況應逐班交代，避免勤務及案件處置中斷。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "111年內軌四等・警察勤務概要・第10題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 10,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "review",
+        "note": "本題依指定當年行政規則或學理核對官方答案；完整現行規範或來源仍待核，不把歷史答案當現行法律定論。",
+        "sources": []
+      },
+      "takeaway": "不能在返駐地途中便先關閉電台及宣告收勤，仍應維持聯繫。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        }
+      ]
+    },
+    {
+      "id": "duty111_11",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "109年訪查規定與督帶抽訪",
+      "stem": "依據民國 109 年頒布之警察勤務區訪查作業規定，有關警勤區訪查作業之實施，下列敘述何者正確？",
+      "options": [
+        {
+          "text": "警勤區缺額未派補亦未指定代理前，該警勤區相關資料由所長保管",
+          "explanation": "本項符合109年題示版本：警勤區缺額且尚未派補指定代理前，相關資料由所長保管。",
+          "correction": "無須依原題修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "警勤區每月應編排 12 小時以上訪查時數，其基準由派出所所長定之",
+          "explanation": "時數基準不是派出所所長自行定之；且第9點在111年考後另有修正。",
+          "correction": "依有權機關及現行第9點基準辦理，勿以所長任意自定。",
+          "trueStatement": false
+        },
+        {
+          "text": "派出所所長每月應以督帶勤方式抽訪 3 個警勤區，但偏遠地區得調整抽訪數量",
+          "explanation": "原題版本每人每月督帶抽訪一個或二個警勤區，並非固定三區。",
+          "correction": "三個改為一個或二個，另留法定例外。",
+          "trueStatement": false
+        },
+        {
+          "text": "所長應親自指導新到任警勤區員警勤查系統相關操作，使迅速掌握勤區狀況",
+          "explanation": "原規定為所長指派專人指導，不是一定所長親自操作教學。",
+          "correction": "親自指導改為指派專人指導。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 0,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": false,
+      "origin": "111年內軌四等・警察勤務概要・第11題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 11,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "changed",
+        "law": "警察勤務區訪查作業規定第9點",
+        "date": "111-12-14",
+        "oldRule": "原題依109年版之勤查時數基準及權責設選項；B將基準訂定機關誤寫派出所所長。",
+        "newRule": "考後111.12.14第9點另有修正，警專官方公告附有修正對照表與修正後完整規定。",
+        "note": "當年答案A保留。已確認指定規範考後修正；本次尚未完成新版第9點逐句比對，故不把原題12小時或自行推算時數寫成2026現行基準。其餘點次亦應核最新版。",
+        "sources": [
+          {
+            "title": "警專官方111.12.14第9點修正公告及附件",
+            "url": "https://admin.tpa.edu.tw/p/405-1015-7806%2Cc967.php?Lang=zh-tw"
+          }
+        ]
+      },
+      "takeaway": "本項符合109年題示版本：警勤區缺額且尚未派補指定代理前，相關資料由所長保管。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        }
+      ]
+    },
+    {
+      "id": "duty111_12",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "勤查電子簿冊與警勤區手冊",
+      "stem": "依據民國 109 年頒布之警察勤務區訪查作業規定，有關勤區查察處理系統建置之警勤區電子簿冊及表單，下列敘述何者正確？",
+      "options": [
+        {
+          "text": "腹案日誌表是用來呈現轄區人、地、事、物之概況資料",
+          "explanation": "腹案日誌表用於事前預擬訪查工作，不是警勤區人地事物總體概況表。",
+          "correction": "概況資料應看警勤區概況表。",
+          "trueStatement": false
+        },
+        {
+          "text": "警勤區概況表是用來標示警勤區內之道路、金融機構、重點人口或重要人士住居所與其他重要治安熱點",
+          "explanation": "以位置呈現道路、機構與熱點是圖資功能，不是概況表的正確對應。",
+          "correction": "依警勤區圖或系統圖層呈現。",
+          "trueStatement": false
+        },
+        {
+          "text": "警勤區訪查簿是用來登錄治安顧慮人口及記事人口之查訪資料",
+          "explanation": "治安顧慮人口與記事人口的查訪資料有其個別系統卡片；不能概括以本項訪查簿定義取代。",
+          "correction": "依相應戶卡片、記事卡及系統欄位登錄。",
+          "trueStatement": false
+        },
+        {
+          "text": "警勤區手冊是由勤查系統自動將警勤區訪查簿、記事簿及相關人事地物等資料加以彙整而成",
+          "explanation": "警勤區手冊係系統彙整相關簿冊及人事地物資料形成，符合原題版本。",
+          "correction": "無須依原題修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": false,
+      "origin": "111年內軌四等・警察勤務概要・第12題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 12,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "review",
+        "note": "本題依指定當年行政規則或學理核對官方答案；完整現行規範或來源仍待核，不把歷史答案當現行法律定論。",
+        "sources": []
+      },
+      "takeaway": "警勤區手冊係系統彙整相關簿冊及人事地物資料形成，符合原題版本。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        }
+      ]
+    },
+    {
+      "id": "duty111_13",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "CAMPS社區警政的調適",
+      "stem": "有關社區警政之敘述，下列何者錯誤？",
+      "options": [
+        {
+          "text": "「增加警察的責任心與成就感」是社區警政的四大工作要項之一",
+          "explanation": "增加警察責任心與成就感，為原題所據社區警政工作要項。",
+          "correction": "無須依本題學理修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "「CAMPS」係學者 Bayley 參考日本警政制度後，提出之社區警政操作性定義",
+          "explanation": "本項CAMPS與Bayley參考日本警政的脈絡為題目採用的學理。",
+          "correction": "無須依本題學理修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "CAMPS 係由諮詢（Consultation）、分析（Analysis）、動員（Mobilization）、問題解決（Problem Solving）等單字的第 1 個字母縮寫而成",
+          "explanation": "CAMPS的A通常指Adaptation（調適），不是Analysis（分析）；S亦應連同Problem Solving理解。",
+          "correction": "Analysis改為Adaptation（調適）。",
+          "trueStatement": false
+        },
+        {
+          "text": "社區警政將巡邏活動重組成預警式巡邏，亦即機動巡邏、刑警與社區警察巡邏勤務等的重組與合作",
+          "explanation": "社區警政重視不同巡邏力量重組與預警式合作，不是只增加機動車巡數量。",
+          "correction": "無須依本題學理修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "111年內軌四等・警察勤務概要・第13題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 13,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "review",
+        "note": "本題依指定當年行政規則或學理核對官方答案；完整現行規範或來源仍待核，不把歷史答案當現行法律定論。",
+        "sources": []
+      },
+      "takeaway": "CAMPS的A通常指Adaptation（調適），不是Analysis（分析）；S亦應連同Problem Solving理解。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        }
+      ]
+    },
+    {
+      "id": "duty111_14",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "重要設施事故的勤務通報",
+      "stem": "依據各級警察機關勤務指揮中心重大事故（情資）報告處理區分表之處理步驟規定，警察局轄內重要廠礦、庫、水電、生產機構、機場、港口或車站發生事故，警察局勤務指揮中心之處理步驟，下列敘述何者正確？",
+      "options": [
+        {
+          "text": "通報巡邏勤務人員",
+          "explanation": "本項為111年公告答案，指該事故類型依當年區分表對線上巡邏人員的通報處理。",
+          "correction": "無須依原題修正；現行區分表全文仍待核。",
+          "trueStatement": true
+        },
+        {
+          "text": "通報分局勤務指揮中心",
+          "explanation": "與本題原區分表的指定處理步驟不符，不能只憑一般分局管轄直覺選擇。",
+          "correction": "依該事故類型指定通報巡邏勤務人員。",
+          "trueStatement": false
+        },
+        {
+          "text": "轉報刑事警察局偵防犯罪指揮中心",
+          "explanation": "非所有重要設施事故均直接屬刑事局偵防中心轉報類型。",
+          "correction": "先依事故性質及區分表指定單位通報。",
+          "trueStatement": false
+        },
+        {
+          "text": "轉報交通部道安委員會",
+          "explanation": "題目列舉設施事故不當然均轉交通部道安委員會。",
+          "correction": "依事故區分表及權責通報。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 0,
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "111年內軌四等・警察勤務概要・第14題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 14,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "review",
+        "note": "本題依指定當年行政規則或學理核對官方答案；完整現行規範或來源仍待核，不把歷史答案當現行法律定論。",
+        "sources": []
+      },
+      "takeaway": "本項為111年公告答案，指該事故類型依當年區分表對線上巡邏人員的通報處理。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        }
+      ]
+    },
+    {
+      "id": "duty111_15",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "巡邏編組與防護裝備",
+      "stem": "執行線上巡邏期間，下列執勤作業程序，何者正確？",
+      "options": [
+        {
+          "text": "1 車 2 人汽車巡邏，僅由帶班者攜帶 1 台無線電，負責通訊，駕駛者無須攜帶，專心負責駕駛",
+          "explanation": "不能只讓帶班者攜一台而完全免除駕駛者的通訊裝備。",
+          "correction": "依裝備規定及編組各自備妥無線電。",
+          "trueStatement": false
+        },
+        {
+          "text": "夜間（18 時之後）機車巡邏由分局長視天候及治安狀況決定是否穿防彈衣",
+          "explanation": "原巡邏規定的夜間機巡防護要求，不是單純由分局長視天候任意決定。",
+          "correction": "依現行機車巡邏防護裝備規定穿戴。",
+          "trueStatement": false
+        },
+        {
+          "text": "2 人 2 車機車巡邏，由第 2 車（後方）負責帶班指揮及巡邏簽章表簽章事宜",
+          "explanation": "原題兩車機巡的帶班指揮與巡簽由第1車負責，非第2車。",
+          "correction": "第2車改為第1車。",
+          "trueStatement": false
+        },
+        {
+          "text": "汽車巡邏期間，下車值勤時，是否配戴防彈頭盔，授權由帶班人員視治安狀況決定",
+          "explanation": "本項為當年官方答案：汽巡下車是否配戴防彈頭盔由帶班人員依治安狀況判斷。",
+          "correction": "無須依原題修正；現行防護裝備作業規定仍須核對。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": false,
+      "origin": "111年內軌四等・警察勤務概要・第15題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 15,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "review",
+        "note": "本題依指定當年行政規則或學理核對官方答案；完整現行規範或來源仍待核，不把歷史答案當現行法律定論。",
+        "sources": []
+      },
+      "takeaway": "本項為當年官方答案：汽巡下車是否配戴防彈頭盔由帶班人員依治安狀況判斷。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        }
+      ]
+    },
+    {
+      "id": "duty111_16",
+      "subject": "警察勤務",
+      "topic": "powers",
+      "title": "合理懷疑與有事實足認門檻",
+      "stem": "警察於公共場所或合法進入之場所，只須「合理懷疑」該人有下列何種情形，即可將其攔停並查證身分？",
+      "options": [
+        {
+          "text": "對已發生之犯罪知情",
+          "explanation": "對犯罪知情者須有事實足認，不能只用本題所稱合理懷疑門檻。",
+          "correction": "依第6條第1項第2款須有事實足認。",
+          "trueStatement": false
+        },
+        {
+          "text": "生命、身體恐有具體危害須加以防止，而有查證身分之必要",
+          "explanation": "防止生命身體具體危害一款要求有事實足認及查證必要。",
+          "correction": "補上有事實足認的法定門檻。",
+          "trueStatement": false
+        },
+        {
+          "text": "滯留於有人犯藏匿之處所",
+          "explanation": "滯留有人犯藏匿處所須有事實足認，非僅一般懷疑。",
+          "correction": "依第6條第1項第4款完整要件。",
+          "trueStatement": false
+        },
+        {
+          "text": "有犯罪之虞",
+          "explanation": "第6條第1項第1款明定合理懷疑有犯罪嫌疑或犯罪之虞。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "lawIds": [
+        "a6"
+      ],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": true,
+      "origin": "111年內軌四等・警察勤務概要・第16題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 16,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "none",
+        "note": "已依現行公開法律文字或本題分類核對核心；未確認直接影響本題答案的修法差異。",
+        "sources": []
+      },
+      "takeaway": "第6條第1項第1款明定合理懷疑有犯罪嫌疑或犯罪之虞。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警察職權行使法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        }
+      ]
+    },
+    {
+      "id": "duty111_17",
+      "subject": "警察勤務",
+      "topic": "powers",
+      "title": "警職法應與得逐字辨識",
+      "stem": "有關警察職權行使法之規定，下列何者符合法條內容？",
+      "options": [
+        {
+          "text": "警察行使職權，依當時情形，認為目的無法達成時，得依職權或因義務人、利害關係人之申請終止執行",
+          "explanation": "目的無法達成時，第3條使用應終止，不是得終止。",
+          "correction": "得改為應。",
+          "trueStatement": false
+        },
+        {
+          "text": "扣留及保管費用，由物之所有人、持有人或保管人負擔。扣留之物返還時，得收取扣留及保管費用",
+          "explanation": "符合第24條第2項扣留保管費用負擔與返還時得收取規定。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "經警察遴選為第三人者，除應支給實際需要工作費用外，不給予任何名義及證明文件",
+          "explanation": "第三人工作費用為得支給，不是應支給。",
+          "correction": "應支給改得支給。",
+          "trueStatement": false
+        },
+        {
+          "text": "警察為維護治安，並防制治安顧慮人口再犯，應定期實施查訪",
+          "explanation": "治安顧慮人口查訪為得定期實施，並非本條文無條件應為。",
+          "correction": "應改為得，並審查對象及期間。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 1,
+      "lawIds": [
+        "a3"
+      ],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "111年內軌四等・警察勤務概要・第17題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 17,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "none",
+        "note": "已依現行公開法律文字或本題分類核對核心；未確認直接影響本題答案的修法差異。",
+        "sources": []
+      },
+      "takeaway": "符合第24條第2項扣留保管費用負擔與返還時得收取規定。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警察職權行使法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        }
+      ]
+    },
+    {
+      "id": "duty111_18",
+      "subject": "警察勤務",
+      "topic": "powers",
+      "title": "扣留、延長與變賣期間",
+      "stem": "依據警察職權行使法之規定，有關扣留之相關敘述，下列何者正確？",
+      "options": [
+        {
+          "text": "扣留之物經變賣後，其所有人、持有人或保管人不明時，經公告 6 個月期滿無人申請發還價金者，繳交各該級政府之公庫",
+          "explanation": "依第24條第3項，無權利人領取價金的公告期間為一年。",
+          "correction": "6個月改為一年。",
+          "trueStatement": false
+        },
+        {
+          "text": "警察依法扣留之物，除依法應沒收、沒入、毀棄或應變價發還者外，期間不得逾 3 個月",
+          "explanation": "第22條扣留原則上限30日，不是3個月。",
+          "correction": "3個月改為30日。",
+          "trueStatement": false
+        },
+        {
+          "text": "警察依法扣留之物，扣留原因未消失時，得延長之，其延長期間不得逾 2 個月",
+          "explanation": "扣留原因未消失，延長期間不得逾二個月，符合第22條。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "扣留之物有保管、照料所費過鉅之情形，得予變賣；於 3 個月內未賣出者，歸屬各該級政府所有，並得將該物提供公益目的使用",
+          "explanation": "僅第23條第1項第3、4款之物，六個月未賣出才依法歸政府；不是所有保管費過鉅物三個月就歸公。",
+          "correction": "限定適用第3、4款之物，並將3個月改6個月。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "111年內軌四等・警察勤務概要・第18題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 18,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "none",
+        "note": "已依現行公開法律文字或本題分類核對核心；未確認直接影響本題答案的修法差異。",
+        "sources": []
+      },
+      "takeaway": "扣留原因未消失，延長期間不得逾二個月，符合第22條。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警察職權行使法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        }
+      ]
+    },
+    {
+      "id": "duty111_19",
+      "subject": "警察勤務",
+      "topic": "powers",
+      "title": "第11條資料蒐集核准及期間",
+      "stem": "依據警察職權行使法第 11 條之規定，警察為防止犯罪，認為有必要於一定時間內以目視或運用科技工具針對某人蒐集其個人資料時，下列敘述何者正確？",
+      "options": [
+        {
+          "text": "該項蒐集資料活動應經由警察分局長書面同意後，於一定期間內實施",
+          "explanation": "第11條要求警察局長書面同意，不是分局長。",
+          "correction": "警察分局長改警察局長。",
+          "trueStatement": false
+        },
+        {
+          "text": "被蒐集活動資料者，須有事實足認其可能觸犯最輕本刑 3 年以上有期徒刑之罪",
+          "explanation": "第一款門檻為最輕本刑5年以上，非3年。",
+          "correction": "3年改5年。",
+          "trueStatement": false
+        },
+        {
+          "text": "每次進行觀察及動態掌握等資料蒐集活動而有必要延長時，總計其蒐集活動之期間不得逾 2 年",
+          "explanation": "每次最長一年，必要時延長一次一年，合計最多二年。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "依據本條文所蒐集之資料，除經起訴且審判程序尚未終結，而有保存之必要者外，至遲應於資料蒐集完成時起 1 年內註銷之",
+          "explanation": "本條蒐集資料達目的後原則即銷毀，調查犯罪必要保存者例外；不是本項的一年註銷模式。",
+          "correction": "依第11條第3項達目的即銷毀及犯罪調查保存例外。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "111年內軌四等・警察勤務概要・第19題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 19,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "none",
+        "note": "已依現行公開法律文字或本題分類核對核心；未確認直接影響本題答案的修法差異。",
+        "sources": []
+      },
+      "takeaway": "每次最長一年，必要時延長一次一年，合計最多二年。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警察職權行使法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        }
+      ]
+    },
+    {
+      "id": "duty111_20",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "巡邏箱地點與重點守望",
+      "stem": "有關巡簽巡邏箱之設置與實施，下列敘述何者正確？",
+      "options": [
+        {
+          "text": "巡邏區（線）至少每年定期檢討 1 次",
+          "explanation": "原題巡邏區線定期檢討並非僅每年一次。",
+          "correction": "依巡簽與巡邏規定所定檢討週期辦理；現行全文待核。",
+          "trueStatement": false
+        },
+        {
+          "text": "設置巡邏箱位置，應注意適當性與明顯性，以供巡簽",
+          "explanation": "設置位置須兼顧巡簽安全與隱密，不是以讓所有人明顯看見為要求。",
+          "correction": "明顯性改為依規定兼顧安全及隱密。",
+          "trueStatement": false
+        },
+        {
+          "text": "規劃員警巡簽巡邏箱時，應於巡邏箱設置處周遭適當範圍，實施重點守望勤務 15 分鐘",
+          "explanation": "不得把所有巡邏箱附近守望一律定為15分鐘。",
+          "correction": "按原規定守望時數及治安情勢安排，不以本項15分鐘作現行標準。",
+          "trueStatement": false
+        },
+        {
+          "text": "治安要點及交通衝要處所是設置巡邏箱地點的選項之一",
+          "explanation": "治安要點及交通衝要處所是原規範設置巡邏箱的選項之一。",
+          "correction": "無須依原題修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "111年內軌四等・警察勤務概要・第20題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 20,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "review",
+        "note": "本題依指定當年行政規則或學理核對官方答案；完整現行規範或來源仍待核，不把歷史答案當現行法律定論。",
+        "sources": []
+      },
+      "takeaway": "治安要點及交通衝要處所是原規範設置巡邏箱的選項之一。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        }
+      ]
+    },
+    {
+      "id": "duty111_21",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "勤前教育的時間與頻率",
+      "stem": "依據警察機關勤前教育實施規定，有關勤前教育的實施，下列敘述何者正確？",
+      "options": [
+        {
+          "text": "基層勤前教育時間以不超過 20 分鐘為度",
+          "explanation": "基層勤前教育原則以不超過30分鐘為度，不是20分鐘。",
+          "correction": "20分鐘改30分鐘。",
+          "trueStatement": false
+        },
+        {
+          "text": "派出所警力為 5 人者，隔日實施基層勤前教育",
+          "explanation": "四至六人編組得隔日實施，五人符合原題分類。",
+          "correction": "無須依原題修正；計算實有人數應留意不含所長規則。",
+          "trueStatement": true
+        },
+        {
+          "text": "離島派出所，勤務單純者，每星期實施 1 次基層勤前教育",
+          "explanation": "離島等勤務單純機構並非每週僅一次。",
+          "correction": "原規定得不拘形式每週實施二次。",
+          "trueStatement": false
+        },
+        {
+          "text": "分局每月舉行 2 次聯合勤前教育為原則",
+          "explanation": "聯合勤前教育原則每月一次，不是二次。",
+          "correction": "每月二次改每月一次。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 1,
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "111年內軌四等・警察勤務概要・第21題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 21,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "review",
+        "note": "本題依指定當年行政規則或學理核對官方答案；完整現行規範或來源仍待核，不把歷史答案當現行法律定論。",
+        "sources": []
+      },
+      "takeaway": "四至六人編組得隔日實施，五人符合原題分類。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        }
+      ]
+    },
+    {
+      "id": "duty111_22",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "散在制警力部署國家",
+      "stem": "世界先進國家警力部署可概分為集中制與散在制，試問：下列那些國家主要採散在制？①英國 ②新加坡 ③中華民國 ④日本",
+      "options": [
+        {
+          "text": "①②③",
+          "explanation": "英國不是本題散在制組合，並漏列日本。",
+          "correction": "應選②③④。",
+          "trueStatement": false
+        },
+        {
+          "text": "①②④",
+          "explanation": "多列英國且漏列中華民國。",
+          "correction": "應選②③④。",
+          "trueStatement": false
+        },
+        {
+          "text": "①③④",
+          "explanation": "多列英國且漏列新加坡。",
+          "correction": "應選②③④。",
+          "trueStatement": false
+        },
+        {
+          "text": "②③④",
+          "explanation": "原題將新加坡、中華民國、日本歸入散在制，答案為②③④。",
+          "correction": "無須依本題傳統警力部署學理修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "111年內軌四等・警察勤務概要・第22題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 22,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "review",
+        "note": "本題依指定當年行政規則或學理核對官方答案；完整現行規範或來源仍待核，不把歷史答案當現行法律定論。",
+        "sources": []
+      },
+      "takeaway": "原題將新加坡、中華民國、日本歸入散在制，答案為②③④。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        }
+      ]
+    },
+    {
+      "id": "duty111_23",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "巡邏區線彈性調整項目",
+      "stem": "依據警察勤務條例第 13 條規定，巡邏勤務應視需要彈性調整巡邏區（線）。下列何者不屬於規劃該項勤務時，考量調整的項目？",
+      "options": [
+        {
+          "text": "人員",
+          "explanation": "第13條彈性調整項目為時間、路線、方向；人員不是該項列舉，因此為答案。",
+          "correction": "本題不是否認實際部署須考慮人員，而是辨認條文列舉。",
+          "trueStatement": false
+        },
+        {
+          "text": "方向",
+          "explanation": "方向為本條明文彈性調整項目。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "路徑",
+          "explanation": "本選項路徑對應本條路線的調整內容。",
+          "correction": "依條文精確用語記為路線。",
+          "trueStatement": true
+        },
+        {
+          "text": "時間",
+          "explanation": "時間為本條明文彈性調整項目。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 0,
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "111年內軌四等・警察勤務概要・第23題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 23,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "none",
+        "note": "已依現行公開法律文字或本題分類核對核心；未確認直接影響本題答案的修法差異。",
+        "sources": []
+      },
+      "takeaway": "第13條彈性調整項目為時間、路線、方向；人員不是該項列舉，因此為答案。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警察勤務條例現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080026"
+        }
+      ]
+    },
+    {
+      "id": "duty111_24",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "勤務督察規劃層級與週期",
+      "stem": "依據警察機關勤務督察實施規定，下列敘述何者正確？",
+      "options": [
+        {
+          "text": "勤務督察之規劃，分局由督察組長按週實施",
+          "explanation": "分局勤務督察規劃並非由督察組長按週實施。",
+          "correction": "依原規定分局按日規劃；局層級與專業機關另有不同週期。",
+          "trueStatement": false
+        },
+        {
+          "text": "專業警察機關勤務督察之規劃，由督察主管按旬實施",
+          "explanation": "專業警察機關由督察主管按旬實施，為當年公告答案。",
+          "correction": "無須依原題修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "勤務督導分為駐區督導、業務督導、聯合督導三類",
+          "explanation": "原規範勤務督導分類並非將聯合督導列成第三類。",
+          "correction": "依原規定區分駐區、業務及專案等督導，並核對現行名稱。",
+          "trueStatement": false
+        },
+        {
+          "text": "各級督導（查）人員以逐級督導為原則，不得越級督導至基層",
+          "explanation": "逐級原則不代表一律不得越級至基層。",
+          "correction": "刪除不得越級的絕對限制，依規定實施督導。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 1,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": false,
+      "origin": "111年內軌四等・警察勤務概要・第24題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 24,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "review",
+        "note": "本題依指定當年行政規則或學理核對官方答案；完整現行規範或來源仍待核，不把歷史答案當現行法律定論。",
+        "sources": []
+      },
+      "takeaway": "專業警察機關由督察主管按旬實施，為當年公告答案。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        }
+      ]
+    },
+    {
+      "id": "duty111_25",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "共同勤務以巡邏為主",
+      "stem": "依據警察勤務條例規定，除了勤區查察勤務外，其他勤務均得視服勤人數及轄區治安情形，以下列何項勤務為主，搭配其他方式互換之？",
+      "options": [
+        {
+          "text": "巡邏",
+          "explanation": "第12條共同勤務可視人數與治安互換，均以巡邏為主。",
+          "correction": "無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "臨檢",
+          "explanation": "臨檢是共同勤務，但法定互換主軸為巡邏。",
+          "correction": "臨檢改巡邏。",
+          "trueStatement": false
+        },
+        {
+          "text": "守望",
+          "explanation": "守望不是本條互換勤務的法定主軸。",
+          "correction": "守望改巡邏。",
+          "trueStatement": false
+        },
+        {
+          "text": "備勤",
+          "explanation": "備勤雖為共同勤務，亦不能取代以巡邏為主的明文。",
+          "correction": "備勤改巡邏。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 0,
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": true,
+      "origin": "111年內軌四等・警察勤務概要・第25題",
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 25,
+      "answerStatus": "官方最終答案已核（無更正紀錄）",
+      "amendment": {
+        "status": "none",
+        "note": "已依現行公開法律文字或本題分類核對核心；未確認直接影響本題答案的修法差異。",
+        "sources": []
+      },
+      "takeaway": "第12條共同勤務可視人數與治安互換，均以巡邏為主。",
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警察勤務條例現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080026"
+        }
+      ]
+    }
+  ],
+  "essays": [
+    {
+      "id": "duty111_s01",
+      "subject": "警察勤務",
+      "topic": "chase",
+      "title": "111申論一：逆向拒停逃逸可否追車",
+      "prompt": "甲騎機車違規逆向行駛，被當時身著制服騎乘警用機車執勤之警員A、B攔停，但甲見兩警前來取締時，出現慌張神色，且不服攔停逃逸，A、B二人乃騎車追逐。請問：警察追車，有何現行法律作為依據？警察執法時，見對象逃逸可否追車？（25分）",
+      "points": 25,
+      "minutes": 25,
+      "allocation": [
+        {
+          "title": "追緝法源、任務分類與可否追緝判斷",
+          "points": 25
+        }
+      ],
+      "lawIds": [
+        "a3",
+        "a4",
+        "a6",
+        "a8",
+        "p88",
+        "chase"
+      ],
+      "model": {
+        "intro": "警察執行勤務應先確認法律依據、發動要件及必要程序，兼顧勤務目的與人民權益。茲依題意分述如下。",
+        "basis": "警職法第3、4、6至8條及個案適用交通法規；如另有刑案，應審查刑訴法第88條等逮捕事由。追緝車輛作業程序的指定版本及具體停止時機仍須補核。",
+        "analysis": "一、先分辨任務及法源\n一般身分查證應有具體法定事由；逆向違規可依法交通取締；如另有犯罪事證，須獨立確認犯罪與逮捕要件。逃逸、慌張神色本身不能概括等同刑案現行犯。\n二、再判斷追緝必要及風險\n應以具體違規或犯罪危險、道路人車流、速度、視線與周邊環境等，判斷措施是否適當必要，並衡量替代採證及通報方式。\n三、程序與情勢變更\n依法表明身分及告知事由、記錄攔停及拒停經過、持續通報指揮中心。情勢變更應重新評估繼續或終止追緝的必要性及公共安全，不以對方一逃就追到底。\n※本稿是法律架構練習；題目涉及的完整追緝SOP及修正沿革尚待核對。",
+        "conclusion": "綜上，應依法行政、遵守比例原則，隨個案情勢調整措施，在維持治安與保障人民權益間作成合乎法律的判斷。"
+      },
+      "checklist": [
+        "交通違規與刑案追緝分開",
+        "具體指出警職法與刑訴法適用",
+        "逃逸不當然是現行犯",
+        "衡量道路人車及危害風險",
+        "持續通報並重新檢討必要性"
+      ],
+      "verified": false,
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 1,
+      "origin": "111年內軌四等・警察勤務概要・申論第一題",
+      "amendment": {
+        "status": "review",
+        "note": "完整追緝SOP、追緝與停止時機及修正沿革待核。本稿不冒稱已核定現行作業程序全部列點。",
+        "sources": [
+          {
+            "title": "警察職權行使法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        }
+      ]
+    },
+    {
+      "id": "duty111_s02",
+      "subject": "警察勤務",
+      "topic": "theory",
+      "title": "111申論二：派出所與機動派出所",
+      "prompt": "我國派出所之設置目的為何？派出所與機動派出所在勤務方式上有何重要差別？（25分）",
+      "points": 25,
+      "minutes": 25,
+      "allocation": [
+        {
+          "title": "設置目的與勤務方式差異",
+          "points": 25
+        }
+      ],
+      "lawIds": [],
+      "model": {
+        "intro": "警察執行勤務應先確認法律依據、發動要件及必要程序，兼顧勤務目的與人民權益。茲依題意分述如下。",
+        "basis": "警察勤務條例第7條及第11、12條，並參照警政署官方名詞定義與內政部機動派出所FAQ。第7條規定一般派出所為勤務執行機構；機動派出所的實際設點與編組依勤務需求規劃，不能把第8條集中警力制度冒稱其定義。",
+        "analysis": "一、一般派出所設置目的\n警政署官方定義為「組合警勤區、形成治安面、供作勤務站」；依勤務條例第7條負責警勤區規劃、勤務執行與督導，建立固定區域的常態服務與勤務運作。\n二、勤務方式的重要差異\n（一）一般派出所以固定所舍及轄區運作，包含警勤區員警專責的勤區查察，並按表輪服巡邏、臨檢、守望、值班、備勤。\n（二）機動派出所依治安、交通、人潮或活動需求，在特定地點及時段運用組合警力機動設點，執行巡邏、守望、交通疏導並受理報案、提供警政諮詢及服務。\n（三）差別在常設區域經營與機動編組設點的方式，而非機動所可以拒絕報案或不受作用法拘束；亦不能把第8條「免設分駐所、派出所」的集中勤務制度直接當成機動派出所之明文。\n※具體機動派出所勤務編組、設點及後續處置細節，仍須核對所採年度之實施規範。",
+        "conclusion": "綜上，應依法行政、遵守比例原則，隨個案情勢調整措施，在維持治安與保障人民權益間作成合乎法律的判斷。"
+      },
+      "checklist": [
+        "三項設置目的：組合警勤區、形成治安面、供作勤務站",
+        "一般所固定區域常態經營",
+        "機動所依需求機動編組設點",
+        "包含受理報案與服務",
+        "不把勤務條例第8條當機動派出所定義"
+      ],
+      "verified": false,
+      "paperYear": 111,
+      "paperTrack": "內軌",
+      "paperNumber": 2,
+      "origin": "111年內軌四等・警察勤務概要・申論第二題",
+      "amendment": {
+        "status": "review",
+        "note": "一般派出所的機構地位可依勤務條例第7條核對；機動派出所之完整設置及勤務分工原件仍待核。第8條集中警力制度不得直接當成機動派出所定義。",
+        "sources": [
+          {
+            "title": "警察勤務條例第7、8條原文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080026"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "考選部111年內軌四等警察勤務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+        },
+        {
+          "title": "考選部最終答案及更正清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警察勤務條例現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080026"
+        },
+        {
+          "title": "警政署官方統計名詞・派出所設置目的",
+          "url": "https://www.npa.gov.tw/ch/app/nounDefine/list?id=2221&module=nounDefine&page=0&pageSize=100"
+        },
+        {
+          "title": "內政部Q2742・機動派出所工作內容",
+          "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&n=174&page=92&sms=9015"
+        },
+        {
+          "title": "新北市警察局・機動派出所設點與編組說明",
+          "url": "https://www.police.ntpc.gov.tw/dl-29045-89fcd058-653a-493e-9147-5b80f29c78b6.html"
+        }
+      ]
+    }
+  ]
+}
