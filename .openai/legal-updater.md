@@ -15,7 +15,7 @@
 
 每次從新的 get_site 回應取得 siwc_bypass_bearer_token，僅傳送到該 Site 的 `OAI-Sites-Authorization: Bearer …`，不要保存、輸出或放進排程文字。可用 scripts/legal-updater.mjs，將 {siteUrl,token,event?} 透過非回顯 stdin 傳入。該程式把來源網址限定為 HTTPS Sites，並立即讀回結果。若工具未提供支援的服務存取，停止寫入並告知阻礙，不改權限。
 
-事件格式見 lib/legal-updates.ts。eventId 為一次查核的唯一編號（例如 legal-check-20261110），同編號相同內容重試可安全執行；已存在不同內容應使用新編號，不覆寫歷史。kind=check 不帶 patches；kind=update 附 1～40 筆 patches。所有事件有 checkedAt、summary、官方 sources；每筆 amendment.checkedAt 必須與事件相同且附官方 sources。patch 只能指向既有題目或法條卡。lawContent 會更新現行法條卡，須附完整原文／摘要標籤、核心、常考、易錯、短背誦、版本與正式來源；歷史版本保存在事件中。不要把未生效新法覆蓋為現行原文。模型、選項解釋可更新，題幹、選項原文及官方答案受保護。
+事件格式見 lib/legal-updates.ts。eventId 為一次查核的唯一編號（例如 legal-check-20261110），同編號相同內容重試可安全執行；已存在不同內容應使用新編號，不覆寫歷史。kind=check 不帶 patches；kind=update 附 1～40 筆 patches。所有事件有 checkedAt、summary、官方 sources；每筆 amendment.checkedAt 必須與事件相同且附官方 sources。patch 只能指向既有題目或法條卡。lawContent 會更新現行法條卡，須附完整原文／摘要標籤、核心、常考、易錯、短背誦、版本與正式來源；歷史版本保存在事件中。不要把未生效新法覆蓋為現行原文。模型、選項解釋可更新，題幹、選項原文及官方答案受保護。發現引用已失效或現行依據未核的題目，可使用 patch.verified=false 撤回內容已核標示並排除每日自動選題；仍保留歷史給分。verified 僅接受布林值，與法條卡 lawContent.verified 分別處理。
 
 寫入後 GET 讀回確認 eventId 和實際影響的題目。分頁時依 nextCursor 讀完全部更新。失敗先安全重試同一事件，再說明原因；未確認寫入不得宣稱已更新。若需要新增題目或修復程式才採 Sites 原始碼及部署流程。
 

@@ -8,6 +8,7 @@ const event={eventId:'update-test',kind:'update',checkedAt:'2026-11-09',summary:
 assert(validateLegalEvent(event,new Set([q.id,essay.id])));
 const result=applyLegalEvents([q],[essay],[{...event,createdAt:1}]);
 assert.equal(result.questions[0].answer,0);assert.equal(result.questions[0].stem,'原題');assert.equal(result.questions[0].options[0].text,'原選項0');assert.equal(result.questions[0].options[0].explanation,'新解析');assert.equal(q.options[0].explanation,'原解析');assert.equal(result.questions[0].amendment.effectiveStatus,'announced');
+const deprecated=structuredClone(event);deprecated.patches[0].verified=false;assert(validateLegalEvent(deprecated,new Set([q.id])));const revoked=applyLegalEvents([{...q,verified:true}],[essay],[{...deprecated,createdAt:2}]);assert.equal(revoked.questions[0].verified,false);assert.equal(revoked.questions[0].answer,0);assert.equal(revoked.questions[0].options[0].text,'原選項0');
 const bad=structuredClone(event);bad.patches[0].targetId='unknown';assert(!validateLegalEvent(bad,new Set([q.id])));
 const wrongSource=structuredClone(event);wrongSource.sources[0].url='https://unofficial.example/tips';assert(!validateLegalEvent(wrongSource,new Set([q.id])));
 const wrongDate=structuredClone(event);wrongDate.patches[0].amendment.checkedAt='2026-11-08';assert(!validateLegalEvent(wrongDate,new Set([q.id])));

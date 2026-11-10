@@ -3,6 +3,7 @@ import type { AmendmentNote, Essay, Law, Question } from "./study-data";
 export type LegalPatch = {
   targetId: string;
   amendment: AmendmentNote;
+  verified?: boolean;
   optionOverrides?: { index: number; explanation: string; correction: string; trueStatement?: boolean }[];
   takeaway?: string;
   model?: Essay["model"];
@@ -35,6 +36,7 @@ export function validateLegalEvent(value: unknown, targetIds: Set<string>): valu
     if (!targetIds.has(p.targetId) || seen.has(p.targetId)) return false;
     seen.add(p.targetId);
     const a = p.amendment;
+    if(p.verified !== undefined && typeof p.verified !== "boolean")return false;
     if (!a || !["changed", "review", "none"].includes(a.status) || !bounded(a.note) || !officialSources(a.sources)) return false;
     if (a.checkedAt !== v.checkedAt) return false;
     if (a.effectiveStatus && !["in-force", "announced", "mixed", "unverified"].includes(a.effectiveStatus)) return false;
@@ -59,9 +61,9 @@ export function applyLegalEvents(questions: Question[], essays: Essay[], events:
   return {
     questions: questions.map(q => {
       const p = patches.get(q.id); if (!p) return q;
-      return { ...q, amendment:p.amendment, ...(p.currentAnswer !== undefined ? {currentAnswer:p.currentAnswer??undefined} : {}), ...(p.takeaway ? {takeaway:p.takeaway} : {}), options:q.options.map((o,index)=>({...o,...p.optionOverrides?.find(x=>x.index===index)})) };
+      return { ...q, amendment:p.amendment, ...(p.verified !== undefined ? {verified:p.verified}:{}), ...(p.currentAnswer !== undefined ? {currentAnswer:p.currentAnswer??undefined} : {}), ...(p.takeaway ? {takeaway:p.takeaway} : {}), options:q.options.map((o,index)=>({...o,...p.optionOverrides?.find(x=>x.index===index)})) };
     }),
-    essays: essays.map(e => { const p=patches.get(e.id); return p ? {...e,amendment:p.amendment,...(p.model?{model:p.model}:{}),...(p.currentAnswer!==undefined?{currentAnswer:p.currentAnswer??undefined}:{})} : e; }),
+    essays: essays.map(e => { const p=patches.get(e.id); return p ? {...e,amendment:p.amendment,...(p.verified!==undefined?{verified:p.verified}:{}),...(p.model?{model:p.model}:{}),...(p.currentAnswer!==undefined?{currentAnswer:p.currentAnswer??undefined}:{})} : e; }),
     laws: laws.map(l=>{const p=patches.get(l.id);return p?{...l,...p.lawContent,amendment:p.amendment}:l;}),
   };
 }
