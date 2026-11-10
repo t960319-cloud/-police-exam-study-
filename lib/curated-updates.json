@@ -1,0 +1,65 @@
+[
+  {
+    "eventId": "legal-correction-20261110-thirdparty-12",
+    "kind": "update",
+    "checkedAt": "2026-11-10",
+    "summary": "修正114年內軌警察情境實務第12題解析：遴選第三人應經該管警察局長或警察分局長核准，補齊期間與延長次數；保留原題及官方答案D。此為本站解析勘誤，非宣稱本日修法。",
+    "sources": [
+      {
+        "title": "警察職權行使法第13條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?PCode=D0080145&FLNO=13"
+      },
+      {
+        "title": "警察遴選第三人蒐集資料辦法第2條、第6條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "scene114-12",
+        "amendment": {
+          "status": "changed",
+          "law": "警察職權行使法第13條、警察遴選第三人蒐集資料辦法第2條及第6條",
+          "checkedAt": "2026-11-10",
+          "effectiveStatus": "in-force",
+          "note": "本站原解析把核准層級誤寫為僅警察局長，並誤引警職法第12條；本次已依現行正式條文更正。這是解析勘誤，並非宣稱本日修法。保留原題及官方答案D。",
+          "oldRule": "本站舊解析：須警察局長核准，並將核准層級歸為警職法第12條。",
+          "newRule": "警職法第13條及遴選辦法第2條：應經該管警察局長或警察分局長核准；辦法第6條規定期間不得逾1年，得於屆滿前報准延長1次，延長不得逾1年。",
+          "sources": [
+            {
+              "title": "警察職權行使法第13條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?PCode=D0080145&FLNO=13"
+            },
+            {
+              "title": "警察遴選第三人蒐集資料辦法第2條、第6條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+            }
+          ]
+        },
+        "verified": true,
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "遴選第三人秘密蒐集資料，須依警職法第13條及遴選辦法第2條辦理核准，不能由小隊長口頭賦予身分即實施。",
+            "correction": "以書面敘明法定事項，陳報該管警察局長或警察分局長核准後實施。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "警職法第13條及遴選辦法第2條規定的核准層級為該管警察局長或警察分局長，不是僅由偵查隊隊長核准。",
+            "correction": "將「偵查隊隊長」改為「該管警察局長或警察分局長」。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "依遴選辦法第6條，蒐集期間不得逾1年；有繼續必要時，得於屆滿前報准延長，延長不得逾1年且以1次為限。",
+            "correction": "改為初次不得逾1年；屆滿前報准延長以1次、最長1年為限。",
+            "trueStatement": false
+          }
+        ],
+        "takeaway": "遴選第三人須局長或分局長核准；期間1年，依法延長1次最多1年。"
+      }
+    ],
+    "createdAt": 1794315242294
+  }
+]

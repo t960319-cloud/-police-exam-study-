@@ -1,15 +1,14 @@
 import { and, asc, desc, eq, gt, or } from "drizzle-orm";
 import { getDb } from "../../../db";
 import { legalContentEvents } from "../../../db/schema";
-import { ALL_ESSAYS, ALL_QUESTIONS } from "../../../lib/past-exams";
-import { validateLegalEvent } from "../../../lib/legal-updates";
-import { LAWS } from "../../../lib/study-data";
+import type { SavedLegalEvent } from "../../../lib/legal-updates";
+import curatedData from "../../../lib/curated-updates.json";
 
 const headers={"Cache-Control":"no-store"};
-const targets=new Set([...ALL_QUESTIONS,...ALL_ESSAYS,...LAWS].map(x=>x.id));
-// This shared updater relies on Sites' confirmed owner-only access boundary.
-// Service access is consumed by Sites dispatch and does not carry visitor identity.
-// Do not make this Site public without adding separate server-side writer authorization.
+const curated=curatedData as SavedLegalEvent[];
+const compare=(a:SavedLegalEvent,b:SavedLegalEvent)=>a.createdAt-b.createdAt||(a.eventId<b.eventId?-1:a.eventId>b.eventId?1:0);
+// Site access may be public. Legal changes are reviewed and published from source;
+// the old D1 event history is read-only and remains visible in the timeline.
 export async function GET(request:Request){
   try{
     const cursor=new URL(request.url).searchParams.get("cursor");
@@ -21,22 +20,15 @@ export async function GET(request:Request){
       db.select().from(legalContentEvents).where(where).orderBy(asc(legalContentEvents.createdAt),asc(legalContentEvents.eventId)).limit(51),
       db.select().from(legalContentEvents).orderBy(desc(legalContentEvents.createdAt),desc(legalContentEvents.eventId)).limit(1),
     ]);
-    const page=rows.slice(0,50);const last=page.at(-1);
-    return Response.json({events:page.map(r=>({...JSON.parse(r.payload),createdAt:r.createdAt})),latestCheck:checks[0]?{...JSON.parse(checks[0].payload),createdAt:checks[0].createdAt}:null,nextCursor:rows.length>50&&last?btoa(JSON.stringify({time:last.createdAt,id:last.eventId})):null},{headers});
+    const d1Events=rows.map(r=>({...JSON.parse(r.payload),createdAt:r.createdAt}) as SavedLegalEvent);
+    const additional=curated.filter(e=>e.kind==="update"&&(!after||e.createdAt>after.time||(e.createdAt===after.time&&e.eventId>after.id)));
+    const merged=[...d1Events,...additional].sort(compare),page=merged.slice(0,50),last=page.at(-1);
+    const d1Latest=checks[0]?{...JSON.parse(checks[0].payload),createdAt:checks[0].createdAt} as SavedLegalEvent:null;
+    const latest=[...(d1Latest?[d1Latest]:[]),...curated].sort(compare).at(-1)??null;
+    return Response.json({events:page,latestCheck:latest,nextCursor:merged.length>50&&last?btoa(JSON.stringify({time:last.createdAt,id:last.eventId})):null},{headers});
   }catch{return Response.json({error:"法規更新暫時無法讀取；請先參考題目內的核對日期。"},{status:503,headers});}
 }
 
-export async function POST(request:Request){
-  const origin=request.headers.get("origin");if(origin&&origin!==new URL(request.url).origin)return Response.json({error:"來源不符"},{status:403});
-  try{
-    const text=await request.text();if(text.length>300000)return Response.json({error:"更新資料過大"},{status:413});
-    let value:unknown;try{value=JSON.parse(text);}catch{return Response.json({error:"JSON格式錯誤"},{status:400});}
-    if(!validateLegalEvent(value,targets))return Response.json({error:"更新格式不符；須有正式來源、核對日期及既有題目ID。"},{status:400});
-    if(value.patches?.some(p=>(p.lawContent&&!LAWS.some(l=>l.id===p.targetId))||(p.model&&!ALL_ESSAYS.some(e=>e.id===p.targetId))||(p.optionOverrides&&!ALL_QUESTIONS.some(q=>q.id===p.targetId))))return Response.json({error:"更新欄位與目標類型不符。"},{status:400});
-    const db=getDb();const [before]=await db.select().from(legalContentEvents).where(eq(legalContentEvents.eventId,value.eventId));
-    const payload=JSON.stringify(value);
-    if(before)return before.payload===payload?Response.json({saved:true,idempotent:true,eventId:before.eventId,createdAt:before.createdAt},{headers}):Response.json({error:"此更新編號已存在，歷史紀錄不得覆寫。"},{status:409});
-    const createdAt=Date.now();await db.insert(legalContentEvents).values({eventId:value.eventId,kind:value.kind,payload,createdAt});
-    return Response.json({saved:true,eventId:value.eventId,createdAt},{status:201,headers});
-  }catch{return Response.json({error:"法規更新尚未保存，請重試並讀回確認。"},{status:503,headers});}
+export async function POST(){
+  return Response.json({error:"法規更新須經核對後由網站版本發布，不接受公開寫入。"},{status:403,headers});
 }

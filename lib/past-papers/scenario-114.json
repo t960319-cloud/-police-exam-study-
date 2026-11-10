@@ -799,20 +799,20 @@
       "options": [
         {
           "text": "為加速破案，直接告知第三人賦予身分，開始蒐集犯罪事證",
-          "explanation": "遴選第三人涉及法定核准及管理程序，不能為求破案由小隊長口頭賦予身分即實施。",
-          "correction": "改為依法書面報請警察局長核准後實施。",
+          "explanation": "遴選第三人秘密蒐集資料，須依警職法第13條及遴選辦法第2條辦理核准，不能由小隊長口頭賦予身分即實施。",
+          "correction": "以書面敘明法定事項，陳報該管警察局長或警察分局長核准後實施。",
           "trueStatement": false
         },
         {
           "text": "書面陳報直屬主管偵查隊隊長核准後實施",
-          "explanation": "警察職權行使法第12條核准層級為警察局長，不是僅由偵查隊隊長核准。",
-          "correction": "將「偵查隊隊長」改為「警察局長」。",
+          "explanation": "警職法第13條及遴選辦法第2條規定的核准層級為該管警察局長或警察分局長，不是僅由偵查隊隊長核准。",
+          "correction": "將「偵查隊隊長」改為「該管警察局長或警察分局長」。",
           "trueStatement": false
         },
         {
           "text": "交付第三人蒐集毒品犯罪事證任務期間 3 年",
-          "explanation": "每次交付任務期間不得逾1年；有繼續必要仍須於期限內依程序重行報請核准，不是一次3年。",
-          "correction": "將3年改為每次不得逾1年，續行另依法核准。",
+          "explanation": "依遴選辦法第6條，蒐集期間不得逾1年；有繼續必要時，得於屆滿前報准延長，延長不得逾1年且以1次為限。",
+          "correction": "改為初次不得逾1年；屆滿前報准延長以1次、最長1年為限。",
           "trueStatement": false
         },
         {
@@ -834,17 +834,25 @@
       "paperNumber": 12,
       "answerStatus": "官方原答已核；目錄未列更正",
       "amendment": {
-        "status": "none",
-        "note": "已核對本題核心法規；截至核對日未確認直接改變本題答案的考後修正。未註記修正不代表全部相關法規永未變動。",
-        "checkedAt": "2026-11-09",
+        "status": "changed",
+        "law": "警察職權行使法第13條、警察遴選第三人蒐集資料辦法第2條及第6條",
+        "checkedAt": "2026-11-10",
+        "effectiveStatus": "in-force",
+        "note": "本站原解析把核准層級誤寫為僅警察局長，並誤引警職法第12條；本次已依現行正式條文更正。這是解析勘誤，並非宣稱本日修法。保留原題及官方答案D。",
+        "oldRule": "本站舊解析：須警察局長核准，並將核准層級歸為警職法第12條。",
+        "newRule": "警職法第13條及遴選辦法第2條：應經該管警察局長或警察分局長核准；辦法第6條規定期間不得逾1年，得於屆滿前報准延長1次，延長不得逾1年。",
         "sources": [
           {
-            "title": "警察職權行使法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+            "title": "警察職權行使法第13條",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?PCode=D0080145&FLNO=13"
+          },
+          {
+            "title": "警察遴選第三人蒐集資料辦法第2條、第6條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
           }
         ]
       },
-      "takeaway": "遴選第三人秘密蒐集資料：依法使用代號、化名製作文書，以保密第三人身分；仍須遵守證據、審判與依法揭露等相應程序。",
+      "takeaway": "遴選第三人須局長或分局長核准；期間1年，依法延長1次最多1年。",
       "sources": [
         {
           "title": "考選部114年四等警察情境實務概要原卷",
@@ -857,6 +865,10 @@
         {
           "title": "警察職權行使法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        },
+        {
+          "title": "警察遴選第三人蒐集資料辦法第2條、第6條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
         }
       ]
     },

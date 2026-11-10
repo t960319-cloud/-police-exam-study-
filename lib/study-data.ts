@@ -12,9 +12,15 @@ export const TOPICS = [
   { id: "cross", name: "越區辦案通報", short: "通報、會同與補報", subject: "犯罪偵查", color: "orange", description: "跨轄協調與搜捕法源分別審查。" },
   { id: "procedure", name: "刑事訴訟法基礎", short: "逮捕、搜索與告訴", subject: "刑事訴訟法", color: "slate", description: "把你會背的第88條，接上權利告知與搜索。" },
   { id: "theory", name: "勤務原理與制度", short: "勤務條例、編排與督導", subject: "警察勤務", color: "indigo", description: "分清勤務方式、編排原則與制度版本。" },
+  { id: "law_police", name: "警察法與組織", short: "法源與權責", subject: "警察法規", color: "indigo", description: "分清組織、職權與法源。" },
+  { id: "law_execute", name: "行政執行", short: "執行手段與救濟", subject: "警察法規", color: "blue", description: "區分間接強制與直接強制。" },
+  { id: "law_order", name: "社會秩序維護法", short: "處罰與程序", subject: "警察法規", color: "amber", description: "先辨構成要件再看處理程序。" },
+  { id: "law_assembly", name: "集會遊行法", short: "許可與解散", subject: "警察法規", color: "green", description: "兼顧集會自由與公共安全。" },
+  { id: "law_procedure", name: "行政程序法", short: "程序與救濟", subject: "警察法規", color: "teal", description: "留意外軌考科範圍與程序保障。" },
+  { id: "law_neutrality", name: "公務人員行政中立法", short: "中立與行為界限", subject: "警察法規", color: "purple", description: "區分職務行為與政治活動限制。" },
 ];
 export type AmendmentNote = { status:"changed"|"review"|"none"; note:string; law?:string; date?:string; oldRule?:string; newRule?:string; sources?:{title:string;url:string}[]; checkedAt?:string; effectiveStatus?:"in-force"|"announced"|"mixed"|"unverified"; effectiveDate?:string };
-export type ExamFields = { paperSubject?:"警察勤務"|"警察情境實務"; currentAnswer?:string; paperYear?:number; paperTrack?:"內軌"|"外軌"; paperNumber?:number; answerStatus?:string; initialAnswer?:number; initialAnswers?:number[]; correctionNote?:string; amendment?:AmendmentNote; sources?:{title:string;url:string}[] };
+export type ExamFields = { paperSubject?:"警察勤務"|"警察情境實務"|"警察法規"; currentAnswer?:string; paperYear?:number; paperTrack?:"內軌"|"外軌"; paperNumber?:number; answerStatus?:string; initialAnswer?:number; initialAnswers?:number[]; correctionNote?:string; amendment?:AmendmentNote; sources?:{title:string;url:string}[] };
 export type Law = {
   amendment?: AmendmentNote;
   id: string; topic: string; title: string; subtitle: string; original: string; originalLabel: string;
@@ -26,6 +32,35 @@ const authority = (p: string, n: string) => [{ title: "全國法規資料庫・�
 const power = (id: string, n: string, title: string, original: string, core: string, points: string[], traps: string[], memory: string, scenario: string): Law => ({ id, topic:"powers", title:`警職法第${n}條`, subtitle:title, original, originalLabel:"法條原文・本條全文", core, points, traps, memory, scenario, version:"100.04.27修正之法規・本次核對條文", verified:true, verificationNote:"依公開條文核對；核對日2026.11.09。", sources:authority("D0080145",n) });
 const procedure = (id: string, n: string, title: string, original: string, core: string, points: string[], traps: string[], memory: string, scenario: string): Law => ({ id, topic:"procedure", title:`刑訴法第${n}條`, subtitle:title, original, originalLabel:"法條原文・本條全文", core, points, traps, memory, scenario, version:"公開現行條文・2026.11.09核對", verified:true, verificationNote:"核對本條內容，不以整部法規最後修正日代替本條沿革。", sources:authority("C0010001",n) });
 export const LAWS: Law[] = [
+  {id:"pl9",topic:"law_police",title:"警察法第9條",subtitle:"警察職權與法定任務",originalLabel:"法條原文・本條全文",original:`警察依法行使左列職權：
+一、發佈警察命令。
+二、違警處分。
+三、協助偵查犯罪。
+四、執行搜索、扣押、拘提及逮捕。
+五、行政執行。
+六、使用警械。
+七、有關警察業務之保安、正俗、交通、衛生、消防、救災、營業建築、市容整理、戶口查察、外事處理等事項。
+八、其他應執行法令事項。`,core:"本條列舉警察依法行使的職權；執行各項干預時，仍須依具體作用法審查要件與程序。",points:["辨認警察命令、偵查協助、刑事強制處分、行政執行及警械。","114年內軌申論曾考本條與警職法第2條的職權概念比較。"],traps:["列有職權不等於可以不受其他法律的要件與程序限制。","警察法的職掌列舉與警職法的職權定義應分別說明。"],memory:"命令、違警、偵查、搜捕；執行、警械與各項業務。",scenario:"警察偵辦犯罪擬拘提對象，除辨認職掌，還要依刑訴法審查拘提的法定條件及程序。",version:"公開條文・2026.11.10核對",verified:true,verificationNote:"本條原文核對全國法規資料庫；具體職權仍須參照各別法令。",sources:authority("D0080001","9")},
+  {id:"ae28",topic:"law_execute",title:"行政執行法第28條",subtitle:"間接強制與直接強制",originalLabel:"法條原文・本條全文",original:`前條所稱之間接強制方法如下：
+一、代履行。
+二、怠金。
+前條所稱之直接強制方法如下：
+一、扣留、收取交付、解除占有、處置、使用或限制使用動產、不動產。
+二、進入、封閉、拆除住宅、建築物或其他處所。
+三、收繳、註銷證照。
+四、斷絕營業所必須之自來水、電力或其他能源。
+五、其他以實力直接實現與履行義務同一內容狀態之方法。`,core:"行為或不行為義務的執行，區分代履行、怠金等間接強制，以及本條列舉的直接強制。",points:["間接強制有代履行及怠金。","直接強制的適用條件還要看第32條。","即時強制另見第36條，須與義務不履行的強制執行區分。"],traps:["怠金不是處罰過去違法的行政罰鍰。","不得僅因列入直接強制方法，就忽略第27條與第32條等要件。"],memory:"間接：代履、怠金；直接：實力實現。",scenario:"義務人未依限拆除違建，先審查是否符合代履行要件；若要直接強制，另核第32條。",version:"公開條文・2026.11.10核對",verified:true,verificationNote:"本條原文核對全國法規資料庫。",sources:authority("A0030023","28")},
+  {id:"so72",topic:"law_order",title:"社會秩序維護法第72條",subtitle:"噪音與妨害安寧",originalLabel:"法條原文・本條全文",original:`有下列各款行為之一者，處新臺幣一萬元以下罰鍰：
+一、於公共場所或公眾得出入之場所，酗酒滋事、謾罵喧鬧，不聽禁止者。
+二、製造噪音或深夜喧嘩，妨害公眾安寧，不聽禁止者。
+三、無正當理由，擅吹警笛或擅發其他警號者。`,core:"噪音或深夜喧嘩須妨害公眾安寧，且不聽禁止；裁罰上限為新臺幣一萬元。",points:["114年修法後噪音列第2款，並明定不聽禁止。","查處時紀錄妨害安寧及禁止後反應，並依權責與噪音管制法區分。"],traps:["舊資料的第3款與六千元上限不能直接當現行條文。","不是所有聲音或所有鄰里不快都當然構成違規。"],memory:"噪音二款，妨安不聽，最高一萬。",scenario:"員警接獲噪音報案到場後，查明聲音、影響及制止情形，依法判斷而非只看時間。",version:"114.06.11修正公布・2026.11.10核對",verified:true,verificationNote:"依總統府公布原文及全國法規資料庫核對。",sources:[...authority("D0080067","72"),{title:"總統府114年修正公布令",url:"https://www.president.gov.tw/Page/294/49902"}],amendment:{status:"changed",law:"社會秩序維護法第72條",date:"114.06.11公布",effectiveStatus:"in-force",effectiveDate:"114.06.13",checkedAt:"2026-11-10",oldRule:"舊第72條第3款：製造噪音或深夜喧嘩，妨害公眾安寧；罰鍰上限新臺幣六千元。",newRule:"現第72條第2款明定不聽禁止，罰鍰上限新臺幣一萬元。",note:"本條於114年修正，舊版題目應保留當年版本，現行作答須核對新款次及要件。",sources:[{title:"總統府原制定條文",url:"https://www.president.gov.tw/Page/294/36975"},{title:"總統府114年修正公布令",url:"https://www.president.gov.tw/Page/294/49902"},...authority("D0080067","72")]}},
+  {id:"ap7",topic:"law_procedure",title:"行政程序法第7條",subtitle:"比例原則三項內涵",originalLabel:"法條原文・本條全文",original:`行政行為，應依下列原則為之：
+一、採取之方法應有助於目的之達成。
+二、有多種同樣能達成目的之方法時，應選擇對人民權益損害最少者。
+三、採取之方法所造成之損害不得與欲達成目的之利益顯失均衡。`,core:"行政行為應通過適當性、必要性與狹義比例的檢驗。",points:["適當：方法有助於目的。","必要：同樣有效的方法中，選損害最少者。","衡量：損害不得與利益顯失均衡。"],traps:["行政效率高不代表可以省略必要性及利益衡量。","適用行政程序法時，仍要檢視第3條關於程序規定的例外。"],memory:"有效、最少損害、不失衡。",scenario:"身分已有其他有效方式查明時，應判斷是否仍有採取更侵害人身自由措施的必要。",version:"公開條文・2026.11.10核對",verified:true,verificationNote:"本條原文核對全國法規資料庫。",sources:authority("A0030055","7")},
+  {id:"neutral5",topic:"law_neutrality",title:"公務人員行政中立法第5條",subtitle:"加入政黨與兼任職務",originalLabel:"法條原文・本條全文",original:`公務人員得加入政黨或其他政治團體。但不得兼任政黨或其他政治團體之職務。
+公務人員不得利用職務上之權力、機會或方法介入黨派紛爭。
+公務人員不得兼任公職候選人競選辦事處之職務。`,core:"公務人員得加入政黨，但不得兼任政黨或政治團體職務，也不得兼任候選人競選辦事處職務。",points:["分清單純加入與兼任職務。","不得利用職務權力、機會或方法介入黨派紛爭。","第7條另規範上班或勤務時間從事政黨活動及執勤必要的例外。"],traps:["加入政黨並非一概禁止。","不得把職務行為的例外，解讀成不限範圍參與競選。"],memory:"可加入，不兼職；職權不介入。",scenario:"員警可否加入政黨與可否兼任候選人競選辦事處職務，應分開回答。",version:"公開條文・2026.11.10核對",verified:true,verificationNote:"本條原文核對全國法規資料庫。",sources:authority("S0110036","5")},
   power("a3","3","比例原則與終止執行",`警察行使職權，不得逾越所欲達成執行目的之必要限度，且應以對人民權益侵害最少之適當方法為之。
 警察行使職權已達成其目的，或依當時情形，認為目的無法達成時，應依職權或因義務人、利害關係人之申請終止執行。
 警察行使職權，不得以引誘、教唆人民犯罪或其他違法之手段為之。`,"選擇侵害最少的適當方法；目的達成或無法達成時應終止。",["適當、必要與侵害最少。","終止得依職權或依申請。","不得以違法手段行使職權。"],["必要限度不是只看執法效率。","不能在目的已達成後繼續限制人民。"],"最少侵害；達成就停；違法不行。","身分已確認且無其他合法事由，不能為等候交班繼續留置。"),
