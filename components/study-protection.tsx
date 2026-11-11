@@ -33,7 +33,7 @@ export function StudyProtection({ store }: { store: Store }) {
   return <section className="study-protection">
     <h3>帳號與資料保護</h3>
     <p>{store.user ? `目前使用：${store.user.displayName}。學習紀錄與待同步資料依帳號分開保存。` : "目前尚未登入，編輯僅保存在此裝置，不會自動轉入之後登入的帳號。"}</p>
-    {store.user?.mode === "account" ? <a className="text-button" href="/signout-with-chatgpt?return_to=%2F" onClick={() => store.lock()}>登出並關閉目前紀錄</a> : <a className="text-button" href="/signin-with-chatgpt?return_to=%2F" onClick={() => store.lock()}>登入帳號</a>}
+    {store.user?.mode === "account" ? <a className="text-button" href="/signout-with-chatgpt?return_to=%2F" target="_top" onClick={() => store.lock()}>登出並關閉目前紀錄</a> : <a className="text-button" href="/signin-with-chatgpt?return_to=%2F" target="_top" onClick={() => store.lock()}>登入帳號</a>}
     {store.legacyAvailable && <div className="notice warning"><div><strong>找到舊版未綁定帳號的紀錄</strong><p>這些資料尚未歸入目前帳號。請先匯出核對，確認屬於自己後，再使用上方備份匯入。</p><button className="button secondary" onClick={exportLegacy}>匯出舊版本機紀錄</button></div></div>}
     {Object.entries(store.conflicts).map(([key, conflict]) => <article className="sync-conflict" key={key}>
       <h4>{title(key)}：有兩份不同修改</h4>
