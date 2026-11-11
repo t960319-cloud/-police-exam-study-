@@ -40,5 +40,7 @@
 @media print{.legal-watch-panel{break-inside:avoid}.current-answer-note{background:#fff;border:1px solid #888;break-inside:avoid}.combination-instruction{background:#fff;border:1px solid #aaa}}
 
 .paper-track-tabs{display:flex;gap:8px;margin:0 0 14px}.paper-track-tabs button{min-height:38px;padding:8px 15px;border:1px solid #e3e1f0;border-radius:9px;background:#fff;color:#716b81;font-size:13px;font-weight:600}.paper-track-tabs button.active{border-color:#bfb5ef;color:#6254cf;background:#efecfd}.paper-track-tabs button:disabled{opacity:.38;cursor:not-allowed}.paper-family-tabs button{min-width:0}.paper-year-buttons button span{line-height:1.4}.paper-source-table td a{display:inline-block;margin-right:9px;white-space:nowrap}
-@media(max-width:640px){.paper-family-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}.paper-family-tabs button{padding:10px 4px;white-space:nowrap;font-size:12px}.paper-track-tabs button{flex:1}}
+@media(max-width:640px){.paper-family-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.paper-family-tabs button{padding:10px 4px;white-space:nowrap;font-size:12px}.paper-track-tabs button{flex:1}}
 @media(max-width:480px){.paper-year-buttons{grid-template-columns:repeat(2,minmax(0,1fr))}.paper-year-buttons span{font-size:11px;line-height:1.5}}
+
+.question-figure{margin:18px 0;padding:18px;border:1px solid #d9d2f1;border-radius:12px;background:#f7f5fd}.question-figure strong{font-size:14px}.question-figure p{font-size:14px;line-height:1.8;margin:8px 0 14px}
