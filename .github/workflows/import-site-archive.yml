@@ -1,0 +1,69 @@
+name: 匯入警察特考複習站
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - police-study-site.zip
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-source:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Extract site source
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import shutil
+          import stat
+          import zipfile
+
+          archive = Path('police-study-site.zip')
+          if not archive.is_file():
+              raise SystemExit('先將 police-study-site.zip 上傳到儲存庫根目錄。')
+          root = Path.cwd().resolve()
+          with zipfile.ZipFile(archive) as bundle:
+              entries = [item for item in bundle.infolist() if not item.is_dir()]
+              if not entries or len(entries) > 2000:
+                  raise SystemExit('ZIP 檔案數量異常。')
+              if sum(item.file_size for item in entries) > 100 * 1024 * 1024:
+                  raise SystemExit('ZIP 解壓容量超過 100 MB。')
+              for item in entries:
+                  name = item.filename
+                  parts = Path(name).parts
+                  if (name.startswith('/') or '\\' in name or
+                      any(part in ('..', '.git', 'node_modules', '__MACOSX') for part in parts)):
+                      raise SystemExit(f'不安全的 ZIP 路徑：{name}')
+                  mode = (item.external_attr >> 16) & 0o170000
+                  if mode == stat.S_IFLNK:
+                      raise SystemExit(f'不允許 ZIP 符號連結：{name}')
+                  target = (root / name).resolve()
+                  if not target.is_relative_to(root):
+                      raise SystemExit(f'路徑超出儲存庫：{name}')
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  with bundle.open(item) as source, target.open('wb') as dest:
+                      shutil.copyfileobj(source, dest)
+          archive.unlink()
+          print(f'完成匯入 {len(entries)} 個原始檔案。')
+          PY
+
+      - name: Commit imported source
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "沒有需要提交的變更。"
+          else
+            git commit -m "Import police study site source"
+            git push origin HEAD:main
+          fi
