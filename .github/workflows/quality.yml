@@ -1,0 +1,49 @@
+name: Study app checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install pinned pnpm
+        run: |
+          npm install --prefix "$RUNNER_TEMP/pnpm" --no-audit --no-fund pnpm@11.25.0
+          echo "$RUNNER_TEMP/pnpm/node_modules/.bin" >> "$GITHUB_PATH"
+      - name: Install locked dependencies
+        run: pnpm install --frozen-lockfile --store-dir "$RUNNER_TEMP/pnpm-store"
+      - name: Lint and type check
+        run: |
+          pnpm lint
+          pnpm exec tsc --noEmit
+      - name: Sync and question-bank regressions
+        run: |
+          pnpm test:sync
+          node scripts/check-legal-updates.mjs
+          node scripts/check-past-papers.mjs
+          node scripts/check-law-papers.mjs
+          node scripts/check-scenario-papers.mjs
+          node scripts/check-curated-updates.mjs
+      - name: Build
+        run: pnpm build
+      - name: Install browser test tools
+        run: |
+          npm install --prefix "$RUNNER_TEMP/study-browser" --no-package-lock --no-audit --no-fund playwright@1.65.0
+          node "$RUNNER_TEMP/study-browser/node_modules/playwright/cli.js" install --with-deps chromium
+      - name: Browser, D1 and authentication checks
+        run: STUDY_BROWSER_MODULE="$RUNNER_TEMP/study-browser/node_modules/playwright/index.mjs" pnpm test:browser
+      - name: Retain failed browser logs
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-check-logs
+          path: .sites-runtime/browser-check-*/server.log
+          if-no-files-found: ignore

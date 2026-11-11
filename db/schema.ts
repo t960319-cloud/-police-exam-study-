@@ -14,3 +14,11 @@ export const legalContentEvents = sqliteTable("legal_content_events", {
   payload: text("event_payload").notNull(),
   createdAt: integer("created_at").notNull(),
 });
+
+export const studyRecordVersions = sqliteTable("study_record_versions", {
+  userId: text("user_id").notNull(),
+  key: text("record_key").notNull(),
+  value: text("record_value").notNull(),
+  updatedAt: integer("updated_at").notNull(),
+  savedAt: integer("saved_at").notNull(),
+}, table => [primaryKey({ columns: [table.userId, table.key, table.updatedAt] })]);

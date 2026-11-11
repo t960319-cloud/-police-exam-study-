@@ -27,3 +27,16 @@ assert.equal(q113.answer,2);assert(q113.options[2].explanation.includes('任何�
 const noise=result.laws.find(l=>l.id==='so72');assert(noise);assert(noise.traps.some(x=>x.includes('條次未同步')));
 const essay=result.essays.find(e=>e.id==='scene114-e1');assert(essay);assert(essay.amendment.note.includes('正式解釋待核'));
 console.log(JSON.stringify({events:events.length,historyTargets:ids.size,scenarioCorrection:'scene114-12',officialAnswer:'D'}));
+// Keep the three distinct sampling safeguards separate in the study material.
+const urine=result.laws.find(l=>l.id==='p2052');assert(urine);
+assert(urine.points.some(p=>p.includes('24小時')));assert(urine.points.some(p=>p.includes('3日')));assert(urine.points.some(p=>p.includes('10日')));
+const permit=result.laws.find(l=>l.id==='p2053');assert(permit);assert(permit.original.includes('許可書，由檢察官簽名'));assert(permit.original.includes('應出示許可書及可證明其身分之文件'));
+const remedy=result.laws.find(l=>l.id==='p2054');assert(remedy);assert(remedy.original.includes('自採取之日起算'));assert(remedy.original.includes('不得抗告'));
+const blood=result.questions.find(q=>q.id==='q38');assert(blood);assert.equal(blood.answer,1);assert(blood.amendment.note.includes('原答案B不變'));assert(blood.amendment.sources.some(s=>s.url.includes('K0040012')));assert(blood.amendment.effectiveDate.includes('115.12.31'));
+const urineEssay=result.essays.find(e=>e.id==='s08');assert(urineEssay);assert(urineEssay.model.analysis.includes('許可書'));assert(urineEssay.model.analysis.includes('10日'));assert(urineEssay.model.analysis.includes('不得抗告'));
+console.log('Sampling permits, 24h/3d/10d distinctions, court remedy and unchanged blood-question answer passed.');
+// A repealed regulation must never be presented as a verified current basis.
+for(const id of ['e6','e11']){const law=result.laws.find(l=>l.id===id);assert(law);assert.equal(law.verified,false);assert(law.originalLabel.includes('歷史資料'));assert(law.amendment.note.includes('廢止'));assert(law.amendment.sources.some(s=>s.url.includes('LawHistory.aspx?pcode=I0040007')));}
+for(const id of ['q14','q15','q16','duty112_09','duty113_21','scene114-14']){const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.verified,false);assert(q.currentAnswer.includes('保留原題'));}
+const escortEssay=result.essays.find(e=>e.id==='s05');assert(escortEssay);assert.equal(escortEssay.verified,false);assert(escortEssay.model.basis.includes('110.12.13廢止'));
+console.log('Repealed escort regulation stays historical; linked exercises cannot be marked current/verified.');

@@ -57,6 +57,7 @@ export default defineConfig(async ({ command }) => {
       sites({ mockAuth: !managedLinux }),
       connectorPreview(),
       cloudflare({
+        ...(command === "serve" && process.env.STUDY_TEST_STATE ? { persistState: { path: process.env.STUDY_TEST_STATE } } : {}),
         viteEnvironment: { name: "rsc", childEnvironments: ["ssr"] },
         inspectorPort: false,
         config: {
