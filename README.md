@@ -52,6 +52,6 @@ node /tmp/police-study-browser/node_modules/playwright/cli.js install chromium
 STUDY_BROWSER_MODULE=/tmp/police-study-browser/node_modules/playwright/index.mjs pnpm test:browser
 ```
 
-已有 Chromium 時可設定 `STUDY_CHROMIUM_PATH`。GitHub Actions 的 `quality.yml` 執行 lint、型別、同步測試、題庫驗證、建置及瀏覽器流程，只讀取儲存庫，不部署或推送程式碼。
+已有 Chromium 時可設定 `STUDY_CHROMIUM_PATH`。GitHub Actions 的 `quality.yml` 固定使用 Ubuntu 24.04，透過 `playwright-core` 和 runner 預裝的 Google Chrome 執行瀏覽器測試，避免額外下載瀏覽器與安裝作業系統套件；找不到 Chrome 時會明確失敗。流程執行 lint、型別、同步測試、題庫驗證、建置及瀏覽器檢查，只讀取儲存庫，不部署或推送程式碼。
 
 本次法規補核另補入採樣許可及法院救濟，並更正《解送人犯辦法》110.12.13廢止的狀態；相關舊條文只作歷史資料。法規補核範圍、尚缺原件與剩餘連線限制見 [法規待查證清單](docs/legal-verification.md)。未取得官方依據的內容仍保留待查證標示。

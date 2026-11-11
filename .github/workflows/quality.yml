@@ -7,7 +7,7 @@ permissions:
   contents: read
 jobs:
   verify:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
@@ -36,10 +36,16 @@ jobs:
         run: pnpm build
       - name: Install browser test tools
         run: |
-          npm install --prefix "$RUNNER_TEMP/study-browser" --no-package-lock --no-audit --no-fund playwright@1.65.0
-          node "$RUNNER_TEMP/study-browser/node_modules/playwright/cli.js" install --with-deps chromium
+          npm install --prefix "$RUNNER_TEMP/study-browser" --no-package-lock --no-audit --no-fund playwright-core@1.65.0
+          study_chromium_path="$(command -v google-chrome || command -v google-chrome-stable || true)"
+          if [[ -z "$study_chromium_path" ]]; then
+            echo "::error::The Ubuntu runner must provide Google Chrome for the browser checks."
+            exit 1
+          fi
+          "$study_chromium_path" --version
+          echo "STUDY_CHROMIUM_PATH=$study_chromium_path" >> "$GITHUB_ENV"
       - name: Browser, D1 and authentication checks
-        run: STUDY_BROWSER_MODULE="$RUNNER_TEMP/study-browser/node_modules/playwright/index.mjs" pnpm test:browser
+        run: STUDY_BROWSER_MODULE="$RUNNER_TEMP/study-browser/node_modules/playwright-core/index.mjs" pnpm test:browser
       - name: Retain failed browser logs
         if: failure()
         uses: actions/upload-artifact@v4
