@@ -1,0 +1,1655 @@
+{
+  "meta": {
+    "year": 114,
+    "track": "內軌",
+    "exam": "警察人員考試四等考試行政警察人員、交通警察人員",
+    "subject": "警察情境實務概要",
+    "family": "警察情境實務",
+    "indexUrl": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=114060&y=2025",
+    "questionUrl": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1",
+    "answerUrl": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1",
+    "selectionCount": 20,
+    "essayCount": 3
+  },
+  "questions": [
+    {
+      "id": "scene114-01",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "escort",
+      "title": "少年使用警銬的必要性判斷",
+      "stem": "警察人員在使用警銬時，一方面應保障民眾權益，再者且需兼顧執法需求與戒護安全，在下列執 法情境中，何種使用警銬的處置方式錯誤？",
+      "options": [
+        {
+          "text": "對少年執行拘提、逮捕或解送時，雖認有脫逃可能，惟仍不得使用警銬",
+          "explanation": "錯在「雖認有脫逃可能，仍不得使用」。少年並非一律禁止使用戒具，須依年齡、身心狀況、暴力及脫逃等具體事實審查必要性。",
+          "correction": "改為：原則不使用；具防止少年自傷、傷人、脫逃等法定必要事由時，始得適度使用。",
+          "trueStatement": false
+        },
+        {
+          "text": "對象為孕婦、年邁體弱、傷病或肢體障礙者，以不使用警銬為宜",
+          "explanation": "孕婦、年邁體弱、傷病或肢體障礙者，應特別審酌健康及身體條件，原則避免用銬；不能只因身分類別便完全不評估個案危險。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "使用警銬時，除有特殊情形需於腳踝上銬外，應以銬手為原則",
+          "explanation": "用銬方式原則以手部為之；腳踝等使用須另有具體必要，避免不當束縛及身體傷害。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "依法執行搜索、扣押、拘提、逮捕、解送等法定強制措施時，因故無法有效使用警銬時，得使 用其他足以達成目的之物品",
+          "explanation": "因故不能有效使用警銬時，替代約束仍須有合法職權、能達目的且不逾必要程度，不能藉替代物規避戒具使用限制。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 0,
+      "initialAnswer": 0,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜警察情境實務概要｜第1題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 1,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "review",
+        "note": "本題官方答案A；少年戒具必要性已核對刑事訴訟法授權辦法。題示警察人員使用警銬規範及替代物的完整最新版、適用場景仍須比對原件。",
+        "checkedAt": "2026-11-09",
+        "sources": [
+          {
+            "title": "執行拘提逮捕解送使用戒具實施辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+          }
+        ]
+      },
+      "takeaway": "少年使用警銬的必要性判斷：錯在「雖認有脫逃可能，仍不得使用」。少年並非一律禁止使用戒具，須依年齡、身心狀況、暴力及脫逃等具體事實審查必要性。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "執行拘提逮捕解送使用戒具實施辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+        }
+      ]
+    },
+    {
+      "id": "scene114-02",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "powers",
+      "title": "酒駕攔查異議的即時處置",
+      "stem": "你於執行路檢勤務時，攔查 1 輛車行不穩疑有酒駕之虞的車輛，發現車內散發濃厚酒精味，惟駕 駛人當場質疑警方勤務正當性與攔查車輛的合法性均有爭議，嚴重影響其憲法保障之人身自由與 隱私權，你應如何處置最為適當？",
+      "options": [
+        {
+          "text": "認為其所提出異議有理由者，應立即向勤務指揮中心請求中止或取消勤務",
+          "explanation": "異議有理由的直接法律效果是停止或更正該執行行為，不以先取得勤務中心取消勤務為前提。",
+          "correction": "改為立即停止或更正執行行為；必要通報另外辦理。",
+          "trueStatement": false
+        },
+        {
+          "text": "認為其所提出異議無理由者，逕依酒駕拒測程序處理",
+          "explanation": "表示異議不等於拒絕酒測。是否拒測，須另依告知、檢測要求及拒測行為認定。",
+          "correction": "先處理異議；無理由時得續行合法職權，不得僅因異議就認定拒測。",
+          "trueStatement": false
+        },
+        {
+          "text": "認為其所提出異議有理由者，應立即停止或更正執行行為",
+          "explanation": "警察職權行使法第29條規定，認異議有理由，應立即停止或更正執行行為。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "認為其所提出異議無理由者，如當事人要求製作書面紀錄交付，應委婉說明並予拒絕",
+          "explanation": "當事人提出異議請求時，應將異議理由製作紀錄交付，不得委婉拒絕。",
+          "correction": "改為依請求製作異議理由紀錄並交付。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 2,
+      "initialAnswer": 2,
+      "lawIds": [
+        "a29"
+      ],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "114年內軌四等｜警察情境實務概要｜第2題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 2,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "none",
+        "note": "已核對本題核心法規；截至核對日未確認直接改變本題答案的考後修正。未註記修正不代表全部相關法規永未變動。",
+        "checkedAt": "2026-11-09",
+        "sources": [
+          {
+            "title": "警察職權行使法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+          }
+        ]
+      },
+      "takeaway": "酒駕攔查異議的即時處置：警察職權行使法第29條規定，認異議有理由，應立即停止或更正執行行為。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        }
+      ]
+    },
+    {
+      "id": "scene114-03",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "report",
+      "title": "詐欺報案受理與管轄",
+      "stem": "你為派出所警員，受理偵辦詐欺案件，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "受理報案態度誠懇，以同理心安慰被害人",
+          "explanation": "受理人員應誠懇聆聽、安撫被害人，並完成報案及必要保全程序。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "受理被害人報案後，立即調查分析被害人第 1 筆匯款之帳戶開戶人，將案件移轉由該開戶人戶 籍地所在之警察分局管轄偵辦",
+          "explanation": "錯在僅以第1筆匯款帳戶開戶人的戶籍地，直接決定全案移轉管轄。詐欺案件管轄及移轉須依專案規範及實際犯罪地、受理偵辦分工處理。",
+          "correction": "先受理及執行警示、聯防、保全，再依現行詐欺案件管轄及移轉規定辦理，不能一律推給帳戶戶籍地。",
+          "trueStatement": false
+        },
+        {
+          "text": "立即設定人頭帳戶警示作業及啟動金融機構聯防機制等相關規定",
+          "explanation": "受理後應依警示帳戶與金融聯防規範即時處理，爭取攔阻款項及保全證據。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "擴大及溯源追查集團共犯成員及幕後首腦",
+          "explanation": "不能只停留在帳戶名義人，應追查取款、招募、收水等共犯及幕後組織。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "initialAnswer": 1,
+      "lawIds": [
+        "report"
+      ],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜警察情境實務概要｜第3題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 3,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "review",
+        "note": "本題官方答案B。詐欺案件管轄、警示及金融聯防涉及行政規則版本，須依現行警政署規定核對；不可將「帳戶戶籍地」當通用移轉標準。",
+        "checkedAt": "2026-11-09",
+        "sources": [
+          {
+            "title": "警政署執法程序公開說明",
+            "url": "https://www.npa.gov.tw/ch/app/faq/view%3Fmodule%3Dfaq%26id%3D2144%26serno%3DA1087140"
+          }
+        ]
+      },
+      "takeaway": "詐欺報案受理與管轄：錯在僅以第1筆匯款帳戶開戶人的戶籍地，直接決定全案移轉管轄。詐欺案件管轄及移轉須依專案規範及實際犯罪地、受理偵辦分工處理。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "警政署執法程序公開說明",
+          "url": "https://www.npa.gov.tw/ch/app/faq/view%3Fmodule%3Dfaq%26id%3D2144%26serno%3DA1087140"
+        }
+      ]
+    },
+    {
+      "id": "scene114-04",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "report",
+      "title": "性侵害被害人的隱私安置",
+      "stem": "你是派出所值班員警，有民眾到所報案，經詢問該民眾案情時，指稱其受到性侵害，你接下來的 處理流程，下列何者不適當？",
+      "options": [
+        {
+          "text": "通知警察分局性侵害案件專責人員接案處理",
+          "explanation": "應通知性侵害案件專責人員，以專業程序接案，降低重複陳述。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "同時知會警察分局防治組家庭暴力防治官",
+          "explanation": "依分局婦幼及專責分工知會家防官，協助被害人保護、資源及後續服務。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "必要時派員協助現場戒護及證據保全",
+          "explanation": "現場與證據可能滅失時，應先協助戒護、保存，專責分工不免除緊急保全義務。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "被害人等候警察分局專責人員到達期間，請其在派出所會客區等候",
+          "explanation": "不宜讓被害人在一般公開會客區等候，以免案情、身分暴露或造成二度傷害。",
+          "correction": "改為安置於具隱私、安全且舒適的適當空間，必要時安排同性別員警或專人陪伴。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "initialAnswer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜警察情境實務概要｜第4題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 4,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "review",
+        "note": "原卷官方答案D；隱私與避免二度傷害的核心可確認，分局防治組、家防官及專責人員分工仍應依現行SOP核對。",
+        "checkedAt": "2026-11-09",
+        "sources": [
+          {
+            "title": "警政署執法程序公開說明",
+            "url": "https://www.npa.gov.tw/ch/app/faq/view%3Fmodule%3Dfaq%26id%3D2144%26serno%3DA1087140"
+          }
+        ]
+      },
+      "takeaway": "性侵害被害人的隱私安置：不宜讓被害人在一般公開會客區等候，以免案情、身分暴露或造成二度傷害。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "警政署執法程序公開說明",
+          "url": "https://www.npa.gov.tw/ch/app/faq/view%3Fmodule%3Dfaq%26id%3D2144%26serno%3DA1087140"
+        }
+      ]
+    },
+    {
+      "id": "scene114-05",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "powers",
+      "title": "旅館疑似意外的救護與通信資料界線",
+      "stem": "甲男住宿某旅館因逾退房時間 1 小時，經服務人員確認仍在房內，惟以內線多次呼叫未果，深恐 有意外發生，旅館報警請求派員前往處理。你於巡邏勤務中接獲勤務指揮中心通報前往現場處理， 為確認甲男身分及安危，下列處置何者最不適當？",
+      "options": [
+        {
+          "text": "查詢甲男戶役政資料及所騎乘交通工具車主資料等",
+          "explanation": "為判斷身分安危，得在合法職務目的及必要範圍查核既有戶役政或車主資料，不可任意擴張使用。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "聲請調閱甲男手機門號使用者紀錄與通訊紀錄等",
+          "explanation": "僅逾退房1小時且無回應，不當然符合調閱通信紀錄等高度侵入措施的法定要件。救護目的不會使所有通信資料調取自動合法。",
+          "correction": "先敲門、呼叫、訪詢及評估危險；須調取受法律保護資料時，另依相應法定要件與程序辦理。",
+          "trueStatement": false
+        },
+        {
+          "text": "會同旅館人員於房間門外拍敲大門及大聲呼喊",
+          "explanation": "會同旅館人員敲門呼喊，可先以較低侵害手段確認是否需要救護。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "如認住宿者甲男生命有迫切危害，得請旅館業者陪同進入救護並錄影蒐證",
+          "explanation": "有事實足認生命、身體有迫切危害，非進入不能救護時，得依警察職權行使法第26條進入必要處所；應記錄理由及過程。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "initialAnswer": 1,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "114年內軌四等｜警察情境實務概要｜第5題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 5,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "none",
+        "note": "已核對本題核心法規；截至核對日未確認直接改變本題答案的考後修正。未註記修正不代表全部相關法規永未變動。",
+        "checkedAt": "2026-11-09",
+        "sources": [
+          {
+            "title": "警察職權行使法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+          }
+        ]
+      },
+      "takeaway": "旅館疑似意外的救護與通信資料界線：僅逾退房1小時且無回應，不當然符合調閱通信紀錄等高度侵入措施的法定要件。救護目的不會使所有通信資料調取自動合法。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        }
+      ]
+    },
+    {
+      "id": "scene114-06",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "theory",
+      "title": "警勤區訪查每月時數與代理加編",
+      "stem": "你是派出所警員，關於警勤區訪查工作，下列作為何者正確？",
+      "options": [
+        {
+          "text": "對於治安顧慮人口，自其刑期執行完畢或假釋出獄後，每個月查訪 1 次，查訪 3 年，期滿改列 記事人口，必要時得增加查訪次數",
+          "explanation": "本項將治安顧慮人口查訪期間寫為3年及期滿改列記事，與本題制度不符。查訪期間及對象須依專法、授權規範及個案狀態認定。",
+          "correction": "依現行治安顧慮人口查訪規範核對法定期間，不背誦「一律3年轉記事」。",
+          "trueStatement": false
+        },
+        {
+          "text": "對於村（里）鄰長應每 3 個月聯繫拜訪 1 次，其他諮詢對象得視需要實施訪查",
+          "explanation": "村里鄰長聯繫拜訪不是本項所寫每3個月1次；須依警勤區訪查作業規定之特定頻率辦理。",
+          "correction": "將3個月的頻率改為現行作業規定所定頻率，並核對原件。",
+          "trueStatement": false
+        },
+        {
+          "text": "警勤區訪查時數每月應編排 16 小時以上，其基準由分局定之，得視勤務需要檢討調整增加時 數，並送警察局備查",
+          "explanation": "依114年原題及官方答案，本項「每月16小時以上、基準由分局定、調整後送局備查」為本題正確選項。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "你於代理警勤區期間，每月應增加訪查時數四分之一以上，以利迅速掌握轄區狀況",
+          "explanation": "代理警勤區應增加的訪查時數並非題示四分之一。",
+          "correction": "應依現行警勤區訪查作業規定核定代理加編時數，不沿用四分之一。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 2,
+      "initialAnswer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜警察情境實務概要｜第6題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 6,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "review",
+        "note": "官方答案C，114年原卷已採每月16小時以上。網路仍有12小時舊資料；精確修正日期、代理加編比例及完整現行原件仍待核，不杜撰修法日。",
+        "checkedAt": "2026-11-09",
+        "oldRule": "部分舊版網頁記載每月12小時。",
+        "newRule": "114年及115年官方試題均已採16小時；正式現行背誦須再核主管機關最新原件。"
+      },
+      "takeaway": "警勤區訪查每月時數與代理加編：依114年原題及官方答案，本項「每月16小時以上、基準由分局定、調整後送局備查」為本題正確選項。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        }
+      ]
+    },
+    {
+      "id": "scene114-07",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "theory",
+      "title": "家庭麻將、營利賭場與網路賭博",
+      "stem": "員警於處理賭博案件時，下列敘述何者正確？",
+      "options": [
+        {
+          "text": "過年期間親友走訪拜年，並在家中湊 4 人打家庭衛生麻將，不構成賭博犯罪",
+          "explanation": "本題所稱家庭衛生麻將，在私人住宅親友間供暫時娛樂、未營利聚眾等前提下，無從僅因4人打牌便認定賭博罪。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "甲長期將住家提供給認識的親朋好友及不認識想賭博的人聚集賭博並抽頭，因地點屬私人住宅 非公共場所，所以甲的行為未構成賭博犯罪",
+          "explanation": "刑法第268條的營利供給賭博場所或聚眾賭博，不以公共場所為必要；抽頭且招攬不特定賭客不能以私人住宅免責。",
+          "correction": "刪除「私人住宅所以不犯罪」，依營利供場所或聚眾賭博要件偵辦。",
+          "trueStatement": false
+        },
+        {
+          "text": "乙透過手機上博弈網站，以虛擬貨幣為標的下注賭博，因該博弈網站採會員制，會員均有帳號 密碼，其下注賭博有一定封閉性，並非他人可得知悉，所以網路賭博不構成賭博犯罪",
+          "explanation": "刑法第266條第2項已明定電信設備、電子通訊、網際網路等賭博財物亦處罰，不以網站是否會員制決定。",
+          "correction": "改為網路賭博財物仍可能成立犯罪，另審查暫時娛樂等例外。",
+          "trueStatement": false
+        },
+        {
+          "text": "在公園查獲 10 多名民眾以象棋賭博，並查扣新臺幣 16,000 元賭資，相關賭客均依社會秩序維 護法裁罰",
+          "explanation": "公園屬公共場所，以象棋賭財物且有具體賭資，可能成立刑法賭博罪，不能一律降為社維法。",
+          "correction": "先審查刑法第266條要件；刑事犯罪依法偵辦，不得用社維法替代。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 0,
+      "initialAnswer": 0,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "114年內軌四等｜警察情境實務概要｜第7題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 7,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "none",
+        "note": "已核對本題核心法規；截至核對日未確認直接改變本題答案的考後修正。未註記修正不代表全部相關法規永未變動。",
+        "checkedAt": "2026-11-09",
+        "sources": [
+          {
+            "title": "中華民國刑法",
+            "url": "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=fl001424"
+          }
+        ]
+      },
+      "takeaway": "家庭麻將、營利賭場與網路賭博：本題所稱家庭衛生麻將，在私人住宅親友間供暫時娛樂、未營利聚眾等前提下，無從僅因4人打牌便認定賭博罪。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "中華民國刑法",
+          "url": "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=fl001424"
+        }
+      ]
+    },
+    {
+      "id": "scene114-08",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "theory",
+      "title": "多人討債占據公司與藉端滋擾",
+      "stem": "某建設公司報案稱，甲等一行 9 人前來公司聲稱要處理債務問題，先在會議室內聚集，復占據櫃 臺要總經理出面，經公司保全人員勸阻仍不願離去，造成員工出入困擾及心理壓力，你與同仁巡 邏勤務中接獲通報前往，上述行為應依下列何種法律處置？",
+      "options": [
+        {
+          "text": "甲等所為係施強暴脅迫妨害公司運作，應依刑法強制罪處理",
+          "explanation": "強制罪須有強暴、脅迫使人行無義務事或妨害權利行使等要件；題示事實尚未具體交代到可直接確定該罪。",
+          "correction": "依具體暴力、脅迫及權利侵害事實判斷；本題先依藉端滋擾查處。",
+          "trueStatement": false
+        },
+        {
+          "text": "甲等所為係處理債務合法權利之行使，尚無違法",
+          "explanation": "債權存在不等於得占據櫃臺滋擾、拒絕離去；權利行使仍有法律界線。",
+          "correction": "改以合法協商、訴訟或執行程序討債，不得滋擾。",
+          "trueStatement": false
+        },
+        {
+          "text": "甲等所為涉及社會秩序維護法妨害他人身體財產章意圖鬥毆而聚眾條款，應依法查處",
+          "explanation": "題目描述討債滋擾，未提供「意圖鬥毆而聚眾」事實，不能任意套用聚眾鬥毆條款。",
+          "correction": "改依社維法第68條第2款藉端滋擾，另有鬥毆事實才審查相應規定。",
+          "trueStatement": false
+        },
+        {
+          "text": "甲等所為涉及社會秩序維護法妨害安寧秩序章藉端滋擾條款，應依法查處",
+          "explanation": "占據公司櫃臺、受勸仍拒離並造成運作困擾，符合本題社維法妨害安寧秩序章藉端滋擾的判斷。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "initialAnswer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "114年內軌四等｜警察情境實務概要｜第8題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 8,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "none",
+        "note": "已核對本題核心法規；截至核對日未確認直接改變本題答案的考後修正。未註記修正不代表全部相關法規永未變動。",
+        "checkedAt": "2026-11-09",
+        "sources": [
+          {
+            "title": "社會秩序維護法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+          }
+        ]
+      },
+      "takeaway": "多人討債占據公司與藉端滋擾：占據公司櫃臺、受勸仍拒離並造成運作困擾，符合本題社維法妨害安寧秩序章藉端滋擾的判斷。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "社會秩序維護法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+        }
+      ]
+    },
+    {
+      "id": "scene114-09",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "powers",
+      "title": "跟蹤騷擾被害人安全提醒",
+      "stem": "受理跟蹤騷擾案件時，警察應提供被害人「警察機關跟蹤騷擾防制法案件安全提醒單」，提醒相 關安全事項，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "被害人應冷靜應對並尋求協助，緊急時撥打 110 求救",
+          "explanation": "緊急時優先離開危險、向警方及可信賴者求助，不宜單獨與行為人對抗。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "蒐集證據記錄過程，以提供警察後續調查",
+          "explanation": "保存訊息、通聯、監視器與接觸時間地點等，可協助調查反覆持續行為及性或性別關聯。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "嚴詞斥責且斷然拒絕行為人",
+          "explanation": "嚴詞斥責可能升高衝突，不能作為通用安全建議。拒絕應清楚，並在安全前提下留證、求助。",
+          "correction": "改為明確表達拒絕、避免單獨衝突，保存證據並尋求協助。",
+          "trueStatement": false
+        },
+        {
+          "text": "提升自我防衛意識，隨時注意周遭狀況",
+          "explanation": "留意周遭、調整聯絡及生活安全措施，並與警方安全計畫配合。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "initialAnswer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜警察情境實務概要｜第9題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 9,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "review",
+        "note": "跟騷防制法受理、保護規定已核；題示安全提醒單的完整現行格式仍待主管機關原件核對。",
+        "checkedAt": "2026-11-09",
+        "sources": [
+          {
+            "title": "跟蹤騷擾防制法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080211"
+          }
+        ]
+      },
+      "takeaway": "跟蹤騷擾被害人安全提醒：嚴詞斥責可能升高衝突，不能作為通用安全建議。拒絕應清楚，並在安全前提下留證、求助。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "跟蹤騷擾防制法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080211"
+        }
+      ]
+    },
+    {
+      "id": "scene114-10",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "cross",
+      "title": "命案現場媒體與證物保全",
+      "stem": "你為偵查佐，初抵被害人已死亡之命案現場，下列作為何者最不適當？",
+      "options": [
+        {
+          "text": "適當區隔刑案現場，於適當範圍拉起封鎖線",
+          "explanation": "先辨識核心及可能證物區域，適度拉設封鎖線，避免人員踩踏與污染。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "對於死者原則上不可接觸或移動",
+          "explanation": "題目已明定被害人死亡，原則保留位置姿態，由檢察官、鑑識等依法處理；若存活狀況未明則救護優先。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "對於前來拍攝之媒體，不須制止及干涉",
+          "explanation": "不能完全不管媒體接近、拍攝可能妨害現場保全或暴露偵查秘密的情況；亦非可一律禁止封鎖線外合法採訪。",
+          "correction": "依封鎖、隱私與偵查保密需要適度管理；不得放任侵入污染，也不得無差別限制合法採訪。",
+          "trueStatement": false
+        },
+        {
+          "text": "查訪附近之民眾；搜索現場，找尋證物",
+          "explanation": "依法訪查及搜索勘察現場，尋找、標示及保全證物，注意程序合法與證物鏈。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "initialAnswer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜警察情境實務概要｜第10題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 10,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "review",
+        "note": "官方答案C；現場封鎖與媒體接近管理須依現行刑案現場及偵查不公開規範核對，不能理解成警察得全面禁止拍攝。",
+        "checkedAt": "2026-11-09",
+        "sources": [
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+          }
+        ]
+      },
+      "takeaway": "命案現場媒體與證物保全：不能完全不管媒體接近、拍攝可能妨害現場保全或暴露偵查秘密的情況；亦非可一律禁止封鎖線外合法採訪。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        }
+      ]
+    },
+    {
+      "id": "scene114-11",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "cross",
+      "title": "偵查不公開的義務主體",
+      "stem": "依據偵查不公開作業辦法之規定，下列敘述何者正確？",
+      "options": [
+        {
+          "text": "檢察官、檢察事務官、司法警察官、司法警察及所有民眾均應遵循本辦法之規定",
+          "explanation": "偵查不公開義務限法定參與偵查職務之人，並非所有一般民眾。",
+          "correction": "刪除「所有民眾」，依刑訴法第245條及辦法範圍認定。",
+          "trueStatement": false
+        },
+        {
+          "text": "警察機關進行刑事案件調查時，現場之被告、犯罪嫌疑人應遵循本辦法之規定",
+          "explanation": "被告、犯罪嫌疑人不因在場即成為本辦法所列法定保密義務主體；仍可能涉及其他法律限制。",
+          "correction": "改為依各該法律審查，不能逕將所有被告列為本辦法義務人。",
+          "trueStatement": false
+        },
+        {
+          "text": "辯護人、告訴代理人或其他於偵查程序依法執行職務之人員應遵循本辦法之規定",
+          "explanation": "辯護人、告訴代理人及其他於偵查程序依法執行職務者，均在法定範圍內負保密義務。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "針對媒體於封鎖線外之拍攝行為不當，須加以禁止",
+          "explanation": "媒體在封鎖線外合法拍攝，不能僅以「拍攝不當」概括禁止；應有具體法律及必要性依據。",
+          "correction": "依具體妨害、保密、隱私等法定事由處理，採必要且適當措施。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 2,
+      "initialAnswer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜警察情境實務概要｜第11題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 11,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "review",
+        "note": "刑訴法第245條義務範圍已核，題示偵查不公開作業辦法及採訪規範最新原件仍待逐字比對。",
+        "checkedAt": "2026-11-09",
+        "sources": [
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+          }
+        ]
+      },
+      "takeaway": "偵查不公開的義務主體：辯護人、告訴代理人及其他於偵查程序依法執行職務者，均在法定範圍內負保密義務。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        }
+      ]
+    },
+    {
+      "id": "scene114-12",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "powers",
+      "title": "遴選第三人秘密蒐集資料",
+      "stem": "為查緝販毒集團，小隊長遴選第三人（線民）展開蒐集毒品犯罪事證，下列程序何者正確？",
+      "options": [
+        {
+          "text": "為加速破案，直接告知第三人賦予身分，開始蒐集犯罪事證",
+          "explanation": "遴選第三人秘密蒐集資料，須依警職法第13條及遴選辦法第2條辦理核准，不能由小隊長口頭賦予身分即實施。",
+          "correction": "以書面敘明法定事項，陳報該管警察局長或警察分局長核准後實施。",
+          "trueStatement": false
+        },
+        {
+          "text": "書面陳報直屬主管偵查隊隊長核准後實施",
+          "explanation": "警職法第13條及遴選辦法第2條規定的核准層級為該管警察局長或警察分局長，不是僅由偵查隊隊長核准。",
+          "correction": "將「偵查隊隊長」改為「該管警察局長或警察分局長」。",
+          "trueStatement": false
+        },
+        {
+          "text": "交付第三人蒐集毒品犯罪事證任務期間 3 年",
+          "explanation": "依遴選辦法第6條，蒐集期間不得逾1年；有繼續必要時，得於屆滿前報准延長，延長不得逾1年且以1次為限。",
+          "correction": "改為初次不得逾1年；屆滿前報准延長以1次、最長1年為限。",
+          "trueStatement": false
+        },
+        {
+          "text": "以第三人之代號或化名製作筆錄、偵查報告等相關文書，以保密第三人之真實身分",
+          "explanation": "依法使用代號、化名製作文書，以保密第三人身分；仍須遵守證據、審判與依法揭露等相應程序。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "initialAnswer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "114年內軌四等｜警察情境實務概要｜第12題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 12,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "changed",
+        "law": "警察職權行使法第13條、警察遴選第三人蒐集資料辦法第2條及第6條",
+        "checkedAt": "2026-11-10",
+        "effectiveStatus": "in-force",
+        "note": "本站原解析把核准層級誤寫為僅警察局長，並誤引警職法第12條；本次已依現行正式條文更正。這是解析勘誤，並非宣稱本日修法。保留原題及官方答案D。",
+        "oldRule": "本站舊解析：須警察局長核准，並將核准層級歸為警職法第12條。",
+        "newRule": "警職法第13條及遴選辦法第2條：應經該管警察局長或警察分局長核准；辦法第6條規定期間不得逾1年，得於屆滿前報准延長1次，延長不得逾1年。",
+        "sources": [
+          {
+            "title": "警察職權行使法第13條",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?PCode=D0080145&FLNO=13"
+          },
+          {
+            "title": "警察遴選第三人蒐集資料辦法第2條、第6條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+          }
+        ]
+      },
+      "takeaway": "遴選第三人須局長或分局長核准；期間1年，依法延長1次最多1年。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        },
+        {
+          "title": "警察遴選第三人蒐集資料辦法第2條、第6條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+        }
+      ]
+    },
+    {
+      "id": "scene114-13",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "cross",
+      "title": "跟蹤偵查的掩護與交通安全",
+      "stem": "你是派出所員警，被指派對詐騙車手甲實施跟蹤偵查，下列應處作為何者錯誤？",
+      "options": [
+        {
+          "text": "甲懷疑被你跟蹤，停住腳步詢問你有什麼事嗎？為什麼跟在他後面？你保持鎮靜，回應甲你並 沒有在跟蹤他，剛好住在附近",
+          "explanation": "被察覺時保持鎮靜、適當掩護，避免暴露偵查並兼顧現場安全。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "跟蹤過程甲忽然進入建築物，欲從後門離開，你為避免甲發現起疑心，所以停止跟蹤，重新部 署跟蹤作為",
+          "explanation": "跟監有暴露或環境風險時，得停止、轉換部署，不以立即闖入建築物追蹤為當然。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "因為研判甲會在市區附近的提款機繞行提款，為方便跟蹤，你全程以機車實施跟監，逆向行駛 也要持續跟監",
+          "explanation": "不能因偵查目的便全程違規逆向跟監；應評估安全、必要性及合法性，適時改變工具或部署。",
+          "correction": "改為依交通、安全與偵查需要選擇交通工具，必要時交替跟監或中止，禁止盲目逆向追逐。",
+          "trueStatement": false
+        },
+        {
+          "text": "為避免甲發現，你隨身帶著簡便偽裝衣物及帽子等，以利快速換裝掩飾",
+          "explanation": "適當簡便偽裝可降低辨識，但不得藉掩護從事無法源之強制或危險駕駛。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "initialAnswer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜警察情境實務概要｜第13題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 13,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "review",
+        "note": "本題為偵查技巧與安全判斷，原卷答案C已核；內部跟蹤偵查準則完整現行文字未取得，保留查證。",
+        "checkedAt": "2026-11-09"
+      },
+      "takeaway": "跟蹤偵查的掩護與交通安全：不能因偵查目的便全程違規逆向跟監；應評估安全、必要性及合法性，適時改變工具或部署。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        }
+      ]
+    },
+    {
+      "id": "scene114-14",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "escort",
+      "title": "公用交通工具解送與協助義務",
+      "stem": "你是分局警備隊員警，解送被告或犯罪嫌疑人需使用公用交通工具時，解送途中應注意事項，下 列何者錯誤？",
+      "options": [
+        {
+          "text": "解送途中，避免被告及犯嫌見客、購物、飲酒及循其要求任意隨同他往",
+          "explanation": "解送期間不得任由人犯見客、購物、飲酒或隨意他往，以免脫逃或串證。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "解送途中發生困難時，得請求附近警察機關協助，被請求機關因人力確有不足或執行重要勤務 得拒絕之",
+          "explanation": "解送遇困難請求附近警察機關協助，不得以本項概括事由逕予拒絕，應依法協調確保戒護。",
+          "correction": "改為被請求機關應協助，具體調度困難循指揮協調，不可任意拒絕。",
+          "trueStatement": false
+        },
+        {
+          "text": "執行解送應顧及人犯之名譽及安全，使用戒具應儘量避免暴露",
+          "explanation": "使用戒具應顧及名譽、健康與安全，避免不必要暴露，但不得因此放棄必要戒護。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "2 名人犯同時要求如廁時，應分別帶往，以維安全",
+          "explanation": "兩名人犯同時如廁，應分別帶往，保持戒護，防止共同行動脫逃。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "initialAnswer": 1,
+      "lawIds": [
+        "e6"
+      ],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜警察情境實務概要｜第14題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 14,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "review",
+        "note": "原卷答案B已核；法務部解送人犯辦法與警政署執行解送人犯注意事項各有適用及措辭，完整現行警政原件仍須核對。",
+        "checkedAt": "2026-11-09",
+        "sources": [
+          {
+            "title": "解送人犯辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0040007"
+          }
+        ]
+      },
+      "takeaway": "公用交通工具解送與協助義務：解送遇困難請求附近警察機關協助，不得以本項概括事由逕予拒絕，應依法協調確保戒護。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "解送人犯辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0040007"
+        }
+      ]
+    },
+    {
+      "id": "scene114-15",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "dui",
+      "title": "拒停酒測與妨害公務的界線",
+      "stem": "你擔服取締酒駕勤務，汽車駕駛人甲行經執行酒精濃度測試告示處，不依指示停車接受稽查而逃 逸，經攔停後，下列處置作為何者最不適當？",
+      "options": [
+        {
+          "text": "表明警察身分，告知甲剛行經執行酒測告示處未依指示停車，請其配合接受酒測稽查",
+          "explanation": "先表明身分、告知攔停及檢測事由，讓駕駛人了解法定義務與程序。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "如酒測結果為吐氣所含酒精濃度達每公升 0.25 毫克，依刑法第 185 條之 3 公共危險罪及刑事 訴訟法第 88 條現行犯規定當場予以逮捕",
+          "explanation": "吐氣酒精濃度達0.25mg/L已達刑法第185條之3第1項第1款量化要件；符合現行犯時依法逮捕並告知權利。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "針對未依指示停車接受稽查行為，依刑法第 135 條妨害公務及刑事訴訟法第 88 條現行犯規定 當場予以逮捕",
+          "explanation": "單純未依指示停車逃逸，不當然具刑法第135條強暴、脅迫要件，不能只憑拒停就以妨害公務現行犯逮捕。",
+          "correction": "應依法處理拒停行政違規；若另有以車衝撞等強暴脅迫，才依具體事實審查刑事責任。",
+          "trueStatement": false
+        },
+        {
+          "text": "針對未依指示停車接受稽查行為，依道路交通管理處罰條例第 35 條製單舉發",
+          "explanation": "行經依法設有告示的酒測處所而拒停逃逸，依道交條例第35條相應拒檢規定舉發，罰則依行為時有效版本。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "initialAnswer": 2,
+      "lawIds": [
+        "c1853",
+        "p88"
+      ],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "114年內軌四等｜警察情境實務概要｜第15題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 15,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "changed",
+        "note": "道交條例第35條考後多次修正，115.08.17公布部分條款115.10.31生效，另第6、15項115.12.31始生效；本題「拒停不當然妨害公務」的核心及原答案C不因此改變。",
+        "checkedAt": "2026-11-09",
+        "sources": [
+          {
+            "title": "道交條例第35條沿革及分階段施行",
+            "url": "https://laws.gov.taipei/Law/LawSearch/LawRelateInterpretation/FL012454?no=35"
+          }
+        ],
+        "law": "道路交通管理處罰條例第35條",
+        "date": "115.08.17公布",
+        "effectiveStatus": "mixed",
+        "effectiveDate": "115.10.31／115.12.31",
+        "oldRule": "114年應依當時拒停酒測及酒駕條文處理。",
+        "newRule": "依行為日及項次分別適用；尚未生效條款不得提前作為現行裁罰依據。"
+      },
+      "takeaway": "拒停酒測與妨害公務的界線：單純未依指示停車逃逸，不當然具刑法第135條強暴、脅迫要件，不能只憑拒停就以妨害公務現行犯逮捕。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "道路交通管理處罰條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0040012"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        },
+        {
+          "title": "中華民國刑法",
+          "url": "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=fl001424"
+        }
+      ]
+    },
+    {
+      "id": "scene114-16",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "report",
+      "title": "老人遭家庭暴力的即時保護",
+      "stem": "甲於醫院照顧行動不便失智 70 歲母親乙，酒後對乙毆打施暴，醫療院所人員見狀制止，並即報 警請求速派員前往處理，你於巡邏勤務中馳赴現場處理，護理人員指證乙額頭紅腫是甲剛剛施暴 所致，經詢甲坦承因不堪照顧壓力而飲酒並對乙施暴，下列處置何者最正確？",
+      "options": [
+        {
+          "text": "本案屬親密關係暴力，應依處理家庭暴力案件作業程序填寫臺灣親密關係暴力危險評估表",
+          "explanation": "親子間暴力屬家庭暴力，並非當然屬親密伴侶暴力；不能錯套親密關係專用危險評估表。",
+          "correction": "依老人、親子家暴情境採適當評估及兒少／老人保護資源，不將其一律列親密伴侶。",
+          "trueStatement": false
+        },
+        {
+          "text": "本案屬家庭成員間暴力，尚無人提告，案件於警政婦幼案件管理系統進行通報即可",
+          "explanation": "通報不能取代犯罪調查、制止暴力及被害人保護；沒有提告不代表只能登錄系統。",
+          "correction": "立即制止、調查、評估危險、依法通報並採保護措施。",
+          "trueStatement": false
+        },
+        {
+          "text": "本案涉及傷害罪須告訴乃論，速聯絡其他親屬，待表明提告即通知甲到案說明",
+          "explanation": "即使傷害部分有告訴要件，也不能先等親屬表態才調查保護；另須審查對直系血親尊親屬傷害等罪名及逮捕要件。",
+          "correction": "依法即時調查犯罪並保護被害人，不以有人提告作受理門檻。",
+          "trueStatement": false
+        },
+        {
+          "text": "甲涉犯家庭暴力罪，視現場狀況逮捕或拘提加害人，並會同主管機關對被害人施以保護作為",
+          "explanation": "應依家暴罪及現行犯、緊急拘提等各自要件判斷逮捕拘提，同時協調社政、醫療保護老人；本項「視現場狀況」不能解為無條件拘捕。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "initialAnswer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "114年內軌四等｜警察情境實務概要｜第16題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 16,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "none",
+        "note": "已核對本題核心法規；截至核對日未確認直接改變本題答案的考後修正。未註記修正不代表全部相關法規永未變動。",
+        "checkedAt": "2026-11-09",
+        "sources": [
+          {
+            "title": "家庭暴力防治法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0050071"
+          },
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+          }
+        ]
+      },
+      "takeaway": "老人遭家庭暴力的即時保護：應依家暴罪及現行犯、緊急拘提等各自要件判斷逮捕拘提，同時協調社政、醫療保護老人；本項「視現場狀況」不能解為無條件拘捕。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "家庭暴力防治法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0050071"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        }
+      ]
+    },
+    {
+      "id": "scene114-17",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "chase",
+      "title": "交通勤務中輕微越線違規處理",
+      "stem": "你在交岔路口執行交整勤務，見某甲駕駛汽車於號誌燈號變換之際，因未能依號誌指示及時停止， 致前輪超越停止線。有關本件交通違規之處置，下列何者正確？",
+      "options": [
+        {
+          "text": "告知違規行為及違反之法規，並對甲舉發違規",
+          "explanation": "本題官方答案A：依法認定違規，告知事實及違反法規並舉發；不能將任何輕微越線都當必須勸導。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "隨即對甲實施勸導，避免因猶豫而衍生困擾",
+          "explanation": "勸導非單純為避免員警猶豫；須有法定得勸導事由並審酌個案。",
+          "correction": "依個案及裁罰處理細則判斷，不以「避免困擾」代替法律標準。",
+          "trueStatement": false
+        },
+        {
+          "text": "對甲實施勸導，選擇於無礙交通之處實施，並作成書面紀錄，請其簽名",
+          "explanation": "選擇無礙交通處、作書面紀錄是施以勸導時的程序，不能反推本案一定符合勸導事由。",
+          "correction": "先判斷是否得勸導，再依規定辦理，不能將程序規範當實體免罰依據。",
+          "trueStatement": false
+        },
+        {
+          "text": "對甲實施勸導，但有客觀事實足認無法當場執行勸導程序時，得免予勸導",
+          "explanation": "有客觀事實無法當場勸導，可免予勸導的規定，不是任意放行或免除舉發的授權。",
+          "correction": "辨別免予勸導與免予舉發，不可混同。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 0,
+      "initialAnswer": 0,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜警察情境實務概要｜第17題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 17,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "review",
+        "note": "本題官方答案A；勸導事由及裁罰處理細則已有後續修正，須以行為當時有效版本核對適用範圍。",
+        "checkedAt": "2026-11-09",
+        "sources": [
+          {
+            "title": "違反道路交通管理事件統一裁罰基準及處理細則",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080029"
+          }
+        ]
+      },
+      "takeaway": "交通勤務中輕微越線違規處理：本題官方答案A：依法認定違規，告知事實及違反法規並舉發；不能將任何輕微越線都當必須勸導。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "違反道路交通管理事件統一裁罰基準及處理細則",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080029"
+        }
+      ]
+    },
+    {
+      "id": "scene114-18",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "chase",
+      "title": "大型車超載卸貨分裝地點",
+      "stem": "當你在執行取締汽車裝載超重（大型車超載）勤務時，經稽查發現有違規超載之車輛，其超載重量 已逾核定總重量百分之 20 以上者，均須卸貨分裝，你在執行卸貨分裝時，下列執行方式何者錯誤？",
+      "options": [
+        {
+          "text": "可請駕駛人配合駛往卸貨分裝場卸貨分裝",
+          "explanation": "可依安全與合法動線前往卸貨分裝場辦理，保持必要監管。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "可請駕駛人逕駛往目的地卸貨",
+          "explanation": "超載應改善危險，不能以目的地卸貨為由允許超載車繼續完成原本運輸。",
+          "correction": "改於合適卸貨分裝場、現地或安全可行的原裝載場改善，不能直接放行至目的地。",
+          "trueStatement": false
+        },
+        {
+          "text": "可請駕駛人僱用其他車輛於現地卸貨分裝",
+          "explanation": "在不影響道路安全的合適地點，得由駕駛僱車協助卸貨分裝。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "可請駕駛人配合駛回原裝載之砂石場、碎解洗選場卸貨分裝",
+          "explanation": "依SOP評估得回原裝載場卸貨分裝，仍須有安全動線及必要監管，非任意放行。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "initialAnswer": 1,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜警察情境實務概要｜第18題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 18,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "review",
+        "note": "官方答案B；題示超過核重20%卸貨分裝的完整現行SOP與交通裁罰規範待原件比對。",
+        "checkedAt": "2026-11-09"
+      },
+      "takeaway": "大型車超載卸貨分裝地點：超載應改善危險，不能以目的地卸貨為由允許超載車繼續完成原本運輸。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        }
+      ]
+    },
+    {
+      "id": "scene114-19",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "chase",
+      "title": "人工控燈收勤後的恢復與觀察",
+      "stem": "你在執行交通疏導勤務，並負責該重要路口人工操控燈號，於勤務完竣撤崗前，有關控燈收勤後 應注意事項，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "如為連鎖路段，應先將「獨立運轉」改為「連鎖控制」後，再恢復自動運轉",
+          "explanation": "連鎖路段應依設備操作程序恢復連鎖，再恢復自動，避免路口間失去協調。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "應將控制箱門關妥並上鎖",
+          "explanation": "控制箱關妥上鎖，避免他人誤觸或擅改設備。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "系統若為自動連鎖，切換自動運轉後即恢復常態，毋庸留駐觀察",
+          "explanation": "切回自動不代表交通已即時恢復，不能毋庸留駐觀察。",
+          "correction": "切換後仍留駐觀察，必要時指揮疏導，確認運轉及車流正常再撤離。",
+          "trueStatement": false
+        },
+        {
+          "text": "仍應至路口協助指揮疏導，至車流恢復正常",
+          "explanation": "恢復自動後仍依車流及現場狀況協助疏導，至交通恢復正常。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "initialAnswer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜警察情境實務概要｜第19題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 19,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "review",
+        "note": "官方答案C；設備及控燈SOP完整現行原件待核，操作仍須依實際設備與交通控制中心指示。",
+        "checkedAt": "2026-11-09"
+      },
+      "takeaway": "人工控燈收勤後的恢復與觀察：切回自動不代表交通已即時恢復，不能毋庸留駐觀察。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        }
+      ]
+    },
+    {
+      "id": "scene114-20",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "theory",
+      "title": "安全警衛行車保密與隨護",
+      "stem": "你被派遣擔任機關首長安全維護之安全警衛人員時，關於執勤守則及作為，下列敘述何者正確？",
+      "options": [
+        {
+          "text": "依據共同守則規定，保密是警衛人員之基本要求，對工作所知事項，如有民意代表詢問可適度 告知",
+          "explanation": "警衛勤務相關資訊應依保密規範處理，不得僅因民意代表詢問就適度透露。",
+          "correction": "改為依法定權責及保密程序提供，未授權不洩漏。",
+          "trueStatement": false
+        },
+        {
+          "text": "依據特別守則規定執勤中，養成習慣上車後即鎖上車門，行進途中儘量行駛內側或中間車道",
+          "explanation": "本題官方答案B，上車即鎖門及視路況採合適內側或中間車道，屬題示特別守則的防護安排；不代表可違反交通安全。",
+          "correction": "本項在本題脈絡下無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "熟悉警衛對象每日活動之行車路線，應保持固定路線，以避免突發狀況發生",
+          "explanation": "行車路線固定會增加可預測性與風險，不能把固定路線當防止突發狀況的通則。",
+          "correction": "應熟悉主要及替代路線，依風險、情報與現況適時調整。",
+          "trueStatement": false
+        },
+        {
+          "text": "徒步隨護時，應視狀況位於警衛對象之前方，嚴密監控警衛對象四周狀況，保持機動應變",
+          "explanation": "隨護站位須依職務、隊形及威脅方向，不能一律放在前方；應保持能觀察及反應的位置。",
+          "correction": "依警衛部署及威脅評估採適當相對位置，非固定前方。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 1,
+      "initialAnswer": 1,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜警察情境實務概要｜第20題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 20,
+      "answerStatus": "官方原答已核；目錄未列更正",
+      "amendment": {
+        "status": "review",
+        "note": "本題官方答案B；安全警衛守則完整現行版本未取得，勿將本題行車車道及站位文字當所有情境均適用。",
+        "checkedAt": "2026-11-09"
+      },
+      "takeaway": "安全警衛行車保密與隨護：本題官方答案B，上車即鎖門及視路況採合適內側或中間車道，屬題示特別守則的防護安排；不代表可違反交通安全。",
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        }
+      ]
+    }
+  ],
+  "essays": [
+    {
+      "id": "scene114-e1",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "theory",
+      "title": "經常性社區鋼琴噪音的查處",
+      "prompt": "你於週六上午 10 時 30 分接獲甲報案，稱住於樓上乙家中經常在週六、 日上午 7 時開始彈奏鋼琴，斷斷續續直到傍晚 6 時才停，嚴重影響假日 休息，已經長達 3 個月之久，經向社區管理委員會多次反映無效，因長 期受到噪音干擾，導致睡眠障礙，你接獲報案後，就此類經常性報稱社 區噪音問題，依相關法令規定應如何查處？（20 分）",
+      "points": 20,
+      "minutes": 20,
+      "allocation": [
+        {
+          "title": "經常性社區鋼琴噪音的查處（題內未細分配分）",
+          "points": 20
+        }
+      ],
+      "lawIds": [],
+      "model": {
+        "intro": "鄰居反覆彈奏鋼琴影響安寧，警方應即受理、到場查證並依法分流；不能只因白天或假日便認無權處理。",
+        "basis": "噪音管制法第6條；社會秩序維護法第72條第1項第2款；公寓大廈管理條例第16條第1項及第47條；民法相鄰關係及侵權行為規定。",
+        "analysis": "一、受理與查證\n記錄報案時間、地點、頻率、音源、持續情形、受影響住戶及過去反映情況；到場聽察、錄音錄影，訪談雙方及管委會，保存具體干擾事證，必要時通知主管單位協處。\n二、法律分流\n不具持續性或不易量測而足以妨害生活安寧之聲音，依噪音管制法第6條由警察依法處理；屬環境主管機關可依法管制、量測的音源，移請環保單位依法查處。不得僅憑音量感受便套用所有噪音罰則。\n三、制止與裁處\n就製造噪音妨害公眾安寧，先依法告誡制止，明確記錄要求、行為人反應及持續行為；符合社維法第72條第1項第2款「不聽禁止」等要件者，依法調查裁處。公寓大廈住戶妨害安寧，得由管理負責人或管委會制止，制止不從循公寓大廈管理條例報主管機關。\n四、後續追蹤\n告知甲保存紀錄、可用的調解與民事救濟；對反覆報案安排追蹤訪查、與管委會及環保單位聯繫，不得以民事糾紛推諉。",
+        "conclusion": "應依法行政，以比例原則制止並保全證據，兼顧居住安寧、音樂活動自由及正當程序。"
+      },
+      "checklist": [
+        "先寫前言及具體爭點",
+        "依20分題意分段",
+        "明列法律依據與發動要件",
+        "分項寫措施、程序及注意事項",
+        "結語兼顧依法行政、比例原則與權益保障"
+      ],
+      "verified": true,
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 1,
+      "origin": "114年內軌四等警察情境實務概要申論第1題",
+      "amendment": {
+        "status": "changed",
+        "note": "維持依現行社維法第72條第2款與不聽禁止要件作答。處理辦法第11條原文仍引第3款；其條次銜接的主管機關正式解釋待核，不能自行假稱子法已修正。原題及既有擬答保留。",
+        "checkedAt": "2026-11-11",
+        "sources": [
+          {
+            "title": "全國法規資料庫・社會秩序維護法第72條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+          },
+          {
+            "title": "全國法規資料庫・違反社會秩序維護法案件處理辦法第11條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+          },
+          {
+            "title": "總統府114年社維法修正公布",
+            "url": "https://www.president.gov.tw/Page/294/49902"
+          }
+        ],
+        "law": "社會秩序維護法第72條、違反社會秩序維護法案件處理辦法第11條",
+        "date": "2025-06-11公布",
+        "effectiveStatus": "in-force",
+        "effectiveDate": "2025-06-13（社維法第72條）",
+        "oldRule": "社維法舊第72條第3款規定製造噪音或深夜喧嘩，妨害公眾安寧。",
+        "newRule": "社維法現行第72條第2款增列不聽禁止；案件處理辦法第11條原文仍引用社維法第72條第3款，條次未同步。"
+      },
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "噪音管制法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=O0030001"
+        },
+        {
+          "title": "社會秩序維護法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+        },
+        {
+          "title": "社維法114年修正沿革",
+          "url": "https://laws.gov.taipei/law/LawSearch/LawArticleAmend/FL004501"
+        },
+        {
+          "title": "全國法規資料庫・違反社會秩序維護法案件處理辦法第11條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+        },
+        {
+          "title": "總統府114年社維法修正公布",
+          "url": "https://www.president.gov.tw/Page/294/49902"
+        }
+      ]
+    },
+    {
+      "id": "scene114-e2",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "powers",
+      "title": "持續跟蹤騷擾報案的保護與偵辦",
+      "prompt": "甲男在衝浪活動中結識乙女，即開始瘋狂追求，除寫情歌外，也在臉書 張貼乙女的照片示愛，不顧乙女拒絕，持續探詢乙女住處，邀約外出衝 浪，半夜不停打電話及傳送訊息，甚至到乙女上班地點監視盯梢騷擾， 還意圖要帶走乙女，使乙女心生畏懼且大大影響她的生活，因而報警。 警察機關受理後之處置作為為何？（20 分）",
+      "points": 20,
+      "minutes": 20,
+      "allocation": [
+        {
+          "title": "持續跟蹤騷擾報案的保護與偵辦（題內未細分配分）",
+          "points": 20
+        }
+      ],
+      "lawIds": [],
+      "model": {
+        "intro": "甲反覆追求、聯絡、盯梢及企圖帶走乙，已非一般追求爭議，應以被害人安全為優先即時受理調查。",
+        "basis": "跟蹤騷擾防制法第3、4、5、18條；刑事訴訟法逮捕、拘提等規定。另有恐嚇、強制等具體行為時，併依刑法審查。",
+        "analysis": "一、立即受理與安全評估\n不以非本轄、雙方未交往或沒有受傷拒絕受理。分開詢問、確認急迫危險，必要時派員保護、安排安全處所及協調醫療社政服務，告知權利與可得服務。\n二、蒐證並審查構成要件\n製作書面紀錄，蒐集訊息、通聯、臉書貼文、監視器、證人及反覆接觸時地，確認是否違反意願、反覆或持續、與性或性別有關，且使乙心生畏怖而足以影響日常生活或社會活動，逐一對照監視觀察、尾隨接近、通訊干擾等行為類型。\n三、告誡及保護令\n經調查有跟騷犯罪嫌疑，依法依職權或請求核發書面告誡，並告知雙方救濟期間。告誡後2年內再為跟騷，被害人得聲請保護令；檢察官或警察機關亦得依職權聲請，不能把告誡當成刑事免責。\n四、刑事調查與後續\n依法處理告訴及犯罪事證；符合現行犯或緊急拘提條件，依法執行並告知權利。提醒乙保存證據、避免單獨衝突、緊急撥110，持續聯繫追蹤，查有其他犯罪另依法偵辦。",
+        "conclusion": "應依法行政，分別審查告誡、保護與刑事強制處分要件，以比例原則保護乙的安全與甲的程序權益。"
+      },
+      "checklist": [
+        "先寫前言及具體爭點",
+        "依20分題意分段",
+        "明列法律依據與發動要件",
+        "分項寫措施、程序及注意事項",
+        "結語兼顧依法行政、比例原則與權益保障"
+      ],
+      "verified": true,
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 2,
+      "origin": "114年內軌四等警察情境實務概要申論第2題",
+      "amendment": {
+        "status": "none",
+        "note": "本題核心依跟騷防制法第3～5條整理；截至核對日未確認直接改變本題核心架構的修正。告誡不取代刑事偵辦。",
+        "checkedAt": "2026-11-09",
+        "sources": [
+          {
+            "title": "跟蹤騷擾防制法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080211"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "跟蹤騷擾防制法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080211"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        }
+      ]
+    },
+    {
+      "id": "scene114-e3",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "powers",
+      "title": "路檢前科、鼓包與拍搜的法定界線",
+      "prompt": "你在執行路檢勤務時，攔停 1 輛機車，查證駕駛人甲身分時，發現甲曾 有毒品、槍砲刑案紀錄，並在過程中察覺甲神情有異，且發現甲口袋鼓 鼓的，因此對其進行拍搜檢查，檢查時懷疑甲口袋內的物品可能是違禁 品，要求拿出來，甲堅持不從，試問：你攔停甲查證其身分之法令依據 為何？得否進行拍搜及檢查甲之交通工具？又如何讓甲主動取出口袋 內之物品方符合法定程序？（20 分）",
+      "points": 20,
+      "minutes": 20,
+      "allocation": [
+        {
+          "title": "路檢前科、鼓包與拍搜的法定界線（題內未細分配分）",
+          "points": 20
+        }
+      ],
+      "lawIds": [],
+      "model": {
+        "intro": "路檢查證、安全檢查與刑事搜索的目的及門檻不同；前科、緊張或口袋鼓包，不能各自直接等同持有違禁品。",
+        "basis": "警察職權行使法第3、4、6、7、8條；刑事訴訟法第122、128、130、131、131之1條。",
+        "analysis": "一、攔停及查證\n依警職法第6條具體對象事由或第8條交通工具已發生危害、依客觀合理判斷易生危害等要件，說明攔停及查證理由；指定路段亦須符合第6條第2項程序。僅有毒槍前科不能當然攔查任何人。\n二、拍搜安全檢查\n警職法第7條第1項第4款，須有明顯事實足認攜帶足以自殺、自傷或傷害他人生命身體物品，始得檢查身體及所攜物。應具體交代鼓包形狀、手部動作、言行及其他危險跡象，先採最低侵害方式；單憑一般鼓包或神情不安不足任意翻找違禁品。\n三、檢查交通工具\n依警職法第8條第2項，須有事實足認有犯罪之虞，始得強制離車；車內有足以危害生命身體物品之虞，始得檢查交通工具。身體拍搜門檻不會自動滿足檢車門檻；刑事搜索另依票據或法定無票例外。\n四、自願出示與同意搜索\n可說明具體理由，請甲自願出示物品；不得以逮捕威嚇或虛稱不配合即犯罪取得同意。如採同意搜索，應事先告知得拒絕、確認出於自由意願、出示證件，將同意意旨記載筆錄並依法錄影。拒絕同意不會創造搜索權；有票據或法定無票搜索事由，才依法執行。",
+        "conclusion": "各項措施均應依法行政，分別確認要件、告知與記錄，依比例原則兼顧執勤安全及人民人身、隱私權。"
+      },
+      "checklist": [
+        "先寫前言及具體爭點",
+        "依20分題意分段",
+        "明列法律依據與發動要件",
+        "分項寫措施、程序及注意事項",
+        "結語兼顧依法行政、比例原則與權益保障"
+      ],
+      "verified": true,
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 3,
+      "origin": "114年內軌四等警察情境實務概要申論第3題",
+      "amendment": {
+        "status": "none",
+        "note": "本題警職法與刑訴法核心門檻已核；未確認直接改變此題架構的考後修正。前科、緊張與鼓包仍須具體綜合判斷，不能作概括授權。",
+        "checkedAt": "2026-11-09",
+        "sources": [
+          {
+            "title": "警察職權行使法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+          },
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "考選部114年四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "考選部標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        }
+      ]
+    }
+  ]
+}

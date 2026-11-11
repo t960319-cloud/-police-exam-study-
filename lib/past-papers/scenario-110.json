@@ -1,0 +1,1835 @@
+{
+  "meta": {
+    "year": 110,
+    "track": "內軌",
+    "exam": "110年公務人員特種考試警察人員考試四等考試・行政警察人員、交通警察人員",
+    "subject": "警察情境實務概要",
+    "paperSubject": "警察情境實務",
+    "indexUrl": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=110070&y=2021",
+    "questionUrl": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1",
+    "answerUrl": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1",
+    "correctionUrl": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1",
+    "selectionCount": 20,
+    "essayCount": 3
+  },
+  "questions": [
+    {
+      "id": "scene110-01",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "theory",
+      "title": "無人傷亡對物槍擊仍屬特殊刑案",
+      "stem": "你擔任值班勤務，受理民眾報案指稱其營業場所大門遭不明人士槍擊，而人員並未受傷，你受理 後要陳報時，本案應屬下列何種刑案？",
+      "options": [
+        {
+          "text": "特殊刑案",
+          "explanation": "原卷對物或場所槍擊列為特殊刑案；不以有人傷亡為必要。",
+          "correction": "本題無須修正，仍須核對現行手冊分類。",
+          "trueStatement": true
+        },
+        {
+          "text": "重大刑案",
+          "explanation": "不能僅因使用槍械，就忽略本題對物槍擊的特定通報分類。",
+          "correction": "依原卷以特殊刑案陳報。",
+          "trueStatement": false
+        },
+        {
+          "text": "一般刑案",
+          "explanation": "無傷亡不等於一般刑案；槍擊場所仍高度影響治安。",
+          "correction": "改為特殊刑案。",
+          "trueStatement": false
+        },
+        {
+          "text": "牽連廣泛之普通刑案",
+          "explanation": "牽連廣泛的分類不能取代本題已明列的對物槍擊。",
+          "correction": "依特定分類辦理並逐級通報。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 0,
+      "initialAnswer": 0,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": false,
+      "origin": "110年內軌四等・警察情境實務概要・第1題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 1,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "review",
+        "note": "原卷與官方答案已核；對物槍擊的現行分類、通報層級及時限，仍須核對115年警察偵查犯罪手冊原件。不要只因原卷答案A便認定現行全部通報流程相同。",
+        "sources": []
+      },
+      "takeaway": "原卷對物或場所槍擊列為特殊刑案；不以有人傷亡為必要。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        }
+      ]
+    },
+    {
+      "id": "scene110-02",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "weapons",
+      "title": "值班槍彈庫鑰匙不得固定留抽屜",
+      "stem": "你擔任派出所值班勤務時，除了相關應勤簿冊的檢視外，有關槍械彈藥查核清點事宜，下列敘述 何者錯誤？",
+      "options": [
+        {
+          "text": "應確實保管槍械彈藥庫鑰匙，固定置放值班臺抽屜",
+          "explanation": "庫房鑰匙應依槍彈管理及交接規定由負責人妥善保管；固定留抽屜增加未授權取用風險。",
+          "correction": "刪除固定置放值班臺抽屜，改為指定人員保管並確實交接。",
+          "trueStatement": false
+        },
+        {
+          "text": "查核清點要檢查領槍應有領槍證，還槍時取回",
+          "explanation": "領槍以領槍證辨識領用，還槍時收回證，建立槍證對應。",
+          "correction": "本題無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "不得槍與證同時存放或無槍無證",
+          "explanation": "槍、證同時在庫或兩者都不在，均破壞領還槍查核。",
+          "correction": "應維持槍證對應並即時查明異常。",
+          "trueStatement": true
+        },
+        {
+          "text": "未列入勤務交接之裝備彈，應由所長蓋章及標示日期封存後，集中保管",
+          "explanation": "原卷將未列勤務交接的裝備彈封存集中管理列為適當；仍須依現行內部槍彈規定辦理。",
+          "correction": "封存、標記、點交均須留下紀錄，勿當作免清點。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 0,
+      "initialAnswer": 0,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "110年內軌四等・警察情境實務概要・第2題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 2,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "review",
+        "note": "槍證對應與鑰匙保管的解析依原卷脈絡；現行槍彈安全管理內部規定完整原件尚待核對，封存、鑰匙及點交細節不得自行補定。",
+        "sources": []
+      },
+      "takeaway": "庫房鑰匙應依槍彈管理及交接規定由負責人妥善保管；固定留抽屜增加未授權取用風險。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        }
+      ]
+    },
+    {
+      "id": "scene110-03",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "report",
+      "title": "汽車失竊跨轄報案立即受理",
+      "stem": "你是新北市政府警察局海山分局派出所值班人員，有高雄市居民開車北上訪友，其汽車於三重區 遭竊親自至派出所報案，本案如何處置？",
+      "options": [
+        {
+          "text": "委婉說明請其向管轄單位辦理",
+          "explanation": "單一窗口禁止以管轄不同推諉報案。",
+          "correction": "先受理、處置，再依法通報及移轉。",
+          "trueStatement": false
+        },
+        {
+          "text": "不予理會任其離去",
+          "explanation": "任其離去違反受理義務，可能延誤查緝失車。",
+          "correction": "立即受理並查證失車資料。",
+          "trueStatement": false
+        },
+        {
+          "text": "依報案單一窗口立即受理",
+          "explanation": "發生地、居住地與報案地不同，仍應立即受理。",
+          "correction": "本題無須修正；移轉程序須另依114年修正版。",
+          "trueStatement": true
+        },
+        {
+          "text": "立即受理但不需知會及轉移管轄單位",
+          "explanation": "立即受理不等於不必知會管轄單位。",
+          "correction": "完成受理、必要處置及通報移轉，不得只收不轉。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 2,
+      "initialAnswer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "110年內軌四等・警察情境實務概要・第3題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 3,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "changed",
+        "law": "警察機關受理刑事案件報案單一窗口實施要點",
+        "date": "2025-01-13",
+        "note": "114.01.13修正單一窗口要點，調整線上執勤受理及移轉管轄判準、時效、核准層級等。立即受理的答案C不變；後續作業須用新版。",
+        "oldRule": "原卷依110年受理跨轄失車報案脈絡。",
+        "newRule": "不分本他轄先受理、急迫處置，再依114版完成通報及移轉；不得把舊版時限或核准層級直接套用。",
+        "sources": [
+          {
+            "title": "內政部114年第1季法規鬆綁成果（單一窗口修正）",
+            "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOoMTE05bm05bqm56ysMeWto%2Bmshue2geaIkOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTAwOS8zMjc5OTQvNzI2ODE1NmUtYzUwYS00NjhlLThiNWYtYmFiOWM1MjNhNTk5LnBkZg%3D%3D"
+          }
+        ]
+      },
+      "takeaway": "發生地、居住地與報案地不同，仍應立即受理。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "內政部114年第1季法規鬆綁成果（單一窗口修正）",
+          "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOoMTE05bm05bqm56ysMeWto%2Bmshue2geaIkOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTAwOS8zMjc5OTQvNzI2ODE1NmUtYzUwYS00NjhlLThiNWYtYmFiOWM1MjNhNTk5LnBkZg%3D%3D"
+        }
+      ]
+    },
+    {
+      "id": "scene110-04",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "theory",
+      "title": "勤區訪查進入與夜間時限",
+      "stem": "你是警勤區員警，在實施警察勤務區訪查工作時，下列作為何者錯誤？",
+      "options": [
+        {
+          "text": "查訪治安顧慮人口及記事人口，掌握其動態",
+          "explanation": "治安顧慮人口與記事人口須各依合法查訪依據，不能任意擴增對象。",
+          "correction": "本題脈絡無須修正；個別法源及資料用途仍須審查。",
+          "trueStatement": true
+        },
+        {
+          "text": "提供民眾住宅安全防竊檢測服務",
+          "explanation": "提供住宅安全評估屬犯罪預防及為民服務；應尊重受訪人意思。",
+          "correction": "經同意提供防竊檢測，不得藉機強制進屋。",
+          "trueStatement": true
+        },
+        {
+          "text": "與諮詢對象如里長、民力等聯繫互動，蒐集轄區治安資訊",
+          "explanation": "與里長、民力互動可蒐集社區治安資訊，但仍受目的必要性及個資限制。",
+          "correction": "本題無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "查訪時得隨意進入民宅，並可與被約訪民眾約在 22 時後實施",
+          "explanation": "訪查不是進入住宅的強制權；應經同意引導。題內作業規範的另約時間也不是可任意排在22時後。",
+          "correction": "刪除隨意進宅及22時後，改為經同意、按法定及勤務時間限制訪查。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "initialAnswer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "110年內軌四等・警察情境實務概要・第4題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 4,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "review",
+        "note": "訪查辦法的同意進入、日間及另約時間原則已核；題內22時界線涉及警勤區訪查作業規定，最新完整原件仍待核對。無論何版均不得任意進入民宅。",
+        "sources": [
+          {
+            "title": "警察勤務區訪查辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
+          },
+          {
+            "title": "治安顧慮人口查訪辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+          }
+        ]
+      },
+      "takeaway": "訪查不是進入住宅的強制權；應經同意引導。題內作業規範的另約時間也不是可任意排在22時後。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "警察勤務區訪查辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
+        },
+        {
+          "title": "治安顧慮人口查訪辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+        }
+      ]
+    },
+    {
+      "id": "scene110-05",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "powers",
+      "title": "二人互毆制止、管束與違序章別",
+      "stem": "你擔任巡邏勤務，接獲分局勤務指揮中心通報前往處理民眾甲、乙互毆案件，你到現場時，2 人 仍在扭打，下列處置何者錯誤？",
+      "options": [
+        {
+          "text": "即時制止甲、乙之互毆行為",
+          "explanation": "現行互毆可即時制止，先防止傷害擴大。",
+          "correction": "應依個別法源及比例原則採取必要手段。",
+          "trueStatement": true
+        },
+        {
+          "text": "在符合比例原則下，得將甲、乙予以管束",
+          "explanation": "互毆且非管束不能預防傷害時，可依警職法19條管束；不是所有口角都可管束。",
+          "correction": "應補寫法定危害及必要性。",
+          "trueStatement": true
+        },
+        {
+          "text": "逕行通知甲、乙到派出所，不服通知時，得強制之",
+          "explanation": "社維法42條對現行違序者得逕行通知，不服者得強制到場，另有確悉身分、住居所且無逃亡之虞例外。",
+          "correction": "不能將此規定套在一般證人或非現行違序者。",
+          "trueStatement": true
+        },
+        {
+          "text": "對甲、乙以社會秩序維護法「妨害安寧秩序」章之違序行為辦理",
+          "explanation": "互相鬥毆原則涉及社維法87條，位在妨害善良風俗章，並非本項所寫妨害安寧秩序章。",
+          "correction": "更正章別；如另構成刑事傷害等罪，仍依法偵辦。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "initialAnswer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "110年內軌四等・警察情境實務概要・第5題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 5,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "none",
+        "note": "本次核對未確認與本題核心答案直接相關的考後修法差異；保留當年度官方答案，不表示所有相關SOP均無變動。",
+        "sources": [
+          {
+            "title": "警察職權行使法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          },
+          {
+            "title": "社會秩序維護法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+          }
+        ]
+      },
+      "takeaway": "互相鬥毆原則涉及社維法87條，位在妨害善良風俗章，並非本項所寫妨害安寧秩序章。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "社會秩序維護法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+        }
+      ]
+    },
+    {
+      "id": "scene110-06",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "report",
+      "title": "線上受理他轄報案不得僵化要求到所",
+      "stem": "你是派出所警員，擔服巡邏勤務時，遇有民眾報案，經詢並非在本轄發生之案件，下列處理方式 何者錯誤？",
+      "options": [
+        {
+          "text": "如非緊急案件，報案人要求警察機關派員至其住所製作相關文書資料，應要求其到派出所始能 報案",
+          "explanation": "非緊急電話請求到宅製作文書，不應一律以到派出所才可報案排斥；應依警力及個案斟酌。",
+          "correction": "改為受理記錄，依個案安排或協助聯絡最近窗口。",
+          "trueStatement": false
+        },
+        {
+          "text": "執勤員警受理民眾報案，除遇緊急狀況需即時反應處置外，應引導至最近之報案窗口",
+          "explanation": "原卷原則為除緊急處置外引導最近窗口；114修正明列引導或協助聯絡。",
+          "correction": "用114版補上協助聯絡，不可僅把民眾推走。",
+          "trueStatement": true
+        },
+        {
+          "text": "受理報案因情況急迫，需即時追緝逃犯、救護傷患或排除急難、危難時，均應即時處置",
+          "explanation": "追緝逃犯、救護傷患或排除急難應先即時處置，不得等待移轉。",
+          "correction": "本題無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "民眾報案，不分本轄或他轄刑事案件，均應立即受理，受理後應即派員查證並妥適處理",
+          "explanation": "不分本他轄立即受理、查證妥處，是單一窗口核心。",
+          "correction": "本題無須修正；後續移轉依現行判準及時效。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 0,
+      "initialAnswer": 0,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "110年內軌四等・警察情境實務概要・第6題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 6,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "changed",
+        "law": "警察機關受理刑事案件報案單一窗口實施要點",
+        "date": "2025-01-13",
+        "note": "114修正明列線上執勤遇報案，除緊急必要處理外，應引導或協助聯絡最近窗口，並調整移轉程序。原題A錯誤結論保留。",
+        "oldRule": "原卷B使用引導至最近報案窗口的表述。",
+        "newRule": "新版增加協助聯絡等作法；不得把非緊急等同可以拒絕或強制民眾一定到所才受理。",
+        "sources": [
+          {
+            "title": "內政部114年第1季法規鬆綁成果（單一窗口修正）",
+            "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOoMTE05bm05bqm56ysMeWto%2Bmshue2geaIkOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTAwOS8zMjc5OTQvNzI2ODE1NmUtYzUwYS00NjhlLThiNWYtYmFiOWM1MjNhNTk5LnBkZg%3D%3D"
+          }
+        ]
+      },
+      "takeaway": "非緊急電話請求到宅製作文書，不應一律以到派出所才可報案排斥；應依警力及個案斟酌。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "內政部114年第1季法規鬆綁成果（單一窗口修正）",
+          "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOoMTE05bm05bqm56ysMeWto%2Bmshue2geaIkOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTAwOS8zMjc5OTQvNzI2ODE1NmUtYzUwYS00NjhlLThiNWYtYmFiOWM1MjNhNTk5LnBkZg%3D%3D"
+        }
+      ]
+    },
+    {
+      "id": "scene110-07",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "theory",
+      "title": "重大交通事故指揮與現場分工",
+      "stem": "假設你擔任某分局交通分隊分隊長，某日接獲民眾報案於轄內發生一起重大交通事故時，下列處 置作為何者錯誤？",
+      "options": [
+        {
+          "text": "立即派員趕往現場，同時向上級報告，並視情況請求支援",
+          "explanation": "先派員、報告並視需要請求支援，符合重大事故快速反應。",
+          "correction": "本題無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "倘經初步了解為重大交通事故或 A1 交通事故，應立即通知刑事或鑑識人員支援現場蒐證",
+          "explanation": "重大或A1事故需要刑事、鑑識協助保全物證，不能只做交通表單。",
+          "correction": "依現場狀況及案件需要通知支援。",
+          "trueStatement": true
+        },
+        {
+          "text": "你到現場發現負責事故處理的員警處理速度太慢，應立即指派專人接手處理",
+          "explanation": "不能僅因主觀認為慢，就無交接地任意更換承辦人；會破壞處理連貫與證據紀錄。",
+          "correction": "指揮官應掌握原因、督導協調，必要調整須明確交接。",
+          "trueStatement": false
+        },
+        {
+          "text": "現場若有傷者待救援時，應立即通報消防機關救護傷患",
+          "explanation": "救護優先於一般測繪文書，應迅速通報消防並協助安全救援。",
+          "correction": "兼顧救護通道與現場證據保護。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "initialAnswer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "110年內軌四等・警察情境實務概要・第7題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 7,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "review",
+        "note": "安全救護、指揮協調及證據連續性是本題核心；題目指定重大事故指揮及鑑識支援SOP的最新完整原件仍待核對。",
+        "sources": [
+          {
+            "title": "道路交通事故處理辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080090"
+          }
+        ]
+      },
+      "takeaway": "不能僅因主觀認為慢，就無交接地任意更換承辦人；會破壞處理連貫與證據紀錄。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "道路交通事故處理辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080090"
+        }
+      ]
+    },
+    {
+      "id": "scene110-08",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "theory",
+      "title": "刑案新聞公開的例外與禁揭事項",
+      "stem": "你是臺北市政府警察局中山分局某派出所員警，於處理各類刑事案件時，下列那類刑案及案件內 容可以發布？",
+      "options": [
+        {
+          "text": "查獲施用毒品之人",
+          "explanation": "一般施用毒品案不是只要查獲就可對外宣傳；須符合公開例外及必要性。",
+          "correction": "先審查公開要件，保護身分與偵查資料。",
+          "trueStatement": false
+        },
+        {
+          "text": "查獲普通竊盜案",
+          "explanation": "普通竊盜案不因破案便當然得公開；須有法定公開理由。",
+          "correction": "不能以破案績效取代公開要件。",
+          "trueStatement": false
+        },
+        {
+          "text": "犯罪嫌疑人之供述內容",
+          "explanation": "具體供述內容屬偵查不公開作業辦法9條禁止公開事項。",
+          "correction": "不得公布嫌疑人筆錄、供述或有罪預斷。",
+          "trueStatement": false
+        },
+        {
+          "text": "對於社會治安有重大影響、社會矚目案件",
+          "explanation": "重大影響治安、社會矚目案得在法定例外與必要範圍適度說明。",
+          "correction": "不是整卷公開；須經審查，由發言人發布並排除禁揭事項。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "initialAnswer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "110年內軌四等・警察情境實務概要・第8題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 8,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "none",
+        "note": "本次核對未確認與本題核心答案直接相關的考後修法差異；保留當年度官方答案，不表示所有相關SOP均無變動。",
+        "sources": [
+          {
+            "title": "偵查不公開作業辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+          }
+        ]
+      },
+      "takeaway": "重大影響治安、社會矚目案得在法定例外與必要範圍適度說明。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "偵查不公開作業辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+        }
+      ]
+    },
+    {
+      "id": "scene110-09",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "report",
+      "title": "詐欺案件不以他轄拒絕受理",
+      "stem": "你為派出所警員，於受理偵辦詐欺案件時，下列處置何者錯誤？",
+      "options": [
+        {
+          "text": "涉及帳戶匯款詐欺案件，立即設定警示帳戶及啟動金融機構聯防機制等相關規定",
+          "explanation": "涉及匯款詐欺應迅速啟動帳戶警示及金融聯防，減少贓款流出。",
+          "correction": "依現行帳戶警示權責及通報程序辦理，不以員警口頭設定替代系統程序。",
+          "trueStatement": true
+        },
+        {
+          "text": "向上溯源，追查集團核心、成員等相關共犯",
+          "explanation": "偵查應向上溯源，不能只查提款車手而不追集團。",
+          "correction": "持續蒐集帳流、人流及通訊等證據。",
+          "trueStatement": true
+        },
+        {
+          "text": "受理被害人報案，態度誠懇和藹，適時予以安慰關懷",
+          "explanation": "誠懇受理、關懷安慰有助取得證據及避免二次傷害。",
+          "correction": "本題無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "若係他轄案件，請被害人至該所轄分局派出所報案",
+          "explanation": "以他轄為由要求被害人另赴管轄派出所，違反單一窗口。",
+          "correction": "先受理與急迫止付，再辦通報移轉。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "initialAnswer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "110年內軌四等・警察情境實務概要・第9題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 9,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "changed",
+        "law": "警察機關受理刑事案件報案單一窗口實施要點",
+        "date": "2025-01-13",
+        "note": "114版調整跨轄刑案移轉判準、時效與核准層級，原題D推諉報案仍錯；帳戶警示及金融聯防另依現行專責規範。",
+        "oldRule": "110原卷的立即受理與跨轄處理架構。",
+        "newRule": "先受理、急迫止付或聯防，再依法辦理管轄移轉；新版細部權責不可用舊題補猜。",
+        "sources": [
+          {
+            "title": "內政部114年第1季法規鬆綁成果（單一窗口修正）",
+            "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOoMTE05bm05bqm56ysMeWto%2Bmshue2geaIkOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTAwOS8zMjc5OTQvNzI2ODE1NmUtYzUwYS00NjhlLThiNWYtYmFiOWM1MjNhNTk5LnBkZg%3D%3D"
+          }
+        ]
+      },
+      "takeaway": "以他轄為由要求被害人另赴管轄派出所，違反單一窗口。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "內政部114年第1季法規鬆綁成果（單一窗口修正）",
+          "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOoMTE05bm05bqm56ysMeWto%2Bmshue2geaIkOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTAwOS8zMjc5OTQvNzI2ODE1NmUtYzUwYS00NjhlLThiNWYtYmFiOWM1MjNhNTk5LnBkZg%3D%3D"
+        }
+      ]
+    },
+    {
+      "id": "scene110-10",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "procedure",
+      "title": "網路犯罪現場紙本亦可能是證據",
+      "stem": "你為刑事警察大隊科技偵查隊偵查佐，偵辦一件網路詐騙案，下列何項偵查作為錯誤？",
+      "options": [
+        {
+          "text": "隔離犯罪嫌疑人與犯罪證物",
+          "explanation": "隔離嫌疑人與數位證物可降低刪改、遠端操控或串證風險。",
+          "correction": "仍須依法控制人身，並採適當數位保全方式。",
+          "trueStatement": false
+        },
+        {
+          "text": "照相、錄影或繪製現場圖",
+          "explanation": "照相、錄影及圖示可保存設備連線與現場原貌。",
+          "correction": "記錄時間、位置、設備及接線狀態。",
+          "trueStatement": false
+        },
+        {
+          "text": "搜索現場檢視有無遺漏之儲存硬體",
+          "explanation": "依法搜索應檢視可能儲存資料的載體，避免只取桌面主機。",
+          "correction": "須在搜索票或法定無票例外範圍內執行。",
+          "trueStatement": false
+        },
+        {
+          "text": "桌邊小紙條、垃圾桶內之廢紙等文件紙張，與網路無關，毋須注意",
+          "explanation": "紙條或廢紙可能記載帳密、錢包地址、分工或通聯資訊，與網路案密切相關。",
+          "correction": "依關聯性檢視並合法扣押、編號封緘，不得一概忽略。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "initialAnswer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "110年內軌四等・警察情境實務概要・第10題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 10,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "none",
+        "note": "本次核對未確認與本題核心答案直接相關的考後修法差異；保留當年度官方答案，不表示所有相關SOP均無變動。",
+        "sources": [
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
+      },
+      "takeaway": "紙條或廢紙可能記載帳密、錢包地址、分工或通聯資訊，與網路案密切相關。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ]
+    },
+    {
+      "id": "scene110-11",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "procedure",
+      "title": "詢問犯罪嫌疑人的緘默權告知",
+      "stem": "某民眾告稱鄰居甲 10 天前搶奪他皮包，經依法通知調查，你對犯罪嫌疑人甲詢問筆錄時，下列程 序何者正確？",
+      "options": [
+        {
+          "text": "詢問時不宜告知甲所犯罪名",
+          "explanation": "刑訴95條權利告知包括犯罪嫌疑及所犯罪名；不能因尚未逮捕而免除詢問前的告知義務。",
+          "correction": "詢問前先告知涉嫌罪名，變更時再告知。",
+          "trueStatement": false
+        },
+        {
+          "text": "告訴甲得選任鑑定人",
+          "explanation": "可選任的是辯護人；鑑定人的選任及囑託不是被告四項告知之一。",
+          "correction": "改為得選任辯護人。",
+          "trueStatement": false
+        },
+        {
+          "text": "告訴甲得選任公設辯護人",
+          "explanation": "公設辯護人由法院指派，不能把得選任辯護人寫成選任公設辯護人。",
+          "correction": "改告知選任辯護人及符合法扶要件得請求之權利。",
+          "trueStatement": false
+        },
+        {
+          "text": "告知甲得保持緘默，無須違背自己之意思而陳述",
+          "explanation": "緘默權是不必違背自己意思陳述，應於詢問前明確告知。",
+          "correction": "連同罪名、辯護及有利證據調查權一併告知。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "initialAnswer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "110年內軌四等・警察情境實務概要・第11題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 11,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "none",
+        "note": "本次核對未確認與本題核心答案直接相關的考後修法差異；保留當年度官方答案，不表示所有相關SOP均無變動。",
+        "sources": [
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
+      },
+      "takeaway": "緘默權是不必違背自己意思陳述，應於詢問前明確告知。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ]
+    },
+    {
+      "id": "scene110-12",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "procedure",
+      "title": "住宅搜索票不當然涵蓋到場車輛",
+      "stem": "你是分局偵查佐，持法官核發之毒品案搜索票執行搜索，應搜索人甲，應扣押物為毒品等相關物 品，應加搜索處所為甲住處，抵達時甲及其友人乙、丙適駕車同返甲住處，下列處置何者錯誤？",
+      "options": [
+        {
+          "text": "得搜索對象僅限於甲",
+          "explanation": "原票載應搜索人甲；對乙丙不能僅以同行即援用甲的搜索票。另有刑訴122條第2項等搜索第三人的要件時，須個別審查。",
+          "correction": "限定本票的人身範圍，不可背成任何情形絕不能搜乙丙。",
+          "trueStatement": true
+        },
+        {
+          "text": "得依警察職權行使法盤查乙丙",
+          "explanation": "如有警職法6條個別事由，得查證乙丙身分；不能只因朋友身分當然盤查。",
+          "correction": "須指出合理懷疑等具體事實，並遵守7條措施界線。",
+          "trueStatement": true
+        },
+        {
+          "text": "得搜索範圍包含甲住處及車輛",
+          "explanation": "本票記載甲住處，不因車與甲同返便自動擴張到車輛。",
+          "correction": "車輛須另有票載範圍或合法無票搜索事由。",
+          "trueStatement": false
+        },
+        {
+          "text": "得搜索範圍僅限甲住處不含車輛",
+          "explanation": "就題示票載處所而言，以甲住處為限，車輛不當然包括。",
+          "correction": "仍應保留另有附帶、急迫或同意搜索等法定例外的審查。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "initialAnswer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "110年內軌四等・警察情境實務概要・第12題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 12,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "review",
+        "note": "已核搜索票範圍須依票載及法定例外個別審查。原卷A與B均有未明示的要件，不能讀成同行友人永不可搜索或一律可盤查；本題保留官方C，具體合法性依個案判斷。",
+        "sources": [
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "警察職權行使法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          }
+        ]
+      },
+      "takeaway": "本票記載甲住處，不因車與甲同返便自動擴張到車輛。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        }
+      ]
+    },
+    {
+      "id": "scene110-13",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "report",
+      "title": "堂兄弟家暴及撤回告訴仍移送",
+      "stem": "你轄區內有堂兄弟甲乙因相處不睦，衍生乙毆傷甲涉及刑法第 277 條第 1 項傷害案，你受理偵辦 本案，下列處置何者正確？",
+      "options": [
+        {
+          "text": "堂兄弟非屬家庭成員關係，不適用家庭暴力防治法相關規定",
+          "explanation": "堂兄弟為四親等旁系血親，屬家暴法3條家庭成員。",
+          "correction": "改為適用家庭暴力防治法。",
+          "trueStatement": false
+        },
+        {
+          "text": "甲表示暫不提告，免製作證人筆錄，但應提醒其告訴時效",
+          "explanation": "暫不告訴不等於免作紀錄或證人筆錄；家暴通報及保護措施仍須辦理。",
+          "correction": "記錄陳述與傷勢、告知六個月告訴期間並辦法定通報。",
+          "trueStatement": false
+        },
+        {
+          "text": "甲對乙提吿復撤回傷害吿訴，案件應移送檢察官核辦",
+          "explanation": "已提出又撤回告訴的案件，應將調查及撤回資料移送檢察官依法決定，不得由警察吃案。",
+          "correction": "本題無須修正；普通傷害通常屬告訴乃論，仍不由員警作不起訴。",
+          "trueStatement": true
+        },
+        {
+          "text": "甲對乙提吿，為減輕訟累，可協助甲乙 2 人向調解委員會聲請調解，案件免移送檢察官",
+          "explanation": "達成調解不使警察當然免除移送；並且家暴案件調解須注意被害人自主與安全。",
+          "correction": "保全證據並依法移送，附調解或撤告資料。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 2,
+      "initialAnswer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "110年內軌四等・警察情境實務概要・第13題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 13,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "none",
+        "note": "本次核對未確認與本題核心答案直接相關的考後修法差異；保留當年度官方答案，不表示所有相關SOP均無變動。",
+        "sources": [
+          {
+            "title": "家庭暴力防治法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
+          },
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
+      },
+      "takeaway": "已提出又撤回告訴的案件，應將調查及撤回資料移送檢察官依法決定，不得由警察吃案。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "家庭暴力防治法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ]
+    },
+    {
+      "id": "scene110-14",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "theory",
+      "title": "交通舉發時效與公告拍賣・官方組合給分",
+      "stem": "依道路交通管理處罰條例規定，有關舉發及處理相關時效之敘述，下列何者錯誤？",
+      "options": [
+        {
+          "text": "違反本條例之行為，自行為成立日起，逾 3 個月不得舉發",
+          "explanation": "原題將一般舉發期限寫成3個月；第90條原則是2個月，另有事故鑑定等特別起算例外。",
+          "correction": "3個月改為原則2個月，並另列法定例外。",
+          "trueStatement": false
+        },
+        {
+          "text": "違反本條例之行為，行為有連續或繼續之狀態者，自行為終了之日起，逾 3 個月不得舉發",
+          "explanation": "連續或繼續行為的起算點是終了日，但原則期限同樣不是3個月。",
+          "correction": "保留終了日起算，期限改原則2個月。",
+          "trueStatement": false
+        },
+        {
+          "text": "移置保管或扣留之車輛，經通知車輛所有人限期領回；屆期未領回或無法查明車輛所有人，經 公告 3 個月，仍無人認領者，由移置保管機關拍賣之",
+          "explanation": "原卷當時以公告3個月為適當；現行第85條之3已為公告1個月，不能沿用舊數字。",
+          "correction": "考試答案保留；現行改背公告1個月並核對施行日。",
+          "trueStatement": true
+        },
+        {
+          "text": "對於違反本條例之行為者，民眾得敘明違規事實或檢具違規證據資料，向公路主管或警察機關 檢舉，經查證屬實者，應即舉發，但行為終了日起逾 5 日之檢舉，不予舉發",
+          "explanation": "民眾檢舉排除期限不是5日，而是7日；現行另限法律列舉得檢舉態樣。",
+          "correction": "5日改7日，並檢查法定檢舉項目。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "initialAnswer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "110年內軌四等・警察情境實務概要・第14題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 14,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "changed",
+        "law": "道路交通管理處罰條例第7條之1、第85條之3、第90條",
+        "date": "2026-10-31",
+        "note": "本題官方更正接受A/B/D及其組合；並非各項現行皆正確。現行85條之3公告拍賣已為1個月，原卷C的3個月不可再當現行答案；7條之1另限可檢舉態樣。115.08.17修正85條之3自115.10.31施行。",
+        "oldRule": "原卷C使用公告3個月；A/B錯在一般舉發寫3個月，D錯在檢舉寫5日。",
+        "newRule": "一般舉發原則2個月（另有例外）；民眾檢舉終了後7日及列舉態樣；現行公告拍賣1個月。",
+        "sources": [
+          {
+            "title": "道路交通管理處罰條例（注意部分條文尚未生效）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+          }
+        ]
+      },
+      "takeaway": "民眾檢舉排除期限不是5日，而是7日；現行另限法律列舉得檢舉態樣。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "道路交通管理處罰條例（注意部分條文尚未生效）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+        }
+      ],
+      "acceptedAnswers": [
+        0,
+        1,
+        3
+      ],
+      "acceptedCombinations": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "correctionNote": "考選部最終更正：第14題答A或B或D或AB或AD或BD或ABD者均給分。原始標準答案D保留。這是本題特殊給分方式，並不代表A、B、D皆為正確敘述。"
+    },
+    {
+      "id": "scene110-15",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "powers",
+      "title": "酒醉管束至多二十四小時",
+      "stem": "你執行巡邏勤務時，發現路上一台速度緩慢且車行狀態顯不穩定的車輛，經鳴警笛示警攔下該車 後，發現駕駛人滿身酒味且意識不清，欲對其進行管束時所應注意的程序與措施，下列敘述何者 錯誤？",
+      "options": [
+        {
+          "text": "執行管束時，得檢查其身體及所攜帶之物",
+          "explanation": "依法管束時，警職法20條允許檢查身體及所攜帶物，以保護本人及現場安全。",
+          "correction": "此為管束附隨檢查，不能無限擴為刑事證據搜索。",
+          "trueStatement": true
+        },
+        {
+          "text": "若駕駛人醒來有抗拒或攻擊之行為，必要時得對其使用警銬或其他經核定之戒具",
+          "explanation": "遇抗拒、攻擊等，須依警職法20條及警銬規範審查戒具必要性。",
+          "correction": "不能以醒來或酒醉本身作為一律上銬理由。",
+          "trueStatement": true
+        },
+        {
+          "text": "應於危險或危害結束時終止管束，管束時間得視實際需要，尚無一定限制",
+          "explanation": "警職法19條第2項除危害結束即終止外，明訂最長不得逾24小時。",
+          "correction": "刪除尚無一定限制，改為至多24小時。",
+          "trueStatement": false
+        },
+        {
+          "text": "酒後駕車行為部分，則按其違反情節分依刑法或道路交通管理處罰條例等規定辦理",
+          "explanation": "管束與酒駕調查處罰的目的、要件不同，可分別依法辦理。",
+          "correction": "不得以管束取代合法逮捕或刑事採證程序。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "initialAnswer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "110年內軌四等・警察情境實務概要・第15題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 15,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "none",
+        "note": "本次核對未確認與本題核心答案直接相關的考後修法差異；保留當年度官方答案，不表示所有相關SOP均無變動。",
+        "sources": [
+          {
+            "title": "警察職權行使法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          }
+        ]
+      },
+      "takeaway": "警職法19條第2項除危害結束即終止外，明訂最長不得逾24小時。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        }
+      ]
+    },
+    {
+      "id": "scene110-16",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "theory",
+      "title": "電動自行車舊題與微型電動二輪車新制",
+      "stem": "依道路交通管理處罰條例規定，有關「慢車」種類中對「自行車」之敘述，下列何者正確？",
+      "options": [
+        {
+          "text": "自行車可分為電動輔助自行車及電動自行車 2 種",
+          "explanation": "自行車還包括腳踏自行車，不是僅兩種電動型式。",
+          "correction": "完整列腳踏、電動輔助及現稱微型電動二輪車。",
+          "trueStatement": false
+        },
+        {
+          "text": "電動自行車係指以電力為主，最大行駛速率在每小時 25 公里以下，且車重含電池在 40 公斤以 下之二輪車輛",
+          "explanation": "原項重量把電池計入40公斤不合當時定義；現行微型電動二輪車採不含電池40公斤或含電池60公斤。",
+          "correction": "更正名稱及車重條件，勿混不同版本。",
+          "trueStatement": false
+        },
+        {
+          "text": "電動輔助自行車係指以人力為主、電力為輔，最大行駛速率在每小時 25 公里以下，且車重在 20 公斤以下之二輪車輛",
+          "explanation": "電動輔助自行車原題20公斤不符法定40公斤。",
+          "correction": "20公斤改40公斤，仍須型式審驗及人力為主等要件。",
+          "trueStatement": false
+        },
+        {
+          "text": "電動輔助自行車及電動自行車應經檢測及型式審驗合格，並粘貼審驗合格標章後，始得行駛道路",
+          "explanation": "原題D是當時答案；111.11.30起電動自行車改名並納牌照管理，僅貼標章已不足。",
+          "correction": "電動輔助車依標章規定；微型電動二輪車另須登記領用懸掛牌照。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "initialAnswer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "110年內軌四等・警察情境實務概要・第16題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 16,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "changed",
+        "law": "道路交通管理處罰條例第69條、第71條之1及道路交通安全規則",
+        "date": "2022-11-30",
+        "note": "111.11.30起電動自行車更名微型電動二輪車並強制納牌照管理；既有車2年過渡期亦已屆滿。原卷D屬舊制答案，現行不能只背審驗合格標章即可上路。",
+        "oldRule": "原卷以電動自行車名稱及審驗標章規定命題。",
+        "newRule": "電動輔助車須審驗及標章；微型電動二輪車另須登記、領用及懸掛牌照，並遵守年齡及保險等要求。",
+        "sources": [
+          {
+            "title": "道路交通管理處罰條例（注意部分條文尚未生效）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+          },
+          {
+            "title": "交通部：111.11.30微型電動二輪車牌照管理",
+            "url": "https://168.motc.gov.tw/theme/ebike/post/2211292300003"
+          }
+        ]
+      },
+      "takeaway": "原題D是當時答案；111.11.30起電動自行車改名並納牌照管理，僅貼標章已不足。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "道路交通管理處罰條例（注意部分條文尚未生效）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+        },
+        {
+          "title": "交通部：111.11.30微型電動二輪車牌照管理",
+          "url": "https://168.motc.gov.tw/theme/ebike/post/2211292300003"
+        }
+      ]
+    },
+    {
+      "id": "scene110-17",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "dui",
+      "title": "肇事拒測採血不得逕套舊制",
+      "stem": "你正處理一件酒後駕車肇事案件，肇事駕駛甲帶有酒氣，但行為舉止正常，卻不願意配合實施呼 氣檢測，你將甲送交醫院實施抽血檢測，後續作為下列何者錯誤？",
+      "options": [
+        {
+          "text": "製作甲之談話紀錄表或調查筆錄",
+          "explanation": "應記錄肇事經過、拒測情形、告知程序及採血權源，作為後續調查依據。",
+          "correction": "筆錄不得省略採血合法性及檢察官許可等必要記載。",
+          "trueStatement": true
+        },
+        {
+          "text": "請甲抽血完成後先行返家，待醫院檢驗結果再行到案",
+          "explanation": "原卷以採血後逕讓返家、等結果再通知為不當；應依當時證據及合法留置、逮捕要件處理。",
+          "correction": "不能一律返家，也不能僅為等結果無法源留人；審查現行犯及其他法定依據。",
+          "trueStatement": false
+        },
+        {
+          "text": "製作「刑法第 185 條之 3 案件測試觀察紀錄表」",
+          "explanation": "不能安全駕駛跡證觀察可與濃度數值互補，應具體記錄。",
+          "correction": "不得只填主觀結論，須寫明言語、步態、駕駛狀況等客觀事實。",
+          "trueStatement": true
+        },
+        {
+          "text": "依道路交通管理處罰條例第 35 條舉發拒測",
+          "explanation": "符合拒測處罰要件及告知程序時，可行政舉發；不因抽血後得知結果而當然免除拒測。",
+          "correction": "先確認攔檢、要求檢測及拒測認定均合法。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "initialAnswer": 1,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "110年內軌四等・警察情境實務概要・第17題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 17,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "changed",
+        "law": "111年憲判字第1號、刑事訴訟法與道交條例強制採血規範",
+        "date": "2022-02-25",
+        "note": "110考後111憲判1宣告舊道交強制採血規範違憲，並設過渡程序。不得再把肇事拒測等同員警可不經審查直接抽血。截至核對日，115.08.17版道交35條第6及15項明定115.12.31才施行，不能提前當現行法；現行具體鑑定及強制採證權源須逐項核對。",
+        "oldRule": "原卷以舊取締SOP敘述將肇事拒測駕駛送醫抽血。",
+        "newRule": "須審查犯罪嫌疑、必要性、比例及有效法律權源／鑑定許可；不可只援用已失效舊條文，也不可把未生效條文提前適用。",
+        "sources": [
+          {
+            "title": "憲法法庭111年憲判字第1號",
+            "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=97&id=310024&rn=11092"
+          },
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "道路交通管理處罰條例（注意部分條文尚未生效）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+          }
+        ]
+      },
+      "takeaway": "原卷以採血後逕讓返家、等結果再通知為不當；應依當時證據及合法留置、逮捕要件處理。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "道路交通管理處罰條例（注意部分條文尚未生效）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "憲法法庭111年憲判字第1號",
+          "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=97&id=310024&rn=11092"
+        }
+      ]
+    },
+    {
+      "id": "scene110-18",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "theory",
+      "title": "刑案新聞不得任意公開兒少資料",
+      "stem": "你為分局偵查佐，主辦偵破一件對於社會治安有重大影響之組織犯罪集團案，在發布刑案新聞時， 必須注意遵守事項，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "因係檢察官指揮偵辦案件，故須先向檢察官報告",
+          "explanation": "已由檢察官指揮的偵查案件，警方發布前應先徵詢偵查機關意見。",
+          "correction": "不是單方面報告後即可發布全部內容。",
+          "trueStatement": true
+        },
+        {
+          "text": "落實發言人制度，由一定層級或指定人員發言",
+          "explanation": "應由機關發言人或個案指定者統一發布，避免各員警自行對媒體透露。",
+          "correction": "本題無須修正。",
+          "trueStatement": true
+        },
+        {
+          "text": "提供影音資料，須簽由首長層級核准",
+          "explanation": "原卷要求提供影音資料應經核准；另須審查公開必要與去識別化。",
+          "correction": "不得把核准當作免除禁止公開規定。",
+          "trueStatement": true
+        },
+        {
+          "text": "案件內容涉及兒童及少年部分，亦可發布",
+          "explanation": "涉及兒少的身分、案件資訊受偵查不公開及兒少保護規範限制，不能概括發布。",
+          "correction": "刪除亦可發布；依法審查可揭露範圍並保護身分。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "initialAnswer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "110年內軌四等・警察情境實務概要・第18題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 18,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "none",
+        "note": "本次核對未確認與本題核心答案直接相關的考後修法差異；保留當年度官方答案，不表示所有相關SOP均無變動。",
+        "sources": [
+          {
+            "title": "偵查不公開作業辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+          }
+        ]
+      },
+      "takeaway": "涉及兒少的身分、案件資訊受偵查不公開及兒少保護規範限制，不能概括發布。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "偵查不公開作業辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+        }
+      ]
+    },
+    {
+      "id": "scene110-19",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "theory",
+      "title": "交通事故現場資料七日、初判三十日",
+      "stem": "依據 A1 及 A2 類道路交通事故處理作業程序規定，道路交通事故案件當事人或利害關係人，得 向警察機關申請閱覽或提供相關處理證明文件或資料，下列敘述何者正確？",
+      "options": [
+        {
+          "text": "於事故 10 日後始得申請閱覽或提供現場圖、現場照片",
+          "explanation": "現場圖及照片原則事故7日後申請，不是10日。",
+          "correction": "10日改7日；事故當場另可申請當事人登記聯單。",
+          "trueStatement": false
+        },
+        {
+          "text": "於事故 14 日後始得申請閱覽或提供現場圖、現場照片",
+          "explanation": "現場圖及照片不是須等14日。",
+          "correction": "改為事故7日後。",
+          "trueStatement": false
+        },
+        {
+          "text": "於事故 20 日後始得申請提供道路交通事故初步分析研判表",
+          "explanation": "初步分析研判表是事故30日後，不是20日。",
+          "correction": "20日改30日。",
+          "trueStatement": false
+        },
+        {
+          "text": "於事故 30 日後始得申請提供道路交通事故初步分析研判表",
+          "explanation": "原卷及道路交通事故處理辦法規定，事故30日後得申請初判表。",
+          "correction": "初判不是法院認定責任的最終裁判，仍得依法提出其他證據。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "initialAnswer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "110年內軌四等・警察情境實務概要・第19題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 19,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "none",
+        "note": "本次核對未確認與本題核心答案直接相關的考後修法差異；保留當年度官方答案，不表示所有相關SOP均無變動。",
+        "sources": [
+          {
+            "title": "道路交通事故處理辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080090"
+          }
+        ]
+      },
+      "takeaway": "原卷及道路交通事故處理辦法規定，事故30日後得申請初判表。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "道路交通事故處理辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080090"
+        }
+      ]
+    },
+    {
+      "id": "scene110-20",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "theory",
+      "title": "車速客觀跡證與單憑陳述的限制",
+      "stem": "甲駕駛小客車行經無號誌交岔路口，撞擊橫向穿越路口乙之機車，造成 A2 車禍，乙受傷送醫， 你獲報前往處理，目擊證人說甲車速度很快，甲稱時速只有 40 幾公里，下列何者無法有效釐清甲 車之行車速度？",
+      "options": [
+        {
+          "text": "測量甲車之煞車痕長度",
+          "explanation": "煞車痕長度結合路面摩擦等資料，可供專業分析估速。",
+          "correction": "不能只以長度單一數字不經計算就斷言車速。",
+          "trueStatement": true
+        },
+        {
+          "text": "調閱事故路口之監視器",
+          "explanation": "監視影像若有可靠時間與距離尺度，可分析車速。",
+          "correction": "應保存原檔、影格及現場尺度，避免只看視覺快慢。",
+          "trueStatement": true
+        },
+        {
+          "text": "測繪乙之機車倒地位置",
+          "explanation": "倒地位置與碰撞、滑移跡證可配合重建事故。",
+          "correction": "須合併車損及其他物證，不能單憑倒地點得精確速度。",
+          "trueStatement": true
+        },
+        {
+          "text": "製作甲與目擊證人筆錄",
+          "explanation": "原卷答案D：雙方互異或概括的陳述，不能單獨有效釐清實際車速。",
+          "correction": "陳述仍是證據線索，應與影像、痕跡及專業分析交互驗證，非一概無證據價值。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "initialAnswer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "110年內軌四等・警察情境實務概要・第20題",
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 20,
+      "answerStatus": "原卷、官方初答及最終更正已核",
+      "amendment": {
+        "status": "review",
+        "note": "本題官方D針對原情境的陳述不足以有效釐清車速。不是宣告人證完全無證據價值；精確估速仍須原始影像、跡證及專業重建，現場SOP最新原件待核。",
+        "sources": [
+          {
+            "title": "道路交通事故處理辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080090"
+          },
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
+      },
+      "takeaway": "原卷答案D：雙方互異或概括的陳述，不能單獨有效釐清實際車速。",
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "道路交通事故處理辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080090"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ]
+    }
+  ],
+  "essays": [
+    {
+      "id": "scene110-e1",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "report",
+      "title": "110申論1：機車置物箱皮包遭竊之受理與現場處置",
+      "prompt": "婦人甲急促跑來派出所報案，稱其機車置物箱內的皮包遭竊，內有身分 證、信用卡、金融卡等重要證件，且發現置物箱鎖已遭破壞，遺留一把 疑似作案之工具，你擔服備勤勤務，奉派前往處理，針對全案你應如何 處置？（20 分）",
+      "points": 20,
+      "minutes": 25,
+      "allocation": [
+        {
+          "title": "機車置物箱皮包遭竊之受理與現場處置（題內未細分配分）",
+          "points": 20
+        }
+      ],
+      "lawIds": [],
+      "model": {
+        "intro": "婦人財物遭竊且現場遺留疑似工具，應立即受理並派員保全現場，兼顧被害人證件風險、證物完整與後續追查。",
+        "basis": "依刑事訴訟法第230、231條調查犯罪、第242條受理言詞告訴告發製作筆錄及合法搜索扣押規定辦理；實體犯罪先審查刑法第320條，是否有第321條加重事由須按工具性質及安全設備等具體判斷，不因「鎖壞」即一律加重。跨轄受理與移轉依現行單一窗口要點。",
+        "analysis": "一、立即受理、迅速反應\n（一）安撫甲並詳詢停車、最後確認財物、發現失竊時間及可疑人車，登錄受理資料，依法製作筆錄並開具受（處）理案件證明單。\n（二）立刻通報指揮中心，告知失物與嫌疑特徵；如尚有追緝可能，協調線上警網查緝。\n（三）提醒甲向發卡銀行停止信用卡、金融卡功能及處理可能盜刷，身分證遺失向戶政等主管機關申報，並保留必要憑證；不得以先掛失為由延後受理。\n二、到場勘察與證物保全\n（一）確認安全，劃定必要保護範圍，禁止不必要觸碰車廂、破鎖及疑似作案工具，紀錄現場原貌。\n（二）請鑑識支援，先攝影、定位、測繪，再以適當方法採取指紋、DNA、工具痕等；工具及其他證物分別編號、包裝、封緘，保持保管鏈，避免被害人徒手拿取。\n（三）依有利及不利一律注意原則，記錄損壞、財物清單、價值及所有權，不為求加重而逕稱工具一定是兇器。\n三、調查與後續\n（一）調閱監視器，訪查目擊者及附近店家，釐清犯嫌動線與時間，依法查扣贓證物並聯繫相關單位。\n（二）跨轄仍先受理及必要處置，再依114版單一窗口完成管轄判斷、核准與移轉，不能請甲自行重報。\n（三）將調查及卷證依法陳報移送，通知必要進度與被害協助資源，注意個資及偵查不公開。",
+        "conclusion": "應以迅速受理、現場保全、合法蒐證及被害關懷貫穿全案，依具體事實認定犯罪並遵守比例原則，兼顧偵查效能與人民權益。"
+      },
+      "checklist": [
+        "受理與證件風險處置",
+        "現場勘察與證物保全",
+        "偵查追緝與被害關懷",
+        "法律依據與現行版本已核對",
+        "結語回扣依法行政、比例原則與人民權益"
+      ],
+      "verified": true,
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 1,
+      "origin": "110年內軌四等・警察情境實務概要・申論第1題",
+      "amendment": {
+        "status": "changed",
+        "law": "單一窗口實施要點及犯罪被害人權益保障制度",
+        "date": "2025-01-13",
+        "note": "原卷題意保留；受理與跨轄移轉改依114.01.13版單一窗口。112年全修犯保制度亦須併用；不以舊報案聯單或舊移轉程序當現行。",
+        "oldRule": "110年刑案受理與被害保護規範。",
+        "newRule": "依現行受（處）理案件證明單、114版移轉及犯保制度；現場搜證及犯罪認定仍依個別法律。",
+        "sources": [
+          {
+            "title": "內政部114年第1季法規鬆綁成果（單一窗口修正）",
+            "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOoMTE05bm05bqm56ysMeWto%2Bmshue2geaIkOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTAwOS8zMjc5OTQvNzI2ODE1NmUtYzUwYS00NjhlLThiNWYtYmFiOWM1MjNhNTk5LnBkZg%3D%3D"
+          },
+          {
+            "title": "犯罪被害人權益保障法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050005"
+          },
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "內政部114年第1季法規鬆綁成果（單一窗口修正）",
+          "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOoMTE05bm05bqm56ysMeWto%2Bmshue2geaIkOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTAwOS8zMjc5OTQvNzI2ODE1NmUtYzUwYS00NjhlLThiNWYtYmFiOWM1MjNhNTk5LnBkZg%3D%3D"
+        },
+        {
+          "title": "中華民國刑法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+        }
+      ]
+    },
+    {
+      "id": "scene110-e2",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "chase",
+      "title": "110申論2：夜間路檢攔停之要件、態樣與措施",
+      "prompt": "夜間你與派出所警網在轄區執行路檢勤務，依任務分配擔任攔車的工作， 當一切就緒，開始執行攔車，判斷來車是否攔停之要件為何？試舉出三種 判斷要攔停的具體態樣，當車輛經攔停後，得實施那些措施？（20 分）",
+      "points": 20,
+      "minutes": 25,
+      "allocation": [
+        {
+          "title": "夜間路檢攔停之要件、態樣與措施（題內未細分配分）",
+          "points": 20
+        }
+      ],
+      "lawIds": [],
+      "model": {
+        "intro": "夜間路檢不表示警察取得無限制攔車權，應先辨明身分查證或危害交通工具攔停的法定依據，再採必要措施。",
+        "basis": "警察職權行使法第6條、第7條規範身分查證；第8條規範對已發生危害或依客觀合理判斷易生危害交通工具的攔停；第3、4條分別要求比例原則、表明身分及告知事由。指定路段依第6條第2項的目的與主管長官權限辦理。",
+        "analysis": "一、攔停要件與具體態樣\n（一）如為第8條，應有客觀事實足以判斷交通工具已發生或易生危害，不能只憑主觀好惡。若另依第6條查證人車身分，須符合各款之一；指定路段亦須依法指定。\n（二）例一：車輛蛇行、左右飄移且反覆急煞，可能危及來往車輛。例二：載物顯著偏斜或掉落、車身搖晃，易生碰撞危害。例三：車輛擦撞路旁物仍勉強行進，駕駛反應遲鈍且操控失常。各例均須記錄當時可觀察的行為與環境，不以事後結果倒補理由。\n二、攔停後措施\n（一）依第8條第1項，得要求駕駛人或乘客出示相關證件或查證身分、檢查引擎車身號碼等識別特徵、要求駕駛人接受酒精濃度測試。\n（二）依第8條第2項，因駕駛人或乘客異常舉動而合理懷疑將有危害行為，始得強制離車；有事實足認有犯罪之虞，始得檢查交通工具。離車與檢車是不同門檻，不可只因不合作便一概搜索。\n（三）如依第6、7條查證身分，可詢問法定身分事項及令出示證件；安全檢查須有明顯事實足認攜有危險物。顯然無法查證時才得帶往，非抗拒不得用強制力，自攔停起不得逾3小時，報告指揮中心並通知指定親友或律師。\n（四）依法告知、全程適當蒐證，安排安全攔停位置及警戒；目的達成即終止，當場異議依法處理。",
+        "conclusion": "攔停須有可說明的事實及法律依據，各措施應逐一符合要件，以最小侵害達成目的，避免把路檢、盤查與刑事搜索混為一談。"
+      },
+      "checklist": [
+        "攔停法定要件與三種具體態樣",
+        "攔停後得採措施及程序",
+        "法律依據與現行版本已核對",
+        "結語回扣依法行政、比例原則與人民權益"
+      ],
+      "verified": true,
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 2,
+      "origin": "110年內軌四等・警察情境實務概要・申論第2題",
+      "amendment": {
+        "status": "none",
+        "note": "法定核心要件已依現行法核對；本擬答為本站編寫，題內未細分各段配分，不冒稱考選部標準答案。",
+        "sources": [
+          {
+            "title": "警察職權行使法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        }
+      ]
+    },
+    {
+      "id": "scene110-e3",
+      "subject": "警察情境實務",
+      "paperSubject": "警察情境實務",
+      "topic": "theory",
+      "title": "110申論3：夜店多人互毆的制止、蒐證與移送",
+      "prompt": "你是分局偵查隊小隊長，接獲分局通報率領值班小隊會同線上派遣之派 出所員警同仁，前往防制街頭聚眾鬥毆，發現夜店內有民眾甲等 6 人與 乙等 10 人，飲酒後發生口角爭吵，進而相互鬥毆；你於現場應該如何處 理？又其相關之法律依據為何？（20 分）",
+      "points": 20,
+      "minutes": 25,
+      "allocation": [
+        {
+          "title": "夜店多人互毆的制止、蒐證與移送（題內未細分配分）",
+          "points": 20
+        }
+      ],
+      "lawIds": [],
+      "model": {
+        "intro": "夜店兩方共16人互毆，應先控制現場、救護傷患與避免再生衝突，再就各人的實際參與、犯罪及違序行為分別處理。",
+        "basis": "刑法第149、150條聚眾妨害秩序、第277條傷害及第283條聚眾鬥毆致重傷死亡等，均須依具體要件審查；刑事訴訟法第88條現行犯逮捕及第95條準用的權利告知等程序應遵守；警職法第19、20條管束及社維法第42、87條另有各自要件。",
+        "analysis": "一、現場指揮與制止\n（一）立即向勤務指揮中心回報人數、武器、傷患及場地，請求足夠警力與消防支援，設置單一指揮、出入口警戒及安全救護動線。\n（二）表明身分並命停止暴力，以必要、合比例方法隔離兩方，控制危險物；符合警械或戒具要件始使用，不得對已受控制者報復施力。救護優先並保存救護前可即時固定的現場狀況。\n二、分辨法律要件及人身措施\n（一）夜店通常屬公眾得出入場所；若3人以上有聚集共同施強暴脅迫等情形，依刑法150條區分首謀、下手實施及在場助勢。旁觀或無關人員不得僅在場即視為共犯。\n（二）調查有無傷害、持械及其他犯罪；第283條尚須聚眾鬥毆致人死或重傷等要件，不能因多人打架便一律適用。普通傷害的告訴要件與公訴罪應分開處理，撤告亦不免其他犯罪偵辦。\n（三）現行犯罪依刑訴88條合法逮捕；如屬現行互毆違序，依社維法42條處理。警職法19條管束限非管束不能預防傷害等必要情形，危害結束即終止且至多24小時，不能藉管束規避逮捕程序。\n三、蒐證、移送及保障\n（一）全程蒐證、保全店內外監視器，查扣兇器及相關物證，分別詢問各方與目擊者，製作傷勢、行為、位置及參與分工紀錄。\n（二）被逮捕者告知理由及訴訟權利，通知指定親友，依個別危險使用戒具；保障就醫及辯護，依法完成解送與移送。\n（三）依刑案通報及現行群聚暴力SOP續處，保護被害人與證人，對外說明遵守偵查不公開。",
+        "conclusion": "應在有效制止暴力同時，逐人判斷構成要件及人身處分法源，不以群體標籤概括逮捕，以依法行政、比例原則及人權保障完成現場處理。"
+      },
+      "checklist": [
+        "安全指揮與即時制止",
+        "犯罪、違序及人身措施判斷",
+        "蒐證、移送及後續通報",
+        "法律依據與現行版本已核對",
+        "結語回扣依法行政、比例原則與人民權益"
+      ],
+      "verified": false,
+      "paperYear": 110,
+      "paperTrack": "內軌",
+      "paperNumber": 3,
+      "origin": "110年內軌四等・警察情境實務概要・申論第3題",
+      "amendment": {
+        "status": "review",
+        "note": "聚眾犯罪、現行犯、管束及違序核心法源已核；現行防制街頭聚眾鬥毆SOP的完整步驟與通報層級未取得原件，擬答不得當作逐字SOP。",
+        "sources": [
+          {
+            "title": "中華民國刑法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+          },
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "警察職權行使法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          },
+          {
+            "title": "社會秩序維護法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "考選部110年內軌四等警察情境實務概要原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "考選部最終更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "中華民國刑法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "社會秩序維護法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+[
+  {
+    "eventId": "legal-correction-20261110-thirdparty-12",
+    "kind": "update",
+    "checkedAt": "2026-11-10",
+    "summary": "修正114年內軌警察情境實務第12題解析：遴選第三人應經該管警察局長或警察分局長核准，補齊期間與延長次數；保留原題及官方答案D。此為本站解析勘誤，非宣稱本日修法。",
+    "sources": [
+      {
+        "title": "警察職權行使法第13條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?PCode=D0080145&FLNO=13"
+      },
+      {
+        "title": "警察遴選第三人蒐集資料辦法第2條、第6條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "scene114-12",
+        "amendment": {
+          "status": "changed",
+          "law": "警察職權行使法第13條、警察遴選第三人蒐集資料辦法第2條及第6條",
+          "checkedAt": "2026-11-10",
+          "effectiveStatus": "in-force",
+          "note": "本站原解析把核准層級誤寫為僅警察局長，並誤引警職法第12條；本次已依現行正式條文更正。這是解析勘誤，並非宣稱本日修法。保留原題及官方答案D。",
+          "oldRule": "本站舊解析：須警察局長核准，並將核准層級歸為警職法第12條。",
+          "newRule": "警職法第13條及遴選辦法第2條：應經該管警察局長或警察分局長核准；辦法第6條規定期間不得逾1年，得於屆滿前報准延長1次，延長不得逾1年。",
+          "sources": [
+            {
+              "title": "警察職權行使法第13條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?PCode=D0080145&FLNO=13"
+            },
+            {
+              "title": "警察遴選第三人蒐集資料辦法第2條、第6條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+            }
+          ]
+        },
+        "verified": true,
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "遴選第三人秘密蒐集資料，須依警職法第13條及遴選辦法第2條辦理核准，不能由小隊長口頭賦予身分即實施。",
+            "correction": "以書面敘明法定事項，陳報該管警察局長或警察分局長核准後實施。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "警職法第13條及遴選辦法第2條規定的核准層級為該管警察局長或警察分局長，不是僅由偵查隊隊長核准。",
+            "correction": "將「偵查隊隊長」改為「該管警察局長或警察分局長」。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "依遴選辦法第6條，蒐集期間不得逾1年；有繼續必要時，得於屆滿前報准延長，延長不得逾1年且以1次為限。",
+            "correction": "改為初次不得逾1年；屆滿前報准延長以1次、最長1年為限。",
+            "trueStatement": false
+          }
+        ],
+        "takeaway": "遴選第三人須局長或分局長核准；期間1年，依法延長1次最多1年。"
+      }
+    ],
+    "createdAt": 1794315242294
+  },
+  {
+    "eventId": "legal-update-20261111-thirdperson-noise",
+    "kind": "update",
+    "checkedAt": "2026-11-11",
+    "summary": "核對警職法、遴選第三人辦法、社維及主管法規、道路交通分段施行與考選部目錄。更正111外軌法規23、112內軌法規20、113內軌法規2的法源與解析；保留原題和當年官方答案，屬本站勘誤，非本日修法。114情境申論第1題與社維72法條卡補註：案件處理辦法第11條仍引舊第3款，與母法現行噪音第2款未同步，正式銜接解釋待核。115年8月修正道交35部分條款已於115.10.31施行、其第6及15項115.12.31施行；其他逐年修正仍須分辨。單一窗口、失蹤人口、解送、追緝與越區內規未取得完整現行原件處保留待核。",
+    "sources": [
+      {
+        "title": "全國法規資料庫・警察職權行使法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+      },
+      {
+        "title": "總統府・警察職權行使法92年制定及施行日",
+        "url": "https://www.president.gov.tw/Page/294/33110"
+      },
+      {
+        "title": "全國法規資料庫・警察遴選第三人蒐集資料辦法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+      },
+      {
+        "title": "全國法規資料庫・社會秩序維護法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+      },
+      {
+        "title": "全國法規資料庫・違反社會秩序維護法案件處理辦法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+      },
+      {
+        "title": "全國法規資料庫・道路交通管理處罰條例",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0040012"
+      },
+      {
+        "title": "行政院公報・道路交通管理處罰條例分段施行令",
+        "url": "https://gazette.nat.gov.tw/egFront/e_detail.do?metaid=169134"
+      },
+      {
+        "title": "考選部111年考畢試題目錄",
+        "url": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=111070&y=2022"
+      },
+      {
+        "title": "考選部112年考畢試題目錄",
+        "url": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=112070&y=2023"
+      },
+      {
+        "title": "考選部113年考畢試題目錄",
+        "url": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=113060&y=2024"
+      },
+      {
+        "title": "考選部114年考畢試題目錄",
+        "url": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=114060&y=2025"
+      },
+      {
+        "title": "考選部115年考畢試題目錄",
+        "url": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=115060&y=2026"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "law111-outer-23",
+        "amendment": {
+          "status": "changed",
+          "law": "警察職權行使法第12、13條及警察遴選第三人蒐集資料辦法第2、3、12條",
+          "date": "2003-06-25制定公布",
+          "effectiveDate": "警職法第12、13條自2003-12-01施行；遴選辦法現行條文依所列法規資料庫核對",
+          "effectiveStatus": "in-force",
+          "checkedAt": "2026-11-11",
+          "oldRule": "本站舊解析將敘明原因、局長或分局長核准誤標為警職法第12條。",
+          "newRule": "第12條規定遴選目的、對象及第三人身分；敘明原因及局長或分局長核准為第13條，書面事項見遴選辦法第2條。",
+          "note": "本站解析勘誤，並非宣稱2026年新修法；原題、選項及當年官方答案C均保留。",
+          "sources": [
+            {
+              "title": "全國法規資料庫・警察職權行使法第12、13條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+            },
+            {
+              "title": "全國法規資料庫・警察遴選第三人蒐集資料辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+            },
+            {
+              "title": "總統府92年警察職權行使法制定公布原文與施行日",
+              "url": "https://www.president.gov.tw/Page/294/33110"
+            }
+          ]
+        },
+        "verified": true,
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "錯誤。遴選辦法第3條查核忠誠度及信賴度、工作及生活背景、合作意願及動機，並未列學歷為必備條件。",
+            "correction": "改為查核忠誠度及信賴度、工作及生活背景、合作意願及動機。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "錯誤。依警職法第12條第3項，不給予第三人任何名義及證明文件；得支給實際需要工作費用。",
+            "correction": "刪除應發證明文件；得依規定支給實際需要工作費用。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "正確。警職法第13條規定敘明原因事實，經該管警察局長或警察分局長核准；第12條則規定遴選要件與第三人身分。",
+            "correction": "原選項無須修正；法源應引警職法第13條及遴選辦法第2條。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "錯誤。遴選辦法第12條第2項規定經費由各警察機關自行編列預算支應。",
+            "correction": "改為由各警察機關自行編列預算支應。",
+            "trueStatement": false
+          }
+        ],
+        "takeaway": "警職法第12條管遴選要件，第13條管敘明原因及局長或分局長核准。"
+      },
+      {
+        "targetId": "law112-inner-20",
+        "amendment": {
+          "status": "changed",
+          "law": "警察職權行使法第13條、警察遴選第三人蒐集資料辦法第6條",
+          "date": "2003-06-25警職法制定公布",
+          "effectiveDate": "警職法第13條自2003-12-01施行；遴選辦法第6條為現行規定",
+          "effectiveStatus": "in-force",
+          "checkedAt": "2026-11-11",
+          "oldRule": "本站舊解析籠統稱續行必須「重新具備事由並核准」，未區分期間屆滿前延長與工作結束後繼續合作。",
+          "newRule": "期間屆滿前延長依遴選辦法第6條；工作結束後，須新發生警職法第12條第1項原因事實、有繼續必要且經核准，始得依第13條第2項繼續合作。",
+          "note": "本站解析澄清，並非宣稱2026年新修法；原題、原選項與當年官方答案C保留。",
+          "sources": [
+            {
+              "title": "全國法規資料庫・警察職權行使法第12、13條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+            },
+            {
+              "title": "全國法規資料庫・警察遴選第三人蒐集資料辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+            },
+            {
+              "title": "總統府92年警察職權行使法制定公布原文與施行日",
+              "url": "https://www.president.gov.tw/Page/294/33110"
+            }
+          ]
+        },
+        "verified": true,
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "錯誤。警職法第13條規定經該管警察局長或警察分局長核准，分局長有法定核准權。",
+            "correction": "改為該管警察局長或警察分局長有核准權。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "線民是依法秘密合作第三人，不能直接套用義警身分與權限。",
+            "correction": "線民是依法秘密合作第三人，不能直接套用義警身分與權限。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "資料應保密建檔並指定專人依法管理、銷毀，不能由承辦人自行留用。",
+            "correction": "無須修正；依題示及當年度法制判斷。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "錯誤。遴選辦法第6條規定初次期間不得逾1年；有繼續蒐集必要時，須在期滿前報准，得延長1次且不逾1年。蒐集工作結束後的新事由繼續合作，另依警職法第13條第2項。",
+            "correction": "改為期間不得逾1年；有繼續必要時，期滿前報准延長以1次、不逾1年為限。",
+            "trueStatement": false
+          }
+        ],
+        "takeaway": "資料應保密建檔並指定專人依法管理、銷毀，不能由承辦人自行留用。"
+      },
+      {
+        "targetId": "law113-inner-02",
+        "amendment": {
+          "status": "changed",
+          "law": "警察職權行使法第12、13條及警察遴選第三人蒐集資料辦法第2、11條",
+          "date": "2003-06-25警職法制定公布",
+          "effectiveDate": "警職法第12、13條自2003-12-01施行；遴選辦法依現行條文核對",
+          "effectiveStatus": "in-force",
+          "checkedAt": "2026-11-11",
+          "oldRule": "本站舊解析僅稱不給「可供行使警察權」的證明文件，文字可能誤使讀者以為其他證明可以發給。",
+          "newRule": "警職法第12條第3項明文不給任何名義及證明文件；得支給實際需要工作費用。",
+          "note": "已取得警職法與遴選辦法正式全文，修正本站解析，並非宣稱2026年新修法；原題、原選項及當年官方答案C保留。",
+          "sources": [
+            {
+              "title": "全國法規資料庫・警察職權行使法第12、13條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+            },
+            {
+              "title": "全國法規資料庫・警察遴選第三人蒐集資料辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+            },
+            {
+              "title": "總統府92年警察職權行使法制定公布原文與施行日",
+              "url": "https://www.president.gov.tw/Page/294/33110"
+            }
+          ]
+        },
+        "verified": true,
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "正確。警職法第12條第3項所稱第三人，指非警察人員、經警察遴選且志願合作之人，俗稱線民。",
+            "correction": "原選項無須修正；完整定義須具經遴選且志願合作。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "正確。警職法第13條及遴選辦法第2條明定應經該管警察局長或警察分局長核准。",
+            "correction": "原選項無須修正；應敘明原因事實並依書面程序辦理。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "錯誤。警職法第12條第3項規定不給予第三人任何名義及證明文件，不限於可供行使警察權的證件；得支給實際需要工作費用。",
+            "correction": "改為除得支給實際需要工作費用外，不給予任何名義及證明文件。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "正確。依遴選辦法第11條，資料應注意保密、專案建檔並指定專人依機密檔案管理辦法管理。",
+            "correction": "原選項無須修正；依辦法規定保密並專案建檔。",
+            "trueStatement": true
+          }
+        ],
+        "takeaway": "第三人得支給實際需要工作費用，不給任何名義及證明文件；核准為局長或分局長。"
+      },
+      {
+        "targetId": "scene114-e1",
+        "amendment": {
+          "status": "changed",
+          "note": "維持依現行社維法第72條第2款與不聽禁止要件作答。處理辦法第11條原文仍引第3款；其條次銜接的主管機關正式解釋待核，不能自行假稱子法已修正。原題及既有擬答保留。",
+          "checkedAt": "2026-11-11",
+          "sources": [
+            {
+              "title": "全國法規資料庫・社會秩序維護法第72條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+            },
+            {
+              "title": "全國法規資料庫・違反社會秩序維護法案件處理辦法第11條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+            },
+            {
+              "title": "總統府114年社維法修正公布",
+              "url": "https://www.president.gov.tw/Page/294/49902"
+            }
+          ],
+          "law": "社會秩序維護法第72條、違反社會秩序維護法案件處理辦法第11條",
+          "date": "2025-06-11公布",
+          "effectiveStatus": "in-force",
+          "effectiveDate": "2025-06-13（社維法第72條）",
+          "oldRule": "社維法舊第72條第3款規定製造噪音或深夜喧嘩，妨害公眾安寧。",
+          "newRule": "社維法現行第72條第2款增列不聽禁止；案件處理辦法第11條原文仍引用社維法第72條第3款，條次未同步。"
+        },
+        "model": {
+          "intro": "鄰居反覆彈奏鋼琴影響安寧，警方應即受理、到場查證並依法分流；不能只因白天或假日便認無權處理。",
+          "basis": "噪音管制法第6條；社會秩序維護法第72條第1項第2款；公寓大廈管理條例第16條第1項及第47條；民法相鄰關係及侵權行為規定。",
+          "analysis": "一、受理與查證\n記錄報案時間、地點、頻率、音源、持續情形、受影響住戶及過去反映情況；到場聽察、錄音錄影，訪談雙方及管委會，保存具體干擾事證，必要時通知主管單位協處。\n二、法律分流\n不具持續性或不易量測而足以妨害生活安寧之聲音，依噪音管制法第6條由警察依法處理；屬環境主管機關可依法管制、量測的音源，移請環保單位依法查處。不得僅憑音量感受便套用所有噪音罰則。\n三、制止與裁處\n就製造噪音妨害公眾安寧，先依法告誡制止，明確記錄要求、行為人反應及持續行為；符合社維法第72條第1項第2款「不聽禁止」等要件者，依法調查裁處。公寓大廈住戶妨害安寧，得由管理負責人或管委會制止，制止不從循公寓大廈管理條例報主管機關。\n四、後續追蹤\n告知甲保存紀錄、可用的調解與民事救濟；對反覆報案安排追蹤訪查、與管委會及環保單位聯繫，不得以民事糾紛推諉。",
+          "conclusion": "應依法行政，以比例原則制止並保全證據，兼顧居住安寧、音樂活動自由及正當程序。"
+        }
+      },
+      {
+        "targetId": "so72",
+        "amendment": {
+          "status": "changed",
+          "law": "社會秩序維護法第72條、違反社會秩序維護法案件處理辦法第11條",
+          "date": "114.06.11公布",
+          "effectiveStatus": "in-force",
+          "effectiveDate": "114.06.13（母法第72條）",
+          "checkedAt": "2026-11-11",
+          "oldRule": "舊第72條第3款：製造噪音或深夜喧嘩，妨害公眾安寧；罰鍰上限新臺幣六千元。",
+          "newRule": "現第72條第2款明定不聽禁止，罰鍰上限新臺幣一萬元；案件處理辦法第11條原文仍引用第3款，其銜接解釋待核。",
+          "note": "本條於114年修正，舊版題目應保留當年版本；已確認處理辦法第11條仍引舊款次，尚未取得主管機關對銜接的正式解釋，不推定子法文字已修正。",
+          "sources": [
+            {
+              "title": "總統府原制定條文",
+              "url": "https://www.president.gov.tw/Page/294/36975"
+            },
+            {
+              "title": "總統府114年修正公布令",
+              "url": "https://www.president.gov.tw/Page/294/49902"
+            },
+            {
+              "title": "全國法規資料庫・條文原文",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0080067&flno=72"
+            },
+            {
+              "title": "違反社會秩序維護法案件處理辦法第11條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+            }
+          ]
+        },
+        "lawContent": {
+          "original": "有下列各款行為之一者，處新臺幣一萬元以下罰鍰：\n一、於公共場所或公眾得出入之場所，酗酒滋事、謾罵喧鬧，不聽禁止者。\n二、製造噪音或深夜喧嘩，妨害公眾安寧，不聽禁止者。\n三、無正當理由，擅吹警笛或擅發其他警號者。",
+          "originalLabel": "法條原文・本條全文",
+          "core": "噪音或深夜喧嘩須妨害公眾安寧，且不聽禁止；裁罰上限為新臺幣一萬元。",
+          "points": [
+            "114年修法後噪音列第2款，並明定不聽禁止。",
+            "查處時紀錄妨害安寧及禁止後反應，並依權責與噪音管制法區分。"
+          ],
+          "traps": [
+            "舊資料的第3款與六千元上限不能直接當現行條文。",
+            "不是所有聲音或所有鄰里不快都當然構成違規。",
+            "案件處理辦法第11條仍寫社維法第72條第3款；母法現行噪音規定已改列第2款，兩者條次未同步，主管機關對銜接的正式解釋待核。"
+          ],
+          "memory": "噪音二款，妨安不聽，最高一萬。",
+          "scenario": "員警接獲噪音報案到場後，查明聲音、影響及制止情形，依法判斷而非只看時間。",
+          "version": "114.06.11修正公布・2026.11.11核對",
+          "verified": true,
+          "verificationNote": "依總統府公布原文及全國法規資料庫核對；案件處理辦法條次銜接的正式解釋待核。",
+          "sources": [
+            {
+              "title": "全國法規資料庫・條文原文",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0080067&flno=72"
+            },
+            {
+              "title": "總統府114年修正公布令",
+              "url": "https://www.president.gov.tw/Page/294/49902"
+            },
+            {
+              "title": "違反社會秩序維護法案件處理辦法第11條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+            }
+          ]
+        }
+      }
+    ],
+    "createdAt": 1794355906278
+  }
+]

@@ -1,0 +1,2113 @@
+{
+  "meta": {
+    "year": 113,
+    "track": "內軌",
+    "family": "警察法規",
+    "subject": "警察法規",
+    "exam": "警察人員考試四等考試行政警察人員",
+    "indexUrl": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=113060&y=2024",
+    "questionUrl": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1",
+    "answerUrl": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1",
+    "correctionUrl": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=113060&c=601&s=0902&q=1",
+    "paperSubject": "警察法規",
+    "selectionCount": 25,
+    "essayCount": 2,
+    "checkedAt": "2026-11-10",
+    "originalSubject": "警察法規概要",
+    "verificationNote": "原題及選項由官方PDF擷取；僅統一換行空白。申論為本站擬答，考選部未提供官方申論給分答案。"
+  },
+  "questions": [
+    {
+      "id": "law113-inner-01",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "weapons",
+      "title": "警棍沒入與訴願",
+      "stem": "警察人員查獲行為人單純持有警棍，警察機關之處理及行為人之救濟程序，下列敘述何者正確？",
+      "options": [
+        {
+          "text": "警察機關應作成沒入處分；行為人對該處分如有不服，應向該管簡易庭提起訴願",
+          "explanation": "單純持有警棍的沒入屬警械條例處分，非向簡易庭提訴願；法院也不受理訴願。",
+          "correction": "單純持有警棍的沒入屬警械條例處分，非向簡易庭提訴願；法院也不受理訴願。",
+          "trueStatement": false
+        },
+        {
+          "text": "警察機關應移請該管簡易庭裁處並沒入；行為人對該裁定如有不服，應向該管普通庭提起抗告",
+          "explanation": "本題不是社維法拘留移簡易庭案件，不能套用抗告程序。",
+          "correction": "本題不是社維法拘留移簡易庭案件，不能套用抗告程序。",
+          "trueStatement": false
+        },
+        {
+          "text": "警察機關應作成沒入處分；行為人對該處分如有不服，應向該管直轄市政府、縣（市）政府提 起訴願",
+          "explanation": "警察依警械條例沒入後，不服循行政爭訟，先向有權直轄市、縣市政府訴願。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "警察機關應作成沒入處分；行為人對該處分如有不服，應向該管簡易庭提起聲明異議",
+          "explanation": "聲明異議適用社維警察處分，不是所有警察沒入處分都適用。",
+          "correction": "聲明異議適用社維警察處分，不是所有警察沒入處分都適用。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": false,
+      "origin": "113年內軌四等｜警察法規概要｜第1題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 1,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "review",
+        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "警械使用條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+          },
+          {
+            "title": "警械使用事件補償辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+          }
+        ]
+      },
+      "takeaway": "警察依警械條例沒入後，不服循行政爭訟，先向有權直轄市、縣市政府訴願。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "警械使用條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+        },
+        {
+          "title": "警械使用事件補償辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-02",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "powers",
+      "title": "第三人秘密蒐集的文件",
+      "stem": "依警察職權行使法規定，有關遴選第三人秘密蒐集資料，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "第三人係指非警察人員，即俗稱之「線民」",
+          "explanation": "正確。警職法第12條第3項所稱第三人，指非警察人員、經警察遴選且志願合作之人，俗稱線民。",
+          "correction": "原選項無須修正；完整定義須具經遴選且志願合作。",
+          "trueStatement": true
+        },
+        {
+          "text": "利用線民秘密蒐集特定人資料，應經警察局長或分局長核准",
+          "explanation": "正確。警職法第13條及遴選辦法第2條明定應經該管警察局長或警察分局長核准。",
+          "correction": "原選項無須修正；應敘明原因事實並依書面程序辦理。",
+          "trueStatement": true
+        },
+        {
+          "text": "第三人秘密蒐集資料，運用機關應事前發給證明文件及工作費用",
+          "explanation": "錯誤。警職法第12條第3項規定不給予第三人任何名義及證明文件，不限於可供行使警察權的證件；得支給實際需要工作費用。",
+          "correction": "改為除得支給實際需要工作費用外，不給予任何名義及證明文件。",
+          "trueStatement": false
+        },
+        {
+          "text": "第三人蒐集之資料，應保密及建檔，並指定專人依法管理",
+          "explanation": "正確。依遴選辦法第11條，資料應注意保密、專案建檔並指定專人依機密檔案管理辦法管理。",
+          "correction": "原選項無須修正；依辦法規定保密並專案建檔。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "113年內軌四等｜警察法規概要｜第2題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 2,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "changed",
+        "law": "警察職權行使法第12、13條及警察遴選第三人蒐集資料辦法第2、11條",
+        "date": "2003-06-25警職法制定公布",
+        "effectiveDate": "警職法第12、13條自2003-12-01施行；遴選辦法依現行條文核對",
+        "effectiveStatus": "in-force",
+        "checkedAt": "2026-11-11",
+        "oldRule": "本站舊解析僅稱不給「可供行使警察權」的證明文件，文字可能誤使讀者以為其他證明可以發給。",
+        "newRule": "警職法第12條第3項明文不給任何名義及證明文件；得支給實際需要工作費用。",
+        "note": "已取得警職法與遴選辦法正式全文，修正本站解析，並非宣稱2026年新修法；原題、原選項及當年官方答案C保留。",
+        "sources": [
+          {
+            "title": "全國法規資料庫・警察職權行使法第12、13條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+          },
+          {
+            "title": "全國法規資料庫・警察遴選第三人蒐集資料辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+          },
+          {
+            "title": "總統府92年警察職權行使法制定公布原文與施行日",
+            "url": "https://www.president.gov.tw/Page/294/33110"
+          }
+        ]
+      },
+      "takeaway": "第三人得支給實際需要工作費用，不給任何名義及證明文件；核准為局長或分局長。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        },
+        {
+          "title": "全國法規資料庫・警察遴選第三人蒐集資料辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+        },
+        {
+          "title": "總統府92年警察職權行使法制定公布原文與施行日",
+          "url": "https://www.president.gov.tw/Page/294/33110"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-03",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "law_execute",
+      "title": "怠金的法定額度",
+      "stem": "有關行政執行法的行為或不行為義務之執行，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "代履行費用逾期未繳納者，移送法務部行政執行署所屬分署執行之",
+          "explanation": "代履行費用逾期未繳，屬公法金錢給付執行，移送分署。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "怠金之數額，上限為新臺幣 50 萬元，下限為新臺幣 3 千元",
+          "explanation": "一般怠金為五千元以上三十萬元以下，不是三千至五十萬元。",
+          "correction": "一般怠金為五千元以上三十萬元以下，不是三千至五十萬元。",
+          "trueStatement": false
+        },
+        {
+          "text": "經執行機關採取間接強制不能達成執行目的時，得依直接強制方法執行之",
+          "explanation": "間接強制不能達目的，符法定條件時得直接強制。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "經執行機關處以怠金，仍不履行其義務者，該執行機關得連續處以怠金",
+          "explanation": "怠金後仍不履行，得依法連續處怠金並審查比例。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "113年內軌四等｜警察法規概要｜第3題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 3,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "none",
+        "note": "已依下列官方現行法核對本題核心要件；未見足以改變此題判斷的條文差異。當年題目與答案另行保留，不以全法最後修正日推定每條均曾修正。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "行政執行法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+          }
+        ]
+      },
+      "takeaway": "一般怠金為五千元以上三十萬元以下，不是三千至五十萬元。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "行政執行法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-04",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "weapons",
+      "title": "警械合法使用損失補償",
+      "stem": "下列有關警械使用條例補償請求權之敘述，何者正確？",
+      "options": [
+        {
+          "text": "損失範圍限於生命、身體、財產或名譽",
+          "explanation": "法定補償法益為生命、身體、財產，不包含名譽。",
+          "correction": "法定補償法益為生命、身體、財產，不包含名譽。",
+          "trueStatement": false
+        },
+        {
+          "text": "請求權之主體為第三人；但第三人死亡者，由法定繼承人請求之",
+          "explanation": "第三人為請求主體，死亡時依補償辦法由法定繼承人請求。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "補償項目限於醫療費、喪葬費或慰撫金",
+          "explanation": "補償不限所列醫療、喪葬或慰撫金，還有失能、死亡及財產等法定項目。",
+          "correction": "補償不限所列醫療、喪葬或慰撫金，還有失能、死亡及財產等法定項目。",
+          "trueStatement": false
+        },
+        {
+          "text": "補償方式應以金錢為之，回復原狀為例外",
+          "explanation": "警械使用事件補償辦法第六條要求以金錢補償，並沒有本項所稱回復原狀例外，應刪除該例外。",
+          "correction": "警械使用事件補償辦法第六條要求以金錢補償，並沒有本項所稱回復原狀例外，應刪除該例外。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 1,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "113年內軌四等｜警察法規概要｜第4題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 4,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "none",
+        "note": "已依下列官方現行法核對本題核心要件；未見足以改變此題判斷的條文差異。當年題目與答案另行保留，不以全法最後修正日推定每條均曾修正。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "警械使用條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+          },
+          {
+            "title": "警械使用事件補償辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+          }
+        ]
+      },
+      "takeaway": "第三人為請求主體，死亡時依補償辦法由法定繼承人請求。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "警械使用條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+        },
+        {
+          "title": "警械使用事件補償辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-05",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "law_police",
+      "title": "行政協助的補充性",
+      "stem": "行政協助（職務協助）為警察依法促進人民福利之輔助任務，下列何者非屬行政協助的概念與 特徵？",
+      "options": [
+        {
+          "text": "以「基於請求」之方式為適用前提",
+          "explanation": "行政協助原則由其他機關依法提出請求，非自行取代其法定權限。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "僅限於公法上之行政行為，不包括私法行為",
+          "explanation": "行政協助是公法行政合作，不能將私法行為一概納入。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "因被請求機關主要是提供輔助性之行為，其目的則在協助請求機關完成主要行為，故不生管轄 權移轉之情形",
+          "explanation": "協助不移轉主要事項管轄權，請求與被請求機關各依權責。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "請求機關所要求之協助行為，屬被請求機關依法應執行之職務上行為",
+          "explanation": "原本就是被請求機關自己法定職務者，非本題補充協助；應與本於自己權限執行區分。",
+          "correction": "原本就是被請求機關自己法定職務者，非本題補充協助；應與本於自己權限執行區分。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "113年內軌四等｜警察法規概要｜第5題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 5,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "review",
+        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "警察法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+          },
+          {
+            "title": "警察法施行細則",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+          },
+          {
+            "title": "警察人員人事條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+          }
+        ]
+      },
+      "takeaway": "原本就是被請求機關自己法定職務者，非本題補充協助；應與本於自己權限執行區分。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "警察法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+        },
+        {
+          "title": "警察法施行細則",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+        },
+        {
+          "title": "警察人員人事條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-06",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "law_assembly",
+      "title": "不許可通知的申復訴願",
+      "stem": "室外集會、遊行之負責人，於收受直轄市政府、縣（市）政府警察局所屬分局不予許可之通知書 後，如有不服，其提起救濟之程序，下列敘述何者正確？",
+      "options": [
+        {
+          "text": "先向該管直轄市政府、縣（市）政府提起申復；倘仍不服申復之決定，向內政部提起訴願",
+          "explanation": "第一階段是向上級警察機關申復，不是向市縣政府申復。",
+          "correction": "第一階段是向上級警察機關申復，不是向市縣政府申復。",
+          "trueStatement": false
+        },
+        {
+          "text": "先向該管直轄市政府、縣（市）政府警察局提起申復；倘仍不服申復之決定，向內政部警政署 提起訴願",
+          "explanation": "警察局申復後，對分局原處分的訴願由有權市縣政府處理，不能逕向警政署。",
+          "correction": "警察局申復後，對分局原處分的訴願由有權市縣政府處理，不能逕向警政署。",
+          "trueStatement": false
+        },
+        {
+          "text": "先向該管直轄市政府、縣（市）政府警察局提起申復；倘仍不服申復之決定，向該管直轄市政 府、縣（市）政府提起訴願",
+          "explanation": "經原分局向警察局申復，仍不服循市縣政府訴願。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "先向內政部警政署提起申復；倘仍不服申復之決定，向內政部提起訴願",
+          "explanation": "不能跳過地方警察局，逕向警政署申復。",
+          "correction": "不能跳過地方警察局，逕向警政署申復。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "113年內軌四等｜警察法規概要｜第6題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 6,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "none",
+        "note": "已依下列官方現行法核對本題核心要件；未見足以改變此題判斷的條文差異。當年題目與答案另行保留，不以全法最後修正日推定每條均曾修正。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "集會遊行法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+          }
+        ]
+      },
+      "takeaway": "經原分局向警察局申復，仍不服循市縣政府訴願。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "集會遊行法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-07",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "law_execute",
+      "title": "集遊罰鍰移送執行",
+      "stem": "依現行實務運作，行為人違反集會遊行法規定而受罰鍰處分，經通知其繳納卻逾期不繳納者，其 後續之執行，警察機關應如何處理？",
+      "options": [
+        {
+          "text": "移送該管法院簡易庭強制執行",
+          "explanation": "法條舊稱法院強制執行須配合行政執行法新制，實務移分署。",
+          "correction": "法條舊稱法院強制執行須配合行政執行法新制，實務移分署。",
+          "trueStatement": false
+        },
+        {
+          "text": "移送行政法院強制執行",
+          "explanation": "一般公法金錢執行不是直接移行政法院。",
+          "correction": "一般公法金錢執行不是直接移行政法院。",
+          "trueStatement": false
+        },
+        {
+          "text": "移送普通法院強制執行",
+          "explanation": "不能照舊制逕送普通法院，應移行政執行分署。",
+          "correction": "不能照舊制逕送普通法院，應移行政執行分署。",
+          "trueStatement": false
+        },
+        {
+          "text": "移送法務部行政執行署所屬分署強制執行",
+          "explanation": "逾期未繳依法移法務部行政執行署所屬分署執行。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "113年內軌四等｜警察法規概要｜第7題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 7,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "none",
+        "note": "已依下列官方現行法核對本題核心要件；未見足以改變此題判斷的條文差異。當年題目與答案另行保留，不以全法最後修正日推定每條均曾修正。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "行政執行法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+          }
+        ]
+      },
+      "takeaway": "逾期未繳依法移法務部行政執行署所屬分署執行。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "行政執行法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-08",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "law_assembly",
+      "title": "申請機關與成年年齡",
+      "stem": "下列有關一般性室外集會、遊行，就申請前後事項之敘述，何者正確？",
+      "options": [
+        {
+          "text": "除經主管機關核准外，不得於交通部所劃定公告國際機場之周邊範圍 3 百公尺以內舉行室外集 會、遊行",
+          "explanation": "國際機場禁制區由內政部依法劃定，不是交通部。",
+          "correction": "國際機場禁制區由內政部依法劃定，不是交通部。",
+          "trueStatement": false
+        },
+        {
+          "text": "未滿 20 歲者，不得為應經許可之室外集會、遊行負責人",
+          "explanation": "成年年齡已自一一二年一月一日改十八歲，不能沿用二十歲限制。",
+          "correction": "成年年齡已自一一二年一月一日改十八歲，不能沿用二十歲限制。",
+          "trueStatement": false
+        },
+        {
+          "text": "負責人舉辦之室外集會、遊行，因跨越甲警察局所屬 A、B 分局及乙警察局所屬 C 分局，故負 責人應分別向甲警察局及 C 警察分局提出申請許可",
+          "explanation": "跨甲警察局兩分局向甲警察局申請；乙局僅一分局則向該分局申請。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "只要是申請室外集會、遊行之許可或不許可，均應由警察分局於收受申請書之日起 3 日內以書 面通知負責人",
+          "explanation": "一般申請通知期限為受理起三日，但法有緊急等例外，不能一概而論。",
+          "correction": "一般申請通知期限為受理起三日，但法有緊急等例外，不能一概而論。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "113年內軌四等｜警察法規概要｜第8題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 8,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "none",
+        "note": "已依下列官方現行法核對本題核心要件；未見足以改變此題判斷的條文差異。當年題目與答案另行保留，不以全法最後修正日推定每條均曾修正。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "集會遊行法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+          }
+        ]
+      },
+      "takeaway": "跨甲警察局兩分局向甲警察局申請；乙局僅一分局則向該分局申請。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "集會遊行法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-09",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "law_assembly",
+      "title": "違法集會的舉牌順序",
+      "stem": "有關於一般性之室外集會遊行，因未經申請許可而擅自舉行者，其該當集會遊行法第 29 條規定 行政刑罰之構成要件，就舉牌順序而言，下列何者正確？①警告 ②制止 ③命令解散",
+      "options": [
+        {
+          "text": "①→②→③",
+          "explanation": "警告後不是先制止再命解散，應依不同要件及程序分階段。",
+          "correction": "警告後不是先制止再命解散，應依不同要件及程序分階段。",
+          "trueStatement": false
+        },
+        {
+          "text": "②→③→①",
+          "explanation": "不能將警告置於制止、解散之後。",
+          "correction": "不能將警告置於制止、解散之後。",
+          "trueStatement": false
+        },
+        {
+          "text": "①→③→②",
+          "explanation": "原題一般未經許可集會的程序為警告、命令解散、不解散再制止；仍須排除緊急偶發及合憲限制。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "③→②→①",
+          "explanation": "直接以解散起始並將警告最後，顛倒法定程序。",
+          "correction": "直接以解散起始並將警告最後，顛倒法定程序。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": true,
+      "origin": "113年內軌四等｜警察法規概要｜第9題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 9,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "none",
+        "note": "已依下列官方現行法核對本題核心要件；未見足以改變此題判斷的條文差異。當年題目與答案另行保留，不以全法最後修正日推定每條均曾修正。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "集會遊行法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+          }
+        ]
+      },
+      "takeaway": "原題一般未經許可集會的程序為警告、命令解散、不解散再制止；仍須排除緊急偶發及合憲限制。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "集會遊行法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-10",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "law_order",
+      "title": "瓦斯噴霧器的違序處置",
+      "stem": "警察於道路上臨檢，發現行為人有攜帶瓦斯噴霧器時，應如何處置？",
+      "options": [
+        {
+          "text": "由警察機關處分沒入",
+          "explanation": "如符無正當理由攜帶危險器械等法定要件，因有拘留法定刑應移簡易庭，不是警察逕處沒入。",
+          "correction": "如符無正當理由攜帶危險器械等法定要件，因有拘留法定刑應移簡易庭，不是警察逕處沒入。",
+          "trueStatement": false
+        },
+        {
+          "text": "由警察機關移送該管簡易庭裁定",
+          "explanation": "原題以攜帶違序物品處理，移簡易庭；實際案件仍須認定用途、危險性及有無正當理由，非一律有罪。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "由警察機關移送該管普通庭裁定",
+          "explanation": "初始裁處為簡易庭，不是普通庭；普通庭主要受理抗告。",
+          "correction": "初始裁處為簡易庭，不是普通庭；普通庭主要受理抗告。",
+          "trueStatement": false
+        },
+        {
+          "text": "不罰",
+          "explanation": "不能一概不罰，但防身合理攜帶也不能僅憑物品名稱推定違法。",
+          "correction": "不能一概不罰，但防身合理攜帶也不能僅憑物品名稱推定違法。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 1,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": false,
+      "origin": "113年內軌四等｜警察法規概要｜第10題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 10,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "review",
+        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。114.06.11社維法僅修正第9、64、72、89條，須以具體引用條號確認影響，不能僅因全法修正就改原題答案。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "社會秩序維護法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+          },
+          {
+            "title": "違反社會秩序維護法案件處理辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+          }
+        ]
+      },
+      "takeaway": "原題以攜帶違序物品處理，移簡易庭；實際案件仍須認定用途、危險性及有無正當理由，非一律有罪。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "社會秩序維護法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+        },
+        {
+          "title": "違反社會秩序維護法案件處理辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-11",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "law_order",
+      "title": "藉端滋擾的實務要件",
+      "stem": "下列何者非屬成立社會秩序維護法「藉端滋擾」違序行為的構成要件？",
+      "options": [
+        {
+          "text": "無正當理由",
+          "explanation": "藉端滋擾重點在特定事端的不當擴大，非另以無正當理由作獨立必要要件。",
+          "correction": "藉端滋擾重點在特定事端的不當擴大，非另以無正當理由作獨立必要要件。",
+          "trueStatement": false
+        },
+        {
+          "text": "行為人有滋擾之本意",
+          "explanation": "須有滋擾的意思，不能只因對方不快即成立。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "行為人以言語、行動等方式，藉特定事端擴大發揮",
+          "explanation": "以言語行動藉特定事端擴大發揮，屬藉端要素。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "逾越特定事端在一般社會通念中可容許之合理範圍，而擾及安寧秩序，以致於難以維持或回復",
+          "explanation": "行為超出社會通念容許範圍並擾亂安寧秩序，始可能成立。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 0,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "113年內軌四等｜警察法規概要｜第11題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 11,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "review",
+        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。114.06.11社維法僅修正第9、64、72、89條，須以具體引用條號確認影響，不能僅因全法修正就改原題答案。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "社會秩序維護法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+          },
+          {
+            "title": "違反社會秩序維護法案件處理辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+          }
+        ]
+      },
+      "takeaway": "藉端滋擾重點在特定事端的不當擴大，非另以無正當理由作獨立必要要件。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "社會秩序維護法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+        },
+        {
+          "title": "違反社會秩序維護法案件處理辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-12",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "law_order",
+      "title": "社維罰鍰不得易拘留",
+      "stem": "依社會秩序維護法規定，違法行為之處罰，下列敍述何者錯誤？",
+      "options": [
+        {
+          "text": "行為不問出於故意或過失，均應處罰",
+          "explanation": "社維法原則故意過失均罰，但得依法減輕過失處罰。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "14 歲以上未滿 18 歲人及滿 70 歲人，得減輕處罰",
+          "explanation": "十四至未滿十八歲及滿七十歲得減輕，仍應核對特定處罰限制。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "行為逾 2 個月，警察機關不得訊問、處罰，並不得移送法院",
+          "explanation": "逾二個月不得訊問、處罰或移送法院，連續繼續行為自終了起算。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "罰鍰應於裁處確定之翌日起 10 日內完納，但逾期不完納得易以拘留",
+          "explanation": "罰鍰應依法完納、逾期移行政執行，不得因未繳易以拘留。",
+          "correction": "罰鍰應依法完納、逾期移行政執行，不得因未繳易以拘留。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "113年內軌四等｜警察法規概要｜第12題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 12,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "review",
+        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。114.06.11社維法僅修正第9、64、72、89條，須以具體引用條號確認影響，不能僅因全法修正就改原題答案。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "社會秩序維護法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+          },
+          {
+            "title": "違反社會秩序維護法案件處理辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+          }
+        ]
+      },
+      "takeaway": "罰鍰應依法完納、逾期移行政執行，不得因未繳易以拘留。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "社會秩序維護法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+        },
+        {
+          "title": "違反社會秩序維護法案件處理辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-13",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "law_order",
+      "title": "警察對簡易庭裁定的抗告",
+      "stem": "有關社會秩序維護法之救濟程序，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "被處罰人不服警察機關之處分者，得於處分書送達之翌日起 5 日內向該管簡易庭聲明異議",
+          "explanation": "不服警察處分於送達翌日起五日內，經原機關向簡易庭聲明異議。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "原處分之警察機關認為聲明異議無理由者，應於收受異議書狀之翌日起 3 日內，連同有關卷宗 送交該管簡易庭，並得添具意見書",
+          "explanation": "原警察機關認異議無理由，翌日起三日內連卷送簡易庭，得附意見。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "簡易庭就其事務管轄即警察機關應移送案件所為之裁定，原移送之警察機關如有不服，仍不得 向同法院普通庭提起抗告",
+          "explanation": "簡易庭就移送案件初次裁定，原移送警察機關依法亦得抗告，不能寫仍不得。",
+          "correction": "簡易庭就移送案件初次裁定，原移送警察機關依法亦得抗告，不能寫仍不得。",
+          "trueStatement": false
+        },
+        {
+          "text": "地方法院普通庭關於抗告案件之裁定，於裁定宣示或送達時確定",
+          "explanation": "普通庭關於抗告裁定於宣示或送達時確定。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "113年內軌四等｜警察法規概要｜第13題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 13,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "review",
+        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。114.06.11社維法僅修正第9、64、72、89條，須以具體引用條號確認影響，不能僅因全法修正就改原題答案。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "社會秩序維護法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+          },
+          {
+            "title": "違反社會秩序維護法案件處理辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+          }
+        ]
+      },
+      "takeaway": "簡易庭就移送案件初次裁定，原移送警察機關依法亦得抗告，不能寫仍不得。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "社會秩序維護法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+        },
+        {
+          "title": "違反社會秩序維護法案件處理辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-14",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "powers",
+      "title": "戒具的個別必要性",
+      "stem": "依警察職權行使法規定，警察對人民得使用警銬或戒具之時機，下列敍述何者錯誤？",
+      "options": [
+        {
+          "text": "抗拒留置或管束措施",
+          "explanation": "抗拒留置或管束時，仍須符合使用戒具必要性。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "攻擊警察或他人",
+          "explanation": "攻擊警察或他人時，得依法採必要戒具控制。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "自殺或自傷",
+          "explanation": "自殺、自傷風險得作戒具使用事由，應個別評估。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "老年人或身心障礙者，不論其所犯罪名輕重，均得使用戒具",
+          "explanation": "年老或身心障礙本身不是普遍用戒具理由，須就危險與法定事由個案判斷。",
+          "correction": "年老或身心障礙本身不是普遍用戒具理由，須就危險與法定事由個案判斷。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "113年內軌四等｜警察法規概要｜第14題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 14,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "none",
+        "note": "已依下列官方現行法核對本題核心要件；未見足以改變此題判斷的條文差異。當年題目與答案另行保留，不以全法最後修正日推定每條均曾修正。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "警察職權行使法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+          }
+        ]
+      },
+      "takeaway": "年老或身心障礙本身不是普遍用戒具理由，須就危險與法定事由個案判斷。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-15",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "weapons",
+      "title": "警棍與槍械的不同門檻",
+      "stem": "警察人員執行職務時，得使用警槍之時機，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "執行搜索、扣押、拘提及逮捕等須以強制力執行時",
+          "explanation": "搜索扣押拘提逮捕須強制力一般先屬警棍要件；槍械另須暴力抗拒等法定較高門檻。",
+          "correction": "搜索扣押拘提逮捕須強制力一般先屬警棍要件；槍械另須暴力抗拒等法定較高門檻。",
+          "trueStatement": false
+        },
+        {
+          "text": "保護對象之生命、身體、自由、財產遭受危害或脅迫時",
+          "explanation": "保護對象生命身體自由財產遭危害或脅迫，屬條例法定警刀槍械時機。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "持有兇器者意圖滋事，已受警察人員告誡拋棄，仍不聽從時",
+          "explanation": "持兇器意圖滋事，經告誡拋棄不從，為法定時機，仍須比例與必要。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "意圖奪取警槍或其他可能致人傷亡之裝備機具時",
+          "explanation": "奪取警槍或其他可能致傷亡裝備機具，屬法定槍械時機。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 0,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "113年內軌四等｜警察法規概要｜第15題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 15,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "none",
+        "note": "已依下列官方現行法核對本題核心要件；未見足以改變此題判斷的條文差異。當年題目與答案另行保留，不以全法最後修正日推定每條均曾修正。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "警械使用條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+          },
+          {
+            "title": "警械使用事件補償辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+          }
+        ]
+      },
+      "takeaway": "搜索扣押拘提逮捕須強制力一般先屬警棍要件；槍械另須暴力抗拒等法定較高門檻。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "警械使用條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+        },
+        {
+          "title": "警械使用事件補償辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-16",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "law_neutrality",
+      "title": "親屬文宣與行政資源",
+      "stem": "有關公職人員選舉活動期間，下列何者符合公務人員行政中立之規定？",
+      "options": [
+        {
+          "text": "在參選公職之父親競選廣告文宣中，簽名支持政見內容",
+          "explanation": "為父親競選廣告簽名支持可屬親屬例外，仍不得具公職銜或使用行政資源。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "在辦公室公布欄張貼特定候選人與單位長官同框之活動照片，並讓助選員手持競選旗幟進入 駐地",
+          "explanation": "辦公處所張貼候選人活動照並容助選旗幟進駐，有行政資源助選疑義。",
+          "correction": "辦公處所張貼候選人活動照並容助選旗幟進駐，有行政資源助選疑義。",
+          "trueStatement": false
+        },
+        {
+          "text": "在辦公處所將印有候選人姓名及照片之礦泉水供洽公民眾飲用",
+          "explanation": "辦公場所提供候選人文宣礦泉水，屬行政資源與選舉宣傳混用。",
+          "correction": "辦公場所提供候選人文宣礦泉水，屬行政資源與選舉宣傳混用。",
+          "trueStatement": false
+        },
+        {
+          "text": "執行候選人選舉維安勤務，穿著印有候選人姓名之背心，隨同實施掃街拜票",
+          "explanation": "執行維安應保持中立，不能穿候選人背心掃街拜票。",
+          "correction": "執行維安應保持中立，不能穿候選人背心掃街拜票。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 0,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": false,
+      "origin": "113年內軌四等｜警察法規概要｜第16題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 16,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "review",
+        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "公務人員行政中立法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0110036"
+          }
+        ]
+      },
+      "takeaway": "為父親競選廣告簽名支持可屬親屬例外，仍不得具公職銜或使用行政資源。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "公務人員行政中立法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0110036"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-17",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "powers",
+      "title": "帶往查證的報告程序",
+      "stem": "下列何者非屬警察為查證人民身分，而將其帶往勤務處所之要件及程序規定？",
+      "options": [
+        {
+          "text": "警察應填寫及交付帶往勤務處所查證身分通知書",
+          "explanation": "帶往查證應製作交付法定通知書，記錄原因及時間。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "警察應以書面告知本人及其指定之親友，得依提審法規定聲請提審之意旨",
+          "explanation": "涉及人身自由拘束，應告知本人及指定親友提審救濟意旨。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "警察將行為人帶往勤務處所查證身分之時間，自攔停時起，不得逾 3 小時",
+          "explanation": "從攔停起算三小時上限，不得到所後重新起算。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "警察應立即向其所屬機關主管長官即警察分局長報告",
+          "explanation": "警職法第七條要求即向警察勤務指揮中心報告，不是立即向分局長報告。",
+          "correction": "警職法第七條要求即向警察勤務指揮中心報告，不是立即向分局長報告。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "lawIds": [
+        "a7"
+      ],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "113年內軌四等｜警察法規概要｜第17題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 17,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "none",
+        "note": "已依下列官方現行法核對本題核心要件；未見足以改變此題判斷的條文差異。當年題目與答案另行保留，不以全法最後修正日推定每條均曾修正。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "警察職權行使法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+          }
+        ]
+      },
+      "takeaway": "警職法第七條要求即向警察勤務指揮中心報告，不是立即向分局長報告。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-18",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "law_police",
+      "title": "任官與遴任的區別",
+      "stem": "下列有關警察人員之管理、任官與遴任權限之敘述，何者錯誤？",
+      "options": [
+        {
+          "text": "特種考試警察人員考試四等考試及格者，取得警佐三階任官資格",
+          "explanation": "四等警察考試及格依人事條例取得警佐三階任官資格。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "警察官初任警正、警監之各官等及各官階時，均應任官",
+          "explanation": "初任各官等須任官，但各官階晉階不均須重新任官，應刪各官階一語。",
+          "correction": "初任各官等須任官，但各官階晉階不均須重新任官，應刪各官階一語。",
+          "trueStatement": false
+        },
+        {
+          "text": "警察人員由內政部管理，或交由直轄市政府管理",
+          "explanation": "警察人員由內政部管理或交直轄市政府依法管理。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "警正、警佐職務，由內政部遴任或交由直轄市政府遴任",
+          "explanation": "警正警佐職務由內政部遴任或交直轄市政府遴任。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "113年內軌四等｜警察法規概要｜第18題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 18,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "review",
+        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "警察法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+          },
+          {
+            "title": "警察法施行細則",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+          },
+          {
+            "title": "警察人員人事條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+          }
+        ]
+      },
+      "takeaway": "初任各官等須任官，但各官階晉階不均須重新任官，應刪各官階一語。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "警察法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+        },
+        {
+          "title": "警察法施行細則",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+        },
+        {
+          "title": "警察人員人事條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-19",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "law_police",
+      "title": "加給不得概括稱均得支領",
+      "stem": "警察人員支領薪俸規定，關於加給部分之敍述，下列何者錯誤？",
+      "options": [
+        {
+          "text": "警察人員因服務機關或單位有別，分別支領不同額度之勤務加給",
+          "explanation": "勤務加給依機關單位及勤務條件有不同額度，須按核定表支領。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "各級警察機關從事刑案現場勘察採證之人員，均得支領技術加給",
+          "explanation": "現場勘察採證須符技術職務與核定支給條件，不能僅曾做採證即均支領；官方更正認本項給分。",
+          "correction": "現場勘察採證須符技術職務與核定支給條件，不能僅曾做採證即均支領；官方更正認本項給分。",
+          "trueStatement": false
+        },
+        {
+          "text": "各級警察機關編制內實際負責刑事偵防工作之人員，均得支領刑事加給",
+          "explanation": "刑事加給另有編制、實際工作及核定對象限制，非所有編制內刑偵工作人員一律支領；官方更正亦給分。",
+          "correction": "刑事加給另有編制、實際工作及核定對象限制，非所有編制內刑偵工作人員一律支領；官方更正亦給分。",
+          "trueStatement": false
+        },
+        {
+          "text": "服務於金門、馬祖、澎湖等離島地區之人員，均得支領地域加給",
+          "explanation": "離島服務的地域加給依地區及實際服務法定條件核支，不能據本題反推任意地點均有。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "113年內軌四等｜警察法規概要｜第19題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 19,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "review",
+        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "警察法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+          },
+          {
+            "title": "警察法施行細則",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+          },
+          {
+            "title": "警察人員人事條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+          }
+        ]
+      },
+      "takeaway": "現場勘察採證須符技術職務與核定支給條件，不能僅曾做採證即均支領；官方更正認本項給分。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "警察法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+        },
+        {
+          "title": "警察法施行細則",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+        },
+        {
+          "title": "警察人員人事條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+        },
+        {
+          "title": "考選部測驗題標準答案更正",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=113060&c=601&s=0902&q=1"
+        }
+      ],
+      "acceptedAnswers": [
+        1,
+        2
+      ],
+      "correctionNote": "官方S初答B；M更正B或C均給分。"
+    },
+    {
+      "id": "law113-inner-20",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "law_police",
+      "title": "地方治安預算分工",
+      "stem": "警察機關業務推動經費編列與執行之規定，下列敘述何者正確？",
+      "options": [
+        {
+          "text": "監視系統規劃設置及管理，由地方警察機關編列及執行",
+          "explanation": "地方監視系統設置及管理由地方警察編列執行，仍可有依法補助。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "警用裝備之武器及彈藥，由各警察機關編列購買",
+          "explanation": "警用武器彈藥涉及中央統籌調配，不能一概由各機關自行編購。",
+          "correction": "警用武器彈藥涉及中央統籌調配，不能一概由各機關自行編購。",
+          "trueStatement": false
+        },
+        {
+          "text": "毒品人口定期尿液檢驗，由地方檢察署編列補助",
+          "explanation": "毒品人口定期尿液檢驗經費依法定警政業務分工，不是一概由地檢署補助。",
+          "correction": "毒品人口定期尿液檢驗經費依法定警政業務分工，不是一概由地檢署補助。",
+          "trueStatement": false
+        },
+        {
+          "text": "執行擴大臨檢勤務工作費，由內政部警政署編列並全額補助",
+          "explanation": "擴大臨檢工作費非警政署必須全額補助所有地方需求。",
+          "correction": "擴大臨檢工作費非警政署必須全額補助所有地方需求。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 0,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "正確",
+      "verified": false,
+      "origin": "113年內軌四等｜警察法規概要｜第20題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 20,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "review",
+        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "警察法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+          },
+          {
+            "title": "警察法施行細則",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+          },
+          {
+            "title": "警察人員人事條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+          }
+        ]
+      },
+      "takeaway": "地方監視系統設置及管理由地方警察編列執行，仍可有依法補助。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "警察法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+        },
+        {
+          "title": "警察法施行細則",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+        },
+        {
+          "title": "警察人員人事條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-21",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "weapons",
+      "title": "駐衛警察的警械範圍",
+      "stem": "依警械使用條例規定，得使用警械之主體及種類，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "警察人員執勤時得使用警棍、警槍及電擊器",
+          "explanation": "執勤得依法使用核定警械，種類包含警棍、警槍及電擊器等。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "警察人員執行指揮交通、疏導群眾、戒備意外時得使用警棍",
+          "explanation": "交通指揮、群眾疏導、戒備意外得使用警棍指揮，使用強制力仍須要件。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "依法設置之駐衞警察執勤時以使用警棍為限",
+          "explanation": "依法設置的駐衛警察準用警械條例，並非一律只能用警棍。",
+          "correction": "依法設置的駐衛警察準用警械條例，並非一律只能用警棍。",
+          "trueStatement": false
+        },
+        {
+          "text": "社區保全及巡守隊員執勤時得使用警棍",
+          "explanation": "社區保全巡守使用警棍須遵核定器械及相關特別規範，不能據此推得警察公權力。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "113年內軌四等｜警察法規概要｜第21題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 21,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "review",
+        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "警械使用條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+          },
+          {
+            "title": "警械使用事件補償辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+          }
+        ]
+      },
+      "takeaway": "依法設置的駐衛警察準用警械條例，並非一律只能用警棍。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "警械使用條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+        },
+        {
+          "title": "警械使用事件補償辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-22",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "powers",
+      "title": "扣留物的保管權限",
+      "stem": "依警察職權行使法規定，警察扣留器物之處理程序，下列敍述何者錯誤？",
+      "options": [
+        {
+          "text": "扣留應簽發扣留物清單，交其所有人、持有人或保管人",
+          "explanation": "扣留應簽發清單交所有人、持有人或保管人。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "扣留物因特性不適由警察保管，得委託其他機關或私人保管",
+          "explanation": "物品特性不宜警察保管時，得依法委託其他機關或私人。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "扣留物得由派出所案件承辦人自行覓處所保管",
+          "explanation": "承辦人不能自行任選私人處所保管，應依機關合法保管或委託程序。",
+          "correction": "承辦人不能自行任選私人處所保管，應依機關合法保管或委託程序。",
+          "trueStatement": false
+        },
+        {
+          "text": "扣留物品無法交付清單時，應製作紀錄，敘明理由附卷",
+          "explanation": "清單無法交付須製作紀錄敘明理由附卷，不能省略紀錄。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "113年內軌四等｜警察法規概要｜第22題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 22,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "none",
+        "note": "已依下列官方現行法核對本題核心要件；未見足以改變此題判斷的條文差異。當年題目與答案另行保留，不以全法最後修正日推定每條均曾修正。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "警察職權行使法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+          }
+        ]
+      },
+      "takeaway": "承辦人不能自行任選私人處所保管，應依機關合法保管或委託程序。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-23",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "weapons",
+      "title": "用械後立即報告與救護",
+      "stem": "有關警械使用之程序及注意事項，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "使用前應表明身分，著制服或出示足資識別之警徽或執行職務之證明文件",
+          "explanation": "使用前應依法表明身分，制服或識別證明得符合要求，法定急迫例外另論。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "使用時應注意比例原則，非情況急迫應注意勿傷及其人致命部位",
+          "explanation": "須比例使用，非急迫應避免傷及致命部位。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "使用後應先將現場受傷民眾立即通報救護或送醫，全案處理完畢後再將使用情形以書面層報該 管長官",
+          "explanation": "用械後應立即向直接勤務指揮官報告，不能等全案完畢才書面層報。",
+          "correction": "用械後應立即向直接勤務指揮官報告，不能等全案完畢才書面層報。",
+          "trueStatement": false
+        },
+        {
+          "text": "使用槍械致人傷亡時，所屬警察機關應立即指派專人協助用槍人涉訟法律扶助，並提供心理諮 商輔導",
+          "explanation": "槍械致傷亡時機關應依法提供涉訟法律扶助及心理諮商協助。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "113年內軌四等｜警察法規概要｜第23題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 23,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "review",
+        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "警械使用條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+          },
+          {
+            "title": "警械使用事件補償辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+          }
+        ]
+      },
+      "takeaway": "用械後應立即向直接勤務指揮官報告，不能等全案完畢才書面層報。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "警械使用條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+        },
+        {
+          "title": "警械使用事件補償辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-24",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "law_execute",
+      "title": "直接強制的能源限制",
+      "stem": "依行政執行法規定，有關直接強制之方法，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "扣留、收取交付、解除占有、處置、使用或限制使用動產、不動產",
+          "explanation": "扣留、收取交付、解除占有及限制使用動不動產，屬法定直接強制。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "進入、封閉、拆除住宅、建築物或其他處所",
+          "explanation": "進入封閉拆除處所，屬法定直接強制方法，仍須必要性。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "收繳、註銷證照",
+          "explanation": "收繳註銷證照屬法定方法，不可無法源任意採用。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "斷絕民眾住居所必須之自來水、電力或其他能源",
+          "explanation": "能源斷絕限營業所必須能源，不得概括斷絕人民住居所生活必需水電。",
+          "correction": "能源斷絕限營業所必須能源，不得概括斷絕人民住居所生活必需水電。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "113年內軌四等｜警察法規概要｜第24題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 24,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "none",
+        "note": "已依下列官方現行法核對本題核心要件；未見足以改變此題判斷的條文差異。當年題目與答案另行保留，不以全法最後修正日推定每條均曾修正。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "行政執行法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+          }
+        ]
+      },
+      "takeaway": "能源斷絕限營業所必須能源，不得概括斷絕人民住居所生活必需水電。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "行政執行法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-25",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "law_assembly",
+      "title": "靜默集會不得逕行驅離",
+      "stem": "警察執行職務時發現治安狀況之處置作為，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "目睹二人持刀互砍，得依刑事訴訟法規定，以現行犯當場逮捕",
+          "explanation": "持刀互砍具犯罪現行性，得依法逮捕並制止危險。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "遇見酒醉者在車道上行走，勸阻不聽，得依警察職權行使法規定，實施管束",
+          "explanation": "醉者於車道危險行走，非管束不能救護時可依法管束。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "勤務中獲報民眾於住宅服用藥物自殺，得依行政執行法規定，強行使用器具破門進入救護送醫",
+          "explanation": "住宅自殺具迫切生命危險時，可依即時強制法源必要進入救護。",
+          "correction": "無須修正；依題示及當年度法制判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "民眾未申准集會許可，靜默聚集於學校門口人行道上舉布條抗議，得依集會遊行法規定，逕行 當場強行驅離",
+          "explanation": "未申准不等於可逕行驅離，須辨偶發緊急、法定程序及比例，和平靜默尤其應審慎。",
+          "correction": "未申准不等於可逕行驅離，須辨偶發緊急、法定程序及比例，和平靜默尤其應審慎。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "lawIds": [],
+      "difficulty": "進階",
+      "target": "錯誤",
+      "verified": true,
+      "origin": "113年內軌四等｜警察法規概要｜第25題",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 25,
+      "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
+      "amendment": {
+        "status": "none",
+        "note": "已依下列官方現行法核對本題核心要件；未見足以改變此題判斷的條文差異。當年題目與答案另行保留，不以全法最後修正日推定每條均曾修正。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "集會遊行法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+          }
+        ]
+      },
+      "takeaway": "未申准不等於可逕行驅離，須辨偶發緊急、法定程序及比例，和平靜默尤其應審慎。",
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "考選部當年度初始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "集會遊行法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        }
+      ]
+    }
+  ],
+  "essays": [
+    {
+      "id": "law113-inner-e1",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "law_order",
+      "title": "社維與集遊罰鍰的機關及時效",
+      "prompt": "罰鍰係違警處分中常見的處罰種類之一，針對違反社會秩序維護法及集 會遊行法之行為，均有科處罰鍰之明文規定，請就二部法律有關罰鍰之 裁處機關、裁處權時效暨執行權時效，分別加以說明之。（25 分）",
+      "points": 25,
+      "minutes": 30,
+      "allocation": [
+        {
+          "title": "全題（原卷未細分配分）",
+          "points": 25
+        }
+      ],
+      "allocationNote": "原卷25分未細分；擬答分段是練習架構，不冒稱官方分點給分。",
+      "lawIds": [],
+      "model": {
+        "intro": "兩法同有罰鍰，但社維法採特別裁處與法院救濟，集遊罰鍰為一般行政罰，不可混用時效。",
+        "basis": "社維法第三十一、三十二、四十三、四十五條；集遊法第三十二條；行政罰法第二十七條與行政執行法第七條。",
+        "analysis": "一、社維法\n（一）機關：警察調查後，依法屬第四十三條可自行處分案件由警察裁處；涉及第四十五條法院裁處案件移地方法院簡易庭，罰鍰是否單獨或與拘留等併科須按各該法條區分。\n（二）裁處權：行為成立起逾二個月，警察不得訊問處罰或移送法院；連續繼續行為自終了起算。\n（三）執行：罰鍰自裁處確定起逾三個月未移送行政執行者免予移送。這是特別移送期間，不能寫成處分後三月所有執行一律消滅；移送後依行政執行法處理。\n二、集遊法\n（一）罰鍰由該管警察機關裁處，不能將刑事條款移送檢察官與行政罰鍰混淆。\n（二）一般裁處時效依行政罰法為三年，從行為終了起算，法定中斷停止與起算例外另依法。\n（三）逾期未繳移行政執行分署。依行政執行法第七條，法定起算日起五年未執行不再執行；已於五年內開始可續行，但原五年期滿再逾五年仍未終結不再執行，另有特別法規定者從之。\n三、比較\n社維二個月裁處及三個月移送，與集遊一般三年裁處及行政執行五年加五年的制度分別記憶。",
+        "conclusion": "綜上，應就法定要件及本題事實逐項涵攝，兼顧法定權責、比例原則及正當程序；版本待核部分應再以官方原件確認。"
+      },
+      "checklist": [
+        "前言已回應題旨",
+        "依原配分組織分段，未虛構官方給分細目",
+        "列明法律依據及條號",
+        "涵蓋要件、措施、程序與例外",
+        "結語回扣本案，已檢查版本及待核註記"
+      ],
+      "verified": false,
+      "origin": "113年內軌四等｜警察法規概要｜申論第1題（本站擬答，非官方答案）",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 1,
+      "amendment": {
+        "status": "review",
+        "note": "本站申論擬答，不是官方標準答案或閱卷配分細目；原卷已核。法律核心依下列官方來源核對，題示行政規則及各法完整新舊逐條交叉核對仍待補齊，不推定不存在後續函釋。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "社會秩序維護法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+          },
+          {
+            "title": "違反社會秩序維護法案件處理辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+          }
+        ]
+      },
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "社會秩序維護法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+        },
+        {
+          "title": "違反社會秩序維護法案件處理辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+        },
+        {
+          "title": "集會遊行法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        },
+        {
+          "title": "行政執行法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+        },
+        {
+          "title": "行政罰法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030210"
+        }
+      ]
+    },
+    {
+      "id": "law113-inner-e2",
+      "subject": "警察法規",
+      "paperSubject": "警察法規",
+      "topic": "weapons",
+      "title": "合法用械第三人損失補償",
+      "prompt": "依現行警械使用條例相關法制規定，警察人員執行職務於合法使用警械 情況下，如因此而導致無辜之第三人特定法益遭受損失時，該第三人得 請求補償。請分別說明第三人得請求損失補償之特定法益為何？又針對 其各種法益受損有無補償之標準？得否減輕或不予補償？（25 分）",
+      "points": 25,
+      "minutes": 30,
+      "allocation": [
+        {
+          "title": "全題（原卷未細分配分）",
+          "points": 25
+        }
+      ],
+      "allocationNote": "原卷25分未細分；擬答分段是練習架構，不冒稱官方分點給分。",
+      "lawIds": [
+        "w11"
+      ],
+      "model": {
+        "intro": "合法使用警械仍可能使無辜第三人受特別犧牲，因此法制另設補償，與違法國家賠償區別。",
+        "basis": "警械使用條例第十一條第三、四項及警械使用事件補償辦法第二、四至八條。",
+        "analysis": "一、主體與法益\n警察依條例合法用械，第三人的生命、身體或財產實受損失得請求；名譽及純粹抽象精神不快不另列法定法益。第三人死亡由法定繼承人請求，身體財產損失由本人請求，並查明是否參與危害行為及因果關係。\n二、方式與項目\n補償以金錢為之，限實受損失的醫療費、不能工作損失、喪葬費、慰撫金等。原則最高額：死亡六百萬元；障礙依極重度四百五十、重度三百七十五、中度二百五十、輕度一百五十萬元；其他傷害三十萬元；財產一百萬元。不是所有案件一律給滿上限。\n三、增減\n依上限仍顯失公平，補償機關得報直接上級核准增加，但增加不得逾原上限三分之一。得審酌實際損失及第三人可歸責程度減輕或免除，不能僅因與被射擊人同車就推定有過失。\n四、程序\n以書面敘事由及證據向法定補償機關請求，依法審查與協議、救濟；主觀二年客觀五年期間依警職法第三十一條第四項處理。",
+        "conclusion": "綜上，應就法定要件及本題事實逐項涵攝，兼顧法定權責、比例原則及正當程序；版本待核部分應再以官方原件確認。"
+      },
+      "checklist": [
+        "前言已回應題旨",
+        "依原配分組織分段，未虛構官方給分細目",
+        "列明法律依據及條號",
+        "涵蓋要件、措施、程序與例外",
+        "結語回扣本案，已檢查版本及待核註記"
+      ],
+      "verified": false,
+      "origin": "113年內軌四等｜警察法規概要｜申論第2題（本站擬答，非官方答案）",
+      "paperYear": 113,
+      "paperTrack": "內軌",
+      "paperNumber": 2,
+      "amendment": {
+        "status": "review",
+        "note": "本站申論擬答，不是官方標準答案或閱卷配分細目；原卷已核。法律核心依下列官方來源核對，題示行政規則及各法完整新舊逐條交叉核對仍待補齊，不推定不存在後續函釋。",
+        "checkedAt": "2026-11-10",
+        "sources": [
+          {
+            "title": "警械使用條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+          },
+          {
+            "title": "警械使用事件補償辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+          }
+        ]
+      },
+      "checkedAt": "2026-11-10",
+      "sources": [
+        {
+          "title": "考選部113年四等內軌警察法規原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113060&c=601&s=0902&q=1"
+        },
+        {
+          "title": "警械使用條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+        },
+        {
+          "title": "警械使用事件補償辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+        }
+      ]
+    }
+  ]
+}
