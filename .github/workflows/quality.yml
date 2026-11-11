@@ -31,6 +31,7 @@ jobs:
           node scripts/check-past-papers.mjs
           node scripts/check-law-papers.mjs
           node scripts/check-scenario-papers.mjs
+          node scripts/check-investigation-papers.mjs
           node scripts/check-curated-updates.mjs
       - name: Build
         run: pnpm build

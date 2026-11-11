@@ -18,9 +18,15 @@ export const TOPICS = [
   { id: "law_assembly", name: "集會遊行法", short: "許可與解散", subject: "警察法規", color: "green", description: "兼顧集會自由與公共安全。" },
   { id: "law_procedure", name: "行政程序法", short: "程序與救濟", subject: "警察法規", color: "teal", description: "留意外軌考科範圍與程序保障。" },
   { id: "law_neutrality", name: "公務人員行政中立法", short: "中立與行為界限", subject: "警察法規", color: "purple", description: "區分職務行為與政治活動限制。" },
+  { id: "investigation_forensics", name: "刑案現場與鑑識", short: "保全、勘察與物證", subject: "犯罪偵查", color: "blue", description: "從現場保全到採證送鑑，辨識物證與程序限制。" },
+  { id: "investigation_digital", name: "數位證據與網路犯罪", short: "數位保全與分析", subject: "犯罪偵查", color: "teal", description: "保留原始資料、揮發性資訊與證物監督鏈。" },
+  { id: "investigation_intelligence", name: "情報與偵查方法", short: "諮詢、剖繪與監察", subject: "犯罪偵查", color: "purple", description: "區分情報蒐集、跟蹤監視及法定強制處分。" },
+  { id: "investigation_protection", name: "特殊保護案件", short: "兒少、家暴與被害保護", subject: "犯罪偵查", color: "rose", description: "依案件與當事人身分核對通報、陪同及保護程序。" },
+  { id: "investigation_cases", name: "刑案分類與處理", short: "分工、移送與專案", subject: "犯罪偵查", color: "amber", description: "按案件種類、機關及年度版本判斷處理分工。" },
+  { id: "investigation_basics", name: "偵查基本原則", short: "合法、秘密與安全", subject: "犯罪偵查", color: "indigo", description: "掌握偵查不公開、比例原則與勤務安全。" },
 ];
 export type AmendmentNote = { status:"changed"|"review"|"none"; note:string; law?:string; date?:string; oldRule?:string; newRule?:string; sources?:{title:string;url:string}[]; checkedAt?:string; effectiveStatus?:"in-force"|"announced"|"mixed"|"unverified"; effectiveDate?:string };
-export type ExamFields = { paperSubject?:"警察勤務"|"警察情境實務"|"警察法規"; currentAnswer?:string; paperYear?:number; paperTrack?:"內軌"|"外軌"; paperNumber?:number; answerStatus?:string; initialAnswer?:number; initialAnswers?:number[]; correctionNote?:string; amendment?:AmendmentNote; sources?:{title:string;url:string}[] };
+export type ExamFields = { paperSubject?:"警察勤務"|"警察情境實務"|"警察法規"|"犯罪偵查"; analysisMode?:"answer-key"; figure?:{url:string;description:string}; currentAnswer?:string; paperYear?:number; paperTrack?:"內軌"|"外軌"; paperNumber?:number; answerStatus?:string; initialAnswer?:number; initialAnswers?:number[]; correctionNote?:string; amendment?:AmendmentNote; sources?:{title:string;url:string}[] };
 export type Law = {
   amendment?: AmendmentNote;
   id: string; topic: string; title: string; subtitle: string; original: string; originalLabel: string;

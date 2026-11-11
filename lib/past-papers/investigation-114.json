@@ -1,0 +1,3624 @@
+{
+  "meta": {
+    "year": 114,
+    "track": "內軌",
+    "exam": "警察人員考試四等考試行政警察人員、交通警察人員",
+    "subject": "犯罪偵查概要",
+    "indexUrl": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=114060&y=2025",
+    "questionUrl": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q",
+    "answerUrl": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S",
+    "correctionUrl": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M",
+    "selectionCount": 50,
+    "essayCount": 0
+  },
+  "questions": [
+    {
+      "id": "investigation114_01",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "report",
+      "title": "他轄報案移轉",
+      "stem": "依警察機關受理刑事案件報案單一窗口實施要點之規定，關於警察機關受理刑事案件報案之敘述， 下列何者正確？",
+      "options": [
+        {
+          "text": "民眾報案內容之發生地若非本轄，應拒絕受理",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：案件已移轉他轄後收到補充資料或物證，本題應於2日內陳報分局；初次受理移轉另有不同時限。",
+          "trueStatement": false
+        },
+        {
+          "text": "報案人縱因身體或健康因素而難以行動，仍不得協請親友代為報案",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：案件已移轉他轄後收到補充資料或物證，本題應於2日內陳報分局；初次受理移轉另有不同時限。",
+          "trueStatement": false
+        },
+        {
+          "text": "完成受理程序後，認定為他轄案件，受理人員應於 2 日內將筆錄、相關卷證及受理報案紀錄影本等 相關資料陳報警察分局",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：案件已移轉他轄後收到補充資料或物證，本題應於2日內陳報分局；初次受理移轉另有不同時限。",
+          "trueStatement": false
+        },
+        {
+          "text": "已移轉他轄案件，民眾後續所提供之相關資料及物證，接收人員應於 2 日內陳報警察分局",
+          "explanation": "本項為當年度官方接受答案D。",
+          "correction": "案件已移轉他轄後收到補充資料或物證，本題應於2日內陳報分局；初次受理移轉另有不同時限。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "acceptedAnswers": [
+        3
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第1題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 1,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "案件已移轉他轄後收到補充資料或物證，本題應於2日內陳報分局；初次受理移轉另有不同時限。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_02",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "report",
+      "title": "告訴不可分與親屬財產罪",
+      "stem": "關於受理告訴乃論案件之敘述，下列何者正確？",
+      "options": [
+        {
+          "text": "得為告訴之人有數人時，只要其中一人遲誤告訴期間，所有人皆不得告訴",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：親屬間相對告訴乃論的財產案件應指明行為人；一人遲誤告訴期間效力不及他人，撤回以一審辯論終結前為限。",
+          "trueStatement": false
+        },
+        {
+          "text": "應適時提醒告訴人，若欲撤回告訴，應於第二審言詞辯論終結前為之",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：親屬間相對告訴乃論的財產案件應指明行為人；一人遲誤告訴期間效力不及他人，撤回以一審辯論終結前為限。",
+          "trueStatement": false
+        },
+        {
+          "text": "父母對子女竊取其物之行為提出告訴時，應指明犯罪行為人",
+          "explanation": "本項為當年度官方接受答案C。",
+          "correction": "親屬間相對告訴乃論的財產案件應指明行為人；一人遲誤告訴期間效力不及他人，撤回以一審辯論終結前為限。",
+          "trueStatement": true
+        },
+        {
+          "text": "告訴人為外國法人時，告訴代理人所提出之委任書狀原則不須經公證程序及我國駐外單位驗證",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：親屬間相對告訴乃論的財產案件應指明行為人；一人遲誤告訴期間效力不及他人，撤回以一審辯論終結前為限。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 2,
+      "acceptedAnswers": [
+        2
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第2題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 2,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "親屬間相對告訴乃論的財產案件應指明行為人；一人遲誤告訴期間效力不及他人，撤回以一審辯論終結前為限。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_03",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "report",
+      "title": "刑事管轄官方更正",
+      "stem": "關於警察機關管轄刑事案件之敘述，下列何者錯誤？",
+      "options": [
+        {
+          "text": "犯罪行為之發生或結果橫跨二個以上警察機關管轄區域者，由受理報案或接獲通報在先之機關主辦",
+          "explanation": "本題依官方公告一律給分，不代表本項敘述正確。",
+          "correction": "本題原始答案D，官方更正為一律給分；管轄例外與詐欺案件版本另核，不把四項都視為正確敘述。",
+          "trueStatement": false
+        },
+        {
+          "text": "犯罪地屬專業警察機關管轄區域者，以該警察機關主辦為原則",
+          "explanation": "本題依官方公告一律給分，不代表本項敘述正確。",
+          "correction": "本題原始答案D，官方更正為一律給分；管轄例外與詐欺案件版本另核，不把四項都視為正確敘述。",
+          "trueStatement": false
+        },
+        {
+          "text": "捷運或輕軌移動車廂內發生之案件，原則由發生地之警察機關管轄",
+          "explanation": "本題依官方公告一律給分，不代表本項敘述正確。",
+          "correction": "本題原始答案D，官方更正為一律給分；管轄例外與詐欺案件版本另核，不把四項都視為正確敘述。",
+          "trueStatement": false
+        },
+        {
+          "text": "涉及帳戶匯款之詐欺案件，由帳戶開立人戶籍地之警察機關管轄",
+          "explanation": "本題依官方公告一律給分，不代表本項敘述正確。",
+          "correction": "本題原始答案D，官方更正為一律給分；管轄例外與詐欺案件版本另核，不把四項都視為正確敘述。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "acceptedAnswers": [
+        3
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第3題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 3,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "本題原始答案D，官方更正為一律給分；管轄例外與詐欺案件版本另核，不把四項都視為正確敘述。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ],
+      "initialAnswer": 3,
+      "correctionNote": "第3題一律給分。",
+      "creditedAll": true
+    },
+    {
+      "id": "investigation114_04",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "report",
+      "title": "自首之發覺標準",
+      "stem": "關於刑事案件自首之敘述，下列何者錯誤？",
+      "options": [
+        {
+          "text": "犯罪行為人不論親自或委託他人向有偵查犯罪權限之公務員承認犯罪事實，皆可能符合自首之要件",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：須有確切根據合理懷疑特定行為人，不能僅有無根據的主觀懷疑便排除自首。",
+          "trueStatement": true
+        },
+        {
+          "text": "有偵查犯罪權限之公務員雖知犯罪事實，但尚不知犯罪嫌疑人真實身分時，仍可自首",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：須有確切根據合理懷疑特定行為人，不能僅有無根據的主觀懷疑便排除自首。",
+          "trueStatement": true
+        },
+        {
+          "text": "有偵查犯罪權限之公務員雖無確切之合理根據，但已主觀上懷疑某人為犯罪行為人時，即不符自首 之要件",
+          "explanation": "本項為當年度官方接受答案C。",
+          "correction": "須有確切根據合理懷疑特定行為人，不能僅有無根據的主觀懷疑便排除自首。",
+          "trueStatement": false
+        },
+        {
+          "text": "受理自首案件時，應注意是否為他人頂替，或有無不正當之企圖，及其身心是否正常",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：須有確切根據合理懷疑特定行為人，不能僅有無根據的主觀懷疑便排除自首。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "acceptedAnswers": [
+        2
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第4題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 4,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "須有確切根據合理懷疑特定行為人，不能僅有無根據的主觀懷疑便排除自首。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_05",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_intelligence",
+      "title": "諮詢接觸報准",
+      "stem": "依警察人員與特定對象接觸交往規定，關於警察人員與諮詢對象聯繫時應注意事項之敘述，下列何 者正確？",
+      "options": [
+        {
+          "text": "單純透過電信通訊連絡，不屬禁止接觸交往之範疇",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：本題掃黑專責執行特定專案工作有事前報准例外；不代表可洩密或一概免除知情後報告。",
+          "trueStatement": false
+        },
+        {
+          "text": "掃黑專責人員執行情蒐、檢肅、防制幫派專案性工作時，可免除事前報准程序",
+          "explanation": "本項為當年度官方接受答案B。",
+          "correction": "本題掃黑專責執行特定專案工作有事前報准例外；不代表可洩密或一概免除知情後報告。",
+          "trueStatement": true
+        },
+        {
+          "text": "若有必要，可告知諮詢對象相關公務機密",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：本題掃黑專責執行特定專案工作有事前報准例外；不代表可洩密或一概免除知情後報告。",
+          "trueStatement": false
+        },
+        {
+          "text": "若事先因不知情而與禁止接觸交往之特定對象聯繫，在知情後，仍可免除報告義務",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：本題掃黑專責執行特定專案工作有事前報准例外；不代表可洩密或一概免除知情後報告。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 1,
+      "acceptedAnswers": [
+        1
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第5題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 5,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "本題掃黑專責執行特定專案工作有事前報准例外；不代表可洩密或一概免除知情後報告。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_06",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_basics",
+      "title": "治安顧慮人口查訪",
+      "stem": "依治安顧慮人口查訪辦法之規定，關於為防制再犯而對治安顧慮人口進行查訪之敘述，下列何者正確？",
+      "options": [
+        {
+          "text": "由戶籍地警察機關每月至少實施查訪 2 次",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：應以適當家戶訪問等方式避免影響工作名譽；不能概括規定每月2次、便服或任意夜訪。",
+          "trueStatement": false
+        },
+        {
+          "text": "實施查訪時，應著便服，以避免影響查訪對象之名譽",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：應以適當家戶訪問等方式避免影響工作名譽；不能概括規定每月2次、便服或任意夜訪。",
+          "trueStatement": false
+        },
+        {
+          "text": "不論是否與查訪對象約定，皆可於夜間為之，以收查訪之效",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：應以適當家戶訪問等方式避免影響工作名譽；不能概括規定每月2次、便服或任意夜訪。",
+          "trueStatement": false
+        },
+        {
+          "text": "實施查訪時，應以家戶訪問等適當方式為之，以避免影響查訪對象之名譽",
+          "explanation": "本項為當年度官方接受答案D。",
+          "correction": "應以適當家戶訪問等方式避免影響工作名譽；不能概括規定每月2次、便服或任意夜訪。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "acceptedAnswers": [
+        3
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第6題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 6,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "應以適當家戶訪問等方式避免影響工作名譽；不能概括規定每月2次、便服或任意夜訪。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_07",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_forensics",
+      "title": "勘察由外而內",
+      "stem": "關於刑案現場勘察之敘述，下列何者錯誤？",
+      "options": [
+        {
+          "text": "採集各類跡證時，應依其特性分別記錄、陰乾、包裝、封緘、冷藏，審慎處理，以避免污染",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：原則從戶外逐步進入戶內中心，不能一開始只重內部而破壞進出動線與跡證。",
+          "trueStatement": true
+        },
+        {
+          "text": "現場勘察原則應由戶內現場中心逐步勘察至戶外，以優先掌握核心物證",
+          "explanation": "本項為當年度官方接受答案B。",
+          "correction": "原則從戶外逐步進入戶內中心，不能一開始只重內部而破壞進出動線與跡證。",
+          "trueStatement": false
+        },
+        {
+          "text": "現場勘察原則應由跡證明顯者先行勘察，再逐步發掘潛伏之跡證",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：原則從戶外逐步進入戶內中心，不能一開始只重內部而破壞進出動線與跡證。",
+          "trueStatement": true
+        },
+        {
+          "text": "實施勘察時，原則應由勘察組長先行進入現場瞭解全般狀況",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：原則從戶外逐步進入戶內中心，不能一開始只重內部而破壞進出動線與跡證。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "acceptedAnswers": [
+        1
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第7題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 7,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "原則從戶外逐步進入戶內中心，不能一開始只重內部而破壞進出動線與跡證。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_08",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_forensics",
+      "title": "生物參考檢體",
+      "stem": "關於採集及保存生物跡證之敘述，下列何者正確？",
+      "options": [
+        {
+          "text": "採取生物跡證參考檢體時，優先採取唾液檢體，其次為血液檢體",
+          "explanation": "本項為當年度官方接受答案A。",
+          "correction": "本題先唾液、後血液；不同組織保存條件及性侵害證物保存期間須依類型判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "肌肉、骨骼、人體組織等生物跡證無法立即送鑑時，應冷藏暫存",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：本題先唾液、後血液；不同組織保存條件及性侵害證物保存期間須依類型判斷。",
+          "trueStatement": false
+        },
+        {
+          "text": "執行去氧核醣核酸採樣前，無須確認被採樣人在去氧核醣核酸資料庫中有無資料",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：本題先唾液、後血液；不同組織保存條件及性侵害證物保存期間須依類型判斷。",
+          "trueStatement": false
+        },
+        {
+          "text": "疑似性侵害案件之被害人血液及胚胎，於鑑定後由實驗室保存 3 個月後銷毀",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：本題先唾液、後血液；不同組織保存條件及性侵害證物保存期間須依類型判斷。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 0,
+      "acceptedAnswers": [
+        0
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第8題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 8,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "本題先唾液、後血液；不同組織保存條件及性侵害證物保存期間須依類型判斷。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_09",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_digital",
+      "title": "數位蒐證紀錄格式",
+      "stem": "關於刑案現場數位證物之處理原則，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "不可安裝或複製任何程式、檔案至數位證物中",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：電腦主機蒐證須依相應報告、紀錄格式記載，原卷C所述寫入方式為錯誤；不可省略完整蒐證紀錄。",
+          "trueStatement": true
+        },
+        {
+          "text": "系統入侵或駭客攻擊之案件，應注意揮發性資料之蒐集",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：電腦主機蒐證須依相應報告、紀錄格式記載，原卷C所述寫入方式為錯誤；不可省略完整蒐證紀錄。",
+          "trueStatement": true
+        },
+        {
+          "text": "蒐證過程發現可為證物為電腦主機時，蒐證紀錄應一併撰寫於現場數位證物蒐證報告中",
+          "explanation": "本項為當年度官方接受答案C。",
+          "correction": "電腦主機蒐證須依相應報告、紀錄格式記載，原卷C所述寫入方式為錯誤；不可省略完整蒐證紀錄。",
+          "trueStatement": false
+        },
+        {
+          "text": "蒐集連接網路設備之裝置時，應確認無其他需蒐集之資料後，再中斷網路",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：電腦主機蒐證須依相應報告、紀錄格式記載，原卷C所述寫入方式為錯誤；不可省略完整蒐證紀錄。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "acceptedAnswers": [
+        2
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第9題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 9,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "電腦主機蒐證須依相應報告、紀錄格式記載，原卷C所述寫入方式為錯誤；不可省略完整蒐證紀錄。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_10",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_digital",
+      "title": "數位證物扣押範圍",
+      "stem": "關於刑案現場數位證物之扣押，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "為避免過度干預受扣押人之權利，扣押電腦設備時，以扣押電腦主機為限",
+          "explanation": "本項為當年度官方接受答案A。",
+          "correction": "依必要性與比例原則扣押相關設備及儲存媒體，不限於主機，也不能無差別扣押所有設備。",
+          "trueStatement": false
+        },
+        {
+          "text": "查扣、代保管或搬運數位證物時，應於包裝盒或機體上足以改變其內資料之接口施以封緘",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：依必要性與比例原則扣押相關設備及儲存媒體，不限於主機，也不能無差別扣押所有設備。",
+          "trueStatement": true
+        },
+        {
+          "text": "光碟片、記憶卡、隨身碟等電腦輔助記憶體之數量應確實清點，詳載於扣押物品目錄表",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：依必要性與比例原則扣押相關設備及儲存媒體，不限於主機，也不能無差別扣押所有設備。",
+          "trueStatement": true
+        },
+        {
+          "text": "數位證物採取後，應先進行初篩程序，並評估證物送鑑刑事局之必要性",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：依必要性與比例原則扣押相關設備及儲存媒體，不限於主機，也不能無差別扣押所有設備。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 0,
+      "acceptedAnswers": [
+        0
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第10題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 10,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "依必要性與比例原則扣押相關設備及儲存媒體，不限於主機，也不能無差別扣押所有設備。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_11",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_intelligence",
+      "title": "通訊與既存資料",
+      "stem": "關於通訊保障及監察法對於通訊內容之保障，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "該法所稱有線及無線電信，包含電信事業及設置公眾電信網路者所設公共通訊系統、通訊網路及專 用電信",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：通保法通訊監察與已結束、已儲存資料的搜索取證不同；不能一概把過去所有內容歸為監察客體。",
+          "trueStatement": true
+        },
+        {
+          "text": "該法所稱郵件及書信，包含信函及明信片等具通信性質之文件或物品",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：通保法通訊監察與已結束、已儲存資料的搜索取證不同；不能一概把過去所有內容歸為監察客體。",
+          "trueStatement": true
+        },
+        {
+          "text": "該法所稱言論及談話，包含以手語所為之意思表達",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：通保法通訊監察與已結束、已儲存資料的搜索取證不同；不能一概把過去所有內容歸為監察客體。",
+          "trueStatement": true
+        },
+        {
+          "text": "該法所保障者，包含進行中及過去已結束之各類通訊內容",
+          "explanation": "本項為當年度官方接受答案D。",
+          "correction": "通保法通訊監察與已結束、已儲存資料的搜索取證不同；不能一概把過去所有內容歸為監察客體。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "acceptedAnswers": [
+        3
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第11題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 11,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "通保法通訊監察與已結束、已儲存資料的搜索取證不同；不能一概把過去所有內容歸為監察客體。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_12",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_cases",
+      "title": "外交豁免適用身分",
+      "stem": "關於司法警察辦理涉外案件之敘述，下列何者錯誤？",
+      "options": [
+        {
+          "text": "認有必要進入駐華使領館時，應事先徵得使領館館長之同意",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：受僱使領館的我國籍職員不當然享有外交人員的全面豁免，應依身分、職務及條約法規判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "進入駐華使領館後，未經使領館館長同意，不得搜索、扣押、翻閱、借用或影存文件",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：受僱使領館的我國籍職員不當然享有外交人員的全面豁免，應依身分、職務及條約法規判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "發現享有外交豁免權之相關人員或其家屬涉有犯罪嫌疑時，不得逕予執行詢問",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：受僱使領館的我國籍職員不當然享有外交人員的全面豁免，應依身分、職務及條約法規判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "受僱於駐華使領館之我國籍職員，準用享有外交豁免權人員之規定",
+          "explanation": "本項為當年度官方接受答案D。",
+          "correction": "受僱使領館的我國籍職員不當然享有外交人員的全面豁免，應依身分、職務及條約法規判斷。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "acceptedAnswers": [
+        3
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第12題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 12,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "受僱使領館的我國籍職員不當然享有外交人員的全面豁免，應依身分、職務及條約法規判斷。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_13",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "通知書郵務送達",
+      "stem": "關於司法警察機關使用通知書之敘述，下列何者正確？",
+      "options": [
+        {
+          "text": "犯罪嫌疑人經合法通知，無正當理由不到場者，得逕行拘提",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：無急迫性或時效性案件原則郵務送達；無正當理由不到場不等於警方可自行逕行拘提。",
+          "trueStatement": false
+        },
+        {
+          "text": "通知書應由偵查隊長或其相當職務以上長官簽章",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：無急迫性或時效性案件原則郵務送達；無正當理由不到場不等於警方可自行逕行拘提。",
+          "trueStatement": false
+        },
+        {
+          "text": "無急迫性或時效性之案件，通知書以郵務送達方式為原則",
+          "explanation": "本項為當年度官方接受答案C。",
+          "correction": "無急迫性或時效性案件原則郵務送達；無正當理由不到場不等於警方可自行逕行拘提。",
+          "trueStatement": true
+        },
+        {
+          "text": "通知犯罪嫌疑人到場接受詢問，應於 24 小時前送達通知書",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：無急迫性或時效性案件原則郵務送達；無正當理由不到場不等於警方可自行逕行拘提。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 2,
+      "acceptedAnswers": [
+        2
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第13題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 13,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "無急迫性或時效性案件原則郵務送達；無正當理由不到場不等於警方可自行逕行拘提。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_14",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "辯護委任書",
+      "stem": "關於詢問犯罪嫌疑人時應注意之事項，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "犯罪嫌疑人經通知到場者，應依原定時間及處所即時詢問，不得無故拖延",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：委任書不以司法狀紙為限，不能因紙張格式不同便視為無效而不通知辯護人。",
+          "trueStatement": true
+        },
+        {
+          "text": "犯罪嫌疑人因身心障礙，致無法為完全之陳述時，若未經選任辯護人，應通知依法設立之法律扶助 機構指派律師到場為其辯護",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：委任書不以司法狀紙為限，不能因紙張格式不同便視為無效而不通知辯護人。",
+          "trueStatement": true
+        },
+        {
+          "text": "犯罪嫌疑人涉犯最輕本刑為 3 年以上有期徒刑之罪，於偵查中初次接受詢問時，若未經選任辯護 人，應告知其得申請法律扶助",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：委任書不以司法狀紙為限，不能因紙張格式不同便視為無效而不通知辯護人。",
+          "trueStatement": true
+        },
+        {
+          "text": "犯罪嫌疑人選任辯護人時，若未以司法狀紙為委任書狀，因非屬有效之委任，故無須將詢問之日、 時及處所通知該辯護人",
+          "explanation": "本項為當年度官方接受答案D。",
+          "correction": "委任書不以司法狀紙為限，不能因紙張格式不同便視為無效而不通知辯護人。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "acceptedAnswers": [
+        3
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第14題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 14,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "委任書不以司法狀紙為限，不能因紙張格式不同便視為無效而不通知辯護人。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_15",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "筆錄閱覽與複印",
+      "stem": "關於偵查中之辯護人於詢問犯罪嫌疑人時所得主張之權限，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "得於詢問犯罪嫌疑人時在場，並得筆記及陳述意見",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：本題得協助閱覽，不等於偵查階段當然得複印該次筆錄；須查具體法源與例外。",
+          "trueStatement": true
+        },
+        {
+          "text": "得於詢問完畢後協助犯罪嫌疑人閱覽筆錄，並得複印該次詢問筆錄",
+          "explanation": "本項為當年度官方接受答案B。",
+          "correction": "本題得協助閱覽，不等於偵查階段當然得複印該次筆錄；須查具體法源與例外。",
+          "trueStatement": false
+        },
+        {
+          "text": "辯護人協助閱覽筆錄時，應將相關情形註記於該案犯罪嫌疑人之詢問筆錄，並請辯護人於筆錄內簽名",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：本題得協助閱覽，不等於偵查階段當然得複印該次筆錄；須查具體法源與例外。",
+          "trueStatement": true
+        },
+        {
+          "text": "有事實足認辯護人有勾串共犯或證人之虞時，司法警察即得禁止該辯護人在場",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：本題得協助閱覽，不等於偵查階段當然得複印該次筆錄；須查具體法源與例外。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "acceptedAnswers": [
+        1
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第15題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 15,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "本題得協助閱覽，不等於偵查階段當然得複印該次筆錄；須查具體法源與例外。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_16",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "檢察官親自逕行拘提",
+      "stem": "關於刑事訴訟法第 88 條之 1 逕行拘提之敘述，下列何者正確？",
+      "options": [
+        {
+          "text": "檢察官親自執行時，得不用拘票",
+          "explanation": "本項為當年度官方接受答案A。",
+          "correction": "符合法定逕行拘提要件時，檢察官親自執行得不用拘票，但仍有書面通知及權利告知義務。",
+          "trueStatement": true
+        },
+        {
+          "text": "檢察官親自執行時，無須以書面將拘提之原因通知犯罪嫌疑人及其指定之親友",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：符合法定逕行拘提要件時，檢察官親自執行得不用拘票，但仍有書面通知及權利告知義務。",
+          "trueStatement": false
+        },
+        {
+          "text": "司法警察官或司法警察執行時，應於移送時一併聲請檢察官補發拘票",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：符合法定逕行拘提要件時，檢察官親自執行得不用拘票，但仍有書面通知及權利告知義務。",
+          "trueStatement": false
+        },
+        {
+          "text": "刑事訴訟法第 95 條第 1 項所列事項，待返回勤務處所進行詢問時再告知即可",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：符合法定逕行拘提要件時，檢察官親自執行得不用拘票，但仍有書面通知及權利告知義務。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 0,
+      "acceptedAnswers": [
+        0
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第16題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 16,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "符合法定逕行拘提要件時，檢察官親自執行得不用拘票，但仍有書面通知及權利告知義務。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_17",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "拘捕後立即附帶搜索",
+      "stem": "關於執行拘提或逮捕之要領及應注意事項，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "執行前須深入了解案情、確認對象、熟悉環境、充分準備",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：應在合法拘捕的時間、場所關聯內立即處理安全與證據，不能一律等回勤務處所才搜索。",
+          "trueStatement": true
+        },
+        {
+          "text": "於室內執行時，宜運用各種資訊、關係、誘開門戶、埋伏守候或直接破門",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：應在合法拘捕的時間、場所關聯內立即處理安全與證據，不能一律等回勤務處所才搜索。",
+          "trueStatement": true
+        },
+        {
+          "text": "對抗拒拘提或逮捕或脫逃者，得視狀況使用警械",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：應在合法拘捕的時間、場所關聯內立即處理安全與證據，不能一律等回勤務處所才搜索。",
+          "trueStatement": true
+        },
+        {
+          "text": "執行後，應立即帶回勤務處所對受拘提或逮捕者執行附帶搜索",
+          "explanation": "本項為當年度官方接受答案D。",
+          "correction": "應在合法拘捕的時間、場所關聯內立即處理安全與證據，不能一律等回勤務處所才搜索。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "acceptedAnswers": [
+        3
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第17題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 17,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "應在合法拘捕的時間、場所關聯內立即處理安全與證據，不能一律等回勤務處所才搜索。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_18",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "一目瞭然原則",
+      "stem": "依最高法院之說明，下列何者為主張一目瞭然原則之要件？①限於公共場所或公眾得出入之處所 ②警察有合法在場之理由 ③可為證據之物十分明顯地出現於警察面前 ④警察可以合法地接觸該 可為證據之物",
+      "options": [
+        {
+          "text": "①④",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：須合法在場、物品證據性明顯且可合法接觸，不以公共場所為唯一適用場域，組合②③④。",
+          "trueStatement": false
+        },
+        {
+          "text": "僅②③",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：須合法在場、物品證據性明顯且可合法接觸，不以公共場所為唯一適用場域，組合②③④。",
+          "trueStatement": false
+        },
+        {
+          "text": "②③④",
+          "explanation": "本項為當年度官方接受答案C。",
+          "correction": "須合法在場、物品證據性明顯且可合法接觸，不以公共場所為唯一適用場域，組合②③④。",
+          "trueStatement": true
+        },
+        {
+          "text": "①②③④",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：須合法在場、物品證據性明顯且可合法接觸，不以公共場所為唯一適用場域，組合②③④。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 2,
+      "acceptedAnswers": [
+        2
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": true,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第18題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 18,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "none",
+        "note": "已依當年度原題及官方答案整理，屬技術概念考點；不據此保證所有實務作法與產品版本均未變更。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "須合法在場、物品證據性明顯且可合法接觸，不以公共場所為唯一適用場域，組合②③④。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_19",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "夜間搜索承諾",
+      "stem": "關於夜間搜索之敘述，下列何者錯誤？",
+      "options": [
+        {
+          "text": "有人住居或看守之住宅或其他處所，原則禁止夜間搜索",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：夜間入內仍須有法定例外及符合要求的承諾，不能以默示同意概括取代應有的程序紀錄。",
+          "trueStatement": true
+        },
+        {
+          "text": "於夜間進入有人住居或看守之住宅或其他處搜索時，除急迫情形外，至少應得住居人、看守人或可 為其代表之人之默示同意",
+          "explanation": "本項為當年度官方接受答案B。",
+          "correction": "夜間入內仍須有法定例外及符合要求的承諾，不能以默示同意概括取代應有的程序紀錄。",
+          "trueStatement": false
+        },
+        {
+          "text": "日間已開始搜索或扣押者，得繼續至夜間",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：夜間入內仍須有法定例外及符合要求的承諾，不能以默示同意概括取代應有的程序紀錄。",
+          "trueStatement": true
+        },
+        {
+          "text": "旅店、飲食店或其他於夜間公眾可以出入之處所，仍在公開時間內者，得於夜間入內搜索",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：夜間入內仍須有法定例外及符合要求的承諾，不能以默示同意概括取代應有的程序紀錄。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "acceptedAnswers": [
+        1
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第19題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 19,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "夜間入內仍須有法定例外及符合要求的承諾，不能以默示同意概括取代應有的程序紀錄。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_20",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "辯護自由溝通",
+      "stem": "依憲法法庭 112 年憲判字第 9 號判決（搜索律師事務所案），關於辯護人與被告（包括犯罪嫌疑人） 間不受干預自由溝通之權利，下列敘述何者正確？",
+      "options": [
+        {
+          "text": "刑事訴訟法未對律師事務所之搜索、扣押設有特別之程序規定，已違反憲法正當法律程序原則之意旨",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：112年憲判字第9號保障辯護溝通，包含被告為溝通自行製作保管的文件；特別搜索程序及例外另核。",
+          "trueStatement": false
+        },
+        {
+          "text": "以正式委任辯護人為前提，不及於委任前之溝通內容",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：112年憲判字第9號保障辯護溝通，包含被告為溝通自行製作保管的文件；特別搜索程序及例外另核。",
+          "trueStatement": false
+        },
+        {
+          "text": "包含被告為與辯護人溝通，而自行製作及保管之辯護文件資料",
+          "explanation": "本項為當年度官方接受答案C。",
+          "correction": "112年憲判字第9號保障辯護溝通，包含被告為溝通自行製作保管的文件；特別搜索程序及例外另核。",
+          "trueStatement": true
+        },
+        {
+          "text": "縱有事證足認辯護人有湮滅、偽造、變造證據之虞，亦不得限制",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：112年憲判字第9號保障辯護溝通，包含被告為溝通自行製作保管的文件；特別搜索程序及例外另核。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 2,
+      "acceptedAnswers": [
+        2
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第20題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 20,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "112年憲判字第9號保障辯護溝通，包含被告為溝通自行製作保管的文件；特別搜索程序及例外另核。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_21",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "附帶搜索與拘捕先後",
+      "stem": "關於附帶搜索之敘述，下列何者錯誤？",
+      "options": [
+        {
+          "text": "主要目的在於保護被拘捕對象、執法人員或公眾安全，以及避免被拘捕對象湮滅隨身攜帶之證據或 得沒收之物",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：具合法拘捕基礎且時間密接時，判例有先搜索再拘捕的適用空間，不能用亦不得概括否定。",
+          "trueStatement": true
+        },
+        {
+          "text": "當發現被拘捕對象藏放之物品為具危險性之槍枝後，縱在時間密集緊接之前提下，亦不得先執行附 帶搜索，再予拘捕",
+          "explanation": "本項為當年度官方接受答案B。",
+          "correction": "具合法拘捕基礎且時間密接時，判例有先搜索再拘捕的適用空間，不能用亦不得概括否定。",
+          "trueStatement": false
+        },
+        {
+          "text": "以立即可控制之範圍為搜索限界，亦即在逮捕、拘提或羈押被告或犯罪嫌疑人所在地附近，而可立 即搜索之處所均屬之",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：具合法拘捕基礎且時間密接時，判例有先搜索再拘捕的適用空間，不能用亦不得概括否定。",
+          "trueStatement": true
+        },
+        {
+          "text": "隨被拘捕對象之移動，其立即可觸及之範圍亦因而延伸，故執法人員得附帶搜索之範圍亦因此擴大",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：具合法拘捕基礎且時間密接時，判例有先搜索再拘捕的適用空間，不能用亦不得概括否定。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "acceptedAnswers": [
+        1
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第21題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 21,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "具合法拘捕基礎且時間密接時，判例有先搜索再拘捕的適用空間，不能用亦不得概括否定。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_22",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "非承辦人主持指認",
+      "stem": "司法警察機關通知目擊證人到場指認犯罪嫌疑人時，下列何種處置較不適當？",
+      "options": [
+        {
+          "text": "由案件偵辦人員辦理指認作業，以期對案情有充分瞭解",
+          "explanation": "本項為當年度官方接受答案A。",
+          "correction": "原則指派案件偵辦人員以外人員，以避免暗示；列隊、告知未必在列及事前特徵陳述亦須遵守。",
+          "trueStatement": false
+        },
+        {
+          "text": "指認前，先確認指認人是否確實目擊犯罪嫌疑人之相貌",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：原則指派案件偵辦人員以外人員，以避免暗示；列隊、告知未必在列及事前特徵陳述亦須遵守。",
+          "trueStatement": true
+        },
+        {
+          "text": "指認前，告知指認人犯罪嫌疑人未必存在於被指認人之中",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：原則指派案件偵辦人員以外人員，以避免暗示；列隊、告知未必在列及事前特徵陳述亦須遵守。",
+          "trueStatement": true
+        },
+        {
+          "text": "依指認人描述之犯罪嫌疑人特徵，安排 6 名以上於外型無重大差異之被指認人，供指認人進行列 隊指認",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：原則指派案件偵辦人員以外人員，以避免暗示；列隊、告知未必在列及事前特徵陳述亦須遵守。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 0,
+      "acceptedAnswers": [
+        0
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第22題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 22,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "原則指派案件偵辦人員以外人員，以避免暗示；列隊、告知未必在列及事前特徵陳述亦須遵守。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_23",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_digital",
+      "title": "電腦搜索前置",
+      "stem": "依警察偵查犯罪手冊規定，有關執行電腦犯罪案件搜索前置作業應注意事項，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "調閱搜索對象與檢舉民眾基本資料",
+          "explanation": "本項為當年度官方接受答案A。",
+          "correction": "應調查搜索對象及相關技術、環境並擬計畫，不能把檢舉民眾個資列為當然需調閱項目。",
+          "trueStatement": false
+        },
+        {
+          "text": "技術勤前講習",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：應調查搜索對象及相關技術、環境並擬計畫，不能把檢舉民眾個資列為當然需調閱項目。",
+          "trueStatement": true
+        },
+        {
+          "text": "勘查搜索環境",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：應調查搜索對象及相關技術、環境並擬計畫，不能把檢舉民眾個資列為當然需調閱項目。",
+          "trueStatement": true
+        },
+        {
+          "text": "擬定搜索計畫",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：應調查搜索對象及相關技術、環境並擬計畫，不能把檢舉民眾個資列為當然需調閱項目。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 0,
+      "acceptedAnswers": [
+        0
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第23題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 23,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "應調查搜索對象及相關技術、環境並擬計畫，不能把檢舉民眾個資列為當然需調閱項目。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_24",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_cases",
+      "title": "帶同查贓查證",
+      "stem": "關於追查贓物及證物之敘述，下列何者錯誤？",
+      "options": [
+        {
+          "text": "犯罪嫌疑人雖經自白，仍應調查其他證據以察其是否與事實相符",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：有必要且依法核准可帶同嫌疑人查證，不可為防逃而一律禁止；仍需落實安全戒護。",
+          "trueStatement": true
+        },
+        {
+          "text": "若主嫌犯與共犯及證人之供詞有所矛盾，應深入查證犯罪嫌疑人之供述是否實在",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：有必要且依法核准可帶同嫌疑人查證，不可為防逃而一律禁止；仍需落實安全戒護。",
+          "trueStatement": true
+        },
+        {
+          "text": "為防止犯罪嫌疑人脫逃，應禁止帶同犯罪嫌疑人查證",
+          "explanation": "本項為當年度官方接受答案C。",
+          "correction": "有必要且依法核准可帶同嫌疑人查證，不可為防逃而一律禁止；仍需落實安全戒護。",
+          "trueStatement": false
+        },
+        {
+          "text": "犯罪所得之贓物，不問其為直接或間接得來，均為犯罪主要證據",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：有必要且依法核准可帶同嫌疑人查證，不可為防逃而一律禁止；仍需落實安全戒護。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "acceptedAnswers": [
+        2
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第24題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 24,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "有必要且依法核准可帶同嫌疑人查證，不可為防逃而一律禁止；仍需落實安全戒護。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_25",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_protection",
+      "title": "少年戒具",
+      "stem": "關於執行拘提或逮捕時使用戒具之敘述，下列何者錯誤？",
+      "options": [
+        {
+          "text": "應避免公然暴露戒具",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：少年戒具使用受嚴格必要性限制，不是任何情況均禁止；不得當成懲罰或公然暴露。",
+          "trueStatement": true
+        },
+        {
+          "text": "不得以使用戒具作為懲罰之方法",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：少年戒具使用受嚴格必要性限制，不是任何情況均禁止；不得當成懲罰或公然暴露。",
+          "trueStatement": true
+        },
+        {
+          "text": "對於即將生產、分娩過程中或甫生產後之婦女，皆不應使用戒具",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：少年戒具使用受嚴格必要性限制，不是任何情況均禁止；不得當成懲罰或公然暴露。",
+          "trueStatement": true
+        },
+        {
+          "text": "對於少年，皆不應使用戒具",
+          "explanation": "本項為當年度官方接受答案D。",
+          "correction": "少年戒具使用受嚴格必要性限制，不是任何情況均禁止；不得當成懲罰或公然暴露。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "acceptedAnswers": [
+        3
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第25題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 25,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "少年戒具使用受嚴格必要性限制，不是任何情況均禁止；不得當成懲罰或公然暴露。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_26",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_protection",
+      "title": "少年程序保障",
+      "stem": "關於司法警察辦理少年事件之敘述，下列何者錯誤？",
+      "options": [
+        {
+          "text": "除未滿 14 歲者外，得依刑事訴訟法第 88 條之 1 逕行拘提",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：逮捕或同行少年不能為查共犯而先交檢察官改以證人訊問，應遵守少年專屬移送與保障程序。",
+          "trueStatement": true
+        },
+        {
+          "text": "詢問遭強制同行、逮捕或尋獲到案之少年時，應通知其法定代理人、現在保護少年之人或其他適當 之人陪同在場",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：逮捕或同行少年不能為查共犯而先交檢察官改以證人訊問，應遵守少年專屬移送與保障程序。",
+          "trueStatement": true
+        },
+        {
+          "text": "偵查中認有對質或詰問之必要時，得不將詢問之少年與一般刑事案件之犯罪嫌疑人或被告隔離",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：逮捕或同行少年不能為查共犯而先交檢察官改以證人訊問，應遵守少年專屬移送與保障程序。",
+          "trueStatement": true
+        },
+        {
+          "text": "為迅速查明共犯，少年經逮捕或同行後，於移送法院前，得先帶由檢察官先以證人身分訊問",
+          "explanation": "本項為當年度官方接受答案D。",
+          "correction": "逮捕或同行少年不能為查共犯而先交檢察官改以證人訊問，應遵守少年專屬移送與保障程序。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "acceptedAnswers": [
+        3
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第26題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 26,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "逮捕或同行少年不能為查共犯而先交檢察官改以證人訊問，應遵守少年專屬移送與保障程序。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_27",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_protection",
+      "title": "跟騷行為構成",
+      "stem": "關於辦理跟蹤騷擾行為案件之敘述，下列何者正確？",
+      "options": [
+        {
+          "text": "跟蹤騷擾行為，除須對特定人反覆或持續為之，且違反其意願外，並須與性或性別有關",
+          "explanation": "本項為當年度官方接受答案A。",
+          "correction": "本題所考跟騷須對特定人反覆或持續、違反意願且與性或性別有關；家暴關係及保護令程序另判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "警察機關受理跟蹤騷擾行為案件後，應即依職權或被害人之請求，核發書面告誡予行為人",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：本題所考跟騷須對特定人反覆或持續、違反意願且與性或性別有關；家暴關係及保護令程序另判斷。",
+          "trueStatement": false
+        },
+        {
+          "text": "配偶中之一人經警察機關依規定為書面告誡後 2 年內，再為跟蹤騷擾行為者，被害人得依跟蹤騷 擾防制法向法院聲請保護令",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：本題所考跟騷須對特定人反覆或持續、違反意願且與性或性別有關；家暴關係及保護令程序另判斷。",
+          "trueStatement": false
+        },
+        {
+          "text": "行為人經檢察官訊問後，認其犯攜帶凶器或其他危險物品實行跟蹤騷擾行為之罪嫌疑重大，有事實 足認為有反覆實行之虞，而有羈押之必要者，得羈押之",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：本題所考跟騷須對特定人反覆或持續、違反意願且與性或性別有關；家暴關係及保護令程序另判斷。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 0,
+      "acceptedAnswers": [
+        0
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第27題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 27,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "本題所考跟騷須對特定人反覆或持續、違反意願且與性或性別有關；家暴關係及保護令程序另判斷。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_28",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_basics",
+      "title": "減少重複陳述",
+      "stem": "依性侵害案件減少被害人重複陳述作業要點之規定，關於詢問性侵害案件被害人之敘述，下列何者 正確？",
+      "options": [
+        {
+          "text": "告知被害人於該要點所規定程序中得享有之權利、保護事項及作業流程，應由社工人員為之，司法 警察機關不宜介入，以避免告知內容錯誤",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：司法警察與社政會同詢問並分別製作紀錄，必要時專業人員協助；不是一律不得再詢問。",
+          "trueStatement": false
+        },
+        {
+          "text": "司法警察、社政單位應會同進行詢問，分別製作詢問筆錄、紀錄，必要時並得請醫療或相關專業人 員協助，以完善筆錄及紀錄之製作",
+          "explanation": "本項為當年度官方接受答案B。",
+          "correction": "司法警察與社政會同詢問並分別製作紀錄，必要時專業人員協助；不是一律不得再詢問。",
+          "trueStatement": true
+        },
+        {
+          "text": "詢問錄影錄音應一次完成，不論任何原因，皆不得再行詢問，以避免對被害人造成二次傷害",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：司法警察與社政會同詢問並分別製作紀錄，必要時專業人員協助；不是一律不得再詢問。",
+          "trueStatement": false
+        },
+        {
+          "text": "司法警察機關於案件調查完成移送時，不應於移送書內附記欄註明已依該要點辦理減少重複陳述 作業，以避免洩密",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：司法警察與社政會同詢問並分別製作紀錄，必要時專業人員協助；不是一律不得再詢問。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 1,
+      "acceptedAnswers": [
+        1
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第28題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 28,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "司法警察與社政會同詢問並分別製作紀錄，必要時專業人員協助；不是一律不得再詢問。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_29",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_cases",
+      "title": "軍人非戰時案件",
+      "stem": "關於司法警察辦理涉及軍人案件之敘述，下列何者正確？",
+      "options": [
+        {
+          "text": "現役軍人非戰時犯刑法、陸海空軍刑法或其特別法之罪，均依刑事訴訟法追訴及處罰",
+          "explanation": "本項為當年度官方接受答案A。",
+          "correction": "原卷現役軍人非戰時犯罪依刑訴追訴處罰；軍人範圍、憲兵通報及戰時制度另有規範。",
+          "trueStatement": true
+        },
+        {
+          "text": "現役軍人限於依兵役法或其他法律服現役之軍官及士官",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：原卷現役軍人非戰時犯罪依刑訴追訴處罰；軍人範圍、憲兵通報及戰時制度另有規範。",
+          "trueStatement": false
+        },
+        {
+          "text": "查獲現役軍人涉及毒品危害防制條例所定刑事處罰之毒品案件時，皆應立即通報查獲地區之憲兵隊",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：原卷現役軍人非戰時犯罪依刑訴追訴處罰；軍人範圍、憲兵通報及戰時制度另有規範。",
+          "trueStatement": false
+        },
+        {
+          "text": "司法警察機關不論偵辦何種案件，均不受軍事檢察官之指揮或命令",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：原卷現役軍人非戰時犯罪依刑訴追訴處罰；軍人範圍、憲兵通報及戰時制度另有規範。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 0,
+      "acceptedAnswers": [
+        0
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第29題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 29,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "原卷現役軍人非戰時犯罪依刑訴追訴處罰；軍人範圍、憲兵通報及戰時制度另有規範。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_30",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_intelligence",
+      "title": "重點諮詢場所",
+      "stem": "依警察偵查犯罪手冊規定，有關重點諮詢地點，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "旅館",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：本題手冊重點諮詢地點列旅館、三溫暖、當舖等，車站不是該題所問列舉項目。",
+          "trueStatement": true
+        },
+        {
+          "text": "車站",
+          "explanation": "本項為當年度官方接受答案B。",
+          "correction": "本題手冊重點諮詢地點列旅館、三溫暖、當舖等，車站不是該題所問列舉項目。",
+          "trueStatement": false
+        },
+        {
+          "text": "三溫暖",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：本題手冊重點諮詢地點列旅館、三溫暖、當舖等，車站不是該題所問列舉項目。",
+          "trueStatement": true
+        },
+        {
+          "text": "當舖",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：本題手冊重點諮詢地點列旅館、三溫暖、當舖等，車站不是該題所問列舉項目。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "acceptedAnswers": [
+        1
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第30題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 30,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "本題手冊重點諮詢地點列旅館、三溫暖、當舖等，車站不是該題所問列舉項目。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_31",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "圍捕四層警戒",
+      "stem": "圍捕對象通常為持有槍械、挾持人質、具高危險性之歹徒，關於圍捕之現場處理，下列敘述何者正確？",
+      "options": [
+        {
+          "text": "警察到達現場後，應探查現場是否有人受傷，加害人優先救護或送醫，其次為被害人",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：本題封鎖層次為攻堅、勘察、警戒與交通；初期封鎖宜廣，救護依急迫程度處理。",
+          "trueStatement": false
+        },
+        {
+          "text": "關於封鎖現場，初期封鎖線宜小不宜大",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：本題封鎖層次為攻堅、勘察、警戒與交通；初期封鎖宜廣，救護依急迫程度處理。",
+          "trueStatement": false
+        },
+        {
+          "text": "以四層封鎖警戒線為原則",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：本題封鎖層次為攻堅、勘察、警戒與交通；初期封鎖宜廣，救護依急迫程度處理。",
+          "trueStatement": false
+        },
+        {
+          "text": "封鎖警戒線分別為攻堅、勘察、警戒與交通",
+          "explanation": "本項為當年度官方接受答案D。",
+          "correction": "本題封鎖層次為攻堅、勘察、警戒與交通；初期封鎖宜廣，救護依急迫程度處理。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "acceptedAnswers": [
+        3
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第31題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 31,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "本題封鎖層次為攻堅、勘察、警戒與交通；初期封鎖宜廣，救護依急迫程度處理。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_32",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_basics",
+      "title": "緊急調取補行聲請",
+      "stem": "關於調取通信相關資料及紀錄之敘述，下列何者正確？",
+      "options": [
+        {
+          "text": "檢察官為偵查最重本刑 3 年以上有期徒刑之罪，有事實足認通信紀錄於本案之偵查有必要性及關 連性時，方得以書面聲請該管法院核發調取票",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：本題緊急調取後24小時內補行聲請調取票；通訊使用者資料、通信紀錄與內容要分清。",
+          "trueStatement": false
+        },
+        {
+          "text": "檢察官調取通訊使用者資料，除有急迫情形不及事先聲請者外，應以書面聲請該管法院核發調取票",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：本題緊急調取後24小時內補行聲請調取票；通訊使用者資料、通信紀錄與內容要分清。",
+          "trueStatement": false
+        },
+        {
+          "text": "網際網路位址並非通信紀錄，檢察官為偵查犯罪認有必要時，得依個人資料保護法協請相關業者提供",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：本題緊急調取後24小時內補行聲請調取票；通訊使用者資料、通信紀錄與內容要分清。",
+          "trueStatement": false
+        },
+        {
+          "text": "檢察官因急迫情形而緊急調取通信紀錄後，應於 24 小時內向法院補行聲請調取票",
+          "explanation": "本項為當年度官方接受答案D。",
+          "correction": "本題緊急調取後24小時內補行聲請調取票；通訊使用者資料、通信紀錄與內容要分清。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "acceptedAnswers": [
+        3
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第32題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 32,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "本題緊急調取後24小時內補行聲請調取票；通訊使用者資料、通信紀錄與內容要分清。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_33",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_basics",
+      "title": "人之清查",
+      "stem": "依警察偵查犯罪手冊之規定，關於「人之清查」中應特別注意之對象，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "案件發生後，關係人或可疑人突告失蹤者",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：案發後失蹤、態度異常或過度關注可作查證線索，忽然生活窮困不是本題列舉的異常致富線索。",
+          "trueStatement": true
+        },
+        {
+          "text": "對本案特別表現關懷者",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：案發後失蹤、態度異常或過度關注可作查證線索，忽然生活窮困不是本題列舉的異常致富線索。",
+          "trueStatement": true
+        },
+        {
+          "text": "案件發生後，忽然態度失常者",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：案發後失蹤、態度異常或過度關注可作查證線索，忽然生活窮困不是本題列舉的異常致富線索。",
+          "trueStatement": true
+        },
+        {
+          "text": "案件發生後，忽然生活窮困者",
+          "explanation": "本項為當年度官方接受答案D。",
+          "correction": "案發後失蹤、態度異常或過度關注可作查證線索，忽然生活窮困不是本題列舉的異常致富線索。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "acceptedAnswers": [
+        3
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第33題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 33,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "案發後失蹤、態度異常或過度關注可作查證線索，忽然生活窮困不是本題列舉的異常致富線索。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_34",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_intelligence",
+      "title": "監察與搜索時間客體",
+      "stem": "關於通訊監察與搜索之異同，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "執行期間不同",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：監察重在進行中通訊，搜索處理已存在物件或資料，B把監察也寫成既存會話而混淆。",
+          "trueStatement": true
+        },
+        {
+          "text": "通訊監察針對已存在之會話或通訊；搜索針對已存在之物",
+          "explanation": "本項為當年度官方接受答案B。",
+          "correction": "監察重在進行中通訊，搜索處理已存在物件或資料，B把監察也寫成既存會話而混淆。",
+          "trueStatement": false
+        },
+        {
+          "text": "皆為對人民隱私權之干預",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：監察重在進行中通訊，搜索處理已存在物件或資料，B把監察也寫成既存會話而混淆。",
+          "trueStatement": true
+        },
+        {
+          "text": "令狀之記載不同",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：監察重在進行中通訊，搜索處理已存在物件或資料，B把監察也寫成既存會話而混淆。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "acceptedAnswers": [
+        1
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第34題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 34,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "監察重在進行中通訊，搜索處理已存在物件或資料，B把監察也寫成既存會話而混淆。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_35",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_intelligence",
+      "title": "跟蹤防察覺",
+      "stem": "依警察偵查犯罪手冊之規定，關於跟蹤人員應防止被察覺，如遇不利情況時，應採取之因應作為，下 列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "被跟蹤對象在行進間突然停止，暗中觀察是否有人監視跟蹤時，執行人員應若無其事保持自然行走 狀態或佯裝向人問路",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：遭試探時應避免不必要的正面接觸及暴露，不能把順其自然與目標接觸當成一般原則。",
+          "trueStatement": true
+        },
+        {
+          "text": "被跟蹤對象突然進入建築物，經由另一出口溜走，執行人員應視狀況停止跟蹤，重新佈署，或採取 必要措施",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：遭試探時應避免不必要的正面接觸及暴露，不能把順其自然與目標接觸當成一般原則。",
+          "trueStatement": true
+        },
+        {
+          "text": "被跟蹤對象搭乘大眾交通工具，僅乘坐一段即下車，試探執行人員有何行動時，執行人員應順其自 然與其正面接觸。因若為避免接觸而驟然轉身，反而容易引起被跟蹤對象注意或提高警覺",
+          "explanation": "本項為當年度官方接受答案C。",
+          "correction": "遭試探時應避免不必要的正面接觸及暴露，不能把順其自然與目標接觸當成一般原則。",
+          "trueStatement": false
+        },
+        {
+          "text": "被跟蹤對象製造突發事故，陷執行人員於不義時，執行人員應設法儘速撤離",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：遭試探時應避免不必要的正面接觸及暴露，不能把順其自然與目標接觸當成一般原則。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "acceptedAnswers": [
+        2
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第35題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 35,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "遭試探時應避免不必要的正面接觸及暴露，不能把順其自然與目標接觸當成一般原則。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_36",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_intelligence",
+      "title": "跟蹤定義",
+      "stem": "依警察偵查犯罪手冊之規定，關於跟蹤與監視，下列敘述何者正確？",
+      "options": [
+        {
+          "text": "跟蹤屬「固定觀察」。因偵查對象可能在一定點停留一段時間",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：跟蹤是對特定人、物等偵查對象秘密持續觀察的活動；流動跟蹤與固定監視不可顛倒。",
+          "trueStatement": false
+        },
+        {
+          "text": "監視屬「流動觀察」。因偵查對象可能移動",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：跟蹤是對特定人、物等偵查對象秘密持續觀察的活動；流動跟蹤與固定監視不可顛倒。",
+          "trueStatement": false
+        },
+        {
+          "text": "監視之目的在發現犯罪嫌疑人之不法行為，並掌握可能犯罪之證據及共犯",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：跟蹤是對特定人、物等偵查對象秘密持續觀察的活動；流動跟蹤與固定監視不可顛倒。",
+          "trueStatement": false
+        },
+        {
+          "text": "跟蹤乃偵查人員為達成偵查犯罪任務，對特定之人或物等偵查對象所作的一種秘密而持續的觀察 活動",
+          "explanation": "本項為當年度官方接受答案D。",
+          "correction": "跟蹤是對特定人、物等偵查對象秘密持續觀察的活動；流動跟蹤與固定監視不可顛倒。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 3,
+      "acceptedAnswers": [
+        3
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第36題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 36,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "跟蹤是對特定人、物等偵查對象秘密持續觀察的活動；流動跟蹤與固定監視不可顛倒。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_37",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_intelligence",
+      "title": "跟蹤方法分類",
+      "stem": "依警察偵查犯罪手冊之規定，關於跟蹤方法之類型，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "多人徒步監視法",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：原卷所列方法不包括單雙多立體監視法；須依手冊用語辨認，不以名稱看似專業判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "跳蛙監視法",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：原卷所列方法不包括單雙多立體監視法；須依手冊用語辨認，不以名稱看似專業判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "徒步與車輛併用監視法",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：原卷所列方法不包括單雙多立體監視法；須依手冊用語辨認，不以名稱看似專業判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "單雙多立體監視法",
+          "explanation": "本項為當年度官方接受答案D。",
+          "correction": "原卷所列方法不包括單雙多立體監視法；須依手冊用語辨認，不以名稱看似專業判斷。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "acceptedAnswers": [
+        3
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第37題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 37,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "原卷所列方法不包括單雙多立體監視法；須依手冊用語辨認，不以名稱看似專業判斷。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_38",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_intelligence",
+      "title": "通訊監察證明門檻",
+      "stem": "依通訊保障及監察法之規定，關於執法官員欲發動通訊監察，必須具備之要件，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "令狀",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：須有相當理由及最後手段性等要件，不要求達到無庸置疑的定罪程度。",
+          "trueStatement": true
+        },
+        {
+          "text": "最後手段性",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：須有相當理由及最後手段性等要件，不要求達到無庸置疑的定罪程度。",
+          "trueStatement": true
+        },
+        {
+          "text": "無庸置疑",
+          "explanation": "本項為當年度官方接受答案C。",
+          "correction": "須有相當理由及最後手段性等要件，不要求達到無庸置疑的定罪程度。",
+          "trueStatement": false
+        },
+        {
+          "text": "相當理由",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：須有相當理由及最後手段性等要件，不要求達到無庸置疑的定罪程度。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "acceptedAnswers": [
+        2
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第38題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 38,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "須有相當理由及最後手段性等要件，不要求達到無庸置疑的定罪程度。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_39",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_intelligence",
+      "title": "監察書記載事項",
+      "stem": "依通訊保障及監察法之規定，關於通訊監察書應記載之事項，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "建置機關",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：應載建置機關、監察對象、期間及方法等法定事項；建置程序不是本題應記載事項。",
+          "trueStatement": true
+        },
+        {
+          "text": "建置程序",
+          "explanation": "本項為當年度官方接受答案B。",
+          "correction": "應載建置機關、監察對象、期間及方法等法定事項；建置程序不是本題應記載事項。",
+          "trueStatement": false
+        },
+        {
+          "text": "監察對象",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：應載建置機關、監察對象、期間及方法等法定事項；建置程序不是本題應記載事項。",
+          "trueStatement": true
+        },
+        {
+          "text": "監察期間與方法",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：應載建置機關、監察對象、期間及方法等法定事項；建置程序不是本題應記載事項。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "acceptedAnswers": [
+        1
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第39題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 39,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "應載建置機關、監察對象、期間及方法等法定事項；建置程序不是本題應記載事項。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_40",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "有票與逕行拘提",
+      "stem": "關於有票拘提之實質要件，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "抗傳",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：有票拘提要件與情況急迫的逕行拘提不同，不能把兩種制度的要件全部混列。",
+          "trueStatement": true
+        },
+        {
+          "text": "受有通緝",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：有票拘提要件與情況急迫的逕行拘提不同，不能把兩種制度的要件全部混列。",
+          "trueStatement": true
+        },
+        {
+          "text": "情況急迫",
+          "explanation": "本項為當年度官方接受答案C。",
+          "correction": "有票拘提要件與情況急迫的逕行拘提不同，不能把兩種制度的要件全部混列。",
+          "trueStatement": false
+        },
+        {
+          "text": "犯罪嫌疑重大",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：有票拘提要件與情況急迫的逕行拘提不同，不能把兩種制度的要件全部混列。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "acceptedAnswers": [
+        2
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第40題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 40,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "有票拘提要件與情況急迫的逕行拘提不同，不能把兩種制度的要件全部混列。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_41",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_basics",
+      "title": "現行犯即時性",
+      "stem": "甲僱用乙在河床盜採砂石，警察在河床當場查獲乙盜採砂石，詢問乙後獲悉其係甲所僱用，即聯絡甲 至現場。關於現行犯之敘述，下列何者錯誤？",
+      "options": [
+        {
+          "text": "警方可因乙為現行犯而加以逮捕",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：乙在場盜採可依現行犯處理；事後聯絡到場的雇主甲不因此當然成為現行犯。",
+          "trueStatement": true
+        },
+        {
+          "text": "警方可因甲為現行犯而加以逮捕",
+          "explanation": "本項為當年度官方接受答案B。",
+          "correction": "乙在場盜採可依現行犯處理；事後聯絡到場的雇主甲不因此當然成為現行犯。",
+          "trueStatement": false
+        },
+        {
+          "text": "逮捕現行犯之目的在於防止逃亡或湮滅罪證",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：乙在場盜採可依現行犯處理；事後聯絡到場的雇主甲不因此當然成為現行犯。",
+          "trueStatement": true
+        },
+        {
+          "text": "逮捕現行犯需符合即時性",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：乙在場盜採可依現行犯處理；事後聯絡到場的雇主甲不因此當然成為現行犯。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "acceptedAnswers": [
+        1
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第41題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 41,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "乙在場盜採可依現行犯處理；事後聯絡到場的雇主甲不因此當然成為現行犯。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_42",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "拘票數通執行",
+      "stem": "關於拘提之敘述，下列何者正確？",
+      "options": [
+        {
+          "text": "拘提被告，應用傳票",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：拘票得作數通分交數人執行；拘票不是傳票，交付聯數也不能改寫為三聯。",
+          "trueStatement": false
+        },
+        {
+          "text": "拘提，由司法警察、司法警察官或檢察官執行",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：拘票得作數通分交數人執行；拘票不是傳票，交付聯數也不能改寫為三聯。",
+          "trueStatement": false
+        },
+        {
+          "text": "拘提得作數通，分交數人執行",
+          "explanation": "本項為當年度官方接受答案C。",
+          "correction": "拘票得作數通分交數人執行；拘票不是傳票，交付聯數也不能改寫為三聯。",
+          "trueStatement": true
+        },
+        {
+          "text": "拘票應備三聯（三聯單），執行拘提時，應以一聯交被告或其家屬",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：拘票得作數通分交數人執行；拘票不是傳票，交付聯數也不能改寫為三聯。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 2,
+      "acceptedAnswers": [
+        2
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "正確",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第42題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 42,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "拘票得作數通分交數人執行；拘票不是傳票，交付聯數也不能改寫為三聯。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_43",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "通緝之法律性質",
+      "stem": "關於通緝之敘述，下列何者錯誤？",
+      "options": [
+        {
+          "text": "通緝屬強制處分，會對被告人身自由造成拘束",
+          "explanation": "本項為當年度官方接受答案A。",
+          "correction": "本題官方將通緝定位與實際拘捕分開，通緝本身非直接拘束人身自由的拘提或逮捕行為。",
+          "trueStatement": false
+        },
+        {
+          "text": "被告已逃亡，得為通緝",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：本題官方將通緝定位與實際拘捕分開，通緝本身非直接拘束人身自由的拘提或逮捕行為。",
+          "trueStatement": true
+        },
+        {
+          "text": "被告藏匿時，得為通緝",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：本題官方將通緝定位與實際拘捕分開，通緝本身非直接拘束人身自由的拘提或逮捕行為。",
+          "trueStatement": true
+        },
+        {
+          "text": "被告有逃亡之虞，不能通緝",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：本題官方將通緝定位與實際拘捕分開，通緝本身非直接拘束人身自由的拘提或逮捕行為。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 0,
+      "acceptedAnswers": [
+        0
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第43題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 43,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "本題官方將通緝定位與實際拘捕分開，通緝本身非直接拘束人身自由的拘提或逮捕行為。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_44",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "通緝通知效力",
+      "stem": "關於通緝書與通緝效力之敘述，下列何者錯誤？",
+      "options": [
+        {
+          "text": "利害關係人，得逕行逮捕通緝之被告，送交檢察官",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：法定得拘提或逕行逮捕人員與利害關係人逮捕規定須分別核對，不能任意省略司法警察等法定範圍。",
+          "trueStatement": true
+        },
+        {
+          "text": "通緝經通知後，法官、檢察官、司法警察官得拘提被告或逕行逮捕之",
+          "explanation": "本項為當年度官方接受答案B。",
+          "correction": "法定得拘提或逕行逮捕人員與利害關係人逮捕規定須分別核對，不能任意省略司法警察等法定範圍。",
+          "trueStatement": false
+        },
+        {
+          "text": "通緝書，於偵查中由檢察總長或檢察長簽名",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：法定得拘提或逕行逮捕人員與利害關係人逮捕規定須分別核對，不能任意省略司法警察等法定範圍。",
+          "trueStatement": true
+        },
+        {
+          "text": "通緝書，於審判中由法院院長簽名",
+          "explanation": "本項不在當年度官方接受答案（B）內。",
+          "correction": "請與本題考點對照：法定得拘提或逕行逮捕人員與利害關係人逮捕規定須分別核對，不能任意省略司法警察等法定範圍。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 1,
+      "acceptedAnswers": [
+        1
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第44題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 44,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "法定得拘提或逕行逮捕人員與利害關係人逮捕規定須分別核對，不能任意省略司法警察等法定範圍。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_45",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "搜索票特定性",
+      "stem": "關於搜索票之核發與執行之敘述，下列何者錯誤？",
+      "options": [
+        {
+          "text": "搜索票僅檢察官有權聲請，司法警察官必須報請檢察官許可後，始得聲請",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：本題列具體竊盜工具並以等與竊盜相關證據概括補充，不能僅因有等字即斷為不夠特定，仍看整體記載。",
+          "trueStatement": true
+        },
+        {
+          "text": "法院核發搜索票時，必須符合特定明確原則",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：本題列具體竊盜工具並以等與竊盜相關證據概括補充，不能僅因有等字即斷為不夠特定，仍看整體記載。",
+          "trueStatement": true
+        },
+        {
+          "text": "在竊盜案之搜索票上，應扣押物記載為「螺絲起子、油壓剪、萬能鑰匙等與竊盜案件相關之證據」， 尚未達到特定明確原則之要求。其中「與竊盜案件相關之證據」屬概括之記載，未臻明確",
+          "explanation": "本項為當年度官方接受答案C。",
+          "correction": "本題列具體竊盜工具並以等與竊盜相關證據概括補充，不能僅因有等字即斷為不夠特定，仍看整體記載。",
+          "trueStatement": false
+        },
+        {
+          "text": "法院決定是否核發搜索票時，必須審查有無相當理由",
+          "explanation": "本項不在當年度官方接受答案（C）內。",
+          "correction": "請與本題考點對照：本題列具體竊盜工具並以等與竊盜相關證據概括補充，不能僅因有等字即斷為不夠特定，仍看整體記載。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 2,
+      "acceptedAnswers": [
+        2
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第45題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 45,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "本題列具體竊盜工具並以等與竊盜相關證據概括補充，不能僅因有等字即斷為不夠特定，仍看整體記載。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_46",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "共同管領同意搜索",
+      "stem": "依最高法院之說明，關於同意搜索中之同意權限，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "就身體之搜索而言，僅本人具同意權限",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：有共同管領權不代表能排除在場他人的積極反對，須依搜索標的與具體同意權限判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "就物件、宅第之搜索而言，是否具同意權限，以就搜索標的有無管領、支配之權利為斷",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：有共同管領權不代表能排除在場他人的積極反對，須依搜索標的與具體同意權限判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "同居共財之配偶間，對於同居處所原則上肯認具共同管領權限，而各具同意權限",
+          "explanation": "本項不在當年度官方接受答案（D）內。",
+          "correction": "請與本題考點對照：有共同管領權不代表能排除在場他人的積極反對，須依搜索標的與具體同意權限判斷。",
+          "trueStatement": true
+        },
+        {
+          "text": "縱其中一人於搜索時為積極反對，其他具共同管領權限者仍具合法之同意權限",
+          "explanation": "本項為當年度官方接受答案D。",
+          "correction": "有共同管領權不代表能排除在場他人的積極反對，須依搜索標的與具體同意權限判斷。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 3,
+      "acceptedAnswers": [
+        3
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第46題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 46,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "有共同管領權不代表能排除在場他人的積極反對，須依搜索標的與具體同意權限判斷。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_47",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "procedure",
+      "title": "車輛附帶搜索",
+      "stem": "執法人員在拘提或逮捕汽車駕駛人時，下列敘述何者非屬附帶搜索範圍？",
+      "options": [
+        {
+          "text": "汽車引擎箱",
+          "explanation": "本項為當年度官方接受答案A。",
+          "correction": "本題汽車引擎箱不在拘捕駕駛人立即可控制範圍；不能把所使用交通工具視為無限搜索授權。",
+          "trueStatement": false
+        },
+        {
+          "text": "汽車前座置物箱",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：本題汽車引擎箱不在拘捕駕駛人立即可控制範圍；不能把所使用交通工具視為無限搜索授權。",
+          "trueStatement": true
+        },
+        {
+          "text": "隨身攜帶物品",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：本題汽車引擎箱不在拘捕駕駛人立即可控制範圍；不能把所使用交通工具視為無限搜索授權。",
+          "trueStatement": true
+        },
+        {
+          "text": "置於汽車副駕駛座之皮包",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：本題汽車引擎箱不在拘捕駕駛人立即可控制範圍；不能把所使用交通工具視為無限搜索授權。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 0,
+      "acceptedAnswers": [
+        0
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第47題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 47,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "本題汽車引擎箱不在拘捕駕駛人立即可控制範圍；不能把所使用交通工具視為無限搜索授權。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_48",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_forensics",
+      "title": "檢驗與解剖屍體",
+      "stem": "關於檢驗或解剖屍體程序之敘述，下列何者錯誤？",
+      "options": [
+        {
+          "text": "解剖屍體，應命醫生或檢驗員行之",
+          "explanation": "本項為當年度官方接受答案A。",
+          "correction": "解剖屍體應命醫師實施，不能把可執行檢驗的檢驗員資格直接套用解剖。",
+          "trueStatement": false
+        },
+        {
+          "text": "因檢驗屍體，得開棺及發掘墳墓",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：解剖屍體應命醫師實施，不能把可執行檢驗的檢驗員資格直接套用解剖。",
+          "trueStatement": true
+        },
+        {
+          "text": "檢驗屍體，應命醫生或檢驗員行之",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：解剖屍體應命醫師實施，不能把可執行檢驗的檢驗員資格直接套用解剖。",
+          "trueStatement": true
+        },
+        {
+          "text": "解剖屍體，應先查明屍體有無錯誤",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：解剖屍體應命醫師實施，不能把可執行檢驗的檢驗員資格直接套用解剖。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 0,
+      "acceptedAnswers": [
+        0
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第48題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 48,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "解剖屍體應命醫師實施，不能把可執行檢驗的檢驗員資格直接套用解剖。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    },
+    {
+      "id": "investigation114_49",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_protection",
+      "title": "少年事件官方更正",
+      "stem": "依警察偵查犯罪手冊規定，有關少年事件之處理，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "少年係 12 歲以上滿 18 歲之人",
+          "explanation": "本項為當年度官方接受答案A。",
+          "correction": "官方第49題答A、C或D均給分，採任一單選即可；少年為12歲以上未滿18歲，觸法兒童與通知程序另須按版本核對。",
+          "trueStatement": false
+        },
+        {
+          "text": "少年行蹤不明，經少年法庭通知協尋者，於尋獲後得逕行護送至應到之處所",
+          "explanation": "本項不在當年度官方接受答案（A／C／D）內。",
+          "correction": "請與本題考點對照：官方第49題答A、C或D均給分，採任一單選即可；少年為12歲以上未滿18歲，觸法兒童與通知程序另須按版本核對。",
+          "trueStatement": true
+        },
+        {
+          "text": "警察機關強制少年同行，應注意通知其家長或代理人",
+          "explanation": "本項為當年度官方接受答案C。",
+          "correction": "官方第49題答A、C或D均給分，採任一單選即可；少年為12歲以上未滿18歲，觸法兒童與通知程序另須按版本核對。",
+          "trueStatement": false
+        },
+        {
+          "text": "7 歲以上 12 歲未滿之人，有觸犯刑罰法律之行為者，應依法移送該管少年法院（庭）",
+          "explanation": "本項為當年度官方接受答案D。",
+          "correction": "官方第49題答A、C或D均給分，採任一單選即可；少年為12歲以上未滿18歲，觸法兒童與通知程序另須按版本核對。",
+          "trueStatement": false
+        }
+      ],
+      "answer": 0,
+      "acceptedAnswers": [
+        0,
+        2,
+        3
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第49題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 49,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "官方第49題答A、C或D均給分，採任一單選即可；少年為12歲以上未滿18歲，觸法兒童與通知程序另須按版本核對。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ],
+      "initialAnswer": 0,
+      "correctionNote": "第49題答A或C或D者均給分。"
+    },
+    {
+      "id": "investigation114_50",
+      "subject": "犯罪偵查",
+      "paperSubject": "犯罪偵查",
+      "topic": "investigation_digital",
+      "title": "組織犯罪數位證據",
+      "stem": "依警察偵查犯罪手冊規定，有關組織犯罪案件之處理，下列敘述何者錯誤？",
+      "options": [
+        {
+          "text": "犯罪證物之蒐集，應注意公司企劃書、帳冊（不含電腦磁片，因可能另涉個人隱私）等物件",
+          "explanation": "本項為當年度官方接受答案A。",
+          "correction": "帳冊及電腦儲存資料均可能是證據，隱私應以合法程序保障，不能概括排除磁片等數位媒體。",
+          "trueStatement": false
+        },
+        {
+          "text": "應注意蒐證是否符合組織犯罪防制條例之要件",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：帳冊及電腦儲存資料均可能是證據，隱私應以合法程序保障，不能概括排除磁片等數位媒體。",
+          "trueStatement": true
+        },
+        {
+          "text": "對組織犯罪案件之證人，或與其有利害關係密切之人，應依證人保護法克盡保密與保護責任",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：帳冊及電腦儲存資料均可能是證據，隱私應以合法程序保障，不能概括排除磁片等數位媒體。",
+          "trueStatement": true
+        },
+        {
+          "text": "關於組織犯罪案件檢舉人身分資料，不得移入移送法院審理之文書",
+          "explanation": "本項不在當年度官方接受答案（A）內。",
+          "correction": "請與本題考點對照：帳冊及電腦儲存資料均可能是證據，隱私應以合法程序保障，不能概括排除磁片等數位媒體。",
+          "trueStatement": true
+        }
+      ],
+      "answer": 0,
+      "acceptedAnswers": [
+        0
+      ],
+      "lawIds": [],
+      "difficulty": "基礎",
+      "target": "錯誤",
+      "verified": false,
+      "origin": "114年內軌四等｜犯罪偵查概要｜第50題",
+      "paperYear": 114,
+      "paperTrack": "內軌",
+      "paperNumber": 50,
+      "answerStatus": "官方最終答案已核",
+      "analysisMode": "answer-key",
+      "amendment": {
+        "status": "review",
+        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
+        "checkedAt": "2026-11-11"
+      },
+      "takeaway": "帳冊及電腦儲存資料均可能是證據，隱私應以合法程序保障，不能概括排除磁片等數位媒體。",
+      "sources": [
+        {
+          "title": "考選部・114年官方原卷",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+        },
+        {
+          "title": "考選部・原始標準答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+        },
+        {
+          "title": "考選部・最終答案清冊",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
+        },
+        {
+          "title": "考選部・更正答案",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        }
+      ]
+    }
+  ],
+  "essays": []
+}
