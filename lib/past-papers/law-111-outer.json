@@ -1695,26 +1695,26 @@
       "options": [
         {
           "text": "警察應事先查核該第三人之學歷",
-          "explanation": "錯誤。查核第三人為人品德、素行、可靠性及動機等，不是學歷門檻。",
-          "correction": "查核第三人為人品德、素行、可靠性及動機等，不是學歷門檻。",
+          "explanation": "錯誤。遴選辦法第3條查核忠誠度及信賴度、工作及生活背景、合作意願及動機，並未列學歷為必備條件。",
+          "correction": "改為查核忠誠度及信賴度、工作及生活背景、合作意願及動機。",
           "trueStatement": false
         },
         {
           "text": "為確保日後蒐集之資料得做為法庭上之證據，因此須給該第三人證明文件",
-          "explanation": "錯誤。第三人不得發給任何證明文件，與法庭證據能力無關。",
-          "correction": "第三人不得發給任何證明文件，與法庭證據能力無關。",
+          "explanation": "錯誤。依警職法第12條第3項，不給予第三人任何名義及證明文件；得支給實際需要工作費用。",
+          "correction": "刪除應發證明文件；得依規定支給實際需要工作費用。",
           "trueStatement": false
         },
         {
           "text": "警察遴選第三人秘密蒐集特定人相關資料，應敘明原因事實，經該管警察局長或警察分局長核 准後實施",
-          "explanation": "正確。第12條須敘明原因事實，經局長或分局長核准實施。",
-          "correction": "當年此敘述無須修正；第12條須敘明原因事實，經局長或分局長核准實施。",
+          "explanation": "正確。警職法第13條規定敘明原因事實，經該管警察局長或警察分局長核准；第12條則規定遴選要件與第三人身分。",
+          "correction": "原選項無須修正；法源應引警職法第13條及遴選辦法第2條。",
           "trueStatement": true
         },
         {
           "text": "警察遴選第三人所需經費由內政部警政署統籌編列預算支應",
-          "explanation": "錯誤。所需經費由各警察機關自行編列，不是警政署統編。",
-          "correction": "所需經費由各警察機關自行編列，不是警政署統編。",
+          "explanation": "錯誤。遴選辦法第12條第2項規定經費由各警察機關自行編列預算支應。",
+          "correction": "改為由各警察機關自行編列預算支應。",
           "trueStatement": false
         }
       ],
@@ -1730,18 +1730,31 @@
       "paperNumber": 23,
       "answerStatus": "原卷及官方初答已核；官方索引未列本卷更正答案",
       "amendment": {
-        "status": "none",
-        "note": "原卷與考選部初答已核；本題所考核心規定依列示官方法源核對，未確認有改變當年判斷的新修正。核對範圍不代表所有關聯函釋均已查完。",
+        "status": "changed",
+        "law": "警察職權行使法第12、13條及警察遴選第三人蒐集資料辦法第2、3、12條",
+        "date": "2003-06-25制定公布",
+        "effectiveDate": "警職法第12、13條自2003-12-01施行；遴選辦法現行條文依所列法規資料庫核對",
+        "effectiveStatus": "in-force",
+        "checkedAt": "2026-11-11",
+        "oldRule": "本站舊解析將敘明原因、局長或分局長核准誤標為警職法第12條。",
+        "newRule": "第12條規定遴選目的、對象及第三人身分；敘明原因及局長或分局長核准為第13條，書面事項見遴選辦法第2條。",
+        "note": "本站解析勘誤，並非宣稱2026年新修法；原題、選項及當年官方答案C均保留。",
         "sources": [
           {
-            "title": "全國法規資料庫・警察職權行使法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            "title": "全國法規資料庫・警察職權行使法第12、13條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+          },
+          {
+            "title": "全國法規資料庫・警察遴選第三人蒐集資料辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+          },
+          {
+            "title": "總統府92年警察職權行使法制定公布原文與施行日",
+            "url": "https://www.president.gov.tw/Page/294/33110"
           }
-        ],
-        "checkedAt": "2026-11-10",
-        "effectiveStatus": "in-force"
+        ]
       },
-      "takeaway": "第12條須敘明原因事實，經局長或分局長核准實施。",
+      "takeaway": "警職法第12條管遴選要件，第13條管敘明原因及局長或分局長核准。",
       "sources": [
         {
           "title": "考選部111年外軌四等警察法規概要原卷",
@@ -1754,6 +1767,14 @@
         {
           "title": "全國法規資料庫・警察職權行使法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "全國法規資料庫・警察遴選第三人蒐集資料辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+        },
+        {
+          "title": "總統府92年警察職權行使法制定公布原文與施行日",
+          "url": "https://www.president.gov.tw/Page/294/33110"
         }
       ]
     },

@@ -1465,20 +1465,28 @@
       "origin": "114年內軌四等警察情境實務概要申論第1題",
       "amendment": {
         "status": "changed",
-        "note": "社維法第72條114.06.11修正，噪音規定現列第1項第2款，明定「不聽禁止」。此為原題版本與現行條次／要件比較，不逕稱為考後修法；舊教材第3款及未寫不聽禁止者須更正。",
-        "checkedAt": "2026-11-09",
+        "note": "維持依現行社維法第72條第2款與不聽禁止要件作答。處理辦法第11條原文仍引第3款；其條次銜接的主管機關正式解釋待核，不能自行假稱子法已修正。原題及既有擬答保留。",
+        "checkedAt": "2026-11-11",
         "sources": [
           {
-            "title": "社維法114年修正沿革",
-            "url": "https://laws.gov.taipei/law/LawSearch/LawArticleAmend/FL004501"
+            "title": "全國法規資料庫・社會秩序維護法第72條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+          },
+          {
+            "title": "全國法規資料庫・違反社會秩序維護法案件處理辦法第11條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+          },
+          {
+            "title": "總統府114年社維法修正公布",
+            "url": "https://www.president.gov.tw/Page/294/49902"
           }
         ],
-        "law": "社會秩序維護法第72條",
-        "date": "114.06.11公布",
+        "law": "社會秩序維護法第72條、違反社會秩序維護法案件處理辦法第11條",
+        "date": "2025-06-11公布",
         "effectiveStatus": "in-force",
-        "effectiveDate": "114.06.13",
-        "oldRule": "舊第72條第3款規定製造噪音或深夜喧嘩，妨害公眾安寧。",
-        "newRule": "現第72條第1項第2款：製造噪音或深夜喧嘩，妨害公眾安寧，不聽禁止者。"
+        "effectiveDate": "2025-06-13（社維法第72條）",
+        "oldRule": "社維法舊第72條第3款規定製造噪音或深夜喧嘩，妨害公眾安寧。",
+        "newRule": "社維法現行第72條第2款增列不聽禁止；案件處理辦法第11條原文仍引用社維法第72條第3款，條次未同步。"
       },
       "sources": [
         {
@@ -1500,6 +1508,14 @@
         {
           "title": "社維法114年修正沿革",
           "url": "https://laws.gov.taipei/law/LawSearch/LawArticleAmend/FL004501"
+        },
+        {
+          "title": "全國法規資料庫・違反社會秩序維護法案件處理辦法第11條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+        },
+        {
+          "title": "總統府114年社維法修正公布",
+          "url": "https://www.president.gov.tw/Page/294/49902"
         }
       ]
     },

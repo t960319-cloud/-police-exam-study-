@@ -1523,8 +1523,8 @@
       "options": [
         {
           "text": "該管警察分局長無核准權",
-          "explanation": "第三人蒐集資料須經法定主管長官核准，不能認為分局層級當然無權核准。",
-          "correction": "第三人蒐集資料須經法定主管長官核准，不能認為分局層級當然無權核准。",
+          "explanation": "錯誤。警職法第13條規定經該管警察局長或警察分局長核准，分局長有法定核准權。",
+          "correction": "改為該管警察局長或警察分局長有核准權。",
           "trueStatement": false
         },
         {
@@ -1541,8 +1541,8 @@
         },
         {
           "text": "蒐集資料期間至少兩年",
-          "explanation": "蒐集期間有最長限制，並非至少二年；續行須重新具備事由並核准。",
-          "correction": "蒐集期間有最長限制，並非至少二年；續行須重新具備事由並核准。",
+          "explanation": "錯誤。遴選辦法第6條規定初次期間不得逾1年；有繼續蒐集必要時，須在期滿前報准，得延長1次且不逾1年。蒐集工作結束後的新事由繼續合作，另依警職法第13條第2項。",
+          "correction": "改為期間不得逾1年；有繼續必要時，期滿前報准延長以1次、不逾1年為限。",
           "trueStatement": false
         }
       ],
@@ -1557,13 +1557,27 @@
       "paperNumber": 20,
       "answerStatus": "官方Q原卷及S答案已核；官方目錄未列本科M更正。",
       "amendment": {
-        "status": "none",
-        "note": "已依下列官方現行法核對本題核心要件；未見足以改變此題判斷的條文差異。當年題目與答案另行保留，不以全法最後修正日推定每條均曾修正。",
-        "checkedAt": "2026-11-10",
+        "status": "changed",
+        "law": "警察職權行使法第13條、警察遴選第三人蒐集資料辦法第6條",
+        "date": "2003-06-25警職法制定公布",
+        "effectiveDate": "警職法第13條自2003-12-01施行；遴選辦法第6條為現行規定",
+        "effectiveStatus": "in-force",
+        "checkedAt": "2026-11-11",
+        "oldRule": "本站舊解析籠統稱續行必須「重新具備事由並核准」，未區分期間屆滿前延長與工作結束後繼續合作。",
+        "newRule": "期間屆滿前延長依遴選辦法第6條；工作結束後，須新發生警職法第12條第1項原因事實、有繼續必要且經核准，始得依第13條第2項繼續合作。",
+        "note": "本站解析澄清，並非宣稱2026年新修法；原題、原選項與當年官方答案C保留。",
         "sources": [
           {
-            "title": "警察職權行使法",
+            "title": "全國法規資料庫・警察職權行使法第12、13條",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+          },
+          {
+            "title": "全國法規資料庫・警察遴選第三人蒐集資料辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+          },
+          {
+            "title": "總統府92年警察職權行使法制定公布原文與施行日",
+            "url": "https://www.president.gov.tw/Page/294/33110"
           }
         ]
       },
@@ -1581,6 +1595,14 @@
         {
           "title": "警察職權行使法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        },
+        {
+          "title": "全國法規資料庫・警察遴選第三人蒐集資料辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+        },
+        {
+          "title": "總統府92年警察職權行使法制定公布原文與施行日",
+          "url": "https://www.president.gov.tw/Page/294/33110"
         }
       ]
     },

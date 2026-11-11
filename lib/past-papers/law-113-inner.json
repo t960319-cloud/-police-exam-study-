@@ -106,26 +106,26 @@
       "options": [
         {
           "text": "第三人係指非警察人員，即俗稱之「線民」",
-          "explanation": "第三人指非警察人員之合作蒐集者，俗稱線民。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "正確。警職法第12條第3項所稱第三人，指非警察人員、經警察遴選且志願合作之人，俗稱線民。",
+          "correction": "原選項無須修正；完整定義須具經遴選且志願合作。",
           "trueStatement": true
         },
         {
           "text": "利用線民秘密蒐集特定人資料，應經警察局長或分局長核准",
-          "explanation": "應經警察機關主管長官核准，包括法定分局長或相當以上長官。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "正確。警職法第13條及遴選辦法第2條明定應經該管警察局長或警察分局長核准。",
+          "correction": "原選項無須修正；應敘明原因事實並依書面程序辦理。",
           "trueStatement": true
         },
         {
           "text": "第三人秘密蒐集資料，運用機關應事前發給證明文件及工作費用",
-          "explanation": "秘密合作第三人不是受任警察，不應事前發給可供行使警察權的證明文件；工作費依規定支給不能與證件混稱。",
-          "correction": "秘密合作第三人不是受任警察，不應事前發給可供行使警察權的證明文件；工作費依規定支給不能與證件混稱。",
+          "explanation": "錯誤。警職法第12條第3項規定不給予第三人任何名義及證明文件，不限於可供行使警察權的證件；得支給實際需要工作費用。",
+          "correction": "改為除得支給實際需要工作費用外，不給予任何名義及證明文件。",
           "trueStatement": false
         },
         {
           "text": "第三人蒐集之資料，應保密及建檔，並指定專人依法管理",
-          "explanation": "蒐集資料須保密建檔並由指定專人依法管理。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "正確。依遴選辦法第11條，資料應注意保密、專案建檔並指定專人依機密檔案管理辦法管理。",
+          "correction": "原選項無須修正；依辦法規定保密並專案建檔。",
           "trueStatement": true
         }
       ],
@@ -133,24 +133,38 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜警察法規概要｜第2題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 2,
       "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
-        "checkedAt": "2026-11-10",
+        "status": "changed",
+        "law": "警察職權行使法第12、13條及警察遴選第三人蒐集資料辦法第2、11條",
+        "date": "2003-06-25警職法制定公布",
+        "effectiveDate": "警職法第12、13條自2003-12-01施行；遴選辦法依現行條文核對",
+        "effectiveStatus": "in-force",
+        "checkedAt": "2026-11-11",
+        "oldRule": "本站舊解析僅稱不給「可供行使警察權」的證明文件，文字可能誤使讀者以為其他證明可以發給。",
+        "newRule": "警職法第12條第3項明文不給任何名義及證明文件；得支給實際需要工作費用。",
+        "note": "已取得警職法與遴選辦法正式全文，修正本站解析，並非宣稱2026年新修法；原題、原選項及當年官方答案C保留。",
         "sources": [
           {
-            "title": "警察職權行使法",
+            "title": "全國法規資料庫・警察職權行使法第12、13條",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+          },
+          {
+            "title": "全國法規資料庫・警察遴選第三人蒐集資料辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+          },
+          {
+            "title": "總統府92年警察職權行使法制定公布原文與施行日",
+            "url": "https://www.president.gov.tw/Page/294/33110"
           }
         ]
       },
-      "takeaway": "秘密合作第三人不是受任警察，不應事前發給可供行使警察權的證明文件；工作費依規定支給不能與證件混稱。",
+      "takeaway": "第三人得支給實際需要工作費用，不給任何名義及證明文件；核准為局長或分局長。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -164,6 +178,14 @@
         {
           "title": "警察職權行使法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        },
+        {
+          "title": "全國法規資料庫・警察遴選第三人蒐集資料辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+        },
+        {
+          "title": "總統府92年警察職權行使法制定公布原文與施行日",
+          "url": "https://www.president.gov.tw/Page/294/33110"
         }
       ]
     },
