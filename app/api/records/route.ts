@@ -3,6 +3,7 @@ import { getDb } from "../../../db";
 import { studyRecords, studyRecordVersions } from "../../../db/schema";
 import { getStudyUser } from "../../../lib/study-user";
 import { isObject, validBackupEntry } from "../../../lib/study-records";
+import { requestedStudyResets } from "../../../lib/requested-study-resets";
 
 const headers = { "Cache-Control": "no-store, private", "Vary": "Cookie, X-Study-User" };
 async function authorize(request: Request) {
@@ -23,7 +24,19 @@ export async function GET(request: Request) {
       const rows = await db.select().from(studyRecordVersions).where(and(eq(studyRecordVersions.userId, userId), eq(studyRecordVersions.key, key))).orderBy(desc(studyRecordVersions.updatedAt)).limit(20);
       return Response.json({ userId, versions: rows.map(r => ({ value: JSON.parse(r.value), updatedAt: r.updatedAt })) }, { headers });
     }
-    const rows = await db.select().from(studyRecords).where(eq(studyRecords.userId, userId));
+    let rows = await db.select().from(studyRecords).where(eq(studyRecords.userId, userId));
+    // Apply only the owner's explicitly requested acceptance-test rollback.
+    // Exact account and saved versions make it one-shot; later practice wins.
+    const resets = requestedStudyResets(userId, Object.fromEntries(rows.map(r => [r.key, { value: JSON.parse(r.value), updatedAt: r.updatedAt }])), Date.now());
+    for (const [recordKey, record] of Object.entries(resets)) {
+      const previous = rows.find(r => r.key === recordKey)!;
+      await db.batch([
+        db.insert(studyRecordVersions).values({ userId, key: recordKey, value: previous.value, updatedAt: previous.updatedAt, savedAt: Date.now() }).onConflictDoNothing(),
+        db.update(studyRecords).set({ value: JSON.stringify(record.value), updatedAt: record.updatedAt })
+          .where(and(eq(studyRecords.userId, userId), eq(studyRecords.key, recordKey), eq(studyRecords.updatedAt, previous.updatedAt))),
+      ]);
+    }
+    if (Object.keys(resets).length) rows = await db.select().from(studyRecords).where(eq(studyRecords.userId, userId));
     return Response.json({ userId, records: Object.fromEntries(rows.map(r => [r.key, { value: JSON.parse(r.value), updatedAt: r.updatedAt }])) }, { headers });
   } catch { return Response.json({ error: "讀書紀錄暫時無法同步；已在此裝置保留。" }, { status: 503, headers }); }
 }
