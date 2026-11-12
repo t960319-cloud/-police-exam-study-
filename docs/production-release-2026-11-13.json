@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-13",
+  "siteVersion": 11,
+  "source": "5b159cf5c54f3b414cba75f7cefc20115a097c94",
+  "legalEventsPreserved": 7,
+  "legalEventsUnchanged": true,
+  "paginationComplete": true,
+  "anonymousSession": {
+    "user": null
+  },
+  "anonymousRecords": {
+    "GET": 401,
+    "PUT": 401
+  },
+  "browserVerified": [
+    "priority reasons",
+    "year/subject/advanced filters",
+    "original paper disclosure",
+    "investigation figure link",
+    "historical/current answer comparison",
+    "review queue essay filter"
+  ],
+  "unverified": [
+    "real authenticated progress persistence",
+    "cross-device conflict and restore",
+    "390px browser regression (sandbox chromium socket restriction)"
+  ]
+}
