@@ -141,6 +141,30 @@ try{
  assert((await page.getByRole('dialog').innerText()).includes('考點說明・本站整理'));
  await page.getByRole('button',{name:'關閉視窗'}).click();assert.deepEqual((await records())[`q:${investigation.id}`],investigationBefore);
  console.log('PASS retained investigation filtering, original figure, answer-key wording and unchanged study progress');
+ // Filtered practice must honor common and advanced filters, including all pages.
+ await page.getByLabel('搜尋題目、考點或法條',{exact:true}).fill('');
+ await page.getByLabel('篩選年度',{exact:true}).selectOption('110');await page.getByLabel('篩選科目',{exact:true}).selectOption('警察法規');
+ const scopedPapers=await Promise.all(['inner','outer'].map(async track=>JSON.parse(await readFile(path.join(project,`lib/past-papers/law-110-${track}.json`),'utf8'))));
+ const firstEligible=scopedPapers[0].questions.find(q=>q.verified&&q.amendment?.status!=='review'&&q.amendment?.effectiveStatus!=='unverified');
+ await page.locator('.advanced-filters>summary').click();await page.getByLabel('篩選主題',{exact:true}).selectOption(firstEligible.topic);await page.locator('.advanced-filters>summary').click();
+ const scopedCandidates=scopedPapers.flatMap(p=>p.questions).filter(q=>q.topic===firstEligible.topic&&q.verified&&q.amendment?.status!=='review'&&q.amendment?.effectiveStatus!=='unverified');
+ const scopedBefore=await records();await page.getByRole('button',{name:'練習目前篩選',exact:true}).click();
+ const selectedTitles=[];const sessionTitle=await page.getByRole('dialog').locator('.modal-bar').innerText();assert(sessionTitle.includes('篩選內練習'));
+ const sessionCount=Number(sessionTitle.match(/1\/(\d+)/)[1]);assert.equal(sessionCount,Math.min(8,scopedCandidates.length));
+ for(let i=0;i<sessionCount;i++){
+  const title=await page.getByRole('dialog').locator('h2').first().innerText();assert(scopedCandidates.some(q=>q.title===title));selectedTitles.push(title);
+  await page.getByRole('button',{name:'直接看解析（不計作答）'}).click();
+  await page.getByRole('button',{name:i+1===sessionCount?'完成本輪':'下一題',exact:true}).click();
+ }
+ assert.equal(new Set(selectedTitles).size,sessionCount);assert.deepEqual(await records(),scopedBefore);
+ await page.getByRole('button',{name:'關閉視窗'}).click();
+ await page.getByLabel('搜尋題目、考點或法條',{exact:true}).fill('__no_matching_study_question__');await page.getByRole('button',{name:'練習目前篩選',exact:true}).click();
+ assert.equal(await page.getByRole('dialog').count(),0);assert((await page.locator('.toast').innerText()).includes('目前篩選沒有已核對'));
+ assert.equal(await page.getByLabel('篩選年度',{exact:true}).inputValue(),'110');assert.equal(await page.getByLabel('篩選科目',{exact:true}).inputValue(),'警察法規');
+ await page.getByRole('button',{name:'全站每日8題',exact:true}).click();assert((await page.getByRole('dialog').locator('.modal-bar').innerText()).includes('全站每日練習'));
+ assert.equal(await page.getByRole('dialog').locator('h2').first().innerText(),weak.title);await page.getByRole('button',{name:'關閉視窗'}).click();
+ assert.deepEqual(await records(),scopedBefore);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+ console.log('PASS filtered practice honors year, subject and advanced topic, leaves progress unchanged, keeps empty filters and retains global practice');
  await page.setViewportSize({width:390,height:844});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);assert.deepEqual(errors,[]);console.log('PASS mobile layout and no browser exceptions');
  await browser.close();browser=null;
  // Production-mode anonymous access must not use the development identity.
