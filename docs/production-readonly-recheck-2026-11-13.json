@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-11-12T17:23:25.836Z",
+  "url": "https://police-exam-study-44.middlelapwing4.chatgpt.site/",
+  "mode": "anonymous read-only",
+  "homePriorityReasons": 8,
+  "historicalCurrentComparison": true,
+  "mobileComparisonSingleColumn": true,
+  "mobileCommonAdvancedFilters": true,
+  "reviewQueueTotal": "585",
+  "pendingEssaysText": "符合 47 題",
+  "reviewQueue": true,
+  "browserErrors": [],
+  "blockedApiWrites": 0,
+  "reportedSitesRelease": {
+    "version": 11,
+    "applicationSource": "5b159cf5c54f3b414cba75f7cefc20115a097c94",
+    "deploymentId": "appgdep_6af5f45e8f148191b7db39ab601efa22",
+    "evidence": "GitHub docs/full-synchronization-status.md and docs/production-release-2026-11-13.json; this chat has no direct Sites version query tool."
+  },
+  "legalHistory": {
+    "count": 7,
+    "nextCursor": null,
+    "unchangedFromPreRelease": true
+  },
+  "unverified": [
+    "real authenticated progress persistence",
+    "cross-device conflict and restore",
+    "full local browser regression in the publishing environment",
+    "latest documentation-only Sites version after recorded version 11"
+  ]
+}
