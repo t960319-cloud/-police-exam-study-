@@ -1,0 +1,121 @@
+{
+  "site": "https://police-exam-study-44.middlelapwing4.chatgpt.site/",
+  "browserObservation": {
+    "checkedAt": "2026-11-12T16:40:44.920Z",
+    "url": "https://police-exam-study-44.middlelapwing4.chatgpt.site/",
+    "title": "警察四等特考複習站｜每日題庫・法條・申論",
+    "home": {
+      "personalizedReasons": 0,
+      "topicNames": [
+        "警察職權行使法",
+        "失蹤人口查尋",
+        "刑事報案單一窗口",
+        "執行解送人犯",
+        "警械使用條例",
+        "酒駕／毒駕",
+        "路檢攔檢與追緝",
+        "越區辦案通報"
+      ],
+      "oldDescription": 1
+    },
+    "bank": {
+      "advancedFilterGroups": 0,
+      "paperDisclosure": 0,
+      "visibleSelects": [
+        "篩選年度",
+        "篩選內外軌",
+        "篩選法規版本差異",
+        "篩選科目",
+        "篩選主題",
+        "篩選掌握狀態",
+        "篩選難度",
+        "篩選內容查證狀態"
+      ]
+    },
+    "detail": {
+      "answerComparison": 0
+    },
+    "updates": {
+      "centralQueue": 0,
+      "latestCheckText": "2026-11-12・更正解送人犯法源誤標：全國法規資料庫確認解送人犯辦法已於110.12.13廢止。第6、11條卡改列歷史資料；相關主題練習、申論及112勤務9、113勤務21、114情境14保留原題與答案，但撤下現行已核對標示。現行警政署注意事項尚待取得，不以舊辦法代替。此為本站整理勘誤，非核對當日廢止。"
+    }
+  },
+  "assets": [
+    {
+      "path": "/_next/static/chunks/framework-D_rUT4EX.js",
+      "status": "200",
+      "bytes": 190152,
+      "sha256": "939d0fabebb3b2f01753bb866b067d8d3384fb06da19f0e6557609d3b1a9f4f7"
+    },
+    {
+      "path": "/_next/static/chunks/index-2z5VbIBF.js",
+      "status": "200",
+      "bytes": 193836,
+      "sha256": "9476f435267bb52ba117fd8df97da13dc8597ef8d2539168682969017eeac776"
+    },
+    {
+      "path": "/_next/static/chunks/layout-segment-context-GiALzH2Y.js",
+      "status": "200",
+      "bytes": 494,
+      "sha256": "2c4ef046d0ff04bea0a206ce71437f21c5244e2f8fdf24399bb54a93b449818a"
+    },
+    {
+      "path": "/_next/static/chunks/page-BdVLOB1C.js",
+      "status": "200",
+      "bytes": 2712626,
+      "sha256": "6a586d38cf52e7194c506a8dfa9e15fe2302bd80240a318041753422824c82d2"
+    },
+    {
+      "path": "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
+      "status": "200",
+      "bytes": 694,
+      "sha256": "5db5ba82eef00d1dee7e86e663098c9427d01183a88d357437daff295aec3e75"
+    },
+    {
+      "path": "/_next/static/css/index.DhNqJ3Xy.css",
+      "status": "200",
+      "bytes": 171025,
+      "sha256": "b93ba12ee90058946dee8fdd7d3c59135e3341dc113296b3a70db74fd005ca79"
+    }
+  ],
+  "htmlSha256": "e2921d27031d24f12cb6676c71e1504f03cfe1223f4b976195897f3fa7b2a5e6",
+  "latestLegalEvent": {
+    "eventId": "legal-review-20261112-escort-repeal",
+    "checkedAt": "2026-11-12",
+    "summary": "更正解送人犯法源誤標：全國法規資料庫確認解送人犯辦法已於110.12.13廢止。第6、11條卡改列歷史資料；相關主題練習、申論及112勤務9、113勤務21、114情境14保留原題與答案，但撤下現行已核對標示。現行警政署注意事項尚待取得，不以舊辦法代替。此為本站整理勘誤，非核對當日廢止。"
+  },
+  "legalEventsCount": 7,
+  "hasMoreLegalEvents": false,
+  "localLegalEventsComparison": [
+    {
+      "eventId": "legal-correction-20261110-thirdparty-12",
+      "existsOnLiveSite": true,
+      "patchesIdentical": true
+    },
+    {
+      "eventId": "legal-update-20261111-thirdperson-noise",
+      "existsOnLiveSite": true,
+      "patchesIdentical": true
+    },
+    {
+      "eventId": "legal-review-20261111-sampling-safeguards",
+      "existsOnLiveSite": true,
+      "patchesIdentical": true
+    },
+    {
+      "eventId": "legal-review-20261112-escort-repeal",
+      "existsOnLiveSite": true,
+      "patchesIdentical": true
+    }
+  ],
+  "liveAssetsMissingMarkers": [
+    "topic-priority-reason",
+    "advanced-filters",
+    "legal-review-queue",
+    "answer-comparison-grid",
+    "paper-overview-disclosure"
+  ],
+  "conclusion": "正式站法規勘誤包含本工作區4筆事件且patch內容一致；正式站仍使用介面改善前版本，未包含個人化主題排序、答案對照面板、集中待核清單與手機進階篩選。",
+  "versionLimit": "未取得可證明部署Git commit或正式版號的資訊，不能從法規核對日推定部署日期。",
+  "actions": "僅GET、瀏覽器導覽與直接看解析（不計作答）；瀏覽器攔截API寫入。未部署、未發布、未變更正式學習紀錄。"
+}

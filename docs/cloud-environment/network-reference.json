@@ -1,0 +1,31 @@
+{
+  "network": {
+    "type": "restricted",
+    "allowed_domains": [
+      "cons.judicial.gov.tw",
+      "crc.sfaa.gov.tw",
+      "gazette.nat.gov.tw",
+      "glrs.moi.gov.tw",
+      "law.moj.gov.tw",
+      "law.taichung.gov.tw",
+      "ou3.npa.gov.tw",
+      "police-exam-study-44.middlelapwing4.chatgpt.site",
+      "ppg.ly.gov.tw",
+      "team-cloud-workspace-tw-20261112.middlelapwing4.chatgpt.site",
+      "ws.moi.gov.tw",
+      "www.cib.npa.gov.tw",
+      "www.moi.gov.tw",
+      "www.npa.gov.tw",
+      "www.president.gov.tw",
+      "wwwq.moex.gov.tw"
+    ]
+  },
+  "preservePresets": [
+    "package_managers"
+  ],
+  "notes": [
+    "這是來源環境的16筆自訂網域清單；套用前先讀目標設定並合併既有網域。",
+    "Git檔案不會自動變更平台網路權限。",
+    "若使用者在平台明確選擇允許所有公開網際網路，應保留該選擇，不改回限制模式。"
+  ]
+}
