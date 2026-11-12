@@ -38,7 +38,20 @@
 - 並行更新：建立本機提交 `315653d` 後，第一次 push 因遠端已到 `9d9b1ac` 被拒絕；再次 fetch，正常合併新增的兩個提交，保留其版本還原選擇修正，README 自動合併無衝突。
 - 合併後驗證：再次通過 ESLint、TypeScript、瀏覽器腳本語法與差異檢查；確認應用程式、資料與腳本和最新遠端完全一致，本輪僅增加／整合 Wiki 文件。原檔案備份與 stash 持續保留。
 
+
+
 ## 2026-11-13
+
+### 2026-11-13：同步最新 police 來源、AGENTS.md 與檢查
+
+- 範圍：依使用者要求同步 GitHub `main` 與 `AGENTS.md`，保留同步前未提交工作，核對專案交接文件並執行適用檢查。
+- 來源同步：由 `651935a` 正常快轉至 `9236e7e`、`5b159cf`，再至 `e9574b0`、`04449cd`、`8a30f39`；期間遠端有並行提交，均先 fetch 後整合，未改寫歷史。`e9574b0`、`04449cd` 與 `8a30f39` 相對 `5b159cf` 僅新增／更新紀錄文件。
+- 保存：完整同步前工作樹（含未追蹤檔案）保存在名稱為 `preserve pre-sync police worktree` 的 stash。工作樹使用最新 `main`；未將會回退最新題庫、圖片題支援或測試的舊檔案快照覆蓋回來。
+- 交接文件：已閱讀最新 `AGENTS.md`、`wiki.md`、`README.md`、近期 `log.md`、`todo.md`、`Issue.md`。保留 TODO-20261112-01，並記錄本輪正式站瀏覽器阻礙。
+- 程式碼檢查：在程式碼提交 `5b159cf` 通過 `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm test:sync`（20項）、`pnpm test:priorities`（6項）、`node scripts/check-legal-updates.mjs`、`check-past-papers.mjs`、`check-law-papers.mjs`、`check-scenario-papers.mjs`、`check-investigation-papers.mjs`、`check-curated-updates.mjs`、`node --check scripts/check-study-browser.mjs` 及四支 shell script 的 `bash -n`。
+- 建置與回歸：`pnpm build` 通過；僅有 chunk size 與部分 API 靜態分類警告。使用隔離本機 D1 執行 Chromium `pnpm test:browser` 全數通過，包含重載保存、帳號隔離、衝突與還原、手機篩選、犯罪偵查附圖、篩選內練習及匿名 GET/PUT 拒絕；未寫入正式資料。
+- 正式站存取：本輪共享雲端瀏覽器在頁面載入前遭 URL policy gate 拒絕，沒有取得網站 HTTP 或 CONNECT 回覆；不能據此判定網站故障或代理仍回 403。上游 `e9574b0` 記載第11版部署；`04449cd` 記錄正式頁面唯讀重測；`8a30f39` 補記匿名 GET／PUT 均為401。這些是其他工作流程的證據，真實帳號登入與保存仍未驗收。
+- 未完成：本輪未執行真實帳號登入、正式紀錄保存／重整或跨裝置驗收；詳見 ISSUE-20261113-01。
 
 ### 正式發布整合與安裝腳本修復
 
