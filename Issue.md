@@ -107,3 +107,11 @@
 
 - 重現：Sites install-dependencies 呼叫 install-pnpm.sh，轉執行 sites-env.sh 時出現 Permission denied（126）。
 - 修正：恢復 scripts/*.sh 的執行位元，bash -n 全數通過。後續安裝與功能驗證待執行；未改動正式資料庫或學習紀錄。
+
+## 2026-11-13：本輪 Sites 發布前核對
+
+- 既有站點第10版來源 fc0e955 與 GitHub main 178f187 具有祖先關係，已正常整合；腳本執行權限修復已同步 GitHub 1e715a4。
+- 本輪通過 TypeScript、ESLint、20項同步、6項排序、指定驗收紀錄排除、四類歷屆題庫、法規事件驗證及正式建置。
+- 新版 `.openai/hosting.json`、資料庫 schema 與所有既有遷移和第10版完全相同；保留 DB 綁定、三個正式資料表及 public 存取對象。
+- 全套本機瀏覽器回歸啟動受環境 socket 權限限制（Operation not permitted），未通過；已由共享瀏覽器成功開啟本機首頁，新版推薦與910題題庫正常顯示。
+- 正式發布與上線後唯讀驗證將由本輪 Sites 原生工具執行；其結果另行記錄，不把來源推送視為發布成功。真實帳號保存、跨裝置與版本還原仍待正式登入驗收。
