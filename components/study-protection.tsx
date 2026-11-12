@@ -13,18 +13,27 @@ function title(key: string) {
   return [...ALL_QUESTIONS, ...ALL_ESSAYS, ...LAWS, ...UPDATE_TASKS].find(item => item.id === id)?.title ?? ({ q: "題目紀錄", essay: "申論草稿", law: "法條熟悉度", custom: "自建題目", settings: "個人設定", update: "查證筆記" }[kind] ?? "學習紀錄");
 }
 const names: Record<string, string> = { intro: "前言", allocation: "依配分分段", basis: "法律依據", analysis: "要件／措施／程序", conclusion: "結語", checks: "自評勾選", note: "筆記", status: "掌握狀態", attempts: "作答次數", correct: "答對次數", bookmarked: "收藏", wrong: "曾答錯", lastAnswer: "最近答案", lastAnswers: "最近答案", lastDate: "最近練習日", nextReview: "下次複習日", tasks: "完成安排", seconds: "專注秒數", questions: "練習題目", essays: "練習申論", date: "日期", reference: "文號", completed: "已完成查證", title: "題目標題", stem: "題幹" };
+const kinds: Record<string, string> = { q: "選擇題", essay: "申論草稿", law: "法條熟悉度", day: "每日安排", update: "查證筆記", custom: "自建題目", settings: "個人設定" };
+const label = (key: string) => `${kinds[key.split(":")[0]] ?? "學習紀錄"}・${title(key)}`;
 function preview(value: unknown) {
   if (typeof value === "string") return ({ mastered: "已掌握", unseen: "尚未練習", review: "待複習", verify: "需要查證" }[value] ?? value);
   if (!isObject(value)) return "無紀錄";
   return Object.entries(value).filter(([key]) => names[key]).map(([key, value]) => `${names[key]}：${Array.isArray(value) ? value.join("、") : typeof value === "boolean" ? value ? "是" : "否" : String(value ?? "")}`).join("\n") || "個人學習紀錄";
 }
-export function StudyProtection({ store }: { store: Store }) {
-  const [selected, setSelected] = useState("");
-  const [versions, setVersions] = useState<RecordEntry[]>([]);
-  const [message, setMessage] = useState("");
+function excerpt(value: unknown) {
+  const text = isObject(value) && typeof value.note === "string" ? `筆記：${value.note || "（空白）"}` : preview(value);
+  const compact = text.replace(/\s+/g, " ");
+  return compact.length > 100 ? `${compact.slice(0, 100)}…` : compact;
+}
+export function StudyProtection({ store, preferredKey, onRecordSelected }: { store: Store; preferredKey?: string; onRecordSelected?: (key: string) => void }) {
+  const keys = Object.keys(store.records).sort((a, b) => store.records[b].updatedAt - store.records[a].updatedAt || a.localeCompare(b));
+  const initialKey = preferredKey && keys.includes(preferredKey) ? preferredKey : keys.find(key => !/^(day|settings):/.test(key)) ?? keys[0] ?? "";
+  const [selected, setSelected] = useState(() => initialKey);
+  const [history, setHistory] = useState<{ key: string; versions: RecordEntry[] } | null>(null);
+  const [message, setMessage] = useState<{ key: string; text: string } | null>(null);
   const [loading, setLoading] = useState(false);
-  const keys = Object.keys(store.records);
-  const selectedKey = keys.includes(selected) ? selected : keys[0];
+  const selectedKey = keys.includes(selected) ? selected : initialKey;
+  const versions = history?.key === selectedKey ? history.versions : [];
   const exportLegacy = () => {
     const blob = new Blob([JSON.stringify({ version: 1, records: store.legacyRecords() }, null, 2)], { type: "application/json" });
     const url = URL.createObjectURL(blob);
@@ -43,9 +52,11 @@ export function StudyProtection({ store }: { store: Store }) {
       <div className="heading-actions"><button className="button primary" onClick={() => store.resolveConflict(key, "local")}>保留我的版本</button><button className="button secondary" onClick={() => store.resolveConflict(key, "remote")}>採用其他裝置版本</button></div>
     </article>)}
     <h3>版本還原</h3><p>已同步紀錄保留最近20個雲端舊版本，此裝置另保留最近20次修改。還原會建立一筆新修改，仍會檢查多裝置衝突。</p>
-    {keys.length ? <><label>選擇學習紀錄<select aria-label="選擇還原紀錄" value={selectedKey} onChange={e => { setSelected(e.target.value); setVersions([]); setMessage(""); }}>{keys.map(key => <option key={key} value={key}>{title(key)}</option>)}</select></label>
-      <button className="button secondary" disabled={loading} onClick={async () => { setLoading(true); setMessage(""); try { const result = await store.loadHistory(selectedKey); setVersions(result); if (!result.length) setMessage("這筆紀錄尚無可還原的舊版本。"); } catch { setMessage("雲端版本暫時無法讀取，請恢復連線後重試。"); } finally { setLoading(false); } }}>{loading ? "讀取中…" : "查看可還原版本"}</button>
-      {versions.map((version, index) => <details key={`${version.updatedAt}-${index}`}><summary>{date(version.updatedAt)}</summary><pre>{preview(version.value)}</pre><button className="button secondary" onClick={() => { store.put(selectedKey, version.value); setMessage("已套用選取內容，等待同步；原內容仍可由版本紀錄找回。"); }}>還原這個版本</button></details>)}</> : <p>累積學習紀錄後即可查看版本。</p>}
-    {message && <p role="status">{message}</p>}
+    {keys.length ? <><p>優先選擇本次編輯的內容；重新開站時選擇最近修改的題目、申論或法條。每日安排仍可從選單選取。</p>
+      <label>選擇學習紀錄<select aria-label="選擇還原紀錄" value={selectedKey} onChange={e => { setSelected(e.target.value); onRecordSelected?.(e.target.value); setHistory(null); setMessage(null); }}>{keys.map(key => <option key={key} value={key}>{label(key)}</option>)}</select></label>
+      <div className="restore-record-context" aria-label="目前選擇的還原紀錄"><strong>{label(selectedKey)}</strong><p>最近修改：{date(store.records[selectedKey].updatedAt)}</p><p>目前內容：{excerpt(store.records[selectedKey].value)}</p></div>
+      <button className="button secondary" disabled={loading} onClick={async () => { const key = selectedKey; setSelected(key); setLoading(true); setHistory(null); setMessage(null); try { const result = await store.loadHistory(key); setHistory({ key, versions: result }); if (!result.length) setMessage({ key, text: "這筆紀錄尚無可還原的舊版本。" }); } catch { setMessage({ key, text: "雲端版本暫時無法讀取，請恢復連線後重試。" }); } finally { setLoading(false); } }}>{loading ? "讀取中…" : "查看可還原版本"}</button>
+      {versions.map((version, index) => <details className="study-history-version" key={`${history!.key}-${version.updatedAt}-${index}`}><summary>{date(version.updatedAt)}<small>{excerpt(version.value)}</small></summary><p>{label(history!.key)}</p><pre>{preview(version.value)}</pre><button className="button secondary" onClick={() => { const key = history!.key; store.put(key, version.value); setMessage({ key, text: "已套用選取內容，等待同步；原內容仍可由版本紀錄找回。" }); }}>還原這個版本</button></details>)}</> : <p>累積學習紀錄後即可查看版本。</p>}
+    {message?.key === selectedKey && <p role="status">{message.text}</p>}
   </section>;
 }
