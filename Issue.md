@@ -102,3 +102,8 @@
 - 修復及驗證結果：未修復／實際結果
 - 相關日誌：[日期](log.md#YYYY-MM-DD)
 ```
+
+### 2026-11-13：Sites 發布準備與腳本執行權限
+
+- 重現：Sites install-dependencies 呼叫 install-pnpm.sh，轉執行 sites-env.sh 時出現 Permission denied（126）。
+- 修正：恢復 scripts/*.sh 的執行位元，bash -n 全數通過。後續安裝與功能驗證待執行；未改動正式資料庫或學習紀錄。
