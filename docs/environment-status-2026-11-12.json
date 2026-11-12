@@ -1,0 +1,184 @@
+{
+  "checkedDate": "2026-11-12",
+  "timezone": "Asia/Taipei",
+  "sourceCommit": "1c4f6e4",
+  "checks": [
+    {
+      "id": "production-home",
+      "url": "https://police-exam-study-44.middlelapwing4.chatgpt.site/",
+      "capturedAt": "2026-11-12T12:37:49.145200+00:00",
+      "curlExit": 0,
+      "status": "200 200",
+      "error": "",
+      "bytes": 48597,
+      "sha256": "e2921d27031d24f12cb6676c71e1504f03cfe1223f4b976195897f3fa7b2a5e6",
+      "featureMarkers": {
+        "priorities": false,
+        "oldPriorities": true
+      }
+    },
+    {
+      "id": "production-session",
+      "url": "https://police-exam-study-44.middlelapwing4.chatgpt.site/api/session",
+      "capturedAt": "2026-11-12T12:37:49.079974+00:00",
+      "curlExit": 0,
+      "status": "200 200",
+      "error": "",
+      "bytes": 13,
+      "sha256": "2e7fe66d0f26a4cc5aaad5f34dba496c7988c175f79b24dcfa414a1dba289c0a",
+      "sessionSummary": {
+        "hasUser": false,
+        "mode": null
+      }
+    },
+    {
+      "id": "production-records-anonymous",
+      "url": "https://police-exam-study-44.middlelapwing4.chatgpt.site/api/records",
+      "capturedAt": "2026-11-12T12:37:49.016210+00:00",
+      "curlExit": 0,
+      "status": "401 200",
+      "error": "",
+      "bytes": 68,
+      "sha256": "29949d9b80680c60a81886979cb74659b466839499b6aca1a50629e233e0f1c6"
+    },
+    {
+      "id": "production-legal",
+      "url": "https://police-exam-study-44.middlelapwing4.chatgpt.site/api/legal-updates",
+      "capturedAt": "2026-11-12T12:37:49.216012+00:00",
+      "curlExit": 0,
+      "status": "200 200",
+      "error": "",
+      "bytes": 116307,
+      "sha256": "a6416d306fdd3cc170181f2a39c32ac5189aebfc1135c064c22b006ac57b4a4d",
+      "eventCount": 7
+    },
+    {
+      "id": "moj",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35",
+      "capturedAt": "2026-11-12T12:37:49.041450+00:00",
+      "curlExit": 56,
+      "status": "000 403",
+      "error": "curl: (56) CONNECT tunnel failed, response 403",
+      "bytes": 0,
+      "sha256": null
+    },
+    {
+      "id": "police-law",
+      "url": "https://ou3.npa.gov.tw/law",
+      "capturedAt": "2026-11-12T12:37:49.061221+00:00",
+      "curlExit": 56,
+      "status": "000 403",
+      "error": "curl: (56) CONNECT tunnel failed, response 403",
+      "bytes": 0,
+      "sha256": null
+    },
+    {
+      "id": "gazette",
+      "url": "https://gazette.nat.gov.tw/egFront/detail.do?metaid=165733&log=detailLog",
+      "capturedAt": "2026-11-12T12:37:49.080377+00:00",
+      "curlExit": 56,
+      "status": "000 403",
+      "error": "curl: (56) CONNECT tunnel failed, response 403",
+      "bytes": 0,
+      "sha256": null
+    }
+  ],
+  "sourceStatistics": {
+    "questions": 910,
+    "essays": 66,
+    "laws": 32,
+    "subjects": {
+      "警察法規": 312,
+      "警察勤務": 162,
+      "犯罪偵查": 309,
+      "刑事訴訟法": 7,
+      "警察情境實務": 120
+    },
+    "topics": 22,
+    "papers": 30,
+    "events": 4,
+    "pending": {
+      "questions": 538,
+      "essays": 47,
+      "laws": 6
+    },
+    "emptyLawLinks": {
+      "questions": 814,
+      "essays": 31
+    },
+    "topicCardGaps": [
+      {
+        "id": "theory",
+        "name": "勤務原理與制度",
+        "questions": 129
+      },
+      {
+        "id": "law_assembly",
+        "name": "集會遊行法",
+        "questions": 42
+      },
+      {
+        "id": "investigation_forensics",
+        "name": "刑案現場與鑑識",
+        "questions": 47
+      },
+      {
+        "id": "investigation_digital",
+        "name": "數位證據與網路犯罪",
+        "questions": 23
+      },
+      {
+        "id": "investigation_intelligence",
+        "name": "情報與偵查方法",
+        "questions": 42
+      },
+      {
+        "id": "investigation_protection",
+        "name": "特殊保護案件",
+        "questions": 20
+      },
+      {
+        "id": "investigation_cases",
+        "name": "刑案分類與處理",
+        "questions": 32
+      },
+      {
+        "id": "investigation_basics",
+        "name": "偵查基本原則",
+        "questions": 45
+      }
+    ]
+  },
+  "networkObservation": {
+    "observationsCurrent": true,
+    "policyState": "enforced",
+    "runtimeCustomDomainCount": 2,
+    "draftCustomDomainCount": 16,
+    "draftRevision": 4,
+    "missingRuntimeDomains": 14,
+    "availableToolsCanApplyRuntime": false
+  },
+  "productionLegalHistory": {
+    "events": 7,
+    "nextCursor": null,
+    "curatedEventsInSource": 4,
+    "curatedEventsPresentAndUnchanged": true,
+    "remoteOnlyEventIds": [
+      "legal-import-scenario-20261109",
+      "legal-update-20261110-urine-safeguards",
+      "legal-update-20261110-escort-repeal"
+    ]
+  },
+  "handoffEvidenceProvenance": {
+    "file": "docs/legal-evidence-2026-11-12-domains.json",
+    "sha256": "621dc7de463a61c2f49f4afc6b86744a1eafd4f21aaeb7b1d07573b66b320ee0",
+    "sourcePublishedVersionId": "5b129bf11d2778d64babea4ba6da527b0f76e5d9017cb165e618033dc2f53fba~cecfgver_6af5882083a0819a8cae817aca6679cc",
+    "notice": "交接包來源環境的既有查核紀錄，不是本環境重新取得官方全文。"
+  },
+  "limitations": [
+    "正式站檢查只發送未登入 GET；未對學習紀錄寫入。",
+    "未登入的讀取與法規事件讀回不代表真實帳號保存或歷史還原已驗收。",
+    "首頁特徵可辨識舊式推薦，但未取得 Sites 最新來源提交或發布版本；不能由此推定精確部署版本。",
+    "官方原件請求仍遭 CONNECT 403，未成功讀取的內容不宣稱已核實。"
+  ]
+}
