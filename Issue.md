@@ -74,6 +74,8 @@
 - 回歸腳本：`check-study-sync.mjs`（20 項）、`check-study-priorities.mjs`（6 項）、`check-requested-study-resets.mjs`、`check-legal-updates.mjs`、`check-past-papers.mjs`、`check-law-papers.mjs`、`check-scenario-papers.mjs`、`check-investigation-papers.mjs`、`check-curated-updates.mjs`，共 9 組皆通過。
 - 已補註最新來源的法規查核進度與既有驗證，保留 ISSUE-20261112-01、ISSUE-20261112-02；TODO-20261112-01 改為核對既有驗證與剩餘正式驗收，避免重列已完成工作。
 - 未完成範圍：本輪沒有重新建置、操作瀏覽器、核對官方全文或部署網站；以上結果不代表正式登入與個人紀錄已驗收。
+- 並行更新處理：首次推送因遠端新增 `84c2e6d`、`9d9b1ac` 而被拒絕；保留本機提交 `315653d`，正常合併至遠端 `9d9b1ac`，沒有衝突。最新版本還原選擇修正完整保留，應用程式、資料及腳本內容與新遠端一致。
+- 合併後檢查：重新執行 ESLint、TypeScript、`node --check scripts/check-study-browser.mjs` 及差異檢查，皆通過；9 組回歸腳本所涉資料與邏輯沒有因本次文件合併而改動。
 
 ## 已解決問題
 

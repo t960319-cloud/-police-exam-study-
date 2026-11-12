@@ -116,3 +116,9 @@
 .paper-overview-disclosure[open]>summary>svg{transform:rotate(180deg)}
 .paper-overview-disclosure .past-paper-overview{margin-bottom:0;border:0}
 @media print{.paper-overview-disclosure{display:none!important}}
+
+.restore-record-context{margin:14px 0;padding:14px;border:1px solid #ded4eb;border-radius:10px;background:#faf7fe;overflow-wrap:anywhere}
+.restore-record-context strong{display:block;line-height:1.7}
+.restore-record-context p{margin:8px 0 0;line-height:1.8}
+.study-history-version summary{line-height:1.8;overflow-wrap:anywhere}
+.study-history-version summary small{display:block;font-size:12px;font-weight:400;margin-top:5px;white-space:pre-wrap}

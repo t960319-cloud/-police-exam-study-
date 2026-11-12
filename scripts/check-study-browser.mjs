@@ -165,6 +165,42 @@ try{
  assert.equal(await page.getByRole('dialog').locator('h2').first().innerText(),weak.title);await page.getByRole('button',{name:'關閉視窗'}).click();
  assert.deepEqual(await records(),scopedBefore);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
  console.log('PASS filtered practice honors year, subject and advanced topic, leaves progress unchanged, keeps empty filters and retains global practice');
+ // History selection follows the last edited content, not the first or newest day record.
+ await page.setViewportSize({width:1280,height:900});await navigate('主題題庫');await page.setViewportSize({width:390,height:844});
+ await page.locator('.question-row-main').first().click();await page.getByLabel('我的錯因筆記').fill('選單驗收 A');await queueEmpty(page);
+ await page.getByLabel('我的錯因筆記').fill('選單驗收 B');await queueEmpty(page);await page.getByRole('button',{name:'關閉視窗'}).click();
+ await page.getByRole('button',{name:'備份與設定',exact:true}).click();assert.equal(await page.getByLabel('選擇還原紀錄').inputValue(),qKey);
+ assert((await page.locator('.restore-record-context').innerText()).includes('選單驗收 B'));
+ const withB=await records(),dayKey=Object.keys(withB).find(k=>k.startsWith('day:'));
+ const newerDay=await context.request.put(root+'/api/records',{headers,data:{key:dayKey,value:withB[dayKey].value,updatedAt:Date.now()+60000,baseUpdatedAt:withB[dayKey].updatedAt}});assert.equal(newerDay.status(),200);
+ await page.getByLabel('選擇還原紀錄').selectOption(essayKey);await page.getByRole('button',{name:'重試同步',exact:true}).click();await queueEmpty(page);
+ assert.equal(await page.getByLabel('選擇還原紀錄').inputValue(),essayKey);
+ await page.getByRole('button',{name:'關閉視窗'}).click();await page.reload({waitUntil:'networkidle'});await queueEmpty(page);
+ await page.getByRole('button',{name:'備份與設定',exact:true}).click();assert.equal(await page.getByLabel('選擇還原紀錄').inputValue(),qKey);
+ console.log('PASS recent-content history default after edit and reload, newer day does not steal selection, manual selection survives refresh');
+ // A slow reply for one record cannot expose its versions under another record.
+ let releaseHistory;const historyGate=new Promise(resolve=>{releaseHistory=resolve;});
+ await page.route('**/api/records?history=*',async route=>{await historyGate;await route.continue();});
+ const delayedRequest=page.waitForRequest(r=>new URL(r.url()).searchParams.get('history')===qKey);
+ const delayedResponse=page.waitForResponse(r=>new URL(r.url()).searchParams.get('history')===qKey);
+ await page.getByRole('button',{name:'查看可還原版本',exact:true}).click();await delayedRequest;
+ await page.getByLabel('選擇還原紀錄').selectOption(essayKey);releaseHistory();await delayedResponse;
+ await page.getByRole('button',{name:'查看可還原版本',exact:true}).waitFor();
+ assert.equal(await page.getByLabel('選擇還原紀錄').inputValue(),essayKey);assert.equal(await page.locator('.study-history-version').count(),0);
+ await page.unroute('**/api/records?history=*');
+ const unrelatedBefore=(await records())[essayKey];await page.getByLabel('選擇還原紀錄').selectOption(qKey);
+ await page.getByRole('button',{name:'查看可還原版本',exact:true}).click();const selectedPrior=page.locator('.study-history-version').filter({hasText:'選單驗收 A'}).first();await selectedPrior.waitFor();
+ assert((await selectedPrior.locator('summary').innerText()).includes('筆記：選單驗收 A'));
+ await selectedPrior.locator('summary').click();await selectedPrior.getByRole('button',{name:'還原這個版本',exact:true}).click();await queueEmpty(page);
+ const afterRestore=await records();assert.equal(afterRestore[qKey].value.note,'選單驗收 A');assert.deepEqual(afterRestore[essayKey],unrelatedBefore);
+ assert.deepEqual({...afterRestore[qKey].value,note:undefined},{...withB[qKey].value,note:undefined});
+ await page.getByLabel('選擇還原紀錄').selectOption(essayKey);await page.getByRole('button',{name:'關閉視窗'}).click();
+ await page.locator('.question-row-main').first().click();await page.getByRole('button',{name:'查看這題版本',exact:true}).click();
+ assert.equal(await page.getByLabel('選擇還原紀錄').inputValue(),qKey);assert((await page.locator('.restore-record-context').innerText()).includes('選單驗收 A'));
+ await page.getByRole('button',{name:'查看可還原版本',exact:true}).click();await page.locator('.study-history-version').first().waitFor();
+ await page.screenshot({path:path.join(project,'.sites-runtime/study-mobile-history-context.png'),fullPage:true});
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await page.getByRole('button',{name:'關閉視窗'}).click();
+ console.log('PASS late history reply isolation, visible version excerpts, restoration targets correct record and direct question-history entry');
  await page.setViewportSize({width:390,height:844});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);assert.deepEqual(errors,[]);console.log('PASS mobile layout and no browser exceptions');
  await browser.close();browser=null;
  // Production-mode anonymous access must not use the development identity.
