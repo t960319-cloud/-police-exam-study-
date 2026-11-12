@@ -27,5 +27,26 @@
     "cross-device conflict and restore",
     "full local browser regression in the publishing environment",
     "latest documentation-only Sites version after recorded version 11"
-  ]
+  ],
+  "anonymousAuthorizationChecks": [
+    {
+      "test": "records-read",
+      "method": "GET",
+      "status": "401",
+      "exitCode": 0
+    },
+    {
+      "test": "history-read",
+      "method": "GET",
+      "status": "401",
+      "exitCode": 0
+    },
+    {
+      "test": "anonymous-write-denied",
+      "method": "PUT",
+      "status": "401",
+      "exitCode": 0
+    }
+  ],
+  "anonymousWriteProbe": "未登入PUT只送空物件，無紀錄鍵或學習資料；401拒絕，未寫入正式資料。"
 }
