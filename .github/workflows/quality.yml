@@ -27,6 +27,7 @@ jobs:
       - name: Sync and question-bank regressions
         run: |
           pnpm test:sync
+          pnpm test:priorities
           node scripts/check-legal-updates.mjs
           node scripts/check-past-papers.mjs
           node scripts/check-law-papers.mjs

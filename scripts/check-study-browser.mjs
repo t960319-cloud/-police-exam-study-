@@ -15,7 +15,7 @@ const environment={...process.env,STUDY_TEST_STATE:state,SITES_RUNTIME_ROOT:path
 const config=path.join(temp,'d1.json');
 await writeFile(config,JSON.stringify({name:'police-study-browser-test',compatibility_date:'2026-05-15',d1_databases:[{binding:'DB',database_name:'site-creator-d1',database_id:'00000000-0000-4000-8000-000000000000',migrations_dir:path.join(project,'drizzle')}]}));
 const migration=spawnSync(process.execPath,['--import','./scripts/sites-env.mjs','./node_modules/wrangler/bin/wrangler.js','d1','migrations','apply','DB','--local','--config',config,'--persist-to',state],{cwd:project,env:environment,encoding:'utf8'});
-if(migration.status!==0)throw Error(migration.stdout+migration.stderr);
+if(migration.status!==0||migration.error)throw Error([migration.error?.message,migration.signal,migration.stdout,migration.stderr].filter(Boolean).join('\n'));
 async function port(){const server=createServer();await new Promise(r=>server.listen(0,'127.0.0.1',r));const number=server.address().port;await new Promise(r=>server.close(r));return number;}
 const number=await port();const root=`http://127.0.0.1:${number}`;
 const log=createWriteStream(path.join(temp,'server.log'));
@@ -69,6 +69,78 @@ try{
  const invalid=await context.request.put(root+'/api/records',{headers,data:{key:'essay:invalid',value:{checks:[42]},updatedAt:Date.now(),baseUpdatedAt:null}});assert.equal(invalid.status(),400);
  const create=await context.request.put(root+'/api/records',{headers,data:{key:'essay:cas',value:{intro:'base'},updatedAt:Date.now(),baseUpdatedAt:null}});assert.equal(create.status(),200);const base=(await create.json()).record.updatedAt;
  const writes=await Promise.all(['first','second'].map(intro=>context.request.put(root+'/api/records',{headers,data:{key:'essay:cas',value:{intro},updatedAt:Date.now()+1000,baseUpdatedAt:base}})));assert.deepEqual(writes.map(r=>r.status()).sort(),[200,409]);console.log('PASS atomic server version checks prevent concurrent overwrite');
+ // Personal priorities must include a weak topic beyond the original first eight.
+ const weak={id:'q29',title:'誰可以逮捕現行犯'};
+ const weakPrior=(await records())[`q:${weak.id}`];
+ assert.equal((await context.request.put(root+'/api/records',{headers,data:{key:`q:${weak.id}`,value:{status:'review',bookmarked:false,wrong:true,attempts:10,correct:0,lastDate:'2026-01-01',nextReview:'2026-01-02'},updatedAt:Date.now()+2000,baseUpdatedAt:weakPrior?.updatedAt??null}})).status(),200);
+ await page.reload({waitUntil:'networkidle'});await queueEmpty(page);await navigate('今日總覽');
+ assert.equal(await page.locator('.topic-card').first().getAttribute('data-topic-id'),'procedure');
+ assert((await page.locator('.topic-card').first().innerText()).includes('答錯率'));
+ await page.getByRole('button',{name:'開始今日練習',exact:false}).click();
+ assert.equal(await page.getByRole('dialog').locator('h2').first().innerText(),weak.title);
+ await page.getByRole('button',{name:'關閉視窗'}).click();
+ console.log('PASS weak-topic ranking and matching daily practice');
+ // Historical grading stays intact; comparison is shown only after reveal.
+ await navigate('主題題庫');await page.getByLabel('篩選年度',{exact:true}).selectOption('112');await page.getByLabel('篩選科目',{exact:true}).selectOption('警察勤務');
+ const escort=JSON.parse(await readFile(path.join(project,'lib/past-papers/duty-112.json'),'utf8')).questions.find(q=>q.paperNumber===9);
+ const escortBefore=(await records())[`q:${escort.id}`];
+ await page.getByLabel('搜尋題目、考點或法條',{exact:true}).fill(escort.title);await page.locator('.question-row-main').first().click();
+ assert.equal(await page.locator('.answer-comparison').count(),0);
+ assert((await page.getByRole('dialog').innerText()).includes('當年官方答案保留計分'));
+ await page.getByRole('button',{name:'直接看解析（不計作答）'}).click();
+ const comparison=page.getByRole('region',{name:'當年答案與現行作答對照'});
+ await comparison.waitFor();assert((await comparison.locator('.historical-answer').innerText()).includes('112年考試答案'));
+ assert((await comparison.locator('.historical-answer strong').innerText()).includes(String.fromCharCode(65+escort.answer)));
+ assert((await comparison.locator('.current-answer').innerText()).includes('尚待核對'));
+ await page.getByRole('button',{name:'關閉視窗'}).click();
+ assert.deepEqual((await records())[`q:${escort.id}`],escortBefore);
+ console.log('PASS historical answer preservation, pending warning and comparison after reveal without recording an attempt');
+ // Common filters stay visible on a phone; advanced selections stay active while folded.
+ await navigate('主題題庫');await page.setViewportSize({width:390,height:844});
+ await page.getByLabel('篩選年度',{exact:true}).waitFor({state:'visible'});await page.getByLabel('篩選科目',{exact:true}).waitFor({state:'visible'});await page.getByLabel('篩選練習紀錄',{exact:true}).waitFor({state:'visible'});
+ assert.equal(await page.getByLabel('篩選主題',{exact:true}).isVisible(),false);
+ assert.equal(await page.locator('.past-paper-overview').isVisible(),false);
+ await page.locator('.paper-overview-disclosure>summary').click();assert.equal(await page.locator('.past-paper-overview').isVisible(),true);await page.locator('.paper-overview-disclosure>summary').click();
+ assert((await page.getByLabel('篩選年度',{exact:true}).boundingBox()).y<600);
+ await page.getByLabel('篩選練習紀錄',{exact:true}).selectOption('wrong');
+ assert((await page.locator('.question-list').innerText()).includes(weak.title));
+ await page.locator('.advanced-filters>summary').click();await page.getByLabel('篩選主題',{exact:true}).selectOption('procedure');await page.locator('.advanced-filters>summary').click();
+ assert.equal(await page.getByLabel('篩選主題',{exact:true}).isVisible(),false);
+ assert((await page.locator('.active-filter-summary').innerText()).includes('刑事訴訟法基礎'));
+ assert((await page.locator('.question-list').innerText()).includes(weak.title));
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+ await page.screenshot({path:path.join(project,'.sites-runtime/study-mobile-filters.png'),fullPage:true});
+ await page.getByRole('button',{name:'重設篩選',exact:true}).click();
+ assert.equal(await page.getByLabel('篩選練習紀錄',{exact:true}).inputValue(),'all');assert.equal(await page.locator('.active-filter-summary').count(),0);
+ await page.getByLabel('篩選年度',{exact:true}).selectOption('110');await page.getByLabel('篩選科目',{exact:true}).selectOption('警察法規');
+ assert((await page.locator('.question-row-main').count())>0);
+ for(const row of await page.locator('.question-row-main').all()){assert((await row.innerText()).includes('110年'));assert((await row.innerText()).includes('警察法規'));}
+ console.log('PASS mobile common filters, retained advanced conditions, reset and year/subject combination');
+ // A single queue contains choices and essays and opens the precise source item.
+ await page.getByRole('button',{name:/^待核題目 /}).click();
+ const queue=page.getByRole('region',{name:/尚待核對的題目/});await queue.waitFor();
+ await page.getByLabel('待核題型',{exact:true}).selectOption('question');await page.getByLabel('搜尋待核題目',{exact:true}).fill(escort.title);
+ await queue.locator('.legal-queue-row').first().click();
+ assert.equal(await page.getByRole('dialog').locator('h2').first().innerText(),escort.title);await page.getByRole('button',{name:'直接看解析（不計作答）'}).click();
+ assert.equal(await page.locator('.answer-comparison-grid').evaluate(el=>getComputedStyle(el).gridTemplateColumns.split(' ').length),1);
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+ await comparison.scrollIntoViewIfNeeded();await page.screenshot({path:path.join(project,'.sites-runtime/study-mobile-answer-comparison.png')});
+ await page.getByRole('button',{name:'關閉視窗'}).click();await page.getByLabel('搜尋待核題目',{exact:true}).fill('');await page.getByLabel('待核題型',{exact:true}).selectOption('essay');
+ const pendingEssayTitle=await queue.locator('.legal-queue-row strong').first().innerText();await queue.locator('.legal-queue-row').first().click();
+ assert((await page.locator('.essay-editor').innerText()).includes(pendingEssayTitle));
+ console.log('PASS centralized choice/essay pending queue, exact navigation and stacked mobile comparison');
+ // Retain the investigation papers imported after the handoff's source base.
+ await page.setViewportSize({width:1280,height:900});await navigate('主題題庫');await page.getByLabel('篩選年度',{exact:true}).selectOption('110');await page.getByLabel('篩選科目',{exact:true}).selectOption('犯罪偵查');
+ const investigation=JSON.parse(await readFile(path.join(project,'lib/past-papers/investigation-110.json'),'utf8')).questions.find(q=>q.figure);
+ await page.setViewportSize({width:390,height:844});
+ const investigationBefore=(await records())[`q:${investigation.id}`];
+ await page.getByLabel('搜尋題目、考點或法條',{exact:true}).fill(investigation.title);await page.locator('.question-row-main').first().click();
+ assert.equal(await page.getByRole('link',{name:'查看原題附圖',exact:false}).getAttribute('href'),investigation.figure.url);
+ await page.getByRole('button',{name:'直接看解析（不計作答）'}).click();
+ assert((await page.getByRole('dialog').innerText()).includes('A～D答案對照'));
+ assert((await page.getByRole('dialog').innerText()).includes('考點說明・本站整理'));
+ await page.getByRole('button',{name:'關閉視窗'}).click();assert.deepEqual((await records())[`q:${investigation.id}`],investigationBefore);
+ console.log('PASS retained investigation filtering, original figure, answer-key wording and unchanged study progress');
  await page.setViewportSize({width:390,height:844});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);assert.deepEqual(errors,[]);console.log('PASS mobile layout and no browser exceptions');
  await browser.close();browser=null;
  // Production-mode anonymous access must not use the development identity.
