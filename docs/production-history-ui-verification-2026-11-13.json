@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-11-13T00:05:52.652240+00:00",
+  "site": "https://police-exam-study-44.middlelapwing4.chatgpt.site",
+  "method": "GET only, curl default TLS verification and inherited proxy",
+  "checks": [
+    {
+      "path": "/api/session",
+      "curlExit": 0,
+      "transportStatus": "200 200",
+      "httpStatus": 200,
+      "connectStatus": 200,
+      "hasUser": false
+    },
+    {
+      "path": "/api/records",
+      "curlExit": 0,
+      "transportStatus": "401 200",
+      "httpStatus": 401,
+      "connectStatus": 200
+    },
+    {
+      "path": "/api/legal-updates",
+      "curlExit": 0,
+      "transportStatus": "200 200",
+      "httpStatus": 200,
+      "connectStatus": 200,
+      "events": 7,
+      "nextCursor": null
+    },
+    {
+      "path": "/_next/static/chunks/page-CSAXotkP.js",
+      "curlExit": 0,
+      "transportStatus": "200 200",
+      "httpStatus": 200,
+      "connectStatus": 200,
+      "sha256": "f50065c5d18f82fd228e0b7bec9683c81deb7ffc5bea49424b80b709df5d5a82",
+      "bytes": 2722894,
+      "markers": {
+        "查看這題版本": true,
+        "目前選擇的還原紀錄": true,
+        "優先選擇本次編輯的內容": true,
+        "study-history-version": true,
+        "restore-record-context": true
+      }
+    }
+  ],
+  "productionWrites": 0,
+  "priorDirectCheckAt": "2026-11-12T17:24:20.764409+00:00",
+  "legalEventsUnchangedSincePriorDirectCheck": true,
+  "sourceLegalEventsUnchangedAtPriorDirectCheck": true,
+  "releaseEvidence": {
+    "record": "docs/production-release-2026-11-13.json",
+    "recordedSiteVersion": 11,
+    "source": "5b159cf5c54f3b414cba75f7cefc20115a097c94",
+    "historyFixCommit": "84c2e6d",
+    "historyFixIsAncestorOfReleaseSource": true,
+    "basis": "git merge-base --is-ancestor 84c2e6d 5b159cf; official JavaScript markers checked directly",
+    "latestSitesVersionQueriedInThisWorkflow": false
+  },
+  "browserAttempt": {
+    "checkedAt": "2026-11-13T00:02:28.069Z",
+    "scope": "anonymous production mobile read-only",
+    "result": "blocked",
+    "error": "net::ERR_CERT_AUTHORITY_INVALID",
+    "completedSteps": 0,
+    "tlsVerificationDisabled": false,
+    "diagnostic": "Chromium opens /home/agent/.pki/nssdb; cert9.db write access reports EROFS. Root cause remains unconfirmed; curl TLS verification succeeds.",
+    "environmentRestart": "Executor recovered after environment restart; browser trust failure persists."
+  },
+  "upstreamEvidence": {
+    "sourceCommit": "7bc5e13",
+    "mobileReadOnly390px": "Recorded as passed by a separate workflow; not repeated successfully in this workflow.",
+    "authenticatedBookmarkReload": "User-confirmed in upstream record; not performed by this agent."
+  },
+  "unverified": [
+    "Real authenticated note/answer/essay save and reload",
+    "Cross-device authenticated readback and conflict handling",
+    "Real authenticated version history restoration"
+  ],
+  "actions": {
+    "applicationCodeChanged": false,
+    "productionWrites": 0,
+    "deployedByThisWorkflow": false
+  }
+}
