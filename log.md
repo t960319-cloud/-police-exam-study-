@@ -127,3 +127,14 @@
 - 瀏覽器：2026-11-13 08:11（Asia/Taipei）沙箱內重現憑證錯誤；08:12 經核准在沙箱外執行同一支唯讀檢查，Chromium 成功取得正式首頁200及瀏覽器 session200，TLS1.3且憑證主機名相符。實際檢視390px截圖，頁面正常、寬度390、無頁面例外；攔截 API 寫入，實際寫入0。未停用 TLS 驗證。
 - 問題交接：ISSUE-20261113-02 記錄已驗證的可用執行方式並移至已解決；沙箱內信任庫根因仍未完全確認。新環境 remote_desktop enabled=true、state=unknown，但兩次搜尋仍無共享桌面控制／開啟工具；正式登入工作階段缺少另記 ISSUE-20261113-03。真實帳號保存、跨裝置與還原仍未操作，不重做已完成的模擬測試。
 - 證據與範圍：更新 [核實紀錄](docs/production-history-ui-verification-2026-11-13.json) 的 `newEnvironmentRecheck`、Issue 與原TODO；完整環境ID及設定版本可由該證據讀回。未修改應用程式、正式學習紀錄、環境草稿或發布狀態。
+
+### 2026-11-13：每日 Git 同步與錯誤檢查
+
+- 範圍：本環境的 `/workspace/-police-exam-study-`、GitHub `origin/main` 及發布設定所指向的 police Sites 原始碼。環境由 starting 等待至 ready 後才操作；狀態確認 running、觀察有效、政策 enforced。
+- 同步：原本為乾淨的 `5914f6e`，沒有本機待推送提交；GitHub已到 `7c0935f03e8a3c8af9ade0c6c6a4c38c1790a792`，本機落後17筆、超前0筆。正常fast-forward保留所有上游改動，沒有衝突、空提交或歷史覆寫；已閱讀最新AGENTS、Wiki、README、日誌、待辦與未結問題。
+- Sites核對：原始碼分支為 `e9574b0456dc1cea7893398214db4471909b90a1`，最新保存版本為第12版且來源相同。Sites沒有獨有提交；GitHub多出的7筆僅有文件與驗收紀錄差異。應用程式、資料庫、腳本、依賴清單／鎖定檔及發布設定比對無差異。短效憑證僅在記憶體及隱藏stdin使用。
+- 本輪實測通過：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm test:priorities`（6項）、`pnpm test:sync`（20項）、`node scripts/check-requested-study-resets.mjs` 及 `git diff --check`。
+- 遠端CI：`7c0935f` 的 [Study app checks](https://github.com/t960319-cloud/-police-exam-study-/actions/runs/43335571079) 已完成且結果success；與本輪本機指令分開記錄。
+- 連線：首次沙箱內GitHub fetch無法連到繼承代理；以核准的沙箱外方式重試成功，保留網路政策與TLS驗證，沒有持續中的Git連線錯誤。
+- 本次修改限於本日誌及Issue檢查紀錄，完成文件檢查後正常提交推送GitHub並核對遠端SHA；最終提交編號以Git歷史及本輪回報為準。正式發布維持獨立流程。
+- 驗證界線：未操作正式個人學習紀錄、資料庫遷移或網站部署，未重驗正式登入、法規或瀏覽器功能。其他隔離工作尚未提交的檔案不在本輪可存取範圍；既有問題與待辦狀態保留。

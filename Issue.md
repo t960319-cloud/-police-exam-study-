@@ -116,6 +116,15 @@
 - 正式站範圍：瀏覽器 URL policy gate 在頁面載入前拒絕正式站，沒有網站 HTTP/CONNECT 結果；未完成真實登入、正式資料保存與重整、跨裝置驗收。詳見 ISSUE-20261113-01。
 - 上游參照：`e9574b0` 的 [正式發布紀錄](docs/production-release-2026-11-13.json) 與 `04449cd` 的 [正式站唯讀重測](docs/production-readonly-recheck-2026-11-13.json) 記錄正式頁面結果，`8a30f39` 補記匿名 GET／PUT 均為401；真實帳號保存仍未驗收。這些是上游其他流程的證據，不冒稱為本輪瀏覽器實測。
 
+### 2026-11-13：每日 Git 同步檢查
+
+- 範圍：本環境既有police工作目錄、GitHub `main`、Sites原始碼分支、最新交接規則及本輪紀錄文件。
+- 來源：乾淨工作樹由 `5914f6e` 正常fast-forward至 `7c0935f`，納入17筆提交；Sites來源 `e9574b0` 為GitHub來源的祖先，沒有獨有提交。兩邊僅有紀錄文件差異，應用程式及資料庫相關檔案相同。
+- 通過：GitHub與Sites fetch、`git rev-list --left-right --count`、fast-forward、指定來源目錄的 `git diff --exit-code`、lint、TypeScript、6項排序、20項同步、指定驗收紀錄排除回歸及差異格式檢查。本輪文件另核對本機Markdown連結，再正常提交推送並讀回遠端SHA。
+- CI：`7c0935f` 的 [GitHub檢查](https://github.com/t960319-cloud/-police-exam-study-/actions/runs/43335571079) 為completed／success；不是本輪重新操作正式站的證據。
+- 連線：初次沙箱內fetch因代理不可達失敗，經核准的沙箱外重試成功；未改動網路政策，不列為持續中的Git同步故障。
+- 結果界線：本輪未發現新的Git整合問題，也未重驗或結案既有法規、瀏覽器及正式帳號驗收問題。其他隔離工作未提交檔案不在本次可存取範圍。詳見[本輪日誌](log.md)。
+
 ## 已解決問題
 
 ### ISSUE-20261113-02：本流程 Chromium 憑證驗證阻擋正式站載入
