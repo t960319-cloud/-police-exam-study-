@@ -23,7 +23,7 @@
     "unchangedFromPreRelease": true
   },
   "unverified": [
-    "real authenticated progress persistence",
+    "other authenticated progress persistence (answers, notes, essays)",
     "cross-device conflict and restore",
     "full local browser regression in the publishing environment",
     "latest documentation-only Sites version after recorded version 11"
@@ -48,5 +48,14 @@
       "exitCode": 0
     }
   ],
-  "anonymousWriteProbe": "未登入PUT只送空物件，無紀錄鍵或學習資料；401拒絕，未寫入正式資料。"
+  "anonymousWriteProbe": "未登入PUT只送空物件，無紀錄鍵或學習資料；401拒絕，未寫入正式資料。",
+  "userReportedAuthenticatedChecks": [
+    {
+      "date": "2026-11-13",
+      "source": "使用者於本對話回報「這部份沒問題」",
+      "scope": "手機正式站登入後，收藏原本未收藏的題目，重新整理後收藏保留。",
+      "result": "passed-user-reported",
+      "independentlyObservedByAgent": false
+    }
+  ]
 }
