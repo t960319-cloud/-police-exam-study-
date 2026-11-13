@@ -70,17 +70,17 @@
 - 修復及驗證結果：未修復；本機隔離 D1 的瀏覽器回歸通過，但不等同正式帳號驗收。
 - 相關日誌：[2026-11-13](log.md#2026-11-13)
 
-### ISSUE-20261113-02：本流程 Chromium 憑證驗證阻擋正式站載入
+### ISSUE-20261113-03：共享桌面工具缺少，無法建立正式登入驗收工作階段
 
 - 發現／最後更新日期：2026-11-13／2026-11-13（Asia/Taipei）
 - 狀態：受阻
 - 優先級：中
-- 環境與影響範圍：本流程 Playwright／系統 Chromium 的匿名手機唯讀檢查；不影響已取得的 curl 正式站回覆，不等同 ISSUE-20261113-01 的另一流程 URL 閘門。
-- 重現步驟：沿用環境代理、保留 TLS 驗證，以 Chromium 開啟正式站；`page.goto` 回報 `net::ERR_CERT_AUTHORITY_INVALID`，尚未完成頁面操作。
-- 證據：同一流程 curl 的 `/api/session` 為 HTTP200／CONNECT200，匿名 `/api/records` 為401；正式程式資源包含版本還原修正。詳見 [直接核實證據](docs/production-history-ui-verification-2026-11-13.json)。
-- 已嘗試的方法：核對環境 CA 與 NSS 信任庫、使用獨立信任庫路徑、環境恢復後重測及 strace 檔案存取；未停用 TLS 驗證。Chromium 使用 `/home/agent/.pki/nssdb`，其 `cert9.db` 寫入權限檢查回報 EROFS；尚未證明這是憑證錯誤根因。
-- 下一步與阻礙：需可正常驗證憑證且具正式登入工作階段的瀏覽器，才可完成個人保存與歷史還原。其他流程390px唯讀與使用者收藏／重整通過紀錄保留，不能替代本流程未完成操作。
-- 修復及驗證結果：未修復；本次僅唯讀請求，未寫入學習紀錄或部署。
+- 環境與影響範圍：新環境 `ccarenv_b64_Y2NhcmVudl8yZTU3NjIzMWFmMDQ4MTkxOTU4NmIwZjRjZTM0Yjk2ZA`；正式帳號保存、跨裝置及歷史還原。
+- 重現步驟：環境已 running 後檢查能力及可用工具，並再查一次桌面工具；remote_desktop 為 enabled=true、state=unknown，仍無 `cua_repl.js`／`open_in_codex` 或同等控制工具。
+- 實際證據：網域不受限且規則 enforced，核准的沙箱外 Chromium 已正常載入正式頁；瀏覽器 `/api/session` 為200、hasUser=false。工具缺少與憑證問題分開記錄，詳見 [新環境重測](docs/production-history-ui-verification-2026-11-13.json) 的 `newEnvironmentRecheck`。
+- 已嘗試的方法：依雲端桌面技能重新搜尋工具、讀取狀態與驗證匿名瀏覽器；沒有要求使用者在對話提供帳密或瀏覽器憑證。
+- 下一步與阻礙：由平台提供可用共享桌面／瀏覽器控制後，讓使用者在相同瀏覽器自行登入，再接續正式帳號驗收。不能以本機模擬帳號或手機既有登入冒充此工作階段。
+- 修復及驗證結果：受阻；維持現有程式與發布狀態，正式學習資料寫入0。
 - 相關日誌：[2026-11-13](log.md#2026-11-13)
 
 ## 檢查紀錄
@@ -118,7 +118,16 @@
 
 ## 已解決問題
 
-目前尚無已結案紀錄。
+### ISSUE-20261113-02：本流程 Chromium 憑證驗證阻擋正式站載入
+
+- 發現／最後更新日期：2026-11-13／2026-11-13（Asia/Taipei）
+- 狀態：已解決（已驗證沙箱外可用執行方式；沙箱內仍失敗）
+- 原始範圍：Playwright／系統 Chromium 在沙箱內開啟正式站時出現 `ERR_CERT_AUTHORITY_INVALID`；curl 同時能驗證 TLS 並取得200。與 ISSUE-20261113-01 的另一流程 CUA 閘門不同。
+- 先前嘗試：核對環境 CA、NSS 信任庫、獨立信任庫路徑、環境重啟及 strace；Chromium 開啟 `/home/agent/.pki/nssdb` 時，`cert9.db` 寫入權限檢查回報 EROFS，尚未證明這是唯一根因。
+- 本次處理：新環境先重現相同憑證錯誤，再經核准以 `sandbox_permissions=require_escalated` 執行同一個唯讀 Chromium 檢查，保留繼承的代理與 TLS 驗證；未加入略過憑證的選項。
+- 驗證：正式首頁 HTTP200、頁面標題與手機畫面正常；瀏覽器 `/api/session` HTTP200、hasUser=false；390px無水平溢出、無頁面例外、API寫入0。沙箱外可用不代表沙箱內的信任庫已修復，後續驗收沿用經核准的可用執行方式。
+- 證據：[核實紀錄](docs/production-history-ui-verification-2026-11-13.json) 的 `newEnvironmentRecheck`；操作日誌：[2026-11-13](log.md#2026-11-13)。
+- 影響：網站程式、正式D1、網路草稿與發布狀態均未改動；缺少正式共享登入工作階段另追蹤 ISSUE-20261113-03。
 
 ## 新增問題格式
 
@@ -205,3 +214,10 @@
 - 結果：建置成功、20項同步測試及完整本機瀏覽器回歸均通過；其中包含衝突保留、選擇版本及歷史還原。正式站 `/api/session` HTTP 200、匿名 user 為 null。
 - 限制：本次沒有共享桌面操控工具與正式登入工作階段；正式帳號的跨裝置、衝突與還原未操作，不能將本機結果當作正式驗收。其他環境的URL閘門與憑證問題依原ISSUE保留，不將本次限制推定為相同原因。
 - 本輪未讀取或更改個人學習紀錄；使用者先前確認正式收藏／重整通過。詳見 [本次驗證](docs/authenticated-sync-validation-2026-11-13.md)。
+
+### 2026-11-13：新環境政策與瀏覽器載入重測
+
+- 範圍：新執行器的環境狀態／設定草稿／啟動政策、正式session與390px匿名瀏覽器；本輪不修改網站、不部署。
+- 結果：狀態與政策檔皆 unrestricted、規則 enforced；curl session HTTP200／CONNECT200、user=null。沙箱內 Chromium 憑證失敗後，經核准在沙箱外執行相同探測，保留代理與 TLS 驗證，正式首頁及瀏覽器 session 均200；390px截圖已實際檢視、無水平溢出、無頁面例外、正式寫入0。
+- 剩餘：remote_desktop enabled=true、state=unknown，但無共享桌面控制工具且 session 未登入。ISSUE-20261113-02 已有可用瀏覽執行方式，正式帳號驗收仍受 ISSUE-20261113-03 阻擋；另一流程 ISSUE-20261113-01 未代為結案。
+- 文件檢查：JSON解析、證據欄位一致性、33個本機Markdown連結與 `git diff --check` 均通過；只檢查本輪文件，不重跑未改動的應用程式測試。

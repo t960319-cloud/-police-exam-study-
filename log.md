@@ -118,3 +118,12 @@
 - `pnpm build` 成功，`pnpm test:sync` 20項通過；`pnpm test:browser` 專用本機 D1 全數通過，包括兩個獨立瀏覽器工作階段之衝突、選擇版本、歷史還原與讀回，以及離線、帳號隔離、備份和手機版面。
 - 遠端 main 已從 `7bc5e13` 快轉至 `f4ba6f5`，該區間只更新其他流程的文件與證據，沒有覆蓋；兩個本機瀏覽器不是兩台正式裝置。本輪未登入正式帳號、未更改正式學習資料或發布。
 - 使用者先前已回報正式站收藏／重整通過；正式帳號的作答、跨裝置與歷史還原仍待可共享的登入工作階段。完整方法、環境ID與限制見 [本次驗證](docs/authenticated-sync-validation-2026-11-13.md)。
+
+### 2026-11-13：載入新環境設定並排除驗收瀏覽器載入阻礙
+
+- 依最新指示維持程式及發布狀態，不因瀏覽器阻擋改動網站。乾淨工作樹由 `f4ba6f5` 正常快轉至 `a193ba1`，只納入另一流程的驗證文件，未重套先前程式。
+- 環境：新執行器末碼 `Yjk2ZA` 為 running，發布設定版本末碼 `6af65506293481a0ba454b81b488e952`；spec／observed revision 均1、observations_current=true。狀態與啟動政策檔皆為 unrestricted，規則 enforced；草稿也是 unrestricted，無需另增網域或儲存／發布設定。
+- 連線：curl 保留 TLS 驗證與繼承代理，正式 `/api/session` 回傳 HTTP200／CONNECT200、user=null，未重現 CONNECT403。
+- 瀏覽器：2026-11-13 08:11（Asia/Taipei）沙箱內重現憑證錯誤；08:12 經核准在沙箱外執行同一支唯讀檢查，Chromium 成功取得正式首頁200及瀏覽器 session200，TLS1.3且憑證主機名相符。實際檢視390px截圖，頁面正常、寬度390、無頁面例外；攔截 API 寫入，實際寫入0。未停用 TLS 驗證。
+- 問題交接：ISSUE-20261113-02 記錄已驗證的可用執行方式並移至已解決；沙箱內信任庫根因仍未完全確認。新環境 remote_desktop enabled=true、state=unknown，但兩次搜尋仍無共享桌面控制／開啟工具；正式登入工作階段缺少另記 ISSUE-20261113-03。真實帳號保存、跨裝置與還原仍未操作，不重做已完成的模擬測試。
+- 證據與範圍：更新 [核實紀錄](docs/production-history-ui-verification-2026-11-13.json) 的 `newEnvironmentRecheck`、Issue 與原TODO；完整環境ID及設定版本可由該證據讀回。未修改應用程式、正式學習紀錄、環境草稿或發布狀態。
