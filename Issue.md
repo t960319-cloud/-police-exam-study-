@@ -125,6 +125,14 @@
 - 連線：初次沙箱內fetch因代理不可達失敗，經核准的沙箱外重試成功；未改動網路政策，不列為持續中的Git同步故障。
 - 結果界線：本輪未發現新的Git整合問題，也未重驗或結案既有法規、瀏覽器及正式帳號驗收問題。其他隔離工作未提交檔案不在本次可存取範圍。詳見[本輪日誌](log.md)。
 
+### 2026-11-14：每日 Git 同步檢查
+
+- 範圍：既有 police 工作目錄、最新接手規則、GitHub `main`、police Sites 原始碼與本輪紀錄文件。
+- 指令與來源核對：GitHub／Sites fetch 均成功；`git status --porcelain=v1` 確認開始時無變更，`git rev-list --left-right --count HEAD...origin/main` 為0／0。GitHub 為 `aea306c`，Sites 為 `e9574b0`；後者無獨有提交，前者多出的8筆提交僅有文件與驗收證據差異，應用程式相關路徑的 `git diff --exit-code` 通過。
+- 遠端 CI：`aea306c` 的 [GitHub 檢查](https://github.com/t960319-cloud/-police-exam-study-/actions/runs/43443606257) 已完成且 success。本輪只有檢查紀錄變更，實際驗證為 `git diff --check` 及兩份修改文件的本機 Markdown 連結路徑；未重新執行程式測試。
+- 連線處理：首次沙箱內 fetch 因代理不可達失敗，核准的沙箱外重試成功；GitHub 與 Sites 正常讀取，沒有新增持續中的 Git 同步問題。
+- 結果與限制：沒有待整合的其他來源提交；僅新增今日檢查紀錄後正常提交推送並讀回遠端 SHA。既有法規、瀏覽器與正式帳號驗收問題本輪未重驗或結案；不涵蓋其他隔離工作未提交檔案，也未部署網站。詳見[本輪日誌](log.md#2026-11-14)。
+
 ## 已解決問題
 
 ### ISSUE-20261113-02：本流程 Chromium 憑證驗證阻擋正式站載入
