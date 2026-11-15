@@ -133,6 +133,13 @@
 - 連線處理：首次沙箱內 fetch 因代理不可達失敗，核准的沙箱外重試成功；GitHub 與 Sites 正常讀取，沒有新增持續中的 Git 同步問題。
 - 結果與限制：沒有待整合的其他來源提交；僅新增今日檢查紀錄後正常提交推送並讀回遠端 SHA。既有法規、瀏覽器與正式帳號驗收問題本輪未重驗或結案；不涵蓋其他隔離工作未提交檔案，也未部署網站。詳見[本輪日誌](log.md#2026-11-14)。
 
+### 2026-11-15：每日 Git 同步檢查
+
+- 範圍：既有 police 工作目錄、最新工作規則、GitHub `main`、發布設定指向的 Sites 來源與本輪紀錄文件。
+- 指令與結果：GitHub／Sites fetch 成功；`git status --short --branch` 及 `git stash list` 確認開始時乾淨、無 stash。`git rev-list --left-right --count HEAD...origin/main` 為0／0，GitHub 為 `e31e179`；與 Sites `e9574b0` 比較為9／0，沒有 Sites 獨有提交，差異檔案均為文件與驗收證據，應用程式相關路徑的 `git diff --exit-code` 通過。
+- 驗證：既有 `e31e179` 的 [GitHub CI](https://github.com/t960319-cloud/-police-exam-study-/actions/runs/43604367452) 為 completed／success；本輪僅修改檢查紀錄，實際執行 `git diff --check` 與本機 Markdown 連結路徑檢查，未重新執行程式測試。
+- 同步與交接：僅追加兩份紀錄文件後正常提交推送並讀回遠端 SHA；沒有新增 Git 同步錯誤。既有法規與正式帳號驗收問題未重驗或結案；未部署網站，也不涵蓋其他隔離工作未提交檔案。詳見[本輪日誌](log.md#2026-11-15)。
+
 ## 已解決問題
 
 ### ISSUE-20261113-02：本流程 Chromium 憑證驗證阻擋正式站載入

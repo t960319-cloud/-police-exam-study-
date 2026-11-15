@@ -150,3 +150,14 @@
 - 連線：初次沙箱內 GitHub fetch 因無法連到繼承代理而失敗；經核准以沙箱外正常連線重試，GitHub 與 Sites fetch 均成功。保留 TLS 驗證與既有網路政策，未留下持續中的 Git 同步錯誤。
 - 本輪變更與檢查：依接手規則僅追加 `log.md` 與 `Issue.md` 的今日檢查紀錄；`git diff --check` 及兩份文件的本機 Markdown 連結路徑檢查通過。提交與推送後的最終 SHA 以 Git 歷史及本輪遠端核對結果為準，不建立空提交或強制覆寫。
 - 驗證界線：本輪沒有部署網站、遷移資料庫、寫入正式個人紀錄或重驗正式登入、跨裝置與版本還原；原有法規及正式驗收待辦仍保留。其他隔離工作尚未提交的檔案無法由本次工作目錄取得，本輪同步不涵蓋那些檔案。
+
+## 2026-11-15
+
+### 每日 Git 同步與錯誤檢查
+
+- 時間與前置：2026-11-15 22:42（Asia/Taipei），等待所附環境就緒，確認 running、觀察有效及網路政策 enforced；閱讀既有工作目錄的 AGENTS、Wiki、README、近期日誌、待辦與未結問題。
+- GitHub：開始時工作樹乾淨、沒有 stash；正常 fetch 後 HEAD 與 `origin/main` 均為 `e31e17951d19e229c973499db2a61ab786f9ac47`，超前／落後均0，最新工作規則無差異，沒有待推送提交或需要整合的更新。
+- Sites：依 `.openai/hosting.json` 核對 police 來源，正常 fetch 後仍為 `e9574b0456dc1cea7893398214db4471909b90a1`；最新保存版本為第12版且來源相同。Sites 沒有獨有提交，GitHub 多出的9筆提交僅有文件及驗收證據；完整差異檔名及程式、資料庫、腳本、依賴、發布設定的 `git diff --exit-code` 均確認沒有應用程式差異。
+- CI 與連線：讀回 `e31e179` 的 [Study app checks](https://github.com/t960319-cloud/-police-exam-study-/actions/runs/43604367452)，狀態 completed、結果 success。GitHub 與 Sites 沿用核准的沙箱外正常連線均成功，短效憑證只經記憶體及隱藏 stdin 使用；本輪沒有新的 Git 連線或整合錯誤。
+- 本輪變更及驗證：依接手規則只追加 `log.md` 與 `Issue.md` 的檢查紀錄，`git diff --check` 與兩份文件的本機 Markdown 連結路徑檢查通過；沒有重新執行應用程式測試。以一般提交、`git push origin HEAD:main` 及遠端 SHA 讀回完成同步，最終 SHA 以 Git 歷史與本輪回報為準。
+- 範圍限制：本輪沒有部署、資料庫遷移或正式資料寫入；既有法規、正式帳號保存、跨裝置及歷史還原問題未重驗或結案。其他隔離工作尚未提交的檔案無法由本次工作目錄取得，不包含在本輪同步範圍。
