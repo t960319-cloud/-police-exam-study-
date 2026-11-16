@@ -327,8 +327,35 @@
       "answerStatus": "官方最終答案已核（無更正紀錄）",
       "amendment": {
         "status": "review",
-        "note": "本題原卷及官方最終答案已核對；行政規則完整現行版本或爭點仍待核對，不將當年答案直接當現行執法定論。",
-        "sources": []
+        "law": "刑事訴訟法第89條之1、執行拘提逮捕解送使用戒具實施辦法；解送人犯辦法已廢止",
+        "checkedAt": "2026-11-16",
+        "note": "原題警察人員使用警銬規範最新版及非刑事措施之適用仍待核；刑訴戒具辦法對少年及即將生產、分娩中、甫生產後婦女另有專門限制。",
+        "sources": [
+          {
+            "title": "全國法規資料庫・刑事訴訟法第89條之1",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=89-1"
+          },
+          {
+            "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+          },
+          {
+            "title": "全國法規資料庫・解送人犯辦法廢止沿革",
+            "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=I0040007"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法第130條",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=130"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法第92條",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法第93條",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=93"
+          }
+        ]
       },
       "takeaway": "對特定脆弱對象係以不使用警銬為宜，並非絕對不得；確有必要時仍須個案審查。",
       "sources": [
@@ -343,8 +370,33 @@
         {
           "title": "考選部最終答案及更正清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法第89條之1",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=89-1"
+        },
+        {
+          "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+        },
+        {
+          "title": "全國法規資料庫・解送人犯辦法廢止沿革",
+          "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=I0040007"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法第130條",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=130"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法第92條",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法第93條",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=93"
         }
-      ]
+      ],
+      "currentAnswer": "保留原題官方答案A；考試當年警銬規範與刑訴戒具辦法不可混為同一範圍。特定妊產期間不應使用戒具，少年原則不應使用但有法定例外。"
     },
     {
       "id": "duty110_06",

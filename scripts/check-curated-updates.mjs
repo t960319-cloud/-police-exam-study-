@@ -60,3 +60,8 @@ for(const [id,answer] of [['duty112_20',2],['scene115-09',2]]){const q=result.qu
 const familyCase=result.questions.find(q=>q.id==='scene113-04');assert(familyCase);assert.equal(familyCase.answer,0);assert.equal(familyCase.verified,false);assert(familyCase.currentAnswer.includes('其他緊急事由')||familyCase.currentAnswer.includes('急迫事由'));
 const missingEssayFollowup=result.essays.find(e=>e.id==='s03');assert(missingEssayFollowup);assert(missingEssayFollowup.model.analysis.includes('7日內'));assert(missingEssayFollowup.model.analysis.includes('每3個月'));assert(missingEssayFollowup.model.analysis.includes('每年1次'));
 console.log('Official missing-person cases, family exception, follow-up and original answers passed.');
+// Restraints and repeal have distinct scopes; an old escort regulation cannot be cited as current.
+const restraint=result.laws.find(l=>l.id==='escort-constraints');assert(restraint);assert(restraint.sources.some(s=>s.url.includes('I0030058')));assert(restraint.points.some(x=>x.includes('少年')&&x.includes('原則不應使用')));assert(restraint.points.some(x=>x.includes('即將生產')&&x.includes('不應使用')));assert(restraint.traps.some(x=>x.includes('不代表每個人均應上銬')));
+const currentEscort=result.essays.find(e=>e.id==='scene115-e2');assert(currentEscort);assert(currentEscort.model.basis.includes('110.12.13廢止'));assert(currentEscort.model.analysis.includes('不得將此理解為員警得等待24小時才解送'));assert.equal(currentEscort.verified,false);
+const minorEscort=result.questions.find(q=>q.id==='duty113_21');assert(minorEscort);assert.equal(minorEscort.answer,3);assert(minorEscort.currentAnswer.includes('第3條'));assert.equal(minorEscort.verified,false);
+console.log('Restraint protections, repeal distinction, immediate transfer and original escort answer passed.');

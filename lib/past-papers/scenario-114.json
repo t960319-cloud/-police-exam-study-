@@ -58,12 +58,33 @@
       "answerStatus": "官方原答已核；目錄未列更正",
       "amendment": {
         "status": "review",
-        "note": "本題官方答案A；少年戒具必要性已核對刑事訴訟法授權辦法。題示警察人員使用警銬規範及替代物的完整最新版、適用場景仍須比對原件。",
-        "checkedAt": "2026-11-09",
+        "law": "刑事訴訟法第89條之1、執行拘提逮捕解送使用戒具實施辦法；解送人犯辦法已廢止",
+        "checkedAt": "2026-11-16",
+        "note": "少年於刑事拘提、逮捕、解送之戒具使用已核對戒具辦法第3條；其他執法情境及警銬替代物之完整警政署規範仍待原件。",
         "sources": [
           {
-            "title": "執行拘提逮捕解送使用戒具實施辦法",
+            "title": "全國法規資料庫・刑事訴訟法第89條之1",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=89-1"
+          },
+          {
+            "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+          },
+          {
+            "title": "全國法規資料庫・解送人犯辦法廢止沿革",
+            "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=I0040007"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法第130條",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=130"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法第92條",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法第93條",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=93"
           }
         ]
       },
@@ -80,8 +101,29 @@
         {
           "title": "執行拘提逮捕解送使用戒具實施辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法第89條之1",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=89-1"
+        },
+        {
+          "title": "全國法規資料庫・解送人犯辦法廢止沿革",
+          "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=I0040007"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法第130條",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=130"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法第92條",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法第93條",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=93"
         }
-      ]
+      ],
+      "currentAnswer": "保留原題官方答案A；少年原則不應使用戒具，須具防止自傷、傷人、脫逃或嚴重毀損等必要事由，或有少事法特別規定，仍應個案判斷。"
     },
     {
       "id": "scene114-02",
