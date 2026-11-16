@@ -163,3 +163,9 @@ const courtRemedy=result.questions.find(q=>q.id==='law114-outer-10');assert(cour
 const objectionRecord=result.questions.find(q=>q.id==='law114-outer-03');assert(objectionRecord.options[3].explanation.includes('確認'));
 const shooting=result.questions.find(q=>q.id==='law114-inner-03');assert(shooting.currentAnswer.includes('共同生命身體危險前提'));
 console.log('Ten police-law explanations preserve official keys and distinguish procedures.');
+
+// Primary campus mechanism is available, but later nationwide flowchart and escort SOP remain pending.
+const campus=result.essays.find(e=>e.id==='duty114_s01');assert(campus);assert.equal(campus.verified,false);assert.equal(campus.amendment.status,'review');
+assert(campus.model.analysis.includes('主任秘書或學務主任以上'));assert(campus.model.analysis.includes('114年8月21日'));assert(campus.model.analysis.includes('仍待查證'));
+for(const id of ['s05','scene115-e2']){const e=result.essays.find(x=>x.id===id);assert(e);assert.equal(e.verified,false);assert(e.model.analysis.includes('監察院114年糾正案'));assert(e.amendment.sources.some(s=>s.url.includes('s=49094')));}
+console.log('Campus source and escort privacy case added without clearing unresolved current SOPs.');
