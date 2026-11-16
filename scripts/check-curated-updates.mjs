@@ -110,3 +110,7 @@ const informantRenewal=result.questions.find(q=>q.id==='investigation112_08');as
 const nightClass=result.questions.find(q=>q.id==='investigation113_21');assert(nightClass.currentAnswer.includes('本身不在'));assert(nightClass.currentAnswer.includes('其他合法例外'));
 const protectedLegislator=result.questions.find(q=>q.id==='investigation110_16');assert(protectedLegislator.currentAnswer.includes('現行犯'));assert(protectedLegislator.currentAnswer.includes('通緝'));
 console.log('Cross-year legal explanations preserve exceptions, warrant limits and original exam answers.');
+// Essay corrections distinguish the assembly law penalty provisions from damages and explain compensation prerequisites.
+const penaltyEssay=result.essays.find(e=>e.id==='law113-inner-e1');assert(penaltyEssay);assert(penaltyEssay.verified);assert(penaltyEssay.model.basis.includes('集會遊行法第3、27、28條'));assert(!penaltyEssay.model.basis.includes('集會遊行法第32條'));assert(penaltyEssay.model.analysis.includes('免予移送'));assert(penaltyEssay.model.analysis.includes('結果發生在後'));
+const weaponCompensation=result.essays.find(e=>e.id==='law113-inner-e2');assert(weaponCompensation);assert(weaponCompensation.verified);assert(weaponCompensation.model.analysis.includes('排除該次用械相對人'));assert(weaponCompensation.model.analysis.includes('可歸責'));assert(weaponCompensation.model.analysis.includes('三分之一'));assert(weaponCompensation.amendment.note.includes('不是考選部官方'));
+console.log('Essay penalty citations, special transfer period and police-weapons compensation safeguards passed.');

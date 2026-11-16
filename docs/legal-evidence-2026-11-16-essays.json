@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-11-16",
+  "timezone": "Asia/Taipei",
+  "sources": [
+    {
+      "title": "社會秩序維護法第31、32、43、45條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067",
+      "sha256": "7ecc75a6801d811347df1ac442f6c64363452a582ecd7cfa54103e992e02f058",
+      "retrieval": "HTTPS原件HTTP 200"
+    },
+    {
+      "title": "集會遊行法第3、27、28條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058",
+      "sha256": "a59879e30f6f69bbba745ceeb7702cbe17ac9060406da4206743188668621f2e",
+      "retrieval": "HTTPS原件HTTP 200"
+    },
+    {
+      "title": "行政罰法第27條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030210",
+      "sha256": "1ba3c427c2e719f0e60a1d9f78dd2b09e648f1eb9e9ca41fd0b6ae43f365cc7b",
+      "retrieval": "HTTPS原件HTTP 200"
+    },
+    {
+      "title": "行政執行法第7條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023",
+      "sha256": "99003466d18960f4de81b58a8bc570475c68767861e3ed9e2755fabf9e8f1826",
+      "retrieval": "HTTPS原件HTTP 200"
+    },
+    {
+      "title": "警械使用條例第11條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042",
+      "sha256": "f5bcb2312280ae0e6f8271ee2d3a73e727a6556091a53d18b9396933db14b7af",
+      "retrieval": "HTTPS原件HTTP 200"
+    },
+    {
+      "title": "警械使用事件補償辦法第2至8條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080219",
+      "sha256": "fcaa70f36b0887121a9bdb37e0ca6edeee7a4edbcfd00eb96c5ff94c63a5b504",
+      "retrieval": "HTTPS原件HTTP 200"
+    },
+    {
+      "title": "警察職權行使法第31條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145",
+      "sha256": "13b20775ad49bb94a3fcf7c911d248f5f32186339198abfccdc4916d06018e7b",
+      "retrieval": "HTTPS原件HTTP 200"
+    }
+  ],
+  "verifiedEssayIds": [
+    "law113-inner-e1",
+    "law113-inner-e2"
+  ],
+  "notes": [
+    "集遊法第32條是糾察員侵權損害賠償；本站誤引已改為第3、27、28條。",
+    "社維法3個月是罰鍰未移送期限，並非所有執行皆3個月終結。",
+    "補償辦法第2條第三人依排除相對人及執勤警察定義，並非必然等同完全無可歸責情形。",
+    "擬答非考選部公布評分標準，原申論題目、配分及紀錄鍵均不變。",
+    "全國法規資料庫頁面所載整編截止115.11.06，不能排除後續未收錄異動。"
+  ]
+}

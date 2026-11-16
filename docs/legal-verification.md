@@ -163,3 +163,9 @@
 
 - 跨年度14題詳解由來源 `a9ad0737f0e507eae17d60f2ed71aefafd9bdccb` 建置，Sites第16版部署 `appgdep_6afb05b960d8819181faef7bacb0620d` 回報成功。新正式網域仍受本環境網路政策阻擋，部署後法規API內容未讀回。
 - 本機題庫及整理事件合併後，910題中509題、66題申論中47題待核；不含正式D1動態事件。其他完整原件、正式解釋與逐題對照仍待處理。
+
+### 2026-11-16：兩題警察法規申論及引用勘誤
+
+- 113內軌警察法規申論1：核對[社維法第31、32、43、45條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067)、[集會遊行法第3、27、28條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058)、[行政罰法第27條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030210)及[行政執行法第7條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023)。更正本站原誤引集遊法第32條：該條處理糾察員侵權損害賠償，並非本題罰鍰法源；另補分局／跨分局管轄及各期間起算。
+- 113內軌警察法規申論2：核對[警械使用條例第11條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042)及[補償辦法第2至8條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080219)，補第三人定義、受損法益、上限、可歸責減免、增加與申請時效。
+- 兩題均為本站練習擬答，非考選部公布評分標準；原題、總分、紀錄鍵與來源保留。官方來源及頁面雜湊見[本輪證據](legal-evidence-2026-11-16-essays.json)。
