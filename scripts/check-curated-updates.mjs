@@ -208,3 +208,15 @@ const religiousPlace=result.essays.find(e=>e.id==='duty113_s02');assert.equal(re
 assert(religiousPlace.model.analysis.includes('執行後3日內報告該管檢察官及法院'));assert(religiousPlace.model.analysis.includes('不能代替所有個案'));
 assert(religiousPlace.amendment.sources.some(s=>s.url.startsWith('https://www-ws.gov.taipei/')));
 console.log('Habeas jurisdiction, police safeguards and religious-place search prerequisites passed.');
+
+// Compare legal rules across remedies, personnel benefits and political neutrality.
+for(const [id,answer] of [['law113-inner-12',3],['law113-inner-13',2],['law113-inner-16',0],['law113-inner-18',1],['law113-inner-21',2],['law113-inner-23',2],['law113-outer-02',3],['law114-inner-08',1],['law114-outer-19',2],['law114-outer-25',3],['law115-inner-06',1],['law115-inner-24',2],['law115-inner-25',3],['law115-outer-13',3],['law115-outer-25',3]]){
+ const q=result.questions.find(x=>x.id===id);assert(q?.verified);assert.equal(q.answer,answer);assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()));
+}
+const socialFine=result.questions.find(q=>q.id==='law113-inner-12');
+assert(socialFine.currentAnswer.includes('第25條仍留有'));assert(socialFine.currentAnswer.includes('行政執行'));assert(socialFine.amendment.sources.some(s=>s.url.includes('pid=190935')));
+const socialAppeal=result.questions.find(q=>q.id==='law113-inner-13');assert(socialAppeal.currentAnswer.includes('不得抗告'));assert(socialAppeal.options[2].correction.includes('不得再抗告'));
+const policeBenefits=result.questions.find(q=>q.id==='law115-inner-06');assert(policeBenefits.amendment.sources.some(s=>s.url.includes('pcode=S0020005')));assert(policeBenefits.options[0].explanation.includes('未列半失能'));assert(policeBenefits.options[2].explanation.includes('殉職'));
+const neutrality=result.questions.find(q=>q.id==='law115-inner-25');assert(neutrality.options[1].explanation.includes('三親等'));assert(neutrality.options[3].correction.includes('私人'));assert(neutrality.amendment.sources.some(s=>s.url.includes('Page=8326')));
+const firearms=result.questions.find(q=>q.id==='law113-inner-23');assert(firearms.options[3].correction.includes('範圍不只槍械'));assert(firearms.options[2].explanation.includes('即時報告'));
+console.log('Fifteen statute-backed explanations preserve keys and distinguish remedies, benefits and neutrality safeguards.');

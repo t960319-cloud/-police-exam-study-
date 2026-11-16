@@ -547,26 +547,26 @@
       "options": [
         {
           "text": "公務人員之外甥",
-          "explanation": "外甥與本人為旁系三親等，超出第9條例外的二親等範圍。",
-          "correction": "不得依該條親屬例外公開站台等。",
+          "explanation": "外甥經父母、兄弟姊妹至本人為三親等旁系血親。",
+          "correction": "不屬二親等以內例外。",
           "trueStatement": false
         },
         {
           "text": "公務人員之外孫女",
-          "explanation": "外孫女為直系血親二親等，屬法定例外，且不得涉及職務事項。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "外孫女經子女至本人為二親等直系血親。",
+          "correction": "不得涉及職務事項；本題選B。",
           "trueStatement": true
         },
         {
           "text": "公務人員之舅父",
-          "explanation": "舅父為旁系三親等，非二親等以內。",
-          "correction": "不得援用該條親屬例外。",
+          "explanation": "舅父與本人為三親等旁系血親。",
+          "correction": "不屬二親等以內例外。",
           "trueStatement": false
         },
         {
           "text": "公務人員之姑姑",
-          "explanation": "姑姑為旁系三親等，非二親等以內。",
-          "correction": "不得援用該條親屬例外。",
+          "explanation": "姑姑與本人為三親等旁系血親。",
+          "correction": "不屬二親等以內例外。",
           "trueStatement": false
         }
       ],
@@ -575,24 +575,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察法規概要｜第8題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 8,
       "answerStatus": "考選部原始答案與更正公告已核",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部當年原始答案與列示法規；涉及之歷史條文和全部後續修正仍需逐項比對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "公務人員行政中立法第9條；施行細則第6條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留114年官方答案B。",
         "sources": [
           {
-            "title": "公務人員行政中立法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0110036"
+            "title": "公務人員行政中立法第7、9條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110036"
+          },
+          {
+            "title": "公務人員行政中立法施行細則第4、6條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110037"
           }
         ]
       },
-      "takeaway": "外孫女為直系血親二親等，屬法定例外，且不得涉及職務事項。",
+      "takeaway": "外孫女二親等；外甥、舅父、姑姑為三親等旁系血親。",
       "sources": [
         {
           "title": "考選部114年警察四等警察法規概要原卷",
@@ -605,8 +611,13 @@
         {
           "title": "公務人員行政中立法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0110036"
+        },
+        {
+          "title": "公務人員行政中立法施行細則第4、6條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110037"
         }
-      ]
+      ],
+      "currentAnswer": "B正確：外孫女與本人為二親等直系血親，屬候選人配偶、二親等內血親或姻親例外；不得涉及職務事項。"
     },
     {
       "id": "law114-inner-09",

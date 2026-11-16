@@ -946,26 +946,26 @@
       "options": [
         {
           "text": "出生及自幼瘖或啞者",
-          "explanation": "現行法非「瘖或啞」的描述，且須未滿7歲即有聽覺且語言障礙。",
-          "correction": "改為未滿7歲即有聽覺且語言障礙。",
+          "explanation": "現行法以未滿7歲即有的時間及聽覺且語言障礙為要件。",
+          "correction": "不能以出生或自幼且「或」的舊式表述取代現行條文。",
           "trueStatement": false
         },
         {
           "text": "出生及自幼瘖且啞者",
-          "explanation": "不是以出生或自幼籠統判斷，法文有明確未滿7歲年齡及兩種障礙。",
-          "correction": "改為未滿7歲即有聽覺且語言障礙。",
+          "explanation": "此選項未正確表達未滿7歲的時點及現行法用語。",
+          "correction": "改依未滿7歲即有聽覺且語言障礙。",
           "trueStatement": false
         },
         {
           "text": "未滿 7 歲即有聽覺或語言障礙者",
-          "explanation": "法律用「且」，不是任一聽覺或語言障礙即可適用本款。",
+          "explanation": "現行第9條使用「聽覺且語言障礙」，不是任一項障礙即可。",
           "correction": "將「或」改為「且」。",
           "trueStatement": false
         },
         {
           "text": "未滿 7 歲即有聽覺且語言障礙者",
-          "explanation": "第9條第1項第3款現為精神耗弱或未滿7歲即有聽覺且語言障礙者，得減輕處罰。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第9條第1項第3款規定未滿7歲即有聽覺且語言障礙者，得減輕處罰。",
+          "correction": "個案仍應認定事實；本題選D。",
           "trueStatement": true
         }
       ],
@@ -974,34 +974,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第13題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 13,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "changed",
-        "note": "社維法第9條114年6月11日修正公布、6月13日施行：舊用語「瘖啞人」，新法為未滿7歲即有聽覺且語言障礙者；保留原題與答案。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "社會秩序維護法第9條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留115年官方答案D。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
-          },
-          {
-            "title": "總統府114年6月11日修法公布原件",
-            "url": "https://www.president.gov.tw/Page/294/49902"
+            "title": "社會秩序維護法第7、9、20、22、23、25、31、50、55至58條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           }
-        ],
-        "law": "社會秩序維護法第9條",
-        "date": "114.06.11公布",
-        "effectiveStatus": "in-force",
-        "effectiveDate": "114.06.13",
-        "oldRule": "舊條文列「精神耗弱或瘖啞人」得減輕處罰。",
-        "newRule": "現行第9條第1項第3款列「精神耗弱或未滿七歲即有聽覺且語言障礙者」得減輕處罰。此修正於115年考試前已施行。"
+        ]
       },
-      "takeaway": "第9條第1項第3款現為精神耗弱或未滿7歲即有聽覺且語言障礙者，得減輕處罰。",
+      "takeaway": "未滿7歲即有、聽覺且語言障礙；是得減輕而非當然免罰。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -1019,7 +1011,8 @@
           "title": "總統府114年6月11日修法公布原件",
           "url": "https://www.president.gov.tw/Page/294/49902"
         }
-      ]
+      ],
+      "currentAnswer": "D正確：第9條第1項第3款規定未滿7歲即有聽覺且語言障礙者得減輕處罰，不能把「且」改為「或」。"
     },
     {
       "id": "law115-outer-14",
@@ -1853,26 +1846,26 @@
       "options": [
         {
           "text": "因出差非上班時間，故甲可參加該活動",
-          "explanation": "行政中立法第7條把因公奉派出差時間列為上班或勤務時間，不能認為一律是下班。",
-          "correction": "依出差期間之法定勤務時間判斷。",
+          "explanation": "第7條第2項第4款明列因公奉派出差時間。",
+          "correction": "不能以不在原辦公室就認定非上班或勤務時間。",
           "trueStatement": false
         },
         {
           "text": "因出差非執行勤務時間，故甲可參加該活動",
-          "explanation": "因公奉派出差時間屬第7條所定上班或勤務時間。",
-          "correction": "改依勤務時間限制辦理。",
+          "explanation": "出差時間依法列為勤務時間，不以是否在原工作地為準。",
+          "correction": "題示自行參與政黨活動須受第7條規範。",
           "trueStatement": false
         },
         {
           "text": "因出差地為外地而非其勤務地，故甲不得參加該活動",
-          "explanation": "是否為外地不是禁令核心；重點在因公奉派出差時間與活動性質。",
-          "correction": "以出差勤務及是否屬執行職務必要行為判斷。",
+          "explanation": "禁止依據是法定上班或勤務時間，而不是出差地點在外地。",
+          "correction": "職務必要行為另屬但書。",
           "trueStatement": false
         },
         {
           "text": "因出差時間仍須受公務人員行政中立法之規範，故甲不得參加該活動",
-          "explanation": "第7條涵蓋因公奉派出差時間，原則不得從事政黨活動；依業務性質執行職務之必要行為另有例外。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "因公奉派出差時間列入第7條勤務時間，原則不得從事政黨活動。",
+          "correction": "執行職務必要行為依第7條但書及施行細則判斷；本題選D。",
           "trueStatement": true
         }
       ],
@@ -1881,24 +1874,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第25題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 25,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "公務人員行政中立法第7條；施行細則第4條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留115年官方答案D。",
         "sources": [
           {
-            "title": "公務人員行政中立法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0110036"
+            "title": "公務人員行政中立法第7、9條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110036"
+          },
+          {
+            "title": "公務人員行政中立法施行細則第4、6條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110037"
           }
         ]
       },
-      "takeaway": "第7條涵蓋因公奉派出差時間，原則不得從事政黨活動；依業務性質執行職務之必要行為另有例外。",
+      "takeaway": "因公出差時間仍屬法定勤務時間；依業務執行職務所必要者另有例外。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -1911,8 +1910,13 @@
         {
           "title": "公務人員行政中立法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0110036"
+        },
+        {
+          "title": "公務人員行政中立法施行細則第4、6條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110037"
         }
-      ]
+      ],
+      "currentAnswer": "D正確：第7條將因公奉派出差時間列入上班或勤務時間，原則不得從事政黨或政治團體活動；執行職務必要行為有例外。"
     }
   ],
   "essays": [

@@ -106,26 +106,26 @@
       "options": [
         {
           "text": "因違反本法行為所生之物，一律沒入",
-          "explanation": "因違序所生之物須符法定所有權等條件，非一律沒入。",
-          "correction": "因違序所生之物須符法定所有權等條件，非一律沒入。",
+          "explanation": "第22條第1項第1款的所生物，依第2項以屬行為人所有為限。",
+          "correction": "不是不問所有權一律沒入。",
           "trueStatement": false
         },
         {
           "text": "因違反本法行為所得之物，一律沒入",
-          "explanation": "所得物亦須符本法沒入要件，不能不問歸屬一律沒入。",
-          "correction": "所得物亦須符本法沒入要件，不能不問歸屬一律沒入。",
+          "explanation": "所生或所得物須屬行為人所有，不能以「一律」概括他人之物。",
+          "correction": "供違法使用之物另有得沒入及比例原則。",
           "trueStatement": false
         },
         {
           "text": "查禁物以屬於行為人所有者為限，沒入之",
-          "explanation": "查禁物不問屬於行為人與否得沒入，不能限於其所有。",
-          "correction": "查禁物不問屬於行為人與否得沒入，不能限於其所有。",
+          "explanation": "查禁物依第22條第2項不問屬行為人與否，均得依法沒入。",
+          "correction": "行為人所有的限制適用於所生、所得物，非查禁物。",
           "trueStatement": false
         },
         {
           "text": "警察機關作成處分時漏未併予沒入，但行為人逃逸時，得再另為沒入之處分",
-          "explanation": "漏未併沒入而行為人逃逸等法定情形，得單獨宣告沒入。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第23條但書將行為人逃逸列為得單獨宣告沒入情形；處理辦法第14條另列警察處分權限。",
+          "correction": "仍需依具體案件審查物權、管轄及程序；本題選D。",
           "trueStatement": true
         }
       ],
@@ -133,28 +133,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "113年外軌四等｜警察法規概要｜第2題",
       "paperYear": 113,
       "paperTrack": "外軌",
       "paperNumber": 2,
       "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。114.06.11社維法僅修正第9、64、72、89條，須以具體引用條號確認影響，不能僅因全法修正就改原題答案。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "社會秩序維護法第22、23、43條；案件處理辦法第14條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留113年官方答案D。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+            "title": "社會秩序維護法第7、9、20、22、23、25、31、50、55至58條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           },
           {
-            "title": "違反社會秩序維護法案件處理辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+            "title": "違反社會秩序維護法案件處理辦法第5、14條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
           }
         ]
       },
-      "takeaway": "漏未併沒入而行為人逃逸等法定情形，得單獨宣告沒入。",
+      "takeaway": "所得或所生物原則限行為人所有；查禁物不問所有權；法定例外可單獨宣告沒入。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -173,7 +175,8 @@
           "title": "違反社會秩序維護法案件處理辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
         }
-      ]
+      ],
+      "currentAnswer": "D為官方答案：第23條以行為人逃逸等情形為單獨宣告沒入例外；仍須確認物品性質、權屬、管轄與法定程序。"
     },
     {
       "id": "law113-outer-03",

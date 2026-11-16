@@ -425,26 +425,26 @@
       "options": [
         {
           "text": "在執行勤務中遭受暴力或意外危害致全失能、半失能、死亡或殉職者之慰問金不得低於公務人 員執行職務意外傷亡慰問金發給標準之二倍",
-          "explanation": "第36條之1慰問金至少2倍的列舉為全失能、死亡或殉職，題目多加半失能。",
-          "correction": "改為條文列舉之全失能、死亡或殉職。",
+          "explanation": "第36條之1第1項的兩倍下限列執勤受暴力或意外危害致全失能、死亡或殉職，未列半失能。",
+          "correction": "半失能保障另依其他適用規定，不能直接套兩倍下限。",
           "trueStatement": false
         },
         {
           "text": "在執行勤務中遭受暴力或意外危害致全失能或半失能者，應給與醫療照護及安置就養，並由主 管機關編列預算，給與終身照護",
-          "explanation": "第35條之1對執勤遭暴力或意外致全失能或半失能者給醫療照護、安置就養與終身照護。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第35條之1規定執勤受暴力或意外危害致全失能或半失能者之照護。",
+          "correction": "包含編列預算給予終身照護；本題選B。",
           "trueStatement": true
         },
         {
           "text": "在執行勤務中遭受暴力或意外危害致全失能、半失能、死亡或在執行勤務中殉職者，其子女應 給與教養至成年",
-          "explanation": "子女教養規定列全失能、半失能或勤務中殉職；成年仍在學者續至大學畢業，不只至成年。",
-          "correction": "依第36條之1列舉身分並補上成年在學續教養規定。",
+          "explanation": "第36條之1第3項列全失能、半失能或在執行勤務中殉職者的子女；選項泛列死亡超出其文字。",
+          "correction": "已成年仍在學者繼續教養至大學畢業。",
           "trueStatement": false
         },
         {
           "text": "警察人員在職期間因受傷、失能、死亡或殉職者，應從優發給慰問金",
-          "explanation": "慰問金以「因公」受傷、失能、死亡或殉職為要件，不是在職期間任何事故都發。",
-          "correction": "改為「因公」受傷等。",
+          "explanation": "第36條之1第1項須因公受傷、失能、死亡或殉職，非在職期間任何受傷都包含。",
+          "correction": "依因公範圍及相關辦法個案認定。",
           "trueStatement": false
         }
       ],
@@ -453,24 +453,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察法規概要｜第6題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 6,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部標準答案及列示法規；題目涉及的全部歷史法令、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察人員人事條例第35條之1及第36條之1",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留115年官方答案B。",
         "sources": [
           {
-            "title": "警察人員人事條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+            "title": "警察人員人事條例第9、12、16、21、35條之1及36條之1",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
           }
         ]
       },
-      "takeaway": "第35條之1對執勤遭暴力或意外致全失能或半失能者給醫療照護、安置就養與終身照護。",
+      "takeaway": "兩倍慰問金對象、終身照護對象與子女教養對象不完全相同。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -483,8 +485,13 @@
         {
           "title": "警察人員人事條例",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+        },
+        {
+          "title": "警察人員人事條例第9、12、16、21、35條之1及36條之1",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
         }
-      ]
+      ],
+      "currentAnswer": "B正確：執勤受暴力或意外危害致全失能或半失能，應醫療照護、安置就養並由主管機關編列終身照護預算。"
     },
     {
       "id": "law115-inner-07",
@@ -1808,26 +1815,26 @@
       "options": [
         {
           "text": "不服行政執行法之執行命令，得於執行程序終結前，向執行機關，聲明異議",
-          "explanation": "行政執行法第9條對執行命令、方法等得於程序終結前向執行機關聲明異議。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "行政執行法第9條允許義務人或利害關係人在執行程序終結前向執行機關聲明異議。",
+          "correction": "不限於執行命令，方法、程序及其他侵害利益情事亦包括。",
           "trueStatement": true
         },
         {
           "text": "不服警察職權行使法之行使職權，可當場表示異議",
-          "explanation": "警察依警職法執行時，利害關係人可當場陳述理由表示異議。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "警職法第29條允許義務人或利害關係人於行使職權時當場陳述理由表示異議。",
+          "correction": "並可依法提起訴願或行政訴訟。",
           "trueStatement": true
         },
         {
           "text": "不服集會遊行法之限制事項，應予收受通知書之日起 2 日內，聲明異議",
-          "explanation": "集會遊行許可限制不服稱「申復」，不是向法院聲明異議。",
-          "correction": "改為一般收受通知書之日起2日內，經原機關向上級警察機關申復。",
+          "explanation": "集遊法第16條的一般救濟名稱是申復，向原主管機關提出以向上級警察機關申復。",
+          "correction": "一般自收受通知書之日起2日，並注意釋字718對緊急及偶發集會保障；本題選C。",
           "trueStatement": false
         },
         {
           "text": "不服社會秩序維護法之處分，得於處分書送達翌日起 5 日內，聲明異議",
-          "explanation": "不服警察社維處分得於處分書送達翌日起5日聲明異議。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "社維法第55條規定處分書送達翌日起5日內經原處分警察機關向簡易庭聲明異議。",
+          "correction": "與第45條移送法院裁定的抗告程序不同。",
           "trueStatement": true
         }
       ],
@@ -1836,36 +1843,42 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察法規概要｜第24題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 24,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部標準答案及列示法規；題目涉及的全部歷史法令、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "行政執行法第9條；警察職權行使法第29條；集會遊行法第16條；社會秩序維護法第55條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留115年官方答案C。",
         "sources": [
           {
-            "title": "行政執行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+            "title": "行政執行法第9條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
           },
           {
-            "title": "警察職權行使法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+            "title": "警察職權行使法第29條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           },
           {
-            "title": "集會遊行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+            "title": "集會遊行法第16條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
           },
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+            "title": "社會秩序維護法第7、9、20、22、23、25、31、50、55至58條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+          },
+          {
+            "title": "司法院釋字第718號解釋",
+            "url": "https://cons.judicial.gov.tw/download/download.aspx?id=332415"
           }
         ]
       },
-      "takeaway": "集會遊行許可限制不服稱「申復」，不是向法院聲明異議。",
+      "takeaway": "行政執行及社維為聲明異議；警職為當場表示異議；集遊是申復。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -1890,8 +1903,13 @@
         {
           "title": "社會秩序維護法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+        },
+        {
+          "title": "司法院釋字第718號解釋",
+          "url": "https://cons.judicial.gov.tw/download/download.aspx?id=332415"
         }
-      ]
+      ],
+      "currentAnswer": "C錯誤：對集遊許可限制事項等不服，依第16條向上級警察機關申復，不是社維法的聲明異議；一般期限自收受通知書之日起2日。"
     },
     {
       "id": "law115-inner-25",
@@ -1903,26 +1921,26 @@
       "options": [
         {
           "text": "公務人員於下班後可參加政黨所發起之遊行",
-          "explanation": "下班參加政黨發起遊行不當然禁止，但不得主持、領導或為特定候選人公開遊行等違法行為。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第7條主要限制上班或勤務時間從事政黨或政治團體活動；下班後仍須遵守第9條等其他限制。",
+          "correction": "不代表下班後一切政治活動均不受限制。",
           "trueStatement": true
         },
         {
           "text": "公務人員於留職停薪時，不可幫候選人姑姑具名不具銜廣告",
-          "explanation": "留職停薪期間仍須遵守行政中立相關規範；候選人的姑姑為三親等，非二親等例外。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "銓敘部明示留職停薪期間仍具公務人員身分；姑姑為三親等，非第9條第1項第4款親屬例外。",
+          "correction": "具名競選廣告仍受該款限制。",
           "trueStatement": true
         },
         {
           "text": "公務人員可幫候選人父親站台",
-          "explanation": "公職候選人父親是二親等以內血親，公開站台例外仍不得涉及職務事項。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "候選人父親為一親等直系血親，符合第9條第1項第6款親屬例外。",
+          "correction": "不得涉及其職務上的事項。",
           "trueStatement": true
         },
         {
           "text": "不可動用行政資源散發宣傳品（網路資訊除外）",
-          "explanation": "以行政資源支持或反對特定政黨、團體或候選人散發宣傳品，不能自行增設網路資訊例外。",
-          "correction": "刪除「網路資訊除外」，依法判斷是否動用行政資源及目的。",
+          "explanation": "銓敘部問答說明散發包含網路資訊傳遞；動用行政資源為特定支持或反對不因透過網路而排除。",
+          "correction": "不能概括禁止私人在網路上所有政治言論；本題選D。",
           "trueStatement": false
         }
       ],
@@ -1931,24 +1949,38 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察法規概要｜第25題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 25,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部標準答案及列示法規；題目涉及的全部歷史法令、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "公務人員行政中立法第7、9條；施行細則第4、6條；銓敘部留職停薪解釋及問答",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留115年官方答案D。",
         "sources": [
           {
-            "title": "公務人員行政中立法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0110036"
+            "title": "公務人員行政中立法第7、9條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110036"
+          },
+          {
+            "title": "公務人員行政中立法施行細則第4、6條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110037"
+          },
+          {
+            "title": "銓敘部留職停薪仍適用行政中立規定",
+            "url": "https://www.mocs.gov.tw/pages/detail.aspx?Index=17&Node=1503&Page=8326"
+          },
+          {
+            "title": "銓敘部公務人員行政中立法問答：網路傳遞及親屬例外",
+            "url": "https://www.mocs.gov.tw/FileUpload/111-9501/Documents/%E4%B8%AD%E7%AB%8B%E6%B3%95Q_A%E5%B0%88%E8%BC%AF%E6%9B%B4%E6%96%B0%E7%89%88%28110%E5%B9%B4%E6%9B%B4%E6%96%B0%29.pdf"
           }
         ]
       },
-      "takeaway": "以行政資源支持或反對特定政黨、團體或候選人散發宣傳品，不能自行增設網路資訊例外。",
+      "takeaway": "留職停薪仍受第9條限制；親屬例外不涉及職務；使用公務網路亦須遵守中立法。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -1961,8 +1993,21 @@
         {
           "title": "公務人員行政中立法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0110036"
+        },
+        {
+          "title": "公務人員行政中立法施行細則第4、6條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110037"
+        },
+        {
+          "title": "銓敘部留職停薪仍適用行政中立規定",
+          "url": "https://www.mocs.gov.tw/pages/detail.aspx?Index=17&Node=1503&Page=8326"
+        },
+        {
+          "title": "銓敘部公務人員行政中立法問答：網路傳遞及親屬例外",
+          "url": "https://www.mocs.gov.tw/FileUpload/111-9501/Documents/%E4%B8%AD%E7%AB%8B%E6%B3%95Q_A%E5%B0%88%E8%BC%AF%E6%9B%B4%E6%96%B0%E7%89%88%28110%E5%B9%B4%E6%9B%B4%E6%96%B0%29.pdf"
         }
-      ]
+      ],
+      "currentAnswer": "D錯誤：禁止動用行政資源為特定政治支持或反對散發宣傳品，並不排除網路資訊傳遞；具體仍看是否動用行政資源及行為內容。"
     }
   ],
   "essays": [

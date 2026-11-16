@@ -1412,26 +1412,26 @@
       "options": [
         {
           "text": "依法應逮捕拘禁之人拒捕、脫逃，或他人助其拒捕、脫逃時",
-          "explanation": "單純拒捕或脫逃屬第4條第1項第3款，不因該款本身即符合替代物規定。",
-          "correction": "須另符合第4款或第5款且無法有效使用警械。",
+          "explanation": "拒捕、脫逃或助其拒捕、脫逃是第1項第3款。",
+          "correction": "並非第3項明列的第4、5款情形。",
           "trueStatement": false
         },
         {
           "text": "持有兇器有滋事之虞者，已受警察告誡拋棄，仍不聽從時",
-          "explanation": "持兇器不聽拋棄屬第1項第6款；替代物規定限第4、5款。",
-          "correction": "審查是否另具第4、5款。",
+          "explanation": "持兇器滋事經告誡拋棄仍不從是第1項第6款。",
+          "correction": "不因此直接符合第3項。",
           "trueStatement": false
         },
         {
           "text": "警察人員之生命、身體、自由、裝備遭受強暴或脅迫，或有事實足認有受危害之虞時",
-          "explanation": "警察生命、身體、自由或裝備受強暴脅迫或危害之虞屬第5款，不能有效使用警械時得用足以達目的物品。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "員警生命、身體、自由或裝備受強暴、脅迫或有事實足認受危害之虞，屬第1項第5款。",
+          "correction": "還須執勤且無法有效使用警械；本題選C。",
           "trueStatement": true
         },
         {
           "text": "為避免非常變故，維持社會治安時",
-          "explanation": "避免非常變故屬第1款，單獨並非替代物規定的列舉情形。",
-          "correction": "須另符合第4或5款。",
+          "explanation": "避免非常變故維持社會治安屬第1項第1款。",
+          "correction": "不因此直接符合第3項替代物品規定。",
           "trueStatement": false
         }
       ],
@@ -1440,24 +1440,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年外軌四等｜警察法規概要｜第19題",
       "paperYear": 114,
       "paperTrack": "外軌",
       "paperNumber": 19,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋及後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警械使用條例第4條第1項及第3項",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留114年官方答案C。",
         "sources": [
           {
-            "title": "警械使用條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+            "title": "警械使用條例第1、2、4、6、9、10、10條之2、10條之3及13條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
           }
         ]
       },
-      "takeaway": "警察生命、身體、自由或裝備受強暴脅迫或危害之虞屬第5款，不能有效使用警械時得用足以達目的物品。",
+      "takeaway": "替代物品須落在第4或第5款，且無法有效使用警械；並非所有警刀槍械情形都適用。",
       "sources": [
         {
           "title": "考選部114年一般警察四等警察法規概要原卷",
@@ -1471,7 +1473,8 @@
           "title": "警械使用條例",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
         }
-      ]
+      ],
+      "currentAnswer": "C正確：第4條第3項於第1項第4、5款情形且無法有效使用警械時，得使用足以達成目的的其他物品，使用時視為警械。"
     },
     {
       "id": "law114-outer-20",
@@ -1844,26 +1847,26 @@
       "options": [
         {
           "text": "發布警察命令，中央由內政部警政署、直轄市由直轄市政府警察局、縣（市）由縣（市）政府 警察局為之",
-          "explanation": "警察命令中央由內政部、直轄市及縣市由各該政府發布，非均由警察局發布。",
-          "correction": "改為中央內政部及地方各該政府。",
+          "explanation": "施行細則第10條第1款規定中央由內政部、地方由直轄市或縣市政府發布警察命令。",
+          "correction": "不是由題示各警察局、警政署直接取代法定發布機關。",
           "trueStatement": false
         },
         {
           "text": "協助偵查犯罪與執行搜索、扣押、拘提及逮捕，依行政程序法第 19 條及行政執行法第 6 條之 規定行之",
-          "explanation": "協助偵查及搜索扣押拘提逮捕應依刑事訴訟法與調度司法警察條例。",
-          "correction": "改引刑訴法及調度司法警察條例。",
+          "explanation": "第10條第3款規定協助偵查、搜索等依刑事訴訟法及調度司法警察條例。",
+          "correction": "不能以行政協助及行政執行規定取代刑事程序。",
           "trueStatement": false
         },
         {
           "text": "行政執行依警察職權行使法之即時強制規定行之",
-          "explanation": "行政執行應依行政執行法，不可一概改以警職法即時強制取代。",
-          "correction": "改依行政執行法及個案相關法規。",
+          "explanation": "第10條第4款列行政執行法；警職法即時強制有其適用情形。",
+          "correction": "不能將所有行政執行都改稱依警職法即時強制。",
           "trueStatement": false
         },
         {
           "text": "使用警械應依警械使用條例之規定",
-          "explanation": "警察法施行細則第10條明定使用警械依警械使用條例。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第10條第5款明定使用警械依警械使用條例。",
+          "correction": "具體使用另須符合使用要件；本題選D。",
           "trueStatement": true
         }
       ],
@@ -1872,32 +1875,34 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年外軌四等｜警察法規概要｜第25題",
       "paperYear": 114,
       "paperTrack": "外軌",
       "paperNumber": 25,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋及後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察法第9條；警察法施行細則第10條；警械使用條例",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留114年官方答案D。",
         "sources": [
           {
-            "title": "警察法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+            "title": "警察法第9條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
           },
           {
-            "title": "警察法施行細則",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+            "title": "警察法施行細則第10條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
           },
           {
-            "title": "警械使用條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+            "title": "警械使用條例第1、2、4、6、9、10、10條之2、10條之3及13條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
           }
         ]
       },
-      "takeaway": "警察法施行細則第10條明定使用警械依警械使用條例。",
+      "takeaway": "命令由中央內政部及地方政府發布；偵查強制、行政執行、警械使用各有不同法源。",
       "sources": [
         {
           "title": "考選部114年一般警察四等警察法規概要原卷",
@@ -1919,7 +1924,8 @@
           "title": "警械使用條例",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
         }
-      ]
+      ],
+      "currentAnswer": "D正確：警察法施行細則第10條第1項第5款規定使用警械依警械使用條例；各職權所依法律應分別辨認。"
     }
   ],
   "essays": [
