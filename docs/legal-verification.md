@@ -191,3 +191,8 @@
 - 取得內政部正式發布之[警械使用事件補償辦法逐條說明](https://ws.moi.gov.tw/Download.ashx?n=MTEyMDQxOeitpuaisOS9v%2BeUqOS6i%2BS7tuijnOWEn%2Bi%2Bpuazlee4veiqquaYjuWPiumAkOaineiqquaYji5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTA4Mi8yNzkwNDAvMWMzMDAxZWYtMDA2My00MjFjLWEwMWItMjdhZTZjZWViNTk1LnBkZg%3D%3D)第2條說明：單純同車且無犯意聯絡的乘客可屬第三人；有協助拒捕、脫逃的犯意聯絡，或教唆駕駛衝撞者，屬用械相對人。已補113外軌法規11與113內軌申論2，並分開第三人可歸責事由的減免問題。
 - 另依社維、警職及第三人辦法、集遊、行政執行、警械與補償辦法逐項核對113外軌18、114內軌6及7、114外軌4及17、115內軌10、12、15及23、115外軌16及24，共連同前題12題。
 - [行政執行法沿革](https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=A0030023)載明條文所列行政執行處權責自101年起改由行政執行分署管轄；114外軌17已補組改界線。原題及官方答案不變；[來源與雜湊](legal-evidence-2026-11-16-police-law.json)。
+
+### 2026-11-16：第19版部署
+
+- 警察法規12題及補償逐條說明由來源 `e800c916044fff7c0e174d8fc4c0f2f3bb1b7e27` 建置，Sites第19版部署 `appgdep_6afb0a4cb1ec8191a9fecca8761b8306` 回報成功。新正式網域仍受本環境網路政策阻擋，部署後法規API未讀回。
+- 本機題庫與整理事件合併後有497題、45題申論待核，不含正式D1動態事件；其他官方原件、正式解釋與題目仍待逐項核對。
