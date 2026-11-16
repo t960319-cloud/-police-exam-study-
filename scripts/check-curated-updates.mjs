@@ -95,3 +95,10 @@ for(const [id,answer] of [['investigation114_06',3],['investigation114_16',0],['
 const night=result.questions.find(q=>q.id==='investigation114_19');assert(night.options[1].correction.includes('明示'));assert(night.amendment.sources.some(s=>s.url.includes('judicial.gov.tw')));
 const postmortem=result.questions.find(q=>q.id==='investigation114_48');assert(postmortem.currentAnswer.includes('檢驗應命醫師或檢驗員'));assert(postmortem.currentAnswer.includes('解剖應命醫師'));
 console.log('Investigation procedure, night-search consent and forensic examination distinctions passed.');
+// Communications timing, records and statutory stalking exceptions must remain distinct.
+for(const [id,answer] of [['investigation111_12',3],['investigation111_31',3],['investigation112_10',1],['investigation114_32',3],['investigation114_42',2]]){
+ const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.answer,answer);assert(q.verified);assert.notEqual(q.analysisMode,'answer-key');assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()));
+}
+const urgentMonitoring=result.questions.find(q=>q.id==='investigation112_09');assert.equal(urgentMonitoring.answer,3);assert.equal(urgentMonitoring.verified,false);assert(urgentMonitoring.currentAnswer.includes('24小時'));assert(urgentMonitoring.currentAnswer.includes('48小時'));
+const stalking=result.questions.find(q=>q.id==='investigation114_27');assert.equal(stalking.answer,0);assert.equal(stalking.verified,false);assert(stalking.currentAnswer.includes('第3條第2項'));assert(stalking.currentAnswer.includes('性別無關'));
+console.log('Communication deadlines and records, arrest-warrant copies, and stalking exceptions passed.');

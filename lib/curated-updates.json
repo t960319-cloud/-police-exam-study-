@@ -2620,5 +2620,343 @@
       }
     ],
     "createdAt": 1794834912918
+  },
+  {
+    "eventId": "legal-review-20261116-communication-stalking",
+    "kind": "update",
+    "checkedAt": "2026-11-16",
+    "summary": "依官方法規逐項補通訊監察期間、通信紀錄與急迫調取、拘票聯數及跟蹤騷擾構成；保留原卷答案，通訊監察題幹與跟騷一般／特別條文界線續列待核。",
+    "sources": [
+      {
+        "title": "通訊保障及監察法第3條之1、5至7、11條之1及12條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+      },
+      {
+        "title": "刑事訴訟法第77至79條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      },
+      {
+        "title": "跟蹤騷擾防制法第3至5、21條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080211"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "investigation111_12",
+        "amendment": {
+          "status": "none",
+          "law": "通訊保障及監察法第5條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依現行第5條第2至4項逐項核對；保留111年官方答案D。",
+          "sources": [
+            {
+              "title": "通訊保障及監察法第3條之1、5至7、11條之1及12條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D正確：執行監聽期間每15日至少1次報告。偵查中由檢察官依職權或依司法警察機關聲請，書面向法院聲請；法院受理聲請案件48小時內核復，遭駁回不得聲明不服。",
+        "takeaway": "監察書聲請由檢察官向法院提出，法院48小時核復；監聽每15日至少報告1次。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第5條第2項規定偵查中由檢察官依職權或依司法警察機關聲請，書面向法院聲請。",
+            "correction": "司法警察機關向檢察官聲請，由檢察官向法院提出。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第5條第2項規定法院接獲檢察官核轉受理聲請案件，應於48小時內核復。",
+            "correction": "法院核復期限應為48小時。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第5條第3項規定聲請經法院駁回，不得聲明不服。",
+            "correction": "不得對該駁回聲明不服。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第5條第4項規定執行機關於監聽期間每15日至少作成1次以上報告。",
+            "correction": "本項符合第5條第4項。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_31",
+        "amendment": {
+          "status": "none",
+          "law": "通訊保障及監察法第3條之1",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依現行第3條之1逐項核對通信紀錄、通訊使用者資料與網路流量紀錄；保留111年官方答案D。",
+          "sources": [
+            {
+              "title": "通訊保障及監察法第3條之1、5至7、11條之1及12條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D錯誤：第3條之1通信紀錄包含發送及接收方電信號碼、通信時間及位置等；LINE對話文字屬通訊內容，不能等同該條所稱通信紀錄。",
+        "takeaway": "通信紀錄是號碼、時間、位置等資料；對話文字是通訊內容，不能混同。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第3條之1通信紀錄包含發送方及接收方電信號碼。",
+            "correction": "接收方電信號碼屬通信紀錄所列項目。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第3條之1明列通信時間。",
+            "correction": "通信時間屬通信紀錄所列項目。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第3條之1明列位置資訊；網路流量紀錄另有其定義。",
+            "correction": "位置資訊可屬通信紀錄；應依具體資料及法定類別判斷。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "對話文字為通訊內容，不是第3條之1所列通信紀錄的號碼、時間、位置等資料。",
+            "correction": "區分通訊內容與通信紀錄，適用程序不可混用。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation112_10",
+        "amendment": {
+          "status": "none",
+          "law": "通訊保障及監察法第7、12條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依現行第7、12條核對境外情報監察期間；保留112年官方答案B。",
+          "sources": [
+            {
+              "title": "通訊保障及監察法第3條之1、5至7、11條之1及12條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B正確：依第7條實施的通訊監察，每次不得逾1年；第5、6條的一般刑案監察每次不得逾30日，不能混用。繼續監察應釋明理由，至遲期滿前2日提出聲請。",
+        "takeaway": "第7條情報監察每次至多1年；第5、6條每次至多30日。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第12條規定第7條監察每次不得逾1年，非半年。",
+            "correction": "應為每次不得逾1年。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第12條規定第7條通訊監察期間每次不得逾1年。",
+            "correction": "本項符合第12條；續行仍須依規定提出聲請。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第12條規定第7條監察每次不得逾1年，非2年。",
+            "correction": "應為每次不得逾1年。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第12條規定第7條監察每次不得逾1年，非3年。",
+            "correction": "應為每次不得逾1年。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_32",
+        "amendment": {
+          "status": "none",
+          "law": "通訊保障及監察法第3條之1、第11條之1",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依現行第3條之1及第11條之1逐項核對；保留114年官方答案D。",
+          "sources": [
+            {
+              "title": "通訊保障及監察法第3條之1、5至7、11條之1及12條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D正確：依第11條之1第2項急迫情形調取通信紀錄或網路流量紀錄後，須於24小時內向法院補行聲請調取票。通訊使用者資料、通信紀錄與網路流量紀錄應按各自程序處理，另有法定例外。",
+        "takeaway": "急迫調取通信或網路流量紀錄：依第11條之1第2項時，24小時內補行聲請調取票。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第11條之1第2項的一般規定未以最重本刑3年以上為統一門檻；另有第4項特定犯罪例外。",
+            "correction": "依必要性、關連性與適用程序判斷，勿自行加入3年門檻。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第11條之1第1項對通訊使用者資料規定檢察官或司法警察官得在法定要件下調取；與通信紀錄調取票不同。",
+            "correction": "區分使用者資料與通信紀錄，不將一般調取票程序一律套用前者。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第3條之1明列網際網路位址為網路流量紀錄項目；通信紀錄定義亦包含位址。調取須依第11條之1等適用程序，不能僅以個資法逕請。",
+            "correction": "依具體資料類別及通保法程序調取，不因題稱位址就排除法定保障。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "依第11條之1第2項急迫情形調取後，第5項要求24小時內向法院補行聲請調取票。",
+            "correction": "本項符合第11條之1第5項；應分辨同條第4項等其他法定例外。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_42",
+        "amendment": {
+          "status": "none",
+          "law": "刑事訴訟法第77至79條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依現行刑訴第77至79條逐項核對通常有票拘提；保留114年官方答案C。",
+          "sources": [
+            {
+              "title": "刑事訴訟法第77至79條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C正確：第78條規定拘票得作數通，分交數人各別執行；拘票應備2聯，不能把數通與聯數混為一談。其他法定逕行拘提情形應另依第88條之1判斷。",
+        "takeaway": "拘票得作數通分交執行；每通應備2聯，一聯交本人或家屬。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第77條規定拘提被告應用拘票，不是傳票。",
+            "correction": "通常有票拘提應用拘票。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第78條就一般拘提執行列司法警察或司法警察官；檢察官親自逕行拘提另有第88條之1的特別規定。",
+            "correction": "區分第78條一般執行與第88條之1特別情形。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第78條第2項規定拘票得作數通，分交數人各別執行。",
+            "correction": "本項符合第78條第2項。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第79條規定拘票應備2聯，而非3聯；一聯交被告或家屬。",
+            "correction": "應備2聯，執行時以1聯交被告或其家屬。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation112_09",
+        "amendment": {
+          "status": "review",
+          "law": "通訊保障及監察法第6條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "unverified",
+          "note": "112年官方答案D。題幹將司法機關、執行機關與告知／陳報時點的表述混在一起；已依現行第6條釐清，題意仍保留待核。",
+          "sources": [
+            {
+              "title": "通訊保障及監察法第3條之1、5至7、11條之1及12條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "D為112年官方答案。第6條規定在法定急迫條件下，司法警察機關報請檢察官口頭通知執行機關先予執行；檢察官告知第11條事項，並於24小時內陳報法院補發監察書。法院另有48小時補發時限，不能把主體或兩個期限混用。",
+        "takeaway": "急迫監察：檢察官告知法定事項，24小時內陳報法院；法院48小時內補發。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第6條的檢察官陳報法院補發期限為24小時，非2小時。",
+            "correction": "本題期限應為24小時；告知與陳報各有法定主體。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第6條的檢察官陳報法院補發期限為24小時，非8小時。",
+            "correction": "本題期限應為24小時；告知與陳報各有法定主體。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第6條的檢察官陳報法院補發期限為24小時，非12小時。",
+            "correction": "本題期限應為24小時；告知與陳報各有法定主體。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第6條規定檢察官於24小時內陳報法院補發監察書；原題對告知及機關的措辭應參照條文釐清。",
+            "correction": "當年官方選D；區分檢察官24小時陳報與法院48小時補發。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_27",
+        "amendment": {
+          "status": "review",
+          "law": "跟蹤騷擾防制法第3至5、21條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "unverified",
+          "note": "114年官方答案A。第3條第1項的一般構成與第2項對特定關係人的特別情形應區分；原題A概括性用語之適用界線保留待核，不變更官方計分。",
+          "sources": [
+            {
+              "title": "跟蹤騷擾防制法第3至5、21條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080211"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "A為114年官方答案，與第3條第1項一般構成要件相符；但第3條第2項另對特定人之配偶、直系血親、同居親屬或社會生活關係密切者，規定一定與性或性別無關的跟騷情形。不能把A擴張成全法毫無例外的結論。",
+        "takeaway": "一般構成須與性或性別有關；另留意第3條第2項特定關係人的特殊情形。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "A是114年官方答案，符合第3條第1項的一般規定；同條第2項另有針對特定關係人、與性或性別無關的情形。",
+            "correction": "掌握第3條第1項，另記第2項特別規定，避免誤認全法一律要求相關。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第4條受理後應立即調查；經調查有犯罪嫌疑者才依職權或請求核發書面告誡，非所有受理案件均立即核發。",
+            "correction": "先即時調查，符第4條第2項要件再核發書面告誡。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第5條第4項將家庭成員間跟騷的民事保護令導向家庭暴力防治法，而非本法保護令規定。",
+            "correction": "配偶等家庭成員間應依家庭暴力防治法聲請民事保護令。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第21條的羈押判斷以法官訊問為前提，非檢察官訊問後即可依該條羈押。",
+            "correction": "符合第21條條件時，應由法官依法訊問並判斷羈押。",
+            "trueStatement": false
+          }
+        ]
+      }
+    ],
+    "createdAt": 1794835347843
   }
 ]

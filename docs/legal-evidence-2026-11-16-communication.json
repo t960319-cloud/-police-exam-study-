@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-11-16",
+  "timezone": "Asia/Taipei",
+  "sources": [
+    {
+      "title": "通訊保障及監察法第3條之1、5至7、11條之1及12條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044",
+      "sha256": "56ddeb9eed1350acdb5b1c8579c1a82e89f6aa5bffa15503b11c6e392252f7da",
+      "retrieval": "HTTPS原件HTTP 200"
+    },
+    {
+      "title": "刑事訴訟法第77至79條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001",
+      "sha256": "23b5460003c6aeb7c62263a08914438ac91681a8a19eaaba6f4b514beea21022",
+      "retrieval": "HTTPS原件HTTP 200"
+    },
+    {
+      "title": "跟蹤騷擾防制法第3至5、21條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080211",
+      "sha256": "772600c00d34863116b8ec22fa9d9e45ce6bf6ff7cb0e5a16d2e170d472eacfa",
+      "retrieval": "HTTPS原件HTTP 200"
+    }
+  ],
+  "verifiedQuestionIds": [
+    "investigation111_12",
+    "investigation111_31",
+    "investigation112_10",
+    "investigation114_32",
+    "investigation114_42"
+  ],
+  "reviewQuestionIds": [
+    "investigation112_09",
+    "investigation114_27"
+  ],
+  "notes": [
+    "跟騷法第3條第2項須與第1項區分；原題概括用語的考題解釋仍標待核，不自行更改當年答案。",
+    "通保法緊急監察檢察官24小時陳報，法院48小時補發；題幹機關及時點用語保留待核。",
+    "全國法規資料庫所載整編截止115.11.06，可能尚有未收錄後續異動。"
+  ]
+}

@@ -601,26 +601,26 @@
       "options": [
         {
           "text": "二小時內",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：題問檢察官口頭通知先行監察後24小時內的補行程序；其他法院審查時限須分別記憶。",
+          "explanation": "第6條的檢察官陳報法院補發期限為24小時，非2小時。",
+          "correction": "本題期限應為24小時；告知與陳報各有法定主體。",
           "trueStatement": false
         },
         {
           "text": "八小時內",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：題問檢察官口頭通知先行監察後24小時內的補行程序；其他法院審查時限須分別記憶。",
+          "explanation": "第6條的檢察官陳報法院補發期限為24小時，非8小時。",
+          "correction": "本題期限應為24小時；告知與陳報各有法定主體。",
           "trueStatement": false
         },
         {
           "text": "十二小時內",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：題問檢察官口頭通知先行監察後24小時內的補行程序；其他法院審查時限須分別記憶。",
+          "explanation": "第6條的檢察官陳報法院補發期限為24小時，非12小時。",
+          "correction": "本題期限應為24小時；告知與陳報各有法定主體。",
           "trueStatement": false
         },
         {
           "text": "二十四小時內",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "題問檢察官口頭通知先行監察後24小時內的補行程序；其他法院審查時限須分別記憶。",
+          "explanation": "第6條規定檢察官於24小時內陳報法院補發監察書；原題對告知及機關的措辭應參照條文釐清。",
+          "correction": "當年官方選D；區分檢察官24小時陳報與法院48小時補發。",
           "trueStatement": true
         }
       ],
@@ -637,13 +637,20 @@
       "paperTrack": "內軌",
       "paperNumber": 9,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "通訊保障及監察法第6條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "unverified",
+        "note": "112年官方答案D。題幹將司法機關、執行機關與告知／陳報時點的表述混在一起；已依現行第6條釐清，題意仍保留待核。",
+        "sources": [
+          {
+            "title": "通訊保障及監察法第3條之1、5至7、11條之1及12條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+          }
+        ]
       },
-      "takeaway": "題問檢察官口頭通知先行監察後24小時內的補行程序；其他法院審查時限須分別記憶。",
+      "takeaway": "急迫監察：檢察官告知法定事項，24小時內陳報法院；法院48小時內補發。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -660,8 +667,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "通訊保障及監察法第3條之1、5至7、11條之1及12條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
         }
-      ]
+      ],
+      "currentAnswer": "D為112年官方答案。第6條規定在法定急迫條件下，司法警察機關報請檢察官口頭通知執行機關先予執行；檢察官告知第11條事項，並於24小時內陳報法院補發監察書。法院另有48小時補發時限，不能把主體或兩個期限混用。"
     },
     {
       "id": "investigation112_10",
@@ -673,26 +685,26 @@
       "options": [
         {
           "text": "半年",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：蒐集外國或境外敵對勢力情報的監察，本題每次不逾1年，不是一般刑案30日。",
+          "explanation": "第12條規定第7條監察每次不得逾1年，非半年。",
+          "correction": "應為每次不得逾1年。",
           "trueStatement": false
         },
         {
           "text": "一年",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "蒐集外國或境外敵對勢力情報的監察，本題每次不逾1年，不是一般刑案30日。",
+          "explanation": "第12條規定第7條通訊監察期間每次不得逾1年。",
+          "correction": "本項符合第12條；續行仍須依規定提出聲請。",
           "trueStatement": true
         },
         {
           "text": "二年",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：蒐集外國或境外敵對勢力情報的監察，本題每次不逾1年，不是一般刑案30日。",
+          "explanation": "第12條規定第7條監察每次不得逾1年，非2年。",
+          "correction": "應為每次不得逾1年。",
           "trueStatement": false
         },
         {
           "text": "三年",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：蒐集外國或境外敵對勢力情報的監察，本題每次不逾1年，不是一般刑案30日。",
+          "explanation": "第12條規定第7條監察每次不得逾1年，非3年。",
+          "correction": "應為每次不得逾1年。",
           "trueStatement": false
         }
       ],
@@ -703,19 +715,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第10題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 10,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "通訊保障及監察法第7、12條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依現行第7、12條核對境外情報監察期間；保留112年官方答案B。",
+        "sources": [
+          {
+            "title": "通訊保障及監察法第3條之1、5至7、11條之1及12條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+          }
+        ]
       },
-      "takeaway": "蒐集外國或境外敵對勢力情報的監察，本題每次不逾1年，不是一般刑案30日。",
+      "takeaway": "第7條情報監察每次至多1年；第5、6條每次至多30日。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -732,8 +751,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "通訊保障及監察法第3條之1、5至7、11條之1及12條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
         }
-      ]
+      ],
+      "currentAnswer": "B正確：依第7條實施的通訊監察，每次不得逾1年；第5、6條的一般刑案監察每次不得逾30日，不能混用。繼續監察應釋明理由，至遲期滿前2日提出聲請。"
     },
     {
       "id": "investigation112_11",

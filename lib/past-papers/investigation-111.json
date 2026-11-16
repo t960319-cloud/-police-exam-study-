@@ -770,26 +770,26 @@
       "options": [
         {
           "text": "通訊監察書，由檢察官或刑事訴訟法第 229 條之司法警察官以書面聲請該管法院核發",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：原卷監聽期間每15日至少作成1次報告書；聲請機關、法院審查與救濟另有不同規定。",
+          "explanation": "第5條第2項規定偵查中由檢察官依職權或依司法警察機關聲請，書面向法院聲請。",
+          "correction": "司法警察機關向檢察官聲請，由檢察官向法院提出。",
           "trueStatement": false
         },
         {
           "text": "法院於接獲聲請通訊監察書之案件，應於 24 小時內核復",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：原卷監聽期間每15日至少作成1次報告書；聲請機關、法院審查與救濟另有不同規定。",
+          "explanation": "第5條第2項規定法院接獲檢察官核轉受理聲請案件，應於48小時內核復。",
+          "correction": "法院核復期限應為48小時。",
           "trueStatement": false
         },
         {
           "text": "聲請不合法定程序、不備理由、未經釋明或釋明不足，經法院駁回者，得依法抗告",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：原卷監聽期間每15日至少作成1次報告書；聲請機關、法院審查與救濟另有不同規定。",
+          "explanation": "第5條第3項規定聲請經法院駁回，不得聲明不服。",
+          "correction": "不得對該駁回聲明不服。",
           "trueStatement": false
         },
         {
           "text": "執行機關應於執行監聽期間內，每 15 日至少作成 1 次以上之報告書",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "原卷監聽期間每15日至少作成1次報告書；聲請機關、法院審查與救濟另有不同規定。",
+          "explanation": "第5條第4項規定執行機關於監聽期間每15日至少作成1次以上報告。",
+          "correction": "本項符合第5條第4項。",
           "trueStatement": true
         }
       ],
@@ -800,19 +800,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第12題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 12,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "通訊保障及監察法第5條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依現行第5條第2至4項逐項核對；保留111年官方答案D。",
+        "sources": [
+          {
+            "title": "通訊保障及監察法第3條之1、5至7、11條之1及12條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+          }
+        ]
       },
-      "takeaway": "原卷監聽期間每15日至少作成1次報告書；聲請機關、法院審查與救濟另有不同規定。",
+      "takeaway": "監察書聲請由檢察官向法院提出，法院48小時核復；監聽每15日至少報告1次。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -825,8 +832,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "通訊保障及監察法第3條之1、5至7、11條之1及12條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
         }
-      ]
+      ],
+      "currentAnswer": "D正確：執行監聽期間每15日至少1次報告。偵查中由檢察官依職權或依司法警察機關聲請，書面向法院聲請；法院受理聲請案件48小時內核復，遭駁回不得聲明不服。"
     },
     {
       "id": "investigation111_13",
@@ -2062,26 +2074,26 @@
       "options": [
         {
           "text": "接收方之電信號碼",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：LINE對話屬內容，不是通信時間、號碼、位置等通信紀錄；取得程序不能混用。",
+          "explanation": "第3條之1通信紀錄包含發送方及接收方電信號碼。",
+          "correction": "接收方電信號碼屬通信紀錄所列項目。",
           "trueStatement": true
         },
         {
           "text": "通信時間",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：LINE對話屬內容，不是通信時間、號碼、位置等通信紀錄；取得程序不能混用。",
+          "explanation": "第3條之1明列通信時間。",
+          "correction": "通信時間屬通信紀錄所列項目。",
           "trueStatement": true
         },
         {
           "text": "位置資訊",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：LINE對話屬內容，不是通信時間、號碼、位置等通信紀錄；取得程序不能混用。",
+          "explanation": "第3條之1明列位置資訊；網路流量紀錄另有其定義。",
+          "correction": "位置資訊可屬通信紀錄；應依具體資料及法定類別判斷。",
           "trueStatement": true
         },
         {
           "text": "通訊應用程式（如 LINE）之對話紀錄",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "LINE對話屬內容，不是通信時間、號碼、位置等通信紀錄；取得程序不能混用。",
+          "explanation": "對話文字為通訊內容，不是第3條之1所列通信紀錄的號碼、時間、位置等資料。",
+          "correction": "區分通訊內容與通信紀錄，適用程序不可混用。",
           "trueStatement": false
         }
       ],
@@ -2092,19 +2104,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第31題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 31,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "通訊保障及監察法第3條之1",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依現行第3條之1逐項核對通信紀錄、通訊使用者資料與網路流量紀錄；保留111年官方答案D。",
+        "sources": [
+          {
+            "title": "通訊保障及監察法第3條之1、5至7、11條之1及12條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+          }
+        ]
       },
-      "takeaway": "LINE對話屬內容，不是通信時間、號碼、位置等通信紀錄；取得程序不能混用。",
+      "takeaway": "通信紀錄是號碼、時間、位置等資料；對話文字是通訊內容，不能混同。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -2117,8 +2136,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "通訊保障及監察法第3條之1、5至7、11條之1及12條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
         }
-      ]
+      ],
+      "currentAnswer": "D錯誤：第3條之1通信紀錄包含發送及接收方電信號碼、通信時間及位置等；LINE對話文字屬通訊內容，不能等同該條所稱通信紀錄。"
     },
     {
       "id": "investigation111_32",
