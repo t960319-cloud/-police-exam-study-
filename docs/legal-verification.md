@@ -158,3 +158,8 @@
 - 依[刑訴](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001)及[憲法增修條文](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002)，補110犯罪偵查15、16，111犯罪偵查38至40，113犯罪偵查19、21的夜間搜索例外、拘票、搜索票與救濟；留意通緝身分不等於立委會期逮捕的現行犯例外。
 - 依[家暴法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071)、[警職法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145)、[通保法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044)及[治安顧慮人口查訪辦法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147)，補110犯罪偵查29、111犯罪偵查28、32、47、112犯罪偵查35與113犯罪偵查4。13題逐項核對並保留原題與當年答案。
 - 112犯罪偵查8的第三人繼續合作需新發生原因事實、必要且經核准；原題C的省略可能影響理解，已補限制並保留待核。來源與雜湊見[本輪證據](legal-evidence-2026-11-16-crossyear.json)。
+
+### 2026-11-16：第16版部署
+
+- 跨年度14題詳解由來源 `a9ad0737f0e507eae17d60f2ed71aefafd9bdccb` 建置，Sites第16版部署 `appgdep_6afb05b960d8819181faef7bacb0620d` 回報成功。新正式網域仍受本環境網路政策阻擋，部署後法規API內容未讀回。
+- 本機題庫及整理事件合併後，910題中509題、66題申論中47題待核；不含正式D1動態事件。其他完整原件、正式解釋與逐題對照仍待處理。
