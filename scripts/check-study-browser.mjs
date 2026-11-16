@@ -153,6 +153,17 @@ try{
   assert.deepEqual((await records())[`q:${id}`],before);
  }
  console.log('PASS reviewed investigation explanations and all four corrections visible without recording attempts');
+ // Newly reviewed police-law options should show the corrected procedure on the site.
+ await page.getByLabel('搜尋題目、考點或法條',{exact:true}).fill('');
+ await page.getByLabel('篩選年度',{exact:true}).selectOption('114');await page.getByLabel('篩選科目',{exact:true}).selectOption('警察法規');
+ const lawPaper=JSON.parse(await readFile(path.join(project,'lib/past-papers/law-114-inner.json'),'utf8'));
+ const installment=lawPaper.questions.find(q=>q.id==='law114-inner-05');const installmentBefore=(await records())[`q:${installment.id}`];
+ await page.getByLabel('搜尋題目、考點或法條',{exact:true}).fill(installment.title);await page.locator('.question-row-main').first().click();
+ await page.getByRole('button',{name:'直接看解析（不計作答）'}).click();const lawView=page.getByRole('dialog');
+ assert((await lawView.innerText()).includes('A～D逐項解析'));assert.equal(await lawView.locator('.option-analysis .correction').count(),4);
+ assert((await lawView.innerText()).includes('執行之警察機關'));await page.getByRole('button',{name:'關閉視窗'}).click();
+ assert.deepEqual((await records())[`q:${installment.id}`],installmentBefore);
+ console.log('PASS police-law installment explanation visible without recording an attempt');
  // Filtered practice must honor common and advanced filters, including all pages.
  await page.getByLabel('搜尋題目、考點或法條',{exact:true}).fill('');
  await page.getByLabel('篩選年度',{exact:true}).selectOption('110');await page.getByLabel('篩選科目',{exact:true}).selectOption('警察法規');

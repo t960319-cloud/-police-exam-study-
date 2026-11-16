@@ -153,3 +153,13 @@ assert(assemblyEssay.model.analysis.includes('104年1月1日起失效'));assert(
 const identityEssay=result.essays.find(e=>e.id==='law114-inner-e2');assert(identityEssay?.verified);
 assert(identityEssay.model.analysis.includes('自攔停起不得逾3小時'));
 console.log('Weapons history, detention safeguards, compensation remedies, assembly interpretation and identity checks passed.');
+
+// Distinguish court appeals from objections to police dispositions and retain exam keys.
+for(const [id,answer] of [['law114-inner-03',1],['law114-inner-04',0],['law114-inner-05',2],['law114-inner-09',2],['law114-inner-25',1],['law114-outer-03',0],['law114-outer-06',1],['law114-outer-10',3],['law114-outer-11',3],['law114-outer-12',2]]){
+  const q=result.questions.find(x=>x.id===id);assert(q?.verified);assert.equal(q.answer,answer);assert.equal(q.options.length,4);
+}
+const splitPayment=result.questions.find(q=>q.id==='law114-inner-05');assert(splitPayment.currentAnswer.includes('執行之警察機關'));assert(splitPayment.takeaway.includes('2至6期'));
+const courtRemedy=result.questions.find(q=>q.id==='law114-outer-10');assert(courtRemedy.currentAnswer.includes('簡易庭裁定'));assert(courtRemedy.options[2].correction.includes('翌日'));
+const objectionRecord=result.questions.find(q=>q.id==='law114-outer-03');assert(objectionRecord.options[3].explanation.includes('確認'));
+const shooting=result.questions.find(q=>q.id==='law114-inner-03');assert(shooting.currentAnswer.includes('共同生命身體危險前提'));
+console.log('Ten police-law explanations preserve official keys and distinguish procedures.');

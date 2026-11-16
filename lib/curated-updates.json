@@ -4949,5 +4949,522 @@
       }
     ],
     "createdAt": 1794866662208
+  },
+  {
+    "eventId": "legal-review-20261116-police-law-procedure",
+    "kind": "update",
+    "checkedAt": "2026-11-16",
+    "summary": "依警械、集遊、社維、警職、行政程序及行政執行法逐項補核十題，區分法院裁定抗告與警察處分異議，以及分期申請機關和警察攔查異議紀錄表。",
+    "sources": [
+      {
+        "title": "警械使用條例第4、6條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+      },
+      {
+        "title": "集會遊行法第3、12、14、16、17、24、26條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+      },
+      {
+        "title": "法務部主管法規查詢系統・釋字第718號",
+        "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
+      },
+      {
+        "title": "社會秩序維護法第43、45、46、55至59、63、67、68、73、85條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+      },
+      {
+        "title": "違反社會秩序維護法案件處理辦法第55、56條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+      },
+      {
+        "title": "警察職權行使法第4、6、7及29條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+      },
+      {
+        "title": "司法院・最高行政法院111年度上字第675號判決新聞稿",
+        "url": "https://www.judicial.gov.tw/tw/cp-1888-1139827-1620f-1.html"
+      },
+      {
+        "title": "行政程序法第131條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0030055&flno=131"
+      },
+      {
+        "title": "行政執行法第27至34條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+      },
+      {
+        "title": "行政執行法沿革：行政執行處權責移由分署",
+        "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=A0030023"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "law114-inner-03",
+        "amendment": {
+          "status": "none",
+          "law": "警械使用條例第4、6條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留114年官方答案B。",
+          "sources": [
+            {
+              "title": "警械使用條例第4、6條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B為官方答案。第4條第1項第6款的告誡拋棄不從，是得使用警刀槍械之情形，不能單憑該款即認符合第4項逕行射擊；仍須具共同生命身體危險前提及第4項個別要件。",
+        "takeaway": "先看用槍法源，再看逕行射擊共同前提及四款。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第4條第4項第1款列以致命性武器、危險物品或交通工具等攻擊、傷害、挾持、脅迫。",
+            "correction": "仍須符合第4項共同前提及第6條必要程度。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "告誡持兇器者拋棄而不從，屬第4條第1項第6款；該事由本身不是第4項四款之一。",
+            "correction": "不得只因告誡不從就概括認為可逕行射擊；本題選B。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第4條第4項第3款包括意圖奪配槍或其他可能致人傷亡之裝備機具。",
+            "correction": "仍須有第4項共同危險前提。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第4條第4項第4款列其他危害生命身體且情況急迫。",
+            "correction": "仍須符合共通前提及合理必要程度。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-inner-04",
+        "amendment": {
+          "status": "none",
+          "law": "集會遊行法第12、14、24、26條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留114年官方答案A。",
+          "sources": [
+            {
+              "title": "集會遊行法第3、12、14、16、17、24、26條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A錯誤：第24條原則是警察人員「得」到場維持秩序；主管機關依負責人請求時「應」到場疏導交通及維持秩序。",
+        "takeaway": "集會到場先辨原則得、負責人請求後應。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第24條第1項為警察人員得到場，非所有集會都一律應到場。",
+            "correction": "改為警察人員得到場；負責人請求情形另見第2項。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第12條第1項一般申請應於收受申請書之日起3日內書面通知。",
+            "correction": "留意緊急或偶發集會應另參憲法解釋。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第14條第6款得就妨害身分辨識的化裝為必要限制。",
+            "correction": "仍應符合必要及比例。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第26條要求兼衡集會權與其他法益，方法不得逾必要。",
+            "correction": "依具體情形審查比例。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-inner-05",
+        "amendment": {
+          "status": "none",
+          "law": "違反社會秩序維護法案件處理辦法第55、56條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留114年官方答案C。",
+          "sources": [
+            {
+              "title": "違反社會秩序維護法案件處理辦法第55、56條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C錯誤：分期申請向執行之警察機關，不限原處分警察機關；送達後5日內申請、受理後5日內准駁。",
+        "takeaway": "分期先找執行機關；每期15日、平均分2至6期。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第55條：罰鍰裁處確定後，警察機關即以執行通知單通知依限完納。",
+            "correction": "依確定時間通知。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第56條第2項：自接受申請日起5日內斟酌經濟狀況准駁，製作通知書送達。",
+            "correction": "區分提出申請與機關准駁的5日起算。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第56條第1項規定向「執行之警察機關」申請，並非一律向原處分機關。",
+            "correction": "向執行之警察機關提出；本題選C。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第56條第2項要求准分期者載明各期日期、金額與不按期繳納的法律效果。",
+            "correction": "依准駁通知內容辦理。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-inner-09",
+        "amendment": {
+          "status": "none",
+          "law": "集會遊行法第16條；釋字第718號",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留114年官方答案C。",
+          "sources": [
+            {
+              "title": "集會遊行法第3、12、14、16、17、24、26條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            },
+            {
+              "title": "法務部主管法規查詢系統・釋字第718號",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C為官方答案：一般申復須於收受通知書之日起2日內，以書面附理由經原主管機關向上級警察機關提出。緊急、偶發性集會應注意釋字718號失效範圍，不得忽略憲法解釋。",
+        "takeaway": "一般申復收通知日起2日，並先交原主管機關。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "12小時不是題示一般申復的提出期間。",
+            "correction": "一般提出期間為收受通知書之日起2日。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "1日不是第16條第1項一般申復期間。",
+            "correction": "一般提出期間為2日。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第16條第1項一般申復於收受通知書之日起2日內提出。",
+            "correction": "書面附理由，經原主管機關向上級警察機關申復。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "3日不是題示一般申復期間。",
+            "correction": "一般提出期間為2日。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law114-inner-25",
+        "amendment": {
+          "status": "none",
+          "law": "社會秩序維護法第43、45、63、67、68、73條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留114年官方答案B。",
+          "sources": [
+            {
+              "title": "社會秩序維護法第43、45、46、55至59、63、67、68、73、85條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B為官方答案：第73條第4款污損祠宇等專處罰鍰，依第43條由警察機關處理；其餘所列得選處拘留之案件依第45條移送簡易庭。",
+        "takeaway": "先看法定處罰種類，再依第43、45條區分機關。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "誣告涉及第67條第1項第3款，得選處拘留或罰鍰。",
+            "correction": "依第45條移送簡易庭裁定。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "污損祠宇等為第73條第4款，專處6000元以下罰鍰。",
+            "correction": "屬第43條警察機關處分案件，本題選B。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "無正當理由攜帶開鎖工具涉及第63條第1項第3款，可處拘留或罰鍰。",
+            "correction": "屬第45條移送簡易庭裁定案件。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "強買強賣或強索財務涉及第68條第3款，可處拘留或罰鍰。",
+            "correction": "屬第45條移送簡易庭裁定案件。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-03",
+        "amendment": {
+          "status": "none",
+          "law": "警察職權行使法第4、6、7、29條；最高行政法院111年度上字第675號判決",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規及最高行政法院公開判決摘要逐項核對；保留114年官方答案A。",
+          "sources": [
+            {
+              "title": "警察職權行使法第4、6、7及29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "司法院・最高行政法院111年度上字第675號判決新聞稿",
+              "url": "https://www.judicial.gov.tw/tw/cp-1888-1139827-1620f-1.html"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A為官方答案：警職法第4條以著制服或出示證件表明身分並告知事由；最高行政法院該案區分攔查事實行為與具確認性質的異議紀錄表。",
+        "takeaway": "攔查與確認性異議紀錄表的法律性質分開。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第4條規定著制服「或」出示證件，並應告知事由；題目稱只要質疑即必須另出示，超出該條的表明方式。",
+            "correction": "依第4條身分表明及告知事由；本題選A。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "最高行政法院111年度上字第675號指出依警職法第6、7條的攔停查證措施屬事實行為。",
+            "correction": "依所引用判決及具體措施判斷，不混同紀錄表。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第29條允許當場異議，另規定得依法提訴願及行政訴訟，未將現場異議列為必經前置。",
+            "correction": "兩種救濟依規定分別判斷。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "該案認警察就攔檢異議無理由製作的紀錄表有確認攔檢合法性的行政處分性質。",
+            "correction": "這是所引判決對該類紀錄表的認定，應結合具體內容。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-06",
+        "amendment": {
+          "status": "none",
+          "law": "行政程序法第131條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留114年官方答案B。",
+          "sources": [
+            {
+              "title": "行政程序法第131條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0030055&flno=131"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B為官方答案：請求權人為行政機關時，除法律另有規定外，公法上請求權5年間不行使消滅；人民為請求權人之一般期間是10年。",
+        "takeaway": "行政機關5年，人民10年；特別法優先。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "3年不是行政機關公法請求權的第131條一般期間。",
+            "correction": "依第131條第1項一般為5年。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "請求權人為行政機關時，除法律另有規定，為5年。",
+            "correction": "本題選B，另注意時效中斷。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "10年是人民為請求權人時的一般期間，不是題示機關請求權。",
+            "correction": "區分機關5年與人民10年。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "15年不是第131條第1項題示的一般期間。",
+            "correction": "行政機關一般為5年。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-10",
+        "amendment": {
+          "status": "none",
+          "law": "社會秩序維護法第43、45、46、55至59、85條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留114年官方答案D。",
+          "sources": [
+            {
+              "title": "社會秩序維護法第43、45、46、55至59、63、67、68、73、85條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D為官方答案：第85條第4款得處拘留或罰鍰，屬第45條移送簡易庭裁定；不服裁定依第58、59條經原簡易庭向同法院普通庭抗告，普通庭裁定不得再抗告。",
+        "takeaway": "法定刑含拘留先移簡易庭；不服裁定走抗告。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "本案按法定刑應移送簡易庭裁定；聲明異議為不服警察機關處分的程序。",
+            "correction": "區分法院裁定抗告與警察處分異議。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "本案第85條含拘留，屬第45條移送簡易庭；對法院裁定提抗告。",
+            "correction": "第55條聲明異議適用不服警察處分。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第59條抗告期間為裁定送達之「翌日起」5日。",
+            "correction": "將「送達之日」改為送達翌日。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第58條規定向同法院普通庭抗告，對普通庭裁定不得再抗告。",
+            "correction": "經原簡易庭提出，並留意第59條期間。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-11",
+        "amendment": {
+          "status": "none",
+          "law": "行政執行法第27至34條及101年組織改造公告",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留114年官方答案D。",
+          "sources": [
+            {
+              "title": "行政執行法第27至34條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+            },
+            {
+              "title": "行政執行法沿革：行政執行處權責移由分署",
+              "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=A0030023"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D為官方答案：代履行費用逾期未繳依第34條移送執行；條文所列行政執行處權責自101年起移由行政執行分署。",
+        "takeaway": "罰鍰是行政罰；怠金、代履行是間接強制。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "罰鍰屬行政罰，斷水斷電屬第28條直接強制，兩者性質不同。",
+            "correction": "應各依法定要件審查，不以性質相同否定並行。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第28條將怠金列為間接強制。",
+            "correction": "改為間接強制方法。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第32條規定間接強制不能達目的或急迫時，得依直接強制執行。",
+            "correction": "題目倒置法定方向。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第34條規定代履行費用或怠金逾期未繳移送行政執行；組改後由分署辦理。",
+            "correction": "依第二章公法上金錢給付義務執行。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-12",
+        "amendment": {
+          "status": "none",
+          "law": "集會遊行法第3條；釋字第718號",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留114年官方答案C。",
+          "sources": [
+            {
+              "title": "集會遊行法第3、12、14、16、17、24、26條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            },
+            {
+              "title": "法務部主管法規查詢系統・釋字第718號",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C為官方答案：甲局內跨丙、丁兩分局，該部分主管機關為甲局；乙局轄內僅戊分局，該部分為戊分局。緊急及偶發集會另依憲法解釋判斷。",
+        "takeaway": "每個警察局轄區分開判斷：跨兩分局為局，單一分局為分局。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "甲局轄內跨兩分局，甲局正確；乙局轄內只有戊分局，非當然由乙局主管。",
+            "correction": "乙局部分應向戊分局。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "丙、丁屬同一警察局且跨兩分局，第3條主管機關為甲局。",
+            "correction": "甲局轄內改由甲警察局主管。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "甲局轄內跨丙、丁，乙局轄內只跨戊；依第3條分別為甲局及戊分局。",
+            "correction": "本題選C。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "甲局轄內已有丙、丁兩分局，不是僅由丙分局主管。",
+            "correction": "甲局部分應向甲警察局。",
+            "trueStatement": false
+          }
+        ]
+      }
+    ],
+    "createdAt": 1794867082937
   }
 ]

@@ -173,26 +173,26 @@
       "options": [
         {
           "text": "以致命性武器、危險物品或交通工具等攻擊、傷害、挾持、脅迫警察人員或他人時",
-          "explanation": "以致命武器、危險物或交通工具攻擊、傷害、挾持、脅迫，屬法定得逕行射擊事由，仍須急迫必要。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第4條第4項第1款列以致命性武器、危險物品或交通工具等攻擊、傷害、挾持、脅迫。",
+          "correction": "仍須符合第4項共同前提及第6條必要程度。",
           "trueStatement": true
         },
         {
           "text": "持有兇器有滋事之虞者，已受警察人員告誡拋棄，仍不聽從時",
-          "explanation": "持凶器滋事且告誡拋棄不聽，並非該法列舉可逕行射擊的情形；不得以告誡未從直接等同逕行射擊。",
-          "correction": "依警械使用條例區分得使用槍械與得逕行射擊，先檢視告誡、朝空鳴槍等程序與例外。",
+          "explanation": "告誡持兇器者拋棄而不從，屬第4條第1項第6款；該事由本身不是第4項四款之一。",
+          "correction": "不得只因告誡不從就概括認為可逕行射擊；本題選B。",
           "trueStatement": false
         },
         {
           "text": "意圖奪取警察人員配槍或其他可能致人傷亡之裝備機具時",
-          "explanation": "意圖奪取配槍或其他可能致人傷亡裝備，屬法律列舉的逕行射擊事由。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第4條第4項第3款包括意圖奪配槍或其他可能致人傷亡之裝備機具。",
+          "correction": "仍須有第4項共同危險前提。",
           "trueStatement": true
         },
         {
           "text": "其他危害警察人員或他人生命或身體，情況急迫時",
-          "explanation": "其他危害警察或他人生命、身體且情況急迫，得依法評估逕行射擊。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第4條第4項第4款列其他危害生命身體且情況急迫。",
+          "correction": "仍須符合共通前提及合理必要程度。",
           "trueStatement": true
         }
       ],
@@ -201,24 +201,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察法規概要｜第3題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 3,
       "answerStatus": "考選部原始答案與更正公告已核",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部當年原始答案與列示法規；涉及之歷史條文和全部後續修正仍需逐項比對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警械使用條例第4、6條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依官方法規逐項核對；保留114年官方答案B。",
         "sources": [
           {
-            "title": "警械使用條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+            "title": "警械使用條例第4、6條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
           }
         ]
       },
-      "takeaway": "持凶器滋事且告誡拋棄不聽，並非該法列舉可逕行射擊的情形；不得以告誡未從直接等同逕行射擊。",
+      "takeaway": "先看用槍法源，再看逕行射擊共同前提及四款。",
       "sources": [
         {
           "title": "考選部114年警察四等警察法規概要原卷",
@@ -232,7 +234,8 @@
           "title": "警械使用條例",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
         }
-      ]
+      ],
+      "currentAnswer": "B為官方答案。第4條第1項第6款的告誡拋棄不從，是得使用警刀槍械之情形，不能單憑該款即認符合第4項逕行射擊；仍須具共同生命身體危險前提及第4項個別要件。"
     },
     {
       "id": "law114-inner-04",
@@ -244,26 +247,26 @@
       "options": [
         {
           "text": "集會、遊行時，警察人員應到場維持秩序",
-          "explanation": "第24條原則為警察「得」到場；主管機關依負責人請求則應到場疏導交通及維持秩序。",
-          "correction": "將「應到場」改為原則得到場；有負責人請求時依第24條第2項處理。",
+          "explanation": "第24條第1項為警察人員得到場，非所有集會都一律應到場。",
+          "correction": "改為警察人員得到場；負責人請求情形另見第2項。",
           "trueStatement": false
         },
         {
           "text": "室外集會、遊行申請之許可或不許可，主管機關應於收受申請書之日起 3 日內以書面通知負責人",
-          "explanation": "原則於收受申請書之日起3日內以書面通知，緊急情況另有特別規定。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第12條第1項一般申請應於收受申請書之日起3日內書面通知。",
+          "correction": "留意緊急或偶發集會應另參憲法解釋。",
           "trueStatement": true
         },
         {
           "text": "主管機關許可室外集會、遊行時，得就關於妨害身分辨識之化裝事項為必要之限制",
-          "explanation": "主管機關得就妨害身分辨識的化裝事項作必要限制，但仍須符合比例。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第14條第6款得就妨害身分辨識的化裝為必要限制。",
+          "correction": "仍應符合必要及比例。",
           "trueStatement": true
         },
         {
           "text": "集會遊行之不予許可、限制或命令解散，應公平合理考量人民集會、遊行權利與其他法益間之 均衡維護，以適當之方法為之，不得逾越所欲達成目的之必要限度",
-          "explanation": "限制與解散應公平衡量集遊權與其他法益，以必要且適當方法處理。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第26條要求兼衡集會權與其他法益，方法不得逾必要。",
+          "correction": "依具體情形審查比例。",
           "trueStatement": true
         }
       ],
@@ -272,24 +275,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察法規概要｜第4題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 4,
       "answerStatus": "考選部原始答案與更正公告已核",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部當年原始答案與列示法規；涉及之歷史條文和全部後續修正仍需逐項比對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "集會遊行法第12、14、24、26條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依官方法規逐項核對；保留114年官方答案A。",
         "sources": [
           {
-            "title": "集會遊行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+            "title": "集會遊行法第3、12、14、16、17、24、26條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
           }
         ]
       },
-      "takeaway": "第24條原則為警察「得」到場；主管機關依負責人請求則應到場疏導交通及維持秩序。",
+      "takeaway": "集會到場先辨原則得、負責人請求後應。",
       "sources": [
         {
           "title": "考選部114年警察四等警察法規概要原卷",
@@ -303,7 +308,8 @@
           "title": "集會遊行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
         }
-      ]
+      ],
+      "currentAnswer": "A錯誤：第24條原則是警察人員「得」到場維持秩序；主管機關依負責人請求時「應」到場疏導交通及維持秩序。"
     },
     {
       "id": "law114-inner-05",
@@ -315,26 +321,26 @@
       "options": [
         {
           "text": "裁處罰鍰確定之案件，警察機關應於確定後即以執行通知單，通知被處罰人依限完納",
-          "explanation": "案件確定後執行機關應以執行通知單通知依限完納。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第55條：罰鍰裁處確定後，警察機關即以執行通知單通知依限完納。",
+          "correction": "依確定時間通知。",
           "trueStatement": true
         },
         {
           "text": "警察機關應於接受申請之日起 5 日內，斟酌被處罰人之經濟狀況，為分期繳納之准駁，並製作 通知書送達之",
-          "explanation": "接受申請後5日內，依經濟狀況准駁並送達通知書。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第56條第2項：自接受申請日起5日內斟酌經濟狀況准駁，製作通知書送達。",
+          "correction": "區分提出申請與機關准駁的5日起算。",
           "trueStatement": true
         },
         {
           "text": "被處罰人依其經濟狀況不能即時完納罰鍰者，得於執行通知單送達之日起 5 日內，向原處分警 察機關申請許可分期繳納",
-          "explanation": "5日的起算雖為執行通知單送達之日，但應向「執行之警察機關」申請，不必然是原處分機關。",
-          "correction": "將「原處分警察機關」改為「執行之警察機關」。",
+          "explanation": "第56條第1項規定向「執行之警察機關」申請，並非一律向原處分機關。",
+          "correction": "向執行之警察機關提出；本題選C。",
           "trueStatement": false
         },
         {
           "text": "准以分期繳納者，並應載明每期應繳納之日期、金額及不按期繳納之法律效果",
-          "explanation": "准許分期應載各期日期、金額及不按期繳納效果，保障當事人知悉。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第56條第2項要求准分期者載明各期日期、金額與不按期繳納的法律效果。",
+          "correction": "依准駁通知內容辦理。",
           "trueStatement": true
         }
       ],
@@ -343,28 +349,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察法規概要｜第5題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 5,
       "answerStatus": "考選部原始答案與更正公告已核",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部當年原始答案與列示法規；涉及之歷史條文和全部後續修正仍需逐項比對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "違反社會秩序維護法案件處理辦法第55、56條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依官方法規逐項核對；保留114年官方答案C。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
-          },
-          {
-            "title": "違反社會秩序維護法案件處理辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+            "title": "違反社會秩序維護法案件處理辦法第55、56條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
           }
         ]
       },
-      "takeaway": "5日的起算雖為執行通知單送達之日，但應向「執行之警察機關」申請，不必然是原處分機關。",
+      "takeaway": "分期先找執行機關；每期15日、平均分2至6期。",
       "sources": [
         {
           "title": "考選部114年警察四等警察法規概要原卷",
@@ -382,7 +386,8 @@
           "title": "違反社會秩序維護法案件處理辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
         }
-      ]
+      ],
+      "currentAnswer": "C錯誤：分期申請向執行之警察機關，不限原處分警察機關；送達後5日內申請、受理後5日內准駁。"
     },
     {
       "id": "law114-inner-06",
@@ -613,26 +618,26 @@
       "options": [
         {
           "text": "12 小時以內",
-          "explanation": "12小時是特定緊急案件的決定期限，非一般申復提出期限。",
-          "correction": "一般應於收受通知書之日起2日內提出。",
+          "explanation": "12小時不是題示一般申復的提出期間。",
+          "correction": "一般提出期間為收受通知書之日起2日。",
           "trueStatement": false
         },
         {
           "text": "1 日以內",
-          "explanation": "一般申復期限不是1日。",
-          "correction": "改為2日內。",
+          "explanation": "1日不是第16條第1項一般申復期間。",
+          "correction": "一般提出期間為2日。",
           "trueStatement": false
         },
         {
           "text": "2 日以內",
-          "explanation": "第16條一般情形為收受通知書之日起2日內，經原主管機關向上級警察機關提出。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第16條第1項一般申復於收受通知書之日起2日內提出。",
+          "correction": "書面附理由，經原主管機關向上級警察機關申復。",
           "trueStatement": true
         },
         {
           "text": "3 日以內",
-          "explanation": "3日是一般許可通知的期限，並非本題申復期限。",
-          "correction": "改為2日內。",
+          "explanation": "3日不是題示一般申復期間。",
+          "correction": "一般提出期間為2日。",
           "trueStatement": false
         }
       ],
@@ -641,24 +646,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察法規概要｜第9題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 9,
       "answerStatus": "考選部原始答案與更正公告已核",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部當年原始答案與列示法規；涉及之歷史條文和全部後續修正仍需逐項比對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "集會遊行法第16條；釋字第718號",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依官方法規逐項核對；保留114年官方答案C。",
         "sources": [
           {
-            "title": "集會遊行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+            "title": "集會遊行法第3、12、14、16、17、24、26條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+          },
+          {
+            "title": "法務部主管法規查詢系統・釋字第718號",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
           }
         ]
       },
-      "takeaway": "第16條一般情形為收受通知書之日起2日內，經原主管機關向上級警察機關提出。",
+      "takeaway": "一般申復收通知日起2日，並先交原主管機關。",
       "sources": [
         {
           "title": "考選部114年警察四等警察法規概要原卷",
@@ -671,8 +682,13 @@
         {
           "title": "集會遊行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        },
+        {
+          "title": "法務部主管法規查詢系統・釋字第718號",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
         }
-      ]
+      ],
+      "currentAnswer": "C為官方答案：一般申復須於收受通知書之日起2日內，以書面附理由經原主管機關向上級警察機關提出。緊急、偶發性集會應注意釋字718號失效範圍，不得忽略憲法解釋。"
     },
     {
       "id": "law114-inner-10",
@@ -1870,26 +1886,26 @@
       "options": [
         {
           "text": "意圖他人受本法處罰而向警察機關誣告者",
-          "explanation": "意圖他人受社維法處罰而誣告屬可處拘留案件，依第45條移簡易庭裁定。",
-          "correction": "改為警察調查後依規定移送簡易庭，非由警察逕裁。",
+          "explanation": "誣告涉及第67條第1項第3款，得選處拘留或罰鍰。",
+          "correction": "依第45條移送簡易庭裁定。",
           "trueStatement": false
         },
         {
           "text": "污損祠宇、教堂、墓碑或公眾紀念之處所或設施者",
-          "explanation": "現行第73條第4款污損祠宇、教堂、墓碑或公眾紀念設施，專處罰鍰，由警察機關裁處。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "污損祠宇等為第73條第4款，專處6000元以下罰鍰。",
+          "correction": "屬第43條警察機關處分案件，本題選B。",
           "trueStatement": true
         },
         {
           "text": "無正當理由，攜帶用於開啟或破壞門、窗、鎖或其他安全設備之工具者",
-          "explanation": "無正當理由攜帶破壞門鎖設備工具，涉及可處拘留案件，依法由簡易庭裁定。",
-          "correction": "改依警察移送、簡易庭裁定程序。",
+          "explanation": "無正當理由攜帶開鎖工具涉及第63條第1項第3款，可處拘留或罰鍰。",
+          "correction": "屬第45條移送簡易庭裁定案件。",
           "trueStatement": false
         },
         {
           "text": "強買、強賣物品或強索財務者",
-          "explanation": "強買強賣或強索財物屬第68條可處拘留案件，應依第45條移簡易庭。",
-          "correction": "改為移送簡易庭裁定。",
+          "explanation": "強買強賣或強索財務涉及第68條第3款，可處拘留或罰鍰。",
+          "correction": "屬第45條移送簡易庭裁定案件。",
           "trueStatement": false
         }
       ],
@@ -1898,28 +1914,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察法規概要｜第25題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 25,
       "answerStatus": "考選部原始答案與更正公告已核",
       "amendment": {
-        "status": "review",
-        "note": "已核對本題社維法第73條第4款，污損祠宇等為警察機關處罰。114年6月11日修正未修改第68、73條。當年官方答案B保留；其他關聯事項待核。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "社會秩序維護法第43、45、63、67、68、73條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依官方法規逐項核對；保留114年官方答案B。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
-          },
-          {
-            "title": "總統府114年6月11日公布修法原件",
-            "url": "https://www.president.gov.tw/Page/294/49902"
+            "title": "社會秩序維護法第43、45、46、55至59、63、67、68、73、85條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           }
         ]
       },
-      "takeaway": "現行第73條第4款污損祠宇、教堂、墓碑或公眾紀念設施，專處罰鍰，由警察機關裁處。",
+      "takeaway": "先看法定處罰種類，再依第43、45條區分機關。",
       "sources": [
         {
           "title": "考選部114年警察四等警察法規概要原卷",
@@ -1937,7 +1951,8 @@
           "title": "總統府114年6月11日公布修法原件",
           "url": "https://www.president.gov.tw/Page/294/49902"
         }
-      ]
+      ],
+      "currentAnswer": "B為官方答案：第73條第4款污損祠宇等專處罰鍰，依第43條由警察機關處理；其餘所列得選處拘留之案件依第45條移送簡易庭。"
     }
   ],
   "essays": [
