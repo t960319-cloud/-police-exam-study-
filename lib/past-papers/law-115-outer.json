@@ -172,26 +172,26 @@
       "options": [
         {
           "text": "由各縣市政府設置",
-          "explanation": "縣市政府並非警察法第6條專業警察之法定設置者。",
-          "correction": "改由各該事業主管機關視業務需要、商准內政部依法設置。",
+          "explanation": "第6條並非概括規定所有專業警察均由縣市政府設置。",
+          "correction": "依法辨認各該事業主管機關，並商准內政部。",
           "trueStatement": false
         },
         {
           "text": "由內政部警政署設置",
-          "explanation": "警政署協調或管理與事業主管機關依法設置不同。",
-          "correction": "依第6條由各該事業主管機關商准內政部依法設置。",
+          "explanation": "第6條列明設置者為各該事業主管機關，而非一律由警政署設置。",
+          "correction": "事業主管機關應視業務需要商准內政部。",
           "trueStatement": false
         },
         {
           "text": "由行政院設置",
-          "explanation": "第6條未規定一律由行政院設置。",
-          "correction": "由各該事業主管機關商准內政部依法設置。",
+          "explanation": "第6條未規定一律由行政院設置各種專業警察。",
+          "correction": "依各該事業主管機關的法定程序設置。",
           "trueStatement": false
         },
         {
           "text": "由各該事業主管機關視業務需要，商准內政部依法設置",
-          "explanation": "警察法第6條明定各事業主管機關視需要、商准內政部依法設置，並就主管業務指揮監督。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "此選項符合第6條關於專業警察的設置及商准程序。",
+          "correction": "主管機關另就其主管業務指揮監督；本題選D。",
           "trueStatement": true
         }
       ],
@@ -200,24 +200,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第3題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 3,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察法第6條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "逐項核對正式法條及所列官方資料，保留115年官方答案D。",
         "sources": [
           {
-            "title": "警察法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+            "title": "警察法第3、6、16條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
           }
         ]
       },
-      "takeaway": "警察法第6條明定各事業主管機關視需要、商准內政部依法設置，並就主管業務指揮監督。",
+      "takeaway": "專業警察：各該事業主管機關視需要商准內政部設置。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -231,7 +233,8 @@
           "title": "警察法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
         }
-      ]
+      ],
+      "currentAnswer": "D正確：各種專業警察得由各該事業主管機關視業務需要，商准內政部依法設置；主管機關並就其主管業務指揮監督。"
     },
     {
       "id": "law115-outer-04",
@@ -243,26 +246,26 @@
       "options": [
         {
           "text": "執行機關遇有須在管轄區域外執行或無適當之執行人員者，得請求其他機關協助",
-          "explanation": "跨區執行或無適當執行人員等，得請求其他機關協助。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第6條第1項列須跨轄區執行、無適當執行人員等情形，執行機關得於必要時請求協助。",
+          "correction": "仍須具備必要性及法定情形。",
           "trueStatement": true
         },
         {
           "text": "被請求協助機關有正當理由時，得拒絕協助之請求",
-          "explanation": "受請求機關有正當理由時得拒絕，不能視為無例外的協助義務。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第6條第2項規定被請求機關非有正當理由不得拒絕，不能協助時應附理由即時通知。",
+          "correction": "有正當理由並非無條件拒絕；仍須依法通知。",
           "trueStatement": true
         },
         {
           "text": "執行機關與被請求機關必要時，得商訂協調聯繫注意事項",
-          "explanation": "執行及受請求機關得就聯繫事項協調。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "施行細則第13條允許執行機關視事實需要，會商相關機關訂定協調聯繫注意事項。",
+          "correction": "此項直接依據在施行細則，不在行政執行法第6條原文。",
           "trueStatement": true
         },
         {
           "text": "因協助執行所支出之費用，由被請求協助機關負擔之",
-          "explanation": "協助所支出費用由請求機關負擔，非由協助機關自行負擔。",
-          "correction": "改為由請求機關負擔。",
+          "explanation": "行政執行法第6條第3項規定，被請求機關因協助執行所支出費用由請求機關負擔。",
+          "correction": "把被請求機關改為請求機關；本題選D。",
           "trueStatement": false
         }
       ],
@@ -271,24 +274,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第4題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 4,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "行政執行法第6條；行政執行法施行細則第13條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "逐項核對正式法條及所列官方資料，保留115年官方答案D。",
         "sources": [
           {
-            "title": "行政執行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+            "title": "行政執行法第6條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+          },
+          {
+            "title": "行政執行法施行細則第13條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030056"
           }
         ]
       },
-      "takeaway": "協助所支出費用由請求機關負擔，非由協助機關自行負擔。",
+      "takeaway": "必要時請求協助；有正當理由可拒絕；費用由請求機關負擔。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -301,8 +310,13 @@
         {
           "title": "行政執行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+        },
+        {
+          "title": "行政執行法施行細則第13條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030056"
         }
-      ]
+      ],
+      "currentAnswer": "D錯誤：協助執行所支出費用由請求機關負擔；得否請求依行政執行法第6條，聯繫注意事項另見施行細則第13條。"
     },
     {
       "id": "law115-outer-05",
@@ -314,26 +328,26 @@
       "options": [
         {
           "text": "由中央立法並執行之",
-          "explanation": "警察教育制度與地方日常訓練的實施事項應區分；本題答案為地方。",
-          "correction": "依警察法及細則的中央地方權限分配辦理。",
+          "explanation": "細則第3條第3款的中央警察教育制度，與本題常年訓練的實施事項不同。",
+          "correction": "實施事項依第5、6條及警察法第3條第2項分屬地方立法並執行。",
           "trueStatement": false
         },
         {
           "text": "由中央立法並交由直轄市、縣（市）執行之",
-          "explanation": "本題問常年訓練實施事項，官方原答採地方立法並執行，非此選項。",
-          "correction": "改為直轄市、縣（市）立法並執行。",
+          "explanation": "地方常年訓練實施事項不僅是中央立法、交地方執行。",
+          "correction": "依法由直轄市及縣（市）立法並執行。",
           "trueStatement": false
         },
         {
           "text": "由直轄市、縣（市）立法並執行之",
-          "explanation": "依原題及標準答案，常年訓練之實施屬直轄市、縣（市）立法並執行事項；仍應查現行權限規範。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "施行細則第5、6條第2款分列縣（市）、直轄市警察常年訓練實施事項。",
+          "correction": "本題選C；與中央訂警察教育制度標準區分。",
           "trueStatement": true
         },
         {
           "text": "由中央與直轄市、縣（市）協調立法與執行",
-          "explanation": "本題官方答案不採中央地方協調立法執行。",
-          "correction": "按規範之地方立法並執行事項處理。",
+          "explanation": "題示實施事項已有中央、地方權限分配，不能改稱一律由兩級協調立法與執行。",
+          "correction": "依第5、6條列為地方的實施事項。",
           "trueStatement": false
         }
       ],
@@ -342,28 +356,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第5題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 5,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "常年訓練之中央地方權限完整原件及現行制度待再次核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察法第3條；警察法施行細則第3、5、6條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "逐項核對正式法條及所列官方資料，保留115年官方答案C。",
         "sources": [
           {
-            "title": "警察法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+            "title": "警察法第3、6、16條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
           },
           {
-            "title": "警察法施行細則",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+            "title": "警察法施行細則第3、5至7、13條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
           }
         ]
       },
-      "takeaway": "依原題及標準答案，常年訓練之實施屬直轄市、縣（市）立法並執行事項；仍應查現行權限規範。",
+      "takeaway": "常年訓練實施屬地方；教育種類、階段與師資教材標準屬中央制度。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -381,7 +397,8 @@
           "title": "警察法施行細則",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
         }
-      ]
+      ],
+      "currentAnswer": "C正確：施行細則第5條第2款及第6條第2款將警察常年訓練的實施事項列為縣（市）及直轄市立法事項；警察法第3條第2項並分由地方執行。"
     },
     {
       "id": "law115-outer-06",
@@ -393,26 +410,26 @@
       "options": [
         {
           "text": "警察勤務制度",
-          "explanation": "勤務制度關於勤務運作，並非中央地方機關組織編制本身。",
-          "correction": "改為警察官制。",
+          "explanation": "第3條第5款的警察勤務制度指勤務單位組合及勤務方式基本原則。",
+          "correction": "機關組織、編制屬官制。",
           "trueStatement": false
         },
         {
           "text": "警察教育",
-          "explanation": "教育是培育訓練事項，不是機關組織編制。",
-          "correction": "改為警察官制。",
+          "explanation": "第3條第3款的警察教育制度涉及教育種類、階段及師資、教材標準。",
+          "correction": "機關組織、編制屬官制。",
           "trueStatement": false
         },
         {
           "text": "警察官規",
-          "explanation": "官規偏官等、資格等人事規制，不同於機關組織編制。",
-          "correction": "改為警察官制。",
+          "explanation": "第3條第2款的警察官規涉及人員官等、俸給、任免遷調等事項。",
+          "correction": "機關組織、編制屬官制。",
           "trueStatement": false
         },
         {
           "text": "警察官制",
-          "explanation": "中央地方各級警察機關組織與編制屬警察官制。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第3條第1款將中央與地方各級警察機關組織、編制列為警察官制。",
+          "correction": "本題選D。",
           "trueStatement": true
         }
       ],
@@ -421,28 +438,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第6題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 6,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察法第3條；警察法施行細則第3條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "逐項核對正式法條及所列官方資料，保留115年官方答案D。",
         "sources": [
           {
-            "title": "警察法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+            "title": "警察法第3、6、16條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
           },
           {
-            "title": "警察法施行細則",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+            "title": "警察法施行細則第3、5至7、13條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
           }
         ]
       },
-      "takeaway": "中央地方各級警察機關組織與編制屬警察官制。",
+      "takeaway": "機關組織編制是官制；人員官等、任免與考績等是官規。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -460,7 +479,8 @@
           "title": "警察法施行細則",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
         }
-      ]
+      ],
+      "currentAnswer": "D正確：施行細則第3條第1款明定中央與地方各級警察機關組織、編制等屬警察官制。"
     },
     {
       "id": "law115-outer-07",
@@ -472,26 +492,26 @@
       "options": [
         {
           "text": "支援的保一員警，應直接聽命該直轄市警察局長指揮監督",
-          "explanation": "警察法第6條保安警察派地方執勤時，受當地行政首長指揮監督；選項逕改為必然直接聽命警察局長不符原題規範。",
-          "correction": "改為依法受當地行政首長指揮監督，並依勤務指揮體系協調。",
+          "explanation": "警察法第6條及施行細則第7條以當地行政首長為指揮監督者；細則另規定協助地方警察行政業務應受當地警察機關首長指導。",
+          "correction": "不能把兩種關係一律等同為直接聽命警察局長指揮監督；本題選A。",
           "trueStatement": false
         },
         {
           "text": "支援的保一員警，執行特定警察業務，對該直轄市警察機關居於輔助地位",
-          "explanation": "依法支援特定地方勤務的保安警察，與地方機關有協助關係。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "依施行細則第7條第1款，保安警察依指揮監督機關首長命令執行特定業務，對當地警察機關居輔助地位。",
+          "correction": "注意須依指揮監督機關首長命令。",
           "trueStatement": true
         },
         {
           "text": "支援的保一員警，與該直轄市警察機關間，基於治安或業務需要，得互請協助",
-          "explanation": "不同警察機關基於治安或業務需要可依規定互相協助。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第7條第2款允許保安警察與當地警察機關基於治安或業務需要互請協助。",
+          "correction": "互請協助須有治安或業務需要。",
           "trueStatement": true
         },
         {
           "text": "支援的保一員警，與該直轄市警察機關間，基於治安或業務需要，關於勤務分配應會商行之",
-          "explanation": "跨機關勤務分配應依法協調，不能忽略地方與支援機關分工。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第7條第2款規定因治安或業務需要互請協助時，勤務分配應會商行之。",
+          "correction": "勤務分配應會商。",
           "trueStatement": true
         }
       ],
@@ -500,24 +520,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第7題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 7,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察法第6條；警察法施行細則第7條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "逐項核對正式法條及所列官方資料，保留115年官方答案A。",
         "sources": [
           {
-            "title": "警察法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+            "title": "警察法第3、6、16條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
+          },
+          {
+            "title": "警察法施行細則第3、5至7、13條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
           }
         ]
       },
-      "takeaway": "警察法第6條保安警察派地方執勤時，受當地行政首長指揮監督；選項逕改為必然直接聽命警察局長不符原題規範。",
+      "takeaway": "地方行政首長指揮監督；協助地方警察行政業務受警察機關首長指導。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -530,8 +556,13 @@
         {
           "title": "警察法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+        },
+        {
+          "title": "警察法施行細則第3、5至7、13條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
         }
-      ]
+      ],
+      "currentAnswer": "A錯誤：保安警察派駐地方時兼受直轄市、縣（市）長指揮監督；協助配駐地方警察行政業務時，另應受當地警察機關首長指導。"
     },
     {
       "id": "law115-outer-08",
@@ -1225,26 +1256,26 @@
       "options": [
         {
           "text": "交通部",
-          "explanation": "交通部非集遊法第6條國際機場周邊範圍劃定公告機關。",
-          "correction": "改為內政部。",
+          "explanation": "第6條第2項並非由交通部劃定公告國際機場及港口周邊的集遊範圍。",
+          "correction": "改為內政部劃定公告。",
           "trueStatement": false
         },
         {
           "text": "內政部",
-          "explanation": "第6條第2項規定國際機場、港口周邊範圍由內政部劃定公告，原則不得逾300公尺。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "國際機場、港口屬第1項第2款，由內政部劃定公告周邊範圍。",
+          "correction": "不得逾300公尺，實際仍以公告範圍為準；本題選B。",
           "trueStatement": true
         },
         {
           "text": "外交部",
-          "explanation": "外交部負責第6條第1項第4款所列外交機構等周邊，並非機場港口。",
-          "correction": "改為內政部。",
+          "explanation": "外交部劃定公告第1項第4款外交機構等周邊範圍，並以50公尺為上限。",
+          "correction": "機場及港口周邊改為內政部劃定公告。",
           "trueStatement": false
         },
         {
           "text": "國防部",
-          "explanation": "國防部劃定公告重要軍事設施周邊，並非機場港口的一般主管。",
-          "correction": "改為內政部。",
+          "explanation": "國防部劃定公告重要軍事設施地區周邊範圍，不是題示機場港口的法定劃定機關。",
+          "correction": "機場及港口周邊改為內政部劃定公告。",
           "trueStatement": false
         }
       ],
@@ -1253,24 +1284,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第17題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 17,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "集會遊行法第6條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "逐項核對正式法條及所列官方資料，保留115年官方答案B。",
         "sources": [
           {
-            "title": "集會遊行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+            "title": "集會遊行法第6、16條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
           }
         ]
       },
-      "takeaway": "第6條第2項規定國際機場、港口周邊範圍由內政部劃定公告，原則不得逾300公尺。",
+      "takeaway": "機場港口由內政部公告；範圍以實際公告為準，不是自動一律300公尺。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -1284,7 +1317,8 @@
           "title": "集會遊行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
         }
-      ]
+      ],
+      "currentAnswer": "B正確：第6條第1項第2款的國際機場、港口周邊範圍，由內政部劃定公告，不得逾300公尺；經主管機關核准者有例外。"
     },
     {
       "id": "law115-outer-18",

@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-11-16",
+  "timezone": "Asia/Taipei",
+  "sources": [
+    {
+      "title": "警察法第3、6、16條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001",
+      "sha256": "be270f20a66a300f96e1c6813e8cd48e9b66042dac7fbddae29345f0f8fa14af",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "警察法施行細則第3、5至7、13條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002",
+      "sha256": "2269f942a5d3fac63982d778c799a8a60664be53f7bb5937eacfd0c2fb8d1dd6",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "警械使用調查小組組織及運作辦法第3條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080218",
+      "sha256": "daaa6a61af6b3a238b07a60eaf443b2b1ea3eaa88f18f9954ac656fc2202e3e3",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "行政執行法第6條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023",
+      "sha256": "99003466d18960f4de81b58a8bc570475c68767861e3ed9e2755fabf9e8f1826",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "行政執行法施行細則第13條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030056",
+      "sha256": "971a6fdd3a0012b07c326f9bd063fc24756417acb651e0b6205d33ddf47f2820",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "警察職權行使法第6、7條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145",
+      "sha256": "13b20775ad49bb94a3fcf7c911d248f5f32186339198abfccdc4916d06018e7b",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "提審法第1、2條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010008",
+      "sha256": "a33f3b15ba21c72460d09bb740bf2ae94266f74bc4ea5d3439e08aea3aa0aaaa",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "警政署執行路檢攔檢身分查證作業程序（106年修正本）",
+      "url": "https://www.npa.gov.tw/ch/app/faq/doc?detailNo=801310762604691456&module=faq&type=s",
+      "sha256": "af062087fc6fdf85f01470fc5ea85dab4c06a1dc5a50074b01285dc095ffe3f9",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "集會遊行法第6、16條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058",
+      "sha256": "a59879e30f6f69bbba745ceeb7702cbe17ac9060406da4206743188668621f2e",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "司法院釋字第718號解釋",
+      "url": "https://cons.judicial.gov.tw/download/download.aspx?id=332415",
+      "retrieval": "網頁檢索服務讀取官方PDF"
+    },
+    {
+      "title": "臺北市政府96年集會遊行訴願決定書",
+      "url": "https://www.laws.taipei.gov.tw/law/LawDecision/ContentExport?id=812-053",
+      "retrieval": "網頁檢索服務讀取官方PDF"
+    }
+  ],
+  "verifiedQuestionIds": [
+    "law115-inner-05",
+    "law115-inner-18",
+    "law115-inner-20",
+    "law115-inner-21",
+    "law115-outer-03",
+    "law115-outer-04",
+    "law115-outer-05",
+    "law115-outer-06",
+    "law115-outer-07",
+    "law115-outer-17"
+  ],
+  "notes": [
+    "警政署106年路檢程序明定帶往勤務處所查證身分適用提審法；本題援引該具體規定，法院仍依法個案處理。",
+    "集遊法申復題以一般期限回答並標示釋字718對緊急、偶發集會的憲法保障；不將舊緊急許可規定當成現行一般前提。",
+    "行政執行協調聯繫注意事項出自施行細則第13條，與母法第6條費用負擔分別列示。",
+    "保留原題、選項、官方答案與紀錄鍵；法律資料整編截止115.11.06。"
+  ]
+}

@@ -179,3 +179,18 @@ assert(result.questions.find(q=>q.id==='law115-inner-13').currentAnswer.includes
 assert(result.questions.find(q=>q.id==='law115-outer-19').takeaway.includes('非進入不能救護'));
 assert(result.questions.find(q=>q.id==='law115-outer-15').currentAnswer.includes('個案仍依'));
 console.log('Ten safety and police-law explanations preserve answer keys and legal prerequisites.');
+
+// Agency roles, police identity safeguards and relief procedures must stay distinct.
+for(const [id,answer] of [['law115-inner-05',1],['law115-inner-18',1],['law115-inner-20',0],['law115-inner-21',3],['law115-outer-03',3],['law115-outer-04',3],['law115-outer-05',2],['law115-outer-06',3],['law115-outer-07',0],['law115-outer-17',1]]){
+ const q=result.questions.find(x=>x.id===id);assert(q?.verified);assert.equal(q.answer,answer);assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()));
+}
+const identityProtection=result.questions.find(q=>q.id==='law115-inner-20');
+assert(identityProtection.currentAnswer.includes('指定的親友或律師'));assert(identityProtection.options[1].explanation.includes('提審法'));
+assert(identityProtection.amendment.sources.some(s=>s.url.includes('801310762604691456')));
+const executiveHelp=result.questions.find(q=>q.id==='law115-outer-04');
+assert(executiveHelp.options[2].explanation.includes('第13條'));assert(executiveHelp.options[3].correction.includes('請求機關'));
+const localPolicing=result.questions.find(q=>q.id==='law115-outer-07');
+assert(localPolicing.currentAnswer.includes('指揮監督'));assert(localPolicing.currentAnswer.includes('警察機關首長指導'));
+const assemblyRelief=result.questions.find(q=>q.id==='law115-inner-21');
+assert(assemblyRelief.takeaway.includes('緊急、偶發集會'));assert(assemblyRelief.amendment.sources.some(s=>s.url.includes('id=332415')));
+console.log('Police organization, habeas notice, execution assistance and assembly safeguards passed.');

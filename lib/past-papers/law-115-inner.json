@@ -343,26 +343,26 @@
       "options": [
         {
           "text": "彰化縣警察局陳請補助，應報由內政部警政署轉請內政部核定",
-          "explanation": "縣市警察機關申請補助，依施行細則及當時制度經警政署轉內政部核定。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "彰化縣屬縣，依施行細則第13條，報由警政署轉請內政部核定。",
+          "correction": "縣與直轄市的陳請路徑不同。",
           "trueStatement": true
         },
         {
           "text": "臺南市政府警察局陳請補助，應報由內政部警政署轉請內政部核定",
-          "explanation": "直轄市政府警察局與縣市警察局陳報路徑不同，不能逕套警政署轉報規定。",
-          "correction": "直轄市報由內政部轉請行政院核定。",
+          "explanation": "臺南市屬直轄市，不能套用縣（市）向警政署陳報的路徑。",
+          "correction": "改為報由內政部轉請行政院核定；本題選B。",
           "trueStatement": false
         },
         {
           "text": "基隆市警察局陳請補助，應報由內政部警政署轉請內政部核定",
-          "explanation": "基隆屬市警察局，題示縣市機關轉報路徑適用。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "基隆市為非直轄市的市，依第13條適用縣（市）路徑。",
+          "correction": "報由警政署轉請內政部核定。",
           "trueStatement": true
         },
         {
           "text": "宜蘭縣政府警察局陳請補助，應報由內政部警政署轉請內政部核定",
-          "explanation": "宜蘭屬縣警察機關，題示縣市機關轉報路徑適用。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "宜蘭縣屬縣，依第13條報由警政署轉請內政部核定。",
+          "correction": "注意中央補助以地方經費確屬不足為前提。",
           "trueStatement": true
         }
       ],
@@ -371,28 +371,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察法規概要｜第5題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 5,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "地方財政程序及現行主管機關組織細節仍待完整核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察法第16條；警察法施行細則第13條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "逐項核對正式法條及所列官方資料，保留115年官方答案B。",
         "sources": [
           {
-            "title": "警察法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+            "title": "警察法第3、6、16條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
           },
           {
-            "title": "警察法施行細則",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+            "title": "警察法施行細則第3、5至7、13條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
           }
         ]
       },
-      "takeaway": "直轄市政府警察局與縣市警察局陳報路徑不同，不能逕套警政署轉報規定。",
+      "takeaway": "直轄市：內政部轉行政院；縣（市）：警政署轉內政部。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -410,7 +412,8 @@
           "title": "警察法施行細則",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
         }
-      ]
+      ],
+      "currentAnswer": "B錯誤：臺南市屬直轄市，經費不足得陳請中央補助時，應報由內政部轉請行政院核定；縣、市才經警政署轉請內政部。"
     },
     {
       "id": "law115-inner-06",
@@ -1311,26 +1314,26 @@
       "options": [
         {
           "text": "召集人為內政部次長",
-          "explanation": "組織辦法第3條由內政部次長兼任召集人。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第3條第1項規定召集人由內政部次長兼任，副召集人由警政署副署長兼任。",
+          "correction": "召集人及副召集人分別記憶。",
           "trueStatement": true
         },
         {
           "text": "內政部警政署督察室及行政組代表",
-          "explanation": "代表為警政署督察室及「教育組」，不是行政組。",
-          "correction": "將行政組改為教育組。",
+          "explanation": "第3條第1項第1款列警政署督察室及教育組代表，未列行政組。",
+          "correction": "把行政組改為教育組；本題選B。",
           "trueStatement": false
         },
         {
           "text": "律師公會、關注警察權益或人權之團體代表",
-          "explanation": "律師公會、關注警察權益或人權團體代表屬法定成員類別。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第3條第1項第3款列律師公會、關注警察權益或人權之團體代表。",
+          "correction": "這些為得由內政部聘兼的成員類別。",
           "trueStatement": true
         },
         {
           "text": "警佐人員",
-          "explanation": "法定成員包括警佐人員。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第3條第1項第4款列警佐人員，納入基層實務經驗。",
+          "correction": "小組總數為13至17人。",
           "trueStatement": true
         }
       ],
@@ -1339,24 +1342,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察法規概要｜第18題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 18,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部標準答案及列示法規；題目涉及的全部歷史法令、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警械使用調查小組組織及運作辦法第3條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "逐項核對正式法條及所列官方資料，保留115年官方答案B。",
         "sources": [
           {
-            "title": "警械使用調查小組組織及運作辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080218"
+            "title": "警械使用調查小組組織及運作辦法第3條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080218"
           }
         ]
       },
-      "takeaway": "代表為警政署督察室及「教育組」，不是行政組。",
+      "takeaway": "召集人內政部次長；警政署代表是督察室與教育組。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -1370,7 +1375,8 @@
           "title": "警械使用調查小組組織及運作辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080218"
         }
-      ]
+      ],
+      "currentAnswer": "B錯誤：第3條所列機關代表是警政署督察室及教育組，並非行政組；小組並有外部專業、團體代表及警佐人員。"
     },
     {
       "id": "law115-inner-19",
@@ -1461,26 +1467,26 @@
       "options": [
         {
           "text": "帶往勤務處所查證身分，應即時向勤務指揮中心報告，並應通知其父母",
-          "explanation": "第7條要求通知其指定之親友或律師，不是一律通知父母。",
-          "correction": "改為通知其指定之親友或律師，並立即報告勤務指揮中心。",
+          "explanation": "第7條第2項應即向勤務指揮中心報告，並通知本人指定之親友或律師。",
+          "correction": "父母只有在屬其指定親友等情形才有對應依據，不能一律取代指定對象；本題選A。",
           "trueStatement": false
         },
         {
           "text": "帶往勤務處所查證身分，適用提審法規範",
-          "explanation": "合法或違法拘束人身自由可能涉及提審法保障，是否受理依提審法及個案判斷。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "警政署106年身分查證作業程序明載，帶往勤務處所查證身分適用提審法，應踐行權利告知。",
+          "correction": "法院是否受理及處理結果仍依提審法個案判斷。",
           "trueStatement": true
         },
         {
           "text": "自攔停時起不得逾 3 小時，逾時應回復自由",
-          "explanation": "帶往時間自攔停起算，不得逾3小時；達目的應儘速結束。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第7條第2項規定自攔停起不得逾3小時，非從抵達勤務處所才起算。",
+          "correction": "已達查證目的即應結束，不能把3小時當成固定留置時間。",
           "trueStatement": true
         },
         {
           "text": "有明顯事實足認其攜帶足以自傷之物者，得檢查其身體及所攜帶之物",
-          "explanation": "有明顯事實足認攜帶足以自殺、自傷或傷害他人生命身體之物，得檢查身體及所攜物。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第7條第1項第4款以明顯事實足認其攜帶足以自殺、自傷或傷害他人生命、身體之物為前提。",
+          "correction": "符合要件時得檢查其身體及所攜帶之物。",
           "trueStatement": true
         }
       ],
@@ -1491,24 +1497,34 @@
       ],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察法規概要｜第20題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 20,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部標準答案及列示法規；題目涉及的全部歷史法令、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察職權行使法第7條；提審法第1、2條；警政署106年路檢攔檢身分查證程序",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "逐項核對正式法條及所列官方資料，保留115年官方答案A。",
         "sources": [
           {
-            "title": "警察職權行使法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+            "title": "警察職權行使法第6、7條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          },
+          {
+            "title": "提審法第1、2條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010008"
+          },
+          {
+            "title": "警政署執行路檢攔檢身分查證作業程序（106年修正本）",
+            "url": "https://www.npa.gov.tw/ch/app/faq/doc?detailNo=801310762604691456&module=faq&type=s"
           }
         ]
       },
-      "takeaway": "第7條要求通知其指定之親友或律師，不是一律通知父母。",
+      "takeaway": "指定親友或律師；自攔停起不逾3小時，並告知提審權利。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -1521,8 +1537,17 @@
         {
           "title": "警察職權行使法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        },
+        {
+          "title": "提審法第1、2條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010008"
+        },
+        {
+          "title": "警政署執行路檢攔檢身分查證作業程序（106年修正本）",
+          "url": "https://www.npa.gov.tw/ch/app/faq/doc?detailNo=801310762604691456&module=faq&type=s"
         }
-      ]
+      ],
+      "currentAnswer": "A錯誤：帶往時應即報告勤務指揮中心並通知本人指定的親友或律師，並非一律通知父母；警政署程序亦明定此項帶往適用提審法的權利告知。"
     },
     {
       "id": "law115-inner-21",
@@ -1534,26 +1559,26 @@
       "options": [
         {
           "text": "負責人應於收受通知書之日起 2 日內以書面附具理由提出於原主管機關向其上級警察機關申復",
-          "explanation": "一般情形收受通知書之日起2日內，經原機關向上級警察機關書面附理由申復；緊急情形另計。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "一般情形應於收受通知書之日起2日內，以書面附理由經原主管機關向上級警察機關申復。",
+          "correction": "第16條原有緊急案件特別期限，並須注意釋字718對緊急及偶發集會的保障。",
           "trueStatement": true
         },
         {
           "text": "原主管機關認為申復有理由者，應即撤銷或變更原通知；認為無理由者，應於收受申復書之日 起 2 日內連同卷證檢送其上級警察機關",
-          "explanation": "原機關認有理由應即撤銷變更；無理由於法定期限移卷上級機關。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "原主管機關認申復有理由應即撤銷或變更；無理由時一般應於收受申復書之日起2日內檢送卷證。",
+          "correction": "第16條另列緊急案件的特別期限，並應依憲法解釋適用。",
           "trueStatement": true
         },
         {
           "text": "上級警察機關應於收受申復卷證之日起 2 日內決定，並以書面通知負責人",
-          "explanation": "一般情形上級於收受卷證之日起2日內決定並書面通知；緊急有特別期限。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "上級警察機關一般應於收受卷證之日起2日內決定並以書面通知負責人。",
+          "correction": "不得將一般2日期限概括為所有緊急案件。",
           "trueStatement": true
         },
         {
           "text": "負責人不服申復之決定者，應以書狀敘明理由，經原處分之警察機關向該管地方法院聲明異議",
-          "explanation": "「經原警察機關向地方法院聲明異議」是社維法救濟架構，非集遊法申復。",
-          "correction": "改依集遊法申復及訴願、行政訴訟制度處理。",
+          "explanation": "集遊法第16條採申復制度；社維法警察裁處的法院聲明異議，與此不同。",
+          "correction": "按申復及適用的行政救濟程序處理；本題選D。",
           "trueStatement": false
         }
       ],
@@ -1562,24 +1587,34 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察法規概要｜第21題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 21,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部標準答案及列示法規；題目涉及的全部歷史法令、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "集會遊行法第16條；司法院釋字第718號解釋；臺北市政府訴願決定",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "逐項核對正式法條及所列官方資料，保留115年官方答案D。",
         "sources": [
           {
-            "title": "集會遊行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+            "title": "集會遊行法第6、16條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+          },
+          {
+            "title": "司法院釋字第718號解釋",
+            "url": "https://cons.judicial.gov.tw/download/download.aspx?id=332415"
+          },
+          {
+            "title": "臺北市政府96年集會遊行訴願決定書",
+            "url": "https://www.laws.taipei.gov.tw/law/LawDecision/ContentExport?id=812-053"
           }
         ]
       },
-      "takeaway": "「經原警察機關向地方法院聲明異議」是社維法救濟架構，非集遊法申復。",
+      "takeaway": "一般情形申復、原機關檢送及上級決定各2日；注意緊急、偶發集會的憲法保障。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -1592,8 +1627,17 @@
         {
           "title": "集會遊行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        },
+        {
+          "title": "司法院釋字第718號解釋",
+          "url": "https://cons.judicial.gov.tw/download/download.aspx?id=332415"
+        },
+        {
+          "title": "臺北市政府96年集會遊行訴願決定書",
+          "url": "https://www.laws.taipei.gov.tw/law/LawDecision/ContentExport?id=812-053"
         }
-      ]
+      ],
+      "currentAnswer": "D錯誤：對題示集遊許可等通知不服，先依第16條申復；其後行政救濟依個案依法辦理，不是經警察機關向簡易庭聲明異議。"
     },
     {
       "id": "law115-inner-22",

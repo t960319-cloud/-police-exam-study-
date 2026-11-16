@@ -6128,5 +6128,546 @@
       }
     ],
     "createdAt": 1794867940854
+  },
+  {
+    "eventId": "legal-review-20261116-police-organization",
+    "kind": "update",
+    "checkedAt": "2026-11-16",
+    "summary": "依警察組織、警械調查、提審、行政執行及集遊官方法源逐題核對十題，補足各選項與權限界線。",
+    "sources": [
+      {
+        "title": "警察法第3、6、16條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
+      },
+      {
+        "title": "警察法施行細則第3、5至7、13條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
+      },
+      {
+        "title": "警械使用調查小組組織及運作辦法第3條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080218"
+      },
+      {
+        "title": "行政執行法第6條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+      },
+      {
+        "title": "行政執行法施行細則第13條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030056"
+      },
+      {
+        "title": "警察職權行使法第6、7條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+      },
+      {
+        "title": "提審法第1、2條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010008"
+      },
+      {
+        "title": "警政署執行路檢攔檢身分查證作業程序（106年修正本）",
+        "url": "https://www.npa.gov.tw/ch/app/faq/doc?detailNo=801310762604691456&module=faq&type=s"
+      },
+      {
+        "title": "集會遊行法第6、16條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+      },
+      {
+        "title": "司法院釋字第718號解釋",
+        "url": "https://cons.judicial.gov.tw/download/download.aspx?id=332415"
+      },
+      {
+        "title": "臺北市政府96年集會遊行訴願決定書",
+        "url": "https://www.laws.taipei.gov.tw/law/LawDecision/ContentExport?id=812-053"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "law115-inner-05",
+        "amendment": {
+          "status": "none",
+          "law": "警察法第16條；警察法施行細則第13條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "逐項核對正式法條及所列官方資料，保留115年官方答案B。",
+          "sources": [
+            {
+              "title": "警察法第3、6、16條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
+            },
+            {
+              "title": "警察法施行細則第3、5至7、13條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B錯誤：臺南市屬直轄市，經費不足得陳請中央補助時，應報由內政部轉請行政院核定；縣、市才經警政署轉請內政部。",
+        "takeaway": "直轄市：內政部轉行政院；縣（市）：警政署轉內政部。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "彰化縣屬縣，依施行細則第13條，報由警政署轉請內政部核定。",
+            "correction": "縣與直轄市的陳請路徑不同。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "臺南市屬直轄市，不能套用縣（市）向警政署陳報的路徑。",
+            "correction": "改為報由內政部轉請行政院核定；本題選B。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "基隆市為非直轄市的市，依第13條適用縣（市）路徑。",
+            "correction": "報由警政署轉請內政部核定。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "宜蘭縣屬縣，依第13條報由警政署轉請內政部核定。",
+            "correction": "注意中央補助以地方經費確屬不足為前提。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-18",
+        "amendment": {
+          "status": "none",
+          "law": "警械使用調查小組組織及運作辦法第3條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "逐項核對正式法條及所列官方資料，保留115年官方答案B。",
+          "sources": [
+            {
+              "title": "警械使用調查小組組織及運作辦法第3條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080218"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B錯誤：第3條所列機關代表是警政署督察室及教育組，並非行政組；小組並有外部專業、團體代表及警佐人員。",
+        "takeaway": "召集人內政部次長；警政署代表是督察室與教育組。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第3條第1項規定召集人由內政部次長兼任，副召集人由警政署副署長兼任。",
+            "correction": "召集人及副召集人分別記憶。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第3條第1項第1款列警政署督察室及教育組代表，未列行政組。",
+            "correction": "把行政組改為教育組；本題選B。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第3條第1項第3款列律師公會、關注警察權益或人權之團體代表。",
+            "correction": "這些為得由內政部聘兼的成員類別。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第3條第1項第4款列警佐人員，納入基層實務經驗。",
+            "correction": "小組總數為13至17人。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-20",
+        "amendment": {
+          "status": "none",
+          "law": "警察職權行使法第7條；提審法第1、2條；警政署106年路檢攔檢身分查證程序",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "逐項核對正式法條及所列官方資料，保留115年官方答案A。",
+          "sources": [
+            {
+              "title": "警察職權行使法第6、7條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "提審法第1、2條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010008"
+            },
+            {
+              "title": "警政署執行路檢攔檢身分查證作業程序（106年修正本）",
+              "url": "https://www.npa.gov.tw/ch/app/faq/doc?detailNo=801310762604691456&module=faq&type=s"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A錯誤：帶往時應即報告勤務指揮中心並通知本人指定的親友或律師，並非一律通知父母；警政署程序亦明定此項帶往適用提審法的權利告知。",
+        "takeaway": "指定親友或律師；自攔停起不逾3小時，並告知提審權利。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第7條第2項應即向勤務指揮中心報告，並通知本人指定之親友或律師。",
+            "correction": "父母只有在屬其指定親友等情形才有對應依據，不能一律取代指定對象；本題選A。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "警政署106年身分查證作業程序明載，帶往勤務處所查證身分適用提審法，應踐行權利告知。",
+            "correction": "法院是否受理及處理結果仍依提審法個案判斷。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第7條第2項規定自攔停起不得逾3小時，非從抵達勤務處所才起算。",
+            "correction": "已達查證目的即應結束，不能把3小時當成固定留置時間。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第7條第1項第4款以明顯事實足認其攜帶足以自殺、自傷或傷害他人生命、身體之物為前提。",
+            "correction": "符合要件時得檢查其身體及所攜帶之物。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-21",
+        "amendment": {
+          "status": "none",
+          "law": "集會遊行法第16條；司法院釋字第718號解釋；臺北市政府訴願決定",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "逐項核對正式法條及所列官方資料，保留115年官方答案D。",
+          "sources": [
+            {
+              "title": "集會遊行法第6、16條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            },
+            {
+              "title": "司法院釋字第718號解釋",
+              "url": "https://cons.judicial.gov.tw/download/download.aspx?id=332415"
+            },
+            {
+              "title": "臺北市政府96年集會遊行訴願決定書",
+              "url": "https://www.laws.taipei.gov.tw/law/LawDecision/ContentExport?id=812-053"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D錯誤：對題示集遊許可等通知不服，先依第16條申復；其後行政救濟依個案依法辦理，不是經警察機關向簡易庭聲明異議。",
+        "takeaway": "一般情形申復、原機關檢送及上級決定各2日；注意緊急、偶發集會的憲法保障。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "一般情形應於收受通知書之日起2日內，以書面附理由經原主管機關向上級警察機關申復。",
+            "correction": "第16條原有緊急案件特別期限，並須注意釋字718對緊急及偶發集會的保障。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "原主管機關認申復有理由應即撤銷或變更；無理由時一般應於收受申復書之日起2日內檢送卷證。",
+            "correction": "第16條另列緊急案件的特別期限，並應依憲法解釋適用。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "上級警察機關一般應於收受卷證之日起2日內決定並以書面通知負責人。",
+            "correction": "不得將一般2日期限概括為所有緊急案件。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "集遊法第16條採申復制度；社維法警察裁處的法院聲明異議，與此不同。",
+            "correction": "按申復及適用的行政救濟程序處理；本題選D。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-03",
+        "amendment": {
+          "status": "none",
+          "law": "警察法第6條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "逐項核對正式法條及所列官方資料，保留115年官方答案D。",
+          "sources": [
+            {
+              "title": "警察法第3、6、16條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D正確：各種專業警察得由各該事業主管機關視業務需要，商准內政部依法設置；主管機關並就其主管業務指揮監督。",
+        "takeaway": "專業警察：各該事業主管機關視需要商准內政部設置。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第6條並非概括規定所有專業警察均由縣市政府設置。",
+            "correction": "依法辨認各該事業主管機關，並商准內政部。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第6條列明設置者為各該事業主管機關，而非一律由警政署設置。",
+            "correction": "事業主管機關應視業務需要商准內政部。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第6條未規定一律由行政院設置各種專業警察。",
+            "correction": "依各該事業主管機關的法定程序設置。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "此選項符合第6條關於專業警察的設置及商准程序。",
+            "correction": "主管機關另就其主管業務指揮監督；本題選D。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-04",
+        "amendment": {
+          "status": "none",
+          "law": "行政執行法第6條；行政執行法施行細則第13條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "逐項核對正式法條及所列官方資料，保留115年官方答案D。",
+          "sources": [
+            {
+              "title": "行政執行法第6條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+            },
+            {
+              "title": "行政執行法施行細則第13條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030056"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D錯誤：協助執行所支出費用由請求機關負擔；得否請求依行政執行法第6條，聯繫注意事項另見施行細則第13條。",
+        "takeaway": "必要時請求協助；有正當理由可拒絕；費用由請求機關負擔。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第6條第1項列須跨轄區執行、無適當執行人員等情形，執行機關得於必要時請求協助。",
+            "correction": "仍須具備必要性及法定情形。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第6條第2項規定被請求機關非有正當理由不得拒絕，不能協助時應附理由即時通知。",
+            "correction": "有正當理由並非無條件拒絕；仍須依法通知。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "施行細則第13條允許執行機關視事實需要，會商相關機關訂定協調聯繫注意事項。",
+            "correction": "此項直接依據在施行細則，不在行政執行法第6條原文。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "行政執行法第6條第3項規定，被請求機關因協助執行所支出費用由請求機關負擔。",
+            "correction": "把被請求機關改為請求機關；本題選D。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-05",
+        "amendment": {
+          "status": "none",
+          "law": "警察法第3條；警察法施行細則第3、5、6條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "逐項核對正式法條及所列官方資料，保留115年官方答案C。",
+          "sources": [
+            {
+              "title": "警察法第3、6、16條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
+            },
+            {
+              "title": "警察法施行細則第3、5至7、13條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C正確：施行細則第5條第2款及第6條第2款將警察常年訓練的實施事項列為縣（市）及直轄市立法事項；警察法第3條第2項並分由地方執行。",
+        "takeaway": "常年訓練實施屬地方；教育種類、階段與師資教材標準屬中央制度。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "細則第3條第3款的中央警察教育制度，與本題常年訓練的實施事項不同。",
+            "correction": "實施事項依第5、6條及警察法第3條第2項分屬地方立法並執行。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "地方常年訓練實施事項不僅是中央立法、交地方執行。",
+            "correction": "依法由直轄市及縣（市）立法並執行。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "施行細則第5、6條第2款分列縣（市）、直轄市警察常年訓練實施事項。",
+            "correction": "本題選C；與中央訂警察教育制度標準區分。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "題示實施事項已有中央、地方權限分配，不能改稱一律由兩級協調立法與執行。",
+            "correction": "依第5、6條列為地方的實施事項。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-06",
+        "amendment": {
+          "status": "none",
+          "law": "警察法第3條；警察法施行細則第3條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "逐項核對正式法條及所列官方資料，保留115年官方答案D。",
+          "sources": [
+            {
+              "title": "警察法第3、6、16條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
+            },
+            {
+              "title": "警察法施行細則第3、5至7、13條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D正確：施行細則第3條第1款明定中央與地方各級警察機關組織、編制等屬警察官制。",
+        "takeaway": "機關組織編制是官制；人員官等、任免與考績等是官規。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第3條第5款的警察勤務制度指勤務單位組合及勤務方式基本原則。",
+            "correction": "機關組織、編制屬官制。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第3條第3款的警察教育制度涉及教育種類、階段及師資、教材標準。",
+            "correction": "機關組織、編制屬官制。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第3條第2款的警察官規涉及人員官等、俸給、任免遷調等事項。",
+            "correction": "機關組織、編制屬官制。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第3條第1款將中央與地方各級警察機關組織、編制列為警察官制。",
+            "correction": "本題選D。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-07",
+        "amendment": {
+          "status": "none",
+          "law": "警察法第6條；警察法施行細則第7條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "逐項核對正式法條及所列官方資料，保留115年官方答案A。",
+          "sources": [
+            {
+              "title": "警察法第3、6、16條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
+            },
+            {
+              "title": "警察法施行細則第3、5至7、13條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A錯誤：保安警察派駐地方時兼受直轄市、縣（市）長指揮監督；協助配駐地方警察行政業務時，另應受當地警察機關首長指導。",
+        "takeaway": "地方行政首長指揮監督；協助地方警察行政業務受警察機關首長指導。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "警察法第6條及施行細則第7條以當地行政首長為指揮監督者；細則另規定協助地方警察行政業務應受當地警察機關首長指導。",
+            "correction": "不能把兩種關係一律等同為直接聽命警察局長指揮監督；本題選A。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "依施行細則第7條第1款，保安警察依指揮監督機關首長命令執行特定業務，對當地警察機關居輔助地位。",
+            "correction": "注意須依指揮監督機關首長命令。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第7條第2款允許保安警察與當地警察機關基於治安或業務需要互請協助。",
+            "correction": "互請協助須有治安或業務需要。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第7條第2款規定因治安或業務需要互請協助時，勤務分配應會商行之。",
+            "correction": "勤務分配應會商。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-17",
+        "amendment": {
+          "status": "none",
+          "law": "集會遊行法第6條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "逐項核對正式法條及所列官方資料，保留115年官方答案B。",
+          "sources": [
+            {
+              "title": "集會遊行法第6、16條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B正確：第6條第1項第2款的國際機場、港口周邊範圍，由內政部劃定公告，不得逾300公尺；經主管機關核准者有例外。",
+        "takeaway": "機場港口由內政部公告；範圍以實際公告為準，不是自動一律300公尺。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第6條第2項並非由交通部劃定公告國際機場及港口周邊的集遊範圍。",
+            "correction": "改為內政部劃定公告。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "國際機場、港口屬第1項第2款，由內政部劃定公告周邊範圍。",
+            "correction": "不得逾300公尺，實際仍以公告範圍為準；本題選B。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "外交部劃定公告第1項第4款外交機構等周邊範圍，並以50公尺為上限。",
+            "correction": "機場及港口周邊改為內政部劃定公告。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "國防部劃定公告重要軍事設施地區周邊範圍，不是題示機場港口的法定劃定機關。",
+            "correction": "機場及港口周邊改為內政部劃定公告。",
+            "trueStatement": false
+          }
+        ]
+      }
+    ],
+    "createdAt": 1794868481671
   }
 ]
