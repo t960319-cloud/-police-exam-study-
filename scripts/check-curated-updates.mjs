@@ -40,3 +40,16 @@ for(const id of ['e6','e11']){const law=result.laws.find(l=>l.id===id);assert(la
 for(const id of ['q14','q15','q16','duty112_09','duty113_21','scene114-14']){const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.verified,false);assert(q.currentAnswer.includes('保留原題'));}
 const escortEssay=result.essays.find(e=>e.id==='s05');assert(escortEssay);assert.equal(escortEssay.verified,false);assert(escortEssay.model.basis.includes('110.12.13廢止'));
 console.log('Repealed escort regulation stays historical; linked exercises cannot be marked current/verified.');
+// A source-backed law card may be verified without silently clearing every linked exercise.
+const missing=result.laws.find(l=>l.id==='missing');assert(missing);
+assert.equal(missing.verified,true);
+assert(missing.core.includes('六類例外'));
+assert(missing.points.some(p=>p.includes('24小時')&&p.includes('疑涉刑案')));
+assert(missing.points.some(p=>p.includes('7日')&&p.includes('每3個月')&&p.includes('3年以上')));
+assert(missing.points.some(p=>p.includes('不願配合撤尋')&&p.includes('尊重')));
+assert(!missing.verificationNote.includes('未取得完整最新版原件'));
+const missingEssay=result.essays.find(e=>e.id==='s03');assert(missingEssay);
+assert.equal(missingEssay.verified,false);
+assert(missingEssay.model.basis.includes('完整18點'));
+assert.equal(missingEssay.prompt,ESSAYS.find(e=>e.id==='s03').prompt);
+console.log('Missing-person source review preserves conditional deadlines, withdrawal exceptions and separate essay verification.');
