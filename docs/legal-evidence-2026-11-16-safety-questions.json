@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-11-16",
+  "timezone": "Asia/Taipei",
+  "sources": [
+    {
+      "title": "警察法第9、16、18條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001",
+      "sha256": "be270f20a66a300f96e1c6813e8cd48e9b66042dac7fbddae29345f0f8fa14af",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "警察法施行細則第10條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002",
+      "sha256": "2269f942a5d3fac63982d778c799a8a60664be53f7bb5937eacfd0c2fb8d1dd6",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "各級警察機關學校武器彈藥統籌調配辦法第2條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080043",
+      "sha256": "48e6597311ae125d6917b2736f99e4a06d2f8de792a3f6858c740b4a8adea194",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "警械使用條例第3、4、6、10條之1至10條之3",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042",
+      "sha256": "f5bcb2312280ae0e6f8271ee2d3a73e727a6556091a53d18b9396933db14b7af",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "社會秩序維護法第45、55至60、62、67、85條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067",
+      "sha256": "7ecc75a6801d811347df1ac442f6c64363452a582ecd7cfa54103e992e02f058",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "違反社會秩序維護法案件處理辦法第51條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070",
+      "sha256": "6eeb1b47a79c9a9387533756ecb7fffdfd1aedad4fc2e3b2d687d7968a013abd",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "警察職權行使法第3、6至8、26、29條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145",
+      "sha256": "13b20775ad49bb94a3fcf7c911d248f5f32186339198abfccdc4916d06018e7b",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "司法院・最高行政法院111年度上字第675號判決新聞稿",
+      "url": "https://www.judicial.gov.tw/tw/cp-1888-1139827-1620f-1.html",
+      "retrieval": "網頁檢索服務讀取司法院判決新聞稿；本機直接連線403"
+    }
+  ],
+  "verifiedQuestionIds": [
+    "law115-inner-04",
+    "law115-inner-09",
+    "law115-inner-13",
+    "law115-inner-14",
+    "law115-inner-17",
+    "law115-inner-22",
+    "law115-outer-08",
+    "law115-outer-15",
+    "law115-outer-19",
+    "law115-outer-20"
+  ],
+  "notes": [
+    "115內軌第4題題幹雖引警察法第16條，B選項依施行細則第10條，C、D依武器彈藥統籌調配辦法第2條，詳解分列不同法源。",
+    "警械逕行射擊須具法定共同前提，並依第6條合理、急迫及必要程度判斷。",
+    "進入住宅救護須迫切危害且非進入不能救護，與刑事搜索票法源分開。",
+    "保留原題、選項、官方答案及紀錄鍵；法律資料整編截止115.11.06。"
+  ]
+}

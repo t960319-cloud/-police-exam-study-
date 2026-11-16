@@ -169,3 +169,13 @@ const campus=result.essays.find(e=>e.id==='duty114_s01');assert(campus);assert.e
 assert(campus.model.analysis.includes('主任秘書或學務主任以上'));assert(campus.model.analysis.includes('114年8月21日'));assert(campus.model.analysis.includes('仍待查證'));
 for(const id of ['s05','scene115-e2']){const e=result.essays.find(x=>x.id===id);assert(e);assert.equal(e.verified,false);assert(e.model.analysis.includes('監察院114年糾正案'));assert(e.amendment.sources.some(s=>s.url.includes('s=49094')));}
 console.log('Campus source and escort privacy case added without clearing unresolved current SOPs.');
+
+// Examine each protection separately: legal basis, urgent-entry threshold and official answer keys.
+for(const [id,answer] of [['law115-inner-04',0],['law115-inner-09',1],['law115-inner-13',2],['law115-inner-14',2],['law115-inner-17',0],['law115-inner-22',0],['law115-outer-08',3],['law115-outer-15',3],['law115-outer-19',3],['law115-outer-20',3]]){
+ const q=result.questions.find(x=>x.id===id);assert(q?.verified);assert.equal(q.answer,answer);assert.equal(q.options.length,4);
+}
+assert(result.questions.find(q=>q.id==='law115-inner-04').currentAnswer.includes('不能全說是第16條原文'));
+assert(result.questions.find(q=>q.id==='law115-inner-13').currentAnswer.includes('5個月'));
+assert(result.questions.find(q=>q.id==='law115-outer-19').takeaway.includes('非進入不能救護'));
+assert(result.questions.find(q=>q.id==='law115-outer-15').currentAnswer.includes('個案仍依'));
+console.log('Ten safety and police-law explanations preserve answer keys and legal prerequisites.');

@@ -543,26 +543,26 @@
       "options": [
         {
           "text": "捷運站內案件並非派出所之轄區，故派出所警察應不受理",
-          "explanation": "已知正在傷人且急迫危險，不能僅因平時轄區不同推拒必要救護或處置。",
-          "correction": "立即通報、協調捷運警力並依法制止危害。",
+          "explanation": "獲報現場有持刀傷人，不能僅以場地轄屬其他警察機關而不受理或不處置。",
+          "correction": "先依緊急情況必要處理並依規定通報。",
           "trueStatement": false
         },
         {
           "text": "因對方僅持刀砍人，故警察只能告誡拋棄刀具，而不得使用槍械",
-          "explanation": "持刀攻擊他人生命，符合警械條例之危急條件時可依法使用槍械，不以僅能告誡為限。",
-          "correction": "具法定要件時依急迫必要與現場安全判斷用械。",
+          "explanation": "對正持刀攻擊、危及生命身體之情形，第4條第4項有法定射擊規範。",
+          "correction": "不以一律只能告誡拋刀為限。",
           "trueStatement": false
         },
         {
           "text": "基於武器對等原則，因對方係持刀砍人，故警察只能使用警刀，而不得使用槍械",
-          "explanation": "法律要求合理必要及比例，並無遇刀即絕對只能使用警刀的對等公式。",
-          "correction": "依危害及其他手段是否足夠選擇合法警械。",
+          "explanation": "警械條例並無題示絕對武器對等規定。",
+          "correction": "依第4條及第6條，個案判斷是否使用槍械。",
           "trueStatement": false
         },
         {
           "text": "持刀砍人者危及他人生命時，警察得對之逕行射擊",
-          "explanation": "致命武器攻擊他人且危害生命，符合法定要件得逕行射擊，仍應注意必要性及旁人安全。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "持致命武器攻擊且將危及生命身體，符合第4條第4項第1款所定情形。",
+          "correction": "本題選D；仍須審查急迫、必要與周遭安全。",
           "trueStatement": true
         }
       ],
@@ -571,24 +571,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第8題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 8,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警械使用條例第4、6至9條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依官方法規逐項核對；保留115年官方答案D。",
         "sources": [
           {
-            "title": "警械使用條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+            "title": "警械使用條例第3、4、6、10條之1至10條之3",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
           }
         ]
       },
-      "takeaway": "致命武器攻擊他人且危害生命，符合法定要件得逕行射擊，仍應注意必要性及旁人安全。",
+      "takeaway": "不是武器對等，而是依法定條件、急迫與必要程度判斷。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -602,7 +604,8 @@
           "title": "警械使用條例",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
         }
-      ]
+      ],
+      "currentAnswer": "D為官方答案：題示持刀無差別砍人，符合第4條第4項所列以致命武器攻擊並危及生命身體的情形；實際射擊仍須符合第6條急迫需要、合理及必要程度並注意他人安全。"
     },
     {
       "id": "law115-outer-09",
@@ -1062,26 +1065,26 @@
       "options": [
         {
           "text": "攔停車輛",
-          "explanation": "原題採見解將攔停作為實力措施；仍需依具體命令與行為效果區分，不能一概排除行政處分。",
-          "correction": "依個案外部法律效果判斷。",
+          "explanation": "該判決認警職法查證身分所為攔停措施屬事實行為。",
+          "correction": "依所引判決的具體措施判斷。",
           "trueStatement": false
         },
         {
           "text": "強制駕駛離車",
-          "explanation": "強制離車涉及實力執行；是否另有可爭訟之前置命令應依個案實質判斷。",
-          "correction": "依個案區分命令與強制執行。",
+          "explanation": "該判決認依法強制離車措施屬事實行為。",
+          "correction": "注意所引判決所處理的事實及救濟。",
           "trueStatement": false
         },
         {
           "text": "檢查交通工具",
-          "explanation": "對交通工具之檢查涉及實力行為；訴訟類型應以具體措施及救濟實益判斷。",
-          "correction": "不可僅靠名稱認定救濟方式。",
+          "explanation": "該判決認依法檢查交通工具措施屬事實行為。",
+          "correction": "與該案對異議紀錄表的確認效力分開。",
           "trueStatement": false
         },
         {
           "text": "交付異議紀錄表",
-          "explanation": "本題官方答案D，依題示司法實務將交付異議紀錄所載職權行使結果評價為行政處分；適用仍須核對具體裁判。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "該案異議紀錄表確認攔檢合法性，具確認性行政處分。",
+          "correction": "本題選D；不宜忽略具體內容及效果。",
           "trueStatement": true
         }
       ],
@@ -1090,32 +1093,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第15題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 15,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已查最高行政法院111年度上字第675號判決新聞稿：該案攔停、強制離車與檢查為事實行為，異議紀錄表對合法性之確認為行政處分；個案效果仍須依事實判斷。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察職權行使法第6至8、29條；最高行政法院111年度上字第675號判決",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依官方法規及最高行政法院公開判決摘要逐項核對；保留115年官方答案D。",
         "sources": [
           {
-            "title": "警察職權行使法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+            "title": "警察職權行使法第3、6至8、26、29條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           },
           {
-            "title": "行政程序法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030055"
-          },
-          {
-            "title": "最高行政法院111年度上字第675號判決新聞稿",
+            "title": "司法院・最高行政法院111年度上字第675號判決新聞稿",
             "url": "https://www.judicial.gov.tw/tw/cp-1888-1139827-1620f-1.html"
           }
         ]
       },
-      "takeaway": "本題官方答案D，依題示司法實務將交付異議紀錄所載職權行使結果評價為行政處分；適用仍須核對具體裁判。",
+      "takeaway": "依判決分辨攔查事實行為與確認合法性的異議紀錄表。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -1137,7 +1138,8 @@
           "title": "最高行政法院111年度上字第675號判決新聞稿",
           "url": "https://www.judicial.gov.tw/tw/cp-1888-1139827-1620f-1.html"
         }
-      ]
+      ],
+      "currentAnswer": "D為當年官方答案；依最高行政法院111年度上字第675號，該案攔停等屬事實行為，所交付異議紀錄表對攔檢合法性具確認性行政處分性質。個案仍依行為內容與效果判斷。"
     },
     {
       "id": "law115-outer-16",
@@ -1365,26 +1367,26 @@
       "options": [
         {
           "text": "警察為進入該民宅需先向分局申請許可書",
-          "explanation": "迫切危害且非進入不能救護，第26條不要求先取得分局許可書。",
-          "correction": "依法評估迫切性與必要性後進入並記錄。",
+          "explanation": "第26條未以先向分局申請許可書為前提。",
+          "correction": "應先審查迫切危害與非進入不能救護。",
           "trueStatement": false
         },
         {
           "text": "警察為進入該民宅需先向法院聲請搜索票",
-          "explanation": "為救護迫切危害進入與刑事搜索票制度不同。",
-          "correction": "依第26條進入，不以搜索票作為救護前提。",
+          "explanation": "第26條是為排除迫切危害的進入措施，不以法院搜索票為該條前提。",
+          "correction": "如另從事刑事搜索，應另審查法源。",
           "trueStatement": false
         },
         {
           "text": "警察為進入該民宅需先向檢察官聲請許可書",
-          "explanation": "第26條救護進入不以檢察官事先許可書為一般要件。",
-          "correction": "確認救命迫切危害與進入必要性。",
+          "explanation": "第26條未規定先向檢察官聲請許可書。",
+          "correction": "依救護目的與第26條法定要件判斷。",
           "trueStatement": false
         },
         {
           "text": "警察非進入不能救護時，得進入該民宅",
-          "explanation": "客觀情況足認生命身體有迫切危害，且不進入不能救護，得依第26條進入；事後記錄並依法處置。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第26條以生命、身體、財產迫切危害及非進入不能救護為要件。",
+          "correction": "本題選D；不能概括為任何爭吵均得進入。",
           "trueStatement": true
         }
       ],
@@ -1393,24 +1395,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第19題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 19,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察職權行使法第26條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依官方法規逐項核對；保留115年官方答案D。",
         "sources": [
           {
-            "title": "警察職權行使法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+            "title": "警察職權行使法第3、6至8、26、29條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           }
         ]
       },
-      "takeaway": "客觀情況足認生命身體有迫切危害，且不進入不能救護，得依第26條進入；事後記錄並依法處置。",
+      "takeaway": "迫切危害＋非進入不能救護，始得依第26條進入。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -1424,7 +1428,8 @@
           "title": "警察職權行使法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
         }
-      ]
+      ],
+      "currentAnswer": "D為官方答案：人民生命、身體或財產有迫切危害，非進入不能救護時，警察依第26條得進入住宅、建築物或其他處所；須依具體危害及必要性審查。"
     },
     {
       "id": "law115-outer-20",
@@ -1436,26 +1441,26 @@
       "options": [
         {
           "text": "甲於公務員依法執行職務時，以不當言詞妨礙公務",
-          "explanation": "題目重點是無故占用報案專線，不是以顯然不當言詞對公務員相加。",
-          "correction": "依第85條第4款審查。",
+          "explanation": "第85條第1款要求公務員依法執行職務時有顯然不當言詞或行動等要件。",
+          "correction": "題示重點不是當然成立該款。",
           "trueStatement": false
         },
         {
           "text": "甲於公務員依法執行職務時，數度喧嘩妨礙公務",
-          "explanation": "題目未交代聚眾喧嘩致礙公務。",
-          "correction": "依第85條第4款審查。",
+          "explanation": "第85條第2款涉及聚眾喧嘩致礙公務進行。",
+          "correction": "題示無聚眾喧嘩事實。",
           "trueStatement": false
         },
         {
           "text": "甲之行為係謊報災害，強制警察到場者",
-          "explanation": "無故電話報案與故意謊報具體災害並不相同。",
-          "correction": "依已查明內容及第85條第4款處理。",
+          "explanation": "第85條第3款為故意向公務員謊報災害。",
+          "correction": "不能僅因多次電話推定謊報災害。",
           "trueStatement": false
         },
         {
           "text": "甲之行為係無故撥打警察機關報案專線，經勸阻不聽者",
-          "explanation": "無故撥打警察報案專線且經勸阻不聽，符合第85條第4款所列行為；仍須查明故意過失及事實。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "題示無故撥打110，經勸阻後仍持續，對應第85條第4款。",
+          "correction": "本題選D，個案仍須核實無故及勸阻事實。",
           "trueStatement": true
         }
       ],
@@ -1464,24 +1469,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第20題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 20,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "社會秩序維護法第85條第4款",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依官方法規逐項核對；保留115年官方答案D。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+            "title": "社會秩序維護法第45、55至60、62、67、85條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           }
         ]
       },
-      "takeaway": "無故撥打警察報案專線且經勸阻不聽，符合第85條第4款所列行為；仍須查明故意過失及事實。",
+      "takeaway": "無故撥報案專線，須經勸阻仍不聽。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -1495,7 +1502,8 @@
           "title": "社會秩序維護法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
         }
-      ]
+      ],
+      "currentAnswer": "D為官方答案：無故撥打警察機關報案專線，經勸阻不聽，符合第85條第4款；是否成立仍須核對客觀事實及無故等要件。"
     },
     {
       "id": "law115-outer-21",

@@ -5623,5 +5623,510 @@
       }
     ],
     "createdAt": 1794867594714
+  },
+  {
+    "eventId": "legal-review-20261116-police-law-safety",
+    "kind": "update",
+    "checkedAt": "2026-11-16",
+    "summary": "依警察法、警械、社維、警職等官方法條與最高行政法院公開判決摘要逐項核對十題，區分警察預算法源、法定用槍、拘留停止、救濟與緊急進入住宅要件。",
+    "sources": [
+      {
+        "title": "警察法第9、16、18條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
+      },
+      {
+        "title": "警察法施行細則第10條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
+      },
+      {
+        "title": "各級警察機關學校武器彈藥統籌調配辦法第2條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080043"
+      },
+      {
+        "title": "警械使用條例第3、4、6、10條之1至10條之3",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+      },
+      {
+        "title": "社會秩序維護法第45、55至60、62、67、85條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+      },
+      {
+        "title": "違反社會秩序維護法案件處理辦法第51條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+      },
+      {
+        "title": "警察職權行使法第3、6至8、26、29條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+      },
+      {
+        "title": "司法院・最高行政法院111年度上字第675號判決新聞稿",
+        "url": "https://www.judicial.gov.tw/tw/cp-1888-1139827-1620f-1.html"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "law115-inner-04",
+        "amendment": {
+          "status": "none",
+          "law": "警察法第16、18條；施行細則第10條；武器彈藥統籌調配辦法第2條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留115年官方答案A。",
+          "sources": [
+            {
+              "title": "警察法第9、16、18條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
+            },
+            {
+              "title": "警察法施行細則第10條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
+            },
+            {
+              "title": "各級警察機關學校武器彈藥統籌調配辦法第2條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080043"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A錯誤：警察法第16條由中央按地區情形規劃地方警察預算標準。其他選項涉及施行細則及武器彈藥辦法，不能全說是第16條原文。",
+        "takeaway": "預算標準中央規劃；武器採購與保修經費分開。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "警察法第16條第1項由中央依地區情形規劃預算標準。",
+            "correction": "改為中央分別規劃，本題選A。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "警察法施行細則第10條就協助偵查及有關警察業務，要求執行機關編列警察事業費。",
+            "correction": "其依據是施行細則第10條，非第16條原文。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "武器彈藥統籌調配辦法第2條由中央編列預算、調配購置或商請國防部代製。",
+            "correction": "注意代製為商請國防部。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "同辦法第2條第2項規定保養修理由使用機關自行編列。",
+            "correction": "採購調配及日常保修的經費來源不同。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-09",
+        "amendment": {
+          "status": "none",
+          "law": "警械使用條例第3、4、6條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留115年官方答案B。",
+          "sources": [
+            {
+              "title": "警械使用條例第3、4、6、10條之1至10條之3",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B為官方答案：依法執行職務遭脅迫屬第3條第2款，非警刀或槍械不足制止時，符合第4條第1項第7款的法定情形，仍應遵守槍械使用必要程度。",
+        "takeaway": "第3條第1、2款＋非刀槍不足制止，可接第4條第1項第7款。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第3條第1款列強制執行拘提等得以警棍制止；選項只寫需警棍。",
+            "correction": "題意應比較何者已寫明刀槍不足不能制止。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "執勤遭脅迫且警棍不足制止，對應第3條第2款及第4條第1項第7款。",
+            "correction": "本題選B；實際用槍仍應基於急迫及必要。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "拒捕脫逃亦可能涉及第4條第1項第3款，但本選項明示認為用警棍適當。",
+            "correction": "不得把具體題意一律推為必須開槍。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "避免非常變故亦可能涉及第4條第1項第1款；本選項明示警棍制止適當。",
+            "correction": "依具體事實與必要性選擇器械。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-13",
+        "amendment": {
+          "status": "none",
+          "law": "違反社會秩序維護法案件處理辦法第51條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留115年官方答案C。",
+          "sources": [
+            {
+              "title": "違反社會秩序維護法案件處理辦法第51條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C為官方答案：第51條第2款為懷胎滿5個月，非滿3個月；各項停止執行至其事故消滅前。",
+        "takeaway": "拘留停止執行：懷胎滿5個月、生產流產後未滿2個月。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第51條第4款列現罹疾病，執行將對身體健康有重大影響。",
+            "correction": "依事故狀況停止執行。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第51條第3款列父母、配偶或子女重病喪亡且須親自處理。",
+            "correction": "須同時符合親自處理必要。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第51條第2款為懷胎滿5個月，不是3個月。",
+            "correction": "改為懷胎滿5個月，本題選C。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第51條第1款列生產或流產後未滿2個月。",
+            "correction": "屬停止執行事由。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-14",
+        "amendment": {
+          "status": "none",
+          "law": "社會秩序維護法第67條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留115年官方答案C。",
+          "sources": [
+            {
+              "title": "社會秩序維護法第45、55至60、62、67、85條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C為官方答案：第67條第2項近親圖利減免，限第1項第4至6款；第3款誣告不在此例外。",
+        "takeaway": "近親圖利例外限虛偽證言、藏匿及證據行為，不含誣告。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "堂兄弟屬四親等血親，圖利其虛偽證言或通譯屬第67條第1項第4款。",
+            "correction": "符合其他要件時適用第2項。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "舅舅屬三親等血親，圖利藏匿屬第67條第1項第5款。",
+            "correction": "符合其他要件時適用第2項。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "誣告屬第67條第1項第3款，不在第2項所列第4至6款。",
+            "correction": "即使圖利配偶，不能直接套該項減免；本題選C。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "伯父屬三親等血親，圖利變造或湮滅證據屬第67條第1項第6款。",
+            "correction": "符合其他要件時適用第2項。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-17",
+        "amendment": {
+          "status": "none",
+          "law": "警械使用條例第10條之1至第10條之3",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留115年官方答案A。",
+          "sources": [
+            {
+              "title": "警械使用條例第3、4、6、10條之1至10條之3",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A為官方答案：第10條之2要求用械致現場傷亡時迅速通報救護或送醫，並作必要保護或戒護；第10條之3的調查及涉訟、諮商輔導由所屬機關辦理。",
+        "takeaway": "現場員警先救護；所屬機關調查及輔助。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第10條之2規定現場人員傷亡應迅速通報救護或送醫，並必要保護戒護。",
+            "correction": "本題選A。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第10條之3規定接獲通報後進行調查的是所屬機關。",
+            "correction": "勿混成題示執行員警獨自調查的法定義務。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第10條之3由所屬機關提供警察人員涉訟輔助。",
+            "correction": "區分受輔助員警與所屬機關。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第10條之3由所屬機關提供諮商輔導。",
+            "correction": "屬所屬機關接獲通報後責任。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-22",
+        "amendment": {
+          "status": "none",
+          "law": "社會秩序維護法第45、55、58至60、62條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留115年官方答案A。",
+          "sources": [
+            {
+              "title": "社會秩序維護法第45、55至60、62、67、85條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A錯誤：第60條允許被處罰人或原移送警察機關捨棄抗告權，不能概括為兩者均得捨棄聲明異議權；第62條另規定撤回等效果。",
+        "takeaway": "不服警察處分聲明異議；不服法院第45條裁定抗告。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第60條所列共同得捨棄者為抗告權，題目擴張至聲明異議權。",
+            "correction": "改為得捨棄抗告權；本題選A。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第55條不服警察處分於送達翌日起5日內聲明異議。",
+            "correction": "注意起算為翌日。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第55條以書狀敘明理由，經原處分機關向該管簡易庭為之。",
+            "correction": "並非逕向普通庭。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第58條原移送警察機關對第45條法院裁定得向同法院普通庭抗告。",
+            "correction": "對普通庭裁定不得再抗告。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-08",
+        "amendment": {
+          "status": "none",
+          "law": "警械使用條例第4、6至9條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留115年官方答案D。",
+          "sources": [
+            {
+              "title": "警械使用條例第3、4、6、10條之1至10條之3",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D為官方答案：題示持刀無差別砍人，符合第4條第4項所列以致命武器攻擊並危及生命身體的情形；實際射擊仍須符合第6條急迫需要、合理及必要程度並注意他人安全。",
+        "takeaway": "不是武器對等，而是依法定條件、急迫與必要程度判斷。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "獲報現場有持刀傷人，不能僅以場地轄屬其他警察機關而不受理或不處置。",
+            "correction": "先依緊急情況必要處理並依規定通報。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "對正持刀攻擊、危及生命身體之情形，第4條第4項有法定射擊規範。",
+            "correction": "不以一律只能告誡拋刀為限。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "警械條例並無題示絕對武器對等規定。",
+            "correction": "依第4條及第6條，個案判斷是否使用槍械。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "持致命武器攻擊且將危及生命身體，符合第4條第4項第1款所定情形。",
+            "correction": "本題選D；仍須審查急迫、必要與周遭安全。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-15",
+        "amendment": {
+          "status": "none",
+          "law": "警察職權行使法第6至8、29條；最高行政法院111年度上字第675號判決",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規及最高行政法院公開判決摘要逐項核對；保留115年官方答案D。",
+          "sources": [
+            {
+              "title": "警察職權行使法第3、6至8、26、29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "司法院・最高行政法院111年度上字第675號判決新聞稿",
+              "url": "https://www.judicial.gov.tw/tw/cp-1888-1139827-1620f-1.html"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D為當年官方答案；依最高行政法院111年度上字第675號，該案攔停等屬事實行為，所交付異議紀錄表對攔檢合法性具確認性行政處分性質。個案仍依行為內容與效果判斷。",
+        "takeaway": "依判決分辨攔查事實行為與確認合法性的異議紀錄表。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "該判決認警職法查證身分所為攔停措施屬事實行為。",
+            "correction": "依所引判決的具體措施判斷。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "該判決認依法強制離車措施屬事實行為。",
+            "correction": "注意所引判決所處理的事實及救濟。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "該判決認依法檢查交通工具措施屬事實行為。",
+            "correction": "與該案對異議紀錄表的確認效力分開。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "該案異議紀錄表確認攔檢合法性，具確認性行政處分。",
+            "correction": "本題選D；不宜忽略具體內容及效果。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-19",
+        "amendment": {
+          "status": "none",
+          "law": "警察職權行使法第26條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留115年官方答案D。",
+          "sources": [
+            {
+              "title": "警察職權行使法第3、6至8、26、29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D為官方答案：人民生命、身體或財產有迫切危害，非進入不能救護時，警察依第26條得進入住宅、建築物或其他處所；須依具體危害及必要性審查。",
+        "takeaway": "迫切危害＋非進入不能救護，始得依第26條進入。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第26條未以先向分局申請許可書為前提。",
+            "correction": "應先審查迫切危害與非進入不能救護。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第26條是為排除迫切危害的進入措施，不以法院搜索票為該條前提。",
+            "correction": "如另從事刑事搜索，應另審查法源。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第26條未規定先向檢察官聲請許可書。",
+            "correction": "依救護目的與第26條法定要件判斷。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第26條以生命、身體、財產迫切危害及非進入不能救護為要件。",
+            "correction": "本題選D；不能概括為任何爭吵均得進入。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-20",
+        "amendment": {
+          "status": "none",
+          "law": "社會秩序維護法第85條第4款",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依官方法規逐項核對；保留115年官方答案D。",
+          "sources": [
+            {
+              "title": "社會秩序維護法第45、55至60、62、67、85條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D為官方答案：無故撥打警察機關報案專線，經勸阻不聽，符合第85條第4款；是否成立仍須核對客觀事實及無故等要件。",
+        "takeaway": "無故撥報案專線，須經勸阻仍不聽。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第85條第1款要求公務員依法執行職務時有顯然不當言詞或行動等要件。",
+            "correction": "題示重點不是當然成立該款。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第85條第2款涉及聚眾喧嘩致礙公務進行。",
+            "correction": "題示無聚眾喧嘩事實。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第85條第3款為故意向公務員謊報災害。",
+            "correction": "不能僅因多次電話推定謊報災害。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "題示無故撥打110，經勸阻後仍持續，對應第85條第4款。",
+            "correction": "本題選D，個案仍須核實無故及勸阻事實。",
+            "trueStatement": true
+          }
+        ]
+      }
+    ],
+    "createdAt": 1794867940854
   }
 ]
