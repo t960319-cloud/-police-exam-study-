@@ -128,3 +128,10 @@
 - 依[刑訴第153條之1](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=153-1)補115犯罪偵查24的24小時／累計2日／每次30日、未滿一日計算與續行聲請；以上四題已逐項核對並標示完成。
 - 115犯罪偵查25補[刑訴第153條之7](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=153-7)，分開法院許可案件的法院通知與短期調查之執行機關通知，原題概括範圍仍待核。112勤務24補[道交第35條](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35)第8項乘客條件及[第9條](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=9)陳述意見；完整作業程序未取得，仍保留待核。
 - 均保留當年原題、選項及官方答案；官方頁面所載資料整編截止115.11.06。來源與下載頁面雜湊見[本輪證據](legal-evidence-2026-11-16-specific-statutes.json)。本次對照不代表其他科目或同主題題目均已完成。
+
+### 2026-11-16：犯罪偵查刑事程序逐題補核
+
+- 依[治安顧慮人口查訪辦法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147)第4至6條，補114犯罪偵查6的頻率、方式與日間例外；依[刑訴第88條之1與89條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001)補同卷16的逕行拘提、補票及當場告知。
+- 同卷19依刑訴第146、147條及[司法院公開實務整理](https://www.judicial.gov.tw/tw/cp-1454-1600128-35f31-1.html)區分夜間搜索承諾、急迫、日間續行與公開場所；公開整理不是判決全文。
+- 同卷39依[通保法第11條](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0060044&flno=11)列監察書記載事項；44依刑訴第85、87條區分通緝書簽名與執行；48依刑訴第216、217條區分屍體檢驗與解剖。以上6題各選項已核對，保留原題及官方答案。
+- 查核途徑及法源頁面雜湊見[本輪證據](legal-evidence-2026-11-16-procedure.json)；不推定其他題目已核。

@@ -412,26 +412,26 @@
       "options": [
         {
           "text": "由戶籍地警察機關每月至少實施查訪 2 次",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：應以適當家戶訪問等方式避免影響工作名譽；不能概括規定每月2次、便服或任意夜訪。",
+          "explanation": "第4條為每個月1次；必要時才得增加，非一律至少2次。",
+          "correction": "每個月查訪1次，必要時得增加。",
           "trueStatement": false
         },
         {
           "text": "實施查訪時，應著便服，以避免影響查訪對象之名譽",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：應以適當家戶訪問等方式避免影響工作名譽；不能概括規定每月2次、便服或任意夜訪。",
+          "explanation": "第5條要求方式適當並維護名譽，未規定一律須著便服。",
+          "correction": "應選擇適當方式並避免影響工作與名譽，不增加辦法未列的一律便服要求。",
           "trueStatement": false
         },
         {
           "text": "不論是否與查訪對象約定，皆可於夜間為之，以收查訪之效",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：應以適當家戶訪問等方式避免影響工作名譽；不能概括規定每月2次、便服或任意夜訪。",
+          "explanation": "第6條規定原則日間，與查訪對象約定者例外。",
+          "correction": "原則於日間查訪；約定時得有例外。",
           "trueStatement": false
         },
         {
           "text": "實施查訪時，應以家戶訪問等適當方式為之，以避免影響查訪對象之名譽",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "應以適當家戶訪問等方式避免影響工作名譽；不能概括規定每月2次、便服或任意夜訪。",
+          "explanation": "第5條明定以家戶訪問或其他適當方式進行，並注意避免影響工作及名譽。",
+          "correction": "本項符合第5條。",
           "trueStatement": true
         }
       ],
@@ -442,19 +442,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第6題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 6,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "治安顧慮人口查訪辦法第4至6條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已逐項核對官方法規；保留114年原題及官方答案。",
+        "sources": [
+          {
+            "title": "治安顧慮人口查訪辦法第4至6條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+          }
+        ]
       },
-      "takeaway": "應以適當家戶訪問等方式避免影響工作名譽；不能概括規定每月2次、便服或任意夜訪。",
+      "takeaway": "每月查訪1次、原則日間，約定得例外；應避免影響工作及名譽。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -471,8 +478,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "治安顧慮人口查訪辦法第4至6條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
         }
-      ]
+      ],
+      "currentAnswer": "D正確：依第4條每月查訪1次，必要時得增加；第5條須選擇適當時間、地點及方式並注意工作與名譽，第6條原則日間，與對象約定可例外。"
     },
     {
       "id": "investigation114_07",
@@ -1132,26 +1144,26 @@
       "options": [
         {
           "text": "檢察官親自執行時，得不用拘票",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "符合法定逕行拘提要件時，檢察官親自執行得不用拘票，但仍有書面通知及權利告知義務。",
+          "explanation": "第88條之1第2項：檢察官親自執行前項逕行拘提，得不用拘票。",
+          "correction": "本項在符合第88條之1第1項的前提下正確。",
           "trueStatement": true
         },
         {
           "text": "檢察官親自執行時，無須以書面將拘提之原因通知犯罪嫌疑人及其指定之親友",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：符合法定逕行拘提要件時，檢察官親自執行得不用拘票，但仍有書面通知及權利告知義務。",
+          "explanation": "第89條第2項仍要求以書面通知被拘提人及其指定親友。",
+          "correction": "依第89條書面通知本人及指定親友拘提原因。",
           "trueStatement": false
         },
         {
           "text": "司法警察官或司法警察執行時，應於移送時一併聲請檢察官補發拘票",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：符合法定逕行拘提要件時，檢察官親自執行得不用拘票，但仍有書面通知及權利告知義務。",
+          "explanation": "司法警察（官）僅於急迫不及報告時得執行，執行後應即報請簽發；不待移送才補辦。",
+          "correction": "執行後應即報請檢察官簽發拘票；不簽發即釋放。",
           "trueStatement": false
         },
         {
           "text": "刑事訴訟法第 95 條第 1 項所列事項，待返回勤務處所進行詢問時再告知即可",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：符合法定逕行拘提要件時，檢察官親自執行得不用拘票，但仍有書面通知及權利告知義務。",
+          "explanation": "第89條第1項要求當場告知拘提原因及第95條第1項所列事項。",
+          "correction": "應於執行當場告知，不能等返回勤務處所。",
           "trueStatement": false
         }
       ],
@@ -1162,19 +1174,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第16題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 16,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "刑事訴訟法第88條之1、第89條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已逐項核對官方法規；保留114年原題及官方答案。",
+        "sources": [
+          {
+            "title": "刑事訴訟法第85、87、88條之1、89、146、147、216、217條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "符合法定逕行拘提要件時，檢察官親自執行得不用拘票，但仍有書面通知及權利告知義務。",
+      "takeaway": "逕行拘提需法定事由及急迫；當場告知原因及權利，司法警察須依法即時補票。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -1191,8 +1210,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "刑事訴訟法第85、87、88條之1、89、146、147、216、217條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "A正確：符合第88條之1急迫及法定情形時，檢察官親自執行得不用拘票；司法警察（官）限急迫不及報告時執行後即報請簽票。第89條的當場告知與書面通知仍須遵守。"
     },
     {
       "id": "investigation114_17",
@@ -1348,26 +1372,26 @@
       "options": [
         {
           "text": "有人住居或看守之住宅或其他處所，原則禁止夜間搜索",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：夜間入內仍須有法定例外及符合要求的承諾，不能以默示同意概括取代應有的程序紀錄。",
+          "explanation": "第146條第1項原則禁止夜間進入有人住居或看守之住宅等處所搜索、扣押，並有承諾或急迫例外。",
+          "correction": "本項為原則敘述；仍須留意法定例外。",
           "trueStatement": true
         },
         {
           "text": "於夜間進入有人住居或看守之住宅或其他處搜索時，除急迫情形外，至少應得住居人、看守人或可 為其代表之人之默示同意",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "夜間入內仍須有法定例外及符合要求的承諾，不能以默示同意概括取代應有的程序紀錄。",
+          "explanation": "第146條規定承諾或急迫例外；司法院公開整理之實務見解不以默示同意滿足夜間搜索的承諾要件。",
+          "correction": "以承諾為例外時應確認自願、明示；不能由不反對推定同意。",
           "trueStatement": false
         },
         {
           "text": "日間已開始搜索或扣押者，得繼續至夜間",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：夜間入內仍須有法定例外及符合要求的承諾，不能以默示同意概括取代應有的程序紀錄。",
+          "explanation": "第146條第3項規定日間已開始的搜索或扣押得繼續至夜間。",
+          "correction": "本項符合第146條第3項。",
           "trueStatement": true
         },
         {
           "text": "旅店、飲食店或其他於夜間公眾可以出入之處所，仍在公開時間內者，得於夜間入內搜索",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：夜間入內仍須有法定例外及符合要求的承諾，不能以默示同意概括取代應有的程序紀錄。",
+          "explanation": "第147條第2款准許旅店、飲食店等夜間公眾可出入處所於公開時間入內。",
+          "correction": "以仍在公開時間且屬第147條列舉的處所為前提。",
           "trueStatement": true
         }
       ],
@@ -1378,19 +1402,30 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第19題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 19,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "刑事訴訟法第146、147條；司法院公開實務說明",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已逐項核對官方法規及司法院公開實務說明；保留114年原題及官方答案。",
+        "sources": [
+          {
+            "title": "刑事訴訟法第85、87、88條之1、89、146、147、216、217條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "司法院司法周刊：取證規範與程序保障",
+            "url": "https://www.judicial.gov.tw/tw/cp-1454-1600128-35f31-1.html"
+          }
+        ]
       },
-      "takeaway": "夜間入內仍須有法定例外及符合要求的承諾，不能以默示同意概括取代應有的程序紀錄。",
+      "takeaway": "夜間搜索原則禁止；承諾不得僅以默示不反對推定，例外與事由應依法確認。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -1407,8 +1442,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "刑事訴訟法第85、87、88條之1、89、146、147、216、217條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "司法院司法周刊：取證規範與程序保障",
+          "url": "https://www.judicial.gov.tw/tw/cp-1454-1600128-35f31-1.html"
         }
-      ]
+      ],
+      "currentAnswer": "B錯誤：刑訴第146條須符合承諾或急迫等例外；司法院司法周刊整理的實務見解指出，默示不反對不足以作為夜間搜索承諾。日間已開始得繼續至夜間，公開營業中公眾可出入處所另依第147條判斷。"
     },
     {
       "id": "investigation114_20",
@@ -2800,26 +2844,26 @@
       "options": [
         {
           "text": "建置機關",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：應載建置機關、監察對象、期間及方法等法定事項；建置程序不是本題應記載事項。",
+          "explanation": "第11條第1項第9款列建置機關。",
+          "correction": "建置機關屬法定記載事項。",
           "trueStatement": true
         },
         {
           "text": "建置程序",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "應載建置機關、監察對象、期間及方法等法定事項；建置程序不是本題應記載事項。",
+          "explanation": "第11條第1項九款未列建置程序。",
+          "correction": "應記載建置機關，並非本條所列的建置程序。",
           "trueStatement": false
         },
         {
           "text": "監察對象",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：應載建置機關、監察對象、期間及方法等法定事項；建置程序不是本題應記載事項。",
+          "explanation": "第11條第1項第2款列監察對象。",
+          "correction": "監察對象屬法定記載事項。",
           "trueStatement": true
         },
         {
           "text": "監察期間與方法",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：應載建置機關、監察對象、期間及方法等法定事項；建置程序不是本題應記載事項。",
+          "explanation": "第11條第1項第6款列監察期間及方法。",
+          "correction": "監察期間及方法屬法定記載事項。",
           "trueStatement": true
         }
       ],
@@ -2830,19 +2874,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第39題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 39,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "通訊保障及監察法第11條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已逐項核對官方法規；保留114年原題及官方答案。",
+        "sources": [
+          {
+            "title": "通訊保障及監察法第11條",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0060044&flno=11"
+          }
+        ]
       },
-      "takeaway": "應載建置機關、監察對象、期間及方法等法定事項；建置程序不是本題應記載事項。",
+      "takeaway": "監察書應記建置機關、監察對象及期間方法；第11條未列建置程序。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -2859,8 +2910,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "通訊保障及監察法第11條",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0060044&flno=11"
         }
-      ]
+      ],
+      "currentAnswer": "B錯誤：第11條列案由、對象、通訊特徵、處所、理由、期間與方法、聲請、執行及建置機關，未將建置程序列為應記載事項。"
     },
     {
       "id": "investigation114_40",
@@ -3160,26 +3216,26 @@
       "options": [
         {
           "text": "利害關係人，得逕行逮捕通緝之被告，送交檢察官",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：法定得拘提或逕行逮捕人員與利害關係人逮捕規定須分別核對，不能任意省略司法警察等法定範圍。",
+          "explanation": "第87條第2項准許利害關係人逕行逮捕，送交檢察官或司法警察官。",
+          "correction": "送交檢察官符合該條；亦得送交司法警察官。",
           "trueStatement": true
         },
         {
           "text": "通緝經通知後，法官、檢察官、司法警察官得拘提被告或逕行逮捕之",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "法定得拘提或逕行逮捕人員與利害關係人逮捕規定須分別核對，不能任意省略司法警察等法定範圍。",
+          "explanation": "第87條第1項列檢察官、司法警察官，未列法官。",
+          "correction": "依該項區分得拘提或逕行逮捕者，勿把簽署通緝書者混入。",
           "trueStatement": false
         },
         {
           "text": "通緝書，於偵查中由檢察總長或檢察長簽名",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：法定得拘提或逕行逮捕人員與利害關係人逮捕規定須分別核對，不能任意省略司法警察等法定範圍。",
+          "explanation": "第85條第3項規定偵查中由檢察總長或檢察長簽名。",
+          "correction": "本項符合第85條第3項。",
           "trueStatement": true
         },
         {
           "text": "通緝書，於審判中由法院院長簽名",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：法定得拘提或逕行逮捕人員與利害關係人逮捕規定須分別核對，不能任意省略司法警察等法定範圍。",
+          "explanation": "第85條第3項規定審判中由法院院長簽名。",
+          "correction": "本項符合第85條第3項。",
           "trueStatement": true
         }
       ],
@@ -3190,19 +3246,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第44題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 44,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "刑事訴訟法第85、87條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已逐項核對官方法規；保留114年原題及官方答案。",
+        "sources": [
+          {
+            "title": "刑事訴訟法第85、87、88條之1、89、146、147、216、217條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "法定得拘提或逕行逮捕人員與利害關係人逮捕規定須分別核對，不能任意省略司法警察等法定範圍。",
+      "takeaway": "通緝後第87條列檢察官、司法警察官得拘提或逕捕；簽通緝書屬另一程序。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -3219,8 +3282,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "刑事訴訟法第85、87、88條之1、89、146、147、216、217條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "B錯誤：第87條第1項列檢察官、司法警察官，未列法官為通緝通知或公告後依該項拘提或逕捕的執行人；第85條另分偵查與審判中簽發通緝書者。"
     },
     {
       "id": "investigation114_45",
@@ -3448,26 +3516,26 @@
       "options": [
         {
           "text": "解剖屍體，應命醫生或檢驗員行之",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "解剖屍體應命醫師實施，不能把可執行檢驗的檢驗員資格直接套用解剖。",
+          "explanation": "第216條第3項規定解剖屍體應命醫師行之，不包含檢驗員。",
+          "correction": "解剖屍體應命醫師行之。",
           "trueStatement": false
         },
         {
           "text": "因檢驗屍體，得開棺及發掘墳墓",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：解剖屍體應命醫師實施，不能把可執行檢驗的檢驗員資格直接套用解剖。",
+          "explanation": "第217條第1項規定因檢驗或解剖得開棺及發掘墳墓。",
+          "correction": "本項符合第217條，並應注意同條通知親屬在場的規定。",
           "trueStatement": true
         },
         {
           "text": "檢驗屍體，應命醫生或檢驗員行之",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：解剖屍體應命醫師實施，不能把可執行檢驗的檢驗員資格直接套用解剖。",
+          "explanation": "第216條第2項規定檢驗屍體應命醫師或檢驗員行之。",
+          "correction": "本項符合第216條第2項。",
           "trueStatement": true
         },
         {
           "text": "解剖屍體，應先查明屍體有無錯誤",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：解剖屍體應命醫師實施，不能把可執行檢驗的檢驗員資格直接套用解剖。",
+          "explanation": "第216條第1項規定檢驗或解剖屍體應先查明有無錯誤。",
+          "correction": "本項符合第216條第1項。",
           "trueStatement": true
         }
       ],
@@ -3478,19 +3546,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第48題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 48,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "刑事訴訟法第216、217條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已逐項核對官方法規；保留114年原題及官方答案。",
+        "sources": [
+          {
+            "title": "刑事訴訟法第85、87、88條之1、89、146、147、216、217條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "解剖屍體應命醫師實施，不能把可執行檢驗的檢驗員資格直接套用解剖。",
+      "takeaway": "檢驗：醫師或檢驗員；解剖：醫師；兩者均先查明屍體有無錯誤。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -3507,8 +3582,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "刑事訴訟法第85、87、88條之1、89、146、147、216、217條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "A錯誤：第216條區分檢驗與解剖；檢驗應命醫師或檢驗員，解剖應命醫師。兩者均須先確認屍體有無錯誤；第217條另規定得開棺及發掘墳墓。"
     },
     {
       "id": "investigation114_49",

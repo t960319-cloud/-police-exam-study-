@@ -88,3 +88,10 @@ const gpsPeriod=result.questions.find(q=>q.id==='investigation115_24');assert(gp
 const gpsNotice=result.questions.find(q=>q.id==='investigation115_25');assert.equal(gpsNotice.answer,1);assert.equal(gpsNotice.verified,false);assert.notEqual(gpsNotice.analysisMode,'answer-key');assert(gpsNotice.currentAnswer.includes('法院許可或補發許可'));assert(gpsNotice.currentAnswer.includes('短期追蹤'));
 const passenger=result.questions.find(q=>q.id==='duty112_24');assert.equal(passenger.answer,1);assert.equal(passenger.verified,false);assert(passenger.currentAnswer.includes('駕駛人測得'));assert(passenger.currentAnswer.includes('30日內'));
 console.log('Statute-backed options, GPS notice branches, passenger prerequisites and original answers passed.');
+// Statutory investigation corrections preserve the historic keys and show all option explanations.
+for(const [id,answer] of [['investigation114_06',3],['investigation114_16',0],['investigation114_19',1],['investigation114_39',1],['investigation114_44',1],['investigation114_48',0]]){
+ const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.answer,answer);assert(q.verified);assert.notEqual(q.analysisMode,'answer-key');assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()));
+}
+const night=result.questions.find(q=>q.id==='investigation114_19');assert(night.options[1].correction.includes('明示'));assert(night.amendment.sources.some(s=>s.url.includes('judicial.gov.tw')));
+const postmortem=result.questions.find(q=>q.id==='investigation114_48');assert(postmortem.currentAnswer.includes('檢驗應命醫師或檢驗員'));assert(postmortem.currentAnswer.includes('解剖應命醫師'));
+console.log('Investigation procedure, night-search consent and forensic examination distinctions passed.');

@@ -2319,5 +2319,306 @@
       }
     ],
     "createdAt": 1794834550285
+  },
+  {
+    "eventId": "legal-review-20261116-procedure-investigation",
+    "kind": "update",
+    "checkedAt": "2026-11-16",
+    "summary": "依正式法規及司法院公開實務說明，逐題補治安顧慮人口查訪、逕行拘提、夜間搜索、通訊監察書、通緝與屍體檢驗解剖，保留原題及官方答案。",
+    "sources": [
+      {
+        "title": "治安顧慮人口查訪辦法第4至6條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+      },
+      {
+        "title": "刑事訴訟法第85、87、88條之1、89、146、147、216、217條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      },
+      {
+        "title": "司法院司法周刊：取證規範與程序保障",
+        "url": "https://www.judicial.gov.tw/tw/cp-1454-1600128-35f31-1.html"
+      },
+      {
+        "title": "通訊保障及監察法第11條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0060044&flno=11"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "investigation114_06",
+        "amendment": {
+          "status": "none",
+          "law": "治安顧慮人口查訪辦法第4至6條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已逐項核對官方法規；保留114年原題及官方答案。",
+          "sources": [
+            {
+              "title": "治安顧慮人口查訪辦法第4至6條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D正確：依第4條每月查訪1次，必要時得增加；第5條須選擇適當時間、地點及方式並注意工作與名譽，第6條原則日間，與對象約定可例外。",
+        "takeaway": "每月查訪1次、原則日間，約定得例外；應避免影響工作及名譽。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第4條為每個月1次；必要時才得增加，非一律至少2次。",
+            "correction": "每個月查訪1次，必要時得增加。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第5條要求方式適當並維護名譽，未規定一律須著便服。",
+            "correction": "應選擇適當方式並避免影響工作與名譽，不增加辦法未列的一律便服要求。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第6條規定原則日間，與查訪對象約定者例外。",
+            "correction": "原則於日間查訪；約定時得有例外。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第5條明定以家戶訪問或其他適當方式進行，並注意避免影響工作及名譽。",
+            "correction": "本項符合第5條。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_16",
+        "amendment": {
+          "status": "none",
+          "law": "刑事訴訟法第88條之1、第89條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已逐項核對官方法規；保留114年原題及官方答案。",
+          "sources": [
+            {
+              "title": "刑事訴訟法第85、87、88條之1、89、146、147、216、217條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A正確：符合第88條之1急迫及法定情形時，檢察官親自執行得不用拘票；司法警察（官）限急迫不及報告時執行後即報請簽票。第89條的當場告知與書面通知仍須遵守。",
+        "takeaway": "逕行拘提需法定事由及急迫；當場告知原因及權利，司法警察須依法即時補票。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第88條之1第2項：檢察官親自執行前項逕行拘提，得不用拘票。",
+            "correction": "本項在符合第88條之1第1項的前提下正確。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第89條第2項仍要求以書面通知被拘提人及其指定親友。",
+            "correction": "依第89條書面通知本人及指定親友拘提原因。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "司法警察（官）僅於急迫不及報告時得執行，執行後應即報請簽發；不待移送才補辦。",
+            "correction": "執行後應即報請檢察官簽發拘票；不簽發即釋放。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第89條第1項要求當場告知拘提原因及第95條第1項所列事項。",
+            "correction": "應於執行當場告知，不能等返回勤務處所。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_19",
+        "amendment": {
+          "status": "none",
+          "law": "刑事訴訟法第146、147條；司法院公開實務說明",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已逐項核對官方法規及司法院公開實務說明；保留114年原題及官方答案。",
+          "sources": [
+            {
+              "title": "刑事訴訟法第85、87、88條之1、89、146、147、216、217條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "司法院司法周刊：取證規範與程序保障",
+              "url": "https://www.judicial.gov.tw/tw/cp-1454-1600128-35f31-1.html"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B錯誤：刑訴第146條須符合承諾或急迫等例外；司法院司法周刊整理的實務見解指出，默示不反對不足以作為夜間搜索承諾。日間已開始得繼續至夜間，公開營業中公眾可出入處所另依第147條判斷。",
+        "takeaway": "夜間搜索原則禁止；承諾不得僅以默示不反對推定，例外與事由應依法確認。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第146條第1項原則禁止夜間進入有人住居或看守之住宅等處所搜索、扣押，並有承諾或急迫例外。",
+            "correction": "本項為原則敘述；仍須留意法定例外。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第146條規定承諾或急迫例外；司法院公開整理之實務見解不以默示同意滿足夜間搜索的承諾要件。",
+            "correction": "以承諾為例外時應確認自願、明示；不能由不反對推定同意。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第146條第3項規定日間已開始的搜索或扣押得繼續至夜間。",
+            "correction": "本項符合第146條第3項。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第147條第2款准許旅店、飲食店等夜間公眾可出入處所於公開時間入內。",
+            "correction": "以仍在公開時間且屬第147條列舉的處所為前提。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_39",
+        "amendment": {
+          "status": "none",
+          "law": "通訊保障及監察法第11條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已逐項核對官方法規；保留114年原題及官方答案。",
+          "sources": [
+            {
+              "title": "通訊保障及監察法第11條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0060044&flno=11"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B錯誤：第11條列案由、對象、通訊特徵、處所、理由、期間與方法、聲請、執行及建置機關，未將建置程序列為應記載事項。",
+        "takeaway": "監察書應記建置機關、監察對象及期間方法；第11條未列建置程序。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第11條第1項第9款列建置機關。",
+            "correction": "建置機關屬法定記載事項。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第11條第1項九款未列建置程序。",
+            "correction": "應記載建置機關，並非本條所列的建置程序。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第11條第1項第2款列監察對象。",
+            "correction": "監察對象屬法定記載事項。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第11條第1項第6款列監察期間及方法。",
+            "correction": "監察期間及方法屬法定記載事項。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_44",
+        "amendment": {
+          "status": "none",
+          "law": "刑事訴訟法第85、87條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已逐項核對官方法規；保留114年原題及官方答案。",
+          "sources": [
+            {
+              "title": "刑事訴訟法第85、87、88條之1、89、146、147、216、217條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B錯誤：第87條第1項列檢察官、司法警察官，未列法官為通緝通知或公告後依該項拘提或逕捕的執行人；第85條另分偵查與審判中簽發通緝書者。",
+        "takeaway": "通緝後第87條列檢察官、司法警察官得拘提或逕捕；簽通緝書屬另一程序。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第87條第2項准許利害關係人逕行逮捕，送交檢察官或司法警察官。",
+            "correction": "送交檢察官符合該條；亦得送交司法警察官。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第87條第1項列檢察官、司法警察官，未列法官。",
+            "correction": "依該項區分得拘提或逕行逮捕者，勿把簽署通緝書者混入。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第85條第3項規定偵查中由檢察總長或檢察長簽名。",
+            "correction": "本項符合第85條第3項。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第85條第3項規定審判中由法院院長簽名。",
+            "correction": "本項符合第85條第3項。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_48",
+        "amendment": {
+          "status": "none",
+          "law": "刑事訴訟法第216、217條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已逐項核對官方法規；保留114年原題及官方答案。",
+          "sources": [
+            {
+              "title": "刑事訴訟法第85、87、88條之1、89、146、147、216、217條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A錯誤：第216條區分檢驗與解剖；檢驗應命醫師或檢驗員，解剖應命醫師。兩者均須先確認屍體有無錯誤；第217條另規定得開棺及發掘墳墓。",
+        "takeaway": "檢驗：醫師或檢驗員；解剖：醫師；兩者均先查明屍體有無錯誤。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第216條第3項規定解剖屍體應命醫師行之，不包含檢驗員。",
+            "correction": "解剖屍體應命醫師行之。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第217條第1項規定因檢驗或解剖得開棺及發掘墳墓。",
+            "correction": "本項符合第217條，並應注意同條通知親屬在場的規定。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第216條第2項規定檢驗屍體應命醫師或檢驗員行之。",
+            "correction": "本項符合第216條第2項。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第216條第1項規定檢驗或解剖屍體應先查明有無錯誤。",
+            "correction": "本項符合第216條第1項。",
+            "trueStatement": true
+          }
+        ]
+      }
+    ],
+    "createdAt": 1794834912918
   }
 ]

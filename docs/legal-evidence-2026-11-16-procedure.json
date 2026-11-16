@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-11-16",
+  "timezone": "Asia/Taipei",
+  "sources": [
+    {
+      "title": "治安顧慮人口查訪辦法第4至6條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147",
+      "retrieval": "HTTPS原件HTTP 200",
+      "sha256": "d252bda870d0e877e1b2ea7bb35f4f2da74a1af8623cc2f8cfd3996db240c69e"
+    },
+    {
+      "title": "刑事訴訟法第85、87、88條之1、89、146、147、216、217條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001",
+      "retrieval": "HTTPS原件HTTP 200",
+      "sha256": "23b5460003c6aeb7c62263a08914438ac91681a8a19eaaba6f4b514beea21022"
+    },
+    {
+      "title": "通訊保障及監察法第11條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0060044&flno=11",
+      "retrieval": "HTTPS原件HTTP 200",
+      "sha256": "20d1bf1a34f71a740198f65762d5c0fd393c2165744e0d7b40dd7904d4faa0a7"
+    },
+    {
+      "title": "司法院司法周刊：取證規範與程序保障",
+      "url": "https://www.judicial.gov.tw/tw/cp-1454-1600128-35f31-1.html",
+      "retrieval": "網頁查詢工具讀取官方頁面，發布及更新日期115.08.14；執行器直接連線HTTP 403，無本機原頁雜湊。"
+    }
+  ],
+  "verifiedQuestionIds": [
+    "investigation114_06",
+    "investigation114_16",
+    "investigation114_19",
+    "investigation114_39",
+    "investigation114_44",
+    "investigation114_48"
+  ],
+  "notes": [
+    "司法周刊為司法院對法官演講及實務見解的公開整理，非把新聞報導冒稱法條或判決全文。",
+    "原題、選項及當年官方答案不變；未據此推定其他相關題目已核。",
+    "全國法規資料庫頁面標示法規整編截止115.11.06，可能尚有未收錄後續異動。"
+  ]
+}
