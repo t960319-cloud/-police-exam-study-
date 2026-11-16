@@ -218,6 +218,9 @@ export function createStudyStore(options: Options = {}) {
     delete conflicts[key];
     schedule();
   }
+  function cachedHistory(key: string) {
+    return [...(history[key] ?? [])].filter(entry => !records[key] || entry.updatedAt !== records[key].updatedAt || !same(entry.value, records[key].value)).sort((a, b) => b.updatedAt - a.updatedAt);
+  }
   async function loadHistory(key: string) {
     const generation = epoch;
     await refresh();
@@ -230,7 +233,7 @@ export function createStudyStore(options: Options = {}) {
       for (const entry of data.versions) if (validBackupEntry(key, entry)) remember(key, entry);
       persist(); publish();
     }
-    return [...(history[key] ?? [])].filter(entry => !records[key] || entry.updatedAt !== records[key].updatedAt || !same(entry.value, records[key].value)).sort((a, b) => b.updatedAt - a.updatedAt);
+    return cachedHistory(key);
   }
   function legacyRecords() {
     const result = parseRecords(readJSON(CACHE_KEY));
@@ -255,7 +258,7 @@ export function createStudyStore(options: Options = {}) {
       if (!listeners.size) clearTimeout(timer);
     };
   }
-  return { subscribe, put, refresh, importRecords, resolveConflict, loadHistory, legacyRecords, lock,
+  return { subscribe, put, refresh, importRecords, resolveConflict, loadHistory, cachedHistory, legacyRecords, lock,
     read: <T,>(key: string, fallback: T): T => (records[key]?.value as T | undefined) ?? fallback,
     getSnapshot: () => snapshot, getServerSnapshot: () => initial,
   };

@@ -128,3 +128,24 @@ test('an inconsistent session cannot cause an unbounded authorization retry loop
  const remote=server();let reads=0;const a=mount(remote,undefined,async(url,init)=>{if(url==='/api/records'){reads++;return Response.json({code:'signed_out'},{status:401});}return remote.request(url,init);});
  await a.ready();assert.equal(a.store.getSnapshot().sync,'offline');assert.equal(reads,3);assert.deepEqual(a.store.getSnapshot().records,{});
 });
+
+test('cached versions remain restorable offline and synchronize conditionally after reconnect',async()=>{
+ const initial={'essay:one':entry({analysis:'original'}),'essay:other':entry({analysis:'untouched'})};
+ const remote=server(initial);const a=mount(remote);await a.ready();
+ a.store.put('essay:one',{analysis:'edited'});await a.ready();
+ remote.offline();await assert.rejects(a.store.loadHistory('essay:one'));
+ const versions=a.store.cachedHistory('essay:one');assert(versions.some(x=>x.value.analysis==='original'));
+ assert(!versions.some(x=>x.updatedAt===a.store.getSnapshot().records['essay:one'].updatedAt&&x.value.analysis==='edited'));
+ a.store.put('essay:one',versions.find(x=>x.value.analysis==='original').value);await a.ready();
+ assert.equal(remote.users.A['essay:one'].value.analysis,'edited');assert(a.queue()['essay:one']);
+ remote.online();await a.ready();assert.equal(remote.users.A['essay:one'].value.analysis,'original');
+ assert.deepEqual(remote.users.A['essay:other'],initial['essay:other']);assert.deepEqual(a.queue(),{});
+});
+
+test('cached history is hidden across account switches and explicit signout',async()=>{
+ const remote=server({'essay:one':entry({analysis:'A private'})});const a=mount(remote);await a.ready();
+ a.store.put('essay:one',{analysis:'A newer'});await a.ready();assert(a.store.cachedHistory('essay:one').length);
+ remote.setUser('B');await a.ready();assert.deepEqual(a.store.cachedHistory('essay:one'),[]);
+ remote.setUser('A');await a.ready();assert(a.store.cachedHistory('essay:one').some(x=>x.value.analysis==='A private'));
+ a.store.lock();assert.deepEqual(a.store.cachedHistory('essay:one'),[]);
+});

@@ -198,6 +198,18 @@ try{
  await page.locator('.question-row-main').first().click();await page.getByRole('button',{name:'查看這題版本',exact:true}).click();
  assert.equal(await page.getByLabel('選擇還原紀錄').inputValue(),qKey);assert((await page.locator('.restore-record-context').innerText()).includes('選單驗收 A'));
  await page.getByRole('button',{name:'查看可還原版本',exact:true}).click();await page.locator('.study-history-version').first().waitFor();
+ // Cloud failure must not hide same-account versions already stored on this device.
+ const offlineBefore=await records();await page.route('**/api/**',route=>route.abort());
+ await page.getByRole('button',{name:'查看可還原版本',exact:true}).click();
+ await page.getByText('雲端版本暫時無法讀取，目前顯示此裝置保留的版本；還原後將在恢復連線時同步。',{exact:true}).waitFor();
+ const offlinePrior=page.locator('.study-history-version').filter({hasText:'選單驗收 B'}).first();await offlinePrior.waitFor();
+ await offlinePrior.locator('summary').click();await offlinePrior.getByRole('button',{name:'還原這個版本',exact:true}).click();
+ assert((await page.locator('.restore-record-context').innerText()).includes('選單驗收 B'));
+ assert.deepEqual(await records(),offlineBefore,'Offline restore must not write the server yet');
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+ await page.unroute('**/api/**');await page.getByRole('button',{name:'重試同步',exact:true}).click();await queueEmpty(page);
+ const reconnected=await records();assert.equal(reconnected[qKey].value.note,'選單驗收 B');assert.deepEqual(reconnected[essayKey],offlineBefore[essayKey]);
+ console.log('PASS offline cached history remains visible, restores locally and synchronizes after reconnect without changing other records');
  await page.screenshot({path:path.join(project,'.sites-runtime/study-mobile-history-context.png'),fullPage:true});
  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await page.getByRole('button',{name:'關閉視窗'}).click();
  console.log('PASS late history reply isolation, visible version excerpts, restoration targets correct record and direct question-history entry');
