@@ -282,3 +282,5 @@
 - [考試院111年公報](https://ws.exam.gov.tw/Download.ashx?icon=.pdf&n=6ICD6Kmm6Zmi5YWs5aCx56ysNDHljbfnrKw25pyfX%2BabuOexpC5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzkzMjUvNDUwNDEvYjA3OTRiZDAtYzEzNC00Njc2LTgzZWQtYjg5YjA0YzIzMDc3LnBkZg%3D%3D)復審個案所引當時程序要求解送前搜身，但製作筆錄而非解送之員警責任有疑義；已補二題解送申論，不能據個案取代現行全國完整程序。
 - [監察院公報第3326期](https://www-ws.cy.gov.tw/Download.ashx?icon=..pdf&n=MzMyNi5wZGY%3D&u=LzAwMS9VcGxvYWQvMy9yZWxmaWxlLzg5MTYvMjY2NTcvNmZiY2RiOWEtYjRlZi00Zjk5LWI1MDItNjYxZWQ2OGJhMGE1LnBkZg%3D%3D)引述110年臨檢盤查前五項安全事項；[警政署大事紀](https://www.npa.gov.tw/ch/app/data/doc?detailNo=1392776354088357888&module=events&type=s)確認114年6月27日修正。115勤務申論1補入歷史依據，114年全文及變動仍待核。
 - 四題逐項核對；113勤務21、三題申論與全國完整解送程序仍保留待核。證據與取得限制見[本批紀錄](legal-evidence-2026-11-16-restraint-sources.json)。
+
+- 發布紀錄：Sites 第28版來源 `bb7adcc845e0c031cf979f9e12050afaddccb30b`，部署 `appgdep_6afb8f9e12d08191b8ffb3e58be49027` 原生回報成功；網站維持公開。正式法規 API 仍受本環境 CONNECT 403 阻擋，部署後資料讀回與正式帳號驗收尚未完成。
