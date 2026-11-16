@@ -69,3 +69,8 @@ console.log('Restraint protections, repeal distinction, immediate transfer and o
 const chaseLaw=result.laws.find(l=>l.id==='chase');assert(chaseLaw);assert.equal(chaseLaw.verified,false);assert(chaseLaw.points.some(p=>p.includes('第7條之2')&&p.includes('不能或不宜攔截')));assert(chaseLaw.traps.some(p=>p.includes('並非最新SOP全文')));
 const chaseEssay=result.essays.find(e=>e.id==='duty111_s01');assert(chaseEssay);assert.equal(chaseEssay.verified,false);assert(chaseEssay.model.analysis.includes('單憑逃逸或慌張不當然構成現行犯'));assert(chaseEssay.model.analysis.includes('最新完整SOP'));
 console.log('Chase legal basis, safety limits and unresolved SOP version passed.');
+// A refusal warning is still required; consensual sampling is separate from compelled sampling.
+const bloodConsent=result.questions.find(q=>q.id==='duty113_04');assert(bloodConsent);assert.equal(bloodConsent.answer,2);assert(bloodConsent.currentAnswer.includes('受測者同意'));assert.equal(bloodConsent.verified,false);
+const breathNotice=result.questions.find(q=>q.id==='duty114_06');assert(breathNotice);assert.equal(breathNotice.answer,2);assert(breathNotice.options[2].correction.includes('拒測應告知法律效果'));assert.equal(breathNotice.verified,false);
+const oldBlood=result.questions.find(q=>q.id==='scene110-17');assert(oldBlood);assert.equal(oldBlood.answer,1);assert.equal(oldBlood.verified,false);assert(oldBlood.currentAnswer.includes('本人同意'));
+console.log('Consent, refusal notification, phased enactment and original blood-question answers passed.');

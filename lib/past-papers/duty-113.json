@@ -291,11 +291,27 @@
       "answerStatus": "官方最終答案已核",
       "amendment": {
         "status": "review",
-        "note": "本人同意採血與刑事強制採血不同。原題C錯把本人同意換成檢察官同意；現行個案仍須核對刑訴鑑定許可、111年憲判字第1號與最新SOP，不能以本題概括認定所有強制抽血合法。",
+        "law": "違反道路交通管理事件統一裁罰基準及處理細則第19條之2、刑事訴訟法第205條之1及第204條之1、道交條例第35條、111年憲判字第1號",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "mixed",
+        "effectiveDate": "道交條例115.8.17修正第35條第6、15項定115.12.31施行",
+        "note": "已核裁罰細則第19條之2第4項：有客觀事實足認無法吐氣時，經受測者同意，得送委託醫療或檢驗機構採血檢定。該項不能單獨作拒絕者強制採血依據；刑事鑑定、憲判過渡期間及道交未施行新制應分開。完整原SOP與個案現行強制法源仍待核。",
         "sources": [
           {
-            "title": "交通部・違反道路交通管理事件統一裁罰基準及處理細則",
-            "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=E0114065&type=1"
+            "title": "全國法規資料庫・裁罰基準及處理細則第19條之2",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0080029&flno=19-2"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法第205條之1",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=205-1"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法第204條之1",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=204-1"
+          },
+          {
+            "title": "全國法規資料庫・道交條例第35條（含分段施行資訊）",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35"
           },
           {
             "title": "憲法法庭・111年憲判字第1號",
@@ -316,8 +332,29 @@
         {
           "title": "交通部・違反道路交通管理事件統一裁罰基準及處理細則",
           "url": "https://motclaw.motc.gov.tw/webMotcLaw2018/Law/ArticleContent?LawID=E0114065&type=1"
+        },
+        {
+          "title": "全國法規資料庫・裁罰基準及處理細則第19條之2",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0080029&flno=19-2"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法第205條之1",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=205-1"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法第204條之1",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=204-1"
+        },
+        {
+          "title": "全國法規資料庫・道交條例第35條（含分段施行資訊）",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35"
+        },
+        {
+          "title": "憲法法庭・111年憲判字第1號",
+          "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=5304&id=310024"
         }
-      ]
+      ],
+      "currentAnswer": "原題C為當年官方答案。細則第19條之2第4項以受測者同意為要件；刑事鑑定採血另依刑訴第205條之1及許可程序，不能把一般同意與強制採血混同。"
     },
     {
       "id": "duty113_05",

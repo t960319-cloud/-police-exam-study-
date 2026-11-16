@@ -1311,31 +1311,39 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": true,
+      "verified": false,
       "origin": "110年內軌四等・警察情境實務概要・第17題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 17,
       "answerStatus": "原卷、官方初答及最終更正已核",
       "amendment": {
-        "status": "changed",
-        "law": "111年憲判字第1號、刑事訴訟法與道交條例強制採血規範",
-        "date": "2022-02-25",
-        "note": "110考後111憲判1宣告舊道交強制採血規範違憲，並設過渡程序。不得再把肇事拒測等同員警可不經審查直接抽血。截至核對日，115.08.17版道交35條第6及15項明定115.12.31才施行，不能提前當現行法；現行具體鑑定及強制採證權源須逐項核對。",
-        "oldRule": "原卷以舊取締SOP敘述將肇事拒測駕駛送醫抽血。",
-        "newRule": "須審查犯罪嫌疑、必要性、比例及有效法律權源／鑑定許可；不可只援用已失效舊條文，也不可把未生效條文提前適用。",
+        "status": "review",
+        "law": "違反道路交通管理事件統一裁罰基準及處理細則第19條之2、刑事訴訟法第205條之1及第204條之1、道交條例第35條、111年憲判字第1號",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "mixed",
+        "effectiveDate": "道交條例115.8.17修正第35條第6、15項定115.12.31施行",
+        "note": "原題110年答案B保留。111年憲判字第1號的違憲失效與過渡時限須依判決；裁罰細則第19條之2第4項係有客觀事實無法吐氣且經本人同意的採血，不能推成拒測者的概括強制採血授權。道交第35條第6、15項新規定115.12.31始施行；個案其他現行依據仍待核。",
         "sources": [
           {
-            "title": "憲法法庭111年憲判字第1號",
-            "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=97&id=310024&rn=11092"
+            "title": "全國法規資料庫・裁罰基準及處理細則第19條之2",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0080029&flno=19-2"
           },
           {
-            "title": "刑事訴訟法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            "title": "全國法規資料庫・刑事訴訟法第205條之1",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=205-1"
           },
           {
-            "title": "道路交通管理處罰條例（注意部分條文尚未生效）",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+            "title": "全國法規資料庫・刑事訴訟法第204條之1",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=204-1"
+          },
+          {
+            "title": "全國法規資料庫・道交條例第35條（含分段施行資訊）",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35"
+          },
+          {
+            "title": "憲法法庭・111年憲判字第1號",
+            "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=5304&id=310024"
           }
         ]
       },
@@ -1364,8 +1372,29 @@
         {
           "title": "憲法法庭111年憲判字第1號",
           "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=97&id=310024&rn=11092"
+        },
+        {
+          "title": "全國法規資料庫・裁罰基準及處理細則第19條之2",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0080029&flno=19-2"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法第205條之1",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=205-1"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法第204條之1",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=204-1"
+        },
+        {
+          "title": "全國法規資料庫・道交條例第35條（含分段施行資訊）",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35"
+        },
+        {
+          "title": "憲法法庭・111年憲判字第1號",
+          "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=5304&id=310024"
         }
-      ]
+      ],
+      "currentAnswer": "原題B按當年官方答案計分；現行應先區分經本人同意採血、刑事鑑定採血與尚未施行的交通新制，不得因肇事拒測就逕行強制抽血或任意留人。"
     },
     {
       "id": "scene110-18",
