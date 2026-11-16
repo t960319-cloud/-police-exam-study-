@@ -2006,5 +2006,318 @@
       }
     ],
     "createdAt": 1794833801482
+  },
+  {
+    "eventId": "legal-review-20261116-specific-statutes",
+    "kind": "update",
+    "checkedAt": "2026-11-16",
+    "summary": "依官方正式條文逐項補充第三人遴選、少年戒具、家暴通報、GPS追蹤與通知、酒駕同車乘客及陳述意見；保留原題與官方答案，未確定的通知範圍與作業程序維持待核。",
+    "sources": [
+      {
+        "title": "警察遴選第三人蒐集資料辦法第2、3、10條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146"
+      },
+      {
+        "title": "執行拘提逮捕解送使用戒具實施辦法第3、6條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+      },
+      {
+        "title": "家庭暴力防治法第50、62條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
+      },
+      {
+        "title": "刑事訴訟法第153條之1",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=153-1"
+      },
+      {
+        "title": "刑事訴訟法第153條之7",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=153-7"
+      },
+      {
+        "title": "道路交通管理處罰條例第35條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35"
+      },
+      {
+        "title": "道路交通管理處罰條例第9條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=9"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "investigation115_05",
+        "amendment": {
+          "status": "none",
+          "law": "警察遴選第三人蒐集資料辦法第2、3、10條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依現行辦法逐項核對；保留115年官方答案D。",
+          "sources": [
+            {
+              "title": "警察遴選第三人蒐集資料辦法第2、3、10條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D正確。依第2、3、10條分別區分書面核准、應保密及查核項目，並對所蒐集資料評鑑可信性。",
+        "takeaway": "遴選須書面核准、身分應保密；蒐集資料須客觀評鑑可信性。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第2條第1項要求以書面敘明事項陳報核准，並非口頭陳報。",
+            "correction": "應以書面敘明法定事項，經該管警察局長或警察分局長核准。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第2條第2項對姓名與身分是「應予保密」，非可自行決定是否保密。",
+            "correction": "第三人真實姓名及身分應保密，以代號或化名為之；簽名以捺指印代之。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第3條列忠誠度及信賴度、工作及生活背景、合作意願及動機；並未以經濟能力取代工作背景。",
+            "correction": "依第3條查核忠誠度及信賴度、工作及生活背景、合作意願及動機。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第10條第1項要求客觀評鑑取得過程、方法及資料可信性。",
+            "correction": "本項符合第10條第1項。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_25",
+        "amendment": {
+          "status": "none",
+          "law": "執行拘提逮捕解送使用戒具實施辦法第3、6條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依現行辦法逐項核對；保留114年官方答案D。少年原則不應使用，法定必要情形或少年事件處理法另有規定者例外。",
+          "sources": [
+            {
+              "title": "執行拘提逮捕解送使用戒具實施辦法第3、6條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D錯誤：少年原則不應使用戒具，但有第3條明定的必要情形或少年事件處理法特別規定時，不是一律禁止。",
+        "takeaway": "戒具不得作懲罰；少年原則不用，但有法定例外。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第6條要求維護身體與名譽，避免公然暴露戒具。",
+            "correction": "本項符合第6條。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第3條第1項禁止以戒具作為懲罰方法。",
+            "correction": "本項符合第3條第1項。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第3條第2項規定，即將生產、分娩過程中或甫生產後之婦女不應使用戒具。",
+            "correction": "本項符合第3條第2項。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第3條第3項規定少年原則不應使用，但列有防止自傷、傷人、脫逃或嚴重毀損他人財物的必要，以及少年事件處理法特別規定等例外。",
+            "correction": "依少年具體情況與法定例外判斷，並遵守比例原則，不得說一律不用。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation115_14",
+        "amendment": {
+          "status": "none",
+          "law": "家庭暴力防治法第50條第1項、第62條第1項",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依現行家暴法核對24小時通報與罰鍰；保留115年官方答案D。",
+          "sources": [
+            {
+              "title": "家庭暴力防治法第50、62條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D正確：執行職務知有疑似家暴應立即通報，至遲24小時；違反第50條第1項由地方主管機關處6,000元至30,000元罰鍰。第62條另有特定醫事人員不罰但書，勿套用為一般警察例外。",
+        "takeaway": "疑似家暴立即通報、至遲24小時；違反法定通報義務之罰鍰為6,000至30,000元。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第50條上限為24小時；第62條第1項罰鍰為6,000元以上3萬元以下，兩者均與本項不符。",
+            "correction": "應立即通報、至遲24小時；適用罰鍰為6,000至30,000元。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "罰鍰金額正確，但第50條通報上限是24小時而非12小時。",
+            "correction": "應立即通報，至遲不得逾24小時。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "24小時正確，但第62條第1項的罰鍰是6,000至30,000元。",
+            "correction": "應改為6,000元以上3萬元以下。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第50條第1項規定立即通報、至遲24小時，第62條第1項規定6,000至30,000元罰鍰。",
+            "correction": "本項符合第50條及第62條；24小時是最遲期限，不是可以等滿才通報。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation115_24",
+        "amendment": {
+          "status": "none",
+          "law": "刑事訴訟法第153條之1",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已核對刑訴第153條之1第三至五項；保留115年官方答案D。",
+          "sources": [
+            {
+              "title": "刑事訴訟法第153條之1",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=153-1"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D正確：未經法院許可的第153條之1位置追蹤，不得逾連續24小時或累計2日；實施當日不足24小時以1日計。法院許可每次至多30日，續行須至遲於期滿2日前依程序聲請。",
+        "takeaway": "位置追蹤：連續24小時或累計2日界線；法院每次許可至多30日。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "連續24小時正確；累計應為2日、法院每次許可上限為30日，非1日及15日。",
+            "correction": "甲24小時、乙2日、丙30日。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "連續24小時及法院30日正確，但累計界線為2日。",
+            "correction": "乙應為2日；實施當日不足24小時以1日計。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "累計2日正確，但連續界線為24小時，法院每次許可上限為30日。",
+            "correction": "甲應為24小時，丙應為30日。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第153條之1第三、五項分別規定連續24小時、累計2日及法院每次許可不逾30日。",
+            "correction": "本項符合第153條之1；逾期前循檢察官、法院程序聲請。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation115_25",
+        "amendment": {
+          "status": "review",
+          "law": "刑事訴訟法第153條之7",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "unverified",
+          "note": "115年官方答案B與刑訴第153條之7第2項相符；題幹概括全部GPS案件，尚須區別法院許可或補發許可案件與短期追蹤的通知主體，故保留待核。",
+          "sources": [
+            {
+              "title": "刑事訴訟法第153條之7",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=153-7"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "B為115年官方答案。第153條之7第1、2項所定法院許可或補發許可調查結束或停止後，執行機關逾1個月未陳報，法院應於14日內主動通知；通知顯有困難或不能通知有例外。短期追蹤另依第5項由執行機關通知，不能把法院通知寫成所有GPS案件皆適用。",
+        "takeaway": "法院許可調查逾期未報：法院原則14日內通知；短期追蹤另分流。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第153條之7第2項規定法院於14日內主動通知，非7日。",
+            "correction": "本題所指第2項期限應為14日。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "對第1項所指法院許可或補發許可的調查，執行機關逾1個月未陳報時，第2項規定法院原則於14日內主動通知。",
+            "correction": "選B；通知顯有困難或不能通知者，法院得不通知。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第2項法院主動通知期限為14日，非15日。",
+            "correction": "本題所指第2項期限應為14日。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第2項法院主動通知期限為14日，非30日。",
+            "correction": "本題所指第2項期限應為14日。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "duty112_24",
+        "amendment": {
+          "status": "review",
+          "law": "道路交通管理處罰條例第35條第8項、第9條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "unverified",
+          "note": "保留112年官方答案B。依115.10.31生效的第35條第8項及第9條補充乘客例外、門檻與陳述意見；完整同車乘客作業程序仍待核。",
+          "sources": [
+            {
+              "title": "道路交通管理處罰條例第35條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35"
+            },
+            {
+              "title": "道路交通管理處罰條例第9條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=9"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "B為112年官方答案。道交條例第35條第8項以駕駛人測得所列酒精或毒品情形為前提，年滿18歲同車乘客原則受罰，年滿70歲、心智障礙或汽車運輸業乘客除外；例外不代表可忽略其他獨立法定處置。接獲通知單後不服舉發事實，依第9條於30日內向處罰機關陳述意見。",
+        "takeaway": "乘客罰則依駕駛人檢測結果及乘客條件判斷；舉發異議原則30日內陳述意見。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第35條第8項的適用年齡為年滿18歲，未滿20歲不等於均免於該項處罰。",
+            "correction": "依是否年滿18歲及法定例外、駕駛人檢測條件判斷。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "年滿70歲乘客是第35條第8項明定的乘客罰鍰例外。",
+            "correction": "本題112年官方答案為B；其他獨立法定處置仍需個案判斷。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "心智障礙乘客為第35條第8項例外；本款並無因此自動改罰監護人的規定。",
+            "correction": "依法律分別判斷，不因本項乘客罰則直接轉罰監護人。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第9條規定接獲違反道路交通管理事件通知單後，不服舉發事實者應於30日內向處罰機關陳述意見。",
+            "correction": "將20日改為接獲通知單後30日，並區分對裁決的救濟程序。",
+            "trueStatement": false
+          }
+        ]
+      }
+    ],
+    "createdAt": 1794834550285
   }
 ]

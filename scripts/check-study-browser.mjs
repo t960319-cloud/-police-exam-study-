@@ -141,6 +141,18 @@ try{
  assert((await page.getByRole('dialog').innerText()).includes('考點說明・本站整理'));
  await page.getByRole('button',{name:'關閉視窗'}).click();assert.deepEqual((await records())[`q:${investigation.id}`],investigationBefore);
  console.log('PASS retained investigation filtering, original figure, answer-key wording and unchanged study progress');
+ // Newly reviewed investigation options must expose both explanations and corrections.
+ await page.getByLabel('篩選年度',{exact:true}).selectOption('115');
+ const reviewed=JSON.parse(await readFile(path.join(project,'lib/past-papers/investigation-115.json'),'utf8')).questions;
+ for(const id of ['investigation115_05','investigation115_02']){
+  const item=reviewed.find(q=>q.id===id);const before=(await records())[`q:${id}`];
+  await page.getByLabel('搜尋題目、考點或法條',{exact:true}).fill(item.title);await page.locator('.question-row-main').first().click();
+  await page.getByRole('button',{name:'直接看解析（不計作答）'}).click();const view=page.getByRole('dialog');
+  assert((await view.innerText()).includes('A～D逐項解析'));assert.equal(await view.locator('.option-analysis .correction').count(),4);
+  assert((await view.innerText()).includes(item.options[1].correction));await page.getByRole('button',{name:'關閉視窗'}).click();
+  assert.deepEqual((await records())[`q:${id}`],before);
+ }
+ console.log('PASS reviewed investigation explanations and all four corrections visible without recording attempts');
  // Filtered practice must honor common and advanced filters, including all pages.
  await page.getByLabel('搜尋題目、考點或法條',{exact:true}).fill('');
  await page.getByLabel('篩選年度',{exact:true}).selectOption('110');await page.getByLabel('篩選科目',{exact:true}).selectOption('警察法規');

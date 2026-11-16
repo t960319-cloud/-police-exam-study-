@@ -120,3 +120,11 @@
 - GitHub與Sites原始碼 `f09b6c9db8eddcba0e7513e089d894fe14669a9f` 已存為Sites第13版，部署 `appgdep_6afafe8ae660819189c7b9cab040acfd` 原生回報成功；網站存取對象仍為public。
 - 發布前正式法規API為7筆、無後續分頁；部署後新正式網域在此環境遭CONNECT 403，尚未讀回API核對既有及新增事件。Sites原生唯讀確認DB及三個資料表存在，這不等於法規API內容已驗證。
 - 正式帳號完整驗收未完成；完整法規原件及逐題核對仍按上述清單處理，保留待核註記。
+
+### 2026-11-16：逐題核對第三人、戒具、家暴、GPS及同車乘客
+
+- 依[第三人資料辦法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146)第2、3、10條補115犯罪偵查5；依[戒具實施辦法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058)第3、6條補114犯罪偵查25，逐一核對四個選項。
+- 依[家暴法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071)第50、62條補115犯罪偵查14的立即通報、24小時最遲期限、罰鍰及醫事人員特定例外。
+- 依[刑訴第153條之1](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=153-1)補115犯罪偵查24的24小時／累計2日／每次30日、未滿一日計算與續行聲請；以上四題已逐項核對並標示完成。
+- 115犯罪偵查25補[刑訴第153條之7](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=153-7)，分開法院許可案件的法院通知與短期調查之執行機關通知，原題概括範圍仍待核。112勤務24補[道交第35條](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35)第8項乘客條件及[第9條](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=9)陳述意見；完整作業程序未取得，仍保留待核。
+- 均保留當年原題、選項及官方答案；官方頁面所載資料整編截止115.11.06。來源與下載頁面雜湊見[本輪證據](legal-evidence-2026-11-16-specific-statutes.json)。本次對照不代表其他科目或同主題題目均已完成。

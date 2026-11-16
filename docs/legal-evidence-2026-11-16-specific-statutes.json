@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-11-16",
+  "timezone": "Asia/Taipei",
+  "retrieval": "以HTTPS直接讀取全國法規資料庫，HTTP狀態200；頁面列示的法規整編資料截止日為115.11.06，無法排除之後尚未收錄的修正。",
+  "sources": [
+    {
+      "title": "警察遴選第三人蒐集資料辦法第2、3、10條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146",
+      "sha256": "09580e739c579d9ef597c939cbc75f0eb4946d439b1cf2511596769a1aae7c90"
+    },
+    {
+      "title": "執行拘提逮捕解送使用戒具實施辦法第3、6條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058",
+      "sha256": "e3918514c2e7fbe12fb8940fc2bebffee7d6f5cf157c5589b8a35448dfdfefd7"
+    },
+    {
+      "title": "家庭暴力防治法第50、62條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071",
+      "sha256": "b017506642ec0ff46435eacc450234e53f1e37124175dc61349c2077dd73f88d"
+    },
+    {
+      "title": "刑事訴訟法第153條之1",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=153-1",
+      "sha256": "0c71e2307d70ab17bf6f8f3bb8294e0a92a626176a7dc6f318c5c5b8b9f507e8"
+    },
+    {
+      "title": "刑事訴訟法第153條之7",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=153-7",
+      "sha256": "beb39818cfc9edd8a7b89cdfbcddd583f7af6ef0226a7df6e35812e611c2637f"
+    },
+    {
+      "title": "道路交通管理處罰條例第35條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35",
+      "sha256": "a214762ce44894a71a62d4bee2879ff273dec095f14b08dea382d00a2d643362"
+    },
+    {
+      "title": "道路交通管理處罰條例第9條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=9",
+      "sha256": "e19e4e63cefe4a3643b6d7f5be82257e472bf3145879a06138a6a8ebccd22d26"
+    }
+  ],
+  "verifiedQuestionIds": [
+    "investigation115_05",
+    "investigation114_25",
+    "investigation115_14",
+    "investigation115_24"
+  ],
+  "reviewQuestionIds": [
+    "investigation115_25",
+    "duty112_24"
+  ],
+  "limitations": [
+    "原卷、選項與官方答案不變。",
+    "GPS法院通知範圍與短期調查依第153條之7分流，題幹概括情形保留待核。",
+    "同車乘客作業程序完整版本尚未取得，仍待核。",
+    "道交第35條第8項115.10.31施行；未將第6、15項115.12.31施行新規套用為現行。"
+  ]
+}

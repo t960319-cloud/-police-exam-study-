@@ -1578,26 +1578,26 @@
       "options": [
         {
           "text": "同車乘客如未滿 20 歲者，應予放行",
-          "explanation": "112年已非以未滿20歲為同車乘客處罰的年齡界線。",
-          "correction": "應依現行年滿18歲的適用範圍判斷，未滿18歲者不依該乘客款處罰。",
+          "explanation": "第35條第8項的適用年齡為年滿18歲，未滿20歲不等於均免於該項處罰。",
+          "correction": "依是否年滿18歲及法定例外、駕駛人檢測條件判斷。",
           "trueStatement": false
         },
         {
           "text": "同車乘客如年滿 70 歲者，應予放行",
-          "explanation": "年滿70歲者屬本題同車乘客罰則除外對象。",
-          "correction": "無須修正。",
+          "explanation": "年滿70歲乘客是第35條第8項明定的乘客罰鍰例外。",
+          "correction": "本題112年官方答案為B；其他獨立法定處置仍需個案判斷。",
           "trueStatement": true
         },
         {
           "text": "同車乘客如為心智障礙者，處罰其監護人",
-          "explanation": "心智障礙者有法定除外或責任能力考量，不是自動處罰監護人。",
-          "correction": "依法判斷本人適用範圍，不把罰鍰轉嫁監護人。",
+          "explanation": "心智障礙乘客為第35條第8項例外；本款並無因此自動改罰監護人的規定。",
+          "correction": "依法律分別判斷，不因本項乘客罰則直接轉罰監護人。",
           "trueStatement": false
         },
         {
           "text": "經製單舉發而對於交通違規稽查舉發不符或有異議者，可於 20 日內向處罰機關陳述意見",
-          "explanation": "本題陳述意見的期間不是20日。",
-          "correction": "原題應改為30日；仍須核對所收通知及現行程序。",
+          "explanation": "第9條規定接獲違反道路交通管理事件通知單後，不服舉發事實者應於30日內向處罰機關陳述意見。",
+          "correction": "將20日改為接獲通知單後30日，並區分對裁決的救濟程序。",
           "trueStatement": false
         }
       ],
@@ -1613,10 +1613,22 @@
       "answerStatus": "官方最終答案已核",
       "amendment": {
         "status": "review",
-        "note": "保留112官方答案B。乘客年齡、心智障礙例外及陳述意見程序須依現行道交條例第35條、相關裁罰規定及具體通知內容確認。",
-        "sources": []
+        "law": "道路交通管理處罰條例第35條第8項、第9條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "unverified",
+        "note": "保留112年官方答案B。依115.10.31生效的第35條第8項及第9條補充乘客例外、門檻與陳述意見；完整同車乘客作業程序仍待核。",
+        "sources": [
+          {
+            "title": "道路交通管理處罰條例第35條",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35"
+          },
+          {
+            "title": "道路交通管理處罰條例第9條",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=9"
+          }
+        ]
       },
-      "takeaway": "年滿70歲者屬本題同車乘客罰則除外對象。",
+      "takeaway": "乘客罰則依駕駛人檢測結果及乘客條件判斷；舉發異議原則30日內陳述意見。",
       "sources": [
         {
           "title": "考選部・112年警勤原卷",
@@ -1625,8 +1637,17 @@
         {
           "title": "考選部・112年標準答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112070&c=601&s=1209&q=1"
+        },
+        {
+          "title": "道路交通管理處罰條例第35條",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35"
+        },
+        {
+          "title": "道路交通管理處罰條例第9條",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=9"
         }
-      ]
+      ],
+      "currentAnswer": "B為112年官方答案。道交條例第35條第8項以駕駛人測得所列酒精或毒品情形為前提，年滿18歲同車乘客原則受罰，年滿70歲、心智障礙或汽車運輸業乘客除外；例外不代表可忽略其他獨立法定處置。接獲通知單後不服舉發事實，依第9條於30日內向處罰機關陳述意見。"
     },
     {
       "id": "duty112_25",

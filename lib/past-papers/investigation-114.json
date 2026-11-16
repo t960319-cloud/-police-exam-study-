@@ -58,7 +58,6 @@
       "paperTrack": "內軌",
       "paperNumber": 1,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
         "law": "警察機關受理刑事案件報案單一窗口實施要點",
@@ -1781,26 +1780,26 @@
       "options": [
         {
           "text": "應避免公然暴露戒具",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：少年戒具使用受嚴格必要性限制，不是任何情況均禁止；不得當成懲罰或公然暴露。",
+          "explanation": "第6條要求維護身體與名譽，避免公然暴露戒具。",
+          "correction": "本項符合第6條。",
           "trueStatement": true
         },
         {
           "text": "不得以使用戒具作為懲罰之方法",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：少年戒具使用受嚴格必要性限制，不是任何情況均禁止；不得當成懲罰或公然暴露。",
+          "explanation": "第3條第1項禁止以戒具作為懲罰方法。",
+          "correction": "本項符合第3條第1項。",
           "trueStatement": true
         },
         {
           "text": "對於即將生產、分娩過程中或甫生產後之婦女，皆不應使用戒具",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：少年戒具使用受嚴格必要性限制，不是任何情況均禁止；不得當成懲罰或公然暴露。",
+          "explanation": "第3條第2項規定，即將生產、分娩過程中或甫生產後之婦女不應使用戒具。",
+          "correction": "本項符合第3條第2項。",
           "trueStatement": true
         },
         {
           "text": "對於少年，皆不應使用戒具",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "少年戒具使用受嚴格必要性限制，不是任何情況均禁止；不得當成懲罰或公然暴露。",
+          "explanation": "第3條第3項規定少年原則不應使用，但列有防止自傷、傷人、脫逃或嚴重毀損他人財物的必要，以及少年事件處理法特別規定等例外。",
+          "correction": "依少年具體情況與法定例外判斷，並遵守比例原則，不得說一律不用。",
           "trueStatement": false
         }
       ],
@@ -1811,19 +1810,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第25題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 25,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "執行拘提逮捕解送使用戒具實施辦法第3、6條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依現行辦法逐項核對；保留114年官方答案D。少年原則不應使用，法定必要情形或少年事件處理法另有規定者例外。",
+        "sources": [
+          {
+            "title": "執行拘提逮捕解送使用戒具實施辦法第3、6條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+          }
+        ]
       },
-      "takeaway": "少年戒具使用受嚴格必要性限制，不是任何情況均禁止；不得當成懲罰或公然暴露。",
+      "takeaway": "戒具不得作懲罰；少年原則不用，但有法定例外。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -1840,8 +1846,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "執行拘提逮捕解送使用戒具實施辦法第3、6條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
         }
-      ]
+      ],
+      "currentAnswer": "D錯誤：少年原則不應使用戒具，但有第3條明定的必要情形或少年事件處理法特別規定時，不是一律禁止。"
     },
     {
       "id": "investigation114_26",

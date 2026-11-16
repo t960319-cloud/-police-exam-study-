@@ -75,5 +75,16 @@ const breathNotice=result.questions.find(q=>q.id==='duty114_06');assert(breathNo
 const oldBlood=result.questions.find(q=>q.id==='scene110-17');assert(oldBlood);assert.equal(oldBlood.answer,1);assert.equal(oldBlood.verified,false);assert(oldBlood.currentAnswer.includes('本人同意'));
 console.log('Consent, refusal notification, phased enactment and original blood-question answers passed.');
 // Historical exam answers do not establish the missing national rules' current full text.
-for(const [id,key] of [['investigation114_01',3],['investigation115_02',3]]){const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.answer,key);assert.equal(q.verified,false);assert.equal(q.amendment.status,'review');assert(q.currentAnswer.includes('官方'));assert(q.options.every(o=>o.explanation.length>12&&o.correction.length>12));}
+for(const [id,key] of [['investigation114_01',3],['investigation115_02',3]]){const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.answer,key);assert.equal(q.verified,false);assert.equal(q.amendment.status,'review');assert.notEqual(q.analysisMode,'answer-key');assert(q.currentAnswer.includes('官方'));assert(q.options.every(o=>o.explanation.length>12&&o.correction.length>12));}
 console.log('Investigation option explanations retain official keys and unresolved national-rule status.');
+// Specific statutes must preserve original keys and distinguish court-approved GPS investigations from short-term notices.
+for(const [id,answer] of [['investigation115_05',3],['investigation114_25',3],['investigation115_14',3],['investigation115_24',3]]){
+ const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.answer,answer);assert.equal(q.verified,true);assert.notEqual(q.analysisMode,'answer-key');assert(q.amendment.sources.length);assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()&&!o.explanation.includes('本項不在當年度官方接受答案')));
+}
+const informant=result.questions.find(q=>q.id==='investigation115_05');assert(informant.options[1].explanation.includes('應予保密'));
+const youth=result.questions.find(q=>q.id==='investigation114_25');assert(youth.options[3].explanation.includes('例外'));
+const domestic=result.questions.find(q=>q.id==='investigation115_14');assert(domestic.currentAnswer.includes('立即通報'));assert(domestic.currentAnswer.includes('24小時'));
+const gpsPeriod=result.questions.find(q=>q.id==='investigation115_24');assert(gpsPeriod.currentAnswer.includes('不足24小時以1日計'));assert(gpsPeriod.currentAnswer.includes('期滿2日前'));
+const gpsNotice=result.questions.find(q=>q.id==='investigation115_25');assert.equal(gpsNotice.answer,1);assert.equal(gpsNotice.verified,false);assert.notEqual(gpsNotice.analysisMode,'answer-key');assert(gpsNotice.currentAnswer.includes('法院許可或補發許可'));assert(gpsNotice.currentAnswer.includes('短期追蹤'));
+const passenger=result.questions.find(q=>q.id==='duty112_24');assert.equal(passenger.answer,1);assert.equal(passenger.verified,false);assert(passenger.currentAnswer.includes('駕駛人測得'));assert(passenger.currentAnswer.includes('30日內'));
+console.log('Statute-backed options, GPS notice branches, passenger prerequisites and original answers passed.');

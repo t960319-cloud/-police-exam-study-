@@ -130,7 +130,6 @@
       "paperTrack": "內軌",
       "paperNumber": 2,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
         "law": "警察機關通報越區辦案應行注意事項；臺中市刑事警察勤務實施要領",
@@ -340,26 +339,26 @@
       "options": [
         {
           "text": "警察遴選第三人時，應以口頭敘明情蒐事項，陳報該管警察局長或警察分局長核准後實施",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：警方須客觀審視資料取得過程、方法及結果評鑑可信性；核准形式與身分保密仍有法定程序。",
+          "explanation": "第2條第1項要求以書面敘明事項陳報核准，並非口頭陳報。",
+          "correction": "應以書面敘明法定事項，經該管警察局長或警察分局長核准。",
           "trueStatement": false
         },
         {
           "text": "第三人之真實姓名及身分得予保密，並以代號或化名為之，第三人之簽名以捺指印代之",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：警方須客觀審視資料取得過程、方法及結果評鑑可信性；核准形式與身分保密仍有法定程序。",
+          "explanation": "第2條第2項對姓名與身分是「應予保密」，非可自行決定是否保密。",
+          "correction": "第三人真實姓名及身分應保密，以代號或化名為之；簽名以捺指印代之。",
           "trueStatement": false
         },
         {
           "text": "警察遴選第三人，應查核忠誠度、信賴度、經濟能力和生活背景，以及合作意願與動機",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：警方須客觀審視資料取得過程、方法及結果評鑑可信性；核准形式與身分保密仍有法定程序。",
+          "explanation": "第3條列忠誠度及信賴度、工作及生活背景、合作意願及動機；並未以經濟能力取代工作背景。",
+          "correction": "依第3條查核忠誠度及信賴度、工作及生活背景、合作意願及動機。",
           "trueStatement": false
         },
         {
           "text": "警察對第三人所蒐集之資料，應客觀判斷其取得過程及方法，參酌經驗及結果事實情況，評鑑其可信性",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "警方須客觀審視資料取得過程、方法及結果評鑑可信性；核准形式與身分保密仍有法定程序。",
+          "explanation": "第10條第1項要求客觀評鑑取得過程、方法及資料可信性。",
+          "correction": "本項符合第10條第1項。",
           "trueStatement": true
         }
       ],
@@ -370,19 +369,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第5題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 5,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "警察遴選第三人蒐集資料辦法第2、3、10條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依現行辦法逐項核對；保留115年官方答案D。",
+        "sources": [
+          {
+            "title": "警察遴選第三人蒐集資料辦法第2、3、10條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146"
+          }
+        ]
       },
-      "takeaway": "警方須客觀審視資料取得過程、方法及結果評鑑可信性；核准形式與身分保密仍有法定程序。",
+      "takeaway": "遴選須書面核准、身分應保密；蒐集資料須客觀評鑑可信性。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -399,8 +405,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警察遴選第三人蒐集資料辦法第2、3、10條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146"
         }
-      ]
+      ],
+      "currentAnswer": "D正確。依第2、3、10條分別區分書面核准、應保密及查核項目，並對所蒐集資料評鑑可信性。"
     },
     {
       "id": "investigation115_06",
@@ -988,26 +999,26 @@
       "options": [
         {
           "text": "甲為 12，乙為 3 千元以上 6 萬元以下",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：本題至遲24小時內通報，違反者罰鍰6千至3萬元；通報時間與處罰數額須成對記憶。",
+          "explanation": "第50條上限為24小時；第62條第1項罰鍰為6,000元以上3萬元以下，兩者均與本項不符。",
+          "correction": "應立即通報、至遲24小時；適用罰鍰為6,000至30,000元。",
           "trueStatement": false
         },
         {
           "text": "甲為 12，乙為 6 千元以上 3 萬元以下",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：本題至遲24小時內通報，違反者罰鍰6千至3萬元；通報時間與處罰數額須成對記憶。",
+          "explanation": "罰鍰金額正確，但第50條通報上限是24小時而非12小時。",
+          "correction": "應立即通報，至遲不得逾24小時。",
           "trueStatement": false
         },
         {
           "text": "甲為 24，乙為 3 千元以上 6 萬元以下",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：本題至遲24小時內通報，違反者罰鍰6千至3萬元；通報時間與處罰數額須成對記憶。",
+          "explanation": "24小時正確，但第62條第1項的罰鍰是6,000至30,000元。",
+          "correction": "應改為6,000元以上3萬元以下。",
           "trueStatement": false
         },
         {
           "text": "甲為 24，乙為 6 千元以上 3 萬元以下",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "本題至遲24小時內通報，違反者罰鍰6千至3萬元；通報時間與處罰數額須成對記憶。",
+          "explanation": "第50條第1項規定立即通報、至遲24小時，第62條第1項規定6,000至30,000元罰鍰。",
+          "correction": "本項符合第50條及第62條；24小時是最遲期限，不是可以等滿才通報。",
           "trueStatement": true
         }
       ],
@@ -1018,19 +1029,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第14題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 14,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "家庭暴力防治法第50條第1項、第62條第1項",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依現行家暴法核對24小時通報與罰鍰；保留115年官方答案D。",
+        "sources": [
+          {
+            "title": "家庭暴力防治法第50、62條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
+          }
+        ]
       },
-      "takeaway": "本題至遲24小時內通報，違反者罰鍰6千至3萬元；通報時間與處罰數額須成對記憶。",
+      "takeaway": "疑似家暴立即通報、至遲24小時；違反法定通報義務之罰鍰為6,000至30,000元。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -1047,8 +1065,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "家庭暴力防治法第50、62條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
         }
-      ]
+      ],
+      "currentAnswer": "D正確：執行職務知有疑似家暴應立即通報，至遲24小時；違反第50條第1項由地方主管機關處6,000元至30,000元罰鍰。第62條另有特定醫事人員不罰但書，勿套用為一般警察例外。"
     },
     {
       "id": "investigation115_15",
@@ -1711,26 +1734,26 @@
       "options": [
         {
           "text": "甲為 24，乙為 1，丙為 15",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：原卷連續24小時或累計2日門檻，超過前依法聲請法院；法院每次許可不逾30日，屬科技偵查新制考點。",
+          "explanation": "連續24小時正確；累計應為2日、法院每次許可上限為30日，非1日及15日。",
+          "correction": "甲24小時、乙2日、丙30日。",
           "trueStatement": false
         },
         {
           "text": "甲為 24，乙為 1，丙為 30",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：原卷連續24小時或累計2日門檻，超過前依法聲請法院；法院每次許可不逾30日，屬科技偵查新制考點。",
+          "explanation": "連續24小時及法院30日正確，但累計界線為2日。",
+          "correction": "乙應為2日；實施當日不足24小時以1日計。",
           "trueStatement": false
         },
         {
           "text": "甲為 48，乙為 2，丙為 15",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：原卷連續24小時或累計2日門檻，超過前依法聲請法院；法院每次許可不逾30日，屬科技偵查新制考點。",
+          "explanation": "累計2日正確，但連續界線為24小時，法院每次許可上限為30日。",
+          "correction": "甲應為24小時，丙應為30日。",
           "trueStatement": false
         },
         {
           "text": "甲為 24，乙為 2，丙為 30",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "原卷連續24小時或累計2日門檻，超過前依法聲請法院；法院每次許可不逾30日，屬科技偵查新制考點。",
+          "explanation": "第153條之1第三、五項分別規定連續24小時、累計2日及法院每次許可不逾30日。",
+          "correction": "本項符合第153條之1；逾期前循檢察官、法院程序聲請。",
           "trueStatement": true
         }
       ],
@@ -1741,19 +1764,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第24題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 24,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "刑事訴訟法第153條之1",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已核對刑訴第153條之1第三至五項；保留115年官方答案D。",
+        "sources": [
+          {
+            "title": "刑事訴訟法第153條之1",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=153-1"
+          }
+        ]
       },
-      "takeaway": "原卷連續24小時或累計2日門檻，超過前依法聲請法院；法院每次許可不逾30日，屬科技偵查新制考點。",
+      "takeaway": "位置追蹤：連續24小時或累計2日界線；法院每次許可至多30日。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -1770,8 +1800,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "刑事訴訟法第153條之1",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=153-1"
         }
-      ]
+      ],
+      "currentAnswer": "D正確：未經法院許可的第153條之1位置追蹤，不得逾連續24小時或累計2日；實施當日不足24小時以1日計。法院許可每次至多30日，續行須至遲於期滿2日前依程序聲請。"
     },
     {
       "id": "investigation115_25",
@@ -1783,26 +1818,26 @@
       "options": [
         {
           "text": "7 日",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：警察逾1個月未陳報，本題法院應於14日內主動通知受調查人；與調查期間及延長程序不同。",
+          "explanation": "第153條之7第2項規定法院於14日內主動通知，非7日。",
+          "correction": "本題所指第2項期限應為14日。",
           "trueStatement": false
         },
         {
           "text": "14 日",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "警察逾1個月未陳報，本題法院應於14日內主動通知受調查人；與調查期間及延長程序不同。",
+          "explanation": "對第1項所指法院許可或補發許可的調查，執行機關逾1個月未陳報時，第2項規定法院原則於14日內主動通知。",
+          "correction": "選B；通知顯有困難或不能通知者，法院得不通知。",
           "trueStatement": true
         },
         {
           "text": "15 日",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：警察逾1個月未陳報，本題法院應於14日內主動通知受調查人；與調查期間及延長程序不同。",
+          "explanation": "第2項法院主動通知期限為14日，非15日。",
+          "correction": "本題所指第2項期限應為14日。",
           "trueStatement": false
         },
         {
           "text": "30 日",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：警察逾1個月未陳報，本題法院應於14日內主動通知受調查人；與調查期間及延長程序不同。",
+          "explanation": "第2項法院主動通知期限為14日，非30日。",
+          "correction": "本題所指第2項期限應為14日。",
           "trueStatement": false
         }
       ],
@@ -1819,13 +1854,20 @@
       "paperTrack": "內軌",
       "paperNumber": 25,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "刑事訴訟法第153條之7",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "unverified",
+        "note": "115年官方答案B與刑訴第153條之7第2項相符；題幹概括全部GPS案件，尚須區別法院許可或補發許可案件與短期追蹤的通知主體，故保留待核。",
+        "sources": [
+          {
+            "title": "刑事訴訟法第153條之7",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=153-7"
+          }
+        ]
       },
-      "takeaway": "警察逾1個月未陳報，本題法院應於14日內主動通知受調查人；與調查期間及延長程序不同。",
+      "takeaway": "法院許可調查逾期未報：法院原則14日內通知；短期追蹤另分流。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -1842,8 +1884,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "刑事訴訟法第153條之7",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=153-7"
         }
-      ]
+      ],
+      "currentAnswer": "B為115年官方答案。第153條之7第1、2項所定法院許可或補發許可調查結束或停止後，執行機關逾1個月未陳報，法院應於14日內主動通知；通知顯有困難或不能通知有例外。短期追蹤另依第5項由執行機關通知，不能把法院通知寫成所有GPS案件皆適用。"
     },
     {
       "id": "investigation115_26",
