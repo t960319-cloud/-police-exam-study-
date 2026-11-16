@@ -3923,5 +3923,659 @@
       }
     ],
     "createdAt": 1794836517828
+  },
+  {
+    "eventId": "legal-review-20261116-police-law-remedies",
+    "kind": "update",
+    "checkedAt": "2026-11-16",
+    "summary": "依警職、社維、集遊、行政執行及警械補償官方法規逐題補核；取得內政部正式逐條說明，區分單純同車與教唆衝撞之第三人範圍。",
+    "sources": [
+      {
+        "title": "社會秩序維護法第19、31、32條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+      },
+      {
+        "title": "警察職權行使法第9、11至18、29、31條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+      },
+      {
+        "title": "警察遴選第三人蒐集資料辦法第2、4、5、10、11條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146"
+      },
+      {
+        "title": "集會遊行法第12、27、28條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+      },
+      {
+        "title": "行政執行法第4、7、11條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+      },
+      {
+        "title": "行政執行法沿革：101年起行政執行處權責移由分署",
+        "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=A0030023"
+      },
+      {
+        "title": "警械使用條例第11條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+      },
+      {
+        "title": "警械使用事件補償辦法第2、3、6、11條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080219"
+      },
+      {
+        "title": "內政部警械使用事件補償辦法逐條說明第2條",
+        "url": "https://ws.moi.gov.tw/Download.ashx?n=MTEyMDQxOeitpuaisOS9v%2BeUqOS6i%2BS7tuijnOWEn%2Bi%2Bpuazlee4veiqquaYjuWPiumAkOaineiqquaYji5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTA4Mi8yNzkwNDAvMWMzMDAxZWYtMDA2My00MjFjLWEwMWItMjdhZTZjZWViNTk1LnBkZg%3D%3D"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "law113-outer-11",
+        "amendment": {
+          "status": "none",
+          "law": "警械使用條例第11條；補償辦法第2條及內政部逐條說明",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依官方法規、主管機關逐條說明逐項核對；保留113年官方答案B。",
+          "sources": [
+            {
+              "title": "警械使用條例第11條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+            },
+            {
+              "title": "警械使用事件補償辦法第2、3、6、11條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080219"
+            },
+            {
+              "title": "內政部警械使用事件補償辦法逐條說明第2條",
+              "url": "https://ws.moi.gov.tw/Download.ashx?n=MTEyMDQxOeitpuaisOS9v%2BeUqOS6i%2BS7tuijnOWEn%2Bi%2Bpuazlee4veiqquaYjuWPiumAkOaineiqquaYji5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTA4Mi8yNzkwNDAvMWMzMDAxZWYtMDA2My00MjFjLWEwMWItMjdhZTZjZWViNTk1LnBkZg%3D%3D"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B為官方答案。補償辦法排除用械相對人及執勤警察；內政部逐條說明認為乘客若與駕駛有協助拒捕、脫逃之犯意聯絡，甚至教唆衝撞，屬相對人而非第三人。單純同車並不因此失去第三人身分，具體事實仍應查明。",
+        "takeaway": "同車不當然排除；共同行為或教唆須依實際犯意聯絡判斷用械相對人。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "逐條說明指出單純駕駛與乘客關係、沒有犯意聯絡者，乘客仍可屬第三人。",
+            "correction": "不能僅因同車排除第三人身分。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "內政部逐條說明明舉教唆駕駛衝撞，認屬用械相對人，難謂第三人。",
+            "correction": "依具體教唆與犯意聯絡事實認定；本題選B。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "逐條說明列遭歹徒挾持之人為第三人例子。",
+            "correction": "被挾持不當然使其成為用械相對人。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "逐條說明列路過民眾為第三人例子。",
+            "correction": "路過民眾原則依個案事實判斷第三人身分。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law113-outer-18",
+        "amendment": {
+          "status": "none",
+          "law": "社會秩序維護法第19條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依官方法規逐項核對；保留113年官方答案A。",
+          "sources": [
+            {
+              "title": "社會秩序維護法第19、31、32條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A錯誤：第19條六種處罰包括拘留、勒令歇業、停止營業、罰鍰、沒入及申誡；本法用語為沒入而非沒收。",
+        "takeaway": "社維法六種處罰中的財物處分稱「沒入」。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第19條列沒入，未列沒收作處罰種類。",
+            "correction": "本題選沒收。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第19條第1款列拘留。",
+            "correction": "拘留屬第19條所定處罰。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第19條第2款列勒令歇業。",
+            "correction": "勒令歇業屬第19條所定處罰。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第19條第6款列申誡。",
+            "correction": "申誡屬第19條所定處罰。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-inner-06",
+        "amendment": {
+          "status": "none",
+          "law": "警察職權行使法第9、11、16、18條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依官方法規逐項核對；保留114年官方答案B。",
+          "sources": [
+            {
+              "title": "警察職權行使法第9、11至18、29、31條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B錯誤：第9條必要保存資料原則至遲製作完成起1年銷毀，但已起訴且審判未終結或違反組織犯罪防制條例案件有例外，不能一律只保留1年。",
+        "takeaway": "公共活動資料1年原則有法定例外；其他蒐集法源及保存規則分開。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第16條允許在職權目的範圍內、必要時依其他機關請求傳遞個資。",
+            "correction": "須符合目的範圍及必要性。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第9條第3項原則至遲1年銷毀，但列起訴審判未終結及組織犯罪防制條例案件例外。",
+            "correction": "補上法定例外，起算點為資料製作完成時。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第11條對所列犯罪之虞須警察局長書面同意，每次不逾1年，必要時延長1次。",
+            "correction": "仍須符合第11條犯罪之虞及無合理隱私期待等條件。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第18條規定資料對任務不再有幫助時原則註銷或銷毀，危及本人值得保護利益例外。",
+            "correction": "依第18條並注意法定最長保存期間。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-inner-07",
+        "amendment": {
+          "status": "none",
+          "law": "警察遴選第三人蒐集資料辦法第4、5、10、11條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依官方法規逐項核對；保留114年官方答案A。",
+          "sources": [
+            {
+              "title": "警察遴選第三人蒐集資料辦法第2、4、5、10、11條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A為官方答案：第4條列「蒐集資料之方法及技巧」，原題加上偵查技巧，並非法條所列文字。須分清訓練、交付任務、保密及資料評鑑。",
+        "takeaway": "第三人訓練為資料蒐集方法及技巧，並非逕給第三人警察偵查職權。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第4條列蒐集資料之方法及技巧，未將題示偵查技巧列為該條訓練項目。",
+            "correction": "以第4條法定文字及範圍作答。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第5條規定完成訓練後以口頭或其他適當方式交付任務。",
+            "correction": "並應告知第5條所列必要事項。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第11條要求保密、專案建檔並指定專人管理。",
+            "correction": "本項符合第11條。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第10條要求依取得過程、方法與事實客觀評鑑可信性。",
+            "correction": "本項符合第10條。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-04",
+        "amendment": {
+          "status": "none",
+          "law": "警察職權行使法第12至15條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依官方法規逐項核對；保留114年官方答案B。",
+          "sources": [
+            {
+              "title": "警察職權行使法第9、11至18、29、31條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B正確：依第14條，對能提供防止具體危害必要資料者，得口頭或書面敘明事由通知到場。第三人遴選與治安顧慮人口查訪各有獨立要件。",
+        "takeaway": "防止具體危害之必要資料，得依法通知；第三人與查訪另按各自條件。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第12條以防止危害或犯罪及法定情形為目的，不能單以調查已發生犯罪方便取代要件。",
+            "correction": "依第12、13條分別判斷目的及核准。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第14條第1項第1款允許對有事實足認可提供防止具體危害必要資料者通知到場。",
+            "correction": "本項符合第14條。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第15條例外用語為假釋經「撤銷」時，其假釋期間不列入計算。",
+            "correction": "應改為假釋經撤銷。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第15條規範定期查訪，未給予對任何違法之虞一律作下命處分的概括授權。",
+            "correction": "需另找具體法定職權，不以查訪本身替代。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-17",
+        "amendment": {
+          "status": "none",
+          "law": "集會遊行法第27、28條；行政執行法第4、11條及組織改造公告",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依官方法規逐項核對；保留114年官方答案A。",
+          "sources": [
+            {
+              "title": "集會遊行法第12、27、28條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            },
+            {
+              "title": "行政執行法第4、7、11條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+            },
+            {
+              "title": "行政執行法沿革：101年起行政執行處權責移由分署",
+              "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=A0030023"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A正確：公法金錢義務逾期未履行，符移送條件時由行政執行機關就財產執行。法條舊文字的「行政執行處」權責自101年起改由「行政執行分署」管轄，須連同沿革公告閱讀。",
+        "takeaway": "集遊罰鍰逾期依法移行政執行分署；留意組改公告。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "行政執行法第4、11條規定逾期公法金錢義務經移送就財產執行；沿革公告自101年起由行政執行分署管轄。",
+            "correction": "本項符合移送行政執行分署處理的法定架構。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "公法金錢給付的行政執行並非由地方檢察署一般執行。",
+            "correction": "依行政執行法移送行政執行分署。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "集遊罰鍰逾期不直接變成簡易庭裁定拘留。",
+            "correction": "依法移送公法金錢義務執行，不自行改為拘留。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "上級警察機關催繳不能取代行政執行法的移送執行。",
+            "correction": "符合條件時依法移送行政執行。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-10",
+        "amendment": {
+          "status": "none",
+          "law": "社會秩序維護法第31、32條；行政執行法第7條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依官方法規逐項核對；保留115年官方答案A。",
+          "sources": [
+            {
+              "title": "社會秩序維護法第19、31、32條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            },
+            {
+              "title": "行政執行法第4、7、11條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A錯誤：停止營業逾3個月未執行免予執行，但勒令歇業為逾6個月。行政執行法5年起算及續行限制應另依第7條。",
+        "takeaway": "社維停止營業3個月；勒令歇業6個月；行政執行5年另計。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第32條停止營業為3個月，勒令歇業為6個月。",
+            "correction": "不可把兩者一律寫成3個月。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第31條原則自行為成立起逾2個月，警察不得訊問等；連續或繼續行為自終了起算。",
+            "correction": "本項為一般情形，須注意持續行為起算例外。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "行政執行法第7條以法定起算點5年未執行為原則，法律有特別規定者例外。",
+            "correction": "應依第7條分別確認起算點及特別法。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第7條5年內已開始執行原則得繼續，但期滿後再逾5年未終結不得再執行。",
+            "correction": "本項須同時注意後續5年上限。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-12",
+        "amendment": {
+          "status": "none",
+          "law": "警察職權行使法第29至31條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依官方法規逐項核對；保留115年官方答案A。",
+          "sources": [
+            {
+              "title": "警察職權行使法第9、11至18、29、31條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A正確：義務人或利害關係人得於行使職權時當場陳述理由異議；無理由續行時，須依請求製作並交付紀錄。合法損失補償以金錢及實際特別損失為限。",
+        "takeaway": "當場異議有理由立即更正，無理由續行且依請求交付紀錄。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第29條第1項明定得當場陳述理由表示異議。",
+            "correction": "本項符合第29條。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第29條第2項規定無理由得續行；須經義務人或利害關係人請求才製作並交付紀錄。",
+            "correction": "補上「經請求時」。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第29條第2項規定認有理由應立即停止或更正。",
+            "correction": "不得等主管決定後才停止或更正。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第31條規定金錢補償實際所受特別損失，非回復原狀為主。",
+            "correction": "應依法以金錢補償。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-15",
+        "amendment": {
+          "status": "none",
+          "law": "警察職權行使法第12、13條；警察遴選第三人蒐集資料辦法第2條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依官方法規逐項核對；保留115年官方答案A。",
+          "sources": [
+            {
+              "title": "警察職權行使法第9、11至18、29、31條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "警察遴選第三人蒐集資料辦法第2、4、5、10、11條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A錯誤：第三人姓名身分應保密，製作文書不得記載年齡、住居所及其他足資識別資料；不能靠密件處理取代禁止記載。",
+        "takeaway": "第三人身分應保密，文書不得載足資識別資料。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "辦法第2條第2項禁止文書記載年齡、住居所等足資識別資料。",
+            "correction": "以代號或化名保密，文書不記可識別資料。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "警職法第12條第3項規定第三人為非警察、經遴選且志願合作之人。",
+            "correction": "本項符合第12條。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第12條允許必要工作費用，不授予名義證件或警察職權。",
+            "correction": "本項符合第12條。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第13條要求敘明原因事實並經該管警察局長或分局長核准。",
+            "correction": "本項符合第13條。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-23",
+        "amendment": {
+          "status": "none",
+          "law": "警械使用條例第11條；警械使用事件補償辦法第3、6、11條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依官方法規逐項核對；保留115年官方答案A。",
+          "sources": [
+            {
+              "title": "警械使用條例第11條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+            },
+            {
+              "title": "警械使用事件補償辦法第2、3、6、11條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080219"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A正確：依補償辦法第6條以金錢補償實際損失。數機關均負責；不適格等情形得不經協議拒絕；增加須報直接上級機關核准。",
+        "takeaway": "實損金錢補償；數機關均負責，增加須直接上級機關核准。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "補償辦法第6條列金錢及實際醫療、不能工作、喪葬或慰撫金等損失。",
+            "correction": "本項符合第6條，並須注意上限。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第3條規定同一事件有數補償機關時，各機關均應負補償責任。",
+            "correction": "不能只由最先受理機關負責。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第11條規定不適格、無理由或時效消滅時，得不經協議以書面敘理由拒絕。",
+            "correction": "非所有情況均須先經協議。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第6條第3項增加補償須報直接上級機關核准。",
+            "correction": "應報直接上級機關，不僅由本機關主管長官決定。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-16",
+        "amendment": {
+          "status": "none",
+          "law": "集會遊行法第12條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依官方法規逐項核對；保留115年官方答案A。",
+          "sources": [
+            {
+              "title": "集會遊行法第12、27、28條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A正確：主管機關未在第12條前2項期限內通知負責人者，法律效果為「視為許可」。",
+        "takeaway": "逾法定通知期限，集遊法明文「視為許可」。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第12條第3項規定逾期限未通知視為許可。",
+            "correction": "本項符合第12條。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第12條第3項是視為許可，非視為不許可。",
+            "correction": "改為視為許可。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "法條使用「視為許可」，而非「推定為許可」。",
+            "correction": "依法律明文使用視為許可。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "法條效果為視為許可，不是推定不許可。",
+            "correction": "改為視為許可。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-24",
+        "amendment": {
+          "status": "none",
+          "law": "警械使用條例第11條；警械使用事件補償辦法第2條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依官方法規逐項核對；保留115年官方答案B。",
+          "sources": [
+            {
+              "title": "警械使用條例第11條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+            },
+            {
+              "title": "警械使用事件補償辦法第2、3、6、11條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080219"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B正確：丙非用械相對人或執行職務警察，符合題示第三人範圍；乙屬用械相對人、執勤丁屬警察，兩者不依此第三人補償規範，其他保障另依法判斷。",
+        "takeaway": "用械相對人及執勤警察不屬本辦法第三人；其他保障另判。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "乙為警察使用警械之相對人，依補償辦法第2條不屬該條第三人。",
+            "correction": "不依本辦法第三人補償，其他權利另依法判斷。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "題示乘客丙不屬第2條排除的相對人或執勤警察。",
+            "correction": "本題選丙，實際金額及可歸責情形依法判斷。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "丁為執行職務之警察人員，排除於第2條第三人。",
+            "correction": "因公傷害等保障依其他法規判斷。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第2條排除用械相對人及執勤警察，非所有受傷者均屬第三人。",
+            "correction": "逐人區分身分與適用法源。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law113-inner-e2",
+        "amendment": {
+          "status": "none",
+          "law": "警械使用條例第11條；警械使用事件補償辦法第2至8條；警察職權行使法第31條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依官方條文核對請求主體、各類損失上限、增加與減免要件及請求時效；練習擬答不是考選部官方評分標準。 補入內政部逐條說明對同車與教唆衝撞之區別。",
+          "sources": [
+            {
+              "title": "警械使用條例第11條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+            },
+            {
+              "title": "警械使用事件補償辦法第2至8條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080219"
+            },
+            {
+              "title": "警察職權行使法第31條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "內政部警械使用事件補償辦法逐條說明第2條",
+              "url": "https://ws.moi.gov.tw/Download.ashx?n=MTEyMDQxOeitpuaisOS9v%2BeUqOS6i%2BS7tuijnOWEn%2Bi%2Bpuazlee4veiqquaYjuWPiumAkOaineiqquaYji5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTA4Mi8yNzkwNDAvMWMzMDAxZWYtMDA2My00MjFjLWEwMWItMjdhZTZjZWViNTk1LnBkZg%3D%3D"
+            }
+          ]
+        },
+        "verified": true,
+        "model": {
+          "intro": "警察合法使用警械仍可能造成第三人生命、身體或財產損失，法律設有補償；違法使用警械則應另依國家賠償法審查。",
+          "basis": "警械使用條例第11條第1、3、4項；警械使用事件補償辦法第2至8條；警察職權行使法第31條第4項。",
+          "analysis": "一、請求主體與法益\n補償辦法第2條所稱第三人，排除該次用械相對人及執行職務的警察人員；合法用械致第三人生命、身體或財產損失者，第三人得請求，死亡時由法定繼承人請求。內政部逐條說明指出，單純同車且無犯意聯絡者仍可屬第三人；若有協助拒捕、脫逃的犯意聯絡，甚至教唆衝撞，則屬用械相對人，難謂第三人。對確屬第三人者，其可歸責事由另可能影響補償金額，應分開判斷。補償機關為用械警察所屬機關；數機關時各負補償責任。\n二、補償標準\n依補償辦法第6條以金錢補償實際所受損失，包括醫療費、不能工作損失、喪葬費或慰撫金等；法定最高額為死亡600萬元、因傷致身心障礙極重度450萬元、重度375萬元、中度250萬元、輕度150萬元、其他傷害30萬元、財產損失100萬元。這些是上限，並非每案固定全額給付。\n三、增減或免除\n補償機關得審酌第三人損失及可歸責程度減輕或免除；依上限補償仍顯失公平者，得報直接上級機關核准增加，增加金額不得逾該類法定上限的三分之一；數補償機關須各自報其直接上級核准。\n四、請求方式與期間\n依第8條以書面載明請求權人、事實理由證據、金額等向補償機關請求；依第7條準用警職法第31條第4項，知有損失後2年內請求，損失發生逾5年不得請求。具體爭議依適用法律循行政救濟。",
+          "conclusion": "以法定第三人、三類受損法益、各上限及得減免與例外增加的要件作答；本擬答非官方評分標準。"
+        }
+      }
+    ],
+    "createdAt": 1794836921055
   }
 ]

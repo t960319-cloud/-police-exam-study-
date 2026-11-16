@@ -792,31 +792,31 @@
       "subject": "警察法規",
       "paperSubject": "警察法規",
       "topic": "weapons",
-      "title": "第三人不包括共同實施危害者",
+      "title": "教唆衝撞與第三人範圍",
       "stem": "依警械使用條例第 11 條第 3 項規定，警察人員使用警械，致第三人生命、身體或財產遭受損失 時，第三人得請求補償。下列何者不屬於該條規定之第三人？",
       "options": [
         {
           "text": "單純與駕駛人同車之乘客",
-          "explanation": "單純同車乘客未共同實施危害，可屬第三人。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "逐條說明指出單純駕駛與乘客關係、沒有犯意聯絡者，乘客仍可屬第三人。",
+          "correction": "不能僅因同車排除第三人身分。",
           "trueStatement": true
         },
         {
           "text": "教唆駕駛人衝撞員警之乘客",
-          "explanation": "教唆衝撞員警者參與引起用械的危害，非單純無辜第三人；個案仍須證明參與事實。",
-          "correction": "教唆衝撞員警者參與引起用械的危害，非單純無辜第三人；個案仍須證明參與事實。",
+          "explanation": "內政部逐條說明明舉教唆駕駛衝撞，認屬用械相對人，難謂第三人。",
+          "correction": "依具體教唆與犯意聯絡事實認定；本題選B。",
           "trueStatement": false
         },
         {
           "text": "遭歹徒挾持之人",
-          "explanation": "遭挾持者是被害人，非因被挾持即成為射擊對象。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "逐條說明列遭歹徒挾持之人為第三人例子。",
+          "correction": "被挾持不當然使其成為用械相對人。",
           "trueStatement": true
         },
         {
           "text": "路過之民眾",
-          "explanation": "無涉危害的路過者為典型第三人。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "逐條說明列路過民眾為第三人例子。",
+          "correction": "路過民眾原則依個案事實判斷第三人身分。",
           "trueStatement": true
         }
       ],
@@ -826,28 +826,34 @@
       ],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年外軌四等｜警察法規概要｜第11題",
       "paperYear": 113,
       "paperTrack": "外軌",
       "paperNumber": 11,
       "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警械使用條例第11條；補償辦法第2條及內政部逐條說明",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依官方法規、主管機關逐條說明逐項核對；保留113年官方答案B。",
         "sources": [
           {
-            "title": "警械使用條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+            "title": "警械使用條例第11條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
           },
           {
-            "title": "警械使用事件補償辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+            "title": "警械使用事件補償辦法第2、3、6、11條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080219"
+          },
+          {
+            "title": "內政部警械使用事件補償辦法逐條說明第2條",
+            "url": "https://ws.moi.gov.tw/Download.ashx?n=MTEyMDQxOeitpuaisOS9v%2BeUqOS6i%2BS7tuijnOWEn%2Bi%2Bpuazlee4veiqquaYjuWPiumAkOaineiqquaYji5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTA4Mi8yNzkwNDAvMWMzMDAxZWYtMDA2My00MjFjLWEwMWItMjdhZTZjZWViNTk1LnBkZg%3D%3D"
           }
         ]
       },
-      "takeaway": "教唆衝撞員警者參與引起用械的危害，非單純無辜第三人；個案仍須證明參與事實。",
+      "takeaway": "同車不當然排除；共同行為或教唆須依實際犯意聯絡判斷用械相對人。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -865,8 +871,13 @@
         {
           "title": "警械使用事件補償辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+        },
+        {
+          "title": "內政部警械使用事件補償辦法逐條說明第2條",
+          "url": "https://ws.moi.gov.tw/Download.ashx?n=MTEyMDQxOeitpuaisOS9v%2BeUqOS6i%2BS7tuijnOWEn%2Bi%2Bpuazlee4veiqquaYjuWPiumAkOaineiqquaYji5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTA4Mi8yNzkwNDAvMWMzMDAxZWYtMDA2My00MjFjLWEwMWItMjdhZTZjZWViNTk1LnBkZg%3D%3D"
         }
-      ]
+      ],
+      "currentAnswer": "B為官方答案。補償辦法排除用械相對人及執勤警察；內政部逐條說明認為乘客若與駕駛有協助拒捕、脫逃之犯意聯絡，甚至教唆衝撞，屬相對人而非第三人。單純同車並不因此失去第三人身分，具體事實仍應查明。"
     },
     {
       "id": "law113-outer-12",
@@ -1360,26 +1371,26 @@
       "options": [
         {
           "text": "沒收",
-          "explanation": "社維法處罰用語為沒入，不是刑法沒收；本題應選此。",
-          "correction": "社維法處罰用語為沒入，不是刑法沒收；本題應選此。",
+          "explanation": "第19條列沒入，未列沒收作處罰種類。",
+          "correction": "本題選沒收。",
           "trueStatement": false
         },
         {
           "text": "拘留",
-          "explanation": "拘留是社維法明定秩序處罰種類。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第19條第1款列拘留。",
+          "correction": "拘留屬第19條所定處罰。",
           "trueStatement": true
         },
         {
           "text": "勒令歇業",
-          "explanation": "勒令歇業為社維法明定處罰。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第19條第2款列勒令歇業。",
+          "correction": "勒令歇業屬第19條所定處罰。",
           "trueStatement": true
         },
         {
           "text": "申誡",
-          "explanation": "申誡是社維法明定處罰。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第19條第6款列申誡。",
+          "correction": "申誡屬第19條所定處罰。",
           "trueStatement": true
         }
       ],
@@ -1387,28 +1398,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年外軌四等｜警察法規概要｜第18題",
       "paperYear": 113,
       "paperTrack": "外軌",
       "paperNumber": 18,
       "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。114.06.11社維法僅修正第9、64、72、89條，須以具體引用條號確認影響，不能僅因全法修正就改原題答案。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "社會秩序維護法第19條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依官方法規逐項核對；保留113年官方答案A。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
-          },
-          {
-            "title": "違反社會秩序維護法案件處理辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+            "title": "社會秩序維護法第19、31、32條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           }
         ]
       },
-      "takeaway": "社維法處罰用語為沒入，不是刑法沒收；本題應選此。",
+      "takeaway": "社維法六種處罰中的財物處分稱「沒入」。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -1427,7 +1436,8 @@
           "title": "違反社會秩序維護法案件處理辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
         }
-      ]
+      ],
+      "currentAnswer": "A錯誤：第19條六種處罰包括拘留、勒令歇業、停止營業、罰鍰、沒入及申誡；本法用語為沒入而非沒收。"
     },
     {
       "id": "law113-outer-19",

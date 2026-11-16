@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-11-16",
+  "timezone": "Asia/Taipei",
+  "sources": [
+    {
+      "title": "社會秩序維護法第19、31、32條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067",
+      "sha256": "7ecc75a6801d811347df1ac442f6c64363452a582ecd7cfa54103e992e02f058",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "警察職權行使法第9、11至18、29、31條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145",
+      "sha256": "13b20775ad49bb94a3fcf7c911d248f5f32186339198abfccdc4916d06018e7b",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "警察遴選第三人蒐集資料辦法第2、4、5、10、11條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146",
+      "sha256": "09580e739c579d9ef597c939cbc75f0eb4946d439b1cf2511596769a1aae7c90",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "集會遊行法第12、27、28條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058",
+      "sha256": "a59879e30f6f69bbba745ceeb7702cbe17ac9060406da4206743188668621f2e",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "行政執行法第4、7、11條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023",
+      "sha256": "99003466d18960f4de81b58a8bc570475c68767861e3ed9e2755fabf9e8f1826",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "行政執行法沿革：101年起行政執行處權責移由分署",
+      "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=A0030023",
+      "sha256": "4629cbc266ffa2c1869a131508f83512fc2f1b1a6f6b4435a08975600bb40cf0",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "警械使用條例第11條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042",
+      "sha256": "f5bcb2312280ae0e6f8271ee2d3a73e727a6556091a53d18b9396933db14b7af",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "警械使用事件補償辦法第2、3、6、11條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080219",
+      "sha256": "fcaa70f36b0887121a9bdb37e0ca6edeee7a4edbcfd00eb96c5ff94c63a5b504",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "內政部警械使用事件補償辦法逐條說明第2條",
+      "url": "https://ws.moi.gov.tw/Download.ashx?n=MTEyMDQxOeitpuaisOS9v%2BeUqOS6i%2BS7tuijnOWEn%2Bi%2Bpuazlee4veiqquaYjuWPiumAkOaineiqquaYji5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTA4Mi8yNzkwNDAvMWMzMDAxZWYtMDA2My00MjFjLWEwMWItMjdhZTZjZWViNTk1LnBkZg%3D%3D",
+      "sha256": "cdd653519307f78d941218dd335001be528c1eca3392e28892de76d55f0debe1",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    }
+  ],
+  "verifiedQuestionIds": [
+    "law113-outer-11",
+    "law113-outer-18",
+    "law114-inner-06",
+    "law114-inner-07",
+    "law114-outer-04",
+    "law114-outer-17",
+    "law115-inner-10",
+    "law115-inner-12",
+    "law115-inner-15",
+    "law115-inner-23",
+    "law115-outer-16",
+    "law115-outer-24"
+  ],
+  "essayUpdated": "law113-inner-e2",
+  "notes": [
+    "內政部正式逐條說明第2條明列單純同車及具有拒捕脫逃犯意聯絡、教唆衝撞之區別；仍須依事實判斷。",
+    "行政執行法條文列行政執行處，但101年起依組織改造公告移由行政執行分署管轄。",
+    "保留原題、選項、官方答案及紀錄鍵；法規資料庫頁面所載整編截止115.11.06。"
+  ]
+}

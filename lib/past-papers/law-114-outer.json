@@ -255,26 +255,26 @@
       "options": [
         {
           "text": "警察為利於犯罪調查之進行，得遴選第三人秘密蒐集特定人相關資料",
-          "explanation": "第12條以防止危害或犯罪為目的，不能僅以已發生犯罪調查方便概括取代要件。",
-          "correction": "依第12、13條審查防止危害或犯罪之要件與核准。",
+          "explanation": "第12條以防止危害或犯罪及法定情形為目的，不能單以調查已發生犯罪方便取代要件。",
+          "correction": "依第12、13條分別判斷目的及核准。",
           "trueStatement": false
         },
         {
           "text": "有事實足認特定人能提供警察完成防止具體危害任務之必要資料者，得以口頭或書面敘明事 由，通知其到場",
-          "explanation": "第14條就能提供防止具體危害必要資料者，得口頭或書面敘明事由通知到場。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第14條第1項第1款允許對有事實足認可提供防止具體危害必要資料者通知到場。",
+          "correction": "本項符合第14條。",
           "trueStatement": true
         },
         {
           "text": "警察實施查訪治安顧慮人口之期間，以刑執行完畢或假釋出獄後 3 年內為限。但假釋經廢止 者，其假釋期間不列入計算",
-          "explanation": "第15條假釋「撤銷」時，假釋期間不計；題目寫廢止。",
-          "correction": "將假釋廢止改為假釋撤銷。",
+          "explanation": "第15條例外用語為假釋經「撤銷」時，其假釋期間不列入計算。",
+          "correction": "應改為假釋經撤銷。",
           "trueStatement": false
         },
         {
           "text": "警察發現治安顧慮人口查訪對象有違法之虞時，應以行政處分中之下命處分方法，促其不再犯",
-          "explanation": "查訪時發現違法之虞，仍須個別法定授權，不能一概下命促其不再犯。",
-          "correction": "查證具體危害，依各該法律採必要措施。",
+          "explanation": "第15條規範定期查訪，未給予對任何違法之虞一律作下命處分的概括授權。",
+          "correction": "需另找具體法定職權，不以查訪本身替代。",
           "trueStatement": false
         }
       ],
@@ -283,24 +283,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年外軌四等｜警察法規概要｜第4題",
       "paperYear": 114,
       "paperTrack": "外軌",
       "paperNumber": 4,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋及後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察職權行使法第12至15條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依官方法規逐項核對；保留114年官方答案B。",
         "sources": [
           {
-            "title": "警察職權行使法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+            "title": "警察職權行使法第9、11至18、29、31條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           }
         ]
       },
-      "takeaway": "第14條就能提供防止具體危害必要資料者，得口頭或書面敘明事由通知到場。",
+      "takeaway": "防止具體危害之必要資料，得依法通知；第三人與查訪另按各自條件。",
       "sources": [
         {
           "title": "考選部114年一般警察四等警察法規概要原卷",
@@ -314,7 +316,8 @@
           "title": "警察職權行使法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
         }
-      ]
+      ],
+      "currentAnswer": "B正確：依第14條，對能提供防止具體危害必要資料者，得口頭或書面敘明事由通知到場。第三人遴選與治安顧慮人口查訪各有獨立要件。"
     },
     {
       "id": "law114-outer-05",
@@ -1194,26 +1197,26 @@
       "options": [
         {
           "text": "移送行政執行分署就義務人之財產執行之",
-          "explanation": "集遊罰鍰經通知逾期不繳，依法移送行政執行分署就財產執行。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "行政執行法第4、11條規定逾期公法金錢義務經移送就財產執行；沿革公告自101年起由行政執行分署管轄。",
+          "correction": "本項符合移送行政執行分署處理的法定架構。",
           "trueStatement": true
         },
         {
           "text": "移送地方檢察署就義務人之財產執行之",
-          "explanation": "地方檢察署不是該公法金錢給付義務一般執行機關。",
-          "correction": "改移行政執行分署。",
+          "explanation": "公法金錢給付的行政執行並非由地方檢察署一般執行。",
+          "correction": "依行政執行法移送行政執行分署。",
           "trueStatement": false
         },
         {
           "text": "移送地方法院簡易庭裁定執行拘留",
-          "explanation": "逾期未繳集遊罰鍰不直接轉成簡易庭裁定拘留。",
-          "correction": "依法移送行政執行。",
+          "explanation": "集遊罰鍰逾期不直接變成簡易庭裁定拘留。",
+          "correction": "依法移送公法金錢義務執行，不自行改為拘留。",
           "trueStatement": false
         },
         {
           "text": "移由上級警察機關執行催繳",
-          "explanation": "不是僅移上級警察機關催繳即取代法定執行。",
-          "correction": "符要件時移送行政執行分署。",
+          "explanation": "上級警察機關催繳不能取代行政執行法的移送執行。",
+          "correction": "符合條件時依法移送行政執行。",
           "trueStatement": false
         }
       ],
@@ -1222,28 +1225,34 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年外軌四等｜警察法規概要｜第17題",
       "paperYear": 114,
       "paperTrack": "外軌",
       "paperNumber": 17,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋及後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "集會遊行法第27、28條；行政執行法第4、11條及組織改造公告",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依官方法規逐項核對；保留114年官方答案A。",
         "sources": [
           {
-            "title": "集會遊行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+            "title": "集會遊行法第12、27、28條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
           },
           {
-            "title": "行政執行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+            "title": "行政執行法第4、7、11條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+          },
+          {
+            "title": "行政執行法沿革：101年起行政執行處權責移由分署",
+            "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=A0030023"
           }
         ]
       },
-      "takeaway": "集遊罰鍰經通知逾期不繳，依法移送行政執行分署就財產執行。",
+      "takeaway": "集遊罰鍰逾期依法移行政執行分署；留意組改公告。",
       "sources": [
         {
           "title": "考選部114年一般警察四等警察法規概要原卷",
@@ -1260,8 +1269,13 @@
         {
           "title": "行政執行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+        },
+        {
+          "title": "行政執行法沿革：101年起行政執行處權責移由分署",
+          "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=A0030023"
         }
-      ]
+      ],
+      "currentAnswer": "A正確：公法金錢義務逾期未履行，符移送條件時由行政執行機關就財產執行。法條舊文字的「行政執行處」權責自101年起改由「行政執行分署」管轄，須連同沿革公告閱讀。"
     },
     {
       "id": "law114-outer-18",

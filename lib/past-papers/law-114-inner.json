@@ -394,26 +394,26 @@
       "options": [
         {
           "text": "警察於其行使職權之目的範圍內，必要時，得依其他機關之請求，傳遞與個人有關之資料",
-          "explanation": "第16條容許在職權目的範圍內，必要時依其他機關請求傳遞個資，不能任意分享。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第16條允許在職權目的範圍內、必要時依其他機關請求傳遞個資。",
+          "correction": "須符合目的範圍及必要性。",
           "trueStatement": true
         },
         {
           "text": "警察依第 9 條第 1 項規定蒐集之資料，於集會遊行或其他公共活動結束後，應即銷毀之。但為 調查犯罪或其他違法行為，而有保存之必要者，得保存 1 年",
-          "explanation": "第9條活動結束原則即銷毀，但有必要保存時，以製作完成起算一年為原則；已起訴且審判未終結或組織犯罪防制條例案件另有例外。",
-          "correction": "改為製作完成起原則1年內銷毀，並保留法定例外，不是一律保存1年。",
+          "explanation": "第9條第3項原則至遲1年銷毀，但列起訴審判未終結及組織犯罪防制條例案件例外。",
+          "correction": "補上法定例外，起算點為資料製作完成時。",
           "trueStatement": false
         },
         {
           "text": "警察有事實足認其有參與職業性、習慣性、集團性或組織性犯罪之虞之情形者，為防止犯罪， 認有必要，得經由警察局長書面同意後，於一定期間內，對其無隱私或秘密合理期待之行為或 生活情形，以目視或科技工具，進行觀察及動態掌握等資料蒐集活動，此期間每次不得逾 1 年， 如有必要得延長之，並以 1 次為限",
-          "explanation": "對特定犯罪之虞者之觀察須局長書面同意，每次不得逾1年，延長以1次為限。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第11條對所列犯罪之虞須警察局長書面同意，每次不逾1年，必要時延長1次。",
+          "correction": "仍須符合第11條犯罪之虞及無合理隱私期待等條件。",
           "trueStatement": true
         },
         {
           "text": "警察依法取得之資料對警察之完成任務不再有幫助者，應予以註銷或銷毀。但資料之註銷或銷 毀將危及被蒐集對象值得保護之利益者，不在此限",
-          "explanation": "任務不再有幫助之資料原則註銷或銷毀，註銷或銷毀危及本人值得保護之利益者例外。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第18條規定資料對任務不再有幫助時原則註銷或銷毀，危及本人值得保護利益例外。",
+          "correction": "依第18條並注意法定最長保存期間。",
           "trueStatement": true
         }
       ],
@@ -422,24 +422,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察法規概要｜第6題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 6,
       "answerStatus": "考選部原始答案與更正公告已核",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部當年原始答案與列示法規；涉及之歷史條文和全部後續修正仍需逐項比對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察職權行使法第9、11、16、18條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依官方法規逐項核對；保留114年官方答案B。",
         "sources": [
           {
-            "title": "警察職權行使法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+            "title": "警察職權行使法第9、11至18、29、31條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           }
         ]
       },
-      "takeaway": "第9條活動結束原則即銷毀，但有必要保存時，以製作完成起算一年為原則；已起訴且審判未終結或組織犯罪防制條例案件另有例外。",
+      "takeaway": "公共活動資料1年原則有法定例外；其他蒐集法源及保存規則分開。",
       "sources": [
         {
           "title": "考選部114年警察四等警察法規概要原卷",
@@ -453,7 +455,8 @@
           "title": "警察職權行使法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
         }
-      ]
+      ],
+      "currentAnswer": "B錯誤：第9條必要保存資料原則至遲製作完成起1年銷毀，但已起訴且審判未終結或違反組織犯罪防制條例案件有例外，不能一律只保留1年。"
     },
     {
       "id": "law114-inner-07",
@@ -465,26 +468,26 @@
       "options": [
         {
           "text": "遴選第三人經核准後，除最近 2 年內曾任第三人者外，應實施之訓練包括，蒐集資料之方法及 偵查技巧、保密作為、狀況之處置、相關法律程序及法律責任、本法規定及其他注意事項",
-          "explanation": "辦法第4條列的是蒐集資料之方法及「技巧」，題目多寫「偵查技巧」，並非法定訓練項目原文。",
-          "correction": "改為「蒐集資料之方法及技巧」，其餘列舉項目依辦法第4條。",
+          "explanation": "第4條列蒐集資料之方法及技巧，未將題示偵查技巧列為該條訓練項目。",
+          "correction": "以第4條法定文字及範圍作答。",
           "trueStatement": false
         },
         {
           "text": "第三人完成訓練後，應以口頭或其他適當方式交付任務",
-          "explanation": "第三人完成訓練後可口頭或其他適當方式交付任務，並告知任務必要事項。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第5條規定完成訓練後以口頭或其他適當方式交付任務。",
+          "correction": "並應告知第5條所列必要事項。",
           "trueStatement": true
         },
         {
           "text": "警察遴選第三人及第三人蒐集之資料，應注意保密，專案建檔，並指定專人依機密檔案管理辦 法管理之",
-          "explanation": "遴選資料及蒐集資料應保密、專案建檔及指定專人管理。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第11條要求保密、專案建檔並指定專人管理。",
+          "correction": "本項符合第11條。",
           "trueStatement": true
         },
         {
           "text": "警察對第三人所蒐集之資料，應客觀判斷其取得過程及方法，參酌經驗及結果事實情況，評鑑 其可信性",
-          "explanation": "蒐得資料不能未經判斷直接採信；應依取得過程、方法與事實評鑑可信性。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第10條要求依取得過程、方法與事實客觀評鑑可信性。",
+          "correction": "本項符合第10條。",
           "trueStatement": true
         }
       ],
@@ -493,24 +496,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察法規概要｜第7題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 7,
       "answerStatus": "考選部原始答案與更正公告已核",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部當年原始答案與列示法規；涉及之歷史條文和全部後續修正仍需逐項比對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察遴選第三人蒐集資料辦法第4、5、10、11條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依官方法規逐項核對；保留114年官方答案A。",
         "sources": [
           {
-            "title": "警察遴選第三人蒐集資料辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+            "title": "警察遴選第三人蒐集資料辦法第2、4、5、10、11條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146"
           }
         ]
       },
-      "takeaway": "辦法第4條列的是蒐集資料之方法及「技巧」，題目多寫「偵查技巧」，並非法定訓練項目原文。",
+      "takeaway": "第三人訓練為資料蒐集方法及技巧，並非逕給第三人警察偵查職權。",
       "sources": [
         {
           "title": "考選部114年警察四等警察法規概要原卷",
@@ -524,7 +529,8 @@
           "title": "警察遴選第三人蒐集資料辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
         }
-      ]
+      ],
+      "currentAnswer": "A為官方答案：第4條列「蒐集資料之方法及技巧」，原題加上偵查技巧，並非法條所列文字。須分清訓練、交付任務、保密及資料評鑑。"
     },
     {
       "id": "law114-inner-08",

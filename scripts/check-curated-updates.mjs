@@ -120,3 +120,11 @@ const oldCross=result.questions.find(q=>q.id==='investigation113_03');assert(old
 const crossAnswer=result.essays.find(e=>e.id==='s10');assert(crossAnswer);assert.equal(crossAnswer.verified,false);assert(crossAnswer.model.basis.includes('完整要點'));
 const arrestAnswer=result.essays.find(e=>e.id==='s11');assert(arrestAnswer);assert(arrestAnswer.model.basis.includes('第89條拘捕告知'));assert(arrestAnswer.model.basis.includes('第89條之1另規定戒具'));assert(arrestAnswer.model.analysis.includes('以書面將原因通知本人及其指定親友'));
 console.log('Historical cross-jurisdiction evidence and corrected arrest notification citation passed.');
+// Police-law exam answers must reflect official compensation guidance and the administrative reorganization notice.
+for(const [id,answer] of [['law113-outer-11',1],['law113-outer-18',0],['law114-inner-06',1],['law114-inner-07',0],['law114-outer-04',1],['law114-outer-17',0],['law115-inner-10',0],['law115-inner-12',0],['law115-inner-15',0],['law115-inner-23',0],['law115-outer-16',0],['law115-outer-24',1]]){
+ const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.answer,answer);assert(q.verified);assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()));
+}
+const jointPassenger=result.questions.find(q=>q.id==='law113-outer-11');assert(jointPassenger.currentAnswer.includes('犯意聯絡'));assert(jointPassenger.amendment.sources.some(s=>s.url.includes('ws.moi.gov.tw')));
+const reorganized=result.questions.find(q=>q.id==='law114-outer-17');assert(reorganized.currentAnswer.includes('行政執行處'));assert(reorganized.currentAnswer.includes('行政執行分署'));assert(reorganized.amendment.sources.some(s=>s.url.includes('LawHistory.aspx')));
+const updatedCompensation=result.essays.find(e=>e.id==='law113-inner-e2');assert(updatedCompensation.model.analysis.includes('單純同車且無犯意聯絡'));assert(updatedCompensation.model.analysis.includes('可歸責事由另可能'));
+console.log('Police-law exam explanations, official compensation interpretation and administrative agency reorganization passed.');

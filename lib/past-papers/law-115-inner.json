@@ -695,26 +695,26 @@
       "options": [
         {
           "text": "依社會秩序維護法規定，停止營業、勒令歇業裁處確定，逾 3 個月未執行者，免予執行",
-          "explanation": "停止營業與勒令歇業不能同算3個月：第32條停止營業3個月、勒令歇業6個月未執行免予執行。",
-          "correction": "將勒令歇業改為6個月。",
+          "explanation": "第32條停止營業為3個月，勒令歇業為6個月。",
+          "correction": "不可把兩者一律寫成3個月。",
           "trueStatement": false
         },
         {
           "text": "依社會秩序維護法規定，違反行為自成立之日起算逾 2 個月者，不得訊問",
-          "explanation": "違序行為原則自成立起逾2個月不得訊問、處罰或移送；連續或繼續行為自終了日起算。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第31條原則自行為成立起逾2個月，警察不得訊問等；連續或繼續行為自終了起算。",
+          "correction": "本項為一般情形，須注意持續行為起算例外。",
           "trueStatement": true
         },
         {
           "text": "依行政執行法規定，裁處確定 5 年內未經執行者，不再執行",
-          "explanation": "行政執行法第7條規定法定起算點5年未執行原則不再執行，個別法律另有規定除外。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "行政執行法第7條以法定起算點5年未執行為原則，法律有特別規定者例外。",
+          "correction": "應依第7條分別確認起算點及特別法。",
           "trueStatement": true
         },
         {
           "text": "依行政執行法規定，於 5 年期間屆滿前已開始執行者，原則上得繼續執行",
-          "explanation": "5年期滿前已開始執行得繼續，但尚受期滿後5年之上限及特別法限制。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第7條5年內已開始執行原則得繼續，但期滿後再逾5年未終結不得再執行。",
+          "correction": "本項須同時注意後續5年上限。",
           "trueStatement": true
         }
       ],
@@ -723,28 +723,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察法規概要｜第10題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 10,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部標準答案及列示法規；題目涉及的全部歷史法令、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "社會秩序維護法第31、32條；行政執行法第7條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依官方法規逐項核對；保留115年官方答案A。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+            "title": "社會秩序維護法第19、31、32條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           },
           {
-            "title": "行政執行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+            "title": "行政執行法第4、7、11條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
           }
         ]
       },
-      "takeaway": "停止營業與勒令歇業不能同算3個月：第32條停止營業3個月、勒令歇業6個月未執行免予執行。",
+      "takeaway": "社維停止營業3個月；勒令歇業6個月；行政執行5年另計。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -762,7 +764,8 @@
           "title": "行政執行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
         }
-      ]
+      ],
+      "currentAnswer": "A錯誤：停止營業逾3個月未執行免予執行，但勒令歇業為逾6個月。行政執行法5年起算及續行限制應另依第7條。"
     },
     {
       "id": "law115-inner-11",
@@ -845,26 +848,26 @@
       "options": [
         {
           "text": "被查證人於警察行使職權時，得當場陳述理由，表示異議",
-          "explanation": "依第29條，利害關係人得於執行時當場陳述理由表示異議。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第29條第1項明定得當場陳述理由表示異議。",
+          "correction": "本項符合第29條。",
           "trueStatement": true
         },
         {
           "text": "警察對被查證人所表示之異議，認為無理由者，得繼續執行，並製作異議理由之紀錄交付之",
-          "explanation": "異議無理由可續行；製作紀錄交付須經義務人或利害關係人請求。",
-          "correction": "補上「經請求時」始製作並交付。",
+          "explanation": "第29條第2項規定無理由得續行；須經義務人或利害關係人請求才製作並交付紀錄。",
+          "correction": "補上「經請求時」。",
           "trueStatement": false
         },
         {
           "text": "警察對被查證人所表示之異議，警察認為有理由者，應即陳報警察機關主管長官決定之",
-          "explanation": "異議有理由時應立即停止或更正，不需先報長官決定後才處置。",
-          "correction": "改為立即停止或更正。",
+          "explanation": "第29條第2項規定認有理由應立即停止或更正。",
+          "correction": "不得等主管決定後才停止或更正。",
           "trueStatement": false
         },
         {
           "text": "警察依法行使職權致人民生命、身體或財產遭受損失時，人民得請求補償，並要求以回復原狀為主",
-          "explanation": "第31條損失補償以金錢為之，不是回復原狀為主。",
-          "correction": "改為金錢補償實際特別損失。",
+          "explanation": "第31條規定金錢補償實際所受特別損失，非回復原狀為主。",
+          "correction": "應依法以金錢補償。",
           "trueStatement": false
         }
       ],
@@ -873,24 +876,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察法規概要｜第12題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 12,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部標準答案及列示法規；題目涉及的全部歷史法令、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察職權行使法第29至31條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依官方法規逐項核對；保留115年官方答案A。",
         "sources": [
           {
-            "title": "警察職權行使法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+            "title": "警察職權行使法第9、11至18、29、31條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           }
         ]
       },
-      "takeaway": "依第29條，利害關係人得於執行時當場陳述理由表示異議。",
+      "takeaway": "當場異議有理由立即更正，無理由續行且依請求交付紀錄。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -904,7 +909,8 @@
           "title": "警察職權行使法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
         }
-      ]
+      ],
+      "currentAnswer": "A正確：義務人或利害關係人得於行使職權時當場陳述理由異議；無理由續行時，須依請求製作並交付紀錄。合法損失補償以金錢及實際特別損失為限。"
     },
     {
       "id": "law115-inner-13",
@@ -1058,26 +1064,26 @@
       "options": [
         {
           "text": "第三人之真實姓名及身分應予保密，警察製作文書時應記載第三人年齡、住居所及足資識別其 身分之資料，並以密件處理之",
-          "explanation": "第三人真實姓名及身分應保密，製作文書須以代號或化名為之，不能載明可識別資料。",
-          "correction": "改為使用代號或化名，並依規定保密管理。",
+          "explanation": "辦法第2條第2項禁止文書記載年齡、住居所等足資識別資料。",
+          "correction": "以代號或化名保密，文書不記可識別資料。",
           "trueStatement": false
         },
         {
           "text": "所稱第三人，係指非警察人員而經警察遴選，志願與警察合作之人",
-          "explanation": "第三人須非警察人員、經遴選且志願與警察合作。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "警職法第12條第3項規定第三人為非警察、經遴選且志願合作之人。",
+          "correction": "本項符合第12條。",
           "trueStatement": true
         },
         {
           "text": "經遴選為第三人者，除得支給實際需要工作費用外，不給予任何名義及證明文件，亦不具本法 或其他法規賦予警察之職權",
-          "explanation": "第三人可支實際需要工作費用，不授予職銜證件或警察法定職權。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第12條允許必要工作費用，不授予名義證件或警察職權。",
+          "correction": "本項符合第12條。",
           "trueStatement": true
         },
         {
           "text": "遴選第三人秘密蒐集特定人相關資料，應敘明原因事實，經該管警察局長或警察分局長核准後實施",
-          "explanation": "警職法第13條明定須敘明原因事實，經該管警察局長「或警察分局長」核准。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第13條要求敘明原因事實並經該管警察局長或分局長核准。",
+          "correction": "本項符合第13條。",
           "trueStatement": true
         }
       ],
@@ -1086,28 +1092,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察法規概要｜第15題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 15,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部標準答案及列示法規；題目涉及的全部歷史法令、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察職權行使法第12、13條；警察遴選第三人蒐集資料辦法第2條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依官方法規逐項核對；保留115年官方答案A。",
         "sources": [
           {
-            "title": "警察職權行使法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+            "title": "警察職權行使法第9、11至18、29、31條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           },
           {
-            "title": "警察遴選第三人蒐集資料辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
+            "title": "警察遴選第三人蒐集資料辦法第2、4、5、10、11條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146"
           }
         ]
       },
-      "takeaway": "第三人真實姓名及身分應保密，製作文書須以代號或化名為之，不能載明可識別資料。",
+      "takeaway": "第三人身分應保密，文書不得載足資識別資料。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -1125,7 +1133,8 @@
           "title": "警察遴選第三人蒐集資料辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080146"
         }
-      ]
+      ],
+      "currentAnswer": "A錯誤：第三人姓名身分應保密，製作文書不得記載年齡、住居所及其他足資識別資料；不能靠密件處理取代禁止記載。"
     },
     {
       "id": "law115-inner-16",
@@ -1644,26 +1653,26 @@
       "options": [
         {
           "text": "補償，應以金錢為之，並以生命、身體或財產實際所受損失之醫療費、不能工作損失、喪葬 費或慰撫金等為限",
-          "explanation": "補償以金錢為之，按實際醫療、工作損失、喪葬費或慰撫金等計算，並受辦法規定限制。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "補償辦法第6條列金錢及實際醫療、不能工作、喪葬或慰撫金等損失。",
+          "correction": "本項符合第6條，並須注意上限。",
           "trueStatement": true
         },
         {
           "text": "同一補償事件，有數補償機關時，基於機關一體原則，由最先受理補償機關負補償責任",
-          "explanation": "同一事件數補償機關均應負責，不是只有最先受理機關。",
-          "correction": "改為各機關均應負補償責任並依規定協議。",
+          "explanation": "第3條規定同一事件有數補償機關時，各機關均應負補償責任。",
+          "correction": "不能只由最先受理機關負責。",
           "trueStatement": false
         },
         {
           "text": "受理補償請求之機關認請求權人不適格、請求無理由或罹於時效者，仍應經協議程序，以書面 敘明理由拒絕之",
-          "explanation": "請求不適格、無理由或時效消滅，受理機關得不經協議逕書面拒絕。",
-          "correction": "刪除「仍應經協議」。",
+          "explanation": "第11條規定不適格、無理由或時效消滅時，得不經協議以書面敘理由拒絕。",
+          "correction": "非所有情況均須先經協議。",
           "trueStatement": false
         },
         {
           "text": "依警械使用事件補償辦法所定金額補償仍顯失公平時，得經警察機關主管長官核准後，增加補償金額",
-          "explanation": "按標準補償顯失公平，應報「直接上級機關」核准增加，非僅由警察主管長官核准。",
-          "correction": "改報直接上級機關核准，並遵守增加上限。",
+          "explanation": "第6條第3項增加補償須報直接上級機關核准。",
+          "correction": "應報直接上級機關，不僅由本機關主管長官決定。",
           "trueStatement": false
         }
       ],
@@ -1672,24 +1681,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察法規概要｜第23題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 23,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部標準答案及列示法規；題目涉及的全部歷史法令、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警械使用條例第11條；警械使用事件補償辦法第3、6、11條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依官方法規逐項核對；保留115年官方答案A。",
         "sources": [
           {
-            "title": "警械使用事件補償辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+            "title": "警械使用條例第11條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+          },
+          {
+            "title": "警械使用事件補償辦法第2、3、6、11條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080219"
           }
         ]
       },
-      "takeaway": "補償以金錢為之，按實際醫療、工作損失、喪葬費或慰撫金等計算，並受辦法規定限制。",
+      "takeaway": "實損金錢補償；數機關均負責，增加須直接上級機關核准。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -1702,8 +1717,13 @@
         {
           "title": "警械使用事件補償辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+        },
+        {
+          "title": "警械使用條例第11條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
         }
-      ]
+      ],
+      "currentAnswer": "A正確：依補償辦法第6條以金錢補償實際損失。數機關均負責；不適格等情形得不經協議拒絕；增加須報直接上級機關核准。"
     },
     {
       "id": "law115-inner-24",

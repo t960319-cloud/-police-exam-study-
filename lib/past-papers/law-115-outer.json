@@ -1149,25 +1149,25 @@
       "options": [
         {
           "text": "視為許可",
-          "explanation": "集會遊行法第12條第3項明定，主管機關逾期未通知負責人者「視為許可」。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第12條第3項規定逾期限未通知視為許可。",
+          "correction": "本項符合第12條。",
           "trueStatement": true
         },
         {
           "text": "視為不許可",
-          "explanation": "逾期不是視為不許可。",
+          "explanation": "第12條第3項是視為許可，非視為不許可。",
           "correction": "改為視為許可。",
           "trueStatement": false
         },
         {
           "text": "推定為許可",
-          "explanation": "法律用語為「視為」，不是可反證推翻的「推定」。",
-          "correction": "將推定改為視為許可。",
+          "explanation": "法條使用「視為許可」，而非「推定為許可」。",
+          "correction": "依法律明文使用視為許可。",
           "trueStatement": false
         },
         {
           "text": "推定不許可",
-          "explanation": "不但不是推定，法律效果也不是不許可。",
+          "explanation": "法條效果為視為許可，不是推定不許可。",
           "correction": "改為視為許可。",
           "trueStatement": false
         }
@@ -1177,24 +1177,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第16題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 16,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "集會遊行法第12條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依官方法規逐項核對；保留115年官方答案A。",
         "sources": [
           {
-            "title": "集會遊行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+            "title": "集會遊行法第12、27、28條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
           }
         ]
       },
-      "takeaway": "集會遊行法第12條第3項明定，主管機關逾期未通知負責人者「視為許可」。",
+      "takeaway": "逾法定通知期限，集遊法明文「視為許可」。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -1208,7 +1210,8 @@
           "title": "集會遊行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
         }
-      ]
+      ],
+      "currentAnswer": "A正確：主管機關未在第12條前2項期限內通知負責人者，法律效果為「視為許可」。"
     },
     {
       "id": "law115-outer-17",
@@ -1717,26 +1720,26 @@
       "options": [
         {
           "text": "乙得請求補償",
-          "explanation": "乙為使用警械相對人，非補償辦法第2條所稱第三人；其他權利仍須依不同法源判斷。",
-          "correction": "不能以第三人補償直接請求，應另審其他法定權利。",
+          "explanation": "乙為警察使用警械之相對人，依補償辦法第2條不屬該條第三人。",
+          "correction": "不依本辦法第三人補償，其他權利另依法判斷。",
           "trueStatement": false
         },
         {
           "text": "丙得請求補償",
-          "explanation": "無涉危害之乘客丙為第三人，依法使用警械致身體受損得請求補償，金額及可歸責情形依法評估。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "題示乘客丙不屬第2條排除的相對人或執勤警察。",
+          "correction": "本題選丙，實際金額及可歸責情形依法判斷。",
           "trueStatement": true
         },
         {
           "text": "丁得請求補償",
-          "explanation": "執行職務之警察人員不在補償辦法第2條第三人範圍；其因公受傷保障另依適用法規。",
-          "correction": "改依警察因公傷病與其他適用制度辦理。",
+          "explanation": "丁為執行職務之警察人員，排除於第2條第三人。",
+          "correction": "因公傷害等保障依其他法規判斷。",
           "trueStatement": false
         },
         {
           "text": "凡因甲使用警械而受傷者，皆得請求補償",
-          "explanation": "警械受傷者不能一律稱第三人，相對人及執勤警察均被排除。",
-          "correction": "先辨識第三人身分及損失，再依法請求。",
+          "explanation": "第2條排除用械相對人及執勤警察，非所有受傷者均屬第三人。",
+          "correction": "逐人區分身分與適用法源。",
           "trueStatement": false
         }
       ],
@@ -1745,28 +1748,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第24題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 24,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警械使用條例第11條；警械使用事件補償辦法第2條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依官方法規逐項核對；保留115年官方答案B。",
         "sources": [
           {
-            "title": "警械使用條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+            "title": "警械使用條例第11條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
           },
           {
-            "title": "警械使用事件補償辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+            "title": "警械使用事件補償辦法第2、3、6、11條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080219"
           }
         ]
       },
-      "takeaway": "無涉危害之乘客丙為第三人，依法使用警械致身體受損得請求補償，金額及可歸責情形依法評估。",
+      "takeaway": "用械相對人及執勤警察不屬本辦法第三人；其他保障另判。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -1784,7 +1789,8 @@
           "title": "警械使用事件補償辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
         }
-      ]
+      ],
+      "currentAnswer": "B正確：丙非用械相對人或執行職務警察，符合題示第三人範圍；乙屬用械相對人、執勤丁屬警察，兩者不依此第三人補償規範，其他保障另依法判斷。"
     },
     {
       "id": "law115-outer-25",
