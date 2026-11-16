@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-16",
+  "timezone": "Asia/Taipei",
+  "sources": [
+    {
+      "title": "行政院115.1.29院臺交字第1151002056C號函（臺東縣達仁鄉公所附件）",
+      "url": "https://www.ttdaren.gov.tw/home/attachments/article/6586/376540000A_1150026923_ATTACH2.pdf",
+      "retrieval": "網頁檢索服務讀取臺東縣達仁鄉公所公開之行政院公文附件，PDF第1頁；本機網路無法直接下載，未宣稱檔案雜湊",
+      "findings": "行政院115.1.29函稱原第35條第6項依111年憲判字第1號於113.2.25失效；完成修法前過渡階段依判決所載要件與程序辦理。114.11.19修正第35條第6、13項不在115.1.31施行範圍。"
+    },
+    {
+      "title": "法務部主管法規查詢系統・111年憲判字第1號判決全文",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=CJ00000053&media=print&type=CJ",
+      "retrieval": "網頁檢索服務讀取法務部系統判決全文及主文",
+      "findings": "主文第二項載2年期間屆滿前或完成修法前之過渡階段及合理性、必要性、許可書、急迫採樣後24小時、檢察官3日撤銷及受測者10日聲請法院撤銷。個案期間及法源應依判決與法規，勿逕自推導概括授權。"
+    },
+    {
+      "title": "道交條例第35條分段施行資訊",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35",
+      "retrieval": "HTTPS官方原件HTTP 200",
+      "sha256": "a214762ce44894a71a62d4bee2879ff273dec095f14b08dea382d00a2d643362"
+    },
+    {
+      "title": "全國法規資料庫・道路交通管理處罰條例沿革",
+      "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=K0040012",
+      "retrieval": "HTTPS官方原件HTTP 200",
+      "sha256": "056f7fe50562605f60cbeab1fe002b62202fa3a1c417efee7aab20c6889b64a3"
+    },
+    {
+      "title": "道交條例舊法規整版，僅用於確認版本陷阱",
+      "url": "https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=K0040012",
+      "retrieval": "HTTPS官方原件HTTP 200；頁面列115.01.14修正日期，包含114年公布但尚未施行的第35條第6項，不可整版當作現行",
+      "sha256": "8c07053c8ecf8ca232fee023553715261f79f40c7ce32dc77bd2f5791013781b"
+    }
+  ],
+  "updatedQuestionIds": [
+    "q38",
+    "duty113_04",
+    "scene110-17"
+  ],
+  "notes": [
+    "新舊公布條文可能分項施行，不能把單一舊版頁面當成核對日整部生效條文。",
+    "三題原題、選項、歷年答案及紀錄鍵不變；個案法源、完整SOP仍需查證，維持待核。"
+  ]
+}

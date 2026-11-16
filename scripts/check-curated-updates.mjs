@@ -128,3 +128,13 @@ const jointPassenger=result.questions.find(q=>q.id==='law113-outer-11');assert(j
 const reorganized=result.questions.find(q=>q.id==='law114-outer-17');assert(reorganized.currentAnswer.includes('行政執行處'));assert(reorganized.currentAnswer.includes('行政執行分署'));assert(reorganized.amendment.sources.some(s=>s.url.includes('LawHistory.aspx')));
 const updatedCompensation=result.essays.find(e=>e.id==='law113-inner-e2');assert(updatedCompensation.model.analysis.includes('單純同車且無犯意聯絡'));assert(updatedCompensation.model.analysis.includes('可歸責事由另可能'));
 console.log('Police-law exam explanations, official compensation interpretation and administrative agency reorganization passed.');
+
+// Do not conflate the expired traffic provision, the judgment's transition and the future amendment.
+for(const id of ['q38','duty113_04','scene110-17']){
+  const q=result.questions.find(item=>item.id===id);assert(q);
+  assert.equal(q.amendment.status,'review');assert.equal(q.amendment.effectiveStatus,'mixed');
+  assert(q.amendment.note.includes('113.2.25'));assert(q.amendment.note.includes('115.12.31'));
+  assert(q.amendment.note.includes('24小時'));assert(q.amendment.note.includes('3日'));assert(q.amendment.note.includes('10日'));
+  assert(q.amendment.sources.some(source=>source.url.includes('1150026923_ATTACH2.pdf')));
+}
+console.log('Expired blood-sampling provision, judgment procedures and future amendment remain distinct.');
