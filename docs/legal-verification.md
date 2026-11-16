@@ -266,3 +266,4 @@
 - 已取得[警政署103年場所臨檢程序](https://www.npa.gov.tw/ch/app/faq/doc?detailNo=801310763162533888&module=faq&type=s)及[臺北市公開八頁路檢程序](https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=5Z%2B36KGM6Lev5qqi5pSU5qqi6Lqr5YiG5p%2Bl6K2J5L2c5qWt56iL5bqPLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNTA2L3JlbGZpbGUvMjI5NzEvMTMyMzMvMWU2NjM0ZTItNWNiMy00YjM4LWFkYTAtYmU3ZjYwOGNkOGZiLnBkZg%3D%3D)，補兩題異議處理與三聯紀錄；最新完整版本及沿革仍待核，兩題維持待核。
 - 八頁路檢程序含宗教場所查證、刑事搜索條款；配合刑訴第128、130、131條及[監察院樹林教堂調查](https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/70896)補113勤務申論。區分合法進入、對人查證與無票搜索，以及司法警察搜索後3日內報告；擬答非官方答案，後續內規仍待核。
 - 另依正式條文核對十題提審、查證身分、服務義務、人事、送達與行政執行；尤其提審聲請法院與不得以無管轄權駁回須合併閱讀。原題及答案均保留；[來源與雜湊](legal-evidence-2026-11-16-identity-remedies.json)。
+- 第26版由來源 `33fcf036ec1525eb9ac6b2999c0c15ecc3a4a108` 儲存並部署，原生狀態成功；網站維持 public。正式法規 API 讀回仍遭本環境 CONNECT 403，無法證實正式站事件內容已讀回。
