@@ -2958,5 +2958,674 @@
       }
     ],
     "createdAt": 1794835347843
+  },
+  {
+    "eventId": "legal-review-20261116-crossyear-procedures",
+    "kind": "update",
+    "checkedAt": "2026-11-16",
+    "summary": "依官方法規補歷屆犯罪偵查題的夜間搜索、拘票、保護令、扣留、監察期間、搜索票與治安查訪；第三人續行的題意仍待核。",
+    "sources": [
+      {
+        "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      },
+      {
+        "title": "中華民國憲法增修條文第4條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      },
+      {
+        "title": "家庭暴力防治法第2、15條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
+      },
+      {
+        "title": "警察職權行使法第12、13、21條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+      },
+      {
+        "title": "通訊保障及監察法第5、6、7、12條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+      },
+      {
+        "title": "治安顧慮人口查訪辦法第3、5至7條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "investigation110_15",
+        "amendment": {
+          "status": "none",
+          "law": "刑事訴訟法第146、147條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依正式條文逐項核對；保留110年官方答案A。",
+          "sources": [
+            {
+              "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A正確：第147條明列假釋人住居或使用處所，得於夜間搜索；其他住處不能僅因身分而當然適用，但仍須分別判斷其他法定例外。",
+        "takeaway": "第147條列假釋人住居或使用處所，營業場所仍須在公開時間內。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第147條第1款明列假釋人住居或使用之處所。",
+            "correction": "本項符合第147條第1款。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第147條第2款要求夜間公眾可出入處所仍在公開時間內。",
+            "correction": "打烊後不得僅以餐館身分適用第2款；其他例外另判。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第147條未將治安顧慮人口住所列為身分例外。",
+            "correction": "不能僅因身分適用第147條；同意、急迫等另依第146條判斷。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第147條第1款列假釋人而非所有緩刑者。",
+            "correction": "不得只因緩刑身分推定適用假釋人例外。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation110_16",
+        "amendment": {
+          "status": "none",
+          "law": "刑事訴訟法第79、80、88條之1及憲法增修條文第4條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依正式條文逐項核對；保留110年官方答案B。",
+          "sources": [
+            {
+              "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "中華民國憲法增修條文第4條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B正確：拘票應備2聯，1聯交被拘提人或家屬。立委會期不受逮捕或拘禁保障的明文例外是現行犯，非單憑通緝身分。",
+        "takeaway": "拘票2聯、1聯交本人或家屬；逕行拘提執行後即報請簽票。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "憲法增修條文第4條明列會期中現行犯例外，未將通緝犯一律列為例外。",
+            "correction": "應區分現行犯與通緝身分，不自行增加例外。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "刑訴第79條規定拘票應備2聯，執行時以1聯交被告或其家屬。",
+            "correction": "本項符合刑訴第79條。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "刑訴第80條規定不能執行時記載事由，由執行人簽名，提出於命拘提之公務員。",
+            "correction": "應由執行人簽名，提出於命拘提之公務員。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "刑訴第88條之1第2項要求執行後即報請檢察官簽發拘票。",
+            "correction": "應即報請簽票，不得等移送時才辦。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation110_29",
+        "amendment": {
+          "status": "none",
+          "law": "家庭暴力防治法第15條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依正式條文逐項核對；保留110年官方答案C。",
+          "sources": [
+            {
+              "title": "家庭暴力防治法第2、15條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C正確：通常保護令有效期間為2年以下，自核發時生效；延長每次亦為2年以下，須依法聲請。",
+        "takeaway": "通常保護令每次至多2年，自核發時生效。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第15條規定通常保護令有效期間為2年以下，非6個月。",
+            "correction": "應為2年以下，自核發時生效。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第15條規定通常保護令有效期間為2年以下，非1年。",
+            "correction": "應為2年以下，自核發時生效。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第15條規定通常保護令有效期間為2年以下。",
+            "correction": "本項符合第15條。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第15條上限為2年，非3年。",
+            "correction": "應為2年以下。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_28",
+        "amendment": {
+          "status": "none",
+          "law": "警察職權行使法第21條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依正式條文逐項核對；保留111年官方答案A。",
+          "sources": [
+            {
+              "title": "警察職權行使法第12、13、21條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A正確：對軍器、凶器或其他危險物品，為預防危害必要時，警察得依第21條扣留。",
+        "takeaway": "危險物品為預防危害之必要，依警職法第21條扣留。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第21條明定為預防危害之必要得扣留。",
+            "correction": "本項符合第21條。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第21條針對本題危險物品之措施為扣留，非題示代保管。",
+            "correction": "應依第21條判斷扣留及其必要性。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第21條用語為扣留，不是刑事訴訟扣押。",
+            "correction": "依警職法第21條為扣留；刑事扣押另有法源。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第21條授權扣留，不是當場沒收。",
+            "correction": "不得將預防性扣留誤作沒收。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_32",
+        "amendment": {
+          "status": "none",
+          "law": "通訊保障及監察法第5、12條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依正式條文逐項核對；保留111年官方答案B。",
+          "sources": [
+            {
+              "title": "通訊保障及監察法第5、6、7、12條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B正確：刑案依第5、6條之通訊監察每次不得逾30日；續行須說明理由，並注意累計及重行聲請規定。",
+        "takeaway": "刑案監察每次至多30日；國安情報監察每次至多1年。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第12條規定第5、6條之監察每次不得逾30日，非20日。",
+            "correction": "應為每次不得逾30日。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第12條規定第5、6條之監察每次不得逾30日。",
+            "correction": "本項符合第12條。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第12條規定第5、6條之監察每次不得逾30日，非60日。",
+            "correction": "應為每次不得逾30日。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第12條規定第5、6條之監察每次不得逾30日，非90日。",
+            "correction": "應為每次不得逾30日。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_38",
+        "amendment": {
+          "status": "none",
+          "law": "刑事訴訟法第126條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依正式條文逐項核對；保留111年官方答案A。",
+          "sources": [
+            {
+              "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A正確：政府機關或公務員持有、保管的應扣押文書及物件，應先請求交付，必要時得搜索。",
+        "takeaway": "公務機關文書應先請求交付；必要時得搜索。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第126條規定應請求交付，必要時得搜索。",
+            "correction": "本項符合第126條。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第126條先要求請求交付，不以是否現實交付替代此程序。",
+            "correction": "應先請求交付。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第126條使用請求交付，未使用題示囑託交付。",
+            "correction": "應先請求交付。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第126條未以擬制交付替代先行請求。",
+            "correction": "應先請求交付。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_39",
+        "amendment": {
+          "status": "none",
+          "law": "刑事訴訟法第128條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依正式條文逐項核對；保留111年官方答案D。",
+          "sources": [
+            {
+              "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D錯誤：搜索票應記有效期間，但第128條未規定一律記載「夜間搜索」有效期間；夜間搜索仍另受第146、147條限制。",
+        "takeaway": "搜索票記一般有效期間；夜間搜索須另符法定條件。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第128條第2項第1款列案由。",
+            "correction": "案由為法定記載事項。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第128條第2項第2款列應扣押之物。",
+            "correction": "應扣押之物為法定記載事項。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第128條第2項第3款列應加搜索之電磁紀錄。",
+            "correction": "應加搜索之電磁紀錄為法定記載事項。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第128條要求有效期間，未規定一律記載應執行夜間搜索之有效期間。",
+            "correction": "應載搜索有效期間；夜間能否執行另依第146、147條判斷。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_40",
+        "amendment": {
+          "status": "none",
+          "law": "刑事訴訟法第128、128條之1",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依正式條文逐項核對；保留111年官方答案C。",
+          "sources": [
+            {
+              "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C錯誤：第128條之1規定偵查中所列聲請經法院駁回者不得聲明不服；第128條另規定法官簽名及核發程序不公開。",
+        "takeaway": "搜索票聲請經法院駁回不得聲明不服；核發程序不公開。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第128條第3項規定搜索票由法官簽名。",
+            "correction": "本項符合第128條。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第128條第3項規定法官得對執行人員為適當指示。",
+            "correction": "本項符合第128條。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第128條之1第3項規定前二項聲請經駁回不得聲明不服。",
+            "correction": "不得對該駁回聲明不服。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第128條第4項規定核發搜索票之程序不公開。",
+            "correction": "本項符合第128條。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_47",
+        "amendment": {
+          "status": "none",
+          "law": "家庭暴力防治法第2條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依正式條文逐項核對；保留111年官方答案A。",
+          "sources": [
+            {
+              "title": "家庭暴力防治法第2、15條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A正確：家暴法第2條第5款將持續性監視、跟追或掌控他人行蹤及活動定義為跟蹤；與跟蹤騷擾防制法的構成要件不可混同。",
+        "takeaway": "家暴法第2條第5款定義「跟蹤」。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第2條第5款將題示持續性監視、跟追或掌控定義為跟蹤。",
+            "correction": "本項符合家暴法第2條第5款。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "家暴法該款的法定用語是跟蹤，非跟監。",
+            "correction": "應使用跟蹤。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "家暴法該款的法定用語是跟蹤，非追蹤。",
+            "correction": "應使用跟蹤。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "家暴法該款的法定用語是跟蹤；跟蹤騷擾防制法另有獨立構成。",
+            "correction": "區分家暴法跟蹤與跟蹤騷擾防制法。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation112_08",
+        "amendment": {
+          "status": "review",
+          "law": "警察職權行使法第12、13條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "unverified",
+          "note": "原題續行條件未完整表達，保留待核；保留112年官方答案B。",
+          "sources": [
+            {
+              "title": "警察職權行使法第12、13、21條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "B為112年官方答案：核准層級為警察局長或警察分局長。C所述繼續合作還須注意第13條「新發生原因事實」等條件，原題文字範圍保留待核。",
+        "takeaway": "第三人蒐情由警察局長或分局長核准；續行須新原因事實、必要及核准。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第12條對防止危害或犯罪之情形，規定得遴選第三人秘密蒐集相關資料。",
+            "correction": "須依第12條原因及第13條核准辦理。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第13條規定由該管警察局長或警察分局長核准，非直轄市長或縣市長。",
+            "correction": "應經該管警察局長或警察分局長核准。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第13條要求工作結束終止合作；例外須新發生第12條第1項原因事實、繼續蒐集必要且經核准。",
+            "correction": "補足新發生原因事實，不能只記必要與核准。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第13條第3項明定第三人為證人者適用證人保護法規定。",
+            "correction": "本項符合第13條第3項。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation112_35",
+        "amendment": {
+          "status": "none",
+          "law": "通訊保障及監察法第12條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依正式條文逐項核對；保留112年官方答案C。",
+          "sources": [
+            {
+              "title": "通訊保障及監察法第5、6、7、12條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C錯誤：第5、6條繼續監察期間不得逾1年，期滿後仍有必要時應重行聲請；在期限內繼續監察亦須釋明理由並依期限提出聲請。",
+        "takeaway": "刑案監察每次30日、繼續期間不逾1年；仍有必要須依法重行聲請。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第12條規定第5、6條監察每次不得逾30日。",
+            "correction": "本項符合第12條。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第12條規定第7條監察每次不得逾1年。",
+            "correction": "本項符合第12條。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第12條但書規定第5、6條繼續監察期間不得逾1年，仍有必要須重行聲請。",
+            "correction": "不得一概免重行聲請；屆法定界線後須依法辦理。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第12條規定有繼續必要應釋明理由，至遲於期間屆滿2日前提出聲請。",
+            "correction": "本項符合第12條。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation113_04",
+        "amendment": {
+          "status": "none",
+          "law": "治安顧慮人口查訪辦法第3、5至7條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依正式條文逐項核對；保留113年官方答案B。",
+          "sources": [
+            {
+              "title": "治安顧慮人口查訪辦法第3、5至7條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B錯誤：第6條原則於日間查訪，與查訪對象約定者例外；並應注意工作名譽、表明身分及告知事由。",
+        "takeaway": "查訪原則日間；著制服或出示證件並告知事由。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第3條第1款列工作、交往及生活情形。",
+            "correction": "本項符合第3條。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第6條規定查訪應於日間，與查訪對象約定者例外。",
+            "correction": "應於日間，約定者得有例外。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第5條規定選適當時間、地點與方式，注意避免影響工作及名譽。",
+            "correction": "本項符合第5條。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第7條規定著制服或出示證件表明身分，並告知事由。",
+            "correction": "本項符合第7條。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation113_19",
+        "amendment": {
+          "status": "none",
+          "law": "刑事訴訟法第128條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依正式條文逐項核對；保留113年官方答案C。",
+          "sources": [
+            {
+              "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C錯誤：核發搜索票程序不公開；搜索票須記有效期間，由法官簽名，並得附適當指示。",
+        "takeaway": "搜索票由法官簽名；核發程序不公開。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第128條第2項第4款要求記載有效期間及逾期不得執行、交還意旨。",
+            "correction": "本項符合第128條。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第128條第3項規定搜索票由法官簽名。",
+            "correction": "本項符合第128條。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第128條第4項規定核發程序不公開。",
+            "correction": "應改為不公開。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第128條第3項規定法官得對執行人員為適當指示。",
+            "correction": "本項符合第128條。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation113_21",
+        "amendment": {
+          "status": "none",
+          "law": "刑事訴訟法第146、147條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "已依正式條文逐項核對；保留113年官方答案C。",
+          "sources": [
+            {
+              "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C錯誤：毒品調驗人口住居本身不在第147條列舉例外；承諾、急迫或其他合法例外仍須另行判斷。",
+        "takeaway": "夜間搜索看第146、147條，不因毒品調驗人口身分當然例外。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第146條第1項承諾屬例外，夜間搜索事由須記明筆錄。",
+            "correction": "本項符合第146條；承諾仍須依法確認。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第146條第3項允許日間已開始之搜索或扣押繼續至夜間。",
+            "correction": "本項符合第146條第3項。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第147條未將毒品調驗人口住居身分列為例外。",
+            "correction": "不能只因該身分夜間搜索；其他法定例外另依案情判斷。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第147條第3款列常用為賭博之處所。",
+            "correction": "本項符合第147條第3款。",
+            "trueStatement": true
+          }
+        ]
+      }
+    ],
+    "createdAt": 1794835752979
   }
 ]

@@ -529,26 +529,26 @@
       "options": [
         {
           "text": "為防止危害或犯罪，認對公共安全、公共秩序將有危害行為，得遴選第三人秘密蒐集相關資料",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：應依警職法及遴選辦法由該管警察局長或分局長核准，並非直轄市長或縣市長。",
+          "explanation": "第12條對防止危害或犯罪之情形，規定得遴選第三人秘密蒐集相關資料。",
+          "correction": "須依第12條原因及第13條核准辦理。",
           "trueStatement": true
         },
         {
           "text": "遴選第三人秘密蒐集特定人相關資料，應敘明原因事實，經該直轄（縣）市長核准後實施",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "應依警職法及遴選辦法由該管警察局長或分局長核准，並非直轄市長或縣市長。",
+          "explanation": "第13條規定由該管警察局長或警察分局長核准，非直轄市長或縣市長。",
+          "correction": "應經該管警察局長或警察分局長核准。",
           "trueStatement": false
         },
         {
           "text": "蒐集工作結束後，警察應與第三人終止合作關係。但有繼續進行蒐集必要且經核准者，得繼續合作 關係",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：應依警職法及遴選辦法由該管警察局長或分局長核准，並非直轄市長或縣市長。",
+          "explanation": "第13條要求工作結束終止合作；例外須新發生第12條第1項原因事實、繼續蒐集必要且經核准。",
+          "correction": "補足新發生原因事實，不能只記必要與核准。",
           "trueStatement": true
         },
         {
           "text": "該第三人為證人者，適用關於證人保護法之規定",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：應依警職法及遴選辦法由該管警察局長或分局長核准，並非直轄市長或縣市長。",
+          "explanation": "第13條第3項明定第三人為證人者適用證人保護法規定。",
+          "correction": "本項符合第13條第3項。",
           "trueStatement": true
         }
       ],
@@ -565,13 +565,20 @@
       "paperTrack": "內軌",
       "paperNumber": 8,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "警察職權行使法第12、13條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "unverified",
+        "note": "原題續行條件未完整表達，保留待核；保留112年官方答案B。",
+        "sources": [
+          {
+            "title": "警察職權行使法第12、13、21條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          }
+        ]
       },
-      "takeaway": "應依警職法及遴選辦法由該管警察局長或分局長核准，並非直轄市長或縣市長。",
+      "takeaway": "第三人蒐情由警察局長或分局長核准；續行須新原因事實、必要及核准。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -588,8 +595,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "警察職權行使法第12、13、21條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
         }
-      ]
+      ],
+      "currentAnswer": "B為112年官方答案：核准層級為警察局長或警察分局長。C所述繼續合作還須注意第13條「新發生原因事實」等條件，原題文字範圍保留待核。"
     },
     {
       "id": "investigation112_09",
@@ -2497,26 +2509,26 @@
       "options": [
         {
           "text": "第五條、第六條之通訊監察期間，每次不得逾三十日",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：有繼續必要仍須重行聲請並釋明理由，不能因原令狀核准就自行延長。",
+          "explanation": "第12條規定第5、6條監察每次不得逾30日。",
+          "correction": "本項符合第12條。",
           "trueStatement": true
         },
         {
           "text": "第七條之通訊監察期間，每次不得逾一年",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：有繼續必要仍須重行聲請並釋明理由，不能因原令狀核准就自行延長。",
+          "explanation": "第12條規定第7條監察每次不得逾1年。",
+          "correction": "本項符合第12條。",
           "trueStatement": true
         },
         {
           "text": "執行機關如有繼續監察之必要者，不需重行聲請",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "有繼續必要仍須重行聲請並釋明理由，不能因原令狀核准就自行延長。",
+          "explanation": "第12條但書規定第5、6條繼續監察期間不得逾1年，仍有必要須重行聲請。",
+          "correction": "不得一概免重行聲請；屆法定界線後須依法辦理。",
           "trueStatement": false
         },
         {
           "text": "有繼續監察之必要者，應釋明具體理由，至遲於期間屆滿之二日前，提出聲請",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：有繼續必要仍須重行聲請並釋明理由，不能因原令狀核准就自行延長。",
+          "explanation": "第12條規定有繼續必要應釋明理由，至遲於期間屆滿2日前提出聲請。",
+          "correction": "本項符合第12條。",
           "trueStatement": true
         }
       ],
@@ -2527,19 +2539,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第35題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 35,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "通訊保障及監察法第12條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依正式條文逐項核對；保留112年官方答案C。",
+        "sources": [
+          {
+            "title": "通訊保障及監察法第5、6、7、12條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+          }
+        ]
       },
-      "takeaway": "有繼續必要仍須重行聲請並釋明理由，不能因原令狀核准就自行延長。",
+      "takeaway": "刑案監察每次30日、繼續期間不逾1年；仍有必要須依法重行聲請。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -2556,8 +2575,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "通訊保障及監察法第5、6、7、12條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
         }
-      ]
+      ],
+      "currentAnswer": "C錯誤：第5、6條繼續監察期間不得逾1年，期滿後仍有必要時應重行聲請；在期限內繼續監察亦須釋明理由並依期限提出聲請。"
     },
     {
       "id": "investigation112_36",

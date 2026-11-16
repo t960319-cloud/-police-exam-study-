@@ -978,26 +978,26 @@
       "options": [
         {
           "text": "假釋人住居或使用者",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "刑訴法對假釋人住居或使用處所有夜間搜索例外；已打烊餐館不等於仍公開營業的場所。",
+          "explanation": "第147條第1款明列假釋人住居或使用之處所。",
+          "correction": "本項符合第147條第1款。",
           "trueStatement": true
         },
         {
           "text": "已過營業時間，打烊之餐館",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：刑訴法對假釋人住居或使用處所有夜間搜索例外；已打烊餐館不等於仍公開營業的場所。",
+          "explanation": "第147條第2款要求夜間公眾可出入處所仍在公開時間內。",
+          "correction": "打烊後不得僅以餐館身分適用第2款；其他例外另判。",
           "trueStatement": false
         },
         {
           "text": "治安顧慮人口之住所",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：刑訴法對假釋人住居或使用處所有夜間搜索例外；已打烊餐館不等於仍公開營業的場所。",
+          "explanation": "第147條未將治安顧慮人口住所列為身分例外。",
+          "correction": "不能僅因身分適用第147條；同意、急迫等另依第146條判斷。",
           "trueStatement": false
         },
         {
           "text": "緩刑者使用之場所",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：刑訴法對假釋人住居或使用處所有夜間搜索例外；已打烊餐館不等於仍公開營業的場所。",
+          "explanation": "第147條第1款列假釋人而非所有緩刑者。",
+          "correction": "不得只因緩刑身分推定適用假釋人例外。",
           "trueStatement": false
         }
       ],
@@ -1008,19 +1008,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第15題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 15,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "刑事訴訟法第146、147條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依正式條文逐項核對；保留110年官方答案A。",
+        "sources": [
+          {
+            "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "刑訴法對假釋人住居或使用處所有夜間搜索例外；已打烊餐館不等於仍公開營業的場所。",
+      "takeaway": "第147條列假釋人住居或使用處所，營業場所仍須在公開時間內。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -1033,8 +1040,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "A正確：第147條明列假釋人住居或使用處所，得於夜間搜索；其他住處不能僅因身分而當然適用，但仍須分別判斷其他法定例外。"
     },
     {
       "id": "investigation110_16",
@@ -1046,26 +1058,26 @@
       "options": [
         {
           "text": "立法委員，除現行犯、通緝犯外，在會期中，非經立法院之許可，不得逮捕或拘禁",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：拘票備二聯，執行時交一聯給被拘提人或家屬；逕行拘提後應即報請簽發，不能拖至移送。",
+          "explanation": "憲法增修條文第4條明列會期中現行犯例外，未將通緝犯一律列為例外。",
+          "correction": "應區分現行犯與通緝身分，不自行增加例外。",
           "trueStatement": false
         },
         {
           "text": "拘票有二聯，執行拘提時，應以一聯交被拘提人或其家屬",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "拘票備二聯，執行時交一聯給被拘提人或家屬；逕行拘提後應即報請簽發，不能拖至移送。",
+          "explanation": "刑訴第79條規定拘票應備2聯，執行時以1聯交被告或其家屬。",
+          "correction": "本項符合刑訴第79條。",
           "trueStatement": true
         },
         {
           "text": "拘票不能執行者，應記載其事由，由分局長簽名後，繳交法官或檢察官",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：拘票備二聯，執行時交一聯給被拘提人或家屬；逕行拘提後應即報請簽發，不能拖至移送。",
+          "explanation": "刑訴第80條規定不能執行時記載事由，由執行人簽名，提出於命拘提之公務員。",
+          "correction": "應由執行人簽名，提出於命拘提之公務員。",
           "trueStatement": false
         },
         {
           "text": "司法警察機關依刑事訴訟法第 88 條之 1 執行逕行拘提後，得於移送時始一併聲請補發拘票",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：拘票備二聯，執行時交一聯給被拘提人或家屬；逕行拘提後應即報請簽發，不能拖至移送。",
+          "explanation": "刑訴第88條之1第2項要求執行後即報請檢察官簽發拘票。",
+          "correction": "應即報請簽票，不得等移送時才辦。",
           "trueStatement": false
         }
       ],
@@ -1076,19 +1088,30 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第16題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 16,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "刑事訴訟法第79、80、88條之1及憲法增修條文第4條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依正式條文逐項核對；保留110年官方答案B。",
+        "sources": [
+          {
+            "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "中華民國憲法增修條文第4條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+          }
+        ]
       },
-      "takeaway": "拘票備二聯，執行時交一聯給被拘提人或家屬；逕行拘提後應即報請簽發，不能拖至移送。",
+      "takeaway": "拘票2聯、1聯交本人或家屬；逕行拘提執行後即報請簽票。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -1101,8 +1124,17 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "中華民國憲法增修條文第4條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
         }
-      ]
+      ],
+      "currentAnswer": "B正確：拘票應備2聯，1聯交被拘提人或家屬。立委會期不受逮捕或拘禁保障的明文例外是現行犯，非單憑通緝身分。"
     },
     {
       "id": "investigation110_17",
@@ -1930,26 +1962,26 @@
       "options": [
         {
           "text": "6 月以下",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：110年原卷通常保護令有效期間為2年以下；本次查得全國法規資料庫第15條仍載2年，勿與3年等其他數字混用。",
+          "explanation": "第15條規定通常保護令有效期間為2年以下，非6個月。",
+          "correction": "應為2年以下，自核發時生效。",
           "trueStatement": false
         },
         {
           "text": "1 年以下",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：110年原卷通常保護令有效期間為2年以下；本次查得全國法規資料庫第15條仍載2年，勿與3年等其他數字混用。",
+          "explanation": "第15條規定通常保護令有效期間為2年以下，非1年。",
+          "correction": "應為2年以下，自核發時生效。",
           "trueStatement": false
         },
         {
           "text": "2 年以下",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "110年原卷通常保護令有效期間為2年以下；本次查得全國法規資料庫第15條仍載2年，勿與3年等其他數字混用。",
+          "explanation": "第15條規定通常保護令有效期間為2年以下。",
+          "correction": "本項符合第15條。",
           "trueStatement": true
         },
         {
           "text": "3 年以下",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：110年原卷通常保護令有效期間為2年以下；本次查得全國法規資料庫第15條仍載2年，勿與3年等其他數字混用。",
+          "explanation": "第15條上限為2年，非3年。",
+          "correction": "應為2年以下。",
           "trueStatement": false
         }
       ],
@@ -1960,19 +1992,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第29題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 29,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "家庭暴力防治法第15條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依正式條文逐項核對；保留110年官方答案C。",
+        "sources": [
+          {
+            "title": "家庭暴力防治法第2、15條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
+          }
+        ]
       },
-      "takeaway": "110年原卷通常保護令有效期間為2年以下；本次查得全國法規資料庫第15條仍載2年，勿與3年等其他數字混用。",
+      "takeaway": "通常保護令每次至多2年，自核發時生效。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -1985,8 +2024,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "家庭暴力防治法第2、15條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
         }
-      ]
+      ],
+      "currentAnswer": "C正確：通常保護令有效期間為2年以下，自核發時生效；延長每次亦為2年以下，須依法聲請。"
     },
     {
       "id": "investigation110_30",

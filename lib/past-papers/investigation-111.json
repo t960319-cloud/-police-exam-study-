@@ -1870,26 +1870,26 @@
       "options": [
         {
           "text": "扣留",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "為預防危害採取的是警職法扣留；與刑事扣押或沒收的目的、程序不同。",
+          "explanation": "第21條明定為預防危害之必要得扣留。",
+          "correction": "本項符合第21條。",
           "trueStatement": true
         },
         {
           "text": "代保管",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：為預防危害採取的是警職法扣留；與刑事扣押或沒收的目的、程序不同。",
+          "explanation": "第21條針對本題危險物品之措施為扣留，非題示代保管。",
+          "correction": "應依第21條判斷扣留及其必要性。",
           "trueStatement": false
         },
         {
           "text": "扣押",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：為預防危害採取的是警職法扣留；與刑事扣押或沒收的目的、程序不同。",
+          "explanation": "第21條用語為扣留，不是刑事訴訟扣押。",
+          "correction": "依警職法第21條為扣留；刑事扣押另有法源。",
           "trueStatement": false
         },
         {
           "text": "沒收",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：為預防危害採取的是警職法扣留；與刑事扣押或沒收的目的、程序不同。",
+          "explanation": "第21條授權扣留，不是當場沒收。",
+          "correction": "不得將預防性扣留誤作沒收。",
           "trueStatement": false
         }
       ],
@@ -1900,19 +1900,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第28題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 28,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "警察職權行使法第21條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依正式條文逐項核對；保留111年官方答案A。",
+        "sources": [
+          {
+            "title": "警察職權行使法第12、13、21條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          }
+        ]
       },
-      "takeaway": "為預防危害採取的是警職法扣留；與刑事扣押或沒收的目的、程序不同。",
+      "takeaway": "危險物品為預防危害之必要，依警職法第21條扣留。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -1925,8 +1932,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警察職權行使法第12、13、21條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
         }
-      ]
+      ],
+      "currentAnswer": "A正確：對軍器、凶器或其他危險物品，為預防危害必要時，警察得依第21條扣留。"
     },
     {
       "id": "investigation111_29",
@@ -2154,26 +2166,26 @@
       "options": [
         {
           "text": "20 日",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題組織犯罪通訊監察每次不逾30日；不是情報機關對境外情報的監察期間。",
+          "explanation": "第12條規定第5、6條之監察每次不得逾30日，非20日。",
+          "correction": "應為每次不得逾30日。",
           "trueStatement": false
         },
         {
           "text": "30 日",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "本題組織犯罪通訊監察每次不逾30日；不是情報機關對境外情報的監察期間。",
+          "explanation": "第12條規定第5、6條之監察每次不得逾30日。",
+          "correction": "本項符合第12條。",
           "trueStatement": true
         },
         {
           "text": "60 日",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題組織犯罪通訊監察每次不逾30日；不是情報機關對境外情報的監察期間。",
+          "explanation": "第12條規定第5、6條之監察每次不得逾30日，非60日。",
+          "correction": "應為每次不得逾30日。",
           "trueStatement": false
         },
         {
           "text": "90 日",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題組織犯罪通訊監察每次不逾30日；不是情報機關對境外情報的監察期間。",
+          "explanation": "第12條規定第5、6條之監察每次不得逾30日，非90日。",
+          "correction": "應為每次不得逾30日。",
           "trueStatement": false
         }
       ],
@@ -2184,19 +2196,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第32題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 32,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "通訊保障及監察法第5、12條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依正式條文逐項核對；保留111年官方答案B。",
+        "sources": [
+          {
+            "title": "通訊保障及監察法第5、6、7、12條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+          }
+        ]
       },
-      "takeaway": "本題組織犯罪通訊監察每次不逾30日；不是情報機關對境外情報的監察期間。",
+      "takeaway": "刑案監察每次至多30日；國安情報監察每次至多1年。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -2209,8 +2228,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "通訊保障及監察法第5、6、7、12條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
         }
-      ]
+      ],
+      "currentAnswer": "B正確：刑案依第5、6條之通訊監察每次不得逾30日；續行須說明理由，並注意累計及重行聲請規定。"
     },
     {
       "id": "investigation111_33",
@@ -2562,26 +2586,26 @@
       "options": [
         {
           "text": "請求交付",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "對機關或公務員保管物，原則先請求交付，必要時始搜索，不能一開始就概括強搜。",
+          "explanation": "第126條規定應請求交付，必要時得搜索。",
+          "correction": "本項符合第126條。",
           "trueStatement": true
         },
         {
           "text": "現實交付",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：對機關或公務員保管物，原則先請求交付，必要時始搜索，不能一開始就概括強搜。",
+          "explanation": "第126條先要求請求交付，不以是否現實交付替代此程序。",
+          "correction": "應先請求交付。",
           "trueStatement": false
         },
         {
           "text": "囑吒交付",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：對機關或公務員保管物，原則先請求交付，必要時始搜索，不能一開始就概括強搜。",
+          "explanation": "第126條使用請求交付，未使用題示囑託交付。",
+          "correction": "應先請求交付。",
           "trueStatement": false
         },
         {
           "text": "擬制交付",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：對機關或公務員保管物，原則先請求交付，必要時始搜索，不能一開始就概括強搜。",
+          "explanation": "第126條未以擬制交付替代先行請求。",
+          "correction": "應先請求交付。",
           "trueStatement": false
         }
       ],
@@ -2592,19 +2616,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第38題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 38,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "刑事訴訟法第126條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依正式條文逐項核對；保留111年官方答案A。",
+        "sources": [
+          {
+            "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "對機關或公務員保管物，原則先請求交付，必要時始搜索，不能一開始就概括強搜。",
+      "takeaway": "公務機關文書應先請求交付；必要時得搜索。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -2617,8 +2648,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "A正確：政府機關或公務員持有、保管的應扣押文書及物件，應先請求交付，必要時得搜索。"
     },
     {
       "id": "investigation111_39",
@@ -2630,26 +2666,26 @@
       "options": [
         {
           "text": "案由",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：應載有效期間及其他法定事項；夜間搜索限制不是概括寫一個夜間有效期間即可排除。",
+          "explanation": "第128條第2項第1款列案由。",
+          "correction": "案由為法定記載事項。",
           "trueStatement": true
         },
         {
           "text": "應扣押之物",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：應載有效期間及其他法定事項；夜間搜索限制不是概括寫一個夜間有效期間即可排除。",
+          "explanation": "第128條第2項第2款列應扣押之物。",
+          "correction": "應扣押之物為法定記載事項。",
           "trueStatement": true
         },
         {
           "text": "應搜索之電磁紀錄",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：應載有效期間及其他法定事項；夜間搜索限制不是概括寫一個夜間有效期間即可排除。",
+          "explanation": "第128條第2項第3款列應加搜索之電磁紀錄。",
+          "correction": "應加搜索之電磁紀錄為法定記載事項。",
           "trueStatement": true
         },
         {
           "text": "應執行夜間搜索之有效期間",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "應載有效期間及其他法定事項；夜間搜索限制不是概括寫一個夜間有效期間即可排除。",
+          "explanation": "第128條要求有效期間，未規定一律記載應執行夜間搜索之有效期間。",
+          "correction": "應載搜索有效期間；夜間能否執行另依第146、147條判斷。",
           "trueStatement": false
         }
       ],
@@ -2660,19 +2696,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第39題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 39,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "刑事訴訟法第128條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依正式條文逐項核對；保留111年官方答案D。",
+        "sources": [
+          {
+            "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "應載有效期間及其他法定事項；夜間搜索限制不是概括寫一個夜間有效期間即可排除。",
+      "takeaway": "搜索票記一般有效期間；夜間搜索須另符法定條件。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -2685,8 +2728,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "D錯誤：搜索票應記有效期間，但第128條未規定一律記載「夜間搜索」有效期間；夜間搜索仍另受第146、147條限制。"
     },
     {
       "id": "investigation111_40",
@@ -2698,26 +2746,26 @@
       "options": [
         {
           "text": "搜索票，由法官簽名",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：刑訴法對搜索票聲請遭駁回設有不得聲明不服規定，不是一般可向上級法院抗告。",
+          "explanation": "第128條第3項規定搜索票由法官簽名。",
+          "correction": "本項符合第128條。",
           "trueStatement": true
         },
         {
           "text": "法官得於搜索票上，對執行人員為適當之指示",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：刑訴法對搜索票聲請遭駁回設有不得聲明不服規定，不是一般可向上級法院抗告。",
+          "explanation": "第128條第3項規定法官得對執行人員為適當指示。",
+          "correction": "本項符合第128條。",
           "trueStatement": true
         },
         {
           "text": "搜索票之聲請，經法院駁回者，得向上級法院提起抗告",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "刑訴法對搜索票聲請遭駁回設有不得聲明不服規定，不是一般可向上級法院抗告。",
+          "explanation": "第128條之1第3項規定前二項聲請經駁回不得聲明不服。",
+          "correction": "不得對該駁回聲明不服。",
           "trueStatement": false
         },
         {
           "text": "核發搜索票之程序，不公開之",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：刑訴法對搜索票聲請遭駁回設有不得聲明不服規定，不是一般可向上級法院抗告。",
+          "explanation": "第128條第4項規定核發搜索票之程序不公開。",
+          "correction": "本項符合第128條。",
           "trueStatement": true
         }
       ],
@@ -2728,19 +2776,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第40題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 40,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "刑事訴訟法第128、128條之1",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依正式條文逐項核對；保留111年官方答案C。",
+        "sources": [
+          {
+            "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "刑訴法對搜索票聲請遭駁回設有不得聲明不服規定，不是一般可向上級法院抗告。",
+      "takeaway": "搜索票聲請經法院駁回不得聲明不服；核發程序不公開。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -2753,8 +2808,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "C錯誤：第128條之1規定偵查中所列聲請經法院駁回者不得聲明不服；第128條另規定法官簽名及核發程序不公開。"
     },
     {
       "id": "investigation111_41",
@@ -3174,26 +3234,26 @@
       "options": [
         {
           "text": "跟蹤",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "家暴法所述持續監視、跟追或掌控行蹤的行為稱跟蹤，與偵查跟監的行政用語不同。",
+          "explanation": "第2條第5款將題示持續性監視、跟追或掌控定義為跟蹤。",
+          "correction": "本項符合家暴法第2條第5款。",
           "trueStatement": true
         },
         {
           "text": "跟監",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：家暴法所述持續監視、跟追或掌控行蹤的行為稱跟蹤，與偵查跟監的行政用語不同。",
+          "explanation": "家暴法該款的法定用語是跟蹤，非跟監。",
+          "correction": "應使用跟蹤。",
           "trueStatement": false
         },
         {
           "text": "追蹤",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：家暴法所述持續監視、跟追或掌控行蹤的行為稱跟蹤，與偵查跟監的行政用語不同。",
+          "explanation": "家暴法該款的法定用語是跟蹤，非追蹤。",
+          "correction": "應使用跟蹤。",
           "trueStatement": false
         },
         {
           "text": "跟騷",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：家暴法所述持續監視、跟追或掌控行蹤的行為稱跟蹤，與偵查跟監的行政用語不同。",
+          "explanation": "家暴法該款的法定用語是跟蹤；跟蹤騷擾防制法另有獨立構成。",
+          "correction": "區分家暴法跟蹤與跟蹤騷擾防制法。",
           "trueStatement": false
         }
       ],
@@ -3204,19 +3264,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第47題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 47,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "家庭暴力防治法第2條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依正式條文逐項核對；保留111年官方答案A。",
+        "sources": [
+          {
+            "title": "家庭暴力防治法第2、15條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
+          }
+        ]
       },
-      "takeaway": "家暴法所述持續監視、跟追或掌控行蹤的行為稱跟蹤，與偵查跟監的行政用語不同。",
+      "takeaway": "家暴法第2條第5款定義「跟蹤」。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -3229,8 +3296,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "家庭暴力防治法第2、15條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
         }
-      ]
+      ],
+      "currentAnswer": "A正確：家暴法第2條第5款將持續性監視、跟追或掌控他人行蹤及活動定義為跟蹤；與跟蹤騷擾防制法的構成要件不可混同。"
     },
     {
       "id": "investigation111_48",

@@ -102,3 +102,11 @@ for(const [id,answer] of [['investigation111_12',3],['investigation111_31',3],['
 const urgentMonitoring=result.questions.find(q=>q.id==='investigation112_09');assert.equal(urgentMonitoring.answer,3);assert.equal(urgentMonitoring.verified,false);assert(urgentMonitoring.currentAnswer.includes('24小時'));assert(urgentMonitoring.currentAnswer.includes('48小時'));
 const stalking=result.questions.find(q=>q.id==='investigation114_27');assert.equal(stalking.answer,0);assert.equal(stalking.verified,false);assert(stalking.currentAnswer.includes('第3條第2項'));assert(stalking.currentAnswer.includes('性別無關'));
 console.log('Communication deadlines and records, arrest-warrant copies, and stalking exceptions passed.');
+// Reused statutes across historical years must keep exceptions and the original paper keys.
+for(const [id,answer] of [['investigation110_15',0],['investigation110_16',1],['investigation110_29',2],['investigation111_28',0],['investigation111_32',1],['investigation111_38',0],['investigation111_39',3],['investigation111_40',2],['investigation111_47',0],['investigation112_35',2],['investigation113_04',1],['investigation113_19',2],['investigation113_21',2]]){
+ const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.answer,answer);assert(q.verified);assert.notEqual(q.analysisMode,'answer-key');
+}
+const informantRenewal=result.questions.find(q=>q.id==='investigation112_08');assert.equal(informantRenewal.answer,1);assert.equal(informantRenewal.verified,false);assert(informantRenewal.options[2].explanation.includes('新發生'));
+const nightClass=result.questions.find(q=>q.id==='investigation113_21');assert(nightClass.currentAnswer.includes('本身不在'));assert(nightClass.currentAnswer.includes('其他合法例外'));
+const protectedLegislator=result.questions.find(q=>q.id==='investigation110_16');assert(protectedLegislator.currentAnswer.includes('現行犯'));assert(protectedLegislator.currentAnswer.includes('通緝'));
+console.log('Cross-year legal explanations preserve exceptions, warrant limits and original exam answers.');

@@ -226,26 +226,26 @@
       "options": [
         {
           "text": "查訪對象之工作、交往及生活情形",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：查訪應選適當時間並避免影響工作名譽，不以夜間為一般原則。",
+          "explanation": "第3條第1款列工作、交往及生活情形。",
+          "correction": "本項符合第3條。",
           "trueStatement": true
         },
         {
           "text": "警察實施查訪，應於夜間為之",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "查訪應選適當時間並避免影響工作名譽，不以夜間為一般原則。",
+          "explanation": "第6條規定查訪應於日間，與查訪對象約定者例外。",
+          "correction": "應於日間，約定者得有例外。",
           "trueStatement": false
         },
         {
           "text": "警察實施查訪，應選擇適當之時間、地點，以家戶訪問或其他適當方式為之，並應注意避免影響查 訪對象之工作及名譽",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：查訪應選適當時間並避免影響工作名譽，不以夜間為一般原則。",
+          "explanation": "第5條規定選適當時間、地點與方式，注意避免影響工作及名譽。",
+          "correction": "本項符合第5條。",
           "trueStatement": true
         },
         {
           "text": "警察實施查訪時，應著制服或出示證件表明身分，並應告知事由",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：查訪應選適當時間並避免影響工作名譽，不以夜間為一般原則。",
+          "explanation": "第7條規定著制服或出示證件表明身分，並告知事由。",
+          "correction": "本項符合第7條。",
           "trueStatement": true
         }
       ],
@@ -256,19 +256,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第4題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 4,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "治安顧慮人口查訪辦法第3、5至7條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依正式條文逐項核對；保留113年官方答案B。",
+        "sources": [
+          {
+            "title": "治安顧慮人口查訪辦法第3、5至7條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+          }
+        ]
       },
-      "takeaway": "查訪應選適當時間並避免影響工作名譽，不以夜間為一般原則。",
+      "takeaway": "查訪原則日間；著制服或出示證件並告知事由。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -281,8 +288,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113060&t=A"
+        },
+        {
+          "title": "治安顧慮人口查訪辦法第3、5至7條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
         }
-      ]
+      ],
+      "currentAnswer": "B錯誤：第6條原則於日間查訪，與查訪對象約定者例外；並應注意工作名譽、表明身分及告知事由。"
     },
     {
       "id": "investigation113_05",
@@ -1246,26 +1258,26 @@
       "options": [
         {
           "text": "搜索票，應記載有效期間，逾期不得執行搜索及搜索後應將搜索票交還之意旨",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：搜索票核發程序不公開，不是一般公開審理程序。",
+          "explanation": "第128條第2項第4款要求記載有效期間及逾期不得執行、交還意旨。",
+          "correction": "本項符合第128條。",
           "trueStatement": true
         },
         {
           "text": "搜索票，由法官簽名",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：搜索票核發程序不公開，不是一般公開審理程序。",
+          "explanation": "第128條第3項規定搜索票由法官簽名。",
+          "correction": "本項符合第128條。",
           "trueStatement": true
         },
         {
           "text": "核發搜索票之程序，應公開之",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "搜索票核發程序不公開，不是一般公開審理程序。",
+          "explanation": "第128條第4項規定核發程序不公開。",
+          "correction": "應改為不公開。",
           "trueStatement": false
         },
         {
           "text": "法官並得於搜索票上，對執行人員為適當之指示",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：搜索票核發程序不公開，不是一般公開審理程序。",
+          "explanation": "第128條第3項規定法官得對執行人員為適當指示。",
+          "correction": "本項符合第128條。",
           "trueStatement": true
         }
       ],
@@ -1276,19 +1288,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第19題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 19,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "刑事訴訟法第128條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依正式條文逐項核對；保留113年官方答案C。",
+        "sources": [
+          {
+            "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "搜索票核發程序不公開，不是一般公開審理程序。",
+      "takeaway": "搜索票由法官簽名；核發程序不公開。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -1301,8 +1320,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113060&t=A"
+        },
+        {
+          "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "C錯誤：核發搜索票程序不公開；搜索票須記有效期間，由法官簽名，並得附適當指示。"
     },
     {
       "id": "investigation113_20",
@@ -1382,26 +1406,26 @@
       "options": [
         {
           "text": "經住居人承諾時，且記明其事由於搜索扣押筆錄",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：毒品調驗人口不當然等同刑訴法列舉的假釋人或其他夜間搜索例外。",
+          "explanation": "第146條第1項承諾屬例外，夜間搜索事由須記明筆錄。",
+          "correction": "本項符合第146條；承諾仍須依法確認。",
           "trueStatement": true
         },
         {
           "text": "日間已開始搜索或扣押者，得繼續至夜間",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：毒品調驗人口不當然等同刑訴法列舉的假釋人或其他夜間搜索例外。",
+          "explanation": "第146條第3項允許日間已開始之搜索或扣押繼續至夜間。",
+          "correction": "本項符合第146條第3項。",
           "trueStatement": true
         },
         {
           "text": "毒品調驗人口住居者",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "毒品調驗人口不當然等同刑訴法列舉的假釋人或其他夜間搜索例外。",
+          "explanation": "第147條未將毒品調驗人口住居身分列為例外。",
+          "correction": "不能只因該身分夜間搜索；其他法定例外另依案情判斷。",
           "trueStatement": false
         },
         {
           "text": "常用為賭博之行為者",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：毒品調驗人口不當然等同刑訴法列舉的假釋人或其他夜間搜索例外。",
+          "explanation": "第147條第3款列常用為賭博之處所。",
+          "correction": "本項符合第147條第3款。",
           "trueStatement": true
         }
       ],
@@ -1412,19 +1436,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第21題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 21,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "刑事訴訟法第146、147條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "已依正式條文逐項核對；保留113年官方答案C。",
+        "sources": [
+          {
+            "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "毒品調驗人口不當然等同刑訴法列舉的假釋人或其他夜間搜索例外。",
+      "takeaway": "夜間搜索看第146、147條，不因毒品調驗人口身分當然例外。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -1437,8 +1468,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113060&t=A"
+        },
+        {
+          "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "C錯誤：毒品調驗人口住居本身不在第147條列舉例外；承諾、急迫或其他合法例外仍須另行判斷。"
     },
     {
       "id": "investigation113_22",

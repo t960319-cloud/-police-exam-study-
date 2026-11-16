@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-11-16",
+  "timezone": "Asia/Taipei",
+  "sources": [
+    {
+      "title": "刑事訴訟法第79、80、88條之1、126、128、128條之1、146、147條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001",
+      "sha256": "23b5460003c6aeb7c62263a08914438ac91681a8a19eaaba6f4b514beea21022",
+      "retrieval": "HTTPS原件HTTP 200"
+    },
+    {
+      "title": "中華民國憲法增修條文第4條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002",
+      "sha256": "b60b2dee7a86bf7603fda117cc67bc431a324c7c8e77de5e65d8902e91870029",
+      "retrieval": "HTTPS原件HTTP 200"
+    },
+    {
+      "title": "家庭暴力防治法第2、15條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071",
+      "sha256": "b017506642ec0ff46435eacc450234e53f1e37124175dc61349c2077dd73f88d",
+      "retrieval": "HTTPS原件HTTP 200"
+    },
+    {
+      "title": "警察職權行使法第12、13、21條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145",
+      "sha256": "13b20775ad49bb94a3fcf7c911d248f5f32186339198abfccdc4916d06018e7b",
+      "retrieval": "HTTPS原件HTTP 200"
+    },
+    {
+      "title": "通訊保障及監察法第5、6、7、12條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044",
+      "sha256": "56ddeb9eed1350acdb5b1c8579c1a82e89f6aa5bffa15503b11c6e392252f7da",
+      "retrieval": "HTTPS原件HTTP 200"
+    },
+    {
+      "title": "治安顧慮人口查訪辦法第3、5至7條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147",
+      "sha256": "d252bda870d0e877e1b2ea7bb35f4f2da74a1af8623cc2f8cfd3996db240c69e",
+      "retrieval": "HTTPS原件HTTP 200"
+    }
+  ],
+  "verifiedQuestionIds": [
+    "investigation110_15",
+    "investigation110_16",
+    "investigation110_29",
+    "investigation111_28",
+    "investigation111_32",
+    "investigation111_38",
+    "investigation111_39",
+    "investigation111_40",
+    "investigation111_47",
+    "investigation112_35",
+    "investigation113_04",
+    "investigation113_19",
+    "investigation113_21"
+  ],
+  "reviewQuestionIds": [
+    "investigation112_08"
+  ],
+  "notes": [
+    "夜間搜索對象例外與同意、急迫等其他例外分開。",
+    "第三人續行須新發生原因事實，原題表述未完整列明；不改變當年答案。",
+    "官方資料整編截止115.11.06，可能有未收錄後續異動。"
+  ]
+}
