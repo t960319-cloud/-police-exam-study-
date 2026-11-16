@@ -353,3 +353,15 @@
 
 - GitHub與Sites來源 `d9d1a8facd03c2eecaab284480fcc372732b8a7a` 一致；十題詳解存為第24版並部署 `appgdep_6afb835733b0819182a9c8a425683adc`，原生回報成功，存取對象維持public。
 - 正式法規API在本環境仍無法讀回；本批未重跑瀏覽器，也未操作正式D1與個人學習資料。
+
+## 2026-11-17
+
+### Git 同步與錯誤檢查（2026-11-16 UTC 排程）
+
+- 實際核對時間：2026-11-17 06:33（Asia/Taipei；UTC 2026-11-16 22:33）。等待所附環境就緒，確認 running、觀察有效及政策 enforced，並閱讀最新 AGENTS、Wiki、README、近期日誌、待辦與未結問題。
+- GitHub 同步：原工作樹乾淨，HEAD 為 `2a774d852073386f684bc5f7db8207a327f8c4ca`，沒有本機待推送提交。fetch 後確認落後35筆、超前0筆，使用 `git merge --ff-only --no-stat origin/main` 正常快轉至 `11a14922ba4b655dfd9fdf38a6f74946f747f0d9`，保留其他工作的法規補充、離線版本還原及驗收紀錄，沒有衝突或歷史覆寫。
+- Sites 核對：`.openai/hosting.json` 指向的 police 來源已到 `d9d1a8facd03c2eecaab284480fcc372732b8a7a`，原生工具列出的最新保存版本為第24版且來源相同。Sites 沒有獨有提交，GitHub 僅多一筆部署紀錄提交、三份文件差異；應用程式、資料庫、腳本、依賴及發布設定的 `git diff --exit-code` 通過。
+- 本輪本機檢查通過：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm test:sync`（22項）、`pnpm test:priorities`（6項），以及 `check-legal-updates.mjs`、`check-past-papers.mjs`、`check-law-papers.mjs`、`check-scenario-papers.mjs`、`check-investigation-papers.mjs`、`check-curated-updates.mjs`、`check-requested-study-resets.mjs` 七支既有腳本、`node --check scripts/check-study-browser.mjs` 與 `git diff --check`。
+- 遠端 CI：讀回 `11a1492` 的 [Study app checks](https://github.com/t960319-cloud/-police-exam-study-/actions/runs/43970352877)，狀態 completed、結果 success。與本輪本機檢查分開記錄；本輪未重新建置或操作瀏覽器，也未重新向官方法源核對內容。
+- 本輪新增內容與連線：只追加 `log.md`、`Issue.md` 的同步紀錄，差異格式及本機 Markdown 連結路徑檢查通過。GitHub 與 Sites 使用核准的正常連線均成功，短效憑證僅經記憶體與隱藏 stdin 使用；沒有新增 Git 同步錯誤。紀錄以一般提交及 `git push origin HEAD:main` 推送，最終 SHA 以 Git 歷史及遠端讀回為準。
+- 未完成範圍：新正式網域 API 讀回限制（ISSUE-20261116-02）、正式帳號保存／跨裝置／歷史還原與既有法規待核事項均未在本輪重驗或結案。本輪不部署、不遷移資料庫或寫入正式個人紀錄；其他隔離工作未提交檔案無法由本次工作目錄取得，不包含在本次同步。
