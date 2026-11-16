@@ -248,8 +248,21 @@
       "answerStatus": "官方原卷及當年度答案已核；官方目錄未列本科更正",
       "amendment": {
         "status": "review",
-        "note": "緊急查尋分類、定位申請權限及媒體協尋須核最新失蹤人口SOP；本題A不等於遇幼兒被帶走就不受理。 原卷及當年度官方答案已核；現行完整作業規定仍須以最新原件確認。",
-        "sources": []
+        "law": "失蹤人口查尋作業要點",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "effectiveDate": "112.12.29修正第5點並自即日生效",
+        "note": "第6點兩個兒童年齡款排除家屬擅自帶離；另有急迫事由仍可適用其他款。第7點定位為必要時依相關規定申請，通報或媒體協尋應視個案，完整其他SOP仍需確認。",
+        "sources": [
+          {
+            "title": "警政署・失蹤人口查尋作業要點全文（第3、5至10、12點）",
+            "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000200"
+          },
+          {
+            "title": "警政署・失蹤人口查尋作業要點沿革",
+            "url": "https://ou3.npa.gov.tw/law/Law/LawDetailBase/F1000200"
+          }
+        ]
       },
       "takeaway": "父母親權或監護尚待裁定，一方帶走子女不當然成立失蹤人口緊急查尋要件；仍須查明所在不明、生命身體危險或其他法定緊急情事。",
       "sources": [
@@ -260,8 +273,17 @@
         {
           "title": "考選部・113年本科標準答案（目錄未另列更正）",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0905&q=1"
+        },
+        {
+          "title": "警政署・失蹤人口查尋作業要點全文（第3、5至10、12點）",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000200"
+        },
+        {
+          "title": "警政署・失蹤人口查尋作業要點沿革",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailBase/F1000200"
         }
-      ]
+      ],
+      "currentAnswer": "原題A為官方答案；A所列家屬帶離不當然符合年齡款，另有急迫事由仍須個案評估。定位及協尋須依第7點的必要性與個案條件。"
     },
     {
       "id": "scene113-05",

@@ -1243,8 +1243,21 @@
       "answerStatus": "官方最終答案已核",
       "amendment": {
         "status": "none",
-        "note": "本題核心考點未發現足以改變原題答案的後續修正；核對日2026-11-09。",
-        "sources": []
+        "law": "失蹤人口查尋作業要點",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "effectiveDate": "112.12.29修正第5點並自即日生效",
+        "note": "第12點明定7日內訪問關懷，其後每3個月至少1次；失蹤滿3年以上每年1次。",
+        "sources": [
+          {
+            "title": "警政署・失蹤人口查尋作業要點全文（第3、5至10、12點）",
+            "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000200"
+          },
+          {
+            "title": "警政署・失蹤人口查尋作業要點沿革",
+            "url": "https://ou3.npa.gov.tw/law/Law/LawDetailBase/F1000200"
+          }
+        ]
       },
       "takeaway": "符合官方公開說明的7日內初訪與每3個月至少1次定期訪查。",
       "sources": [
@@ -1259,8 +1272,17 @@
         {
           "title": "內政部・失蹤人口受理及查尋常見問答",
           "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&n=174&page=12&sms=9015"
+        },
+        {
+          "title": "警政署・失蹤人口查尋作業要點全文（第3、5至10、12點）",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000200"
+        },
+        {
+          "title": "警政署・失蹤人口查尋作業要點沿革",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailBase/F1000200"
         }
-      ]
+      ],
+      "currentAnswer": "B。7日內初訪、其後每3個月至少1次；失蹤滿3年以上每年一次。"
     },
     {
       "id": "duty112_20",
@@ -1272,7 +1294,7 @@
         {
           "text": "領有身心障礙證明者（家屬擅自帶離除外）",
           "explanation": "僅有身心障礙證明尚不足自動符合該年齡款，須符合年齡與其他緊急條件。",
-          "correction": "7歲以上未滿12歲且領證，或另具自殺等緊急事由。",
+          "correction": "7歲以上未滿12歲且領有身心障礙證明，並排除家屬擅自帶離；或另具其他緊急事由。",
           "trueStatement": false
         },
         {
@@ -1300,19 +1322,27 @@
       ],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜警察勤務概要｜第20題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 20,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "note": "六類緊急查尋內容已與內政部官方FAQ交叉核對；完整作業要點最新版及點次仍須核原件。",
+        "status": "none",
+        "law": "失蹤人口查尋作業要點",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "effectiveDate": "112.12.29修正第5點並自即日生效",
+        "note": "第6點第1款為全民健康保險法所定重大傷病；第4、5款年齡與家屬擅自帶離例外應分別判斷。",
         "sources": [
           {
-            "title": "內政部・失蹤人口受理及查尋常見問答",
-            "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&n=174&page=12&sms=9015"
+            "title": "警政署・失蹤人口查尋作業要點全文（第3、5至10、12點）",
+            "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000200"
+          },
+          {
+            "title": "警政署・失蹤人口查尋作業要點沿革",
+            "url": "https://ou3.npa.gov.tw/law/Law/LawDetailBase/F1000200"
           }
         ]
       },
@@ -1329,8 +1359,17 @@
         {
           "title": "內政部・失蹤人口受理及查尋常見問答",
           "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&n=174&page=12&sms=9015"
+        },
+        {
+          "title": "警政署・失蹤人口查尋作業要點全文（第3、5至10、12點）",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000200"
+        },
+        {
+          "title": "警政署・失蹤人口查尋作業要點沿革",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailBase/F1000200"
         }
-      ]
+      ],
+      "currentAnswer": "C。重大傷病屬緊急查尋；身障證明不能脫離第5款年齡條件單獨判斷。"
     },
     {
       "id": "duty112_21",

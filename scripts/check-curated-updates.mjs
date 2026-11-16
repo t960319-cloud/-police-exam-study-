@@ -40,3 +40,9 @@ for(const id of ['e6','e11']){const law=result.laws.find(l=>l.id===id);assert(la
 for(const id of ['q14','q15','q16','duty112_09','duty113_21','scene114-14']){const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.verified,false);assert(q.currentAnswer.includes('保留原題'));}
 const escortEssay=result.essays.find(e=>e.id==='s05');assert(escortEssay);assert.equal(escortEssay.verified,false);assert(escortEssay.model.basis.includes('110.12.13廢止'));
 console.log('Repealed escort regulation stays historical; linked exercises cannot be marked current/verified.');
+// Official missing-person rules: retain historical keys and the limits on children and follow-up.
+const missingLaw=result.laws.find(l=>l.id==='missing');assert(missingLaw);assert(missingLaw.verified);assert(missingLaw.sources.some(s=>s.url.endsWith('/F1000200')));assert(missingLaw.points.some(p=>p.includes('7日內')&&p.includes('3個月')&&p.includes('3年以上')));assert(missingLaw.traps.some(p=>p.includes('24小時不是報案等待期')));
+for(const [id,answer] of [['duty112_20',2],['scene115-09',2]]){const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.answer,answer);assert(q.verified);assert(q.currentAnswer);}
+const familyCase=result.questions.find(q=>q.id==='scene113-04');assert(familyCase);assert.equal(familyCase.answer,0);assert.equal(familyCase.verified,false);assert(familyCase.currentAnswer.includes('其他緊急事由')||familyCase.currentAnswer.includes('急迫事由'));
+const missingEssay=result.essays.find(e=>e.id==='s03');assert(missingEssay);assert(missingEssay.model.analysis.includes('7日內'));assert(missingEssay.model.analysis.includes('每3個月'));assert(missingEssay.model.analysis.includes('每年1次'));
+console.log('Official missing-person cases, family exception, follow-up and original answers passed.');

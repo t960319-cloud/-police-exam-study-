@@ -643,20 +643,27 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察情境實務概要｜第9題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 9,
       "answerStatus": "官方原答已核；目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "官方答案C及主管機關公開說明中的家屬帶離例外已核；警政署最新要點全文、點次及重大傷病範圍仍待完整原件比對。",
-        "checkedAt": "2026-11-09",
+        "status": "none",
+        "law": "失蹤人口查尋作業要點",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "effectiveDate": "112.12.29修正第5點並自即日生效",
+        "note": "第6點第4、5款均排除家屬擅自帶離；有自殺、誘拐脅迫或其他重大急迫事實，仍應按其他款判斷。",
         "sources": [
           {
-            "title": "內政部失蹤人口緊急查尋說明",
-            "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&_Query=8aad0325-4cff-40ef-8903-22b6257c01a1&n=174&page=12&sms=9015"
+            "title": "警政署・失蹤人口查尋作業要點全文（第3、5至10、12點）",
+            "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000200"
+          },
+          {
+            "title": "警政署・失蹤人口查尋作業要點沿革",
+            "url": "https://ou3.npa.gov.tw/law/Law/LawDetailBase/F1000200"
           }
         ]
       },
@@ -673,8 +680,17 @@
         {
           "title": "內政部失蹤人口緊急查尋說明",
           "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&_Query=8aad0325-4cff-40ef-8903-22b6257c01a1&n=174&page=12&sms=9015"
+        },
+        {
+          "title": "警政署・失蹤人口查尋作業要點全文（第3、5至10、12點）",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000200"
+        },
+        {
+          "title": "警政署・失蹤人口查尋作業要點沿革",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailBase/F1000200"
         }
-      ]
+      ],
+      "currentAnswer": "C。家屬擅自帶離不符合未滿7歲年齡款，但仍須審查其他緊急情事。"
     },
     {
       "id": "scene115-10",
