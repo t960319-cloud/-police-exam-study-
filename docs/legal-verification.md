@@ -273,3 +273,5 @@
 - 依[社會秩序維護法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067)、[案件處理辦法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070)及[立法院108年修法說明](https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=33324&pid=190935)，區分警方裁處異議、法院移送案件抗告、單獨沒入條件；罰鍰逾期依法移送行政執行，並提示第25條仍殘存易以拘留舊文字。
 - 依[公務人員行政中立法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110036)及[銓敘部解釋](https://www.mocs.gov.tw/pages/detail.aspx?Index=17&Node=1503&Page=8326)，補親屬親等、留職停薪、行政資源與網路宣傳、因公出差及不涉及職務的界線。
 - 依現行警察人事、警械及駐衛警察法規補任官、撫卹照護、替代物品、即時報告與用槍後協助。內政部購置問答與警械使用調查報告均註明用途；保留原題和官方答案。[來源與雜湊](legal-evidence-2026-11-16-relief-neutrality.json)。
+
+- 發布紀錄：Sites 第27版來源 `8c559835b0d5b0df19367a6f0e8da6020def71c9`，部署 `appgdep_6afb8c150fd881918fa1b79f4882e3f5` 原生回報成功；公開對象維持不變。正式站API於本環境仍回403，未完成部署後事件讀回，正式帳號驗收未執行。
