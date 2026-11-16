@@ -160,6 +160,14 @@
 - 驗證：既有 `e31e179` 的 [GitHub CI](https://github.com/t960319-cloud/-police-exam-study-/actions/runs/43604367452) 為 completed／success；本輪僅修改檢查紀錄，實際執行 `git diff --check` 與本機 Markdown 連結路徑檢查，未重新執行程式測試。
 - 同步與交接：僅追加兩份紀錄文件後正常提交推送並讀回遠端 SHA；沒有新增 Git 同步錯誤。既有法規與正式帳號驗收問題未重驗或結案；未部署網站，也不涵蓋其他隔離工作未提交檔案。詳見[本輪日誌](log.md#2026-11-15)。
 
+### 2026-11-17：Git 同步檢查（2026-11-16 UTC 排程）
+
+- 範圍：本環境既有 police 工作目錄、最新工作規則、GitHub `main`、Sites 來源及本輪紀錄文件；實際核對時間為06:33（Asia/Taipei）。
+- 來源整合：開始時工作樹乾淨、沒有待推送提交，GitHub fetch 後超前／落後為0／35；正常 fast-forward 由 `2a774d8` 至 `11a1492`，保留全部35筆更新。Sites 最新來源及第24版保存來源均為 `d9d1a8f`，GitHub／Sites 獨有提交數為1／0；沒有 Sites 獨有提交，僅有三份部署紀錄文件差異，程式相關路徑的 `git diff --exit-code` 通過。
+- 本輪實測通過：Lint、TypeScript、22項同步、6項排序、七支題庫／法規／指定紀錄排除腳本、瀏覽器腳本語法、差異格式及兩份修改文件的本機 Markdown 連結路徑檢查；完整指令見[本輪日誌](log.md#2026-11-17)。沒有重跑建置、瀏覽器或官方法源查核。
+- 遠端 CI：`11a1492` 的 [GitHub 檢查](https://github.com/t960319-cloud/-police-exam-study-/actions/runs/43970352877) 為 completed／success；不作為真實帳號驗收通過的證據。
+- 交接：正常提交推送本輪紀錄後讀回遠端 SHA，沒有新增 Git 連線或整合問題。ISSUE-20261116-02 的正式 API 讀回限制、正式帳號保存／跨裝置／還原與既有法規待核問題仍保留，未在本輪重驗或結案；未部署網站，不涵蓋其他隔離工作未提交檔案。
+
 ## 已解決問題
 
 ### ISSUE-20261113-02：本流程 Chromium 憑證驗證阻擋正式站載入
