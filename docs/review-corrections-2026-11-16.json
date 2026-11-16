@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-11-16T11:55:16.687347+08:00",
+  "sourceBase": "c745572",
+  "networkProbes": [
+    {
+      "name": "missing-full",
+      "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000200",
+      "exit": 0,
+      "status": "200 200",
+      "sha256": "f46a5ced354399ec6b52ff380383b8b61ac485709539630d50addff1f7289e76"
+    },
+    {
+      "name": "missing-history",
+      "url": "https://ou3.npa.gov.tw/law/Law/LawDetailBase/F1000200",
+      "exit": 0,
+      "status": "200 200",
+      "sha256": "0d25b51acfb63caabf7843844d5a002e901f204f2e568d4fa1a058cee736bcda"
+    },
+    {
+      "name": "session",
+      "url": "https://police-exam-study-44.middlelapwing4.chatgpt.site/api/session",
+      "exit": 0,
+      "status": "200 200",
+      "sha256": "2e7fe66d0f26a4cc5aaad5f34dba496c7988c175f79b24dcfa414a1dba289c0a"
+    },
+    {
+      "name": "legal",
+      "url": "https://police-exam-study-44.middlelapwing4.chatgpt.site/api/legal-updates",
+      "exit": 0,
+      "status": "200 200",
+      "sha256": "a6416d306fdd3cc170181f2a39c32ac5189aebfc1135c064c22b006ac57b4a4d"
+    }
+  ],
+  "officialVersion": "112-12-29, point 5 amendment; full 18 points read",
+  "scopedCorrection": [
+    "law card missing",
+    "essay s03 basis",
+    "missing-version remaining task wording"
+  ],
+  "officialTextMatch": "Point 6 matches after whitespace normalization",
+  "preserved": [
+    "original question IDs, stems, choices and answers",
+    "essay IDs, prompts and rubrics",
+    "all law IDs",
+    "all earlier curated events"
+  ],
+  "productionLegalBaseline": {
+    "events": 7,
+    "nextCursor": null,
+    "writes": 0
+  },
+  "checksPassed": [
+    "lint",
+    "TypeScript",
+    "20 sync tests",
+    "6 priority tests",
+    "six existing legal/paper checks",
+    "new missing-person conditional deadline and separate verification regression",
+    "post-change build",
+    "immutable originals and previous events comparison",
+    "full isolated local D1 browser suite: persistence, offline reload, conflicts, restore, accounts, mobile and anonymous denial"
+  ],
+  "remaining": [
+    "real production account save/reload, cross-device and history restore; no shared desktop tool available",
+    "other missing legal originals and interpretations",
+    "remaining past-paper missing-person questions require individual review"
+  ],
+  "published": false,
+  "environmentDraftChanged": false,
+  "productionStudyWrites": 0
+}
