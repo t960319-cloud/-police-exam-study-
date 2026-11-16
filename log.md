@@ -161,3 +161,10 @@
 - CI 與連線：讀回 `e31e179` 的 [Study app checks](https://github.com/t960319-cloud/-police-exam-study-/actions/runs/43604367452)，狀態 completed、結果 success。GitHub 與 Sites 沿用核准的沙箱外正常連線均成功，短效憑證只經記憶體及隱藏 stdin 使用；本輪沒有新的 Git 連線或整合錯誤。
 - 本輪變更及驗證：依接手規則只追加 `log.md` 與 `Issue.md` 的檢查紀錄，`git diff --check` 與兩份文件的本機 Markdown 連結路徑檢查通過；沒有重新執行應用程式測試。以一般提交、`git push origin HEAD:main` 及遠端 SHA 讀回完成同步，最終 SHA 以 Git 歷史與本輪回報為準。
 - 範圍限制：本輪沒有部署、資料庫遷移或正式資料寫入；既有法規、正式帳號保存、跨裝置及歷史還原問題未重驗或結案。其他隔離工作尚未提交的檔案無法由本次工作目錄取得，不包含在本輪同步範圍。
+
+
+### 2026-11-16：失蹤人口官方完整原件補核
+
+- 保存同步前全部未提交及未追蹤內容於 stash `preserve handoff work before legal verification 2026-11-16`，正常快轉至 GitHub `2a774d8`；未用舊快照覆蓋新版。
+- 官方全國警察法規資料庫沿革及全文HTTP200，取得112.12.29版18點，補入撤尋、緊急查尋與訪查期限；詳見 [補核清單](docs/legal-verification.md) 及 [證據](docs/legal-evidence-2026-11-16.json)。ISSUE-20261112-01的失蹤原件缺口已補，逐題對照仍待處理，其餘缺口保留。
+- 本輪僅文件補充，JSON解析、官方摘錄與點次人工對照及 git diff --check；未執行網站功能測試。內政部站503、公報及正式API403，未完成正式事件比較，未新增教材事件、部署或個人資料寫入。

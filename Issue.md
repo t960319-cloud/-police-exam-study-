@@ -245,3 +245,10 @@
 - 結果：狀態與政策檔皆 unrestricted、規則 enforced；curl session HTTP200／CONNECT200、user=null。沙箱內 Chromium 憑證失敗後，經核准在沙箱外執行相同探測，保留代理與 TLS 驗證，正式首頁及瀏覽器 session 均200；390px截圖已實際檢視、無水平溢出、無頁面例外、正式寫入0。
 - 剩餘：remote_desktop enabled=true、state=unknown，但無共享桌面控制工具且 session 未登入。ISSUE-20261113-02 已有可用瀏覽執行方式，正式帳號驗收仍受 ISSUE-20261113-03 阻擋；另一流程 ISSUE-20261113-01 未代為結案。
 - 文件檢查：JSON解析、證據欄位一致性、33個本機Markdown連結與 `git diff --check` 均通過；只檢查本輪文件，不重跑未改動的應用程式測試。
+
+
+### 2026-11-16：失蹤人口官方完整原件補核
+
+- 保存同步前全部未提交及未追蹤內容於 stash `preserve handoff work before legal verification 2026-11-16`，正常快轉至 GitHub `2a774d8`；未用舊快照覆蓋新版。
+- 官方全國警察法規資料庫沿革及全文HTTP200，取得112.12.29版18點，補入撤尋、緊急查尋與訪查期限；詳見 [補核清單](docs/legal-verification.md) 及 [證據](docs/legal-evidence-2026-11-16.json)。ISSUE-20261112-01的失蹤原件缺口已補，逐題對照仍待處理，其餘缺口保留。
+- 本輪僅文件補充，JSON解析、官方摘錄與點次人工對照及 git diff --check；未執行網站功能測試。內政部站503、公報及正式API403，未完成正式事件比較，未新增教材事件、部署或個人資料寫入。
