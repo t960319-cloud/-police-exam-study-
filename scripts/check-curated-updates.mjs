@@ -65,3 +65,7 @@ const restraint=result.laws.find(l=>l.id==='escort-constraints');assert(restrain
 const currentEscort=result.essays.find(e=>e.id==='scene115-e2');assert(currentEscort);assert(currentEscort.model.basis.includes('110.12.13廢止'));assert(currentEscort.model.analysis.includes('不得將此理解為員警得等待24小時才解送'));assert.equal(currentEscort.verified,false);
 const minorEscort=result.questions.find(q=>q.id==='duty113_21');assert(minorEscort);assert.equal(minorEscort.answer,3);assert(minorEscort.currentAnswer.includes('第3條'));assert.equal(minorEscort.verified,false);
 console.log('Restraint protections, repeal distinction, immediate transfer and original escort answer passed.');
+// Distinguish the 2022 explanatory article from the yet-unobtained current SOP.
+const chaseLaw=result.laws.find(l=>l.id==='chase');assert(chaseLaw);assert.equal(chaseLaw.verified,false);assert(chaseLaw.points.some(p=>p.includes('第7條之2')&&p.includes('不能或不宜攔截')));assert(chaseLaw.traps.some(p=>p.includes('並非最新SOP全文')));
+const chaseEssay=result.essays.find(e=>e.id==='duty111_s01');assert(chaseEssay);assert.equal(chaseEssay.verified,false);assert(chaseEssay.model.analysis.includes('單憑逃逸或慌張不當然構成現行犯'));assert(chaseEssay.model.analysis.includes('最新完整SOP'));
+console.log('Chase legal basis, safety limits and unresolved SOP version passed.');
