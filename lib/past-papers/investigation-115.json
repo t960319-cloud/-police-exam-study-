@@ -94,26 +94,26 @@
       "options": [
         {
           "text": "內政部警政署刑事警察局執行搜捕時，應報告其機關主管長官，並由偵防中心通報預定前往執行地 點所轄警察局或專業警察機關之勤務指揮中心知照或請求派員會同執行",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：急迫時得先通報當地請求會同，但事後仍應補辦，不能以無查獲或無績效作為免補理由。",
+          "explanation": "A所列刑事警察局通報機制為115年原題對應的組織層級；當年官方錯誤選項不是A。",
+          "correction": "區分主管長官報告及勤務指揮系統通報；全國最新版仍待原件核實。",
           "trueStatement": true
         },
         {
           "text": "跨越警察局轄區者，應通報警察局勤務指揮中心，警察局勤務指揮中心受理報告後，應即報告局 長，並轉報前往辦案地之警察局或專業警察機關之勤務指揮中心知照或請求派員會同執行",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：急迫時得先通報當地請求會同，但事後仍應補辦，不能以無查獲或無績效作為免補理由。",
+          "explanation": "B談跨越警察局轄區的通報與會同；當年官方錯誤選項不是B。",
+          "correction": "先辨明跨局與局內跨分局；完整層級應以全國原件為準。",
           "trueStatement": true
         },
         {
           "text": "其他各專業警察總隊、局、所、大隊、隊所屬員警越區執行搜捕時，應報告其機關主管長官，並由勤務 指揮中心通報預定前往執行地點所轄警察局或專業警察機關之勤務指揮中心知照或請求派員會同執行",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：急迫時得先通報當地請求會同，但事後仍應補辦，不能以無查獲或無績效作為免補理由。",
+          "explanation": "C談專業警察機關越區搜捕；當年官方錯誤選項不是C。",
+          "correction": "依各機關職責及當年題目分析，不把地方規定直接推及所有專業機關。",
           "trueStatement": true
         },
         {
           "text": "越區辦案員警遇情況急迫時，得逕通報當地警察局或分局勤務指揮中心，請求派員會同執行，受理 通報機關應即派員會同，但無查獲或緝捕績效者，事後得免補辦通報事宜",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "急迫時得先通報當地請求會同，但事後仍應補辦，不能以無查獲或無績效作為免補理由。",
+          "explanation": "D前段是急迫時逕向當地請求會同，後段因無績效免補與115年官方答案相反。",
+          "correction": "當年答案應保留事後補辦，不以有無績效替代。",
           "trueStatement": false
         }
       ],
@@ -133,8 +133,31 @@
       "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "警察機關通報越區辦案應行注意事項；臺中市刑事警察勤務實施要領",
+        "checkedAt": "2026-11-16",
+        "note": "115年官方答案D；逐項區分警政署刑事局、跨局及專業機關通報與急迫程序。臺中市要領第9點第2款僅可支持該市線上急迫會同架構，全國注意事項完整現行原件及層級仍待核。",
+        "sources": [
+          {
+            "title": "考選部・115年官方原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=Q"
+          },
+          {
+            "title": "考選部・原始標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=S"
+          },
+          {
+            "title": "考選部・最終答案清冊",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115060&t=A"
+          },
+          {
+            "title": "考選部・更正答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+          },
+          {
+            "title": "臺中市警察局刑事警察勤務實施要領第9點第2款",
+            "url": "https://law.taichung.gov.tw/LawContent.aspx?id=GL002535&media=print"
+          }
+        ]
       },
       "takeaway": "急迫時得先通報當地請求會同，但事後仍應補辦，不能以無查獲或無績效作為免補理由。",
       "sources": [
@@ -153,8 +176,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "臺中市警察局刑事警察勤務實施要領第9點第2款",
+          "url": "https://law.taichung.gov.tw/LawContent.aspx?id=GL002535&media=print"
         }
-      ]
+      ],
+      "currentAnswer": "本題D為115年官方最終答案：題示急迫情形仍有事後補辦要求，不能單以沒有緝捕績效免補。115年原題不能單獨證明現行全國注意事項完整版本；臺中地方要領亦不能代替全國原件。"
     },
     {
       "id": "investigation115_03",

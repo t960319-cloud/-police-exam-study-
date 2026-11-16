@@ -4,7 +4,7 @@ import {QUESTIONS,ESSAYS,LAWS} from '../lib/study-data.ts';
 import {validateLegalEvent,applyLegalEvents} from '../lib/legal-updates.ts';
 const events=JSON.parse(fs.readFileSync(new URL('../lib/curated-updates.json',import.meta.url),'utf8'));
 const folder=new URL('../lib/past-papers/',import.meta.url);
-const papers=fs.readdirSync(folder).filter(n=>/^(duty|scenario|law)-.*\.json$/.test(n)).map(n=>JSON.parse(fs.readFileSync(new URL(n,folder),'utf8')));
+const papers=fs.readdirSync(folder).filter(n=>/^(duty|scenario|law|investigation)-.*\.json$/.test(n)).map(n=>JSON.parse(fs.readFileSync(new URL(n,folder),'utf8')));
 const ALL_QUESTIONS=[...QUESTIONS,...papers.flatMap(p=>p.questions)],ALL_ESSAYS=[...ESSAYS,...papers.flatMap(p=>p.essays)];
 const ids=new Set([...ALL_QUESTIONS,...ALL_ESSAYS,...LAWS].map(x=>x.id));
 const eventIds=new Set();let previous=0;
@@ -74,3 +74,6 @@ const bloodConsent=result.questions.find(q=>q.id==='duty113_04');assert(bloodCon
 const breathNotice=result.questions.find(q=>q.id==='duty114_06');assert(breathNotice);assert.equal(breathNotice.answer,2);assert(breathNotice.options[2].correction.includes('拒測應告知法律效果'));assert.equal(breathNotice.verified,false);
 const oldBlood=result.questions.find(q=>q.id==='scene110-17');assert(oldBlood);assert.equal(oldBlood.answer,1);assert.equal(oldBlood.verified,false);assert(oldBlood.currentAnswer.includes('本人同意'));
 console.log('Consent, refusal notification, phased enactment and original blood-question answers passed.');
+// Historical exam answers do not establish the missing national rules' current full text.
+for(const [id,key] of [['investigation114_01',3],['investigation115_02',3]]){const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.answer,key);assert.equal(q.verified,false);assert.equal(q.amendment.status,'review');assert(q.currentAnswer.includes('官方'));assert(q.options.every(o=>o.explanation.length>12&&o.correction.length>12));}
+console.log('Investigation option explanations retain official keys and unresolved national-rule status.');
