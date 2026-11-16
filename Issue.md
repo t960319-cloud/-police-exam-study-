@@ -280,3 +280,11 @@
 - ISSUE-20261116-01：`pnpm test:sync` 22項、`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build` 全通過；建置僅有既有chunk大小與API分類警告。
 - `STUDY_BROWSER_MODULE=/workspace/police-study-browser/node_modules/playwright-core/index.mjs STUDY_CHROMIUM_PATH=/usr/bin/chromium pnpm test:browser` 全通過，新增手機離線歷史顯示／還原／重連測試；既有衝突、帳號隔離、版本選擇、延遲回應及匿名拒絕均通過。測試使用專用本機D1並由腳本清理，不操作正式資料。
 - 文件連結、兩支測試腳本語法、`git diff --check`通過。未修改法律資料／事件、資料庫結構、正式學習紀錄或發布狀態。
+
+
+### 2026-11-16：失蹤人口題庫與解析補充
+
+- 範圍：`missing`法條卡、主題申論s03、112勤務19與20、113情境4、115情境9及112情境申論3；保留當年題文、選項與官方答案。
+- 依警政署112.12.29版完整要點第3、5至10及12點補入受理、緊急查尋、撤尋、訪查與家屬帶離例外。獨立定位、家暴及兒少程序未完成逐項核對者保留待核。
+- 基準：正式法規API讀取7筆事件、無下一頁；Sites第12版來源e9574b0與現行GitHub來源具祖先關係，原D1及存取設定保留。
+- 適用檢查：法規事件、112勤務及情境原卷／答案回歸、型別與差異檢查；實際結果以本次命令記錄為準。正式發布與法規事件讀回結果另行記錄。

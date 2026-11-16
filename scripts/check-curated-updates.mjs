@@ -53,3 +53,10 @@ assert.equal(missingEssay.verified,false);
 assert(missingEssay.model.basis.includes('完整18點'));
 assert.equal(missingEssay.prompt,ESSAYS.find(e=>e.id==='s03').prompt);
 console.log('Missing-person source review preserves conditional deadlines, withdrawal exceptions and separate essay verification.');
+
+// Official missing-person rules: retain historical keys and the limits on children and follow-up.
+const missingLaw=result.laws.find(l=>l.id==='missing');assert(missingLaw);assert(missingLaw.verified);assert(missingLaw.sources.some(s=>s.url.endsWith('/F1000200')));assert(missingLaw.points.some(p=>p.includes('7日內')&&p.includes('3個月')&&p.includes('3年以上')));assert(missingLaw.traps.some(p=>p.includes('24小時不是報案等待期')));
+for(const [id,answer] of [['duty112_20',2],['scene115-09',2]]){const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.answer,answer);assert(q.verified);assert(q.currentAnswer);}
+const familyCase=result.questions.find(q=>q.id==='scene113-04');assert(familyCase);assert.equal(familyCase.answer,0);assert.equal(familyCase.verified,false);assert(familyCase.currentAnswer.includes('其他緊急事由')||familyCase.currentAnswer.includes('急迫事由'));
+const missingEssayFollowup=result.essays.find(e=>e.id==='s03');assert(missingEssayFollowup);assert(missingEssayFollowup.model.analysis.includes('7日內'));assert(missingEssayFollowup.model.analysis.includes('每3個月'));assert(missingEssayFollowup.model.analysis.includes('每年1次'));
+console.log('Official missing-person cases, family exception, follow-up and original answers passed.');
