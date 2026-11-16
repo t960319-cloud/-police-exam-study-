@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-11-16",
+  "timezone": "Asia/Taipei",
+  "sources": [
+    {
+      "title": "監察院106年調查報告第4頁：引述越區通報第2點第1款",
+      "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/40411",
+      "retrieval": "網頁查詢工具讀取官方PDF第4頁；執行環境對cybsbox網域CONNECT 403，無本機原件雜湊。"
+    },
+    {
+      "title": "監察院115年4月27日新聞稿：越區查緝案件",
+      "url": "https://www.cy.gov.tw/News_Content.aspx?n=640&s=37218",
+      "retrieval": "網頁查詢工具讀取官方新聞稿，發布115.04.27；執行環境直接請求HTTP 403，無本機原頁雜湊。"
+    },
+    {
+      "title": "臺中市刑事警察勤務實施要領第9點第2款",
+      "url": "https://law.taichung.gov.tw/LawContent.aspx?id=GL002535&media=print",
+      "retrieval": "本輪沿用先前查核之臺中市官方地方要領，非全國原件。"
+    },
+    {
+      "title": "刑事訴訟法第88、89、89條之1、95、100條之2及130條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001",
+      "retrieval": "全國法規資料庫HTTPS原件HTTP 200",
+      "sha256": "23b5460003c6aeb7c62263a08914438ac91681a8a19eaaba6f4b514beea21022"
+    }
+  ],
+  "notes": [
+    "106年監察院報告引述歷史規定，不足以確認115年全國內規完整版本、通報層級及情蒐例外。",
+    "115年新聞稿為個案調查，非完整現行SOP。",
+    "刑訴第89條規定當場告知及書面通知；第89條之1規定戒具，不可混淆。",
+    "保留原題、選項、答案及申論配分。"
+  ]
+}
