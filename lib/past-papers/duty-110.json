@@ -317,26 +317,26 @@
       "options": [
         {
           "text": "對兒童、孕婦、年邁體弱、傷病或肢體障礙者，不得使用警銬",
-          "explanation": "對特定脆弱對象係以不使用警銬為宜，並非絕對不得；確有必要時仍須個案審查。",
-          "correction": "改為以不使用為宜，但經審認確有必要者不在此限。",
+          "explanation": "110年9月24日版第3點規定兒童、孕婦、年邁體弱、傷病或肢體障礙者以不使用為宜，確有必要例外。",
+          "correction": "本題選A；111年版本未把兒童列在同一點，不可反推可對兒童任意上銬。",
           "trueStatement": false
         },
         {
           "text": "警察人員因故無法有效使用警銬時，得使用其他足以達成目的之物品",
-          "explanation": "因故無法有效使用警銬，得用足以達成目的物品，仍應遵守必要程度。",
-          "correction": "無須修正。",
+          "explanation": "110年版第2點於合法強制措施之情形，因故無法有效使用警銬時，得用足以達成目的之其他物品。",
+          "correction": "仍須具備法律依據及必要比例；不是任何時候均可使用。",
           "trueStatement": true
         },
         {
           "text": "警察人員使用警銬，除有特殊情形需於腳踝上銬外，應以銬手為原則",
-          "explanation": "規範以銬手為原則，特殊情形始考慮腳踝。",
-          "correction": "無須修正。",
+          "explanation": "110年版第4點以銬手為原則，特殊情形需於腳踝上銬者另論。",
+          "correction": "種類原則不表示應一律上銬。",
           "trueStatement": true
         },
         {
           "text": "有事實足認有脫逃、被劫持或對他人施強暴脅迫等情形之虞時，除銬手外，並得加銬腳踝",
-          "explanation": "有事實足認脫逃、劫持或對他人強暴脅迫風險，為原規範得加銬腳踝的情形。",
-          "correction": "無須修正；仍應審查必要性。",
+          "explanation": "110年版第4點於有事實足認脫逃、被劫持或對他人施強暴脅迫等情形之虞時，得於銬手外加銬腳踝。",
+          "correction": "111年版仍有具體危險之要件；單純所犯罪名的刑度門檻已變。",
           "trueStatement": true
         }
       ],
@@ -344,45 +344,41 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等・警察勤務概要・第5題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 5,
       "answerStatus": "官方最終答案已核（無更正紀錄）",
       "amendment": {
-        "status": "review",
-        "law": "刑事訴訟法第89條之1、執行拘提逮捕解送使用戒具實施辦法；解送人犯辦法已廢止",
+        "status": "changed",
+        "law": "警察人員使用警銬規範110年9月24日及111年2月7日版本",
         "checkedAt": "2026-11-16",
-        "note": "原題警察人員使用警銬規範最新版及非刑事措施之適用仍待核；刑訴戒具辦法對少年及即將生產、分娩中、甫生產後婦女另有專門限制。",
+        "note": "原題及當年官方答案保留。警專學報附錄可讀得110年9月24日版本；111年版本由保訓會教材轉錄。兩版的兒童文字、孕產婦及腳踝上銬門檻不同；不得因兒童未列於同一點而推定可任意使用警銬。",
         "sources": [
           {
-            "title": "全國法規資料庫・刑事訴訟法第89條之1",
-            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=89-1"
+            "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+            "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
           },
           {
-            "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+            "title": "執行拘提逮捕解送使用戒具實施辦法",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
           },
           {
-            "title": "全國法規資料庫・解送人犯辦法廢止沿革",
-            "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=I0040007"
+            "title": "刑事訴訟法第89、89條之1、92、93及130條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
           },
           {
-            "title": "全國法規資料庫・刑事訴訟法第130條",
-            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=130"
-          },
-          {
-            "title": "全國法規資料庫・刑事訴訟法第92條",
-            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92"
-          },
-          {
-            "title": "全國法規資料庫・刑事訴訟法第93條",
-            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=93"
+            "title": "考試院110年警察考試延期至9月25日至26日",
+            "url": "https://www.exam.gov.tw/News_Content.aspx?n=3438&s=43438"
           }
-        ]
+        ],
+        "date": "111-02-07",
+        "oldRule": "110年版本對兒童、孕婦等以不使用為宜，確有必要例外；因所犯罪名加銬腳踝之刑度門檻為最輕本刑5年以上。",
+        "newRule": "111年版本第3點不再把兒童列在同一款，對即將生產、分娩中或甫生產婦女執行拘捕解送有不應使用規定；第4點另規定少年，第5點因所犯罪名加銬腳踝的門檻為最輕本刑10年以上，另有具體危險等情形。",
+        "effectiveStatus": "in-force"
       },
-      "takeaway": "對特定脆弱對象係以不使用警銬為宜，並非絕對不得；確有必要時仍須個案審查。",
+      "takeaway": "110年兒童列同一保護點；111年少年另列、腳踝刑度5年改10年。",
       "sources": [
         {
           "title": "考選部110年內軌四等警察勤務概要原卷",
@@ -419,9 +415,25 @@
         {
           "title": "全國法規資料庫・刑事訴訟法第93條",
           "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=93"
+        },
+        {
+          "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+          "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+        },
+        {
+          "title": "刑事訴訟法第89、89條之1、92、93及130條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "考試院110年警察考試延期至9月25日至26日",
+          "url": "https://www.exam.gov.tw/News_Content.aspx?n=3438&s=43438"
+        },
+        {
+          "title": "警專學報附錄：警察人員使用警銬規範110年9月24日版本",
+          "url": "https://educate.tpa.edu.tw/var/file/4/1004/img/390/507012084.pdf"
         }
       ],
-      "currentAnswer": "保留原題官方答案A；考試當年警銬規範與刑訴戒具辦法不可混為同一範圍。特定妊產期間不應使用戒具，少年原則不應使用但有法定例外。"
+      "currentAnswer": "當年選A。110年版本對兒童、孕婦等是以不使用為宜，確有必要可例外，並非全部絕對禁止；111年修正後另有少年、孕產婦及腳踝加銬細節。"
     },
     {
       "id": "duty110_06",

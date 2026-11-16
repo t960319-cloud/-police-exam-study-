@@ -1415,26 +1415,26 @@
       "options": [
         {
           "text": "警察人員執行法律明定之強制措施時，為避免被告自傷並確保自身安全，得使用警銬",
-          "explanation": "執行法定強制措施時，仍須依自傷、防逃或安全等具體必要性判斷警銬使用。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第2點於依法執行強制措施，為防自傷及確保安全等目的，得依必要程度使用警銬。",
+          "correction": "得使用非必須使用，並須依個案審查。",
           "trueStatement": true
         },
         {
           "text": "由於少年血氣方剛，在執行少年逮捕時，除銬手外，應加銬腳踝",
-          "explanation": "不得以少年血氣方剛概括要求加銬腳踝，身體自由限制須有法定事由並符合必要程度。",
-          "correction": "刪除一律加銬腳踝的要求，依少年相關規範及個案必要性使用適當戒具。",
+          "explanation": "第4、5點均未規定少年逮捕一律銬手兼銬腳踝；少年及加銬腳踝各有必要與事實要件。",
+          "correction": "不得因「血氣方剛」概括加銬腳踝；本題選B。",
           "trueStatement": false
         },
         {
           "text": "警察人員使用警銬時，不得逾必要之程度，並儘量避免暴露上銬部位",
-          "explanation": "警銬使用不得逾必要，並儘量避免暴露，符合權益保障。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第7點第1款要求不逾必要程度並盡量避免暴露上銬部位。",
+          "correction": "刑訴第89條之1亦要求避免公然暴露戒具。",
           "trueStatement": true
         },
         {
           "text": "警察人員使用警銬時，應維護使用對象之身體及名譽",
-          "explanation": "應維護使用對象身體及名譽，不因上銬即失其權益。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第7點第2款規定應維護使用對象身體及名譽。",
+          "correction": "無繼續必要時應依法儘速解除。",
           "trueStatement": true
         }
       ],
@@ -1442,18 +1442,38 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察勤務概要｜第22題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 22,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "note": "官方考古答案已核對；題示行政規則或理論文字尚未取得完整最新版原件，不把歷史答案冒稱現行結論。",
-        "sources": []
+        "status": "none",
+        "law": "警察人員使用警銬規範111年2月7日版第2至7點；戒具實施辦法第3、5、6條",
+        "checkedAt": "2026-11-16",
+        "note": "保訓會教材完整轉錄題目指定的111年修正版，並以現行戒具辦法核對；保留當年官方答案。原始函件及後續全部沿革仍應與主管機關最新資料對照。",
+        "sources": [
+          {
+            "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+            "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+          },
+          {
+            "title": "執行拘提逮捕解送使用戒具實施辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+          },
+          {
+            "title": "刑事訴訟法第89、89條之1、92、93及130條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "監察院114年解送戒具與偵查不公開調查報告",
+            "url": "https://www.cy.gov.tw/public/Data/114mo/114%E5%85%A7%E8%AA%BF0015.pdf"
+          }
+        ],
+        "effectiveStatus": "in-force"
       },
-      "takeaway": "少年上銬不得概括加銬腳踝：不得以少年血氣方剛概括要求加銬腳踝，身體自由限制須有法定事由並符合必要程度。",
+      "takeaway": "少年不因年齡一律上銬；更不能一律加腳銬。",
       "sources": [
         {
           "title": "考選部115年警察勤務概要原卷",
@@ -1462,8 +1482,25 @@
         {
           "title": "考選部標準答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115060&c=241&s=0907&q=1"
+        },
+        {
+          "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+          "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+        },
+        {
+          "title": "執行拘提逮捕解送使用戒具實施辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+        },
+        {
+          "title": "刑事訴訟法第89、89條之1、92、93及130條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "監察院114年解送戒具與偵查不公開調查報告",
+          "url": "https://www.cy.gov.tw/public/Data/114mo/114%E5%85%A7%E8%AA%BF0015.pdf"
         }
-      ]
+      ],
+      "currentAnswer": "B錯誤：少年是否使用警銬須依具體必要性判斷，不能因少年身分一律加銬腳踝；另應遵守比例、名譽及解除保障。"
     },
     {
       "id": "duty115_23",
@@ -1676,8 +1713,8 @@
       ],
       "model": {
         "intro": "臨檢盤查與巡邏均須具備法定發動要件，並兼顧員警、受檢人及第三人安全。茲依題意分述。",
-        "basis": "依題示工作指引及警職法第3、4、6至8條；本題工作指引原件須補核。",
-        "analysis": "一、巡邏車停放適當位置：避免妨礙交通或使員警曝露於車流及衝撞路線。\n二、與被盤查人、車保持適當位置：接近前觀察車內及周邊，保持安全距離與撤離空間。\n三、警戒位置及監視重點：分工檢查、警戒，注意手部、危險物及車輛動態，不同時失去警戒。\n四、提高警覺並完成應勤裝備使用前準備：確認通訊、蒐證與必要防護裝備狀況，依危險程度適當戒備。\n五、監控及掌握周邊狀況：觀察同夥、第三人、交通與環境風險，事前通報；情勢升高立即請求支援。\n※五項標題供架構練習，細部操作應以指定工作指引及最新教育訓練原件為準。",
+        "basis": "監察院公報第3326期引述警政署110年1月27日指引的五項盤查前安全重點；警政署大事紀載114年6月27日修正該指引。警察職權行使法第3、4、6至8條另為依法盤查的要件。",
+        "analysis": "一、巡邏車停放適當位置：避免妨礙交通或使員警曝露於車流及衝撞路線。\n二、與被盤查人、車保持適當位置：接近前觀察車內及周邊，保持安全距離與撤離空間。\n三、警戒位置及監視重點：分工檢查、警戒，注意手部、危險物及車輛動態，不同時失去警戒。\n四、提高警覺並完成應勤裝備使用前準備：確認通訊、蒐證與必要防護裝備狀況，依危險程度適當戒備。\n五、監控及掌握周邊狀況：觀察同夥、第三人、交通與環境風險，事前通報；情勢升高立即請求支援。\n※五項標題已與監察院公報引用之110年版核對；114年6月27日有修正版，完整原件及變動內容仍待核。各項例子為本站對安全目的之解說，非逐字引文或官方配分。",
         "conclusion": "應依法行政，依比例原則選擇必要且適當之措施，持續通報及完整蒐證，以兼顧執勤安全與人民權益。"
       },
       "checklist": [
@@ -1694,10 +1731,20 @@
       "origin": "115年內軌四等警察勤務概要申論第1題",
       "amendment": {
         "status": "review",
-        "note": "已收錄官方原題；以下僅為法律與安全的作答架構。題目指定工作指引／SOP完整最新版尚待原件核對，勿將架構當作逐字標準答案。",
+        "law": "提升臨檢盤查效能及安全工作指引；警察職權行使法第3、4、6至8條",
+        "checkedAt": "2026-11-16",
+        "note": "監察院公報引述110年指引五項，警政署大事紀另確認114年6月27日修正；尚未取得114年完整修正版，不能判定後續點次均無變動。本站擬答非官方評分。",
         "sources": [
           {
-            "title": "警察職權行使法",
+            "title": "監察院公報第3326期：110年臨檢安全指引五項及112年糾正案",
+            "url": "https://www-ws.cy.gov.tw/Download.ashx?icon=..pdf&n=MzMyNi5wZGY%3D&u=LzAwMS9VcGxvYWQvMy9yZWxmaWxlLzg5MTYvMjY2NTcvNmZiY2RiOWEtYjRlZi00Zjk5LWI1MDItNjYxZWQ2OGJhMGE1LnBkZg%3D%3D"
+          },
+          {
+            "title": "警政署114年6月大事紀：114年6月27日修正臨檢安全工作指引",
+            "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1392776354088357888&module=events&type=s"
+          },
+          {
+            "title": "警察職權行使法第3、4、6至8條",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           }
         ]
@@ -1710,6 +1757,14 @@
         {
           "title": "警察職權行使法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "監察院公報第3326期：110年臨檢安全指引五項及112年糾正案",
+          "url": "https://www-ws.cy.gov.tw/Download.ashx?icon=..pdf&n=MzMyNi5wZGY%3D&u=LzAwMS9VcGxvYWQvMy9yZWxmaWxlLzg5MTYvMjY2NTcvNmZiY2RiOWEtYjRlZi00Zjk5LWI1MDItNjYxZWQ2OGJhMGE1LnBkZg%3D%3D"
+        },
+        {
+          "title": "警政署114年6月大事紀：114年6月27日修正臨檢安全工作指引",
+          "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1392776354088357888&module=events&type=s"
         }
       ]
     },

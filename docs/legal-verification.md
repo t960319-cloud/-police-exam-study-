@@ -275,3 +275,10 @@
 - 依現行警察人事、警械及駐衛警察法規補任官、撫卹照護、替代物品、即時報告與用槍後協助。內政部購置問答與警械使用調查報告均註明用途；保留原題和官方答案。[來源與雜湊](legal-evidence-2026-11-16-relief-neutrality.json)。
 
 - 發布紀錄：Sites 第27版來源 `8c559835b0d5b0df19367a6f0e8da6020def71c9`，部署 `appgdep_6afb8c150fd881918fa1b79f4882e3f5` 原生回報成功；公開對象維持不變。正式站API於本環境仍回403，未完成部署後事件讀回，正式帳號驗收未執行。
+
+### 2026-11-16：警銬110／111版本、解送責任與臨檢指引
+
+- [保訓會教材](https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D)第171至173頁完整轉錄警政署111年2月7日警銬規範七點；[警專學報附錄](https://educate.tpa.edu.tw/var/file/4/1004/img/390/507012084.pdf)則載110年9月24日版。對照後補四題：110年版把兒童列入以不使用為宜的類別，111年版第3點未再列兒童；不因此推論兒童可任意上銬。以所犯罪名加銬腳踝之最輕本刑門檻由5年改為10年，具體逃脫等危險另行判斷。
+- [考試院111年公報](https://ws.exam.gov.tw/Download.ashx?icon=.pdf&n=6ICD6Kmm6Zmi5YWs5aCx56ysNDHljbfnrKw25pyfX%2BabuOexpC5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzkzMjUvNDUwNDEvYjA3OTRiZDAtYzEzNC00Njc2LTgzZWQtYjg5YjA0YzIzMDc3LnBkZg%3D%3D)復審個案所引當時程序要求解送前搜身，但製作筆錄而非解送之員警責任有疑義；已補二題解送申論，不能據個案取代現行全國完整程序。
+- [監察院公報第3326期](https://www-ws.cy.gov.tw/Download.ashx?icon=..pdf&n=MzMyNi5wZGY%3D&u=LzAwMS9VcGxvYWQvMy9yZWxmaWxlLzg5MTYvMjY2NTcvNmZiY2RiOWEtYjRlZi00Zjk5LWI1MDItNjYxZWQ2OGJhMGE1LnBkZg%3D%3D)引述110年臨檢盤查前五項安全事項；[警政署大事紀](https://www.npa.gov.tw/ch/app/data/doc?detailNo=1392776354088357888&module=events&type=s)確認114年6月27日修正。115勤務申論1補入歷史依據，114年全文及變動仍待核。
+- 四題逐項核對；113勤務21、三題申論與全國完整解送程序仍保留待核。證據與取得限制見[本批紀錄](legal-evidence-2026-11-16-restraint-sources.json)。

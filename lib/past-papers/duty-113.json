@@ -1403,26 +1403,26 @@
       "options": [
         {
           "text": "備勤人員執行戒護載送犯罪嫌疑人時，應使用適當警械及採取因時地制宜之安全措施，至少 2 人以上員警隨車戒護，其中，駕駛人應依規定先發動車輛在車內等候，以便被載送人及戒護員 警上車後，即刻出發，以防脫逃",
-          "explanation": "駕駛人先在車內等候可能減少必要戒護與警戒，並非原題正確安全程序。",
-          "correction": "駕駛及隨車戒護員警依規定共同控制上車、車門及警戒，再啟程。",
+          "explanation": "承載警力、駕駛與啟動程序屬警備車勤務細節；目前未取得完整現行規範。",
+          "correction": "保留官方原題與答案，不能僅從兩人戒護推導啟動順序。",
           "trueStatement": false
         },
         {
           "text": "備勤人員執行解送人犯得使用戒具，對於所犯為三年以上七年以下有期徒刑之罪者，為防止其 脫逃，依規定於解送時除銬手外，並得加銬腳踝",
-          "explanation": "不能只以所犯罪名3至7年概括當成加銬腳踝的門檻。",
-          "correction": "應依戒具法定要件、具體逃脫或危險風險及解送規定個案判斷。",
+          "explanation": "111年規範第5點因罪名刑度而得加銬腳踝，要求最輕本刑10年以上；有具體脫逃等危險另須依法評估。",
+          "correction": "三年以上七年以下並非僅憑刑度即符合該項門檻。",
           "trueStatement": false
         },
         {
           "text": "備勤人員以警備車解送人犯時，為防範該人犯從駕駛人背後脫逃或襲擊駕車員警，依規定應讓 人犯坐在副駕駛座",
-          "explanation": "將人犯安置副駕駛座不是通常安全戒護配置。",
-          "correction": "依警備車與解送規定安排適當後座及戒護位置。",
+          "explanation": "人犯車上座位安排涉及尚待取得的警備車與解送完整程序。",
+          "correction": "應避免將副駕駛座推為當然正確安排；仍待官方完整原件。",
           "trueStatement": false
         },
         {
           "text": "備勤人員執行少年之解送時，如基於其他事實考量，認為有防止其脫逃或嚴重毀壞他人財物之 必要時，得使用警銬",
-          "explanation": "少年解送並非絕對不得用銬；具體事實有防逃或嚴重毀損財物必要時得依法使用。",
-          "correction": "無須修正；仍應審查必要性及人權保障。",
+          "explanation": "戒具辦法第3條及111年規範第4點均要求依少年年齡、身心、環境與具體風險評估。",
+          "correction": "有防止脫逃或嚴重毀損財物之必要時得依法使用；本題選D。",
           "trueStatement": true
         }
       ],
@@ -1440,37 +1440,25 @@
       "answerStatus": "官方最終答案已核",
       "amendment": {
         "status": "review",
-        "law": "刑事訴訟法第89條之1、執行拘提逮捕解送使用戒具實施辦法；解送人犯辦法已廢止",
+        "law": "警察人員使用警銬規範第4、5點；警備車及解送程序",
         "checkedAt": "2026-11-16",
-        "note": "D有戒具辦法第3條少年例外之依據；其他選項的警力及車輛配置仍待現行警政署內規。",
+        "note": "111年警銬規範的少年及腳踝使用部分已有保訓會教材與戒具辦法；汽車解送位置、啟動次序及全國勤務程序完整原件仍待查，保留待核。",
         "sources": [
           {
-            "title": "全國法規資料庫・刑事訴訟法第89條之1",
-            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=89-1"
+            "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+            "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
           },
           {
-            "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+            "title": "執行拘提逮捕解送使用戒具實施辦法",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
           },
           {
-            "title": "全國法規資料庫・解送人犯辦法廢止沿革",
-            "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=I0040007"
-          },
-          {
-            "title": "全國法規資料庫・刑事訴訟法第130條",
-            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=130"
-          },
-          {
-            "title": "全國法規資料庫・刑事訴訟法第92條",
-            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92"
-          },
-          {
-            "title": "全國法規資料庫・刑事訴訟法第93條",
-            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=93"
+            "title": "刑事訴訟法第89、89條之1、92、93及130條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
           }
         ]
       },
-      "takeaway": "少年解送並非絕對不得用銬；具體事實有防逃或嚴重毀損財物必要時得依法使用。",
+      "takeaway": "少年使用戒具須有具體必要性；車輛啟動順序與座位仍待SOP原件。",
       "sources": [
         {
           "title": "考選部・113年警勤原卷",
@@ -1507,9 +1495,17 @@
         {
           "title": "全國法規資料庫・刑事訴訟法第93條",
           "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=93"
+        },
+        {
+          "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+          "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+        },
+        {
+          "title": "刑事訴訟法第89、89條之1、92、93及130條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
       ],
-      "currentAnswer": "保留原題官方答案D；刑訴戒具辦法第3條依具體事實及必要性處理少年。A、C所涉勤務配置待核，不以已廢止辦法定論。"
+      "currentAnswer": "保留原題與當年答案D：戒具實施辦法第3條及111年警銬規範第4點要求對少年個別評估具體脫逃或重大毀損等風險；車輛勤務原件與其他選項仍待核。"
     },
     {
       "id": "duty113_22",

@@ -453,18 +453,19 @@ export const LAWS: Law[] = [
     "第3條：少年原則不應使用；有防止自傷、傷人、脫逃、嚴重毀損他人財物之必要，或少年事件處理法有特別規定者例外，須依具體事實審查。",
     "第4條：司法警察官、司法警察等，依法執行拘提、逮捕或解送職務時得依規定使用。",
     "第5條：使用戒具以手銬為原則，合併腳鐐等須有列舉情形之一，仍須合乎比例與必要程度。",
-    "第6、8條：維護身體、名譽，避免公然暴露及破損不潔；認無繼續必要即解除。"
+    "第6、8條：維護身體、名譽，避免公然暴露及破損不潔；認無繼續必要即解除。",
+    "保訓會教材轉錄警政署111年警銬規範第2、4、5、7點：法定強制措施應依具體需要；少年另審必要；因所犯罪名加銬腳踝的門檻為最輕本刑10年以上，另有事實足認脫逃等例外；不得作懲罰。"
   ],
   "traps": [
     "以手銬為使用種類原則，不代表每個人均應上銬。",
-    "警政署警銬規範之完整現行原件及解送勤務細節仍須另核；不以刑訴戒具辦法代替。",
+    "已找到保訓會教材轉錄111年警銬規範1至7點；警政署原函及後續全部沿革、完整解送勤務細節仍須另核。",
     "110.12.13廢止的解送人犯辦法只可作歷史資料，不可作現行解送前及途中全部程序依據。"
   ],
   "memory": "有必要，勿懲罰；護身名，無必要即解。",
   "scenario": "解送少年時先審查具體脫逃等風險，並斟酌年齡與身心狀況；無使用必要不得僅因少年犯嫌身分而上銬。",
   "version": "刑訴第89條之1及110.12.30發布戒具辦法・2026.11.16核對",
   "verified": true,
-  "verificationNote": "本卡僅核對刑訴第89條之1及戒具辦法第3至8條；警政署解送及警銬內規仍待逐項核對。",
+  "verificationNote": "刑訴第89條之1及戒具辦法第3至8條已核；另有保訓會教材轉錄警政署111年警銬規範全文，但警政署原函、後續全部沿革及完整解送程序仍待核。",
   "sources": [
     {
       "title": "全國法規資料庫・刑事訴訟法第89條之1",
@@ -473,6 +474,14 @@ export const LAWS: Law[] = [
     {
       "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
       "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+    },
+    {
+      "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+      "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+    },
+    {
+      "title": "監察院114年解送戒具與偵查不公開調查報告",
+      "url": "https://www.cy.gov.tw/public/Data/114mo/114%E5%85%A7%E8%AA%BF0015.pdf"
     }
   ]
 },
@@ -1131,7 +1140,7 @@ essay("s04","report","警察勤務","單一窗口與跨轄案件","依114年1月
   "model": {
     "intro": "警察執行職務，應有法定依據並符合發動要件，兼顧勤務目的、比例原則及人民權益。茲依題示配分分述如下。",
     "basis": "刑事訴訟法第89條之1與執行拘提逮捕解送使用戒具實施辦法第3至8條為已核對的戒具法源；解送人犯辦法110.12.13廢止。警政署現行解送注意事項及警力配置原件尚待確認。",
-    "analysis": "一、出發前（10分）\n核對個案的拘捕、解送依據及文書，依合法權責安排人員、交通及通訊，並依個案危險性與健康狀況評估必要的安全措施。是否使用戒具應依刑訴第89條之1及戒具辦法個別判斷；手銬為使用種類原則，不等於應一律上銬。\n二、途中與交接（15分）\n（一）依刑訴第89條之1注意身體及名譽、避免公然暴露戒具；無繼續使用必要時立即解除。 監察院114年糾正案指出，為媒體拍攝而安排動線且未遮蔽上銬部位、使當事人遭近身採訪，違反相關規定；應兼顧偵查不公開與當事人名譽。\n（二）戒具不得作懲罰，即將生產、分娩中或甫生產後婦女不應使用；少年原則不應使用，例外須符合具體必要事由或少年事件處理法特別規定。\n（三）注意當事人身心狀況、勤務安全及依法完成移交；逮捕現行犯之解送應另依刑訴第92條及個案規定辦理。\n（四）已廢止辦法第6、11條曾列出金錢保管、分批如廁等事項，僅能作歷史題型對照；現行警政署解送內規完整點次、警力、如廁及交接細節仍待取得，不能把舊法視為現行規定。",
+    "analysis": "一、出發前（10分）\n核對個案的拘捕、解送依據及文書，依合法權責安排人員、交通及通訊，並依個案危險性與健康狀況評估必要的安全措施。考試院111年公報所載復審案引述，承辦解送員警於解送前先行搜身；另由其他員警製作筆錄者是否當然負該責任，該案認有疑義。此為特定案件與當時程序，完整現行規範仍需核對。是否使用戒具應依刑訴第89條之1及戒具辦法個別判斷；手銬為使用種類原則，不等於應一律上銬。\n二、途中與交接（15分）\n（一）依刑訴第89條之1注意身體及名譽、避免公然暴露戒具；無繼續使用必要時立即解除。 監察院114年糾正案指出，為媒體拍攝而安排動線且未遮蔽上銬部位、使當事人遭近身採訪，違反相關規定；應兼顧偵查不公開與當事人名譽。\n（二）戒具不得作懲罰，即將生產、分娩中或甫生產後婦女不應使用；少年原則不應使用，例外須符合具體必要事由或少年事件處理法特別規定。\n（三）注意當事人身心狀況、勤務安全及依法完成移交；逮捕現行犯之解送應另依刑訴第92條及個案規定辦理。\n（四）已廢止辦法第6、11條曾列出金錢保管、分批如廁等事項，僅能作歷史題型對照；現行警政署解送內規完整點次、警力、如廁及交接細節仍待取得，不能把舊法視為現行規定。",
     "conclusion": "綜上，應依法行政，依個案事實審查要件、採取必要措施並遵守法定程序，隨情勢檢討其必要性，以兼顧執法目的與人民權益保障。"
   },
   "checklist": [
@@ -1145,7 +1154,7 @@ essay("s04","report","警察勤務","單一窗口與跨轄案件","依114年1月
     "status": "review",
     "law": "刑事訴訟法第89條之1、執行拘提逮捕解送使用戒具實施辦法；解送人犯辦法已廢止",
     "checkedAt": "2026-11-16",
-    "note": "已核對現行戒具法源與舊辦法廢止，另有警政署解送程序原件及警力配置待核；不把歷史細節作為現行已核定論。 新增監察院114年具體糾正案例，但不把個案替代完整解送內規。",
+    "note": "已核對現行戒具法源與舊辦法廢止，另有警政署解送程序原件及警力配置待核；不把歷史細節作為現行已核定論。 新增監察院114年具體糾正案例，但不把個案替代完整解送內規。 新增保訓會教材轉錄之111年警銬規範與考試院解送搜身復審案例；完整現行解送程序仍待查。",
     "sources": [
       {
         "title": "全國法規資料庫・刑事訴訟法第89條之1",
@@ -1174,6 +1183,18 @@ essay("s04","report","警察勤務","單一窗口與跨轄案件","依114年1月
       {
         "title": "監察院114年3月糾正案：解送時暴露戒具及媒體拍攝",
         "url": "https://www.cy.gov.tw/CyBsBoxContent.aspx?n=134&s=49094"
+      },
+      {
+        "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+        "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+      },
+      {
+        "title": "考試院公報第41卷第6期：111年解送前搜身及責任歸屬復審",
+        "url": "https://ws.exam.gov.tw/Download.ashx?icon=.pdf&n=6ICD6Kmm6Zmi5YWs5aCx56ysNDHljbfnrKw25pyfX%2BabuOexpC5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzkzMjUvNDUwNDEvYjA3OTRiZDAtYzEzNC00Njc2LTgzZWQtYjg5YjA0YzIzMDc3LnBkZg%3D%3D"
+      },
+      {
+        "title": "監察院114年解送戒具與偵查不公開調查報告",
+        "url": "https://www.cy.gov.tw/public/Data/114mo/114%E5%85%A7%E8%AA%BF0015.pdf"
       }
     ]
   },
@@ -1190,6 +1211,18 @@ essay("s04","report","警察勤務","單一窗口與跨轄案件","依114年1月
     {
       "title": "監察院114年3月糾正案：解送時暴露戒具及媒體拍攝",
       "url": "https://www.cy.gov.tw/CyBsBoxContent.aspx?n=134&s=49094"
+    },
+    {
+      "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+      "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+    },
+    {
+      "title": "考試院公報第41卷第6期：111年解送前搜身及責任歸屬復審",
+      "url": "https://ws.exam.gov.tw/Download.ashx?icon=.pdf&n=6ICD6Kmm6Zmi5YWs5aCx56ysNDHljbfnrKw25pyfX%2BabuOexpC5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzkzMjUvNDUwNDEvYjA3OTRiZDAtYzEzNC00Njc2LTgzZWQtYjg5YjA0YzIzMDc3LnBkZg%3D%3D"
+    },
+    {
+      "title": "監察院114年解送戒具與偵查不公開調查報告",
+      "url": "https://www.cy.gov.tw/public/Data/114mo/114%E5%85%A7%E8%AA%BF0015.pdf"
     }
   ]
 },

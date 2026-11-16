@@ -8161,5 +8161,552 @@
       }
     ],
     "createdAt": 1794870010078
+  },
+  {
+    "eventId": "legal-review-20261116-restraint-sources",
+    "kind": "update",
+    "checkedAt": "2026-11-16",
+    "summary": "取得官方培訓教材轉錄111年警銬規範全文，對照110年版本補歷屆題解與戒具卡；另補解送搜身個案及臨檢安全舊版五項，未取得完整新版者保留待核。",
+    "sources": [
+      {
+        "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+        "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+      },
+      {
+        "title": "考試院110年警察考試延期至9月25日至26日",
+        "url": "https://www.exam.gov.tw/News_Content.aspx?n=3438&s=43438"
+      },
+      {
+        "title": "刑事訴訟法第89、89條之1、92、93及130條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      },
+      {
+        "title": "執行拘提逮捕解送使用戒具實施辦法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+      },
+      {
+        "title": "警察職權行使法第3、4、6至8條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+      },
+      {
+        "title": "監察院114年解送戒具與偵查不公開調查報告",
+        "url": "https://www.cy.gov.tw/public/Data/114mo/114%E5%85%A7%E8%AA%BF0015.pdf"
+      },
+      {
+        "title": "監察院公報第3326期：110年臨檢安全指引五項及112年糾正案",
+        "url": "https://www-ws.cy.gov.tw/Download.ashx?icon=..pdf&n=MzMyNi5wZGY%3D&u=LzAwMS9VcGxvYWQvMy9yZWxmaWxlLzg5MTYvMjY2NTcvNmZiY2RiOWEtYjRlZi00Zjk5LWI1MDItNjYxZWQ2OGJhMGE1LnBkZg%3D%3D"
+      },
+      {
+        "title": "警政署114年6月大事紀：114年6月27日修正臨檢安全工作指引",
+        "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1392776354088357888&module=events&type=s"
+      },
+      {
+        "title": "考試院公報第41卷第6期：111年解送前搜身及責任歸屬復審",
+        "url": "https://ws.exam.gov.tw/Download.ashx?icon=.pdf&n=6ICD6Kmm6Zmi5YWs5aCx56ysNDHljbfnrKw25pyfX%2BabuOexpC5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzkzMjUvNDUwNDEvYjA3OTRiZDAtYzEzNC00Njc2LTgzZWQtYjg5YjA0YzIzMDc3LnBkZg%3D%3D"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "duty110_05",
+        "verified": true,
+        "amendment": {
+          "status": "changed",
+          "law": "警察人員使用警銬規範110年9月24日及111年2月7日版本",
+          "checkedAt": "2026-11-16",
+          "note": "原題及當年官方答案保留。警專學報附錄可讀得110年9月24日版本；111年版本由保訓會教材轉錄。兩版的兒童文字、孕產婦及腳踝上銬門檻不同；不得因兒童未列於同一點而推定可任意使用警銬。",
+          "sources": [
+            {
+              "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+              "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+            },
+            {
+              "title": "執行拘提逮捕解送使用戒具實施辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+            },
+            {
+              "title": "刑事訴訟法第89、89條之1、92、93及130條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "考試院110年警察考試延期至9月25日至26日",
+              "url": "https://www.exam.gov.tw/News_Content.aspx?n=3438&s=43438"
+            }
+          ],
+          "date": "111-02-07",
+          "oldRule": "110年版本對兒童、孕婦等以不使用為宜，確有必要例外；因所犯罪名加銬腳踝之刑度門檻為最輕本刑5年以上。",
+          "newRule": "111年版本第3點不再把兒童列在同一款，對即將生產、分娩中或甫生產婦女執行拘捕解送有不應使用規定；第4點另規定少年，第5點因所犯罪名加銬腳踝的門檻為最輕本刑10年以上，另有具體危險等情形。",
+          "effectiveStatus": "in-force"
+        },
+        "currentAnswer": "當年選A。110年版本對兒童、孕婦等是以不使用為宜，確有必要可例外，並非全部絕對禁止；111年修正後另有少年、孕產婦及腳踝加銬細節。",
+        "takeaway": "110年兒童列同一保護點；111年少年另列、腳踝刑度5年改10年。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "110年9月24日版第3點規定兒童、孕婦、年邁體弱、傷病或肢體障礙者以不使用為宜，確有必要例外。",
+            "correction": "本題選A；111年版本未把兒童列在同一點，不可反推可對兒童任意上銬。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "110年版第2點於合法強制措施之情形，因故無法有效使用警銬時，得用足以達成目的之其他物品。",
+            "correction": "仍須具備法律依據及必要比例；不是任何時候均可使用。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "110年版第4點以銬手為原則，特殊情形需於腳踝上銬者另論。",
+            "correction": "種類原則不表示應一律上銬。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "110年版第4點於有事實足認脫逃、被劫持或對他人施強暴脅迫等情形之虞時，得於銬手外加銬腳踝。",
+            "correction": "111年版仍有具體危險之要件；單純所犯罪名的刑度門檻已變。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law110-inner-02",
+        "verified": true,
+        "amendment": {
+          "status": "changed",
+          "law": "警察人員使用警銬規範110年9月24日及111年2月7日版本",
+          "checkedAt": "2026-11-16",
+          "note": "原題及當年官方答案保留。警專學報附錄可讀得110年9月24日版本；111年版本由保訓會教材轉錄。兩版的兒童文字、孕產婦及腳踝上銬門檻不同；不得因兒童未列於同一點而推定可任意使用警銬。",
+          "sources": [
+            {
+              "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+              "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+            },
+            {
+              "title": "執行拘提逮捕解送使用戒具實施辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+            },
+            {
+              "title": "刑事訴訟法第89、89條之1、92、93及130條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "考試院110年警察考試延期至9月25日至26日",
+              "url": "https://www.exam.gov.tw/News_Content.aspx?n=3438&s=43438"
+            }
+          ],
+          "date": "111-02-07",
+          "oldRule": "110年版本對兒童、孕婦等以不使用為宜，確有必要例外；因所犯罪名加銬腳踝之刑度門檻為最輕本刑5年以上。",
+          "newRule": "111年版本第3點不再把兒童列在同一款，對即將生產、分娩中或甫生產婦女執行拘捕解送有不應使用規定；第4點另規定少年，第5點因所犯罪名加銬腳踝的門檻為最輕本刑10年以上，另有具體危險等情形。",
+          "effectiveStatus": "in-force"
+        },
+        "currentAnswer": "當年答案C對照110年警銬規範，兒童或孕婦以不使用為宜並有必要例外。111年版本不再將兒童列於同一點，應個別查法，不能將C整句當作現行文字。",
+        "takeaway": "110年官方答案C保留；111年條文已更動，兒童保障不得因此被削弱。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "警政署警銬規範為機關函頒之執行規範，題稱依警械條例授權所訂法規命令並不正確。",
+            "correction": "與刑訴第89條之1授權訂定的戒具實施辦法分開。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "警職法第20條規定的是特定管束情形下使用警械，非題示警銬規範的直接授權訂定依據。",
+            "correction": "區分行政管束與刑事拘提逮捕解送。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "110年9月24日版第3點確列兒童、孕婦等以不使用為宜，確有必要例外，符合當年C考點。",
+            "correction": "111年版本不再把兒童列入同一點；兒童仍受相關法令保護，本題保留官方C。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "110年版第5點與111年版第7點均不得以使用警銬為懲罰方法。",
+            "correction": "有必要時仍應依個案法定目的使用，而非用作懲罰。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "scene114-01",
+        "verified": true,
+        "amendment": {
+          "status": "none",
+          "law": "警察人員使用警銬規範111年2月7日版第2至7點；戒具實施辦法第3、5、6條",
+          "checkedAt": "2026-11-16",
+          "note": "保訓會教材完整轉錄題目指定的111年修正版，並以現行戒具辦法核對；保留當年官方答案。原始函件及後續全部沿革仍應與主管機關最新資料對照。",
+          "sources": [
+            {
+              "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+              "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+            },
+            {
+              "title": "執行拘提逮捕解送使用戒具實施辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+            },
+            {
+              "title": "刑事訴訟法第89、89條之1、92、93及130條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "監察院114年解送戒具與偵查不公開調查報告",
+              "url": "https://www.cy.gov.tw/public/Data/114mo/114%E5%85%A7%E8%AA%BF0015.pdf"
+            }
+          ],
+          "effectiveStatus": "in-force"
+        },
+        "currentAnswer": "A錯誤：對少年拘提、逮捕或解送須依年齡、身心、暴力及具體危險判斷，符合防止自傷、傷人、脫逃等必要時得使用，不是絕對不得。",
+        "takeaway": "少年原則慎用且審查具體必要性；不能只因年齡或身分一律上銬。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "111年規範第4點對少年須依年齡、身心及具體事實審認，有防止脫逃等必要時得使用。",
+            "correction": "並非一律不得；本題選A。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第3點對孕婦、年邁體弱、傷病或肢體障礙者以不使用為宜，確有必要為例外。",
+            "correction": "即將生產、分娩中或甫生產婦女於拘提逮捕解送時另有不應使用規定。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第5點以銬手為原則，特殊情形需要時得於腳踝上銬；合併腳踝須符合具體要件。",
+            "correction": "銬手為種類原則，不是對所有人一律上銬。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第2點於執行法定強制措施，因故無法有效使用警銬時，得用足以達成目的之物。",
+            "correction": "不能跳過法定強制措施及必要比例要件。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "duty115_22",
+        "verified": true,
+        "amendment": {
+          "status": "none",
+          "law": "警察人員使用警銬規範111年2月7日版第2至7點；戒具實施辦法第3、5、6條",
+          "checkedAt": "2026-11-16",
+          "note": "保訓會教材完整轉錄題目指定的111年修正版，並以現行戒具辦法核對；保留當年官方答案。原始函件及後續全部沿革仍應與主管機關最新資料對照。",
+          "sources": [
+            {
+              "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+              "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+            },
+            {
+              "title": "執行拘提逮捕解送使用戒具實施辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+            },
+            {
+              "title": "刑事訴訟法第89、89條之1、92、93及130條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "監察院114年解送戒具與偵查不公開調查報告",
+              "url": "https://www.cy.gov.tw/public/Data/114mo/114%E5%85%A7%E8%AA%BF0015.pdf"
+            }
+          ],
+          "effectiveStatus": "in-force"
+        },
+        "currentAnswer": "B錯誤：少年是否使用警銬須依具體必要性判斷，不能因少年身分一律加銬腳踝；另應遵守比例、名譽及解除保障。",
+        "takeaway": "少年不因年齡一律上銬；更不能一律加腳銬。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第2點於依法執行強制措施，為防自傷及確保安全等目的，得依必要程度使用警銬。",
+            "correction": "得使用非必須使用，並須依個案審查。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第4、5點均未規定少年逮捕一律銬手兼銬腳踝；少年及加銬腳踝各有必要與事實要件。",
+            "correction": "不得因「血氣方剛」概括加銬腳踝；本題選B。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第7點第1款要求不逾必要程度並盡量避免暴露上銬部位。",
+            "correction": "刑訴第89條之1亦要求避免公然暴露戒具。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第7點第2款規定應維護使用對象身體及名譽。",
+            "correction": "無繼續必要時應依法儘速解除。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "duty113_21",
+        "verified": false,
+        "amendment": {
+          "status": "review",
+          "law": "警察人員使用警銬規範第4、5點；警備車及解送程序",
+          "checkedAt": "2026-11-16",
+          "note": "111年警銬規範的少年及腳踝使用部分已有保訓會教材與戒具辦法；汽車解送位置、啟動次序及全國勤務程序完整原件仍待查，保留待核。",
+          "sources": [
+            {
+              "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+              "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+            },
+            {
+              "title": "執行拘提逮捕解送使用戒具實施辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+            },
+            {
+              "title": "刑事訴訟法第89、89條之1、92、93及130條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "currentAnswer": "保留原題與當年答案D：戒具實施辦法第3條及111年警銬規範第4點要求對少年個別評估具體脫逃或重大毀損等風險；車輛勤務原件與其他選項仍待核。",
+        "takeaway": "少年使用戒具須有具體必要性；車輛啟動順序與座位仍待SOP原件。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "承載警力、駕駛與啟動程序屬警備車勤務細節；目前未取得完整現行規範。",
+            "correction": "保留官方原題與答案，不能僅從兩人戒護推導啟動順序。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "111年規範第5點因罪名刑度而得加銬腳踝，要求最輕本刑10年以上；有具體脫逃等危險另須依法評估。",
+            "correction": "三年以上七年以下並非僅憑刑度即符合該項門檻。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "人犯車上座位安排涉及尚待取得的警備車與解送完整程序。",
+            "correction": "應避免將副駕駛座推為當然正確安排；仍待官方完整原件。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "戒具辦法第3條及111年規範第4點均要求依少年年齡、身心、環境與具體風險評估。",
+            "correction": "有防止脫逃或嚴重毀損財物之必要時得依法使用；本題選D。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "duty115_s01",
+        "verified": false,
+        "amendment": {
+          "status": "review",
+          "law": "提升臨檢盤查效能及安全工作指引；警察職權行使法第3、4、6至8條",
+          "checkedAt": "2026-11-16",
+          "note": "監察院公報引述110年指引五項，警政署大事紀另確認114年6月27日修正；尚未取得114年完整修正版，不能判定後續點次均無變動。本站擬答非官方評分。",
+          "sources": [
+            {
+              "title": "監察院公報第3326期：110年臨檢安全指引五項及112年糾正案",
+              "url": "https://www-ws.cy.gov.tw/Download.ashx?icon=..pdf&n=MzMyNi5wZGY%3D&u=LzAwMS9VcGxvYWQvMy9yZWxmaWxlLzg5MTYvMjY2NTcvNmZiY2RiOWEtYjRlZi00Zjk5LWI1MDItNjYxZWQ2OGJhMGE1LnBkZg%3D%3D"
+            },
+            {
+              "title": "警政署114年6月大事紀：114年6月27日修正臨檢安全工作指引",
+              "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1392776354088357888&module=events&type=s"
+            },
+            {
+              "title": "警察職權行使法第3、4、6至8條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            }
+          ]
+        },
+        "model": {
+          "intro": "臨檢盤查與巡邏均須具備法定發動要件，並兼顧員警、受檢人及第三人安全。茲依題意分述。",
+          "basis": "監察院公報第3326期引述警政署110年1月27日指引的五項盤查前安全重點；警政署大事紀載114年6月27日修正該指引。警察職權行使法第3、4、6至8條另為依法盤查的要件。",
+          "analysis": "一、巡邏車停放適當位置：避免妨礙交通或使員警曝露於車流及衝撞路線。\n二、與被盤查人、車保持適當位置：接近前觀察車內及周邊，保持安全距離與撤離空間。\n三、警戒位置及監視重點：分工檢查、警戒，注意手部、危險物及車輛動態，不同時失去警戒。\n四、提高警覺並完成應勤裝備使用前準備：確認通訊、蒐證與必要防護裝備狀況，依危險程度適當戒備。\n五、監控及掌握周邊狀況：觀察同夥、第三人、交通與環境風險，事前通報；情勢升高立即請求支援。\n※五項標題已與監察院公報引用之110年版核對；114年6月27日有修正版，完整原件及變動內容仍待核。各項例子為本站對安全目的之解說，非逐字引文或官方配分。",
+          "conclusion": "應依法行政，依比例原則選擇必要且適當之措施，持續通報及完整蒐證，以兼顧執勤安全與人民權益。"
+        }
+      },
+      {
+        "targetId": "scene115-e2",
+        "verified": false,
+        "amendment": {
+          "status": "review",
+          "law": "刑事訴訟法第89條之1、執行拘提逮捕解送使用戒具實施辦法；解送人犯辦法已廢止",
+          "checkedAt": "2026-11-16",
+          "note": "補正曾列作現行依據的解送人犯辦法：該辦法110.12.13廢止。刑訴戒具、附帶搜索及即時解送條文已核；解送細則與警力配置仍待原件比對。 另補監察院114年個案所示之戒具暴露與偵查不公開；該個案不能代替完整解送內規。 保訓會教材轉錄111年警銬規範七點；111年考試院復審案補充解送前搜身及各員職責，不能取代最新完整解送內規。",
+          "sources": [
+            {
+              "title": "全國法規資料庫・刑事訴訟法第89條之1",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=89-1"
+            },
+            {
+              "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+            },
+            {
+              "title": "全國法規資料庫・解送人犯辦法廢止沿革",
+              "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=I0040007"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第130條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=130"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第92條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第93條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=93"
+            },
+            {
+              "title": "監察院114年3月糾正案：解送時暴露戒具及媒體拍攝",
+              "url": "https://www.cy.gov.tw/CyBsBoxContent.aspx?n=134&s=49094"
+            },
+            {
+              "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+              "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+            },
+            {
+              "title": "考試院公報第41卷第6期：111年解送前搜身及責任歸屬復審",
+              "url": "https://ws.exam.gov.tw/Download.ashx?icon=.pdf&n=6ICD6Kmm6Zmi5YWs5aCx56ysNDHljbfnrKw25pyfX%2BabuOexpC5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzkzMjUvNDUwNDEvYjA3OTRiZDAtYzEzNC00Njc2LTgzZWQtYjg5YjA0YzIzMDc3LnBkZg%3D%3D"
+            },
+            {
+              "title": "監察院114年解送戒具與偵查不公開調查報告",
+              "url": "https://www.cy.gov.tw/public/Data/114mo/114%E5%85%A7%E8%AA%BF0015.pdf"
+            }
+          ]
+        },
+        "model": {
+          "intro": "拘提、逮捕及解送均限制人身自由，應先確認合法拘捕依據，再以適當警力、戒護與移交程序完成任務。",
+          "basis": "刑事訴訟法第88、88之1、89、89之1、90、92、93、95及130條；執行拘提逮捕解送使用戒具實施辦法。解送人犯辦法已於110.12.13廢止；警政署現行解送注意事項全文與配置細則待核。",
+          "analysis": "一、準備階段\n確認拘票或無票逮捕要件、對象身分、人數、犯行情節、危險性及是否需女警、通譯或醫療。勘查地點、路線與備援，選擇適當車輛及警力，明確分工主辦、搜索、戒護、駕駛與通訊。檢查警械戒具、通訊、密錄器、車門車窗安全，備妥拘捕解送文書；跨轄行動依規定通報會同，不能以通報取代拘票等法源。\n二、拘捕後檢查及告知\n考試院111年公報記載一件復審案：依該案所引解送程序，解送前由承辦解送員警先行搜身；負責製作警詢筆錄而非解送者，是否因此必然承擔該責任，該復審案認為尚有疑義。此為特定案件與所引當時程序，不能取代最新完整解送內規。\n核對身分，告知拘捕原因、涉嫌罪名及得選任辯護人等權利，依法通知指定親友及記錄逮捕時間。依刑訴法第130條於合法逮捕、拘提時附帶搜索身體、隨身物、交通工具及立即可觸及處，保存毒品、凶器與證物鏈。戒具依個別風險及必要程度使用，不作懲罰，並注意身體與名譽、避免公然暴露戒具；監察院114年糾正案指出，為媒體拍攝而安排動線、未遮蔽上銬部位並令當事人遭近身採訪有違相關規定。即將生產、分娩中或甫生產後婦女不應使用，少年須依戒具辦法第3條審查例外；查明傷病與特殊需求。\n三、解送途中\n依個案風險分工戒護及監控，車輛與路線安全優先；遇困難及時通報並請求協助，需急救時兼顧就醫與必要戒護。財物、如廁、通訊、交接及警力細節應依最新解送程序個別核對；已廢止辦法的舊條文不能直接視為現行規定。\n四、到達移交\n司法警察逮捕或接受現行犯，原則應即解送檢察官，刑訴第92條例外須具備法定要件並經檢察官許可；另注意第93條檢察官聲請羈押的24小時規定，不得將此理解為員警得等待24小時才解送。到達檢察署核對人犯、文書、證物、財物及身體狀況，逐項簽收點交；未完成交接不得解除戒護，重要經過完整記錄、回報。",
+          "conclusion": "應依法行政，全程依比例原則維護戒護安全，並保障犯嫌生命健康、辯護權及人身自由。"
+        }
+      },
+      {
+        "targetId": "s05",
+        "verified": false,
+        "amendment": {
+          "status": "review",
+          "law": "刑事訴訟法第89條之1、執行拘提逮捕解送使用戒具實施辦法；解送人犯辦法已廢止",
+          "checkedAt": "2026-11-16",
+          "note": "已核對現行戒具法源與舊辦法廢止，另有警政署解送程序原件及警力配置待核；不把歷史細節作為現行已核定論。 新增監察院114年具體糾正案例，但不把個案替代完整解送內規。 新增保訓會教材轉錄之111年警銬規範與考試院解送搜身復審案例；完整現行解送程序仍待查。",
+          "sources": [
+            {
+              "title": "全國法規資料庫・刑事訴訟法第89條之1",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=89-1"
+            },
+            {
+              "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+            },
+            {
+              "title": "全國法規資料庫・解送人犯辦法廢止沿革",
+              "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=I0040007"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第130條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=130"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第92條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第93條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=93"
+            },
+            {
+              "title": "監察院114年3月糾正案：解送時暴露戒具及媒體拍攝",
+              "url": "https://www.cy.gov.tw/CyBsBoxContent.aspx?n=134&s=49094"
+            },
+            {
+              "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+              "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+            },
+            {
+              "title": "考試院公報第41卷第6期：111年解送前搜身及責任歸屬復審",
+              "url": "https://ws.exam.gov.tw/Download.ashx?icon=.pdf&n=6ICD6Kmm6Zmi5YWs5aCx56ysNDHljbfnrKw25pyfX%2BabuOexpC5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzkzMjUvNDUwNDEvYjA3OTRiZDAtYzEzNC00Njc2LTgzZWQtYjg5YjA0YzIzMDc3LnBkZg%3D%3D"
+            },
+            {
+              "title": "監察院114年解送戒具與偵查不公開調查報告",
+              "url": "https://www.cy.gov.tw/public/Data/114mo/114%E5%85%A7%E8%AA%BF0015.pdf"
+            }
+          ]
+        },
+        "model": {
+          "intro": "警察執行職務，應有法定依據並符合發動要件，兼顧勤務目的、比例原則及人民權益。茲依題示配分分述如下。",
+          "basis": "刑事訴訟法第89條之1與執行拘提逮捕解送使用戒具實施辦法第3至8條為已核對的戒具法源；解送人犯辦法110.12.13廢止。警政署現行解送注意事項及警力配置原件尚待確認。",
+          "analysis": "一、出發前（10分）\n核對個案的拘捕、解送依據及文書，依合法權責安排人員、交通及通訊，並依個案危險性與健康狀況評估必要的安全措施。考試院111年公報所載復審案引述，承辦解送員警於解送前先行搜身；另由其他員警製作筆錄者是否當然負該責任，該案認有疑義。此為特定案件與當時程序，完整現行規範仍需核對。是否使用戒具應依刑訴第89條之1及戒具辦法個別判斷；手銬為使用種類原則，不等於應一律上銬。\n二、途中與交接（15分）\n（一）依刑訴第89條之1注意身體及名譽、避免公然暴露戒具；無繼續使用必要時立即解除。 監察院114年糾正案指出，為媒體拍攝而安排動線且未遮蔽上銬部位、使當事人遭近身採訪，違反相關規定；應兼顧偵查不公開與當事人名譽。\n（二）戒具不得作懲罰，即將生產、分娩中或甫生產後婦女不應使用；少年原則不應使用，例外須符合具體必要事由或少年事件處理法特別規定。\n（三）注意當事人身心狀況、勤務安全及依法完成移交；逮捕現行犯之解送應另依刑訴第92條及個案規定辦理。\n（四）已廢止辦法第6、11條曾列出金錢保管、分批如廁等事項，僅能作歷史題型對照；現行警政署解送內規完整點次、警力、如廁及交接細節仍待取得，不能把舊法視為現行規定。",
+          "conclusion": "綜上，應依法行政，依個案事實審查要件、採取必要措施並遵守法定程序，隨情勢檢討其必要性，以兼顧執法目的與人民權益保障。"
+        }
+      },
+      {
+        "targetId": "escort-constraints",
+        "amendment": {
+          "status": "none",
+          "law": "刑事訴訟法第89條之1、執行拘提逮捕解送使用戒具實施辦法及111年警銬規範",
+          "checkedAt": "2026-11-16",
+          "note": "已核刑訴及戒具辦法，另找到保訓會教材轉錄警政署111年警銬規範第1至7點；警政署原函、後續全部沿革及完整解送程序仍待核。",
+          "sources": [
+            {
+              "title": "刑事訴訟法第89、89條之1、92、93及130條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "執行拘提逮捕解送使用戒具實施辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+            },
+            {
+              "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+              "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+            },
+            {
+              "title": "監察院114年解送戒具與偵查不公開調查報告",
+              "url": "https://www.cy.gov.tw/public/Data/114mo/114%E5%85%A7%E8%AA%BF0015.pdf"
+            }
+          ]
+        },
+        "lawContent": {
+          "original": "執行拘提、逮捕或解送，得使用戒具。但不得逾必要之程度。\n前項情形，應注意被告或犯罪嫌疑人之身體及名譽，避免公然暴露其戒具；認已無繼續使用之必要時，應即解除。\n前二項使用戒具之範圍、方式、程序及其他應遵行事項之實施辦法，由行政院會同司法院定之。",
+          "originalLabel": "刑事訴訟法第89條之1全文",
+          "core": "拘提、逮捕或解送所使用的戒具須有必要且不逾必要程度；不能用來處罰。",
+          "points": [
+            "實施辦法第3條：戒具不得作為懲罰；即將生產、分娩過程或甫生產後婦女不應使用。",
+            "第3條：少年原則不應使用；有防止自傷、傷人、脫逃、嚴重毀損他人財物之必要，或少年事件處理法有特別規定者例外，須依具體事實審查。",
+            "第4條：司法警察官、司法警察等，依法執行拘提、逮捕或解送職務時得依規定使用。",
+            "第5條：使用戒具以手銬為原則，合併腳鐐等須有列舉情形之一，仍須合乎比例與必要程度。",
+            "第6、8條：維護身體、名譽，避免公然暴露及破損不潔；認無繼續必要即解除。",
+            "保訓會教材轉錄警政署111年警銬規範第2、4、5、7點：法定強制措施應依具體需要；少年另審必要；因所犯罪名加銬腳踝的門檻為最輕本刑10年以上，另有事實足認脫逃等例外；不得作懲罰。"
+          ],
+          "traps": [
+            "以手銬為使用種類原則，不代表每個人均應上銬。",
+            "已找到保訓會教材轉錄111年警銬規範1至7點；警政署原函及後續全部沿革、完整解送勤務細節仍須另核。",
+            "110.12.13廢止的解送人犯辦法只可作歷史資料，不可作現行解送前及途中全部程序依據。"
+          ],
+          "memory": "有必要，勿懲罰；護身名，無必要即解。",
+          "scenario": "解送少年時先審查具體脫逃等風險，並斟酌年齡與身心狀況；無使用必要不得僅因少年犯嫌身分而上銬。",
+          "version": "刑訴第89條之1及110.12.30發布戒具辦法・2026.11.16核對",
+          "verified": true,
+          "verificationNote": "刑訴第89條之1及戒具辦法第3至8條已核；另有保訓會教材轉錄警政署111年警銬規範全文，但警政署原函、後續全部沿革及完整解送程序仍待核。",
+          "sources": [
+            {
+              "title": "全國法規資料庫・刑事訴訟法第89條之1",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=89-1"
+            },
+            {
+              "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+            },
+            {
+              "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+              "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+            },
+            {
+              "title": "監察院114年解送戒具與偵查不公開調查報告",
+              "url": "https://www.cy.gov.tw/public/Data/114mo/114%E5%85%A7%E8%AA%BF0015.pdf"
+            }
+          ]
+        }
+      }
+    ],
+    "createdAt": 1794870903894
   }
 ]

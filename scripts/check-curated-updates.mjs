@@ -220,3 +220,16 @@ const policeBenefits=result.questions.find(q=>q.id==='law115-inner-06');assert(p
 const neutrality=result.questions.find(q=>q.id==='law115-inner-25');assert(neutrality.options[1].explanation.includes('三親等'));assert(neutrality.options[3].correction.includes('私人'));assert(neutrality.amendment.sources.some(s=>s.url.includes('Page=8326')));
 const firearms=result.questions.find(q=>q.id==='law113-inner-23');assert(firearms.options[3].correction.includes('範圍不只槍械'));assert(firearms.options[2].explanation.includes('即時報告'));
 console.log('Fifteen statute-backed explanations preserve keys and distinguish remedies, benefits and neutrality safeguards.');
+
+// Handcuff history, specific escort duties and revised checkpoint guidance are not interchangeable.
+for(const [id,answer] of [['duty110_05',0],['law110-inner-02',2],['scene114-01',0],['duty115_22',1]]){
+ const q=result.questions.find(x=>x.id===id);assert(q?.verified);assert.equal(q.answer,answer);assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()));
+ assert(q.amendment.sources.some(s=>s.url.includes('ws.csptc.gov.tw')));
+}
+const oldCuffs=result.questions.find(x=>x.id==='duty110_05');assert.equal(oldCuffs.amendment.status,'changed');assert(oldCuffs.amendment.oldRule.includes('5年'));assert(oldCuffs.amendment.newRule.includes('10年'));
+const childCuffs=result.questions.find(x=>x.id==='law110-inner-02');assert(childCuffs.currentAnswer.includes('兒童'));assert(childCuffs.amendment.note.includes('不得因兒童'));
+const minorEscortCase=result.questions.find(x=>x.id==='duty113_21');assert.equal(minorEscortCase?.verified,false);assert(minorEscortCase.currentAnswer.includes('第3條'));assert(minorEscortCase.amendment.note.includes('仍待查'));
+const prepEssay=result.essays.find(x=>x.id==='duty115_s01');assert.equal(prepEssay?.verified,false);assert(prepEssay.model.basis.includes('114年6月27日'));assert(prepEssay.model.analysis.includes('完整原件'));
+for(const id of ['s05','scene115-e2']){const e=result.essays.find(x=>x.id===id);assert.equal(e?.verified,false);assert(e.model.analysis.includes('復審案'));assert(e.amendment.sources.some(s=>s.url.includes('ws.exam.gov.tw')));}
+const cuffCard=result.laws.find(x=>x.id==='escort-constraints');assert(cuffCard?.points.some(x=>x.includes('10年')));assert(cuffCard.traps.some(x=>x.includes('111年警銬規範')));
+console.log('Historical handcuff rules, individual escort duties and revised guidance remain clearly distinguished.');
