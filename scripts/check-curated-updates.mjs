@@ -138,3 +138,18 @@ for(const id of ['q38','duty113_04','scene110-17']){
   assert(q.amendment.sources.some(source=>source.url.includes('1150026923_ATTACH2.pdf')));
 }
 console.log('Expired blood-sampling provision, judgment procedures and future amendment remain distinct.');
+
+// Separate former weapons provisions from the 2022 additions, and each detention-restraint trigger.
+const weaponEssay=result.essays.find(e=>e.id==='law111-inner-e1');assert(weaponEssay?.verified);
+assert(weaponEssay.amendment.oldRule.includes('第11條')&&weaponEssay.amendment.oldRule.includes('第12條'));
+assert(weaponEssay.model.analysis.includes('其他可能致人傷亡的裝備機具'));assert(weaponEssay.model.analysis.includes('考後新增'));
+const detentionEssay=result.essays.find(e=>e.id==='law115-inner-e2');assert(detentionEssay?.verified);
+assert(detentionEssay.model.analysis.includes('不能把後兩款的「之虞」泛化'));
+assert(detentionEssay.model.analysis.includes('危險或危害結束時即終止'));
+const compensationEssay=result.essays.find(e=>e.id==='law114-outer-e2');assert(compensationEssay?.verified);
+assert(compensationEssay.model.analysis.includes('法院得減免'));assert(compensationEssay.model.analysis.includes('因協議書所生爭議'));
+const assemblyEssay=result.essays.find(e=>e.id==='law115-inner-e1');assert(assemblyEssay?.verified);
+assert(assemblyEssay.model.analysis.includes('104年1月1日起失效'));assert(assemblyEssay.model.analysis.includes('一般處分分析'));
+const identityEssay=result.essays.find(e=>e.id==='law114-inner-e2');assert(identityEssay?.verified);
+assert(identityEssay.model.analysis.includes('自攔停起不得逾3小時'));
+console.log('Weapons history, detention safeguards, compensation remedies, assembly interpretation and identity checks passed.');

@@ -1,0 +1,68 @@
+{
+  "checkedAt": "2026-11-16",
+  "timezone": "Asia/Taipei",
+  "sources": [
+    {
+      "title": "警察職權行使法第2至7、19、20、29至31條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145",
+      "sha256": "13b20775ad49bb94a3fcf7c911d248f5f32186339198abfccdc4916d06018e7b",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "警械使用條例第3、4、6至11條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042",
+      "sha256": "f5bcb2312280ae0e6f8271ee2d3a73e727a6556091a53d18b9396933db14b7af",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "警械使用事件補償辦法第2至8、10至17條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080219",
+      "sha256": "fcaa70f36b0887121a9bdb37e0ca6edeee7a4edbcfd00eb96c5ff94c63a5b504",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "集會遊行法第8、25及26條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058",
+      "sha256": "a59879e30f6f69bbba745ceeb7702cbe17ac9060406da4206743188668621f2e",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "行政程序法第92條",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0030055&flno=92",
+      "sha256": "1106e384306657868e84fe12b6ec2daab01d3531ee6b0c1680c8e3b27adcf90e",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "中華民國憲法第8、14及23條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001",
+      "sha256": "79c0fdffead98a8e7b4b1ba9fb4078fc88b6d1d5572b4749e792014b997b79e1",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "新北市法規系統・111年修正前警械使用條例第4、11、12條",
+      "url": "https://web.law.ntpc.gov.tw/Scripts/PrintFLAWDOC02.aspx?RCODE2=B0080008&RNO=1&rtype=H",
+      "retrieval": "網頁檢索服務讀取政府法規系統公開全文；本機直接連線HTTP 403，未宣稱原始文件雜湊"
+    },
+    {
+      "title": "法務部主管法規查詢系統・釋字第718號",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C",
+      "retrieval": "網頁檢索服務讀取政府法規系統公開全文；本機直接連線HTTP 403，未宣稱原始文件雜湊"
+    }
+  ],
+  "verifiedEssayIds": [
+    "law111-inner-e1",
+    "law114-inner-e2",
+    "law114-outer-e2",
+    "law115-inner-e2",
+    "law115-inner-e1"
+  ],
+  "notes": [
+    "新北市政府法規系統顯示修正前警械第11條為政府給付及故意求償、第12條為依法令行為，原教材舊條次敘述已勘誤。",
+    "警械第4條第3、4項為111年考後增訂；逕行射擊應有共同生命身體危險前提。",
+    "警職法第20條第1款為抗拒留置管束；第2、3款另包含攻擊毀損或自殺自傷之虞，不將之虞套用至第1款。",
+    "警職法第31條明定法院得減免，警械補償辦法第6條另有機關審酌減免規定。",
+    "釋字718號失效的範圍依解釋文，非宣告全部集會遊行法失效。",
+    "申論為本站練習擬答，不宣稱考選部公布官方答案或細分配分；原題、配分及紀錄鍵不變。",
+    "全國法規資料庫頁面整編截止115.11.06；持續留意後續異動。"
+  ]
+}
