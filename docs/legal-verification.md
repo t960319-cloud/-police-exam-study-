@@ -260,3 +260,9 @@
 - [警政署106年身分查證作業程序](https://www.npa.gov.tw/ch/app/faq/doc?detailNo=801310762604691456&module=faq&type=s)明載帶往勤務處所查證身分適用提審法並應告知權利，與指定親友或律師、攔停起3小時的保障一併補入。
 - 依行政執行法第6條及其施行細則第13條分列協助費用與會商依據；集遊申復標示一般期限及釋字718緊急、偶發集會保障，機場港口範圍則須看主管機關實際公告。原題、選項及答案保留；[來源與雜湊](legal-evidence-2026-11-16-organization-questions.json)。
 - 第25版已由來源 `90193b5a9fec4a1ac56115a31dde6a96621cd1e9` 儲存並部署，原生狀態為成功；網站維持 public。正式法規 API 讀回仍遭本環境 CONNECT 403，無法以此聲稱正式站資料已實際讀回。
+
+### 2026-11-16：臨檢、宗教場所與救濟補核
+
+- 已取得[警政署103年場所臨檢程序](https://www.npa.gov.tw/ch/app/faq/doc?detailNo=801310763162533888&module=faq&type=s)及[臺北市公開八頁路檢程序](https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=5Z%2B36KGM6Lev5qqi5pSU5qqi6Lqr5YiG5p%2Bl6K2J5L2c5qWt56iL5bqPLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNTA2L3JlbGZpbGUvMjI5NzEvMTMyMzMvMWU2NjM0ZTItNWNiMy00YjM4LWFkYTAtYmU3ZjYwOGNkOGZiLnBkZg%3D%3D)，補兩題異議處理與三聯紀錄；最新完整版本及沿革仍待核，兩題維持待核。
+- 八頁路檢程序含宗教場所查證、刑事搜索條款；配合刑訴第128、130、131條及[監察院樹林教堂調查](https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/70896)補113勤務申論。區分合法進入、對人查證與無票搜索，以及司法警察搜索後3日內報告；擬答非官方答案，後續內規仍待核。
+- 另依正式條文核對十題提審、查證身分、服務義務、人事、送達與行政執行；尤其提審聲請法院與不得以無管轄權駁回須合併閱讀。原題及答案均保留；[來源與雜湊](legal-evidence-2026-11-16-identity-remedies.json)。

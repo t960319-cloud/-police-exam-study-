@@ -194,3 +194,17 @@ assert(localPolicing.currentAnswer.includes('指揮監督'));assert(localPolicin
 const assemblyRelief=result.questions.find(q=>q.id==='law115-inner-21');
 assert(assemblyRelief.takeaway.includes('緊急、偶發集會'));assert(assemblyRelief.amendment.sources.some(s=>s.url.includes('id=332415')));
 console.log('Police organization, habeas notice, execution assistance and assembly safeguards passed.');
+
+// Habeas relief and religious-place entry have different purposes and legal prerequisites.
+for(const [id,answer] of [['investigation110_10',0],['duty110_14',1],['law114-inner-22',0],['law114-outer-22',2],['law114-outer-23',1],['law115-outer-23',1],['law115-outer-02',2],['law115-outer-09',0],['law115-inner-07',0],['law114-outer-02',1]]){
+ const q=result.questions.find(x=>x.id===id);assert(q?.verified);assert.equal(q.answer,answer);assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()));
+}
+const habeas=result.questions.find(q=>q.id==='investigation110_10');
+assert(habeas.currentAnswer.includes('不得僅以無管轄權裁定駁回'));assert(habeas.options[1].explanation.includes('即時'));
+const disobedience=result.questions.find(q=>q.id==='law114-inner-22');
+assert(disobedience.currentAnswer.includes('違反刑事法律'));assert(disobedience.options[0].explanation.includes('書面署名'));
+for(const id of ['duty110_03','duty114_20']){const q=result.questions.find(x=>x.id===id);assert.equal(q?.verified,false);assert.equal(q.amendment.status,'review');assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()));}
+const religiousPlace=result.essays.find(e=>e.id==='duty113_s02');assert.equal(religiousPlace?.verified,false);
+assert(religiousPlace.model.analysis.includes('執行後3日內報告該管檢察官及法院'));assert(religiousPlace.model.analysis.includes('不能代替所有個案'));
+assert(religiousPlace.amendment.sources.some(s=>s.url.startsWith('https://www-ws.gov.taipei/')));
+console.log('Habeas jurisdiction, police safeguards and religious-place search prerequisites passed.');

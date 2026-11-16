@@ -6669,5 +6669,663 @@
       }
     ],
     "createdAt": 1794868481671
+  },
+  {
+    "eventId": "legal-review-20261116-identity-and-remedies",
+    "kind": "update",
+    "checkedAt": "2026-11-16",
+    "summary": "核對提審、身分查證、警察人事與行政執行十題，並依已取得警政程序補充場所異議與宗教場所申論；最新完整內規仍待核。",
+    "sources": [
+      {
+        "title": "警察職權行使法第3、6、7、27、29條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+      },
+      {
+        "title": "社會秩序維護法第45、66、67條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+      },
+      {
+        "title": "提審法第1、2、5、7條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010008"
+      },
+      {
+        "title": "公務員服務法第3、5條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020038"
+      },
+      {
+        "title": "警察法第6條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
+      },
+      {
+        "title": "警察人員人事條例第10、12、16、21、31條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
+      },
+      {
+        "title": "行政程序法第74、80、81、88、89條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
+      },
+      {
+        "title": "行政執行法第17、36條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+      },
+      {
+        "title": "刑事訴訟法第88、128、130、131條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      },
+      {
+        "title": "警政署103年場所臨檢身分查證作業程序原件",
+        "url": "https://www.npa.gov.tw/ch/app/faq/doc?detailNo=801310763162533888&module=faq&type=s"
+      },
+      {
+        "title": "臺北市政府公開八頁路檢攔檢身分查證作業程序",
+        "url": "https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=5Z%2B36KGM6Lev5qqi5pSU5qqi6Lqr5YiG5p%2Bl6K2J5L2c5qWt56iL5bqPLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNTA2L3JlbGZpbGUvMjI5NzEvMTMyMzMvMWU2NjM0ZTItNWNiMy00YjM4LWFkYTAtYmU3ZjYwOGNkOGZiLnBkZg%3D%3D"
+      },
+      {
+        "title": "監察院113年樹林宗教場所查緝事件調查報告",
+        "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/70896"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "investigation110_10",
+        "amendment": {
+          "status": "none",
+          "law": "提審法第1、2、5、7條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依正式法條核對各選項，保留當年度官方答案。",
+          "sources": [
+            {
+              "title": "提審法第1、2、5、7條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010008"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A錯誤：第1條規定向逮捕、拘禁地之地方法院聲請；但第5條亦明定受聲請法院不得僅以無管轄權裁定駁回。",
+        "takeaway": "向拘禁地地方法院聲請；受聲請法院不得以無管轄權駁回。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第1條指定逮捕、拘禁地之地方法院，並非規定可任選任何地方法院。",
+            "correction": "依拘禁地聲請；另注意第5條禁止受聲請法院以無管轄權駁回，本題選A。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第2條要求即時以書面告知原因、時間、地點及提審權利，最遲不得超過24小時。",
+            "correction": "告知本人及其指定親友；24小時是上限，不能當成可等待的期限。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第7條規定受提審票後24小時內解交，已移送其他機關等情形另有轉送規定。",
+            "correction": "起算點是收到提審票，非逮捕時。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第7條規定法院自行迎提時應立即交出。",
+            "correction": "不可一律等到24小時屆滿。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "duty110_14",
+        "amendment": {
+          "status": "none",
+          "law": "警察職權行使法第7條；社會秩序維護法第45、66、67條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依正式法條核對各選項，保留當年度官方答案。",
+          "sources": [
+            {
+              "title": "警察職權行使法第3、6、7、27、29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "社會秩序維護法第45、66、67條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B為官方答案：題示依法查證而拒絕陳述姓名等，得依社維法第67條第1項第2款及第45條處理；帶往時未遇抗拒，不得僅憑不同意而使用強制力。",
+        "takeaway": "警職法第7條非遇抗拒不得用強制力；拒絕陳述另審社維法。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第7條第2項明定帶往時非遇抗拒不得使用強制力；題目明示沒有抗拒。",
+            "correction": "不得僅因不同意同行便依該條使用強制力。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "於警察依法調查或查察時拒絕陳述姓名、住所或居所，符合第67條第1項第2款所列類型。",
+            "correction": "須符合依法查察及具體拒絕陳述等要件；依第45條移送簡易庭，本題選B。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "行政罰法第34條是現行違反行政法義務之行為人身分查證，有其勸導無效、確實無法辨認及急迫等要件。",
+            "correction": "題幹未交代勸導無效與情況急迫等全部前提，不能直接援引第34條。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "社維法第66條第2款針對冒用他人身分或能力證明文件。",
+            "correction": "題示拒絕陳述並非冒用他人證明文件。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law114-inner-22",
+        "amendment": {
+          "status": "none",
+          "law": "公務員服務法第3、5條；警察法第6條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依正式法條核對各選項，保留當年度官方答案。",
+          "sources": [
+            {
+              "title": "公務員服務法第3、5條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020038"
+            },
+            {
+              "title": "警察法第6條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A錯誤：認監督範圍內命令違法應先報告；長官認未違法而書面署名下達時原則服從，但違反刑事法律的命令無服從義務。",
+        "takeaway": "違法命令先報告；書面署名仍執行，但違反刑事法律不必服從。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "服務法第3條規定先報告；長官認未違法並書面署名下達時原則服從，違反刑事法律者除外。",
+            "correction": "不能只要認為違法就一律逕拒；本題選A。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第3條的服從義務針對長官監督範圍內所發命令。",
+            "correction": "非該監督範圍的命令不當然成立此條服從義務。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "警察法第6條規定保安警察必要派往地方執行職務時，受當地行政首長指揮監督。",
+            "correction": "臺北市的當地行政首長為市長。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "服務法第5條對機密事件的保密義務，離職後仍然存在。",
+            "correction": "具體資訊是否屬機密仍應依法認定。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-22",
+        "amendment": {
+          "status": "none",
+          "law": "警察人員人事條例第31條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依正式法條核對各選項，保留當年度官方答案。",
+          "sources": [
+            {
+              "title": "警察人員人事條例第10、12、16、21、31條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C錯誤：第31條第1項第6款列公務人員考績法所定一次記二大過；一次記一大過不當然落入該款。",
+        "takeaway": "一次二大過或同年度抵銷後累積二大過，分屬不同款。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第31條第1項第11款列同一考績年度平時獎懲抵銷後累積達二大過。",
+            "correction": "注意限同一考績年度且先互相抵銷。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第8款列持械恐嚇或傷害長官、同事，且情節重大、有具體事實、嚴重影響警譽。",
+            "correction": "各法定要件須一併判斷。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第6款列公務人員考績法所定一次記二大過，而非一次記一大過。",
+            "correction": "改為一次記二大過；本題選C。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第10款列假借職務權勢庇護性交易等，且有具體事實、嚴重影響警譽。",
+            "correction": "不得省略具體事實及嚴重影響警譽要件。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-23",
+        "amendment": {
+          "status": "none",
+          "law": "行政程序法第74、80、81、88、89條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依正式法條核對各選項，保留當年度官方答案。",
+          "sources": [
+            {
+              "title": "行政程序法第74、80、81、88、89條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B正確：依第89條對在監所人送達應囑託監所長官。公示送達、寄存保存分別有不同起算及期限。",
+        "takeaway": "監所囑託監所長官；寄存保存3個月；一般公示送達20日。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第88條規定對軍隊或軍艦服役軍人送達，應囑託該管軍事機關或長官。",
+            "correction": "不是一律囑託轄區警察機關。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第89條規定對於在監所人為送達，應囑託該監所長官。",
+            "correction": "本題選B。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第81條一般公示送達自公告日起20日生效；另有境外60日及再行公示翌日等例外。",
+            "correction": "將10日改為20日，並區分例外。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第74條第3項規定寄存機關自收受寄存文書日起保存3個月。",
+            "correction": "改為3個月。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-23",
+        "amendment": {
+          "status": "none",
+          "law": "行政執行法第17條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依正式法條核對各選項，保留當年度官方答案。",
+          "sources": [
+            {
+              "title": "行政執行法第17、36條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B正確：不服法院拘提或管收裁定，行政執行處或義務人得於10日內抗告，抗告程序準用民事訴訟法。",
+        "takeaway": "抗告準用民事訴訟法；其他拘提管收事項的準用範圍另看條文。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第17條末項部分拘提、管收事項可準用刑事訴訟法，但抗告程序有特別規定。",
+            "correction": "抗告程序準用民事訴訟法。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第17條第10項明定抗告程序準用民事訴訟法。",
+            "correction": "本題選B；抗告一般不停止執行，廢棄原裁定時另依條文處理。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "強制執行法是第17條末項其他拘提、管收事項的準用法之一，非本題抗告程序的準用法。",
+            "correction": "改為民事訴訟法。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "管收條例是第17條末項其他拘提、管收事項的準用法之一，非本題抗告程序的準用法。",
+            "correction": "改為民事訴訟法。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-02",
+        "amendment": {
+          "status": "none",
+          "law": "警察職權行使法第27條；行政執行法第36條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依正式法條核對各選項，保留當年度官方答案。",
+          "sources": [
+            {
+              "title": "警察職權行使法第3、6、7、27、29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "行政執行法第17、36條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C正確：警職法第27條為排除危害，得暫時驅離妨礙的人車或禁止進入；性質為即時強制，仍須符合法定目的及比例原則。",
+        "takeaway": "立即排除現場危害是即時強制，與督促履行既有義務的強制執行區分。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "間接強制透過法定手段促使義務人履行，題示是對現場危害立即處置。",
+            "correction": "題示性質為即時強制。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "直接強制是對不履行義務依法直接執行的方式；題目著重無待前置義務、即時排除危害。",
+            "correction": "不要把所用實力與行政執行分類混為一談。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "警職法第27條及行政執行法第36條的即時處置架構，可用以理解題示暫時驅離。",
+            "correction": "須為排除危害且符合必要性；本題選C。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "行政機關不得任意限制人車行動，應有法定依據並符合比例原則。",
+            "correction": "本題是依法定要件的即時強制。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-09",
+        "amendment": {
+          "status": "none",
+          "law": "行政執行法第36條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依正式法條核對各選項，保留當年度官方答案。",
+          "sources": [
+            {
+              "title": "行政執行法第17、36條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A錯誤：第36條的即時強制由行政機關依職權為之；私人單以私人身分不能視為行政即時強制主體。",
+        "takeaway": "行政機關為阻止犯罪、危害發生或避免急迫危險，且須有即時處置必要。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第36條所定主體為行政機關；不能把私人自行處理概括視為行政機關的即時強制。",
+            "correction": "以依法有權限之行政機關為主體；本題選A。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第36條列阻止犯罪為可能目的之一。",
+            "correction": "仍須具即時處置必要及合法權限。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第36條列阻止危害發生為可能目的。",
+            "correction": "須符合必要性與比例。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第36條列避免急迫危險為可能目的。",
+            "correction": "須有即時處置必要。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-07",
+        "amendment": {
+          "status": "none",
+          "law": "警察人員人事條例第16、21條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依正式法條核對各選項，保留當年度官方答案。",
+          "sources": [
+            {
+              "title": "警察人員人事條例第10、12、16、21、31條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A錯誤：第21條警監職務由內政部遴任或報請行政院遴任；警監、警正任官才依第16條呈請總統。",
+        "takeaway": "職務遴任與取得警察官資格後的任官程序是兩件事。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第21條第1款規定警監職務由內政部遴任或報請行政院遴任。",
+            "correction": "行政院不能改成總統；本題選A。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第21條第2款規定警正、警佐職務由內政部遴任或交由直轄市政府遴任。",
+            "correction": "此為職務遴任權限。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第16條第1款規定警監、警正由內政部核轉銓敘審定合格後呈請總統任官。",
+            "correction": "區分任官與第21條職務遴任。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第16條第2款規定警佐由內政部核轉銓敘後任官，或由直轄市政府核轉後報內政部任官。",
+            "correction": "警佐任官程序不等同警監、警正。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-02",
+        "amendment": {
+          "status": "none",
+          "law": "警察人員人事條例第10、12、16、21條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "in-force",
+          "note": "依正式法條核對各選項，保留當年度官方答案。",
+          "sources": [
+            {
+              "title": "警察人員人事條例第10、12、16、21、31條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B正確：第10條初任警佐年齡上限為40歲；38歲未超過該上限，仍須具備其他任用資格。",
+        "takeaway": "初任警佐不超過40歲；四等考試及格取得警佐三階任官資格。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第12條第4款，特考警察人員四等及格取得警佐三階任官資格。",
+            "correction": "警佐四階是第5款五等考試等資格。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第10條規定初任警佐年齡不得超過40歲，38歲符合該年齡上限。",
+            "correction": "仍須具其他任用及個別考試資格；本題選B。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第21條第2款，警正、警佐職務由內政部遴任或交由直轄市政府遴任。",
+            "correction": "不能說警佐職務均由內政部遴任。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第16條警佐由內政部依規定任官，或直轄市政府核轉後報內政部任官。",
+            "correction": "呈請總統任官為警監、警正程序。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "duty110_03",
+        "amendment": {
+          "status": "review",
+          "law": "警察職權行使法第29條；警政署103年場所臨檢程序",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "unverified",
+          "note": "已讀警政署103年程序完整原件；另有後續版本，最新完整場所臨檢程序及表單沿革未確認，故保留待核。",
+          "sources": [
+            {
+              "title": "警察職權行使法第3、6、7、27、29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "提審法第1、2、5、7條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010008"
+            },
+            {
+              "title": "警政署103年場所臨檢身分查證作業程序原件",
+              "url": "https://www.npa.gov.tw/ch/app/faq/doc?detailNo=801310763162533888&module=faq&type=s"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "B為官方答案：已取得警政署103年場所臨檢程序，異議無理由時續行，並無題示一律請示分局長的前置步驟；仍待確認完整最新版本。",
+        "takeaway": "異議有理由應停止或更正；無理由續行，經請求製作異議紀錄。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "警職法第29條及103年場所臨檢程序均將有理由區分為停止或更正。",
+            "correction": "更正後仍須有合法執行基礎。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "103年程序載異議無理由時續行，未將請示分局長列為一律前置步驟；第29條亦無此規定。",
+            "correction": "本題選B；完整最新場所SOP仍待核。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "103年程序載受檢人請求時製作三聯：受檢人、執行單位、上級機關各一。",
+            "correction": "此為已取得版本，現行完整表單仍待確認。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "103年程序及提審法列帶往勤務處所應告知提審權利。",
+            "correction": "法院受理與否依提審法個案判斷。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "duty114_20",
+        "amendment": {
+          "status": "review",
+          "law": "警察職權行使法第29條；臺北市公開路檢攔檢程序",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "unverified",
+          "note": "已讀臺北市公開八頁警政程序與警職法第29條；尚未排除後續修正，保留待核。",
+          "sources": [
+            {
+              "title": "警察職權行使法第3、6、7、27、29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "臺北市政府公開八頁路檢攔檢身分查證作業程序",
+              "url": "https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=5Z%2B36KGM6Lev5qqi5pSU5qqi6Lqr5YiG5p%2Bl6K2J5L2c5qWt56iL5bqPLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNTA2L3JlbGZpbGUvMjI5NzEvMTMyMzMvMWU2NjM0ZTItNWNiMy00YjM4LWFkYTAtYmU3ZjYwOGNkOGZiLnBkZg%3D%3D"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "A為官方答案：已取得臺北市公開的八頁警政路檢程序，該版本記載第一聯由受檢人收執、第二聯留執行單位、第三聯送上級。",
+        "takeaway": "已取得的路檢程序：受檢人第一聯、執行單位第二聯、上級第三聯。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "公開八頁程序明載第一聯由受檢人收執。",
+            "correction": "本題選A；仍待確認最新完整版本。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "公開八頁程序將第二聯留存執行單位。",
+            "correction": "交受檢人的是第一聯。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "公開八頁程序將第三聯送上級機關。",
+            "correction": "交受檢人的是第一聯。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "公開八頁程序記載一式三聯。",
+            "correction": "該版本沒有題示第四聯，交受檢人為第一聯。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "duty113_s02",
+        "amendment": {
+          "status": "review",
+          "law": "警察職權行使法第3、4、6、7、29條；刑事訴訟法第88、128、130、131條",
+          "checkedAt": "2026-11-16",
+          "effectiveStatus": "unverified",
+          "note": "已取得臺北市公開路檢程序中的宗教場所條款及監察院個案；該程序後續修正與全部專屬內規仍待核。本站擬答非考選部官方配分或標準答案。",
+          "sources": [
+            {
+              "title": "警察職權行使法第3、6、7、27、29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "刑事訴訟法第88、128、130、131條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "臺北市政府公開八頁路檢攔檢身分查證作業程序",
+              "url": "https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=5Z%2B36KGM6Lev5qqi5pSU5qqi6Lqr5YiG5p%2Bl6K2J5L2c5qWt56iL5bqPLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNTA2L3JlbGZpbGUvMjI5NzEvMTMyMzMvMWU2NjM0ZTItNWNiMy00YjM4LWFkYTAtYmU3ZjYwOGNkOGZiLnBkZg%3D%3D"
+            },
+            {
+              "title": "監察院113年樹林宗教場所查緝事件調查報告",
+              "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/70896"
+            }
+          ]
+        },
+        "verified": false,
+        "model": {
+          "intro": "警察勤務應在法律授權範圍內，依合法程序達成維護治安及服務人民之目的。茲依題旨分項說明。",
+          "basis": "警職法第3、4、6、7、29條；刑訴法第88、128、130、131條；臺北市公開路檢攔檢程序之宗教場所條款及監察院113年調查。最新完整內規仍待確認。",
+          "analysis": "一、行政查證：先判斷合法進入，再判斷對人查證\n（一）警職法第6條以公共場所或合法進入之場所，且具備法定查證事由為前提；合理懷疑須有客觀事實，不可僅因見警轉身就一律推定犯罪。\n（二）已取得的警政路檢程序說明：進入宗教場所應分辨是否對外開放時段，或取得管理人同意；非開放空間亦須有合法進入依據。進入後對特定人查證，仍須獨立符合第6條及比例原則。\n（三）依第4、7、29條表明身分、告知事由及處理異議，減少對禮拜、誦經及其他宗教活動的干擾；不得把管理人同意直接當成搜索或拘捕人民的概括許可。\n二、刑事追緝與搜索\n（一）先核對現行犯、拘提或逮捕等法定條件；搜索原則依刑訴法第128條使用搜索票。\n（二）符合第131條第1項，例如有事實足認被告或犯罪嫌疑人確實在內而執行逮捕、拘提，或追躡現行犯而有事實足認其確實在內時，得依法無票搜索住宅或其他處所；不得僅因人員逃跑就認定各項要件已足。\n（三）警察依第131條第1項或第2項執行搜索，應於執行後3日內報告該管檢察官及法院；須依法記錄事實與程序。第130條的附帶搜索限於身體、隨身物、交通工具及立即可觸及處所，不可逕作全面搜索權。\n（四）拘捕後依法告知、移送及製作紀錄；戒具、警械另審法定要件與必要性，保護當事人及其他人。\n三、案例與版本界線\n監察院113年調查樹林教堂個案，認員警追入進行移工查察、干擾宗教活動及上銬必要性均有檢討，提醒應依具體事實與比例判斷；這是監察院對該案的調查意見，不能代替所有個案的法院判斷。已取得程序包含宗教場所條款，後續最新版本及其他專屬內規仍待核。",
+          "conclusion": "綜上，勤務執行與督導均應依法行政，遵守比例原則與法定程序，並以具體紀錄及持續檢討兼顧執法效能與人民權益保障。"
+        }
+      }
+    ],
+    "createdAt": 1794869123246
   }
 ]

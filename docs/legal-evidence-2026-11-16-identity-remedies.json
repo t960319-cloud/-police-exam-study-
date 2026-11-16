@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-11-16",
+  "timezone": "Asia/Taipei",
+  "sources": [
+    {
+      "title": "警察職權行使法第3、6、7、27、29條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145",
+      "sha256": "13b20775ad49bb94a3fcf7c911d248f5f32186339198abfccdc4916d06018e7b",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "社會秩序維護法第45、66、67條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067",
+      "sha256": "7ecc75a6801d811347df1ac442f6c64363452a582ecd7cfa54103e992e02f058",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "提審法第1、2、5、7條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010008",
+      "sha256": "a33f3b15ba21c72460d09bb740bf2ae94266f74bc4ea5d3439e08aea3aa0aaaa",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "公務員服務法第3、5條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020038",
+      "sha256": "a16034cd0cbc5420868238c1cbc33c214a091c332dcbffae8fc97118616bd333",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "警察法第6條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001",
+      "sha256": "be270f20a66a300f96e1c6813e8cd48e9b66042dac7fbddae29345f0f8fa14af",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "警察人員人事條例第10、12、16、21、31條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005",
+      "sha256": "3a782af0958171b55d084cbbd65fb1ab6213f7c08ebba8397ac396402caabdfa",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "行政程序法第74、80、81、88、89條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055",
+      "sha256": "9a22d64395a8252ea759f1b8a9da1eb39c1948817652f4e8059950484f373086",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "行政執行法第17、36條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023",
+      "sha256": "99003466d18960f4de81b58a8bc570475c68767861e3ed9e2755fabf9e8f1826",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "刑事訴訟法第88、128、130、131條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001",
+      "sha256": "23b5460003c6aeb7c62263a08914438ac91681a8a19eaaba6f4b514beea21022",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "警政署103年場所臨檢身分查證作業程序原件",
+      "url": "https://www.npa.gov.tw/ch/app/faq/doc?detailNo=801310763162533888&module=faq&type=s",
+      "sha256": "c017f24a8d15614f358b515957143be79c5f1c7a8af8e215f2a2a0a6bb40fd4e",
+      "retrieval": "HTTPS官方原件HTTP 200"
+    },
+    {
+      "title": "臺北市政府公開八頁路檢攔檢身分查證作業程序",
+      "url": "https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=5Z%2B36KGM6Lev5qqi5pSU5qqi6Lqr5YiG5p%2Bl6K2J5L2c5qWt56iL5bqPLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNTA2L3JlbGZpbGUvMjI5NzEvMTMyMzMvMWU2NjM0ZTItNWNiMy00YjM4LWFkYTAtYmU3ZjYwOGNkOGZiLnBkZg%3D%3D",
+      "retrieval": "網頁檢索服務讀取官方PDF，本機直接連線403"
+    },
+    {
+      "title": "監察院113年樹林宗教場所查緝事件調查報告",
+      "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/70896",
+      "retrieval": "網頁檢索服務讀取官方PDF，本機直接連線403"
+    }
+  ],
+  "verifiedQuestionIds": [
+    "investigation110_10",
+    "duty110_14",
+    "law114-inner-22",
+    "law114-outer-22",
+    "law114-outer-23",
+    "law115-outer-23",
+    "law115-outer-02",
+    "law115-outer-09",
+    "law115-inner-07",
+    "law114-outer-02"
+  ],
+  "stillReview": [
+    "duty110_03",
+    "duty114_20",
+    "duty113_s02"
+  ],
+  "notes": [
+    "警政署103年場所臨檢程序與臺北市公開八頁路檢程序各自標示來源；監察院調查為個案意見，均不冒稱已核最新全部內規。",
+    "提審法第1條拘禁地法院與第5條受聲請法院不得以無管轄權駁回並列；第2條應即告知，24小時是上限。",
+    "刑訴131條無票搜索列法定事由，司法警察執行後3日內報告檢察官及法院；第130條附帶搜索範圍另行區分。",
+    "題目、選項、官方答案、申論題幹與配分不變；法律資料整編截止115.11.06。"
+  ]
+}

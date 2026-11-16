@@ -1656,26 +1656,26 @@
       "options": [
         {
           "text": "如認為長官就其監督範圍內所發之命令違法，公務員可逕拒絕從之",
-          "explanation": "對監督範圍內命令認違法，原則先向長官陳述；長官確認或有犯罪疑義時另依規定處理，不能一律逕拒。",
-          "correction": "依公務員服務法就違法命令表達意見、請書面確認及犯罪例外。",
+          "explanation": "服務法第3條規定先報告；長官認未違法並書面署名下達時原則服從，違反刑事法律者除外。",
+          "correction": "不能只要認為違法就一律逕拒；本題選A。",
           "trueStatement": false
         },
         {
           "text": "對於長官就非屬監督範圍內所發之命令，公務員無服從義務",
-          "explanation": "非監督範圍的命令，原則無此項服從義務，仍注意合法指揮鏈。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第3條的服從義務針對長官監督範圍內所發命令。",
+          "correction": "非該監督範圍的命令不當然成立此條服從義務。",
           "trueStatement": true
         },
         {
           "text": "保安警察為維持集會遊行秩序必要，被派往臺北市執行職務時，應受臺北市市長之指揮、監督",
-          "explanation": "保安警察派往地方執勤，其指揮監督依警察法對地方自治機關與警政系統分工規定。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "警察法第6條規定保安警察必要派往地方執行職務時，受當地行政首長指揮監督。",
+          "correction": "臺北市的當地行政首長為市長。",
           "trueStatement": true
         },
         {
           "text": "縱於離職後，公務員對於機密事件亦不得洩漏",
-          "explanation": "公務員對機密事件之保密義務，不因離職即當然消滅。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "服務法第5條對機密事件的保密義務，離職後仍然存在。",
+          "correction": "具體資訊是否屬機密仍應依法認定。",
           "trueStatement": true
         }
       ],
@@ -1684,24 +1684,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察法規概要｜第22題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 22,
       "answerStatus": "考選部原始答案與更正公告已核",
       "amendment": {
-        "status": "review",
-        "note": "本題公務員服務法條次與派遣指揮的完整原件待核。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "公務員服務法第3、5條；警察法第6條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依正式法條核對各選項，保留當年度官方答案。",
         "sources": [
           {
-            "title": "警察法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+            "title": "公務員服務法第3、5條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020038"
+          },
+          {
+            "title": "警察法第6條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
           }
         ]
       },
-      "takeaway": "對監督範圍內命令認違法，原則先向長官陳述；長官確認或有犯罪疑義時另依規定處理，不能一律逕拒。",
+      "takeaway": "違法命令先報告；書面署名仍執行，但違反刑事法律不必服從。",
       "sources": [
         {
           "title": "考選部114年警察四等警察法規概要原卷",
@@ -1714,8 +1720,13 @@
         {
           "title": "警察法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+        },
+        {
+          "title": "公務員服務法第3、5條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020038"
         }
-      ]
+      ],
+      "currentAnswer": "A錯誤：認監督範圍內命令違法應先報告；長官認未違法而書面署名下達時原則服從，但違反刑事法律的命令無服從義務。"
     },
     {
       "id": "law114-inner-23",

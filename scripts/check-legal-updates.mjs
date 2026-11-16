@@ -11,6 +11,8 @@ assert.equal(result.questions[0].answer,0);assert.equal(result.questions[0].stem
 const deprecated=structuredClone(event);deprecated.patches[0].verified=false;assert(validateLegalEvent(deprecated,new Set([q.id])));const revoked=applyLegalEvents([{...q,verified:true}],[essay],[{...deprecated,createdAt:2}]);assert.equal(revoked.questions[0].verified,false);assert.equal(revoked.questions[0].answer,0);assert.equal(revoked.questions[0].options[0].text,'原選項0');
 const bad=structuredClone(event);bad.patches[0].targetId='unknown';assert(!validateLegalEvent(bad,new Set([q.id])));
 const wrongSource=structuredClone(event);wrongSource.sources[0].url='https://unofficial.example/tips';assert(!validateLegalEvent(wrongSource,new Set([q.id])));
+const taipeiSource=structuredClone(event);taipeiSource.sources[0].url='https://www-ws.gov.taipei/official.pdf';taipeiSource.patches[0].amendment.sources[0].url=taipeiSource.sources[0].url;assert(validateLegalEvent(taipeiSource,new Set([q.id])));
+for(const url of ['http://www-ws.gov.taipei/official.pdf','https://www-ws.gov.taipei.example/official.pdf','https://fake.gov.taipei/official.pdf']){const impersonation=structuredClone(taipeiSource);impersonation.sources[0].url=url;assert(!validateLegalEvent(impersonation,new Set([q.id])));}
 const wrongDate=structuredClone(event);wrongDate.patches[0].amendment.checkedAt='2026-11-08';assert(!validateLegalEvent(wrongDate,new Set([q.id])));
 assert(validateLegalEvent({eventId:'check-test',kind:'check',checkedAt:'2026-11-09',summary:'未有新變動',sources:[official]},new Set()));
 const law={id:'law-test',title:'法條卡',original:'舊法條原文',core:'舊重點'};

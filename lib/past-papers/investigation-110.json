@@ -638,26 +638,26 @@
       "options": [
         {
           "text": "人民被法院以外之任何機關逮捕、拘禁時，其本人或他人得向任何地方法院聲請提審",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "提審有拘捕所在地法院的管轄規則，不能任意向任何地方法院聲請。",
+          "explanation": "第1條指定逮捕、拘禁地之地方法院，並非規定可任選任何地方法院。",
+          "correction": "依拘禁地聲請；另注意第5條禁止受聲請法院以無管轄權駁回，本題選A。",
           "trueStatement": false
         },
         {
           "text": "拘捕機關應將拘捕原因於 24 小時內，以書面告知本人及指定之人",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：提審有拘捕所在地法院的管轄規則，不能任意向任何地方法院聲請。",
+          "explanation": "第2條要求即時以書面告知原因、時間、地點及提審權利，最遲不得超過24小時。",
+          "correction": "告知本人及其指定親友；24小時是上限，不能當成可等待的期限。",
           "trueStatement": true
         },
         {
           "text": "拘捕機關應於收受提審票後 24 小時內，將拘捕之人解交法院",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：提審有拘捕所在地法院的管轄規則，不能任意向任何地方法院聲請。",
+          "explanation": "第7條規定受提審票後24小時內解交，已移送其他機關等情形另有轉送規定。",
+          "correction": "起算點是收到提審票，非逮捕時。",
           "trueStatement": true
         },
         {
           "text": "如法院自行迎提者，拘捕機關應立即交出被拘捕之人",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：提審有拘捕所在地法院的管轄規則，不能任意向任何地方法院聲請。",
+          "explanation": "第7條規定法院自行迎提時應立即交出。",
+          "correction": "不可一律等到24小時屆滿。",
           "trueStatement": true
         }
       ],
@@ -668,19 +668,26 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第10題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 10,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "提審法第1、2、5、7條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依正式法條核對各選項，保留當年度官方答案。",
+        "sources": [
+          {
+            "title": "提審法第1、2、5、7條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010008"
+          }
+        ]
       },
-      "takeaway": "提審有拘捕所在地法院的管轄規則，不能任意向任何地方法院聲請。",
+      "takeaway": "向拘禁地地方法院聲請；受聲請法院不得以無管轄權駁回。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -693,8 +700,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "提審法第1、2、5、7條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010008"
         }
-      ]
+      ],
+      "currentAnswer": "A錯誤：第1條規定向逮捕、拘禁地之地方法院聲請；但第5條亦明定受聲請法院不得僅以無管轄權裁定駁回。"
     },
     {
       "id": "investigation110_11",

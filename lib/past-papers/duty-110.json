@@ -156,26 +156,26 @@
       "options": [
         {
           "text": "異議有理，停止臨檢、身分查證，任其離去；或更正執行臨檢、身分查證之方法、程序或行為後，繼續執行之",
-          "explanation": "異議有理由，應停止或更正；更正後仍可依合法要件繼續。",
-          "correction": "無須修正。",
+          "explanation": "警職法第29條及103年場所臨檢程序均將有理由區分為停止或更正。",
+          "correction": "更正後仍須有合法執行基礎。",
           "trueStatement": true
         },
         {
           "text": "異議無理由，於請示分局長後，續行臨檢、身分查證，執行程序與同意受檢相同",
-          "explanation": "警職法第29條並未把請示分局長列為續行前置要件。",
-          "correction": "改為認異議無理由得繼續；經請求應製作理由紀錄交付。",
+          "explanation": "103年程序載異議無理由時續行，未將請示分局長列為一律前置步驟；第29條亦無此規定。",
+          "correction": "本題選B；完整最新場所SOP仍待核。",
           "trueStatement": false
         },
         {
           "text": "受檢人請求時，填具警察行使職權民眾異議紀錄表一式三聯",
-          "explanation": "本項為原題作業程序的表單聯數；與第29條依請求交付紀錄之意旨一致。",
-          "correction": "無須依原題修正；現行表單聯數另核最新版。",
+          "explanation": "103年程序載受檢人請求時製作三聯：受檢人、執行單位、上級機關各一。",
+          "correction": "此為已取得版本，現行完整表單仍待確認。",
           "trueStatement": true
         },
         {
           "text": "警察執行帶往勤務處所查證身分措施，適用提審法之規定",
-          "explanation": "帶往查證屬人身自由限制，依法可適用提審救濟，並非只有刑事羈押才能聲請。",
-          "correction": "無須修正。",
+          "explanation": "103年程序及提審法列帶往勤務處所應告知提審權利。",
+          "correction": "法院受理與否依提審法個案判斷。",
           "trueStatement": true
         }
       ],
@@ -193,10 +193,26 @@
       "answerStatus": "官方最終答案已核（無更正紀錄）",
       "amendment": {
         "status": "review",
-        "note": "本題原卷及官方最終答案已核對；行政規則完整現行版本或爭點仍待核對，不將當年答案直接當現行執法定論。",
-        "sources": []
+        "law": "警察職權行使法第29條；警政署103年場所臨檢程序",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "unverified",
+        "note": "已讀警政署103年程序完整原件；另有後續版本，最新完整場所臨檢程序及表單沿革未確認，故保留待核。",
+        "sources": [
+          {
+            "title": "警察職權行使法第3、6、7、27、29條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          },
+          {
+            "title": "提審法第1、2、5、7條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010008"
+          },
+          {
+            "title": "警政署103年場所臨檢身分查證作業程序原件",
+            "url": "https://www.npa.gov.tw/ch/app/faq/doc?detailNo=801310763162533888&module=faq&type=s"
+          }
+        ]
       },
-      "takeaway": "警職法第29條並未把請示分局長列為續行前置要件。",
+      "takeaway": "異議有理由應停止或更正；無理由續行，經請求製作異議紀錄。",
       "sources": [
         {
           "title": "考選部110年內軌四等警察勤務概要原卷",
@@ -213,8 +229,17 @@
         {
           "title": "警察職權行使法現行全文",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "提審法第1、2、5、7條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010008"
+        },
+        {
+          "title": "警政署103年場所臨檢身分查證作業程序原件",
+          "url": "https://www.npa.gov.tw/ch/app/faq/doc?detailNo=801310763162533888&module=faq&type=s"
         }
-      ]
+      ],
+      "currentAnswer": "B為官方答案：已取得警政署103年場所臨檢程序，異議無理由時續行，並無題示一律請示分局長的前置步驟；仍待確認完整最新版本。"
     },
     {
       "id": "duty110_04",
@@ -929,26 +954,26 @@
       "options": [
         {
           "text": "依警察職權行使法第 7 條第 2 項，使用強制力將該民眾帶往勤務處所查證身分",
-          "explanation": "第7條帶往時非遇抗拒不得使用強制力，不能把不同意同行直接等同抗拒。",
-          "correction": "無抗拒時不得僅憑本項逕施強制。",
+          "explanation": "第7條第2項明定帶往時非遇抗拒不得使用強制力；題目明示沒有抗拒。",
+          "correction": "不得僅因不同意同行便依該條使用強制力。",
           "trueStatement": false
         },
         {
           "text": "依社會秩序維護法第 67 條第 1 項第 2 款，將該民眾移送該管簡易庭裁處 3 日以下拘留或處新臺幣 12,000 元以下罰鍰",
-          "explanation": "此為110年官方答案，援引社維法第67條第1項第2款拒絕陳述規定；仍以前置調查查察合法且不侵害緘默權等保障為限。",
-          "correction": "保留歷史答案；實務不能僅拒答就概括處罰或帶回，應個案核對適用範圍。",
+          "explanation": "於警察依法調查或查察時拒絕陳述姓名、住所或居所，符合第67條第1項第2款所列類型。",
+          "correction": "須符合依法查察及具體拒絕陳述等要件；依第45條移送簡易庭，本題選B。",
           "trueStatement": true
         },
         {
           "text": "依行政罰法第 34 條，經勸導無效，致確實無法辨認其身分且情況急迫者，得強制其隨同到指定處所查證身分",
-          "explanation": "行政罰法第34條針對行政罰案件調查，本題不能僅因預防性犯罪查證逕套。",
-          "correction": "須先確認行政罰調查及急迫等全部要件。",
+          "explanation": "行政罰法第34條是現行違反行政法義務之行為人身分查證，有其勸導無效、確實無法辨認及急迫等要件。",
+          "correction": "題幹未交代勸導無效與情況急迫等全部前提，不能直接援引第34條。",
           "trueStatement": false
         },
         {
           "text": "依社會秩序維護法第 66 條第 2 款，將該民眾移送該管簡易庭裁處 3 日以下拘留或處新臺幣 18,000 元以下罰鍰",
-          "explanation": "本題拒絕陳述不等於第66條第2款的行為態樣。",
-          "correction": "應依具體違法事實與正確條款判斷。",
+          "explanation": "社維法第66條第2款針對冒用他人身分或能力證明文件。",
+          "correction": "題示拒絕陳述並非冒用他人證明文件。",
           "trueStatement": false
         }
       ],
@@ -959,18 +984,30 @@
       ],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等・警察勤務概要・第14題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 14,
       "answerStatus": "官方最終答案已核（無更正紀錄）",
       "amendment": {
-        "status": "review",
-        "note": "本題原卷及官方最終答案已核對；行政規則完整現行版本或爭點仍待核對，不將當年答案直接當現行執法定論。",
-        "sources": []
+        "status": "none",
+        "law": "警察職權行使法第7條；社會秩序維護法第45、66、67條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依正式法條核對各選項，保留當年度官方答案。",
+        "sources": [
+          {
+            "title": "警察職權行使法第3、6、7、27、29條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          },
+          {
+            "title": "社會秩序維護法第45、66、67條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+          }
+        ]
       },
-      "takeaway": "此為110年官方答案，援引社維法第67條第1項第2款拒絕陳述規定；仍以前置調查查察合法且不侵害緘默權等保障為限。",
+      "takeaway": "警職法第7條非遇抗拒不得用強制力；拒絕陳述另審社維法。",
       "sources": [
         {
           "title": "考選部110年內軌四等警察勤務概要原卷",
@@ -987,8 +1024,13 @@
         {
           "title": "警察職權行使法現行全文",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "社會秩序維護法第45、66、67條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
         }
-      ]
+      ],
+      "currentAnswer": "B為官方答案：題示依法查證而拒絕陳述姓名等，得依社維法第67條第1項第2款及第45條處理；帶往時未遇抗拒，不得僅憑不同意而使用強制力。"
     },
     {
       "id": "duty110_15",

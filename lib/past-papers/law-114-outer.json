@@ -103,26 +103,26 @@
       "options": [
         {
           "text": "特種考試警察人員考試四等考試及格者，取得警佐四階任官資格",
-          "explanation": "警察人員四等考試及格取得警佐三階任官資格，非四階。",
-          "correction": "改為警佐三階。",
+          "explanation": "第12條第4款，特考警察人員四等及格取得警佐三階任官資格。",
+          "correction": "警佐四階是第5款五等考試等資格。",
           "trueStatement": false
         },
         {
           "text": "年齡 38 歲者，可初任警佐官等之警察官",
-          "explanation": "警察人員人事條例第10條初任警佐不得超過40歲，38歲符合年齡條件；另須符合任官資格，與應考年齡限制不同。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第10條規定初任警佐年齡不得超過40歲，38歲符合該年齡上限。",
+          "correction": "仍須具其他任用及個別考試資格；本題選B。",
           "trueStatement": true
         },
         {
           "text": "警佐職務，均由內政部遴任",
-          "explanation": "警佐職務得由內政部遴任或交由直轄市政府遴任。",
-          "correction": "加上直轄市政府得依法遴任。",
+          "explanation": "第21條第2款，警正、警佐職務由內政部遴任或交由直轄市政府遴任。",
+          "correction": "不能說警佐職務均由內政部遴任。",
           "trueStatement": false
         },
         {
           "text": "初任警佐者，經銓敘審定合格後，呈請總統任官",
-          "explanation": "初任警佐經銓敘審定後依第16條由內政部任官，非呈請總統。",
-          "correction": "改依警佐之核轉、審定及內政部任官程序。",
+          "explanation": "第16條警佐由內政部依規定任官，或直轄市政府核轉後報內政部任官。",
+          "correction": "呈請總統任官為警監、警正程序。",
           "trueStatement": false
         }
       ],
@@ -131,24 +131,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年外軌四等｜警察法規概要｜第2題",
       "paperYear": 114,
       "paperTrack": "外軌",
       "paperNumber": 2,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "初任任官年齡上限的現行條文及應考資格應分別查證，不宜以單一考試年齡推論任官年齡。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察人員人事條例第10、12、16、21條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依正式法條核對各選項，保留當年度官方答案。",
         "sources": [
           {
-            "title": "警察人員人事條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+            "title": "警察人員人事條例第10、12、16、21、31條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
           }
         ]
       },
-      "takeaway": "警察人員人事條例第10條初任警佐不得超過40歲，38歲符合年齡條件；另須符合任官資格，與應考年齡限制不同。",
+      "takeaway": "初任警佐不超過40歲；四等考試及格取得警佐三階任官資格。",
       "sources": [
         {
           "title": "考選部114年一般警察四等警察法規概要原卷",
@@ -162,7 +164,8 @@
           "title": "警察人員人事條例",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
         }
-      ]
+      ],
+      "currentAnswer": "B正確：第10條初任警佐年齡上限為40歲；38歲未超過該上限，仍須具備其他任用資格。"
     },
     {
       "id": "law114-outer-03",
@@ -1622,26 +1625,26 @@
       "options": [
         {
           "text": "同一考績年度中，其平時考核獎懲互相抵銷後累積已達二大過者",
-          "explanation": "同一年度功過抵銷後累積二大過，依法屬應免職事由。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第31條第1項第11款列同一考績年度平時獎懲抵銷後累積達二大過。",
+          "correction": "注意限同一考績年度且先互相抵銷。",
           "trueStatement": true
         },
         {
           "text": "持械恐嚇同事，情節重大，有具體事實，嚴重影響警譽",
-          "explanation": "持械恐嚇同事情節重大、具體事實且嚴重影響警譽，依相關條文處理。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第8款列持械恐嚇或傷害長官、同事，且情節重大、有具體事實、嚴重影響警譽。",
+          "correction": "各法定要件須一併判斷。",
           "trueStatement": true
         },
         {
           "text": "公務人員考績法所定一次記一大過情事之一者",
-          "explanation": "考績法一次記一大過不是本條應免職列舉；題示一次記二大過才可能屬之。",
-          "correction": "改為公務人員考績法所定一次記二大過事由。",
+          "explanation": "第6款列公務人員考績法所定一次記二大過，而非一次記一大過。",
+          "correction": "改為一次記二大過；本題選C。",
           "trueStatement": false
         },
         {
           "text": "假借職務上之權勢，庇護性交易，有具體事實，嚴重影響警譽",
-          "explanation": "假借職務權勢庇護性交易且有具體事實嚴重影響警譽，依法屬免職事由。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第10款列假借職務權勢庇護性交易等，且有具體事實、嚴重影響警譽。",
+          "correction": "不得省略具體事實及嚴重影響警譽要件。",
           "trueStatement": true
         }
       ],
@@ -1650,24 +1653,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年外軌四等｜警察法規概要｜第22題",
       "paperYear": 114,
       "paperTrack": "外軌",
       "paperNumber": 22,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋及後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察人員人事條例第31條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依正式法條核對各選項，保留當年度官方答案。",
         "sources": [
           {
-            "title": "警察人員人事條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+            "title": "警察人員人事條例第10、12、16、21、31條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
           }
         ]
       },
-      "takeaway": "考績法一次記一大過不是本條應免職列舉；題示一次記二大過才可能屬之。",
+      "takeaway": "一次二大過或同年度抵銷後累積二大過，分屬不同款。",
       "sources": [
         {
           "title": "考選部114年一般警察四等警察法規概要原卷",
@@ -1681,7 +1686,8 @@
           "title": "警察人員人事條例",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
         }
-      ]
+      ],
+      "currentAnswer": "C錯誤：第31條第1項第6款列公務人員考績法所定一次記二大過；一次記一大過不當然落入該款。"
     },
     {
       "id": "law114-outer-23",
@@ -1693,25 +1699,25 @@
       "options": [
         {
           "text": "對於在軍隊或軍艦服役之軍人為送達者，應囑託該管轄區警察機關為之",
-          "explanation": "對軍隊軍艦服役軍人送達，應囑託所屬機關或部隊長官，而非轄區警察機關。",
-          "correction": "改為囑託所屬機關、部隊長官。",
+          "explanation": "第88條規定對軍隊或軍艦服役軍人送達，應囑託該管軍事機關或長官。",
+          "correction": "不是一律囑託轄區警察機關。",
           "trueStatement": false
         },
         {
           "text": "對於在監所人為送達者，應囑託該監所長官為之",
-          "explanation": "對在監所者送達，應囑託該監所長官。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第89條規定對於在監所人為送達，應囑託該監所長官。",
+          "correction": "本題選B。",
           "trueStatement": true
         },
         {
           "text": "公示送達應由行政機關保管送達之文書，而於行政機關公告欄黏貼公告，自公告之日起，經 10 日發生效力",
-          "explanation": "公示送達原則公告日起20日發生效力，題稱10日錯誤；再行公示等另有規定。",
-          "correction": "改為20日，並注意同一事件再行公示例外。",
+          "explanation": "第81條一般公示送達自公告日起20日生效；另有境外60日及再行公示翌日等例外。",
+          "correction": "將10日改為20日，並區分例外。",
           "trueStatement": false
         },
         {
           "text": "寄存機關自收受寄存文書之日起，應保存 2 個月",
-          "explanation": "寄存文書由寄存機關自收受起保存3個月，不是2個月。",
+          "explanation": "第74條第3項規定寄存機關自收受寄存文書日起保存3個月。",
           "correction": "改為3個月。",
           "trueStatement": false
         }
@@ -1721,24 +1727,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年外軌四等｜警察法規概要｜第23題",
       "paperYear": 114,
       "paperTrack": "外軌",
       "paperNumber": 23,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋及後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "行政程序法第74、80、81、88、89條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依正式法條核對各選項，保留當年度官方答案。",
         "sources": [
           {
-            "title": "行政程序法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030055"
+            "title": "行政程序法第74、80、81、88、89條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
           }
         ]
       },
-      "takeaway": "對在監所者送達，應囑託該監所長官。",
+      "takeaway": "監所囑託監所長官；寄存保存3個月；一般公示送達20日。",
       "sources": [
         {
           "title": "考選部114年一般警察四等警察法規概要原卷",
@@ -1752,7 +1760,8 @@
           "title": "行政程序法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030055"
         }
-      ]
+      ],
+      "currentAnswer": "B正確：依第89條對在監所人送達應囑託監所長官。公示送達、寄存保存分別有不同起算及期限。"
     },
     {
       "id": "law114-outer-24",

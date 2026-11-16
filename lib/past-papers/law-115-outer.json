@@ -93,26 +93,26 @@
       "options": [
         {
           "text": "間接強制",
-          "explanation": "間接強制透過怠金、代履行等促使義務人自行履行，與立即排除危害不同。",
-          "correction": "改為即時強制。",
+          "explanation": "間接強制透過法定手段促使義務人履行，題示是對現場危害立即處置。",
+          "correction": "題示性質為即時強制。",
           "trueStatement": false
         },
         {
           "text": "直接強制",
-          "explanation": "直接強制通常是義務未履行後對人、物直接實力執行；本題未以前置義務不履行為條件。",
-          "correction": "改為即時強制，並勿混淆其中使用的直接實力。",
+          "explanation": "直接強制是對不履行義務依法直接執行的方式；題目著重無待前置義務、即時排除危害。",
+          "correction": "不要把所用實力與行政執行分類混為一談。",
           "trueStatement": false
         },
         {
           "text": "即時強制",
-          "explanation": "為排除危害暫時驅離或禁止進入，屬警職法第27條即時強制，仍需必要性及比例。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "警職法第27條及行政執行法第36條的即時處置架構，可用以理解題示暫時驅離。",
+          "correction": "須為排除危害且符合必要性；本題選C。",
           "trueStatement": true
         },
         {
           "text": "任意處分",
-          "explanation": "即時強制仍須法律授權與比例，不是任意處分。",
-          "correction": "改為依法採取的即時強制。",
+          "explanation": "行政機關不得任意限制人車行動，應有法定依據並符合比例原則。",
+          "correction": "本題是依法定要件的即時強制。",
           "trueStatement": false
         }
       ],
@@ -121,28 +121,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第2題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 2,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察職權行使法第27條；行政執行法第36條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依正式法條核對各選項，保留當年度官方答案。",
         "sources": [
           {
-            "title": "警察職權行使法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+            "title": "警察職權行使法第3、6、7、27、29條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           },
           {
-            "title": "行政執行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+            "title": "行政執行法第17、36條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
           }
         ]
       },
-      "takeaway": "為排除危害暫時驅離或禁止進入，屬警職法第27條即時強制，仍需必要性及比例。",
+      "takeaway": "立即排除現場危害是即時強制，與督促履行既有義務的強制執行區分。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -160,7 +162,8 @@
           "title": "行政執行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
         }
-      ]
+      ],
+      "currentAnswer": "C正確：警職法第27條為排除危害，得暫時驅離妨礙的人車或禁止進入；性質為即時強制，仍須符合法定目的及比例原則。"
     },
     {
       "id": "law115-outer-03",
@@ -648,26 +651,26 @@
       "options": [
         {
           "text": "主體可為私人或行政機關",
-          "explanation": "即時強制是行政機關依職權排除急迫危害所為措施；私人非以私人身分行使行政即時強制。",
-          "correction": "改為依法有權限之行政機關。",
+          "explanation": "第36條所定主體為行政機關；不能把私人自行處理概括視為行政機關的即時強制。",
+          "correction": "以依法有權限之行政機關為主體；本題選A。",
           "trueStatement": false
         },
         {
           "text": "目的可以是阻止犯罪",
-          "explanation": "即時強制目的可包括阻止犯罪。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第36條列阻止犯罪為可能目的之一。",
+          "correction": "仍須具即時處置必要及合法權限。",
           "trueStatement": true
         },
         {
           "text": "目的可以是阻止危害之發生",
-          "explanation": "在符合要件時，得為阻止危害發生而採取。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第36條列阻止危害發生為可能目的。",
+          "correction": "須符合必要性與比例。",
           "trueStatement": true
         },
         {
           "text": "目的可以是避免急迫危害",
-          "explanation": "對急迫危害得採必要即時措施，但不能脫離法律與比例原則。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第36條列避免急迫危險為可能目的。",
+          "correction": "須有即時處置必要。",
           "trueStatement": true
         }
       ],
@@ -676,24 +679,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第9題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 9,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "行政執行法第36條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依正式法條核對各選項，保留當年度官方答案。",
         "sources": [
           {
-            "title": "行政執行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+            "title": "行政執行法第17、36條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
           }
         ]
       },
-      "takeaway": "即時強制是行政機關依職權排除急迫危害所為措施；私人非以私人身分行使行政即時強制。",
+      "takeaway": "行政機關為阻止犯罪、危害發生或避免急迫危險，且須有即時處置必要。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -707,7 +712,8 @@
           "title": "行政執行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
         }
-      ]
+      ],
+      "currentAnswer": "A錯誤：第36條的即時強制由行政機關依職權為之；私人單以私人身分不能視為行政即時強制主體。"
     },
     {
       "id": "law115-outer-10",
@@ -1691,25 +1697,25 @@
       "options": [
         {
           "text": "刑事訴訟法",
-          "explanation": "拘提管收部分得準用刑訴規定，不等於其抗告程序準用刑訴法。",
-          "correction": "抗告程序改準用民事訴訟法。",
+          "explanation": "第17條末項部分拘提、管收事項可準用刑事訴訟法，但抗告程序有特別規定。",
+          "correction": "抗告程序準用民事訴訟法。",
           "trueStatement": false
         },
         {
           "text": "民事訴訟法",
-          "explanation": "行政執行法第17條規定不服拘提或管收裁定得於10日內抗告，程序準用民事訴訟法。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第17條第10項明定抗告程序準用民事訴訟法。",
+          "correction": "本題選B；抗告一般不停止執行，廢棄原裁定時另依條文處理。",
           "trueStatement": true
         },
         {
           "text": "強制執行法",
-          "explanation": "強制執行法雖可能在管收其他事項準用，抗告程序依第17條準用民訴。",
+          "explanation": "強制執行法是第17條末項其他拘提、管收事項的準用法之一，非本題抗告程序的準用法。",
           "correction": "改為民事訴訟法。",
           "trueStatement": false
         },
         {
           "text": "管收條例",
-          "explanation": "管收條例處理管收制度其他事項，非題問之抗告程序準用法。",
+          "explanation": "管收條例是第17條末項其他拘提、管收事項的準用法之一，非本題抗告程序的準用法。",
           "correction": "改為民事訴訟法。",
           "trueStatement": false
         }
@@ -1719,24 +1725,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第23題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 23,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "行政執行法第17條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依正式法條核對各選項，保留當年度官方答案。",
         "sources": [
           {
-            "title": "行政執行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+            "title": "行政執行法第17、36條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
           }
         ]
       },
-      "takeaway": "行政執行法第17條規定不服拘提或管收裁定得於10日內抗告，程序準用民事訴訟法。",
+      "takeaway": "抗告準用民事訴訟法；其他拘提管收事項的準用範圍另看條文。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -1750,7 +1758,8 @@
           "title": "行政執行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
         }
-      ]
+      ],
+      "currentAnswer": "B正確：不服法院拘提或管收裁定，行政執行處或義務人得於10日內抗告，抗告程序準用民事訴訟法。"
     },
     {
       "id": "law115-outer-24",

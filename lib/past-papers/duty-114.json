@@ -1369,26 +1369,26 @@
       "options": [
         {
           "text": "第1聯交受檢人收執",
-          "explanation": "依原題作業程序，第1聯交受檢人收執。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "公開八頁程序明載第一聯由受檢人收執。",
+          "correction": "本題選A；仍待確認最新完整版本。",
           "trueStatement": true
         },
         {
           "text": "第2聯交受檢人收執",
-          "explanation": "本題交付受檢人的是第1聯。",
-          "correction": "改為第1聯。",
+          "explanation": "公開八頁程序將第二聯留存執行單位。",
+          "correction": "交受檢人的是第一聯。",
           "trueStatement": false
         },
         {
           "text": "第3聯交受檢人收執",
-          "explanation": "本題交付受檢人的是第1聯。",
-          "correction": "改為第1聯。",
+          "explanation": "公開八頁程序將第三聯送上級機關。",
+          "correction": "交受檢人的是第一聯。",
           "trueStatement": false
         },
         {
           "text": "第4聯交受檢人收執",
-          "explanation": "本題交付受檢人的是第1聯。",
-          "correction": "改為第1聯。",
+          "explanation": "公開八頁程序記載一式三聯。",
+          "correction": "該版本沒有題示第四聯，交受檢人為第一聯。",
           "trueStatement": false
         }
       ],
@@ -1406,10 +1406,22 @@
       "answerStatus": "官方最終答案已核",
       "amendment": {
         "status": "review",
-        "note": "官方考古答案已核對；題示行政規則或理論文字尚未取得完整最新版原件，不把歷史答案冒稱現行結論。",
-        "sources": []
+        "law": "警察職權行使法第29條；臺北市公開路檢攔檢程序",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "unverified",
+        "note": "已讀臺北市公開八頁警政程序與警職法第29條；尚未排除後續修正，保留待核。",
+        "sources": [
+          {
+            "title": "警察職權行使法第3、6、7、27、29條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          },
+          {
+            "title": "臺北市政府公開八頁路檢攔檢身分查證作業程序",
+            "url": "https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=5Z%2B36KGM6Lev5qqi5pSU5qqi6Lqr5YiG5p%2Bl6K2J5L2c5qWt56iL5bqPLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNTA2L3JlbGZpbGUvMjI5NzEvMTMyMzMvMWU2NjM0ZTItNWNiMy00YjM4LWFkYTAtYmU3ZjYwOGNkOGZiLnBkZg%3D%3D"
+          }
+        ]
       },
-      "takeaway": "民眾異議紀錄表交付聯次：依原題作業程序，第1聯交受檢人收執。",
+      "takeaway": "已取得的路檢程序：受檢人第一聯、執行單位第二聯、上級第三聯。",
       "sources": [
         {
           "title": "考選部114年警察勤務概要原卷",
@@ -1422,8 +1434,17 @@
         {
           "title": "考選部更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1007&q=1"
+        },
+        {
+          "title": "警察職權行使法第3、6、7、27、29條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "臺北市政府公開八頁路檢攔檢身分查證作業程序",
+          "url": "https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=5Z%2B36KGM6Lev5qqi5pSU5qqi6Lqr5YiG5p%2Bl6K2J5L2c5qWt56iL5bqPLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNTA2L3JlbGZpbGUvMjI5NzEvMTMyMzMvMWU2NjM0ZTItNWNiMy00YjM4LWFkYTAtYmU3ZjYwOGNkOGZiLnBkZg%3D%3D"
         }
-      ]
+      ],
+      "currentAnswer": "A為官方答案：已取得臺北市公開的八頁警政路檢程序，該版本記載第一聯由受檢人收執、第二聯留執行單位、第三聯送上級。"
     },
     {
       "id": "duty114_21",

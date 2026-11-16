@@ -496,26 +496,26 @@
       "options": [
         {
           "text": "警監職務之遴任，由內政部遴任或報請總統遴任",
-          "explanation": "警監職務遴任及任官需區分，題示由內政部遴任或報總統遴任並非條例所定。",
-          "correction": "警監職務由內政部遴任或報請行政院遴任；任官另依規定辦理。",
+          "explanation": "第21條第1款規定警監職務由內政部遴任或報請行政院遴任。",
+          "correction": "行政院不能改成總統；本題選A。",
           "trueStatement": false
         },
         {
           "text": "警正、警佐職務之遴任，由內政部遴任或交由直轄市政府遴任",
-          "explanation": "警正警佐職務遴任依條例分由內政部或直轄市政府處理。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第21條第2款規定警正、警佐職務由內政部遴任或交由直轄市政府遴任。",
+          "correction": "此為職務遴任權限。",
           "trueStatement": true
         },
         {
           "text": "警監、警正之任官，由內政部核轉銓敘部銓敘審定合格後，呈請總統任官",
-          "explanation": "警監、警正任官須內政部核轉銓敘審定後呈請總統任官。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第16條第1款規定警監、警正由內政部核轉銓敘審定合格後呈請總統任官。",
+          "correction": "區分任官與第21條職務遴任。",
           "trueStatement": true
         },
         {
           "text": "警佐之任官，由內政部核轉銓敘部銓敘審定合格後任官，或由直轄市政府核轉銓敘部銓敘審定 合格後，報內政部任官",
-          "explanation": "警佐任官依條例有內政部核轉與直轄市核轉後報內政部等程序。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第16條第2款規定警佐由內政部核轉銓敘後任官，或由直轄市政府核轉後報內政部任官。",
+          "correction": "警佐任官程序不等同警監、警正。",
           "trueStatement": true
         }
       ],
@@ -524,24 +524,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察法規概要｜第7題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 7,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "警察人員人事條例第21條：警監職務由內政部遴任或報請行政院遴任。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察人員人事條例第16、21條",
+        "checkedAt": "2026-11-16",
+        "effectiveStatus": "in-force",
+        "note": "依正式法條核對各選項，保留當年度官方答案。",
         "sources": [
           {
-            "title": "警察人員人事條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+            "title": "警察人員人事條例第10、12、16、21、31條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
           }
         ]
       },
-      "takeaway": "警監職務遴任及任官需區分，題示由內政部遴任或報總統遴任並非條例所定。",
+      "takeaway": "職務遴任與取得警察官資格後的任官程序是兩件事。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -555,7 +557,8 @@
           "title": "警察人員人事條例",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
         }
-      ]
+      ],
+      "currentAnswer": "A錯誤：第21條警監職務由內政部遴任或報請行政院遴任；警監、警正任官才依第16條呈請總統。"
     },
     {
       "id": "law115-inner-08",
