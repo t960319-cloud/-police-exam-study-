@@ -568,3 +568,10 @@
 - 環境差異：本機source_config_id尾段為 `cecfg_be018366a854819aa0b9a656279b25fd`、實際restricted／enforced，共同設定預期 `cecfg_b3f1c03bbf0881a0a1d3187a6c1f04b9`／unrestricted。補記於既有ISSUE-20261116-02，正式站限制未修復；Git更新與本次指令／排程設定獨立繼續，沒有修改網路或發布環境。
 - 本輪驗證：專責檔與排程prompt一致、受保護排程欄位及環境選擇不變、文件本機連結與 `git diff --check` 通過。本次只改工作規則與交接文件，未重跑未受影響的應用程式測試；檢查後正常提交推送並以遠端SHA核對，最終提交以Git歷史及本輪回報為準。未部署網站或操作正式個人資料。
 - Git傳輸異常：提交前再次fetch及HTTPS `git ls-remote origin HEAD` 均回 `could not read Username for 'https://github.com': No such device or address`。完整四份修改已備份於本機暫存目錄；原生GitHub讀回main仍為 `71f15e4`。改由既有GitHub連接器建立相同內容的tree／commit，使用expected_sha及force=false正常快轉main並讀回，實際結果以本輪工具及提交歷史為準；不宣稱Git CLI認證已恢復。此異常另記ISSUE-20261118-01。
+
+### 2026-11-18：辨識重複環境名稱並重新命名共用設定
+
+- 使用者截圖顯示兩個完全同名的已儲存環境，無法從選單位置判斷是哪一份。先用environment_status與設定草稿核對本對話實際來源為共用設定識別尾段 `cecfg_b3f1c03bbf0881a0a1d3187a6c1f04b9`，再以原生metadata工具將此設定命名為「police 共用主環境」。讀回name確認成功，未改另一份同名環境。
+- 這是既有設定的名稱更改，不是新建環境、切換快照或發布；原network_policy仍unrestricted，draft revision3及來源識別保持。程式repo／工作目錄仍為原路徑，未清除資料。
+- 修改前工作樹乾淨，正常快轉至 `fe10be3`，納入另一對話的Git專責指令與回報；保留其排程與設定，本輪沒有更動排程或跨工作階段權限。
+- 同步AGENTS與project-settings.json中的目前環境名稱。JSON解析、共同設定識別一致性與git diff --check通過；不重跑未受影響的應用程式測試。

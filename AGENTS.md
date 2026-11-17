@@ -20,7 +20,7 @@
 
 ## 平行工作由代理自行協調
 
-- 唯一網址、repo及分支的機器可讀設定在 `docs/project-settings.json`。平台共用環境名稱維持 `-police-exam-study-`；每個工作階段是獨立機器，不把同名或同一模板誤稱為同一執行環境。
+- 唯一網址、repo及分支的機器可讀設定在 `docs/project-settings.json`。平台共用環境名稱為 `police 共用主環境`（原名稱 `-police-exam-study-` 已改名，repo路徑不變）；每個工作階段是獨立機器，不把同名或同一模板誤稱為同一執行環境。
 - 每個對話先自行讀取environment_status，核對source_config_id的設定識別尾段與docs/project-settings.json的environmentConfigurationKey一致，並確認網路觀測及實際連線；工具缺少則只回報已驗證的範圍。每個對話自行完成開始工作的檢查：先保留工作、fetch並正常整合main，讀本檔，執行 `node scripts/check-workspace.mjs`。它會核對repo、更新遠端參考、檢查落後提交與正式站匿名HTTP；報告位於忽略的 `.sites-runtime/workspace-readiness.json`。它不合併、不刪檔、不部署、不寫學習資料。
 - 遠端有更新、Git衝突、環境差異與可重現的匿名檢查由代理先處理，不要求使用者在對話間搬運版本號、環境ID或反覆跑同一套測試。缺少跨對話讀取／設定工具時一次明確回報能力限制，不猜測另一個環境已修好。
 - 跨對話以main上已提交內容協作；每步提交前再次fetch並檢查是否落後，整合衝突後重驗受影響部分。不能讓別的對話未提交的檔案自動出現在本機，也不能把環境模板草稿當成所有執行中環境已套用。
