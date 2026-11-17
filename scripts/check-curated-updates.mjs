@@ -296,3 +296,15 @@ assert(weaponsPermit?.verified);assert.equal(weaponsPermit.answer,2);assert(weap
 const assemblyRadius=result.questions.find(q=>q.id==='law115-inner-11');
 assert.equal(assemblyRadius?.verified,false);assert(assemblyRadius.options[3].correction.includes('實際公告'));assert(assemblyRadius.options[2].correction.includes('核准例外'));
 console.log('Court finality, forfeiture, forest cases, equipment permits and assembly boundaries remain distinct.');
+
+// Essay corrections must preserve the four shooting conditions and identify their source.
+for(const id of ['law112-outer-e1','law112-inner-e1']){
+ const e=result.essays.find(x=>x.id===id);assert(e?.verified);assert(e.model.analysis.includes('意圖奪取'));assert(e.model.analysis.includes('其他危害'));assert(e.model.analysis.includes('情況急迫'));assert(e.amendment.note.includes('非官方'));
+}
+const updatedWeaponEssay=result.essays.find(x=>x.id==='law112-inner-e1');
+assert(updatedWeaponEssay.model.analysis.includes('第4條第1項第6款'));assert(updatedWeaponEssay.model.analysis.includes('得依職權或司法警察機關申請'));
+const policeOrders=result.essays.find(x=>x.id==='law111-outer-e1');
+assert(policeOrders?.verified);assert(policeOrders.model.analysis.includes('中央由內政部'));assert(policeOrders.model.analysis.includes('直轄市政府'));assert(policeOrders.model.analysis.includes('縣（市）政府'));
+const doublePunishment=result.essays.find(x=>x.id==='law111-outer-e2');
+assert(doublePunishment?.verified);assert(doublePunishment.model.analysis.includes('有罪判決確定'));assert(doublePunishment.model.analysis.includes('無罪確定後'));assert(doublePunishment.model.analysis.includes('不在808本案解釋範圍'));
+console.log('Essay shooting conditions, warning scope, police command authorities and constitutional ruling passed.');
