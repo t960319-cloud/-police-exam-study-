@@ -1,12 +1,14 @@
 "use client";
 import { useState } from "react";
 import type { useStudyStore } from "../lib/study-store";
-import { isObject, type RecordEntry } from "../lib/study-records";
+import { isObject } from "../lib/study-records";
+import type { HistoryEntry } from "../lib/study-sync";
 import { ALL_QUESTIONS, ALL_ESSAYS } from "../lib/past-exams";
 import { LAWS, UPDATE_TASKS } from "../lib/study-data";
 
 type Store = ReturnType<typeof useStudyStore>;
 const date = (stamp: number) => new Intl.DateTimeFormat("zh-TW", { dateStyle: "short", timeStyle: "medium", timeZone: "Asia/Taipei" }).format(stamp);
+const versionDate = (stamp: number) => `${date(stamp)}.${String(stamp % 1000).padStart(3, "0")}`;
 function title(key: string) {
   const [kind, id] = key.split(":");
   if (kind === "day") return `${id} 每日安排`;
@@ -29,7 +31,7 @@ export function StudyProtection({ store, preferredKey, onRecordSelected }: { sto
   const keys = Object.keys(store.records).sort((a, b) => store.records[b].updatedAt - store.records[a].updatedAt || a.localeCompare(b));
   const initialKey = preferredKey && keys.includes(preferredKey) ? preferredKey : keys.find(key => !/^(day|settings):/.test(key)) ?? keys[0] ?? "";
   const [selected, setSelected] = useState(() => initialKey);
-  const [history, setHistory] = useState<{ key: string; versions: RecordEntry[] } | null>(null);
+  const [history, setHistory] = useState<{ key: string; versions: HistoryEntry[] } | null>(null);
   const [message, setMessage] = useState<{ key: string; text: string } | null>(null);
   const [loading, setLoading] = useState(false);
   const selectedKey = keys.includes(selected) ? selected : initialKey;
@@ -51,12 +53,29 @@ export function StudyProtection({ store, preferredKey, onRecordSelected }: { sto
       <details open><summary>其他裝置版本{conflict.remote ? `・${date(conflict.remote.updatedAt)}` : "・目前沒有紀錄"}</summary><pre>{preview(conflict.remote?.value)}</pre></details>
       <div className="heading-actions"><button className="button primary" onClick={() => store.resolveConflict(key, "local")}>保留我的版本</button><button className="button secondary" onClick={() => store.resolveConflict(key, "remote")}>採用其他裝置版本</button></div>
     </article>)}
-    <h3>版本還原</h3><p>已同步紀錄保留最近20個雲端舊版本，此裝置另保留最近20次修改。還原會建立一筆新修改，仍會檢查多裝置衝突。</p>
+    <h3>版本還原</h3><p>已同步紀錄保留最近20個雲端舊版本，此裝置另保留最近20次修改。還原會建立一筆新修改，仍會檢查多裝置衝突。刪除雲端舊版本不會刪除此裝置的本機副本。</p>
     {keys.length ? <><p>優先選擇本次編輯的內容；重新開站時選擇最近修改的題目、申論或法條。每日安排仍可從選單選取。</p>
-      <label>選擇學習紀錄<select aria-label="選擇還原紀錄" value={selectedKey} onChange={e => { setSelected(e.target.value); onRecordSelected?.(e.target.value); setHistory(null); setMessage(null); }}>{keys.map(key => <option key={key} value={key}>{label(key)}</option>)}</select></label>
+      <label>選擇學習紀錄<select aria-label="選擇還原紀錄" value={selectedKey} onChange={e => { setSelected(e.target.value); onRecordSelected?.(e.target.value); setHistory(null); setMessage(null); }}>{keys.map(key => <option key={key} value={key}>{label(key)}（{key}）</option>)}</select></label>
       <div className="restore-record-context" aria-label="目前選擇的還原紀錄"><strong>{label(selectedKey)}</strong><p>最近修改：{date(store.records[selectedKey].updatedAt)}</p><p>目前內容：{excerpt(store.records[selectedKey].value)}</p></div>
-      <button className="button secondary" disabled={loading} onClick={async () => { const key = selectedKey; setSelected(key); setLoading(true); setHistory(null); setMessage(null); try { const result = await store.loadHistory(key); setHistory({ key, versions: result }); if (!result.length) setMessage({ key, text: "這筆紀錄尚無可還原的舊版本。" }); } catch { const cached = store.cachedHistory(key); setHistory({ key, versions: cached }); setMessage({ key, text: cached.length ? "雲端版本暫時無法讀取，目前顯示此裝置保留的版本；還原後將在恢復連線時同步。" : "雲端版本暫時無法讀取，此裝置也沒有保留的舊版本，請恢復連線後重試。" }); } finally { setLoading(false); } }}>{loading ? "讀取中…" : "查看可還原版本"}</button>
-      {versions.map((version, index) => <details className="study-history-version" key={`${history!.key}-${version.updatedAt}-${index}`}><summary>{date(version.updatedAt)}<small>{excerpt(version.value)}</small></summary><p>{label(history!.key)}</p><pre>{preview(version.value)}</pre><button className="button secondary" onClick={() => { const key = history!.key; store.put(key, version.value); setMessage({ key, text: "已套用選取內容，等待同步；原內容仍可由版本紀錄找回。" }); }}>還原這個版本</button></details>)}</> : <p>累積學習紀錄後即可查看版本。</p>}
+      <button className="button secondary" disabled={loading} onClick={async () => { const key = selectedKey; setSelected(key); setLoading(true); setHistory(null); setMessage(null); try { const result = await store.loadHistory(key); setHistory({ key, versions: result }); if (!result.length) setMessage({ key, text: "這筆紀錄尚無可還原的舊版本。" }); } catch { const cached: HistoryEntry[] = store.cachedHistory(key).map(entry => ({ ...entry, source: "local" })); setHistory({ key, versions: cached }); setMessage({ key, text: cached.length ? "雲端版本暫時無法讀取，目前顯示此裝置保留的版本；還原後將在恢復連線時同步。" : "雲端版本暫時無法讀取，此裝置也沒有保留的舊版本，請恢復連線後重試。" }); } finally { setLoading(false); } }}>{loading ? "處理中…" : "查看可還原版本"}</button>
+      {versions.map((version, index) => <details className="study-history-version" key={`${history!.key}-${version.source}-${version.updatedAt}-${index}`} data-version-source={version.source} data-version-updated-at={version.updatedAt}>
+        <summary>{version.source === "cloud" ? "雲端舊版本" : "本機版本"}・{versionDate(version.updatedAt)}<small>{excerpt(version.value)}</small></summary>
+        <p>{label(history!.key)}（{history!.key}）</p><pre>{preview(version.value)}</pre>
+        <div className="heading-actions">
+          <button className="button secondary" disabled={loading} onClick={() => { const key = history!.key; store.put(key, version.value); setMessage({ key, text: "已套用選取內容，等待同步；原內容仍可由版本紀錄找回。" }); }}>還原這個版本</button>
+          {version.source === "cloud" && <button className="button secondary" disabled={loading} onClick={async () => {
+            const key = history!.key;
+            if (!window.confirm(`確定刪除這筆雲端舊版本？\n${label(key)}（${key}）\n${versionDate(version.updatedAt)}\n此裝置的本機副本不會刪除。`)) return;
+            setLoading(true); setMessage(null);
+            try {
+              await store.deleteCloudVersion(key, version.updatedAt);
+              setHistory(current => current?.key === key ? { ...current, versions: current.versions.filter(item => item.source !== "cloud" || item.updatedAt !== version.updatedAt) } : current);
+              setMessage({ key, text: "已刪除選取的雲端舊版本；本機副本仍會保留。" });
+            } catch (error) { setMessage({ key, text: `刪除失敗：${error instanceof Error ? error.message : "請稍後重試。"}` }); }
+            finally { setLoading(false); }
+          }}>刪除雲端舊版本</button>}
+        </div>
+      </details>)}</> : <p>累積學習紀錄後即可查看版本。</p>}
     {message?.key === selectedKey && <p role="status">{message.text}</p>}
   </section>;
 }

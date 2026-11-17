@@ -54,6 +54,18 @@ try{
  await other.route('**/api/records',route=>route.abort('internetdisconnected'));await other.locator('.essay-fields textarea').nth(0).fill('裝置B草稿');await page.locator('.essay-fields textarea').nth(0).fill('裝置A草稿');await queueEmpty(page);
  await other.unroute('**/api/records');await other.evaluate(()=>window.dispatchEvent(new Event('online')));await other.locator('.sync-status').filter({hasText:'待處理衝突'}).waitFor();await other.locator('.sync-status').click();const conflict=other.locator('.sync-conflict');await conflict.waitFor();assert((await conflict.innerText()).includes('裝置A草稿'));assert((await conflict.innerText()).includes('裝置B草稿'));await conflict.getByRole('button',{name:'保留我的版本'}).click();await queueEmpty(other);assert.equal((await records())[essayKey].value.intro,'裝置B草稿');
  await other.getByLabel('選擇還原紀錄').selectOption(essayKey);await other.getByRole('button',{name:'查看可還原版本'}).click();const prior=other.locator('.study-protection details').filter({hasText:'裝置A草稿'}).first();await prior.waitFor();await prior.locator('summary').click();await prior.getByRole('button',{name:'還原這個版本'}).click();await queueEmpty(other);assert.equal((await records())[essayKey].value.intro,'裝置A草稿');console.log('PASS actual D1 conflict choice and prior-version restore');
+ // Confirm, cancel, fail and delete one cloud version without touching its local copy.
+ const cloudRows=other.locator('.study-protection details[data-version-source="cloud"]');const localRows=other.locator('.study-protection details[data-version-source="local"]');
+ const beforeCloud=await cloudRows.count();const beforeLocal=await localRows.count();assert(beforeCloud>0);assert(beforeLocal>0);
+ const cloudVersion=cloudRows.first();const versionStamp=Number(await cloudVersion.getAttribute('data-version-updated-at'));const currentBeforeDelete=(await records())[essayKey];
+ if(!await cloudVersion.evaluate(el=>el.open))await cloudVersion.locator('summary').click();let confirmation='';other.once('dialog',dialog=>{confirmation=dialog.message();void dialog.dismiss();});await cloudVersion.getByRole('button',{name:'刪除雲端舊版本'}).click();
+ assert(confirmation.includes(essayKey));assert(confirmation.includes('本機副本'));assert.equal(await cloudRows.count(),beforeCloud);
+ await other.route('**/api/records',route=>route.request().method()==='DELETE'?route.fulfill({status:503,contentType:'application/json',body:JSON.stringify({error:'模擬雲端錯誤'})}):route.continue());
+ other.once('dialog',dialog=>void dialog.accept());await cloudVersion.getByRole('button',{name:'刪除雲端舊版本'}).click();await other.getByText('刪除失敗：模擬雲端錯誤',{exact:true}).waitFor();assert.equal(await cloudRows.count(),beforeCloud);assert.equal(await localRows.count(),beforeLocal);
+ await other.unroute('**/api/records');other.once('dialog',dialog=>void dialog.accept());await cloudVersion.getByRole('button',{name:'刪除雲端舊版本'}).click();await other.getByText('已刪除選取的雲端舊版本；本機副本仍會保留。',{exact:true}).waitFor();
+ assert.equal(await cloudRows.count(),beforeCloud-1);assert.equal(await localRows.count(),beforeLocal);assert.deepEqual((await records())[essayKey],currentBeforeDelete);
+ const cloudHistory=await(await context.request.get(root+`/api/records?history=${encodeURIComponent(essayKey)}`,{headers})).json();assert(!cloudHistory.versions.some(v=>v.updatedAt===versionStamp));
+ await other.getByRole('button',{name:'查看可還原版本'}).click();await other.getByRole('button',{name:'查看可還原版本'}).waitFor();assert.equal(await other.locator(`.study-protection details[data-version-source="cloud"][data-version-updated-at="${versionStamp}"]`).count(),0);console.log('PASS cloud deletion confirmation, failure retention, immediate update and local-copy preservation');
  await other.getByRole('button',{name:'關閉視窗'}).click();await second.close();
  await page.reload({waitUntil:'networkidle'});await queueEmpty(page);await page.getByRole('button',{name:'設定與備份',exact:false}).first().click();const downloadPromise=page.waitForEvent('download');await page.getByRole('button',{name:'匯出完整備份 JSON'}).click();const download=await downloadPromise;const chunks=[];for await(const chunk of await download.createReadStream())chunks.push(chunk);const backup=JSON.parse(Buffer.concat(chunks).toString());assert(backup.records[qKey]);backup.records[filteredKey]={value:{intro:'備份合併成功'},updatedAt:Date.now()+1000};await page.locator('input[type=file]').setInputFiles({name:'backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});await page.getByText('已合併1筆較新的讀書紀錄。',{exact:true}).waitFor();await queueEmpty(page);assert.equal((await records())[filteredKey].value.intro,'備份合併成功');await page.getByRole('button',{name:'關閉視窗'}).click();console.log('PASS backup export/import');
  // Real local auth cookie is a different account; forged trusted headers are stripped by the dev middleware.
@@ -61,17 +73,51 @@ try{
  const bRecords=await accountB.request.get(root+'/api/records',{headers:{'X-Study-User':'local_seedy'}});assert.deepEqual((await bRecords.json()).records,{});
  assert.equal((await accountB.request.put(root+'/api/records',{headers, data:{key:'essay:cross',value:{intro:'forbidden'},updatedAt:Date.now(),baseUpdatedAt:null}})).status(),409);
  const bHistory=await accountB.request.get(root+`/api/records?history=${essayKey}`,{headers:{'X-Study-User':'local_seedy'}});assert.deepEqual((await bHistory.json()).versions,[]);
+ const deleteTarget={key:essayKey,updatedAt:versionStamp};
+ assert.equal((await accountB.request.delete(root+'/api/records',{headers:{'X-Study-User':'local_seedy'},data:deleteTarget})).status(),404);
+ assert.equal((await accountB.request.delete(root+'/api/records',{headers,data:deleteTarget})).status(),409);
+ // Both accounts have the same key and timestamp: deleting B's history leaves A's intact.
+ const sharedKey='essay:shared-security';const sharedStamp=Date.now()+1000;const bHeaders={'X-Study-User':'local_seedy'};
+ for(const [client,identity] of [[context.request,headers],[accountB.request,bHeaders]]){
+  const first=await client.put(root+'/api/records',{headers:identity,data:{key:sharedKey,value:{intro:'first'},updatedAt:sharedStamp,baseUpdatedAt:null}});assert.equal(first.status(),200);assert.equal((await first.json()).record.updatedAt,sharedStamp);
+  assert.equal((await client.put(root+'/api/records',{headers:identity,data:{key:sharedKey,value:{intro:'current'},updatedAt:sharedStamp+1,baseUpdatedAt:sharedStamp}})).status(),200);
+ }
+ assert.equal((await accountB.request.delete(root+'/api/records',{headers:bHeaders,data:{key:sharedKey,updatedAt:sharedStamp}})).status(),200);
+ assert.equal((await(await accountB.request.get(root+`/api/records?history=${sharedKey}`,{headers:bHeaders})).json()).versions.length,0);
+ const bSharedCurrent=(await(await accountB.request.get(root+'/api/records',{headers:bHeaders})).json()).records[sharedKey];
+ assert.equal((await(await context.request.get(root+`/api/records?history=${sharedKey}`,{headers})).json()).versions.length,1);
+ const otherKey='essay:other-security';
+ assert.equal((await context.request.put(root+'/api/records',{headers,data:{key:otherKey,value:{intro:'other old'},updatedAt:sharedStamp,baseUpdatedAt:null}})).status(),200);
+ assert.equal((await context.request.put(root+'/api/records',{headers,data:{key:otherKey,value:{intro:'other current'},updatedAt:sharedStamp+1,baseUpdatedAt:sharedStamp}})).status(),200);
+ assert.equal((await context.request.delete(root+'/api/records',{headers,data:{key:sharedKey,updatedAt:sharedStamp}})).status(),200);
+ assert.equal((await(await context.request.get(root+`/api/records?history=${otherKey}`,{headers})).json()).versions.length,1);
+ assert.equal((await accountB.request.delete(root+'/api/records',{headers:bHeaders,data:{key:sharedKey,updatedAt:sharedStamp+1}})).status(),404);
+ assert.equal((await context.request.delete(root+'/api/records',{headers:{...headers,Origin:'https://example.com'},data:{key:sharedKey,updatedAt:sharedStamp}})).status(),403);
+ assert.equal((await context.request.delete(root+'/api/records',{headers,data:{key:sharedKey,updatedAt:'invalid'}})).status(),400);
  const forged=await context.request.get(root+'/api/session',{headers:{'oai-authenticated-user-id':'local_seedy','oai-authenticated-user-email':'forged@example.test'}});assert.equal((await forged.json()).user.userId,'local-preview');
  await signedIn.goto(root+'/signout-with-chatgpt?return_to=%2F',{waitUntil:'networkidle'});assert.equal((await(await accountB.request.get(root+'/api/session')).json()).user.userId,'local-preview');await accountB.close();console.log('PASS account isolation, history access, cookie signout and forged-header rejection');
  // Switching the same browser with unsent work must not attach that work to the next login.
  await page.route('**/api/records',route=>route.abort('internetdisconnected'));await page.locator('.essay-fields textarea').nth(0).fill('切換前的離線草稿');await page.waitForTimeout(700);
  await page.unroute('**/api/records');await page.goto(root+'/signin-with-chatgpt?return_to=%2F',{waitUntil:'networkidle'});
- const switched=await context.request.get(root+'/api/records',{headers:{'X-Study-User':'local_seedy'}});assert.deepEqual((await switched.json()).records,{});
+ const switched=await context.request.get(root+'/api/records',{headers:{'X-Study-User':'local_seedy'}});assert.deepEqual((await switched.json()).records,{[sharedKey]:bSharedCurrent});
  assert((await page.evaluate(()=>localStorage.getItem('police-study-pending-v2:user:local-preview'))).includes('切換前的離線草稿'));
  await page.goto(root+'/signout-with-chatgpt?return_to=%2F',{waitUntil:'networkidle'});await queueEmpty(page);assert.equal((await records())[essayKey].value.intro,'切換前的離線草稿');console.log('PASS same-browser account switch preserves the prior account queue');
  const invalid=await context.request.put(root+'/api/records',{headers,data:{key:'essay:invalid',value:{checks:[42]},updatedAt:Date.now(),baseUpdatedAt:null}});assert.equal(invalid.status(),400);
  const create=await context.request.put(root+'/api/records',{headers,data:{key:'essay:cas',value:{intro:'base'},updatedAt:Date.now(),baseUpdatedAt:null}});assert.equal(create.status(),200);const base=(await create.json()).record.updatedAt;
  const writes=await Promise.all(['first','second'].map(intro=>context.request.put(root+'/api/records',{headers,data:{key:'essay:cas',value:{intro},updatedAt:Date.now()+1000,baseUpdatedAt:base}})));assert.deepEqual(writes.map(r=>r.status()).sort(),[200,409]);console.log('PASS atomic server version checks prevent concurrent overwrite');
+ const casCurrent=(await records())['essay:cas'];const historyBeforeStale=(await(await context.request.get(root+'/api/records?history=essay:cas',{headers})).json()).versions;
+ const stale=await context.request.put(root+'/api/records',{headers,data:{key:'essay:cas',value:{intro:'stale'},updatedAt:Date.now()+1000,baseUpdatedAt:base}});assert.equal(stale.status(),409);
+ assert.deepEqual((await(await context.request.get(root+'/api/records?history=essay:cas',{headers})).json()).versions,historyBeforeStale);
+ // Simulate a legacy current-version row in the disposable local database.
+ const inject=spawnSync(process.execPath,['--import','./scripts/sites-env.mjs','./node_modules/wrangler/bin/wrangler.js','d1','execute','DB','--local','--config',config,'--persist-to',state,'--command',"INSERT INTO study_record_versions (user_id, record_key, record_value, updated_at, saved_at) SELECT user_id, record_key, record_value, updated_at, updated_at FROM study_records WHERE user_id = 'local-preview' AND record_key = 'essay:cas' ON CONFLICT DO NOTHING"],{cwd:project,env:environment,encoding:'utf8'});assert.equal(inject.status,0,inject.stderr);
+ assert.equal((await context.request.delete(root+'/api/records',{headers,data:{key:'essay:cas',updatedAt:casCurrent.updatedAt}})).status(),404);
+ assert(!(await(await context.request.get(root+'/api/records?history=essay:cas',{headers})).json()).versions.some(v=>v.updatedAt===casCurrent.updatedAt));assert.deepEqual((await records())['essay:cas'],casCurrent);
+ // Delete each retained version; an extra GET would reveal any older rows that were not pruned.
+ const capKey='essay:version-cap';const written=[];let capBase=null;
+ for(let i=0;i<26;i++){const response=await context.request.put(root+'/api/records',{headers,data:{key:capKey,value:{intro:`version ${i}`},updatedAt:Date.now()+i,baseUpdatedAt:capBase}});assert.equal(response.status(),200);const saved=(await response.json()).record;written.push(saved);capBase=saved.updatedAt;}
+ const capped=(await(await context.request.get(root+`/api/records?history=${capKey}`,{headers})).json()).versions;assert.equal(capped.length,20);assert.deepEqual(capped.map(v=>v.updatedAt),written.slice(-21,-1).reverse().map(v=>v.updatedAt));
+ for(const version of capped)assert.equal((await context.request.delete(root+'/api/records',{headers,data:{key:capKey,updatedAt:version.updatedAt}})).status(),200);
+ assert.deepEqual((await(await context.request.get(root+`/api/records?history=${capKey}`,{headers})).json()).versions,[]);assert.deepEqual((await records())[capKey],written.at(-1));console.log('PASS current-version protection, failed-write preservation and strict 20-version retention');
  // Personal priorities must include a weak topic beyond the original first eight.
  const weak={id:'q29',title:'誰可以逮捕現行犯'};
  const weakPrior=(await records())[`q:${weak.id}`];
@@ -244,7 +290,7 @@ try{
  // Production-mode anonymous access must not use the development identity.
  const productionPort=await port();const prodRoot=`http://127.0.0.1:${productionPort}`;
  production=spawn('bash',['scripts/sites-env.sh','--',process.execPath,'--import','./scripts/sites-env.mjs','./node_modules/wrangler/bin/wrangler.js','dev','--config','dist/server/wrangler.json','--local','--persist-to',path.join(temp,'production-state'),'--ip','127.0.0.1','--port',String(productionPort),'--inspector-port','0'],{cwd:project,env:environment,detached:true,stdio:['ignore','pipe','pipe']});production.stdout.pipe(log);production.stderr.pipe(log);
- await ready(prodRoot+'/api/session',production);assert.equal((await(await fetch(prodRoot+'/api/session')).json()).user,null);assert.equal((await fetch(prodRoot+'/api/records')).status,401);assert.equal((await fetch(prodRoot+'/api/records',{method:'PUT',headers:{'Content-Type':'application/json'},body:'{}'})).status,401);console.log('PASS production anonymous GET/PUT both denied');
+ await ready(prodRoot+'/api/session',production);assert.equal((await(await fetch(prodRoot+'/api/session')).json()).user,null);assert.equal((await fetch(prodRoot+'/api/records')).status,401);assert.equal((await fetch(prodRoot+'/api/records',{method:'PUT',headers:{'Content-Type':'application/json'},body:'{}'})).status,401);assert.equal((await fetch(prodRoot+'/api/records',{method:'DELETE',headers:{'Content-Type':'application/json'},body:'{}'})).status,401);console.log('PASS production anonymous GET/PUT/DELETE denied');
  succeeded=true;
 }finally{
  if(browser)await browser.close();

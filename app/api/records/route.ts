@@ -6,6 +6,12 @@ import { isObject, validBackupEntry } from "../../../lib/study-records";
 import { requestedStudyResets } from "../../../lib/requested-study-resets";
 
 const headers = { "Cache-Control": "no-store, private", "Vary": "Cookie, X-Study-User" };
+const validKey = (key: string) => /^(q|law|essay|day|update|settings|custom):[a-zA-Z0-9_-]{1,100}$/.test(key);
+// Older failed writes may have left the current record in the history table.
+const isOldVersion = sql`NOT EXISTS (SELECT 1 FROM ${studyRecords}
+  WHERE ${studyRecords.userId} = ${studyRecordVersions.userId}
+    AND ${studyRecords.key} = ${studyRecordVersions.key}
+    AND ${studyRecords.updatedAt} = ${studyRecordVersions.updatedAt})`;
 async function authorize(request: Request) {
   const user = await getStudyUser();
   if (!user) return { error: Response.json({ code: "signed_out", error: "請先登入再同步讀書紀錄。" }, { status: 401, headers }) };
@@ -20,8 +26,8 @@ export async function GET(request: Request) {
     const db = getDb();
     const key = new URL(request.url).searchParams.get("history");
     if (key !== null) {
-      if (!/^(q|law|essay|day|update|settings|custom):[a-zA-Z0-9_-]{1,100}$/.test(key)) return Response.json({ error: "紀錄鍵不正確" }, { status: 400, headers });
-      const rows = await db.select().from(studyRecordVersions).where(and(eq(studyRecordVersions.userId, userId), eq(studyRecordVersions.key, key))).orderBy(desc(studyRecordVersions.updatedAt)).limit(20);
+      if (!validKey(key)) return Response.json({ error: "紀錄鍵不正確" }, { status: 400, headers });
+      const rows = await db.select().from(studyRecordVersions).where(and(eq(studyRecordVersions.userId, userId), eq(studyRecordVersions.key, key), isOldVersion)).orderBy(desc(studyRecordVersions.updatedAt)).limit(20);
       return Response.json({ userId, versions: rows.map(r => ({ value: JSON.parse(r.value), updatedAt: r.updatedAt })) }, { headers });
     }
     let rows = await db.select().from(studyRecords).where(eq(studyRecords.userId, userId));
@@ -39,6 +45,33 @@ export async function GET(request: Request) {
     if (Object.keys(resets).length) rows = await db.select().from(studyRecords).where(eq(studyRecords.userId, userId));
     return Response.json({ userId, records: Object.fromEntries(rows.map(r => [r.key, { value: JSON.parse(r.value), updatedAt: r.updatedAt }])) }, { headers });
   } catch { return Response.json({ error: "讀書紀錄暫時無法同步；已在此裝置保留。" }, { status: 503, headers }); }
+}
+export async function DELETE(request: Request) {
+  const auth = await authorize(request);
+  if (auth.error) return auth.error;
+  const userId = auth.user!.userId;
+  const origin = request.headers.get("origin");
+  if (origin && origin !== new URL(request.url).origin) return Response.json({ error: "來源不符" }, { status: 403, headers });
+  let body: unknown;
+  try {
+    const raw = await request.text();
+    if (raw.length > 1024) return Response.json({ error: "請求過大" }, { status: 413, headers });
+    body = JSON.parse(raw);
+  } catch { return Response.json({ error: "版本格式不正確" }, { status: 400, headers }); }
+  if (!isObject(body) || typeof body.key !== "string" || !validKey(body.key) || !Number.isSafeInteger(body.updatedAt) || (body.updatedAt as number) <= 0) {
+    return Response.json({ error: "紀錄或版本格式不正確" }, { status: 400, headers });
+  }
+  const { key, updatedAt } = body as { key: string; updatedAt: number };
+  try {
+    const db = getDb();
+    // Check the current record and delete only the specified owner's old row atomically.
+    const deleted = await db.delete(studyRecordVersions).where(and(
+      eq(studyRecordVersions.userId, userId), eq(studyRecordVersions.key, key),
+      eq(studyRecordVersions.updatedAt, updatedAt), isOldVersion,
+    )).returning({ updatedAt: studyRecordVersions.updatedAt });
+    if (!deleted.length) return Response.json({ error: "找不到指定的雲端舊版本，請重新讀取清單。" }, { status: 404, headers });
+    return Response.json({ userId, key, updatedAt }, { headers });
+  } catch { return Response.json({ error: "雲端舊版本刪除失敗，請稍後重試。" }, { status: 503, headers }); }
 }
 export async function PUT(request: Request) {
   const auth = await authorize(request);
@@ -61,16 +94,16 @@ export async function PUT(request: Request) {
     const db = getDb();
     const where = and(eq(studyRecords.userId, userId), eq(studyRecords.key, key));
     const version = Math.max(Date.now(), updatedAt as number, (baseUpdatedAt as number | null ?? 0) + 1);
-    const [previous] = await db.select().from(studyRecords).where(where);
-    // D1 batches are atomic. Keep the previous version and conditionally update
-    // by the version the client actually read, never by its wall clock alone.
+    // D1 batches are atomic. Capture the previous row only when its version
+    // matches the base used by the conditional update.
     const mutation = baseUpdatedAt === null
       ? db.insert(studyRecords).values({ userId, key, value: serialized, updatedAt: version }).onConflictDoNothing().returning()
       : db.update(studyRecords).set({ value: serialized, updatedAt: version }).where(and(where, eq(studyRecords.updatedAt, baseUpdatedAt as number))).returning();
     let changed;
-    if (previous) {
+    if (baseUpdatedAt !== null) {
       const results = await db.batch([
-        db.insert(studyRecordVersions).values({ userId, key, value: previous.value, updatedAt: previous.updatedAt, savedAt: Date.now() }).onConflictDoNothing(),
+        db.insert(studyRecordVersions).select(sql`SELECT ${studyRecords.userId}, ${studyRecords.key}, ${studyRecords.value}, ${studyRecords.updatedAt}, ${Date.now()}
+          FROM ${studyRecords} WHERE ${studyRecords.userId} = ${userId} AND ${studyRecords.key} = ${key} AND ${studyRecords.updatedAt} = ${baseUpdatedAt}`).onConflictDoNothing(),
         mutation,
         db.delete(studyRecordVersions).where(sql`${studyRecordVersions.userId} = ${userId} AND ${studyRecordVersions.key} = ${key} AND ${studyRecordVersions.updatedAt} NOT IN (SELECT updated_at FROM study_record_versions WHERE user_id = ${userId} AND record_key = ${key} ORDER BY updated_at DESC LIMIT 20)`),
       ]);

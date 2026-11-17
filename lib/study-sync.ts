@@ -7,6 +7,7 @@ type Snapshot = {
   conflicts: Record<string, RecordConflict>; legacyAvailable: boolean;
 };
 type Options = { storage?: Storage; request?: typeof fetch; now?: () => number };
+export type HistoryEntry = RecordEntry & { source: "cloud" | "local" };
 const same = (a: unknown, b: unknown) => JSON.stringify(a) === JSON.stringify(b);
 const serial = (value: object) => JSON.stringify(Object.fromEntries(Object.entries(value).sort(([a], [b]) => a.localeCompare(b))));
 
@@ -224,16 +225,42 @@ export function createStudyStore(options: Options = {}) {
   async function loadHistory(key: string) {
     const generation = epoch;
     await refresh();
-    if (generation !== epoch) return [];
+    if (generation !== epoch) throw new Error("帳號已變更，請重新讀取。");
+    let cloud: HistoryEntry[] = [];
     if (activeId) {
       const response = await request(`/api/records?history=${encodeURIComponent(key)}`, { headers: accountHeaders(), cache: "no-store", signal: AbortSignal.timeout(15_000) });
-      if (generation !== epoch) return [];
+      if (generation !== epoch) throw new Error("帳號已變更，請重新讀取。");
+      if (response.status === 401 || response.status === 409) { lock(); void refresh(); throw new Error("帳號已變更，請重新讀取。"); }
       const data: unknown = await response.json();
+      if (generation !== epoch) throw new Error("帳號已變更，請重新讀取。");
       if (!response.ok || !isObject(data) || data.userId !== activeId || !Array.isArray(data.versions)) throw new Error("history unavailable");
-      for (const entry of data.versions) if (validBackupEntry(key, entry)) remember(key, entry);
+      cloud = data.versions.filter((entry): entry is RecordEntry => validBackupEntry(key, entry)).map(entry => ({ ...entry, source: "cloud" }));
+      // Continue caching fetched versions for offline restoration.
+      for (const entry of cloud) remember(key, { value: entry.value, updatedAt: entry.updatedAt });
       persist(); publish();
     }
-    return cachedHistory(key);
+    const local: HistoryEntry[] = cachedHistory(key).map(entry => ({ ...entry, source: "local" }));
+    return [...cloud, ...local].sort((a, b) => b.updatedAt - a.updatedAt);
+  }
+  async function deleteCloudVersion(key: string, updatedAt: number) {
+    if (!activeId) throw new Error("請先登入再刪除雲端舊版本。");
+    const generation = epoch;
+    let response: Response;
+    try {
+      response = await request("/api/records", {
+        method: "DELETE", headers: { ...accountHeaders(), "Content-Type": "application/json" },
+        body: JSON.stringify({ key, updatedAt }), signal: AbortSignal.timeout(15_000),
+      });
+    } catch { throw new Error("無法確認刪除結果，請檢查連線並重新讀取清單。"); }
+    if (generation !== epoch) throw new Error("帳號已變更，請重新讀取。");
+    let data: unknown;
+    try { data = await response.json(); } catch { throw new Error("無法確認刪除結果，請重新讀取清單。"); }
+    if (generation !== epoch) throw new Error("帳號已變更，請重新讀取。");
+    if (response.status === 401 || (isObject(data) && data.code === "account_changed")) {
+      lock(); void refresh(); throw new Error("帳號已變更，請重新讀取。");
+    }
+    if (!response.ok) throw new Error(isObject(data) && typeof data.error === "string" ? data.error : "雲端舊版本刪除失敗，請稍後重試。");
+    if (!isObject(data) || data.userId !== activeId || data.key !== key || data.updatedAt !== updatedAt) throw new Error("無法確認刪除結果，請重新讀取清單。");
   }
   function legacyRecords() {
     const result = parseRecords(readJSON(CACHE_KEY));
@@ -258,7 +285,7 @@ export function createStudyStore(options: Options = {}) {
       if (!listeners.size) clearTimeout(timer);
     };
   }
-  return { subscribe, put, refresh, importRecords, resolveConflict, loadHistory, cachedHistory, legacyRecords, lock,
+  return { subscribe, put, refresh, importRecords, resolveConflict, loadHistory, deleteCloudVersion, cachedHistory, legacyRecords, lock,
     read: <T,>(key: string, fallback: T): T => (records[key]?.value as T | undefined) ?? fallback,
     getSnapshot: () => snapshot, getServerSnapshot: () => initial,
   };

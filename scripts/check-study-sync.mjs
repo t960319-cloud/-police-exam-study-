@@ -22,6 +22,11 @@ function server(initial={}){
   if(requested!==user)return Response.json({code:'account_changed'},{status:409});
   if(url.includes('?history=')){const key=decodeURIComponent(url.split('?history=')[1]);return Response.json({userId:user,versions:histories[user]?.[key]??[]});}
   const rows=users[user]??(users[user]={});
+  if(init?.method==='DELETE'){
+   const {key,updatedAt}=JSON.parse(init.body);const list=histories[user]?.[key]??[];
+   if(rows[key]?.updatedAt===updatedAt||!list.some(item=>item.updatedAt===updatedAt))return Response.json({error:'找不到指定的雲端舊版本，請重新讀取清單。'},{status:404});
+   histories[user][key]=list.filter(item=>item.updatedAt!==updatedAt);return Response.json({userId:user,key,updatedAt});
+  }
   if(init?.method==='PUT'){
    const {key,value,updatedAt,baseUpdatedAt}=JSON.parse(init.body);const current=rows[key];
    if((current?.updatedAt??null)!==baseUpdatedAt)return Response.json({code:'conflict',userId:user,key,record:current??null},{status:409});
@@ -113,6 +118,22 @@ test('backup validation is atomic and preserves timestamps and newer records',as
 });
 test('restoring a prior version creates a new conditional write',async()=>{
  const a=mount(server({'essay:one':entry({intro:'old'})}));await a.ready();a.store.put('essay:one',{intro:'new'});await a.ready();const previous=(await a.store.loadHistory('essay:one')).find(r=>r.value.intro==='old');assert(previous);a.store.put('essay:one',previous.value);await a.ready();assert.equal(a.remote.users.A['essay:one'].value.intro,'old');assert(a.remote.users.A['essay:one'].updatedAt>previous.updatedAt);
+});
+test('deleting a cloud version leaves the local copy available for restore',async()=>{
+ const a=mount(server({'essay:one':entry({intro:'old'})}));await a.ready();a.store.put('essay:one',{intro:'current'});await a.ready();
+ const before=await a.store.loadHistory('essay:one');const cloud=before.find(r=>r.source==='cloud'&&r.value.intro==='old');const local=before.find(r=>r.source==='local'&&r.value.intro==='old');assert(cloud);assert(local);
+ await a.store.deleteCloudVersion('essay:one',cloud.updatedAt);const after=await a.store.loadHistory('essay:one');assert(!after.some(r=>r.source==='cloud'&&r.updatedAt===cloud.updatedAt));assert(after.some(r=>r.source==='local'&&r.value.intro==='old'));assert.equal(a.remote.users.A['essay:one'].value.intro,'current');
+ a.store.put('essay:one',local.value);await a.ready();assert.equal(a.remote.users.A['essay:one'].value.intro,'old');
+});
+test('failed deletion preserves cloud history and offline local restore',async()=>{
+ const a=mount(server({'essay:one':entry({intro:'old'})}));await a.ready();a.store.put('essay:one',{intro:'current'});await a.ready();const cloud=(await a.store.loadHistory('essay:one')).find(r=>r.source==='cloud');assert(cloud);
+ a.remote.offline();await assert.rejects(a.store.deleteCloudVersion('essay:one',cloud.updatedAt));await assert.rejects(a.store.loadHistory('essay:one'));assert(a.store.cachedHistory('essay:one').some(r=>r.value.intro==='old'));
+ a.remote.online();const again=await a.store.loadHistory('essay:one');assert(again.some(r=>r.source==='cloud'&&r.updatedAt===cloud.updatedAt));
+});
+test('an account switch during cloud deletion cannot affect the next account',async()=>{
+ const remote=server({'essay:one':entry({intro:'old'})});let switchNow=false;
+ const a=mount(remote,undefined,async(url,init)=>{if(switchNow&&init?.method==='DELETE'){switchNow=false;remote.setUser('B');}return remote.request(url,init);});await a.ready();a.store.put('essay:one',{intro:'current'});await a.ready();const cloud=(await a.store.loadHistory('essay:one')).find(r=>r.source==='cloud');assert(cloud);
+ switchNow=true;await assert.rejects(a.store.deleteCloudVersion('essay:one',cloud.updatedAt));await a.ready();assert.deepEqual(remote.users.B,{});assert.equal(remote.histories.A['essay:one'].length,1);
 });
 test('damaged progress and invalid timestamps are rejected',()=>{
  assert.equal(validBackupEntry('q:one',entry({status:'review',attempts:1,correct:2,bookmarked:false,wrong:true})),false);

@@ -6,5 +6,5 @@ export type { RecordEntry, StudyRecords } from "./study-records";
 export function useStudyStore() {
   const [store] = useState(() => createStudyStore());
   const snapshot = useSyncExternalStore(store.subscribe, store.getSnapshot, store.getServerSnapshot);
-  return { ...snapshot, read: store.read, put: store.put, refresh: store.refresh, importRecords: store.importRecords, resolveConflict: store.resolveConflict, loadHistory: store.loadHistory, cachedHistory: store.cachedHistory, legacyRecords: store.legacyRecords, lock: store.lock };
+  return { ...snapshot, read: store.read, put: store.put, refresh: store.refresh, importRecords: store.importRecords, resolveConflict: store.resolveConflict, loadHistory: store.loadHistory, deleteCloudVersion: store.deleteCloudVersion, cachedHistory: store.cachedHistory, legacyRecords: store.legacyRecords, lock: store.lock };
 }
