@@ -9,9 +9,8 @@
       "law.moj.gov.tw",
       "law.taichung.gov.tw",
       "ou3.npa.gov.tw",
-      "police-exam-study-44.middlelapwing4.chatgpt.site",
+      "police-exam-study.middlelapwing4.chatgpt.site",
       "ppg.ly.gov.tw",
-      "team-cloud-workspace-tw-20261112.middlelapwing4.chatgpt.site",
       "ws.moi.gov.tw",
       "www.cib.npa.gov.tw",
       "www.moi.gov.tw",
@@ -24,8 +23,11 @@
     "package_managers"
   ],
   "notes": [
-    "這是來源環境的16筆自訂網域清單；套用前先讀目標設定並合併既有網域。",
-    "Git檔案不會自動變更平台網路權限。",
-    "若使用者在平台明確選擇允許所有公開網際網路，應保留該選擇，不改回限制模式。"
-  ]
+    "這是目前工作所需的參考清單，不是已套用的工作階段規則。正式站僅使用canonical_site；較早16筆原始清單保留於docs/history/source-network-reference-2026-11-12.json，不再直接套用。",
+    "套用前先讀目標環境設定並合併既有項目；Git檔案不會自動變更平台權限。",
+    "若平台已選擇unrestricted，保留該選擇，不因本參考檔而改回限制模式。",
+    "舊網站別名由平台管理端停用，本參考檔不會解除網站網域。"
+  ],
+  "canonical_site": "https://police-exam-study.middlelapwing4.chatgpt.site",
+  "reference_updated_at": "2026-11-17"
 }

@@ -50,6 +50,16 @@
 - 阻礙與下一步：此對話沒有正式Sites／D1操作工具或憑證。由具正式資料庫權限的環境對兩張學習表作原子刪除、回讀目標筆數皆0，再清除每台裝置的網站資料及不要保留的測試備份。共同法規事件、題庫及其他帳號維持。
 - 交接文件：本工作區 `/workspace/police-account-cleanup-20261117.md` 及同名SQL，未加入Git；請由使用者轉交具正式工具的對話。
 
+### TODO-20261117-03：管理端停用舊正式網址別名
+
+- 建立日期：2026-11-17（Asia/Taipei）
+- 優先級：高；狀態：受阻
+- 使用者要求：唯一正式入口採用[目前網址](https://police-exam-study.middlelapwing4.chatgpt.site)，舊網域不再使用；所有對話由GitHub main同步工作。
+- 已完成：共用AGENTS、README、Wiki與協作文件改採唯一入口及Git更新流程；目前網域參考已移除過期站點並留存歷史副本。環境start_skill新增同樣規則，草稿revision2已回讀確認，其他設定保持；尚未發布環境。
+- 仍缺少：平台舊別名 `police-exam-study-44.middlelapwing4.chatgpt.site` 目前仍307轉址。此對話沒有Sites網域管理工具，尚未解除別名。由具管理權限的環境僅移除／停用此別名，保留既有Site、正式DB與資料，再驗證新網址與登入。
+- 界線：Git規則須由其他對話fetch並讀取，無法強制即時更新未提交草稿；環境草稿也不會自動套用到其他執行中工作階段。不把文件修改或草稿保存宣稱為別名停用。
+- 相關文件：[協作規則](docs/project-coordination.md)、[網路參考](docs/cloud-environment/network-reference.json)。
+
 ## 新增格式
 
 以下為範本，使用時複製到待辦清單並填入實際內容：

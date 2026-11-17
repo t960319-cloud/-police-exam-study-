@@ -1,5 +1,7 @@
 # 本對話完整同步結果與正式發布交接
 
+目前工作入口與共同Git流程以[專案入口與跨對話協作](project-coordination.md)為準。以下各日期的舊網址及舊版號保留作歷史，不作新工作指示。
+
 > 2026-11-17續行正式驗收：目前正式網址為 https://police-exam-study.middlelapwing4.chatgpt.site 。舊的 `-44` 網域首頁與session皆307轉址至此；新網域HTTP／CONNECT均200，正式JS含題目版本入口與離線版本顯示。以下較早網址／發布紀錄保留歷史，最新直接證據見[本次驗收](production-acceptance-resume-2026-11-17.json)。真實帳號驗收尚未完成；本輪未部署或寫入學習資料，使用者已暫停清空並切回驗收。
 
 使用者明確要求「全部同步」，並回覆包含GitHub與正式站，後續再明確撤回先前「不要發布網站」的限制：今後本專案通過適用檢查、核對並同步最新來源後，可直接發布到既有正式讀書站，不需逐次詢問發布同意。此持續授權適用於後續對話，直到使用者另有指示；必須保留網站存取對象、正式D1及個人學習紀錄。雲端環境設定的發布另依當次指示。
@@ -30,7 +32,7 @@
 
 本對話實際可用工具只有Cloud Environment與Onboarding等，未提供Sites get_site、取得來源、儲存版本或deploy等工具。已搜尋工具清單與雲端技能，無Sites部署能力。沒有假裝GitHub push等於正式發布，也沒有使用未支援的內部API或改建另一個網站。
 
-正式網址：https://police-exam-study-44.middlelapwing4.chatgpt.site/
+當時使用的舊網址（歷史，停止作為工作入口）：https://police-exam-study-44.middlelapwing4.chatgpt.site/
 
 既有Sites專案：`appgprj_6af12822277881919dd2fcce0d109104`。
 

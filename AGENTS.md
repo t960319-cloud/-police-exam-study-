@@ -11,6 +11,13 @@
 - 開始網站修改及正式發布前，核對 GitHub `main` 與本 Site 原始碼分支；若其他對話已新增提交，先正常合併並保留各方改動，不用舊快照或強制推送覆蓋新工作。
 - 正式發布時，先把同一個來源提交推送到 GitHub 與 Sites 的原始碼分支，再儲存並部署對應的 Sites 版本。GitHub push 與正式發布分別回報；正式登入驗收未完成時必須明確標示。
 
+## 唯一正式網址與共同Git來源
+
+- 唯一正式網址：`https://police-exam-study.middlelapwing4.chatgpt.site`；沿用既有Sites project_id `appgprj_6af12822277881919dd2fcce0d109104` 及DB綁定。舊網域只供歷史或停用追蹤，不再用於新工作、登入或驗收。
+- 所有對話以 `https://github.com/t960319-cloud/-police-exam-study-.git` 的 `origin/main` 為共同來源。開始工作及每個新修改步驟前先fetch，保留未提交及未追蹤內容後正常整合最新來源，再開始修改；環境快照和舊交接包不能取代最新Git來源。
+- 每步完成檢查後commit；push前再fetch，若其他對話已更新則正常merge並重驗受影響內容，push後讀回遠端SHA。不強制覆寫；不同對話已提交的內容由Git整合，未提交草稿不會即時互通。
+- 開始時另讀 [專案入口與跨對話協作](docs/project-coordination.md)。每個工作階段自行核對網路與登入，Git不會套用其他工作階段的環境權限。當次使用者明確不發布的指示優先；網址別名停用不等於刪除網站或學習資料。
+
 ## Wiki 模型接手指引
 
 本指引適用於此專案，文件以繁體中文維護。

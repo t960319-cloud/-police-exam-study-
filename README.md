@@ -2,6 +2,10 @@
 
 繁體中文、手機優先的個人警察特考工作台，使用 Vinext、React 與 Cloudflare D1。
 
+正式站唯一入口：https://police-exam-study.middlelapwing4.chatgpt.site
+
+所有對話從GitHub `main` 的最新來源開始工作，修改完成後檢查、commit及push；並行更新先正常合併。詳見[專案入口與跨對話協作](docs/project-coordination.md)。
+
 ## Wiki 與工作紀錄
 
 請從 [專案 Wiki](wiki.md) 查看維護流程與文件索引。

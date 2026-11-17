@@ -2,6 +2,8 @@
 
 這裡是警察四等特考複習站的工作紀錄入口，供使用者與接手的模型共同維護。
 
+正式站統一使用 https://police-exam-study.middlelapwing4.chatgpt.site 。所有對話接手先fetch並整合GitHub `main`，再進行修改；詳見[專案入口與跨對話協作](docs/project-coordination.md)。
+
 ## 文件索引
 
 | 文件 | 用途 | 更新方式 |

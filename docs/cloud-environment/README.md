@@ -1,16 +1,19 @@
 # 雲端設定交接
 
-來源：本對話2026-11-12核對的環境設定。`network-reference.json` 保存16筆自訂網域；套件管理器使用平台既有 `package_managers` 預設群組。
+目前唯一正式入口：https://police-exam-study.middlelapwing4.chatgpt.site
 
-Git只保存這份參考文件，不會自動套用網路政策。新對話須讀取自己綁定的環境設定再合併缺少網域；不可只憑環境名稱判斷已繼承。如果使用者在平台選擇允許所有公開網際網路，保留該選擇，無須逐筆新增。
+每個對話先讀根目錄AGENTS.md及[跨對話協作](../project-coordination.md)，從GitHub `origin/main` fetch並正常整合最新來源。環境快照提供依賴，不保證程式已是最新；保留既有修改，不重套舊交接包。
 
-來源設定草稿的 `install_script`、`start_skill` 在此次核對時皆為null。雲端原本保留的安裝／啟動文件未自動成為可重用設定，不能宣稱平台已保存它們。此處列出的流程供目標環境驗證後保存：
+`network-reference.json` 是目前工作網域參考，只保留現行正式網域與法律來源；原16筆清單保存在[歷史副本](../history/source-network-reference-2026-11-12.json)，包含過期站點，不可再整份當作目前設定套用。套件管理器預設群組維持 `package_managers`。
 
-- 在既有 `/workspace/-police-exam-study-` 工作，不另建worktree。
-- Node至少22.13，pnpm固定11.25.0；缺依賴時使用 `pnpm install --frozen-lockfile`，保留鎖定檔。
-- 開發使用 `pnpm dev --host 127.0.0.1`；本機D1先套用既有遷移，正式D1由Sites發布流程處理，不手動覆蓋資料庫。
-- 真正啟動前確認目前目錄的Sites執行設定與資料庫路徑；本機服務程序不會隨Git或環境檔案自動啟動。
-- 先GET `/api/session` 取得目前身分，再以一致的 `X-Study-User` 標頭驗證紀錄讀取。正式匿名紀錄請求應拒絕；不得以開發身分或假標頭繞過。
-- 執行README中的型別、lint、題庫、排序、同步與專用本機D1瀏覽器驗證；不把測試資料寫入正式個人進度。
+Git只保存參考與工作規則，不會套用各工作階段的網路權限。先讀取自己綁定的環境設定，保留既有網域並合併缺項；已使用unrestricted則維持，不改回受限。實測應使用目前正式網址與該環境的代理／TLS設定。
 
-正式部署須使用既有Sites專案 `appgprj_6af12822277881919dd2fcce0d109104`，保留既有存取對象、D1與法規事件歷史。GitHub更新與Sites正式部署是不同步驟，依根目錄AGENTS.md核對兩邊來源，禁止用舊工作區覆蓋新提交。
+安裝／啟動以平台目前保存的install_script及start_skill為準；2026-11-12兩者為null的紀錄只屬早期狀態。此次讀到的草稿已保存安裝與啟動指示，Node24、pnpm11.25.0、本機D1與瀏覽器依賴均有對應設定；不重跑安裝來覆蓋程式。
+
+- 使用既有 `/workspace/-police-exam-study-`，不另建worktree；缺依賴時使用frozen lockfile，保留鎖定檔。
+- 本機D1使用 `.sites-runtime/cloud-d1.json` 與 `.sites-runtime/cloud-dev-state`，不搬動／清空資料。正式DB由既有Sites管理，不使用本機占位ID操作正式資料。
+- 開發啟動沿用平台start_skill；不要假設快照恢復後服務程序仍在。
+- 先GET `/api/session` 取得實際登入身分；正式匿名紀錄請求應拒絕，不用開發身分或假標頭繞過。
+- 功能修改後執行README中適用驗證；瀏覽器回歸使用隔離本機D1，不把測試資料寫入正式進度。
+
+正式站沿用既有project_id `appgprj_6af12822277881919dd2fcce0d109104`、D1及存取設定。來源推送、網站部署、環境發布分別處理；本次不發布任何內容。
