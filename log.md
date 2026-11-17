@@ -555,3 +555,16 @@
 - 工作區新增只刪study_record_versions的限定帳號SQL及交接，既有全帳號清空檔改為作廢提示，避免誤清目前紀錄。帳號識別僅留工作區檔案，不重複寫入Git。
 - 獨立記憶體SQLite兩次執行驗證通過：目標雲端歷史歸零、所有study_records內容不變、其他帳號歷史與共同法規事件保留。這不代表正式刪除已執行。
 - 更新TODO-20261117-02的最新範圍及阻礙，原整帳號清空交接不再適用。只改交接文件，沒有改網站、清除本機副本或部署；文件連結與差異檢查後提交推送。
+
+## 2026-11-18
+
+### 固定 Git 同步專責指令並更新既有排程
+
+- 使用者要求將本對話的「police GitHub同步與錯誤回報」職責設成新指令，既有排程亦採用。開始時工作樹乾淨，正常fetch／fast-forward由 `26e674a` 納入3筆上游提交至 `71f15e4`；保留最新共同設定、單一整合發布窗口與其他對話交接，未重套舊指令。
+- 新增[專責指令](.openai/git-sync.md)，並在AGENTS加入限定於本同步職責的入口與規則：保存工作、更新及整合來源、核對Sites、適用檢查、提交前與push前fetch、正常commit／push及遠端SHA讀回、失敗保留並回報。明確區分可存取提交、隔離草稿、網站發布與正式驗收，不提交敏感資料。
+- 保留使用者的通知偏好：純唯讀核對後無待同步內容且無Git錯誤時，不為產生提交而改寫紀錄，也不另通知；實際整合、修正、提交、推送或錯誤仍依規則記錄。此例外只適用Git同步職責，不改變其他開發工作或既有整合窗口。
+- 排程更新：只更新既有 `Automation_558a70695e8c8191b1853e1b6cac2ff4` 的prompt，與新指令檔正文逐字一致；原生update成功後再peek讀回驗證。標題、啟用狀態、Asia/Taipei、原RRULE、flexible_schedule及所附環境選擇全部保留；仍為每天約22:00，下次顯示2026-11-18 22:00。未建立重複排程或修改其他任務。
+- 開工檢查實測：2026-11-18 07:33:51（Asia/Taipei；UTC前日23:33:51），`node scripts/check-workspace.mjs` 的Git部分為正確repo、HEAD與遠端同為 `71f15e4`、ahead／behind均0、工作樹乾淨；首頁與session皆未取得HTTP回應（000）、CONNECT403，腳本因此exit1。不得記成整體開工檢查通過；正式寫入0。
+- 環境差異：本機source_config_id尾段為 `cecfg_be018366a854819aa0b9a656279b25fd`、實際restricted／enforced，共同設定預期 `cecfg_b3f1c03bbf0881a0a1d3187a6c1f04b9`／unrestricted。補記於既有ISSUE-20261116-02，正式站限制未修復；Git更新與本次指令／排程設定獨立繼續，沒有修改網路或發布環境。
+- 本輪驗證：專責檔與排程prompt一致、受保護排程欄位及環境選擇不變、文件本機連結與 `git diff --check` 通過。本次只改工作規則與交接文件，未重跑未受影響的應用程式測試；檢查後正常提交推送並以遠端SHA核對，最終提交以Git歷史及本輪回報為準。未部署網站或操作正式個人資料。
+- Git傳輸異常：提交前再次fetch及HTTPS `git ls-remote origin HEAD` 均回 `could not read Username for 'https://github.com': No such device or address`。完整四份修改已備份於本機暫存目錄；原生GitHub讀回main仍為 `71f15e4`。改由既有GitHub連接器建立相同內容的tree／commit，使用expected_sha及force=false正常快轉main並讀回，實際結果以本輪工具及提交歷史為準；不宣稱Git CLI認證已恢復。此異常另記ISSUE-20261118-01。

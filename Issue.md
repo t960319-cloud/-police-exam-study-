@@ -10,6 +10,14 @@
 
 ## 未結問題
 
+### ISSUE-20261118-01：本工作階段 Git HTTPS 認證不可用
+
+- 發現日期：2026-11-18（Asia/Taipei）；狀態：受阻（Git CLI）；優先級：中。
+- 重現與證據：本輪前段Git fetch成功；提交前再次fetch及 `git ls-remote origin HEAD` 轉為exit128，訊息為 `could not read Username for 'https://github.com': No such device or address`。原生GitHub分支讀取正常，main仍為 `71f15e4`，不將兩種管道混為相同認證狀態。
+- 保存與處理：本輪四份修改已備份；使用既有GitHub連接器傳送已驗證的相同內容，以expected_sha及force=false正常快轉並核對遠端，結果以本輪回報為準。不讀取、輸出或搬用其他服務權杖。
+- 下一步：Git CLI連線需由GitHub工作區連接恢復後，重新以既有HTTPS remote確認；原生管道的成功不表示CLI已修復。沒有把檔案或提交丟棄，也不強制覆寫遠端。
+- 相關日誌：[本輪設定](log.md#2026-11-18)。
+
 ### ISSUE-20261117-01：黑金風格的瀏覽器畫面驗收受預覽權限限制
 
 - 發現日期：2026-11-17（UTC）；狀態：受阻；優先級：中。
@@ -104,7 +112,7 @@
 
 ### ISSUE-20261116-02：新正式網域限制導致部署後法規事件無法讀回
 
-- 發現／最後更新日期：2026-11-16／2026-11-16（Asia/Taipei）
+- 發現／最後更新日期：2026-11-16／2026-11-18（Asia/Taipei）
 - 狀態：受阻
 - 優先級：中
 - 環境與範圍：本執行環境上線後對新正式網址的首頁、session及法規事件API唯讀驗證；Sites部署與讀取D1結構的原生工具仍可使用。
@@ -113,6 +121,12 @@
 - 下一步：將新正式網域加入此雲端環境的網路允許清單並套用；唯讀逐頁比較部署前7筆事件與新版來源事件，再驗證session及匿名存取。學校附件原件另需允許 `crime.tpa.edu.tw` 和 `admin.tpa.edu.tw`。
 - 不涉及正式學習紀錄寫入；真實帳號跨裝置及還原另追蹤 ISSUE-20261113-03。
 - 相關日誌：[2026-11-16 第13版發布](log.md#2026-11-16第13版法規補充發布及讀回限制)。
+
+#### 2026-11-18：Git 同步工作階段重新核對
+
+- 本機來源設定尾段 `cecfg_be018366a854819aa0b9a656279b25fd` 與共同設定預期 `cecfg_b3f1c03bbf0881a0a1d3187a6c1f04b9` 不同；目前仍restricted／enforced，不把另一工作階段的unrestricted或200當成本機結果。
+- 07:33:51（Asia/Taipei）執行既有 `node scripts/check-workspace.mjs`：Git正確且與遠端相同，ahead／behind均0；正式首頁與session均HTTP未取得（000）、CONNECT403，exit1、正式寫入0。報告留在忽略的 `.sites-runtime/workspace-readiness.json`，未輸出Cookie或學習紀錄。
+- Git同步仍可進行；本次完成專責指令與既有排程更新，未修改環境網路或部署。後續由整合窗口核對此工作階段對共用設定的採用並重測正式連線；本項仍受阻，詳見[本輪日誌](log.md#2026-11-18)。
 
 ## 檢查紀錄
 
@@ -186,6 +200,13 @@
 - 本輪實測通過：Lint、TypeScript、25項同步、6項排序、七支題庫／法規／指定紀錄排除腳本、瀏覽器腳本語法、差異格式及兩份修改文件的本機 Markdown 連結路徑檢查；完整指令見[本輪日誌](log.md#2026-11-17每日-git-同步與錯誤檢查utc-排程)。本輪未重跑建置、瀏覽器或正式法源查核。
 - CI：`b4e86bb` 的 [GitHub 檢查](https://github.com/t960319-cloud/-police-exam-study-/actions/runs/44103170003) 由 in_progress 確認為 completed／success，不等同正式登入或畫面驗收通過。
 - 交接：修改前及提交後、push 前分別 fetch；保留並正常整合任何並行工作，再推送紀錄並以 `git ls-remote` 核對遠端 SHA。GitHub／Sites 連線正常，沒有新增 Git 同步問題；既有畫面、正式帳號、法規待核及別名停用事項未在本輪結案，未部署或操作正式個人資料，不涵蓋隔離工作未提交檔案。
+
+### 2026-11-18：Git 專責指令與排程一致性檢查
+
+- 範圍：AGENTS、`.openai/git-sync.md`、交接紀錄與既有Git同步排程；其他功能、任務及發布設定維持。
+- 通過：專責檔正文與automation prompt逐字比對、原生update及後續peek讀回、標題／啟用／Asia/Taipei／schedule／timing_mode／環境選擇保留、文件本機連結與 `git diff --check`。排程仍每天約22:00，沒有新增任務。
+- 限制：開工檢查exit1只涉及本機正式匿名HTTP與設定差異，Git來源正常；問題補記ISSUE-20261116-02，沒有宣稱已修復403或正式登入通過。本次未重跑應用程式測試、部署或寫入正式學習資料。
+- 交接：依最新規則提交前及push前再次fetch，保留及整合任何並行更新，正常提交推送並讀回遠端SHA；新指令提供純唯讀無變更／無Git錯誤時不製造提交與不另通知的限定例外。詳見[本輪日誌](log.md#2026-11-18)。
 
 ## 已解決問題
 
