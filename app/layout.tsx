@@ -3,7 +3,7 @@ import "./globals.css";
 import "./black-gold.css";
 
 export const viewport: Viewport = {
-  themeColor: "#171817",
+  themeColor: "#171717",
   colorScheme: "dark",
 };
 
