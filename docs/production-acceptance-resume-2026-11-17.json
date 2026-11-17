@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-17T12:51:12.626746+00:00",
+  "site": "https://police-exam-study.middlelapwing4.chatgpt.site",
+  "checks": [
+    {
+      "name": "canonical-home",
+      "path": "/",
+      "status": "200 200",
+      "exit": 0
+    },
+    {
+      "name": "canonical-session",
+      "path": "/api/session",
+      "status": "200 200",
+      "exit": 0
+    }
+  ],
+  "productionWrites": 0,
+  "agentHasSession": false,
+  "pageAssets": [
+    {
+      "name": "canonical-asset-0",
+      "path": "/_next/static/chunks/page-wmgx-8Wj.js",
+      "status": "200 200",
+      "exit": 0,
+      "markers": {
+        "查看這題版本": true,
+        "目前選擇的還原紀錄": true,
+        "此裝置保留的版本": true
+      }
+    }
+  ],
+  "oldSite": "https://police-exam-study-44.middlelapwing4.chatgpt.site",
+  "oldSiteRedirect": {
+    "http": 307,
+    "connect": 200,
+    "locationHost": "police-exam-study.middlelapwing4.chatgpt.site",
+    "samePathForHomeAndSession": true
+  },
+  "sharedDesktopToolAvailable": false,
+  "sourceSyncedTo": "f7732d7",
+  "authenticatedAcceptanceCompleted": false,
+  "cleanupPausedByUser": true,
+  "deployedByThisWorkflow": false
+}
