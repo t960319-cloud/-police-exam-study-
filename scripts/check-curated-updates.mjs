@@ -247,3 +247,10 @@ for(const id of ['law115-inner-08','law115-inner-16','law115-outer-21']){const q
 assert(result.questions.find(q=>q.id==='law115-inner-16').amendment.note.includes('公眾得出入'));
 assert(result.questions.find(q=>q.id==='law115-outer-21').currentAnswer.includes('「等」'));
 console.log('Procedure and constitutional explanations preserve exam keys and unresolved statutory scope.');
+
+// Historical administrative cases support learning without silently certifying later rules.
+const historicalReport=result.laws.find(x=>x.id==='report');assert.equal(historicalReport?.verified,false);assert(historicalReport.original.includes('111年'));assert(historicalReport.original.includes('不是114年修正版全文'));assert(historicalReport.sources.some(s=>s.url.includes('IN_ID=179121')));
+const lateReport=result.questions.find(x=>x.id==='duty112_14');assert.equal(lateReport?.verified,false);assert.equal(lateReport.answer,2);assert(lateReport.currentAnswer.includes('48小時'));assert(lateReport.currentAnswer.includes('72小時'));assert(lateReport.amendment.note.includes('不能逕認目前仍為72小時'));
+const assistance=result.questions.find(x=>x.id==='investigation115_01');assert.equal(assistance?.verified,false);assert.equal(assistance.answer,2);assert(assistance.options.every(o=>o.explanation.trim()&&o.correction.trim()));assert(assistance.options[2].correction.includes('一律不得到府'));
+const reportingEssay=result.essays.find(x=>x.id==='s10');assert.equal(reportingEssay?.verified,false);assert(reportingEssay.model.analysis.includes('撤銷原懲處'));assert(reportingEssay.model.analysis.includes('不能代替逐級報告'));
+console.log('Historical reporting cases remain distinct from current rules and original keys.');

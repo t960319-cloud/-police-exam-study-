@@ -22,26 +22,26 @@
       "options": [
         {
           "text": "民眾報案，不分其為案件當事人與否、發生地為本轄或他轄，均應立即受理，不得拒絕、推諉，詢 明報案人身分、案情等事項，詳實記錄或製作筆錄",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：原卷錯在把得指派專人改為應儘速指派；仍須依報案單一窗口規範妥善受理，不得推諉。",
+          "explanation": "內政部115年函以車牌遭冒用的刑事報案為例，確認不得因非本轄拒絕、延宕或推諉。",
+          "correction": "接受言詞告訴、告發並依刑訴第242條製作筆錄；具體程序依法辦理。",
           "trueStatement": true
         },
         {
           "text": "案情有需即時追捕逃犯、救護傷患、排除急難（危害）或即時保全證據等急迫狀況，應立即處置， 如受限於人力、物力或其他因素，無法達成時，應迅速通報勤務指揮中心、案件管轄警察分局（警 察）局或相關單位，共同協力妥適處理",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：原卷錯在把得指派專人改為應儘速指派；仍須依報案單一窗口規範妥善受理，不得推諉。",
+          "explanation": "遇有急迫危害、救護或證據保全需要，應依權責及必要性處置，並通報協力。",
+          "correction": "不可因人力不足而置急迫情況於不顧。",
           "trueStatement": true
         },
         {
           "text": "報案人因身體或健康因素，難以行動，以通訊方式要求警察機關派員前往住所製作相關文書資料， 應儘速指派專人前往其住所處理報案事宜",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "原卷錯在把得指派專人改為應儘速指派；仍須依報案單一窗口規範妥善受理，不得推諉。",
+          "explanation": "C為考選部115年官方錯誤選項；到府處理的適用條件及其「得／應」用語仍待完整原件核對。",
+          "correction": "不能據此推論警方一律不得到府或不必提供適當協助。",
           "trueStatement": false
         },
         {
           "text": "受理案情涉及重大刑案或特殊刑案者，應依各級警察機關處理刑案逐級報告紀律規定辦理",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：原卷錯在把得指派專人改為應儘速指派；仍須依報案單一窗口規範妥善受理，不得推諉。",
+          "explanation": "保訓會113年復審決定引述當時刑案逐級報告規定，包括發現犯罪或受理報案後依層級通報。",
+          "correction": "重大及特殊刑案仍須依當時及現行完整程序判斷；不得僅據個案推論全部最新時限。",
           "trueStatement": true
         }
       ],
@@ -58,13 +58,32 @@
       "paperTrack": "內軌",
       "paperNumber": 1,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "警察機關受理刑事案件報案單一窗口實施要點；刑事訴訟法",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "unverified",
+        "note": "115年官方答案C。115年內政部函確認不分轄區受理；行動不便者到府之具體規範與完整現行要點仍待原件，不得僅由答案推斷適用條件。",
+        "sources": [
+          {
+            "title": "內政部115年答覆立法院：刑事報案單一窗口個案",
+            "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2026010951/10214812010060226002.pdf"
+          },
+          {
+            "title": "內政部114年第1季法規鬆綁成果：單一窗口修正",
+            "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOoMTE05bm05bqm56ysMeWto%2Bmshue2geaIkOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTAwOS8zMjc5OTQvNzI2ODE1NmUtYzUwYS00NjhlLThiNWYtYmFiOWM1MjNhNTk5LnBkZg%3D%3D"
+          },
+          {
+            "title": "保訓會113公審決字第000285號：當時逐級報告及認定個案",
+            "url": "https://web13.csptc.gov.tw/SearchContent.aspx?IN_ID=181119"
+          },
+          {
+            "title": "刑事訴訟法第228、230、231及242條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "原卷錯在把得指派專人改為應儘速指派；仍須依報案單一窗口規範妥善受理，不得推諉。",
+      "takeaway": "受理義務、急迫處置、到府協助與逐級報告分開判斷；具體例外查原件。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -81,8 +100,25 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "內政部115年答覆立法院：刑事報案單一窗口個案",
+          "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2026010951/10214812010060226002.pdf"
+        },
+        {
+          "title": "內政部114年第1季法規鬆綁成果：單一窗口修正",
+          "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOoMTE05bm05bqm56ysMeWto%2Bmshue2geaIkOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTAwOS8zMjc5OTQvNzI2ODE1NmUtYzUwYS00NjhlLThiNWYtYmFiOWM1MjNhNTk5LnBkZg%3D%3D"
+        },
+        {
+          "title": "保訓會113公審決字第000285號：當時逐級報告及認定個案",
+          "url": "https://web13.csptc.gov.tw/SearchContent.aspx?IN_ID=181119"
+        },
+        {
+          "title": "刑事訴訟法第228、230、231及242條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "C為115年官方答案。跨轄應依法受理；到府處理的條件與權責仍需核對完整單一窗口要點，不得因本題而拒絕對行動不便者提供適當協助。"
     },
     {
       "id": "investigation115_02",

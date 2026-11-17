@@ -9665,5 +9665,251 @@
       }
     ],
     "createdAt": 1794887139912
+  },
+  {
+    "eventId": "legal-review-20261117-report-cases",
+    "kind": "update",
+    "checkedAt": "2026-11-17",
+    "summary": "補保訓會112及113年復審決定，區分舊版他轄報案移轉、刑案逐級報告與114年修正後的待核細節；補115年報案題各選項。",
+    "sources": [
+      {
+        "title": "保訓會112公審決字第000502號：111年他轄報案個案及當時程序",
+        "url": "https://web13.csptc.gov.tw/SearchContent_Print.aspx?IN_ID=179121&KWD1=&KWD2=&KWD3="
+      },
+      {
+        "title": "保訓會113公審決字第000285號：當時逐級報告及認定個案",
+        "url": "https://web13.csptc.gov.tw/SearchContent.aspx?IN_ID=181119"
+      },
+      {
+        "title": "內政部114年第1季法規鬆綁成果：單一窗口修正",
+        "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOoMTE05bm05bqm56ysMeWto%2Bmshue2geaIkOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTAwOS8zMjc5OTQvNzI2ODE1NmUtYzUwYS00NjhlLThiNWYtYmFiOWM1MjNhNTk5LnBkZg%3D%3D"
+      },
+      {
+        "title": "內政部115年答覆立法院：刑事報案單一窗口個案",
+        "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2026010951/10214812010060226002.pdf"
+      },
+      {
+        "title": "刑事訴訟法第228、230、231及242條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      },
+      {
+        "title": "監察院106年調查報告：越區通報歷史規定",
+        "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/40411"
+      },
+      {
+        "title": "監察院115年越區查緝公開個案",
+        "url": "https://www.cy.gov.tw/News_Content.aspx?n=640&s=37218"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "duty112_14",
+        "amendment": {
+          "status": "review",
+          "law": "各級警察機關處理刑案逐級報告紀律規定",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "112年官方答案為C（48小時）；保訓會113年復審決定引述當時普通刑案遲報基準為逾72小時。該決定未提供完整沿革及最新原件，仍待查證，不能逕認目前仍為72小時。",
+          "sources": [
+            {
+              "title": "保訓會113公審決字第000285號：當時逐級報告及認定個案",
+              "url": "https://web13.csptc.gov.tw/SearchContent.aspx?IN_ID=181119"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "112年官方答案為C（48小時）。保訓會113年復審決定引述當時普通刑案遲報基準為逾72小時；兩者反映不同時間的資料，不能未核沿革就互相取代。",
+        "takeaway": "區分考試當年答案、113年復審案引述與現行完整規定。",
+        "optionOverrides": [
+          {
+            "index": 2,
+            "explanation": "C為112年官方答案，題目所列為逾48小時；113年保訓會復審決定引用的普通刑案基準則為逾72小時。",
+            "correction": "113年決定是當時個案資料，不足證明現行最新版仍適用72小時。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_01",
+        "amendment": {
+          "status": "review",
+          "law": "警察機關受理刑事案件報案單一窗口實施要點",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "114年官方答案D。112年復審案引述111年非本轄報案舊流程；內政部確認114年修正移轉時效與層級，完整新版及後續沿革仍待核。",
+          "sources": [
+            {
+              "title": "保訓會112公審決字第000502號：111年他轄報案個案及當時程序",
+              "url": "https://web13.csptc.gov.tw/SearchContent_Print.aspx?IN_ID=179121&KWD1=&KWD2=&KWD3="
+            },
+            {
+              "title": "內政部114年第1季法規鬆綁成果：單一窗口修正",
+              "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOoMTE05bm05bqm56ysMeWto%2Bmshue2geaIkOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTAwOS8zMjc5OTQvNzI2ODE1NmUtYzUwYS00NjhlLThiNWYtYmFiOWM1MjNhNTk5LnBkZg%3D%3D"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "本題D為114年官方最終答案，涉及已移轉後的補件；C涉及首次受理。保訓會112年決定引述111年非本轄案件之分段陳報及平台移轉，屬修正前歷史資料，不能取代114年完整原件。",
+        "takeaway": "案件已移轉他轄後收到補充資料或物證，本題應於2日內陳報分局；初次受理移轉另有不同時限。",
+        "optionOverrides": [
+          {
+            "index": 2,
+            "explanation": "C談首次受理後陳報；保訓會112年決定引用的111年舊流程列有分段陳報及平台移轉，與D的移轉後補件不同。",
+            "correction": "舊案引述不能證明114年修正後首次移轉期限；不以D的兩日推算。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation115_01",
+        "amendment": {
+          "status": "review",
+          "law": "警察機關受理刑事案件報案單一窗口實施要點；刑事訴訟法",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "115年官方答案C。115年內政部函確認不分轄區受理；行動不便者到府之具體規範與完整現行要點仍待原件，不得僅由答案推斷適用條件。",
+          "sources": [
+            {
+              "title": "內政部115年答覆立法院：刑事報案單一窗口個案",
+              "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2026010951/10214812010060226002.pdf"
+            },
+            {
+              "title": "內政部114年第1季法規鬆綁成果：單一窗口修正",
+              "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOoMTE05bm05bqm56ysMeWto%2Bmshue2geaIkOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTAwOS8zMjc5OTQvNzI2ODE1NmUtYzUwYS00NjhlLThiNWYtYmFiOWM1MjNhNTk5LnBkZg%3D%3D"
+            },
+            {
+              "title": "保訓會113公審決字第000285號：當時逐級報告及認定個案",
+              "url": "https://web13.csptc.gov.tw/SearchContent.aspx?IN_ID=181119"
+            },
+            {
+              "title": "刑事訴訟法第228、230、231及242條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "C為115年官方答案。跨轄應依法受理；到府處理的條件與權責仍需核對完整單一窗口要點，不得因本題而拒絕對行動不便者提供適當協助。",
+        "takeaway": "受理義務、急迫處置、到府協助與逐級報告分開判斷；具體例外查原件。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "內政部115年函以車牌遭冒用的刑事報案為例，確認不得因非本轄拒絕、延宕或推諉。",
+            "correction": "接受言詞告訴、告發並依刑訴第242條製作筆錄；具體程序依法辦理。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "遇有急迫危害、救護或證據保全需要，應依權責及必要性處置，並通報協力。",
+            "correction": "不可因人力不足而置急迫情況於不顧。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "C為考選部115年官方錯誤選項；到府處理的適用條件及其「得／應」用語仍待完整原件核對。",
+            "correction": "不能據此推論警方一律不得到府或不必提供適當協助。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "保訓會113年復審決定引述當時刑案逐級報告規定，包括發現犯罪或受理報案後依層級通報。",
+            "correction": "重大及特殊刑案仍須依當時及現行完整程序判斷；不得僅據個案推論全部最新時限。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "report",
+        "amendment": {
+          "status": "review",
+          "law": "警察機關受理刑事案件報案單一窗口實施要點",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "保訓會112年復審決定引述111年舊流程；內政部確認114年修正，完整新版及後續沿革仍待核。",
+          "sources": [
+            {
+              "title": "保訓會112公審決字第000502號：111年他轄報案個案及當時程序",
+              "url": "https://web13.csptc.gov.tw/SearchContent_Print.aspx?IN_ID=179121&KWD1=&KWD2=&KWD3="
+            },
+            {
+              "title": "內政部114年第1季法規鬆綁成果：單一窗口修正",
+              "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOoMTE05bm05bqm56ysMeWto%2Bmshue2geaIkOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTAwOS8zMjc5OTQvNzI2ODE1NmUtYzUwYS00NjhlLThiNWYtYmFiOWM1MjNhNTk5LnBkZg%3D%3D"
+            },
+            {
+              "title": "內政部115年答覆立法院：刑事報案單一窗口個案",
+              "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2026010951/10214812010060226002.pdf"
+            }
+          ]
+        },
+        "verified": false,
+        "lawContent": {
+          "original": "民眾報案不分本轄或他轄，均應即時受理、妥適處置。\n114年1月13日修正明定移轉管轄原則、移轉時效、核准層級及查處機制；線上執勤員警遇緊急情況應先為必要處理，並引導或協助聯絡至最近報案窗口。\n本卡未取得該次修正完整原件，故不填入未經本次查證的移轉日數或核准職級。\n保訓會112年復審決定引述111年非本轄、民眾親自報案之舊程序：依當時條件製作筆錄後，先通報及傳送資料；接著分段陳報，並在平台移轉及確認接收。該歷史個案不是114年修正版全文。",
+          "originalLabel": "重點整理・非要點逐字全文",
+          "core": "受理義務與管轄責任分開，先處理急迫危害及保全證據，再依法移轉。",
+          "points": [
+            "不因他轄或身分而拒絕、推諉。",
+            "線上執勤員警亦有緊急處理及引導協助義務。",
+            "移轉須依現行時效、核准層級及追蹤機制。",
+            "112年復審案提供111年舊流程的官方佐證；114年已修正移轉時效與核准層級，仍須核最新版。"
+          ],
+          "traps": [
+            "舊版『24小時＋24小時』不得直接當成114年新版答案。",
+            "受理報案地不當然等於管轄地。",
+            "有管轄爭議仍不得讓民眾自行奔波。",
+            "112年復審案引用的舊時限與114年考題移轉後補件時限，處理階段及版本不同，不能直接混算。"
+          ],
+          "memory": "先受理、先處置；依法移轉、追蹤到底。",
+          "scenario": "案發地與證物發現地均非本轄，仍先受理並做必要處置，不能只口頭叫報案人去他轄。",
+          "version": "114.01.13修正架構已核；完整點次、時限與核准層級待核",
+          "verified": false,
+          "verificationNote": "已補112年復審個案引述的舊流程及114年修正方向；完整現行點次、時限、核准層級與後續沿革仍須查原件。",
+          "sources": [
+            {
+              "title": "內政部・114年第1季鬆綁成果",
+              "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOoMTE05bm05bqm56ysMeWto%2Bmshue2geaIkOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTAwOS8zMjc5OTQvNzI2ODE1NmUtYzUwYS00NjhlLThiNWYtYmFiOWM1MjNhNTk5LnBkZg%3D%3D"
+            },
+            {
+              "title": "立法院・內政部刑事報案說明文件",
+              "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2026010951/10214812010060226002.pdf"
+            },
+            {
+              "title": "保訓會112公審決字第000502號：111年他轄報案個案及當時程序",
+              "url": "https://web13.csptc.gov.tw/SearchContent_Print.aspx?IN_ID=179121&KWD1=&KWD2=&KWD3="
+            }
+          ]
+        }
+      },
+      {
+        "targetId": "s10",
+        "amendment": {
+          "status": "review",
+          "law": "警察機關通報越區辦案應行注意事項；各級警察機關處理刑案逐級報告紀律規定",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "補保訓會113年歷史復審個案；現行越區通報與逐級報告完整原件、層級及例外仍待核。",
+          "sources": [
+            {
+              "title": "保訓會113公審決字第000285號：當時逐級報告及認定個案",
+              "url": "https://web13.csptc.gov.tw/SearchContent.aspx?IN_ID=181119"
+            },
+            {
+              "title": "監察院106年調查報告：越區通報歷史規定",
+              "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/40411"
+            },
+            {
+              "title": "監察院115年越區查緝公開個案",
+              "url": "https://www.cy.gov.tw/News_Content.aspx?n=640&s=37218"
+            }
+          ]
+        },
+        "verified": false,
+        "model": {
+          "intro": "警察執行職務，應有法定依據並符合發動要件，兼顧勤務目的、比例原則及人民權益。茲依題示配分分述如下。",
+          "basis": "依警察機關通報越區辦案注意事項及偵查手冊；監察院106年調查報告引用當時第2點第1款，115年公開個案反映報告主管及通報當地機關的重要性。現行全國完整要點、具體層級與例外仍待核。 保訓會113年復審決定另引當時刑案報告之分級程序。",
+          "analysis": "一、越區通報（15分）\n監察院106年報告引述，當時對區外搜索、逮捕、拘提等行動須依程序通報當地機關會同；115年公開個案指出未報告主管及通報當地警察機關之違失。兩者只能作歷史規定與特定個案證據，不能取代現行全國完整原件。地點變更、急迫事後補辦及未攜槍情蒐例外應查最新版，勿自行推定全部層級。搜索、逮捕及拘提仍須另有獨立法源。\n二、報告時機區別（10分）\n初報為案件發生或發現之初；續報為重大變化或重要階段；結報為偵辦結果或結案。越區通報著重跨轄協調，不能只用初報、續報、結報取代；各規定完整現行程序仍須查核。\n三、歷史報告案例\n保訓會113年復審決定引述當時規定，發現犯罪或受理報案應即處置並循層級報告；該案因事實尚有疑義而撤銷原懲處、命另為適法處分。此屬特定歷史個案，不能代替逐級報告或越區通報現行完整規定。",
+          "conclusion": "綜上，應依法行政，依個案事實審查要件、採取必要措施並遵守法定程序，隨情勢檢討其必要性，以兼顧執法目的與人民權益保障。"
+        }
+      }
+    ],
+    "createdAt": 1794887645971
   }
 ]

@@ -34,8 +34,8 @@
         },
         {
           "text": "完成受理程序後，認定為他轄案件，受理人員應於 2 日內將筆錄、相關卷證及受理報案紀錄影本等 相關資料陳報警察分局",
-          "explanation": "C談首次受理後移轉的資料及期限，與D已移轉後補件的程序不同。114年官方答案未選C。",
-          "correction": "不以本題D的兩日推算首次移轉時限；該時限應核114年完整原件。",
+          "explanation": "C談首次受理後陳報；保訓會112年決定引用的111年舊流程列有分段陳報及平台移轉，與D的移轉後補件不同。",
+          "correction": "舊案引述不能證明114年修正後首次移轉期限；不以D的兩日推算。",
           "trueStatement": false
         },
         {
@@ -61,27 +61,16 @@
       "amendment": {
         "status": "review",
         "law": "警察機關受理刑事案件報案單一窗口實施要點",
-        "checkedAt": "2026-11-16",
-        "note": "114年官方答案D；逐項說明受理、代報、首次移轉與移轉後補資料的差異。114年完整現行單一窗口要點及各期限仍待原件，不把本題兩日當成所有移轉情形。",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "unverified",
+        "note": "114年官方答案D。112年復審案引述111年非本轄報案舊流程；內政部確認114年修正移轉時效與層級，完整新版及後續沿革仍待核。",
         "sources": [
           {
-            "title": "考選部・114年官方原卷",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+            "title": "保訓會112公審決字第000502號：111年他轄報案個案及當時程序",
+            "url": "https://web13.csptc.gov.tw/SearchContent_Print.aspx?IN_ID=179121&KWD1=&KWD2=&KWD3="
           },
           {
-            "title": "考選部・原始標準答案",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
-          },
-          {
-            "title": "考選部・最終答案清冊",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114060&t=A"
-          },
-          {
-            "title": "考選部・更正答案",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
-          },
-          {
-            "title": "內政部114年第1季鬆綁成果（單一窗口修正方向）",
+            "title": "內政部114年第1季法規鬆綁成果：單一窗口修正",
             "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOoMTE05bm05bqm56ysMeWto%2Bmshue2geaIkOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTAwOS8zMjc5OTQvNzI2ODE1NmUtYzUwYS00NjhlLThiNWYtYmFiOWM1MjNhNTk5LnBkZg%3D%3D"
           }
         ]
@@ -107,9 +96,13 @@
         {
           "title": "內政部114年第1季鬆綁成果（單一窗口修正方向）",
           "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOoMTE05bm05bqm56ysMeWto%2Bmshue2geaIkOaenC5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvOTAwOS8zMjc5OTQvNzI2ODE1NmUtYzUwYS00NjhlLThiNWYtYmFiOWM1MjNhNTk5LnBkZg%3D%3D"
+        },
+        {
+          "title": "保訓會112公審決字第000502號：111年他轄報案個案及當時程序",
+          "url": "https://web13.csptc.gov.tw/SearchContent_Print.aspx?IN_ID=179121&KWD1=&KWD2=&KWD3="
         }
       ],
-      "currentAnswer": "本題D為114年官方最終答案。D談的是已移轉後新收到的資料，C談的是首次受理後的移轉；兩者不能混用。兩日為當年題意，完整現行要點及各類時限仍待原件核對。"
+      "currentAnswer": "本題D為114年官方最終答案，涉及已移轉後的補件；C涉及首次受理。保訓會112年決定引述111年非本轄案件之分段陳報及平台移轉，屬修正前歷史資料，不能取代114年完整原件。"
     },
     {
       "id": "investigation114_02",
