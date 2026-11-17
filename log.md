@@ -485,3 +485,4 @@
 - 修改限定畫面樣式、瀏覽器主題資訊與進度圖配色；題庫內容、作答／草稿邏輯、同步、紀錄鍵及資料庫結構未變更，未操作正式個人學習紀錄。
 - 檢查通過：TypeScript、修改的兩個 TSX 檔 ESLint、22 項同步測試、6 項個人化排序測試、PostCSS 解析、八組主要色票對比（最低 6.95:1）、列印規則與原版逐項一致比對、`git diff --check` 及 `pnpm build`。建置仍有既存大型分塊與路由分類提示。
 - 本機 `sites-preview start` 因 `listen EPERM 127.0.0.1` 無法啟動；`sites-preview status` 回報 stopped。未變更預覽基礎設施或網路政策；瀏覽器畫面、完整瀏覽器回歸及正式登入驗收尚未完成，見 ISSUE-20261117-01。提交與發布結果另記。
+- 發布完成：樣式來源 `4b48dc23db08fc259224f91f386fb7da313d6f10` 已推送並讀回 GitHub 與 Sites 來源分支；第36版部署 `appgdep_6afc3e2935c881919a4c00a259ef4c6b` 由原生工具回報 succeeded，正式網址為 `https://police-exam-study.middlelapwing4.chatgpt.site`。公開對象與既有 DB 綁定保留，未寫入個人學習資料；瀏覽器及正式登入驗收限制仍保留。後續僅同步本筆發布紀錄，不改變已部署的樣式輸出。
