@@ -342,3 +342,5 @@
 - 依[最高行政法院111年度上字第675號判決](https://laws.gov.taipei/law/Judge/JudgeContent/F%2C111%2C%E4%B8%8A%2C675%2C001)及[司法院新聞稿](https://www.judicial.gov.tw/tw/cp-1888-1139827-1620f-1.html)，補一般攔停後另行離車／檢車的各自條件，區分該判決對攔檢事實行為及其個案異議紀錄表之性質。另補逐車路檢比例、夜間設站及酒測的個別危害判斷。
 - 112內軌第2題依警職法、釋字535及[警政署路檢程序](https://ws.moi.gov.tw/001/Upload/OldFile/news_file/106-0603%EF%BC%8C%E5%9F%B7%E8%A1%8C%E8%B7%AF%E6%AA%A2%E6%94%94%E6%AA%A2%E8%BA%AB%E5%88%86%E6%9F%A5%E8%AD%89%E4%BD%9C%E6%A5%AD%E7%A8%8B%E5%BA%8F.pdf)補短暫攔檢、帶往查證與提審告知；不能將任何措施一律等同逮捕或排除司法保障。
 - 113外軌第2題補官等、職務等階、權理及政策檢討；111情境申論1依[警察勤務區訪查辦法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161)補三類訪查、座談3日前通知、進入同意及個資保密。六題為本站練習擬答，不是官方答案或評分細目；原題與配分不變。[證據與限制](legal-evidence-2026-11-17-essay-stops.json)。
+
+- 發布紀錄：Sites 第35版來源 `fe84d8c4b3beae7434b62fb72e49d40ae20c5431`，部署 `appgdep_6afbdb63731881918dcd60e8455bad24` 原生回報成功；網站維持公開。正式 API 本環境先前為 CONNECT 403，本次未完成正式資料讀回，正式帳號驗收仍未執行。
