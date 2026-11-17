@@ -1074,26 +1074,26 @@
       "options": [
         {
           "text": "行為無連續或繼續之狀態者，2 個月之移送期間係以行為成立之日起算，至蓋有法院收狀章戳 暨日期時間戳為止",
-          "explanation": "行為非連續或繼續者，處罰與移送期間自行為成立起算；法院收狀時點之認定仍以具體程序為準。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第31條對非連續或繼續行為，自行為成立日起算2個月；連續或繼續狀態自終了日起算。",
+          "correction": "題列以法院收狀章戳暨時間為終點的完整實務依據仍待核。",
           "trueStatement": true
         },
         {
           "text": "警察機關於訊問後，應即自行處分，即斷即決",
-          "explanation": "僅專科罰鍰或申誡等第43條案件由警察處分；含拘留等案件應移簡易庭裁定。",
-          "correction": "按第43、45條區分警察處分與法院裁定。",
+          "explanation": "第43條所列案件原則由警察處分；其餘應依第45條移送簡易庭裁定。",
+          "correction": "不是訊問後所有案件均自行處分；選B。",
           "trueStatement": false
         },
         {
           "text": "罰鍰者，移送行政執行之 3 個月移送期間，係自裁處確定之日起算",
-          "explanation": "罰鍰自裁處確定起3個月未移送行政執行，原則免予移送，分期遲誤有特別起算。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第32條規定罰鍰自裁處確定起逾3個月未移送行政執行，免予移送。",
+          "correction": "分期遲誤者另自遲誤當期到期日翌日起算。",
           "trueStatement": true
         },
         {
           "text": "查禁物無 2 個月處罰時效規定之適用",
-          "explanation": "查禁物處理與對人的2個月違序處罰時效應區分，仍依沒入及其他法律處理。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "法務部81年法律字第08668號函認查禁物單獨沒入的對象為物，不適用第31條對行為人行為處罰的2個月期間。",
+          "correction": "此為該函釋就查禁物單獨沒入之見解，與對人處罰時效、已確定裁處執行期限分開。",
           "trueStatement": true
         }
       ],
@@ -1110,16 +1110,26 @@
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
         "status": "review",
-        "note": "第A、D項涉及法院收狀及查禁物實務原件，仍待核。",
-        "checkedAt": "2026-11-10",
+        "law": "社會秩序維護法第23、31、32、43、45條；法務部81年法律字第08668號函",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "unverified",
+        "note": "依所列官方法規及函釋補充已確認部分；題目省略條件、公告範圍或完整內規仍待核，保留官方原答案。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+            "title": "社會秩序維護法第7、18-1、20、31、32、43至57、68及83條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+          },
+          {
+            "title": "違反社會秩序維護法案件處理辦法第5、6及41條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+          },
+          {
+            "title": "法務部81年法律字第08668號函：查禁物單獨沒入",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE076579&media=print&type=E"
           }
         ]
       },
-      "takeaway": "僅專科罰鍰或申誡等第43條案件由警察處分；含拘留等案件應移簡易庭裁定。",
+      "takeaway": "警察處分與簡易庭裁定要分流；逾期未移送罰鍰之期間另依第32條。",
       "sources": [
         {
           "title": "考選部114年一般警察四等警察法規概要原卷",
@@ -1132,8 +1142,17 @@
         {
           "title": "社會秩序維護法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+        },
+        {
+          "title": "違反社會秩序維護法案件處理辦法第5、6及41條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+        },
+        {
+          "title": "法務部81年法律字第08668號函：查禁物單獨沒入",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE076579&media=print&type=E"
         }
-      ]
+      ],
+      "currentAnswer": "保留官方答案B：訊問後並非一律由警察自行處分。法務部81年函區分查禁物單獨沒入與行為人違序行為的2個月期間；A法院收狀時點仍待原件。"
     },
     {
       "id": "law114-outer-15",
@@ -1396,26 +1415,26 @@
       "options": [
         {
           "text": "窺視他人臥室、浴室、廁所、更衣室，足以妨害其隱私者",
-          "explanation": "第83條第1款明定「故意」窺視列舉私密空間且足以妨害隱私。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第83條第1款以「故意」窺視臥室、浴室、廁所、更衣室，且足以妨害隱私為要件。",
+          "correction": "具體行為仍須符合全部法定條件；選A。",
           "trueStatement": true
         },
         {
           "text": "於公共場所或公眾得出入之場所，酗酒滋事、謾罵喧鬧",
-          "explanation": "依114年修正之第72條第1項第1款，酗酒滋事謾罵喧鬧還須不聽禁止；本款未使用題目要求的「故意」文義。",
-          "correction": "補上不聽禁止要件，並區分第83條明定故意。",
+          "explanation": "現行第72條第1款未使用「故意」文字，且酗酒滋事、謾罵喧鬧須不聽禁止。",
+          "correction": "題目未寫不聽禁止，不宜只看到喧鬧就推定成立。",
           "trueStatement": false
         },
         {
           "text": "於公共場所或公眾得出入之場所，乞討叫化",
-          "explanation": "第82條乞討叫化須不聽勸阻，非題目所問明文故意。",
-          "correction": "補上不聽勸阻並依具體法條判斷。",
+          "explanation": "第82條第1款乞討叫化須在公共場所或公眾得出入場所且不聽勸阻。",
+          "correction": "本款未以「故意」文字限定；仍要符合不聽勸阻等要件。",
           "trueStatement": false
         },
         {
           "text": "於發生災變之際，停聚圍觀，妨礙救助或處理",
-          "explanation": "第73條災變圍觀妨礙救助須不聽禁止，未以「故意」文字限定。",
-          "correction": "補上不聽禁止要件。",
+          "explanation": "第73條第3款災變時停聚圍觀妨礙救助或處理，須不聽禁止。",
+          "correction": "本款未以「故意」文字限定；題目未寫禁止要件。",
           "trueStatement": false
         }
       ],
@@ -1426,34 +1445,26 @@
       ],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年外軌四等｜警察法規概要｜第18題",
       "paperYear": 114,
       "paperTrack": "外軌",
       "paperNumber": 18,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "changed",
-        "note": "第72條於114年6月11日修正公布、6月13日生效；應依行為時與裁處時法律及從優原則判斷。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "社會秩序維護法第7、72、73、82、83條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列官方法規及法院裁定，核對題目核心事項；保留考選部原答案。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
-          },
-          {
-            "title": "總統府114年6月11日修法公布原件",
-            "url": "https://www.president.gov.tw/Page/294/49902"
+            "title": "社會秩序維護法第7、18-1、20、31、32、43至57、68及83條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           }
-        ],
-        "law": "社會秩序維護法第72條",
-        "date": "114.06.11公布",
-        "effectiveStatus": "in-force",
-        "effectiveDate": "114.06.13",
-        "oldRule": "舊第72條法定罰鍰上限為新臺幣6,000元。",
-        "newRule": "現行第72條法定罰鍰上限為新臺幣1萬元；第1款酗酒滋事、謾罵喧鬧須不聽禁止。此修正於114年考試前施行，仍須依社維法第3條比較行為時法與裁處時法。"
+        ]
       },
-      "takeaway": "第83條第1款明定「故意」窺視列舉私密空間且足以妨害隱私。",
+      "takeaway": "社維法第7條原則兼罰故意及過失，但不代表各款其他要件可以省略。",
       "sources": [
         {
           "title": "考選部114年一般警察四等警察法規概要原卷",
@@ -1471,7 +1482,8 @@
           "title": "總統府114年6月11日修法公布原件",
           "url": "https://www.president.gov.tw/Page/294/49902"
         }
-      ]
+      ],
+      "currentAnswer": "A正確：第83條第1款明定故意窺視列舉私密場所，且須足以妨害隱私；其餘選項並非該條文上的明文故意用語。"
     },
     {
       "id": "law114-outer-19",

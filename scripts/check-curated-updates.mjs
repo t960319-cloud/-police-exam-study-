@@ -281,3 +281,18 @@ assert(thirdParty?.verified);assert(thirdParty.currentAnswer.includes('民事訴
 const regulationClass=result.questions.find(q=>q.id==='law112-inner-10');
 assert.equal(regulationClass?.verified,false);assert(regulationClass.currentAnswer.includes('仍待查'));assert.equal(regulationClass.answer,3);
 console.log('Corrected scoring, execution remedies and incomplete personnel or regulation conditions remain distinct.');
+
+// Administrative opinions and criminal elements constrain old answer-key explanations.
+const socialFinality=result.questions.find(q=>q.id==='law112-inner-24');
+assert.equal(socialFinality?.verified,false);assert.equal(socialFinality.answer,3);assert(socialFinality.currentAnswer.includes('既判力範圍'));assert(socialFinality.options[3].correction.includes('程序裁定'));assert(socialFinality.amendment.sources.some(s=>s.url.includes('FE336786')));
+const businessSanction=result.questions.find(q=>q.id==='law112-inner-22');
+assert.equal(businessSanction?.verified,false);assert.equal(businessSanction.answer,0);assert(businessSanction.options[0].explanation.includes('有期徒刑以上'));
+const barredGoods=result.questions.find(q=>q.id==='law114-outer-14');
+assert.equal(barredGoods?.verified,false);assert(barredGoods.options[3].explanation.includes('單獨沒入'));assert(barredGoods.amendment.sources.some(s=>s.url.includes('FE076579')));
+const watchForest=result.questions.find(q=>q.id==='law112-inner-21');
+assert.equal(watchForest?.verified,false);assert(watchForest.options[0].correction.includes('尚未運走'));assert(watchForest.options[3].explanation.includes('曾列'));
+const weaponsPermit=result.questions.find(q=>q.id==='law115-inner-19');
+assert(weaponsPermit?.verified);assert.equal(weaponsPermit.answer,2);assert(weaponsPermit.options[3].correction.includes('警械執照'));assert(weaponsPermit.options[3].correction.includes('拋射式'));
+const assemblyRadius=result.questions.find(q=>q.id==='law115-inner-11');
+assert.equal(assemblyRadius?.verified,false);assert(assemblyRadius.options[3].correction.includes('實際公告'));assert(assemblyRadius.options[2].correction.includes('核准例外'));
+console.log('Court finality, forfeiture, forest cases, equipment permits and assembly boundaries remain distinct.');

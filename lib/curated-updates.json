@@ -10889,5 +10889,602 @@
       }
     ],
     "createdAt": 1794888871007
+  },
+  {
+    "eventId": "legal-review-20261117-social-assembly",
+    "kind": "update",
+    "checkedAt": "2026-11-17",
+    "summary": "補社維裁定既判力、查禁物沒入、森林查訪及集遊範圍，核對三題，七題保留待核。",
+    "sources": [
+      {
+        "title": "社會秩序維護法第7、18-1、20、31、32、43至57、68及83條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+      },
+      {
+        "title": "違反社會秩序維護法案件處理辦法第5、6及41條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+      },
+      {
+        "title": "法務部81年法律字第08668號函：查禁物單獨沒入",
+        "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE076579&media=print&type=E"
+      },
+      {
+        "title": "法務部109年法律字第10903501010號函：社維異議裁定確定力",
+        "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE336786&media=print&type=E"
+      },
+      {
+        "title": "臺灣臺東地方法院111年度東秩字第12號刑事裁定",
+        "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TTDM%2C111%2C%E6%9D%B1%E7%A7%A9%2C12%2C20220520%2C1"
+      },
+      {
+        "title": "警察職權行使法第15條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+      },
+      {
+        "title": "治安顧慮人口查訪辦法第2、4、5條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+      },
+      {
+        "title": "警察人員人事條例第10條之1",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
+      },
+      {
+        "title": "森林法第50、52條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=M0040001"
+      },
+      {
+        "title": "最高法院93年度台上字第860號判例：竊取他人盜伐林木",
+        "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=B%2C93%2C%E5%8F%B0%E4%B8%8A%2C860%2C001&kw=&type=J1"
+      },
+      {
+        "title": "內政部問答：治安顧慮人口資料不得任意提供里長",
+        "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&_Query=8aad0325-4cff-40ef-8903-22b6257c01a1&n=174&page=23&sms=9015"
+      },
+      {
+        "title": "集會遊行法第3、6、8、10、11、25及26條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+      },
+      {
+        "title": "釋字第445號解釋：集遊許可與明顯立即危險",
+        "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C445&type=c"
+      },
+      {
+        "title": "釋字第718號解釋：偶發及緊急集遊",
+        "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=c"
+      },
+      {
+        "title": "警政署109年教材：集遊警告及特殊情況代理",
+        "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOo6K2m5pS%2F572yMTA55bm05YWS5qyK5pWZ5p2QLeS4iueovy5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvMC8xNDQ1NC8xYzI1ZjJhYS1mYzIyLTRkODgtYjZmYi00ZDM3MmE0ZTU3M2EucGRm"
+      },
+      {
+        "title": "警械使用條例第4、7及13條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+      },
+      {
+        "title": "駐衛警察使用警械管理辦法第4、8條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080053"
+      },
+      {
+        "title": "警械許可定製售賣持有管理辦法第7、8條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080046"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "law113-inner-11",
+        "amendment": {
+          "status": "none",
+          "law": "社會秩序維護法第68條第2款；臺東地院111年度東秩字第12號裁定",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列官方法規及法院裁定，核對題目核心事項；保留考選部原答案。",
+          "sources": [
+            {
+              "title": "社會秩序維護法第7、18-1、20、31、32、43至57、68及83條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            },
+            {
+              "title": "臺灣臺東地方法院111年度東秩字第12號刑事裁定",
+              "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TTDM%2C111%2C%E6%9D%B1%E7%A7%A9%2C12%2C20220520%2C1"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A為官方答案：該裁定對「藉端滋擾」的判斷，沒有把「無正當理由」列為獨立文字要件；仍須具體審查行為是否合法。",
+        "takeaway": "滋擾本意、藉事擴大、超過合理範圍與安寧秩序受擾，須結合具體證據判斷。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第68條第2款文字及所列裁定的藉端滋擾判斷，未列「無正當理由」為本題所問獨立要件。",
+            "correction": "不代表正當行使權利或其他阻卻違法事由無須審查；選A。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "所引裁定以具有滋擾場所的本意作為判斷因素之一。",
+            "correction": "不能只因當事人發生口角或某人感到不快就推定成立。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "裁定所述行為方式包括藉特定事端以言語或行動擴大發揮。",
+            "correction": "應看具體情境與整體行為，而非僅看形式。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "裁定考量行為是否逾越社會通念合理範圍，並擾及場所安寧秩序致難維持或回復。",
+            "correction": "該見解應結合個案事實與證據適用。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-18",
+        "amendment": {
+          "status": "none",
+          "law": "社會秩序維護法第7、72、73、82、83條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列官方法規及法院裁定，核對題目核心事項；保留考選部原答案。",
+          "sources": [
+            {
+              "title": "社會秩序維護法第7、18-1、20、31、32、43至57、68及83條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A正確：第83條第1款明定故意窺視列舉私密場所，且須足以妨害隱私；其餘選項並非該條文上的明文故意用語。",
+        "takeaway": "社維法第7條原則兼罰故意及過失，但不代表各款其他要件可以省略。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第83條第1款以「故意」窺視臥室、浴室、廁所、更衣室，且足以妨害隱私為要件。",
+            "correction": "具體行為仍須符合全部法定條件；選A。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "現行第72條第1款未使用「故意」文字，且酗酒滋事、謾罵喧鬧須不聽禁止。",
+            "correction": "題目未寫不聽禁止，不宜只看到喧鬧就推定成立。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第82條第1款乞討叫化須在公共場所或公眾得出入場所且不聽勸阻。",
+            "correction": "本款未以「故意」文字限定；仍要符合不聽勸阻等要件。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第73條第3款災變時停聚圍觀妨礙救助或處理，須不聽禁止。",
+            "correction": "本款未以「故意」文字限定；題目未寫禁止要件。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-19",
+        "amendment": {
+          "status": "none",
+          "law": "警械使用條例第4、7、13條；駐衛警察使用警械管理辦法第4、8條；警械許可定製售賣持有管理辦法第7、8條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列官方法規及法院裁定，核對題目核心事項；保留考選部原答案。",
+          "sources": [
+            {
+              "title": "警械使用條例第4、7及13條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+            },
+            {
+              "title": "駐衛警察使用警械管理辦法第4、8條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080053"
+            },
+            {
+              "title": "警械許可定製售賣持有管理辦法第7、8條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080046"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C錯誤：駐衛警察使用警棍為原則，所需其他警械得依法申請配發；管理辦法並規定使用警槍時應隨帶警槍執照。",
+        "takeaway": "守望相助組織的電擊器須符合申請條件；每2年換領的是警械執照。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "單為追緝毒品或可疑車輛，不能僅憑車輛逃逸即認有射擊依據。",
+            "correction": "若另有生命身體急迫危險等法定事實，仍須個別審查警械使用條例。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "嫌犯以車倒退衝撞時，若符合第4條所定使用槍械及危及生命身體要件，得依法處理。",
+            "correction": "是否射擊仍須按具體危險、必要性及比例判斷，不是所有倒車均可射擊。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "駐衛警察管理辦法第4條規範其他警械申請配發，第8條明定使用警槍時的執照。",
+            "correction": "不是一律不得配發警槍；選C。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "僱用或任用符合規定人員之民間守望相助組織，可依管理辦法第7條申請購置電擊器。",
+            "correction": "第8條每2年換領的是警械執照；拋射式電擊器另限運送保全人員。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law112-inner-22",
+        "amendment": {
+          "status": "review",
+          "law": "社會秩序維護法第18條之1、第19條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "依所列官方法規及函釋補充已確認部分；題目省略條件、公告範圍或完整內規仍待核，保留官方原答案。",
+          "sources": [
+            {
+              "title": "社會秩序維護法第7、18-1、20、31、32、43至57、68及83條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "保留官方答案A：第18條之1包括業務上犯妨害風化罪的受雇人，但須判決有期徒刑以上，題目僅寫「判決科刑」，未完整表達此要件。",
+        "takeaway": "公司等營業體的勒令歇業須符合法定罪名、業務關聯、判決刑度及比例原則。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第18條之1列受雇人因執行業務犯妨害風化罪，經判決有期徒刑以上刑者，得處商業勒令歇業。",
+            "correction": "題目只說判決科刑，未明列有期徒刑以上；保留原答案，判斷時應補足。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "人口販運防制法之罪同列第18條之1，但該條規定的公司或商業制裁為得勒令歇業。",
+            "correction": "不是第18條之1當然對該商號處以罰鍰；仍須判決刑度及其他法定條件。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "妨害秘密罪已列於第18條之1，並非本題所稱妨害秘密即可直接依商業登記法勒令歇業。",
+            "correction": "應查明具體違法行為及適用法律；勿否認其他法律可能有獨立事由。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第18條之1所列刑法罪名不包含妨害性自主罪，本題亦未給出公司法所指的具體要件。",
+            "correction": "其他法律是否有處分依據，仍應依個案法定事實判斷。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law112-inner-24",
+        "amendment": {
+          "status": "review",
+          "law": "社會秩序維護法第20、51、55至57、77條；法務部109年法律字第10903501010號函",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "依所列官方法規及函釋補充已確認部分；題目省略條件、公告範圍或完整內規仍待核，保留官方原答案。",
+          "sources": [
+            {
+              "title": "社會秩序維護法第7、18-1、20、31、32、43至57、68及83條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            },
+            {
+              "title": "違反社會秩序維護法案件處理辦法第5、6及41條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+            },
+            {
+              "title": "法務部109年法律字第10903501010號函：社維異議裁定確定力",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE336786&media=print&type=E"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "保留官方答案D：簡易庭實體裁定確定後，須尊重既判力；法務部指出機關能否撤銷仍應看既判力範圍，不能一概寫成任何情況都不能撤銷。",
+        "takeaway": "分期須依經濟狀況；未確定不執行；法院實體與程序裁定的效力應分別審查。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第20條分期條件是被處罰人依經濟狀況不能即時完納，並得准於3個月內分期。",
+            "correction": "不能僅以過失或故意判斷是否准予分期。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第51條規定違反本法案件的處罰於裁處確定後執行。",
+            "correction": "不服時依第55至57條聲明異議；不是一經裁處就必然執行。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第55條要求以書狀敘明理由；可補正者依第57條定期命補正。",
+            "correction": "便箋形式不等於當然駁回，應先依其內容及法定程序判斷。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "法務部109年函認簡易庭實體裁定確定具實質確定力，機關依職權撤銷須視既判力所及範圍。",
+            "correction": "保留官方答案D；實體／程序裁定及其後事實法律變更須區別，原題「不可」不宜無條件絕對化。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law112-inner-21",
+        "amendment": {
+          "status": "review",
+          "law": "警察職權行使法第15條；治安顧慮人口查訪辦法第2、5條；警察人員人事條例第10條之1",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "依所列官方法規及函釋補充已確認部分；題目省略條件、公告範圍或完整內規仍待核，保留官方原答案。",
+          "sources": [
+            {
+              "title": "警察職權行使法第15條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "治安顧慮人口查訪辦法第2、4、5條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+            },
+            {
+              "title": "警察人員人事條例第10條之1",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
+            },
+            {
+              "title": "森林法第50、52條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=M0040001"
+            },
+            {
+              "title": "最高法院93年度台上字第860號判例：竊取他人盜伐林木",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=B%2C93%2C%E5%8F%B0%E4%B8%8A%2C860%2C001&kw=&type=J1"
+            },
+            {
+              "title": "內政部問答：治安顧慮人口資料不得任意提供里長",
+              "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&_Query=8aad0325-4cff-40ef-8903-22b6257c01a1&n=174&page=23&sms=9015"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "保留官方答案C：查訪須避免損害名譽並保護資料。A所涉竊取他人盜伐木與贓物罪需依實際情形區分，題目未列執行或假釋條件。",
+        "takeaway": "森林竊盜與單純收受、搬運贓物不同；曾列管之任用限制亦應精確依法律查核。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "查訪辦法第2條第8款列森林法第50條及第52條特定森林產物竊盜，排除第50條第2項贓物罪。",
+            "correction": "最高法院93年台上860說明在林地內竊取他人盜伐後尚未運走之林木，與單純贓物行為不同；還須符合執行完畢或假釋及期限。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "內政部說明定期查訪原則屬任意性行為，無查訪強制力。",
+            "correction": "行政調查事實行為仍須符合合法目的、比例及個資規定。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "查訪辦法第5條要求注意避免影響工作及名譽；內政部說明不得任意對里長提供治安顧慮資料。",
+            "correction": "考選部答案C；鄰居轉達有洩露身分風險，但具體通知方式仍須依法個別判斷。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "警察人員人事條例第10條之1將「曾列」警職法第15條第1項各款治安顧慮人口列為特定警察官不得任用事由。",
+            "correction": "須依該條對象、查核事實與相關程序認定，並非所有前科均一律不得任用。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law113-outer-22",
+        "amendment": {
+          "status": "review",
+          "law": "集會遊行法第3、25、26條；警政署109年教材",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "依所列官方法規及函釋補充已確認部分；題目省略條件、公告範圍或完整內規仍待核，保留官方原答案。",
+          "sources": [
+            {
+              "title": "集會遊行法第3、6、8、10、11、25及26條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            },
+            {
+              "title": "警政署109年教材：集遊警告及特殊情況代理",
+              "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOo6K2m5pS%2F572yMTA55bm05YWS5qyK5pWZ5p2QLeS4iueovy5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvMC8xNDQ1NC8xYzI1ZjJhYS1mYzIyLTRkODgtYjZmYi00ZDM3MmE0ZTU3M2EucGRm"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "保留官方答案B：警政署109年教材說明特殊情況下分局長不能到場可由代理人處理；C、D移送文件具體記載之現行完整內規尚待核。",
+        "takeaway": "教材屬109年歷史資料；現行具體主管權限與記載要求仍應查核。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "警政署109年教材以分局長為主辦理警告、命令解散或制止。",
+            "correction": "題目跨轄時主管機關可能依第3條第2項為警察局；本教材不能替代最新完整規範。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "109年教材明示特殊情況分局長無法到場，則由代理人為之。",
+            "correction": "不是特殊情況仍一律須本人在場；保留官方答案B，現行代理規定仍應核原件。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "移送書如涉及警告、制止、解散決定，應記錄決定機關及處置事實以利審查。",
+            "correction": "題述必須表明分局長決定的現行完整作業原件尚待核，且跨轄主管機關依第3條另判斷。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "轄內聚眾活動狀況表可用以記錄指揮處置及蒐證經過。",
+            "correction": "題述固定必須記載分局長決定的現行完整原件尚待核，應依實際決定與代理情形正確記載。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-14",
+        "amendment": {
+          "status": "review",
+          "law": "社會秩序維護法第23、31、32、43、45條；法務部81年法律字第08668號函",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "依所列官方法規及函釋補充已確認部分；題目省略條件、公告範圍或完整內規仍待核，保留官方原答案。",
+          "sources": [
+            {
+              "title": "社會秩序維護法第7、18-1、20、31、32、43至57、68及83條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            },
+            {
+              "title": "違反社會秩序維護法案件處理辦法第5、6及41條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+            },
+            {
+              "title": "法務部81年法律字第08668號函：查禁物單獨沒入",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE076579&media=print&type=E"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "保留官方答案B：訊問後並非一律由警察自行處分。法務部81年函區分查禁物單獨沒入與行為人違序行為的2個月期間；A法院收狀時點仍待原件。",
+        "takeaway": "警察處分與簡易庭裁定要分流；逾期未移送罰鍰之期間另依第32條。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第31條對非連續或繼續行為，自行為成立日起算2個月；連續或繼續狀態自終了日起算。",
+            "correction": "題列以法院收狀章戳暨時間為終點的完整實務依據仍待核。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第43條所列案件原則由警察處分；其餘應依第45條移送簡易庭裁定。",
+            "correction": "不是訊問後所有案件均自行處分；選B。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第32條規定罰鍰自裁處確定起逾3個月未移送行政執行，免予移送。",
+            "correction": "分期遲誤者另自遲誤當期到期日翌日起算。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "法務部81年法律字第08668號函認查禁物單獨沒入的對象為物，不適用第31條對行為人行為處罰的2個月期間。",
+            "correction": "此為該函釋就查禁物單獨沒入之見解，與對人處罰時效、已確定裁處執行期限分開。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-11",
+        "amendment": {
+          "status": "review",
+          "law": "集會遊行法第6條；釋字第445號",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "依所列官方法規及函釋補充已確認部分；題目省略條件、公告範圍或完整內規仍待核，保留官方原答案。",
+          "sources": [
+            {
+              "title": "集會遊行法第3、6、8、10、11、25及26條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            },
+            {
+              "title": "釋字第445號解釋：集遊許可與明顯立即危險",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C445&type=c"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "保留官方答案B：立法院未列第6條第1項第1款；其餘機關之周邊100公尺是否落入實際公告範圍，仍應核各公告。",
+        "takeaway": "法律列舉的機關、實際劃定的周邊範圍及主管機關核准例外必須分開。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "行政院列第6條第1項第1款，周邊範圍由內政部劃定公告。",
+            "correction": "法定上限不等於任何地點均有100公尺禁制，仍須查實際公告及核准。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "立法院本身未列第6條第1項第1款。",
+            "correction": "保留官方答案B；仍應確認具體地點有無落入其他列舉地區之公告周邊。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "考試院列於第6條第1項第1款。",
+            "correction": "周邊100公尺是否受限，應看實際公告；另有主管機關核准例外。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "各級法院列於第6條第1項第1款。",
+            "correction": "題示臺北地院周邊100公尺須以實際公告為準，不能直接把300公尺上限當成實際範圍。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-inner-19",
+        "amendment": {
+          "status": "review",
+          "law": "集會遊行法第6、8、10、11條；釋字第445、718號",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "依所列官方法規及函釋補充已確認部分；題目省略條件、公告範圍或完整內規仍待核，保留官方原答案。",
+          "sources": [
+            {
+              "title": "集會遊行法第3、6、8、10、11、25及26條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            },
+            {
+              "title": "釋字第445號解釋：集遊許可與明顯立即危險",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C445&type=c"
+            },
+            {
+              "title": "釋字第718號解釋：偶發及緊急集遊",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=c"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "保留官方答案D：依第11條第3款，有明顯事實足認特定法益受危害時得不許可；A所涉代表機構實際公告範圍及核准例外仍待核。",
+        "takeaway": "宗教民俗活動與室內集會資格應依各條件區分；第6條不是一律無核准例外。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第6條第1項第4款列駐華代表機構及其依法公告周邊；外交部劃定範圍不得逾50公尺。",
+            "correction": "是否包含題示20公尺須看實際公告；第6條並有主管機關核准例外，A不能一概排除。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "宗教及民俗活動依第8條第1項第3款，原則上不受該項室外集遊申請許可要求。",
+            "correction": "仍應按活動實際性質與其他適用規範判斷。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第10條資格限制針對應經許可的室外集會遊行負責人、代理人或糾察員。",
+            "correction": "不能將該條國籍限制直接概括為所有室內集會負責人。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第11條第3款列明顯事實足認危害生命、身體、自由或對財物造成重大損壞。",
+            "correction": "核准與否仍應依法具體判斷；釋字445要求對危險及比例審查。",
+            "trueStatement": true
+          }
+        ]
+      }
+    ],
+    "createdAt": 1794889488629
   }
 ]

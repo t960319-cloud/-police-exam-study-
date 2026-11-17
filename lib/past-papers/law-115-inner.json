@@ -880,26 +880,26 @@
       "options": [
         {
           "text": "行政院週邊 1 百公尺內",
-          "explanation": "行政院及其公告周邊為第6條所列地區；仍應核對公告範圍及核准。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "行政院列第6條第1項第1款，周邊範圍由內政部劃定公告。",
+          "correction": "法定上限不等於任何地點均有100公尺禁制，仍須查實際公告及核准。",
           "trueStatement": true
         },
         {
           "text": "立法院週邊 1 百公尺內",
-          "explanation": "立法院未列於集會遊行法第6條第1款，不能僅憑距離100公尺認定為該條禁制區。",
-          "correction": "立法院本身未列第6條，應另外核對附近是否位於其他已公告禁制區。",
+          "explanation": "立法院本身未列第6條第1項第1款。",
+          "correction": "保留官方答案B；仍應確認具體地點有無落入其他列舉地區之公告周邊。",
           "trueStatement": false
         },
         {
           "text": "考試院週邊 1 百公尺內",
-          "explanation": "考試院為第6條所列，適用已公告周邊範圍及核准例外。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "考試院列於第6條第1項第1款。",
+          "correction": "周邊100公尺是否受限，應看實際公告；另有主管機關核准例外。",
           "trueStatement": true
         },
         {
           "text": "臺北地方法院 1 百公尺內",
-          "explanation": "各級法院為第6條所列，仍須看周邊範圍公告及有無核准。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "各級法院列於第6條第1項第1款。",
+          "correction": "題示臺北地院周邊100公尺須以實際公告為準，不能直接把300公尺上限當成實際範圍。",
           "trueStatement": true
         }
       ],
@@ -916,16 +916,22 @@
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
         "status": "review",
-        "note": "已核對原卷、考選部標準答案及列示法規；題目涉及的全部歷史法令、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "law": "集會遊行法第6條；釋字第445號",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "unverified",
+        "note": "依所列官方法規及函釋補充已確認部分；題目省略條件、公告範圍或完整內規仍待核，保留官方原答案。",
         "sources": [
           {
-            "title": "集會遊行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+            "title": "集會遊行法第3、6、8、10、11、25及26條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+          },
+          {
+            "title": "釋字第445號解釋：集遊許可與明顯立即危險",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C445&type=c"
           }
         ]
       },
-      "takeaway": "立法院未列於集會遊行法第6條第1款，不能僅憑距離100公尺認定為該條禁制區。",
+      "takeaway": "法律列舉的機關、實際劃定的周邊範圍及主管機關核准例外必須分開。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -938,8 +944,13 @@
         {
           "title": "集會遊行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        },
+        {
+          "title": "釋字第445號解釋：集遊許可與明顯立即危險",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C445&type=c"
         }
-      ]
+      ],
+      "currentAnswer": "保留官方答案B：立法院未列第6條第1項第1款；其餘機關之周邊100公尺是否落入實際公告範圍，仍應核各公告。"
     },
     {
       "id": "law115-inner-12",
@@ -1485,26 +1496,26 @@
       "options": [
         {
           "text": "警察欲追緝毒品或可疑車輛時，對逃逸中車輛射擊，違反警械使用條例",
-          "explanation": "僅因可疑車輛逃逸不能當然射擊；仍需個別判斷是否具其他法定急迫生命身體危害。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "單為追緝毒品或可疑車輛，不能僅憑車輛逃逸即認有射擊依據。",
+          "correction": "若另有生命身體急迫危險等法定事實，仍須個別審查警械使用條例。",
           "trueStatement": true
         },
         {
           "text": "嫌犯倒車衝撞警察，警察射擊車窗，符合用槍時機",
-          "explanation": "倒車衝撞造成生命身體急迫危害時，符合條件得使用槍械，仍須必要、比例及避免波及。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "嫌犯以車倒退衝撞時，若符合第4條所定使用槍械及危及生命身體要件，得依法處理。",
+          "correction": "是否射擊仍須按具體危險、必要性及比例判斷，不是所有倒車均可射擊。",
           "trueStatement": true
         },
         {
           "text": "駐衛警察不得配發警槍",
-          "explanation": "駐衛警察得依法申請其他警械，使用警槍須隨帶警槍執照，不是全面不得配發。",
-          "correction": "改為依規定申請配發並核發、隨帶警槍執照。",
+          "explanation": "駐衛警察管理辦法第4條規範其他警械申請配發，第8條明定使用警槍時的執照。",
+          "correction": "不是一律不得配發警槍；選C。",
           "trueStatement": false
         },
         {
           "text": "民間守望組織可申請購置電擊器，每 2 年換領一次",
-          "explanation": "守望組織購置電擊器與許可期間涉及特別管理規定，仍須核對現行主管機關原件。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "僱用或任用符合規定人員之民間守望相助組織，可依管理辦法第7條申請購置電擊器。",
+          "correction": "第8條每2年換領的是警械執照；拋射式電擊器另限運送保全人員。",
           "trueStatement": true
         }
       ],
@@ -1513,28 +1524,34 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察法規概要｜第19題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 19,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "D選項之電擊器許可與換照現行原件尚待取得。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警械使用條例第4、7、13條；駐衛警察使用警械管理辦法第4、8條；警械許可定製售賣持有管理辦法第7、8條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列官方法規及法院裁定，核對題目核心事項；保留考選部原答案。",
         "sources": [
           {
-            "title": "警械使用條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+            "title": "警械使用條例第4、7及13條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
           },
           {
-            "title": "駐衛警察使用警械管理辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080053"
+            "title": "駐衛警察使用警械管理辦法第4、8條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080053"
+          },
+          {
+            "title": "警械許可定製售賣持有管理辦法第7、8條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080046"
           }
         ]
       },
-      "takeaway": "駐衛警察得依法申請其他警械，使用警槍須隨帶警槍執照，不是全面不得配發。",
+      "takeaway": "守望相助組織的電擊器須符合申請條件；每2年換領的是警械執照。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -1551,8 +1568,13 @@
         {
           "title": "駐衛警察使用警械管理辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080053"
+        },
+        {
+          "title": "警械許可定製售賣持有管理辦法第7、8條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080046"
         }
-      ]
+      ],
+      "currentAnswer": "C錯誤：駐衛警察使用警棍為原則，所需其他警械得依法申請配發；管理辦法並規定使用警槍時應隨帶警槍執照。"
     },
     {
       "id": "law115-inner-20",

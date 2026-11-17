@@ -319,3 +319,10 @@
 - 另依[警察人員人事條例](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005)補考績核定、年功俸最高額例外及免職各要件；兩題因原題B選項省略例外或「情節重大」維持待核。法規位階題亦補官方目錄及授權，但拘留所設置基準與集遊作業規定完整官方原件及位階仍待核；三題保留原官方答案。[證據與限制](legal-evidence-2026-11-17-execution-personnel.json)。
 
 - 發布紀錄：Sites 第32版來源 `c0058af90a9a690c332851ee796d8e75f51ae140`，部署 `appgdep_6afbd5612b8c819198478524b8ca77a8` 原生回報成功；網站維持公開。正式 API 本環境先前為 CONNECT 403，本次未完成正式資料讀回，正式帳號驗收仍未執行。
+
+### 2026-11-17：社維既判力、查禁物與集遊範圍
+
+- 依[法務部109年函](https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE336786&media=print&type=E)，修正112內軌第24題原先「法院駁回後警察絕不能撤銷」的過度概括：實體裁定確定後應尊重既判力，但是否能職權撤銷須看既判力範圍，題目保留官方答案及待核。112內軌第22題補社維法第18條之1有期徒刑以上之刑、業務關聯及比例原則。
+- [法務部81年函](https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE076579&media=print&type=E)說明查禁物單獨沒入與行為人2個月時效分別；114外軌第14題法院收狀細節仍待原件。另依[臺東地院裁定](https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TTDM%2C111%2C%E6%9D%B1%E7%A7%A9%2C12%2C20220520%2C1)補藉端滋擾要件，依社維法第7、72、73、82、83條補故意及其他構成要件。
+- 查訪題補[森林竊盜判例](https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=B%2C93%2C%E5%8F%B0%E4%B8%8A%2C860%2C001&kw=&type=J1)、查訪辦法及警察人事任用法定限制。集遊題區分核准例外與實際公告範圍；109年警政署教材僅作歷史證據，最新移送書與舉牌內規仍待核。
+- 依警械兩項管理辦法核對駐衛警槍、守望組織購置電擊器及警械執照2年換領，並補拋射式限制。共三題逐項核對、七題補充後維持待核，原題及官方答案不變。[證據與限制](legal-evidence-2026-11-17-social-assembly.json)。

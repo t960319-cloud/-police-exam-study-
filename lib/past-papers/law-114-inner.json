@@ -1460,26 +1460,26 @@
       "options": [
         {
           "text": "依法得於美國在臺協會週邊 20 公尺內道路上舉行室外集會遊行",
-          "explanation": "外國使領館或其他特定地區及周邊範圍仍須核對依法公告及核准，不能只憑20公尺推定可辦。",
-          "correction": "依第6條及公告禁制範圍，必要時取得核准。",
+          "explanation": "第6條第1項第4款列駐華代表機構及其依法公告周邊；外交部劃定範圍不得逾50公尺。",
+          "correction": "是否包含題示20公尺須看實際公告；第6條並有主管機關核准例外，A不能一概排除。",
           "trueStatement": false
         },
         {
           "text": "於室外聚眾舉辦廟會進香活動，應向所在地警察分局申請集會遊行",
-          "explanation": "宗教、民俗、婚喪喜慶活動為第8條例外，不必一律申請集遊許可。",
-          "correction": "改為宗教進香原則免依本法申請，另遵守交通等規定。",
+          "explanation": "宗教及民俗活動依第8條第1項第3款，原則上不受該項室外集遊申請許可要求。",
+          "correction": "仍應按活動實際性質與其他適用規範判斷。",
           "trueStatement": false
         },
         {
           "text": "非本國籍人士不得為室內集會之負責人",
-          "explanation": "第7條限制適用室外集會、遊行負責人，不能概括套用室內集會。",
-          "correction": "改為依第7條審查室外活動負責人資格。",
+          "explanation": "第10條資格限制針對應經許可的室外集會遊行負責人、代理人或糾察員。",
+          "correction": "不能將該條國籍限制直接概括為所有室內集會負責人。",
           "trueStatement": false
         },
         {
           "text": "有明顯事實足認為有危害生命、身體、自由或對財物造成重大損壞者，得否准其室外集會遊行 申請",
-          "explanation": "有明顯事實足認危害生命、身體、自由或對財物造成重大損壞，主管機關得依第11條不予許可。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第11條第3款列明顯事實足認危害生命、身體、自由或對財物造成重大損壞。",
+          "correction": "核准與否仍應依法具體判斷；釋字445要求對危險及比例審查。",
           "trueStatement": true
         }
       ],
@@ -1496,16 +1496,26 @@
       "answerStatus": "考選部原始答案與更正公告已核",
       "amendment": {
         "status": "review",
-        "note": "已核對原卷、考選部當年原始答案與列示法規；涉及之歷史條文和全部後續修正仍需逐項比對。",
-        "checkedAt": "2026-11-10",
+        "law": "集會遊行法第6、8、10、11條；釋字第445、718號",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "unverified",
+        "note": "依所列官方法規及函釋補充已確認部分；題目省略條件、公告範圍或完整內規仍待核，保留官方原答案。",
         "sources": [
           {
-            "title": "集會遊行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+            "title": "集會遊行法第3、6、8、10、11、25及26條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+          },
+          {
+            "title": "釋字第445號解釋：集遊許可與明顯立即危險",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C445&type=c"
+          },
+          {
+            "title": "釋字第718號解釋：偶發及緊急集遊",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=c"
           }
         ]
       },
-      "takeaway": "有明顯事實足認危害生命、身體、自由或對財物造成重大損壞，主管機關得依第11條不予許可。",
+      "takeaway": "宗教民俗活動與室內集會資格應依各條件區分；第6條不是一律無核准例外。",
       "sources": [
         {
           "title": "考選部114年警察四等警察法規概要原卷",
@@ -1518,8 +1528,17 @@
         {
           "title": "集會遊行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        },
+        {
+          "title": "釋字第445號解釋：集遊許可與明顯立即危險",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C445&type=c"
+        },
+        {
+          "title": "釋字第718號解釋：偶發及緊急集遊",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=c"
         }
-      ]
+      ],
+      "currentAnswer": "保留官方答案D：依第11條第3款，有明顯事實足認特定法益受危害時得不許可；A所涉代表機構實際公告範圍及核准例外仍待核。"
     },
     {
       "id": "law114-inner-20",

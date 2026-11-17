@@ -1647,26 +1647,26 @@
       "options": [
         {
           "text": "曾竊取他人盜伐之紅檜者，屬查訪對象",
-          "explanation": "曾犯特定森林贓物犯罪的查訪範圍須依列舉辦法辨明，不能任意擴張。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "查訪辦法第2條第8款列森林法第50條及第52條特定森林產物竊盜，排除第50條第2項贓物罪。",
+          "correction": "最高法院93年台上860說明在林地內竊取他人盜伐後尚未運走之林木，與單純贓物行為不同；還須符合執行完畢或假釋及期限。",
           "trueStatement": true
         },
         {
           "text": "查訪性質是行政調查的事實行為",
-          "explanation": "一般查訪屬行政事實行為，不當然是具規制效力的行政處分。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "內政部說明定期查訪原則屬任意性行為，無查訪強制力。",
+          "correction": "行政調查事實行為仍須符合合法目的、比例及個資規定。",
           "trueStatement": true
         },
         {
           "text": "受查訪人不在家時，得通知鄰居轉達",
-          "explanation": "不得向鄰居洩漏查訪對象的治安顧慮身分；應採不洩密方式聯繫。",
-          "correction": "不得向鄰居洩漏查訪對象的治安顧慮身分；應採不洩密方式聯繫。",
+          "explanation": "查訪辦法第5條要求注意避免影響工作及名譽；內政部說明不得任意對里長提供治安顧慮資料。",
+          "correction": "考選部答案C；鄰居轉達有洩露身分風險，但具體通知方式仍須依法個別判斷。",
           "trueStatement": false
         },
         {
           "text": "受查訪之治安顧慮人口，縱經警察人員考試錄取，經查核後仍不得任用",
-          "explanation": "考錄任用查核需法定目的與範圍，原題答案保留；現行人事限制及查核授權仍待原件確認。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "警察人員人事條例第10條之1將「曾列」警職法第15條第1項各款治安顧慮人口列為特定警察官不得任用事由。",
+          "correction": "須依該條對象、查核事實與相關程序認定，並非所有前科均一律不得任用。",
           "trueStatement": true
         }
       ],
@@ -1682,16 +1682,38 @@
       "answerStatus": "官方Q原卷及S答案已核；官方目錄未列本科M更正。",
       "amendment": {
         "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
-        "checkedAt": "2026-11-10",
+        "law": "警察職權行使法第15條；治安顧慮人口查訪辦法第2、5條；警察人員人事條例第10條之1",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "unverified",
+        "note": "依所列官方法規及函釋補充已確認部分；題目省略條件、公告範圍或完整內規仍待核，保留官方原答案。",
         "sources": [
           {
-            "title": "警察職權行使法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+            "title": "警察職權行使法第15條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          },
+          {
+            "title": "治安顧慮人口查訪辦法第2、4、5條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+          },
+          {
+            "title": "警察人員人事條例第10條之1",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
+          },
+          {
+            "title": "森林法第50、52條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=M0040001"
+          },
+          {
+            "title": "最高法院93年度台上字第860號判例：竊取他人盜伐林木",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=B%2C93%2C%E5%8F%B0%E4%B8%8A%2C860%2C001&kw=&type=J1"
+          },
+          {
+            "title": "內政部問答：治安顧慮人口資料不得任意提供里長",
+            "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&_Query=8aad0325-4cff-40ef-8903-22b6257c01a1&n=174&page=23&sms=9015"
           }
         ]
       },
-      "takeaway": "不得向鄰居洩漏查訪對象的治安顧慮身分；應採不洩密方式聯繫。",
+      "takeaway": "森林竊盜與單純收受、搬運贓物不同；曾列管之任用限制亦應精確依法律查核。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -1705,8 +1727,29 @@
         {
           "title": "警察職權行使法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        },
+        {
+          "title": "治安顧慮人口查訪辦法第2、4、5條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+        },
+        {
+          "title": "警察人員人事條例第10條之1",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
+        },
+        {
+          "title": "森林法第50、52條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=M0040001"
+        },
+        {
+          "title": "最高法院93年度台上字第860號判例：竊取他人盜伐林木",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=B%2C93%2C%E5%8F%B0%E4%B8%8A%2C860%2C001&kw=&type=J1"
+        },
+        {
+          "title": "內政部問答：治安顧慮人口資料不得任意提供里長",
+          "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&_Query=8aad0325-4cff-40ef-8903-22b6257c01a1&n=174&page=23&sms=9015"
         }
-      ]
+      ],
+      "currentAnswer": "保留官方答案C：查訪須避免損害名譽並保護資料。A所涉竊取他人盜伐木與贓物罪需依實際情形區分，題目未列執行或假釋條件。"
     },
     {
       "id": "law112-inner-22",
@@ -1718,26 +1761,26 @@
       "options": [
         {
           "text": "如犯有刑法妨害風化罪，依據社會秩序維護法得對該商號勒令歇業",
-          "explanation": "受雇從事妨害風化等社維法特定行為，依法得對營業人為勒令歇業處分。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第18條之1列受雇人因執行業務犯妨害風化罪，經判決有期徒刑以上刑者，得處商業勒令歇業。",
+          "correction": "題目只說判決科刑，未明列有期徒刑以上；保留原答案，判斷時應補足。",
           "trueStatement": true
         },
         {
           "text": "如犯有人口販運防制法之罪，依據社會秩序維護法對該商號處以罰鍰",
-          "explanation": "人口販運屬刑事特別法，不能以本題社維法罰鍰概括取代刑事追訴。",
-          "correction": "人口販運屬刑事特別法，不能以本題社維法罰鍰概括取代刑事追訴。",
+          "explanation": "人口販運防制法之罪同列第18條之1，但該條規定的公司或商業制裁為得勒令歇業。",
+          "correction": "不是第18條之1當然對該商號處以罰鍰；仍須判決刑度及其他法定條件。",
           "trueStatement": false
         },
         {
           "text": "如犯有妨害秘密罪者，依據商業登記法對該商號勒令歇業",
-          "explanation": "是否歇業須依社維法特別規範，不能僅以商業登記規定作處罰依據。",
-          "correction": "是否歇業須依社維法特別規範，不能僅以商業登記規定作處罰依據。",
+          "explanation": "妨害秘密罪已列於第18條之1，並非本題所稱妨害秘密即可直接依商業登記法勒令歇業。",
+          "correction": "應查明具體違法行為及適用法律；勿否認其他法律可能有獨立事由。",
           "trueStatement": false
         },
         {
           "text": "如犯有妨害性自主罪者，依據公司法對該商號停業處分",
-          "explanation": "妨害性自主案件應依刑法及相關法制，不能直接依公司法裁處本題制裁。",
-          "correction": "妨害性自主案件應依刑法及相關法制，不能直接依公司法裁處本題制裁。",
+          "explanation": "第18條之1所列刑法罪名不包含妨害性自主罪，本題亦未給出公司法所指的具體要件。",
+          "correction": "其他法律是否有處分依據，仍應依個案法定事實判斷。",
           "trueStatement": false
         }
       ],
@@ -1753,20 +1796,18 @@
       "answerStatus": "官方Q原卷及S答案已核；官方目錄未列本科M更正。",
       "amendment": {
         "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。114.06.11社維法僅修正第9、64、72、89條，須以具體引用條號確認影響，不能僅因全法修正就改原題答案。",
-        "checkedAt": "2026-11-10",
+        "law": "社會秩序維護法第18條之1、第19條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "unverified",
+        "note": "依所列官方法規及函釋補充已確認部分；題目省略條件、公告範圍或完整內規仍待核，保留官方原答案。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
-          },
-          {
-            "title": "違反社會秩序維護法案件處理辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+            "title": "社會秩序維護法第7、18-1、20、31、32、43至57、68及83條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           }
         ]
       },
-      "takeaway": "受雇從事妨害風化等社維法特定行為，依法得對營業人為勒令歇業處分。",
+      "takeaway": "公司等營業體的勒令歇業須符合法定罪名、業務關聯、判決刑度及比例原則。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -1785,7 +1826,8 @@
           "title": "違反社會秩序維護法案件處理辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
         }
-      ]
+      ],
+      "currentAnswer": "保留官方答案A：第18條之1包括業務上犯妨害風化罪的受雇人，但須判決有期徒刑以上，題目僅寫「判決科刑」，未完整表達此要件。"
     },
     {
       "id": "law112-inner-23",
@@ -1895,26 +1937,26 @@
       "options": [
         {
           "text": "過失違反者，得准許分期完納罰鍰",
-          "explanation": "罰鍰分期須符合資力等法定條件，不以故意或過失直接決定能否分期。",
-          "correction": "罰鍰分期須符合資力等法定條件，不以故意或過失直接決定能否分期。",
+          "explanation": "第20條分期條件是被處罰人依經濟狀況不能即時完納，並得准於3個月內分期。",
+          "correction": "不能僅以過失或故意判斷是否准予分期。",
           "trueStatement": false
         },
         {
           "text": "經裁處後執行",
-          "explanation": "處分尚未確定不得逕稱已進入確定處分執行，須先核對法定救濟期間。",
-          "correction": "處分尚未確定不得逕稱已進入確定處分執行，須先核對法定救濟期間。",
+          "explanation": "第51條規定違反本法案件的處罰於裁處確定後執行。",
+          "correction": "不服時依第55至57條聲明異議；不是一經裁處就必然執行。",
           "trueStatement": false
         },
         {
           "text": "負責人以便簽表示冤枉，警察機關應予駁回",
-          "explanation": "聲明異議應審查實質意思、理由及補正可能，不得僅因便簽形式即剝奪救濟。",
-          "correction": "聲明異議應審查實質意思、理由及補正可能，不得僅因便簽形式即剝奪救濟。",
+          "explanation": "第55條要求以書狀敘明理由；可補正者依第57條定期命補正。",
+          "correction": "便箋形式不等於當然駁回，應先依其內容及法定程序判斷。",
           "trueStatement": false
         },
         {
           "text": "受處罰人聲明異議經裁定駁回，警察機關不可撤銷原處分",
-          "explanation": "簡易庭已駁回異議而確定，原警察機關不能再自行撤銷確定原處分。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "法務部109年函認簡易庭實體裁定確定具實質確定力，機關依職權撤銷須視既判力所及範圍。",
+          "correction": "保留官方答案D；實體／程序裁定及其後事實法律變更須區別，原題「不可」不宜無條件絕對化。",
           "trueStatement": true
         }
       ],
@@ -1930,20 +1972,26 @@
       "answerStatus": "官方Q原卷及S答案已核；官方目錄未列本科M更正。",
       "amendment": {
         "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。114.06.11社維法僅修正第9、64、72、89條，須以具體引用條號確認影響，不能僅因全法修正就改原題答案。",
-        "checkedAt": "2026-11-10",
+        "law": "社會秩序維護法第20、51、55至57、77條；法務部109年法律字第10903501010號函",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "unverified",
+        "note": "依所列官方法規及函釋補充已確認部分；題目省略條件、公告範圍或完整內規仍待核，保留官方原答案。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+            "title": "社會秩序維護法第7、18-1、20、31、32、43至57、68及83條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           },
           {
-            "title": "違反社會秩序維護法案件處理辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+            "title": "違反社會秩序維護法案件處理辦法第5、6及41條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+          },
+          {
+            "title": "法務部109年法律字第10903501010號函：社維異議裁定確定力",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE336786&media=print&type=E"
           }
         ]
       },
-      "takeaway": "簡易庭已駁回異議而確定，原警察機關不能再自行撤銷確定原處分。",
+      "takeaway": "分期須依經濟狀況；未確定不執行；法院實體與程序裁定的效力應分別審查。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -1961,8 +2009,13 @@
         {
           "title": "違反社會秩序維護法案件處理辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+        },
+        {
+          "title": "法務部109年法律字第10903501010號函：社維異議裁定確定力",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE336786&media=print&type=E"
         }
-      ]
+      ],
+      "currentAnswer": "保留官方答案D：簡易庭實體裁定確定後，須尊重既判力；法務部指出機關能否撤銷仍應看既判力範圍，不能一概寫成任何情況都不能撤銷。"
     },
     {
       "id": "law112-inner-25",

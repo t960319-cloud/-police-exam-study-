@@ -799,26 +799,26 @@
       "options": [
         {
           "text": "無正當理由",
-          "explanation": "藉端滋擾重點在特定事端的不當擴大，非另以無正當理由作獨立必要要件。",
-          "correction": "藉端滋擾重點在特定事端的不當擴大，非另以無正當理由作獨立必要要件。",
+          "explanation": "第68條第2款文字及所列裁定的藉端滋擾判斷，未列「無正當理由」為本題所問獨立要件。",
+          "correction": "不代表正當行使權利或其他阻卻違法事由無須審查；選A。",
           "trueStatement": false
         },
         {
           "text": "行為人有滋擾之本意",
-          "explanation": "須有滋擾的意思，不能只因對方不快即成立。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "所引裁定以具有滋擾場所的本意作為判斷因素之一。",
+          "correction": "不能只因當事人發生口角或某人感到不快就推定成立。",
           "trueStatement": true
         },
         {
           "text": "行為人以言語、行動等方式，藉特定事端擴大發揮",
-          "explanation": "以言語行動藉特定事端擴大發揮，屬藉端要素。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "裁定所述行為方式包括藉特定事端以言語或行動擴大發揮。",
+          "correction": "應看具體情境與整體行為，而非僅看形式。",
           "trueStatement": true
         },
         {
           "text": "逾越特定事端在一般社會通念中可容許之合理範圍，而擾及安寧秩序，以致於難以維持或回復",
-          "explanation": "行為超出社會通念容許範圍並擾亂安寧秩序，始可能成立。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "裁定考量行為是否逾越社會通念合理範圍，並擾及場所安寧秩序致難維持或回復。",
+          "correction": "該見解應結合個案事實與證據適用。",
           "trueStatement": true
         }
       ],
@@ -826,28 +826,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜警察法規概要｜第11題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 11,
       "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。114.06.11社維法僅修正第9、64、72、89條，須以具體引用條號確認影響，不能僅因全法修正就改原題答案。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "社會秩序維護法第68條第2款；臺東地院111年度東秩字第12號裁定",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列官方法規及法院裁定，核對題目核心事項；保留考選部原答案。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+            "title": "社會秩序維護法第7、18-1、20、31、32、43至57、68及83條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           },
           {
-            "title": "違反社會秩序維護法案件處理辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+            "title": "臺灣臺東地方法院111年度東秩字第12號刑事裁定",
+            "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TTDM%2C111%2C%E6%9D%B1%E7%A7%A9%2C12%2C20220520%2C1"
           }
         ]
       },
-      "takeaway": "藉端滋擾重點在特定事端的不當擴大，非另以無正當理由作獨立必要要件。",
+      "takeaway": "滋擾本意、藉事擴大、超過合理範圍與安寧秩序受擾，須結合具體證據判斷。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -865,8 +867,13 @@
         {
           "title": "違反社會秩序維護法案件處理辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+        },
+        {
+          "title": "臺灣臺東地方法院111年度東秩字第12號刑事裁定",
+          "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TTDM%2C111%2C%E6%9D%B1%E7%A7%A9%2C12%2C20220520%2C1"
         }
-      ]
+      ],
+      "currentAnswer": "A為官方答案：該裁定對「藉端滋擾」的判斷，沒有把「無正當理由」列為獨立文字要件；仍須具體審查行為是否合法。"
     },
     {
       "id": "law113-inner-12",
