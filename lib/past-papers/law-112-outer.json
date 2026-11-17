@@ -272,26 +272,26 @@
       "options": [
         {
           "text": "如 A 分局受理在先，由 A 分局管轄",
-          "explanation": "受理在先主要處理競合管轄，不能解決兩機關均否認權限的爭議。",
-          "correction": "受理在先主要處理競合管轄，不能解決兩機關均否認權限的爭議。",
+          "explanation": "第15條受理在先適用數機關都有管轄權；本題雙方均認無權而有爭議。",
+          "correction": "不可直接套用受理在先。",
           "trueStatement": false
         },
         {
           "text": "由 A 分局與 B 分局協議定之",
-          "explanation": "兩分局自行協議不能取代法定指定管轄程序。",
-          "correction": "兩分局自行協議不能取代法定指定管轄程序。",
+          "explanation": "第16條規定由共同直接上級警察機關指定。",
+          "correction": "不是由兩分局自行協議決定。",
           "trueStatement": false
         },
         {
           "text": "由 A 分局與 B 分局之各該上級警察機關協議定之",
-          "explanation": "各自上級協議不是本題共同直接上級指定的法定方式。",
-          "correction": "各自上級協議不是本題共同直接上級指定的法定方式。",
+          "explanation": "條文明定共同直接上級警察機關指定。",
+          "correction": "不以各機關各自上級協議取代。",
           "trueStatement": false
         },
         {
           "text": "由 A 分局與 B 分局之共同直接上級警察機關指定管轄",
-          "explanation": "兩分局發生消極管轄爭議，由共同直接上級警察機關指定。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "管轄爭議依第16條由共同直接上級警察機關指定。",
+          "correction": "本題選D。",
           "trueStatement": true
         }
       ],
@@ -299,28 +299,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年外軌四等｜警察法規概要｜第4題",
       "paperYear": 112,
       "paperTrack": "外軌",
       "paperNumber": 4,
       "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。114.06.11社維法僅修正第9、64、72、89條，須以具體引用條號確認影響，不能僅因全法修正就改原題答案。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "違反社會秩序維護法案件處理辦法第15、16條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留112年官方答案D。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
-          },
-          {
-            "title": "違反社會秩序維護法案件處理辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+            "title": "違反社會秩序維護法案件處理辦法第5、15、16、39、63條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
           }
         ]
       },
-      "takeaway": "兩分局發生消極管轄爭議，由共同直接上級警察機關指定。",
+      "takeaway": "數機關有管轄權的受理在先，與管轄爭議的上級指定不同。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -339,7 +337,8 @@
           "title": "違反社會秩序維護法案件處理辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
         }
-      ]
+      ],
+      "currentAnswer": "D正確：警察機關管轄案件有爭議，由共同直接上級警察機關指定管轄。"
     },
     {
       "id": "law112-outer-05",
@@ -351,26 +350,26 @@
       "options": [
         {
           "text": "處分書主文之內容，如有誤寫、誤算之顯然錯誤者，原處分之警察機關應更正之",
-          "explanation": "主文實質處分內容不得藉文字更正程序變更，須區別可更正的非實質誤記。",
-          "correction": "主文實質處分內容不得藉文字更正程序變更，須區別可更正的非實質誤記。",
+          "explanation": "第39條限處分書主文以外之內容。",
+          "correction": "主文錯誤不能直接套用此條形式更正。",
           "trueStatement": false
         },
         {
           "text": "違反社會秩序維護法之行為事實之認定有顯然錯誤者，原處分之警察機關應更正之",
-          "explanation": "事實認定錯誤是實質違法，不能當作誤寫誤算更正。",
-          "correction": "事實認定錯誤是實質違法，不能當作誤寫誤算更正。",
+          "explanation": "事實認定錯誤可能涉及實質判斷，不當然只是文字誤寫。",
+          "correction": "應依具體錯誤性質及救濟程序處理。",
           "trueStatement": false
         },
         {
           "text": "違反社會秩序維護法之行為事實評價存有瑕疵者，原處分之警察機關應更正之",
-          "explanation": "法律評價瑕疵屬實質問題，須依法定撤銷或救濟程序處理。",
-          "correction": "法律評價瑕疵屬實質問題，須依法定撤銷或救濟程序處理。",
+          "explanation": "行為事實評價瑕疵屬實質判斷，不能逕以第39條更正誤寫替代。",
+          "correction": "應依性質循撤銷、變更或救濟程序。",
           "trueStatement": false
         },
         {
           "text": "原處分之警察機關對於處分書之內容為更正後，應製作表示更正意旨之通知送達受處分人",
-          "explanation": "更正後應製作表示更正意旨的通知並送達受處分人。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第39條第2項要求製作更正意旨通知並送達受處分人。",
+          "correction": "本題選D。",
           "trueStatement": true
         }
       ],
@@ -378,28 +377,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年外軌四等｜警察法規概要｜第5題",
       "paperYear": 112,
       "paperTrack": "外軌",
       "paperNumber": 5,
       "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。114.06.11社維法僅修正第9、64、72、89條，須以具體引用條號確認影響，不能僅因全法修正就改原題答案。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "違反社會秩序維護法案件處理辦法第39條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留112年官方答案D。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
-          },
-          {
-            "title": "違反社會秩序維護法案件處理辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+            "title": "違反社會秩序維護法案件處理辦法第5、15、16、39、63條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
           }
         ]
       },
-      "takeaway": "更正後應製作表示更正意旨的通知並送達受處分人。",
+      "takeaway": "第39條的形式更正限主文以外顯然錯誤，實質爭議另循法定程序。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -418,7 +415,8 @@
           "title": "違反社會秩序維護法案件處理辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
         }
-      ]
+      ],
+      "currentAnswer": "D正確：更正處分書主文以外的顯然誤寫、誤算等，應製作更正通知送達受處分人。"
     },
     {
       "id": "law112-outer-06",
@@ -430,26 +428,26 @@
       "options": [
         {
           "text": "依該法第 26 條之「再犯」規定加重處罰",
-          "explanation": "再犯加重要件包括前次處罰執行完畢等條件，本題尚未執行，不能適用。",
-          "correction": "再犯加重要件包括前次處罰執行完畢等條件，本題尚未執行，不能適用。",
+          "explanation": "第26條須前次處罰執行完畢後三個月內再犯；題示前案尚未執行。",
+          "correction": "不符合該條再犯加重前提。",
           "trueStatement": false
         },
         {
           "text": "依該法第 24 條第 1 項但書規定，以一行為論，並加重處罰",
-          "explanation": "相隔數月另起犯意再兜售，不是一個持續行為。",
-          "correction": "相隔數月另起犯意再兜售，不是一個持續行為。",
+          "explanation": "第24條但書以警察通知單送達或逕行通知前的同條款行為為要件；前案已確定。",
+          "correction": "後一行為發生於前案已確定後。",
           "trueStatement": false
         },
         {
           "text": "依該法第 86 條規定，處罰鍰外，併處停止營業或勒令歇業",
-          "explanation": "第八十六條未授權本行為併處停止營業或勒令歇業。",
-          "correction": "第八十六條未授權本行為併處停止營業或勒令歇業。",
+          "explanation": "第86條法定處罰為三千元以下罰鍰或申誡，未列停業或歇業。",
+          "correction": "不得添加條文未規定處罰。",
           "trueStatement": false
         },
         {
           "text": "依該法第 86 條規定處罰",
-          "explanation": "後一兜售不聽禁止行為獨立依第八十六條處罰。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "後行為符合第86條敘述，依法處罰並注意具體調查。",
+          "correction": "本題選D。",
           "trueStatement": true
         }
       ],
@@ -457,28 +455,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年外軌四等｜警察法規概要｜第6題",
       "paperYear": 112,
       "paperTrack": "外軌",
       "paperNumber": 6,
       "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。114.06.11社維法僅修正第9、64、72、89條，須以具體引用條號確認影響，不能僅因全法修正就改原題答案。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "社會秩序維護法第24、26及86條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留112年官方答案D。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+            "title": "社會秩序維護法第24、26、39、43、45、46、55至58、81、86、87條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           },
           {
-            "title": "違反社會秩序維護法案件處理辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+            "title": "違反社會秩序維護法案件處理辦法第5、15、16、39、63條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
           }
         ]
       },
-      "takeaway": "後一兜售不聽禁止行為獨立依第八十六條處罰。",
+      "takeaway": "確定不等於執行完畢；判斷數行為時留意前案已通知確定。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -497,7 +497,8 @@
           "title": "違反社會秩序維護法案件處理辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
         }
-      ]
+      ],
+      "currentAnswer": "D正確：前案雖確定卻未執行，尚不具第26條執行完畢後再犯條件；依第86條處理後案。"
     },
     {
       "id": "law112-outer-07",
@@ -1333,26 +1334,26 @@
       "options": [
         {
           "text": "決定國賠與否及賠償金額之爭議",
-          "explanation": "國賠責任及金額仍循國賠協議、訴訟等程序，調查小組不作終局國賠決定。",
-          "correction": "國賠責任及金額仍循國賠協議、訴訟等程序，調查小組不作終局國賠決定。",
+          "explanation": "第10條之1與設置辦法第2條未將決定國賠及金額列為小組職權。",
+          "correction": "國賠依其他法定程序處理；本題選A。",
           "trueStatement": false
         },
         {
           "text": "調查警械使用時機、過程與相關行政責任及提供意見",
-          "explanation": "小組調查使用時機、過程、行政責任並提供意見。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "小組得就死亡或重傷爭議事件之使用時機、過程及相關行政責任調查並提供意見。",
+          "correction": "不是所有警械使用均自動啟動相同調查。",
           "trueStatement": true
         },
         {
           "text": "判斷警械使用之妥適性",
-          "explanation": "判斷警械使用妥適性屬法定調查內容。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第10條之1第2項規定小組判斷使用妥適性，得考量使用人當時合理認知。",
+          "correction": "仍應依事件具體判斷。",
           "trueStatement": true
         },
         {
           "text": "提供司法警察機關使用警械之教育訓練及倫理促進之建議",
-          "explanation": "教育訓練及倫理建議屬小組可提供的制度改善意見。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第10條之1第3項明定得提供司法警察機關教育訓練及倫理促進建議。",
+          "correction": "屬建議，不能混同國賠決定。",
           "trueStatement": true
         }
       ],
@@ -1360,28 +1361,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年外軌四等｜警察法規概要｜第18題",
       "paperYear": 112,
       "paperTrack": "外軌",
       "paperNumber": 18,
       "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警械使用條例第10條之1；警械使用調查小組設置及運作辦法第2條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留112年官方答案A。",
         "sources": [
           {
-            "title": "警械使用條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+            "title": "警械使用條例第10條之1",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
           },
           {
-            "title": "警械使用事件補償辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+            "title": "警械使用調查小組設置及運作辦法第2條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080218"
           }
         ]
       },
-      "takeaway": "國賠責任及金額仍循國賠協議、訴訟等程序，調查小組不作終局國賠決定。",
+      "takeaway": "小組調查和建議，不等於直接決定國賠爭議。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -1399,8 +1402,13 @@
         {
           "title": "警械使用事件補償辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+        },
+        {
+          "title": "警械使用調查小組設置及運作辦法第2條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080218"
         }
-      ]
+      ],
+      "currentAnswer": "A不屬該小組法定權責：國家賠償與金額應依國家賠償相關程序處理。"
     },
     {
       "id": "law112-outer-19",

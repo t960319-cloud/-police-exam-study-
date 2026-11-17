@@ -102,26 +102,26 @@
       "options": [
         {
           "text": "懷胎 5 月以上或生產後 2 月未滿者",
-          "explanation": "懷胎五月以上或產後未滿二月，依第21條通知停止管收，與第22條釋放事由有別。",
-          "correction": "改為以書面通知管收所停止管收；事故消滅可依法聲請再管收。",
+          "explanation": "第21條列懷胎五月以上或產後未滿二月為不得管收；發生於管收後應通知停止管收。",
+          "correction": "不是第22條所列釋放事由；本題選A。",
           "trueStatement": false
         },
         {
           "text": "義務已全部履行或執行完畢者",
-          "explanation": "義務全部履行或執行完畢，是第22條即時通知釋放事由。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第22條第1款明列義務已全部履行或執行完畢。",
+          "correction": "應即以書面通知管收所釋放。",
           "trueStatement": true
         },
         {
           "text": "管收期限屆滿者",
-          "explanation": "管收期限屆滿，應書面通知釋放，不可繼續拘束。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第22條第3款明列管收期限屆滿。",
+          "correction": "不得超期管收。",
           "trueStatement": true
         },
         {
           "text": "義務人就義務之履行已提供確實之擔保者",
-          "explanation": "已提供確實擔保屬第22條釋放原因；注意與拘提後「相當擔保」用語不同。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第22條第4款明列已提供確實擔保。",
+          "correction": "注意條文用語「確實」。",
           "trueStatement": true
         }
       ],
@@ -130,24 +130,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察法規概要｜第2題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 2,
       "answerStatus": "考選部原始答案與更正公告已核",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部當年原始答案與列示法規；涉及之歷史條文和全部後續修正仍需逐項比對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "行政執行法第21、22條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留114年官方答案A。",
         "sources": [
           {
-            "title": "行政執行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+            "title": "行政執行法第21、22條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
           }
         ]
       },
-      "takeaway": "懷胎五月以上或產後未滿二月，依第21條通知停止管收，與第22條釋放事由有別。",
+      "takeaway": "停止管收與釋放是不同法定程序。",
       "sources": [
         {
           "title": "考選部114年警察四等警察法規概要原卷",
@@ -161,7 +163,8 @@
           "title": "行政執行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
         }
-      ]
+      ],
+      "currentAnswer": "A錯誤：懷胎五月以上或產後未滿二月，屬不得管收或管收後停止管收；題目所問即通知釋放另列於第22條。"
     },
     {
       "id": "law114-inner-03",
@@ -1525,26 +1528,26 @@
       "options": [
         {
           "text": "可以在非上班或勤務時間，參與集會遊行",
-          "explanation": "非上班或勤務時間參與集會遊行並非一概禁止，但仍受不得主持、領導及職務利益等限制。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "依第7條與官方說明，下班或請假期間單純參與集會遊行，並非一律禁止。",
+          "correction": "仍不得有第9條禁止之主持等行為；本題選A。",
           "trueStatement": true
         },
         {
           "text": "雖不可在辦公處所擺放標示公職候選人的旗幟或宣傳品，但價值不超過新臺幣 30 元以下的面 紙，不在此限",
-          "explanation": "第9條禁止在辦公場所標示特定候選人旗幟等，不能任意添加30元面紙例外。",
-          "correction": "依法禁標示及行政資源限制，勿自行創設金額豁免。",
+          "explanation": "第9條對動用行政資源宣傳及在辦公場所標示政黨或候選人旗幟等有規範，沒有以30元設一概例外。",
+          "correction": "是否違反須看具體用途、展示及法定要件，不能僅以面紙價值斷定。",
           "trueStatement": false
         },
         {
           "text": "不得參與任何罷免公職人員連署活動",
-          "explanation": "不得利用職權要求他人連署或不連署，與一律不能自行參與連署不同。",
-          "correction": "改為不得利用職權、機會或方法要求他人為一定連署。",
+          "explanation": "官方說明單純參與連署不等於第9條所禁止的領導連署。",
+          "correction": "不可把「不得領導」擴張成任何連署均不得參與；其他法律規範仍須注意。",
           "trueStatement": false
         },
         {
           "text": "不得為自己配偶或子女之公職候選人，公開站台、助講、遊行或拜票",
-          "explanation": "候選人配偶及二親等以內血親、姻親有法定例外，不得涉及職務事項。",
-          "correction": "改為符合親屬例外且不涉及職務事項者不在此限。",
+          "explanation": "第9條第1項第6款對候選人配偶及二親等以內血親、姻親列例外。",
+          "correction": "仍不得涉及職務事項。",
           "trueStatement": false
         }
       ],
@@ -1553,24 +1556,34 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察法規概要｜第20題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 20,
       "answerStatus": "考選部原始答案與更正公告已核",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部當年原始答案與列示法規；涉及之歷史條文和全部後續修正仍需逐項比對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "公務人員行政中立法第7、9條；施行細則第6條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留114年官方答案A。",
         "sources": [
           {
-            "title": "公務人員行政中立法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0110036"
+            "title": "公務人員行政中立法第7、9條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110036"
+          },
+          {
+            "title": "公務人員行政中立法施行細則第6條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110037"
+          },
+          {
+            "title": "行政院人事行政總處行政中立宣導教材",
+            "url": "https://www.dgpa.gov.tw/uploads/dgpa/files/202310/8d7149d6-ad92-4104-8c1d-c0d4bdfed510.pdf"
           }
         ]
       },
-      "takeaway": "非上班或勤務時間參與集會遊行並非一概禁止，但仍受不得主持、領導及職務利益等限制。",
+      "takeaway": "單純參與、政治宣傳資源與候選人近親例外分開判斷。",
       "sources": [
         {
           "title": "考選部114年警察四等警察法規概要原卷",
@@ -1583,8 +1596,17 @@
         {
           "title": "公務人員行政中立法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0110036"
+        },
+        {
+          "title": "公務人員行政中立法施行細則第6條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110037"
+        },
+        {
+          "title": "行政院人事行政總處行政中立宣導教材",
+          "url": "https://www.dgpa.gov.tw/uploads/dgpa/files/202310/8d7149d6-ad92-4104-8c1d-c0d4bdfed510.pdf"
         }
-      ]
+      ],
+      "currentAnswer": "A正確：非上班或勤務時間可參與集會遊行，但應遵守主持、發起與利用職務等限制。"
     },
     {
       "id": "law114-inner-21",

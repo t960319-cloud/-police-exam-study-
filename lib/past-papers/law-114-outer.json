@@ -22,26 +22,26 @@
       "options": [
         {
           "text": "發布警察命令，中央由內政部警政署為之",
-          "explanation": "警察命令在中央由內政部發布，不是警政署。",
-          "correction": "改為內政部。",
+          "explanation": "施行細則第10條第1款規定中央發布警察命令由內政部為之。",
+          "correction": "不能直接把警政署當作該款列示機關。",
           "trueStatement": false
         },
         {
           "text": "警察法第 9 條所規定之「其他應執行法令事項」，係指與警察業務無關之其他行政機關業務",
-          "explanation": "其他應執行法令事項是其他有關警察業務，不是與警察無關事項。",
-          "correction": "改為其他有關警察業務。",
+          "explanation": "細則第10條第7款「其他應執行法令事項」指其他有關警察業務。",
+          "correction": "不是與警察業務無關的其他機關一切業務。",
           "trueStatement": false
         },
         {
           "text": "警察命令，得以警察法第 9 條第 1 款之規定，作為發布限制人民自由權利之授權依據",
-          "explanation": "警察法第9條概括列職權；限制人民權利的命令仍需具體法律授權。",
-          "correction": "另依具體授權法律發布，不得只憑職掌規定。",
+          "explanation": "釋字570指出第9條第1款是組織性職權規定；相關命令限制人民自由權利仍須符合法律保留。",
+          "correction": "不得單憑概括職權取代具體法律依據。",
           "trueStatement": false
         },
         {
           "text": "違警處分權之行使，非僅依社會秩序維護法規之程序，亦包括依其他警察法令規定之程序為之",
-          "explanation": "細則第10條規定違警處分權依警察法令程序行使，不限社維法單一法規。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "細則第10條第2款規定違警處分依警察法令所定程序行使。",
+          "correction": "不以社維法一種法規為限；本題選D。",
           "trueStatement": true
         }
       ],
@@ -52,28 +52,34 @@
       ],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年外軌四等｜警察法規概要｜第1題",
       "paperYear": 114,
       "paperTrack": "外軌",
       "paperNumber": 1,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋及後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察法第9條；施行細則第10條；釋字第570號",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留114年官方答案D。",
         "sources": [
           {
-            "title": "警察法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+            "title": "警察法第9條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
           },
           {
-            "title": "警察法施行細則",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+            "title": "警察法施行細則第10條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
+          },
+          {
+            "title": "憲法法庭釋字第570號解釋",
+            "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=5297&id=167483"
           }
         ]
       },
-      "takeaway": "細則第10條規定違警處分權依警察法令程序行使，不限社維法單一法規。",
+      "takeaway": "組織權限與限制人民權利的具體法律依據應分開。",
       "sources": [
         {
           "title": "考選部114年一般警察四等警察法規概要原卷",
@@ -90,8 +96,13 @@
         {
           "title": "警察法施行細則",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+        },
+        {
+          "title": "憲法法庭釋字第570號解釋",
+          "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=5297&id=167483"
         }
-      ]
+      ],
+      "currentAnswer": "D正確：違警處分依警察法令所定程序，並不限於社維法；限制自由權利仍須符合釋字570法律保留。"
     },
     {
       "id": "law114-outer-02",
@@ -555,26 +566,26 @@
       "options": [
         {
           "text": "不得為支持特定之政黨，參與集會",
-          "explanation": "一般參加集會不等於主持集會；下班後並非因支持政黨即全面禁止參加。",
-          "correction": "區分參加與主持、發起或領導等禁止行為。",
+          "explanation": "第7條限制上班或勤務時間；官方教材說明下班或請假後得參加，但不得主持或發起。",
+          "correction": "不是下班後一律不得參與；本題選A。",
           "trueStatement": false
         },
         {
           "text": "不得為支持特定之政黨，發起遊行",
-          "explanation": "為支持政黨發起遊行屬第9條禁止行為，即使下班仍受限制。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "為支持政黨發起遊行，受第9條第1項第3款限制，不以勤務時間為限。",
+          "correction": "區分發起與單純參與。",
           "trueStatement": true
         },
         {
           "text": "不得為反對特定之政黨，領導連署活動",
-          "explanation": "為反對政黨領導連署活動，屬第9條規定限制。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "為反對特定政黨領導連署活動，受第9條第1項第3款限制。",
+          "correction": "該款規範領導，非將所有連署一概禁止。",
           "trueStatement": true
         },
         {
           "text": "公職候選人之二親等以內姻親，得在大眾傳播媒體只具名不具銜廣告",
-          "explanation": "候選人二親等以內姻親在媒體只具名不具銜之廣告有例外，但不得涉及職務事項。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第9條第1項第4款對候選人配偶及二親等內血親、姻親有只具名不具銜例外。",
+          "correction": "第3項仍不得涉及職務事項。",
           "trueStatement": true
         }
       ],
@@ -583,24 +594,34 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年外軌四等｜警察法規概要｜第8題",
       "paperYear": 114,
       "paperTrack": "外軌",
       "paperNumber": 8,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋及後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "公務人員行政中立法第7、9條；施行細則第6條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留114年官方答案A。",
         "sources": [
           {
-            "title": "公務人員行政中立法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0110036"
+            "title": "公務人員行政中立法第7、9條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110036"
+          },
+          {
+            "title": "公務人員行政中立法施行細則第6條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110037"
+          },
+          {
+            "title": "行政院人事行政總處行政中立宣導教材",
+            "url": "https://www.dgpa.gov.tw/uploads/dgpa/files/202310/8d7149d6-ad92-4104-8c1d-c0d4bdfed510.pdf"
           }
         ]
       },
-      "takeaway": "一般參加集會不等於主持集會；下班後並非因支持政黨即全面禁止參加。",
+      "takeaway": "一般參與與主持、發起、領導不同；親屬例外不得涉及職務。",
       "sources": [
         {
           "title": "考選部114年一般警察四等警察法規概要原卷",
@@ -613,8 +634,17 @@
         {
           "title": "公務人員行政中立法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0110036"
+        },
+        {
+          "title": "公務人員行政中立法施行細則第6條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110037"
+        },
+        {
+          "title": "行政院人事行政總處行政中立宣導教材",
+          "url": "https://www.dgpa.gov.tw/uploads/dgpa/files/202310/8d7149d6-ad92-4104-8c1d-c0d4bdfed510.pdf"
         }
-      ]
+      ],
+      "currentAnswer": "A錯誤：下班參與政治團體所召集的集會，並非第9條一律禁止；仍不得主持、發起或領導法定活動，亦不得涉及其他違法行為。"
     },
     {
       "id": "law114-outer-09",
@@ -1156,26 +1186,26 @@
       "options": [
         {
           "text": "違反平等原則",
-          "explanation": "釋字第666號認舊法僅處罰性交易圖利一方而不罰對方違反憲法平等原則；舊條文後經修法。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "解釋認為對共同完成性交易雙方差別處罰欠缺正當理由，違反憲法第7條。",
+          "correction": "本題選A。",
           "trueStatement": true
         },
         {
           "text": "違反誠信原則",
-          "explanation": "該解釋的核心是平等原則，不是誠信原則。",
-          "correction": "改為平等原則。",
+          "explanation": "解釋主文指出平等原則，不是以誠信原則作為主文結論。",
+          "correction": "區分題目所問違憲理由。",
           "trueStatement": false
         },
         {
           "text": "違反信賴保護原則",
-          "explanation": "該解釋不是以信賴保護為題示違憲理由。",
-          "correction": "改為平等原則。",
+          "explanation": "解釋主文指出平等原則，不是信賴保護原則。",
+          "correction": "本題不選信賴保護。",
           "trueStatement": false
         },
         {
           "text": "違反法律保留原則",
-          "explanation": "該解釋核心不是法律保留。",
-          "correction": "改為平等原則。",
+          "explanation": "解釋主文所宣告的是平等原則違反。",
+          "correction": "不要把其他憲法爭議與本號主文結論混同。",
           "trueStatement": false
         }
       ],
@@ -1184,28 +1214,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年外軌四等｜警察法規概要｜第16題",
       "paperYear": 114,
       "paperTrack": "外軌",
       "paperNumber": 16,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "舊法與現行社維法第80條不同：應以現行條文及合法自治條例例外為準，保留釋字原始判斷。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "憲法第7條；釋字第666號；社會秩序維護法第80、91條之1",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留114年官方答案A。",
         "sources": [
-          {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
-          },
           {
             "title": "憲法法庭釋字第666號解釋",
             "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310847"
+          },
+          {
+            "title": "社會秩序維護法第24、26、39、43、45、46、55至58、81、86、87條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           }
         ]
       },
-      "takeaway": "釋字第666號認舊法僅處罰性交易圖利一方而不罰對方違反憲法平等原則；舊條文後經修法。",
+      "takeaway": "記住釋字針對舊規定，不可直接當成現行第80條全文。",
       "sources": [
         {
           "title": "考選部114年一般警察四等警察法規概要原卷",
@@ -1223,7 +1255,8 @@
           "title": "憲法法庭釋字第666號解釋",
           "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310847"
         }
-      ]
+      ],
+      "currentAnswer": "A正確：釋字666認定舊法只處罰性交易中意圖得利的一方，違反平等原則；現行第80條已修正，應另看自治條例例外。"
     },
     {
       "id": "law114-outer-17",
@@ -1776,26 +1809,26 @@
       "options": [
         {
           "text": "應於收受通知書之翌日起 3 日內以書面附具理由提出於原主管機關向其上級警察機關申復",
-          "explanation": "一般申復為收受通知書「之日」起2日內，不是翌日起3日。",
-          "correction": "改為收受通知書之日起2日內。",
+          "explanation": "第16條一般情形於收受通知書之日起二日內提出，不是翌日起三日。",
+          "correction": "急件另有自收受時起24小時規定。",
           "trueStatement": false
         },
         {
           "text": "原主管機關認為申復無理由者，應於收受申復書之日起 2 日內連同卷證檢送其上級警察機關",
-          "explanation": "原主管機關認無理由，應於收受申復書之日起2日內連同卷證送上級；緊急情形另有12小時規定。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "原主管機關認無理由者，應於收受申復書之日起二日內連同卷證送上級。",
+          "correction": "第12條第2項特殊情形為12小時；本題選B。",
           "trueStatement": true
         },
         {
           "text": "上級警察機關應於收受卷證之翌日起 3 日內決定，並以書面通知負責人",
-          "explanation": "上級於收受卷證之日起2日內決定並書面通知，不是翌日起3日。",
-          "correction": "改為收受卷證之日起2日內。",
+          "explanation": "上級警察機關一般應於收受卷證之日起二日內決定。",
+          "correction": "不是翌日起三日。",
           "trueStatement": false
         },
         {
           "text": "上級警察機關於收受卷證後，認為無理由者，應於翌日起 2 日內連同卷證檢送其上級機關決定",
-          "explanation": "上級警察機關應自行於期限內決定，不是再上送更上級。",
-          "correction": "改由受理之上級警察機關依法決定。",
+          "explanation": "條文由上級警察機關收卷證後依法決定，不是題述再轉上級機關。",
+          "correction": "特殊時限及緊急、偶發集會應合併釋字718判讀。",
           "trueStatement": false
         }
       ],
@@ -1804,24 +1837,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年外軌四等｜警察法規概要｜第24題",
       "paperYear": 114,
       "paperTrack": "外軌",
       "paperNumber": 24,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋及後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "集會遊行法第16條；釋字第718號",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留114年官方答案B。",
         "sources": [
           {
-            "title": "集會遊行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+            "title": "集會遊行法第2、6、8至11及16條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+          },
+          {
+            "title": "司法院釋字第718號解釋",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
           }
         ]
       },
-      "takeaway": "原主管機關認無理由，應於收受申復書之日起2日內連同卷證送上級；緊急情形另有12小時規定。",
+      "takeaway": "一般申復期間自收受當日起算，急件例外另看。",
       "sources": [
         {
           "title": "考選部114年一般警察四等警察法規概要原卷",
@@ -1834,8 +1873,13 @@
         {
           "title": "集會遊行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        },
+        {
+          "title": "司法院釋字第718號解釋",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
         }
-      ]
+      ],
+      "currentAnswer": "B正確：原主管機關認申復無理由，原則上於收受申復書之日起二日內連同卷證檢送上級警察機關；特殊急件另有時限。"
     },
     {
       "id": "law114-outer-25",

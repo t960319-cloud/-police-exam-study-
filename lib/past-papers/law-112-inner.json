@@ -360,26 +360,26 @@
       "options": [
         {
           "text": "經警察機關處分之案件，受處分人未依法聲明異議者，其處分自處分書送達之翌日起，至第 5 日期滿時確定",
-          "explanation": "不服警察處分的聲明異議期間為送達翌日起五日，期間屆滿始確定。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "未依法異議時，處分於處分書送達翌日起第5日期滿確定。",
+          "correction": "第5日期間由送達翌日起算。",
           "trueStatement": true
         },
         {
           "text": "地方法院或其分院簡易庭關於聲明異議案件之裁定，於裁定宣示或送達時確定",
-          "explanation": "簡易庭就聲明異議所為裁定，宣示或送達即確定。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "簡易庭關於聲明異議之裁定，於宣示或送達時確定。",
+          "correction": "該裁定不得再抗告。",
           "trueStatement": true
         },
         {
           "text": "地方法院或其分院簡易庭關於抗告案件之裁定，於裁定宣示或送達時確定",
-          "explanation": "關於抗告的終局裁定由地方法院普通庭作成，應將簡易庭改為普通庭。",
-          "correction": "關於抗告的終局裁定由地方法院普通庭作成，應將簡易庭改為普通庭。",
+          "explanation": "普通庭關於抗告案件的裁定，才在宣示或送達時確定。",
+          "correction": "不是簡易庭的抗告裁定；本題選C。",
           "trueStatement": false
         },
         {
           "text": "撤回聲明異議或抗告之案件，其裁處於撤回書狀到達受理機關或原裁處機關時確定",
-          "explanation": "撤回聲明異議或抗告，以書狀到達有權受理或原裁處機關時發生確定效力。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "撤回異議或抗告時，於撤回書狀到達受理或原裁處機關時確定。",
+          "correction": "留意送達對象與到達時點。",
           "trueStatement": true
         }
       ],
@@ -387,28 +387,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜警察法規概要｜第5題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 5,
       "answerStatus": "官方Q原卷及S答案已核；官方目錄未列本科M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。114.06.11社維法僅修正第9、64、72、89條，須以具體引用條號確認影響，不能僅因全法修正就改原題答案。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "案件處理辦法第5條；社維法第55至58條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留112年官方答案C。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+            "title": "社會秩序維護法第24、26、39、43、45、46、55至58、81、86、87條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           },
           {
-            "title": "違反社會秩序維護法案件處理辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+            "title": "違反社會秩序維護法案件處理辦法第5、15、16、39、63條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
           }
         ]
       },
-      "takeaway": "關於抗告的終局裁定由地方法院普通庭作成，應將簡易庭改為普通庭。",
+      "takeaway": "分清警察處分異議、簡易庭裁定及普通庭抗告。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -427,7 +429,8 @@
           "title": "違反社會秩序維護法案件處理辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
         }
-      ]
+      ],
+      "currentAnswer": "C錯誤：關於抗告的裁定由普通庭作成；簡易庭所為聲明異議裁定，宣示或送達時確定。"
     },
     {
       "id": "law112-inner-06",
@@ -439,26 +442,26 @@
       "options": [
         {
           "text": "處三日以下拘留",
-          "explanation": "意圖媒合性交易而拉客，社維法有拘留處罰規定。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第81條對意圖媒合性交易而在公共場所拉客，規定三日以下拘留。",
+          "correction": "本項並非僅處罰鍰。",
           "trueStatement": true
         },
         {
           "text": "其情節重大者，得加重拘留至五日",
-          "explanation": "情節重大者拘留上限得提高至五日，應與一般三日上限區分。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第81條另規定情節重大者，得加重拘留至五日。",
+          "correction": "屬得加重，仍須認定具體情節。",
           "trueStatement": true
         },
         {
           "text": "併處新臺幣一萬元以上五萬元以下罰鍰",
-          "explanation": "本款有併處一萬元以上五萬元以下罰鍰規定。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第81條規定拘留並處一萬元以上五萬元以下罰鍰。",
+          "correction": "注意是併處而非選擇其一。",
           "trueStatement": true
         },
         {
           "text": "若對裁處不服，某甲得提起聲明異議",
-          "explanation": "涉及拘留由簡易庭裁定，不服應向普通庭抗告，不能對法院裁定聲明異議。",
-          "correction": "涉及拘留由簡易庭裁定，不服應向普通庭抗告，不能對法院裁定聲明異議。",
+          "explanation": "依第45、46、58條移送簡易庭裁定，對裁定不服得依法提起抗告。",
+          "correction": "警察裁處的聲明異議與法院裁定抗告不同；本題選D。",
           "trueStatement": false
         }
       ],
@@ -466,28 +469,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜警察法規概要｜第6題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 6,
       "answerStatus": "官方Q原卷及S答案已核；官方目錄未列本科M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。114.06.11社維法僅修正第9、64、72、89條，須以具體引用條號確認影響，不能僅因全法修正就改原題答案。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "社會秩序維護法第45、46、58及81條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留112年官方答案D。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
-          },
-          {
-            "title": "違反社會秩序維護法案件處理辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+            "title": "社會秩序維護法第24、26、39、43、45、46、55至58、81、86、87條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           }
         ]
       },
-      "takeaway": "涉及拘留由簡易庭裁定，不服應向普通庭抗告，不能對法院裁定聲明異議。",
+      "takeaway": "先按法定刑判斷由法院裁定，再選抗告途徑。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -506,7 +507,8 @@
           "title": "違反社會秩序維護法案件處理辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
         }
-      ]
+      ],
+      "currentAnswer": "D錯誤：第81條案件法定刑包含拘留，由警察訊問後移送簡易庭裁定；不服該裁定依第58條抗告，不是對警察處分聲明異議。"
     },
     {
       "id": "law112-inner-07",
@@ -518,26 +520,26 @@
       "options": [
         {
           "text": "警察機關與法院因民眾舉報知有違反該行為之嫌疑者，應即開始調查",
-          "explanation": "案件調查由警察依職權進行，不能將警察與法院一概並列為初始調查機關。",
-          "correction": "案件調查由警察依職權進行，不能將警察與法院一概並列為初始調查機關。",
+          "explanation": "第39條規定警察機關知有違反嫌疑時應即調查，選項將法院一併列為同一偵查主體。",
+          "correction": "警察調查與法院受理裁定權限應區分。",
           "trueStatement": false
         },
         {
           "text": "警察機關於訊問後，除有繼續調查必要者外，應即作成處分書",
-          "explanation": "屬警察可裁處的罰鍰案件，訊問後無繼續調查必要，應即作成處分書。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第87條意圖鬥毆而聚眾專處一萬八千元以下罰鍰，適用第43條。",
+          "correction": "有繼續調查必要時為例外；本題選B。",
           "trueStatement": true
         },
         {
           "text": "警察機關於訊問後，應即移送該管簡易庭裁定",
-          "explanation": "法定處罰未涉及拘留等法院專屬案件，無須一律移簡易庭。",
-          "correction": "法定處罰未涉及拘留等法院專屬案件，無須一律移簡易庭。",
+          "explanation": "第45條移送簡易庭適用第43條以外案件；本題專處罰鍰。",
+          "correction": "不能一律移送簡易庭先行裁定。",
           "trueStatement": false
         },
         {
           "text": "有不服者，得向同法院普通庭提起抗告；對於普通庭之裁定，不得再行抗告",
-          "explanation": "不服警察處分先向簡易庭聲明異議，非直接向普通庭抗告。",
-          "correction": "不服警察處分先向簡易庭聲明異議，非直接向普通庭抗告。",
+          "explanation": "對警察處分不服循第55條聲明異議，與第58條法院裁定抗告不同。",
+          "correction": "不要把裁定抗告直接套在警察處分。",
           "trueStatement": false
         }
       ],
@@ -545,28 +547,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜警察法規概要｜第7題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 7,
       "answerStatus": "官方Q原卷及S答案已核；官方目錄未列本科M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。114.06.11社維法僅修正第9、64、72、89條，須以具體引用條號確認影響，不能僅因全法修正就改原題答案。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "社會秩序維護法第39、43、45、55及87條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留112年官方答案B。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
-          },
-          {
-            "title": "違反社會秩序維護法案件處理辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+            "title": "社會秩序維護法第24、26、39、43、45、46、55至58、81、86、87條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           }
         ]
       },
-      "takeaway": "屬警察可裁處的罰鍰案件，訊問後無繼續調查必要，應即作成處分書。",
+      "takeaway": "罰鍰專處案由警察處分，不服依法聲明異議。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -585,7 +585,8 @@
           "title": "違反社會秩序維護法案件處理辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
         }
-      ]
+      ],
+      "currentAnswer": "B正確：第87條此行為專處罰鍰，警察訊問後，除有繼續調查必要外，應作成處分書。"
     },
     {
       "id": "law112-inner-08",
@@ -597,26 +598,26 @@
       "options": [
         {
           "text": "行政院",
-          "explanation": "行政院不是警察違序案件書表格式的訂定機關；依法由內政部警政署訂定。",
-          "correction": "行政院不是警察違序案件書表格式的訂定機關；依法由內政部警政署訂定。",
+          "explanation": "第63條未將本題書表格式的訂定權列為行政院。",
+          "correction": "應依辦法明文判斷。",
           "trueStatement": false
         },
         {
           "text": "內政部",
-          "explanation": "內政部與警政署的法定分工應區分，本題格式由警政署訂定。",
-          "correction": "內政部與警政署的法定分工應區分，本題格式由警政署訂定。",
+          "explanation": "第63條明定警政署，而非概括寫內政部。",
+          "correction": "部與署的權限須區分。",
           "trueStatement": false
         },
         {
           "text": "內政部警政署",
-          "explanation": "違反社維法案件處理所需書表格式，由內政部警政署定之。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第63條明列內政部警政署訂定。",
+          "correction": "本題選C。",
           "trueStatement": true
         },
         {
           "text": "內政部警政署刑事警察局",
-          "explanation": "刑事警察局非全體違序案件書表格式的訂定機關。",
-          "correction": "刑事警察局非全體違序案件書表格式的訂定機關。",
+          "explanation": "第63條所列機關是警政署，非刑事警察局。",
+          "correction": "勿將隸屬機關替代法定機關。",
           "trueStatement": false
         }
       ],
@@ -624,28 +625,26 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜警察法規概要｜第8題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 8,
       "answerStatus": "官方Q原卷及S答案已核；官方目錄未列本科M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。114.06.11社維法僅修正第9、64、72、89條，須以具體引用條號確認影響，不能僅因全法修正就改原題答案。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "違反社會秩序維護法案件處理辦法第63條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留112年官方答案C。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
-          },
-          {
-            "title": "違反社會秩序維護法案件處理辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+            "title": "違反社會秩序維護法案件處理辦法第5、15、16、39、63條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
           }
         ]
       },
-      "takeaway": "違反社維法案件處理所需書表格式，由內政部警政署定之。",
+      "takeaway": "書表格式依第63條由警政署訂定。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -664,7 +663,8 @@
           "title": "違反社會秩序維護法案件處理辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
         }
-      ]
+      ],
+      "currentAnswer": "C正確：警察機關處理違反社維法案件之書表格式，由內政部警政署訂定。"
     },
     {
       "id": "law112-inner-09",

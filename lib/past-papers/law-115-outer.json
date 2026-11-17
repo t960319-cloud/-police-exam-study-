@@ -1024,26 +1024,26 @@
       "options": [
         {
           "text": "申請在禁制區範圍內集會遊行者",
-          "explanation": "違反第6條禁制區且未獲核准，得依第11條審核不許可，仍須符合憲法及比例。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第11條第1款列違反第6條禁制區規定；第6條但書有主管機關核准例外。",
+          "correction": "實際區域及核准狀況須查證。",
           "trueStatement": true
         },
         {
           "text": "集會遊行之負責人、其代理人或糾察員資格不符者",
-          "explanation": "違反第10條負責人等資格，得依第11條審核不許可。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第11條第1款列違反第10條法定資格限制。",
+          "correction": "須依個別法定資格認定。",
           "trueStatement": true
         },
         {
           "text": "合理懷疑集會遊行有危害國家安全、社會秩序或公共利益者",
-          "explanation": "第11條要求「明顯事實足認」，單純合理懷疑不是條文字面標準。",
-          "correction": "改為有明顯事實足認有法定危害。",
+          "explanation": "第11條第2款使用有明顯事實足認有危害之門檻，不能直接改成合理懷疑。",
+          "correction": "本題選C；仍須具體審查並兼顧比例原則。",
           "trueStatement": false
         },
         {
           "text": "無不可預見之重大緊急事故，而未於 6 日前申請集會遊行者",
-          "explanation": "無重大緊急事故且未依第9條原則於6日前申請，得為不許可事由，仍應考量憲法解釋及個案比例。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "一般申請依第9條於六日前提出；不可預見重大緊急事故具備條件時有例外。",
+          "correction": "釋字718另保障緊急及偶發性集會遊行。",
           "trueStatement": true
         }
       ],
@@ -1052,24 +1052,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第14題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 14,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "集會遊行法第9至11條；釋字第718號",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依所列現行法條及官方資料逐項核對，保留115年官方答案C。",
         "sources": [
           {
-            "title": "集會遊行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+            "title": "集會遊行法第2、6、8至11及16條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+          },
+          {
+            "title": "司法院釋字第718號解釋",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
           }
         ]
       },
-      "takeaway": "第11條要求「明顯事實足認」，單純合理懷疑不是條文字面標準。",
+      "takeaway": "一般原則應予許可；禁制區、資格與申請期限例外須逐條判斷。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -1082,8 +1088,13 @@
         {
           "title": "集會遊行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        },
+        {
+          "title": "司法院釋字第718號解釋",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
         }
-      ]
+      ],
+      "currentAnswer": "C為官方答案：第11條使用「有明顯事實足認」而非只憑合理懷疑，即得認有列舉危害。"
     },
     {
       "id": "law115-outer-15",
@@ -1548,26 +1559,26 @@
       "options": [
         {
           "text": "姓名",
-          "explanation": "社維法第67條第2款列姓名為依法調查或查察時不得拒絕陳述事項。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "警職法第7條第1項第2款明列姓名，查證仍須符合第6條要件及必要性。",
+          "correction": "本題非A。",
           "trueStatement": true
         },
         {
           "text": "性別",
-          "explanation": "同款明列姓名、住所或居所，未列性別；故本題選B。",
-          "correction": "性別不在社維法第67條第2款所列事項；其他法源能否詢問應分別判斷。",
+          "explanation": "警職法第7條第1項第2款未明列性別；但文字有「等」，不宜推論任何情況均不得詢問。",
+          "correction": "本題官方答案為B；具體適用及其他法源待核。",
           "trueStatement": false
         },
         {
           "text": "住所",
-          "explanation": "同款列住所，並非所有個資都可依該款強制詢問。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "住居所為該款列示事項，住所包含在住居所內。",
+          "correction": "仍須符合必要性及個資相關規定。",
           "trueStatement": true
         },
         {
           "text": "居所",
-          "explanation": "同款列居所，應區分其他個資之不同法源。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "該款列住居所，包含居所。",
+          "correction": "與地址資料應依目的及必要性處理。",
           "trueStatement": true
         }
       ],
@@ -1584,16 +1595,22 @@
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
         "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "law": "警察職權行使法第6、7條；社會秩序維護法第43條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "unverified",
+        "note": "警職法列舉身分查證事項含「等」；社維法處分書另明列性別，題示交通舉發之具體法源及性別詢問範圍仍待核。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+            "title": "警察職權行使法第6、7條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          },
+          {
+            "title": "社會秩序維護法第24、26、39、43、45、46、55至58、81、86、87條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           }
         ]
       },
-      "takeaway": "同款明列姓名、住所或居所，未列性別；故本題選B。",
+      "takeaway": "未明列不等於任何執法程序都禁止記載性別；適用法源待進一步確認。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -1606,8 +1623,13 @@
         {
           "title": "社會秩序維護法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+        },
+        {
+          "title": "警察職權行使法第6、7條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
         }
-      ]
+      ],
+      "currentAnswer": "B為官方答案：警職法第7條第1項第2款列舉身分查證可詢問姓名、出生資料、國籍、住居所及身分證號，未明列性別；該款「等」字及其他法律程序仍須分開判斷。"
     },
     {
       "id": "law115-outer-22",

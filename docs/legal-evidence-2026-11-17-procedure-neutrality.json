@@ -1,0 +1,137 @@
+{
+  "checkedAt": "2026-11-17",
+  "timezone": "UTC",
+  "sources": [
+    {
+      "title": "社會秩序維護法第24、26、39、43、45、46、55至58、81、86、87條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067",
+      "sha256": "7ecc75a6801d811347df1ac442f6c64363452a582ecd7cfa54103e992e02f058",
+      "retrieval": "官方條文HTTPS原件，前次取得HTTP 200，本輪再次逐條比對"
+    },
+    {
+      "title": "違反社會秩序維護法案件處理辦法第5、15、16、39、63條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070",
+      "sha256": "6eeb1b47a79c9a9387533756ecb7fffdfd1aedad4fc2e3b2d687d7968a013abd",
+      "retrieval": "官方條文HTTPS原件，前次取得HTTP 200，本輪再次逐條比對"
+    },
+    {
+      "title": "行政執行法第21、22條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023",
+      "sha256": "99003466d18960f4de81b58a8bc570475c68767861e3ed9e2755fabf9e8f1826",
+      "retrieval": "官方條文HTTPS原件，前次取得HTTP 200，本輪再次逐條比對"
+    },
+    {
+      "title": "警察法第9條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001",
+      "sha256": "be270f20a66a300f96e1c6813e8cd48e9b66042dac7fbddae29345f0f8fa14af",
+      "retrieval": "官方條文HTTPS原件，前次取得HTTP 200，本輪再次逐條比對"
+    },
+    {
+      "title": "警察法施行細則第10條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002",
+      "sha256": "2269f942a5d3fac63982d778c799a8a60664be53f7bb5937eacfd0c2fb8d1dd6",
+      "retrieval": "官方條文HTTPS原件，前次取得HTTP 200，本輪再次逐條比對"
+    },
+    {
+      "title": "公務人員行政中立法第7、9條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110036",
+      "sha256": "04414fbe42b22ac7f7a72c1209acc004c080bd366fe727c5c85a3d9dad5b5c18",
+      "retrieval": "官方條文HTTPS原件，前次取得HTTP 200，本輪再次逐條比對"
+    },
+    {
+      "title": "公務人員行政中立法施行細則第6條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110037",
+      "sha256": "6bf4d02745d58b6c87ed6142e9bbcd64a0beea46f7cf9778050fc7918daede03",
+      "retrieval": "官方條文HTTPS原件，前次取得HTTP 200，本輪再次逐條比對"
+    },
+    {
+      "title": "警械使用條例第10條之1",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042",
+      "sha256": "f5bcb2312280ae0e6f8271ee2d3a73e727a6556091a53d18b9396933db14b7af",
+      "retrieval": "官方條文HTTPS原件，前次取得HTTP 200，本輪再次逐條比對"
+    },
+    {
+      "title": "警械使用調查小組設置及運作辦法第2條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080218",
+      "sha256": "daaa6a61af6b3a238b07a60eaf443b2b1ea3eaa88f18f9954ac656fc2202e3e3",
+      "retrieval": "官方條文HTTPS原件，前次取得HTTP 200，本輪再次逐條比對"
+    },
+    {
+      "title": "集會遊行法第2、6、8至11及16條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058",
+      "sha256": "a59879e30f6f69bbba745ceeb7702cbe17ac9060406da4206743188668621f2e",
+      "retrieval": "官方條文HTTPS原件，前次取得HTTP 200，本輪再次逐條比對"
+    },
+    {
+      "title": "行政程序法第19條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055",
+      "sha256": "9a22d64395a8252ea759f1b8a9da1eb39c1948817652f4e8059950484f373086",
+      "retrieval": "官方條文HTTPS原件，前次取得HTTP 200，本輪再次逐條比對"
+    },
+    {
+      "title": "警察職權行使法第6、7條",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145",
+      "sha256": "13b20775ad49bb94a3fcf7c911d248f5f32186339198abfccdc4916d06018e7b",
+      "retrieval": "官方條文HTTPS原件，前次取得HTTP 200，本輪再次逐條比對"
+    },
+    {
+      "title": "憲法法庭釋字第570號解釋",
+      "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=5297&id=167483",
+      "retrieval": "網頁檢索服務查閱官方網頁或PDF"
+    },
+    {
+      "title": "憲法法庭釋字第666號解釋",
+      "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310847",
+      "retrieval": "網頁檢索服務查閱官方網頁或PDF"
+    },
+    {
+      "title": "行政院人事行政總處行政中立宣導教材",
+      "url": "https://www.dgpa.gov.tw/uploads/dgpa/files/202310/8d7149d6-ad92-4104-8c1d-c0d4bdfed510.pdf",
+      "retrieval": "網頁檢索服務查閱官方網頁或PDF"
+    },
+    {
+      "title": "司法院釋字第718號解釋",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C",
+      "retrieval": "網頁檢索服務查閱官方網頁或PDF"
+    },
+    {
+      "title": "內政部113年答覆立法院：警察協助原則",
+      "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2024031488/41402030721941001002.pdf",
+      "retrieval": "網頁檢索服務查閱官方網頁或PDF"
+    },
+    {
+      "title": "內政部114年答覆立法院：113年職務協助原則第6點修正",
+      "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2025082111/21016172550040200002.pdf",
+      "retrieval": "網頁檢索服務讀取官方函附件，第2頁說明第6點修正及增訂同意協助判準"
+    }
+  ],
+  "verifiedQuestionIds": [
+    "law112-inner-05",
+    "law112-inner-06",
+    "law112-inner-07",
+    "law112-inner-08",
+    "law112-outer-04",
+    "law112-outer-05",
+    "law112-outer-06",
+    "law112-outer-18",
+    "law114-inner-02",
+    "law114-outer-01",
+    "law114-outer-08",
+    "law114-inner-20",
+    "law114-outer-16",
+    "law114-outer-24",
+    "law115-outer-14"
+  ],
+  "reviewQuestionIds": [
+    "law115-inner-08",
+    "law115-inner-16",
+    "law115-outer-21"
+  ],
+  "notes": [
+    "社維法第87條110年修正後專處罰鍰，112年原卷適用；第81條含拘留須移送法院。",
+    "前案確定不等於處罰執行完畢；第26條再犯須以前次執行完畢為前提。",
+    "第21條停止管收與第22條釋放之原因不同；釋字570第9條第1款屬組織性職權，不能取代限制權利的具體法源。",
+    "113年內政部答覆不代表取得警政署113年7月最新版全文；私人場所是否公眾得出入仍須查明；警職法第7條列舉含等字，不推論任何情況均不得詢問性別。",
+    "所有題幹、選項、官方答案和作答紀錄鍵不變。"
+  ]
+}

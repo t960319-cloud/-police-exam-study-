@@ -577,26 +577,26 @@
       "options": [
         {
           "text": "統案性",
-          "explanation": "題目官方答案為臨時性；統案性不是此處所問原則。",
-          "correction": "協助應依法並依臨時性原則辦理。",
+          "explanation": "內政部答覆以臨時協助為原則，不等於通案、常態接辦。",
+          "correction": "不能只憑「統案性」取代法定個案請求。",
           "trueStatement": false
         },
         {
           "text": "臨時性",
-          "explanation": "行政協助原則為臨時性，不能將他機關常態主管業務無限轉為警察業務。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "內政部113年答覆列臨時性；本題官方答案為B。",
+          "correction": "警政署現行完整職務協助原則仍待取得。",
           "trueStatement": true
         },
         {
           "text": "專案性",
-          "explanation": "專案性與本題官方所用臨時性不同；個案協助仍須法定事由。",
-          "correction": "改為臨時性。",
+          "explanation": "專案是工作形式，不能單憑此詞取代行政協助法定原則。",
+          "correction": "仍應個別確認法定職權與請求。",
           "trueStatement": false
         },
         {
           "text": "主動性",
-          "explanation": "主動性不是本題簡化行政協助所問原則。",
-          "correction": "改為臨時性並依受請求權限辦理。",
+          "explanation": "行政程序法第19條以機關請求為基礎，原則書面，緊急情形除外。",
+          "correction": "不能概括說協助均由受請求機關主動發動。",
           "trueStatement": false
         }
       ],
@@ -613,16 +613,26 @@
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
         "status": "review",
-        "note": "題示簡化警察業務及行政協助之主管機關作業原件尚待取得。",
-        "checkedAt": "2026-11-10",
+        "law": "行政程序法第19條；內政部113年立法院答覆",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "unverified",
+        "note": "內政部113年答覆支持臨時性；114年函確認113年7月1日修正第6點並增訂同意協助判準。修正全文及後續沿革未取得，待進一步核對。",
         "sources": [
           {
-            "title": "警察法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+            "title": "行政程序法第19條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
+          },
+          {
+            "title": "內政部113年答覆立法院：警察協助原則",
+            "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2024031488/41402030721941001002.pdf"
+          },
+          {
+            "title": "內政部114年答覆立法院：113年職務協助原則第6點修正",
+            "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2025082111/21016172550040200002.pdf"
           }
         ]
       },
-      "takeaway": "行政協助原則為臨時性，不能將他機關常態主管業務無限轉為警察業務。",
+      "takeaway": "區分機關個案協助與將業務常態移轉；警政署最新版原則全文仍待取得。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -635,8 +645,21 @@
         {
           "title": "警察法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+        },
+        {
+          "title": "行政程序法第19條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
+        },
+        {
+          "title": "內政部113年答覆立法院：警察協助原則",
+          "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2024031488/41402030721941001002.pdf"
+        },
+        {
+          "title": "內政部114年答覆立法院：113年職務協助原則第6點修正",
+          "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2025082111/21016172550040200002.pdf"
         }
-      ]
+      ],
+      "currentAnswer": "B為官方答案：內政部113年答覆說明職務協助應重視臨時性；行政程序法第19條另規定請求、拒絕與費用。"
     },
     {
       "id": "law115-inner-09",
@@ -1179,26 +1202,26 @@
       "options": [
         {
           "text": "市議員候選人為選情造勢，於私人莊園內舉辦之共識營集會活動",
-          "explanation": "私人莊園若非公共或公眾得出入場所，未必為本法集會；應看實際開放情況。",
-          "correction": "先確認場所性質，勿僅因候選人身分判斷。",
+          "explanation": "集遊法第2條以公共場所或公眾得出入之場所界定集會，不能只憑土地私人所有認定不適用。",
+          "correction": "如不供公眾出入，可能不屬第2條集會；仍應確認事實。",
           "trueStatement": false
         },
         {
           "text": "白沙屯媽祖、大甲媽祖每年農曆 3 月的大型繞境進香遊行活動",
-          "explanation": "宗教、民俗活動依第8條為申請例外，另須遵守交通及安全規範。",
-          "correction": "宗教進香不須依本法第8條一般許可程序申請；另依交通安全規範辦理。",
+          "explanation": "宗教、民俗活動依第8條第1項第3款免該條許可。",
+          "correction": "道路使用及其他法令義務仍須處理。",
           "trueStatement": false
         },
         {
           "text": "公民團體為宣導全民公投，特別召集志同道合民眾，舉辦遊街活動",
-          "explanation": "公民團體發起公共道路遊街，原則屬室外遊行且非題示宗教、藝文或運動等例外；仍需考量憲法解釋。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "為公投宣導所召集之公共道路集體遊街，原則屬第2條遊行及第8條許可規範。",
+          "correction": "本題官方答案為C；緊急及偶發集會保障另依釋字718。",
           "trueStatement": true
         },
         {
           "text": "封閉國道 1 號泰山至汐止端北上高架路段車道，辦理臺北國道馬拉松活動",
-          "explanation": "馬拉松屬體育競賽，依第8條為申請例外；封路等應另申請或協調。",
-          "correction": "體育競賽依集會遊行法免許可，封路仍須另依主管法令辦理。",
+          "explanation": "體育競賽依第8條第1項第2款免該條許可。",
+          "correction": "道路封閉或活動仍可能需要其他許可。",
           "trueStatement": false
         }
       ],
@@ -1215,16 +1238,22 @@
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
         "status": "review",
-        "note": "已核對原卷、考選部標準答案及列示法規；題目涉及的全部歷史法令、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "law": "集會遊行法第2、8條；釋字第718號",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "unverified",
+        "note": "私人莊園是否為公眾得出入場所及活動實際安排未交代；保留官方答案，待核釋義與事實。",
         "sources": [
           {
-            "title": "集會遊行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+            "title": "集會遊行法第2、6、8至11及16條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+          },
+          {
+            "title": "司法院釋字第718號解釋",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
           }
         ]
       },
-      "takeaway": "公民團體發起公共道路遊街，原則屬室外遊行且非題示宗教、藝文或運動等例外；仍需考量憲法解釋。",
+      "takeaway": "依場所性質與活動內容判斷；宗教、體育例外及緊急偶發集會另看。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -1237,8 +1266,13 @@
         {
           "title": "集會遊行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        },
+        {
+          "title": "司法院釋字第718號解釋",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
         }
-      ]
+      ],
+      "currentAnswer": "C為官方答案：為公投宣導所召集的遊街活動通常屬集遊法遊行；題目對私人莊園是否為公眾得出入場所未交代，仍須查明。"
     },
     {
       "id": "law115-inner-17",

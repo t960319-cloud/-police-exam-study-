@@ -8708,5 +8708,962 @@
       }
     ],
     "createdAt": 1794870903894
+  },
+  {
+    "eventId": "legal-review-20261117-procedure-neutrality",
+    "kind": "update",
+    "checkedAt": "2026-11-17",
+    "summary": "核對社維裁處與抗告、警械調查、管收、警察命令、行政中立及集遊法等十五題詳解；另補職務協助、私人莊園集會和身分查證三題待核重點。",
+    "sources": [
+      {
+        "title": "社會秩序維護法第24、26、39、43、45、46、55至58、81、86、87條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+      },
+      {
+        "title": "違反社會秩序維護法案件處理辦法第5、15、16、39、63條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+      },
+      {
+        "title": "行政執行法第21、22條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+      },
+      {
+        "title": "警察法第9條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
+      },
+      {
+        "title": "警察法施行細則第10條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
+      },
+      {
+        "title": "憲法法庭釋字第570號解釋",
+        "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=5297&id=167483"
+      },
+      {
+        "title": "憲法法庭釋字第666號解釋",
+        "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310847"
+      },
+      {
+        "title": "公務人員行政中立法第7、9條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110036"
+      },
+      {
+        "title": "公務人員行政中立法施行細則第6條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110037"
+      },
+      {
+        "title": "行政院人事行政總處行政中立宣導教材",
+        "url": "https://www.dgpa.gov.tw/uploads/dgpa/files/202310/8d7149d6-ad92-4104-8c1d-c0d4bdfed510.pdf"
+      },
+      {
+        "title": "警械使用條例第10條之1",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+      },
+      {
+        "title": "警械使用調查小組設置及運作辦法第2條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080218"
+      },
+      {
+        "title": "集會遊行法第2、6、8至11及16條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+      },
+      {
+        "title": "司法院釋字第718號解釋",
+        "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
+      },
+      {
+        "title": "行政程序法第19條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
+      },
+      {
+        "title": "內政部113年答覆立法院：警察協助原則",
+        "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2024031488/41402030721941001002.pdf"
+      },
+      {
+        "title": "警察職權行使法第6、7條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+      },
+      {
+        "title": "內政部114年答覆立法院：113年職務協助原則第6點修正",
+        "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2025082111/21016172550040200002.pdf"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "law112-inner-05",
+        "amendment": {
+          "status": "none",
+          "law": "案件處理辦法第5條；社維法第55至58條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列現行法條及官方資料逐項核對，保留112年官方答案C。",
+          "sources": [
+            {
+              "title": "社會秩序維護法第24、26、39、43、45、46、55至58、81、86、87條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            },
+            {
+              "title": "違反社會秩序維護法案件處理辦法第5、15、16、39、63條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C錯誤：關於抗告的裁定由普通庭作成；簡易庭所為聲明異議裁定，宣示或送達時確定。",
+        "takeaway": "分清警察處分異議、簡易庭裁定及普通庭抗告。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "未依法異議時，處分於處分書送達翌日起第5日期滿確定。",
+            "correction": "第5日期間由送達翌日起算。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "簡易庭關於聲明異議之裁定，於宣示或送達時確定。",
+            "correction": "該裁定不得再抗告。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "普通庭關於抗告案件的裁定，才在宣示或送達時確定。",
+            "correction": "不是簡易庭的抗告裁定；本題選C。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "撤回異議或抗告時，於撤回書狀到達受理或原裁處機關時確定。",
+            "correction": "留意送達對象與到達時點。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law112-inner-06",
+        "amendment": {
+          "status": "none",
+          "law": "社會秩序維護法第45、46、58及81條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列現行法條及官方資料逐項核對，保留112年官方答案D。",
+          "sources": [
+            {
+              "title": "社會秩序維護法第24、26、39、43、45、46、55至58、81、86、87條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D錯誤：第81條案件法定刑包含拘留，由警察訊問後移送簡易庭裁定；不服該裁定依第58條抗告，不是對警察處分聲明異議。",
+        "takeaway": "先按法定刑判斷由法院裁定，再選抗告途徑。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第81條對意圖媒合性交易而在公共場所拉客，規定三日以下拘留。",
+            "correction": "本項並非僅處罰鍰。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第81條另規定情節重大者，得加重拘留至五日。",
+            "correction": "屬得加重，仍須認定具體情節。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第81條規定拘留並處一萬元以上五萬元以下罰鍰。",
+            "correction": "注意是併處而非選擇其一。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "依第45、46、58條移送簡易庭裁定，對裁定不服得依法提起抗告。",
+            "correction": "警察裁處的聲明異議與法院裁定抗告不同；本題選D。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law112-inner-07",
+        "amendment": {
+          "status": "none",
+          "law": "社會秩序維護法第39、43、45、55及87條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列現行法條及官方資料逐項核對，保留112年官方答案B。",
+          "sources": [
+            {
+              "title": "社會秩序維護法第24、26、39、43、45、46、55至58、81、86、87條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B正確：第87條此行為專處罰鍰，警察訊問後，除有繼續調查必要外，應作成處分書。",
+        "takeaway": "罰鍰專處案由警察處分，不服依法聲明異議。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第39條規定警察機關知有違反嫌疑時應即調查，選項將法院一併列為同一偵查主體。",
+            "correction": "警察調查與法院受理裁定權限應區分。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第87條意圖鬥毆而聚眾專處一萬八千元以下罰鍰，適用第43條。",
+            "correction": "有繼續調查必要時為例外；本題選B。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第45條移送簡易庭適用第43條以外案件；本題專處罰鍰。",
+            "correction": "不能一律移送簡易庭先行裁定。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "對警察處分不服循第55條聲明異議，與第58條法院裁定抗告不同。",
+            "correction": "不要把裁定抗告直接套在警察處分。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law112-inner-08",
+        "amendment": {
+          "status": "none",
+          "law": "違反社會秩序維護法案件處理辦法第63條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列現行法條及官方資料逐項核對，保留112年官方答案C。",
+          "sources": [
+            {
+              "title": "違反社會秩序維護法案件處理辦法第5、15、16、39、63條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C正確：警察機關處理違反社維法案件之書表格式，由內政部警政署訂定。",
+        "takeaway": "書表格式依第63條由警政署訂定。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第63條未將本題書表格式的訂定權列為行政院。",
+            "correction": "應依辦法明文判斷。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第63條明定警政署，而非概括寫內政部。",
+            "correction": "部與署的權限須區分。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第63條明列內政部警政署訂定。",
+            "correction": "本題選C。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第63條所列機關是警政署，非刑事警察局。",
+            "correction": "勿將隸屬機關替代法定機關。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law112-outer-04",
+        "amendment": {
+          "status": "none",
+          "law": "違反社會秩序維護法案件處理辦法第15、16條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列現行法條及官方資料逐項核對，保留112年官方答案D。",
+          "sources": [
+            {
+              "title": "違反社會秩序維護法案件處理辦法第5、15、16、39、63條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D正確：警察機關管轄案件有爭議，由共同直接上級警察機關指定管轄。",
+        "takeaway": "數機關有管轄權的受理在先，與管轄爭議的上級指定不同。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第15條受理在先適用數機關都有管轄權；本題雙方均認無權而有爭議。",
+            "correction": "不可直接套用受理在先。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第16條規定由共同直接上級警察機關指定。",
+            "correction": "不是由兩分局自行協議決定。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "條文明定共同直接上級警察機關指定。",
+            "correction": "不以各機關各自上級協議取代。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "管轄爭議依第16條由共同直接上級警察機關指定。",
+            "correction": "本題選D。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law112-outer-05",
+        "amendment": {
+          "status": "none",
+          "law": "違反社會秩序維護法案件處理辦法第39條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列現行法條及官方資料逐項核對，保留112年官方答案D。",
+          "sources": [
+            {
+              "title": "違反社會秩序維護法案件處理辦法第5、15、16、39、63條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D正確：更正處分書主文以外的顯然誤寫、誤算等，應製作更正通知送達受處分人。",
+        "takeaway": "第39條的形式更正限主文以外顯然錯誤，實質爭議另循法定程序。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第39條限處分書主文以外之內容。",
+            "correction": "主文錯誤不能直接套用此條形式更正。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "事實認定錯誤可能涉及實質判斷，不當然只是文字誤寫。",
+            "correction": "應依具體錯誤性質及救濟程序處理。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "行為事實評價瑕疵屬實質判斷，不能逕以第39條更正誤寫替代。",
+            "correction": "應依性質循撤銷、變更或救濟程序。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第39條第2項要求製作更正意旨通知並送達受處分人。",
+            "correction": "本題選D。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law112-outer-06",
+        "amendment": {
+          "status": "none",
+          "law": "社會秩序維護法第24、26及86條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列現行法條及官方資料逐項核對，保留112年官方答案D。",
+          "sources": [
+            {
+              "title": "社會秩序維護法第24、26、39、43、45、46、55至58、81、86、87條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            },
+            {
+              "title": "違反社會秩序維護法案件處理辦法第5、15、16、39、63條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D正確：前案雖確定卻未執行，尚不具第26條執行完畢後再犯條件；依第86條處理後案。",
+        "takeaway": "確定不等於執行完畢；判斷數行為時留意前案已通知確定。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第26條須前次處罰執行完畢後三個月內再犯；題示前案尚未執行。",
+            "correction": "不符合該條再犯加重前提。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第24條但書以警察通知單送達或逕行通知前的同條款行為為要件；前案已確定。",
+            "correction": "後一行為發生於前案已確定後。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第86條法定處罰為三千元以下罰鍰或申誡，未列停業或歇業。",
+            "correction": "不得添加條文未規定處罰。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "後行為符合第86條敘述，依法處罰並注意具體調查。",
+            "correction": "本題選D。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law112-outer-18",
+        "amendment": {
+          "status": "none",
+          "law": "警械使用條例第10條之1；警械使用調查小組設置及運作辦法第2條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列現行法條及官方資料逐項核對，保留112年官方答案A。",
+          "sources": [
+            {
+              "title": "警械使用條例第10條之1",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+            },
+            {
+              "title": "警械使用調查小組設置及運作辦法第2條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080218"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A不屬該小組法定權責：國家賠償與金額應依國家賠償相關程序處理。",
+        "takeaway": "小組調查和建議，不等於直接決定國賠爭議。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第10條之1與設置辦法第2條未將決定國賠及金額列為小組職權。",
+            "correction": "國賠依其他法定程序處理；本題選A。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "小組得就死亡或重傷爭議事件之使用時機、過程及相關行政責任調查並提供意見。",
+            "correction": "不是所有警械使用均自動啟動相同調查。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第10條之1第2項規定小組判斷使用妥適性，得考量使用人當時合理認知。",
+            "correction": "仍應依事件具體判斷。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第10條之1第3項明定得提供司法警察機關教育訓練及倫理促進建議。",
+            "correction": "屬建議，不能混同國賠決定。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-inner-02",
+        "amendment": {
+          "status": "none",
+          "law": "行政執行法第21、22條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列現行法條及官方資料逐項核對，保留114年官方答案A。",
+          "sources": [
+            {
+              "title": "行政執行法第21、22條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A錯誤：懷胎五月以上或產後未滿二月，屬不得管收或管收後停止管收；題目所問即通知釋放另列於第22條。",
+        "takeaway": "停止管收與釋放是不同法定程序。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第21條列懷胎五月以上或產後未滿二月為不得管收；發生於管收後應通知停止管收。",
+            "correction": "不是第22條所列釋放事由；本題選A。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第22條第1款明列義務已全部履行或執行完畢。",
+            "correction": "應即以書面通知管收所釋放。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第22條第3款明列管收期限屆滿。",
+            "correction": "不得超期管收。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第22條第4款明列已提供確實擔保。",
+            "correction": "注意條文用語「確實」。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-01",
+        "amendment": {
+          "status": "none",
+          "law": "警察法第9條；施行細則第10條；釋字第570號",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列現行法條及官方資料逐項核對，保留114年官方答案D。",
+          "sources": [
+            {
+              "title": "警察法第9條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
+            },
+            {
+              "title": "警察法施行細則第10條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
+            },
+            {
+              "title": "憲法法庭釋字第570號解釋",
+              "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=5297&id=167483"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D正確：違警處分依警察法令所定程序，並不限於社維法；限制自由權利仍須符合釋字570法律保留。",
+        "takeaway": "組織權限與限制人民權利的具體法律依據應分開。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "施行細則第10條第1款規定中央發布警察命令由內政部為之。",
+            "correction": "不能直接把警政署當作該款列示機關。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "細則第10條第7款「其他應執行法令事項」指其他有關警察業務。",
+            "correction": "不是與警察業務無關的其他機關一切業務。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "釋字570指出第9條第1款是組織性職權規定；相關命令限制人民自由權利仍須符合法律保留。",
+            "correction": "不得單憑概括職權取代具體法律依據。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "細則第10條第2款規定違警處分依警察法令所定程序行使。",
+            "correction": "不以社維法一種法規為限；本題選D。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-08",
+        "amendment": {
+          "status": "none",
+          "law": "公務人員行政中立法第7、9條；施行細則第6條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列現行法條及官方資料逐項核對，保留114年官方答案A。",
+          "sources": [
+            {
+              "title": "公務人員行政中立法第7、9條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110036"
+            },
+            {
+              "title": "公務人員行政中立法施行細則第6條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110037"
+            },
+            {
+              "title": "行政院人事行政總處行政中立宣導教材",
+              "url": "https://www.dgpa.gov.tw/uploads/dgpa/files/202310/8d7149d6-ad92-4104-8c1d-c0d4bdfed510.pdf"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A錯誤：下班參與政治團體所召集的集會，並非第9條一律禁止；仍不得主持、發起或領導法定活動，亦不得涉及其他違法行為。",
+        "takeaway": "一般參與與主持、發起、領導不同；親屬例外不得涉及職務。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第7條限制上班或勤務時間；官方教材說明下班或請假後得參加，但不得主持或發起。",
+            "correction": "不是下班後一律不得參與；本題選A。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "為支持政黨發起遊行，受第9條第1項第3款限制，不以勤務時間為限。",
+            "correction": "區分發起與單純參與。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "為反對特定政黨領導連署活動，受第9條第1項第3款限制。",
+            "correction": "該款規範領導，非將所有連署一概禁止。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第9條第1項第4款對候選人配偶及二親等內血親、姻親有只具名不具銜例外。",
+            "correction": "第3項仍不得涉及職務事項。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-inner-20",
+        "amendment": {
+          "status": "none",
+          "law": "公務人員行政中立法第7、9條；施行細則第6條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列現行法條及官方資料逐項核對，保留114年官方答案A。",
+          "sources": [
+            {
+              "title": "公務人員行政中立法第7、9條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110036"
+            },
+            {
+              "title": "公務人員行政中立法施行細則第6條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110037"
+            },
+            {
+              "title": "行政院人事行政總處行政中立宣導教材",
+              "url": "https://www.dgpa.gov.tw/uploads/dgpa/files/202310/8d7149d6-ad92-4104-8c1d-c0d4bdfed510.pdf"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A正確：非上班或勤務時間可參與集會遊行，但應遵守主持、發起與利用職務等限制。",
+        "takeaway": "單純參與、政治宣傳資源與候選人近親例外分開判斷。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "依第7條與官方說明，下班或請假期間單純參與集會遊行，並非一律禁止。",
+            "correction": "仍不得有第9條禁止之主持等行為；本題選A。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第9條對動用行政資源宣傳及在辦公場所標示政黨或候選人旗幟等有規範，沒有以30元設一概例外。",
+            "correction": "是否違反須看具體用途、展示及法定要件，不能僅以面紙價值斷定。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "官方說明單純參與連署不等於第9條所禁止的領導連署。",
+            "correction": "不可把「不得領導」擴張成任何連署均不得參與；其他法律規範仍須注意。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第9條第1項第6款對候選人配偶及二親等以內血親、姻親列例外。",
+            "correction": "仍不得涉及職務事項。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-16",
+        "amendment": {
+          "status": "none",
+          "law": "憲法第7條；釋字第666號；社會秩序維護法第80、91條之1",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列現行法條及官方資料逐項核對，保留114年官方答案A。",
+          "sources": [
+            {
+              "title": "憲法法庭釋字第666號解釋",
+              "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310847"
+            },
+            {
+              "title": "社會秩序維護法第24、26、39、43、45、46、55至58、81、86、87條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A正確：釋字666認定舊法只處罰性交易中意圖得利的一方，違反平等原則；現行第80條已修正，應另看自治條例例外。",
+        "takeaway": "記住釋字針對舊規定，不可直接當成現行第80條全文。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "解釋認為對共同完成性交易雙方差別處罰欠缺正當理由，違反憲法第7條。",
+            "correction": "本題選A。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "解釋主文指出平等原則，不是以誠信原則作為主文結論。",
+            "correction": "區分題目所問違憲理由。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "解釋主文指出平等原則，不是信賴保護原則。",
+            "correction": "本題不選信賴保護。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "解釋主文所宣告的是平等原則違反。",
+            "correction": "不要把其他憲法爭議與本號主文結論混同。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-24",
+        "amendment": {
+          "status": "none",
+          "law": "集會遊行法第16條；釋字第718號",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列現行法條及官方資料逐項核對，保留114年官方答案B。",
+          "sources": [
+            {
+              "title": "集會遊行法第2、6、8至11及16條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            },
+            {
+              "title": "司法院釋字第718號解釋",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B正確：原主管機關認申復無理由，原則上於收受申復書之日起二日內連同卷證檢送上級警察機關；特殊急件另有時限。",
+        "takeaway": "一般申復期間自收受當日起算，急件例外另看。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第16條一般情形於收受通知書之日起二日內提出，不是翌日起三日。",
+            "correction": "急件另有自收受時起24小時規定。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "原主管機關認無理由者，應於收受申復書之日起二日內連同卷證送上級。",
+            "correction": "第12條第2項特殊情形為12小時；本題選B。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "上級警察機關一般應於收受卷證之日起二日內決定。",
+            "correction": "不是翌日起三日。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "條文由上級警察機關收卷證後依法決定，不是題述再轉上級機關。",
+            "correction": "特殊時限及緊急、偶發集會應合併釋字718判讀。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-14",
+        "amendment": {
+          "status": "none",
+          "law": "集會遊行法第9至11條；釋字第718號",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依所列現行法條及官方資料逐項核對，保留115年官方答案C。",
+          "sources": [
+            {
+              "title": "集會遊行法第2、6、8至11及16條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            },
+            {
+              "title": "司法院釋字第718號解釋",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C為官方答案：第11條使用「有明顯事實足認」而非只憑合理懷疑，即得認有列舉危害。",
+        "takeaway": "一般原則應予許可；禁制區、資格與申請期限例外須逐條判斷。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第11條第1款列違反第6條禁制區規定；第6條但書有主管機關核准例外。",
+            "correction": "實際區域及核准狀況須查證。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第11條第1款列違反第10條法定資格限制。",
+            "correction": "須依個別法定資格認定。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第11條第2款使用有明顯事實足認有危害之門檻，不能直接改成合理懷疑。",
+            "correction": "本題選C；仍須具體審查並兼顧比例原則。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "一般申請依第9條於六日前提出；不可預見重大緊急事故具備條件時有例外。",
+            "correction": "釋字718另保障緊急及偶發性集會遊行。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-08",
+        "amendment": {
+          "status": "review",
+          "law": "行政程序法第19條；內政部113年立法院答覆",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "內政部113年答覆支持臨時性；114年函確認113年7月1日修正第6點並增訂同意協助判準。修正全文及後續沿革未取得，待進一步核對。",
+          "sources": [
+            {
+              "title": "行政程序法第19條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
+            },
+            {
+              "title": "內政部113年答覆立法院：警察協助原則",
+              "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2024031488/41402030721941001002.pdf"
+            },
+            {
+              "title": "內政部114年答覆立法院：113年職務協助原則第6點修正",
+              "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2025082111/21016172550040200002.pdf"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "B為官方答案：內政部113年答覆說明職務協助應重視臨時性；行政程序法第19條另規定請求、拒絕與費用。",
+        "takeaway": "區分機關個案協助與將業務常態移轉；警政署最新版原則全文仍待取得。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "內政部答覆以臨時協助為原則，不等於通案、常態接辦。",
+            "correction": "不能只憑「統案性」取代法定個案請求。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "內政部113年答覆列臨時性；本題官方答案為B。",
+            "correction": "警政署現行完整職務協助原則仍待取得。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "專案是工作形式，不能單憑此詞取代行政協助法定原則。",
+            "correction": "仍應個別確認法定職權與請求。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "行政程序法第19條以機關請求為基礎，原則書面，緊急情形除外。",
+            "correction": "不能概括說協助均由受請求機關主動發動。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-16",
+        "amendment": {
+          "status": "review",
+          "law": "集會遊行法第2、8條；釋字第718號",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "私人莊園是否為公眾得出入場所及活動實際安排未交代；保留官方答案，待核釋義與事實。",
+          "sources": [
+            {
+              "title": "集會遊行法第2、6、8至11及16條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            },
+            {
+              "title": "司法院釋字第718號解釋",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "C為官方答案：為公投宣導所召集的遊街活動通常屬集遊法遊行；題目對私人莊園是否為公眾得出入場所未交代，仍須查明。",
+        "takeaway": "依場所性質與活動內容判斷；宗教、體育例外及緊急偶發集會另看。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "集遊法第2條以公共場所或公眾得出入之場所界定集會，不能只憑土地私人所有認定不適用。",
+            "correction": "如不供公眾出入，可能不屬第2條集會；仍應確認事實。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "宗教、民俗活動依第8條第1項第3款免該條許可。",
+            "correction": "道路使用及其他法令義務仍須處理。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "為公投宣導所召集之公共道路集體遊街，原則屬第2條遊行及第8條許可規範。",
+            "correction": "本題官方答案為C；緊急及偶發集會保障另依釋字718。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "體育競賽依第8條第1項第2款免該條許可。",
+            "correction": "道路封閉或活動仍可能需要其他許可。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-21",
+        "amendment": {
+          "status": "review",
+          "law": "警察職權行使法第6、7條；社會秩序維護法第43條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "警職法列舉身分查證事項含「等」；社維法處分書另明列性別，題示交通舉發之具體法源及性別詢問範圍仍待核。",
+          "sources": [
+            {
+              "title": "警察職權行使法第6、7條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "社會秩序維護法第24、26、39、43、45、46、55至58、81、86、87條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "B為官方答案：警職法第7條第1項第2款列舉身分查證可詢問姓名、出生資料、國籍、住居所及身分證號，未明列性別；該款「等」字及其他法律程序仍須分開判斷。",
+        "takeaway": "未明列不等於任何執法程序都禁止記載性別；適用法源待進一步確認。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "警職法第7條第1項第2款明列姓名，查證仍須符合第6條要件及必要性。",
+            "correction": "本題非A。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "警職法第7條第1項第2款未明列性別；但文字有「等」，不宜推論任何情況均不得詢問。",
+            "correction": "本題官方答案為B；具體適用及其他法源待核。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "住居所為該款列示事項，住所包含在住居所內。",
+            "correction": "仍須符合必要性及個資相關規定。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "該款列住居所，包含居所。",
+            "correction": "與地址資料應依目的及必要性處理。",
+            "trueStatement": true
+          }
+        ]
+      }
+    ],
+    "createdAt": 1794887139912
   }
 ]

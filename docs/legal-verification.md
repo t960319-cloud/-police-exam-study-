@@ -284,3 +284,12 @@
 - 四題逐項核對；113勤務21、三題申論與全國完整解送程序仍保留待核。證據與取得限制見[本批紀錄](legal-evidence-2026-11-16-restraint-sources.json)。
 
 - 發布紀錄：Sites 第28版來源 `bb7adcc845e0c031cf979f9e12050afaddccb30b`，部署 `appgdep_6afb8f9e12d08191b8ffb3e58be49027` 原生回報成功；網站維持公開。正式法規 API 仍受本環境 CONNECT 403 阻擋，部署後資料讀回與正式帳號驗收尚未完成。
+
+### 2026-11-17：社維程序、警察命令及行政中立題解
+
+- 依[社會秩序維護法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067)及[案件處理辦法](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070)，補裁處確定、警察異議與法院抗告、爭議管轄、處分書形式更正、第81及87條分流與前案已確定未執行的再犯判斷。
+- 依[釋字570](https://cons.judicial.gov.tw/docdata.aspx?fid=5297&id=167483)、[釋字666](https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310847)、行政執行法及警械規定，釐清組織性職權與法律保留、舊性交易條文平等原則、停止管收與釋放、警械調查與國賠程序。
+- 依行政中立法、[人事行政總處宣導資料](https://www.dgpa.gov.tw/uploads/dgpa/files/202310/8d7149d6-ad92-4104-8c1d-c0d4bdfed510.pdf)及集遊法，補下班單純參與、親屬例外、申復時限及申請許可例外；原題及官方答案不變。
+- 十五題逐項核對；另補職務協助、私人莊園是否公眾得出入、警職法查證身分列舉與「等」字三題，因最新完整內規或題目法源事實未確認而仍待核。詳見[來源及證據](legal-evidence-2026-11-17-procedure-neutrality.json)。
+
+- 另由[內政部114年函覆](https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2025082111/21016172550040200002.pdf)確認，警政署於113年7月1日修正職務協助原則第6點並增訂同意協助判準；未取得全文及後續沿革，115內軌第8題繼續待核。

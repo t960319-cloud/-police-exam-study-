@@ -233,3 +233,17 @@ const prepEssay=result.essays.find(x=>x.id==='duty115_s01');assert.equal(prepEss
 for(const id of ['s05','scene115-e2']){const e=result.essays.find(x=>x.id===id);assert.equal(e?.verified,false);assert(e.model.analysis.includes('復審案'));assert(e.amendment.sources.some(s=>s.url.includes('ws.exam.gov.tw')));}
 const cuffCard=result.laws.find(x=>x.id==='escort-constraints');assert(cuffCard?.points.some(x=>x.includes('10年')));assert(cuffCard.traps.some(x=>x.includes('111年警銬規範')));
 console.log('Historical handcuff rules, individual escort duties and revised guidance remain clearly distinguished.');
+
+// Keep police/court remedies, released/stopped detention and verified scope separate.
+for(const [id,answer] of [['law112-inner-05',2],['law112-inner-06',3],['law112-inner-07',1],['law112-inner-08',2],['law112-outer-04',3],['law112-outer-05',3],['law112-outer-06',3],['law112-outer-18',0],['law114-inner-02',0],['law114-outer-01',3],['law114-outer-08',0],['law114-inner-20',0],['law114-outer-16',0],['law114-outer-24',1],['law115-outer-14',2]]){
+ const q=result.questions.find(x=>x.id===id);assert(q?.verified);assert.equal(q.answer,answer);assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()));
+}
+const socialProcedure=result.questions.find(q=>q.id==='law112-inner-06');assert(socialProcedure.currentAnswer.includes('抗告'));assert(socialProcedure.currentAnswer.includes('聲明異議'));
+const notExecuted=result.questions.find(q=>q.id==='law112-outer-06');assert(notExecuted.takeaway.includes('確定不等於執行完畢'));
+const detentionRelease=result.questions.find(q=>q.id==='law114-inner-02');assert(detentionRelease.currentAnswer.includes('停止管收'));assert(detentionRelease.currentAnswer.includes('釋放'));
+const policeCommand=result.questions.find(q=>q.id==='law114-outer-01');assert(policeCommand.options[2].explanation.includes('法律保留'));assert(policeCommand.amendment.sources.some(s=>s.url.includes('id=167483')));
+const equalTreatment=result.questions.find(q=>q.id==='law114-outer-16');assert(equalTreatment.currentAnswer.includes('舊法'));assert(equalTreatment.currentAnswer.includes('現行'));
+for(const id of ['law115-inner-08','law115-inner-16','law115-outer-21']){const q=result.questions.find(x=>x.id===id);assert.equal(q?.verified,false);assert.equal(q.amendment.status,'review');assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()));}
+assert(result.questions.find(q=>q.id==='law115-inner-16').amendment.note.includes('公眾得出入'));
+assert(result.questions.find(q=>q.id==='law115-outer-21').currentAnswer.includes('「等」'));
+console.log('Procedure and constitutional explanations preserve exam keys and unresolved statutory scope.');
