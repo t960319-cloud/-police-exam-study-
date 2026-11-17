@@ -9911,5 +9911,488 @@
       }
     ],
     "createdAt": 1794887645971
+  },
+  {
+    "eventId": "legal-review-20261117-assembly-history",
+    "kind": "update",
+    "checkedAt": "2026-11-17",
+    "summary": "取得警政署偶發及緊急集會遊行認定處理原則全文，補集遊、警察安全檢查、交通指揮及警政組織沿革八題詳解。",
+    "sources": [
+      {
+        "title": "集會遊行法第3、6、9、16、17、25、26及29條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+      },
+      {
+        "title": "警政署：偶發性及緊急性集會遊行認定處理原則全文",
+        "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1002151"
+      },
+      {
+        "title": "釋字第718號解釋",
+        "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
+      },
+      {
+        "title": "釋字第653號部分協同意見書註7：集會遊行申復程序",
+        "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C653&type=C"
+      },
+      {
+        "title": "新北市法規系統轉載臺灣高等法院98年度矚上易字第1號刑事判決要旨",
+        "url": "https://web.law.ntpc.gov.tw/Scripts/FLAWDOC02.aspx?RCODE2=B0000014&RNO=159-5&rtype=J2"
+      },
+      {
+        "title": "警察職權行使法第6、7、8條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+      },
+      {
+        "title": "內政部：警職法檢查與刑事搜索區別",
+        "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&n=174&page=15&sms=9015"
+      },
+      {
+        "title": "行政程序法第92條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
+      },
+      {
+        "title": "新北市法規系統轉載最高行政法院97年度裁字第4905號裁定要旨：交通警察指揮",
+        "url": "https://web.law.ntpc.gov.tw/scripts/FLAWDOC03.aspx?jcase=%E8%A3%81&jcode=F&jno=4905&jnumber=001&jyear=97&rtype=J2"
+      },
+      {
+        "title": "內政部戶政司：戶政組織與戶警分立沿革",
+        "url": "https://www.ris.gov.tw/documents/html/9/223.html"
+      },
+      {
+        "title": "內政部消防署簡介：84年警消分立",
+        "url": "https://www.nfa.gov.tw/pro/index.php?code=list&ids=213"
+      },
+      {
+        "title": "海巡署緣起：89年納編水上警察",
+        "url": "https://www.cga.gov.tw/GipOpen/wSite/ct?ctNode=782&mp=999&xItem=3761"
+      },
+      {
+        "title": "內政部移民署沿革：96年成立與整合業務",
+        "url": "https://www.immigration.gov.tw/5382/5385/5388/7169/15869/cp_news"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "law112-outer-19",
+        "amendment": {
+          "status": "none",
+          "law": "集會遊行法第6條；偶發性及緊急性集會遊行認定處理原則第2、3、5及9點",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依官方原文、沿革及所列個案逐項核對；保留112年官方答案D，判例仍依個案事實適用。",
+          "sources": [
+            {
+              "title": "集會遊行法第3、6、9、16、17、25、26及29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            },
+            {
+              "title": "警政署：偶發性及緊急性集會遊行認定處理原則全文",
+              "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1002151"
+            },
+            {
+              "title": "釋字第718號解釋",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D錯誤：認定處理原則第5點規範偶發性集遊在第6條公告地區周邊的限制，不能因偶發就概稱不受限制；仍須看第6條核准例外與實際公告範圍。",
+        "takeaway": "無須申請許可不代表所有地點與其他法律限制都不適用。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第3點第1款列聚集舉行前具有特殊原因。",
+            "correction": "須與其餘條件一併判斷。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第3點第2款列因特殊原因自發聚集、事實上未經召集。",
+            "correction": "判斷實際聚集過程。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第3點第3款列聚集前事實上無發起人或負責人。",
+            "correction": "現場後續實際主持人另有第6點規定。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第5點規定偶發性集遊應遵守依第6條公告地區周邊的限制。",
+            "correction": "第6條另有主管機關核准例外，不能一概宣稱偶發集會不受限制；本題選D。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law113-outer-15",
+        "amendment": {
+          "status": "none",
+          "law": "偶發性及緊急性集會遊行認定處理原則第2、5、6、7及9點",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依官方原文、沿革及所列個案逐項核對；保留113年官方答案B，判例仍依個案事實適用。",
+          "sources": [
+            {
+              "title": "集會遊行法第3、6、9、16、17、25、26及29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            },
+            {
+              "title": "警政署：偶發性及緊急性集會遊行認定處理原則全文",
+              "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1002151"
+            },
+            {
+              "title": "釋字第718號解釋",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B錯誤：第5點列不得於已有他人舉行或即將舉行集會遊行之同一時間、場所、路線舉行，並應依具體情形與比例原則處理。",
+        "takeaway": "聚集前無發起人，與聚集後出現現場實際主持人，不互相矛盾。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第2點將偶發集遊定義為特殊原因、未經召集、自發聚集，且事實上無發起人或負責人。",
+            "correction": "判斷聚集前狀況。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第5點第1項第3款列已有或即將舉行活動之同一時間、場所及路線。",
+            "correction": "不能概稱可於該同一時地路線舉行；本題選B。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第6點規定偶發集遊現場實際主持或指揮活動者為負責人。",
+            "correction": "該現場角色與聚集前是否有發起人應分時判斷。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第7點明定警察人員得到場維持秩序。",
+            "correction": "是得，不是無論情況均應到場。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-inner-24",
+        "amendment": {
+          "status": "none",
+          "law": "偶發性及緊急性集會遊行認定處理原則第3、4、7及9點",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依官方原文、沿革及所列個案逐項核對；保留114年官方答案D，判例仍依個案事實適用。",
+          "sources": [
+            {
+              "title": "集會遊行法第3、6、9、16、17、25、26及29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            },
+            {
+              "title": "警政署：偶發性及緊急性集會遊行認定處理原則全文",
+              "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1002151"
+            },
+            {
+              "title": "釋字第718號解釋",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D為官方答案：聚集前無發起人或負責人是第3點所列偶發性條件之一，仍須同時具備特殊原因、自發且未經召集等條件。",
+        "takeaway": "三個條件應一併認定；即時核定與到場「得」注意用詞。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第7點規定警察人員得到場維持秩序。",
+            "correction": "並非條文所稱一律應到場。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第4點規定緊急性集會申請由主管機關收受申請書即時核定並書面通知。",
+            "correction": "條文不是固定於2小時內核定。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第3點第1款使用「特殊原因」，不是僅寫個別原因。",
+            "correction": "仍須與自發、未經召集及無發起人等條件併看。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第3點第3款列聚集舉行前事實上無發起人或負責人。",
+            "correction": "這是一項條件，不可忽略同點其他條件；本題選D。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law113-outer-21",
+        "amendment": {
+          "status": "none",
+          "law": "集會遊行法第9、25、26、29條；臺灣高等法院98年度矚上易字第1號",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依官方原文、沿革及所列個案逐項核對；保留113年官方答案D，判例仍依個案事實適用。",
+          "sources": [
+            {
+              "title": "集會遊行法第3、6、9、16、17、25、26及29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            },
+            {
+              "title": "新北市法規系統轉載臺灣高等法院98年度矚上易字第1號刑事判決要旨",
+              "url": "https://web.law.ntpc.gov.tw/Scripts/FLAWDOC02.aspx?RCODE2=B0000014&RNO=159-5&rtype=J2"
+            },
+            {
+              "title": "釋字第718號解釋",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D錯誤：第29條沒有規定首謀者固定三人；法院曾指出首謀不限首倡者，也可能包括現場指揮且居領導地位者，仍須具體證據。",
+        "takeaway": "負責人、活動首謀及是否成立犯罪要分開判斷。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第9條由依法申請室外集會遊行之負責人填具申請書。",
+            "correction": "負責人須依法履行相關義務。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "未申請許可之活動，若存在具體首倡或指揮領導者，仍可能有首謀者。",
+            "correction": "是否應經許可及犯罪成立仍須依法審查。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "曾經申請許可的活動，如後續符合第29條的命令解散、制止等要件，亦須依具體行為認定首謀。",
+            "correction": "不是凡申請人或在場者必然構成犯罪。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第29條沒有把首謀者限定三人。",
+            "correction": "不能僅憑到場或警方認識即推定首謀；本題選D。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-13",
+        "amendment": {
+          "status": "none",
+          "law": "集會遊行法第16、17條；釋字第653號部分協同意見書註7",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依官方原文、沿革及所列個案逐項核對；保留114年官方答案A，判例仍依個案事實適用。",
+          "sources": [
+            {
+              "title": "集會遊行法第3、6、9、16、17、25、26及29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+            },
+            {
+              "title": "釋字第653號部分協同意見書註7：集會遊行申復程序",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C653&type=C"
+            },
+            {
+              "title": "釋字第718號解釋",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A錯誤：對分局通知申復，依第16條經原主管機關向其上級警察機關提出；上級為警察局而非縣政府。",
+        "takeaway": "區分申復的原主管機關、上級警察機關與後續訴願。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "彰化分局的上級警察機關為彰化縣警察局，申復書經原分局提出。",
+            "correction": "不是直接向彰化縣政府申復；本題選A。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "依一般警察機關層級，對基隆市警察局的通知向上級警察機關警政署申復。",
+            "correction": "應經原主管機關提出。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "釋字653部分協同意見書註7將集遊法申復列為訴願前的程序。",
+            "correction": "後續訴願及訴訟仍須依法辦理。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第17條明定申復提出不影響原通知效力。",
+            "correction": "仍應注意其他法律所定停止執行及救濟。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-21",
+        "amendment": {
+          "status": "none",
+          "law": "警察職權行使法第6至8條；內政部警職法檢查說明",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依官方原文、沿革及所列個案逐項核對；保留114年官方答案A，判例仍依個案事實適用。",
+          "sources": [
+            {
+              "title": "警察職權行使法第6、7、8條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "內政部：警職法檢查與刑事搜索區別",
+              "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&n=174&page=15&sms=9015"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A正確：身分查證時的身體及隨身物檢查屬安全目的，仍須符合明顯事實、危險物及必要性等具體要件。",
+        "takeaway": "安全檢查與刑事搜索分立；車輛檢查另看第8條。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第7條第1項第4款以明顯事實足認攜帶可能自傷或傷害他人生命身體之物為條件。",
+            "correction": "保護自己或他人安全，仍應具備具體法定要件；本題選A。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "內政部說明警職法檢查不得藉此為侵入衣內等涉及刑事搜索之行為。",
+            "correction": "需要搜索時須另有合法搜索依據。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第8條第2項區分強制離車與有事實足認有犯罪之虞時檢查交通工具。",
+            "correction": "檢查交通工具不等於當然可刑事搜索。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第7條身體及所攜物檢查的物品危險，以自殺、自傷或傷害他人生命身體為範圍。",
+            "correction": "不能單以損害財產之物作為該款明文要件。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-03",
+        "amendment": {
+          "status": "none",
+          "law": "戶政、消防、海巡與移民機關官方沿革",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依官方原文、沿革及所列個案逐項核對；保留115年官方答案D，判例仍依個案事實適用。",
+          "sources": [
+            {
+              "title": "內政部戶政司：戶政組織與戶警分立沿革",
+              "url": "https://www.ris.gov.tw/documents/html/9/223.html"
+            },
+            {
+              "title": "內政部消防署簡介：84年警消分立",
+              "url": "https://www.nfa.gov.tw/pro/index.php?code=list&ids=213"
+            },
+            {
+              "title": "海巡署緣起：89年納編水上警察",
+              "url": "https://www.cga.gov.tw/GipOpen/wSite/ct?ctNode=782&mp=999&xItem=3761"
+            },
+            {
+              "title": "內政部移民署沿革：96年成立與整合業務",
+              "url": "https://www.immigration.gov.tw/5382/5385/5388/7169/15869/cp_news"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D正確：四項中，原警政署部分入出境與外事等業務於96年整合至入出國及移民署，時間晚於戶警分立、警消分立與海巡署成立。",
+        "takeaway": "戶政81、消防84、海巡89、入出國及移民署96；移民署104年再更名。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "消防署84年3月1日成立，警消分立。",
+            "correction": "早於96年入出國及移民署成立。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "臺灣自81年7月實施戶警分立，戶政業務回歸民政。",
+            "correction": "早於消防、海巡與移民整合。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "行政院海岸巡防署89年成立，納編原水上警察等機關業務。",
+            "correction": "早於96年移民機關整合。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "內政部入出國及移民署於96年1月2日成立，整合原警政署入出境管理局等部分業務。",
+            "correction": "104年更名內政部移民署；本題選D。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-outer-12",
+        "amendment": {
+          "status": "none",
+          "law": "行政程序法第92條；最高行政法院97年度裁字第4905號",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依官方原文、沿革及所列個案逐項核對；保留115年官方答案B，判例仍依個案事實適用。",
+          "sources": [
+            {
+              "title": "行政程序法第92條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
+            },
+            {
+              "title": "新北市法規系統轉載最高行政法院97年度裁字第4905號裁定要旨：交通警察指揮",
+              "url": "https://web.law.ntpc.gov.tw/scripts/FLAWDOC03.aspx?jcase=%E8%A3%81&jcode=F&jno=4905&jnumber=001&jyear=97&rtype=J2"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B正確：警察於路口對可依共同特徵確定範圍之用路人以手勢指揮，屬對人一般處分，適用行政處分規定。",
+        "takeaway": "具體單方公權力規制不特定但可確定範圍的人，屬一般處分。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "手勢直接規制現場人車通行，具有直接法律效果，不是單純事實行為。",
+            "correction": "須依具體內容判斷。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "行政程序法第92條第2項的一般處分包含相對人非特定但範圍可依一般性特徵確定者。",
+            "correction": "法院裁定亦以交通警察指揮為例；本題選B。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "行政指導不以直接發生法律效果的公權力規制為其本質。",
+            "correction": "本題指揮具有拘束效果。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "法規命令通常規範抽象一般事項；本題係特定路口當下之具體交通管制。",
+            "correction": "不宜按形式是手勢就認為命令。",
+            "trueStatement": false
+          }
+        ]
+      }
+    ],
+    "createdAt": 1794888161863
   }
 ]

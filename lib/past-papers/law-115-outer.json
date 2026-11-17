@@ -875,26 +875,26 @@
       "options": [
         {
           "text": "行政事實行為",
-          "explanation": "交通手勢指揮以規制人車行止為目的，具有法律效果，非純事實行為。",
-          "correction": "改為對不特定人具規制效力的一般處分。",
+          "explanation": "手勢直接規制現場人車通行，具有直接法律效果，不是單純事實行為。",
+          "correction": "須依具體內容判斷。",
           "trueStatement": false
         },
         {
           "text": "一般處分",
-          "explanation": "路口手勢對可得確定的現場交通參與者產生直接外部法律效果，屬一般處分。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "行政程序法第92條第2項的一般處分包含相對人非特定但範圍可依一般性特徵確定者。",
+          "correction": "法院裁定亦以交通警察指揮為例；本題選B。",
           "trueStatement": true
         },
         {
           "text": "行政指導",
-          "explanation": "合法交通指揮非僅勸導建議，具有拘束效果。",
-          "correction": "改為一般處分。",
+          "explanation": "行政指導不以直接發生法律效果的公權力規制為其本質。",
+          "correction": "本題指揮具有拘束效果。",
           "trueStatement": false
         },
         {
           "text": "法規命令",
-          "explanation": "個別路口即時手勢並非抽象一般法規命令。",
-          "correction": "改為一般處分。",
+          "explanation": "法規命令通常規範抽象一般事項；本題係特定路口當下之具體交通管制。",
+          "correction": "不宜按形式是手勢就認為命令。",
           "trueStatement": false
         }
       ],
@@ -903,24 +903,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第12題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 12,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "行政程序法第92條；最高行政法院97年度裁字第4905號",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依官方原文、沿革及所列個案逐項核對；保留115年官方答案B，判例仍依個案事實適用。",
         "sources": [
           {
-            "title": "行政程序法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030055"
+            "title": "行政程序法第92條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
+          },
+          {
+            "title": "新北市法規系統轉載最高行政法院97年度裁字第4905號裁定要旨：交通警察指揮",
+            "url": "https://web.law.ntpc.gov.tw/scripts/FLAWDOC03.aspx?jcase=%E8%A3%81&jcode=F&jno=4905&jnumber=001&jyear=97&rtype=J2"
           }
         ]
       },
-      "takeaway": "路口手勢對可得確定的現場交通參與者產生直接外部法律效果，屬一般處分。",
+      "takeaway": "具體單方公權力規制不特定但可確定範圍的人，屬一般處分。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -933,8 +939,13 @@
         {
           "title": "行政程序法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030055"
+        },
+        {
+          "title": "新北市法規系統轉載最高行政法院97年度裁字第4905號裁定要旨：交通警察指揮",
+          "url": "https://web.law.ntpc.gov.tw/scripts/FLAWDOC03.aspx?jcase=%E8%A3%81&jcode=F&jno=4905&jnumber=001&jyear=97&rtype=J2"
         }
-      ]
+      ],
+      "currentAnswer": "B正確：警察於路口對可依共同特徵確定範圍之用路人以手勢指揮，屬對人一般處分，適用行政處分規定。"
     },
     {
       "id": "law115-outer-13",

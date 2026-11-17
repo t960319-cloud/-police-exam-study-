@@ -1859,26 +1859,26 @@
       "options": [
         {
           "text": "偶發性及緊急性集會、遊行，警察人員應到場維持秩序",
-          "explanation": "集會時警察原則得到場維持秩序，不是所有偶發或緊急集會均應到場。",
-          "correction": "改為得到場；有負責人請求依法處理。",
+          "explanation": "第7點規定警察人員得到場維持秩序。",
+          "correction": "並非條文所稱一律應到場。",
           "trueStatement": false
         },
         {
           "text": "緊急性集會、遊行之申請，主管機關應於收受申請書 2 小時內核定，並以書面通知負責人",
-          "explanation": "緊急性集會須即時核定，不能將2小時視為得等待的通則。",
-          "correction": "改為收件後即時核定並通知。",
+          "explanation": "第4點規定緊急性集會申請由主管機關收受申請書即時核定並書面通知。",
+          "correction": "條文不是固定於2小時內核定。",
           "trueStatement": false
         },
         {
           "text": "偶發性集會、遊行符合聚集舉行集會、遊行前，具有個別原因之情形者，無須申請許可",
-          "explanation": "偶發性集會須特殊原因、自發未經召集且無發起人或負責人，非只有個別原因即可。",
-          "correction": "改為同時審查法定或處理原則所列條件。",
+          "explanation": "第3點第1款使用「特殊原因」，不是僅寫個別原因。",
+          "correction": "仍須與自發、未經召集及無發起人等條件併看。",
           "trueStatement": false
         },
         {
           "text": "偶發性集會、遊行符合聚集舉行集會、遊行前，事實上無發起人或負責人，無須申請許可",
-          "explanation": "無發起人或負責人是偶發性集會免申請的必要條件之一，還須由特殊原因自發聚集、未經召集。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第3點第3款列聚集舉行前事實上無發起人或負責人。",
+          "correction": "這是一項條件，不可忽略同點其他條件；本題選D。",
           "trueStatement": true
         }
       ],
@@ -1887,24 +1887,34 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察法規概要｜第24題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 24,
       "answerStatus": "考選部原始答案與更正公告已核",
       "amendment": {
-        "status": "review",
-        "note": "處理原則之現行警政署原件尚待取得；應併核釋字第718號及集遊法，不能僅背單一條件。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "偶發性及緊急性集會遊行認定處理原則第3、4、7及9點",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依官方原文、沿革及所列個案逐項核對；保留114年官方答案D，判例仍依個案事實適用。",
         "sources": [
           {
-            "title": "集會遊行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+            "title": "集會遊行法第3、6、9、16、17、25、26及29條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+          },
+          {
+            "title": "警政署：偶發性及緊急性集會遊行認定處理原則全文",
+            "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1002151"
+          },
+          {
+            "title": "釋字第718號解釋",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
           }
         ]
       },
-      "takeaway": "無發起人或負責人是偶發性集會免申請的必要條件之一，還須由特殊原因自發聚集、未經召集。",
+      "takeaway": "三個條件應一併認定；即時核定與到場「得」注意用詞。",
       "sources": [
         {
           "title": "考選部114年警察四等警察法規概要原卷",
@@ -1917,8 +1927,17 @@
         {
           "title": "集會遊行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        },
+        {
+          "title": "警政署：偶發性及緊急性集會遊行認定處理原則全文",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1002151"
+        },
+        {
+          "title": "釋字第718號解釋",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
         }
-      ]
+      ],
+      "currentAnswer": "D為官方答案：聚集前無發起人或負責人是第3點所列偶發性條件之一，仍須同時具備特殊原因、自發且未經召集等條件。"
     },
     {
       "id": "law114-inner-25",

@@ -965,26 +965,26 @@
       "options": [
         {
           "text": "對彰化縣警察局彰化分局作出不予許可之通知後，應向彰化縣政府申復",
-          "explanation": "彰化分局上級警察機關為彰化縣警察局；不是縣政府。",
-          "correction": "經彰化分局向彰化縣警察局申復。",
+          "explanation": "彰化分局的上級警察機關為彰化縣警察局，申復書經原分局提出。",
+          "correction": "不是直接向彰化縣政府申復；本題選A。",
           "trueStatement": false
         },
         {
           "text": "對基隆市警察局作出不予許可之通知後，應向內政部警政署申復",
-          "explanation": "對基隆市警察局之不予許可，依警察體系向上級警察機關申復。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "依一般警察機關層級，對基隆市警察局的通知向上級警察機關警政署申復。",
+          "correction": "應經原主管機關提出。",
           "trueStatement": true
         },
         {
           "text": "申復為訴願之先行程序",
-          "explanation": "申復為集會遊行法規定的特別救濟，須與一般訴願救濟及其時序區分。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "釋字653部分協同意見書註7將集遊法申復列為訴願前的程序。",
+          "correction": "後續訴願及訴訟仍須依法辦理。",
           "trueStatement": true
         },
         {
           "text": "申復之提出，不影響原通知之效力",
-          "explanation": "第17條規定提出申復不影響原通知之效力。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第17條明定申復提出不影響原通知效力。",
+          "correction": "仍應注意其他法律所定停止執行及救濟。",
           "trueStatement": true
         }
       ],
@@ -993,24 +993,34 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年外軌四等｜警察法規概要｜第13題",
       "paperYear": 114,
       "paperTrack": "外軌",
       "paperNumber": 13,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋及後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "集會遊行法第16、17條；釋字第653號部分協同意見書註7",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依官方原文、沿革及所列個案逐項核對；保留114年官方答案A，判例仍依個案事實適用。",
         "sources": [
           {
-            "title": "集會遊行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+            "title": "集會遊行法第3、6、9、16、17、25、26及29條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+          },
+          {
+            "title": "釋字第653號部分協同意見書註7：集會遊行申復程序",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C653&type=C"
+          },
+          {
+            "title": "釋字第718號解釋",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
           }
         ]
       },
-      "takeaway": "彰化分局上級警察機關為彰化縣警察局；不是縣政府。",
+      "takeaway": "區分申復的原主管機關、上級警察機關與後續訴願。",
       "sources": [
         {
           "title": "考選部114年一般警察四等警察法規概要原卷",
@@ -1023,8 +1033,17 @@
         {
           "title": "集會遊行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        },
+        {
+          "title": "釋字第653號部分協同意見書註7：集會遊行申復程序",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C653&type=C"
+        },
+        {
+          "title": "釋字第718號解釋",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
         }
-      ]
+      ],
+      "currentAnswer": "A錯誤：對分局通知申復，依第16條經原主管機關向其上級警察機關提出；上級為警察局而非縣政府。"
     },
     {
       "id": "law114-outer-14",
@@ -1590,26 +1609,26 @@
       "options": [
         {
           "text": "警察執行勤務時，就具體狀況加以判斷，檢查受檢人之身體及所攜帶之物，係基於保護自己或 他人安全",
-          "explanation": "身體及攜帶物檢查目的與保護本人或他人生命身體安全有關，且須有明顯事實。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第7條第1項第4款以明顯事實足認攜帶可能自傷或傷害他人生命身體之物為條件。",
+          "correction": "保護自己或他人安全，仍應具備具體法定要件；本題選A。",
           "trueStatement": true
         },
         {
           "text": "檢查係指拍搜身體及所攜帶之物表面，以察覺其物之特徵，必要時得有侵入性涉及搜索之行為",
-          "explanation": "警職法檢查不得概括視同可侵入式搜索，搜索須另符刑事等法定要件。",
-          "correction": "限於依法可採取檢查；搜索須另有法源。",
+          "explanation": "內政部說明警職法檢查不得藉此為侵入衣內等涉及刑事搜索之行為。",
+          "correction": "需要搜索時須另有合法搜索依據。",
           "trueStatement": false
         },
         {
           "text": "警察發現交通工具之駕駛人或乘客有事實足認其有犯罪之虞者，始得檢查及搜索交通工具",
-          "explanation": "第8條事實足認有犯罪之虞時得檢查交通工具，不能逕稱得搜索。",
-          "correction": "刪除「及搜索」，搜索另循法定程序。",
+          "explanation": "第8條第2項區分強制離車與有事實足認有犯罪之虞時檢查交通工具。",
+          "correction": "檢查交通工具不等於當然可刑事搜索。",
           "trueStatement": false
         },
         {
           "text": "發動檢查的要件為有明顯事實足認其有攜帶足以損害他人財產之物，故必須有相當事實顯示， 方可發動",
-          "explanation": "第7條須明顯事實足認攜帶足以自殺、自傷或傷害他人生命身體之物，不含題示財產損害即足。",
-          "correction": "改為法定生命、身體危險物品。",
+          "explanation": "第7條身體及所攜物檢查的物品危險，以自殺、自傷或傷害他人生命身體為範圍。",
+          "correction": "不能單以損害財產之物作為該款明文要件。",
           "trueStatement": false
         }
       ],
@@ -1618,24 +1637,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年外軌四等｜警察法規概要｜第21題",
       "paperYear": 114,
       "paperTrack": "外軌",
       "paperNumber": 21,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋及後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察職權行使法第6至8條；內政部警職法檢查說明",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依官方原文、沿革及所列個案逐項核對；保留114年官方答案A，判例仍依個案事實適用。",
         "sources": [
           {
-            "title": "警察職權行使法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+            "title": "警察職權行使法第6、7、8條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          },
+          {
+            "title": "內政部：警職法檢查與刑事搜索區別",
+            "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&n=174&page=15&sms=9015"
           }
         ]
       },
-      "takeaway": "身體及攜帶物檢查目的與保護本人或他人生命身體安全有關，且須有明顯事實。",
+      "takeaway": "安全檢查與刑事搜索分立；車輛檢查另看第8條。",
       "sources": [
         {
           "title": "考選部114年一般警察四等警察法規概要原卷",
@@ -1648,8 +1673,13 @@
         {
           "title": "警察職權行使法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        },
+        {
+          "title": "內政部：警職法檢查與刑事搜索區別",
+          "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&n=174&page=15&sms=9015"
         }
-      ]
+      ],
+      "currentAnswer": "A正確：身分查證時的身體及隨身物檢查屬安全目的，仍須符合明顯事實、危險物及必要性等具體要件。"
     },
     {
       "id": "law114-outer-22",

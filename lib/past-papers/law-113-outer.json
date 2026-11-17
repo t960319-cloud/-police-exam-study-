@@ -1145,26 +1145,26 @@
       "options": [
         {
           "text": "指因特殊原因未經召集而自發聚集，且事實上無發起人或負責人之集會、遊行",
-          "explanation": "因特殊原因未經召集自發聚集且無事前發起人負責人，符合偶發特徵。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第2點將偶發集遊定義為特殊原因、未經召集、自發聚集，且事實上無發起人或負責人。",
+          "correction": "判斷聚集前狀況。",
           "trueStatement": true
         },
         {
           "text": "偶發性集會、遊行得於即將舉行集會、遊行之同一時間、場所、路線舉行",
-          "explanation": "免申請不等於得任意占用他人已申准的同時同地路線，仍有法定限制。",
-          "correction": "免申請不等於得任意占用他人已申准的同時同地路線，仍有法定限制。",
+          "explanation": "第5點第1項第3款列已有或即將舉行活動之同一時間、場所及路線。",
+          "correction": "不能概稱可於該同一時地路線舉行；本題選B。",
           "trueStatement": false
         },
         {
           "text": "偶發性集會、遊行於現場實際主持或指揮活動之人，為集會、遊行負責人",
-          "explanation": "現場實際主持指揮者依法負負責人責任，不能以無事前負責人免責。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第6點規定偶發集遊現場實際主持或指揮活動者為負責人。",
+          "correction": "該現場角色與聚集前是否有發起人應分時判斷。",
           "trueStatement": true
         },
         {
           "text": "偶發性集會、遊行時，警察人員得到場維持秩序",
-          "explanation": "警察仍可依法到場維持秩序，措施須必要合比例。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第7點明定警察人員得到場維持秩序。",
+          "correction": "是得，不是無論情況均應到場。",
           "trueStatement": true
         }
       ],
@@ -1172,24 +1172,34 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年外軌四等｜警察法規概要｜第15題",
       "paperYear": 113,
       "paperTrack": "外軌",
       "paperNumber": 15,
       "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "偶發性及緊急性集會遊行認定處理原則第2、5、6、7及9點",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依官方原文、沿革及所列個案逐項核對；保留113年官方答案B，判例仍依個案事實適用。",
         "sources": [
           {
-            "title": "集會遊行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+            "title": "集會遊行法第3、6、9、16、17、25、26及29條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+          },
+          {
+            "title": "警政署：偶發性及緊急性集會遊行認定處理原則全文",
+            "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1002151"
+          },
+          {
+            "title": "釋字第718號解釋",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
           }
         ]
       },
-      "takeaway": "免申請不等於得任意占用他人已申准的同時同地路線，仍有法定限制。",
+      "takeaway": "聚集前無發起人，與聚集後出現現場實際主持人，不互相矛盾。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -1203,8 +1213,17 @@
         {
           "title": "集會遊行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        },
+        {
+          "title": "警政署：偶發性及緊急性集會遊行認定處理原則全文",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1002151"
+        },
+        {
+          "title": "釋字第718號解釋",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
         }
-      ]
+      ],
+      "currentAnswer": "B錯誤：第5點列不得於已有他人舉行或即將舉行集會遊行之同一時間、場所、路線舉行，並應依具體情形與比例原則處理。"
     },
     {
       "id": "law113-outer-16",
@@ -1594,26 +1613,26 @@
       "options": [
         {
           "text": "負責人係指依法申請集會遊行之負責人",
-          "explanation": "一般負責人指依法申請者；偶發性現場主持人的責任另依規定。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第9條由依法申請室外集會遊行之負責人填具申請書。",
+          "correction": "負責人須依法履行相關義務。",
           "trueStatement": true
         },
         {
           "text": "首謀者包含集會遊行未經申請許可舉行時為首之人",
-          "explanation": "未經申請集會為首者可屬首謀者，依法就實質指揮認定。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "未申請許可之活動，若存在具體首倡或指揮領導者，仍可能有首謀者。",
+          "correction": "是否應經許可及犯罪成立仍須依法審查。",
           "trueStatement": true
         },
         {
           "text": "首謀者包含集會遊行已申請許可舉行時為首之人",
-          "explanation": "已申請活動亦可有依法認定的首謀者，不能只限非法未申請。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "曾經申請許可的活動，如後續符合第29條的命令解散、制止等要件，亦須依具體行為認定首謀。",
+          "correction": "不是凡申請人或在場者必然構成犯罪。",
           "trueStatement": true
         },
         {
           "text": "首謀者人數限定三人",
-          "explanation": "首謀人數無限定三人的規定，應按實際策劃主持行為判斷。",
-          "correction": "首謀人數無限定三人的規定，應按實際策劃主持行為判斷。",
+          "explanation": "第29條沒有把首謀者限定三人。",
+          "correction": "不能僅憑到場或警方認識即推定首謀；本題選D。",
           "trueStatement": false
         }
       ],
@@ -1621,24 +1640,34 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年外軌四等｜警察法規概要｜第21題",
       "paperYear": 113,
       "paperTrack": "外軌",
       "paperNumber": 21,
       "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "集會遊行法第9、25、26、29條；臺灣高等法院98年度矚上易字第1號",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依官方原文、沿革及所列個案逐項核對；保留113年官方答案D，判例仍依個案事實適用。",
         "sources": [
           {
-            "title": "集會遊行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+            "title": "集會遊行法第3、6、9、16、17、25、26及29條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+          },
+          {
+            "title": "臺灣高等法院98年度矚上易字第1號刑事判決要旨",
+            "url": "https://web.law.ntpc.gov.tw/Scripts/FLAWDOC02.aspx?RCODE2=B0000014&RNO=159-5&rtype=J2"
+          },
+          {
+            "title": "釋字第718號解釋",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
           }
         ]
       },
-      "takeaway": "首謀人數無限定三人的規定，應按實際策劃主持行為判斷。",
+      "takeaway": "負責人、活動首謀及是否成立犯罪要分開判斷。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -1652,8 +1681,17 @@
         {
           "title": "集會遊行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        },
+        {
+          "title": "臺灣高等法院98年度矚上易字第1號刑事判決要旨",
+          "url": "https://web.law.ntpc.gov.tw/Scripts/FLAWDOC02.aspx?RCODE2=B0000014&RNO=159-5&rtype=J2"
+        },
+        {
+          "title": "釋字第718號解釋",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
         }
-      ]
+      ],
+      "currentAnswer": "D錯誤：第29條沒有規定首謀者固定三人；法院曾指出首謀不限首倡者，也可能包括現場指揮且居領導地位者，仍須具體證據。"
     },
     {
       "id": "law113-outer-22",

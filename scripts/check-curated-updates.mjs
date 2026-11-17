@@ -254,3 +254,14 @@ const lateReport=result.questions.find(x=>x.id==='duty112_14');assert.equal(late
 const assistance=result.questions.find(x=>x.id==='investigation115_01');assert.equal(assistance?.verified,false);assert.equal(assistance.answer,2);assert(assistance.options.every(o=>o.explanation.trim()&&o.correction.trim()));assert(assistance.options[2].correction.includes('一律不得到府'));
 const reportingEssay=result.essays.find(x=>x.id==='s10');assert.equal(reportingEssay?.verified,false);assert(reportingEssay.model.analysis.includes('撤銷原懲處'));assert(reportingEssay.model.analysis.includes('不能代替逐級報告'));
 console.log('Historical reporting cases remain distinct from current rules and original keys.');
+
+// Full police assembly guidance and official institutional histories back eight explanations.
+for(const [id,answer] of [['law112-outer-19',3],['law113-outer-15',1],['law114-inner-24',3],['law113-outer-21',3],['law114-outer-13',0],['law114-outer-21',0],['law115-inner-03',3],['law115-outer-12',1]]){
+ const q=result.questions.find(x=>x.id===id);assert(q?.verified);assert.equal(q.answer,answer);assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()));
+}
+const assemblyConditions=result.questions.find(q=>q.id==='law114-inner-24');assert(assemblyConditions.currentAnswer.includes('同時具備'));assert(assemblyConditions.options[0].explanation.includes('得'));assert(assemblyConditions.options[1].explanation.includes('即時'));
+const publicAssembly=result.questions.find(q=>q.id==='law112-outer-19');assert(publicAssembly.currentAnswer.includes('核准例外'));assert(publicAssembly.amendment.sources.some(s=>s.url.includes('F1002151')));
+const reviewBeforeAppeal=result.questions.find(q=>q.id==='law114-outer-13');assert(reviewBeforeAppeal.options[2].explanation.includes('部分協同意見書'));
+const trafficOrder=result.questions.find(q=>q.id==='law115-outer-12');assert(trafficOrder.amendment.sources.some(s=>s.title.includes('最高行政法院97年度')));
+const agencyHistory=result.questions.find(q=>q.id==='law115-inner-03');assert(agencyHistory.takeaway.includes('戶政81'));assert(agencyHistory.options[3].correction.includes('104年更名'));
+console.log('Assembly conditions, legal remedies, traffic orders and agency timelines passed.');

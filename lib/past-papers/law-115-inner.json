@@ -180,26 +180,26 @@
       "options": [
         {
           "text": "消防",
-          "explanation": "消防業務較早自警察體系分立；本題比較最近一次移撥。",
-          "correction": "依各主管機關成立時間比較。",
+          "explanation": "消防署84年3月1日成立，警消分立。",
+          "correction": "早於96年入出國及移民署成立。",
           "trueStatement": false
         },
         {
           "text": "戶政",
-          "explanation": "戶政業務較早分立，不是本題最近者。",
-          "correction": "核對戶政、消防、海巡、移民各主管機關成立時間。",
+          "explanation": "臺灣自81年7月實施戶警分立，戶政業務回歸民政。",
+          "correction": "早於消防、海巡與移民整合。",
           "trueStatement": false
         },
         {
           "text": "海巡",
-          "explanation": "海巡專責體系成立早於移民署，本題原答非海巡。",
-          "correction": "改為移民業務。",
+          "explanation": "行政院海岸巡防署89年成立，納編原水上警察等機關業務。",
+          "correction": "早於96年移民機關整合。",
           "trueStatement": false
         },
         {
           "text": "移民",
-          "explanation": "移民署於96年成立，原外事及入出國相關警察業務移撥，是本題所列較後者。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "內政部入出國及移民署於96年1月2日成立，整合原警政署入出境管理局等部分業務。",
+          "correction": "104年更名內政部移民署；本題選D。",
           "trueStatement": true
         }
       ],
@@ -210,24 +210,38 @@
       ],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察法規概要｜第3題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 3,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "機關沿革與各項業務移撥日期仍應逐一查內政部／海委會官方原件，勿將所有外事業務等同移民。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "戶政、消防、海巡與移民機關官方沿革",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依官方原文、沿革及所列個案逐項核對；保留115年官方答案D，判例仍依個案事實適用。",
         "sources": [
           {
-            "title": "警察法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+            "title": "內政部戶政司：戶政組織與戶警分立沿革",
+            "url": "https://www.ris.gov.tw/documents/html/9/223.html"
+          },
+          {
+            "title": "內政部消防署簡介：84年警消分立",
+            "url": "https://www.nfa.gov.tw/pro/index.php?code=list&ids=213"
+          },
+          {
+            "title": "海巡署緣起：89年納編水上警察",
+            "url": "https://www.cga.gov.tw/GipOpen/wSite/ct?ctNode=782&mp=999&xItem=3761"
+          },
+          {
+            "title": "內政部移民署沿革：96年成立與整合業務",
+            "url": "https://www.immigration.gov.tw/5382/5385/5388/7169/15869/cp_news"
           }
         ]
       },
-      "takeaway": "移民署於96年成立，原外事及入出國相關警察業務移撥，是本題所列較後者。",
+      "takeaway": "戶政81、消防84、海巡89、入出國及移民署96；移民署104年再更名。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -240,8 +254,25 @@
         {
           "title": "警察法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+        },
+        {
+          "title": "內政部戶政司：戶政組織與戶警分立沿革",
+          "url": "https://www.ris.gov.tw/documents/html/9/223.html"
+        },
+        {
+          "title": "內政部消防署簡介：84年警消分立",
+          "url": "https://www.nfa.gov.tw/pro/index.php?code=list&ids=213"
+        },
+        {
+          "title": "海巡署緣起：89年納編水上警察",
+          "url": "https://www.cga.gov.tw/GipOpen/wSite/ct?ctNode=782&mp=999&xItem=3761"
+        },
+        {
+          "title": "內政部移民署沿革：96年成立與整合業務",
+          "url": "https://www.immigration.gov.tw/5382/5385/5388/7169/15869/cp_news"
         }
-      ]
+      ],
+      "currentAnswer": "D正確：四項中，原警政署部分入出境與外事等業務於96年整合至入出國及移民署，時間晚於戶警分立、警消分立與海巡署成立。"
     },
     {
       "id": "law115-inner-04",

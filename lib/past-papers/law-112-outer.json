@@ -1420,26 +1420,26 @@
       "options": [
         {
           "text": "聚集舉行集會、遊行前，具有特殊原因",
-          "explanation": "偶發性集會有特殊原因引起的自發聚集特徵。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第3點第1款列聚集舉行前具有特殊原因。",
+          "correction": "須與其餘條件一併判斷。",
           "trueStatement": true
         },
         {
           "text": "因特殊原因而自發性聚集，事實上未經召集",
-          "explanation": "未經召集而自發聚合是偶發性的重要辨識要素。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第3點第2款列因特殊原因自發聚集、事實上未經召集。",
+          "correction": "判斷實際聚集過程。",
           "trueStatement": true
         },
         {
           "text": "聚集舉行集會、遊行前，事實上無發起人或負責人",
-          "explanation": "事實上無事前發起人或負責人，與預先安排活動不同。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第3點第3款列聚集前事實上無發起人或負責人。",
+          "correction": "現場後續實際主持人另有第6點規定。",
           "trueStatement": true
         },
         {
           "text": "因是偶發性聚合，不受集會遊行法第 6 條規定公告禁制區的限制",
-          "explanation": "免事前許可不等於免禁制區規範，仍須依法維護秩序並依憲法比例審查。",
-          "correction": "免事前許可不等於免禁制區規範，仍須依法維護秩序並依憲法比例審查。",
+          "explanation": "第5點規定偶發性集遊應遵守依第6條公告地區周邊的限制。",
+          "correction": "第6條另有主管機關核准例外，不能一概宣稱偶發集會不受限制；本題選D。",
           "trueStatement": false
         }
       ],
@@ -1447,24 +1447,34 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "112年外軌四等｜警察法規概要｜第19題",
       "paperYear": 112,
       "paperTrack": "外軌",
       "paperNumber": 19,
       "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "集會遊行法第6條；偶發性及緊急性集會遊行認定處理原則第2、3、5及9點",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依官方原文、沿革及所列個案逐項核對；保留112年官方答案D，判例仍依個案事實適用。",
         "sources": [
           {
-            "title": "集會遊行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+            "title": "集會遊行法第3、6、9、16、17、25、26及29條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+          },
+          {
+            "title": "警政署：偶發性及緊急性集會遊行認定處理原則全文",
+            "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1002151"
+          },
+          {
+            "title": "釋字第718號解釋",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
           }
         ]
       },
-      "takeaway": "免事前許可不等於免禁制區規範，仍須依法維護秩序並依憲法比例審查。",
+      "takeaway": "無須申請許可不代表所有地點與其他法律限制都不適用。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -1478,8 +1488,17 @@
         {
           "title": "集會遊行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        },
+        {
+          "title": "警政署：偶發性及緊急性集會遊行認定處理原則全文",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1002151"
+        },
+        {
+          "title": "釋字第718號解釋",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=C"
         }
-      ]
+      ],
+      "currentAnswer": "D錯誤：認定處理原則第5點規範偶發性集遊在第6條公告地區周邊的限制，不能因偶發就概稱不受限制；仍須看第6條核准例外與實際公告範圍。"
     },
     {
       "id": "law112-outer-20",
