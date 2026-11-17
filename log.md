@@ -539,3 +539,11 @@
 - 實際開工檢查：來源HEAD與遠端main相同、behind=0；啟動政策unrestricted；正式首頁及session皆HTTP200／CONNECT200，無連線問題。工作樹有本輪修改時只提示保留，不丟棄。檢查範圍不含已登入個人紀錄或可見桌面。
 - 環境start_skill更新為共同設定識別核對、自動開工檢查與單一整合發布；草稿revision3回讀一致，install_script、network_policy與repositories未變，requires_publish=true。沒有發布或管理其他執行中環境的工具，其他工作階段未宣稱已切換。
 - 通過新腳本ESLint、Node語法、實際Git／HTTP診斷、JSON與文件連結檢查及git diff --check；應用程式未變，不重跑未受影響的全套功能測試。新待辦TODO-20261117-04只追蹤平台套用缺口，舊網域別名仍由03追蹤。
+
+## 2026-11-17：接獲全部發布授權與發布能力核對
+
+- 使用者明確要求全部發布併成統一規格，已記入共用AGENTS，取代本輪先前不發布限制；學習資料清空仍暫停，不因「全部發布」而刪除紀錄。
+- 原工作樹乾淨，GitHub main與HEAD均為 `7570a5f`。開工檢查通過：ahead／behind均0、unrestricted、正式首頁與session均HTTP200／CONNECT200，無警告及問題，正式寫入0。
+- 搜尋所有可用工具及本機正式發布助手：無環境publish／apply、Sites deploy／get_site或網域管理工具；本機sites-preview --help只有start／status／stop，沒有正式部署功能，亦未找到site-workflow.mjs。環境工具只提供讀取與保存草稿。
+- 共用環境草稿revision3仍基於既有發布版本，完整啟動規則已保存但本輪未能發布；缺少直接套用其他執行中環境的能力。正式最近發布紀錄為第37版來源f7732d7，與目前main的差異限協作文件及開工診斷工具，不是遺漏的網站功能修改；本輪未取得Sites原生最新狀態。
+- 更新授權及受阻原因交接，未將Git成功當成環境／網站發布成功；沒有重跑未受影響的應用程式全套測試。文件連結與git diff --check通過後提交推送；發布仍須平台支援的工具／操作管道完成。
