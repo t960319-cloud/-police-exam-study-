@@ -10394,5 +10394,500 @@
       }
     ],
     "createdAt": 1794888161863
+  },
+  {
+    "eventId": "legal-review-20261117-execution-personnel",
+    "kind": "update",
+    "checkedAt": "2026-11-17",
+    "summary": "補行政執行救濟、警察組織人事及法規位階八題；五題核對，三題保留待核及原官方答案。",
+    "sources": [
+      {
+        "title": "警察法第3、9條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
+      },
+      {
+        "title": "警察法施行細則第3、5、6、10條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
+      },
+      {
+        "title": "各機關學校團體駐衛警察設置管理辦法第5條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080106"
+      },
+      {
+        "title": "行政執行法第9、13條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+      },
+      {
+        "title": "行政執行法施行細則第10、16、18、19條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030056"
+      },
+      {
+        "title": "司法院公報第67卷第7期：具處分性質執行命令的異議及救濟",
+        "url": "https://www.judicial.gov.tw/tw/communique/dl-244053-78360ce5996544b98ac34d3c49654f5d.html"
+      },
+      {
+        "title": "警察人員人事條例第28、31、33、34條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
+      },
+      {
+        "title": "警察職權行使法第1、2、6及29條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+      },
+      {
+        "title": "考選部114年警察四等警察法規第23題標準答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1002&q=1"
+      },
+      {
+        "title": "釋字第535號解釋：警察勤務及臨檢",
+        "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C535&type=c"
+      },
+      {
+        "title": "釋字第570號解釋：警察法與限制權利命令",
+        "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C570&type=c"
+      },
+      {
+        "title": "立法院：警察職權行使法定位及立法沿革",
+        "url": "https://www.ly.gov.tw/EngPages/Detail.aspx?nodeid=6590&pid=227175"
+      },
+      {
+        "title": "拘留所設置管理辦法第6條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080086"
+      },
+      {
+        "title": "警政署偶發性及緊急性集會遊行認定處理原則全文",
+        "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1002151"
+      },
+      {
+        "title": "警察遴選第三人蒐集資料辦法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146"
+      },
+      {
+        "title": "警政署法規資料庫位階目錄",
+        "url": "https://ou3.npa.gov.tw/law/Law/LawList"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "law115-inner-02",
+        "amendment": {
+          "status": "none",
+          "law": "警察法第3條；警察法施行細則第3、5、6條；駐衛警察設置管理辦法第5條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依列示法規及官方資料核對題目核心事項，保留原題與考選部答案。",
+          "sources": [
+            {
+              "title": "警察法第3、9條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
+            },
+            {
+              "title": "警察法施行細則第3、5、6、10條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
+            },
+            {
+              "title": "各機關學校團體駐衛警察設置管理辦法第5條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080106"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D正確：分駐所及派出所裁併屬地方警察勤務機構裁併的實施事項；其具體程序仍依適用組織及地方規範辦理。",
+        "takeaway": "中央訂官規、教育制度與服制；常年訓練和勤務機構裁併實施分屬地方。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "施行細則第3條第2款將遷調、服務、請假及獎懲列為警察官規。",
+            "correction": "警察法第3條由中央立法並執行，或交地方執行；不能把官規本身說成地方立法權限。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第3條第3款的教育制度包括師資及教材標準；第5、6條另將常年訓練實施事項分屬地方。",
+            "correction": "本選項把中央制度標準和地方施訓混同。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "駐衛警察設置管理辦法第5條規定勤務服式及配備由內政部定之。",
+            "correction": "不是由各地方政府各自訂定；地方組設管理仍依相關規定。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "警察法施行細則第5、6條均將勤務機構設置、裁併的實施事項列為地方事項。",
+            "correction": "題目以分駐所或派出所裁併為例；選D。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-inner-01",
+        "amendment": {
+          "status": "none",
+          "law": "行政執行法第13條；行政執行法施行細則第10、18、19條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依列示法規及官方資料核對題目核心事項，保留原題與考選部答案。",
+          "sources": [
+            {
+              "title": "行政執行法第9、13條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+            },
+            {
+              "title": "行政執行法施行細則第10、16、18、19條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030056"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B錯誤：第三人主張足以排除執行的權利，依施行細則第18條及強制執行法第15條向管轄法院提民事訴訟，不是依行政訴訟法。",
+        "takeaway": "移送文件、催繳與執行筆錄分看行政執行法及其施行細則。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "行政執行法第13條第1項第4款要求檢附限期履行而逾期未履行的證明文件。",
+            "correction": "注意各款文件及第3款財產目錄的不知悉例外。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "施行細則第18條規定第三人於執行程序終結前，依強制執行法第15條提起民事訴訟。",
+            "correction": "題稱行政訴訟法及行政訴訟不符；選B。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "施行細則第19條以原處分或該管機關儘量催繳為原則。",
+            "correction": "法令另有規定或以執行憑證移送者除外；條文用「宜」。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "施行細則第10條第2項使公法金錢義務執行筆錄應記載事項準用強制執行法。",
+            "correction": "不要誤引為行政執行法本法第10條。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-outer-09",
+        "amendment": {
+          "status": "none",
+          "law": "行政執行法第9條；施行細則第16條；司法院公報執行命令救濟見解",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依列示法規及官方資料核對題目核心事項，保留原題與考選部答案。",
+          "sources": [
+            {
+              "title": "行政執行法第9、13條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+            },
+            {
+              "title": "行政執行法施行細則第10、16、18、19條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030056"
+            },
+            {
+              "title": "司法院公報第67卷第7期：具處分性質執行命令的異議及救濟",
+              "url": "https://www.judicial.gov.tw/tw/communique/dl-244053-78360ce5996544b98ac34d3c49654f5d.html"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "D為官方答案：對具行政處分性質之執行命令，踐行聲明異議程序後，得依法直接提撤銷訴訟，不須再提訴願。",
+        "takeaway": "聲明異議須在程序終結前；對何種行為可提撤銷訴訟，仍須看是否具行政處分性質。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "行政執行法第9條第1項以執行程序終結前為聲明異議的時間界限。",
+            "correction": "不能將終結前誤寫成終結後。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "執行機關認異議無理由，應於10日內加具意見，送直接上級主管機關於30日內決定。",
+            "correction": "題列5日及10日與第9條第2項不符。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "施行細則第16條明定，公法上金錢給付義務執行事件的直接上級主管機關為法務部行政執行署。",
+            "correction": "不是法務部本部。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "司法院公報所載見解對具有行政處分性質的執行命令，認聲明異議程序相當訴願程序。",
+            "correction": "踐行後得依法提撤銷訴訟；不能將此推成所有事實性執行行為都能提撤銷訴訟。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law115-inner-01",
+        "amendment": {
+          "status": "none",
+          "law": "警察法第9條；警察法施行細則第10條；釋字第570號",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依列示法規及官方資料核對題目核心事項，保留原題與考選部答案。",
+          "sources": [
+            {
+              "title": "警察法第3、9條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
+            },
+            {
+              "title": "警察法施行細則第3、5、6、10條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
+            },
+            {
+              "title": "釋字第570號解釋：警察法與限制權利命令",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C570&type=c"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C正確：警察法第9條第8款所稱其他應執行法令事項，施行細則第10條第1項第7款說明為其他有關警察業務。",
+        "takeaway": "組織職掌與具體限制權利的法律授權須分開；釋字570針對第9條第1款的職權命令分析。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "本題考選部以警察法主要規定任務、職掌及權限分工作為分類，與具體作用法區分。",
+            "correction": "釋字570說第9條第1款僅具劃定職權及管轄事務性質，勿擴張成解釋對全部條文逐一分類。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第9條以「依法」行使職權為前提，僅有列舉職掌不能當作任何限制權利措施的充分授權。",
+            "correction": "具體干預仍應檢視各該作用法及法定程序。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "施行細則第10條第1項第7款以「其他有關警察業務」說明其他應執行法令事項。",
+            "correction": "對應警察法第9條第8款；選C。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "施行細則第10條第1項第1款規定，中央發布警察命令由內政部為之。",
+            "correction": "不是逕稱警政署為中央發布機關；限制人民權利者另須適當法律授權。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law114-inner-23",
+        "amendment": {
+          "status": "none",
+          "law": "警察職權行使法第1、2、6及29條；考選部114年答案更正公告",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "in-force",
+          "note": "依列示法規及官方資料核對題目核心事項，保留原題與考選部答案。 考選部原公布A，後更正A或B均給分；保留原給分設定。",
+          "sources": [
+            {
+              "title": "警察法第3、9條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
+            },
+            {
+              "title": "警察職權行使法第1、2、6及29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "考選部114年警察四等警察法規第23題標準答案更正公告",
+              "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1002&q=1"
+            },
+            {
+              "title": "釋字第535號解釋：警察勤務及臨檢",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C535&type=c"
+            },
+            {
+              "title": "立法院：警察職權行使法定位及立法沿革",
+              "url": "https://www.ly.gov.tw/EngPages/Detail.aspx?nodeid=6590&pid=227175"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "考選部原公布A，後更正為A或B均給分。A所稱「警察法為前身」不正確；B的性質分類依更正公告亦接受。",
+        "takeaway": "注意不要把釋字535對警察勤務條例的分類，直接套成警察職權行使法的定論。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "警察法與警察職權行使法為各自制定且並存的法規，前者不是後者的更名或前身。",
+            "correction": "釋字535檢討的是警察勤務條例等既有職權法制，後另制定警職法；A獲給分。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "警職法主要規範個別職權措施的發動要件、程序與救濟；第2條也有名詞及主管長官定義。",
+            "correction": "考選部更正公告亦接受B，性質分類有不同觀點，不可將釋字535對勤務條例的分類直接移用。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "警職法規定具體行使要件，例如第6條，並於第29條設有異議程序。",
+            "correction": "實際適用應按個別措施規定及相關救濟途徑判斷。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第1條並列保障人民權益、維持公共秩序和保護社會安全。",
+            "correction": "反映職權行使與權利保障需要衡量。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law114-inner-21",
+        "amendment": {
+          "status": "review",
+          "law": "警察人員人事條例第28、31、33、34條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "依列示現行法補充已確認內容；題目省略條件或完整官方原件與位階未明部分仍待核，原官方答案不變。",
+          "sources": [
+            {
+              "title": "警察人員人事條例第28、31、33、34條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "保留官方答案A：直轄市警監考績由市府核定後，應送內政部轉銓敘部。B另須區分年功俸是否已達最高，題目未寫明。",
+        "takeaway": "一般甲等晉年功俸一級並發1.5個月；已達年功俸最高俸額改給2個月。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第34條第2款規定直轄市警監人員考績經直轄市政府核定後，送內政部轉銓敘部。",
+            "correction": "A漏了內政部轉送；保留官方答案A。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第33條對考績甲等原則晉年功俸一級並發1.5個月，但已晉至年功俸最高俸額者改發2個月。",
+            "correction": "題目僅說本官階職務最高俸級，未明寫年功俸最高俸額例外；不宜將1.5個月概括套用所有人。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第28條規定平時功過抵銷後尚有記一大功二次，考績不得列乙等以下。",
+            "correction": "仍須依法完成考績程序。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第31條第1項第6款列考績法一次記二大過事由為應予免職。",
+            "correction": "依第2項，該款免職處分確定後執行；未確定前先停職。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "law113-outer-16",
+        "amendment": {
+          "status": "review",
+          "law": "警察人員人事條例第31條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "依列示現行法補充已確認內容；題目省略條件或完整官方原件與位階未明部分仍待核，原官方答案不變。",
+          "sources": [
+            {
+              "title": "警察人員人事條例第28、31、33、34條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "保留官方答案D：若僅依第31條第1項第4款，准易服社會勞動且無法定應執行原刑情形，不能僅因4月有期徒刑逕按該款免職；B未明寫「情節重大」要件。",
+        "takeaway": "免職須逐款核實所有法定要件；易服社會勞動並不排除其他法定免職事由。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第31條第1項第6款列考績法所定一次記二大過情事為免職事由。",
+            "correction": "依第2項，處分確定後執行，未確定前先停職。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第31條第1項第8款除具體事實及嚴重影響警譽，還要求持械恐嚇或傷害長官、同事情節重大。",
+            "correction": "題目未明寫「情節重大」，不能只憑其列出文字就省略此要件。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第31條第1項第11款列同年度平時考核獎懲抵銷後累積達二大過為免職事由。",
+            "correction": "免職執行及未確定前停職，依同條第2項辦理。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第31條第1項第4款區分未准易服社會勞動，與准易服後出現刑法第41條第6項應執行原宣告刑之情形。",
+            "correction": "本題保留D；仍須判斷判決是否確定、易服是否有後續法定事由，及其他免職款。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "law112-inner-10",
+        "amendment": {
+          "status": "review",
+          "law": "警察職權行使法第12條；警察遴選第三人蒐集資料辦法；拘留所設置管理辦法第6條",
+          "checkedAt": "2026-11-17",
+          "effectiveStatus": "unverified",
+          "note": "依列示現行法補充已確認內容；題目省略條件或完整官方原件與位階未明部分仍待核，原官方答案不變。",
+          "sources": [
+            {
+              "title": "警察職權行使法第1、2、6及29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "警察遴選第三人蒐集資料辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146"
+            },
+            {
+              "title": "警政署法規資料庫位階目錄",
+              "url": "https://ou3.npa.gov.tw/law/Law/LawList"
+            },
+            {
+              "title": "警政署偶發性及緊急性集會遊行認定處理原則全文",
+              "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1002151"
+            },
+            {
+              "title": "拘留所設置管理辦法第6條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080086"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "保留官方答案D：警政署目錄將警察遴選第三人蒐集資料辦法列為命令；A的基準及B作業規定完整官方原件與位階仍待查。",
+        "takeaway": "法規性質應看授權、內容與效力，不能只靠「辦法」「原則」等名稱判斷。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "拘留所設置管理辦法第6條規定構造、格局及設備的設置基準由警政署定之。",
+            "correction": "此處的設置基準與設置管理辦法是不同文件；目前尚未取得基準官方全文及位階。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "人民申請集遊作業規定涉及警察機關處理申請的程序。",
+            "correction": "尚待取得官方完整文本確認其內容與位階；不可只憑名稱判斷。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "警政署法規資料庫提供偶發性及緊急性集會遊行認定處理原則全文，目錄列為行政規則。",
+            "correction": "注意原題簡稱與官方完整名稱；不能只憑名稱判斷位階。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "警察職權行使法第12條授權訂定第三人遴選等辦法，警政署法規目錄列該辦法為命令。",
+            "correction": "此為官方答案D；仍須遵守法律及辦法各項條件。",
+            "trueStatement": true
+          }
+        ]
+      }
+    ],
+    "createdAt": 1794888871007
   }
 ]

@@ -1235,26 +1235,26 @@
       "options": [
         {
           "text": "公務人員考績法所定一次記二大過情事之一",
-          "explanation": "考績法一次記二大過事由可依法免職，但仍須程序及現行人事法核對。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第31條第1項第6款列考績法所定一次記二大過情事為免職事由。",
+          "correction": "依第2項，處分確定後執行，未確定前先停職。",
           "trueStatement": true
         },
         {
           "text": "持械恐嚇或傷害長官有具體事實，嚴重影響警譽",
-          "explanation": "持械恐嚇傷害長官達法定具體重大情節，可依法追究免職。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第31條第1項第8款除具體事實及嚴重影響警譽，還要求持械恐嚇或傷害長官、同事情節重大。",
+          "correction": "題目未明寫「情節重大」，不能只憑其列出文字就省略此要件。",
           "trueStatement": true
         },
         {
           "text": "同一考績年度中，其平時考核獎懲互相抵銷後累積已達二大過",
-          "explanation": "平時考核功過相抵累積二大過，須依法考績處理，程序不能省略。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第31條第1項第11款列同年度平時考核獎懲抵銷後累積達二大過為免職事由。",
+          "correction": "免職執行及未確定前停職，依同條第2項辦理。",
           "trueStatement": true
         },
         {
           "text": "犯誣告罪，經處有期徒刑 4 月並准予易服社會勞動",
-          "explanation": "誣告判四月且准易服社會勞動屬本題免職例外，不得僅見有期徒刑即逕免；現行人事法版本另列待核。",
-          "correction": "誣告判四月且准易服社會勞動屬本題免職例外，不得僅見有期徒刑即逕免；現行人事法版本另列待核。",
+          "explanation": "第31條第1項第4款區分未准易服社會勞動，與准易服後出現刑法第41條第6項應執行原宣告刑之情形。",
+          "correction": "本題保留D；仍須判斷判決是否確定、易服是否有後續法定事由，及其他免職款。",
           "trueStatement": false
         }
       ],
@@ -1270,24 +1270,18 @@
       "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
       "amendment": {
         "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
-        "checkedAt": "2026-11-10",
+        "law": "警察人員人事條例第31條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "unverified",
+        "note": "依列示現行法補充已確認內容；題目省略條件或完整官方原件與位階未明部分仍待核，原官方答案不變。",
         "sources": [
           {
-            "title": "警察法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
-          },
-          {
-            "title": "警察法施行細則",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
-          },
-          {
-            "title": "警察人員人事條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+            "title": "警察人員人事條例第28、31、33、34條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
           }
         ]
       },
-      "takeaway": "誣告判四月且准易服社會勞動屬本題免職例外，不得僅見有期徒刑即逕免；現行人事法版本另列待核。",
+      "takeaway": "免職須逐款核實所有法定要件；易服社會勞動並不排除其他法定免職事由。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -1310,7 +1304,8 @@
           "title": "警察人員人事條例",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
         }
-      ]
+      ],
+      "currentAnswer": "保留官方答案D：若僅依第31條第1項第4款，准易服社會勞動且無法定應執行原刑情形，不能僅因4月有期徒刑逕按該款免職；B未明寫「情節重大」要件。"
     },
     {
       "id": "law113-outer-17",

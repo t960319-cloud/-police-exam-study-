@@ -23,26 +23,26 @@
       "options": [
         {
           "text": "移送機關於移送行政執行處執行時，其中之一應檢附之文件為義務人經限期履行而逾期仍不履 行之證明文件",
-          "explanation": "移送執行應附義務人經限期履行而逾期不履行的證明，先確認移送要件。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "行政執行法第13條第1項第4款要求檢附限期履行而逾期未履行的證明文件。",
+          "correction": "注意各款文件及第3款財產目錄的不知悉例外。",
           "trueStatement": true
         },
         {
           "text": "公法上金錢給付義務之執行事件，第三人就執行標的物認有足以排除執行之權利時，得於執行 程序終結前，依行政訴訟法規定提起行政訴訟",
-          "explanation": "第三人主張對執行標的物有排除執行之權，依施行細則第18條提民事訴訟，不是行政訴訟。",
-          "correction": "改為依強制執行法第15條向管轄法院提起第三人異議之訴。",
+          "explanation": "施行細則第18條規定第三人於執行程序終結前，依強制執行法第15條提起民事訴訟。",
+          "correction": "題稱行政訴訟法及行政訴訟不符；選B。",
           "trueStatement": false
         },
         {
           "text": "公法上金錢給付義務事件移送行政執行處執行前，除法令另有規定或以執行憑證移送執行者 外，宜由原處分機關或該管行政機關儘量催繳",
-          "explanation": "移送前除法令另規定或以執行憑證移送外，原機關宜盡量催繳。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "施行細則第19條以原處分或該管機關儘量催繳為原則。",
+          "correction": "法令另有規定或以執行憑證移送者除外；條文用「宜」。",
           "trueStatement": true
         },
         {
           "text": "公法上金錢給付義務逾期不履行，經移送行政執行處執行者，其執行筆錄應記載之事項，準用 強制執行法有關規定",
-          "explanation": "執行筆錄記載事項準用強制執行法相關規定，並非另立一套完整筆錄規則。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "施行細則第10條第2項使公法金錢義務執行筆錄應記載事項準用強制執行法。",
+          "correction": "不要誤引為行政執行法本法第10條。",
           "trueStatement": true
         }
       ],
@@ -51,28 +51,30 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察法規概要｜第1題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 1,
       "answerStatus": "考選部原始答案與更正公告已核",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部當年原始答案與列示法規；涉及之歷史條文和全部後續修正仍需逐項比對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "行政執行法第13條；行政執行法施行細則第10、18、19條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依列示法規及官方資料核對題目核心事項，保留原題與考選部答案。",
         "sources": [
           {
-            "title": "行政執行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+            "title": "行政執行法第9、13條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
           },
           {
-            "title": "行政執行法施行細則",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030056"
+            "title": "行政執行法施行細則第10、16、18、19條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030056"
           }
         ]
       },
-      "takeaway": "第三人主張對執行標的物有排除執行之權，依施行細則第18條提民事訴訟，不是行政訴訟。",
+      "takeaway": "移送文件、催繳與執行筆錄分看行政執行法及其施行細則。",
       "sources": [
         {
           "title": "考選部114年警察四等警察法規概要原卷",
@@ -90,7 +92,8 @@
           "title": "行政執行法施行細則",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030056"
         }
-      ]
+      ],
+      "currentAnswer": "B錯誤：第三人主張足以排除執行的權利，依施行細則第18條及強制執行法第15條向管轄法院提民事訴訟，不是依行政訴訟法。"
     },
     {
       "id": "law114-inner-02",
@@ -1618,26 +1621,26 @@
       "options": [
         {
           "text": "直轄市政府警察局警監人員之考績，由直轄市政府核定後，送銓敘部銓敘審定",
-          "explanation": "直轄市警監人員考績由市府核定後，應經內政部轉送銓敘部；本項漏掉轉送。",
-          "correction": "補上「由內政部轉銓敘部銓敘審定」。",
+          "explanation": "第34條第2款規定直轄市警監人員考績經直轄市政府核定後，送內政部轉銓敘部。",
+          "correction": "A漏了內政部轉送；保留官方答案A。",
           "trueStatement": false
         },
         {
           "text": "警察人員任本官階職務滿 10 年未能晉階或升官等任用，而已晉至本官階職務最高俸級者，其 考績列甲等之獎勵為晉年功俸一級，給與一又半個月俸給總額之一次獎金",
-          "explanation": "任本官階滿10年、未晉階且已至最高俸級者，甲等依第33條晉年功俸並給獎金；年功俸已最高另有規定。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第33條對考績甲等原則晉年功俸一級並發1.5個月，但已晉至年功俸最高俸額者改發2個月。",
+          "correction": "題目僅說本官階職務最高俸級，未明寫年功俸最高俸額例外；不宜將1.5個月概括套用所有人。",
           "trueStatement": true
         },
         {
           "text": "警察人員平時考核之功過，依公務人員考績法第 12 條規定抵銷後，尚有記一大功二次人員， 考績不得列乙等以下",
-          "explanation": "功過抵銷後尚有二大功，依第28條考績不得列乙等以下。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第28條規定平時功過抵銷後尚有記一大功二次，考績不得列乙等以下。",
+          "correction": "仍須依法完成考績程序。",
           "trueStatement": true
         },
         {
           "text": "警察人員有公務人員考績法所定一次記二大過情事之一者，應予免職",
-          "explanation": "有考績法一次記二大過所定事由，依法辦理免職，仍須正當考核程序。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第31條第1項第6款列考績法一次記二大過事由為應予免職。",
+          "correction": "依第2項，該款免職處分確定後執行；未確定前先停職。",
           "trueStatement": true
         }
       ],
@@ -1654,16 +1657,18 @@
       "answerStatus": "考選部原始答案與更正公告已核",
       "amendment": {
         "status": "review",
-        "note": "已核對原卷、考選部當年原始答案與列示法規；涉及之歷史條文和全部後續修正仍需逐項比對。",
-        "checkedAt": "2026-11-10",
+        "law": "警察人員人事條例第28、31、33、34條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "unverified",
+        "note": "依列示現行法補充已確認內容；題目省略條件或完整官方原件與位階未明部分仍待核，原官方答案不變。",
         "sources": [
           {
-            "title": "警察人員人事條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+            "title": "警察人員人事條例第28、31、33、34條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
           }
         ]
       },
-      "takeaway": "直轄市警監人員考績由市府核定後，應經內政部轉送銓敘部；本項漏掉轉送。",
+      "takeaway": "一般甲等晉年功俸一級並發1.5個月；已達年功俸最高俸額改給2個月。",
       "sources": [
         {
           "title": "考選部114年警察四等警察法規概要原卷",
@@ -1677,7 +1682,8 @@
           "title": "警察人員人事條例",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
         }
-      ]
+      ],
+      "currentAnswer": "保留官方答案A：直轄市警監考績由市府核定後，應送內政部轉銓敘部。B另須區分年功俸是否已達最高，題目未寫明。"
     },
     {
       "id": "law114-inner-22",
@@ -1771,26 +1777,26 @@
       "options": [
         {
           "text": "警察職權行使法的前身為警察法",
-          "explanation": "警察職權行使法並非警察法更名後的前身；兩部法律並存，警察法列職掌，警職法規範職權行使。",
-          "correction": "改為兩法各有規範功能，警察法不是警職法的前身。",
+          "explanation": "警察法與警察職權行使法為各自制定且並存的法規，前者不是後者的更名或前身。",
+          "correction": "釋字535檢討的是警察勤務條例等既有職權法制，後另制定警職法；A獲給分。",
           "trueStatement": false
         },
         {
           "text": "警察職權行使法兼具行政作用法及行政組織法性質",
-          "explanation": "警職法以規範行政權作用為中心，並非以組織編制為規範重點。",
-          "correction": "改為主要具行政作用法性質，不宜稱兼具行政組織法性質。",
+          "explanation": "警職法主要規範個別職權措施的發動要件、程序與救濟；第2條也有名詞及主管長官定義。",
+          "correction": "考選部更正公告亦接受B，性質分類有不同觀點，不可將釋字535對勤務條例的分類直接移用。",
           "trueStatement": false
         },
         {
           "text": "警察職權行使法同時明定了警察行使干預性職權措施的明確要件、程序以及救濟規定",
-          "explanation": "警職法就干預措施定要件、程序及救濟，以保障人民權利。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "警職法規定具體行使要件，例如第6條，並於第29條設有異議程序。",
+          "correction": "實際適用應按個別措施規定及相關救濟途徑判斷。",
           "trueStatement": true
         },
         {
           "text": "警察職權行使法之立法旨趣，亦在於衡平警察職權之公權力行使與人民之權利保障",
-          "explanation": "立法兼顧職權行使、社會秩序與人民權益。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第1條並列保障人民權益、維持公共秩序和保護社會安全。",
+          "correction": "反映職權行使與權利保障需要衡量。",
           "trueStatement": true
         }
       ],
@@ -1799,28 +1805,42 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察法規概要｜第23題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 23,
       "answerStatus": "考選部原始答案與更正公告已核",
       "amendment": {
-        "status": "review",
-        "note": "考選部更正第23題：A或B均給分；原公布答案A。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察職權行使法第1、2、6及29條；考選部114年答案更正公告",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依列示法規及官方資料核對題目核心事項，保留原題與考選部答案。 考選部原公布A，後更正A或B均給分；保留原給分設定。",
         "sources": [
           {
-            "title": "警察職權行使法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+            "title": "警察法第3、9條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
           },
           {
-            "title": "警察法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+            "title": "警察職權行使法第1、2、6及29條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          },
+          {
+            "title": "考選部114年警察四等警察法規第23題標準答案更正公告",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1002&q=1"
+          },
+          {
+            "title": "釋字第535號解釋：警察勤務及臨檢",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C535&type=c"
+          },
+          {
+            "title": "立法院：警察職權行使法定位及立法沿革",
+            "url": "https://www.ly.gov.tw/EngPages/Detail.aspx?nodeid=6590&pid=227175"
           }
         ]
       },
-      "takeaway": "警察職權行使法並非警察法更名後的前身；兩部法律並存，警察法列職掌，警職法規範職權行使。",
+      "takeaway": "注意不要把釋字535對警察勤務條例的分類，直接套成警察職權行使法的定論。",
       "sources": [
         {
           "title": "考選部114年警察四等警察法規概要原卷",
@@ -1841,13 +1861,22 @@
         {
           "title": "警察法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+        },
+        {
+          "title": "釋字第535號解釋：警察勤務及臨檢",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C535&type=c"
+        },
+        {
+          "title": "立法院：警察職權行使法定位及立法沿革",
+          "url": "https://www.ly.gov.tw/EngPages/Detail.aspx?nodeid=6590&pid=227175"
         }
       ],
       "acceptedAnswers": [
         0,
         1
       ],
-      "correctionNote": "第23題答A或B均給分。"
+      "correctionNote": "第23題答A或B均給分。",
+      "currentAnswer": "考選部原公布A，後更正為A或B均給分。A所稱「警察法為前身」不正確；B的性質分類依更正公告亦接受。"
     },
     {
       "id": "law114-inner-24",

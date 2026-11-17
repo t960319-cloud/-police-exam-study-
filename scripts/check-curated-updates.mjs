@@ -265,3 +265,19 @@ const reviewBeforeAppeal=result.questions.find(q=>q.id==='law114-outer-13');asse
 const trafficOrder=result.questions.find(q=>q.id==='law115-outer-12');assert(trafficOrder.amendment.sources.some(s=>s.title.includes('最高行政法院97年度')));
 const agencyHistory=result.questions.find(q=>q.id==='law115-inner-03');assert(agencyHistory.takeaway.includes('戶政81'));assert(agencyHistory.options[3].correction.includes('104年更名'));
 console.log('Assembly conditions, legal remedies, traffic orders and agency timelines passed.');
+
+// Preserve corrected grading and avoid treating incomplete official options as conclusive law.
+const correctedPowers=result.questions.find(q=>q.id==='law114-inner-23');
+assert(correctedPowers?.verified);assert.equal(correctedPowers.answer,0);assert.deepEqual(correctedPowers.acceptedAnswers,[0,1]);
+assert(correctedPowers.currentAnswer.includes('A或B均給分'));assert(correctedPowers.amendment.sources.some(s=>s.url.includes('t=M&code=114060')));
+const salaryException=result.questions.find(q=>q.id==='law114-inner-21');
+assert.equal(salaryException?.verified,false);assert(salaryException.options[1].explanation.includes('最高俸額'));assert(salaryException.options[1].explanation.includes('2個月'));
+const dismissalConditions=result.questions.find(q=>q.id==='law113-outer-16');
+assert.equal(dismissalConditions?.verified,false);assert(dismissalConditions.options[1].explanation.includes('情節重大'));assert(dismissalConditions.options[3].correction.includes('其他免職款'));
+const executionRelief=result.questions.find(q=>q.id==='law114-outer-09');
+assert(executionRelief?.verified);assert(executionRelief.currentAnswer.includes('行政處分性質'));assert(executionRelief.options[1].explanation.includes('10日'));assert(executionRelief.options[1].explanation.includes('30日'));
+const thirdParty=result.questions.find(q=>q.id==='law114-inner-01');
+assert(thirdParty?.verified);assert(thirdParty.currentAnswer.includes('民事訴訟'));assert(thirdParty.options[3].explanation.includes('施行細則'));
+const regulationClass=result.questions.find(q=>q.id==='law112-inner-10');
+assert.equal(regulationClass?.verified,false);assert(regulationClass.currentAnswer.includes('仍待查'));assert.equal(regulationClass.answer,3);
+console.log('Corrected scoring, execution remedies and incomplete personnel or regulation conditions remain distinct.');

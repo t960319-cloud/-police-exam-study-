@@ -22,26 +22,26 @@
       "options": [
         {
           "text": "兼具組織法和作用法的性質",
-          "explanation": "本題依官方答案採警察法主要為組織及職掌法；具體干預仍須作用法授權，學理分類未必一致。",
-          "correction": "應區分組織職掌與具體作用法，不可僅據分類推論職權。",
+          "explanation": "本題考選部以警察法主要規定任務、職掌及權限分工作為分類，與具體作用法區分。",
+          "correction": "釋字570說第9條第1款僅具劃定職權及管轄事務性質，勿擴張成解釋對全部條文逐一分類。",
           "trueStatement": false
         },
         {
           "text": "依該法第 9 條規定，可直接發動警察職權",
-          "explanation": "第9條列舉職掌並稱依法行使，具體侵害措施仍須符合法定授權要件。",
-          "correction": "應先確認相關具體法律授權及程序。",
+          "explanation": "第9條以「依法」行使職權為前提，僅有列舉職掌不能當作任何限制權利措施的充分授權。",
+          "correction": "具體干預仍應檢視各該作用法及法定程序。",
           "trueStatement": false
         },
         {
           "text": "依該法第 9 條第 8 款規定之其他應執行法令事項，指其他有關警察業務",
-          "explanation": "施行細則第10條第1項第7款：第9條其他應執行法令事項指其他有關警察業務。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "施行細則第10條第1項第7款以「其他有關警察業務」說明其他應執行法令事項。",
+          "correction": "對應警察法第9條第8款；選C。",
           "trueStatement": true
         },
         {
           "text": "發布警察命令，中央由內政部警政署為之",
-          "explanation": "發布警察命令中央由內政部為之，不是警政署。",
-          "correction": "中央改為內政部。",
+          "explanation": "施行細則第10條第1項第1款規定，中央發布警察命令由內政部為之。",
+          "correction": "不是逕稱警政署為中央發布機關；限制人民權利者另須適當法律授權。",
           "trueStatement": false
         }
       ],
@@ -50,28 +50,34 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察法規概要｜第1題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 1,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對原卷、考選部標準答案及列示法規；題目涉及的全部歷史法令、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察法第9條；警察法施行細則第10條；釋字第570號",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依列示法規及官方資料核對題目核心事項，保留原題與考選部答案。",
         "sources": [
           {
-            "title": "警察法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+            "title": "警察法第3、9條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
           },
           {
-            "title": "警察法施行細則",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+            "title": "警察法施行細則第3、5、6、10條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
+          },
+          {
+            "title": "釋字第570號解釋：警察法與限制權利命令",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C570&type=c"
           }
         ]
       },
-      "takeaway": "施行細則第10條第1項第7款：第9條其他應執行法令事項指其他有關警察業務。",
+      "takeaway": "組織職掌與具體限制權利的法律授權須分開；釋字570針對第9條第1款的職權命令分析。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -88,8 +94,13 @@
         {
           "title": "警察法施行細則",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+        },
+        {
+          "title": "釋字第570號解釋：警察法與限制權利命令",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C570&type=c"
         }
-      ]
+      ],
+      "currentAnswer": "C正確：警察法第9條第8款所稱其他應執行法令事項，施行細則第10條第1項第7款說明為其他有關警察業務。"
     },
     {
       "id": "law115-inner-02",
@@ -101,26 +112,26 @@
       "options": [
         {
           "text": "警察人員遷調、服務、請假、獎懲等事項，為警察官規之事項，屬地方之權限",
-          "explanation": "遷調、服務、請假及獎懲屬警察官規事項，題稱地方權限不符官方答案。",
-          "correction": "依警察官規中央立法執行或交地方執行的分工。",
+          "explanation": "施行細則第3條第2款將遷調、服務、請假及獎懲列為警察官規。",
+          "correction": "警察法第3條由中央立法並執行，或交地方執行；不能把官規本身說成地方立法權限。",
           "trueStatement": false
         },
         {
           "text": "警察常年訓練之實施事項及師資等，為警察教育制度，屬中央之權限",
-          "explanation": "常年訓練實施事項屬地方分工；警察教育制度與實際施訓應區分。",
-          "correction": "改依地方實施事項處理。",
+          "explanation": "第3條第3款的教育制度包括師資及教材標準；第5、6條另將常年訓練實施事項分屬地方。",
+          "correction": "本選項把中央制度標準和地方施訓混同。",
           "trueStatement": false
         },
         {
           "text": "駐衛警察執行勤務之服式、配備，由各直轄市、縣（市）政府定之，為地方之權限",
-          "explanation": "駐衛警察服式及配備不能一概認由各地方獨立規定。",
-          "correction": "依中央警察服制及駐衛警察有關規範辦理。",
+          "explanation": "駐衛警察設置管理辦法第5條規定勤務服式及配備由內政部定之。",
+          "correction": "不是由各地方政府各自訂定；地方組設管理仍依相關規定。",
           "trueStatement": false
         },
         {
           "text": "裁撤或合併分駐（派出）所，為警察勤務機構裁併之實施事項，屬地方之權限",
-          "explanation": "本題官方答案採分駐派出所裁撤或合併為警察勤務機構裁併實施事項，屬地方權限。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "警察法施行細則第5、6條均將勤務機構設置、裁併的實施事項列為地方事項。",
+          "correction": "題目以分駐所或派出所裁併為例；選D。",
           "trueStatement": true
         }
       ],
@@ -129,28 +140,34 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察法規概要｜第2題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 2,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "具體組織改制及地方自治法規須另核官方原件。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察法第3條；警察法施行細則第3、5、6條；駐衛警察設置管理辦法第5條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依列示法規及官方資料核對題目核心事項，保留原題與考選部答案。",
         "sources": [
           {
-            "title": "警察法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+            "title": "警察法第3、9條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080001"
           },
           {
-            "title": "警察法施行細則",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+            "title": "警察法施行細則第3、5、6、10條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080002"
+          },
+          {
+            "title": "各機關學校團體駐衛警察設置管理辦法第5條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080106"
           }
         ]
       },
-      "takeaway": "本題官方答案採分駐派出所裁撤或合併為警察勤務機構裁併實施事項，屬地方權限。",
+      "takeaway": "中央訂官規、教育制度與服制；常年訓練和勤務機構裁併實施分屬地方。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -167,8 +184,13 @@
         {
           "title": "警察法施行細則",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+        },
+        {
+          "title": "各機關學校團體駐衛警察設置管理辦法第5條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080106"
         }
-      ]
+      ],
+      "currentAnswer": "D正確：分駐所及派出所裁併屬地方警察勤務機構裁併的實施事項；其具體程序仍依適用組織及地方規範辦理。"
     },
     {
       "id": "law115-inner-03",

@@ -656,26 +656,26 @@
       "options": [
         {
           "text": "義務人對執行命令、執行方法、應遵守之程序或其他侵害利益之情事，得於執行程序終結後， 向執行機關聲明異議",
-          "explanation": "異議須於執行程序終結前提出，不是終結後。",
-          "correction": "改為執行程序終結前。",
+          "explanation": "行政執行法第9條第1項以執行程序終結前為聲明異議的時間界限。",
+          "correction": "不能將終結前誤寫成終結後。",
           "trueStatement": false
         },
         {
           "text": "執行機關對於義務人所提之聲明異議，認其無理由者，應於 5 日內加具意見，送直接上級主管 機關於 10 日內決定之",
-          "explanation": "執行機關認無理由，依第9條應於10日內加意見送上級，上級30日內決定。",
-          "correction": "改為10日內送上級，並由上級30日內決定。",
+          "explanation": "執行機關認異議無理由，應於10日內加具意見，送直接上級主管機關於30日內決定。",
+          "correction": "題列5日及10日與第9條第2項不符。",
           "trueStatement": false
         },
         {
           "text": "有關行政執行法第 9 條第 2 項所稱之直接上級主管機關，於公法上金錢給付義務執行事件，係 指法務部",
-          "explanation": "公法金錢執行之直接上級主管機關應依行政執行體系認定，不能逕稱法務部。",
-          "correction": "依行政執行機關之直接上級主管機關認定。",
+          "explanation": "施行細則第16條明定，公法上金錢給付義務執行事件的直接上級主管機關為法務部行政執行署。",
+          "correction": "不是法務部本部。",
           "trueStatement": false
         },
         {
           "text": "聲明異議程序，應認相當訴願程序，無須再踐行訴願程序，直接向行政法院提起撤銷訴訟，以 為救濟",
-          "explanation": "執行異議及上級決定在救濟架構上相當於訴願，得依法提起行政訴訟；具體訴訟種類需依處分性質判斷。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "司法院公報所載見解對具有行政處分性質的執行命令，認聲明異議程序相當訴願程序。",
+          "correction": "踐行後得依法提撤銷訴訟；不能將此推成所有事實性執行行為都能提撤銷訴訟。",
           "trueStatement": true
         }
       ],
@@ -684,24 +684,34 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年外軌四等｜警察法規概要｜第9題",
       "paperYear": 114,
       "paperTrack": "外軌",
       "paperNumber": 9,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋及後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "行政執行法第9條；施行細則第16條；司法院公報執行命令救濟見解",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "in-force",
+        "note": "依列示法規及官方資料核對題目核心事項，保留原題與考選部答案。",
         "sources": [
           {
-            "title": "行政執行法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+            "title": "行政執行法第9、13條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+          },
+          {
+            "title": "行政執行法施行細則第10、16、18、19條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030056"
+          },
+          {
+            "title": "司法院公報第67卷第7期：具處分性質執行命令的異議及救濟",
+            "url": "https://www.judicial.gov.tw/tw/communique/dl-244053-78360ce5996544b98ac34d3c49654f5d.html"
           }
         ]
       },
-      "takeaway": "執行異議及上級決定在救濟架構上相當於訴願，得依法提起行政訴訟；具體訴訟種類需依處分性質判斷。",
+      "takeaway": "聲明異議須在程序終結前；對何種行為可提撤銷訴訟，仍須看是否具行政處分性質。",
       "sources": [
         {
           "title": "考選部114年一般警察四等警察法規概要原卷",
@@ -714,8 +724,17 @@
         {
           "title": "行政執行法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+        },
+        {
+          "title": "行政執行法施行細則第10、16、18、19條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030056"
+        },
+        {
+          "title": "司法院公報第67卷第7期：具處分性質執行命令的異議及救濟",
+          "url": "https://www.judicial.gov.tw/tw/communique/dl-244053-78360ce5996544b98ac34d3c49654f5d.html"
         }
-      ]
+      ],
+      "currentAnswer": "D為官方答案：對具行政處分性質之執行命令，踐行聲明異議程序後，得依法直接提撤銷訴訟，不須再提訴願。"
     },
     {
       "id": "law114-outer-10",

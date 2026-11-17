@@ -747,26 +747,26 @@
       "options": [
         {
           "text": "拘留所設置基準",
-          "explanation": "拘留所設置基準為內部設施行政規則，不因有基準二字即屬法規命令。",
-          "correction": "拘留所設置基準為內部設施行政規則，不因有基準二字即屬法規命令。",
+          "explanation": "拘留所設置管理辦法第6條規定構造、格局及設備的設置基準由警政署定之。",
+          "correction": "此處的設置基準與設置管理辦法是不同文件；目前尚未取得基準官方全文及位階。",
           "trueStatement": false
         },
         {
           "text": "警察機關辦理人民申請集會遊行作業規定",
-          "explanation": "集會遊行作業規定屬執行機關內部作業規範。",
-          "correction": "集會遊行作業規定屬執行機關內部作業規範。",
+          "explanation": "人民申請集遊作業規定涉及警察機關處理申請的程序。",
+          "correction": "尚待取得官方完整文本確認其內容與位階；不可只憑名稱判斷。",
           "trueStatement": false
         },
         {
           "text": "偶發性及緊急性集會遊行處理原則",
-          "explanation": "偶發性及緊急性集會遊行處理原則屬行政規則。",
-          "correction": "偶發性及緊急性集會遊行處理原則屬行政規則。",
+          "explanation": "警政署法規資料庫提供偶發性及緊急性集會遊行認定處理原則全文，目錄列為行政規則。",
+          "correction": "注意原題簡稱與官方完整名稱；不能只憑名稱判斷位階。",
           "trueStatement": false
         },
         {
           "text": "警察遴選第三人蒐集資料辦法",
-          "explanation": "警察遴選第三人蒐集資料辦法有法律授權，規範對外事項，屬法規命令。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "警察職權行使法第12條授權訂定第三人遴選等辦法，警政署法規目錄列該辦法為命令。",
+          "correction": "此為官方答案D；仍須遵守法律及辦法各項條件。",
           "trueStatement": true
         }
       ],
@@ -782,24 +782,34 @@
       "answerStatus": "官方Q原卷及S答案已核；官方目錄未列本科M更正。",
       "amendment": {
         "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
-        "checkedAt": "2026-11-10",
+        "law": "警察職權行使法第12條；警察遴選第三人蒐集資料辦法；拘留所設置管理辦法第6條",
+        "checkedAt": "2026-11-17",
+        "effectiveStatus": "unverified",
+        "note": "依列示現行法補充已確認內容；題目省略條件或完整官方原件與位階未明部分仍待核，原官方答案不變。",
         "sources": [
           {
-            "title": "警察法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+            "title": "警察職權行使法第1、2、6及29條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           },
           {
-            "title": "警察法施行細則",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+            "title": "警察遴選第三人蒐集資料辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146"
           },
           {
-            "title": "警察人員人事條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+            "title": "警政署法規資料庫位階目錄",
+            "url": "https://ou3.npa.gov.tw/law/Law/LawList"
+          },
+          {
+            "title": "警政署偶發性及緊急性集會遊行認定處理原則全文",
+            "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1002151"
+          },
+          {
+            "title": "拘留所設置管理辦法第6條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080086"
           }
         ]
       },
-      "takeaway": "警察遴選第三人蒐集資料辦法有法律授權，規範對外事項，屬法規命令。",
+      "takeaway": "法規性質應看授權、內容與效力，不能只靠「辦法」「原則」等名稱判斷。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -821,8 +831,29 @@
         {
           "title": "警察人員人事條例",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+        },
+        {
+          "title": "警察職權行使法第1、2、6及29條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "警察遴選第三人蒐集資料辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146"
+        },
+        {
+          "title": "警政署法規資料庫位階目錄",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawList"
+        },
+        {
+          "title": "警政署偶發性及緊急性集會遊行認定處理原則全文",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1002151"
+        },
+        {
+          "title": "拘留所設置管理辦法第6條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080086"
         }
-      ]
+      ],
+      "currentAnswer": "保留官方答案D：警政署目錄將警察遴選第三人蒐集資料辦法列為命令；A的基準及B作業規定完整官方原件與位階仍待查。"
     },
     {
       "id": "law112-inner-11",
