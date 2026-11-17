@@ -1,5 +1,11 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import "./black-gold.css";
+
+export const viewport: Viewport = {
+  themeColor: "#171817",
+  colorScheme: "dark",
+};
 
 export const metadata: Metadata = {
   title: "警察四等特考複習站｜每日題庫・法條・申論",
@@ -16,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-Hant">
+    <html lang="zh-Hant" data-theme="black-gold">
       <body className="antialiased">{children}</body>
     </html>
   );
