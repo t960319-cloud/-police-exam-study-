@@ -308,3 +308,14 @@ assert(policeOrders?.verified);assert(policeOrders.model.analysis.includes('中�
 const doublePunishment=result.essays.find(x=>x.id==='law111-outer-e2');
 assert(doublePunishment?.verified);assert(doublePunishment.model.analysis.includes('有罪判決確定'));assert(doublePunishment.model.analysis.includes('無罪確定後'));assert(doublePunishment.model.analysis.includes('不在808本案解釋範圍'));
 console.log('Essay shooting conditions, warning scope, police command authorities and constitutional ruling passed.');
+
+// Court-based stop essays distinguish vehicle measures, remedy and involuntary identity checks.
+const stopEssay=result.essays.find(e=>e.id==='law114-outer-e1');
+assert(stopEssay?.verified);assert(stopEssay.model.analysis.includes('事實行為'));assert(stopEssay.model.analysis.includes('異議紀錄表'));assert(stopEssay.model.analysis.includes('必然須附隨離車'));assert(stopEssay.amendment.sources.some(s=>s.url.includes('1139827')));
+const habeasEssay=result.essays.find(e=>e.id==='law112-inner-e2');
+assert(habeasEssay?.verified);assert(habeasEssay.model.analysis.includes('自攔停起不得逾3小時'));assert(habeasEssay.model.analysis.includes('提審權'));assert(habeasEssay.model.analysis.includes('顯然無法查證'));
+const officerRanks=result.essays.find(e=>e.id==='law113-outer-e2');
+assert(officerRanks?.verified);assert(officerRanks.model.analysis.includes('警監有特、一至四階'));assert(officerRanks.model.analysis.includes('同官等低一官階'));
+const visitEssay=result.essays.find(e=>e.id==='scene111-e1');
+assert(visitEssay?.verified);assert(visitEssay.model.analysis.includes('3日前書面通知'));assert(visitEssay.model.analysis.includes('同意並引導'));assert(visitEssay.model.analysis.includes('個資法'));
+console.log('Court-based stop review, habeas safeguards, police ranks and neighborhood visits passed.');
