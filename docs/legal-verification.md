@@ -326,3 +326,5 @@
 - [法務部81年函](https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE076579&media=print&type=E)說明查禁物單獨沒入與行為人2個月時效分別；114外軌第14題法院收狀細節仍待原件。另依[臺東地院裁定](https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TTDM%2C111%2C%E6%9D%B1%E7%A7%A9%2C12%2C20220520%2C1)補藉端滋擾要件，依社維法第7、72、73、82、83條補故意及其他構成要件。
 - 查訪題補[森林竊盜判例](https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=B%2C93%2C%E5%8F%B0%E4%B8%8A%2C860%2C001&kw=&type=J1)、查訪辦法及警察人事任用法定限制。集遊題區分核准例外與實際公告範圍；109年警政署教材僅作歷史證據，最新移送書與舉牌內規仍待核。
 - 依警械兩項管理辦法核對駐衛警槍、守望組織購置電擊器及警械執照2年換領，並補拋射式限制。共三題逐項核對、七題補充後維持待核，原題及官方答案不變。[證據與限制](legal-evidence-2026-11-17-social-assembly.json)。
+
+- 發布紀錄：Sites 第33版來源 `425da557c9069feeaba0e838497a8f88148e1bad`，部署 `appgdep_6afbd7bcfeac81919f04bb1778f75221` 原生回報成功；網站維持公開。正式 API 本環境先前為 CONNECT 403，本次未完成正式資料讀回，正式帳號驗收仍未執行。
