@@ -309,3 +309,5 @@
 - 自[警政署法規資料庫](https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1002151)取得「偶發性及緊急性集會遊行認定處理原則」九點全文。112外軌19、113外軌15、114內軌24已逐項補三條件、即時核定、警察得到場、地點限制與比例原則；不得只以一項條件認定偶發。
 - 依集遊法、[高等法院首謀認定要旨](https://web.law.ntpc.gov.tw/Scripts/FLAWDOC02.aspx?RCODE2=B0000014&RNO=159-5&rtype=J2)及釋字653部分協同意見書註7補兩題首謀與申復；依法定認定及實際公告判斷，申復先行文字位於意見書，不是653主文。
 - 依[內政部檢查說明](https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&n=174&page=15&sms=9015)與警職法補安全檢查、刑事搜索分別；依法院裁定與行政程序法補交通指揮的一般處分。戶政、消防、海巡、移民之官方沿革已補四選項及時序。共八題逐項核對，原題與官方答案不變。[證據與限制](legal-evidence-2026-11-17-assembly-history.json)。
+
+- 發布紀錄：Sites 第31版來源 `75af1fb4e3ace4a671496e8a2cd17f5e3aee217c`，部署 `appgdep_6afbd2fbd18c8191bb86af96433339cf` 原生回報成功；網站維持公開。正式 API 本環境先前為 CONNECT 403，本次未完成正式資料讀回，正式帳號驗收仍未執行。
