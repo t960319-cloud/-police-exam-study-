@@ -520,3 +520,13 @@
 - 以環境設定工具保存start_skill完整原文加上相同協作規則，草稿revision2回讀一致，install_script、network_policy及repositories保持不變；requires_publish=true，本輪未發布或套用其他工作階段。
 - 實際GET新正式首頁HTTP200／CONNECT200；舊網域HTTP307／CONNECT200仍轉址新網域。沒有Sites網域管理工具，不能解除平台別名，列TODO-20261117-03；未刪網站、資料庫或學習資料。
 - 文件連結、JSON解析、原16筆歷史副本一致性、有效入口不含舊域名、程式無舊網址硬編碼及git diff --check通過；本次未改應用程式，未重跑功能測試或部署。提交推送結果依實際Git回報。
+
+## 2026-11-17：每日 Git 同步與錯誤檢查（UTC 排程）
+
+- 核對時間與前置：2026-11-17 22:29（Asia/Taipei；UTC 14:29）。所附環境 ready 後確認 running、觀察有效、政策 enforced 及 GitHub／Sites Git 網域允許。閱讀最新 AGENTS、Wiki、README、近期日誌、待辦、未結問題及新增的跨對話協作文件。
+- GitHub 整合：開始時工作樹乾淨，HEAD 為 `67efb4a214868c0d3a91658c0ec1f0175e6749b5`，沒有待推送提交。正常 fetch 後落後36筆、超前0筆，fast-forward 至 `b4e86bb5a5c12a147ef5cd966bf4e1aa0915a874`，保留法規補充、黑金樣式、單筆雲端舊版本刪除與協作規則等全部更新，沒有衝突或強制覆寫。
+- Sites 比對：目前原始碼分支為 `c01d88d89da20664accc367aa61a4f74285a4aa0`，最新保存版本為第37版、來源 `f7732d7c21d128f3ffa779eb19dd6da9eeaf04c2`。GitHub 比 Sites 分支多一筆協作文件提交，Sites 沒有獨有提交；兩邊11份檔案差異均為規則、文件及紀錄。另確認第37版保存來源與目前 GitHub 的程式、資料庫、腳本、依賴及發布設定沒有差異。
+- 本輪本機檢查通過：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm test:sync`（25項）、`pnpm test:priorities`（6項），以及 `check-legal-updates.mjs`、`check-past-papers.mjs`、`check-law-papers.mjs`、`check-scenario-papers.mjs`、`check-investigation-papers.mjs`、`check-curated-updates.mjs`、`check-requested-study-resets.mjs` 七支既有腳本、`node --check scripts/check-study-browser.mjs` 與 `git diff --check`。
+- 遠端 CI：`b4e86bb` 的 [Study app checks](https://github.com/t960319-cloud/-police-exam-study-/actions/runs/44103170003) 初次讀回為 in_progress，後續確認 completed／success。與本輪本機檢查分開記錄；本輪沒有重跑建置、瀏覽器或正式法源查核，不將 CI 成功當成真實帳號或視覺驗收通過。
+- 本輪新增與推送流程：只追加 `log.md`、`Issue.md` 的同步紀錄，差異格式及本機 Markdown 連結路徑檢查通過。修改前再次 fetch 確認與遠端相同；依最新規則提交後、push 前再 fetch，正常整合任何並行更新，再執行 `git push origin HEAD:main` 與 `git ls-remote origin refs/heads/main` 核對。最終 SHA 以 Git 歷史及本輪遠端讀回為準。
+- 連線與範圍：GitHub／Sites 連線均成功，短效憑證僅經記憶體與隱藏 stdin 使用，沒有新增 Git 同步錯誤。既有畫面、正式帳號保存／跨裝置／還原、法規待核及舊別名停用事項未在本輪重驗或結案；另一流程的正式新網址200證據保留為上游紀錄。本輪不部署、不遷移或寫入／清空正式個人資料；其他隔離工作的未提交檔案不包含在本次同步。
