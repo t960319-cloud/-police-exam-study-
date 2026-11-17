@@ -530,3 +530,12 @@
 - 遠端 CI：`b4e86bb` 的 [Study app checks](https://github.com/t960319-cloud/-police-exam-study-/actions/runs/44103170003) 初次讀回為 in_progress，後續確認 completed／success。與本輪本機檢查分開記錄；本輪沒有重跑建置、瀏覽器或正式法源查核，不將 CI 成功當成真實帳號或視覺驗收通過。
 - 本輪新增與推送流程：只追加 `log.md`、`Issue.md` 的同步紀錄，差異格式及本機 Markdown 連結路徑檢查通過。修改前再次 fetch 確認與遠端相同；依最新規則提交後、push 前再 fetch，正常整合任何並行更新，再執行 `git push origin HEAD:main` 與 `git ls-remote origin refs/heads/main` 核對。最終 SHA 以 Git 歷史及本輪遠端讀回為準。
 - 連線與範圍：GitHub／Sites 連線均成功，短效憑證僅經記憶體與隱藏 stdin 使用，沒有新增 Git 同步錯誤。既有畫面、正式帳號保存／跨裝置／還原、法規待核及舊別名停用事項未在本輪重驗或結案；另一流程的正式新網址200證據保留為上游紀錄。本輪不部署、不遷移或寫入／清空正式個人資料；其他隔離工作的未提交檔案不包含在本次同步。
+
+## 2026-11-17：收斂平行工作流程並明確平台界線
+
+- 使用者要求一次統一多對話分工，不再反覆核對版本與實測。本輪先讀最新規則並正常快轉至 `26e674a`，保留其他對話紀錄；不修改網站功能、法律資料、正式DB或發布。
+- 找到協作規則風險：每個對話原本可各自發布不同快照。改為平行任務照常檢查、commit＋push，由正式驗收與整合窗口統一正式上線；當次不發布仍優先。實體工作階段不共享的限制直接說明，不假稱Git可同步未提交內容、網路權限或登入。
+- 新增docs/project-settings.json，統一唯一正式網址、repo、main、既有Site、環境名稱與設定識別；新增node scripts/check-workspace.mjs，由代理自行fetch並檢查來源及匿名HTTP，結果存在忽略的本機runtime檔。工具不merge、刪檔、部署或寫入正式資料。
+- 實際開工檢查：來源HEAD與遠端main相同、behind=0；啟動政策unrestricted；正式首頁及session皆HTTP200／CONNECT200，無連線問題。工作樹有本輪修改時只提示保留，不丟棄。檢查範圍不含已登入個人紀錄或可見桌面。
+- 環境start_skill更新為共同設定識別核對、自動開工檢查與單一整合發布；草稿revision3回讀一致，install_script、network_policy與repositories未變，requires_publish=true。沒有發布或管理其他執行中環境的工具，其他工作階段未宣稱已切換。
+- 通過新腳本ESLint、Node語法、實際Git／HTTP診斷、JSON與文件連結檢查及git diff --check；應用程式未變，不重跑未受影響的全套功能測試。新待辦TODO-20261117-04只追蹤平台套用缺口，舊網域別名仍由03追蹤。

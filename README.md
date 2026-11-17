@@ -4,7 +4,7 @@
 
 正式站唯一入口：https://police-exam-study.middlelapwing4.chatgpt.site
 
-所有對話從GitHub `main` 的最新來源開始工作，修改完成後檢查、commit及push；並行更新先正常合併。詳見[專案入口與跨對話協作](docs/project-coordination.md)。
+所有對話從GitHub `main` 的最新來源開始工作，自行執行 `node scripts/check-workspace.mjs` 核對來源與連線；修改完成後檢查、commit及push，並行更新先正常合併。正式上線由單一整合窗口統一處理。詳見[專案入口與跨對話協作](docs/project-coordination.md)。
 
 ## Wiki 與工作紀錄
 
