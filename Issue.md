@@ -611,3 +611,12 @@
 - 截圖中的兩個同名項目無法單憑位置可靠辨識。核對本對話source_config_id後，已由metadata工具將實際共用設定改名「police 共用主環境」，設定草稿讀回name正確；另一份同名環境未刪除或修改。
 - 同步Git共用設定與AGENTS名稱，識別尾段不變、網路模式維持unrestricted、draft revision3不變。此操作不是發布草稿或讓其他工作階段自動切換；未動網站、DB、學習資料或排程。
 - JSON及差異檢查通過。本次不聲稱截圖上方／下方哪一個原同名選項就是本設定，請以重新整理後的新名稱辨識。
+
+### 2026-11-18：共用主環境 Git 同步與錯誤核對
+
+- 範圍：所附共用主環境、既有checkout、GitHub main、既有Sites原始碼分支、最新工作規則及本輪兩份紀錄。環境來源設定識別符合共同設定，實際與啟動政策均unrestricted，live規則enforced；此為本機觀察，不推定其他工作階段已套用。
+- 保存及整合：起始無未提交／未追蹤或待推送內容，保留起點分支後正常快轉 `6a73341` → `35eb954`，納入9筆提交且無衝突。Sites main `382b25e` 為本機祖先，雙方獨有提交3／0，沒有Sites待合併提交；未更改正式發布或DB。
+- Git診斷：首次沙箱內fetch因代理不可達失敗；經核准的沙箱外相同fetch成功，後續fetch亦成功。沒有更改網路或憑證設定；ISSUE-20261118-01記載的另一工作階段認證錯誤保留，本次讀取成功不代表其CLI已修復。
+- 開工檢查：`node scripts/check-workspace.mjs` 於2026-11-17 23:57:32 UTC（Asia/Taipei為翌日07:57:32）exit0，repo正確、HEAD及origin/main均 `35eb954`、ahead／behind均0；首頁與session HTTP200／CONNECT200、curlExit0，無problems或warnings，正式寫入0。既有ISSUE-20261116-02不因本機匿名連通而結案，法規API與真實帳號未在本輪驗證。
+- 通過：`node --check scripts/check-workspace.mjs`、`node node_modules/eslint/bin/eslint.js scripts/check-workspace.mjs`、三份整合JSON解析、共同設定識別／origin／hosting一致性、`git diff --check backup/git-sync-20261117-6a73341..HEAD`及146個本機Markdown連結。只新增本輪紀錄，另檢查兩份文件差異與本機連結；未執行應用程式、建置或瀏覽器回歸，不宣稱通過。
+- 交付：提交前及push前再fetch，遇並行更新保留工作並正常整合，再執行一般push及 `git ls-remote origin refs/heads/main` 核對；最終結果以本輪工具證據為準。未推送Sites或發布環境，不提交來源憑證、個人識別交接檔或學習紀錄。詳見[本輪日誌](log.md#2026-11-18共用主環境-git-同步與錯誤核對)。

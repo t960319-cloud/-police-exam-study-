@@ -575,3 +575,13 @@
 - 這是既有設定的名稱更改，不是新建環境、切換快照或發布；原network_policy仍unrestricted，draft revision3及來源識別保持。程式repo／工作目錄仍為原路徑，未清除資料。
 - 修改前工作樹乾淨，正常快轉至 `fe10be3`，納入另一對話的Git專責指令與回報；保留其排程與設定，本輪沒有更動排程或跨工作階段權限。
 - 同步AGENTS與project-settings.json中的目前環境名稱。JSON解析、共同設定識別一致性與git diff --check通過；不重跑未受影響的應用程式測試。
+
+### 2026-11-18：共用主環境 Git 同步與錯誤核對
+
+- 本輪使用所附環境與既有 `/workspace/-police-exam-study-`；環境 running、觀察有效，來源設定尾段與 `docs/project-settings.json` 的 `cecfg_b3f1c03bbf0881a0a1d3187a6c1f04b9` 相符，網路 unrestricted／enforced，啟動政策亦為 unrestricted。沒有發布或變更環境設定。
+- 起始工作樹乾淨，無未追蹤檔案、stash 或待推送提交，origin 為指定 GitHub repo。先保留本機起點於 `backup/git-sync-20261117-6a73341`，再正常 fast-forward 由 `6a733410eab0cba695a569df21e396db138bbc11` 至 `35eb954b77a6699346bcb4c8b3cb65e33a7b5fdf`，納入9筆上游提交，無衝突。新協作文件、共用設定及Git專責指令均已讀取，沒有重套舊交接包。
+- 連線診斷：初次沙箱內 fetch 回報 `Failed to connect to proxy port 8080`；經核准於沙箱外沿用原代理重試成功，未修改代理或網路政策。2026-11-17 23:57:32 UTC（2026-11-18 07:57:32 Asia/Taipei）的 `node scripts/check-workspace.mjs` exit0，Git ahead／behind為0／0，正式首頁及session均HTTP200／CONNECT200，problems及warnings皆空，正式寫入0；報告留在忽略的 `.sites-runtime/workspace-readiness.json`。
+- Sites來源唯讀核對：沿用 `.openai/hosting.json` 既有 project_id。原生查得正式網址與共用設定一致、目前第38版、維持public；fetch其main為 `382b25ea8f94083ca9dcef806e1fbb37d1c0ad95`，本機／Sites獨有提交數3／0，Sites沒有尚未納入的提交。六份差異均為工作規則、共同設定及交接紀錄；未推送Sites來源、儲存版本或部署。短效來源憑證僅經記憶體與隱藏stdin，沒有寫入檔案或Git設定。
+- 本輪實際驗證：新開工腳本的 `node --check` 與指定檔ESLint、三份變動JSON解析、共同設定與觀察到的環境／origin／hosting識別一致性、14份整合檔案的差異格式及146個本機Markdown連結通過。本輪新增內容只在log與Issue，另核對其差異及本機連結；未重跑未受影響的應用程式、建置或瀏覽器測試。
+- 後續依規則在修改前、提交前與push前重新fetch，正常整合並行更新後以 `git push origin HEAD:main` 推送，再用 `git ls-remote origin refs/heads/main` 讀回核對；最終commit與遠端確認結果以本輪Git歷史及回報為準。其他工作階段的既有CLI認證問題（ISSUE-20261118-01）及正式HTTP限制保留，不能以本機連通推定其他環境已修復。
+- 本輪範圍限可存取的Git提交與上述唯讀診斷；不含隔離工作的未提交草稿。正式登入保存、跨裝置與還原未驗收，沒有操作或清空正式個人學習資料。
