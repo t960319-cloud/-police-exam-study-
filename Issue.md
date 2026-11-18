@@ -632,3 +632,11 @@
 - 開工檢查：`node scripts/check-workspace.mjs` 於2026-11-17 23:57:32 UTC（Asia/Taipei為翌日07:57:32）exit0，repo正確、HEAD及origin/main均 `35eb954`、ahead／behind均0；首頁與session HTTP200／CONNECT200、curlExit0，無problems或warnings，正式寫入0。既有ISSUE-20261116-02不因本機匿名連通而結案，法規API與真實帳號未在本輪驗證。
 - 通過：`node --check scripts/check-workspace.mjs`、`node node_modules/eslint/bin/eslint.js scripts/check-workspace.mjs`、三份整合JSON解析、共同設定識別／origin／hosting一致性、`git diff --check backup/git-sync-20261117-6a73341..HEAD`及146個本機Markdown連結。只新增本輪紀錄，另檢查兩份文件差異與本機連結；未執行應用程式、建置或瀏覽器回歸，不宣稱通過。
 - 交付：提交前及push前再fetch，遇並行更新保留工作並正常整合，再執行一般push及 `git ls-remote origin refs/heads/main` 核對；最終結果以本輪工具證據為準。未推送Sites或發布環境，不提交來源憑證、個人識別交接檔或學習紀錄。詳見[本輪日誌](log.md#2026-11-18共用主環境-git-同步與錯誤核對)。
+
+### 2026-11-18：接手 Git 同步專責並核對既有排程
+
+- 實際環境與來源：共用設定識別相符、修訂1／1、unrestricted／enforced；起始HEAD為 `12e3c43`且工作樹乾淨。交接中的 `fe10be3`／restricted屬其他快照，未據此回退來源或改動政策。
+- 整合：保留起點分支後正常快轉 `12e3c43` → `e7dea57`，納入2筆文件提交；Sites main `382b25e`無獨有提交（6／0）。首次沙箱內fetch代理不可達，經核准的沙箱外相同fetch成功；本機沒有持續中的Git讀取錯誤，其他工作階段的ISSUE-20261118-01與ISSUE-20261116-02保留。
+- 開工診斷：00:47:11 UTC執行 `node scripts/check-workspace.mjs` exit0，Git來源0／0，正式首頁及session皆HTTP200／CONNECT200、curlExit0，problems與warnings皆空，正式寫入0。此為匿名HTTP，不是正式登入保存、跨裝置或還原驗收。
+- 排程：原生peek確認既有指定ID仍啟用、台北每天約22:00、flexible_schedule，prompt與專責檔一致；未修改排程或其inherited環境選擇、未新增重複任務。
+- 驗證與交付：只整合及新增log／Issue，差異格式、本機Markdown連結及共同設定一致性通過；未執行程式、建置或瀏覽器測試。提交前與push前再fetch，正常push後讀回遠端main SHA；最終結果以本輪工具證據為準。未部署或操作正式學習資料，詳見[本輪日誌](log.md#2026-11-18接手-git-同步專責並核對既有排程)。

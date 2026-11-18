@@ -598,3 +598,11 @@
 - 依使用者要求讀取警察特考複習站資料；原工作樹乾淨，從 `6a73341` 正常快轉至 GitHub `main` 的 `2643829`，納入11筆上游提交。已閱讀最新工作規則、Wiki、README、近期紀錄、待辦、未結問題及跨對話協作文件。
 - 本工作階段的環境來源識別符合共同設定，網路 unrestricted／enforced。`node scripts/check-workspace.mjs` 於 2026-11-18 00:10 UTC 執行成功：Git ahead／behind 均為0，正式首頁及 session 均 HTTP 200／CONNECT 200，無問題或警告。最初沙箱內 Git 連線因代理無法連接失敗，允許網路後重試成功。
 - 本次僅同步來源、讀取資料及執行匿名連線檢查；未修改網站功能、發布、讀取或寫入正式個人學習資料。匿名 HTTP 檢查不代表正式帳號保存、跨裝置或還原驗收完成。
+
+### 2026-11-18：接手 Git 同步專責並核對既有排程
+
+- 依本次所附環境實測，起始HEAD為 `12e3c43831262161b8df599eaab18f8b1d6a2395`、工作樹乾淨且無待推送提交，與交接中的 `fe10be3` 快照不同；環境來源識別符合共同設定，running、觀察有效、修訂1／1、unrestricted／enforced，不將交接的restricted狀態套用到本機。origin網址正確，未變更環境設定。
+- 保留起點於 `backup/git-sync-20261118-12e3c43` 後，正常fetch／fast-forward至 `e7dea57653a2b14e7efc1efe80c8911ba9f9ae33`，納入2筆僅更新log與Issue的上游提交，無衝突。最新AGENTS、專責指令、協作文件、共用設定及Wiki交接已讀取。Sites main唯讀fetch為 `382b25e`，本機／Sites獨有提交6／0，無Sites待整合提交；沒有推送Sites或部署。
+- 開工檢查 `node scripts/check-workspace.mjs` 於00:47:11 UTC（08:47:11 Asia/Taipei）exit0：Git ahead／behind為0／0，首頁及session均HTTP200／CONNECT200，curlExit0、無問題與警告，正式寫入0。初次沙箱內fetch因代理不可達失敗，經核准於沙箱外沿用原代理重試成功；沒有持續中的本機Git讀取錯誤。其他工作階段的認證與正式站限制仍保留，不因此結案。
+- 原生peek核對既有 `Automation_558a70695e8c8191b1853e1b6cac2ff4`：標題「police Git 同步與錯誤回報」、enabled=true、Asia/Taipei、每日約22:00及flexible_schedule不變，prompt與 `.openai/git-sync.md` 正文一致。只讀取，未重建、修改或立即觸發排程；原inherited環境選擇保留，不宣稱日後排程會採用本機工作階段。
+- 本輪限文件整合與紀錄，`git diff --check`、兩份文件本機Markdown連結、共同設定與環境／origin／hosting一致性檢查通過；未重跑未受影響的程式、建置或瀏覽器測試。依規則在修改前、提交前及push前再fetch，正常push後以 `git ls-remote origin refs/heads/main` 核對；最終提交及遠端SHA以本輪工具證據為準。沒有操作正式個人資料，也不涵蓋其他隔離工作的未提交草稿。
