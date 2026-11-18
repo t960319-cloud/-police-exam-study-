@@ -606,3 +606,12 @@
 - 開工檢查 `node scripts/check-workspace.mjs` 於00:47:11 UTC（08:47:11 Asia/Taipei）exit0：Git ahead／behind為0／0，首頁及session均HTTP200／CONNECT200，curlExit0、無問題與警告，正式寫入0。初次沙箱內fetch因代理不可達失敗，經核准於沙箱外沿用原代理重試成功；沒有持續中的本機Git讀取錯誤。其他工作階段的認證與正式站限制仍保留，不因此結案。
 - 原生peek核對既有 `Automation_558a70695e8c8191b1853e1b6cac2ff4`：標題「police Git 同步與錯誤回報」、enabled=true、Asia/Taipei、每日約22:00及flexible_schedule不變，prompt與 `.openai/git-sync.md` 正文一致。只讀取，未重建、修改或立即觸發排程；原inherited環境選擇保留，不宣稱日後排程會採用本機工作階段。
 - 本輪限文件整合與紀錄，`git diff --check`、兩份文件本機Markdown連結、共同設定與環境／origin／hosting一致性檢查通過；未重跑未受影響的程式、建置或瀏覽器測試。依規則在修改前、提交前及push前再fetch，正常push後以 `git ls-remote origin refs/heads/main` 核對；最終提交及遠端SHA以本輪工具證據為準。沒有操作正式個人資料，也不涵蓋其他隔離工作的未提交草稿。
+
+### 2026-11-18：法律補充工作恢復前修復 Git 連線途徑
+
+- 使用者要求先處理「GitHub最新main因連線失敗未核實」。本工作階段來源設定識別符合共用主環境；environment_status觀察有效，網路unrestricted／enforced。預設沙箱執行ls-remote仍回 `Failed to connect to proxy port 8080`，尚未到達GitHub認證步驟。
+- 依雲端Networking指引，經核准在沙箱外沿用原代理執行相同唯讀ls-remote成功，讀回main為 `e7dea57653a2b14e7efc1efe80c8911ba9f9ae33`；後續以較小範圍的命令網路權限執行fetch及開工檢查亦成功。沒有修改代理、TLS、憑證、平台網路設定或共用環境草稿。
+- 工作樹原為乾淨，由 `6a73341` 正常快轉至 `e7dea57`；檢查期間又取得其他對話的新提交 `7abd5f0`，正常快轉保留全部內容，共納入13筆上游提交，無衝突。
+- 最終開工檢查於2026-11-18 00:50:46 UTC執行，exit0；HEAD及origin/main均 `7abd5f045dcf36e910316f9da5eac07b1c3c866f`，ahead／behind均0，工作樹乾淨；首頁與session均HTTP200／CONNECT200，problems及warnings皆空，正式寫入0。報告位於忽略的 `.sites-runtime/workspace-readiness.json`。
+- 將可重現的網路權限處理方式加入[跨對話協作](docs/project-coordination.md#git-無法連上雲端代理時)，供後續Git操作沿用；只確認本工作階段的可用通道，不將另一工作階段的ISSUE-20261118-01認證問題結案。預設沙箱代理通道本身未永久修復。
+- 本步只變更協作文件與操作紀錄，檢查差異格式及三份文件本機連結；不重跑未受影響的應用程式測試。依規則再次fetch、正常提交推送並讀回遠端SHA，最終提交見Git歷史及本輪回報。法規題庫與正式站未在本步修改或發布。

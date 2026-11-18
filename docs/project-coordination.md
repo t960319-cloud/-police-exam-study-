@@ -30,6 +30,14 @@
 
 Git同步的是已commit並push的內容。其他對話須fetch並整合後才看得到；未提交的草稿、執行中的程序與瀏覽器工作階段不會即時互通。本規則不建立自動背景輪詢，不承諾正在執行的對話會即時重讀規則。
 
+### Git 無法連上雲端代理時
+
+若 `git ls-remote origin refs/heads/main` 或fetch回報 `Failed to connect to proxy port 8080`，先確認本工作階段的environment_status及已套用網路政策。這表示本次請求未能連上代理，尚未驗證GitHub認證。
+
+2026-11-18在共用主環境實測：預設命令沙箱重現此錯誤；命令工具明確取得網路權限（`sandbox_permissions: with_additional_permissions`、`additional_permissions.network.enabled: true`）後，Git fetch及 `node scripts/check-workspace.mjs` 成功。當政策允許且上述通道仍不可用時，可依雲端環境指引經核准以 `require_escalated` 重試同一請求；本輪唯讀ls-remote亦已用此方式成功。
+
+沿用平台提供的代理、憑證與TLS驗證；成功讀回後正常fetch／整合，再核對遠端SHA。這是已驗證的命令執行方式，沒有永久修復預設沙箱的代理通道；也不能據此宣稱其他工作階段的認證或網路問題已解決。
+
 ## 發布與工作階段
 
 - 所有平行對話只交付Git變更，正式驗收與整合窗口負責上線，避免同時部署不同快照。GitHub來源、Sites來源及正式部署分別核對。GitHub push不等於部署；需要發布時使用同一來源SHA，核對原站點、現有D1、存取設定及實際部署結果。遵守使用者在該對話的當次指示，明確「不發布」優先於一般預設授權。

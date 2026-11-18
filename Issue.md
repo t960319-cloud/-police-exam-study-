@@ -640,3 +640,11 @@
 - 開工診斷：00:47:11 UTC執行 `node scripts/check-workspace.mjs` exit0，Git來源0／0，正式首頁及session皆HTTP200／CONNECT200、curlExit0，problems與warnings皆空，正式寫入0。此為匿名HTTP，不是正式登入保存、跨裝置或還原驗收。
 - 排程：原生peek確認既有指定ID仍啟用、台北每天約22:00、flexible_schedule，prompt與專責檔一致；未修改排程或其inherited環境選擇、未新增重複任務。
 - 驗證與交付：只整合及新增log／Issue，差異格式、本機Markdown連結及共同設定一致性通過；未執行程式、建置或瀏覽器測試。提交前與push前再fetch，正常push後讀回遠端main SHA；最終結果以本輪工具證據為準。未部署或操作正式學習資料，詳見[本輪日誌](log.md#2026-11-18接手-git-同步專責並核對既有排程)。
+
+### 2026-11-18：法律補充工作階段的 Git 代理連線處理
+
+- 範圍：既有checkout、GitHub main、共用環境設定識別及匿名連線；本次處理 `Failed to connect to proxy port 8080`，不與ISSUE-20261118-01的另一工作階段認證錯誤混同。
+- 重現與處理：預設命令沙箱ls-remote失敗；environment_status為有效的unrestricted／enforced。經核准的沙箱外ls-remote、fetch成功；命令工具只增加網路權限後，fetch及完整開工檢查亦成功。沿用原代理及TLS驗證，未調整網路設定或憑證。
+- 來源整合：乾淨工作樹由 `6a73341` 快轉至 `e7dea57`，再納入並行更新 `7abd5f0`；共13筆提交，無衝突。2026-11-18 00:50:46 UTC的 `node scripts/check-workspace.mjs` exit0，HEAD與origin/main一致、ahead／behind均0、兩個匿名HTTP端點皆200／CONNECT200，無問題或警告。
+- 結果：本工作階段已有驗證可用的Git連線途徑；預設沙箱代理通道未永久修復，後續沿用命令網路權限。處理方式已寫入[共同協作文件](docs/project-coordination.md#git-無法連上雲端代理時)。另一工作階段認證問題及正式登入驗收仍各別追蹤。
+- 本次僅變更三份Markdown；差異格式與本機連結檢查後依規則提交推送及核對遠端。沒有改法規內容、部署網站或寫入正式學習資料。詳見[操作日誌](log.md#2026-11-18法律補充工作恢復前修復-git-連線途徑)。
