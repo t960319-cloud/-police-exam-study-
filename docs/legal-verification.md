@@ -425,3 +425,9 @@
 - 38筆本地整理事件後，尚未標已核359題選擇、27題申論，介面綜合待核360題（另含q38採血review），不含正式D1動態事件。30題均在所引115版及現行法條範圍已核；不宣稱已取得每一舊年全部手冊沿革。
 
 - 本批補驗：`node --experimental-strip-types scripts/check-study-priorities.mjs`六項排序情境及`pnpm build`均通過；僅有既有分塊大小與路由靜態分類提示。新增JSON、證據連結與差異另核對後正常提交。
+
+
+### 2026-11-19：第42版30題整批發布及正式讀回
+
+- GitHub及Sites來源均確認`367d8d8eb07412a0d40fc96489493b6aae15f12c`，原生save第42版、部署`appgdep_6afee2f2c7a88191adecbb5d17af9380`回succeeded，public與DB保持原設定，正式網址不變。
+- GET正式法規API回41筆、一頁；38筆本地整理事件完全相同，前40筆正式歷史逐筆不變。本批30個targetId及120個選項更新全部讀回，無重複或缺漏，見[發布驗收證據](production-batch30-release-2026-11-19.json)。這是教材上線驗收；正式帳號保存、跨裝置及還原尚未在本批執行。

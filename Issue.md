@@ -748,3 +748,10 @@
 - 排序與建置及正式發布結果另記。未進行正式帳號保存、跨裝置或還原驗收，也未修改DB、存取對象或個人資料。
 
 - 本批補驗：`node --experimental-strip-types scripts/check-study-priorities.mjs`六項排序情境及`pnpm build`均通過；僅有既有分塊大小與路由靜態分類提示。新增JSON、證據連結與差異另核對後正常提交。
+
+
+### 2026-11-19：第42版30題正式內容驗收
+
+- 原生保存與部署成功，GitHub與Sites同來源367d8d8，第42版部署appgdep_6afee2f2c7a88191adecbb5d17af9380為succeeded；既有public與DB未變。
+- 正式法規API回41筆、無下一頁、HTTP200／CONNECT200；38筆本地事件全部一致，前40筆正式歷史內容不變，新事件恰30題／120選項且targetId清單相符。[證據](docs/production-batch30-release-2026-11-19.json)保留完整原生版本與存檔雜湊。
+- 本批教材驗收完成；正式帳號保存、跨裝置及還原沒有以匿名讀回代替。最後只補紀錄與待辦，完成JSON、文件連結及差異檢查後同步Git，未重跑不受文件影響的建置。

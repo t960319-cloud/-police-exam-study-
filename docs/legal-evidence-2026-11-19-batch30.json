@@ -1295,7 +1295,12 @@
       "TypeScript noEmit",
       "changed regression script ESLint",
       "six study priority regression scenarios",
-      "pnpm build"
+      "pnpm build",
+      "changed JSON and new local Markdown links",
+      "git diff --cached --check",
+      "production API: all 30 patches and 120 option overrides match",
+      "production API: all 38 curated events and 40 previous events preserved"
     ]
-  }
+  },
+  "productionReceipt": "production-batch30-release-2026-11-19.json"
 }
