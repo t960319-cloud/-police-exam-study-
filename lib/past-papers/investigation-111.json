@@ -1734,26 +1734,26 @@
       "options": [
         {
           "text": "投案",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：犯罪未被發覺前向有權機關自承並願受裁判，才是本題自首；與已發覺後自白不同。",
+          "explanation": "投案只描述主動到案的行為，可能發生在案件已被發覺或被通緝之後，單憑到案不具備自首的全部要件。",
+          "correction": "應依未被發覺、自承犯罪及願受裁判等條件判斷，本題完整描述自首。",
           "trueStatement": false
         },
         {
           "text": "自首",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "犯罪未被發覺前向有權機關自承並願受裁判，才是本題自首；與已發覺後自白不同。",
+          "explanation": "手冊第15點以未被發覺前向檢察官或警察自承犯罪並表明願受裁判定義自首，與題意相符；刑法第62條另定自首而受裁判者得減輕其刑。",
+          "correction": "B為本題正確名稱；減刑是得而非一律必減，特別規定另論。",
           "trueStatement": true
         },
         {
           "text": "自白",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：犯罪未被發覺前向有權機關自承並願受裁判，才是本題自首；與已發覺後自白不同。",
+          "explanation": "自白指坦承犯罪事實，自首過程也可能含有坦承，但僅用自白不能完整表達本題未發覺前主動申告、願受裁判的特定要件。",
+          "correction": "本題依完整條件選自首，不把自白與自首當成完全相同的法律概念。",
           "trueStatement": false
         },
         {
           "text": "認罪",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：犯罪未被發覺前向有權機關自承並願受裁判，才是本題自首；與已發覺後自白不同。",
+          "explanation": "認罪是對承認犯行的概括稱呼，不能取代本題手冊第15點的自首定義。",
+          "correction": "是否自首仍依犯罪是否已被發覺、主動申告及願受裁判等條件審查。",
           "trueStatement": false
         }
       ],
@@ -1764,19 +1764,35 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第26題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 26,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第15至17點；刑法第62條",
+        "checkedAt": "2026-11-19",
+        "note": "已逐項核對警專官方公開115版偵查犯罪手冊及所列法條，補足本站詳解；原題、選項及當年官方給分不變。本次不是宣稱核對日修法，亦未以附件檔名推定修正或施行日期。",
+        "oldRule": "本站原解析未完整呈現各選項之條點或僅依官方接受答案判讀。",
+        "newRule": "未發覺前自承並願受裁判是自首；主動到案、自白與認罪不能直接畫等號。",
+        "sources": [
+          {
+            "title": "警專刑事警察科公開115版偵查犯罪手冊第7至17點（PDF3至4頁）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "中華民國刑法第62條・自首得減輕及特別規定",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0000001&flno=62"
+          }
+        ]
       },
-      "takeaway": "犯罪未被發覺前向有權機關自承並願受裁判，才是本題自首；與已發覺後自白不同。",
+      "takeaway": "未發覺前自承並願受裁判是自首；主動到案、自白與認罪不能直接畫等號。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -1789,8 +1805,21 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警專刑事警察科公開115版偵查犯罪手冊第7至17點（PDF3至4頁）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "中華民國刑法第62條・自首得減輕及特別規定",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0000001&flno=62"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B不變：題示符合手冊第15點自首的完整條件。刑法第62條規定自首而受裁判者得減輕，不是一律必減。"
     },
     {
       "id": "investigation111_27",
@@ -2826,26 +2855,26 @@
       "options": [
         {
           "text": "告訴",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：告發只須申告犯罪事實，不以知悉嫌疑人或表明請求處罰為必要。",
+          "explanation": "告訴除申告犯罪事實外，另涉及告訴權及請求訴追意思；手冊第11點第1款要求有告訴權並表明請求訴追，與題目不需請求處罰的定義不同。",
+          "correction": "依題示手冊程序名稱應選告發，不把告訴與告發的要件混同。",
           "trueStatement": false
         },
         {
           "text": "告發",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "告發只須申告犯罪事實，不以知悉嫌疑人或表明請求處罰為必要。",
+          "explanation": "手冊第9點明定不論何人知有犯罪嫌疑得為告發，只需申告犯罪事實，不需知悉犯嫌或請求處罰；刑訴第240條亦定人人得告發。",
+          "correction": "B為正確名稱；言詞告發依刑訴第242條製作筆錄。",
           "trueStatement": true
         },
         {
           "text": "檢舉",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：告發只須申告犯罪事實，不以知悉嫌疑人或表明請求處罰為必要。",
+          "explanation": "檢舉是常見用語，但題目明問手冊第9點所定的程序名稱，應答告發；不能僅靠檢舉二字取代該定義。",
+          "correction": "本題答案為告發；實際收件仍須依申告內容處理，不能只因名稱不同拒收。",
           "trueStatement": false
         },
         {
           "text": "陳情",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：告發只須申告犯罪事實，不以知悉嫌疑人或表明請求處罰為必要。",
+          "explanation": "陳情是提出意見或請求的一般用語，不是本題手冊第9點的定義名稱；其內容若有犯罪申告仍須依法受理判斷。",
+          "correction": "本題依手冊選告發，不以陳情形式排除犯罪報案的處理。",
           "trueStatement": false
         }
       ],
@@ -2856,19 +2885,39 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第41題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 41,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第9、11點；刑訴第240、242條",
+        "checkedAt": "2026-11-19",
+        "note": "已逐項核對警專官方公開115版偵查犯罪手冊及所列法條，補足本站詳解；原題、選項及當年官方給分不變。本次不是宣稱核對日修法，亦未以附件檔名推定修正或施行日期。",
+        "oldRule": "本站原解析未完整呈現各選項之條點或僅依官方接受答案判讀。",
+        "newRule": "告發是申告犯罪事實；不要求先找出犯嫌，也不以請求處罰為必要。",
+        "sources": [
+          {
+            "title": "警專刑事警察科公開115版偵查犯罪手冊第7至17點（PDF3至4頁）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "刑事訴訟法第240條・告發",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=240"
+          },
+          {
+            "title": "刑事訴訟法第242條・言詞筆錄與告訴意旨確認",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=242"
+          }
+        ]
       },
-      "takeaway": "告發只須申告犯罪事實，不以知悉嫌疑人或表明請求處罰為必要。",
+      "takeaway": "告發是申告犯罪事實；不要求先找出犯嫌，也不以請求處罰為必要。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -2881,8 +2930,25 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警專刑事警察科公開115版偵查犯罪手冊第7至17點（PDF3至4頁）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第240條・告發",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=240"
+        },
+        {
+          "title": "刑事訴訟法第242條・言詞筆錄與告訴意旨確認",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=242"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B不變：手冊第9點及刑訴第240條的告發，不以知悉犯嫌或請求處罰為必要。告訴另有告訴權及訴追意思等要件。"
     },
     {
       "id": "investigation111_42",

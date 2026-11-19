@@ -1,0 +1,113 @@
+{
+  "checkedAt": "2026-11-19",
+  "timezone": "Asia/Taipei",
+  "handbookSource": {
+    "title": "handbook115",
+    "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968",
+    "retrievedAt": "2026-11-19T02:08:17.987682+00:00",
+    "response": "200 200 application/octet-stream",
+    "exitCode": 0,
+    "sha256": "d94a126e781162ca142a9fc462f80a101f2c3a8d7ed3e718cbed132b581af658",
+    "bytes": 810586
+  },
+  "handbookPages": [
+    3,
+    4
+  ],
+  "handbookPoints": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    15,
+    16,
+    17
+  ],
+  "sourceText": "legal-sources/investigation-115-reporting-excerpt.txt",
+  "statuteRetrievals": [
+    {
+      "title": "penal62",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0000001&flno=62",
+      "retrievedAt": "2026-11-19T03:16:20.558421+00:00",
+      "response": "200 200",
+      "exitCode": 0,
+      "sha256": "0435af157a48ab74610de26c820df165bc51c943f1c09cc32ababe7f50fc2796"
+    },
+    {
+      "title": "criminal237",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=237",
+      "retrievedAt": "2026-11-19T03:16:22.112327+00:00",
+      "response": "200 200",
+      "exitCode": 0,
+      "sha256": "8161c1adcc0bafe8caac0d34a525774ba25a678934f56109d040c2d780aeec1d"
+    },
+    {
+      "title": "criminal238",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=238",
+      "retrievedAt": "2026-11-19T03:16:23.881170+00:00",
+      "response": "200 200",
+      "exitCode": 0,
+      "sha256": "f3e58e480e3f5fc40af39ad774ab9ad941660d7ad91ee47d521249a0cc22c3ef"
+    },
+    {
+      "title": "criminal241",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=241",
+      "retrievedAt": "2026-11-19T03:16:24.770986+00:00",
+      "response": "200 200",
+      "exitCode": 0,
+      "sha256": "8a8b7ab76514b6efdd8f2c61cdb87ce12b687d0cee87cc8baa45322dc97db73a"
+    },
+    {
+      "title": "criminal242",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=242",
+      "retrievedAt": "2026-11-19T03:16:25.428336+00:00",
+      "response": "200 200",
+      "exitCode": 0,
+      "sha256": "190b0770b886bf1b5fcfffa7154e68283bb234dc215538221dbc752132ddc7d1"
+    },
+    {
+      "title": "criminal240",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=240",
+      "response": "200 200",
+      "exitCode": 0,
+      "retrievedAt": "2026-11-19T03:16:41.965290+00:00",
+      "sha256": "fc40aed909c72064b842b3bdd5e22e35f446e1953f66f3d62fccf4a01a104253"
+    }
+  ],
+  "targets": [
+    "investigation111_26",
+    "investigation111_41",
+    "investigation113_35",
+    "investigation115_34",
+    "investigation113_32",
+    "investigation113_02"
+  ],
+  "eventId": "legal-review-20261119-reporting-methods",
+  "scope": "核對官方公開115版手冊及所列法條，保留原題、官方答案與給分；本批不處理自首發覺標準個案、其他告訴乃論案件構成或後續全部手冊沿革。",
+  "baselineGit": "24df4043a70cb3a7ca171d9f00ae91677eb1d1cd",
+  "previousDeployment": 39,
+  "validation": {
+    "unchangedQuestions": 910,
+    "unchangedEssays": 66,
+    "unchangedHistory": 35,
+    "counts": {
+      "questionsNotVerified": 396,
+      "essaysNotVerified": 27,
+      "reviewFilter": 397
+    },
+    "checksPassed": [
+      "curated events and new six-question distinctions",
+      "300 investigation stems and 1200 options with official corrections",
+      "910 original questions and scoring unchanged",
+      "66 essay prompts and scoring unchanged",
+      "35 existing curated events unchanged",
+      "TypeScript noEmit",
+      "modified regression script ESLint",
+      "pnpm build",
+      "changed JSON and local Markdown links",
+      "git diff --check"
+    ]
+  }
+}

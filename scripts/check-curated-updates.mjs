@@ -374,3 +374,14 @@ for(const id of ['s09','duty111_s01']){
  assert(!e.model.analysis.includes('附件未能讀取'));
 }
 console.log('Handbook-backed escort answers, non-revival of repealed rules and continuous chase reporting passed.');
+
+// Replace answer-key-only placeholders with the handbook's distinctions and retain exam keys.
+for(const [id,key] of [['investigation111_26',1],['investigation111_41',1],['investigation113_02',2],['investigation113_32',3],['investigation113_35',2],['investigation115_34',2]]){
+ const q=result.questions.find(x=>x.id===id);assert(q?.verified);assert.equal(q.answer,key);assert.notEqual(q.analysisMode,'answer-key');
+ assert(q.options.every(o=>o.explanation.trim()&&!o.explanation.includes('本項不在當年度官方接受答案')));
+}
+const crimeReport=result.questions.find(q=>q.id==='investigation113_35');assert(crimeReport.options[2].explanation.includes('不需請求處罰'));
+const mediation=result.questions.find(q=>q.id==='investigation113_02');assert(mediation.options[2].explanation.includes('得改為應'));assert(mediation.options[3].correction.includes('知悉犯人起6個月'));
+const surrender=result.questions.find(q=>q.id==='investigation111_26');assert(surrender.options[1].correction.includes('得而非一律必減'));
+const confession=result.questions.find(q=>q.id==='investigation113_32');assert(confession.currentAnswer.includes('自白'));assert(confession.options[2].explanation.includes('未發覺'));
+console.log('Reporting, complaint, mediation, surrender and confession explanations preserve all six original keys.');
