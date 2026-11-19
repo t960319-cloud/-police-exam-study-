@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-11-19T03:24:00.591171+00:00",
+  "timezone": "Asia/Taipei",
+  "projectId": "appgprj_6af12822277881919dd2fcce0d109104",
+  "version": 40,
+  "versionId": "appgprj_6af12822277881919dd2fcce0d109104~appgver_3fd0af4f2650819196368801784ce095",
+  "deploymentId": "appgdep_6afe6b9d7ce4819196a1302800537039",
+  "deploymentStatus": "succeeded",
+  "sourceCommit": "cd1a53c31001cad2faae1e5d447bef7736f52929",
+  "url": "https://police-exam-study.middlelapwing4.chatgpt.site",
+  "siteAccess": "public",
+  "databaseBinding": "DB",
+  "nativeArchiveContentHash": "sha256:41a9382947083647b6872d13303b63bf3c73d506c675045493fec5e52cb01dd4",
+  "readback": {
+    "pages": 1,
+    "events": 39,
+    "all36CuratedEventsIdentical": true,
+    "all38PriorLiveEventsPreserved": true,
+    "newEvent": "legal-review-20261119-reporting-methods"
+  },
+  "productionLearningWrites": 0,
+  "verificationLimit": "Anonymous legal content only; no signed-in persistence or cross-device acceptance in this batch."
+}

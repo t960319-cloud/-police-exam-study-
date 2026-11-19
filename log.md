@@ -680,3 +680,11 @@
 - 原始版本及法源見[證據](docs/legal-evidence-2026-11-19-reporting-methods.json)及[手冊節錄](docs/legal-sources/investigation-115-reporting-excerpt.txt)。第36筆事件為legal-review-20261119-reporting-methods，35筆舊事件未改寫；本機未標已核396題選擇／27題申論，綜合待核397題另含q38。
 - 通過新增事件與既有回歸、300題犯罪偵查／1200選項與官方更正給分、910題題幹／選項／答案、66申論配分、舊事件不變、TypeScript及修改檔ESLint。建置與接續發布結果另記；不改DB或個人學習紀錄，未執行正式登入及跨裝置驗收。
 - 文件及JSON檢查後正常提交推送，推送前再fetch並讀回main。依本輪先上線再續補之指示，完成來源同步及封裝後接續發布，不把Git推送當成部署。
+
+
+### 2026-11-19：六題告發與自首補充上線第40版
+
+- 接續第39版發布後新增的六題補充，所有適用檢查及pnpm build通過，已提交推送GitHub為`cd1a53c`。Sites來源亦正常推送同一SHA並讀回，保留原公開對象及DB，不重新建立站點或清除學習資料。
+- 新封裝沿用已驗證的.openai與dist/server/index.js格式，188檔含原遷移及新事件；原生save第40版、部署appgdep_6afe6b9d7ce4819196a1302800537039回succeeded。正式網址仍為https://police-exam-study.middlelapwing4.chatgpt.site。
+- 部署後API取得39筆、一頁，36筆整理事件逐筆一致、之前38筆正式歷史完整保留，新事件legal-review-20261119-reporting-methods已在。證據見[發布讀回](docs/production-legal-followup-2026-11-19.json)。本輪先將原兩批上線，再補六題並接續上線，未以Git推送代替部署。
+- 本地未標已核396題選擇、27題申論，其他事項依既有法規清單接續。未操作正式個人學習紀錄或進行登入／跨裝置／還原驗收；最後僅提交發布交接文件，完成JSON、連結與差異檢查，不重跑未變的網站建置。
