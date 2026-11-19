@@ -1,0 +1,101 @@
+{
+  "projectId": "appgprj_6af12822277881919dd2fcce0d109104",
+  "liveUrl": "https://police-exam-study.middlelapwing4.chatgpt.site",
+  "sourceCommit": "9cfc39540b7a80062851ba09ad61f1ff2fc633ab",
+  "version": 43,
+  "versionId": "appgprj_6af12822277881919dd2fcce0d109104~appgver_8691056f57388191a0c21044017a0b4f",
+  "deploymentId": "appgdep_6afeead9e1948191affce5f7d5dfb2f8",
+  "status": "succeeded",
+  "deployedAt": "2026-11-19T12:26:20.607829+00:00",
+  "archiveStorage": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_0000000030c48206b99da175078c0986",
+    "content_hash": "sha256:481fe87a326cf47e489de9a2ecd8136de02a0c2778ca629f4b34397fd709598d",
+    "size_bytes": 18964480,
+    "file_count": 188
+  },
+  "access": "public",
+  "databaseBinding": "DB",
+  "requestedBatchSize": 30,
+  "acceptedQuestions": 30,
+  "reviewedOptions": 120,
+  "sourceBranchesVerified": [
+    "GitHub main",
+    "Sites configured source branch"
+  ],
+  "sourceForcePush": false,
+  "accountAcceptance": "本次核對正式匿名法規教材；未執行正式帳號保存、跨裝置或還原驗收。",
+  "localArchive": {
+    "archive": "/tmp/police-release-9cfc395.tar",
+    "sha256": "9770bee81e18a4a716f1e925e6f82302c2068397482a1fe679bbf0b12fa0ce01",
+    "fileCount": 188,
+    "bytes": 19148800,
+    "sourceSha": "9cfc39540b7a80062851ba09ad61f1ff2fc633ab",
+    "databaseBinding": "DB",
+    "eventCompiledIn": [
+      "dist/server/_next/static/route-BBqQzO_x.js"
+    ]
+  },
+  "readback": {
+    "checkedAt": "2026-11-19T12:26:56.435573+00:00",
+    "api": "https://police-exam-study.middlelapwing4.chatgpt.site/api/legal-updates",
+    "method": "GET",
+    "pages": [
+      {
+        "url": "https://police-exam-study.middlelapwing4.chatgpt.site/api/legal-updates",
+        "response": "200 200",
+        "events": 42,
+        "sha256": "5699acf41a6015d04288101aa9909d7303d0818a6b2ad739f7ee145e8ce93484"
+      }
+    ],
+    "eventCount": 42,
+    "curatedCount": 39,
+    "allCuratedEventsMatch": true,
+    "preservedPreviousEvents": 41,
+    "previousEventsUnchanged": true,
+    "newEventId": "legal-review-20261119-procedure30",
+    "newPatchCount": 30,
+    "optionOverrideCount": 120,
+    "newTargetIds": [
+      "investigation110_17",
+      "investigation110_20",
+      "investigation110_48",
+      "investigation110_49",
+      "investigation110_50",
+      "investigation111_19",
+      "investigation111_34",
+      "investigation111_35",
+      "investigation111_36",
+      "investigation111_37",
+      "investigation112_11",
+      "investigation112_16",
+      "investigation112_18",
+      "investigation112_19",
+      "investigation113_17",
+      "investigation113_18",
+      "investigation113_20",
+      "investigation113_22",
+      "investigation113_23",
+      "investigation113_41",
+      "investigation113_44",
+      "investigation113_45",
+      "investigation113_46",
+      "investigation113_47",
+      "investigation114_13",
+      "investigation114_15",
+      "investigation114_17",
+      "investigation114_40",
+      "investigation115_49",
+      "investigation111_18"
+    ],
+    "hasNextCursor": false,
+    "learningDataWrites": 0
+  },
+  "counts": {
+    "questionsNotVerified": 329,
+    "essaysNotVerified": 27,
+    "reviewFilter": 330
+  },
+  "legalEvidence": "legal-evidence-2026-11-19-procedure30.json",
+  "learningRecordsModified": false
+}
