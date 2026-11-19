@@ -17445,5 +17445,2843 @@
       }
     ],
     "createdAt": 1795090658630
+  },
+  {
+    "eventId": "legal-review-20261119-batch50-a",
+    "kind": "update",
+    "checkedAt": "2026-11-19",
+    "createdAt": 1795096109132,
+    "summary": "本次50題、200選項驗收之第1段，共25題。依官方公開115版手冊、所引現行法律及一般裁判參考，補現場分類與分工、偵查保密、通訊監察及紀錄、少年及軍人、家暴、告訴、自首等逐項依據。保留原題、官方給分與39筆歷史事件；以兩筆25題事件維持既有每筆最多40更新的驗證限制。少年曝險依現行少事法第18條優先，緝獲消息須必要及去識別化，通訊紀錄例外按具體罪審查。原件或語意不足候選另列待核；核對日非修法日，不宣稱所有舊版文字相同。",
+    "sources": [
+      {
+        "title": "警專刑事警察科官方公開115版偵查犯罪手冊（各題附實際條點及PDF頁次）",
+        "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+      },
+      {
+        "title": "警專刑事警察科・115年新版手冊官方附件入口",
+        "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+      },
+      {
+        "title": "刑事訴訟法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      },
+      {
+        "title": "偵查不公開作業辦法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+      },
+      {
+        "title": "警械使用條例・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+      },
+      {
+        "title": "少年事件處理法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010011"
+      },
+      {
+        "title": "性侵害犯罪防治法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
+      },
+      {
+        "title": "通訊保障及監察法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+      },
+      {
+        "title": "組織犯罪防制條例・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000013"
+      },
+      {
+        "title": "中華民國刑法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+      },
+      {
+        "title": "軍事審判法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=F0120008"
+      },
+      {
+        "title": "治安顧慮人口查訪辦法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+      },
+      {
+        "title": "警察職權行使法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+      },
+      {
+        "title": "家庭暴力防治法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
+      },
+      {
+        "title": "衛福部公開94年警察機關辦理性侵害案件處理原則第7條（舊制引法不作最新完整規範）",
+        "url": "https://dep.mohw.gov.tw/DOPs/fp-1287-14973-105.html"
+      },
+      {
+        "title": "最高法院72年台上字第641號全文・僅引用發覺標準，一般裁判參考效力",
+        "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=B%2C72%2C%E5%8F%B0%E4%B8%8A%2C641%2C001&type=J"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "investigation110_19",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第23點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "搶奪不看本題500元門檻；重大、特殊及犯罪構成應分開判斷。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第23點（PDF第5頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變：第23點將搶奪列為重大刑案，槍擊及重大群毆械鬥另列特殊；行政分類不等於體法罪名或刑度。",
+        "takeaway": "搶奪不看本題500元門檻；重大、特殊及犯罪構成應分開判斷。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第23點重大刑案以列舉之暴力犯罪、重大竊盜等分類，未僅以安非他命100公克列為本題重大刑案。",
+            "correction": "案件仍須依法偵辦，不能由行政類別反推沒有犯罪或不需通報。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "搶奪列在第23點重大刑案的暴力犯罪，該款未以被搶財物最低金額為要件。",
+            "correction": "B正確，損失500元不排除該款重大刑案分類。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "群毆械鬥達重大程度時，屬第23點特殊刑案類型，不能與重大刑案名稱互換。",
+            "correction": "應依法判斷是否達重大群毆械鬥，不是任何口角均屬特殊。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "槍擊案件列在特殊刑案，不因發生深夜或只打招牌就改成本題重大分類。",
+            "correction": "特殊與重大是手冊的不同分類，均可能依法列管。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation110_27",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第4、51、52、57、58、61、65、68點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "先救護與保全，再依分工合法採證；緊急保全仍須留存記錄。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第4點（PDF第3頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+            },
+            {
+              "title": "警專公開115版偵查犯罪手冊第51、52、57、58點（PDF第10頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=10"
+            },
+            {
+              "title": "警專公開115版偵查犯罪手冊第61、65、68點（PDF第11頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變。題意在初期處置順序與分工：救護、警戒及現場保全優先，再依法採證，不將它擴成初抵員警一律不得採證。",
+        "takeaway": "先救護與保全，再依分工合法採證；緊急保全仍須留存記錄。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第51點以救護受傷者為優先，不論被害人或加害人，均應迅速救護或送醫。",
+            "correction": "A適當；保全證據不能作為延誤必要救護的理由。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第57點允許必要時封鎖現場、維持警戒，避免無關人員進入破壞跡證。",
+            "correction": "B適當，範圍與執行仍須合於個案必要。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "初抵現場應先救護、警戒及保全，再依分工與合法程序採證，不能不分先後即進場搜尋採集。",
+            "correction": "C為本題最不適當；不是禁止初抵員警依法保全易毀跡證、拍攝記錄或執行必要採證。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第58點要求警戒人員同時觀察圍觀群眾，蒐集有助破案線索，D相符。",
+            "correction": "仍須依具體事實依法處理，不以圍觀本身推定犯罪。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation110_30",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第274、275、276點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "相驗通報法務部；多人死亡立即報；非刑案洽海基會，不能混用窗口。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第274、275、276點（PDF第41頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=41"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變。4小時相驗通報法務部、2人以上立即通報、警政署函請通知家屬及非刑案洽海基會，各有不同流程。",
+        "takeaway": "相驗通報法務部；多人死亡立即報；非刑案洽海基會，不能混用窗口。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第274點要求報請檢察官相驗時起4小時內傳真通報法務部並副知警政署，A將法務部換成海基會。",
+            "correction": "應分辨司法相驗通報與其他兩岸服務窗口。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "死亡2人以上時，第274點要求確認大陸地區人民身分後立即通報，B相符。",
+            "correction": "B正確，不是可等到4小時截止才通報。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "依第275點，我國人民在大陸受限制而經對岸通報後，由警政署依規定函請警方通知家屬。",
+            "correction": "不是將這一警察通報流程直接改由陸委會辦理。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第276點非屬刑事案件時，轉告逕洽海峽交流基金會，不是海峽兩岸關係協會。",
+            "correction": "海基會、海協會名稱與職掌不能互換。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation110_33",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第3點；刑事訴訟法第245條；偵查不公開作業辦法第8、9條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "得公開的事件類型不等於所有資訊都可公布；必要性、去識別化與特別法保護分別審查。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第3點（PDF第3頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第245條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "偵查不公開作業辦法第8、9條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變。適度公開須必要、適度並符合第8、9條；逃犯緝獲及重大災難的去識別化、被害人身分保護均不可省略。",
+        "takeaway": "得公開的事件類型不等於所有資訊都可公布；必要性、去識別化與特別法保護分別審查。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "偵查不公開辦法第8條第1款容許重大災難等有必要時適度說明，並須依法去識別化。",
+            "correction": "A符合列舉脈絡，不是災難發生後可無限公開所有案情。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第9條第1項第9款原則禁止公開被害人或親屬的姓名、照片及識別資訊，並非獨立得公開事由。",
+            "correction": "B為不屬者，不能只憑主官同意便排除法定保護。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "籲請民眾指認須符合第8條第4款的重大治安影響、查證基礎及必要性，再依第9條例外處理。",
+            "correction": "C不可解為所有竊盜監視畫面都可任意公布。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "越獄逃犯緝獲屬第8條第2款，但該款適度公開內容原則須去識別化。",
+            "correction": "可說明查緝成果不等於可任意公開面貌、姓名或具體供述。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation110_36",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第141點；警械使用條例第4、5、6條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "法定事由加必要性；戒備、用械及逕射逐層判斷，不將自傷情形一律射擊。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第141點（PDF第23頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=23"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "警械使用條例第4、5、6條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變。現行條例區分得用槍、必要程度與逕射條件，不能看到自傷風險便推論應射擊，也不能把戒備風險當成實際射擊授權。",
+        "takeaway": "法定事由加必要性；戒備、用械及逕射逐層判斷，不將自傷情形一律射擊。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "警械使用條例第6條明定基於急迫需要、合理使用槍械且不得逾必要程度，A相符。",
+            "correction": "仍須先符合第4條等法定用械事由，必要原則不是獨立用槍授權。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "B應在第4、5條所要求的具體危害及抗拒、受突擊風險下理解，不是單憑空泛懷疑就可使用槍械。",
+            "correction": "警戒風險判斷與實際用械、逕射要件不同，不能互相替代。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "持刀欲自傷不會自動產生應射擊義務；仍須審查具體法定危害、必要性、適當手段及逕射共同條件。",
+            "correction": "C錯在一律應射擊，不能把得依法用械直接改成必須開槍。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "依法排除急迫危害及維護安全，符合第4、6條的權限及目的脈絡，不是以槍械作懲罰。",
+            "correction": "D依合法必要範圍理解，不可為追求破案而無限使用。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation110_37",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第3點；刑事訴訟法第245條；偵查不公開作業辦法第2、4、5、6、7、8、9條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "保密義務主體依法定職務判斷；曉示不等於所有在場人都被同一規範全面禁言。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第3點（PDF第3頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第245條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "偵查不公開作業辦法第2、4、5、6、7、8、9條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變。依法執行職務者的義務與對民眾的告知不同；防禦權、其他特別保密及公開例外仍依法分別處理。",
+        "takeaway": "保密義務主體依法定職務判斷；曉示不等於所有在場人都被同一規範全面禁言。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "辦法第2、4、7條著重避免對外公開揭露；仍須依法保障被偵查人的防禦及程序權利。",
+            "correction": "A為原則說明，不表示被告因此取得所有偵查卷宗的全面閱覽權。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "辦法第5條列依法執行職務者，不能只因人在現場，就把所有犯嫌、被害人或民眾都當成同一法定保密義務人。",
+            "correction": "B錯誤；其他特別法保密、個資及侵權責任仍須另行審查。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "通緝犯緝獲符合第8條第2款可適度說明的事件，仍有必要性及去識別化等限制。",
+            "correction": "C不是允許任意展示被捕者或公開供述。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "辦法第6條明定得告知相關人員原則及公開可能影響，D有依據。",
+            "correction": "曉示不能自行創設法律未規定的處罰或全面禁言。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation110_38",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第62、63、64、65、66點；刑事訴訟法第218條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "分局長主現場指揮，調查組與勘察組各有任務，非病死相驗依法報檢察官。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第62、63、64、65、66點（PDF第11頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第218條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變：第64點現場指揮官是管轄分局長或其代理人，不能與警察局長或鑑識主管混同。",
+        "takeaway": "分局長主現場指揮，調查組與勘察組各有任務，非病死相驗依法報檢察官。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第62點要求初步查訪記錄，第63點對非病死或可疑非病死要求照相錄影並通報檢察官，A與其脈絡相符。",
+            "correction": "不是確認沒有犯罪就可不按權責處理相驗。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第64點重大、特殊刑案原則由管轄分局長或代理人擔任現場指揮官，不是一律由警察局長。",
+            "correction": "B錯誤，現場指揮與上級督導、調查、勘察組長應分開。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第65點要求除警戒外依需要分調查與勘察組，人力不足請求支援，C符合。",
+            "correction": "分組依任務及資源安排，並非免除警戒。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第66點調查組負查訪與附近影像等情資蒐集，D符合。",
+            "correction": "現場調查與勘察互相配合，不以分工排除依法協作。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation115_22",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第243點；少年事件處理法第18之5、18之6條；刑事訴訟法第92條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "少年三年以下情形報法官准不護送，與成年一年以下等報檢察官免解分開。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第243點（PDF第37頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=37"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "少年事件處理法第18之5、18之6條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010011"
+            },
+            {
+              "title": "刑事訴訟法第92條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變：少年不護送報告書須報少年法院法官許可，未許可即護送；依少事法第18條之6核准後仍須7日內檢卷移送，不等於全案結案。",
+        "takeaway": "少年三年以下情形報法官准不護送，與成年一年以下等報檢察官免解分開。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "手冊第243點少年程序使用不護送報告書；不解送是其他程序名稱，不能互換。",
+            "correction": "本題由少年法院法官判斷，不是套用成年現行犯免解流程。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "不解送移送書不是第243點所列本題文書，移送卷證與是否護送少年是兩件事。",
+            "correction": "即使准不護送，仍須依法移送案件。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第243點明定題示三年以下等條件，可填不護送報告書，報少年法院法官許可後不護送、逕行釋放。",
+            "correction": "C正確；法官未許可應即護送，不能由警方自行核准。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "不戒護報告書不是該點名稱；戒護方式與不護送的許可程序不可混淆。",
+            "correction": "依正確表名及權責辦理，並將核准文書附卷。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation110_44",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第75、78、79點；刑事訴訟法第248之1條；性侵害犯罪防治法第16條；衛福部公開94年警察機關辦理性侵害案件處理原則第7條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "被害人保護不是多次詢問；匿名文書、密封真實資料及必要陪同分層處理。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第75、78、79點（PDF第13頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=13"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第248之1條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "性侵害犯罪防治法第16條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
+            },
+            {
+              "title": "衛福部公開94年警察機關辦理性侵害案件處理原則第7條（舊制引法不作最新完整規範）",
+              "url": "https://dep.mohw.gov.tw/DOPs/fp-1287-14973-105.html"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案A不變。救護優先、避免不必要重複詢問、遮蔽隔離及陪同各有依據；舊制原則僅就第7條文書格式作條源對照，不以其中舊法引文當作最新完整規範。",
+        "takeaway": "被害人保護不是多次詢問；匿名文書、密封真實資料及必要陪同分層處理。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第78點要求救護優先、影響傷情最小並減少重複陳述，A卻以多次詢問為原則。",
+            "correction": "A錯誤，不能為反覆確認口供而造成不必要二度傷害。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "衛福部公開處理原則第7條載文書使用代號及密封對照表，支持原題的保密格式；現行對外揭露另依性侵害法等規定。",
+            "correction": "B不等於司法承辦機關依法也不得知真實身分；真實資料與可揭露文書應分別妥善處理。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第78點可依案件及被害人身心情況使用遮蔽等設備隔離，C有依據。",
+            "correction": "應向被害人說明必要性，避免以隔離名義妨礙依法應有程序。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "刑訴第248條之1及第79點列經同意得陪同與陳述意見的人員。",
+            "correction": "陪同者為被告或有礙程序時另有限制，不是同意後完全無條件。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation110_47",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第90、93、97點；刑事訴訟法第153之1條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "動態跟蹤與靜態監視分清；科技追蹤及進入住宅另須法律依據。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第90、93點（PDF第15頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=15"
+            },
+            {
+              "title": "警專公開115版偵查犯罪手冊第97點（PDF第16頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=16"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第153之1條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變。傳統跟蹤動態、監視靜態；涉及GPS等科技方法時，另須依刑訴特殊強制處分規定，不能一概稱任意偵查即可。",
+        "takeaway": "動態跟蹤與靜態監視分清；科技追蹤及進入住宅另須法律依據。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第97點要求避免引人注目物件，A符合該工作規範。",
+            "correction": "只是執行原則，不創設強制干涉或違法蒐證權。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第90點將跟蹤分為動態、監視分為固定靜態，B將兩者都稱動態，錯誤。",
+            "correction": "兩者得配合，不代表同一觀察型態。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第93點對遭製造不利事故的情形要求設法撤離等依法因應，C符合。",
+            "correction": "不能因不利局面而任意使用超過必要的強制力。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第93點對突然進入建築物等情境要求視狀況停止、重新部署或必要處理，D依此脈絡理解。",
+            "correction": "不因此取得任意侵入住宅的權力。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_05",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第37、40、41、43、58、59點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "封鎖須必要且可調整；諮詢對象不因合作而取得證件、名義或警察權限。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第37、40點（PDF第8頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=8"
+            },
+            {
+              "title": "警專公開115版偵查犯罪手冊第41、43點（PDF第9頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=9"
+            },
+            {
+              "title": "警專公開115版偵查犯罪手冊第58、59點（PDF第10頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=10"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案A不變：封鎖依事實需要並適時調整；警戒觀察、諮詢聯繫與不得發證明分屬第58、43、41點。",
+        "takeaway": "封鎖須必要且可調整；諮詢對象不因合作而取得證件、名義或警察權限。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第59點要求初期封鎖範圍較廣，再依初勘及必要性界定範圍層數，A符合。",
+            "correction": "A正確，不是可不問比例無限制封鎖。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第58點要求警戒同時觀察圍觀者動靜、蒐集線索，不是完全不用注意。",
+            "correction": "B錯誤，觀察也不等於可將圍觀人一律拘留。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第43點聯繫諮詢對象應注意警察人員與特定對象接觸交往等規定，不是僅憑獎勵線索要點決定。",
+            "correction": "聯繫程序、身分保密與獎金核發屬不同事項。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第41點不得給予任何名義或證明文件，D以必要時發簡要證明創設例外。",
+            "correction": "保密合作不等於賦予對方警察身分或偵查權。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_09",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第79點；刑事訴訟法第248之1條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "列舉親屬、專業人員與信賴之人分開；陪同仍須同意且無程序障礙。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第79點（PDF第13頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=13"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第248之1條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案D不變。本題比對明列職類及親等；五親等親屬、宗教師若另符合其信賴之人仍可依法判斷，不能當成絕對禁止名單。",
+        "takeaway": "列舉親屬、專業人員與信賴之人分開；陪同仍須同意且無程序障礙。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "①五親等不是親屬類別所明列的三親等範圍，②宗教師也不是獨立列舉職類，故不能只靠該身分選A。",
+            "correction": "若特定人另符合其信賴之人，仍可能依法陪同，不能一概排除。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "B仍納入①五親等，並非本題明列身分類型的正確組合。",
+            "correction": "應分清親屬名單與另可依信賴關係判斷的類型。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "C將①②均作獨立當然列舉，與第79點及刑訴名單不符。",
+            "correction": "不是表示五親等親屬或宗教師在任何情形都不得陪同。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "③輔導人員、④社工、⑤信賴之人均在第79點及刑訴第248條之1名單中。",
+            "correction": "D正確，仍須被害人同意，且非被告或有礙偵查程序。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_11",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第90、91、95點；通訊保障及監察法第3、5條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "分清觀察定義與通訊蒐集法源；工具優點不能擴張為每案唯一或最佳手段。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第90、91點（PDF第15頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=15"
+            },
+            {
+              "title": "警專公開115版偵查犯罪手冊第95點（PDF第16頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=16"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "通訊保障及監察法第3、5條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案D不變。第90點分動靜觀察，第95點的機車優點須與道路限制等條件合讀；通訊內容蒐集另依法，不包含在一般目視跟監授權中。",
+        "takeaway": "分清觀察定義與通訊蒐集法源；工具優點不能擴張為每案唯一或最佳手段。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第90點一般觀察對象列人、車、處所或物品，A另把通訊直接納入；通訊監察須另有法律授權。",
+            "correction": "不能以傳統跟監規範替代通保法或其他科技偵查程序。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "跟蹤雖屬動態，但B後段卻用從定點持續觀察的監視定義。",
+            "correction": "動態跟隨與定點監視不可交叉套用。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "監視雖屬靜態，C後段卻用徒步或車輛跟隨的跟蹤定義。",
+            "correction": "應按第90點完整句義區分。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第95點確有機車機動靈活等原文，D對應該點。",
+            "correction": "D正確，但同點另要求注意道路限制並搭配其他方式，不是所有案件一律以機車最佳。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_16",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第142點；刑事訴訟法第205之2條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "先具合法拘捕與調查必要，再分一般身分採證、相當理由檢體及採尿程序。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第142點（PDF第23頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=23"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第205之2條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案A不變。腳印與毛髮、聲調、吐氣的相當理由層次不同；尿液另有現行許可及急迫追認程序，不與本題混用。",
+        "takeaway": "先具合法拘捕與調查必要，再分一般身分採證、相當理由檢體及採尿程序。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "刑訴第205條之2第1項前段列指紋、掌紋、腳印等，對合法拘捕到案者有調查蒐證必要時，無須再具後段的相當理由條件。",
+            "correction": "A正確；仍須合法拘捕及必要性，不是任何民眾都可強採。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "吐氣列在第205條之2第1項後段，須有相當理由認可作為犯罪證據。",
+            "correction": "B不符本題不必另具相當理由的類型。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "毛髮同樣列在後段相當理由類型，不能只靠已逮捕便一律採取。",
+            "correction": "C應另外審查證據關聯等要件。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "聲調也在後段，須有相當理由可作犯罪證據。",
+            "correction": "D不是前段的一般身分採證類型。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_22",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第255點；組織犯罪防制條例第2條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "治平是手冊專案名稱；犯罪組織要件與合法蒐證仍須逐項成立。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第255點（PDF第39頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=39"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "組織犯罪防制條例第2條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000013"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變：第255點指定治平。犯罪構成與程序仍依組織犯罪防制條例及刑訴，不由行政專案名稱創設罪責。",
+        "takeaway": "治平是手冊專案名稱；犯罪組織要件與合法蒐證仍須逐項成立。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "迅雷不是第255點指定的本題專案名稱，不能因同屬查緝用語就互換。",
+            "correction": "本題依手冊指定名稱選治平。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第255點明列偵辦幫派涉組織犯罪，注意符合各種犯罪構成要件，並依治平專案實施規定辦理。",
+            "correction": "B正確，治平名稱本身不直接證明任何人構成組織犯罪。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "一清屬不同歷史專案名稱，不是第255點此處指定的現行文字。",
+            "correction": "不能以歷史名稱替代本題條點。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "雷霆也不是第255點指定的專案名稱。",
+            "correction": "仍須依法蒐證、符合組織犯罪構成，不能只依專案標籤認定有罪。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_30",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第181點；通訊保障及監察法第3、13條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "通訊方法與私人住宅裝置限制作同一條合讀；其他偵查手段另依法判斷。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第181點（PDF第29頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=29"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "通訊保障及監察法第3、13條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案D不變。第13條列方法並有私人住宅裝置禁限，監察書不等於任意侵入住宅或以其他名義迴避程序的授權。",
+        "takeaway": "通訊方法與私人住宅裝置限制作同一條合讀；其他偵查手段另依法判斷。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "通保法第13條明列截收為監察方法，A在列舉內。",
+            "correction": "仍須依法取得監察授權及限於核准範圍。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第13條明列開拆，適用於法律所定書信等通訊，B在方法類型內。",
+            "correction": "不是可任意開拆與案件無關的所有私人文件。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第13條亦列檢查，C在郵件通訊等合法監察方法內。",
+            "correction": "通信方式、合理秘密期待及個案授權仍須具備。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第13條但書明定不得於私人住宅裝置竊聽、錄影或其他監察器材，D不屬該條准許方法。",
+            "correction": "其他搜索或特殊科技偵查程序須另依法審查，不能只拿通訊監察書概括入宅裝置。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_42",
+        "amendment": {
+          "status": "none",
+          "law": "中華民國刑法第349條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "法條列收受、搬運、寄藏、故買、媒介；未列字詞不等於行為一律合法。",
+          "sources": [
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "中華民國刑法第349條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案D不變：題目比對第349條列舉名稱，隱匿未被單列；具體行為不能只靠名稱排除寄藏或其他法律責任。",
+        "takeaway": "法條列收受、搬運、寄藏、故買、媒介；未列字詞不等於行為一律合法。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "收受是刑法第349條第1項明列的行為類型。",
+            "correction": "仍須依法認定贓物性及行為人的主觀、客觀要件。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "寄藏也是第349條明列的行為，B非本題排除者。",
+            "correction": "具體寄藏與單純持有的法律評價仍依事實判斷。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "故買亦明列於第349條，C非本題答案。",
+            "correction": "不能因用買賣形式取得，就當然排除贓物罪。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "隱匿不是第349條逐字列舉的行為名稱，故本題選D。",
+            "correction": "不代表所有隱藏贓物行為均不罰，事實上仍可能符合寄藏等類型或其他罪名。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_45",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第242點；少年事件處理法第3、18條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "三項曝險不含參加不良組織；類型、成長保障必要性與現行行政先行程序分開。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第242點（PDF第36頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=36"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "少年事件處理法第3、18條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010011"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案A不變。現行第18條對曝險少年設少輔會先行輔導及必要時請求少年法院的機制，不能將手冊第242點舊式直接移送語句當成一律適用的現行流程。",
+        "takeaway": "三項曝險不含參加不良組織；類型、成長保障必要性與現行行政先行程序分開。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "參加不良組織並非現行少事法第3條第1項第2款列舉的三項曝險行為，A為本題不屬者。",
+            "correction": "具體行為如另觸犯刑罰法律，仍須依該行為處理，不能推論參與任何組織都無法律責任。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "無正當理由經常攜帶危險器械是第3條明列類型，須注意無正當理由及經常兩個條件。",
+            "correction": "不是少年偶然持有任何器具均符合曝險要件。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "施用毒品或迷幻物品而尚未觸犯刑罰法律，為第3條明列類型。",
+            "correction": "若已觸犯刑罰法律，應另依觸法少年程序判斷。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "預備犯罪或未遂而為法所不罰，亦為三項之一。",
+            "correction": "仍須審認有保障健全自我成長的必要，不由行為名稱自動決定法院處遇。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_46",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第241點；軍事審判法第1條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "查獲地憲兵是通報窗口，與軍人戶籍、後備管理及軍事審判管轄不同。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第241點（PDF第36頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=36"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "軍事審判法第1條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=F0120008"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變：以查獲地區憲兵隊為通報窗口，並保留妨害偵查時得免或暫緩的條件；平時軍人案件仍應依法判斷刑事程序。",
+        "takeaway": "查獲地憲兵是通報窗口，與軍人戶籍、後備管理及軍事審判管轄不同。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第241點指定的是查獲地區憲兵隊，並非軍事安全總隊。",
+            "correction": "軍方內部安全職掌不能替代本題明定的毒品案件通報窗口。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "團管區司令部不是第241點此項通報的指定對象。",
+            "correction": "不能依軍人戶籍或徵兵管理機關改換查獲地憲兵。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "現役軍人涉毒品刑事或行政處罰案件，依第241點通報查獲地區憲兵隊，C正確。",
+            "correction": "同點就妨害偵查設得免或暫緩通報的例外，並非不分情形立即對外擴散。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "後備指揮部不是本題指定窗口，現役與後備身分也不可混用。",
+            "correction": "通報憲兵不表示平時案件當然改由軍事法院審判。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation112_02",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第3、6點；刑事訴訟法第34、245條；偵查不公開作業辦法第2、8、9條；治安顧慮人口查訪辦法第2、5條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "保密與查訪看具體必要及權利保障，不能以工作場時一律安全，也不能概括禁止律見。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第3、6點（PDF第3頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第34、245條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "偵查不公開作業辦法第2、8、9條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+            },
+            {
+              "title": "治安顧慮人口查訪辦法第2、5條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案D不變。新版手冊第3、6點支持偵查與線索人保密；D錯在概括指定工作場時較安全，並非絕對禁止任何依法、適當安排的工作場所訪視。B也不排除法定辯護權。",
+        "takeaway": "保密與查訪看具體必要及權利保障，不能以工作場時一律安全，也不能概括禁止律見。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第3點及偵查不公開作業辦法要求依法保密，A符合原則。",
+            "correction": "有法定公開例外時仍須按必要性、適度及保護條件審查。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "提解外出應維持戒護並防不當聯繫、串證；B應在合法戒護及個案限制內理解。",
+            "correction": "不得把嚴防接觸第三人擴成可任意剝奪依法與辯護人接見通信的權利。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第6點保護檢舉及線索提供者的名譽、隱私、安全與識別資訊，C符合。",
+            "correction": "線索用途及身分揭露仍須依法，不因破案方便而任意公布。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "工作場所、工作時間不當然較隱密，反可能暴露身分或影響工作，D不宜作概括原則。",
+            "correction": "應選適當時間地點並避免影響名譽工作；符合治安顧慮人口者另受查訪辦法第5條規範，非所有受管束者皆同一類。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_38",
+        "amendment": {
+          "status": "none",
+          "law": "通訊保障及監察法第5、6條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "分清監察啟動門檻與有罪證明；一般令狀、最後手段及緊急補發一併理解。",
+          "sources": [
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "通訊保障及監察法第5、6條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變。通保法第5條以法定罪名、相當理由、情節重大及最後手段性等審查，一般需法院令狀，急迫情形依第6條例外程序；並非先證明無庸置疑才監察。",
+        "takeaway": "分清監察啟動門檻與有罪證明；一般令狀、最後手段及緊急補發一併理解。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "通保法第5條原則採法院核發通訊監察書的令狀程序，A符合一般要件。",
+            "correction": "第6條急迫監察另有先行及補發程序，不能稱完全沒有例外。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第5條要求不能或難以其他方法蒐集、調查證據，B所指最後手段性有據。",
+            "correction": "須依個案說明必要性，不以偵查方便取代。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "法律要求有事實足認及相當理由等條件，不以無庸置疑為啟動監察門檻。",
+            "correction": "C錯誤；監察許可與最後有罪認定的證明程度不同。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "通訊內容與案件有關連等相當理由，是第5條要件之一，D符合。",
+            "correction": "仍須連同法定罪名、情節重大、必要性及程序合併審查。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation112_06",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第37、40、41、42點；警察職權行使法第12條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "可依法秘密合作，不可給警察名義證件或讓合作人直接行使警察職權。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第37、40點（PDF第8頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=8"
+            },
+            {
+              "title": "警專公開115版偵查犯罪手冊第41、42點（PDF第9頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=9"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "警察職權行使法第12條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變。秘密合作不得藉名片授予或證明警察身分；重點場所及情報任務仍須合法，合作第三人並不取得警察公權力。",
+        "takeaway": "可依法秘密合作，不可給警察名義證件或讓合作人直接行使警察職權。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第37點要求基於偵防需要布置並秘密運用情報諮詢，A符合手冊。",
+            "correction": "秘密運用仍受法定目的、必要性及對第三人權益保障限制。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第40點列有旅館、三溫暖、機場、醫院及題示各業等重點地點，B相符。",
+            "correction": "列為諮詢重點不等於場所或從業人員被推定犯罪。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第41點及警職法第12條不給予任何名義及證明文件，不能另印製證明身分的名片。",
+            "correction": "C錯誤，情報合作不使第三人取得警察職權。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第42點以國安及社會犯罪偵防相關情報為任務重點，D符合。",
+            "correction": "不得指使諮詢對象直接辦案或以合作名義違法蒐證。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation112_09",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第181點；通訊保障及監察法第6條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "24小時是檢察官報法院，48小時是法院補發管制；急迫不是無令狀監察的永久例外。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第181點（PDF第29頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=29"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "通訊保障及監察法第6條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案D不變。依現行第6條，檢察官先口頭通知執行者後，應於24小時內陳報法院補發；法院未於48小時內補發應即停止，不把原題文字視為可任意轉授陳報責任。",
+        "takeaway": "24小時是檢察官報法院，48小時是法院補發管制；急迫不是無令狀監察的永久例外。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "2小時不是通保法第6條急迫先行監察的陳報補發時限。",
+            "correction": "須區分警方陳報檢察官、檢察官口頭通知及法院補發的各段程序。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "8小時不是該條法定陳報期限，不能用內部處理期待代替法律時限。",
+            "correction": "急迫監察仍須符合第6條法定危險事由。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "12小時不是本題補發陳報期限，與其他程序時間不可混用。",
+            "correction": "不能因有急迫情形就免除檢察官及法院審查。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第6條由檢察官於先行執行後24小時內陳報法院補發，D對應法定時限。",
+            "correction": "原題將告知執行機關陳報連寫，現行應精確記為檢察官陳報法院；法院48小時內不補發即應停止。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation115_48",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第141、142、144點；刑事訴訟法第130、205之2條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "合法拘捕不等於所有採樣均無條件；附搜有範圍，急採尿有24小時追認程序。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第141、142點（PDF第23頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=23"
+            },
+            {
+              "title": "警專公開115版偵查犯罪手冊第144點（PDF第24頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=24"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第130、205之2條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變。拘捕附搜、一般身分採證、相當理由檢體及急迫採尿各有條件；現行急採尿是24小時陳報及3日撤銷機制，非48小時。",
+        "takeaway": "合法拘捕不等於所有採樣均無條件；附搜有範圍，急採尿有24小時追認程序。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "刑訴第205條之2對合法拘捕且有調查必要者，允許依法採指紋、拍照等，不以本人同意為唯一依據。",
+            "correction": "A將依法採證誤寫為除同意均不得，仍須注意合法拘捕與必要性。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "毛髮唾液有合法拘捕及相當理由可作犯罪證據等條件，不能只因一般民眾有高度嫌疑便一律強採。",
+            "correction": "B混淆身分、理由及得與應的層次。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第141點要求拘捕後立即附帶搜索並注意戒護；刑訴第130條規範身體、隨身物及立即可觸及處所等範圍。",
+            "correction": "C最正確，附帶搜索不授權無限擴張搜索其他場所。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "急迫非侵入採尿須符合刑訴第205條之2相當理由、鑑定及急迫必要等條件，並於24小時內陳報檢察官許可。",
+            "correction": "D的48小時錯誤；檢察官認不應准許者應於3日內撤銷。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation112_22",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第273、274、275、276點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "窗口先看案件與當事人方向：法務部司法通報、警政署通知分工、非刑案另洽海基會。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第273、274、275、276點（PDF第41頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=41"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變。兩岸刑案現住地分工、限制自由通報法務部及警政署函請通知家屬分屬不同程序；海基會並非上述司法通報的替代窗口。",
+        "takeaway": "窗口先看案件與當事人方向：法務部司法通報、警政署通知分工、非刑案另洽海基會。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第274點非病死或疑非病死相驗通報對象為法務部，並副知警政署，非海基會。",
+            "correction": "應依報驗起4小時及多人死亡立即通報等條件辦理。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第276點對案件發生地或涉案人在大陸的刑案，以被害人或報案人現住地機關受理處理，B正確。",
+            "correction": "屬警察受理分工，不能直接推導可赴境外行使搜捕權。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第273點原則由移送單位自限制自由時起16小時內通報法務部，非由管轄機關報海基會。",
+            "correction": "同點內亂、外患及國安案件另有例外，不能只背窗口而漏條件。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第275點是警政署依對岸通報函請警方通知家屬，D誤改為法務部直接通知。",
+            "correction": "我國人民在陸與大陸人民在臺受限制的兩種流程不可混淆。",
+            "trueStatement": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "eventId": "legal-review-20261119-batch50-b",
+    "kind": "update",
+    "checkedAt": "2026-11-19",
+    "createdAt": 1795096109133,
+    "summary": "本次50題、200選項驗收之第2段，共25題。依官方公開115版手冊、所引現行法律及一般裁判參考，補現場分類與分工、偵查保密、通訊監察及紀錄、少年及軍人、家暴、告訴、自首等逐項依據。保留原題、官方給分與39筆歷史事件；以兩筆25題事件維持既有每筆最多40更新的驗證限制。少年曝險依現行少事法第18條優先，緝獲消息須必要及去識別化，通訊紀錄例外按具體罪審查。原件或語意不足候選另列待核；核對日非修法日，不宣稱所有舊版文字相同。",
+    "sources": [
+      {
+        "title": "警專刑事警察科官方公開115版偵查犯罪手冊（各題附實際條點及PDF頁次）",
+        "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+      },
+      {
+        "title": "警專刑事警察科・115年新版手冊官方附件入口",
+        "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+      },
+      {
+        "title": "刑事訴訟法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      },
+      {
+        "title": "偵查不公開作業辦法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+      },
+      {
+        "title": "警械使用條例・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+      },
+      {
+        "title": "少年事件處理法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010011"
+      },
+      {
+        "title": "性侵害犯罪防治法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
+      },
+      {
+        "title": "通訊保障及監察法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+      },
+      {
+        "title": "組織犯罪防制條例・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000013"
+      },
+      {
+        "title": "中華民國刑法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+      },
+      {
+        "title": "軍事審判法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=F0120008"
+      },
+      {
+        "title": "治安顧慮人口查訪辦法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+      },
+      {
+        "title": "警察職權行使法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+      },
+      {
+        "title": "家庭暴力防治法・全國法規資料庫現行全文",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
+      },
+      {
+        "title": "衛福部公開94年警察機關辦理性侵害案件處理原則第7條（舊制引法不作最新完整規範）",
+        "url": "https://dep.mohw.gov.tw/DOPs/fp-1287-14973-105.html"
+      },
+      {
+        "title": "最高法院72年台上字第641號全文・僅引用發覺標準，一般裁判參考效力",
+        "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=B%2C72%2C%E5%8F%B0%E4%B8%8A%2C641%2C001&type=J"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "investigation115_25",
+        "amendment": {
+          "status": "none",
+          "law": "刑事訴訟法第153之1、153之7條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "法院許可或補行許可調查的逾月未報接14日；短期調查另分執行機關通知。",
+          "sources": [
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第153之1、153之7條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變。第153條之7的法院14日主動通知適用於應向法院陳報的法定調查程序；短期免法院許可的定位調查另有執行機關自行通知規定，不可一律套用。",
+        "takeaway": "法院許可或補行許可調查的逾月未報接14日；短期調查另分執行機關通知。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "7日不是刑訴第153條之7法院主動通知的本題期限。",
+            "correction": "先確認調查是經法院許可或補行許可等該條規範情形。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第153條之7對應陳報而逾1個月未陳報者，要求法院於14日內主動通知，B正確。",
+            "correction": "有不能通知或顯有困難的法定情形另論，不是所有GPS調查一律由法院通知。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "15日不是該條主動通知期限。",
+            "correction": "一個月未陳報與法院14日通知是前後不同期間。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "30日不能取代法定14日；也不能將一個月概算30日後重複起算。",
+            "correction": "未逾法定短期門檻而無須法院許可者，另由執行機關依該條於結束後1個月內通知。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation112_23",
+        "amendment": {
+          "status": "none",
+          "law": "家庭暴力防治法第4、15、29、48條；刑事訴訟法第92條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "主管機關、保護令期間、現行犯程序與被害人安全措施分項記憶。",
+          "sources": [
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "家庭暴力防治法第4、15、29、48條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
+            },
+            {
+              "title": "刑事訴訟法第92條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案D不變。現行中央是衛福部、通常保護令2年以下，家暴現行犯依刑訴程序；必要時護送被害人及子女避難就醫有明文。",
+        "takeaway": "主管機關、保護令期間、現行犯程序與被害人安全措施分項記憶。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "家庭暴力防治法第4條現行中央主管機關是衛生福利部，A的內政部不符。",
+            "correction": "不能沿用舊制機關名稱作現行答案。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第29條規定家庭暴力現行犯應逮捕並依刑訴第92條辦理，並非改以社維法處理刑事犯罪。",
+            "correction": "另涉行政違法可分別依法處理，但不替代刑事移送。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第15條通常保護令有效期間為2年以下，自核發時生效，C的3年錯誤。",
+            "correction": "延長須另依法聲請裁定，不能把延長機制直接算成原令3年。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第48條明列必要時保護被害人及其子女到庇護所或醫療機構，D正確。",
+            "correction": "仍須兼顧個案安全、必要性及告知可行權利等其他法定措施。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation112_44",
+        "amendment": {
+          "status": "none",
+          "law": "組織犯罪防制條例第2、4、12條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "三人、犯罪手段及結構要件實質審查；無幫名不免責，隔離也不等於免除程序保障。",
+          "sources": [
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "組織犯罪防制條例第2、4、12條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000013"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變：組織不以名稱等外觀形式為必要；第12條引用限於本題第2項的訊問保護方式，不擴作可全面否定對質權的依據。",
+        "takeaway": "三人、犯罪手段及結構要件實質審查；無幫名不免責，隔離也不等於免除程序保障。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第2條為3人以上，具題列手段或最重本刑逾5年之罪，且具有持續性或牟利性的結構組織，A符合。",
+            "correction": "持續性與牟利性是或，不能自行改成兩者都須具備。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第2條第2項明定不以名稱、規約、儀式、固定處所、成員持續參與或分工明確為必要，B反寫為必要。",
+            "correction": "有結構性仍須依法認定，不因欠缺幫名或儀式就當然不成立。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第4條一般招募罪為6月以上5年以下，得併科1000萬元以下罰金，C符合。",
+            "correction": "移往境外或招募未成年等另有規定，不能以此一律涵蓋所有加重要件。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第12條第2項容許依法依聲請或職權在法庭外訊問、詰問、對質，D有據。",
+            "correction": "隔離保護不等於全面剝奪被告對質詰問權，仍須按法定程序保障。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation112_49",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第254、256、257點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "追金流及數位證據須依法；查扣、聲請、宣告沒收是不同機關與程序。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第254、256、257點（PDF第39頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=39"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變。沒收追徵的宣告由法院裁判；警方財產調查、檢察官偵查及聲請並不等於地檢署能自行宣告。",
+        "takeaway": "追金流及數位證據須依法；查扣、聲請、宣告沒收是不同機關與程序。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第254點要求情資彙整、危害風險評估並依指定計畫辦理，A符合。",
+            "correction": "行政風險評估不代替各項犯罪及強制處分的法定要件。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第254點對違法群聚、槍擊等重大事件要求依法制止究辦及專人蒐證追幕後，B符合。",
+            "correction": "不得把任何合法集會抗議一律視為幫派違法動員。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第257點要求查明不法財產及依法扣押，以利法院宣告沒收或追徵，C錯在地檢署宣告。",
+            "correction": "檢察官偵查、聲請與法院裁判的職權須分清，第三人財產仍有程序保障。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第256點要求針對涉案數位設備依法查扣、鑑識分析，D符合。",
+            "correction": "涉案關聯、搜索扣押及資料檢視範圍仍須合法，非全部設備均可無限搜查。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation113_08",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第63點；刑事訴訟法第218條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "最低刑事小隊長以上，不排除上級；相驗事由與檢察官交辦另須依法審查。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第63點（PDF第11頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第218條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案D不變：題目問手冊的最低職務範圍，刑事小隊長以上包含符合條件的較高職務；刑訴第218條的相驗事由、顯無犯罪嫌疑及交辦權限仍須成立。",
+        "takeaway": "最低刑事小隊長以上，不排除上級；相驗事由與檢察官交辦另須依法審查。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "分局長職務高於題示最低門檻，但第63點並未把受交辦人員限於分局長以上。",
+            "correction": "A錯在門檻過高，不是分局長永遠不能依法受交辦。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "副分局長亦高於最低門檻，B不足以表達完整可受交辦範圍。",
+            "correction": "不能把職務資格比較誤讀為排除上級。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "偵查隊長也不是第63點所列最低職務，C將範圍縮得太窄。",
+            "correction": "題意在最低門檻，非問所有可能有資格的人員。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第63點明定刑事小隊長職務以上，D符合手冊；並須有刑訴第218條所定檢察官交辦等條件。",
+            "correction": "不是所有病死都必須司法相驗，也不是警察自行決定取代檢察官。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation113_09",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第23、64點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "看案發管轄與現場職掌；支援層級較高不自動接管現場指揮。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第23點（PDF第5頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+            },
+            {
+              "title": "警專公開115版偵查犯罪手冊第64點（PDF第11頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變。槍擊特殊刑案的初期現場指揮，依第64點由案發地管轄分局長或代理人負責，中央或刑大支援不當然改換指揮人。",
+        "takeaway": "看案發管轄與現場職掌；支援層級較高不自動接管現場指揮。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "案發土城，嫌犯與臺北市有關不會使臺北刑大長自動成為本案現場指揮。",
+            "correction": "偵查協作與案發地現場指揮不可混為一談。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "新北刑大得依職掌支援調查，但第64點原則由管轄分局長或代理人現場指揮。",
+            "correction": "B不是因層級較高就自動取代地方現場指揮官。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "土城分局為案發地管轄分局，槍擊屬特殊刑案，第64點由其分局長或代理人擔任現場指揮，C適當。",
+            "correction": "上級支援、督導及各組專業分工仍依需要配置。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "刑事局偵查大隊長可依任務支援，但不因中央單位到場即當然接任現場指揮。",
+            "correction": "刑事局、刑大、管轄分局的權責分工須各別判斷。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation113_10",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第65、68點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "勘察組長依主辦或協調最高官階，不把考題D擴成中央必然優先。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第65、68點（PDF第11頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案D不變。題示主管比較與實務分工須分開：現行第68點採主辦或協調在場最高官階原則，非刑事局到場便一律自動接管，也不否定地方鑑識主任依法主持的可能。",
+        "takeaway": "勘察組長依主辦或協調最高官階，不把考題D擴成中央必然優先。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "分局鑑識小隊長得執行勘察工作，但多機關到場時不能只按案發分局一律指定其為組長。",
+            "correction": "依第68點主辦機關或協調在場最高官階人員主持。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "偵查隊長主要負調查等分工，不能僅以偵查主管身分直接等同勘察組長。",
+            "correction": "調查組與鑑識勘察組的職掌要區分。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "市警鑑識主任得依主辦或協調主持，並非絕對無資格；本題另有刑事局鑑識主任到場。",
+            "correction": "依原題所設上位專業主管的比較，官方選D；不建立凡中央必然主持的規則。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "原題在刑事局與地方鑑識主管同場情境，官方以刑事局刑鑑主任為最適當，D保留。",
+            "correction": "現行第68點的完整規則是由主辦機關或協調在場官階最高者，不能只憑機關中央地方直接決定。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation113_12",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第97點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "準備事項比對原文；詳實記錄事實，行政要領不擴張強制偵查權。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第97點（PDF第16頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=16"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變。第97點的準備是攜帶簡便偽裝衣物；題目將之換成現金臨購。外觀、裝備與記錄等行政要領不替代個案法律授權。",
+        "takeaway": "準備事項比對原文；詳實記錄事實，行政要領不擴張強制偵查權。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第97點要求攜帶的武器、通訊器材及裝備不得顯露，A符合手冊。",
+            "correction": "裝備管理仍須合法安全，不因秘密觀察免除其他法定義務。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第97點指定隨身攜帶簡便偽裝衣物，不是以足夠現金、臨時購衣取代準備，B與列舉不同。",
+            "correction": "本題比對手冊準備事項，不推論攜帶現金本身違法。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第97點要求外表舉止融合環境、必要偽裝並保持自然，C相符。",
+            "correction": "這是觀察工作的注意事項，不創設侵入住居等強制權。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第97點要求資料情報記錄詳實具體，D符合。",
+            "correction": "記錄仍須區分客觀見聞與推論，不能以印象代替犯罪證據。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation113_27",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第23點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "分類看行為情節及條點門檻，名人身分或新奇手法本身都不足以概括認定。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第23點（PDF第5頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變。名人身分本身不足決定特殊刑案，仍看第23點具體事實；新版對新手法另有嚴重治安影響條件，不依原題簡語擴成所有新型態案件。",
+        "takeaway": "分類看行為情節及條點門檻，名人身分或新奇手法本身都不足以概括認定。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第23點將犯罪手段殘酷、情節離奇等案件列為特殊類型，A與條點相符。",
+            "correction": "仍須依個案具體程度判斷，不由單一聳動標題決定。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "新發現嚴重犯罪手法須迅速偵破遏制，屬原題特殊類型的脈絡。",
+            "correction": "115公開版第23點另強調深切治安影響、震撼社會等條件，不是所有新手法自動特殊。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "僅針對知名人士恐嚇取財，不是第23點以名人身分單獨列出的特殊類型，C為不屬者。",
+            "correction": "若另具槍擊、下毒或其他法定分類條件，仍可依實際事實另分類。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第23點列重大縱火、群毆械鬥，D符合特殊案件類型。",
+            "correction": "須達重大程度，不是所有縱火或衝突都不加判斷歸同類。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation113_28",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第23點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "重大縱火的手冊分類是特殊；罪名、案件分類、列管三者分開。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第23點（PDF第5頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變。重大縱火對照第23點特殊刑案；同案另涉殺人等罪及是否列管可另依法判斷，不混成題目分類名稱。",
+        "takeaway": "重大縱火的手冊分類是特殊；罪名、案件分類、列管三者分開。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "重大縱火造成多人死亡，不是第23點本題所問的普通類型。",
+            "correction": "普通、重大及特殊是行政分類，不直接決定實體犯罪是否成立。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第23點將重大縱火列特殊刑案，題示多人死傷及建物損害符合該脈絡，B正確。",
+            "correction": "仍須依法查明縱火、死亡因果及其他罪責，不以分類取代證明。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "重大與特殊雖均可能嚴重，但本題針對第23點的重大縱火項目，應答特殊。",
+            "correction": "若另有故意殺人等事實可另涉重大類型，不能據此改掉本題指定分類。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "列管是辦案管理狀態，不是與本題普通、重大、特殊平行且可替代的分類答案。",
+            "correction": "列管與否依個案規定，與實體罪名亦不同。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_41",
+        "amendment": {
+          "status": "none",
+          "law": "刑事訴訟法第88、88之1條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "共犯嫌疑不等於共犯都現行；先看各人即時事實，再審其他合法拘捕途徑。",
+          "sources": [
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第88、88之1條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變。現行犯身分須逐人判斷，乙的即時現行性不自動傳給被叫到場的甲；另有急迫拘提要件時依法另審，不以現行犯名義跳過。",
+        "takeaway": "共犯嫌疑不等於共犯都現行；先看各人即時事實，再審其他合法拘捕途徑。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "乙正在河床盜採時被當場查獲，符合刑訴第88條犯罪實施中現行犯的題設，A可依法逮捕。",
+            "correction": "仍應依法告知權利及辦理後續程序。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "甲只因乙供述為雇主而被叫到現場，尚不因此符合第88條現行犯或準現行犯，B錯誤。",
+            "correction": "若另具第88條之1共犯急迫拘提等要件須另依法判斷，不能一律說絕對不得拘捕。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "現行犯逮捕具有防止逃亡、滅證等即時保全目的，C符合脈絡。",
+            "correction": "目的不能反過來取代第88條即時性與具體事實要件。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第88條犯罪實施中、實施後即時發覺及準現行犯各有即時、事實判斷，D符合。",
+            "correction": "事後有犯罪嫌疑不當然仍屬現行犯。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation113_38",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第3點；刑事訴訟法第245條；偵查不公開作業辦法第8、9條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "緝獲可適度說明但須去識別化；事件公開與人物供述、隱私公開分別判斷。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第3點（PDF第3頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第245條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "偵查不公開作業辦法第8、9條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變。得適度說明緝獲事件，仍須必要、適度及依法去識別化；具體供述、無關隱私與被害人身分各有禁止規範，不能整包公布。",
+        "takeaway": "緝獲可適度說明但須去識別化；事件公開與人物供述、隱私公開分別判斷。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "辦法第9條第1項第1款禁止公開具體供述及是否自首自白，A非一般可公開事項。",
+            "correction": "不能以破案成果或媒體關注作為當然例外。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "越獄逃犯或通緝犯緝獲屬第8條第1項第2款可適度說明情形，B正確。",
+            "correction": "仍須為公共利益或合法權益所必要，且依第8條第2項去識別化，不等於可任意展示面貌。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第9條第1項第8款禁止與案情公共利益無關的性向、信仰等隱私，C非可任意公開類型。",
+            "correction": "資訊真實也不當然有公開必要。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第9條第1項第9款保護被害人及親屬識別與名譽隱私，D非本題一般公開事由。",
+            "correction": "法定例外須逐項審查，不能由主管或本人以外第三人任意代為同意。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation113_39",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第3點；刑事訴訟法第245條；偵查不公開作業辦法第2、5、6、7、8、9條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "先法定必要與例外，再定公開範圍；媒體關注不自動產生曝光義務。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第3點（PDF第3頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第245條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "偵查不公開作業辦法第2、5、6、7、8、9條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變。偵查不公開保護名譽、隱私、安全及公平審判；新聞說明須符合法定例外與限度，不能以配合媒體本身當授權。",
+        "takeaway": "先法定必要與例外，再定公開範圍；媒體關注不自動產生曝光義務。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "辦法第7條將偵查程序、內容及所得心證納入不公開原則，A在原則層次符合。",
+            "correction": "仍須合讀第8條法定例外，不能擴作任何情形均絕不可說明。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "辦法第5條以法定職務參與訴訟行為或輔助工作界定其他依法執行職務人員，B符合。",
+            "correction": "不是所有旁觀民眾均自動成為同一法定保密義務人。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "配合媒體曝光不是第8條的獨立公開事由，C以媒體需求取代法定必要性，錯誤。",
+            "correction": "應先審公共利益或合法權益、列舉事由與禁止事項，再決定適度說明範圍。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "辦法第6條得對相關人員告知原則及公開對案件的可能影響，D符合。",
+            "correction": "曉示不能自行創設法律未定的禁言處罰。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_13",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第178、180、181點；通訊保障及監察法第11之1條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "免票要看具體罪及法定條件；貪污未整部列入，不等於每個貪污罪均被排除。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第178、180、181點（PDF第29頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=29"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "通訊保障及監察法第11之1條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變：比對第11條之1第4項以法律名稱列舉的罪類，貪污未被整部列入；個別罪若符合最輕本刑10年以上等例外仍另論，調取紀錄與通訊監察不得混用。",
+        "takeaway": "免票要看具體罪及法定條件；貪污未整部列入，不等於每個貪污罪均被排除。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "人口販運防制法之罪在通保法第11條之1第4項免調取票的列舉中，A屬題示類型。",
+            "correction": "仍須法定偵辦必要、關聯與檢察官許可，不是警察自行無條件調取。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "貪污治罪條例未以整部法律名稱列入第4項罪類清單，故本題選B。",
+            "correction": "但個別貪污罪若符合最輕本刑10年以上等另列條件，仍可能適用，不能一概說所有貪污案都必須調取票。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "毒品危害防制條例之罪有列入第4項類型，C非本題排除者。",
+            "correction": "免法院調取票仍不等於免檢察官審查，也不是可監聽內容。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "組織犯罪防制條例之罪亦在列舉中，D屬題示類型。",
+            "correction": "通信紀錄、網路流量紀錄與通訊內容的法律程序不同。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation113_49",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第242點；少年事件處理法第3、18條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "酗酒滋事不是三項曝險；現行行政先行輔導與觸法少年直接移送應分開。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第242點（PDF第36頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=36"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "少年事件處理法第3、18條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010011"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變。原題及手冊第242點的概括直接移送語句，應依現行第18條校正：曝險案件設少輔會先行輔導、評估必要再請少年法院機制，不能一律直送。",
+        "takeaway": "酗酒滋事不是三項曝險；現行行政先行輔導與觸法少年直接移送應分開。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "無正當理由經常攜帶危險器械為少事法第3條三項曝險類型之一，A在列。",
+            "correction": "仍須成長保障必要性及現行程序，非任何持有器械均當然移送法院。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "施用毒品迷幻物品而未觸刑罰法律亦在列，B非本題排除者。",
+            "correction": "觸犯刑罰法律與尚未觸法的曝險行為應分辨。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "公共場所酗酒滋事不聽禁止，不是第3條列舉的三項曝險行為，C為本題不屬者。",
+            "correction": "是否另涉其他法律責任依年齡、行為及各該法規判斷，不由本題直接定罪或處罰。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "預備犯罪或未遂而法不罰，是第3條三項之一，D在列。",
+            "correction": "不代表所有原本不罰的行為都可直接套入，仍須符合該類型及必要性。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_02",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第11點；刑事訴訟法第237、238條；中華民國刑法第324條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "一人遲誤不及其他；一審撤告；親屬相對告訴指明人；外國法人委任驗證有條件例外。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第11點（PDF第3頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第237、238條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "中華民國刑法第324條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變。個別告訴期間、第一審撤告、親屬相對告訴及外國法人委任驗證須各別判斷；驗證原則另保留資料可推真正且不爭執的例外。",
+        "takeaway": "一人遲誤不及其他；一審撤告；親屬相對告訴指明人；外國法人委任驗證有條件例外。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "刑訴第237條明定數名告訴權人中一人遲誤期間，效力不及其他人，A錯誤。",
+            "correction": "各自知悉犯人及期間應個別判斷。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "刑訴第238條撤回告訴是在第一審辯論終結前，B的第二審錯誤。",
+            "correction": "撤回後不得再行告訴，不能把審級或效果任意延後。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "父母子女間竊盜涉及刑法第324條親屬告訴規定，手冊第11點相對告訴須指明犯罪行為人，C正確。",
+            "correction": "須分清告訴權、親屬關係及得免刑規定，不因家庭關係就否定犯罪成立可能。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第11點外國法人告訴代理委任書原則須公證及我國駐外驗證，D反寫為原則不須。",
+            "correction": "若從其他資料可推委任真正且被告未爭執，手冊有例外，不可寫成絕無例外。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_12",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第268、269點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "館舍同意與個人豁免分開；豁免依法律及身分，不由工作地點自動取得。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第268、269點（PDF第40頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=40"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案D不變。入館與處理文件分別需要同意，個人的外交豁免須核對身分與範圍；我國籍館僱職員不因受僱當然享有相同豁免。",
+        "takeaway": "館舍同意與個人豁免分開；豁免依法律及身分，不由工作地點自動取得。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第268點必要進入駐華使領館，應先徵得館長同意，A符合手冊。",
+            "correction": "不能由一般搜索需要直接推定同意入館。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第268點另要求館內文件的搜索、扣押、翻閱、借用或影存須得同意，B符合。",
+            "correction": "同意進入不等於同意全部後續行為。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第269點對確具外交豁免身分者及依法享有相應豁免的家屬，不得逕予詢問，C應在此範圍理解。",
+            "correction": "先查明身分及豁免範圍，非所有外籍、國際組織人員或任何家屬都自動享相同豁免。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第269點我國籍受僱職員應依一般法律辦理，D誤作準用外交豁免。",
+            "correction": "不能僅因受僱館舍就自行取得外交特權。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_23",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第263點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "前置資料看搜索對象與合法必要；勤教計畫是準備，不能代替搜索授權。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第263點（PDF第39頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=39"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案A不變。第263點列搜索對象基本資料，原題多加檢舉民眾；比較列舉不等於概括禁止另有合法必要的檢舉事實調查。",
+        "takeaway": "前置資料看搜索對象與合法必要；勤教計畫是準備，不能代替搜索授權。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第263點列調閱搜索對象基本資料，並未把檢舉民眾資料一併列為每案搜索前置事項，A與原列舉不同。",
+            "correction": "不等於檢舉人相關事實永不得依法調查；仍須另具合法目的與必要性。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "技術勤前講習是第263點六項前置事項之一，B符合。",
+            "correction": "專業準備不能替代搜索票或其他法定搜索依據。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "勘查搜索環境亦在第263點列舉，C符合。",
+            "correction": "環境準備仍須合法，不直接授權先行侵入住居。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "擬定搜索計畫為第263點列舉事項，D符合。",
+            "correction": "計畫須依授權範圍及個案需要，不由內部計畫創設強制權。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_30",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第40點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "本題問明列場所；未明列仍須看概括類型及具體事實，不能無限擴張或絕對排除。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第40點（PDF第8頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=8"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變。車站未被逐字列出，但第40點另有具體事實支持的其他場所類型，不可擴成法律絕對禁止在車站進行情資工作。",
+        "takeaway": "本題問明列場所；未明列仍須看概括類型及具體事實，不能無限擴張或絕對排除。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "旅館在第40點重點諮詢地點明列，A符合。",
+            "correction": "重點諮詢不是對所有住客或業者的犯罪推定。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "車站未被第40點逐項明列，B為本題列舉比對答案。",
+            "correction": "同點有其他有事實足認犯罪者的概括類型，因此不是車站永不得依法列重點。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "三溫暖在第40點明列，C符合。",
+            "correction": "個別蒐集仍受目的及必要性限制。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "當舖在第40點明列，D符合。",
+            "correction": "列場所不等於取得無令狀搜索或對從業人員強制取供權。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_33",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第88點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "線索需客觀查證；經濟狀態、關心案件或態度異常都不是單獨定罪依據。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第88點（PDF第15頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=15"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案D不變。手冊是案後突然奢華而非窮困；各類注意線索都不等於罪證成立，更不單獨創設逮捕搜索的權限。",
+        "takeaway": "線索需客觀查證；經濟狀態、關心案件或態度異常都不是單獨定罪依據。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第88點將案後關係人或可疑人突告失蹤列為應注意線索，A符合。",
+            "correction": "失蹤不直接證明其犯罪，也應兼顧失蹤者可能是被害人。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第88點列對案件特別表現關懷者，B符合條點。",
+            "correction": "關懷案件本身不違法，不能憑此單一事實強制拘捕。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第88點列案後態度異常者，C符合原列舉。",
+            "correction": "異常須記錄客觀事實，不以主觀印象替代證據。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第88點相關原文是生活突然奢華，不是忽然窮困，D為錯誤比對。",
+            "correction": "不能把貧困當成犯罪推定，亦不因富裕就當然認為有罪。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_35",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第93點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "核對題示情境用語；行政觀察要領不取代個別強制措施的法律要件。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第93點（PDF第15頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=15"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變。題示試探情境的原文是避免正面接觸；跟監行政要領不創設搜索、拘捕等強制權，也不能改成對所有合法接觸的全面禁止。",
+        "takeaway": "核對題示情境用語；行政觀察要領不取代個別強制措施的法律要件。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第93點對突然停止等情形要求保持自然，A與題示條點相符。",
+            "correction": "本題比對行政要領，不授權干預與案無關第三人權利。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第93點對轉換出口等情況要求視狀況停止、重新部署或必要處理，B符合。",
+            "correction": "必要措施仍須另有法律依據，不是可任意侵入建物。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第93點對短程搭乘試探要求避免正面接觸，C反寫為應正面接觸。",
+            "correction": "本題錯在顛倒該情境的原文，不推論任何依法表明身分、盤查或接觸都被禁止。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第93點對設局陷於不義的情境要求設法儘速撤離，D符合。",
+            "correction": "撤離與後續依法蒐證、救護或危害處理須按個案判斷。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_04",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第15、16、17點；中華民國刑法第62條；最高法院72年台上字第641號全文・僅引用發覺標準，一般裁判參考效力",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "未發覺看客觀合理根據，不只看是否知道姓名；成立自首與現行得減刑仍須分開。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第15、16、17點（PDF第4頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=4"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "中華民國刑法第62條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+            },
+            {
+              "title": "最高法院72年台上字第641號全文・僅引用發覺標準，一般裁判參考效力",
+              "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=B%2C72%2C%E5%8F%B0%E4%B8%8A%2C641%2C001&type=J"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變。發覺須有確切根據達合理懷疑，不需先確信有罪，也不能只憑主觀猜測。引72年台上641號全文僅作一般裁判參考；刑法第62條現行效果為得減刑，非沿用舊判決時的必減規則。",
+        "takeaway": "未發覺看客觀合理根據，不只看是否知道姓名；成立自首與現行得減刑仍須分開。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第15點容許本人或委託他人向有偵查權公務員承認未發覺犯罪並願受裁判，A可能符合。",
+            "correction": "仍須未發覺、承認犯罪及接受裁判等要件，單純代傳不明訊息不當然足夠。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第15點包含已知犯罪而尚不知嫌疑人真實身分的情形，B在該脈絡可能符合。",
+            "correction": "不知姓名不等於必然未發覺；如已有確切根據足以合理特定犯人，仍須依法判斷是否已發覺。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "最高法院72年台上字第641號說明，僅主觀懷疑而無確切根據，不能認為已發覺，C反寫。",
+            "correction": "發覺不必確信有罪，但須有確切根據可合理懷疑該人犯罪，非任意猜測。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第17點要求防止頂替、不當企圖並注意身心狀況，D符合。",
+            "correction": "是否符合自首仍須逐一審查，不以口頭說自首就當然認定。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_37",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第90、92點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "方法名稱依第92點比對；用語泛稱不改變第90點動靜觀察定義。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第90、92點（PDF第15頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=15"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案D不變。第92點原列海陸空立體，並無單雙多立體；原題用監視作方法泛稱時，仍保留第90點動態跟蹤與靜態監視的概念區分。",
+        "takeaway": "方法名稱依第92點比對；用語泛稱不改變第90點動靜觀察定義。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第92點列多人徒步跟蹤，A以監視作一般稱呼對應該類型。",
+            "correction": "不因此把第90點靜態監視與動態跟蹤的定義混為一談。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第92點列跳蛙跟蹤，B對應原列舉類型。",
+            "correction": "題目名稱比較不能取代執行時的合法性審查。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第92點列徒步與車輛併用，C對應列舉。",
+            "correction": "工具併用不創設進入私人處所或蒐集通訊的權限。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第92點列海、陸、空立體跟蹤，並非單雙多立體，D誤植類型。",
+            "correction": "單人、雙人、多人與立體方式是不同列舉，不能任意拼接成原文沒有的名稱。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation115_16",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第241點；軍事審判法第1條",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "查獲地決定本題憲兵通報；戶籍、營區及偵辦駐地都不能取代。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第241點（PDF第36頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=36"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "軍事審判法第1條（全國法規資料庫全文，可搜尋條次）",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=F0120008"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案A不變：看板橋實際查獲地，不看苗栗戶籍、基隆營區或中壢帶返偵辦地；通報仍保留妨害偵查例外，且不當然改由軍事審判。",
+        "takeaway": "查獲地決定本題憲兵通報；戶籍、營區及偵辦駐地都不能取代。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "實際查獲地在板橋，第241點按查獲地區通報憲兵隊，因此A正確。",
+            "correction": "若通報有妨害偵查之虞，同點得免或暫緩，不能忽略例外。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "苗栗是戶籍地，不是本題查獲地，B不符第241點分工。",
+            "correction": "戶籍資料不取代實際查獲地。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "基隆是營區所在地，亦非本題查獲地，C不符。",
+            "correction": "軍人駐地與查獲地通報窗口分開。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "中壢是偵辦單位駐地及帶返處所，不會把板橋查獲改成中壢查獲，D錯誤。",
+            "correction": "跨轄偵辦分工與憲兵通報地點是不同問題。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation115_46",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第23點；",
+          "checkedAt": "2026-11-19",
+          "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+          "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+          "newRule": "看第23點行政類型與門檻；150萬竊盜屬重大，題示嚴重資安侵害另列特殊。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第23點（PDF第5頁起）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案A不變。重大竊盜100萬元以上與特殊資安案件分列；毒品數量選項不能逕作第23點重大分類，亦不代表免除實體毒品犯罪責任。",
+        "takeaway": "看第23點行政類型與門檻；150萬竊盜屬重大，題示嚴重資安侵害另列特殊。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第23點重大竊盜以財物損失100萬元以上為門檻，住宅竊盜150萬元符合，A正確。",
+            "correction": "金額屬手冊案件分類，不能單憑金額推定特定加重竊盜罪要件。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第23點未僅以第一級毒品200公克就列為本題重大刑案，B非指定類型。",
+            "correction": "不表示毒品行為不嚴重或不必依法偵辦、通報。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "毒品咖啡包500包並非第23點本題重大刑案的單獨門檻，C不符列舉。",
+            "correction": "毒品成分、行為、數量與其他專案規定仍需分別依法查明。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "關鍵基礎設施嚴重資安侵害達受駭電腦50臺等門檻，列在第23點特殊刑案，非本題重大分類。",
+            "correction": "特殊與重大名稱不能因字面嚴重程度而互換，仍須符合完整資安類型條件。",
+            "trueStatement": false
+          }
+        ]
+      }
+    ]
   }
 ]

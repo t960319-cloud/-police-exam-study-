@@ -85,7 +85,8 @@ const informant=result.questions.find(q=>q.id==='investigation115_05');assert(in
 const youth=result.questions.find(q=>q.id==='investigation114_25');assert(youth.options[3].explanation.includes('例外'));
 const domestic=result.questions.find(q=>q.id==='investigation115_14');assert(domestic.currentAnswer.includes('立即通報'));assert(domestic.currentAnswer.includes('24小時'));
 const gpsPeriod=result.questions.find(q=>q.id==='investigation115_24');assert(gpsPeriod.currentAnswer.includes('不足24小時以1日計'));assert(gpsPeriod.currentAnswer.includes('期滿2日前'));
-const gpsNotice=result.questions.find(q=>q.id==='investigation115_25');assert.equal(gpsNotice.answer,1);assert.equal(gpsNotice.verified,false);assert.notEqual(gpsNotice.analysisMode,'answer-key');assert(gpsNotice.currentAnswer.includes('法院許可或補發許可'));assert(gpsNotice.currentAnswer.includes('短期追蹤'));
+// The later fifty-question review resolves the full notice branches in article 153-7.
+const gpsNotice=result.questions.find(q=>q.id==='investigation115_25');assert.equal(gpsNotice.answer,1);assert.equal(gpsNotice.verified,true);assert.notEqual(gpsNotice.analysisMode,'answer-key');assert(gpsNotice.options[0].correction.includes('法院許可或補行許可'));assert(gpsNotice.currentAnswer.includes('短期免法院許可'));assert(gpsNotice.amendment.sources.some(s=>s.url.includes('C0010001')));
 const passenger=result.questions.find(q=>q.id==='duty112_24');assert.equal(passenger.answer,1);assert.equal(passenger.verified,false);assert(passenger.currentAnswer.includes('駕駛人測得'));assert(passenger.currentAnswer.includes('30日內'));
 console.log('Statute-backed options, GPS notice branches, passenger prerequisites and original answers passed.');
 // Statutory investigation corrections preserve the historic keys and show all option explanations.
@@ -99,7 +100,7 @@ console.log('Investigation procedure, night-search consent and forensic examinat
 for(const [id,answer] of [['investigation111_12',3],['investigation111_31',3],['investigation112_10',1],['investigation114_32',3],['investigation114_42',2]]){
  const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.answer,answer);assert(q.verified);assert.notEqual(q.analysisMode,'answer-key');assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()));
 }
-const urgentMonitoring=result.questions.find(q=>q.id==='investigation112_09');assert.equal(urgentMonitoring.answer,3);assert.equal(urgentMonitoring.verified,false);assert(urgentMonitoring.currentAnswer.includes('24小時'));assert(urgentMonitoring.currentAnswer.includes('48小時'));
+const urgentMonitoring=result.questions.find(q=>q.id==='investigation112_09');assert.equal(urgentMonitoring.answer,3);assert.equal(urgentMonitoring.verified,true);assert(urgentMonitoring.currentAnswer.includes('24小時'));assert(urgentMonitoring.currentAnswer.includes('48小時'));assert(urgentMonitoring.options[3].correction.includes('檢察官陳報法院'));
 const stalking=result.questions.find(q=>q.id==='investigation114_27');assert.equal(stalking.answer,0);assert.equal(stalking.verified,false);assert(stalking.currentAnswer.includes('第3條第2項'));assert(stalking.currentAnswer.includes('性別無關'));
 console.log('Communication deadlines and records, arrest-warrant copies, and stalking exceptions passed.');
 // Reused statutes across historical years must keep exceptions and the original paper keys.
@@ -458,3 +459,55 @@ const returnedProperty=result.questions.find(q=>q.id==='investigation111_18');as
 const recordRights=result.questions.find(q=>q.id==='investigation112_18');assert(recordRights.currentAnswer.includes('法律另外賦予'));assert(recordRights.options[2].correction.includes('羈押審查'));
 const evidenceChain=result.questions.find(q=>q.id==='investigation115_49');assert(evidenceChain.options[2].explanation.includes('編號'));assert(evidenceChain.options[3].explanation.includes('禁止向被告或第三人清償'));
 console.log('Next 30 procedure questions preserve legal authority, witness safeguards, limited visit scope and lawful property handling.');
+
+// Fifty questions replay as two valid events without weakening the 40-patch limit.
+const batch50Events=['a','b'].map(s=>events.find(e=>e.eventId==='legal-review-20261119-batch50-'+s));
+assert(batch50Events.every(Boolean));
+assert.deepEqual(batch50Events.map(e=>e.patches.length),[25,25]);
+const batch50Patches=batch50Events.flatMap(e=>e.patches);
+assert.equal(new Set(batch50Patches.map(p=>p.targetId)).size,50);
+assert.equal(batch50Patches.reduce((n,p)=>n+p.optionOverrides.length,0),200);
+assert.equal(validateLegalEvent({...batch50Events[0],patches:batch50Patches},ids),false);
+for(const p of batch50Patches){
+ const q=result.questions.find(x=>x.id===p.targetId);
+ assert(q?.verified);assert.equal(q.amendment.status,'none');assert.notEqual(q.analysisMode,'answer-key');
+ assert(q.options.every(o=>o.explanation.trim()&&!o.explanation.includes('本項不在當年度官方接受答案')));
+}
+const fiftyQ=id=>result.questions.find(q=>q.id===id);
+// Disclosing a capture remains subject to deidentification; a media request is no legal ground.
+assert(fiftyQ('investigation113_38').options[1].correction.includes('去識別化'));
+assert(fiftyQ('investigation113_39').options[2].explanation.includes('不是第8條'));
+assert(fiftyQ('investigation110_37').options[1].explanation.includes('法定保密義務人'));
+// The current statute takes priority over the handbook's older direct-referral wording.
+for(const id of ['investigation111_45','investigation113_49']){
+ assert(fiftyQ(id).currentAnswer.includes('少輔會先行輔導'));
+ assert(fiftyQ(id).amendment.sources.some(s=>s.url.includes('C0010011')));
+}
+assert(fiftyQ('investigation115_22').currentAnswer.includes('第18條之6'));
+assert(fiftyQ('investigation115_22').options[2].correction.includes('法官未許可應即護送'));
+// A listed crime family differs from a particular crime qualifying through the ten-year threshold.
+const callRecords=fiftyQ('investigation111_13');
+assert(callRecords.options[1].correction.includes('最輕本刑10年以上'));
+assert(callRecords.currentAnswer.includes('貪污未被整部列入'));
+assert(fiftyQ('investigation112_09').currentAnswer.includes('檢察官'));
+assert(fiftyQ('investigation112_09').currentAnswer.includes('48小時'));
+const batch50GpsNotice=fiftyQ('investigation115_25');
+assert(batch50GpsNotice.currentAnswer.includes('短期免法院許可'));
+assert(batch50GpsNotice.options[1].explanation.includes('14日'));
+// Location, minimum rank and a co-suspect's status must each be assessed on their own.
+assert(fiftyQ('investigation115_16').options[3].explanation.includes('不會把板橋查獲改成中壢查獲'));
+assert(fiftyQ('investigation113_08').currentAnswer.includes('包含符合條件的較高職務'));
+assert(fiftyQ('investigation113_10').currentAnswer.includes('主辦或協調'));
+assert(fiftyQ('investigation114_41').options[1].correction.includes('第88條之1'));
+// Do not turn a category comparison into a blanket prohibition or revive the old mandatory reduction.
+assert(fiftyQ('investigation114_30').options[1].correction.includes('不是車站永不得'));
+assert(fiftyQ('investigation111_09').options[0].correction.includes('其信賴之人'));
+assert(fiftyQ('investigation112_49').options[2].explanation.includes('法院宣告'));
+assert(fiftyQ('investigation114_04').options[2].explanation.includes('無確切根據'));
+assert(fiftyQ('investigation114_04').currentAnswer.includes('得減刑'));
+assert(fiftyQ('investigation114_04').currentAnswer.includes('一般裁判參考'));
+for(const id of ['investigation110_42','investigation112_04','investigation112_12','investigation112_25','investigation112_37','investigation113_33','investigation113_43','investigation114_36']){
+ assert.equal(fiftyQ(id).verified,false);
+ assert(!batch50Patches.some(p=>p.targetId===id));
+}
+console.log('Fifty-question replay, unchanged event limit, juvenile priority, disclosure limits and independent legal thresholds passed.');

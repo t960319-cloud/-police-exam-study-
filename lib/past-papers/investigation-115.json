@@ -1309,26 +1309,26 @@
       "options": [
         {
           "text": "板橋憲兵隊",
-          "explanation": "本題依官方公告一律給分，不代表本項敘述正確。",
-          "correction": "官方第16題一律給分，原始答案A不再作唯一計分依據；查獲地與帶返偵辦地的疑義保留在原題脈絡。",
+          "explanation": "實際查獲地在板橋，第241點按查獲地區通報憲兵隊，因此A正確。",
+          "correction": "若通報有妨害偵查之虞，同點得免或暫緩，不能忽略例外。",
           "trueStatement": false
         },
         {
           "text": "苗栗憲兵隊",
-          "explanation": "本題依官方公告一律給分，不代表本項敘述正確。",
-          "correction": "官方第16題一律給分，原始答案A不再作唯一計分依據；查獲地與帶返偵辦地的疑義保留在原題脈絡。",
+          "explanation": "苗栗是戶籍地，不是本題查獲地，B不符第241點分工。",
+          "correction": "戶籍資料不取代實際查獲地。",
           "trueStatement": false
         },
         {
           "text": "基隆憲兵隊",
-          "explanation": "本題依官方公告一律給分，不代表本項敘述正確。",
-          "correction": "官方第16題一律給分，原始答案A不再作唯一計分依據；查獲地與帶返偵辦地的疑義保留在原題脈絡。",
+          "explanation": "基隆是營區所在地，亦非本題查獲地，C不符。",
+          "correction": "軍人駐地與查獲地通報窗口分開。",
           "trueStatement": false
         },
         {
           "text": "中壢憲兵隊",
-          "explanation": "本題依官方公告一律給分，不代表本項敘述正確。",
-          "correction": "官方第16題一律給分，原始答案A不再作唯一計分依據；查獲地與帶返偵辦地的疑義保留在原題脈絡。",
+          "explanation": "中壢是偵辦單位駐地及帶返處所，不會把板橋查獲改成中壢查獲，D錯誤。",
+          "correction": "跨轄偵辦分工與憲兵通報地點是不同問題。",
           "trueStatement": false
         }
       ],
@@ -1339,19 +1339,35 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第16題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 16,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第241點；軍事審判法第1條",
+        "checkedAt": "2026-11-19",
+        "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+        "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+        "newRule": "查獲地決定本題憲兵通報；戶籍、營區及偵辦駐地都不能取代。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第241點（PDF第36頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=36"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "軍事審判法第1條（全國法規資料庫全文，可搜尋條次）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=F0120008"
+          }
+        ]
       },
-      "takeaway": "官方第16題一律給分，原始答案A不再作唯一計分依據；查獲地與帶返偵辦地的疑義保留在原題脈絡。",
+      "takeaway": "查獲地決定本題憲兵通報；戶籍、營區及偵辦駐地都不能取代。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -1368,11 +1384,24 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第241點（PDF第36頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=36"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "軍事審判法第1條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=F0120008"
         }
       ],
       "initialAnswer": 0,
       "correctionNote": "第16題一律給分。",
-      "creditedAll": true
+      "creditedAll": true,
+      "currentAnswer": "原官方答案A不變：看板橋實際查獲地，不看苗栗戶籍、基隆營區或中壢帶返偵辦地；通報仍保留妨害偵查例外，且不當然改由軍事審判。"
     },
     {
       "id": "investigation115_17",
@@ -1744,26 +1773,26 @@
       "options": [
         {
           "text": "不解送報告書",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：符合輕罪等法定條件時填不護送報告書，報請少年法院法官許可後釋放，不能由警方自行決定。",
+          "explanation": "手冊第243點少年程序使用不護送報告書；不解送是其他程序名稱，不能互換。",
+          "correction": "本題由少年法院法官判斷，不是套用成年現行犯免解流程。",
           "trueStatement": false
         },
         {
           "text": "不解送移送書",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：符合輕罪等法定條件時填不護送報告書，報請少年法院法官許可後釋放，不能由警方自行決定。",
+          "explanation": "不解送移送書不是第243點所列本題文書，移送卷證與是否護送少年是兩件事。",
+          "correction": "即使准不護送，仍須依法移送案件。",
           "trueStatement": false
         },
         {
           "text": "不護送報告書",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "符合輕罪等法定條件時填不護送報告書，報請少年法院法官許可後釋放，不能由警方自行決定。",
+          "explanation": "第243點明定題示三年以下等條件，可填不護送報告書，報少年法院法官許可後不護送、逕行釋放。",
+          "correction": "C正確；法官未許可應即護送，不能由警方自行核准。",
           "trueStatement": true
         },
         {
           "text": "不戒護報告書",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：符合輕罪等法定條件時填不護送報告書，報請少年法院法官許可後釋放，不能由警方自行決定。",
+          "explanation": "不戒護報告書不是該點名稱；戒護方式與不護送的許可程序不可混淆。",
+          "correction": "依正確表名及權責辦理，並將核准文書附卷。",
           "trueStatement": false
         }
       ],
@@ -1774,19 +1803,39 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第22題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 22,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第243點；少年事件處理法第18之5、18之6條；刑事訴訟法第92條",
+        "checkedAt": "2026-11-19",
+        "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+        "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+        "newRule": "少年三年以下情形報法官准不護送，與成年一年以下等報檢察官免解分開。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第243點（PDF第37頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=37"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "少年事件處理法第18之5、18之6條（全國法規資料庫全文，可搜尋條次）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010011"
+          },
+          {
+            "title": "刑事訴訟法第92條（全國法規資料庫全文，可搜尋條次）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "符合輕罪等法定條件時填不護送報告書，報請少年法院法官許可後釋放，不能由警方自行決定。",
+      "takeaway": "少年三年以下情形報法官准不護送，與成年一年以下等報檢察官免解分開。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -1803,8 +1852,25 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第243點（PDF第37頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=37"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "少年事件處理法第18之5、18之6條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010011"
+        },
+        {
+          "title": "刑事訴訟法第92條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C不變：少年不護送報告書須報少年法院法官許可，未許可即護送；依少事法第18條之6核准後仍須7日內檢卷移送，不等於全案結案。"
     },
     {
       "id": "investigation115_23",
@@ -1972,26 +2038,26 @@
       "options": [
         {
           "text": "7 日",
-          "explanation": "第153條之7第2項規定法院於14日內主動通知，非7日。",
-          "correction": "本題所指第2項期限應為14日。",
+          "explanation": "7日不是刑訴第153條之7法院主動通知的本題期限。",
+          "correction": "先確認調查是經法院許可或補行許可等該條規範情形。",
           "trueStatement": false
         },
         {
           "text": "14 日",
-          "explanation": "對第1項所指法院許可或補發許可的調查，執行機關逾1個月未陳報時，第2項規定法院原則於14日內主動通知。",
-          "correction": "選B；通知顯有困難或不能通知者，法院得不通知。",
+          "explanation": "第153條之7對應陳報而逾1個月未陳報者，要求法院於14日內主動通知，B正確。",
+          "correction": "有不能通知或顯有困難的法定情形另論，不是所有GPS調查一律由法院通知。",
           "trueStatement": true
         },
         {
           "text": "15 日",
-          "explanation": "第2項法院主動通知期限為14日，非15日。",
-          "correction": "本題所指第2項期限應為14日。",
+          "explanation": "15日不是該條主動通知期限。",
+          "correction": "一個月未陳報與法院14日通知是前後不同期間。",
           "trueStatement": false
         },
         {
           "text": "30 日",
-          "explanation": "第2項法院主動通知期限為14日，非30日。",
-          "correction": "本題所指第2項期限應為14日。",
+          "explanation": "30日不能取代法定14日；也不能將一個月概算30日後重複起算。",
+          "correction": "未逾法定短期門檻而無須法院許可者，另由執行機關依該條於結束後1個月內通知。",
           "trueStatement": false
         }
       ],
@@ -2002,26 +2068,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第25題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 25,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "刑事訴訟法第153條之7",
-        "checkedAt": "2026-11-16",
-        "effectiveStatus": "unverified",
-        "note": "115年官方答案B與刑訴第153條之7第2項相符；題幹概括全部GPS案件，尚須區別法院許可或補發許可案件與短期追蹤的通知主體，故保留待核。",
+        "status": "none",
+        "law": "刑事訴訟法第153之1、153之7條",
+        "checkedAt": "2026-11-19",
+        "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+        "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+        "newRule": "法院許可或補行許可調查的逾月未報接14日；短期調查另分執行機關通知。",
         "sources": [
           {
-            "title": "刑事訴訟法第153條之7",
-            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=153-7"
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "刑事訴訟法第153之1、153之7條（全國法規資料庫全文，可搜尋條次）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
           }
         ]
       },
-      "takeaway": "法院許可調查逾期未報：法院原則14日內通知；短期追蹤另分流。",
+      "takeaway": "法院許可或補行許可調查的逾月未報接14日；短期調查另分執行機關通知。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -2042,9 +2113,17 @@
         {
           "title": "刑事訴訟法第153條之7",
           "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=153-7"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第153之1、153之7條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
       ],
-      "currentAnswer": "B為115年官方答案。第153條之7第1、2項所定法院許可或補發許可調查結束或停止後，執行機關逾1個月未陳報，法院應於14日內主動通知；通知顯有困難或不能通知有例外。短期追蹤另依第5項由執行機關通知，不能把法院通知寫成所有GPS案件皆適用。"
+      "currentAnswer": "原官方答案B不變。第153條之7的法院14日主動通知適用於應向法院陳報的法定調查程序；短期免法院許可的定位調查另有執行機關自行通知規定，不可一律套用。"
     },
     {
       "id": "investigation115_26",
@@ -3704,26 +3783,26 @@
       "options": [
         {
           "text": "住宅竊盜財損新臺幣 150 萬元",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "原卷住宅竊盜財損150萬元符合所考重大刑案分類；不能把不同毒品或資安案件的門檻混用。",
+          "explanation": "第23點重大竊盜以財物損失100萬元以上為門檻，住宅竊盜150萬元符合，A正確。",
+          "correction": "金額屬手冊案件分類，不能單憑金額推定特定加重竊盜罪要件。",
           "trueStatement": true
         },
         {
           "text": "查獲第一級毒品 200 公克以上",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原卷住宅竊盜財損150萬元符合所考重大刑案分類；不能把不同毒品或資安案件的門檻混用。",
+          "explanation": "第23點未僅以第一級毒品200公克就列為本題重大刑案，B非指定類型。",
+          "correction": "不表示毒品行為不嚴重或不必依法偵辦、通報。",
           "trueStatement": false
         },
         {
           "text": "查獲新興毒品（咖啡包）500 包以上",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原卷住宅竊盜財損150萬元符合所考重大刑案分類；不能把不同毒品或資安案件的門檻混用。",
+          "explanation": "毒品咖啡包500包並非第23點本題重大刑案的單獨門檻，C不符列舉。",
+          "correction": "毒品成分、行為、數量與其他專案規定仍需分別依法查明。",
           "trueStatement": false
         },
         {
           "text": "關鍵基礎設施資安侵害，受駭電腦設備達 50 臺以上",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原卷住宅竊盜財損150萬元符合所考重大刑案分類；不能把不同毒品或資安案件的門檻混用。",
+          "explanation": "關鍵基礎設施嚴重資安侵害達受駭電腦50臺等門檻，列在第23點特殊刑案，非本題重大分類。",
+          "correction": "特殊與重大名稱不能因字面嚴重程度而互換，仍須符合完整資安類型條件。",
           "trueStatement": false
         }
       ],
@@ -3734,19 +3813,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第46題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 46,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第23點；",
+        "checkedAt": "2026-11-19",
+        "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+        "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+        "newRule": "看第23點行政類型與門檻；150萬竊盜屬重大，題示嚴重資安侵害另列特殊。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第23點（PDF第5頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "原卷住宅竊盜財損150萬元符合所考重大刑案分類；不能把不同毒品或資安案件的門檻混用。",
+      "takeaway": "看第23點行政類型與門檻；150萬竊盜屬重大，題示嚴重資安侵害另列特殊。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -3763,8 +3854,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第23點（PDF第5頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A不變。重大竊盜100萬元以上與特殊資安案件分列；毒品數量選項不能逕作第23點重大分類，亦不代表免除實體毒品犯罪責任。"
     },
     {
       "id": "investigation115_47",
@@ -3917,26 +4017,26 @@
       "options": [
         {
           "text": "對於經拘提或逮捕到案之犯罪嫌疑人，除其同意外，不得採取指紋或拍照等措施",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：合法拘捕後立即附帶搜索並注意戒護；身體採樣種類、同意及許可期限不能概括混用。",
+          "explanation": "刑訴第205條之2對合法拘捕且有調查必要者，允許依法採指紋、拍照等，不以本人同意為唯一依據。",
+          "correction": "A將依法採證誤寫為除同意均不得，仍須注意合法拘捕與必要性。",
           "trueStatement": false
         },
         {
           "text": "為蒐集證據，警察應對高度嫌疑之民眾，採取毛髮或唾液樣本",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：合法拘捕後立即附帶搜索並注意戒護；身體採樣種類、同意及許可期限不能概括混用。",
+          "explanation": "毛髮唾液有合法拘捕及相當理由可作犯罪證據等條件，不能只因一般民眾有高度嫌疑便一律強採。",
+          "correction": "B混淆身分、理由及得與應的層次。",
           "trueStatement": false
         },
         {
           "text": "執行拘提或逮捕後，應立即對犯罪嫌疑人進行附帶搜索，並注意戒護安全",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "合法拘捕後立即附帶搜索並注意戒護；身體採樣種類、同意及許可期限不能概括混用。",
+          "explanation": "第141點要求拘捕後立即附帶搜索並注意戒護；刑訴第130條規範身體、隨身物及立即可觸及處所等範圍。",
+          "correction": "C最正確，附帶搜索不授權無限擴張搜索其他場所。",
           "trueStatement": true
         },
         {
           "text": "為保存證據之急迫情況，警方得逕以非侵入方式採尿，並於 48 小時內報請檢察官許可",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：合法拘捕後立即附帶搜索並注意戒護；身體採樣種類、同意及許可期限不能概括混用。",
+          "explanation": "急迫非侵入採尿須符合刑訴第205條之2相當理由、鑑定及急迫必要等條件，並於24小時內陳報檢察官許可。",
+          "correction": "D的48小時錯誤；檢察官認不應准許者應於3日內撤銷。",
           "trueStatement": false
         }
       ],
@@ -3947,19 +4047,39 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第48題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 48,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第141、142、144點；刑事訴訟法第130、205之2條",
+        "checkedAt": "2026-11-19",
+        "note": "本批逐選項核對官方公開115版手冊及所引現行法或裁判，補齊條件、例外及版本對照，保留原題、選項與官方給分。核對日不是修法日，附件名稱不推定修正或施行日。手冊與主法不一致時依現行主法說明，不改寫官方原文；行政分類與分工不直接創設強制權。",
+        "oldRule": "原解析未完整交代條點、適用條件或版本差異，部分僅依官方接受答案判讀。",
+        "newRule": "合法拘捕不等於所有採樣均無條件；附搜有範圍，急採尿有24小時追認程序。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第141、142點（PDF第23頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=23"
+          },
+          {
+            "title": "警專公開115版偵查犯罪手冊第144點（PDF第24頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=24"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "刑事訴訟法第130、205之2條（全國法規資料庫全文，可搜尋條次）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "合法拘捕後立即附帶搜索並注意戒護；身體採樣種類、同意及許可期限不能概括混用。",
+      "takeaway": "合法拘捕不等於所有採樣均無條件；附搜有範圍，急採尿有24小時追認程序。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -3976,8 +4096,25 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第141、142點（PDF第23頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=23"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第144點（PDF第24頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=24"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第130、205之2條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C不變。拘捕附搜、一般身分採證、相當理由檢體及急迫採尿各有條件；現行急採尿是24小時陳報及3日撤銷機制，非48小時。"
     },
     {
       "id": "investigation115_49",

@@ -1,0 +1,1751 @@
+{
+  "checkedAt": "2026-11-19",
+  "timezone": "Asia/Taipei",
+  "baselineGit": "9b79f80ad19af9c08ec4ac42a1c6bd2308c9dcc8",
+  "previousDeployment": 43,
+  "requestedBatchSize": 50,
+  "reviewedQuestions": 50,
+  "reviewedOptions": 200,
+  "verifiedInCitedScope": 50,
+  "eventIds": [
+    "legal-review-20261119-batch50-a",
+    "legal-review-20261119-batch50-b"
+  ],
+  "eventPatchCounts": [
+    25,
+    25
+  ],
+  "preservedCuratedEvents": 39,
+  "targets": [
+    "investigation110_19",
+    "investigation110_27",
+    "investigation110_30",
+    "investigation110_33",
+    "investigation110_36",
+    "investigation110_37",
+    "investigation110_38",
+    "investigation115_22",
+    "investigation110_44",
+    "investigation110_47",
+    "investigation111_05",
+    "investigation111_09",
+    "investigation111_11",
+    "investigation111_16",
+    "investigation111_22",
+    "investigation111_30",
+    "investigation111_42",
+    "investigation111_45",
+    "investigation111_46",
+    "investigation112_02",
+    "investigation114_38",
+    "investigation112_06",
+    "investigation112_09",
+    "investigation115_48",
+    "investigation112_22",
+    "investigation115_25",
+    "investigation112_23",
+    "investigation112_44",
+    "investigation112_49",
+    "investigation113_08",
+    "investigation113_09",
+    "investigation113_10",
+    "investigation113_12",
+    "investigation113_27",
+    "investigation113_28",
+    "investigation114_41",
+    "investigation113_38",
+    "investigation113_39",
+    "investigation111_13",
+    "investigation113_49",
+    "investigation114_02",
+    "investigation114_12",
+    "investigation114_23",
+    "investigation114_30",
+    "investigation114_33",
+    "investigation114_35",
+    "investigation114_04",
+    "investigation114_37",
+    "investigation115_16",
+    "investigation115_46"
+  ],
+  "reviewResults": [
+    {
+      "targetId": "investigation110_19",
+      "officialAnswer": "B",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        23
+      ],
+      "handbookPdfPages": [
+        5
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第23點（PDF第5頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation110_27",
+      "officialAnswer": "C",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        4,
+        51,
+        52,
+        57,
+        58,
+        61,
+        65,
+        68
+      ],
+      "handbookPdfPages": [
+        3,
+        10,
+        11
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第4點（PDF第3頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第51、52、57、58點（PDF第10頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=10"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第61、65、68點（PDF第11頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation110_30",
+      "officialAnswer": "B",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        274,
+        275,
+        276
+      ],
+      "handbookPdfPages": [
+        41
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第274、275、276點（PDF第41頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=41"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation110_33",
+      "officialAnswer": "B",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        3
+      ],
+      "handbookPdfPages": [
+        3
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第3點（PDF第3頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第245條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "偵查不公開作業辦法第8、9條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation110_36",
+      "officialAnswer": "C",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        141
+      ],
+      "handbookPdfPages": [
+        23
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第141點（PDF第23頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=23"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "警械使用條例第4、5、6條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation110_37",
+      "officialAnswer": "B",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        3
+      ],
+      "handbookPdfPages": [
+        3
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第3點（PDF第3頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第245條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "偵查不公開作業辦法第2、4、5、6、7、8、9條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation110_38",
+      "officialAnswer": "B",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "handbookPdfPages": [
+        11
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第62、63、64、65、66點（PDF第11頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第218條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation115_22",
+      "officialAnswer": "C",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        243
+      ],
+      "handbookPdfPages": [
+        37
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第243點（PDF第37頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=37"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "少年事件處理法第18之5、18之6條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010011"
+        },
+        {
+          "title": "刑事訴訟法第92條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation110_44",
+      "officialAnswer": "A",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        75,
+        78,
+        79
+      ],
+      "handbookPdfPages": [
+        13
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第75、78、79點（PDF第13頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=13"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第248之1條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "性侵害犯罪防治法第16條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
+        },
+        {
+          "title": "衛福部公開94年警察機關辦理性侵害案件處理原則第7條（舊制引法不作最新完整規範）",
+          "url": "https://dep.mohw.gov.tw/DOPs/fp-1287-14973-105.html"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation110_47",
+      "officialAnswer": "B",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        90,
+        93,
+        97
+      ],
+      "handbookPdfPages": [
+        15,
+        16
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第90、93點（PDF第15頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=15"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第97點（PDF第16頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=16"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第153之1條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation111_05",
+      "officialAnswer": "A",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        37,
+        40,
+        41,
+        43,
+        58,
+        59
+      ],
+      "handbookPdfPages": [
+        8,
+        9,
+        10
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第37、40點（PDF第8頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=8"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第41、43點（PDF第9頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=9"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第58、59點（PDF第10頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=10"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation111_09",
+      "officialAnswer": "D",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        79
+      ],
+      "handbookPdfPages": [
+        13
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第79點（PDF第13頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=13"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第248之1條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation111_11",
+      "officialAnswer": "D",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        90,
+        91,
+        95
+      ],
+      "handbookPdfPages": [
+        15,
+        16
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第90、91點（PDF第15頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=15"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第95點（PDF第16頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=16"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "通訊保障及監察法第3、5條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation111_16",
+      "officialAnswer": "A",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        142
+      ],
+      "handbookPdfPages": [
+        23
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第142點（PDF第23頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=23"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第205之2條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation111_22",
+      "officialAnswer": "B",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        255
+      ],
+      "handbookPdfPages": [
+        39
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第255點（PDF第39頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=39"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "組織犯罪防制條例第2條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000013"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation111_30",
+      "officialAnswer": "D",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        181
+      ],
+      "handbookPdfPages": [
+        29
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第181點（PDF第29頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=29"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "通訊保障及監察法第3、13條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation111_42",
+      "officialAnswer": "D",
+      "reviewedOptions": 4,
+      "handbookPoints": [],
+      "handbookPdfPages": [],
+      "sources": [
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "中華民國刑法第349條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation111_45",
+      "officialAnswer": "A",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        242
+      ],
+      "handbookPdfPages": [
+        36
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第242點（PDF第36頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=36"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "少年事件處理法第3、18條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010011"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation111_46",
+      "officialAnswer": "C",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        241
+      ],
+      "handbookPdfPages": [
+        36
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第241點（PDF第36頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=36"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "軍事審判法第1條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=F0120008"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation112_02",
+      "officialAnswer": "D",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        3,
+        6
+      ],
+      "handbookPdfPages": [
+        3
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第3、6點（PDF第3頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第34、245條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "偵查不公開作業辦法第2、8、9條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+        },
+        {
+          "title": "治安顧慮人口查訪辦法第2、5條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation114_38",
+      "officialAnswer": "C",
+      "reviewedOptions": 4,
+      "handbookPoints": [],
+      "handbookPdfPages": [],
+      "sources": [
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "通訊保障及監察法第5、6條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation112_06",
+      "officialAnswer": "C",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        37,
+        40,
+        41,
+        42
+      ],
+      "handbookPdfPages": [
+        8,
+        9
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第37、40點（PDF第8頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=8"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第41、42點（PDF第9頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=9"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "警察職權行使法第12條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation112_09",
+      "officialAnswer": "D",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        181
+      ],
+      "handbookPdfPages": [
+        29
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第181點（PDF第29頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=29"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "通訊保障及監察法第6條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation115_48",
+      "officialAnswer": "C",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        141,
+        142,
+        144
+      ],
+      "handbookPdfPages": [
+        23,
+        24
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第141、142點（PDF第23頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=23"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第144點（PDF第24頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=24"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第130、205之2條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation112_22",
+      "officialAnswer": "B",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        273,
+        274,
+        275,
+        276
+      ],
+      "handbookPdfPages": [
+        41
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第273、274、275、276點（PDF第41頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=41"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation115_25",
+      "officialAnswer": "B",
+      "reviewedOptions": 4,
+      "handbookPoints": [],
+      "handbookPdfPages": [],
+      "sources": [
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第153之1、153之7條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation112_23",
+      "officialAnswer": "D",
+      "reviewedOptions": 4,
+      "handbookPoints": [],
+      "handbookPdfPages": [],
+      "sources": [
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "家庭暴力防治法第4、15、29、48條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
+        },
+        {
+          "title": "刑事訴訟法第92條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation112_44",
+      "officialAnswer": "B",
+      "reviewedOptions": 4,
+      "handbookPoints": [],
+      "handbookPdfPages": [],
+      "sources": [
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "組織犯罪防制條例第2、4、12條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000013"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation112_49",
+      "officialAnswer": "C",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        254,
+        256,
+        257
+      ],
+      "handbookPdfPages": [
+        39
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第254、256、257點（PDF第39頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=39"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation113_08",
+      "officialAnswer": "D",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        63
+      ],
+      "handbookPdfPages": [
+        11
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第63點（PDF第11頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第218條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation113_09",
+      "officialAnswer": "C",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        23,
+        64
+      ],
+      "handbookPdfPages": [
+        5,
+        11
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第23點（PDF第5頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第64點（PDF第11頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation113_10",
+      "officialAnswer": "D",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        65,
+        68
+      ],
+      "handbookPdfPages": [
+        11
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第65、68點（PDF第11頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation113_12",
+      "officialAnswer": "B",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        97
+      ],
+      "handbookPdfPages": [
+        16
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第97點（PDF第16頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=16"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation113_27",
+      "officialAnswer": "C",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        23
+      ],
+      "handbookPdfPages": [
+        5
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第23點（PDF第5頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation113_28",
+      "officialAnswer": "B",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        23
+      ],
+      "handbookPdfPages": [
+        5
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第23點（PDF第5頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation114_41",
+      "officialAnswer": "B",
+      "reviewedOptions": 4,
+      "handbookPoints": [],
+      "handbookPdfPages": [],
+      "sources": [
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第88、88之1條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation113_38",
+      "officialAnswer": "B",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        3
+      ],
+      "handbookPdfPages": [
+        3
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第3點（PDF第3頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第245條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "偵查不公開作業辦法第8、9條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation113_39",
+      "officialAnswer": "C",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        3
+      ],
+      "handbookPdfPages": [
+        3
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第3點（PDF第3頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第245條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "偵查不公開作業辦法第2、5、6、7、8、9條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation111_13",
+      "officialAnswer": "B",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        178,
+        180,
+        181
+      ],
+      "handbookPdfPages": [
+        29
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第178、180、181點（PDF第29頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=29"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "通訊保障及監察法第11之1條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation113_49",
+      "officialAnswer": "C",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        242
+      ],
+      "handbookPdfPages": [
+        36
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第242點（PDF第36頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=36"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "少年事件處理法第3、18條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010011"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation114_02",
+      "officialAnswer": "C",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        11
+      ],
+      "handbookPdfPages": [
+        3
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第11點（PDF第3頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=3"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第237、238條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "中華民國刑法第324條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation114_12",
+      "officialAnswer": "D",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        268,
+        269
+      ],
+      "handbookPdfPages": [
+        40
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第268、269點（PDF第40頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=40"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation114_23",
+      "officialAnswer": "A",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        263
+      ],
+      "handbookPdfPages": [
+        39
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第263點（PDF第39頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=39"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation114_30",
+      "officialAnswer": "B",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        40
+      ],
+      "handbookPdfPages": [
+        8
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第40點（PDF第8頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=8"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation114_33",
+      "officialAnswer": "D",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        88
+      ],
+      "handbookPdfPages": [
+        15
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第88點（PDF第15頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=15"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation114_35",
+      "officialAnswer": "C",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        93
+      ],
+      "handbookPdfPages": [
+        15
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第93點（PDF第15頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=15"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation114_04",
+      "officialAnswer": "C",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        15,
+        16,
+        17
+      ],
+      "handbookPdfPages": [
+        4
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第15、16、17點（PDF第4頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=4"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "中華民國刑法第62條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+        },
+        {
+          "title": "最高法院72年台上字第641號全文・僅引用發覺標準，一般裁判參考效力",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=B%2C72%2C%E5%8F%B0%E4%B8%8A%2C641%2C001&type=J"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation114_37",
+      "officialAnswer": "D",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        90,
+        92
+      ],
+      "handbookPdfPages": [
+        15
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第90、92點（PDF第15頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=15"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation115_16",
+      "officialAnswer": "A",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        241
+      ],
+      "handbookPdfPages": [
+        36
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第241點（PDF第36頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=36"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "軍事審判法第1條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=F0120008"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "targetId": "investigation115_46",
+      "officialAnswer": "A",
+      "reviewedOptions": 4,
+      "handbookPoints": [
+        23
+      ],
+      "handbookPdfPages": [
+        5
+      ],
+      "sources": [
+        {
+          "title": "警專公開115版偵查犯罪手冊第23點（PDF第5頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "verified": true
+    }
+  ],
+  "handbookPoints": [
+    3,
+    4,
+    6,
+    11,
+    15,
+    16,
+    17,
+    23,
+    37,
+    40,
+    41,
+    42,
+    43,
+    51,
+    52,
+    57,
+    58,
+    59,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    68,
+    75,
+    78,
+    79,
+    88,
+    90,
+    91,
+    92,
+    93,
+    95,
+    97,
+    141,
+    142,
+    144,
+    178,
+    180,
+    181,
+    241,
+    242,
+    243,
+    254,
+    255,
+    256,
+    257,
+    263,
+    268,
+    269,
+    273,
+    274,
+    275,
+    276
+  ],
+  "handbookPdfPages": [
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    13,
+    15,
+    16,
+    23,
+    24,
+    29,
+    36,
+    37,
+    39,
+    40,
+    41
+  ],
+  "statuteArticles": {
+    "criminal": [
+      "130",
+      "153-1",
+      "153-7",
+      "205-2",
+      "218",
+      "237",
+      "238",
+      "245",
+      "248-1",
+      "34",
+      "88",
+      "88-1",
+      "92"
+    ],
+    "secrecy": [
+      "2",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "police-arms": [
+      "4",
+      "5",
+      "6"
+    ],
+    "juvenile": [
+      "18",
+      "18-5",
+      "18-6",
+      "3"
+    ],
+    "sex-assault": [
+      "16"
+    ],
+    "telecom": [
+      "11-1",
+      "13",
+      "3",
+      "5",
+      "6"
+    ],
+    "organized": [
+      "12",
+      "2",
+      "4"
+    ],
+    "penal": [
+      "324",
+      "349",
+      "62"
+    ],
+    "military": [
+      "1"
+    ],
+    "visit": [
+      "2",
+      "5"
+    ],
+    "police-powers": [
+      "12"
+    ],
+    "domestic": [
+      "15",
+      "29",
+      "4",
+      "48"
+    ]
+  },
+  "retrievals": [
+    {
+      "key": "handbook115",
+      "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968",
+      "retrievedAt": "2026-11-19T13:11:35.763121+00:00",
+      "response": "200 200 application/octet-stream",
+      "exitCode": 0,
+      "sha256": "d94a126e781162ca142a9fc462f80a101f2c3a8d7ed3e718cbed132b581af658",
+      "bytes": 810586
+    },
+    {
+      "key": "handbook-index",
+      "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php",
+      "retrievedAt": "2026-11-19T13:11:35.763481+00:00",
+      "response": "200 200 text/html; charset=UTF-8",
+      "exitCode": 0,
+      "sha256": "4ebd3e24e86e187ff0f56b7414b8b220b15ac5174c09a06a4f35a1e095b27b46",
+      "bytes": 28229
+    },
+    {
+      "key": "criminal",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001",
+      "retrievedAt": "2026-11-19T13:11:35.764172+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "9d09cdf6fd114e2986e3db2a01b8222ed972c63e758f9799bb70c7171218f5f1",
+      "bytes": 461226
+    },
+    {
+      "key": "penal",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001",
+      "retrievedAt": "2026-11-19T13:11:41.234384+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "bbfcd7ede23bbcef09c4eb41e188e5cf7bd0117d4f2494458501592fd5d69fbc",
+      "bytes": 272768
+    },
+    {
+      "key": "police-arms",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042",
+      "retrievedAt": "2026-11-19T13:11:41.336804+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "2d4aef64db62059c8bcadc0b4d54e72cc6774d9127f0b95642a6322443af8d8c",
+      "bytes": 53395
+    },
+    {
+      "key": "juvenile",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010011",
+      "retrievedAt": "2026-11-19T13:11:43.687306+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "a90b34b9b57141497561ea950607c52214be03ac7fcae6e0ff8a87af999aaa47",
+      "bytes": 129456
+    },
+    {
+      "key": "telecom",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044",
+      "retrievedAt": "2026-11-19T13:11:46.506143+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "2c508352cf17414974f49d9c3c9c16e30b0b403e19e4a8da8b9ce5f2ab6747d5",
+      "bytes": 82610
+    },
+    {
+      "key": "secrecy",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028",
+      "retrievedAt": "2026-11-19T13:11:46.506556+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "48afdc44a7a04e9ac34e071682863263422bb2c64fe96725bd39926b87af6144",
+      "bytes": 55537
+    },
+    {
+      "key": "organized",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000013",
+      "retrievedAt": "2026-11-19T13:11:47.305378+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "3d86a6803f9b8c07c9d2369ec3a54686307d475dc738ba07ce347be91a350271",
+      "bytes": 55549
+    },
+    {
+      "key": "military",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=F0120008",
+      "retrievedAt": "2026-11-19T13:11:47.923892+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "aaddc72a2105fdb85f9222bc99088ec78d14dbf43be6671c377c0359fd71b71a",
+      "bytes": 179895
+    },
+    {
+      "key": "domestic",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071",
+      "retrievedAt": "2026-11-19T13:18:32.473480+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "1bb6a1f04ec1af3c9c0265adaae5f9bb53dacbd4d2f719461e817a313d0f56de",
+      "bytes": 109767
+    },
+    {
+      "key": "sex-assault",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079",
+      "retrievedAt": "2026-11-19T13:24:03.039104+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "45a9da630cc8aa6ad4ed4a45d23a0bd775a271c8af44676b33de67bbd4e27510",
+      "bytes": 94515
+    },
+    {
+      "key": "sex-police-principles",
+      "url": "https://dep.mohw.gov.tw/DOPs/fp-1287-14973-105.html",
+      "retrievedAt": "2026-11-19T13:24:06.153076+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "698f3e04c841d2784507b93153854b2ec505155101fec5a5d088324e670dbc12",
+      "bytes": 23615
+    },
+    {
+      "key": "taoyuan-victim-sop",
+      "url": "https://www.typd.gov.tw/uploads/files/public/B001010.pdf",
+      "retrievedAt": "2026-11-19T13:24:08.833418+00:00",
+      "response": "000 200 ",
+      "exitCode": 28,
+      "sha256": null,
+      "bytes": null
+    },
+    {
+      "key": "surrender-judgment",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=B%2C72%2C%E5%8F%B0%E4%B8%8A%2C641%2C001&type=J",
+      "retrievedAt": "2026-11-19T13:28:53.456626+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "936ba1ca13593d2b72b25b8f05eb76dc2d2dd3bc61aa95a90eb32b03c18fdc60",
+      "bytes": 21792
+    },
+    {
+      "key": "visit",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147",
+      "retrievedAt": "2026-11-19T13:41:53.838369+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "a657029cab15f576072615e21f90b1a513cc469ba1abd08c7ad146dbb9391d4f",
+      "bytes": 49110
+    },
+    {
+      "key": "police-powers",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145",
+      "retrievedAt": "2026-11-19T13:41:54.584620+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "0c76c888137d65c8974c6c333d37de6f7700db4fafa1a64d5c435883e0975d8b",
+      "bytes": 67599
+    }
+  ],
+  "sourceTexts": [
+    "legal-sources/investigation-115-batch50-excerpt.txt",
+    "legal-sources/statutes-batch50-excerpt.txt",
+    "legal-sources/official-principles-judgment-batch50-excerpt.txt"
+  ],
+  "scope": "逐題核對官方公開115版引用條點及所引現行法，補200選項條件與例外；原題、官方給分、個人資料保持。未宣稱所有舊版完全同文或全部沿革已齊；少年曝險以現行主法優先，通訊紀錄與監察分開，行政分工不創設強制權。自首裁判只作一般裁判參考，不沿用舊法必減效果；94年性侵處理原則只引第7條文書格式，其他舊制引法不當作最新規範。",
+  "notCountedCandidates": [
+    {
+      "targetId": "investigation110_42",
+      "reason": "特定鑑識順序須補刑事鑑識手冊原件，一般偵查手冊不足以證明全部選項。",
+      "modified": false,
+      "verified": false
+    },
+    {
+      "targetId": "investigation112_04",
+      "reason": "技術投單的具體核決及內部流程原件未齊，不僅憑法律一般授權判已核。",
+      "modified": false,
+      "verified": false
+    },
+    {
+      "targetId": "investigation112_12",
+      "reason": "紅燈等最佳時機敘述不見新版完整對應，待原版教範。",
+      "modified": false,
+      "verified": false
+    },
+    {
+      "targetId": "investigation112_25",
+      "reason": "特定現場跡證處理順序須補鑑識手冊，不以一般條點替代。",
+      "modified": false,
+      "verified": false
+    },
+    {
+      "targetId": "investigation112_37",
+      "reason": "公用電話最安全等絕對措辭欠完整原規範及條件。",
+      "modified": false,
+      "verified": false
+    },
+    {
+      "targetId": "investigation113_33",
+      "reason": "新版網路犯罪分類不直接將所有虛擬貨幣列同類，仍待原題版本。",
+      "modified": false,
+      "verified": false
+    },
+    {
+      "targetId": "investigation113_43",
+      "reason": "通知期間涉及證人與嫌疑人及聯繫辦法完整對照，不能全歸刑訴。",
+      "modified": false,
+      "verified": false
+    },
+    {
+      "targetId": "investigation114_36",
+      "reason": "C的監視目的與新版部分相合，不能只靠官方D推論C全無依據；待舊版及語意對照。",
+      "modified": false,
+      "verified": false
+    }
+  ],
+  "unavailableOptionalSource": "地方機關性侵處理原則PDF連線逾時，未引用也未列為成功取回；改以中央衛福部公開第7條原文及現行性侵法對照。"
+}
