@@ -1,0 +1,147 @@
+{
+  "checkedAt": "2026-11-19",
+  "timezone": "Asia/Taipei",
+  "retrievals": [
+    {
+      "key": "handbook115",
+      "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968",
+      "retrievedAt": "2026-11-19T11:02:15.328093+00:00",
+      "response": "200 200 application/octet-stream",
+      "exitCode": 0,
+      "sha256": "d94a126e781162ca142a9fc462f80a101f2c3a8d7ed3e718cbed132b581af658",
+      "bytes": 810586
+    },
+    {
+      "key": "handbook-index",
+      "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php",
+      "retrievedAt": "2026-11-19T11:02:21.280385+00:00",
+      "response": "200 200 text/html; charset=UTF-8",
+      "exitCode": 0,
+      "sha256": "4ebd3e24e86e187ff0f56b7414b8b220b15ac5174c09a06a4f35a1e095b27b46",
+      "bytes": 28229
+    },
+    {
+      "key": "criminal92",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92",
+      "retrievedAt": "2026-11-19T11:02:23.650067+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "d16bf562b4391062df9909cd843fe754d603cbe14db2a5cd27bf76caff3be9e8",
+      "bytes": 43971
+    },
+    {
+      "key": "criminal229",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=229",
+      "retrievedAt": "2026-11-19T11:02:26.197037+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "b202bf7f12c8064f1f4375ef86aa8c76e723f02f60ec0cdf8bcbaf1bd2397298",
+      "bytes": 44600
+    },
+    {
+      "key": "criminal230",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=230",
+      "retrievedAt": "2026-11-19T11:02:27.633642+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "f1dcdffea9a965e0bdad894fea212e6ed53dd2b06a13742e994b175e6f3eafaf",
+      "bytes": 44654
+    },
+    {
+      "key": "drug-law",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000008",
+      "retrievedAt": "2026-11-19T11:02:28.854944+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "779383f8aea85b52a80ce804a0d5e14c4f4f3aaadd51733cf17c7652396cd6e5",
+      "bytes": 87424
+    },
+    {
+      "key": "juvenile18",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010011&flno=18",
+      "retrievedAt": "2026-11-19T11:02:29.181383+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "c2abfc0c9010f9a7c2a948d44e88a103c0f362bc716f6626659bc4bed61c9e85",
+      "bytes": 46315
+    },
+    {
+      "key": "military1",
+      "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=F0120008&flno=1",
+      "retrievedAt": "2026-11-19T11:02:29.753191+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "406089811cc485d36e689f98262dc0621730bcafbca88c65063e1468757e2feb",
+      "bytes": 44536
+    }
+  ],
+  "schedule3": {
+    "url": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000318789&lan=C",
+    "httpStatus": 200,
+    "connectStatus": 200,
+    "checkedAt": "2026-11-19",
+    "sha256": "8bfda8f452797298341eada9895317cf5d9e2eea66508ebd1e9206146bdc7496",
+    "item": 19,
+    "classification": "第三級毒品・愷他命"
+  },
+  "handbookPoints": [
+    22,
+    212,
+    213,
+    214,
+    217,
+    218
+  ],
+  "handbookPdfPages": [
+    5,
+    33,
+    34
+  ],
+  "sourceTexts": [
+    "legal-sources/investigation-115-transfer-jurisdiction-excerpt.txt",
+    "legal-sources/drug-classification-transfer-excerpt.txt"
+  ],
+  "targets": [
+    "investigation110_09",
+    "investigation110_41",
+    "investigation111_43",
+    "investigation113_50",
+    "investigation115_13",
+    "investigation111_44",
+    "investigation113_01"
+  ],
+  "eventId": "legal-review-20261119-transfer-jurisdiction",
+  "baselineGit": "7a046c0023eb4ad375d7b656de9397e8577160c6",
+  "previousDeployment": 40,
+  "scope": "依官方公開115版逐項對照並補法源，保留原題與官方給分；分案份數不等同正式格式。境外案件僅核警察內部分工，不認定特定境外竊盜必適用我國刑法。軍人不因身分自動另分一案。未以本批核對取代其他年度完整手冊沿革、司法判斷或所有後續函釋。",
+  "deferred": [
+    {
+      "targetId": "investigation111_18",
+      "reason": "扣押物暫存及移送原始流程尚未齊全，不能僅憑官方答案將刑訴第140條容許的保管方式泛稱錯誤；本批不修改或標已核。"
+    }
+  ],
+  "validation": {
+    "unchangedQuestions": 910,
+    "unchangedEssays": 66,
+    "unchangedLaws": 33,
+    "unchangedHistory": 36,
+    "changedQuestions": 7,
+    "counts": {
+      "questionsNotVerified": 389,
+      "essaysNotVerified": 27,
+      "reviewFilter": 390
+    },
+    "checksPassed": [
+      "curated event schema and transfer/jurisdiction regressions",
+      "300 investigation questions and 1200 original options with official scoring",
+      "910 original question stems, options and scoring unchanged",
+      "66 original essays and scoring unchanged",
+      "33 law cards unchanged",
+      "36 existing curated events unchanged",
+      "raw data and replayed legal explanations agree",
+      "TypeScript noEmit",
+      "changed regression script ESLint",
+      "pnpm build"
+    ]
+  }
+}

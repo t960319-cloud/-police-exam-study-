@@ -385,3 +385,34 @@ const mediation=result.questions.find(q=>q.id==='investigation113_02');assert(me
 const surrender=result.questions.find(q=>q.id==='investigation111_26');assert(surrender.options[1].correction.includes('得而非一律必減'));
 const confession=result.questions.find(q=>q.id==='investigation113_32');assert(confession.currentAnswer.includes('自白'));assert(confession.options[2].explanation.includes('未發覺'));
 console.log('Reporting, complaint, mediation, surrender and confession explanations preserve all six original keys.');
+
+// Keep case grouping, document format and custody exceptions separate after event replay.
+for(const [id,key] of [['investigation110_09',3],['investigation110_41',0],['investigation111_43',2],['investigation113_50',1],['investigation115_13',2],['investigation111_44',0],['investigation113_01',0]]){
+ const q=result.questions.find(x=>x.id===id);assert(q?.verified);assert.equal(q.answer,key);assert.notEqual(q.analysisMode,'answer-key');
+ assert(q.options.every(o=>!o.explanation.includes('本項不在當年度官方接受答案')));
+}
+const groupedTransfer=result.questions.find(q=>q.id==='investigation110_09');
+assert(groupedTransfer.options[3].explanation.includes('1＋1＋1＋1＝4'));
+assert(groupedTransfer.options[3].explanation.includes('純質淨重5公克'));
+assert(groupedTransfer.options[3].correction.includes('行政責任'));
+assert(groupedTransfer.currentAnswer.includes('僅因丁為軍人'));
+assert(groupedTransfer.currentAnswer.includes('正式使用移送書或報告書'));
+const exemptEscort=result.questions.find(q=>q.id==='investigation110_41');
+assert(exemptEscort.options[0].correction.includes('檢察官許可'));
+assert(exemptEscort.options[1].explanation.includes('最重本刑一年以下'));
+const referralType=result.questions.find(q=>q.id==='investigation111_43');
+assert(referralType.options[2].explanation.includes('第212點第2款'));
+assert(referralType.options[2].correction.includes('並非未調查完一概不得函送'));
+const paperFormat=result.questions.find(q=>q.id==='investigation113_50');
+assert(paperFormat.options[1].correction.includes('移送書'));
+assert(paperFormat.options[2].explanation.includes('少年事件用移送書'));
+const wantedPaper=result.questions.find(q=>q.id==='investigation115_13');
+assert(wantedPaper.options[3].explanation.includes('無另犯他罪'));
+assert(wantedPaper.options[3].explanation.includes('通緝或協尋案件移送書'));
+const overseasOrder=result.questions.find(q=>q.id==='investigation111_44');
+assert(overseasOrder.currentAnswer.includes('現住地、工作地、家屬現住地'));
+const overseasTheft=result.questions.find(q=>q.id==='investigation113_01');
+assert(overseasTheft.options[3].explanation.includes('不能推回報案'));
+assert(overseasTheft.currentAnswer.includes('不能由手冊直接推導可在境外搜捕'));
+assert.equal(result.questions.find(q=>q.id==='investigation111_18').verified,false);
+console.log('Transfer grouping, custody permission, special forms and overseas police assignment passed.');

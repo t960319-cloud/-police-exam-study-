@@ -973,26 +973,26 @@
       "options": [
         {
           "text": "內政部警政署保安警察第三總隊用報告書",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：一般地方警察分局採刑事案件報告書；本題彰化溪湖分局符合，專業總隊與少年協尋另判斷。",
+          "explanation": "依手冊第214點第1款，警察總隊用移送書；保安警察第三總隊不是第2款的大隊。",
+          "correction": "A錯誤，應用移送書。",
           "trueStatement": false
         },
         {
           "text": "新北市政府警察局刑事警察大隊用移送書",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：一般地方警察分局採刑事案件報告書；本題彰化溪湖分局符合，專業總隊與少年協尋另判斷。",
+          "explanation": "刑事警察大隊依第214點第2款，一般刑案用報告書；不能因其隸屬警察局，就直接改用警察局名義的格式。",
+          "correction": "B錯誤，大隊一般案件用報告書；仍須留意少年或通緝／協尋等特別類型。",
           "trueStatement": false
         },
         {
           "text": "彰化縣警察局溪湖警察分局用報告書",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "一般地方警察分局採刑事案件報告書；本題彰化溪湖分局符合，專業總隊與少年協尋另判斷。",
+          "explanation": "溪湖警察分局屬第214點第2款所列警察分局，一般刑案使用報告書，與規定相符。",
+          "correction": "C正確；判斷辦理移送的機關層級，並再檢視有無特別案件格式。",
           "trueStatement": true
         },
         {
           "text": "單純未涉他案之少年協尋案件用報告書",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：一般地方警察分局採刑事案件報告書；本題彰化溪湖分局符合，專業總隊與少年協尋另判斷。",
+          "explanation": "第214點第3款規定通緝或協尋案件無另犯他罪者，用通緝或協尋案件移送書；第4款另定少年事件用移送書。本項單純少年協尋不能套用一般報告書。",
+          "correction": "D錯誤；依協尋或少年事件的具體類別選用適用移送書，不以一般報告書概括處理。",
           "trueStatement": false
         }
       ],
@@ -1003,19 +1003,43 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第13題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 13,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第214點；刑事訴訟法第229、230條；少年事件處理法第18條",
+        "checkedAt": "2026-11-19",
+        "note": "已逐項對照警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條；保留原題、選項與當年官方給分。本次是法源及詳解核對，不以附件名稱推定修正、施行日期，也不宣稱已查盡後續函釋。",
+        "oldRule": "本站原解析主要依官方接受答案判讀，未逐項交代分案、函送、文書格式或境外案件分工的依據與界線。",
+        "newRule": "先看移送名義是總隊、大隊或分局，再檢查少年、通緝及協尋的特別格式；不能只看上級機關名稱。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第212至218點（PDF33至34頁）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=33"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "刑事訴訟法第229條・協助偵查及移送",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=229"
+          },
+          {
+            "title": "刑事訴訟法第230條・受指揮偵查及報告",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=230"
+          },
+          {
+            "title": "少年事件處理法第18條・觸法少年事件移送少年法院",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010011&flno=18"
+          }
+        ]
       },
-      "takeaway": "一般地方警察分局採刑事案件報告書；本題彰化溪湖分局符合，專業總隊與少年協尋另判斷。",
+      "takeaway": "先看移送名義是總隊、大隊或分局，再檢查少年、通緝及協尋的特別格式；不能只看上級機關名稱。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -1032,8 +1056,29 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第212至218點（PDF33至34頁）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=33"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第229條・協助偵查及移送",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=229"
+        },
+        {
+          "title": "刑事訴訟法第230條・受指揮偵查及報告",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=230"
+        },
+        {
+          "title": "少年事件處理法第18條・觸法少年事件移送少年法院",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010011&flno=18"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C不變：溪湖分局一般刑案用報告書。總隊與大隊分屬移送書及報告書；單純無另犯他罪的協尋，以及少年事件，另有特別移送書格式。"
     },
     {
       "id": "investigation115_14",

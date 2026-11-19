@@ -22,26 +22,26 @@
       "options": [
         {
           "text": "新北市政府警察局三重分局",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "境外受害案件優先以被害人現住地決定，本題為新北市三重分局；出發機場不當然取得管轄。",
+          "explanation": "依題意以旅途中境外受竊判斷，第22點第2項第2款先以被害人現住地決定管轄警察機關；甲現住三重，故由三重分局依規定偵處。",
+          "correction": "A正確；此處回答警察機關間的案件分工，不等於已認定我國刑法對個案有域外適用。",
           "trueStatement": true
         },
         {
           "text": "臺北市政府警察局中山分局",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：境外受害案件優先以被害人現住地決定，本題為新北市三重分局；出發機場不當然取得管轄。",
+          "explanation": "中山區是甲的工作地，屬境外案件分工的第二順位；題目已明示第一順位的現住地在三重。",
+          "correction": "不能跳過現住地而優先用工作地。",
           "trueStatement": false
         },
         {
           "text": "桃園市政府警察局大園分局",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：境外受害案件優先以被害人現住地決定，本題為新北市三重分局；出發機場不當然取得管轄。",
+          "explanation": "大園是出境機場所在地，題目沒有將它指為竊盜行為地或結果地；單憑從該機場出發，不會取得本題境外受竊案件的優先分工。",
+          "correction": "依境外案件的特別順序，先看被害人現住地。",
           "trueStatement": false
         },
         {
           "text": "航空警察局刑事警察大隊",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：境外受害案件優先以被害人現住地決定，本題為新北市三重分局；出發機場不當然取得管轄。",
+          "explanation": "向航警刑大報案不代表該單位因此成為第22點的管轄機關。受理與分工須區分，應受理後依規定處理及移轉，不能推回報案。",
+          "correction": "不能以先受理取代管轄判斷；本題依現住地分工至三重分局，跨境調查仍須另依法定程序。",
           "trueStatement": false
         }
       ],
@@ -52,19 +52,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第1題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 1,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第22點第2項第2款；單一窗口受理與管轄分別判斷",
+        "checkedAt": "2026-11-19",
+        "note": "已逐項對照警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條；保留原題、選項與當年官方給分。本次是法源及詳解核對，不以附件名稱推定修正、施行日期，也不宣稱已查盡後續函釋。",
+        "oldRule": "本站原解析主要依官方接受答案判讀，未逐項交代分案、函送、文書格式或境外案件分工的依據與界線。",
+        "newRule": "境外受竊先依被害人現住地分工；報案單位應受理，機場出發地與工作地不當然優先。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第22點・境外案件分工（PDF5頁）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "境外受害案件優先以被害人現住地決定，本題為新北市三重分局；出發機場不當然取得管轄。",
+      "takeaway": "境外受竊先依被害人現住地分工；報案單位應受理，機場出發地與工作地不當然優先。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -77,8 +89,17 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113060&t=A"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第22點・境外案件分工（PDF5頁）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A不變：依題意之境外受竊，優先由被害人現住地三重分局負責警察內部分工；工作地、出發機場及報案單位均不取代此順位。受理後仍須審查我國刑法適用、司法管轄及跨境合作程序，不能由手冊直接推導可在境外搜捕。"
     },
     {
       "id": "investigation113_02",
@@ -3521,26 +3542,26 @@
       "options": [
         {
           "text": "內政部警政署鐵路警察局花蓮分局用刑事案件報告書",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題高雄港務警察總隊不採選項所寫的刑事案件報告書；須依機關類型與少年案件規定區分。",
+          "explanation": "手冊第214點第2款將警察分局列為使用報告書的機關。此處移送名義為花蓮分局，不能因其上級名稱含鐵路警察局，就改套警察局用移送書。",
+          "correction": "A正確；依實際辦理移送的機關層級及案件特別類別判斷。",
           "trueStatement": true
         },
         {
           "text": "高雄港務警察總隊用刑事案件報告書",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "本題高雄港務警察總隊不採選項所寫的刑事案件報告書；須依機關類型與少年案件規定區分。",
+          "explanation": "高雄港務警察總隊屬警察總隊，依第214點第1款應用移送書；B寫報告書，與該款不符。",
+          "correction": "B是本題錯誤敘述；應改為刑事案件移送書。",
           "trueStatement": false
         },
         {
           "text": "新北市政府警察局中和分局少年事件用刑事案件移送書",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題高雄港務警察總隊不採選項所寫的刑事案件報告書；須依機關類型與少年案件規定區分。",
+          "explanation": "第214點第4款特別規定少年事件用移送書；即使辦理單位是分局，也不能只套第2款的一般報告書。少年事件處理法第18條另定觸法少年事件移送少年法院。",
+          "correction": "C正確；少年事件的特別格式應與一般刑事案件分開。",
           "trueStatement": true
         },
         {
           "text": "保安警察第三總隊用刑事案件移送書",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題高雄港務警察總隊不採選項所寫的刑事案件報告書；須依機關類型與少年案件規定區分。",
+          "explanation": "保安警察第三總隊為警察總隊，依第214點第1款使用移送書，敘述正確。",
+          "correction": "D正確；總隊用移送書，大隊的一般案件用報告書，兩者不可混淆。",
           "trueStatement": true
         }
       ],
@@ -3551,19 +3572,43 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第50題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 50,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第214點；刑事訴訟法第229、230條；少年事件處理法第18條",
+        "checkedAt": "2026-11-19",
+        "note": "已逐項對照警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條；保留原題、選項與當年官方給分。本次是法源及詳解核對，不以附件名稱推定修正、施行日期，也不宣稱已查盡後續函釋。",
+        "oldRule": "本站原解析主要依官方接受答案判讀，未逐項交代分案、函送、文書格式或境外案件分工的依據與界線。",
+        "newRule": "署、局、總隊用移送書；分局、大隊、中隊、隊用報告書。少年及無另犯他罪的通緝／協尋案件另依特別格式。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第212至218點（PDF33至34頁）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=33"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "刑事訴訟法第229條・協助偵查及移送",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=229"
+          },
+          {
+            "title": "刑事訴訟法第230條・受指揮偵查及報告",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=230"
+          },
+          {
+            "title": "少年事件處理法第18條・觸法少年事件移送少年法院",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010011&flno=18"
+          }
+        ]
       },
-      "takeaway": "本題高雄港務警察總隊不採選項所寫的刑事案件報告書；須依機關類型與少年案件規定區分。",
+      "takeaway": "署、局、總隊用移送書；分局、大隊、中隊、隊用報告書。少年及無另犯他罪的通緝／協尋案件另依特別格式。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -3576,8 +3621,29 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113060&t=A"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第212至218點（PDF33至34頁）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=33"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第229條・協助偵查及移送",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=229"
+        },
+        {
+          "title": "刑事訴訟法第230條・受指揮偵查及報告",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=230"
+        },
+        {
+          "title": "少年事件處理法第18條・觸法少年事件移送少年法院",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010011&flno=18"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B不變：港務警察總隊依第214點第1款用移送書；分局一般案件用報告書，少年事件另有移送書特別規定。"
     }
   ],
   "essays": []

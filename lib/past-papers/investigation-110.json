@@ -570,26 +570,26 @@
       "options": [
         {
           "text": "1",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：原卷依一般犯罪、毒品、少年及軍人相關案件的分案規定計為4張；須逐一區分人員身分與案件性質。",
+          "explanation": "只用一份會把少年與成年人、以及兩人的毒品案件全部合併，違反手冊第217點的分案規則。",
+          "correction": "先將成年竊盜與少年事件分開，再將甲、乙各自的持有或施用毒品案另案移送。",
           "trueStatement": false
         },
         {
           "text": "2",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：原卷依一般犯罪、毒品、少年及軍人相關案件的分案規定計為4張；須逐一區分人員身分與案件性質。",
+          "explanation": "即使已將成年竊盜與少年事件分成兩份，仍漏計甲、乙依第217點另案分開、一人一案的毒品案件。",
+          "correction": "成年竊盜1份、少年丙1份、甲毒品1份、乙毒品1份，共4份。",
           "trueStatement": false
         },
         {
           "text": "3",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：原卷依一般犯罪、毒品、少年及軍人相關案件的分案規定計為4張；須逐一區分人員身分與案件性質。",
+          "explanation": "不能將甲與乙的毒品案件合成一份；第217點要求持有、施用毒品案件另案分開、一人一案。甲同時持有並施用，亦不是因此固定再拆為兩份。",
+          "correction": "本題甲、乙各計一個毒品案，加上成年竊盜及少年事件，共4份。",
           "trueStatement": false
         },
         {
           "text": "4",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "原卷依一般犯罪、毒品、少年及軍人相關案件的分案規定計為4張；須逐一區分人員身分與案件性質。",
+          "explanation": "依第217點：甲乙丁的成年竊盜共1份，少年丙另1份，甲的安非他命案及乙的大麻案各1份，合計1＋1＋1＋1＝4。安非他命、大麻屬第二級毒品；愷他命列附表三第19項，丁持有4公克未達第11條第5項的純質淨重5公克門檻，題目亦未敘販賣等其他犯罪，故不為丁另計一個持有毒品刑案。",
+          "correction": "D正確。低於刑事持有門檻不等於合法，仍須依第11條之1判斷行政責任；也不能僅因丁為軍人即另分一案。",
           "trueStatement": true
         }
       ],
@@ -600,19 +600,47 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第9題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 9,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第214、217點；少年事件處理法第18條；毒品危害防制條例第2、10、11、11之1條及附表三；軍事審判法第1條",
+        "checkedAt": "2026-11-19",
+        "note": "已逐項對照警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條；保留原題、選項與當年官方給分。本次是法源及詳解核對，不以附件名稱推定修正、施行日期，也不宣稱已查盡後續函釋。",
+        "oldRule": "本站原解析主要依官方接受答案判讀，未逐項交代分案、函送、文書格式或境外案件分工的依據與界線。",
+        "newRule": "分案看少年與成年人、毒品一人一案；本題4份。愷他命持有刑事門檻為純質淨重5公克，行政責任另論；份數與正式格式分開判斷。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第212至218點（PDF33至34頁）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=33"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "毒品危害防制條例第2、10、11、11之1條・分級、刑事與行政責任",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000008"
+          },
+          {
+            "title": "毒品危害防制條例附表三・第三級毒品第19項愷他命",
+            "url": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000318789&lan=C"
+          },
+          {
+            "title": "少年事件處理法第18條・觸法少年事件移送少年法院",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010011&flno=18"
+          },
+          {
+            "title": "軍事審判法第1條・現役軍人非戰時之追訴程序",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=F0120008&flno=1"
+          }
+        ]
       },
-      "takeaway": "原卷依一般犯罪、毒品、少年及軍人相關案件的分案規定計為4張；須逐一區分人員身分與案件性質。",
+      "takeaway": "分案看少年與成年人、毒品一人一案；本題4份。愷他命持有刑事門檻為純質淨重5公克，行政責任另論；份數與正式格式分開判斷。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -625,8 +653,33 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第212至218點（PDF33至34頁）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=33"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "毒品危害防制條例第2、10、11、11之1條・分級、刑事與行政責任",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000008"
+        },
+        {
+          "title": "毒品危害防制條例附表三・第三級毒品第19項愷他命",
+          "url": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000318789&lan=C"
+        },
+        {
+          "title": "少年事件處理法第18條・觸法少年事件移送少年法院",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010011&flno=18"
+        },
+        {
+          "title": "軍事審判法第1條・現役軍人非戰時之追訴程序",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=F0120008&flno=1"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D（4份）不變：成年竊盜1、少年丙1、甲毒品1、乙毒品1。題目未敘戰時或其他應受軍事審判情形，不能僅因丁為軍人再加一份；愷他命4公克亦不因此成立持有第三級毒品達量刑案。題幹泛稱移送書是在問分案文書份數，正式使用移送書或報告書，仍另依第214點及移送名義判斷。"
     },
     {
       "id": "investigation110_10",
@@ -2802,26 +2855,26 @@
       "options": [
         {
           "text": "告訴乃論之罪，經告訴人撤回告訴之案件",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "告訴乃論案件撤回告訴，經檢察官許可得按規定函送；不代表任何輕罪都可自行不解送。",
+          "explanation": "刑訴第92條第2項明列告訴或請求乃論之罪，告訴或請求已撤回或已逾告訴期間者，得經檢察官許可不予解送；A的撤回告訴符合其中一類。手冊第213點亦列告訴乃論撤告可函送。",
+          "correction": "A正確；免解須經檢察官許可，依手冊第218點將核准免予解送報告書附卷，並非警方自行決定。",
           "trueStatement": true
         },
         {
           "text": "所犯最重本刑為三年以下有期徒刑之案件",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：告訴乃論案件撤回告訴，經檢察官許可得按規定函送；不代表任何輕罪都可自行不解送。",
+          "explanation": "刑訴第92條第2項的刑度例外是最重本刑一年以下有期徒刑、拘役或專科罰金；B寫三年以下，範圍過寬。",
+          "correction": "將三年改為一年；符合刑度仍須經檢察官許可，才能依該條不予解送。",
           "trueStatement": false
         },
         {
           "text": "犯強制性交罪之案件，全案經調查完畢證據明確，被害人堅持提出告訴",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：告訴乃論案件撤回告訴，經檢察官許可得按規定函送；不代表任何輕罪都可自行不解送。",
+          "explanation": "全案調查完畢、證據明確及被害人堅持提告，均不是刑訴第92條所列免解條件；也不同於手冊第213點的犯罪證據不明確而堅持告訴。",
+          "correction": "不能以調查完成或堅持提告取代法定免解要件，現行犯仍應依法即時解送。",
           "trueStatement": false
         },
         {
           "text": "犯強盜殺人案件經調查完備，認定具有犯罪嫌疑者，被害人堅持提出告訴",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：告訴乃論案件撤回告訴，經檢察官許可得按規定函送；不代表任何輕罪都可自行不解送。",
+          "explanation": "強盜殺人案具有犯罪嫌疑且調查完備，應依手冊第212點移送或報告；所列事實未具備刑訴第92條免解例外。",
+          "correction": "被害人堅持提告不會使此類現行犯得僅以函送取代解送。",
           "trueStatement": false
         }
       ],
@@ -2832,19 +2885,35 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第41題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 41,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "刑事訴訟法第92條第2項；偵查犯罪手冊第212、213、218點",
+        "checkedAt": "2026-11-19",
+        "note": "已逐項對照警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條；保留原題、選項與當年官方給分。本次是法源及詳解核對，不以附件名稱推定修正、施行日期，也不宣稱已查盡後續函釋。",
+        "oldRule": "本站原解析主要依官方接受答案判讀，未逐項交代分案、函送、文書格式或境外案件分工的依據與界線。",
+        "newRule": "逮捕現行犯原則應即解送；法定例外加檢察官許可，才可免解。得函送不等於得自行釋放或免解。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第212至218點（PDF33至34頁）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=33"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "刑事訴訟法第92條・現行犯即時解送與檢察官許可例外",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92"
+          }
+        ]
       },
-      "takeaway": "告訴乃論案件撤回告訴，經檢察官許可得按規定函送；不代表任何輕罪都可自行不解送。",
+      "takeaway": "逮捕現行犯原則應即解送；法定例外加檢察官許可，才可免解。得函送不等於得自行釋放或免解。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -2857,8 +2926,21 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第212至218點（PDF33至34頁）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=33"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第92條・現行犯即時解送與檢察官許可例外",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A不變：告訴乃論撤告得經檢察官許可免予解送。刑度例外為最重本刑一年以下、拘役或專科罰金；函送案件類型與已逮捕現行犯的免解要件，必須分別審查。"
     },
     {
       "id": "investigation110_42",

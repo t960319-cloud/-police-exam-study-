@@ -3028,26 +3028,26 @@
       "options": [
         {
           "text": "告訴乃論案件，經撤回告訴，或尚未調查完竣，而告訴權人已向檢察官告訴",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：未調查完畢但已依法提起自訴或告訴的處理，要依手冊各類報告、移送或函送規定區分，不能任意併稱。",
+          "explanation": "本項對應手冊第213點第1款：告訴乃論案件撤告，或尚未調查完竣而告訴權人已向檢察官告訴，均在該點得函送範圍內。",
+          "correction": "A屬得函送類型，並非本題要選的不屬者；如涉及已拘捕者，仍須另審查解送規定。",
           "trueStatement": true
         },
         {
           "text": "證據證明力薄弱或行為事實是否構成犯罪顯有疑義",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：未調查完畢但已依法提起自訴或告訴的處理，要依手冊各類報告、移送或函送規定區分，不能任意併稱。",
+          "explanation": "本項即手冊第213點第2款，包含證據證明力薄弱，或行為事實是否構成犯罪顯有疑義兩類。",
+          "correction": "B屬得函送；警方不因此取得終局認定無罪的權限。",
           "trueStatement": true
         },
         {
           "text": "全案雖未調查完畢，但經依法提起自訴或向檢察官告訴",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "未調查完畢但已依法提起自訴或告訴的處理，要依手冊各類報告、移送或函送規定區分，不能任意併稱。",
+          "explanation": "此為手冊第212點第2款應將全案移送或報告的事由，範圍包括依法提起自訴；並非第213點另列的得函送類型。不能把第212點的整段文字直接當成第213點。",
+          "correction": "C為本題不屬者。若個案同時符合第213點第1款的告訴乃論且已向檢察官告訴，仍須依該特別條件判斷，並非未調查完一概不得函送。",
           "trueStatement": false
         },
         {
           "text": "犯罪證據不明確，但被害人堅持提出告訴",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：未調查完畢但已依法提起自訴或告訴的處理，要依手冊各類報告、移送或函送規定區分，不能任意併稱。",
+          "explanation": "本項與手冊第213點第3款相同：犯罪證據不明確，但被害人堅持提出告訴，得函送管轄法院或檢察署。",
+          "correction": "D屬得函送；重點是證據不明確，不能換成證據明確也一律免解。",
           "trueStatement": true
         }
       ],
@@ -3058,19 +3058,35 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第43題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 43,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第212、213、218點；刑事訴訟法第92條",
+        "checkedAt": "2026-11-19",
+        "note": "已逐項對照警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條；保留原題、選項與當年官方給分。本次是法源及詳解核對，不以附件名稱推定修正、施行日期，也不宣稱已查盡後續函釋。",
+        "oldRule": "本站原解析主要依官方接受答案判讀，未逐項交代分案、函送、文書格式或境外案件分工的依據與界線。",
+        "newRule": "第212點列應移送或報告，第213點列得函送；已拘捕者的解送或免解另依刑訴及第218點。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第212至218點（PDF33至34頁）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=33"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "刑事訴訟法第92條・現行犯即時解送與檢察官許可例外",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92"
+          }
+        ]
       },
-      "takeaway": "未調查完畢但已依法提起自訴或告訴的處理，要依手冊各類報告、移送或函送規定區分，不能任意併稱。",
+      "takeaway": "第212點列應移送或報告，第213點列得函送；已拘捕者的解送或免解另依刑訴及第218點。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -3083,8 +3099,21 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第212至218點（PDF33至34頁）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=33"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第92條・現行犯即時解送與檢察官許可例外",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C不變：C出自第212點第2款應移送或報告；A、B、D分別對應第213點三款得函送。兩點可能在具體事實上交集，仍應逐一核對條件，不能推論所有未調查完的案件都不得函送。"
     },
     {
       "id": "investigation111_44",
@@ -3096,26 +3125,26 @@
       "options": [
         {
           "text": "①②③",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "原卷順序為被害人現住地、工作地、家屬現住地，即①②③。",
+          "explanation": "手冊第22點第2項第2款明定，境外犯罪案件依被害人現住地、工作地、家屬現住地的次序決定管轄警察機關，正是①②③。",
+          "correction": "A正確；這是警察機關內部受理偵處的分工順序。",
           "trueStatement": true
         },
         {
           "text": "①③②",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原卷順序為被害人現住地、工作地、家屬現住地，即①②③。",
+          "explanation": "①③②雖先列被害人現住地，但把家屬現住地置於工作地之前，與第22點規定相反。",
+          "correction": "第二順位是被害人工作地，第三才是家屬現住地。",
           "trueStatement": false
         },
         {
           "text": "②①③",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原卷順序為被害人現住地、工作地、家屬現住地，即①②③。",
+          "explanation": "②①③把工作地排在被害人現住地之前，顛倒前兩順位。",
+          "correction": "先被害人現住地，再工作地，最後家屬現住地。",
           "trueStatement": false
         },
         {
           "text": "②③①",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原卷順序為被害人現住地、工作地、家屬現住地，即①②③。",
+          "explanation": "②③①將被害人現住地排到最後，亦不符合第22點的先後次序。",
+          "correction": "完整次序為①②③，不能任選其中一地。",
           "trueStatement": false
         }
       ],
@@ -3126,19 +3155,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第44題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 44,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第22點第2項第2款",
+        "checkedAt": "2026-11-19",
+        "note": "已逐項對照警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條；保留原題、選項與當年官方給分。本次是法源及詳解核對，不以附件名稱推定修正、施行日期，也不宣稱已查盡後續函釋。",
+        "oldRule": "本站原解析主要依官方接受答案判讀，未逐項交代分案、函送、文書格式或境外案件分工的依據與界線。",
+        "newRule": "境外案件的警察分工：被害人現住地→工作地→家屬現住地。刑法適用及法院管轄另依法判斷。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第22點・境外案件分工（PDF5頁）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "原卷順序為被害人現住地、工作地、家屬現住地，即①②③。",
+      "takeaway": "境外案件的警察分工：被害人現住地→工作地→家屬現住地。刑法適用及法院管轄另依法判斷。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -3151,8 +3192,17 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第22點・境外案件分工（PDF5頁）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A（①②③）不變。第22點的境外案件分工順序為被害人現住地、工作地、家屬現住地；此規定不直接決定法院管轄、我國刑法域外適用或境外執法權。"
     },
     {
       "id": "investigation111_45",

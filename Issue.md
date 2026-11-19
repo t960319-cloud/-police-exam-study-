@@ -723,3 +723,11 @@
 - 新增六題內容的pnpm build成功，保留既有大型分塊及路由分類提示；無新增型別、回歸或原卷錯誤。檢查後提交cd1a53c並推送GitHub；Sites來源正常快轉同一提交，讀回SHA確認，無強制覆寫。
 - 延用已驗證封裝格式，原生save回第40版，deploy回succeeded。正式API回39筆、無下一頁，36筆整理事件全部相同且前38筆歷史均保留；新六題詳解正式上線。讀回為匿名內容，未測正式學習寫入、跨裝置或還原，DB與public設定未改。
 - 證據：[第40版](docs/production-legal-followup-2026-11-19.json)。發布紀錄與待辦另經JSON、連結及差異檢查後同步Git；未為文件紀錄重跑未受影響的應用程式建置。
+
+
+### 2026-11-19：移送與境外案件七題檢查
+
+- 原件：手冊官方入口及PDF、刑訴第92／229／230條、少年事件第18條、軍審第1條、毒品條例及附表三均HTTP200／CONNECT200；手冊SHA與前批一致，第三級附表確認愷他命第19項。核對範圍及限制保留於[法源證據](docs/legal-evidence-2026-11-19-transfer-jurisdiction.json)，未以版名宣稱最新全部修正。
+- 通過：`node --experimental-strip-types scripts/check-curated-updates.mjs`、`node --experimental-strip-types scripts/check-investigation-papers.mjs`、`node node_modules/typescript/bin/tsc --noEmit`、修改檔ESLint及`pnpm build`。新增回歸檢查函送與免解、分案及毒品門檻、少年與協尋特別格式、境外分工順位與域外執法界線。
+- 一次性比對：全部910題原題／選項／官方給分、66題申論／配分、33張卡及36筆既有事件不變；7題原始詳解與事件套用後一致。未標已核389／27，綜合待核390。建置既有大型分塊及路由分類提示仍在，沒有新的檢查失敗。
+- 尚待：111犯罪偵查18扣押物暫存及移送完整原流程；B項與刑訴第140條保管方式的關係不能僅憑原官方A鍵斷言，故不修改或解除待核。其餘法規沿革依既有清單接續；本批不是正式帳號保存／跨裝置驗收，發布與正式匿名法規API另記。

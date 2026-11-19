@@ -13486,5 +13486,454 @@
       }
     ],
     "createdAt": 1795058351975
+  },
+  {
+    "eventId": "legal-review-20261119-transfer-jurisdiction",
+    "kind": "update",
+    "checkedAt": "2026-11-19",
+    "summary": "逐項補核110犯罪偵查9、41，111犯罪偵查43、44，113犯罪偵查1、50及115犯罪偵查13，共7題。依官方公開115版手冊第22、212至218點及相關現行法，補移送分案、函送與免解、正式文書格式及境外案件警察分工；保留原題和官方給分，非宣稱核對日修法。",
+    "sources": [
+      {
+        "title": "警專公開115版偵查犯罪手冊第212至218點（PDF33至34頁）",
+        "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=33"
+      },
+      {
+        "title": "警專刑事警察科・115年新版手冊官方附件入口",
+        "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+      },
+      {
+        "title": "毒品危害防制條例第2、10、11、11之1條・分級、刑事與行政責任",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000008"
+      },
+      {
+        "title": "毒品危害防制條例附表三・第三級毒品第19項愷他命",
+        "url": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000318789&lan=C"
+      },
+      {
+        "title": "少年事件處理法第18條・觸法少年事件移送少年法院",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010011&flno=18"
+      },
+      {
+        "title": "軍事審判法第1條・現役軍人非戰時之追訴程序",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=F0120008&flno=1"
+      },
+      {
+        "title": "刑事訴訟法第92條・現行犯即時解送與檢察官許可例外",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92"
+      },
+      {
+        "title": "刑事訴訟法第229條・協助偵查及移送",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=229"
+      },
+      {
+        "title": "刑事訴訟法第230條・受指揮偵查及報告",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=230"
+      },
+      {
+        "title": "警專公開115版偵查犯罪手冊第22點・境外案件分工（PDF5頁）",
+        "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "investigation110_09",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第214、217點；少年事件處理法第18條；毒品危害防制條例第2、10、11、11之1條及附表三；軍事審判法第1條",
+          "checkedAt": "2026-11-19",
+          "note": "已逐項對照警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條；保留原題、選項與當年官方給分。本次是法源及詳解核對，不以附件名稱推定修正、施行日期，也不宣稱已查盡後續函釋。",
+          "oldRule": "本站原解析主要依官方接受答案判讀，未逐項交代分案、函送、文書格式或境外案件分工的依據與界線。",
+          "newRule": "分案看少年與成年人、毒品一人一案；本題4份。愷他命持有刑事門檻為純質淨重5公克，行政責任另論；份數與正式格式分開判斷。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第212至218點（PDF33至34頁）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=33"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "毒品危害防制條例第2、10、11、11之1條・分級、刑事與行政責任",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000008"
+            },
+            {
+              "title": "毒品危害防制條例附表三・第三級毒品第19項愷他命",
+              "url": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000318789&lan=C"
+            },
+            {
+              "title": "少年事件處理法第18條・觸法少年事件移送少年法院",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010011&flno=18"
+            },
+            {
+              "title": "軍事審判法第1條・現役軍人非戰時之追訴程序",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=F0120008&flno=1"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案D（4份）不變：成年竊盜1、少年丙1、甲毒品1、乙毒品1。題目未敘戰時或其他應受軍事審判情形，不能僅因丁為軍人再加一份；愷他命4公克亦不因此成立持有第三級毒品達量刑案。題幹泛稱移送書是在問分案文書份數，正式使用移送書或報告書，仍另依第214點及移送名義判斷。",
+        "takeaway": "分案看少年與成年人、毒品一人一案；本題4份。愷他命持有刑事門檻為純質淨重5公克，行政責任另論；份數與正式格式分開判斷。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "只用一份會把少年與成年人、以及兩人的毒品案件全部合併，違反手冊第217點的分案規則。",
+            "correction": "先將成年竊盜與少年事件分開，再將甲、乙各自的持有或施用毒品案另案移送。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "即使已將成年竊盜與少年事件分成兩份，仍漏計甲、乙依第217點另案分開、一人一案的毒品案件。",
+            "correction": "成年竊盜1份、少年丙1份、甲毒品1份、乙毒品1份，共4份。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "不能將甲與乙的毒品案件合成一份；第217點要求持有、施用毒品案件另案分開、一人一案。甲同時持有並施用，亦不是因此固定再拆為兩份。",
+            "correction": "本題甲、乙各計一個毒品案，加上成年竊盜及少年事件，共4份。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "依第217點：甲乙丁的成年竊盜共1份，少年丙另1份，甲的安非他命案及乙的大麻案各1份，合計1＋1＋1＋1＝4。安非他命、大麻屬第二級毒品；愷他命列附表三第19項，丁持有4公克未達第11條第5項的純質淨重5公克門檻，題目亦未敘販賣等其他犯罪，故不為丁另計一個持有毒品刑案。",
+            "correction": "D正確。低於刑事持有門檻不等於合法，仍須依第11條之1判斷行政責任；也不能僅因丁為軍人即另分一案。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation110_41",
+        "amendment": {
+          "status": "none",
+          "law": "刑事訴訟法第92條第2項；偵查犯罪手冊第212、213、218點",
+          "checkedAt": "2026-11-19",
+          "note": "已逐項對照警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條；保留原題、選項與當年官方給分。本次是法源及詳解核對，不以附件名稱推定修正、施行日期，也不宣稱已查盡後續函釋。",
+          "oldRule": "本站原解析主要依官方接受答案判讀，未逐項交代分案、函送、文書格式或境外案件分工的依據與界線。",
+          "newRule": "逮捕現行犯原則應即解送；法定例外加檢察官許可，才可免解。得函送不等於得自行釋放或免解。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第212至218點（PDF33至34頁）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=33"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第92條・現行犯即時解送與檢察官許可例外",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案A不變：告訴乃論撤告得經檢察官許可免予解送。刑度例外為最重本刑一年以下、拘役或專科罰金；函送案件類型與已逮捕現行犯的免解要件，必須分別審查。",
+        "takeaway": "逮捕現行犯原則應即解送；法定例外加檢察官許可，才可免解。得函送不等於得自行釋放或免解。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "刑訴第92條第2項明列告訴或請求乃論之罪，告訴或請求已撤回或已逾告訴期間者，得經檢察官許可不予解送；A的撤回告訴符合其中一類。手冊第213點亦列告訴乃論撤告可函送。",
+            "correction": "A正確；免解須經檢察官許可，依手冊第218點將核准免予解送報告書附卷，並非警方自行決定。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "刑訴第92條第2項的刑度例外是最重本刑一年以下有期徒刑、拘役或專科罰金；B寫三年以下，範圍過寬。",
+            "correction": "將三年改為一年；符合刑度仍須經檢察官許可，才能依該條不予解送。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "全案調查完畢、證據明確及被害人堅持提告，均不是刑訴第92條所列免解條件；也不同於手冊第213點的犯罪證據不明確而堅持告訴。",
+            "correction": "不能以調查完成或堅持提告取代法定免解要件，現行犯仍應依法即時解送。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "強盜殺人案具有犯罪嫌疑且調查完備，應依手冊第212點移送或報告；所列事實未具備刑訴第92條免解例外。",
+            "correction": "被害人堅持提告不會使此類現行犯得僅以函送取代解送。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_43",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第212、213、218點；刑事訴訟法第92條",
+          "checkedAt": "2026-11-19",
+          "note": "已逐項對照警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條；保留原題、選項與當年官方給分。本次是法源及詳解核對，不以附件名稱推定修正、施行日期，也不宣稱已查盡後續函釋。",
+          "oldRule": "本站原解析主要依官方接受答案判讀，未逐項交代分案、函送、文書格式或境外案件分工的依據與界線。",
+          "newRule": "第212點列應移送或報告，第213點列得函送；已拘捕者的解送或免解另依刑訴及第218點。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第212至218點（PDF33至34頁）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=33"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第92條・現行犯即時解送與檢察官許可例外",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變：C出自第212點第2款應移送或報告；A、B、D分別對應第213點三款得函送。兩點可能在具體事實上交集，仍應逐一核對條件，不能推論所有未調查完的案件都不得函送。",
+        "takeaway": "第212點列應移送或報告，第213點列得函送；已拘捕者的解送或免解另依刑訴及第218點。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "本項對應手冊第213點第1款：告訴乃論案件撤告，或尚未調查完竣而告訴權人已向檢察官告訴，均在該點得函送範圍內。",
+            "correction": "A屬得函送類型，並非本題要選的不屬者；如涉及已拘捕者，仍須另審查解送規定。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "本項即手冊第213點第2款，包含證據證明力薄弱，或行為事實是否構成犯罪顯有疑義兩類。",
+            "correction": "B屬得函送；警方不因此取得終局認定無罪的權限。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "此為手冊第212點第2款應將全案移送或報告的事由，範圍包括依法提起自訴；並非第213點另列的得函送類型。不能把第212點的整段文字直接當成第213點。",
+            "correction": "C為本題不屬者。若個案同時符合第213點第1款的告訴乃論且已向檢察官告訴，仍須依該特別條件判斷，並非未調查完一概不得函送。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "本項與手冊第213點第3款相同：犯罪證據不明確，但被害人堅持提出告訴，得函送管轄法院或檢察署。",
+            "correction": "D屬得函送；重點是證據不明確，不能換成證據明確也一律免解。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation113_50",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第214點；刑事訴訟法第229、230條；少年事件處理法第18條",
+          "checkedAt": "2026-11-19",
+          "note": "已逐項對照警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條；保留原題、選項與當年官方給分。本次是法源及詳解核對，不以附件名稱推定修正、施行日期，也不宣稱已查盡後續函釋。",
+          "oldRule": "本站原解析主要依官方接受答案判讀，未逐項交代分案、函送、文書格式或境外案件分工的依據與界線。",
+          "newRule": "署、局、總隊用移送書；分局、大隊、中隊、隊用報告書。少年及無另犯他罪的通緝／協尋案件另依特別格式。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第212至218點（PDF33至34頁）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=33"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第229條・協助偵查及移送",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=229"
+            },
+            {
+              "title": "刑事訴訟法第230條・受指揮偵查及報告",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=230"
+            },
+            {
+              "title": "少年事件處理法第18條・觸法少年事件移送少年法院",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010011&flno=18"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變：港務警察總隊依第214點第1款用移送書；分局一般案件用報告書，少年事件另有移送書特別規定。",
+        "takeaway": "署、局、總隊用移送書；分局、大隊、中隊、隊用報告書。少年及無另犯他罪的通緝／協尋案件另依特別格式。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "手冊第214點第2款將警察分局列為使用報告書的機關。此處移送名義為花蓮分局，不能因其上級名稱含鐵路警察局，就改套警察局用移送書。",
+            "correction": "A正確；依實際辦理移送的機關層級及案件特別類別判斷。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "高雄港務警察總隊屬警察總隊，依第214點第1款應用移送書；B寫報告書，與該款不符。",
+            "correction": "B是本題錯誤敘述；應改為刑事案件移送書。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第214點第4款特別規定少年事件用移送書；即使辦理單位是分局，也不能只套第2款的一般報告書。少年事件處理法第18條另定觸法少年事件移送少年法院。",
+            "correction": "C正確；少年事件的特別格式應與一般刑事案件分開。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "保安警察第三總隊為警察總隊，依第214點第1款使用移送書，敘述正確。",
+            "correction": "D正確；總隊用移送書，大隊的一般案件用報告書，兩者不可混淆。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation115_13",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第214點；刑事訴訟法第229、230條；少年事件處理法第18條",
+          "checkedAt": "2026-11-19",
+          "note": "已逐項對照警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條；保留原題、選項與當年官方給分。本次是法源及詳解核對，不以附件名稱推定修正、施行日期，也不宣稱已查盡後續函釋。",
+          "oldRule": "本站原解析主要依官方接受答案判讀，未逐項交代分案、函送、文書格式或境外案件分工的依據與界線。",
+          "newRule": "先看移送名義是總隊、大隊或分局，再檢查少年、通緝及協尋的特別格式；不能只看上級機關名稱。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第212至218點（PDF33至34頁）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=33"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "刑事訴訟法第229條・協助偵查及移送",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=229"
+            },
+            {
+              "title": "刑事訴訟法第230條・受指揮偵查及報告",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=230"
+            },
+            {
+              "title": "少年事件處理法第18條・觸法少年事件移送少年法院",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010011&flno=18"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變：溪湖分局一般刑案用報告書。總隊與大隊分屬移送書及報告書；單純無另犯他罪的協尋，以及少年事件，另有特別移送書格式。",
+        "takeaway": "先看移送名義是總隊、大隊或分局，再檢查少年、通緝及協尋的特別格式；不能只看上級機關名稱。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "依手冊第214點第1款，警察總隊用移送書；保安警察第三總隊不是第2款的大隊。",
+            "correction": "A錯誤，應用移送書。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "刑事警察大隊依第214點第2款，一般刑案用報告書；不能因其隸屬警察局，就直接改用警察局名義的格式。",
+            "correction": "B錯誤，大隊一般案件用報告書；仍須留意少年或通緝／協尋等特別類型。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "溪湖警察分局屬第214點第2款所列警察分局，一般刑案使用報告書，與規定相符。",
+            "correction": "C正確；判斷辦理移送的機關層級，並再檢視有無特別案件格式。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第214點第3款規定通緝或協尋案件無另犯他罪者，用通緝或協尋案件移送書；第4款另定少年事件用移送書。本項單純少年協尋不能套用一般報告書。",
+            "correction": "D錯誤；依協尋或少年事件的具體類別選用適用移送書，不以一般報告書概括處理。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation111_44",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第22點第2項第2款",
+          "checkedAt": "2026-11-19",
+          "note": "已逐項對照警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條；保留原題、選項與當年官方給分。本次是法源及詳解核對，不以附件名稱推定修正、施行日期，也不宣稱已查盡後續函釋。",
+          "oldRule": "本站原解析主要依官方接受答案判讀，未逐項交代分案、函送、文書格式或境外案件分工的依據與界線。",
+          "newRule": "境外案件的警察分工：被害人現住地→工作地→家屬現住地。刑法適用及法院管轄另依法判斷。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第22點・境外案件分工（PDF5頁）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案A（①②③）不變。第22點的境外案件分工順序為被害人現住地、工作地、家屬現住地；此規定不直接決定法院管轄、我國刑法域外適用或境外執法權。",
+        "takeaway": "境外案件的警察分工：被害人現住地→工作地→家屬現住地。刑法適用及法院管轄另依法判斷。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "手冊第22點第2項第2款明定，境外犯罪案件依被害人現住地、工作地、家屬現住地的次序決定管轄警察機關，正是①②③。",
+            "correction": "A正確；這是警察機關內部受理偵處的分工順序。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "①③②雖先列被害人現住地，但把家屬現住地置於工作地之前，與第22點規定相反。",
+            "correction": "第二順位是被害人工作地，第三才是家屬現住地。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "②①③把工作地排在被害人現住地之前，顛倒前兩順位。",
+            "correction": "先被害人現住地，再工作地，最後家屬現住地。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "②③①將被害人現住地排到最後，亦不符合第22點的先後次序。",
+            "correction": "完整次序為①②③，不能任選其中一地。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation113_01",
+        "amendment": {
+          "status": "none",
+          "law": "偵查犯罪手冊第22點第2項第2款；單一窗口受理與管轄分別判斷",
+          "checkedAt": "2026-11-19",
+          "note": "已逐項對照警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條；保留原題、選項與當年官方給分。本次是法源及詳解核對，不以附件名稱推定修正、施行日期，也不宣稱已查盡後續函釋。",
+          "oldRule": "本站原解析主要依官方接受答案判讀，未逐項交代分案、函送、文書格式或境外案件分工的依據與界線。",
+          "newRule": "境外受竊先依被害人現住地分工；報案單位應受理，機場出發地與工作地不當然優先。",
+          "sources": [
+            {
+              "title": "警專公開115版偵查犯罪手冊第22點・境外案件分工（PDF5頁）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+            },
+            {
+              "title": "警專刑事警察科・115年新版手冊官方附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案A不變：依題意之境外受竊，優先由被害人現住地三重分局負責警察內部分工；工作地、出發機場及報案單位均不取代此順位。受理後仍須審查我國刑法適用、司法管轄及跨境合作程序，不能由手冊直接推導可在境外搜捕。",
+        "takeaway": "境外受竊先依被害人現住地分工；報案單位應受理，機場出發地與工作地不當然優先。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "依題意以旅途中境外受竊判斷，第22點第2項第2款先以被害人現住地決定管轄警察機關；甲現住三重，故由三重分局依規定偵處。",
+            "correction": "A正確；此處回答警察機關間的案件分工，不等於已認定我國刑法對個案有域外適用。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "中山區是甲的工作地，屬境外案件分工的第二順位；題目已明示第一順位的現住地在三重。",
+            "correction": "不能跳過現住地而優先用工作地。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "大園是出境機場所在地，題目沒有將它指為竊盜行為地或結果地；單憑從該機場出發，不會取得本題境外受竊案件的優先分工。",
+            "correction": "依境外案件的特別順序，先看被害人現住地。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "向航警刑大報案不代表該單位因此成為第22點的管轄機關。受理與分工須區分，應受理後依規定處理及移轉，不能推回報案。",
+            "correction": "不能以先受理取代管轄判斷；本題依現住地分工至三重分局，跨境調查仍須另依法定程序。",
+            "trueStatement": false
+          }
+        ]
+      }
+    ],
+    "createdAt": 1795086535842
   }
 ]
