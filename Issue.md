@@ -731,3 +731,10 @@
 - 通過：`node --experimental-strip-types scripts/check-curated-updates.mjs`、`node --experimental-strip-types scripts/check-investigation-papers.mjs`、`node node_modules/typescript/bin/tsc --noEmit`、修改檔ESLint及`pnpm build`。新增回歸檢查函送與免解、分案及毒品門檻、少年與協尋特別格式、境外分工順位與域外執法界線。
 - 一次性比對：全部910題原題／選項／官方給分、66題申論／配分、33張卡及36筆既有事件不變；7題原始詳解與事件套用後一致。未標已核389／27，綜合待核390。建置既有大型分塊及路由分類提示仍在，沒有新的檢查失敗。
 - 尚待：111犯罪偵查18扣押物暫存及移送完整原流程；B項與刑訴第140條保管方式的關係不能僅憑原官方A鍵斷言，故不修改或解除待核。其餘法規沿革依既有清單接續；本批不是正式帳號保存／跨裝置驗收，發布與正式匿名法規API另記。
+
+
+### 2026-11-19：第41版正式發布檢查
+
+- 原生保存與部署成功，來源88bfef4同時存在GitHub及Sites；第41版部署appgdep_6afeda08ede08191b602bd8aa81920f3已succeeded。188檔封裝含本批新事件的伺服器路由分塊，沒有改DB綁定或公開權限。
+- 正式GET法規API回40筆、無下一頁，37筆本地事件相同、前39筆正式歷史內容完整保留、新7個更新存在，HTTP200／CONNECT200；[發布證據](docs/production-transfer-release-2026-11-19.json)完整保存原生版本與雜湊。這是法規內容驗證，非正式帳號同步、還原或個人學習寫入驗收。
+- 最後僅變更發布紀錄與待辦；JSON、文件連結及差異檢查後同步Git，未重跑不受文件變更影響的建置。

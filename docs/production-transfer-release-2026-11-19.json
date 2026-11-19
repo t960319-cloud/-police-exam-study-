@@ -1,0 +1,65 @@
+{
+  "projectId": "appgprj_6af12822277881919dd2fcce0d109104",
+  "liveUrl": "https://police-exam-study.middlelapwing4.chatgpt.site",
+  "sourceCommit": "88bfef4b0723c8a091a706b410dcb6ea5dd45072",
+  "version": 41,
+  "versionId": "appgprj_6af12822277881919dd2fcce0d109104~appgver_a59cb58475848191bced5186812faf92",
+  "deploymentId": "appgdep_6afeda08ede08191b602bd8aa81920f3",
+  "status": "succeeded",
+  "deployedAt": "2026-11-19T11:14:32.046017+00:00",
+  "archiveStorage": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_00000000a2208206803252a8e11c2184",
+    "content_hash": "sha256:91764d6922779f358ce3baa2e9e5ad5cce00b7c9b5979be5a00032d9c05e642f",
+    "size_bytes": 18442240,
+    "file_count": 188
+  },
+  "access": "public",
+  "databaseBinding": "DB",
+  "sourceBranchesVerified": [
+    "GitHub main",
+    "Sites configured source branch"
+  ],
+  "sourceForcePush": false,
+  "accountAcceptance": "本次核對正式匿名法規資料；未執行正式帳號保存、跨裝置或還原驗收。",
+  "localArchive": {
+    "archive": "/tmp/police-release-88bfef4.tar",
+    "sha256": "d45587d59d4a2dda40ef117fe856e92131be35a13bec8a4cab4e6e6c8df5287c",
+    "fileCount": 188,
+    "bytes": 18626560,
+    "sourceSha": "88bfef4b0723c8a091a706b410dcb6ea5dd45072",
+    "d1": "DB",
+    "eventCompiledIn": [
+      "dist/server/_next/static/route-D1k7mQMZ.js"
+    ]
+  },
+  "readback": {
+    "checkedAt": "2026-11-19T11:15:09.379546+00:00",
+    "api": "https://police-exam-study.middlelapwing4.chatgpt.site/api/legal-updates",
+    "method": "GET",
+    "pages": [
+      {
+        "url": "https://police-exam-study.middlelapwing4.chatgpt.site/api/legal-updates",
+        "response": "200 200",
+        "sha256": "05cb58660735c61d060590515e8038affc172f19043a6e6f8ccc1d85774cebf1",
+        "events": 40
+      }
+    ],
+    "eventCount": 40,
+    "curatedCount": 37,
+    "allCuratedEventsMatch": true,
+    "preservedPreviousEvents": 39,
+    "previousEventsUnchanged": true,
+    "newEventId": "legal-review-20261119-transfer-jurisdiction",
+    "newPatchCount": 7,
+    "hasNextCursor": false,
+    "learningDataWrites": 0
+  },
+  "counts": {
+    "questionsNotVerified": 389,
+    "essaysNotVerified": 27,
+    "reviewFilter": 390
+  },
+  "legalEvidence": "legal-evidence-2026-11-19-transfer-jurisdiction.json",
+  "learningRecordsModified": false
+}

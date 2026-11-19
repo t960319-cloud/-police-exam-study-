@@ -141,7 +141,10 @@
       "raw data and replayed legal explanations agree",
       "TypeScript noEmit",
       "changed regression script ESLint",
-      "pnpm build"
+      "pnpm build",
+      "changed JSON and new local Markdown links",
+      "git diff --cached --check"
     ]
-  }
+  },
+  "productionReceipt": "production-transfer-release-2026-11-19.json"
 }
