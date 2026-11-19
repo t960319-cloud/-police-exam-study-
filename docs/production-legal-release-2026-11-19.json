@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-11-19T03:13:23.083910+00:00",
+  "timezone": "Asia/Taipei",
+  "projectId": "appgprj_6af12822277881919dd2fcce0d109104",
+  "version": 39,
+  "commitSha": "e7a53bc843074f8c062c62d8d1df006c78024b80",
+  "versionId": "appgprj_6af12822277881919dd2fcce0d109104~appgver_f3c58a0b890c819184d7fb5331a101f4",
+  "deploymentId": "appgdep_6afe691cf0948191bb64a2ce8774de4f",
+  "deploymentStatus": "succeeded",
+  "url": "https://police-exam-study.middlelapwing4.chatgpt.site",
+  "siteAccess": "public",
+  "databaseBinding": "DB",
+  "archive": "/tmp/police-release-e7a53bc-v2.tar",
+  "nativeArchiveContentHash": "sha256:0eac036ca4ab3a3ecfee6267af97bd23078abdf35a5395f2b95c943afbb5e586",
+  "apiReadback": {
+    "pages": 1,
+    "totalEvents": 38,
+    "all35LocalEventsIdentical": true,
+    "all36PreviousLiveEventsPreserved": true,
+    "newEventIds": [
+      "legal-review-20261119-reporting-fulltext",
+      "legal-review-20261119-chase-escort-texts"
+    ]
+  },
+  "verificationLimit": "Anonymous legal content read-back; signed-in persistence, cross-device, restore and cloud-history deletion were not tested.",
+  "productionLearningWrites": 0
+}
