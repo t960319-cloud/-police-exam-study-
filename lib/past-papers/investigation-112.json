@@ -1213,26 +1213,26 @@
       "options": [
         {
           "text": "不得使用強暴、脅迫、利誘、詐欺、疲勞詢問或其他不正當之方法",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題等候辯護人到場停止詢問的計時上限為4小時，不是6小時；其他不計入24小時的時間另判斷。",
+          "explanation": "第109點及刑訴第98條禁止強暴、脅迫、利誘、詐欺、疲勞詢問等不正方法，並由第100條之2準用於警詢。",
+          "correction": "A正確；辦案效率或案情重大均不能作為違反的理由。",
           "trueStatement": true
         },
         {
           "text": "被告或犯罪嫌疑人因選任辯護人，而等候辯護人到場致未予詢問者，但等候時間不得逾六小時",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "本題等候辯護人到場停止詢問的計時上限為4小時，不是6小時；其他不計入24小時的時間另判斷。",
+          "explanation": "刑訴第93條之1第1項第5款及手冊第107點的等候辯護人時間為四小時，不是六小時；六小時是同條等候通譯的規定。",
+          "correction": "B錯誤；法定障礙時間內不得詢問，也不能因扣除計時就無故拖延。",
           "trueStatement": false
         },
         {
           "text": "錄音及錄影之實施，應自詢問其姓名、年齡、職業及住居所時起錄，至詢問完畢時停止，始末連續之",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題等候辯護人到場停止詢問的計時上限為4小時，不是6小時；其他不計入24小時的時間另判斷。",
+          "explanation": "第110點要求自開始詢問姓名、年齡、職業及住居所時起錄，至詢問完畢連續進行，不能等筆錄完成再補錄。",
+          "correction": "C符合一般錄音錄影實施範圍；刑訴第100條之1的急迫且記明筆錄例外另論，並非每案一律須錄影。",
           "trueStatement": true
         },
         {
           "text": "有急迫之情形者，得於夜間詢問犯罪嫌疑人",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題等候辯護人到場停止詢問的計時上限為4小時，不是6小時；其他不計入24小時的時間另判斷。",
+          "explanation": "刑訴第100條之3第1項第4款明列有急迫情形者，為夜間不得詢問的例外。",
+          "correction": "D正確；急迫須有具體事實，不能把任何辦案方便都當成急迫。",
           "trueStatement": true
         }
       ],
@@ -1243,19 +1243,51 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第17題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 17,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第107、109、110、111點；刑事訴訟法第93之1條・等候律師4小時與通譯6小時；刑事訴訟法第98條・禁止不正方法；刑事訴訟法第100之1條・連續錄音錄影與不符部分之證據效果；刑事訴訟法第100之2條・警詢準用；刑事訴訟法第100之3條・夜間詢問禁止與法定例外",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "律師4小時、通譯6小時；障礙期間不得詢問，錄音與必要錄影、夜間例外分別審查。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第107、109、110、111點（PDF第18頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=18"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "刑事訴訟法第93之1條・等候律師4小時與通譯6小時",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=93-1"
+          },
+          {
+            "title": "刑事訴訟法第98條・禁止不正方法",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=98"
+          },
+          {
+            "title": "刑事訴訟法第100之1條・連續錄音錄影與不符部分之證據效果",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=100-1"
+          },
+          {
+            "title": "刑事訴訟法第100之2條・警詢準用",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=100-2"
+          },
+          {
+            "title": "刑事訴訟法第100之3條・夜間詢問禁止與法定例外",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=100-3"
+          }
+        ]
       },
-      "takeaway": "本題等候辯護人到場停止詢問的計時上限為4小時，不是6小時；其他不計入24小時的時間另判斷。",
+      "takeaway": "律師4小時、通譯6小時；障礙期間不得詢問，錄音與必要錄影、夜間例外分別審查。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -1272,8 +1304,37 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第107、109、110、111點（PDF第18頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=18"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第93之1條・等候律師4小時與通譯6小時",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=93-1"
+        },
+        {
+          "title": "刑事訴訟法第98條・禁止不正方法",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=98"
+        },
+        {
+          "title": "刑事訴訟法第100之1條・連續錄音錄影與不符部分之證據效果",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=100-1"
+        },
+        {
+          "title": "刑事訴訟法第100之2條・警詢準用",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=100-2"
+        },
+        {
+          "title": "刑事訴訟法第100之3條・夜間詢問禁止與法定例外",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=100-3"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B不變：等候辯護人四小時，等候通譯才是六小時。原則全程連續錄音、必要時錄影；夜間詢問須有刑訴第100條之3例外，不以辦案便利概括取代。"
     },
     {
       "id": "investigation112_18",
@@ -1861,26 +1922,26 @@
       "options": [
         {
           "text": "現場勘察得視現場狀況、案情、裝備及警力等資源彈性調整",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：權利人不同意時，不能只由現場指揮官認為必要就強制採證，須另具合法的許可或法源。",
+          "explanation": "第67點明列得視現場狀況、案情、裝備及警力等資源彈性調整，A符合條點。",
+          "correction": "彈性調整須在合法、必要及安全範圍內，不是可減省法定授權。",
           "trueStatement": true
         },
         {
           "text": "勘察採證標的權利人不同意時，現場指揮官審酌犯罪情節後，仍認有實施之必要者，仍可強制為之",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "權利人不同意時，不能只由現場指揮官認為必要就強制採證，須另具合法的許可或法源。",
+          "explanation": "第69點規定權利人不同意而仍有實施必要時，應依法改以搜索、扣押，或報請檢察官勘驗、核發鑑定許可書；現場指揮官不能只憑自身審酌就直接強制。",
+          "correction": "B錯誤；須取得適當法律依據及程序，不能以手冊或指揮官決定代替法定授權。",
           "trueStatement": false
         },
         {
           "text": "採集各類跡證，依其特性分別記錄、包裝、封緘，審慎處理，避免污染，送請相關單位鑑定",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：權利人不同意時，不能只由現場指揮官認為必要就強制採證，須另具合法的許可或法源。",
+          "explanation": "第68點要求各類跡證依特性記錄、包裝、封緘、保存並審慎送鑑，避免污染，C符合採證原則。",
+          "correction": "依證物特性處理，不是所有證物都用同一保存方式。",
           "trueStatement": true
         },
         {
           "text": "勘察現場發現疑似爆裂物，經通報刑事警察局地區防爆隊至現場排除危害後，應取樣交由管轄警察 機關送驗",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：權利人不同意時，不能只由現場指揮官認為必要就強制採證，須另具合法的許可或法源。",
+          "explanation": "第70點要求先由防爆隊排除危害、確認安全，必要時取少量火藥或炸藥交管轄機關送驗；D應在這項安全與必要性條件下理解。",
+          "correction": "不可在未排危時任意採樣，也不是所有情形都須自行大量取樣。",
           "trueStatement": true
         }
       ],
@@ -1891,19 +1952,43 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第26題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 26,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第67、68、69、70點；刑事訴訟法第128之1條・搜索票聲請；刑事訴訟法第131條・逕行搜索法定要件與事後陳報",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "同意勘察與法定強制處分分開；指揮權不能取代法律授權，危險物採樣先確保安全。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第67、68點（PDF第11頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+          },
+          {
+            "title": "警專公開115版偵查犯罪手冊第69、70點（PDF第12頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=12"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "刑事訴訟法第128之1條・搜索票聲請",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=128-1"
+          },
+          {
+            "title": "刑事訴訟法第131條・逕行搜索法定要件與事後陳報",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=131"
+          }
+        ]
       },
-      "takeaway": "權利人不同意時，不能只由現場指揮官認為必要就強制採證，須另具合法的許可或法源。",
+      "takeaway": "同意勘察與法定強制處分分開；指揮權不能取代法律授權，危險物採樣先確保安全。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -1920,8 +2005,29 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第67、68點（PDF第11頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第69、70點（PDF第12頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=12"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第128之1條・搜索票聲請",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=128-1"
+        },
+        {
+          "title": "刑事訴訟法第131條・逕行搜索法定要件與事後陳報",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=131"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B不變：不同意勘察不等於指揮官可逕行強制，第69點要求轉用合法搜索、扣押或檢察官勘驗／鑑定許可程序。D須與第70點先排危、必要時少量取樣合讀。"
     },
     {
       "id": "investigation112_27",

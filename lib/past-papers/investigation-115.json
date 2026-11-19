@@ -239,26 +239,26 @@
       "options": [
         {
           "text": "分駐所或派出所員警受理案情急迫案件或查獲現行犯案件，應立即通報分局勤務指揮中心，由值日官視 案情輕重、所需偵辦時間及是否需擴大偵辦等綜合考量，決定是否指派人員前往分駐所或派出所協助",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：案情單純或已拘捕且事證明確的普通刑案由分駐派出所主辦；重大、特殊或需後續追查者陳報偵查隊。",
+          "explanation": "第25點第1款這項分工應通報分局偵查隊，由偵查隊隊長判斷支援；A改成勤務指揮中心及值日官，並非該款的決策程序。",
+          "correction": "不要將一般勤務通報與本款偵查隊支援決定混同。",
           "trueStatement": false
         },
         {
           "text": "案情單純或犯罪嫌疑人已拘提或逮捕且犯罪事證明確之普通刑案，由分駐所或派出所主辦；重大或 特殊刑案及案情複雜或後續需追查案件，由分駐所或派出所陳報偵查隊偵辦",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "案情單純或已拘捕且事證明確的普通刑案由分駐派出所主辦；重大、特殊或需後續追查者陳報偵查隊。",
+          "explanation": "第25點第2款內容與B相符：普通、單純或已拘捕且事證明確者由所主辦，重大、特殊、複雜或需後續追查者陳報偵查隊。",
+          "correction": "B正確；不是所有案件都移交偵查隊，也不是所可一律自行結案。",
           "trueStatement": true
         },
         {
           "text": "有拘提或逮捕人犯案件，應預留拘留所辦理拘留作業時間，如案情複雜或拘提或逮捕犯罪嫌疑人多人， 分駐所或派出所主管應指揮所屬員警協助偵辦，或向偵查隊請求支援偵辦，避免逾越法定解交時效",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：案情單純或已拘捕且事證明確的普通刑案由分駐派出所主辦；重大、特殊或需後續追查者陳報偵查隊。",
+          "explanation": "第25點第3款要求預留偵查隊辦理移送作業時間；C換成拘留所辦理拘留作業，混淆所需預留的作業及單位。",
+          "correction": "改為預留偵查隊移送時間，並避免超越法定解送時效。",
           "trueStatement": false
         },
         {
           "text": "分駐所或派出所案件承辦員警應隨案全程至偵查隊，以利偵查隊瞭解案情及補齊複訊或後續案卷資料",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：案情單純或已拘捕且事證明確的普通刑案由分駐派出所主辦；重大、特殊或需後續追查者陳報偵查隊。",
+          "explanation": "第25點第5款規定案件承辦員警隨案至偵查隊為原則，未要求一律隨案全程。",
+          "correction": "應保留為原則的彈性，不加寫全程等絕對義務。",
           "trueStatement": false
         }
       ],
@@ -269,19 +269,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第3題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 3,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第25點",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "分清通報與支援、拘留與移送；手冊的隨案到隊為原則，不是一律全程。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第25點（PDF第6頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=6"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "案情單純或已拘捕且事證明確的普通刑案由分駐派出所主辦；重大、特殊或需後續追查者陳報偵查隊。",
+      "takeaway": "分清通報與支援、拘留與移送；手冊的隨案到隊為原則，不是一律全程。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -298,8 +310,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第25點（PDF第6頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=6"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B不變。支援由偵查隊隊長決定；預留的是偵查隊移送作業時間；承辦員警隨案到隊屬原則，均依第25點逐款判斷。"
     },
     {
       "id": "investigation115_04",
@@ -311,26 +332,26 @@
       "options": [
         {
           "text": "新北市政府警察局樹林警察分局",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：官方原始答案A，更正為C中山分局；按實際肇事逃逸犯罪地判斷，不以報案地或戶籍地替代。",
+          "explanation": "依第22點第1項第5款，受理機關轄區未有前3款所列關聯，但報案人現住或戶籍在本轄者，也有偵處責任。按本題設定，乙現住樹林並在當地報案，樹林可負責偵處。",
+          "correction": "A為原官方答案；不能僅以犯罪地或犯嫌住居在外轄，就把已具本款責任的報案推回。",
           "trueStatement": false
         },
         {
           "text": "臺北市政府警察局松山警察分局",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：官方原始答案A，更正為C中山分局；按實際肇事逃逸犯罪地判斷，不以報案地或戶籍地替代。",
+          "explanation": "松山為甲現住地，若符合第22點第1項第2款所列身分查知等條件，亦可能有偵處責任；但這不表示樹林受理後必須轉松山。",
+          "correction": "本題採樹林報案人關聯；不要將犯嫌住地解為唯一排他的管轄。",
           "trueStatement": false
         },
         {
           "text": "臺北市政府警察局中山警察分局",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "官方原始答案A，更正為C中山分局；按實際肇事逃逸犯罪地判斷，不以報案地或戶籍地替代。",
+          "explanation": "中山是肇事逃逸地，依第22點第1項第1款可有偵處責任；但新版並非所有案件均只能由犯罪地受理偵辦。",
+          "correction": "犯罪地可具責任，不會排除本題樹林依第5款受理偵處。",
           "trueStatement": true
         },
         {
           "text": "臺北市政府警察局萬華警察分局",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：官方原始答案A，更正為C中山分局；按實際肇事逃逸犯罪地判斷，不以報案地或戶籍地替代。",
+          "explanation": "萬華只是追車後失去甲行蹤的地點，題目沒有另敘甲在該處實施刑事犯罪。僅逃逸行蹤終點不直接取代第22點的責任判斷。",
+          "correction": "依題示報案受理情境選樹林，不能單憑最後看見犯嫌的位置決定。",
           "trueStatement": false
         }
       ],
@@ -341,19 +362,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第4題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 4,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第22點",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "先看受理機關有無第22點列示關聯；報案人住居可構成責任，但不是任何報案地都當然有管轄。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第22點（PDF第5頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "官方原始答案A，更正為C中山分局；按實際肇事逃逸犯罪地判斷，不以報案地或戶籍地替代。",
+      "takeaway": "先看受理機關有無第22點列示關聯；報案人住居可構成責任，但不是任何報案地都當然有管轄。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -370,10 +403,19 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第22點（PDF第5頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
       ],
       "initialAnswer": 0,
-      "correctionNote": "第4題改為答C給分；原始答案A不再給分。"
+      "correctionNote": "第4題改為答C給分；原始答案A不再給分。",
+      "currentAnswer": "原官方答案A保留。本題按樹林受理機關與報案人現住地的關聯，對照第22點第1項第5款。新版允許多個機關各有偵處責任；不能將A解為松山、中山絕對沒有責任，或所有案件均以報案地優先。境外、捷運等特別案件另依第2項。"
     },
     {
       "id": "investigation115_05",
@@ -1174,26 +1216,26 @@
       "options": [
         {
           "text": "甲為 4，乙為 2",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "原卷報請相驗起4小時內傳真通報法務部並副知警政署；死亡2人以上確認身分後立即通報。",
+          "explanation": "第274點規定報請檢察官相驗時起四小時內傳真通報法務部並副知警政署；死亡二人以上，確認大陸地區人民身分後應立即通報。",
+          "correction": "A正確；多人死亡的立即通報不能等到四小時屆滿才做。",
           "trueStatement": true
         },
         {
           "text": "甲為 6，乙為 3",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原卷報請相驗起4小時內傳真通報法務部並副知警政署；死亡2人以上確認身分後立即通報。",
+          "explanation": "六小時及三人門檻均不是第274點的規定。",
+          "correction": "應改為四小時、二人以上；起算是報請檢察官相驗時。",
           "trueStatement": false
         },
         {
           "text": "甲為 12，乙為 4",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原卷報請相驗起4小時內傳真通報法務部並副知警政署；死亡2人以上確認身分後立即通報。",
+          "explanation": "十二小時及四人均不符合第274點，不能與其他限制人身自由通報時限混用。",
+          "correction": "本題是非病死或疑似非病死的相驗通報程序。",
           "trueStatement": false
         },
         {
           "text": "甲為 24，乙為 5",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原卷報請相驗起4小時內傳真通報法務部並副知警政署；死亡2人以上確認身分後立即通報。",
+          "explanation": "二十四小時及五人均非第274點所定數字，將延誤法定手冊通報節點。",
+          "correction": "四小時內一般通報；二人以上於身分確認後立即通報。",
           "trueStatement": false
         }
       ],
@@ -1204,19 +1246,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第15題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 15,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第274點",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "相驗報請起4小時；二人以上確認身分即報。與拘捕等人身自由通報分開。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第274點（PDF第41頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=41"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "原卷報請相驗起4小時內傳真通報法務部並副知警政署；死亡2人以上確認身分後立即通報。",
+      "takeaway": "相驗報請起4小時；二人以上確認身分即報。與拘捕等人身自由通報分開。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -1233,8 +1287,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第274點（PDF第41頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=41"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A不變：四小時、二人以上。第274點另涵蓋尚未取得我國身分證之大陸地區配偶；範圍與起算點依其原文，不泛用到任何死亡案件。"
     },
     {
       "id": "investigation115_16",
@@ -2209,26 +2272,26 @@
       "options": [
         {
           "text": "偵查隊隊長",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "本題首聽初抵員警或分駐派出所主管報告，偵查隊長不在該句列舉內，不代表不能另向其聽取案情報告。",
+          "explanation": "第64點第2項列最先抵達現場人員、分駐所或派出所所長，沒有將偵查隊隊長列為本題指定的首要報告者。",
+          "correction": "A是本題不包括者；未列不表示偵查隊長不得提供案情或參與指揮協調。",
           "trueStatement": true
         },
         {
           "text": "分駐所所長",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題首聽初抵員警或分駐派出所主管報告，偵查隊長不在該句列舉內，不代表不能另向其聽取案情報告。",
+          "explanation": "分駐所所長為第64點列示的報告人員之一，可報告發現經過、初步處理及調查情形。",
+          "correction": "B在列舉內，不是本題答案。",
           "trueStatement": false
         },
         {
           "text": "派出所所長",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題首聽初抵員警或分駐派出所主管報告，偵查隊長不在該句列舉內，不代表不能另向其聽取案情報告。",
+          "explanation": "派出所所長同樣是第64點明列的報告人員。",
+          "correction": "C在列舉內；應提供已掌握的現場資訊。",
           "trueStatement": false
         },
         {
           "text": "初抵現場員警",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題首聽初抵員警或分駐派出所主管報告，偵查隊長不在該句列舉內，不代表不能另向其聽取案情報告。",
+          "explanation": "初抵現場員警對應最先抵達現場人員，屬第64點所列首應聽取報告的來源。",
+          "correction": "D在列舉內；先期記錄及保全情形有助後續指揮。",
           "trueStatement": false
         }
       ],
@@ -2239,19 +2302,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第29題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 29,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第64點",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "依第64點比對列舉來源，未列不等於無權協作或提供資訊。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第64點（PDF第11頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "本題首聽初抵員警或分駐派出所主管報告，偵查隊長不在該句列舉內，不代表不能另向其聽取案情報告。",
+      "takeaway": "依第64點比對列舉來源，未列不等於無權協作或提供資訊。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -2268,8 +2343,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第64點（PDF第11頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A不變：第64點列最先抵達人員及分駐所／派出所所長。這是指定首應聽取報告的名單，不是禁止其他承辦人員陳述案情。"
     },
     {
       "id": "investigation115_30",
@@ -2281,26 +2365,26 @@
       "options": [
         {
           "text": "4 小時",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：檢察官自行聲請令狀交警察執行者，執行完畢12小時內密件封緘回報，以利檢察官陳報法院。",
+          "explanation": "第166點這類檢察官交付警方執行的回報期限為十二小時，不是四小時。",
+          "correction": "本題不是其他處置或通報所用的四小時時限。",
           "trueStatement": false
         },
         {
           "text": "12 小時",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "檢察官自行聲請令狀交警察執行者，執行完畢12小時內密件封緘回報，以利檢察官陳報法院。",
+          "explanation": "第166點末項明列搜索票或扣押裁定由檢察官聲請交付執行，警方執行完畢後十二小時內密件封緘回報，俾檢察官陳報法院。",
+          "correction": "B正確；以執行完畢起算，並分清回報對象是檢察官。",
           "trueStatement": true
         },
         {
           "text": "24 小時",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：檢察官自行聲請令狀交警察執行者，執行完畢12小時內密件封緘回報，以利檢察官陳報法院。",
+          "explanation": "二十四小時晚於第166點此類回報期限，不能套用到本題。",
+          "correction": "應在十二小時內，並非所有搜索程序一律同一期限。",
           "trueStatement": false
         },
         {
           "text": "48 小時",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：檢察官自行聲請令狀交警察執行者，執行完畢12小時內密件封緘回報，以利檢察官陳報法院。",
+          "explanation": "四十八小時不是第166點本項期限；逕行搜索的法院事後監督亦有另行法定程序。",
+          "correction": "本題選十二小時，不能用其他陳報期間替代。",
           "trueStatement": false
         }
       ],
@@ -2311,19 +2395,39 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第30題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 30,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第166點；刑事訴訟法第128之1條・搜索票聲請；刑事訴訟法第131條・逕行搜索法定要件與事後陳報",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "檢察官交付執行：完畢後12小時密件回報；搜索類型與法院陳報另行判斷。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第166點（PDF第26頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=26"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "刑事訴訟法第128之1條・搜索票聲請",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=128-1"
+          },
+          {
+            "title": "刑事訴訟法第131條・逕行搜索法定要件與事後陳報",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=131"
+          }
+        ]
       },
-      "takeaway": "檢察官自行聲請令狀交警察執行者，執行完畢12小時內密件封緘回報，以利檢察官陳報法院。",
+      "takeaway": "檢察官交付執行：完畢後12小時密件回報；搜索類型與法院陳報另行判斷。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -2340,8 +2444,25 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第166點（PDF第26頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=26"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第128之1條・搜索票聲請",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=128-1"
+        },
+        {
+          "title": "刑事訴訟法第131條・逕行搜索法定要件與事後陳報",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=131"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B不變：第166點檢察官交付執行的搜索或扣押，完畢後十二小時內回報。刑訴第131條逕行搜索之三日陳報等規則另依其要件，不可互換。"
     },
     {
       "id": "investigation115_31",
@@ -2678,26 +2799,26 @@
       "options": [
         {
           "text": "內政部警政署刑事警察局科技犯罪防制中心",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：本題報告刑事警察局偵防犯罪指揮中心列管，不是科技犯罪中心或鑑識中心。",
+          "explanation": "第19點要求報刑事警察局偵防犯罪指揮中心列管，並非科技犯罪防制中心；不能只因案件可能涉及科技便換掉列管窗口。",
+          "correction": "本題所問的通報列管單位是偵防犯罪指揮中心。",
           "trueStatement": false
         },
         {
           "text": "內政部警政署刑事警察局刑事鑑識中心",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：本題報告刑事警察局偵防犯罪指揮中心列管，不是科技犯罪中心或鑑識中心。",
+          "explanation": "刑事鑑識中心處理鑑識業務，並非第19點所指定的特殊、重大或牽連廣泛普通刑案列管窗口。",
+          "correction": "鑑識支援與列管督導分開。",
           "trueStatement": false
         },
         {
           "text": "內政部警政署勤務指揮中心",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：本題報告刑事警察局偵防犯罪指揮中心列管，不是科技犯罪中心或鑑識中心。",
+          "explanation": "警政署勤務指揮中心另有勤務通報功能，但第19點指定的是刑事警察局偵防犯罪指揮中心。",
+          "correction": "不能把警政署勤務指揮中心當作該點答案；其他通報義務另依規定。",
           "trueStatement": false
         },
         {
           "text": "內政部警政署刑事警察局偵防犯罪指揮中心",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "本題報告刑事警察局偵防犯罪指揮中心列管，不是科技犯罪中心或鑑識中心。",
+          "explanation": "第19點明定警察局列管督導或主持偵辦後，報刑事警察局偵防犯罪指揮中心列管處理。",
+          "correction": "D正確，機關名稱與層級須完整辨識。",
           "trueStatement": true
         }
       ],
@@ -2708,19 +2829,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第35題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 35,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第19點",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "刑案列管窗口與科技、鑑識或一般勤務通報窗口不能互換。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第19點（PDF第4頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=4"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "本題報告刑事警察局偵防犯罪指揮中心列管，不是科技犯罪中心或鑑識中心。",
+      "takeaway": "刑案列管窗口與科技、鑑識或一般勤務通報窗口不能互換。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -2737,8 +2870,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第19點（PDF第4頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=4"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D不變：依第19點，報刑事警察局偵防犯罪指揮中心列管；這不排除其他規範另外要求勤務通報。"
     },
     {
       "id": "investigation115_36",
@@ -2750,26 +2892,26 @@
       "options": [
         {
           "text": "宜蘭警察分局",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "以被害人現住地為優先，本題乙女現住宜蘭，為宜蘭分局，不是其母住處或嫌犯工作地。",
+          "explanation": "第22點第2項第2款規範境外犯罪案件，依被害人現住地、工作地、家屬現住地的順序分工。被害人乙現住宜蘭市，故為宜蘭分局。",
+          "correction": "A正確；先辨認被害人是乙，不是嫌疑人甲。",
           "trueStatement": true
         },
         {
           "text": "羅東警察分局",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：以被害人現住地為優先，本題乙女現住宜蘭，為宜蘭分局，不是其母住處或嫌犯工作地。",
+          "explanation": "羅東是被害人母親現住地，屬家屬現住地順位；已有被害人現住地時，不先採家屬住地。",
+          "correction": "家屬代為報案不改變境外案件的特別順位。",
           "trueStatement": false
         },
         {
           "text": "板橋警察分局",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：以被害人現住地為優先，本題乙女現住宜蘭，為宜蘭分局，不是其母住處或嫌犯工作地。",
+          "explanation": "板橋是犯罪嫌疑人甲現住地，並非第22點境外案件特別規定的第一順位。",
+          "correction": "境外案件先依被害人乙的現住地分工。",
           "trueStatement": false
         },
         {
           "text": "萬華警察分局",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：以被害人現住地為優先，本題乙女現住宜蘭，為宜蘭分局，不是其母住處或嫌犯工作地。",
+          "explanation": "萬華為兩人的工作地，依特別規定是被害人工作地的第二順位，不能跳過宜蘭現住地。",
+          "correction": "工作地次於現住地；警察分工與刑法域外適用另行審查。",
           "trueStatement": false
         }
       ],
@@ -2780,19 +2922,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第36題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 36,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第22點",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "境外案件看被害人現住地優先；嫌疑人住地與家屬報案地不取代特別順位。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第22點（PDF第5頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "以被害人現住地為優先，本題乙女現住宜蘭，為宜蘭分局，不是其母住處或嫌犯工作地。",
+      "takeaway": "境外案件看被害人現住地優先；嫌疑人住地與家屬報案地不取代特別順位。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -2809,8 +2963,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第22點（PDF第5頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=5"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A不變：境外案件以被害人乙現住地宜蘭優先。此處核對警察內部受理偵處分工，不由手冊逕行決定法院管轄或境外執法權。"
     },
     {
       "id": "investigation115_37",
@@ -3038,26 +3201,26 @@
       "options": [
         {
           "text": "案情",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：原卷所考列舉包含現場狀況、案情、裝備及警力，時間不是該句選項中的列舉項目；不表示實務上毋須掌握時效。",
+          "explanation": "第67點明列案情，可據以調整勘察採證安排。",
+          "correction": "A在條點列舉內，仍須依法及安全處理。",
           "trueStatement": false
         },
         {
           "text": "裝備",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：原卷所考列舉包含現場狀況、案情、裝備及警力，時間不是該句選項中的列舉項目；不表示實務上毋須掌握時效。",
+          "explanation": "裝備是第67點明列的資源之一，與現場狀況一併評估。",
+          "correction": "B在列舉內，裝備不足時應適當支援，不能據此違法採證。",
           "trueStatement": false
         },
         {
           "text": "警力",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：原卷所考列舉包含現場狀況、案情、裝備及警力，時間不是該句選項中的列舉項目；不表示實務上毋須掌握時效。",
+          "explanation": "警力亦為第67點明列資源，可作為勘察人力安排依據。",
+          "correction": "C在列舉內，分工及支援仍須妥善規劃。",
           "trueStatement": false
         },
         {
           "text": "時間",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "原卷所考列舉包含現場狀況、案情、裝備及警力，時間不是該句選項中的列舉項目；不表示實務上毋須掌握時效。",
+          "explanation": "第67點所列為現場狀況、案情、裝備及警力，沒有單列時間，故本題選D。",
+          "correction": "未列不代表實務可忽視跡證滅失、救護急迫性或法定期間。",
           "trueStatement": true
         }
       ],
@@ -3068,19 +3231,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第40題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 40,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第67點",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "記憶第67點列舉：現場狀況、案情、裝備、警力；列舉題不作反面擴張。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第67點（PDF第11頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "原卷所考列舉包含現場狀況、案情、裝備及警力，時間不是該句選項中的列舉項目；不表示實務上毋須掌握時效。",
+      "takeaway": "記憶第67點列舉：現場狀況、案情、裝備、警力；列舉題不作反面擴張。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -3097,8 +3272,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第67點（PDF第11頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D不變：第67點未將時間單列為本題資源項目；並非宣稱勘察不必考慮時效。"
     },
     {
       "id": "investigation115_41",
@@ -3254,26 +3438,26 @@
       "options": [
         {
           "text": "2 日",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：原卷承辦人至少每3日派員取回監錄內容；與每15日執行報告及30日監察期不同。",
+          "explanation": "第185點所定至少每三日派員取回監錄內容，不是每二日；提早取回並非禁止。",
+          "correction": "本題問明定的最低頻率，應選三日。",
           "trueStatement": false
         },
         {
           "text": "3 日",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "原卷承辦人至少每3日派員取回監錄內容；與每15日執行報告及30日監察期不同。",
+          "explanation": "第185點明列案件承辦人至少每三日派員取回監錄內容，B正確。",
+          "correction": "三日是取回頻率，不是通訊監察聲請、核准或結束通知期限。",
           "trueStatement": true
         },
         {
           "text": "4 日",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：原卷承辦人至少每3日派員取回監錄內容；與每15日執行報告及30日監察期不同。",
+          "explanation": "每四日取回低於第185點每三日的最低頻率要求。",
+          "correction": "不能因案件忙碌就任意延長至四日。",
           "trueStatement": false
         },
         {
           "text": "5 日",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：原卷承辦人至少每3日派員取回監錄內容；與每15日執行報告及30日監察期不同。",
+          "explanation": "每五日取回亦不符合第185點最低頻率，與陳報法院的期間是不同事項。",
+          "correction": "取回監錄內容與法院定期審查、陳報分別遵守。",
           "trueStatement": false
         }
       ],
@@ -3284,19 +3468,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第43題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 43,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第185點",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "3日取回監錄內容，並非監察或陳報期間；行政執行頻率與司法授權不能混同。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第185點（PDF第30頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=30"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "原卷承辦人至少每3日派員取回監錄內容；與每15日執行報告及30日監察期不同。",
+      "takeaway": "3日取回監錄內容，並非監察或陳報期間；行政執行頻率與司法授權不能混同。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -3313,8 +3509,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第185點（PDF第30頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=30"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B不變：第185點至少每三日取回。該點另有陳報法院及法院指定期限規定；本題三日不代表任意監察或免除司法監督。"
     },
     {
       "id": "investigation115_44",
@@ -3326,26 +3531,26 @@
       "options": [
         {
           "text": "偵查隊長",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "本題從嚴審核決行的列舉不包括偵查隊長；不得把內部協辦層級等同決行權。",
+          "explanation": "第182點列機關首長、刑警大隊大隊長或分局長從嚴審核決行，沒有偵查隊長；並禁止由業務主管先代決行再補陳等作法。",
+          "correction": "A為本題不包括者，不能把內部分層核閱視為可自行取得監察權。",
           "trueStatement": true
         },
         {
           "text": "分局長",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題從嚴審核決行的列舉不包括偵查隊長；不得把內部協辦層級等同決行權。",
+          "explanation": "分局長是第182點明列得辦理從嚴審核決行的人員。",
+          "correction": "B在列舉內，審核後仍須依法進行檢察官、法院程序。",
           "trueStatement": false
         },
         {
           "text": "刑警大隊大隊長",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題從嚴審核決行的列舉不包括偵查隊長；不得把內部協辦層級等同決行權。",
+          "explanation": "刑警大隊大隊長同樣是第182點明列人員。",
+          "correction": "C在列舉內；不能以內部核准替代通訊監察書。",
           "trueStatement": false
         },
         {
           "text": "警察局長",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題從嚴審核決行的列舉不包括偵查隊長；不得把內部協辦層級等同決行權。",
+          "explanation": "警察局長屬機關首長，符合第182點所列層級。",
+          "correction": "D在列舉內；後續依第183、184點依法聲請、取得核發後始得執行。",
           "trueStatement": false
         }
       ],
@@ -3356,19 +3561,35 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第44題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 44,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第182、183、184點",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "內部決行看首長、大隊長、分局長；隊長不在列，內部同意不等於法院監察授權。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第182、183點（PDF第29頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=29"
+          },
+          {
+            "title": "警專公開115版偵查犯罪手冊第184點（PDF第30頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=30"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "本題從嚴審核決行的列舉不包括偵查隊長；不得把內部協辦層級等同決行權。",
+      "takeaway": "內部決行看首長、大隊長、分局長；隊長不在列，內部同意不等於法院監察授權。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -3385,8 +3606,21 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第182、183點（PDF第29頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=29"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第184點（PDF第30頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=30"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A不變：第182點列機關首長、刑警大隊大隊長、分局長。這是內部審核決行層級，第183、184點的司法聲請、核發及執行管制仍須完成。"
     },
     {
       "id": "investigation115_45",
@@ -3542,26 +3776,26 @@
       "options": [
         {
           "text": "詢問二人以上涉嫌共同犯罪者，應同時在場以利比對供述",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：因身心障礙無法完全陳述，原則安排適格輔佐人等程序保障；法律扶助辯護與陪同是不同層次。",
+          "explanation": "第117點及刑訴第97條原則要求分別、隔離詢問，未經詢問者不得在場；為發現真實得命對質，但不是一開始就全部同場詢問。",
+          "correction": "A錯誤；對質是另須判斷的程序，不等於同時混合詢問。",
           "trueStatement": false
         },
         {
           "text": "為提高效率及保持詢問內容一致性，應由同一人同時詢問並記錄筆錄",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：因身心障礙無法完全陳述，原則安排適格輔佐人等程序保障；法律扶助辯護與陪同是不同層次。",
+          "explanation": "刑訴第43條之1及第125點原則由一人詢問、另一人記錄；例外須急迫或事實上不能，並具全程錄音或錄影等條件。",
+          "correction": "B不能只以提高效率為由由同一人兼任；具體例外事由應記明。",
           "trueStatement": false
         },
         {
           "text": "詢問證人時，應全程錄音錄影，以確保詢問內容完整性",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：因身心障礙無法完全陳述，原則安排適格輔佐人等程序保障；法律扶助辯護與陪同是不同層次。",
+          "explanation": "第129點對證人要求全程連續錄音，必要時才全程連續錄影；C將錄影寫成所有案件的必備程序，範圍過廣。",
+          "correction": "應分清錄音與必要時錄影，另保留急迫且記明筆錄的例外。",
           "trueStatement": false
         },
         {
           "text": "為保障犯罪嫌疑人權益，其因身心障礙無法完全陳述時，原則上應有輔佐人陪同在場，才能進行詢問",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "因身心障礙無法完全陳述，原則安排適格輔佐人等程序保障；法律扶助辯護與陪同是不同層次。",
+          "explanation": "刑訴第35條第3項及第116點要求，因身心障礙無法完全陳述者，原則有適格輔佐人陪同；合法通知無正當理由不到場者另有例外。",
+          "correction": "D正確；輔佐人與第31條法扶律師是不同保障，須分別審查。",
           "trueStatement": true
         }
       ],
@@ -3572,19 +3806,55 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第47題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 47,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第116、117、125、129點；刑事訴訟法第31條・偵查中法扶律師及例外；刑事訴訟法第35條・身心障礙輔佐人陪同；刑事訴訟法第43之1條・警詢筆錄準用及詢問與記錄分工；刑事訴訟法第97條・分別訊問及對質請求；刑事訴訟法第100之2條・警詢準用",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "輔佐人不等於辯護人；分別詢問、一問一記、錄音與錄影不能為方便而混用。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第116、117點（PDF第19頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=19"
+          },
+          {
+            "title": "警專公開115版偵查犯罪手冊第125、129點（PDF第21頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=21"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "刑事訴訟法第31條・偵查中法扶律師及例外",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=31"
+          },
+          {
+            "title": "刑事訴訟法第35條・身心障礙輔佐人陪同",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=35"
+          },
+          {
+            "title": "刑事訴訟法第43之1條・警詢筆錄準用及詢問與記錄分工",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=43-1"
+          },
+          {
+            "title": "刑事訴訟法第97條・分別訊問及對質請求",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=97"
+          },
+          {
+            "title": "刑事訴訟法第100之2條・警詢準用",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=100-2"
+          }
+        ]
       },
-      "takeaway": "因身心障礙無法完全陳述，原則安排適格輔佐人等程序保障；法律扶助辯護與陪同是不同層次。",
+      "takeaway": "輔佐人不等於辯護人；分別詢問、一問一記、錄音與錄影不能為方便而混用。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -3601,8 +3871,41 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第116、117點（PDF第19頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=19"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第125、129點（PDF第21頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=21"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第31條・偵查中法扶律師及例外",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=31"
+        },
+        {
+          "title": "刑事訴訟法第35條・身心障礙輔佐人陪同",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=35"
+        },
+        {
+          "title": "刑事訴訟法第43之1條・警詢筆錄準用及詢問與記錄分工",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=43-1"
+        },
+        {
+          "title": "刑事訴訟法第97條・分別訊問及對質請求",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=97"
+        },
+        {
+          "title": "刑事訴訟法第100之2條・警詢準用",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=100-2"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D不變：身心障礙致無法完全陳述，原則須適格輔佐人陪同。分別詢問、詢問與記錄分工、全程錄音與必要錄影均有各自規則及例外。"
     },
     {
       "id": "investigation115_48",

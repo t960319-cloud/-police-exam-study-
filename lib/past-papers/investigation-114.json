@@ -1011,26 +1011,26 @@
       "options": [
         {
           "text": "犯罪嫌疑人經通知到場者，應依原定時間及處所即時詢問，不得無故拖延",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：委任書不以司法狀紙為限，不能因紙張格式不同便視為無效而不通知辯護人。",
+          "explanation": "第100點要求經通知到場的犯嫌依原定時間、處所即時詢問，不得無故拖延。",
+          "correction": "A正確；有停止詢問或其他法定障礙時仍須遵守相關保障。",
           "trueStatement": true
         },
         {
           "text": "犯罪嫌疑人因身心障礙，致無法為完全之陳述時，若未經選任辯護人，應通知依法設立之法律扶助 機構指派律師到場為其辯護",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：委任書不以司法狀紙為限，不能因紙張格式不同便視為無效而不通知辯護人。",
+          "explanation": "刑訴第31條第5項及第116點規定，因身心障礙無法完全陳述而偵查中未選任辯護人者，應通知法扶指派律師。",
+          "correction": "B為一般原則；主動請求立即詢問或等候律師逾四小時未到場等法定例外另論。輔佐人陪同也不能直接取代律師。",
           "trueStatement": true
         },
         {
           "text": "犯罪嫌疑人涉犯最輕本刑為 3 年以上有期徒刑之罪，於偵查中初次接受詢問時，若未經選任辯護 人，應告知其得申請法律扶助",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：委任書不以司法狀紙為限，不能因紙張格式不同便視為無效而不通知辯護人。",
+          "explanation": "法律扶助法第5條第4項第1款及第13條涵蓋最輕本刑三年以上、偵查初次詢問且未選任辯護人者；刑訴第95條要求告知依法得請求法扶之權利。",
+          "correction": "C符合權利告知；應分清得申請法扶與特定身分應通知律師的制度。",
           "trueStatement": true
         },
         {
           "text": "犯罪嫌疑人選任辯護人時，若未以司法狀紙為委任書狀，因非屬有效之委任，故無須將詢問之日、 時及處所通知該辯護人",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "委任書不以司法狀紙為限，不能因紙張格式不同便視為無效而不通知辯護人。",
+          "explanation": "刑訴第30條要求委任書狀，手冊第148點明定不以司法狀紙為限；D以未用司法狀紙就否認委任，並免除通知，均不正確。",
+          "correction": "D為錯誤敘述；查驗律師及委任後依法通知詢問日、時、處所，急迫例外另依規定。",
           "trueStatement": false
         }
       ],
@@ -1041,19 +1041,67 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第14題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 14,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第100、107、116、148點；刑事訴訟法第30條・辯護人委任書狀；刑事訴訟法第31條・偵查中法扶律師及例外；刑事訴訟法第35條・身心障礙輔佐人陪同；刑事訴訟法第95條・選任辯護人與法扶權利告知；法律扶助法第5條・初次偵訊重大案件之扶助資格；法律扶助法第13條・法律扶助申請與免審資力",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "看委任內容及律師資格，不以是否使用司法狀紙判有效；法扶告知、律師到場與輔佐人制度分開。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第100點（PDF第17頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=17"
+          },
+          {
+            "title": "警專公開115版偵查犯罪手冊第107點（PDF第18頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=18"
+          },
+          {
+            "title": "警專公開115版偵查犯罪手冊第116點（PDF第19頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=19"
+          },
+          {
+            "title": "警專公開115版偵查犯罪手冊第148點（PDF第24頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=24"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "刑事訴訟法第30條・辯護人委任書狀",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=30"
+          },
+          {
+            "title": "刑事訴訟法第31條・偵查中法扶律師及例外",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=31"
+          },
+          {
+            "title": "刑事訴訟法第35條・身心障礙輔佐人陪同",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=35"
+          },
+          {
+            "title": "刑事訴訟法第95條・選任辯護人與法扶權利告知",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=95"
+          },
+          {
+            "title": "法律扶助法第5條・初次偵訊重大案件之扶助資格",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0030157&flno=5"
+          },
+          {
+            "title": "法律扶助法第13條・法律扶助申請與免審資力",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0030157&flno=13"
+          }
+        ]
       },
-      "takeaway": "委任書不以司法狀紙為限，不能因紙張格式不同便視為無效而不通知辯護人。",
+      "takeaway": "看委任內容及律師資格，不以是否使用司法狀紙判有效；法扶告知、律師到場與輔佐人制度分開。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -1070,8 +1118,53 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第100點（PDF第17頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=17"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第107點（PDF第18頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=18"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第116點（PDF第19頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=19"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第148點（PDF第24頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=24"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第30條・辯護人委任書狀",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=30"
+        },
+        {
+          "title": "刑事訴訟法第31條・偵查中法扶律師及例外",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=31"
+        },
+        {
+          "title": "刑事訴訟法第35條・身心障礙輔佐人陪同",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=35"
+        },
+        {
+          "title": "刑事訴訟法第95條・選任辯護人與法扶權利告知",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=95"
+        },
+        {
+          "title": "法律扶助法第5條・初次偵訊重大案件之扶助資格",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0030157&flno=5"
+        },
+        {
+          "title": "法律扶助法第13條・法律扶助申請與免審資力",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0030157&flno=13"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D不變：委任書狀不以司法狀紙為限。法扶申請、應通知律師與身心障礙者輔佐人陪同各有依據及例外，不能互相取代。"
     },
     {
       "id": "investigation114_15",

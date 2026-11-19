@@ -416,3 +416,26 @@ assert(overseasTheft.options[3].explanation.includes('不能推回報案'));
 assert(overseasTheft.currentAnswer.includes('不能由手冊直接推導可在境外搜捕'));
 assert.equal(result.questions.find(q=>q.id==='investigation111_18').verified,false);
 console.log('Transfer grouping, custody permission, special forms and overseas police assignment passed.');
+
+// This acceptance batch must cover 30 distinct questions, while retaining legal boundaries.
+const investigationBatch30=events.find(e=>e.eventId==='legal-review-20261119-batch30-investigation');assert(investigationBatch30);
+assert.equal(investigationBatch30.patches.length,30);assert.equal(new Set(investigationBatch30.patches.map(p=>p.targetId)).size,30);
+for(const patch of investigationBatch30.patches){
+ const q=result.questions.find(x=>x.id===patch.targetId);assert(q?.verified);assert.equal(q.amendment.status,'none');assert.notEqual(q.analysisMode,'answer-key');
+ assert.equal(patch.optionOverrides.length,4);assert(q.options.every(o=>!o.explanation.includes('本項不在當年度官方接受答案')));
+}
+const reportResidence=result.questions.find(q=>q.id==='investigation115_04');
+assert.equal(reportResidence.answer,0);assert(reportResidence.currentAnswer.includes('允許多個機關各有偵處責任'));
+assert(reportResidence.options[1].explanation.includes('亦可能有偵處責任'));assert(reportResidence.options[2].explanation.includes('可有偵處責任'));
+const victimResidence=result.questions.find(q=>q.id==='investigation115_36');assert(victimResidence.options[0].correction.includes('被害人是乙'));
+const ordinaryCase=result.questions.find(q=>q.id==='investigation111_01');assert(ordinaryCase.options[2].explanation.includes('三份'));assert(ordinaryCase.options[3].explanation.includes('分局長'));
+const civilConsent=result.questions.find(q=>q.id==='investigation112_26');assert(civilConsent.options[1].explanation.includes('指揮官不能'));assert(civilConsent.options[1].explanation.includes('搜索、扣押'));
+const waitForCounsel=result.questions.find(q=>q.id==='investigation112_17');assert(waitForCounsel.options[1].explanation.includes('四小時'));assert(waitForCounsel.options[1].explanation.includes('等候通譯'));
+const statementEvidence=result.questions.find(q=>q.id==='investigation113_42');assert(statementEvidence.options[2].explanation.includes('不符的部分不得作為證據'));assert(statementEvidence.options[2].correction.includes('不是整份筆錄一律排除'));
+const counselForm=result.questions.find(q=>q.id==='investigation114_14');assert(counselForm.options[3].explanation.includes('不以司法狀紙為限'));assert(counselForm.options[2].explanation.includes('第95條'));
+const supportAndCounsel=result.questions.find(q=>q.id==='investigation115_47');assert(supportAndCounsel.options[2].explanation.includes('必要時'));assert(supportAndCounsel.options[3].correction.includes('不同保障'));
+const embassyConsent=result.questions.find(q=>q.id==='investigation111_23');assert(embassyConsent.options[1].explanation.includes('同意進入不等於同意所有後續行為'));
+for(const id of ['investigation111_17','investigation115_30'])assert(result.questions.find(q=>q.id===id).currentAnswer.includes('十二小時'));
+const interceptionAuthority=result.questions.find(q=>q.id==='investigation115_44');assert(interceptionAuthority.currentAnswer.includes('司法聲請、核發及執行管制仍須完成'));
+for(const id of ['investigation111_04','investigation111_14','investigation112_21','investigation114_07'])assert.equal(result.questions.find(q=>q.id===id).verified,false);
+console.log('Thirty-question acceptance, concurrent police responsibility, inquiry rights and distinct judicial authorization passed.');

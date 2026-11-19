@@ -366,26 +366,26 @@
       "options": [
         {
           "text": "如案情需要，得於現場相關處所搜尋附近監視影像",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "搜尋附近監視影像屬調查蒐情方向；勘察組重點為現場紀錄、跡證採集保存與研判。",
+          "explanation": "第66點第3款將現場相關處所附近監視影像的搜尋列為調查組具體任務；本題問勘察組的主要任務，故選A。",
+          "correction": "任務分工不表示監視影像不是證據，也不禁止依法協同數位鑑識。",
           "trueStatement": false
         },
         {
           "text": "採集各類跡證、包裝、封緘及送鑑",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：搜尋附近監視影像屬調查蒐情方向；勘察組重點為現場紀錄、跡證採集保存與研判。",
+          "explanation": "第68點第2款列採集各類跡證、分別記錄、包裝、封緘、保存與送鑑，是勘察組的核心工作。",
+          "correction": "B屬勘察採證，並須依證物特性避免污染。",
           "trueStatement": true
         },
         {
           "text": "研判犯罪嫌疑人之入出口、進出刑案現場路線、犯罪時間等",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：搜尋附近監視影像屬調查蒐情方向；勘察組重點為現場紀錄、跡證採集保存與研判。",
+          "explanation": "第68點第3款列研判嫌疑人入出口、方法及關聯性；路線、時間等亦應依現場跡證具體研判，屬本題勘察工作脈絡。",
+          "correction": "C不屬應排除項，但不能在缺乏跡證時逕自推定路線或犯罪時間。",
           "trueStatement": true
         },
         {
           "text": "刑案現場紀錄",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：搜尋附近監視影像屬調查蒐情方向；勘察組重點為現場紀錄、跡證採集保存與研判。",
+          "explanation": "第68點要求採證記錄，第71點要求勘察報告及照片、測繪圖、採驗紀錄等，現場紀錄是勘察成果的一環。",
+          "correction": "D屬勘察記錄工作，不是只採證而不留下紀錄。",
           "trueStatement": true
         }
       ],
@@ -396,19 +396,35 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第6題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 6,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第65、66、68、71點",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "調查組主查訪及附近影像；勘察組主科學採證與跡證研判，分工不等於證據種類的排他限制。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第65、66、68點（PDF第11頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+          },
+          {
+            "title": "警專公開115版偵查犯罪手冊第71點（PDF第12頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=12"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "搜尋附近監視影像屬調查蒐情方向；勘察組重點為現場紀錄、跡證採集保存與研判。",
+      "takeaway": "調查組主查訪及附近影像；勘察組主科學採證與跡證研判，分工不等於證據種類的排他限制。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -421,8 +437,21 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第65、66、68點（PDF第11頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=11"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第71點（PDF第12頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=12"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A不變：本題依第65、66、68點的主要任務分組，附近監視影像搜尋列在調查組；勘察組負責科學採證與跡證研判，兩組仍須協作。"
     },
     {
       "id": "investigation110_07",
@@ -1551,26 +1580,26 @@
       "options": [
         {
           "text": "警察機關受理非本轄刑事案件報案時，應立即通報管轄分局偵查隊",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：警察機關得囑託他轄追查贓證或詢問相關人；跨轄協調不取代各項強制處分的法源。",
+          "explanation": "第18點要求受理後作必要處置，報告主管、通報所屬勤務指揮中心並通知所屬偵查隊；不能將所有他轄報案，一概簡化為立即通報管轄分局偵查隊。",
+          "correction": "先受理及必要處置，再依通報、移轉與管轄規定辦理；緊急案件另迅速通知管轄勤務指揮中心。",
           "trueStatement": false
         },
         {
           "text": "警察機關於管轄區外執行情報蒐集、探訪活動，未攜槍時，亦應通報當地警察機關知悉",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：警察機關得囑託他轄追查贓證或詢問相關人；跨轄協調不取代各項強制處分的法源。",
+          "explanation": "第31點對情報蒐集或探訪活動且未攜帶槍械者，明定得免通報。B寫成仍一律應通報，忽略這項限定例外。",
+          "correction": "免通報須同時符合活動性質與未攜槍，不可推廣到所有越區搜捕。",
           "trueStatement": false
         },
         {
           "text": "警察機關得囑託他轄警察機關代為追查贓證物或詢問證人及犯罪嫌疑人等工作",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "警察機關得囑託他轄追查贓證或詢問相關人；跨轄協調不取代各項強制處分的法源。",
+          "explanation": "第32點明列得囑託他轄警察機關追查贓證物、詢問證人或犯罪嫌疑人等；受囑託機關應給予必要協助或處理。",
+          "correction": "C正確；案情急迫得以傳真通報辦理，囑託仍須依合法程序調查。",
           "trueStatement": true
         },
         {
           "text": "司法警察人員帶同被告外出繼續追查贓證、共犯，應於當日下午 10 時前解交檢察官",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：警察機關得囑託他轄追查贓證或詢問相關人；跨轄協調不取代各項強制處分的法源。",
+          "explanation": "第234點規範報請檢察官核發偵查指揮書、帶同已移送之受羈押被告或犯嫌繼續查證，期限為當日下午十一時前，並須即通知選任辯護人。",
+          "correction": "不是下午十時；也不是允許警方自行將任何人拘留到十一時。",
           "trueStatement": false
         }
       ],
@@ -1581,19 +1610,43 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第22題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 22,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第18、31、32、234點",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "囑託調查得請他轄協助；第31點例外不涵蓋一般越區搜捕，第234點十一時限於其特定帶同查證程序。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第18點（PDF第4頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=4"
+          },
+          {
+            "title": "警專公開115版偵查犯罪手冊第31點（PDF第7頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=7"
+          },
+          {
+            "title": "警專公開115版偵查犯罪手冊第32點（PDF第8頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=8"
+          },
+          {
+            "title": "警專公開115版偵查犯罪手冊第234點（PDF第36頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=36"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "警察機關得囑託他轄追查贓證或詢問相關人；跨轄協調不取代各項強制處分的法源。",
+      "takeaway": "囑託調查得請他轄協助；第31點例外不涵蓋一般越區搜捕，第234點十一時限於其特定帶同查證程序。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -1606,8 +1659,29 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第18點（PDF第4頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=4"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第31點（PDF第7頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=7"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第32點（PDF第8頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=8"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第234點（PDF第36頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=36"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C不變。囑託調查依第32點；他轄報案、未攜槍情報活動及受羈押者帶同查證各有不同條件，不能混為單一通報或留置規則。"
     },
     {
       "id": "investigation110_23",
@@ -1619,26 +1693,26 @@
       "options": [
         {
           "text": "被害人之嗜好、接觸人物及被害狀況等生活情形",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：原卷所考偵查計畫內容不包括偵查經費分配；應區分計畫必載事項與行政資源管理。",
+          "explanation": "第85點第3款明列被害人嗜好、接觸人物及被害狀況等生活情形，作為偵查計畫內容。",
+          "correction": "A在列舉中，應依案情及合法蒐證範圍調查。",
           "trueStatement": true
         },
         {
           "text": "發現經過或受理報案經過",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：原卷所考偵查計畫內容不包括偵查經費分配；應區分計畫必載事項與行政資源管理。",
+          "explanation": "第85點第4款明列發現經過或受理報案經過。",
+          "correction": "B在列舉中，有助掌握案情來源及時間。",
           "trueStatement": true
         },
         {
           "text": "偵查經費之分配",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "原卷所考偵查計畫內容不包括偵查經費分配；應區分計畫必載事項與行政資源管理。",
+          "explanation": "第85點共列11類內容，未將偵查經費分配列為其中一款；題目是問該點列舉，不是問所有行政準備工作。",
+          "correction": "C為本題不屬者；未列不代表經費管理不重要或禁止編列。",
           "trueStatement": false
         },
         {
           "text": "偵查對象、方向、方式、步驟及部署進度等偵查作為",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：原卷所考偵查計畫內容不包括偵查經費分配；應區分計畫必載事項與行政資源管理。",
+          "explanation": "第85點第8款明列偵查對象、方向、方式、步驟及部署進度等偵查作為。",
+          "correction": "D在列舉中，計畫仍須依合法、必要原則執行。",
           "trueStatement": true
         }
       ],
@@ -1649,19 +1723,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第23題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 23,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第84、85點",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "分清偵查計畫法定手冊列舉與其他行政準備；本題問第85點內容。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第84、85點（PDF第14頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=14"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "原卷所考偵查計畫內容不包括偵查經費分配；應區分計畫必載事項與行政資源管理。",
+      "takeaway": "分清偵查計畫法定手冊列舉與其他行政準備；本題問第85點內容。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -1674,8 +1760,17 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第84、85點（PDF第14頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=14"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C不變：第84點規定重大刑案除立即偵破外應訂計畫，第85點列11類內容，未列經費分配；不據此推論不得處理經費。"
     },
     {
       "id": "investigation110_24",

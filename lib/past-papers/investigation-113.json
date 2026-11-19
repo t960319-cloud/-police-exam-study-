@@ -2998,26 +2998,26 @@
       "options": [
         {
           "text": "對於被告之請求對質，除顯無必要者外，得拒絕之",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：應給予辯明嫌疑與指出有利證明方法的機會；等候辯護人不是6小時，筆錄不符錄音部分另有證據規則。",
+          "explanation": "刑訴第97條第2項規定對質請求除顯無必要外不得拒絕；A寫成得拒絕，顛倒原則。",
+          "correction": "有拒絕必要須符合顯無必要等法定判斷，不能任意拒絕對質。",
           "trueStatement": false
         },
         {
           "text": "被告或犯罪嫌疑人表示選任辯護人之意思，而等候辯護人到場致未予訊問。但等候時間不得逾 6 小時",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：應給予辯明嫌疑與指出有利證明方法的機會；等候辯護人不是6小時，筆錄不符錄音部分另有證據規則。",
+          "explanation": "刑訴第93條之1等候辯護人未詢問的上限為四小時，不是六小時；六小時係等候通譯。",
+          "correction": "B應改為四小時，並注意法定障礙經過時間內不得訊問。",
           "trueStatement": false
         },
         {
           "text": "筆錄內所載之被告陳述與錄音或錄影之內容不符者，以筆錄記載為主",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：應給予辯明嫌疑與指出有利證明方法的機會；等候辯護人不是6小時，筆錄不符錄音部分另有證據規則。",
+          "explanation": "刑訴第100條之1第2項不是以筆錄優先；除法定急迫例外外，筆錄陳述與錄音錄影不符的部分不得作為證據。",
+          "correction": "不是整份筆錄一律排除，也不是逕以書面蓋過錄音內容。",
           "trueStatement": false
         },
         {
           "text": "訊問被告，應與以辯明犯罪嫌疑之機會，其陳述有利之事實者，應命其指出證明之方法",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "應給予辯明嫌疑與指出有利證明方法的機會；等候辯護人不是6小時，筆錄不符錄音部分另有證據規則。",
+          "explanation": "刑訴第96條與手冊第115點均要求給予辯明機會，陳述有利事實者應命指出證明方法；第100條之2使警詢準用。",
+          "correction": "D正確；有利與不利事項均應依法釐清並記錄。",
           "trueStatement": true
         }
       ],
@@ -3028,19 +3028,55 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第42題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 42,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第107、110、115、117點；刑事訴訟法第93之1條・等候律師4小時與通譯6小時；刑事訴訟法第96條・辯明及提出有利證明方法；刑事訴訟法第97條・分別訊問及對質請求；刑事訴訟法第100之1條・連續錄音錄影與不符部分之證據效果；刑事訴訟法第100之2條・警詢準用",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項核對警專官方公開標示115年新版之偵查犯罪手冊及所列現行法條，補齊依據與限制；保留原題、選項、官方答案及特殊給分。本次為教材核對，不宣稱核對日修法，不以附件標籤推定修正或施行日，也不以手冊創設法律未授權之強制處分。",
+        "oldRule": "原解析未逐項列明條點、適用條件及例外，或僅依官方接受答案說明。",
+        "newRule": "辯明機會與有利證據須保障；不能以筆錄優先、六小時律師等候或任意拒絕對質取代法律。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第107、110點（PDF第18頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=18"
+          },
+          {
+            "title": "警專公開115版偵查犯罪手冊第115、117點（PDF第19頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=19"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "刑事訴訟法第93之1條・等候律師4小時與通譯6小時",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=93-1"
+          },
+          {
+            "title": "刑事訴訟法第96條・辯明及提出有利證明方法",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=96"
+          },
+          {
+            "title": "刑事訴訟法第97條・分別訊問及對質請求",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=97"
+          },
+          {
+            "title": "刑事訴訟法第100之1條・連續錄音錄影與不符部分之證據效果",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=100-1"
+          },
+          {
+            "title": "刑事訴訟法第100之2條・警詢準用",
+            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=100-2"
+          }
+        ]
       },
-      "takeaway": "應給予辯明嫌疑與指出有利證明方法的機會；等候辯護人不是6小時，筆錄不符錄音部分另有證據規則。",
+      "takeaway": "辯明機會與有利證據須保障；不能以筆錄優先、六小時律師等候或任意拒絕對質取代法律。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -3053,8 +3089,41 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113060&t=A"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第107、110點（PDF第18頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=18"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第115、117點（PDF第19頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=19"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第93之1條・等候律師4小時與通譯6小時",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=93-1"
+        },
+        {
+          "title": "刑事訴訟法第96條・辯明及提出有利證明方法",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=96"
+        },
+        {
+          "title": "刑事訴訟法第97條・分別訊問及對質請求",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=97"
+        },
+        {
+          "title": "刑事訴訟法第100之1條・連續錄音錄影與不符部分之證據效果",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=100-1"
+        },
+        {
+          "title": "刑事訴訟法第100之2條・警詢準用",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=100-2"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D不變：須給辯明及提出有利證明方法的機會。對質不得任意拒絕、律師等候為四小時，錄音不符部分之證據效果另依刑訴規定。"
     },
     {
       "id": "investigation113_43",

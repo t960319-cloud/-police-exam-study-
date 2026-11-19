@@ -738,3 +738,13 @@
 - 原生保存與部署成功，來源88bfef4同時存在GitHub及Sites；第41版部署appgdep_6afeda08ede08191b602bd8aa81920f3已succeeded。188檔封裝含本批新事件的伺服器路由分塊，沒有改DB綁定或公開權限。
 - 正式GET法規API回40筆、無下一頁，37筆本地事件相同、前39筆正式歷史內容完整保留、新7個更新存在，HTTP200／CONNECT200；[發布證據](docs/production-transfer-release-2026-11-19.json)完整保存原生版本與雜湊。這是法規內容驗證，非正式帳號同步、還原或個人學習寫入驗收。
 - 最後僅變更發布紀錄與待辦；JSON、文件連結及差異檢查後同步Git，未重跑不受文件變更影響的建置。
+
+
+### 2026-11-19：30題120選項教材驗收檢查
+
+- 30題皆有逐選項詳解、現行作答對照、手冊條點及官方法條來源；[證據](docs/legal-evidence-2026-11-19-batch30.json)含完整清單、43個手冊條點、下載HTTP／CONNECT200及SHA。公開115版標籤未作為生效日期，舊版尚缺的10題候選另列，未批次清除其待核。
+- 通過：`node --experimental-strip-types scripts/check-curated-updates.mjs`、`node --experimental-strip-types scripts/check-investigation-papers.mjs`、`node node_modules/typescript/bin/tsc --noEmit`及修改回歸腳本ESLint。新回歸保護30題／120選項數量、複數偵處責任、律師4小時與通譯6小時、委任形式、輔佐與辯護區別、同意勘察與司法授權、12小時回報及外交文件另行同意。
+- 一次性全庫比對通過：910題題幹、選項與全部官方給分不變，66申論、33法條卡與37筆既有事件不變；恰30個原未核題目更新，原始詳解與事件重播一致。未標已核359／27，綜合待核360。
+- 排序與建置及正式發布結果另記。未進行正式帳號保存、跨裝置或還原驗收，也未修改DB、存取對象或個人資料。
+
+- 本批補驗：`node --experimental-strip-types scripts/check-study-priorities.mjs`六項排序情境及`pnpm build`均通過；僅有既有分塊大小與路由靜態分類提示。新增JSON、證據連結與差異另核對後正常提交。
