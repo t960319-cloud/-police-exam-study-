@@ -12381,5 +12381,727 @@
       }
     ],
     "createdAt": 1795053506277
+  },
+  {
+    "eventId": "legal-review-20261119-chase-escort-texts",
+    "kind": "update",
+    "checkedAt": "2026-11-19",
+    "summary": "取得110.07.23追緝程序完整2頁及警專公開115版偵查手冊解送條點，補6題選擇、4題申論及1張卡。追緝同時並持續通報、視需要支援，不宜攔停終止；解送交接清楚前不得懈怠、分別如廁、附近機關受請求不得拒絕。q15及114情境14逐項已核所列版本，其餘缺完整SOP者仍待核，已廢止辦法題維持歷史標示。原題、官方給分及配分不變。",
+    "sources": [
+      {
+        "title": "臺灣警察專科學校行政警察科・110.07.23執行路檢攔檢追緝車輛作業程序完整2頁",
+        "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=WG5maXlKUFNJdGJNcFVWNUc4ZWw0cGZPa1RWL044ZGVlaHlwZndYTENjZ2p3YWJhLzZ4UUg0dElWUjdwSkxVb0xSaFV6Y0xGWnh0S2NqYm5sbGt1S2lsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=c2dqeUErbFpLQ3dEaHUzMzl5UzdDVnY4Tzc5MHdlc0VRdzVCVDE5Nk9HM1FqTHRhK1Yyd2NBNGl4MEJWV0hDT3BYWXNzS1VkV2ZrL0R1czh0bkJldmxKckZFam5Gd3Rlc0kwSW85aEE1U3RUV09Sdm5jdFJwT3ZxNzdLOTBSblJLVlFmNGhOaGNEcGs4bkVBY2ZWa0dRPT0=&cg=967"
+      },
+      {
+        "title": "臺灣警察專科學校行政警察科・1100723追緝程序附件入口",
+        "url": "https://admin.tpa.edu.tw/p/404-1015-7011-1.php?Lang=zh-tw"
+      },
+      {
+        "title": "全國法規資料庫・警察職權行使法第3、4、6至8及29條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+      },
+      {
+        "title": "全國法規資料庫・道路交通管理處罰條例第7條之2及60條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+      },
+      {
+        "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊第218、221、222點（PDF34至35頁）",
+        "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+      },
+      {
+        "title": "臺灣警察專科學校刑事警察科・115年新版手冊附件入口",
+        "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+      },
+      {
+        "title": "全國法規資料庫・刑事訴訟法第89條之1、92及130條",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      },
+      {
+        "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "q15",
+        "amendment": {
+          "status": "none",
+          "law": "警專公開之追緝程序／偵查犯罪手冊及所列法律",
+          "checkedAt": "2026-11-19",
+          "note": "依警專官方公開標示115年新版之偵查犯罪手冊第218、221、222點補充；本批核對該附件所載版本，未取得全部後續沿革、獨立解送SOP或固定警力座位細則。解送人犯辦法110.12.13廢止，舊條文不作現行授權。 本題不以舊辦法為題幹，已核對其交接判斷。",
+          "sources": [
+            {
+              "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊第218、221、222點（PDF34至35頁）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+            },
+            {
+              "title": "臺灣警察專科學校刑事警察科・115年新版手冊附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第89條之1、92及130條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "C正確。警專公開115版偵查犯罪手冊第222點第4款明定，縱已抵達解送處所，未交接清楚前仍不得懈怠；本次改以可讀官方手冊支持，不再引用已廢止辦法作現行依據。",
+        "takeaway": "到達不等於點交完成；未交接清楚前仍須戒護。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第222點第4款把到達處所與交接清楚分開；未點交即離開，仍有戒護中斷風險。",
+            "correction": "持續戒護並完成交接，不能僅因抵達就離開。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "該款明定縱已抵達解送處所，未交接清楚前仍不得懈怠；進入大門不等於解除責任。",
+            "correction": "應確認接收及交接清楚，不能以場所界線取代程序。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第222點第4款直接支持本項，要求持續專注戒護至交接清楚。",
+            "correction": "本項正確；法源改列警專公開115版手冊第222點第4款，舊辦法僅留歷史對照。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "自行讓人犯尋找承辦人，無從確保有效戒護或交接清楚，不符合第222點第4款要求。",
+            "correction": "由解送人員協調接收並持續戒護至交接清楚。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "q16",
+        "amendment": {
+          "status": "review",
+          "law": "警專公開之追緝程序／偵查犯罪手冊及所列法律",
+          "checkedAt": "2026-11-19",
+          "note": "依警專官方公開標示115年新版之偵查犯罪手冊第218、221、222點補充；本批核對該附件所載版本，未取得全部後續沿革、獨立解送SOP或固定警力座位細則。解送人犯辦法110.12.13廢止，舊條文不作現行授權。 題幹明指已廢止辦法，故保留歷史與待核標示，不因新手冊有相近文字便改成現行法題。",
+          "sources": [
+            {
+              "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊第218、221、222點（PDF34至35頁）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+            },
+            {
+              "title": "臺灣警察專科學校刑事警察科・115年新版手冊附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第89條之1、92及130條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "保留原題及原答案B作已廢止辦法的歷史題型；警專公開115版手冊第222點第3款另明定兩人同時要求如廁應分別前往並嚴防脫逃。相近要求另有官方依據，不代表舊辦法恢復效力。",
+        "takeaway": "舊題指明已廢止辦法仍作歷史；115版手冊另有分別如廁、防逃規定。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "就原題歷史條文及本次手冊第222點第3款對照，兩人同時要求應分別前往，不能全部同時帶往。",
+            "correction": "分別前往並安排必要戒護、防逃；新手冊點次與原題舊辦法分列。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "B為原題保留答案；本次手冊第222點第3款亦有分別前往、防逃要求，但不能把它仍稱作現行解送人犯辦法第11條。",
+            "correction": "原題作歷史判讀；版本補充改引公開115版手冊第222點第3款。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "手冊規範如何在如廁時防逃，沒有以一律禁止如廁取代必要的處理及戒護。",
+            "correction": "依需求及安全分別處理，不能用全面禁止取代個別判斷。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "手冊要求嚴防脫逃，容許人犯任意離開有效戒護與此要求相反。",
+            "correction": "全程維持必要戒護，兩人同時要求時分別前往。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "q25",
+        "amendment": {
+          "status": "none",
+          "law": "警專公開之追緝程序／偵查犯罪手冊及所列法律",
+          "checkedAt": "2026-11-19",
+          "note": "本題比例及法源判斷已核；已取得110.07.23追緝程序完整2頁，明列拒停時同時並持續通報、視需要請求支援、客觀無法或不宜攔停時依警職法第3條第2項終止；已攔停則轉後續身分查證程序。該附件是110年版本，未核實全部後續修正或另一份巡邏盤查SOP，不宣稱為最新完整SOP。",
+          "sources": [
+            {
+              "title": "臺灣警察專科學校行政警察科・110.07.23執行路檢攔檢追緝車輛作業程序完整2頁",
+              "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=WG5maXlKUFNJdGJNcFVWNUc4ZWw0cGZPa1RWL044ZGVlaHlwZndYTENjZ2p3YWJhLzZ4UUg0dElWUjdwSkxVb0xSaFV6Y0xGWnh0S2NqYm5sbGt1S2lsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=c2dqeUErbFpLQ3dEaHUzMzl5UzdDVnY4Tzc5MHdlc0VRdzVCVDE5Nk9HM1FqTHRhK1Yyd2NBNGl4MEJWV0hDT3BYWXNzS1VkV2ZrL0R1czh0bkJldmxKckZFam5Gd3Rlc0kwSW85aEE1U3RUV09Sdm5jdFJwT3ZxNzdLOTBSblJLVlFmNGhOaGNEcGs4bkVBY2ZWa0dRPT0=&cg=967"
+            },
+            {
+              "title": "臺灣警察專科學校行政警察科・1100723追緝程序附件入口",
+              "url": "https://admin.tpa.edu.tw/p/404-1015-7011-1.php?Lang=zh-tw"
+            },
+            {
+              "title": "全國法規資料庫・警察職權行使法第3、4、6至8及29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "全國法規資料庫・道路交通管理處罰條例第7條之2及60條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A正確：逆向、拒停先依交通及警職法的要件處理；如另有刑案事實才進一步審查刑事法源。110年追緝程序要求同時並持續通報，無法或不宜攔停時應終止，不能把逃逸當成無限追車授權。",
+        "takeaway": "拒停先辨法源；追蹤同時持續通報，不宜攔停應終止。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "警職法第3條要求必要性與侵害最小；交通違規、路檢及有具體刑案事實時的法律依據應分別判斷。110程序亦要求依客觀情勢終止。",
+            "correction": "本項正確；程序附件限110版對照，不能概括擴張成所有情況均可強制追車。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "逃逸本身不能代替特定犯罪事實；刑訴法現行犯或其他拘捕要件仍須個別符合。",
+            "correction": "先辨明違規及具體犯罪事實，不得將任何拒停者當成所有犯罪現行犯。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "110程序執行階段第2款明定客觀無法或不宜攔停時依警職法第3條第2項終止；不因對方逃跑便免除公共安全評估。",
+            "correction": "依天候、人車流、路況及替代方法持續評估，無法或不宜攔停時停止該措施。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "110程序執行階段第1款要求通報逃逸方向且持續通報；停止高風險攔停不等於不得依法蒐證、通報或後續追查。",
+            "correction": "依法保存可用證據、通報並評估支援或後續查處。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "duty113_06",
+        "amendment": {
+          "status": "review",
+          "law": "警專公開之追緝程序／偵查犯罪手冊及所列法律",
+          "checkedAt": "2026-11-19",
+          "note": "保留原題及官方答案D；已取得110.07.23追緝程序完整2頁，明列拒停時同時並持續通報、視需要請求支援、客觀無法或不宜攔停時依警職法第3條第2項終止；已攔停則轉後續身分查證程序。該附件是110年版本，未核實全部後續修正或另一份巡邏盤查SOP，不宣稱為最新完整SOP。",
+          "sources": [
+            {
+              "title": "臺灣警察專科學校行政警察科・110.07.23執行路檢攔檢追緝車輛作業程序完整2頁",
+              "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=WG5maXlKUFNJdGJNcFVWNUc4ZWw0cGZPa1RWL044ZGVlaHlwZndYTENjZ2p3YWJhLzZ4UUg0dElWUjdwSkxVb0xSaFV6Y0xGWnh0S2NqYm5sbGt1S2lsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=c2dqeUErbFpLQ3dEaHUzMzl5UzdDVnY4Tzc5MHdlc0VRdzVCVDE5Nk9HM1FqTHRhK1Yyd2NBNGl4MEJWV0hDT3BYWXNzS1VkV2ZrL0R1czh0bkJldmxKckZFam5Gd3Rlc0kwSW85aEE1U3RUV09Sdm5jdFJwT3ZxNzdLOTBSblJLVlFmNGhOaGNEcGs4bkVBY2ZWa0dRPT0=&cg=967"
+            },
+            {
+              "title": "臺灣警察專科學校行政警察科・1100723追緝程序附件入口",
+              "url": "https://admin.tpa.edu.tw/p/404-1015-7011-1.php?Lang=zh-tw"
+            },
+            {
+              "title": "全國法規資料庫・警察職權行使法第3、4、6至8及29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "全國法規資料庫・道路交通管理處罰條例第7條之2及60條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "原官方答案D保留。110.07.23路檢追緝程序寫的是追蹤時同時並持續通報，視需要的是勤務支援；D把通報與支援一起拖至必要時，且省略法源及終止條件。原題所問另一份巡邏盤查SOP全文及113年版本仍待核。",
+        "takeaway": "通報要同時且持續；支援依需要，兩者不能混成必要時才報告。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "原題A是官方接受的盤查前通報敘述；本批取得的是路檢追緝程序，不能拿它推定另一份巡邏盤查SOP的全部前置通報文字。",
+            "correction": "原官方判讀保留；盤查須先具法定事由，該巡邏SOP完整版本另查。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "警職法第7條第2項以前置詢問或證件方法顯然無法查證為前提，強制力另限遇抗拒；題目文字不能省略這些條件。",
+            "correction": "補前置查證、自攔停起3小時、報告中心及通知指定親友或律師；不能單憑逃逸之虞跳過前提。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "警職法第29條要求有理由立即停止或更正；無理由得繼續，經請求時須製作異議理由紀錄交付。",
+            "correction": "本題官方未列錯誤；完整法律說明須補更正及經請求交付紀錄。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "110追緝程序執行階段第1款把同時、持續通報列為處置，視需要的是追查路線勤務支援；第2款另定不宜攔停時終止。D不能概括成必要時才通報。",
+            "correction": "區分通報與請求支援，且先審法源與風險；113年題指巡邏SOP完整原文仍待核。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "duty112_09",
+        "amendment": {
+          "status": "review",
+          "law": "警專公開之追緝程序／偵查犯罪手冊及所列法律",
+          "checkedAt": "2026-11-19",
+          "note": "依警專官方公開標示115年新版之偵查犯罪手冊第218、221、222點補充；本批核對該附件所載版本，未取得全部後續沿革、獨立解送SOP或固定警力座位細則。解送人犯辦法110.12.13廢止，舊條文不作現行授權。 已更正A的現行法源，B至D涉及的全部配套未核完，保留整題待核。",
+          "sources": [
+            {
+              "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊第218、221、222點（PDF34至35頁）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+            },
+            {
+              "title": "臺灣警察專科學校刑事警察科・115年新版手冊附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第89條之1、92及130條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+            }
+          ]
+        },
+        "verified": false,
+        "currentAnswer": "保留原題及官方答案A。A的戒具必要性、身體與名譽保障改引刑訴第89條之1及戒具辦法，第222點亦載避免暴露；兩人以上警力、固定座位及突發通報完整SOP仍未在本批核完，不把舊辦法第11條再作現行法源。",
+        "takeaway": "戒具改引刑訴及必要性；如廁、聯絡、警力及座位分別核對。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "刑訴第89條之1明定解送得用戒具但不逾必要程度，注意身體與名譽、避免公然暴露、無必要即解除；手冊第222點第1款另列名譽及安全。",
+            "correction": "A為官方答案；改引刑訴第89條之1、戒具辦法及手冊第222點，不以已廢止辦法授權一律上銬。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "手冊第221點要求視案情調派適當人員及交通工具，第222點第6款要求勿靠近門窗；本批未取得可確認兩人以上及右前座配置的完整車輛安全細則。",
+            "correction": "保留官方未接受B的結果；警力與座位應依完整車輛戒護規程核對，不從本手冊自行推定固定配置。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "手冊第222點第3款支持如廁時分別前往、防逃，不能由准予如廁一併推定可無限制私自通訊；法定通知與辯護聯絡亦須依法保障。",
+            "correction": "如廁、法定聯絡與私自對外通訊分別審查，不把人道考量概括成任意通訊許可。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "手冊第222點第5款列遇困難得請求附近機關協助；不能由此推出必須等追緝未果才通報。即時事故通報的完整作業程序仍另查。",
+            "correction": "依風險及時通報、請求協助並處置；不以追緝失敗作求援前提，完整SOP保留待核。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "scene114-14",
+        "amendment": {
+          "status": "none",
+          "law": "警專公開之追緝程序／偵查犯罪手冊及所列法律",
+          "checkedAt": "2026-11-19",
+          "note": "本題四選項已逐項對照公開115版手冊第222點；依警專官方公開標示115年新版之偵查犯罪手冊第218、221、222點補充；本批核對該附件所載版本，未取得全部後續沿革、獨立解送SOP或固定警力座位細則。解送人犯辦法110.12.13廢止，舊條文不作現行授權。",
+          "sources": [
+            {
+              "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊第218、221、222點（PDF34至35頁）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+            },
+            {
+              "title": "臺灣警察專科學校刑事警察科・115年新版手冊附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第89條之1、92及130條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            },
+            {
+              "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案B不變；警專公開115版偵查犯罪手冊第222點第5款明定，途中發生困難得請求附近警察機關協助，被請求者不得拒絕。A、C、D分別對應同點第2、1、3款。",
+        "takeaway": "公用交通解送：防任意他往、維護名譽、分別如廁；附近機關受請求不得拒絕。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第222點第2款明列避免見客、購物、飲酒及循其要求任意隨同他往；A與該版本文字相符。",
+            "correction": "本項正確；不以途中處理需要為由任意放鬆戒護。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第222點第5款明定被請求的附近警察機關不得拒絕；B另設人力不足或重要勤務即可拒絕的概括例外，與該款不符。",
+            "correction": "改為被請求者不得拒絕；調度困難應循指揮協調確保協助，非自行增加拒絕例外。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第222點第1款要求顧及名譽及安全、戒具儘量避免暴露；刑訴第89條之1另有比例、避免公然暴露及無必要即解除要求。",
+            "correction": "本項正確；避免暴露不表示可忽略法定戒護或把戒具當懲罰。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第222點第3款明定二人同時要求如廁應分別前往，並嚴防脫逃；D與該款相符。",
+            "correction": "本項正確；分別處理並維持適當戒護。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "s09",
+        "amendment": {
+          "status": "review",
+          "law": "警職法與道交條例；110.07.23路檢追緝程序",
+          "checkedAt": "2026-11-19",
+          "note": "已取得110.07.23追緝程序完整2頁，明列拒停時同時並持續通報、視需要請求支援、客觀無法或不宜攔停時依警職法第3條第2項終止；已攔停則轉後續身分查證程序。該附件是110年版本，未核實全部後續修正或另一份巡邏盤查SOP，不宣稱為最新完整SOP。 本站擬答非官方評分標準；原題及配分不變。",
+          "sources": [
+            {
+              "title": "全國法規資料庫・警察職權行使法第3條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0080145&flno=3"
+            },
+            {
+              "title": "全國法規資料庫・道交條例第7條之2",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=7-2"
+            },
+            {
+              "title": "全國法規資料庫・道交條例第60條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=60"
+            },
+            {
+              "title": "警政署《警光》795期第37至38頁・追蹤稽查與刑案追緝分析（111年）",
+              "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=1045621374451716096&module=wg079&type=s"
+            },
+            {
+              "title": "臺灣警察專科學校行政警察科・110.07.23執行路檢攔檢追緝車輛作業程序完整2頁",
+              "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=WG5maXlKUFNJdGJNcFVWNUc4ZWw0cGZPa1RWL044ZGVlaHlwZndYTENjZ2p3YWJhLzZ4UUg0dElWUjdwSkxVb0xSaFV6Y0xGWnh0S2NqYm5sbGt1S2lsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=c2dqeUErbFpLQ3dEaHUzMzl5UzdDVnY4Tzc5MHdlc0VRdzVCVDE5Nk9HM1FqTHRhK1Yyd2NBNGl4MEJWV0hDT3BYWXNzS1VkV2ZrL0R1czh0bkJldmxKckZFam5Gd3Rlc0kwSW85aEE1U3RUV09Sdm5jdFJwT3ZxNzdLOTBSblJLVlFmNGhOaGNEcGs4bkVBY2ZWa0dRPT0=&cg=967"
+            },
+            {
+              "title": "臺灣警察專科學校行政警察科・1100723追緝程序附件入口",
+              "url": "https://admin.tpa.edu.tw/p/404-1015-7011-1.php?Lang=zh-tw"
+            },
+            {
+              "title": "全國法規資料庫・警察職權行使法第3、4、6至8及29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "全國法規資料庫・道路交通管理處罰條例第7條之2及60條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+            }
+          ]
+        },
+        "verified": false,
+        "model": {
+          "intro": "警察執行職務，應有法定依據並符合發動要件，兼顧勤務目的、比例原則及人民權益。茲依題示配分分述如下。",
+          "basis": "警職法第3、4、6至8條；道交條例第7條之2、第60條；具體犯罪事實另審刑訴法。已取得警專110.07.23追緝程序完整2頁，並與警政署111年期刊分析分列；後續最新完整SOP及沿革仍待核。",
+          "analysis": "一、分類與法源（10分）\n逆向為交通違規，拒停逃逸須按交通法源處理；單憑逃逸或慌張不當然構成現行犯。若另有具體犯罪事實，應分別審查刑事要件。\n二、現場處置與風險（15分）\n（一）先記錄違規、車輛與方向，依警職法第3條衡量目的、替代手段、人車流、天候、速度與道路情況。\n（二）當場不能或不宜攔截製單，且符合道交第7條之2第1項第4款時，得依法逕行舉發；拒停逃逸另審第60條。\n（三）已取得的110.07.23路檢追緝程序，執行階段第1款規定拒停後得以追蹤稽查方式，同時通報逃逸方向並持續通報，視需要請求追查路線勤務支援；第2款明定客觀無法或不宜攔停時，依警職法第3條第2項終止；第3款已攔停車輛轉依身分查證或巡邏盤查程序。不能把支援視需要誤讀成通報亦可延後。警政署111年文章所述交通違規蒐證及刑案追緝，屬各自任務及當時程序分析，仍須分流。\n（四）如有刑案事由，另依具體事實評估必要性及是否通報支援；不能因有嫌疑即忽視公共安全或強制處分要件。\n※110版完整2頁現已取得，含當時防疫及裝備規定；不推定全篇在今日均維持相同。最新完整SOP與修正沿革仍待核，本站擬答非官方評分標準。",
+          "conclusion": "綜上，應依法行政，依個案事實審查要件、採取必要措施並遵守法定程序，隨情勢檢討其必要性，以兼顧執法目的與人民權益保障。"
+        }
+      },
+      {
+        "targetId": "duty111_s01",
+        "amendment": {
+          "status": "review",
+          "law": "警職法與道交條例；110.07.23路檢追緝程序",
+          "checkedAt": "2026-11-19",
+          "note": "已取得110.07.23追緝程序完整2頁，明列拒停時同時並持續通報、視需要請求支援、客觀無法或不宜攔停時依警職法第3條第2項終止；已攔停則轉後續身分查證程序。該附件是110年版本，未核實全部後續修正或另一份巡邏盤查SOP，不宣稱為最新完整SOP。 本站擬答非官方評分標準；原題及配分不變。",
+          "sources": [
+            {
+              "title": "全國法規資料庫・警察職權行使法第3條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0080145&flno=3"
+            },
+            {
+              "title": "全國法規資料庫・道交條例第7條之2",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=7-2"
+            },
+            {
+              "title": "全國法規資料庫・道交條例第60條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=60"
+            },
+            {
+              "title": "警政署《警光》795期第37至38頁・追蹤稽查與刑案追緝分析（111年）",
+              "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=1045621374451716096&module=wg079&type=s"
+            },
+            {
+              "title": "臺灣警察專科學校行政警察科・110.07.23執行路檢攔檢追緝車輛作業程序完整2頁",
+              "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=WG5maXlKUFNJdGJNcFVWNUc4ZWw0cGZPa1RWL044ZGVlaHlwZndYTENjZ2p3YWJhLzZ4UUg0dElWUjdwSkxVb0xSaFV6Y0xGWnh0S2NqYm5sbGt1S2lsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=c2dqeUErbFpLQ3dEaHUzMzl5UzdDVnY4Tzc5MHdlc0VRdzVCVDE5Nk9HM1FqTHRhK1Yyd2NBNGl4MEJWV0hDT3BYWXNzS1VkV2ZrL0R1czh0bkJldmxKckZFam5Gd3Rlc0kwSW85aEE1U3RUV09Sdm5jdFJwT3ZxNzdLOTBSblJLVlFmNGhOaGNEcGs4bkVBY2ZWa0dRPT0=&cg=967"
+            },
+            {
+              "title": "臺灣警察專科學校行政警察科・1100723追緝程序附件入口",
+              "url": "https://admin.tpa.edu.tw/p/404-1015-7011-1.php?Lang=zh-tw"
+            },
+            {
+              "title": "全國法規資料庫・警察職權行使法第3、4、6至8及29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "全國法規資料庫・道路交通管理處罰條例第7條之2及60條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+            }
+          ]
+        },
+        "verified": false,
+        "model": {
+          "intro": "警察執行勤務應先確認法律依據、發動要件及必要程序，兼顧勤務目的與人民權益。茲依題意分述如下。",
+          "basis": "警職法第3、4、6至8條；道交條例第7條之2、第60條；具體犯罪事實另審刑訴法。已取得警專110.07.23追緝程序完整2頁，並與警政署111年期刊分析分列；後續最新完整SOP及沿革仍待核。",
+          "analysis": "一、分類與法源\n逆向為交通違規，拒停逃逸須按交通法源處理；單憑逃逸或慌張不當然構成現行犯。若另有具體犯罪事實，應分別審查刑事要件。\n二、現場處置與風險\n（一）先記錄違規、車輛與方向，依警職法第3條衡量目的、替代手段、人車流、天候、速度與道路情況。\n（二）當場不能或不宜攔截製單，且符合道交第7條之2第1項第4款時，得依法逕行舉發；拒停逃逸另審第60條。\n（三）已取得的110.07.23路檢追緝程序，執行階段第1款規定拒停後得以追蹤稽查方式，同時通報逃逸方向並持續通報，視需要請求追查路線勤務支援；第2款明定客觀無法或不宜攔停時，依警職法第3條第2項終止；第3款已攔停車輛轉依身分查證或巡邏盤查程序。不能把支援視需要誤讀成通報亦可延後。警政署111年文章所述交通違規蒐證及刑案追緝，屬各自任務及當時程序分析，仍須分流。\n（四）如有刑案事由，另依具體事實評估必要性及是否通報支援；不能因有嫌疑即忽視公共安全或強制處分要件。\n※110版完整2頁現已取得，含當時防疫及裝備規定；不推定全篇在今日均維持相同。最新完整SOP與修正沿革仍待核，本站擬答非官方評分標準。",
+          "conclusion": "綜上，應依法行政、遵守比例原則，隨個案情勢調整措施，在維持治安與保障人民權益間作成合乎法律的判斷。"
+        }
+      },
+      {
+        "targetId": "s05",
+        "amendment": {
+          "status": "review",
+          "law": "刑訴與戒具辦法；警專公開115版偵查犯罪手冊第218、221、222點",
+          "checkedAt": "2026-11-19",
+          "note": "依警專官方公開標示115年新版之偵查犯罪手冊第218、221、222點補充；本批核對該附件所載版本，未取得全部後續沿革、獨立解送SOP或固定警力座位細則。解送人犯辦法110.12.13廢止，舊條文不作現行授權。 保留監察院114年糾正及111年復審個案的歷史範圍，完整申論仍待配套補核；本站擬答非官方評分標準。",
+          "sources": [
+            {
+              "title": "全國法規資料庫・刑事訴訟法第89條之1",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=89-1"
+            },
+            {
+              "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+            },
+            {
+              "title": "全國法規資料庫・解送人犯辦法廢止沿革",
+              "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=I0040007"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第130條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=130"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第92條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第93條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=93"
+            },
+            {
+              "title": "監察院114年3月糾正案：解送時暴露戒具及媒體拍攝",
+              "url": "https://www.cy.gov.tw/CyBsBoxContent.aspx?n=134&s=49094"
+            },
+            {
+              "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+              "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+            },
+            {
+              "title": "考試院公報第41卷第6期：111年解送前搜身及責任歸屬復審",
+              "url": "https://ws.exam.gov.tw/Download.ashx?icon=.pdf&n=6ICD6Kmm6Zmi5YWs5aCx56ysNDHljbfnrKw25pyfX%2BabuOexpC5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzkzMjUvNDUwNDEvYjA3OTRiZDAtYzEzNC00Njc2LTgzZWQtYjg5YjA0YzIzMDc3LnBkZg%3D%3D"
+            },
+            {
+              "title": "監察院114年解送戒具與偵查不公開調查報告",
+              "url": "https://www.cy.gov.tw/public/Data/114mo/114%E5%85%A7%E8%AA%BF0015.pdf"
+            },
+            {
+              "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊第218、221、222點（PDF34至35頁）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+            },
+            {
+              "title": "臺灣警察專科學校刑事警察科・115年新版手冊附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第89條之1、92及130條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": false,
+        "model": {
+          "intro": "警察執行職務，應有法定依據並符合發動要件，兼顧勤務目的、比例原則及人民權益。茲依題示配分分述如下。",
+          "basis": "刑事訴訟法第89條之1與執行拘提逮捕解送使用戒具實施辦法第3至8條；另已取得警專公開115版偵查犯罪手冊第218、221、222點解送文字。解送人犯辦法110.12.13廢止；固定警力座位、財物及完整現行解送SOP仍待核。",
+          "analysis": "一、出發前（10分）\n核對個案的拘捕、解送依據及文書。公開115版手冊第218點要求核實身分、詳填解送報告；第221點要求視案情調派適當人員及交通工具，重要對象運用警備車、偵防車或航空器等嚴加戒護。此為作業要求，不能取代拘捕、搜索或使用戒具的法律要件。考試院111年公報所載復審案引述，承辦解送員警於解送前先行搜身；另由其他員警製作筆錄者是否當然負該責任，該案認有疑義。此為特定案件與當時程序，完整現行規範仍需核對。是否使用戒具應依刑訴第89條之1及戒具辦法個別判斷；手銬為使用種類原則，不等於應一律上銬。\n二、途中與交接（15分）\n（一）依刑訴第89條之1注意身體及名譽、避免公然暴露戒具；無繼續使用必要時立即解除。 監察院114年糾正案指出，為媒體拍攝而安排動線且未遮蔽上銬部位、使當事人遭近身採訪，違反相關規定；應兼顧偵查不公開與當事人名譽。\n（二）戒具不得作懲罰，即將生產、分娩中或甫生產後婦女不應使用；少年原則不應使用，例外須符合具體必要事由或少年事件處理法特別規定。\n（三）注意當事人身心狀況、勤務安全及依法完成移交；逮捕現行犯之解送應另依刑訴第92條及個案規定辦理。\n（四）公開115版手冊第222點：避免見客、購物、飲酒及任意隨同他往；二人同時要求如廁應分別前往並防逃；在人群擁擠處提高警覺，非因交通原因不得逗留，縱已抵達解送處所，未交接清楚前仍不得懈怠。途中遇困難可請附近警察機關協助，被請求者不得拒絕；乘坐車、船、航空器勿靠近門窗，特殊言行隨時記錄，不接受招待餽贈。\n（五）本次已取得上述如廁、求援及交接的官方手冊依據，不再一概列為原件缺少；金錢財物處理、固定警力座位與另份完整解送SOP仍待核。已廢止辦法第6、11條僅作歷史，不因新手冊有類似內容便恢復效力。",
+          "conclusion": "綜上，應依法行政，依個案事實審查要件、採取必要措施並遵守法定程序，隨情勢檢討其必要性，以兼顧執法目的與人民權益保障。"
+        }
+      },
+      {
+        "targetId": "scene115-e2",
+        "amendment": {
+          "status": "review",
+          "law": "刑訴與戒具辦法；警專公開115版偵查犯罪手冊第218、221、222點",
+          "checkedAt": "2026-11-19",
+          "note": "依警專官方公開標示115年新版之偵查犯罪手冊第218、221、222點補充；本批核對該附件所載版本，未取得全部後續沿革、獨立解送SOP或固定警力座位細則。解送人犯辦法110.12.13廢止，舊條文不作現行授權。 仍保留監察院114年糾正案、111年復審案及刑訴解送期限界線；本站擬答非官方評分標準。",
+          "sources": [
+            {
+              "title": "全國法規資料庫・刑事訴訟法第89條之1",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=89-1"
+            },
+            {
+              "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
+            },
+            {
+              "title": "全國法規資料庫・解送人犯辦法廢止沿革",
+              "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=I0040007"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第130條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=130"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第92條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=92"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第93條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=93"
+            },
+            {
+              "title": "監察院114年3月糾正案：解送時暴露戒具及媒體拍攝",
+              "url": "https://www.cy.gov.tw/CyBsBoxContent.aspx?n=134&s=49094"
+            },
+            {
+              "title": "公務人員保障暨培訓委員會教材引述警政署111年警銬規範第1至7點",
+              "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+            },
+            {
+              "title": "考試院公報第41卷第6期：111年解送前搜身及責任歸屬復審",
+              "url": "https://ws.exam.gov.tw/Download.ashx?icon=.pdf&n=6ICD6Kmm6Zmi5YWs5aCx56ysNDHljbfnrKw25pyfX%2BabuOexpC5wZGY%3D&u=LzAwMS9VcGxvYWQvMS9yZWxmaWxlLzkzMjUvNDUwNDEvYjA3OTRiZDAtYzEzNC00Njc2LTgzZWQtYjg5YjA0YzIzMDc3LnBkZg%3D%3D"
+            },
+            {
+              "title": "監察院114年解送戒具與偵查不公開調查報告",
+              "url": "https://www.cy.gov.tw/public/Data/114mo/114%E5%85%A7%E8%AA%BF0015.pdf"
+            },
+            {
+              "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊第218、221、222點（PDF34至35頁）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+            },
+            {
+              "title": "臺灣警察專科學校刑事警察科・115年新版手冊附件入口",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "全國法規資料庫・刑事訴訟法第89條之1、92及130條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            }
+          ]
+        },
+        "verified": false,
+        "model": {
+          "intro": "拘提、逮捕及解送均限制人身自由，應先確認合法拘捕依據，再以適當警力、戒護與移交程序完成任務。",
+          "basis": "刑事訴訟法第88、88之1、89、89之1、90、92、93、95及130條；執行拘提逮捕解送使用戒具實施辦法；警專公開115版偵查犯罪手冊第218、221、222點。解送人犯辦法110.12.13廢止；獨立解送SOP、固定警力與座位細則仍待核。",
+          "analysis": "一、準備階段\n確認拘票或無票逮捕要件、對象身分、人數、犯行情節、危險性及是否需女警、通譯或醫療。勘查地點、路線與備援，選擇適當車輛及警力，明確分工主辦、搜索、戒護、駕駛與通訊。檢查警械戒具、通訊、密錄器、車門車窗安全，備妥拘捕解送文書；跨轄行動依規定通報會同，不能以通報取代拘票等法源。\n二、拘捕後檢查及告知\n考試院111年公報記載一件復審案：依該案所引解送程序，解送前由承辦解送員警先行搜身；負責製作警詢筆錄而非解送者，是否因此必然承擔該責任，該復審案認為尚有疑義。此為特定案件與所引當時程序，不能取代最新完整解送內規。\n核對身分，告知拘捕原因、涉嫌罪名及得選任辯護人等權利，依法通知指定親友及記錄逮捕時間。依刑訴法第130條於合法逮捕、拘提時附帶搜索身體、隨身物、交通工具及立即可觸及處，保存毒品、凶器與證物鏈。戒具依個別風險及必要程度使用，不作懲罰，並注意身體與名譽、避免公然暴露戒具；監察院114年糾正案指出，為媒體拍攝而安排動線、未遮蔽上銬部位並令當事人遭近身採訪有違相關規定。即將生產、分娩中或甫生產後婦女不應使用，少年須依戒具辦法第3條審查例外；查明傷病與特殊需求。\n三、解送途中\n依個案風險分工戒護及監控，車輛與路線安全優先；遇困難及時通報並請求協助，需急救時兼顧就醫與必要戒護。公開115版手冊第218點要求核對身分與詳填解送報告，第221點要求視案情調派適當人員、交通工具；第222點列避免見客、購物、飲酒及任意他往，兩人同時如廁分別前往，勿靠門窗，特殊言行記錄，遇困難請附近警察機關協助而被請求者不得拒絕。財物、固定座位警力及完整通訊程序仍另核；合法辯護聯絡及通知權亦應保障，不能將避免任意他往擴張成全面禁止法定聯絡。\n四、到達移交\n司法警察逮捕或接受現行犯，原則應即解送檢察官，刑訴第92條例外須具備法定要件並經檢察官許可；另注意第93條檢察官聲請羈押的24小時規定，不得將此理解為員警得等待24小時才解送。到達檢察署核對人犯、文書、證物、財物及身體狀況，逐項簽收點交；手冊第222點第4款明定縱已抵達仍須交接清楚前不得懈怠；完成交接並將重要經過完整記錄、回報。",
+          "conclusion": "應依法行政，全程依比例原則維護戒護安全，並保障犯嫌生命健康、辯護權及人身自由。"
+        }
+      },
+      {
+        "targetId": "chase",
+        "amendment": {
+          "status": "review",
+          "law": "警察職權行使法；道交條例；110.07.23路檢追緝程序",
+          "checkedAt": "2026-11-19",
+          "note": "已取得110.07.23追緝程序完整2頁，明列拒停時同時並持續通報、視需要請求支援、客觀無法或不宜攔停時依警職法第3條第2項終止；已攔停則轉後續身分查證程序。該附件是110年版本，未核實全部後續修正或另一份巡邏盤查SOP，不宣稱為最新完整SOP。",
+          "sources": [
+            {
+              "title": "全國法規資料庫・警察職權行使法第3條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0080145&flno=3"
+            },
+            {
+              "title": "全國法規資料庫・道交條例第7條之2",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=7-2"
+            },
+            {
+              "title": "全國法規資料庫・道交條例第60條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=60"
+            },
+            {
+              "title": "警政署《警光》795期第37至38頁・追蹤稽查與刑案追緝分析（111年）",
+              "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=1045621374451716096&module=wg079&type=s"
+            },
+            {
+              "title": "臺灣警察專科學校行政警察科・110.07.23執行路檢攔檢追緝車輛作業程序完整2頁",
+              "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=WG5maXlKUFNJdGJNcFVWNUc4ZWw0cGZPa1RWL044ZGVlaHlwZndYTENjZ2p3YWJhLzZ4UUg0dElWUjdwSkxVb0xSaFV6Y0xGWnh0S2NqYm5sbGt1S2lsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=c2dqeUErbFpLQ3dEaHUzMzl5UzdDVnY4Tzc5MHdlc0VRdzVCVDE5Nk9HM1FqTHRhK1Yyd2NBNGl4MEJWV0hDT3BYWXNzS1VkV2ZrL0R1czh0bkJldmxKckZFam5Gd3Rlc0kwSW85aEE1U3RUV09Sdm5jdFJwT3ZxNzdLOTBSblJLVlFmNGhOaGNEcGs4bkVBY2ZWa0dRPT0=&cg=967"
+            },
+            {
+              "title": "臺灣警察專科學校行政警察科・1100723追緝程序附件入口",
+              "url": "https://admin.tpa.edu.tw/p/404-1015-7011-1.php?Lang=zh-tw"
+            },
+            {
+              "title": "全國法規資料庫・警察職權行使法第3、4、6至8及29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "全國法規資料庫・道路交通管理處罰條例第7條之2及60條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+            }
+          ]
+        },
+        "lawContent": {
+          "original": "一般盤查、交通違規及具體刑案應先辨法律依據，各自審查發動與必要性。\n已取得警專110.07.23路檢攔檢追緝程序完整2頁：依法攔阻後仍拒停者，得追蹤稽查，同時通報逃逸方向並持續通報，視需要請求路線勤務支援；客觀無法或不宜攔停時依警職法第3條第2項終止。\n車輛已攔停後，轉依身分查證或巡邏盤查程序；該2頁亦載當時防疫及裝備規定，不推定全部細節在今日未變。警政署111年期刊分析與本程序的版本、範圍分開呈現。",
+          "originalLabel": "複習架構・非作業程序逐字全文",
+          "core": "先分辨交通違規、路檢及刑案，分別審查法源、蒐證替代方式與人車安全。",
+          "points": [
+            "警職法第3條：不得逾必要限度；目的達成或依當時情形認無法達成時應終止。",
+            "道交條例第7條之2第1項第4款：不服指揮稽查而逃逸，當場不能或不宜攔截製單時，得依法逕行舉發；第60條另規定拒停逃逸的行政處罰。",
+            "110.07.23程序執行階段第1款：以口頭、手勢、哨音或警鳴器攔阻仍拒停時，得追蹤稽查，須同時並持續通報勤務指揮中心；視需要的是路線勤務支援。",
+            "同程序第2款：客觀情勢無法或不宜攔停，依警職法第3條第2項終止執行，不以追到停車作唯一目的。",
+            "同程序第3款：已攔停者轉依身分查證或巡邏盤查程序；本附件不能代替被引用的另一份程序全文。",
+            "《警光》111年文章所引交通違規程序：衡量天候、人車及駕駛能力，得保持安全距離追蹤稽查、依狀況通報；取得舉發必要資訊時以逕行舉發為替代。",
+            "同文所引刑案追緝程序：區分有無具體刑案事由及追車必要；環境不宜時評估通報支援、攔截或事後循線查緝。"
+          ],
+          "traps": [
+            "不服攔檢逃逸本身不當然構成刑案現行犯；犯罪嫌疑或逮捕各有要件。",
+            "逕行舉發的行政法源，不代表無條件進行強制追車。",
+            "110.07.23是已取得附件的版本日期，並非最新SOP全文已核；防疫、裝備及後續修正須另查。",
+            "同時、持續通報不能誤讀成必要時才通報；支援視需要與通報是不同義務。",
+            "期刊的三類追緝分析、路檢追緝程序及巡邏盤查SOP各有範圍，不能互相當成完整原件。"
+          ],
+          "memory": "先分案、找法源；能舉發、評風險；不宜追，通報辦。",
+          "scenario": "機車逆向拒停，應先辨認交通違規或另有犯罪事證，再評估道路及人車風險，不以逃逸一事概括決定。",
+          "version": "110.07.23程序完整2頁、法律及111年公開分析已核；後續SOP沿革待核",
+          "verified": false,
+          "verificationNote": "本次已重讀官方110版完整2頁及雜湊，不再沿用附件未取得註記；結論限於該版。現行完整SOP與後續修正尚未全面核實，維持待核。",
+          "sources": [
+            {
+              "title": "全國法規資料庫・警察職權行使法第3條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0080145&flno=3"
+            },
+            {
+              "title": "全國法規資料庫・道交條例第7條之2",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=7-2"
+            },
+            {
+              "title": "全國法規資料庫・道交條例第60條",
+              "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=60"
+            },
+            {
+              "title": "警政署《警光》795期第37至38頁・追蹤稽查與刑案追緝分析（111年）",
+              "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=1045621374451716096&module=wg079&type=s"
+            },
+            {
+              "title": "臺灣警察專科學校行政警察科・110.07.23執行路檢攔檢追緝車輛作業程序完整2頁",
+              "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=WG5maXlKUFNJdGJNcFVWNUc4ZWw0cGZPa1RWL044ZGVlaHlwZndYTENjZ2p3YWJhLzZ4UUg0dElWUjdwSkxVb0xSaFV6Y0xGWnh0S2NqYm5sbGt1S2lsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=c2dqeUErbFpLQ3dEaHUzMzl5UzdDVnY4Tzc5MHdlc0VRdzVCVDE5Nk9HM1FqTHRhK1Yyd2NBNGl4MEJWV0hDT3BYWXNzS1VkV2ZrL0R1czh0bkJldmxKckZFam5Gd3Rlc0kwSW85aEE1U3RUV09Sdm5jdFJwT3ZxNzdLOTBSblJLVlFmNGhOaGNEcGs4bkVBY2ZWa0dRPT0=&cg=967"
+            },
+            {
+              "title": "臺灣警察專科學校行政警察科・1100723追緝程序附件入口",
+              "url": "https://admin.tpa.edu.tw/p/404-1015-7011-1.php?Lang=zh-tw"
+            },
+            {
+              "title": "全國法規資料庫・警察職權行使法第3、4、6至8及29條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            },
+            {
+              "title": "全國法規資料庫・道路交通管理處罰條例第7條之2及60條",
+              "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+            }
+          ]
+        }
+      }
+    ],
+    "createdAt": 1795054408207
   }
 ]

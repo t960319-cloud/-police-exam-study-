@@ -990,62 +990,67 @@
       "options": [
         {
           "text": "解送途中，避免被告及犯嫌見客、購物、飲酒及循其要求任意隨同他往",
-          "explanation": "解送期間不得任由人犯見客、購物、飲酒或隨意他往，以免脫逃或串證。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "第222點第2款明列避免見客、購物、飲酒及循其要求任意隨同他往；A與該版本文字相符。",
+          "correction": "本項正確；不以途中處理需要為由任意放鬆戒護。",
           "trueStatement": true
         },
         {
           "text": "解送途中發生困難時，得請求附近警察機關協助，被請求機關因人力確有不足或執行重要勤務 得拒絕之",
-          "explanation": "解送遇困難請求附近警察機關協助，不得以本項概括事由逕予拒絕，應依法協調確保戒護。",
-          "correction": "改為被請求機關應協助，具體調度困難循指揮協調，不可任意拒絕。",
+          "explanation": "第222點第5款明定被請求的附近警察機關不得拒絕；B另設人力不足或重要勤務即可拒絕的概括例外，與該款不符。",
+          "correction": "改為被請求者不得拒絕；調度困難應循指揮協調確保協助，非自行增加拒絕例外。",
           "trueStatement": false
         },
         {
           "text": "執行解送應顧及人犯之名譽及安全，使用戒具應儘量避免暴露",
-          "explanation": "使用戒具應顧及名譽、健康與安全，避免不必要暴露，但不得因此放棄必要戒護。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "第222點第1款要求顧及名譽及安全、戒具儘量避免暴露；刑訴第89條之1另有比例、避免公然暴露及無必要即解除要求。",
+          "correction": "本項正確；避免暴露不表示可忽略法定戒護或把戒具當懲罰。",
           "trueStatement": true
         },
         {
           "text": "2 名人犯同時要求如廁時，應分別帶往，以維安全",
-          "explanation": "兩名人犯同時如廁，應分別帶往，保持戒護，防止共同行動脫逃。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "第222點第3款明定二人同時要求如廁應分別前往，並嚴防脫逃；D與該款相符。",
+          "correction": "本項正確；分別處理並維持適當戒護。",
           "trueStatement": true
         }
       ],
       "answer": 1,
       "initialAnswer": 1,
       "lawIds": [
-        "e6"
+        "escort-constraints"
       ],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察情境實務概要｜第14題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 14,
       "answerStatus": "官方原答已核；目錄未列更正",
       "amendment": {
-        "status": "changed",
-        "law": "解送人犯辦法（已廢止）；執行解送人犯注意事項（現行原件待核）",
-        "date": "110.12.13廢止",
-        "checkedAt": "2026-11-12",
-        "oldRule": "本站曾將解送人犯辦法第6、11條列為已核對的現行基礎，並用於主題題與部分歷屆解析。",
-        "newRule": "全國法規資料庫沿革載明本辦法110.12.13經行政院院臺法字第1100195624號令廢止；舊條文只能作歷史資料，不能替代警政署現行注意事項。",
-        "note": "更正本站法源狀態誤標。已確認舊辦法廢止，但尚未取得警政署現行注意事項全文；不據此推翻歷屆原題或官方答案，也不推定相同文字當然仍有現行效力。",
+        "status": "none",
+        "law": "警專公開之追緝程序／偵查犯罪手冊及所列法律",
+        "checkedAt": "2026-11-19",
+        "note": "本題四選項已逐項對照公開115版手冊第222點；依警專官方公開標示115年新版之偵查犯罪手冊第218、221、222點補充；本批核對該附件所載版本，未取得全部後續沿革、獨立解送SOP或固定警力座位細則。解送人犯辦法110.12.13廢止，舊條文不作現行授權。",
         "sources": [
           {
-            "title": "全國法規資料庫・解送人犯辦法廢止沿革",
-            "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=I0040007"
+            "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊第218、221、222點（PDF34至35頁）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
           },
           {
-            "title": "全國法規資料庫・已廢止解送人犯辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0040007"
+            "title": "臺灣警察專科學校刑事警察科・115年新版手冊附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法第89條之1、92及130條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
           }
         ]
       },
-      "takeaway": "公用交通工具解送與協助義務：解送遇困難請求附近警察機關協助，不得以本項概括事由逕予拒絕，應依法協調確保戒護。",
+      "takeaway": "公用交通解送：防任意他往、維護名譽、分別如廁；附近機關受請求不得拒絕。",
       "sources": [
         {
           "title": "考選部114年四等警察情境實務概要原卷",
@@ -1058,9 +1063,25 @@
         {
           "title": "解送人犯辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0040007"
+        },
+        {
+          "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊第218、221、222點（PDF34至35頁）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "臺灣警察專科學校刑事警察科・115年新版手冊附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法第89條之1、92及130條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
         }
       ],
-      "currentAnswer": "保留原題及原答案作為歷史判讀，不以已廢止的解送人犯辦法推定考試當時或現行規定。現行「執行解送人犯注意事項」完整原件與適用版本仍待補核。"
+      "currentAnswer": "原官方答案B不變；警專公開115版偵查犯罪手冊第222點第5款明定，途中發生困難得請求附近警察機關協助，被請求者不得拒絕。A、C、D分別對應同點第2、1、3款。"
     },
     {
       "id": "scene114-15",

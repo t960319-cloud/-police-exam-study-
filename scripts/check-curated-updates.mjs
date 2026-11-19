@@ -37,9 +37,9 @@ const urineEssay=result.essays.find(e=>e.id==='s08');assert(urineEssay);assert(u
 console.log('Sampling permits, 24h/3d/10d distinctions, court remedy and unchanged blood-question answer passed.');
 // A repealed regulation must never be presented as a verified current basis.
 for(const id of ['e6','e11']){const law=result.laws.find(l=>l.id===id);assert(law);assert.equal(law.verified,false);assert(law.originalLabel.includes('歷史資料'));assert(law.amendment.note.includes('廢止'));assert(law.amendment.sources.some(s=>s.url.includes('LawHistory.aspx?pcode=I0040007')));}
-for(const id of ['q14','q15','q16','duty112_09','duty113_21','scene114-14']){const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.verified,false);assert(q.currentAnswer.includes('保留原題'));}
+for(const id of ['q14','q16','duty112_09','duty113_21']){const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.verified,false);assert(q.currentAnswer.includes('保留原題'));}
 const escortEssay=result.essays.find(e=>e.id==='s05');assert(escortEssay);assert.equal(escortEssay.verified,false);assert(escortEssay.model.basis.includes('110.12.13廢止'));
-console.log('Repealed escort regulation stays historical; linked exercises cannot be marked current/verified.');
+console.log('Repealed escort regulation stays historical; unresolved exercises retain review status.');
 // A source-backed law card may be verified without silently clearing every linked exercise.
 const missing=result.laws.find(l=>l.id==='missing');assert(missing);
 assert.equal(missing.verified,true);
@@ -340,3 +340,37 @@ const historicalReportingEssay=result.essays.find(e=>e.id==='duty110_s02');asser
 assert(historicalReportingEssay.model.analysis.includes('110年各款原文仍待核'));
 assert(historicalReportingEssay.model.basis.includes('不得把114年時限寫成110年官方答案'));
 console.log('Full reporting text separates 5/3/2-day stages, conditional home assistance and historical essay limits.');
+
+// A newly obtained handbook can substantiate individual points without reviving a repealed regulation.
+for(const [id,key] of [['q15',2],['scene114-14',1]]){
+ const q=result.questions.find(x=>x.id===id);assert(q?.verified);assert.equal(q.answer,key);
+ assert(q.amendment.sources.some(s=>new URL(s.url).hostname==='crime.tpa.edu.tw'));
+ assert(q.currentAnswer.includes('第222點'));
+}
+const assistanceDuringEscort=result.questions.find(q=>q.id==='scene114-14');
+assert(assistanceDuringEscort.options[1].explanation.includes('不得拒絕'));
+assert(assistanceDuringEscort.options[3].explanation.includes('分別前往'));
+const handoff=result.questions.find(q=>q.id==='q15');assert(handoff.options[2].explanation.includes('交接清楚'));
+assert(!handoff.lawIds.includes('e11'));assert(!assistanceDuringEscort.lawIds.includes('e6'));
+assert(!handoff.options[2].explanation.includes('辦法第11條'));
+const historicToilet=result.questions.find(q=>q.id==='q16');assert.equal(historicToilet.verified,false);
+assert(historicToilet.currentAnswer.includes('不代表舊辦法恢復效力'));
+for(const id of ['s05','scene115-e2']){
+ const e=result.essays.find(x=>x.id===id);assert.equal(e.verified,false);
+ assert(e.model.analysis.includes('不得拒絕'));assert(e.model.analysis.includes('第222點'));
+ assert(e.model.basis.includes('110.12.13廢止'));
+}
+// Do not let permission to request support condition the separate continuous-reporting requirement.
+const patrolProcedure=result.questions.find(q=>q.id==='duty113_06');assert.equal(patrolProcedure.answer,3);assert.equal(patrolProcedure.verified,false);
+assert(patrolProcedure.options[3].explanation.includes('同時、持續通報'));
+assert(patrolProcedure.currentAnswer.includes('另一份巡邏盤查SOP全文'));
+assert(chaseLaw.original.includes('完整2頁'));assert(chaseLaw.original.includes('同時通報'));
+assert(!chaseLaw.original.includes('未能讀取附件全文'));assert.equal(chaseLaw.verified,false);
+assert(chaseLaw.points.some(p=>p.includes('無法或不宜攔停')&&p.includes('終止')));
+for(const id of ['s09','duty111_s01']){
+ const e=result.essays.find(x=>x.id===id);assert.equal(e.verified,false);
+ assert(e.model.analysis.includes('視需要的是勤務支援')||e.model.analysis.includes('視需要請求追查路線勤務支援'));
+ assert(e.model.analysis.includes('最新完整SOP與修正沿革仍待核'));
+ assert(!e.model.analysis.includes('附件未能讀取'));
+}
+console.log('Handbook-backed escort answers, non-revival of repealed rules and continuous chase reporting passed.');

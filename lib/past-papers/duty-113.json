@@ -452,26 +452,26 @@
       "options": [
         {
           "text": "遇可疑人或車，應於盤查盤檢前，先報告勤務指揮中心登記實施地點、被盤查人外顯行為、衣著 及車輛顏色、號牌等相關特徵資料",
-          "explanation": "盤查前通報地點及對象外顯特徵，有利指揮與勤務安全。",
-          "correction": "無須修正；發動仍須有合法盤查要件。",
+          "explanation": "原題A是官方接受的盤查前通報敘述；本批取得的是路檢追緝程序，不能拿它推定另一份巡邏盤查SOP的全部前置通報文字。",
+          "correction": "原官方判讀保留；盤查須先具法定事由，該巡邏SOP完整版本另查。",
           "trueStatement": true
         },
         {
           "text": "受檢人無法查證身分且有抗拒攔停或逃逸之虞時，即可告知，得依警察職權行使法第 7 條規定將 其帶往勤務處所查證",
-          "explanation": "帶往須以前置方法顯然無法查證為前提；本項依原SOP另敘抗拒或逃逸風險。",
-          "correction": "不得省略第7條前置查證與三小時、報告、通知等程序。",
+          "explanation": "警職法第7條第2項以前置詢問或證件方法顯然無法查證為前提，強制力另限遇抗拒；題目文字不能省略這些條件。",
+          "correction": "補前置查證、自攔停起3小時、報告中心及通知指定親友或律師；不能單憑逃逸之虞跳過前提。",
           "trueStatement": true
         },
         {
           "text": "受盤查人當場陳述理由，表示異議，如異議有理由，應立即停止，如認異議無理由，得繼續執行",
-          "explanation": "當場異議應審查，有理由停止或更正，無理由得繼續。",
-          "correction": "本題官方未列為錯誤；完整作答應補上更正及經請求交付紀錄。",
+          "explanation": "警職法第29條要求有理由立即停止或更正；無理由得繼續，經請求時須製作異議理由紀錄交付。",
+          "correction": "本題官方未列錯誤；完整法律說明須補更正及經請求交付紀錄。",
           "trueStatement": true
         },
         {
           "text": "遇攔停車輛駕駛人拒絕停車受檢時，即得以追蹤稽查方式，俟機攔停，必要時，並通報勤務指揮 中心請求支援",
-          "explanation": "拒停並非一律可追蹤稽查的充分條件；還須依任務、法源、風險及比例原則判斷。",
-          "correction": "先分一般盤查、交通違規與刑案追緝，不能僅憑拒停即概括追車。",
+          "explanation": "110追緝程序執行階段第1款把同時、持續通報列為處置，視需要的是追查路線勤務支援；第2款另定不宜攔停時終止。D不能概括成必要時才通報。",
+          "correction": "區分通報與請求支援，且先審法源與風險；113年題指巡邏SOP完整原文仍待核。",
           "trueStatement": false
         }
       ],
@@ -491,19 +491,29 @@
       "answerStatus": "官方最終答案已核",
       "amendment": {
         "status": "review",
-        "note": "原卷指新頒盤查SOP；警專有113.03.08修正公告。拒停追緝及帶往的完整現行要件須核最新SOP，並遵守警職法第3、7、8條。",
+        "law": "警專公開之追緝程序／偵查犯罪手冊及所列法律",
+        "checkedAt": "2026-11-19",
+        "note": "保留原題及官方答案D；已取得110.07.23追緝程序完整2頁，明列拒停時同時並持續通報、視需要請求支援、客觀無法或不宜攔停時依警職法第3條第2項終止；已攔停則轉後續身分查證程序。該附件是110年版本，未核實全部後續修正或另一份巡邏盤查SOP，不宣稱為最新完整SOP。",
         "sources": [
           {
-            "title": "警專・最新法令與113年應勤裝備新制公告",
-            "url": "https://www.tpa.edu.tw/p/422-1000-1010.php?Lang=zh-tw"
+            "title": "臺灣警察專科學校行政警察科・110.07.23執行路檢攔檢追緝車輛作業程序完整2頁",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=WG5maXlKUFNJdGJNcFVWNUc4ZWw0cGZPa1RWL044ZGVlaHlwZndYTENjZ2p3YWJhLzZ4UUg0dElWUjdwSkxVb0xSaFV6Y0xGWnh0S2NqYm5sbGt1S2lsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=c2dqeUErbFpLQ3dEaHUzMzl5UzdDVnY4Tzc5MHdlc0VRdzVCVDE5Nk9HM1FqTHRhK1Yyd2NBNGl4MEJWV0hDT3BYWXNzS1VkV2ZrL0R1czh0bkJldmxKckZFam5Gd3Rlc0kwSW85aEE1U3RUV09Sdm5jdFJwT3ZxNzdLOTBSblJLVlFmNGhOaGNEcGs4bkVBY2ZWa0dRPT0=&cg=967"
           },
           {
-            "title": "全國法規資料庫・警察職權行使法",
+            "title": "臺灣警察專科學校行政警察科・1100723追緝程序附件入口",
+            "url": "https://admin.tpa.edu.tw/p/404-1015-7011-1.php?Lang=zh-tw"
+          },
+          {
+            "title": "全國法規資料庫・警察職權行使法第3、4、6至8及29條",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          },
+          {
+            "title": "全國法規資料庫・道路交通管理處罰條例第7條之2及60條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
           }
         ]
       },
-      "takeaway": "拒停並非一律可追蹤稽查的充分條件；還須依任務、法源、風險及比例原則判斷。",
+      "takeaway": "通報要同時且持續；支援依需要，兩者不能混成必要時才報告。",
       "sources": [
         {
           "title": "考選部・113年警勤原卷",
@@ -514,10 +524,23 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0909&q=1"
         },
         {
-          "title": "全國法規資料庫・警察職權行使法",
+          "title": "全國法規資料庫・警察職權行使法第3、4、6至8及29條",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "臺灣警察專科學校行政警察科・110.07.23執行路檢攔檢追緝車輛作業程序完整2頁",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=WG5maXlKUFNJdGJNcFVWNUc4ZWw0cGZPa1RWL044ZGVlaHlwZndYTENjZ2p3YWJhLzZ4UUg0dElWUjdwSkxVb0xSaFV6Y0xGWnh0S2NqYm5sbGt1S2lsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=c2dqeUErbFpLQ3dEaHUzMzl5UzdDVnY4Tzc5MHdlc0VRdzVCVDE5Nk9HM1FqTHRhK1Yyd2NBNGl4MEJWV0hDT3BYWXNzS1VkV2ZrL0R1czh0bkJldmxKckZFam5Gd3Rlc0kwSW85aEE1U3RUV09Sdm5jdFJwT3ZxNzdLOTBSblJLVlFmNGhOaGNEcGs4bkVBY2ZWa0dRPT0=&cg=967"
+        },
+        {
+          "title": "臺灣警察專科學校行政警察科・1100723追緝程序附件入口",
+          "url": "https://admin.tpa.edu.tw/p/404-1015-7011-1.php?Lang=zh-tw"
+        },
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例第7條之2及60條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D保留。110.07.23路檢追緝程序寫的是追蹤時同時並持續通報，視需要的是勤務支援；D把通報與支援一起拖至必要時，且省略法源及終止條件。原題所問另一份巡邏盤查SOP全文及113年版本仍待核。"
     },
     {
       "id": "duty113_07",

@@ -556,26 +556,26 @@
       "options": [
         {
           "text": "執行解送人犯得使用戒具，但應顧及人犯之名譽及安全，並儘量避免暴露",
-          "explanation": "戒具使用仍應兼顧名譽及安全，儘量避免暴露，符合解送人犯辦法第11條。",
-          "correction": "無須修正；是否使用仍須符合必要性及相關規定。",
+          "explanation": "刑訴第89條之1明定解送得用戒具但不逾必要程度，注意身體與名譽、避免公然暴露、無必要即解除；手冊第222點第1款另列名譽及安全。",
+          "correction": "A為官方答案；改引刑訴第89條之1、戒具辦法及手冊第222點，不以已廢止辦法授權一律上銬。",
           "trueStatement": true
         },
         {
           "text": "由二人（優勢警力）以上護送，人犯坐於車輛右前座，其中一名警力監視人犯舉動及注意可疑 人車，嚴防劫囚或脫逃事件發生",
-          "explanation": "把人犯置於右前座有戒護與行車安全風險，不是本題正確的配置。",
-          "correction": "依解送規定安排適當後座及戒護位置，不以右前座作通常配置。",
+          "explanation": "手冊第221點要求視案情調派適當人員及交通工具，第222點第6款要求勿靠近門窗；本批未取得可確認兩人以上及右前座配置的完整車輛安全細則。",
+          "correction": "保留官方未接受B的結果；警力與座位應依完整車輛戒護規程核對，不從本手冊自行推定固定配置。",
           "trueStatement": false
         },
         {
           "text": "長途解送途中，基於人道考量，可讓人犯如廁、對外通訊",
-          "explanation": "如廁須戒護並防逃；長途解送不代表可任意對外通訊。",
-          "correction": "如廁依法戒護；對外通訊不得任意開放。",
+          "explanation": "手冊第222點第3款支持如廁時分別前往、防逃，不能由准予如廁一併推定可無限制私自通訊；法定通知與辯護聯絡亦須依法保障。",
+          "correction": "如廁、法定聯絡與私自對外通訊分別審查，不把人道考量概括成任意通訊許可。",
           "trueStatement": false
         },
         {
           "text": "解送途中如發生突發狀況或人犯脫逃時，應立即追緝，追緝未果，再向主官及勤務指揮中心報 告請求支援",
-          "explanation": "突發、脫逃事件須立即通報及請求支援，不能等追緝未果才報告。",
-          "correction": "立即通報、處置並請求支援，同步依法追緝。",
+          "explanation": "手冊第222點第5款列遇困難得請求附近機關協助；不能由此推出必須等追緝未果才通報。即時事故通報的完整作業程序仍另查。",
+          "correction": "依風險及時通報、請求協助並處置；不以追緝失敗作求援前提，完整SOP保留待核。",
           "trueStatement": false
         }
       ],
@@ -593,25 +593,30 @@
       "paperNumber": 9,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "changed",
-        "law": "解送人犯辦法（已廢止）；執行解送人犯注意事項（現行原件待核）",
-        "date": "110.12.13廢止",
-        "checkedAt": "2026-11-12",
-        "oldRule": "本站曾將解送人犯辦法第6、11條列為已核對的現行基礎，並用於主題題與部分歷屆解析。",
-        "newRule": "全國法規資料庫沿革載明本辦法110.12.13經行政院院臺法字第1100195624號令廢止；舊條文只能作歷史資料，不能替代警政署現行注意事項。",
-        "note": "更正本站法源狀態誤標。已確認舊辦法廢止，但尚未取得警政署現行注意事項全文；不據此推翻歷屆原題或官方答案，也不推定相同文字當然仍有現行效力。",
+        "status": "review",
+        "law": "警專公開之追緝程序／偵查犯罪手冊及所列法律",
+        "checkedAt": "2026-11-19",
+        "note": "依警專官方公開標示115年新版之偵查犯罪手冊第218、221、222點補充；本批核對該附件所載版本，未取得全部後續沿革、獨立解送SOP或固定警力座位細則。解送人犯辦法110.12.13廢止，舊條文不作現行授權。 已更正A的現行法源，B至D涉及的全部配套未核完，保留整題待核。",
         "sources": [
           {
-            "title": "全國法規資料庫・解送人犯辦法廢止沿革",
-            "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=I0040007"
+            "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊第218、221、222點（PDF34至35頁）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
           },
           {
-            "title": "全國法規資料庫・已廢止解送人犯辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0040007"
+            "title": "臺灣警察專科學校刑事警察科・115年新版手冊附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法第89條之1、92及130條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
           }
         ]
       },
-      "takeaway": "戒具使用仍應兼顧名譽及安全，儘量避免暴露，符合解送人犯辦法第11條。",
+      "takeaway": "戒具改引刑訴及必要性；如廁、聯絡、警力及座位分別核對。",
       "sources": [
         {
           "title": "考選部・112年警勤原卷",
@@ -624,9 +629,25 @@
         {
           "title": "全國法規資料庫・解送人犯辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0040007"
+        },
+        {
+          "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊第218、221、222點（PDF34至35頁）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "臺灣警察專科學校刑事警察科・115年新版手冊附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法第89條之1、92及130條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "全國法規資料庫・執行拘提逮捕解送使用戒具實施辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058"
         }
       ],
-      "currentAnswer": "保留原題及原答案作為歷史判讀，不以已廢止的解送人犯辦法推定考試當時或現行規定。現行「執行解送人犯注意事項」完整原件與適用版本仍待補核。"
+      "currentAnswer": "保留原題及官方答案A。A的戒具必要性、身體與名譽保障改引刑訴第89條之1及戒具辦法，第222點亦載避免暴露；兩人以上警力、固定座位及突發通報完整SOP仍未在本批核完，不把舊辦法第11條再作現行法源。"
     },
     {
       "id": "duty112_10",

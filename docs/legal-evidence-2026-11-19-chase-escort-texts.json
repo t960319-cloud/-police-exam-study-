@@ -1,0 +1,181 @@
+{
+  "checkedAt": "2026-11-19",
+  "timezone": "Asia/Taipei",
+  "sources": [
+    {
+      "title": "chase110",
+      "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=WG5maXlKUFNJdGJNcFVWNUc4ZWw0cGZPa1RWL044ZGVlaHlwZndYTENjZ2p3YWJhLzZ4UUg0dElWUjdwSkxVb0xSaFV6Y0xGWnh0S2NqYm5sbGt1S2lsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=c2dqeUErbFpLQ3dEaHUzMzl5UzdDVnY4Tzc5MHdlc0VRdzVCVDE5Nk9HM1FqTHRhK1Yyd2NBNGl4MEJWV0hDT3BYWXNzS1VkV2ZrL0R1czh0bkJldmxKckZFam5Gd3Rlc0kwSW85aEE1U3RUV09Sdm5jdFJwT3ZxNzdLOTBSblJLVlFmNGhOaGNEcGs4bkVBY2ZWa0dRPT0=&cg=967",
+      "retrievedAt": "2026-11-19T02:08:11.519446+00:00",
+      "response": "200 200 application/octet-stream",
+      "exitCode": 0,
+      "sha256": "094b5b3e8cfecc7747dc0cebdbe94e7963ad98ac73179acd07952fec1a877cf0",
+      "bytes": 1518568
+    },
+    {
+      "title": "handbook115",
+      "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968",
+      "retrievedAt": "2026-11-19T02:08:17.987682+00:00",
+      "response": "200 200 application/octet-stream",
+      "exitCode": 0,
+      "sha256": "d94a126e781162ca142a9fc462f80a101f2c3a8d7ed3e718cbed132b581af658",
+      "bytes": 810586
+    },
+    {
+      "title": "chase-index",
+      "url": "https://admin.tpa.edu.tw/p/404-1015-7011-1.php?Lang=zh-tw",
+      "retrievedAt": "2026-11-19T02:08:23.695435+00:00",
+      "response": "200 200 text/html; charset=UTF-8",
+      "exitCode": 0,
+      "sha256": "358cfe20602dd2c87a3a3ad9c3e365a5bc3de444ca5aca42701b69f77a6b9fc0",
+      "bytes": 19746
+    },
+    {
+      "title": "handbook-index",
+      "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php",
+      "retrievedAt": "2026-11-19T02:08:25.694331+00:00",
+      "response": "200 200 text/html; charset=UTF-8",
+      "exitCode": 0,
+      "sha256": "4ebd3e24e86e187ff0f56b7414b8b220b15ac5174c09a06a4f35a1e095b27b46",
+      "bytes": 28229
+    },
+    {
+      "title": "powers",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145",
+      "retrievedAt": "2026-11-19T02:08:28.815582+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "e60f4c36c85ddcaa678cb88ed4a7f13460b7ea6d2b213735a6e7d174e751828a",
+      "bytes": 67597
+    },
+    {
+      "title": "criminal",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001",
+      "retrievedAt": "2026-11-19T02:08:44.569999+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "b53634ef878155d8a342e68c0156c21709272c5d7df87391cf7f4bb2922d9fc0",
+      "bytes": 461222
+    },
+    {
+      "title": "restraints",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030058",
+      "retrievedAt": "2026-11-19T02:08:46.412954+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "0a904f5edecef6549d91bd33fa6d2b21635e2f1fc470da99b0f1c919aeca4d5f",
+      "bytes": 48932
+    },
+    {
+      "title": "traffic",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012",
+      "retrievedAt": "2026-11-19T02:08:52.208890+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "7091b6e3d1f661327fd344a79334a8c99775ecfd49e7481a152b18945ad6d987",
+      "bytes": 192320
+    }
+  ],
+  "documents": [
+    {
+      "key": "chase110",
+      "versionLabel": "110.07.23",
+      "pages": 2,
+      "confirmed": "執行階段第1至3款，同時持續通報、視需要支援、不宜攔停終止、攔停後分流",
+      "sourceText": "legal-sources/chase-procedure-1100723.txt"
+    },
+    {
+      "key": "handbook115",
+      "versionLabel": "官方附件入口標示115年新版；未將檔名推定為另有核實的修正日或施行日",
+      "pdfPages": [
+        34,
+        35
+      ],
+      "printedPages": [
+        32,
+        33
+      ],
+      "points": [
+        218,
+        221,
+        222
+      ],
+      "sourceText": "legal-sources/investigation-115-escort-excerpt.txt"
+    }
+  ],
+  "limits": [
+    "已取得110.07.23追緝程序完整2頁，明列拒停時同時並持續通報、視需要請求支援、客觀無法或不宜攔停時依警職法第3條第2項終止；已攔停則轉後續身分查證程序。該附件是110年版本，未核實全部後續修正或另一份巡邏盤查SOP，不宣稱為最新完整SOP。",
+    "依警專官方公開標示115年新版之偵查犯罪手冊第218、221、222點補充；本批核對該附件所載版本，未取得全部後續沿革、獨立解送SOP或固定警力座位細則。解送人犯辦法110.12.13廢止，舊條文不作現行授權。",
+    "q16題幹引用已廢止解送人犯辦法，保持歷史與待核；e6/e11卡不改作現行。",
+    "duty112_09、duty113_06及四題申論所需其他規範仍缺完整比對，並非取得一份文件就全面解除待核。",
+    "本批只交Git來源；仍由正式驗收與整合窗口發布。"
+  ],
+  "baseline": {
+    "githubCommit": "379e8111cd017211387ec0988c40c34c66b995d1",
+    "sitesCommit": "382b25ea8f94083ca9dcef806e1fbb37d1c0ad95",
+    "sitesVersion": 38,
+    "liveApiEvents": 36,
+    "localCuratedEvents": 34,
+    "existingPublishedLocalIdentical": 33,
+    "previousLocalEventPendingPublication": [
+      "legal-review-20261119-reporting-fulltext"
+    ]
+  },
+  "updatedTargetIds": [
+    "q15",
+    "q16",
+    "q25",
+    "duty113_06",
+    "duty112_09",
+    "scene114-14",
+    "s09",
+    "duty111_s01",
+    "s05",
+    "scene115-e2",
+    "chase"
+  ],
+  "eventId": "legal-review-20261119-chase-escort-texts",
+  "validation": {
+    "unchangedOriginalQuestions": 910,
+    "unchangedEssayPromptsAndScoring": 66,
+    "unchangedOldEvents": 34,
+    "previousPending": {
+      "questionsNotVerified": 404,
+      "essaysNotVerified": 27,
+      "questionsReviewFilter": 405
+    },
+    "currentPending": {
+      "questionsNotVerified": 402,
+      "essaysNotVerified": 27,
+      "questionsReviewFilter": 403
+    },
+    "cleared": {
+      "questions": [
+        "q15",
+        "scene114-14"
+      ],
+      "essays": []
+    },
+    "baseAndOverlayConsistency": true,
+    "checksPassed": [
+      "curated legal events and all source URLs",
+      "new continuous-reporting and partial verification safeguards",
+      "150 duty questions and official answers",
+      "120 scenario questions and official answers",
+      "910 original stems/options/answer keys unchanged",
+      "66 essay prompts and scoring unchanged",
+      "34 older curated events unchanged",
+      "base and overlay content consistent",
+      "TypeScript noEmit",
+      "ESLint for modified study data and regression script",
+      "pnpm build after correcting repealed-law associations",
+      "7 changed JSON files parsed",
+      "174 local Markdown links exist",
+      "git diff --check"
+    ],
+    "lawAssociations": "q15移除舊e11主法條連結；scene114-14不再連舊e6，戒具部分連escort-constraints；原題明指舊辦法的q16仍連歷史卡。",
+    "notRun": [
+      "browser interaction",
+      "production authenticated persistence"
+    ]
+  }
+}
