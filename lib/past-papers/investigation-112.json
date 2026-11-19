@@ -781,26 +781,26 @@
       "options": [
         {
           "text": "執行前須深入了解案情、確認對象、熟悉環境、充分準備",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：拘捕時應依法同時注意相關贓證保全，不應為趕移送而一概延至日後再搜索扣押。",
+          "explanation": "第140點要求先了解案情、確認對象、熟悉環境及準備，A符合。",
+          "correction": "準備不能取代合法拘捕依據，但有助避免誤認與不必要危害。",
           "trueStatement": true
         },
         {
           "text": "執行時應顧及本身安全，講求團隊合作默契，切忌躁進、退縮或擅離職守",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：拘捕時應依法同時注意相關贓證保全，不應為趕移送而一概延至日後再搜索扣押。",
+          "explanation": "第141點要求顧及自身安全及團隊默契，切忌躁進、退縮或擅離，B符合。",
+          "correction": "合法執行與現場安全應一併維護。",
           "trueStatement": true
         },
         {
           "text": "執行拘捕，以人犯為主，為免耽誤移送時機，搜索扣押相關證物，則另找時間派員執行",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "拘捕時應依法同時注意相關贓證保全，不應為趕移送而一概延至日後再搜索扣押。",
+          "explanation": "第141點要求執行時同時依法搜索扣押犯罪贓證以防滅失，不能一律以移送趕時間為由另日再處理。",
+          "correction": "C錯誤；是否搜索扣押仍須具相應法律依據，不是所有物品都可逕行扣押。",
           "trueStatement": false
         },
         {
           "text": "拘捕到案之犯罪嫌疑人，應立即搜索身體及戒護，防止脫逃、自殺或其他意外事端",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：拘捕時應依法同時注意相關贓證保全，不應為趕移送而一概延至日後再搜索扣押。",
+          "explanation": "第141點要求拘捕後立即附帶搜索並注意戒護，與第130條合法拘捕的附帶搜索規定合讀。",
+          "correction": "D須在法定附帶搜索及必要範圍內，不由應立即等文字擴張無限權力。",
           "trueStatement": true
         }
       ],
@@ -811,19 +811,35 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第11題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 11,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第140、141點；刑事訴訟法第130、137條",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項對照警專官方公開115版手冊及所引現行法條，補足條件、例外與程序層次；原題、選項、官方答案及特殊給分不變。核對日不是修法日，附件標籤不作為修正或施行日期；手冊內部分工不取代法律授權，未宣稱查盡各年手冊全部沿革或所有裁判。",
+        "oldRule": "原解析未完整交代條次、授權層次及例外，或僅依官方接受答案判讀。",
+        "newRule": "拘捕、人身安全與贓證保全同時依法處理，不因移送時效忽略，也不因保全名義擴張搜索。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第140、141點（PDF第23頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=23"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "刑事訴訟法第130、137條（全國法規資料庫全文，可搜尋條次）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "拘捕時應依法同時注意相關贓證保全，不應為趕移送而一概延至日後再搜索扣押。",
+      "takeaway": "拘捕、人身安全與贓證保全同時依法處理，不因移送時效忽略，也不因保全名義擴張搜索。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -840,8 +856,21 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第140、141點（PDF第23頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=23"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第130、137條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C不變：不能一律延後依法應即處理的贓證保全；附帶搜索、其他搜索或扣押各須有法定依據。"
     },
     {
       "id": "investigation112_12",
@@ -1141,26 +1170,26 @@
       "options": [
         {
           "text": "製作筆錄或文書時，證人之真實姓名及身分資料應以代號為之",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：原卷考點為先採必要保護措施後7日內陳報；選項寫3日錯誤，仍須符合緊急條件。",
+          "explanation": "證人保護法第11條對有身分保密必要之證人，製作筆錄以代號代替真實身分；A須在此保密前提下理解。",
+          "correction": "不是所有普通證人均一律匿名，仍須有依法保密的必要。",
           "trueStatement": true
         },
         {
           "text": "證人之簽名亦以按指印代之，並另製作代號及真實姓名對照表，連同詢問錄音（錄影）資料以密封 套密封附卷",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：原卷考點為先採必要保護措施後7日內陳報；選項寫3日錯誤，仍須符合緊急條件。",
+          "explanation": "第11條規定簽名以按指印代之，第105點並要求對照表與錄音錄影等密封附卷。",
+          "correction": "B符合保密證人流程，真實資料卷宗亦應依規定分開封存。",
           "trueStatement": true
         },
         {
           "text": "警察機關於調查刑事案件時，如認證人有受保護必要，得先採取保護措施，並於三日內將措施陳報 檢察官或法院",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "原卷考點為先採必要保護措施後7日內陳報；選項寫3日錯誤，仍須符合緊急條件。",
+          "explanation": "證人保護法第4條第2項是警方先採必要保護措施後七日內陳報檢察官或法院，不是三日。",
+          "correction": "C錯誤；手冊第105點亦載急迫措施七日陳報檢察官。",
           "trueStatement": false
         },
         {
           "text": "公務員洩漏依證人保護法應受身分保密證人之文書、消息、相貌、身分資料者，處一年以上七年以 下有期徒刑",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：原卷考點為先採必要保護措施後7日內陳報；選項寫3日錯誤，仍須符合緊急條件。",
+          "explanation": "第16條第1項對公務員洩漏或交付依法應身分保密證人資料，規定一年以上七年以下有期徒刑，D相符。",
+          "correction": "故意、過失及非公務員另有不同規定，不將所有情形一律套同一刑度。",
           "trueStatement": true
         }
       ],
@@ -1171,19 +1200,35 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第16題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 16,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第105點；證人保護法第4、11、16條",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項對照警專官方公開115版手冊及所引現行法條，補足條件、例外與程序層次；原題、選項、官方答案及特殊給分不變。核對日不是修法日，附件標籤不作為修正或施行日期；手冊內部分工不取代法律授權，未宣稱查盡各年手冊全部沿革或所有裁判。",
+        "oldRule": "原解析未完整交代條次、授權層次及例外，或僅依官方接受答案判讀。",
+        "newRule": "保密前提、代號指印、分卷封存及七日陳報分別完成，不把所有證人一律匿名。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第105點（PDF第17頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=17"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "證人保護法第4、11、16條（全國法規資料庫全文，可搜尋條次）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030161"
+          }
+        ]
       },
-      "takeaway": "原卷考點為先採必要保護措施後7日內陳報；選項寫3日錯誤，仍須符合緊急條件。",
+      "takeaway": "保密前提、代號指印、分卷封存及七日陳報分別完成，不把所有證人一律匿名。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -1200,8 +1245,21 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第105點（PDF第17頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=17"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "證人保護法第4、11、16條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030161"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C不變。保密證人與一般證人分開；先行保護措施七日陳報，身分資料須依法封存，洩漏責任依第16條分別判斷。"
     },
     {
       "id": "investigation112_17",
@@ -1346,26 +1404,26 @@
       "options": [
         {
           "text": "選任辯護人應以律師為限；每一犯罪嫌疑人選任之辯護人不得逾三人",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：偵查中沒有如審判階段般概括閱覽全部卷證權，須依具體法定權利與例外判斷，不能由搜索在場權推得全面閱卷。",
+          "explanation": "刑訴第28條及第148點規定每一被告、犯嫌選任辯護人至多三人；偵查中以律師為限。",
+          "correction": "A依偵查中一般規則正確，非律師例外不可由警察首長自行創設。",
           "trueStatement": true
         },
         {
           "text": "得於詢問完畢後令犯罪嫌疑人閱覽筆錄時，協助閱覽",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：偵查中沒有如審判階段般概括閱覽全部卷證權，須依具體法定權利與例外判斷，不能由搜索在場權推得全面閱卷。",
+          "explanation": "第149點及刑訴第41條準用規定，辯護人可於筆錄閱覽時協助，不必將詢問在場權與事後協閱混為一談。",
+          "correction": "B正確；增刪或意見須依法記錄並使受詢問人明瞭。",
           "trueStatement": true
         },
         {
           "text": "辯護人可以檢閱、抄錄或攝影卷宗及證物，執行搜索或扣押時亦得在場",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "偵查中沒有如審判階段般概括閱覽全部卷證權，須依具體法定權利與例外判斷，不能由搜索在場權推得全面閱卷。",
+          "explanation": "第153點未賦予一般偵查辯護人全面閱卷及搜索扣押在場權；C將審判中或特別程序的權利一概移到一般警詢。",
+          "correction": "C為本題錯誤；不能反過來宣稱法律另定的羈押審查閱卷、當事人或受搜索人權利也全無。",
           "trueStatement": false
         },
         {
           "text": "非經證人同意或有必要，詢問證人時，犯罪嫌疑人及其辯護人不得在場",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：偵查中沒有如審判階段般概括閱覽全部卷證權，須依具體法定權利與例外判斷，不能由搜索在場權推得全面閱卷。",
+          "explanation": "第155點規定非經證人同意或有必要，詢問證人時犯嫌及其辯護人不得在場；指認及依法對質等情形另判。",
+          "correction": "D符合手冊一般原則，不概括排除所有依法必要參與。",
           "trueStatement": true
         }
       ],
@@ -1376,19 +1434,39 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第18題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 18,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第148、149、150、153、155點；刑事訴訟法第28、29、41、43之1、148、150、245條",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項對照警專官方公開115版手冊及所引現行法條，補足條件、例外與程序層次；原題、選項、官方答案及特殊給分不變。核對日不是修法日，附件標籤不作為修正或施行日期；手冊內部分工不取代法律授權，未宣稱查盡各年手冊全部沿革或所有裁判。",
+        "oldRule": "原解析未完整交代條次、授權層次及例外，或僅依官方接受答案判讀。",
+        "newRule": "警詢在場與協閱筆錄不等於全面閱卷；審判、羈押審查及其他身分權利另依法判斷。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第148點（PDF第24頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=24"
+          },
+          {
+            "title": "警專公開115版偵查犯罪手冊第149、150、153、155點（PDF第25頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=25"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "刑事訴訟法第28、29、41、43之1、148、150、245條（全國法規資料庫全文，可搜尋條次）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "偵查中沒有如審判階段般概括閱覽全部卷證權，須依具體法定權利與例外判斷，不能由搜索在場權推得全面閱卷。",
+      "takeaway": "警詢在場與協閱筆錄不等於全面閱卷；審判、羈押審查及其他身分權利另依法判斷。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -1405,8 +1483,25 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第148點（PDF第24頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=24"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第149、150、153、155點（PDF第25頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=25"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第28、29、41、43之1、148、150、245條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C不變：一般偵查辯護、審判中閱卷及特別程序保障須分開。第153點不得被擴張成排除法律另外賦予的閱卷或其他身分在場權。"
     },
     {
       "id": "investigation112_19",
@@ -1418,26 +1513,26 @@
       "options": [
         {
           "text": "受搜索人抗拒搜索者，得用強制力搜索之，但不得逾必要之程度",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：暫保管不是保管到偵查終結的概括授權，原則應儘速隨案或移送贓物庫。",
+          "explanation": "刑訴第132條及第161點允許對抗拒搜索使用強制力，但不得逾必要程度，A符合。",
+          "correction": "須先具合法搜索權源，不能以抗拒為由補造原本不存在的搜索授權。",
           "trueStatement": true
         },
         {
           "text": "偵查中有相當理由認為情況急迫，有立即扣押必要時，雖無扣押裁定，得逕行扣押",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：暫保管不是保管到偵查終結的概括授權，原則應儘速隨案或移送贓物庫。",
+          "explanation": "第133條之2允許有相當理由認急迫且須立即扣押時逕行扣押，B符合。",
+          "correction": "仍須履行事後三日報告等程序，急迫不是免受監督。",
           "trueStatement": true
         },
         {
           "text": "扣押物係金飾或珠寶等貴重物品，應記明其重量及特徵；必要時，應照相或錄影備查，於封緘後妥善 保管",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：暫保管不是保管到偵查終結的概括授權，原則應儘速隨案或移送贓物庫。",
+          "explanation": "第173點要求貴重物記重量特徵，必要時照相錄影，封緘保管；C相符。",
+          "correction": "若兼為證物，另須編號、細目與逐一拍照等，不僅是封袋。",
           "trueStatement": true
         },
         {
           "text": "扣押物應立即隨案移送檢察署，其無法隨案移送之扣押物，應置放警察局證物室保管，直至偵查終結",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "暫保管不是保管到偵查終結的概括授權，原則應儘速隨案或移送贓物庫。",
+          "explanation": "第174點要求不能立即隨案移送者暫存證物室並儘速移贓物庫，不是可一律放警察局直到偵查終結。",
+          "correction": "D錯誤；特殊大型證物另依核准、場所及指定保管流程，不能自行無限暫存。",
           "trueStatement": false
         }
       ],
@@ -1448,19 +1543,43 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第19題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 19,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第161、171、173、174點；刑事訴訟法第132、133之2、139、140條",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項對照警專官方公開115版手冊及所引現行法條，補足條件、例外與程序層次；原題、選項、官方答案及特殊給分不變。核對日不是修法日，附件標籤不作為修正或施行日期；手冊內部分工不取代法律授權，未宣稱查盡各年手冊全部沿革或所有裁判。",
+        "oldRule": "原解析未完整交代條次、授權層次及例外，或僅依官方接受答案判讀。",
+        "newRule": "急迫扣押仍要事後報告，證物仍要編號保全，暫存不等於無期限留置。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第161點（PDF第26頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=26"
+          },
+          {
+            "title": "警專公開115版偵查犯罪手冊第171點（PDF第27頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=27"
+          },
+          {
+            "title": "警專公開115版偵查犯罪手冊第173、174點（PDF第28頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=28"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "刑事訴訟法第132、133之2、139、140條（全國法規資料庫全文，可搜尋條次）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "暫保管不是保管到偵查終結的概括授權，原則應儘速隨案或移送贓物庫。",
+      "takeaway": "急迫扣押仍要事後報告，證物仍要編號保全，暫存不等於無期限留置。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -1477,8 +1596,29 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第161點（PDF第26頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=26"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第171點（PDF第27頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=27"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第173、174點（PDF第28頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=28"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第132、133之2、139、140條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D不變。暫保管不能概括延到偵查終結；保管、防毀損與移交時點仍依刑訴及第174點辦理。"
     },
     {
       "id": "investigation112_20",

@@ -414,7 +414,8 @@ assert(overseasOrder.currentAnswer.includes('現住地、工作地、家屬現�
 const overseasTheft=result.questions.find(q=>q.id==='investigation113_01');
 assert(overseasTheft.options[3].explanation.includes('不能推回報案'));
 assert(overseasTheft.currentAnswer.includes('不能由手冊直接推導可在境外搜捕'));
-assert.equal(result.questions.find(q=>q.id==='investigation111_18').verified,false);
+// A later review supplies point 174 and resolves this previously deferred handling procedure.
+assert.equal(result.questions.find(q=>q.id==='investigation111_18').verified,true);
 console.log('Transfer grouping, custody permission, special forms and overseas police assignment passed.');
 
 // This acceptance batch must cover 30 distinct questions, while retaining legal boundaries.
@@ -439,3 +440,21 @@ for(const id of ['investigation111_17','investigation115_30'])assert(result.ques
 const interceptionAuthority=result.questions.find(q=>q.id==='investigation115_44');assert(interceptionAuthority.currentAnswer.includes('司法聲請、核發及執行管制仍須完成'));
 for(const id of ['investigation111_04','investigation111_14','investigation112_21','investigation114_07'])assert.equal(result.questions.find(q=>q.id===id).verified,false);
 console.log('Thirty-question acceptance, concurrent police responsibility, inquiry rights and distinct judicial authorization passed.');
+
+const procedureBatch30=events.find(e=>e.eventId==='legal-review-20261119-procedure30');assert(procedureBatch30);
+assert.equal(procedureBatch30.patches.length,30);assert.equal(new Set(procedureBatch30.patches.map(p=>p.targetId)).size,30);
+for(const p of procedureBatch30.patches){
+ const q=result.questions.find(x=>x.id===p.targetId);assert(q?.verified);assert.equal(q.amendment.status,'none');assert.notEqual(q.analysisMode,'answer-key');
+ assert.equal(p.optionOverrides.length,4);assert(q.options.every(o=>!o.explanation.includes('本項不在當年度官方接受答案')));
+}
+const urgentArrest=result.questions.find(q=>q.id==='investigation110_17');assert(urgentArrest.options[3].explanation.includes('逃亡之虞'));assert(urgentArrest.currentAnswer.includes('不及報告檢察官'));
+const sampleLimits=result.questions.find(q=>q.id==='investigation110_20');assert(sampleLimits.options[2].explanation.includes('檢察官許可及急迫追認'));assert(sampleLimits.currentAnswer.includes('24小時'));
+const noticeKinds=result.questions.find(q=>q.id==='investigation110_48');assert(noticeKinds.options[1].explanation.includes('郵務送達'));assert(noticeKinds.options[2].correction.includes('他造當事人'));
+const seizureOr=result.questions.find(q=>q.id==='investigation111_19');assert(seizureOr.options[0].explanation.includes('擇一'));assert(seizureOr.options[3].explanation.includes('檢察官及法院'));
+const witnessDeadline=result.questions.find(q=>q.id==='investigation112_16');assert(witnessDeadline.options[2].explanation.includes('七日'));assert(witnessDeadline.options[0].correction.includes('不是所有普通證人'));
+const lawyerVisit=result.questions.find(q=>q.id==='investigation113_18');assert.equal(lawyerVisit.answer,0);assert(lawyerVisit.options[0].explanation.includes('第34條第2項'));assert(lawyerVisit.options[0].explanation.includes('一小時'));assert(lawyerVisit.options[0].correction.includes('第1項法院羈押'));
+const legislatorArrest=result.questions.find(q=>q.id==='investigation113_44');assert(legislatorArrest.options[1].explanation.includes('憲法增修條文第4條'));assert(legislatorArrest.options[1].explanation.includes('會期中'));assert(legislatorArrest.options[1].explanation.includes('現行犯'));
+const returnedProperty=result.questions.find(q=>q.id==='investigation111_18');assert.equal(returnedProperty.answer,0);assert(returnedProperty.options[1].explanation.includes('第140條本就允許'));assert(returnedProperty.options[1].correction.includes('方式本身不是違法'));assert(returnedProperty.options[2].explanation.includes('承辦檢察官'));
+const recordRights=result.questions.find(q=>q.id==='investigation112_18');assert(recordRights.currentAnswer.includes('法律另外賦予'));assert(recordRights.options[2].correction.includes('羈押審查'));
+const evidenceChain=result.questions.find(q=>q.id==='investigation115_49');assert(evidenceChain.options[2].explanation.includes('編號'));assert(evidenceChain.options[3].explanation.includes('禁止向被告或第三人清償'));
+console.log('Next 30 procedure questions preserve legal authority, witness safeguards, limited visit scope and lawful property handling.');

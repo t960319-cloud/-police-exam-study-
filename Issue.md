@@ -755,3 +755,13 @@
 - 原生保存與部署成功，GitHub與Sites同來源367d8d8，第42版部署appgdep_6afee2f2c7a88191adecbb5d17af9380為succeeded；既有public與DB未變。
 - 正式法規API回41筆、無下一頁、HTTP200／CONNECT200；38筆本地事件全部一致，前40筆正式歷史內容不變，新事件恰30題／120選項且targetId清單相符。[證據](docs/production-batch30-release-2026-11-19.json)保留完整原生版本與存檔雜湊。
 - 本批教材驗收完成；正式帳號保存、跨裝置及還原沒有以匿名讀回代替。最後只補紀錄與待辦，完成JSON、文件連結及差異檢查後同步Git，未重跑不受文件影響的建置。
+
+
+### 2026-11-19：程序第二批30題檢查
+
+- 官方手冊與現行法原件均HTTP200／CONNECT200，手冊SHA一致；[證據](docs/legal-evidence-2026-11-19-procedure30.json)含30題、120選項及38個引用手冊條點。第144點位於PDF換頁起首，文字擷取器已按換頁符辨識其原點次，未自行改寫手冊原文重複款號。
+- 通過`node --experimental-strip-types scripts/check-curated-updates.mjs`、`node --experimental-strip-types scripts/check-investigation-papers.mjs`、`node node_modules/typescript/bin/tsc --noEmit`、修改檔ESLint及`node --experimental-strip-types scripts/check-study-priorities.mjs`六項排序。回歸重點為採尿新程序、憲法增修會期保障、扣押三日雙重報告、律見階段、證人七日保護、其他身分閱卷權及保管形式的刑訴法源。
+- 全庫比對通過：910題原題、選項及官方給分，66申論、33法條卡與38筆既有事件均不變；恰30個未核題目更新、120選項逐一補釋，原始資料與事件重播相同。未標已核329／27，綜合待核330。
+- 111犯罪偵查18的現行作業原文範圍已取得並補釋；不以其保管形式本身為違法，也未據此宣稱所有當年沿革已核。其餘5個候選的相關裁判或語意仍待核。建置及正式部署讀回另記，未驗收正式帳號保存／跨裝置／還原。
+
+- 最後補核刑訴第196條之1作為證人通知的直接法源，與第71條之1犯嫌通知分開引用；受影響的事件、原卷與一致性重新通過，建置亦通過，僅保留既有分塊及路由分類提示。

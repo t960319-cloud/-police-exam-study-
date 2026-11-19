@@ -3989,26 +3989,26 @@
       "options": [
         {
           "text": "執行扣押時，發現另案應扣押之物，因未列於扣押裁定書中，故無法扣押",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：可禁止向債務人收取或處分，並禁止向被告或第三人清償；不是只封緘有體物才叫扣押。",
+          "explanation": "刑訴第152條允許搜索扣押時發現另案應扣押物亦扣押，分別交該管法院或檢察官，A一律排除錯誤。",
+          "correction": "本案票外與另案扣押各有法源、分送及事後程序，不是未列票就必然不能扣。",
           "trueStatement": false
         },
         {
           "text": "執行搜索或扣押時，無正當理由拒絕提出應扣押之物者，不得使用強制力",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：可禁止向債務人收取或處分，並禁止向被告或第三人清償；不是只封緘有體物才叫扣押。",
+          "explanation": "第138條及第172點明列無正當理由拒交或抗拒扣押可用強制力，B稱不得使用不符。",
+          "correction": "前提仍是合法應扣押物，強制力不得逾必要範圍。",
           "trueStatement": false
         },
         {
           "text": "扣押物如為證物時，僅須加封緘，不須另行編號或拍照存證",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：可禁止向債務人收取或處分，並禁止向被告或第三人清償；不是只封緘有體物才叫扣押。",
+          "explanation": "第173點除封緘標識外，證物還須編號、記細目及逐一拍照；C只留封緘而否認其餘，錯誤。",
+          "correction": "證物鏈及辨識紀錄不能以封袋取代。",
           "trueStatement": false
         },
         {
           "text": "扣押債權時，得以發扣押命令禁止向債務人收取或為其他處分，並禁止向被告或第三人清償",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "可禁止向債務人收取或處分，並禁止向被告或第三人清償；不是只封緘有體物才叫扣押。",
+          "explanation": "第133條第5項明列扣押債權可禁止收取或其他處分，並禁止向被告或第三人清償，D相符。",
+          "correction": "D正確；扣押對象、命令內容及送達仍須依適用程序完成。",
           "trueStatement": true
         }
       ],
@@ -4019,19 +4019,39 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第49題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 49,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "偵查犯罪手冊第171、172、173點；刑事訴訟法第133、138、139、152條",
+        "checkedAt": "2026-11-19",
+        "note": "已逐選項對照警專官方公開115版手冊及所引現行法條，補足條件、例外與程序層次；原題、選項、官方答案及特殊給分不變。核對日不是修法日，附件標籤不作為修正或施行日期；手冊內部分工不取代法律授權，未宣稱查盡各年手冊全部沿革或所有裁判。",
+        "oldRule": "原解析未完整交代條次、授權層次及例外，或僅依官方接受答案判讀。",
+        "newRule": "封緘不是完整證物鏈；另案扣押、必要強制及債權命令各有明文。",
+        "sources": [
+          {
+            "title": "警專公開115版偵查犯罪手冊第171點（PDF第27頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=27"
+          },
+          {
+            "title": "警專公開115版偵查犯罪手冊第172、173點（PDF第28頁起）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=28"
+          },
+          {
+            "title": "警專刑事警察科・115年新版手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          },
+          {
+            "title": "刑事訴訟法第133、138、139、152條（全國法規資料庫全文，可搜尋條次）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "可禁止向債務人收取或處分，並禁止向被告或第三人清償；不是只封緘有體物才叫扣押。",
+      "takeaway": "封緘不是完整證物鏈；另案扣押、必要強制及債權命令各有明文。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -4048,8 +4068,25 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第171點（PDF第27頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=27"
+        },
+        {
+          "title": "警專公開115版偵查犯罪手冊第172、173點（PDF第28頁起）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968#page=28"
+        },
+        {
+          "title": "警專刑事警察科・115年新版手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        },
+        {
+          "title": "刑事訴訟法第133、138、139、152條（全國法規資料庫全文，可搜尋條次）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D不變。另案應扣押物、拒交時必要強制、證物編號細目與債權禁止收取清償，均須分別依法處理。"
     },
     {
       "id": "investigation115_50",
