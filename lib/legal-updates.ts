@@ -24,7 +24,8 @@ const bounded = (v: unknown, max = 12000): v is string => typeof v === "string" 
 const date = (v: unknown): v is string => typeof v === "string" && /^20\d{2}-\d{2}-\d{2}$/.test(v) && !Number.isNaN(Date.parse(v)) && new Date(v).toISOString().slice(0,10) === v && v <= new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Taipei"}).format(new Date());
 const officialSources = (v: unknown): v is { title: string; url: string }[] => Array.isArray(v) && v.length > 0 && v.length <= 30 && v.every(s => {
   if (!bounded(s?.title, 300) || !bounded(s?.url, 2000)) return false;
-  try { const u = new URL(s.url); return u.protocol === "https:" && (u.hostname.endsWith(".gov.tw") || u.hostname === "gov.tw" || u.hostname === "www-ws.gov.taipei"); } catch { return false; }
+  // The police college publishes primary police regulations under its own official domain.
+  try { const u = new URL(s.url); return u.protocol === "https:" && (u.hostname.endsWith(".gov.tw") || u.hostname === "gov.tw" || u.hostname === "www-ws.gov.taipei" || u.hostname === "tpa.edu.tw" || u.hostname.endsWith(".tpa.edu.tw")); } catch { return false; }
 });
 export function validateLegalEvent(value: unknown, targetIds: Set<string>): value is LegalEvent {
   const v = value as LegalEvent;

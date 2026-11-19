@@ -13,6 +13,19 @@ const bad=structuredClone(event);bad.patches[0].targetId='unknown';assert(!valid
 const wrongSource=structuredClone(event);wrongSource.sources[0].url='https://unofficial.example/tips';assert(!validateLegalEvent(wrongSource,new Set([q.id])));
 const taipeiSource=structuredClone(event);taipeiSource.sources[0].url='https://www-ws.gov.taipei/official.pdf';taipeiSource.patches[0].amendment.sources[0].url=taipeiSource.sources[0].url;assert(validateLegalEvent(taipeiSource,new Set([q.id])));
 for(const url of ['http://www-ws.gov.taipei/official.pdf','https://www-ws.gov.taipei.example/official.pdf','https://fake.gov.taipei/official.pdf']){const impersonation=structuredClone(taipeiSource);impersonation.sources[0].url=url;assert(!validateLegalEvent(impersonation,new Set([q.id])));}
+// Official police-college documents use edu.tw; other schools and lookalike hosts remain excluded.
+for(const url of ['https://tpa.edu.tw/official.pdf','https://crime.tpa.edu.tw/official.pdf']){
+ const college=structuredClone(event);college.sources[0].url=url;college.patches[0].amendment.sources[0].url=url;
+ assert(validateLegalEvent(college,new Set([q.id])));
+}
+for(const url of ['http://crime.tpa.edu.tw/official.pdf','https://other.edu.tw/official.pdf','https://fake-tpa.edu.tw/official.pdf','https://crime.tpa.edu.tw.example/official.pdf']){
+ for(const scope of ['event','amendment']){
+  const other=structuredClone(event);
+  if(scope==='event')other.sources=[{title:'來源',url}];
+  else other.patches[0].amendment.sources=[{title:'來源',url}];
+  assert(!validateLegalEvent(other,new Set([q.id])),`${scope}: ${url}`);
+ }
+}
 const wrongDate=structuredClone(event);wrongDate.patches[0].amendment.checkedAt='2026-11-08';assert(!validateLegalEvent(wrongDate,new Set([q.id])));
 assert(validateLegalEvent({eventId:'check-test',kind:'check',checkedAt:'2026-11-09',summary:'未有新變動',sources:[official]},new Set()));
 const law={id:'law-test',title:'法條卡',original:'舊法條原文',core:'舊重點'};

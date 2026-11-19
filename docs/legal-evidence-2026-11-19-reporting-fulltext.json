@@ -1,0 +1,151 @@
+{
+  "checkedAt": "2026-11-19",
+  "timezone": "Asia/Taipei",
+  "retrievedAt": "2026-11-19T01:58:26.294617+00:00",
+  "sources": [
+    {
+      "title": "reporting114",
+      "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiOVBCM01Tcno0ZE1RYnplQk5aZ3d0RU4vSmVVaDFJTUVtdXIvV1M4bmJ2cDI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbUJCQ05oYVJnYU1rVi9KZFR3VHVqSEwwbE5pWXRmTHBoTE1yQXpMdEl0eFFCL3pKQXhOV3hTU1NvL1liQ290U2xpcVRuaVpSNzhqVEg4bzNydmJON2o0ckpVbUZ0d09RZ2JTWGdDd1lVeTNLTWo1dTVnRHJNTjh3U292NEJDTGJqTHB3VlZ0MW0zcmpmQW5DVGR4bDFZPQ==&cg=968",
+      "retrievedAt": "2026-11-19T01:53:44.019865+00:00",
+      "response": "200 200 application/octet-stream",
+      "exitCode": 0,
+      "sha256": "0a3b35e9b8d18010f4d8d6a790fc7cb2ad53221d98df90446781371fbe9d25c2",
+      "bytes": 257079
+    },
+    {
+      "title": "reporting-index",
+      "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php",
+      "retrievedAt": "2026-11-19T01:53:47.567439+00:00",
+      "response": "200 200 text/html; charset=UTF-8",
+      "exitCode": 0,
+      "sha256": "4ebd3e24e86e187ff0f56b7414b8b220b15ac5174c09a06a4f35a1e095b27b46",
+      "bytes": 28229
+    },
+    {
+      "title": "reporting-revision",
+      "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1342331854245597184&module=events&type=s",
+      "retrievedAt": "2026-11-19T01:53:50.384157+00:00",
+      "response": "200 200 application/pdf; charset=UTF-8",
+      "exitCode": 0,
+      "sha256": "37cb9b667068ec76a176de2b6c7409ac2fbf707f65492da5becddf81b684666f",
+      "bytes": 204053
+    }
+  ],
+  "document": {
+    "title": "警察機關受理刑事案件報案單一窗口實施要點",
+    "revisionDate": "114.01.13",
+    "printTimestamp": "2026.05.05 13:31:48",
+    "pages": 3,
+    "points": 6,
+    "revisionOrder": "警署刑偵字第1140000581號（警政署114年1月大事記要佐證）",
+    "scope": "官方公開114修正版完整文字；不以列印日為修正或施行日，不宣稱核對日另有修法。"
+  },
+  "verifiedProvisions": [
+    {
+      "point": "第2點",
+      "finding": "110及各級機關為窗口；線上急迫反應、其他引導或協助聯絡最近窗口。",
+      "pdfPages": [
+        1
+      ]
+    },
+    {
+      "point": "第3點第1至5款",
+      "finding": "不分本他轄受理、急迫先處理、身體健康行動困難衡酌警力個案派員或親友代報、紀錄上傳及特殊案類通報。",
+      "pdfPages": [
+        1
+      ]
+    },
+    {
+      "point": "第5點第1項、第2項第1至4款",
+      "finding": "管轄及特別案類分流；首次5日陳報、偵查隊3日簽辦、主副官核准後2日平臺移轉確認；急迫先通報傳送及留案例外。",
+      "pdfPages": [
+        2
+      ]
+    },
+    {
+      "point": "第5點第3、4項及第6點",
+      "finding": "已移轉補件2日陳報、不可拒收逕轉、爭議由共同上級指定及究責。",
+      "pdfPages": [
+        2,
+        3
+      ]
+    }
+  ],
+  "limits": [
+    "公開ou3.npa.gov.tw/law的F1000223全文與沿革頁回應無此法規資料，不能據以確認後續沿革或推定廢止；改以警專官方完整附件核對所載114版。",
+    "未取得110年當時完整版本，duty110_s02仍待核；本站擬答非官方評分標準。",
+    "跨案類管轄、e化平臺、逐級報告等獨立規範不因取得本要點而一併核完。",
+    "本批提交交整合窗口發布；未用Git推送代替正式部署。"
+  ],
+  "baseline": {
+    "githubCommit": "0e4cb107bc5ddb33c60a3d1e74073cd9e3c7699e",
+    "sitesCommit": "382b25ea8f94083ca9dcef806e1fbb37d1c0ad95",
+    "sitesVersion": 38,
+    "liveApiEvents": 36,
+    "curatedEvents": 33,
+    "allExistingCuratedEventsIdentical": true
+  },
+  "eventId": "legal-review-20261119-reporting-fulltext",
+  "updatedTargetIds": [
+    "q11",
+    "q12",
+    "q39",
+    "investigation114_01",
+    "investigation115_01",
+    "report",
+    "s04",
+    "duty110_s02"
+  ],
+  "localSourceText": "legal-sources/single-window-1140113.txt",
+  "validation": {
+    "unchangedOriginalQuestions": 910,
+    "unchangedEssayPromptsAndScoring": 66,
+    "unchangedOldEvents": 33,
+    "previousPending": {
+      "questions": 407,
+      "essays": 28
+    },
+    "currentPending": {
+      "questions": 405,
+      "essays": 27
+    },
+    "cleared": {
+      "questions": [
+        "investigation114_01",
+        "investigation115_01"
+      ],
+      "essays": [
+        "s04"
+      ]
+    },
+    "baseAndOverlayConsistency": true,
+    "checksPassed": [
+      "legal event and official source validation",
+      "curated updates including phased reporting and unchanged historical limits",
+      "300 investigation questions and 1200 original options",
+      "150 duty questions and official grading",
+      "120 scenario questions and official grading",
+      "TypeScript noEmit",
+      "ESLint for four modified TypeScript/JavaScript files",
+      "6 personalized priority checks",
+      "pnpm build",
+      "original 910 questions and 66 essay prompts/scoring unchanged",
+      "33 prior curated events unchanged"
+    ],
+    "notRun": [
+      "browser interaction",
+      "production login and persistence"
+    ]
+  },
+  "counts": {
+    "questionsNotVerified": 404,
+    "essaysNotVerified": 27,
+    "questionsReviewFilter": 405,
+    "additionalReviewQuestions": [
+      {
+        "id": "q38",
+        "note": "本題原答案B不變。行政院115.1.29函確認原道交第35條第6項肇事採樣規定依憲判於113.2.25失效，並說明完成修法前過渡階段依判決所載要件程序辦理；應對照判決主文的過渡期間，不逕自推定所有個案均得強制採血。115年修正第6、15項定115.12.31施行。判決所定過渡階段，肇事拒測或無法吐氣而有合理性及必要性時，原則報請檢察官核發鑑定許可書；急迫時得先採血，24小時內陳報，檢察官認不應准許者3日內撤銷，受測者10日內得聲請法院撤銷。個案適用法源及程序仍須逐項核對。"
+      }
+    ]
+  }
+}

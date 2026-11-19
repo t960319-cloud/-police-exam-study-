@@ -11948,5 +11948,438 @@
       }
     ],
     "createdAt": 1794890286337
+  },
+  {
+    "eventId": "legal-review-20261119-reporting-fulltext",
+    "kind": "update",
+    "checkedAt": "2026-11-19",
+    "summary": "取得警專官方114.01.13單一窗口完整6點、3頁，補五題選擇、兩題申論及法條卡。明列首次5日陳報、偵查隊3日簽辦、主官或副主官核准、核准後2日平臺移轉確認及補件2日陳報；行動不便者衡酌警力與個案派員或親友代報。114、115犯罪偵查第1題及主題申論s04已核該版；110勤務申論2歷史全文仍待核。原題、選項、官方給分及配分不變，後續沿革另查。",
+    "sources": [
+      {
+        "title": "臺灣警察專科學校刑事警察科・單一窗口114.01.13修正版完整6點（115.05.05列印本）",
+        "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiOVBCM01Tcno0ZE1RYnplQk5aZ3d0RU4vSmVVaDFJTUVtdXIvV1M4bmJ2cDI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbUJCQ05oYVJnYU1rVi9KZFR3VHVqSEwwbE5pWXRmTHBoTE1yQXpMdEl0eFFCL3pKQXhOV3hTU1NvL1liQ290U2xpcVRuaVpSNzhqVEg4bzNydmJON2o0ckpVbUZ0d09RZ2JTWGdDd1lVeTNLTWo1dTVnRHJNTjh3U292NEJDTGJqTHB3VlZ0MW0zcmpmQW5DVGR4bDFZPQ==&cg=968"
+      },
+      {
+        "title": "臺灣警察專科學校刑事警察科・最新法令附件清單",
+        "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+      },
+      {
+        "title": "警政署114年1月大事記要：1月13日警署刑偵字第1140000581號函修正",
+        "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1342331854245597184&module=events&type=s"
+      }
+    ],
+    "patches": [
+      {
+        "targetId": "q11",
+        "amendment": {
+          "status": "none",
+          "law": "警察機關受理刑事案件報案單一窗口實施要點（114.01.13修正版）",
+          "date": "114.01.13（修正日；非附件列印日）",
+          "checkedAt": "2026-11-19",
+          "note": "已取得警專官方公開之114.01.13修正版完整6點、3頁，逐項核對本題；附件列印日115.05.05不是另一次修正或施行日。這是本站原件補核，非宣稱核對日修法；後續沿革未從現行公開法規頁核實，結論限於所列版本。",
+          "oldRule": "本站僅有修正摘要及歷史復審個案，未填入新版完整時限、核准層級及例外。",
+          "newRule": "依第3至5點補入立即受理、行動不便協助、首次5日內陳報、偵查隊3日內簽辦、主官或副主官核准、核准後2日內平臺移轉確認及後續補件2日內陳報；急迫案件先通報傳送。",
+          "sources": [
+            {
+              "title": "臺灣警察專科學校刑事警察科・單一窗口114.01.13修正版完整6點（115.05.05列印本）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiOVBCM01Tcno0ZE1RYnplQk5aZ3d0RU4vSmVVaDFJTUVtdXIvV1M4bmJ2cDI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbUJCQ05oYVJnYU1rVi9KZFR3VHVqSEwwbE5pWXRmTHBoTE1yQXpMdEl0eFFCL3pKQXhOV3hTU1NvL1liQ290U2xpcVRuaVpSNzhqVEg4bzNydmJON2o0ckpVbUZ0d09RZ2JTWGdDd1lVeTNLTWo1dTVnRHJNTjh3U292NEJDTGJqTHB3VlZ0MW0zcmpmQW5DVGR4bDFZPQ==&cg=968"
+            },
+            {
+              "title": "臺灣警察專科學校刑事警察科・最新法令附件清單",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "警政署114年1月大事記要：1月13日警署刑偵字第1140000581號函修正",
+              "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1342331854245597184&module=events&type=s"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "依114版第3點第1、2款及第5點，C正確：他轄刑案也要立即受理；急迫時先處置及通報，完成受理並判明管轄後才依法辦理移轉。",
+        "takeaway": "先受理與必要處置；一般移轉時限不能變成急迫案件的等待期。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第3點第1款明定不分案件當事人與否、本轄或他轄均立即受理，不能以發生地不同拒絕。",
+            "correction": "應立即受理，依案情派員或通報警網處理。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第3點第1、4款要求記錄或製作筆錄、登錄並依規定上傳；讓民眾自行另找派出所且不留紀錄，違反受理及紀錄義務。",
+            "correction": "由受理單位完成紀錄與必要處置，再依管轄程序移轉。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第3點要求先受理及必要處置，第5點另定管轄責任與移轉程序；本項正確區分兩個階段。",
+            "correction": "本項正確；急迫情況須先通報及傳送，不能等待一般移轉完成。",
+            "trueStatement": true
+          },
+          {
+            "index": 3,
+            "explanation": "第3點第2款列即時追捕、救護、排除急難及保全證據；不能因管轄未定而完全不處理。",
+            "correction": "有急迫狀況應立即處置；能力不足迅速通報協力。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "q12",
+        "amendment": {
+          "status": "none",
+          "law": "警察機關受理刑事案件報案單一窗口實施要點（114.01.13修正版）",
+          "date": "114.01.13（修正日；非附件列印日）",
+          "checkedAt": "2026-11-19",
+          "note": "已取得警專官方公開之114.01.13修正版完整6點、3頁，逐項核對本題；附件列印日115.05.05不是另一次修正或施行日。這是本站原件補核，非宣稱核對日修法；後續沿革未從現行公開法規頁核實，結論限於所列版本。",
+          "oldRule": "本站僅有修正摘要及歷史復審個案，未填入新版完整時限、核准層級及例外。",
+          "newRule": "依第3至5點補入立即受理、行動不便協助、首次5日內陳報、偵查隊3日內簽辦、主官或副主官核准、核准後2日內平臺移轉確認及後續補件2日內陳報；急迫案件先通報傳送。",
+          "sources": [
+            {
+              "title": "臺灣警察專科學校刑事警察科・單一窗口114.01.13修正版完整6點（115.05.05列印本）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiOVBCM01Tcno0ZE1RYnplQk5aZ3d0RU4vSmVVaDFJTUVtdXIvV1M4bmJ2cDI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbUJCQ05oYVJnYU1rVi9KZFR3VHVqSEwwbE5pWXRmTHBoTE1yQXpMdEl0eFFCL3pKQXhOV3hTU1NvL1liQ290U2xpcVRuaVpSNzhqVEg4bzNydmJON2o0ckpVbUZ0d09RZ2JTWGdDd1lVeTNLTWo1dTVnRHJNTjh3U292NEJDTGJqTHB3VlZ0MW0zcmpmQW5DVGR4bDFZPQ==&cg=968"
+            },
+            {
+              "title": "臺灣警察專科學校刑事警察科・最新法令附件清單",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "警政署114年1月大事記要：1月13日警署刑偵字第1140000581號函修正",
+              "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1342331854245597184&module=events&type=s"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "B的查證方法正確；本次已取得114版完整文件。第5點分為首次5日內陳報、偵查隊3日內簽辦、主官或副主官核准後2日內平臺移轉確認接收；已移轉後收到補件另為2日內陳報。",
+        "takeaway": "114版分段記：5日陳報、3日簽辦、主副官核准後2日移轉；補件另2日，急迫先通報。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "114版第5點已明定分段程序，不是用舊版24小時加24小時即可替代。",
+            "correction": "應分別記憶首次5日內陳報、偵查隊3日內簽辦、核准後2日內移轉確認及補件2日內陳報。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "先核對完整原件的原則正確。本次已從警專官方附件取得114.01.13完整6點；可填入第5點各階段時限及核准層級。",
+            "correction": "本次已核對114版：5日陳報、3日簽辦、主官或副主官核准、核准後2日平臺移轉；補件另2日陳報。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "網路文章可能引用不同年度、不同階段或省略急迫例外，不能單靠文章認定新版程序。",
+            "correction": "以可辨版本的官方完整文件核對；本次採警專公開之114版全文。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第3點第1款立即受理義務仍在，第5點移轉是受理完成後的管轄處理，兩者不衝突。",
+            "correction": "他轄仍立即受理；不得以有移轉制度為由拒絕或推諉。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "q39",
+        "amendment": {
+          "status": "none",
+          "law": "警察機關受理刑事案件報案單一窗口實施要點（114.01.13修正版）",
+          "date": "114.01.13（修正日；非附件列印日）",
+          "checkedAt": "2026-11-19",
+          "note": "已取得警專官方公開之114.01.13修正版完整6點、3頁，逐項核對本題；附件列印日115.05.05不是另一次修正或施行日。這是本站原件補核，非宣稱核對日修法；後續沿革未從現行公開法規頁核實，結論限於所列版本。",
+          "oldRule": "本站僅有修正摘要及歷史復審個案，未填入新版完整時限、核准層級及例外。",
+          "newRule": "依第3至5點補入立即受理、行動不便協助、首次5日內陳報、偵查隊3日內簽辦、主官或副主官核准、核准後2日內平臺移轉確認及後續補件2日內陳報；急迫案件先通報傳送。",
+          "sources": [
+            {
+              "title": "臺灣警察專科學校刑事警察科・單一窗口114.01.13修正版完整6點（115.05.05列印本）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiOVBCM01Tcno0ZE1RYnplQk5aZ3d0RU4vSmVVaDFJTUVtdXIvV1M4bmJ2cDI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbUJCQ05oYVJnYU1rVi9KZFR3VHVqSEwwbE5pWXRmTHBoTE1yQXpMdEl0eFFCL3pKQXhOV3hTU1NvL1liQ290U2xpcVRuaVpSNzhqVEg4bzNydmJON2o0ckpVbUZ0d09RZ2JTWGdDd1lVeTNLTWo1dTVnRHJNTjh3U292NEJDTGJqTHB3VlZ0MW0zcmpmQW5DVGR4bDFZPQ==&cg=968"
+            },
+            {
+              "title": "臺灣警察專科學校刑事警察科・最新法令附件清單",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "警政署114年1月大事記要：1月13日警署刑偵字第1140000581號函修正",
+              "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1342331854245597184&module=events&type=s"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "A為適當作法。114版第2點規定線上員警除緊急狀況即時反應處置外，應引導或協助聯絡最近報案窗口；第3點第2款另要求急迫救護、追捕、排危及證據保全立即處置。",
+        "takeaway": "線上緊急先處置；一般引導或協助聯絡最近報案窗口。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第2點直接規範線上執勤員警，緊急狀況應即時反應處置；一般情形應引導或協助聯絡至最近窗口，不能僵化要求先到所才處理急難。",
+            "correction": "本項正確；須依急迫與一般情況分流，不讓引導程序延誤救護或保全證據。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "是否在派出所值班不是免除協助的理由，第2點明定線上員警亦須反應處置或引導聯絡。",
+            "correction": "依第2點處理緊急狀況，或引導及協助聯絡最近報案窗口。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第3點第1款不分本轄他轄均受理，報案人不必先自行找出有管轄的分局。",
+            "correction": "引導最近窗口受理，由警察機關依法判斷及移轉管轄。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第3點第2款把救護傷患列為急迫狀況，不能只要求傷者自行去別所。",
+            "correction": "應立即救護及作必要處置，能力不足迅速通報共同協力。",
+            "trueStatement": false
+          }
+        ]
+      },
+      {
+        "targetId": "investigation114_01",
+        "amendment": {
+          "status": "none",
+          "law": "警察機關受理刑事案件報案單一窗口實施要點（114.01.13修正版）",
+          "date": "114.01.13（修正日；非附件列印日）",
+          "checkedAt": "2026-11-19",
+          "note": "已取得警專官方公開之114.01.13修正版完整6點、3頁，逐項核對本題；附件列印日115.05.05不是另一次修正或施行日。這是本站原件補核，非宣稱核對日修法；後續沿革未從現行公開法規頁核實，結論限於所列版本。",
+          "oldRule": "本站僅有修正摘要及歷史復審個案，未填入新版完整時限、核准層級及例外。",
+          "newRule": "依第3至5點補入立即受理、行動不便協助、首次5日內陳報、偵查隊3日內簽辦、主官或副主官核准、核准後2日內平臺移轉確認及後續補件2日內陳報；急迫案件先通報傳送。",
+          "sources": [
+            {
+              "title": "臺灣警察專科學校刑事警察科・單一窗口114.01.13修正版完整6點（115.05.05列印本）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiOVBCM01Tcno0ZE1RYnplQk5aZ3d0RU4vSmVVaDFJTUVtdXIvV1M4bmJ2cDI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbUJCQ05oYVJnYU1rVi9KZFR3VHVqSEwwbE5pWXRmTHBoTE1yQXpMdEl0eFFCL3pKQXhOV3hTU1NvL1liQ290U2xpcVRuaVpSNzhqVEg4bzNydmJON2o0ckpVbUZ0d09RZ2JTWGdDd1lVeTNLTWo1dTVnRHJNTjh3U292NEJDTGJqTHB3VlZ0MW0zcmpmQW5DVGR4bDFZPQ==&cg=968"
+            },
+            {
+              "title": "臺灣警察專科學校刑事警察科・最新法令附件清單",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "警政署114年1月大事記要：1月13日警署刑偵字第1140000581號函修正",
+              "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1342331854245597184&module=events&type=s"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案D不變；依114版第3點第1、3款及第5點：首次受理後陳報為5日內，已移轉案件後續資料及物證則為接收後2日內陳報，兩個階段不能混用。",
+        "takeaway": "首次陳報5日；已移轉後補件2日；偵查隊3日簽辦與核准後2日移轉是另外階段。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第3點第1款明定不分本轄或他轄均立即受理，不得拒絕或推諉；A與要點正面相反。",
+            "correction": "應立即受理、記錄或製作筆錄，依案件狀況派員或通報現場處理。",
+            "trueStatement": false
+          },
+          {
+            "index": 1,
+            "explanation": "第3點第3款規定因身體或健康因素難以行動、以通訊要求到府製作文書時，應衡酌警力及個案派員處理或協請親友代報；B的一律禁止代報錯誤。",
+            "correction": "符合第3點第3款情形時，可依個案協請親友代為報案，不是一概排除。",
+            "trueStatement": false
+          },
+          {
+            "index": 2,
+            "explanation": "第5點第2項第1款規定首次受理後認定他轄，受理人員應於5日內陳報分局；C誤把移轉後補件的2日套到首次陳報。",
+            "correction": "首次筆錄、卷證及受理紀錄影本應於5日內陳報；急迫或特定案類先行通報及傳送。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第5點第3項明定已移轉他轄後，接收後續資料及物證的人員應於2日內陳報分局，再由分局儘速函送並副知報案人；D正確。",
+            "correction": "本項正確；證物不宜寄送時另應協調管轄分局，不能逕自拒收或自行寄送。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "investigation115_01",
+        "amendment": {
+          "status": "none",
+          "law": "警察機關受理刑事案件報案單一窗口實施要點（114.01.13修正版）",
+          "date": "114.01.13（修正日；非附件列印日）",
+          "checkedAt": "2026-11-19",
+          "note": "已取得警專官方公開之114.01.13修正版完整6點、3頁，逐項核對本題；附件列印日115.05.05不是另一次修正或施行日。這是本站原件補核，非宣稱核對日修法；後續沿革未從現行公開法規頁核實，結論限於所列版本。",
+          "oldRule": "本站僅有修正摘要及歷史復審個案，未填入新版完整時限、核准層級及例外。",
+          "newRule": "依第3至5點補入立即受理、行動不便協助、首次5日內陳報、偵查隊3日內簽辦、主官或副主官核准、核准後2日內平臺移轉確認及後續補件2日內陳報；急迫案件先通報傳送。",
+          "sources": [
+            {
+              "title": "臺灣警察專科學校刑事警察科・單一窗口114.01.13修正版完整6點（115.05.05列印本）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiOVBCM01Tcno0ZE1RYnplQk5aZ3d0RU4vSmVVaDFJTUVtdXIvV1M4bmJ2cDI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbUJCQ05oYVJnYU1rVi9KZFR3VHVqSEwwbE5pWXRmTHBoTE1yQXpMdEl0eFFCL3pKQXhOV3hTU1NvL1liQ290U2xpcVRuaVpSNzhqVEg4bzNydmJON2o0ckpVbUZ0d09RZ2JTWGdDd1lVeTNLTWo1dTVnRHJNTjh3U292NEJDTGJqTHB3VlZ0MW0zcmpmQW5DVGR4bDFZPQ==&cg=968"
+            },
+            {
+              "title": "臺灣警察專科學校刑事警察科・最新法令附件清單",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "警政署114年1月大事記要：1月13日警署刑偵字第1140000581號函修正",
+              "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1342331854245597184&module=events&type=s"
+            }
+          ]
+        },
+        "verified": true,
+        "currentAnswer": "原官方答案C不變；114版第3點第3款明定應衡酌警力及個案事實派員處理，或協請親友代為報案，並非一律須儘速指派專人到府。A、B、D各對應第3點第1、2、5款。",
+        "takeaway": "行動不便到府：衡酌警力與個案，派員或協請親友代報；不是必派，也不是禁止到府。",
+        "optionOverrides": [
+          {
+            "index": 0,
+            "explanation": "第3點第1款逐一涵蓋當事人或非當事人、本轄或他轄，均應立即受理，詢明身分案情並詳實記錄或製作筆錄；A正確。",
+            "correction": "應依該款立即受理、記錄，並按案件狀況派員或通報線上警網到場處理。",
+            "trueStatement": true
+          },
+          {
+            "index": 1,
+            "explanation": "第3點第2款列即時追捕、救護、排危及證據保全等急迫情況；能力不足須迅速通報相關單位協力，與B相符。",
+            "correction": "本項正確；人力、物力受限時應通報協力，不能逕以資源不足結案。",
+            "trueStatement": true
+          },
+          {
+            "index": 2,
+            "explanation": "第3點第3款要求衡酌警力及個案事實，在派員到府或協請親友代報等方式中妥適處理，C把條件判斷寫成一律派專人到府，故錯誤。",
+            "correction": "應衡酌警力及個案事實派員或協請親友代報；不能反向理解為一律不得到府。",
+            "trueStatement": false
+          },
+          {
+            "index": 3,
+            "explanation": "第3點第5款後段直接規定重大或特殊刑案依刑案逐級報告紀律規定辦理；本題只判斷此引用義務，沒有宣稱任何具體報告期限。",
+            "correction": "本項正確；具體層級與期限另依逐級報告規定核對，不從本款自行推算。",
+            "trueStatement": true
+          }
+        ]
+      },
+      {
+        "targetId": "report",
+        "amendment": {
+          "status": "none",
+          "law": "警察機關受理刑事案件報案單一窗口實施要點（114.01.13修正版）",
+          "date": "114.01.13（修正日；非附件列印日）",
+          "checkedAt": "2026-11-19",
+          "note": "已取得警專官方公開之114.01.13修正版完整6點、3頁，逐項核對本題；附件列印日115.05.05不是另一次修正或施行日。這是本站原件補核，非宣稱核對日修法；後續沿革未從現行公開法規頁核實，結論限於所列版本。",
+          "oldRule": "本站僅有修正摘要及歷史復審個案，未填入新版完整時限、核准層級及例外。",
+          "newRule": "依第3至5點補入立即受理、行動不便協助、首次5日內陳報、偵查隊3日內簽辦、主官或副主官核准、核准後2日內平臺移轉確認及後續補件2日內陳報；急迫案件先通報傳送。",
+          "sources": [
+            {
+              "title": "臺灣警察專科學校刑事警察科・單一窗口114.01.13修正版完整6點（115.05.05列印本）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiOVBCM01Tcno0ZE1RYnplQk5aZ3d0RU4vSmVVaDFJTUVtdXIvV1M4bmJ2cDI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbUJCQ05oYVJnYU1rVi9KZFR3VHVqSEwwbE5pWXRmTHBoTE1yQXpMdEl0eFFCL3pKQXhOV3hTU1NvL1liQ290U2xpcVRuaVpSNzhqVEg4bzNydmJON2o0ckpVbUZ0d09RZ2JTWGdDd1lVeTNLTWo1dTVnRHJNTjh3U292NEJDTGJqTHB3VlZ0MW0zcmpmQW5DVGR4bDFZPQ==&cg=968"
+            },
+            {
+              "title": "臺灣警察專科學校刑事警察科・最新法令附件清單",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "警政署114年1月大事記要：1月13日警署刑偵字第1140000581號函修正",
+              "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1342331854245597184&module=events&type=s"
+            }
+          ]
+        },
+        "lawContent": {
+          "original": "民眾刑事報案不分當事人與否、本轄或他轄均應立即受理；急迫追捕、救護、排危及保全證據先行處置，能力不足迅速通報協力。\n線上執勤遇報案，除緊急狀況即時反應處置外，應引導或協助聯絡最近窗口。因身體或健康因素難行動者通訊要求到府，應衡酌警力及個案派員，或協請親友代報。\n認定他轄後：受理人員5日內陳報分局；偵查隊收案人員3日內簽辦，由分局主官或副主官核准；核准後2日內在平臺移轉並確認接收，始完成移轉。急迫或特定案類另須先通報及傳送資料。\n移轉後再收到資料及物證：接收人員2日內陳報，由分局儘速函送並副知報案人；證物不宜寄送時協調管轄分局。",
+          "originalLabel": "重點整理・114.01.13修正版（非逐字全文）",
+          "core": "受理、急迫處置、管轄判斷及移轉分段辦理；5日、3日與兩種2日不可混用。",
+          "points": [
+            "第2、3點：110及各級警察機關為報案窗口；線上員警遇急迫狀況立即反應，其他情形引導或協助聯絡最近窗口。",
+            "第3點第3款：限因身體或健康因素難以行動、通訊要求到府製作文書的情形，應衡酌警力及個案派員或協請親友代報。",
+            "第4點：親自或電話報案依e化平臺規定開具受（處）理案件證明單；110報案另依勤務指揮中心作業通報。網路或電信案件應詢明上網或接獲通訊的時間地點及帳戶、錢包、網站等線索。",
+            "第5點第1項：跨轄或牽連數罪，本轄與他轄互有牽連者負偵處責任，不得只因另有他轄事由移轉；詐欺、家暴及跟騷有特別規定者分別適用。",
+            "第5點第2項第1、2款：一般受理人員5日內陳報；急迫或指定案類立即通報、先傳送管轄分局作必要處置，掃描前蓋與正本相符章並記錄接收及聯繫情形。",
+            "第5點第2項第3款：偵查隊收案後3日內簽辦，由分局主官或副主官核准他轄後函轉並副知報案人；核准後2日內在平臺移轉並確認接收。",
+            "第5點第2項第4款：案件機敏、報案人請求或得迅速偵破等因素可自行偵辦、不移轉；偵查隊收案人員3日內敘明理由函知管轄機關。",
+            "第5點第3、4項：已移轉後收到資料或物證，2日內陳報分局；接收單位依平臺規定完成指派接收，爭議報共同上級指定，不可拒收或逕轉第三機關。",
+            "第6點：虛應受理、規避管轄或重大不當移轉應查明究責；未按規定受理、通報、函轉或遲誤者依規定議處。"
+          ],
+          "traps": [
+            "首次陳報是5日，不是移轉後補件的2日；偵查隊3日簽辦與核准後2日移轉也不是同一起算點。",
+            "一般5日陳報不代表急迫案件可等5日；急迫或指定案類須先通報、傳送並作必要處置。",
+            "分局主官或副主官核准後，還須平臺移轉及確認接收，不能只發函就認為全部程序結束。",
+            "管轄爭議交共同上級指定；不能要求民眾自行重報、拒收或自行轉給第三分局。",
+            "警專附件為114.01.13修正版、115.05.05列印本；公開法規站本次回無此資料，未以附件推定其後絕無修正。",
+            "保訓會引述111年舊流程及舊版24小時加24小時，均不能代替本卡114版分段日數。"
+          ],
+          "memory": "先受理、急迫先辦；5日陳報、3日簽辦，主副官准後2日移轉確認；補件另2日。",
+          "scenario": "案發地及證物發現地均非本轄，仍先受理及保全；再審查有無其他本轄管轄連結或特別規定。確為他轄才依第5點分段移轉，不能只憑兩地不同便拒收。",
+          "version": "114.01.13修正版完整6點已核（警專115.05.05列印本）",
+          "verified": true,
+          "verificationNote": "已讀取警專官方PDF完整3頁並以警政署大事記要交叉核對114.01.13修正函號；確認該版全文與各階段，未把列印日當施行日。公開法規頁回無此法規資料，後續沿革仍須依正式發布續查。",
+          "sources": [
+            {
+              "title": "臺灣警察專科學校刑事警察科・單一窗口114.01.13修正版完整6點（115.05.05列印本）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiOVBCM01Tcno0ZE1RYnplQk5aZ3d0RU4vSmVVaDFJTUVtdXIvV1M4bmJ2cDI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbUJCQ05oYVJnYU1rVi9KZFR3VHVqSEwwbE5pWXRmTHBoTE1yQXpMdEl0eFFCL3pKQXhOV3hTU1NvL1liQ290U2xpcVRuaVpSNzhqVEg4bzNydmJON2o0ckpVbUZ0d09RZ2JTWGdDd1lVeTNLTWo1dTVnRHJNTjh3U292NEJDTGJqTHB3VlZ0MW0zcmpmQW5DVGR4bDFZPQ==&cg=968"
+            },
+            {
+              "title": "臺灣警察專科學校刑事警察科・最新法令附件清單",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "警政署114年1月大事記要：1月13日警署刑偵字第1140000581號函修正",
+              "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1342331854245597184&module=events&type=s"
+            }
+          ]
+        }
+      },
+      {
+        "targetId": "s04",
+        "amendment": {
+          "status": "none",
+          "law": "警察機關受理刑事案件報案單一窗口實施要點（114.01.13修正版）",
+          "date": "114.01.13（修正日；非附件列印日）",
+          "checkedAt": "2026-11-19",
+          "note": "已取得警專官方公開之114.01.13修正版完整6點、3頁，逐項核對本題；附件列印日115.05.05不是另一次修正或施行日。這是本站原件補核，非宣稱核對日修法；後續沿革未從現行公開法規頁核實，結論限於所列版本。 本站申論擬答不是考選部官方答案或評分細目，原題與配分保留。",
+          "oldRule": "本站僅有修正摘要及歷史復審個案，未填入新版完整時限、核准層級及例外。",
+          "newRule": "依第3至5點補入立即受理、行動不便協助、首次5日內陳報、偵查隊3日內簽辦、主官或副主官核准、核准後2日內平臺移轉確認及後續補件2日內陳報；急迫案件先通報傳送。",
+          "sources": [
+            {
+              "title": "臺灣警察專科學校刑事警察科・單一窗口114.01.13修正版完整6點（115.05.05列印本）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiOVBCM01Tcno0ZE1RYnplQk5aZ3d0RU4vSmVVaDFJTUVtdXIvV1M4bmJ2cDI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbUJCQ05oYVJnYU1rVi9KZFR3VHVqSEwwbE5pWXRmTHBoTE1yQXpMdEl0eFFCL3pKQXhOV3hTU1NvL1liQ290U2xpcVRuaVpSNzhqVEg4bzNydmJON2o0ckpVbUZ0d09RZ2JTWGdDd1lVeTNLTWo1dTVnRHJNTjh3U292NEJDTGJqTHB3VlZ0MW0zcmpmQW5DVGR4bDFZPQ==&cg=968"
+            },
+            {
+              "title": "臺灣警察專科學校刑事警察科・最新法令附件清單",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "警政署114年1月大事記要：1月13日警署刑偵字第1140000581號函修正",
+              "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1342331854245597184&module=events&type=s"
+            }
+          ]
+        },
+        "verified": true,
+        "model": {
+          "intro": "單一窗口旨在讓刑事報案先獲受理與必要處置，再由警察機關自行釐清偵處責任及移轉，避免管轄爭議使人民反覆報案。以下依題示15分與10分架構作答。",
+          "basis": "依114.01.13修正之警察機關受理刑事案件報案單一窗口實施要點第2至6點。已取得警專官方公開完整6點、3頁；本擬答限於該版，不以核對日或附件列印日推定另一次修法。",
+          "analysis": "一、受理原則（15分）\n（一）依第2、3點，不分當事人與否、本轄他轄，均立即受理，不得拒絕推諉；詳詢身分案情，記錄或製作筆錄，依案況派員或通報。線上遇急迫情況先反應處置，其他情形引導或協助聯絡最近窗口。\n（二）即時追捕、救護、排危或保全證據等急迫狀況立即處置；能力不足迅速通報勤務中心、管轄分局（局）或相關單位協力。\n（三）因身體或健康因素難以行動、通訊要求到府者，衡酌警力及個案派員或協請親友代報，不是一律派員或一律拒絕。依規定登錄上傳，特殊案類及重大刑案另依規定通報。\n（四）依第4點確認犯罪時地、被害人住戶籍、嫌疑人、追查線索與有無先前報案。親自或電話受理依e化平臺規定開具證明單；110另依勤務中心程序通報。\n二、案發地及證物發現地均非本轄（10分）\n（一）仍先受理及必要處置；兩地在他轄不代表全無本轄責任，須依適用管轄及特別案類規定審查。跨轄或牽連案件本轄負偵處責任時，不能只因另有他轄事由移轉。\n（二）完成受理後認為他轄，一般受理人員5日內陳報分局；急迫或特定案類立即通報並先傳送管轄分局為必要處置，記錄聯繫與接收情形。\n（三）偵查隊收案後3日內簽辦，分局主官或副主官核准後函轉並副知報案人；核准後2日內在平臺移轉且確認接收，始完成移轉。案件機敏、報案人請求或可迅速偵破而自行偵辦者，依第5點例外敘明理由函知。\n（四）已移轉後再收到相關資料及物證，2日內陳報分局，由分局儘速函送並副知報案人；不宜寄送的證物協調處理。爭議報共同上級指定，不拒收或逕轉第三機關。\n※上述為本站練習擬答，非官方評分標準；日數依各階段起算，不合併成概括等待期。",
+          "conclusion": "應先履行受理與急迫處置義務，再依法辨明管轄、核准並確認接收；完整留存通報、卷證及移轉紀錄，避免以他轄之名延誤偵查。"
+        }
+      },
+      {
+        "targetId": "duty110_s02",
+        "amendment": {
+          "status": "review",
+          "law": "警察機關受理刑事案件報案單一窗口實施要點（114.01.13修正版）",
+          "date": "114.01.13（修正日；非附件列印日）",
+          "checkedAt": "2026-11-19",
+          "note": "已補114.01.13修正版完整原則，並保留110年原題與5＋20分配分；110年當時全文及各項沿革尚未完整核對，不能以新版補充冒稱當年標準答案。本稿為本站擬答，非官方評分細目。",
+          "oldRule": "本站僅有修正摘要及歷史復審個案，未填入新版完整時限、核准層級及例外。",
+          "newRule": "依第3至5點補入立即受理、行動不便協助、首次5日內陳報、偵查隊3日內簽辦、主官或副主官核准、核准後2日內平臺移轉確認及後續補件2日內陳報；急迫案件先通報傳送。",
+          "sources": [
+            {
+              "title": "臺灣警察專科學校刑事警察科・單一窗口114.01.13修正版完整6點（115.05.05列印本）",
+              "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiOVBCM01Tcno0ZE1RYnplQk5aZ3d0RU4vSmVVaDFJTUVtdXIvV1M4bmJ2cDI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbUJCQ05oYVJnYU1rVi9KZFR3VHVqSEwwbE5pWXRmTHBoTE1yQXpMdEl0eFFCL3pKQXhOV3hTU1NvL1liQ290U2xpcVRuaVpSNzhqVEg4bzNydmJON2o0ckpVbUZ0d09RZ2JTWGdDd1lVeTNLTWo1dTVnRHJNTjh3U292NEJDTGJqTHB3VlZ0MW0zcmpmQW5DVGR4bDFZPQ==&cg=968"
+            },
+            {
+              "title": "臺灣警察專科學校刑事警察科・最新法令附件清單",
+              "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+            },
+            {
+              "title": "警政署114年1月大事記要：1月13日警署刑偵字第1140000581號函修正",
+              "url": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1342331854245597184&module=events&type=s"
+            }
+          ]
+        },
+        "verified": false,
+        "model": {
+          "intro": "單一窗口的共同核心是讓民眾一次報案即獲受理與必要處置，再由警察機關協調偵處責任。本題為110年原卷，下列分開說明共同原則與114年修正版補充。",
+          "basis": "警察機關受理刑事案件報案單一窗口實施要點。已取得114.01.13修正完整6點，但110年考試當時全文及沿革尚未逐項核完，保留待核；不得把114年時限寫成110年官方答案。",
+          "analysis": "一、依據與意義（5分）\n以單一窗口要點規範刑事報案的受理、必要處置、管轄移轉及追蹤，落實不因本轄他轄推諉，減少人民反覆報案。\n二、實施原則（20分；以共同核心及已核114版補充）\n（一）不分報案人是否為案件當事人、本轄或他轄，均立即受理、詢明案情、詳實記錄或製作筆錄；依案況派員或通報警網。\n（二）追捕逃犯、救護、排除急難及保全證據等急迫狀況立即處理，能力不足迅速通報相關單位共同協力。\n（三）114版第2點明定線上執勤員警遇緊急狀況即時反應，其他情形引導或協助聯絡最近窗口。\n（四）114版第3點第3款：身體或健康因素致行動困難者，通訊請求到府製作文書，應衡酌警力及個案派員，或協請親友代報。\n（五）受理登錄上傳、開具證明、特殊案類與重大刑案通報，依第3、4點及各相關規定辦理；管轄由警察機關自行釐清，不要求民眾重報。\n（六）114版第5點移轉補充：受理人員5日內陳報、偵查隊3日內簽辦、分局主官或副主官核准後2日內平臺移轉確認；已移轉後補件另2日內陳報，急迫案件先通報處理。\n※以上114版具體日數屬後續版本補充；110年各款原文仍待核，不宣稱為當年官方擬答。",
+          "conclusion": "受理義務與管轄程序須分開，先受理、妥處急難並完整留痕。複習歷屆申論時另辨明當年版本與現行補充，避免把後來修正直接回填原卷。"
+        }
+      }
+    ],
+    "createdAt": 1795053506277
   }
 ]

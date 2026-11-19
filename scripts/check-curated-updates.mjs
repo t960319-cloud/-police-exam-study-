@@ -75,7 +75,7 @@ const breathNotice=result.questions.find(q=>q.id==='duty114_06');assert(breathNo
 const oldBlood=result.questions.find(q=>q.id==='scene110-17');assert(oldBlood);assert.equal(oldBlood.answer,1);assert.equal(oldBlood.verified,false);assert(oldBlood.currentAnswer.includes('本人同意'));
 console.log('Consent, refusal notification, phased enactment and original blood-question answers passed.');
 // Historical exam answers do not establish the missing national rules' current full text.
-for(const [id,key] of [['investigation114_01',3],['investigation115_02',3]]){const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.answer,key);assert.equal(q.verified,false);assert.equal(q.amendment.status,'review');assert.notEqual(q.analysisMode,'answer-key');assert(q.currentAnswer.includes('官方'));assert(q.options.every(o=>o.explanation.length>12&&o.correction.length>12));}
+for(const [id,key] of [['investigation115_02',3]]){const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.answer,key);assert.equal(q.verified,false);assert.equal(q.amendment.status,'review');assert.notEqual(q.analysisMode,'answer-key');assert(q.currentAnswer.includes('官方'));assert(q.options.every(o=>o.explanation.length>12&&o.correction.length>12));}
 console.log('Investigation option explanations retain official keys and unresolved national-rule status.');
 // Specific statutes must preserve original keys and distinguish court-approved GPS investigations from short-term notices.
 for(const [id,answer] of [['investigation115_05',3],['investigation114_25',3],['investigation115_14',3],['investigation115_24',3]]){
@@ -249,9 +249,10 @@ assert(result.questions.find(q=>q.id==='law115-outer-21').currentAnswer.includes
 console.log('Procedure and constitutional explanations preserve exam keys and unresolved statutory scope.');
 
 // Historical administrative cases support learning without silently certifying later rules.
-const historicalReport=result.laws.find(x=>x.id==='report');assert.equal(historicalReport?.verified,false);assert(historicalReport.original.includes('111年'));assert(historicalReport.original.includes('不是114年修正版全文'));assert(historicalReport.sources.some(s=>s.url.includes('IN_ID=179121')));
+const historicalReportEvent=events.find(e=>e.eventId==='legal-review-20261117-report-cases');
+assert(historicalReportEvent?.patches.find(p=>p.targetId==='report')?.lawContent.original.includes('不是114年修正版全文'));
 const lateReport=result.questions.find(x=>x.id==='duty112_14');assert.equal(lateReport?.verified,false);assert.equal(lateReport.answer,2);assert(lateReport.currentAnswer.includes('48小時'));assert(lateReport.currentAnswer.includes('72小時'));assert(lateReport.amendment.note.includes('不能逕認目前仍為72小時'));
-const assistance=result.questions.find(x=>x.id==='investigation115_01');assert.equal(assistance?.verified,false);assert.equal(assistance.answer,2);assert(assistance.options.every(o=>o.explanation.trim()&&o.correction.trim()));assert(assistance.options[2].correction.includes('一律不得到府'));
+const assistance=result.questions.find(x=>x.id==='investigation115_01');assert.equal(assistance?.verified,true);assert.equal(assistance.answer,2);assert(assistance.options.every(o=>o.explanation.trim()&&o.correction.trim()));assert(assistance.options[2].correction.includes('一律不得到府'));
 const reportingEssay=result.essays.find(x=>x.id==='s10');assert.equal(reportingEssay?.verified,false);assert(reportingEssay.model.analysis.includes('撤銷原懲處'));assert(reportingEssay.model.analysis.includes('不能代替逐級報告'));
 console.log('Historical reporting cases remain distinct from current rules and original keys.');
 
@@ -319,3 +320,23 @@ assert(officerRanks?.verified);assert(officerRanks.model.analysis.includes('警�
 const visitEssay=result.essays.find(e=>e.id==='scene111-e1');
 assert(visitEssay?.verified);assert(visitEssay.model.analysis.includes('3日前書面通知'));assert(visitEssay.model.analysis.includes('同意並引導'));assert(visitEssay.model.analysis.includes('個資法'));
 console.log('Court-based stop review, habeas safeguards, police ranks and neighborhood visits passed.');
+
+// The full 114 revision replaces the missing-text placeholder without certifying older essays.
+const fullReporting=result.laws.find(l=>l.id==='report');assert(fullReporting?.verified);
+assert(fullReporting.version.includes('114.01.13'));assert(fullReporting.version.includes('115.05.05列印本'));
+assert(fullReporting.points.some(p=>p.includes('5日內陳報')&&p.includes('急迫')));
+assert(fullReporting.points.some(p=>p.includes('3日內簽辦')&&p.includes('主官或副主官')&&p.includes('核准後2日內')));
+assert(fullReporting.points.some(p=>p.includes('補件')||p.includes('已移轉後收到')));
+assert(fullReporting.traps.some(p=>p.includes('不同起算點')||p.includes('不是同一起算點')));
+assert(fullReporting.sources.some(s=>new URL(s.url).hostname==='crime.tpa.edu.tw'));
+assert(!fullReporting.original.includes('本卡未取得'));
+const firstTransfer=result.questions.find(q=>q.id==='investigation114_01');assert(firstTransfer?.verified);assert.equal(firstTransfer.answer,3);
+assert(firstTransfer.options[2].explanation.includes('5日內'));assert(firstTransfer.options[3].explanation.includes('2日內'));
+assert(assistance.options[2].explanation.includes('衡酌警力及個案事實'));assert(assistance.options[2].explanation.includes('親友代報'));
+const fullReportingEssay=result.essays.find(e=>e.id==='s04');assert(fullReportingEssay?.verified);
+assert(fullReportingEssay.model.analysis.includes('主官或副主官'));assert(fullReportingEssay.model.analysis.includes('確認接收'));
+assert(fullReportingEssay.model.analysis.includes('非官方評分標準'));
+const historicalReportingEssay=result.essays.find(e=>e.id==='duty110_s02');assert.equal(historicalReportingEssay?.verified,false);
+assert(historicalReportingEssay.model.analysis.includes('110年各款原文仍待核'));
+assert(historicalReportingEssay.model.basis.includes('不得把114年時限寫成110年官方答案'));
+console.log('Full reporting text separates 5/3/2-day stages, conditional home assistance and historical essay limits.');
