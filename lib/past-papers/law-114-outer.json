@@ -499,26 +499,26 @@
       "options": [
         {
           "text": "屬行政處分關係",
-          "explanation": "公費教育關係以相關契約及公法義務判斷，不能僅歸類單方行政處分。",
-          "correction": "依契約條款及適用法確認。",
+          "explanation": "行政執行署105年函明確將警專與公費生間教育費追償視為行政契約關係；不能把整個公費培育、返還請求一概當成行政處分。",
+          "correction": "A不是本題公費契約的正確定性，但入學許可、退學等學籍措施可能另是行政處分，不一概否定。",
           "trueStatement": false
         },
         {
           "text": "屬行政契約關係",
-          "explanation": "公費生受教育及服務義務關係，官方原答採行政契約。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "105年函說明二直接以臺灣警察專科學校、公費生為例，確認其公費教育費追償依行政契約；司法周刊亦以行政契約說明公費違約責任。",
+          "correction": "B成立於本題公費關係；個別給付及服務義務仍依法律與實際合法契約，不憑稱公費生就加入未約定義務。",
           "trueStatement": true
         },
         {
           "text": "違約之公費生逾期未償還教育費用，學校得以催繳函為執行名義依行政執行法移送執行",
-          "explanation": "單純催繳函非當然足作行政契約之執行名義。",
-          "correction": "確認是否有行政執行名義或合意接受執行。",
+          "explanation": "函說明二認催繳函是催告債務履行的觀念通知，尚不得僅以它作執行名義逕移行政執行分署；行政執行法第11條不得被行政契約催告任意取代。",
+          "correction": "先依行政程序法第148條有效自願受執行約定，或行政訴訟法第8條取得給付判決，再循相應法院執行；法院依法囑託行政機關代執行是另一程序。",
           "trueStatement": false
         },
         {
           "text": "違約之公費生逾期未償還教育費用，學校得以契約為強制執行之執行名義，逕向行政法院聲請 執行",
-          "explanation": "不是所有行政契約都可直接強制執行；須依行政程序法第148條有自願接受執行等要件。",
-          "correction": "查核契約是否合法約定自願接受執行及法定程序。",
+          "explanation": "行政程序法第148條須約定自願接受執行，且須第2項規定之機關認可，契約才可據此作執行名義。本項未交代該要件，不能只憑任何契約直接執行。",
+          "correction": "補足有效自願受執行約定及認可；否則提給付訴訟取得判決。現行聲請地方行政法院，函中的舊地院行政訴訟庭名稱依當時制度解讀。",
           "trueStatement": false
         }
       ],
@@ -527,24 +527,43 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年外軌四等｜警察法規概要｜第7題",
       "paperYear": 114,
       "paperTrack": "外軌",
       "paperNumber": 7,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "實際公費契約文本及適用版本未取得，選項D應依具體契約審查。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "行政執行署105年12月22日行執綜字第10530010070號函（公費生契約執行）；行政程序法第148條；行政執行法第11條；行政訴訟法第3-1、8、305、306條；司法院司法周刊・警專生未經特考及格應賠公費屬違約金",
+        "checkedAt": "2026-11-20",
+        "note": "已讀105行政執行署函完整說明二、三與現行第148、305、306條；函內舊法院名稱和附帶引用的舊函不作2026全部現行用語，未冒稱已取得個別學生簽約正本。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "公費契約、催告通知及執行名義分開；自願受執行條款須法定認可，否則先取得給付判決。",
         "sources": [
           {
-            "title": "行政程序法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030055"
+            "title": "行政執行署105年12月22日行執綜字第10530010070號函（公費生契約執行）",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE307665&media=print&type=e"
+          },
+          {
+            "title": "行政程序法第148條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
+          },
+          {
+            "title": "行政執行法第11條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+          },
+          {
+            "title": "行政訴訟法第3-1、8、305、306條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030154"
+          },
+          {
+            "title": "司法院司法周刊・警專生未經特考及格應賠公費屬違約金",
+            "url": "https://www.judicial.gov.tw/tw/cp-1429-67723-94460-1.html"
           }
         ]
       },
-      "takeaway": "公費生受教育及服務義務關係，官方原答採行政契約。",
+      "takeaway": "公費契約、催告通知及執行名義分開；自願受執行條款須法定認可，否則先取得給付判決。",
       "sources": [
         {
           "title": "考選部114年一般警察四等警察法規概要原卷",
@@ -557,8 +576,29 @@
         {
           "title": "行政程序法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030055"
+        },
+        {
+          "title": "行政執行署105年12月22日行執綜字第10530010070號函（公費生契約執行）",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE307665&media=print&type=e"
+        },
+        {
+          "title": "行政程序法第148條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
+        },
+        {
+          "title": "行政執行法第11條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+        },
+        {
+          "title": "行政訴訟法第3-1、8、305、306條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030154"
+        },
+        {
+          "title": "司法院司法周刊・警專生未經特考及格應賠公費屬違約金",
+          "url": "https://www.judicial.gov.tw/tw/cp-1429-67723-94460-1.html"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B不變，限於公費培育、服務及違約賠償關係。一般學籍處分另論。契約請求不能僅用催繳函直接移送分署；已有合法自願受執行約定或取得給付判決者，依法循法院程序。"
     },
     {
       "id": "law114-outer-08",

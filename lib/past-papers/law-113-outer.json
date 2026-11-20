@@ -1775,26 +1775,26 @@
       "options": [
         {
           "text": "執行舉牌警告、制止或命令解散，原則上應由主管分局長到場為之",
-          "explanation": "警政署109年教材以分局長為主辦理警告、命令解散或制止。",
-          "correction": "題目跨轄時主管機關可能依第3條第2項為警察局；本教材不能替代最新完整規範。",
+          "explanation": "集遊法第3條以所在地警察分局為主管機關，跨分局另有警察局主管規則。臺北市公開SOP明列轄區分局長或指派專人辦理，不是單靠分局長職稱即可說全國每案都必本人到場。",
+          "correction": "原則上由有權主管指揮處理；是否須親自到場及特殊代理情形，仍核全國相關注意事項。",
           "trueStatement": true
         },
         {
           "text": "執行舉牌警告、制止或命令解散，如因情況特殊，仍必須由主管分局長到場為之",
-          "explanation": "109年教材明示特殊情況分局長無法到場，則由代理人為之。",
-          "correction": "不是特殊情況仍一律須本人在場；保留官方答案B，現行代理規定仍應核原件。",
+          "explanation": "臺北市群眾拒不解散SOP處理程序明列分局長或指派專人，並另有情況急迫必要措施但書，因此B任何特殊情況仍必本人到場的文字過度絕對。",
+          "correction": "保留B原題答案，不能把地方SOP可指派專人的例證擴成任何警員均可自行決定解散。",
           "trueStatement": false
         },
         {
           "text": "移送檢察官偵辦之移送書，其警告、制止或命令解散，應表明係集會遊行地分局長之決定",
-          "explanation": "移送書如涉及警告、制止、解散決定，應記錄決定機關及處置事實以利審查。",
-          "correction": "題述必須表明分局長決定的現行完整作業原件尚待核，且跨轄主管機關依第3條另判斷。",
+          "explanation": "解散處分是否出自有權主管、如何作成及傳達，均涉及後續刑事案件證明；但本輪未取得要求特定移送書欄位逐字表明分局長決定的全國原規範。",
+          "correction": "文書應如實記錄有權機關及實際決定、傳達情形；本項精確表件要求另待原件，不用原答案鍵視作已完整查明。",
           "trueStatement": true
         },
         {
           "text": "移送檢察官偵辦之轄內聚眾活動狀況表，其警告、制止或命令解散，應表明係集會遊行地分局 長之決定",
-          "explanation": "轄內聚眾活動狀況表可用以記錄指揮處置及蒐證經過。",
-          "correction": "題述固定必須記載分局長決定的現行完整原件尚待核，應依實際決定與代理情形正確記載。",
+          "explanation": "轄內聚眾活動狀況表是另一文書，須與現場蒐證、處分決定及移送資料相互一致；公開臺北SOP本輪未提供本項全國特定欄位要求的直接全文。",
+          "correction": "不得把填表等同已證明命令合法；原題所指表件的完整規範仍待核。",
           "trueStatement": true
         }
       ],
@@ -1810,22 +1810,23 @@
       "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
       "amendment": {
         "status": "review",
-        "law": "集會遊行法第3、25、26條；警政署109年教材",
-        "checkedAt": "2026-11-17",
-        "effectiveStatus": "unverified",
-        "note": "依所列官方法規及函釋補充已確認部分；題目省略條件、公告範圍或完整內規仍待核，保留官方原答案。",
+        "law": "集會遊行法第3、25、26條；臺北市警察局執行聚眾防處勤務群眾拒不解散處置SOP（地方規範）",
+        "checkedAt": "2026-11-20",
+        "note": "已核集遊法及臺北市2頁公開SOP，該地方例證不能替代全國注意事項與指定表件完整原文；四項範圍明示，保留整題待核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "決定機關、現場傳達者與事後文書記錄分開；地方SOP不冒作全國完整要點。",
         "sources": [
           {
-            "title": "集會遊行法第3、6、8、10、11、25及26條",
+            "title": "集會遊行法第3、25、26條",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
           },
           {
-            "title": "警政署109年教材：集遊警告及特殊情況代理",
-            "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOo6K2m5pS%2F572yMTA55bm05YWS5qyK5pWZ5p2QLeS4iueovy5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvMC8xNDQ1NC8xYzI1ZjJhYS1mYzIyLTRkODgtYjZmYi00ZDM3MmE0ZTU3M2EucGRm"
+            "title": "臺北市警察局執行聚眾防處勤務群眾拒不解散處置SOP（地方規範）",
+            "url": "https://www.laws.taipei.gov.tw/Law/SOPSearch/DownloadFile?sop_no=P10000035.pdf"
           }
         ]
       },
-      "takeaway": "教材屬109年歷史資料；現行具體主管權限與記載要求仍應查核。",
+      "takeaway": "決定機關、現場傳達者與事後文書記錄分開；地方SOP不冒作全國完整要點。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -1843,9 +1844,17 @@
         {
           "title": "警政署109年教材：集遊警告及特殊情況代理",
           "url": "https://ws.moi.gov.tw/Download.ashx?n=5YWn5pS%2F6YOo6K2m5pS%2F572yMTA55bm05YWS5qyK5pWZ5p2QLeS4iueovy5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvMC8xNDQ1NC8xYzI1ZjJhYS1mYzIyLTRkODgtYjZmYi00ZDM3MmE0ZTU3M2EucGRm"
+        },
+        {
+          "title": "集會遊行法第3、25、26條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080058"
+        },
+        {
+          "title": "臺北市警察局執行聚眾防處勤務群眾拒不解散處置SOP（地方規範）",
+          "url": "https://www.laws.taipei.gov.tw/Law/SOPSearch/DownloadFile?sop_no=P10000035.pdf"
         }
       ],
-      "currentAnswer": "保留官方答案B：警政署109年教材說明特殊情況下分局長不能到場可由代理人處理；C、D移送文件具體記載之現行完整內規尚待核。"
+      "currentAnswer": "保留原官方答案B。臺北市公開SOP有轄區分局長或指派專人處置的文字，足以反對任何情況均本人到場的概括；但全國規定及C、D特定表件記載要求的完整原件仍待核。"
     },
     {
       "id": "law113-outer-23",

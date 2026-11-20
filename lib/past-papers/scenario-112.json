@@ -167,26 +167,26 @@
       "options": [
         {
           "text": "攔停並告知事由，詢問姓名身分證號或令其出示身分證件",
-          "explanation": "有客觀具體事實符合警職法第6條時，得表明身分及告知事由後，依第7條採必要身分查證措施；不能只因看見警車走開就一律認定有犯罪嫌疑。",
-          "correction": "保留客觀合理懷疑及必要性前提，不以走避本身作唯一理由。",
+          "explanation": "第6條須合理懷疑犯罪／犯罪之虞或其他列舉具體事實，第7條才允許攔停、詢問及令出證件，第4條另要求表明身分與告知事由。僅看見警車而走快，不能脫離全部客觀情境認定合理懷疑。",
+          "correction": "應先說明具體合法攔查事由；不能教成只要走避就一定可查證。",
           "trueStatement": true
         },
         {
           "text": "乙詢問你︰「我只是尿急，為什麼攔我？」時，係表示異議，應就攔查原因說明，認為乙異議 有理由即停止盤查",
-          "explanation": "人民詢問攔查理由，應實質處理其異議；第29條要求有理由時立即停止或更正。",
-          "correction": "無須修正；無理由而經請求，應製作異議紀錄交付。",
+          "explanation": "第29條允許當場陳述理由表示異議；認有理由應立即停止或更正，無理由得繼續，經請求應製作紀錄交付。乙的尿急說明須納入重新評估。",
+          "correction": "有理由即停止或更正；不能因異議就處罰，也不能一提出異議就無條件放棄合法措施。",
           "trueStatement": true
         },
         {
           "text": "乙抗拒攔查並轉身欲離去致你無法查證身分，你可以依法使用強制力上銬管束，帶回勤務處所 查證",
-          "explanation": "第7條帶往查證須現場詢問、令出示證明等顯然無法查證；抗拒不會自動創設帶回與上銬權限。「上銬管束」另須獨立法源與比例審查。",
-          "correction": "先確認帶往查證要件，再就抗拒及風險採最小必要強制力，勿混用第19條管束。",
+          "explanation": "第7條帶往以詢問、出示證明顯然無法查證為前提，帶往非遇抗拒不得用強制力，從攔停起不逾3小時且須報勤指及通知親友或律師。第19、20條管束及警銬另有各自要件，不能一有抗拒就自動全數適用。",
+          "correction": "分別檢驗查證、帶往、必要強制、管束、警銬；不得為逼問身分而援引管束。",
           "trueStatement": false
         },
         {
           "text": "你可以攜帶拋射式電擊槍、防割手套、戰術臂盾等裝備以維執勤安全",
-          "explanation": "依法配備適當防護與應勤器械可維護安全，但攜帶不等於得任意使用；使用仍受要件及比例原則限制。",
-          "correction": "無須修正；器械種類及攜行規定另核當日有效版本。",
+          "explanation": "依法攜行防護裝備與在個案對人使用是不同層次；現行警械條例要求依法使用且不得逾必要程度。僅有本題裝備清單，尚不足證明各裝備的現行分類及攜行核准程序均已核。",
+          "correction": "可用適法裝備維安，但使用仍須個別法源與比例；D整份攜行規範本輪未齊，整題不升已核。",
           "trueStatement": true
         }
       ],
@@ -202,10 +202,32 @@
       "answerStatus": "官方原卷及當年度答案已核；官方目錄未列本科更正",
       "amendment": {
         "status": "review",
-        "note": "本題A不能脫離警職法第6條客觀事實閱讀；D所列裝備的現行分類、攜行程序另核最新版。 原卷及當年度官方答案已核；現行完整作業規定仍須以最新原件確認。",
-        "sources": []
+        "law": "警察職權行使法現行全文；警械使用條例現行全文・第10條之2至第10條之3；考選部・112年四等警察情境實務概要原卷；考選部・112年本科標準答案（目錄未另列更正）",
+        "checkedAt": "2026-11-20",
+        "note": "已核警職法第4、6、7、19、20、29條全文，明確區分身分查證、帶往查證、管束與警銬；但A的走避是否具體足以合理懷疑及D攜行完整現行規範尚未齊備。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "帶往查證最長3小時與管束最長24小時不同；抗拒查證不當然就是管束與上銬原因。",
+        "sources": [
+          {
+            "title": "警察職權行使法現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          },
+          {
+            "title": "警械使用條例現行全文・第10條之2至第10條之3",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+          },
+          {
+            "title": "考選部・112年四等警察情境實務概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112070&c=601&s=1205&q=1"
+          },
+          {
+            "title": "考選部・112年本科標準答案（目錄未另列更正）",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112070&c=601&s=1205&q=1"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "第7條帶往查證須現場詢問、令出示證明等顯然無法查證；抗拒不會自動創設帶回與上銬權限。「上銬管束」另須獨立法源與比例審查。",
+      "takeaway": "帶往查證最長3小時與管束最長24小時不同；抗拒查證不當然就是管束與上銬原因。",
       "sources": [
         {
           "title": "考選部・112年四等警察情境實務概要原卷",
@@ -218,8 +240,17 @@
         {
           "title": "警察職權行使法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        },
+        {
+          "title": "警察職權行使法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "警械使用條例現行全文・第10條之2至第10條之3",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C；走避不等於當然可以上銬管束。先有合法查證基礎，再分別審查帶往、強制力、管束與警銬要件，不能把不同法源串成自動流程。"
     },
     {
       "id": "scene112-04",
@@ -291,26 +322,26 @@
       "options": [
         {
           "text": "記事二人口",
-          "explanation": "原題將「記事二人口」列入依法定期訪查，為官方選出的錯項；不能把昔日記事人口分類直接當成現行法定定期對象。",
-          "correction": "依現行治安顧慮人口及法定記事人口的個別法源、頻率辦理，不逕背「記事二」。",
+          "explanation": "112年第2點區分治安顧慮人口、記事人口、一般人口及諮詢對象；《警光》777期頁69—70更直接說明取消原無法源依據之記事二人口查訪，改依性侵害法及家暴法列管記事人口。",
+          "correction": "本題按官方選A；個別人是否仍屬依法得查訪者，須核其現行法令資格，不能因舊分類就全免或全查。",
           "trueStatement": false
         },
         {
           "text": "應登記報到之性侵害犯罪加害人",
-          "explanation": "性侵害犯罪加害人依其登記、報到及查訪的專法規定辦理，不是任意自創對象。",
-          "correction": "無須修正；查訪年限、頻率依適用版本及個案。",
+          "explanation": "性侵害犯罪防治法第41、42條對法定登記報到人員明定登記報到期間應定期或不定期接受警察查訪；112年第2點亦配合加入第7、41、42條。",
+          "correction": "有法源但仍應核法定資格、期間與各別頻率，不把所有性侵案件人員都無期限列管。",
           "trueStatement": true
         },
         {
           "text": "有長期連續實施家庭暴力或有違反保護令行為，或有酗酒、施用毒品或濫用藥物習慣之家庭暴 力相對人",
-          "explanation": "家暴法對特定高風險相對人設查訪機制，應結合家暴風險及法定要件辦理。",
-          "correction": "無須修正；不能將所有相對人一概無差別列管。",
+          "explanation": "家暴法第48條第1項第4款列必要時查訪並告誡相對人；112年第2點亦將依法應查訪相對人列為記事人口。但題示長期家暴、保護令、酗酒藥物等分級之完整現行定期查訪內規尚缺。",
+          "correction": "法定必要保護可以確立，具體分級、查訪頻率及停止條件仍須原件，不能只依答案A把本項全部細節判作已核。",
           "trueStatement": true
         },
         {
           "text": "治安顧慮人口",
-          "explanation": "治安顧慮人口須先符合法定對象與期間，再依警職法第15條及查訪辦法辦理。",
-          "correction": "無須修正。",
+          "explanation": "警職法第15條及查訪辦法第2、4條明定法定治安顧慮人口於刑執行完畢或假釋出獄後3年內，戶籍地每月查訪1次，必要時得增加。",
+          "correction": "本項有直接法源；仍須是法律列舉罪名與法定期間，不得只因有前科就任意列管。",
           "trueStatement": true
         }
       ],
@@ -326,10 +357,48 @@
       "answerStatus": "官方原卷及當年度答案已核；官方目錄未列本科更正",
       "amendment": {
         "status": "review",
-        "note": "記事人口的分類、最新訪查頻率與內部表單須核現行作業規定；不用舊「記事一／二」名稱代替個別法源。 原卷及當年度官方答案已核；現行完整作業規定仍須以最新原件確認。",
-        "sources": []
+        "law": "警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）；警政署《警光》777期2021年4月・頁68—70勤查系統修正重點；警察職權行使法現行全文；治安顧慮人口查訪辦法現行全文；性侵害犯罪防治法現行全文・第7、41、42條；家庭暴力防治法現行全文・第48條；考選部・112年四等警察情境實務概要原卷；考選部・112年本科標準答案（目錄未另列更正）",
+        "checkedAt": "2026-11-20",
+        "note": "已核112.4.24官方第2點人口定義及現行警職法第15條、性侵害犯罪防治法第7、41、42條與家暴法第48條；A的舊記事二分類不是現行統一查訪依據，但C列舉家暴相對人的完整定期查訪分級及期程內規仍未取得，維持待核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "查訪要回到個別法源與期間；舊記事分類不能自動創設查訪權限。",
+        "sources": [
+          {
+            "title": "警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+          },
+          {
+            "title": "警政署《警光》777期2021年4月・頁68—70勤查系統修正重點",
+            "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=836535717369745408&module=wg079&type=s"
+          },
+          {
+            "title": "警察職權行使法現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          },
+          {
+            "title": "治安顧慮人口查訪辦法現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+          },
+          {
+            "title": "性侵害犯罪防治法現行全文・第7、41、42條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
+          },
+          {
+            "title": "家庭暴力防治法現行全文・第48條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
+          },
+          {
+            "title": "考選部・112年四等警察情境實務概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112070&c=601&s=1205&q=1"
+          },
+          {
+            "title": "考選部・112年本科標準答案（目錄未另列更正）",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112070&c=601&s=1205&q=1"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "原題將「記事二人口」列入依法定期訪查，為官方選出的錯項；不能把昔日記事人口分類直接當成現行法定定期對象。",
+      "takeaway": "查訪要回到個別法源與期間；舊記事分類不能自動創設查訪權限。",
       "sources": [
         {
           "title": "考選部・112年四等警察情境實務概要原卷",
@@ -346,8 +415,33 @@
         {
           "title": "家庭暴力防治法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0050071"
+        },
+        {
+          "title": "警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+        },
+        {
+          "title": "警政署《警光》777期2021年4月・頁68—70勤查系統修正重點",
+          "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=836535717369745408&module=wg079&type=s"
+        },
+        {
+          "title": "警察職權行使法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "治安顧慮人口查訪辦法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+        },
+        {
+          "title": "性侵害犯罪防治法現行全文・第7、41、42條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
+        },
+        {
+          "title": "家庭暴力防治法現行全文・第48條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A；現行按治安顧慮人口、依法查訪的性侵／家暴記事人口分類，不能僅以舊「記事二」名稱一概定期查訪。各類對象的查訪期間與頻率另依法令及完整分級規定。"
     },
     {
       "id": "scene112-06",

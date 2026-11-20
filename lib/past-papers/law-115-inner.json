@@ -630,26 +630,26 @@
       "options": [
         {
           "text": "統案性",
-          "explanation": "內政部答覆以臨時協助為原則，不等於通案、常態接辦。",
-          "correction": "不能只憑「統案性」取代法定個案請求。",
+          "explanation": "內政部官方問答明言避免通案性、常態性協助，以免主管與協助機關責權不分；統案性不是本題所列原則。",
+          "correction": "A若意指通案性協助，不應作一般原則；法律另有固定協助義務時仍依該法，不能以口號拒絕。",
           "trueStatement": false
         },
         {
           "text": "臨時性",
-          "explanation": "內政部113年答覆列臨時性；本題官方答案為B。",
-          "correction": "警政署現行完整職務協助原則仍待取得。",
+          "explanation": "官方問答明列個案性、輔助性與臨時性，B直接符合。行政程序法第19條另列請求原因、書面與緊急例外及應、得拒絕事由。",
+          "correction": "B符合題意；臨時性不取代合法請求、權限及自身勤務是否受重大妨害等審查。",
           "trueStatement": true
         },
         {
           "text": "專案性",
-          "explanation": "專案是工作形式，不能單憑此詞取代行政協助法定原則。",
-          "correction": "仍應個別確認法定職權與請求。",
+          "explanation": "專案性不是該問答此組原則中的用語，成立某專案不會自動移轉別機關管轄或創設警察強制權。",
+          "correction": "依個案、補充與臨時協助審查，不以專案名稱代替法律要件。",
           "trueStatement": false
         },
         {
           "text": "主動性",
-          "explanation": "行政程序法第19條以機關請求為基礎，原則書面，緊急情形除外。",
-          "correction": "不能概括說協助均由受請求機關主動發動。",
+          "explanation": "行政協助通常以他機關請求為前提；執行協助另依行政執行法第6條。警察自己法定職務及急迫危害補充處置，應另依其法源，不泛稱所有協助均主動發動。",
+          "correction": "D不能作本題簡化協辦的一般原則；亦不可反過來否定警察依法主動制止犯罪或急迫危害的職責。",
           "trueStatement": false
         }
       ],
@@ -658,34 +658,39 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察法規概要｜第8題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 8,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "law": "行政程序法第19條；內政部113年立法院答覆",
-        "checkedAt": "2026-11-17",
-        "effectiveStatus": "unverified",
-        "note": "內政部113年答覆支持臨時性；114年函確認113年7月1日修正第6點並增訂同意協助判準。修正全文及後續沿革未取得，待進一步核對。",
+        "status": "none",
+        "law": "內政部公開警政問答・個案性、輔助性、臨時性協助原則；行政程序法第19條；行政執行法第6條；警察職權行使法第28條",
+        "checkedAt": "2026-11-20",
+        "note": "已實讀內政部官方問答完整該題，直接列出三原則；同時以法律補請求、權限及拒絕條件。未把FAQ當成可排除明文協助義務的法律。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "協助原則是個案、輔助、臨時；有法律明定的義務與可拒絕理由仍依法審查。",
         "sources": [
+          {
+            "title": "內政部公開警政問答・個案性、輔助性、臨時性協助原則",
+            "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&_Query=8aad0325-4cff-40ef-8903-22b6257c01a1&n=174&page=27&sms=9015"
+          },
           {
             "title": "行政程序法第19條",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
           },
           {
-            "title": "內政部113年答覆立法院：警察協助原則",
-            "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2024031488/41402030721941001002.pdf"
+            "title": "行政執行法第6條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
           },
           {
-            "title": "內政部114年答覆立法院：113年職務協助原則第6點修正",
-            "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2025082111/21016172550040200002.pdf"
+            "title": "警察職權行使法第28條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           }
         ]
       },
-      "takeaway": "區分機關個案協助與將業務常態移轉；警政署最新版原則全文仍待取得。",
+      "takeaway": "協助原則是個案、輔助、臨時；有法律明定的義務與可拒絕理由仍依法審查。",
       "sources": [
         {
           "title": "考選部115年警察四等警察法規概要原卷",
@@ -710,9 +715,21 @@
         {
           "title": "內政部114年答覆立法院：113年職務協助原則第6點修正",
           "url": "https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2025082111/21016172550040200002.pdf"
+        },
+        {
+          "title": "內政部公開警政問答・個案性、輔助性、臨時性協助原則",
+          "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&_Query=8aad0325-4cff-40ef-8903-22b6257c01a1&n=174&page=27&sms=9015"
+        },
+        {
+          "title": "行政執行法第6條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030023"
+        },
+        {
+          "title": "警察職權行使法第28條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
         }
       ],
-      "currentAnswer": "B為官方答案：內政部113年答覆說明職務協助應重視臨時性；行政程序法第19條另規定請求、拒絕與費用。"
+      "currentAnswer": "原官方答案B不變。內政部公開警政問答明列個案性、輔助性、臨時性，反對責權混淆的通案常態協助；是否應協助仍依行政程序法第19條、行政執行法第6條及個別法，不只背一個口號。"
     },
     {
       "id": "law115-inner-09",

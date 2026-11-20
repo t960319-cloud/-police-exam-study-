@@ -1310,26 +1310,26 @@
       "options": [
         {
           "text": "製作甲之談話紀錄表或調查筆錄",
-          "explanation": "應記錄肇事經過、拒測情形、告知程序及採血權源，作為後續調查依據。",
-          "correction": "筆錄不得省略採血合法性及檢察官許可等必要記載。",
+          "explanation": "111酒駕SOP第7頁要求調查筆錄載明不能安全駕駛客觀事實；若為犯罪嫌疑人詢問，另應遵守刑訴第95條權利告知及第100條之3夜間詢問限制。",
+          "correction": "依法製作紀錄，清楚區分當事人談話與犯罪嫌疑人詢問；筆錄不得補正原先無權採血或拘捕。",
           "trueStatement": true
         },
         {
           "text": "請甲抽血完成後先行返家，待醫院檢驗結果再行到案",
-          "explanation": "原卷以採血後逕讓返家、等結果再通知為不當；應依當時證據及合法留置、逮捕要件處理。",
-          "correction": "不能一律返家，也不能僅為等結果無法源留人；審查現行犯及其他法定依據。",
+          "explanation": "B是當年官方所選錯誤項；111 SOP對事證明確或可依法移送者要求檢具資料處理，但刑訴第88、92、93條仍須先有現行犯或其他合法拘捕依據。題示僅有酒氣、行為正常及拒測，不能當然推出刑事逮捕。",
+          "correction": "不得概括要求抽血後一律返家，也不得概括要求一律留置；分別核拘捕要件、檢察官指示及必要安全處置。",
           "trueStatement": false
         },
         {
           "text": "製作「刑法第 185 條之 3 案件測試觀察紀錄表」",
-          "explanation": "不能安全駕駛跡證觀察可與濃度數值互補，應具體記錄。",
-          "correction": "不得只填主觀結論，須寫明言語、步態、駕駛狀況等客觀事實。",
+          "explanation": "111 SOP第6—7頁區分：已達酒精法定值且事證明確者，無需再附第185條之3第1項第2款觀察表；拒測且有客觀不能安全駕駛情事或特定肇事移送情形，則須附表及佐證。",
+          "correction": "觀察表應如實記錄，不得為配合原題而把正常行為寫成失衡；也非每一達數值案件均強制附同一表。",
           "trueStatement": true
         },
         {
           "text": "依道路交通管理處罰條例第 35 條舉發拒測",
-          "explanation": "符合拒測處罰要件及告知程序時，可行政舉發；不因抽血後得知結果而當然免除拒測。",
-          "correction": "先確認攔檢、要求檢測及拒測認定均合法。",
+          "explanation": "拒測行政舉發與刑事酒駕、強制採血是不同法律效果。111 SOP第3頁及現行裁罰細則第19條之2要求拒測法律效果告知；同條經本人同意採血是客觀無法吐氣的規定，非拒測強制採血概括授權。",
+          "correction": "合法告知後依法審查拒測舉發，不以完成抽血即推定拒測處罰當然消失，也不以舉發授權採血或拘捕。",
           "trueStatement": true
         }
       ],
@@ -1346,11 +1346,11 @@
       "answerStatus": "原卷、官方初答及最終更正已核",
       "amendment": {
         "status": "review",
-        "law": "違反道路交通管理事件統一裁罰基準及處理細則第19條之2、刑事訴訟法第205條之1及第204條之1、道交條例第35條、111年憲判字第1號",
-        "checkedAt": "2026-11-16",
-        "effectiveStatus": "mixed",
-        "effectiveDate": "道交條例115.8.17修正第35條第6、15項定115.12.31施行",
-        "note": "原題110年答案B保留。111年憲判字第1號的違憲失效與過渡時限須依判決；裁罰細則第19條之2第4項係有客觀事實無法吐氣且經本人同意的採血，不能推成拒測者的概括強制採血授權。道交第35條第6、15項新規定115.12.31始施行；個案其他現行依據仍待核。 行政院115.1.29函確認原道交第35條第6項肇事採樣規定依憲判於113.2.25失效，並說明完成修法前過渡階段依判決所載要件程序辦理；應對照判決主文的過渡期間，不逕自推定所有個案均得強制採血。115年修正第6、15項定115.12.31施行。 判決所定過渡階段，肇事拒測或無法吐氣而有合理性及必要性時，原則報請檢察官核發鑑定許可書；急迫時得先採血，24小時內陳報，檢察官認不應准許者3日內撤銷，受測者10日內得聲請法院撤銷。",
+        "law": "警專官方・111.12.15取締酒後駕車作業程序全文9頁；刑事訴訟法現行全文・第88、89、92、93、204條之1、205條之1等；違反道路交通管理事件統一裁罰基準及處理細則現行全文・第19條之2；法務部主管法規系統・111年憲判字第1號判決全文；行政院115.1.29院臺交字第1151002056C號函・確認113.2.25失效及過渡程序（官方附件）；道路交通管理處罰條例第35條・含115.12.31尚未施行條文與提示；考選部110年內軌四等警察情境實務概要原卷；考選部原始標準答案；考選部最終更正答案",
+        "checkedAt": "2026-11-20",
+        "note": "保留110原官方B。111年憲判字第1號判決全文及行政院115.1.29函已核：原道交35條6項113.2.25失效；判決過渡程序為原則檢察官鑑定許可，急迫先採後24小時內陳報，不應准許3日內撤銷，受測者10日內得向法院聲請撤銷。115.8.17新第6、15項定115.12.31才施行。111酒駕SOP完整9頁、刑訴鑑定及拘捕條文均已分別核對，但最新完整肇事拒測SOP及現行全部配套仍待核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "採血許可不等於拘捕授權；當年B保留，現行採證及人身自由各須合法依據。",
         "sources": [
           {
             "title": "全國法規資料庫・裁罰基準及處理細則第19條之2",
@@ -1365,7 +1365,7 @@
             "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=204-1"
           },
           {
-            "title": "全國法規資料庫・道交條例第35條（含分段施行資訊）",
+            "title": "道路交通管理處罰條例第35條・含115.12.31尚未施行條文與提示",
             "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35"
           },
           {
@@ -1373,20 +1373,46 @@
             "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=5304&id=310024"
           },
           {
-            "title": "行政院115.1.29院臺交字第1151002056C號函（臺東縣達仁鄉公所附件）",
+            "title": "行政院115.1.29院臺交字第1151002056C號函・確認113.2.25失效及過渡程序（官方附件）",
             "url": "https://www.ttdaren.gov.tw/home/attachments/article/6586/376540000A_1150026923_ATTACH2.pdf"
           },
           {
-            "title": "法務部主管法規查詢系統・111年憲判字第1號判決全文",
+            "title": "法務部主管法規系統・111年憲判字第1號判決全文",
             "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=CJ00000053&media=print&type=CJ"
           },
           {
             "title": "全國法規資料庫・道路交通管理處罰條例沿革",
             "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=K0040012"
+          },
+          {
+            "title": "警專官方・111.12.15取締酒後駕車作業程序全文9頁",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=QjVkUGRlUmVUYVVodUFhWjBIU293QlZqdUlaUlllb1V0THYxaFcyKzczVExSNlQxbUo3ZGt6TXUxWU9nd1AxNDJnd1BqSCsvZ3B0eUc3UHVhUFVlVGlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RUYzSHZrWXVRYThNM01Mbk1wYitCeVpBamh2VEZ2RkZwZXdoUGJiMjNqTk5wNjN3V0UvSkdSTHZ1TXFxRVRxeG84S2JFVUZEbTdHN0tkcFNjWjZJK2NKeXkrT0pIc2lFdC9RZ09UKzROY0VwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=967"
+          },
+          {
+            "title": "刑事訴訟法現行全文・第88、89、92、93、204條之1、205條之1等",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "違反道路交通管理事件統一裁罰基準及處理細則現行全文・第19條之2",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080029"
+          },
+          {
+            "title": "考選部110年內軌四等警察情境實務概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110070&c=601&s=1205&q=1"
+          },
+          {
+            "title": "考選部原始標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1205&q=1"
+          },
+          {
+            "title": "考選部最終更正答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
           }
-        ]
+        ],
+        "effectiveDate": "115.8.17修正道交第35條第6、15項定115.12.31施行；查核日尚未施行",
+        "effectiveStatus": "mixed"
       },
-      "takeaway": "原卷以採血後逕讓返家、等結果再通知為不當；應依當時證據及合法留置、逮捕要件處理。",
+      "takeaway": "採血許可不等於拘捕授權；當年B保留，現行採證及人身自由各須合法依據。",
       "sources": [
         {
           "title": "考選部110年內軌四等警察情境實務概要原卷",
@@ -1405,7 +1431,7 @@
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
         },
         {
-          "title": "刑事訴訟法",
+          "title": "刑事訴訟法現行全文・第88、89、92、93、204條之1、205條之1等",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         },
         {
@@ -1425,7 +1451,7 @@
           "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=204-1"
         },
         {
-          "title": "全國法規資料庫・道交條例第35條（含分段施行資訊）",
+          "title": "道路交通管理處罰條例第35條・含115.12.31尚未施行條文與提示",
           "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35"
         },
         {
@@ -1433,19 +1459,27 @@
           "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=5304&id=310024"
         },
         {
-          "title": "行政院115.1.29院臺交字第1151002056C號函（臺東縣達仁鄉公所附件）",
+          "title": "行政院115.1.29院臺交字第1151002056C號函・確認113.2.25失效及過渡程序（官方附件）",
           "url": "https://www.ttdaren.gov.tw/home/attachments/article/6586/376540000A_1150026923_ATTACH2.pdf"
         },
         {
-          "title": "法務部主管法規查詢系統・111年憲判字第1號判決全文",
+          "title": "法務部主管法規系統・111年憲判字第1號判決全文",
           "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=CJ00000053&media=print&type=CJ"
         },
         {
           "title": "全國法規資料庫・道路交通管理處罰條例沿革",
           "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=K0040012"
+        },
+        {
+          "title": "警專官方・111.12.15取締酒後駕車作業程序全文9頁",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=QjVkUGRlUmVUYVVodUFhWjBIU293QlZqdUlaUlllb1V0THYxaFcyKzczVExSNlQxbUo3ZGt6TXUxWU9nd1AxNDJnd1BqSCsvZ3B0eUc3UHVhUFVlVGlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RUYzSHZrWXVRYThNM01Mbk1wYitCeVpBamh2VEZ2RkZwZXdoUGJiMjNqTk5wNjN3V0UvSkdSTHZ1TXFxRVRxeG84S2JFVUZEbTdHN0tkcFNjWjZJK2NKeXkrT0pIc2lFdC9RZ09UKzROY0VwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=967"
+        },
+        {
+          "title": "違反道路交通管理事件統一裁罰基準及處理細則現行全文・第19條之2",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080029"
         }
       ],
-      "currentAnswer": "原題B按當年官方答案計分；現行應先區分經本人同意採血、刑事鑑定採血與尚未施行的交通新制，不得因肇事拒測就逕行強制抽血或任意留人。 行政院115.1.29函確認原道交第35條第6項肇事採樣規定依憲判於113.2.25失效，並說明完成修法前過渡階段依判決所載要件程序辦理；應對照判決主文的過渡期間，不逕自推定所有個案均得強制採血。115年修正第6、15項定115.12.31施行。"
+      "currentAnswer": "原題B依當年官方計分。現行先分採血、拘捕及拒測舉發三種法源：不能因拒測即當然強制採血或留人，也不能由B錯誤倒推所有人都必須扣留到檢驗完成。裁罰細則第19條之2「經本人同意」的採血規定，不是拒測強制採血授權。原肇事採樣條文113.2.25失效；115.12.31新制尚未施行。"
     },
     {
       "id": "scene110-18",

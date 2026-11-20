@@ -21,26 +21,26 @@
       "options": [
         {
           "text": "12",
-          "explanation": "12小時屬較早版本常見文字，不能用來作答本卷115年規定。",
-          "correction": "本題應改為每月16小時以上；舊12小時版本不得混用。",
+          "explanation": "警政署《警光》811期頁19直接說明從12小時提升至16小時，12是修正前標準。",
+          "correction": "12改16，題幹是「以上」而非剛好16小時。",
           "trueStatement": false
         },
         {
           "text": "14",
-          "explanation": "14小時不是本題基準。",
-          "correction": "改為16小時以上。",
+          "explanation": "同一官方原刊明載提升後為16小時，沒有14小時最低基準。",
+          "correction": "14改16。",
           "trueStatement": false
         },
         {
           "text": "16",
-          "explanation": "官方本題答案為16小時；政府近期說明亦載每月至少16小時。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "官方原刊與115年標準答案C相符：每月警勤區訪查時數從12提升至16小時。",
+          "correction": "本項符合所問最低時數；得依勤務需要調整增加的其他條件不在本題查核範圍。",
           "trueStatement": true
         },
         {
           "text": "18",
-          "explanation": "18小時不是本題規定的最低基準。",
-          "correction": "改為16小時以上。",
+          "explanation": "18小時可能高於最低值，但題目問規定的「幾小時以上」，官方原刊所載最低值是16。",
+          "correction": "18不是規定最低基準，應選16。",
           "trueStatement": false
         }
       ],
@@ -48,26 +48,36 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察勤務概要｜第1題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 1,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "note": "本題115年原卷採每月16小時以上，亦與地方政府官方近期說明相符；較早版本網頁仍見12小時，勿混用。尚未取得第9點完整修正對照原件及生效日，不捏造修正日期。",
-        "law": "警察勤務區訪查作業規定第9點",
-        "oldRule": "較早版本為每月12小時以上（完整修正原件待核）",
-        "newRule": "本題115年標準為每月16小時以上",
+        "status": "none",
+        "law": "警政署《警光》811期2024年2月・頁19落實警勤區查察工作；考選部115年警察勤務概要原卷；考選部標準答案",
+        "checkedAt": "2026-11-20",
+        "note": "已直接讀取警政署《警光》811期原件頁19，明載111.12.14修正第9點，將每月警勤區訪查由12小時提升至16小時。本題僅問最低時數，不以此宣稱其餘訪查作業規定全文已齊。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "每月訪查至少16小時；12小時是111.12.14修正前舊資料。",
         "sources": [
           {
-            "title": "桃園市政府・警勤區訪查法令與作法",
-            "url": "https://www.tycg.gov.tw/News_Content.aspx?n=97&s=1553604"
+            "title": "警政署《警光》811期2024年2月・頁19落實警勤區查察工作",
+            "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=1229247447323119616&module=wg079&type=s"
+          },
+          {
+            "title": "考選部115年警察勤務概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115060&c=241&s=0907&q=1"
+          },
+          {
+            "title": "考選部標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115060&c=241&s=0907&q=1"
           }
-        ]
+        ],
+        "effectiveStatus": "in-force"
       },
-      "takeaway": "每月勤區訪查時數：官方本題答案為16小時；政府近期說明亦載每月至少16小時。",
+      "takeaway": "每月訪查至少16小時；12小時是111.12.14修正前舊資料。",
       "sources": [
         {
           "title": "考選部115年警察勤務概要原卷",
@@ -80,8 +90,13 @@
         {
           "title": "公開法規或主管機關說明",
           "url": "https://www.tycg.gov.tw/News_Content.aspx?n=97&s=1553604"
+        },
+        {
+          "title": "警政署《警光》811期2024年2月・頁19落實警勤區查察工作",
+          "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=1229247447323119616&module=wg079&type=s"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C（16小時以上）；警政署原刊明確說明111.12.14由每月12小時提高至16小時。"
     },
     {
       "id": "duty115_02",
@@ -92,26 +107,26 @@
       "options": [
         {
           "text": "行駛路肩或路肩停車",
-          "explanation": "路肩行駛或停車本身不是啟用警示燈警鳴器行使交通優先權的充分理由。",
-          "correction": "須有法定緊急任務情形，不能只因欲用路肩即啟用。",
+          "explanation": "第2點第2款第4目把行駛路肩或路肩停車列為非緊急任務，得啟用警示燈但不得任意啟用警鳴器。",
+          "correction": "不能單靠在路肩就同時鳴笛並主張緊急優先權；確有其他緊急任務須另認定。",
           "trueStatement": false
         },
         {
           "text": "維護交通秩序或本身安全",
-          "explanation": "維持秩序或自身安全的抽象需求，不自動等於本題的緊急任務。",
-          "correction": "應依緊急任務具體事由判斷，不以泛稱安全取代。",
+          "explanation": "第2點第2款第2目把維護交通秩序或本身安全列為非緊急任務；燈與警鳴器的啟用門檻不同。",
+          "correction": "原則可啟用警示燈，警鳴器不得任意啟用。",
           "trueStatement": false
         },
         {
           "text": "執行專案勤務",
-          "explanation": "僅稱專案勤務，尚未說明具體急迫事故，不能概括享優先權。",
-          "correction": "須確認該專案確有符合規定的緊急任務情況。",
+          "explanation": "第2點第2款第1目列專案勤務、路檢及重點巡邏為非緊急任務；專案名稱本身不等於緊急。",
+          "correction": "須另有第1款緊急任務事實，不能以專案勤務一概行使鳴笛優先權。",
           "trueStatement": false
         },
         {
           "text": "重大事故，馳往現場",
-          "explanation": "重大事故馳往現場，符合本題緊急任務類型；仍須注意安全及規範條件。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第2點第1款第1目直接列「搶救災難或重大事故，馳往現場」，得開警示燈及警鳴器依法行使優先權，且同款明定仍應顧及人車安全。",
+          "correction": "D符合題意；啟用燈鳴器不能免除安全注意。",
           "trueStatement": true
         }
       ],
@@ -119,18 +134,40 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察勤務概要｜第2題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 2,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "note": "官方考古答案已核對；題示行政規則或理論文字尚未取得完整最新版原件，不把歷史答案冒稱現行結論。",
-        "sources": []
+        "status": "none",
+        "law": "臺北市警察局官方存本・109.1.16警察人員駕車安全考核實施要點全文；新北市交通警察大隊・警示燈及警鳴器啟用與交通優先權；考選部115年警察勤務概要原卷；考選部標準答案",
+        "checkedAt": "2026-11-20",
+        "note": "已讀官方臺北市存本109.1.16駕車要點全文第2點及新北交通大隊完整問答；兩者一致區分警示燈、警鳴器與緊急任務。本題四項均可由第2點直接核對，不涉及後來第6點酒駕懲處修正。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "非緊急勤務可用警示燈，不得任意鳴笛；交通優先權仍有安全義務。",
+        "sources": [
+          {
+            "title": "臺北市警察局官方存本・109.1.16警察人員駕車安全考核實施要點全文",
+            "url": "https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=6K2m5a%2Bf5Lq65ZOh6aeV6LuK5a6J5YWo6ICD5qC45a%2Bm5pa96KaB6bueLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNTA5L3JlbGZpbGUvMjMzNDUvMTI1NTA1L2UzODU2NTQxLTU0NzgtNGUyZi05MTUzLTI5MmEyZDc5NGI3My5wZGY%3D"
+          },
+          {
+            "title": "新北市交通警察大隊・警示燈及警鳴器啟用與交通優先權",
+            "url": "https://www.traffic.police.ntpc.gov.tw/cp-922-2022-27.html"
+          },
+          {
+            "title": "考選部115年警察勤務概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115060&c=241&s=0907&q=1"
+          },
+          {
+            "title": "考選部標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115060&c=241&s=0907&q=1"
+          }
+        ],
+        "effectiveStatus": "in-force"
       },
-      "takeaway": "緊急任務與交通優先權：重大事故馳往現場，符合本題緊急任務類型；仍須注意安全及規範條件。",
+      "takeaway": "非緊急勤務可用警示燈，不得任意鳴笛；交通優先權仍有安全義務。",
       "sources": [
         {
           "title": "考選部115年警察勤務概要原卷",
@@ -139,8 +176,17 @@
         {
           "title": "考選部標準答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115060&c=241&s=0907&q=1"
+        },
+        {
+          "title": "臺北市警察局官方存本・109.1.16警察人員駕車安全考核實施要點全文",
+          "url": "https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=6K2m5a%2Bf5Lq65ZOh6aeV6LuK5a6J5YWo6ICD5qC45a%2Bm5pa96KaB6bueLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNTA5L3JlbGZpbGUvMjMzNDUvMTI1NTA1L2UzODU2NTQxLTU0NzgtNGUyZi05MTUzLTI5MmEyZDc5NGI3My5wZGY%3D"
+        },
+        {
+          "title": "新北市交通警察大隊・警示燈及警鳴器啟用與交通優先權",
+          "url": "https://www.traffic.police.ntpc.gov.tw/cp-922-2022-27.html"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D；搶救災難或重大事故馳往現場屬得啟用警示燈及警鳴器的緊急任務，仍應顧及行人、車輛安全。"
     },
     {
       "id": "duty115_03",
@@ -507,26 +553,26 @@
       "options": [
         {
           "text": "警察對於私人民事法律之爭執，僅在法院無法即時提供保護，權利將喪失時，警察才得以介入，此為補充性原則",
-          "explanation": "官方以A為答案，但本項牽涉私權保護、法院救濟補充性及完整介入要件的教材辨義，不能只憑公告答案斷言補充性原則不存在。",
-          "correction": "考古作答依官方選A；現行擬答須完整檢驗私權保護法源、法院未能即時保護及非警察協助將難實現等要件。",
+          "explanation": "警職法第28條第2項以其他機關無法或不能即時制止排除危害為限。高檢署刊載文章頁53明載私法權利亦在保護內，其他機關包括法院，並須嚴守補充性原則；故單憑官方選A不能說該原則不存在。",
+          "correction": "保留官方A；完整擬答須併核現行危害、法源、其他機關無法及時處理及必要性。命題判錯的精確理由仍待核。",
           "trueStatement": false
         },
         {
           "text": "基於警察責任原則，警察執行勤務行使職權之對象，除特殊情形外，僅限於應負警察責任之人",
-          "explanation": "警察責任原則原則以危害責任人為措施對象，法定例外另論。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "B說明以危害責任人為原則的警察責任觀念並保留特殊情形，但本輪已讀第28條及即時強制論著不足以完整證明責任人與第三人例外的全套學理。",
+          "correction": "不以答案A推定B一概無爭議；須依各項法定權限及對象判斷。",
           "trueStatement": true
         },
         {
           "text": "警察執行勤務行使職權防止危害發生時，視個別情況進行合義務裁量，決定是否採取措施，是權變原則之運用",
-          "explanation": "危害防止在法定裁量範圍內，依具體情況作合義務裁量，屬權變的討論。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第28條有「得」字，但高檢署文章頁54另討論立法意旨與警察不得以法無明文推託危害保護，提醒裁量受目的、比例及保護義務拘束。",
+          "correction": "權變並非想做就做或不做；本題全部權變法理仍待指定教材全文。",
           "trueStatement": true
         },
         {
           "text": "警察對於刑事訴追之強制處分或裁罰處分，其執勤行為並無權變原則之適用",
-          "explanation": "刑事訴追強制處分及裁罰仍須依法定要件行使，不得任意援引危害防止的權變觀念。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "刑事強制處分及裁罰須各依法定要件；但D的「並無」權變適用是一項廣泛學理斷語，不能只憑第28條即證明所有刑事／裁罰處置均沒有裁量。",
+          "correction": "勿把依法處分與毫無裁量混同；D完整適用範圍待核，不因官方A而自動宣告D所有情境皆正確。",
           "trueStatement": true
         }
       ],
@@ -542,10 +588,32 @@
       "answerStatus": "官方最終答案已核",
       "amendment": {
         "status": "review",
-        "note": "官方公告答案為A，未見官方更正；A涉及補充性原則與私權保護要件之理論辨義，未取得命題所據完整資料，保留現行解析待核，不把警察介入私權爭議的例外說成一般權限。",
-        "sources": []
+        "law": "警察職權行使法現行全文；臺灣高等檢察署官方刊載・蔡茂寅〈警察職權行使法上之即時強制〉全文（頁52—54補充性原則）；考選部115年警察勤務概要原卷；考選部標準答案",
+        "checkedAt": "2026-11-20",
+        "note": "已讀警職法第28條及高檢署官方刊載蔡茂寅全文頁52—54。後者明確將私權保護及法院不能及時介入置於補充性原則討論；未取得本題命題所據完整教材與B—D全部法理來源，不能反過來宣稱補充性原則不存在。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "警察可補充填補急迫保護缺口，但要有法源、危害與必要性；不能靠題目答案否定補充性原則。",
+        "sources": [
+          {
+            "title": "警察職權行使法現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          },
+          {
+            "title": "臺灣高等檢察署官方刊載・蔡茂寅〈警察職權行使法上之即時強制〉全文（頁52—54補充性原則）",
+            "url": "https://www.tph.moj.gov.tw/media/77633/8829403289.pdf"
+          },
+          {
+            "title": "考選部115年警察勤務概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115060&c=241&s=0907&q=1"
+          },
+          {
+            "title": "考選部標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115060&c=241&s=0907&q=1"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "私權保護與補充性原則辨義：官方以A為答案，但本項牽涉私權保護、法院救濟補充性及完整介入要件的教材辨義，不能只憑公告答案斷言補充性原則不存在。",
+      "takeaway": "警察可補充填補急迫保護缺口，但要有法源、危害與必要性；不能靠題目答案否定補充性原則。",
       "sources": [
         {
           "title": "考選部115年警察勤務概要原卷",
@@ -554,8 +622,17 @@
         {
           "title": "考選部標準答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115060&c=241&s=0907&q=1"
+        },
+        {
+          "title": "警察職權行使法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "臺灣高等檢察署官方刊載・蔡茂寅〈警察職權行使法上之即時強制〉全文（頁52—54補充性原則）",
+          "url": "https://www.tph.moj.gov.tw/media/77633/8829403289.pdf"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A保留；新取得的官方刊載學理反而確認警察介入私權保護應嚴守補充性原則。A究竟因名稱、要件省略或命題立場被判錯，仍須完整依據，本輪不擅自改給分。"
     },
     {
       "id": "duty115_09",
@@ -1118,26 +1195,26 @@
       "options": [
         {
           "text": "警勤區之劃設，應考量整體情況，由警察分局定期檢討調整",
-          "explanation": "原卷以分局考量治安、人口、警力等整體情形定期檢討劃設為正確。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "勤務條例第6條第2項要求參酌治安、地區特性、警力、工作、面積、交通電信與未來發展適當調整，支持整體檢討方向；分局「定期」檢討的行政規則原文尚缺。",
+          "correction": "A按官方答案保留；定期檢討權責不能只用第6條概括敘述替代完整點次。",
           "trueStatement": true
         },
         {
           "text": "警勤區的劃設，依人口疏密，以1千口或5百戶以下劃設一警勤區",
-          "explanation": "勤務條例第6條為2千人口或500戶以下，不是1千人口。",
-          "correction": "「1千口」改為「2千人口」。",
+          "explanation": "第6條第1項第2款明定「二千人口或五百戶以下」，並非一千人口。",
+          "correction": "將一千改二千；仍須併看第2項適當調整因素。",
           "trueStatement": false
         },
         {
           "text": "警勤區的劃設，以一鄰里劃設一警勤區",
-          "explanation": "自治區域原則為一村里，不是使用鄰里作為固定單位，且有過大過小的調整例外。",
-          "correction": "應依一村里原則及法定調整情形劃設。",
+          "explanation": "第6條第1項第1款以「一村里」劃設為原則，過小可合併二以上村里，過大可將一村里分設二以上警勤區；C不但使用鄰里字樣，亦過度單一化。",
+          "correction": "改為一村里為原則並保留過小合併、過大分設的法定例外。",
           "trueStatement": false
         },
         {
           "text": "警勤區員警缺額逾一年未能派補時，分局應於三個月內重新辦理警勤區劃分，檢討合併警勤區事宜",
-          "explanation": "原題作業規定要求缺額逾1年，分局於1個月內重新辦理劃分，不是3個月。",
-          "correction": "「3個月」改為「1個月」。",
+          "explanation": "勤務條例第6條沒有缺額逾1年後須3個月內重劃的期限；本輪局部訪查修正表也未包含該點，不能自行引用原題114_22的A當作規範原件。",
+          "correction": "缺額期間與重劃期限待完整訪查作業規定，不把3個月列為已核現行數字。",
           "trueStatement": false
         }
       ],
@@ -1153,15 +1230,32 @@
       "answerStatus": "官方最終答案已核",
       "amendment": {
         "status": "review",
-        "note": "官方考古答案已核對；題示行政規則或理論文字尚未取得完整最新版原件，不把歷史答案冒稱現行結論。",
+        "law": "警察勤務條例現行全文；警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）；考選部115年警察勤務概要原卷；考選部標準答案",
+        "checkedAt": "2026-11-20",
+        "note": "已核勤務條例第5至7條；第6條明定自治區域與2000人口或500戶基準，且依治安、警力等適當調整。分局定期檢討及缺額1年後重劃期限的作業規定全文仍未取得。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "勤區原則按村里、2000人口或500戶並適當調整；缺額重劃期限須另查作業規定。",
         "sources": [
           {
-            "title": "本題法規核對",
+            "title": "警察勤務條例現行全文",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080026"
+          },
+          {
+            "title": "警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+          },
+          {
+            "title": "考選部115年警察勤務概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115060&c=241&s=0907&q=1"
+          },
+          {
+            "title": "考選部標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115060&c=241&s=0907&q=1"
           }
-        ]
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "警勤區劃設與缺額調整：原卷以分局考量治安、人口、警力等整體情形定期檢討劃設為正確。",
+      "takeaway": "勤區原則按村里、2000人口或500戶並適當調整；缺額重劃期限須另查作業規定。",
       "sources": [
         {
           "title": "考選部115年警察勤務概要原卷",
@@ -1172,10 +1266,15 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115060&c=241&s=0907&q=1"
         },
         {
-          "title": "公開法規或主管機關說明",
+          "title": "警察勤務條例現行全文",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080026"
+        },
+        {
+          "title": "警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A；B的1000人應為2000人，C把村里誤作鄰里且漏分合例外。D的三個月期限與缺額行政規則需再核，不能由當年A自行換算。"
     },
     {
       "id": "duty115_18",

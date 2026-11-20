@@ -224,26 +224,26 @@
       "options": [
         {
           "text": "司法警察於管轄區外執行搜索、逮捕或拘提等行動時，應通報當地警察機關知悉或會同辦理",
-          "explanation": "106年監察院報告引述當時區外搜索、逮捕、拘提依程序通報當地會同；113年官方答案不是A。",
-          "correction": "參照歷史引述及當年題意，現行具體層級仍須核原件。",
+          "explanation": "115手冊第31點明定於管轄區外執行搜索、逮捕、拘提，應通報當地警察機關知悉或會同辦理。",
+          "correction": "依程序通報；如臨時變更地點，亦及時通知原會同及擬往地機關。通報不能代替實體拘捕、搜索授權。",
           "trueStatement": true
         },
         {
           "text": "執行時並應注意辨識，避免發生意外事故",
-          "explanation": "113年官方答案不是B；115年監察院個案顯示跨轄辨識及勤務安全不能忽略。",
-          "correction": "依合法程序確認對象、表明身分並協調勤務安全。",
+          "explanation": "115手冊第31點直接要求執行時注意辨識，避免意外事故。",
+          "correction": "辨識任務、對象與友軍，依具體現場採取聯繫及安全措施。",
           "trueStatement": true
         },
         {
           "text": "於情報蒐集或探訪活動且未攜帶槍械時，為求支援時效，亦應通報",
-          "explanation": "C是113年官方答案，顯示當年題目不接受將未攜槍情報探訪一律要求通報。",
-          "correction": "記住當年題意；不以舊題認定現行所有免通報範圍。",
+          "explanation": "115手冊第31點但書明定情報蒐集或探訪活動且未攜帶槍械者得免通報。C把得免通報寫成仍應通報，為本題最不適當者。",
+          "correction": "應改為符合情報蒐集／探訪且未攜槍的例外時得免通報；一旦轉為搜索拘捕等行動，另依規定通報。",
           "trueStatement": false
         },
         {
           "text": "接受請求會同辦案之警察機關，應即通報所屬刑警隊（大隊）、分局及分駐所或派出所，並派員協 同辦理",
-          "explanation": "113年官方答案不是D；具體受理通報層級及會同義務仍待完整全國要點。",
-          "correction": "各層級依現行原件核對，不用地方要領代替全國規範。",
+          "explanation": "115手冊第31點第2項明定接受請求會同辦案者，應通報所屬刑警大隊（隊）、分局及分駐或派出所，並派員協辦。",
+          "correction": "依案件需要落實通報與協同；不能僅口頭知悉而省略規定的聯繫及派員程序。",
           "trueStatement": true
         }
       ],
@@ -254,30 +254,32 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第3題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 3,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "警察機關通報越區辦案應行注意事項",
-        "checkedAt": "2026-11-16",
-        "effectiveStatus": "unverified",
-        "note": "113年官方答案C。106年監察院報告引述當時對區外搜索等通報會同之規定，115年監察院新聞稿為越轄個案；未攜槍情報探訪的現行例外與完整層級仍待原件。",
+        "status": "none",
+        "law": "警專公開115年新版警察偵查犯罪手冊（完整主文）；刑事訴訟法（本次核對之現行全文）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）逐項核對列示完整官方原件；原題、選項及當年度初始／最終給分均維持。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "越區搜索、逮捕、拘提要通報並注意辨識；純情報探訪且未攜槍有得免通報例外。急迫逕通報不免事後補辦；通報規則不創設搜索或逮捕權。",
         "sources": [
           {
-            "title": "監察院106年調查報告第4頁：引述越區通報第2點第1款",
-            "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/40411"
+            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
           },
           {
-            "title": "監察院115年4月27日新聞稿：越區查緝案件",
-            "url": "https://www.cy.gov.tw/News_Content.aspx?n=640&s=37218"
+            "title": "刑事訴訟法（本次核對之現行全文）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
           }
-        ]
+        ],
+        "effectiveStatus": "in-force"
       },
-      "takeaway": "先區分歷史題意與現行規定；搜捕通報、情蒐例外及強制處分要件各自查核。",
+      "takeaway": "越區搜索、逮捕、拘提要通報並注意辨識；純情報探訪且未攜槍有得免通報例外。急迫逕通報不免事後補辦；通報規則不創設搜索或逮捕權。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -298,9 +300,17 @@
         {
           "title": "監察院115年4月27日新聞稿：越區查緝案件",
           "url": "https://www.cy.gov.tw/News_Content.aspx?n=640&s=37218"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "刑事訴訟法（本次核對之現行全文）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
       ],
-      "currentAnswer": "C為113年官方答案，反映該年考題對未攜槍情報探訪的判斷；不能直接把當年題意當成現行全國完整例外。106年監察院調查引述當時區外搜索、逮捕、拘提需按程序通報會同，115年另有未報主管及未通報當地的公開個案。"
+      "currentAnswer": "原官方答案C不變。題示情報蒐集或探訪且未攜槍得免通報，不能寫成仍一律應通報。"
     },
     {
       "id": "investigation113_04",
@@ -2707,26 +2717,26 @@
       "options": [
         {
           "text": "某市政府收到於大巨蛋球場放置爆裂物之電子郵件",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "收到恐嚇電子郵件不當然屬本題科技犯罪中心所列的系統、網路攻擊等案件類型，仍應依法受理。",
+          "explanation": "僅收到爆裂物恐嚇電子郵件，未見系統遭入侵或其他第261點特別列舉要件；不能只因傳送媒介是網路就認定必屬科技犯罪專責案類。",
+          "correction": "仍應依法調查恐嚇與公共安全風險；是否請科技單位協助，與案件必然歸入第261點專責類型應分別判斷。",
           "trueStatement": false
         },
         {
           "text": "某網路電商遭受殭屍網路（Botnet）攻擊",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：收到恐嚇電子郵件不當然屬本題科技犯罪中心所列的系統、網路攻擊等案件類型，仍應依法受理。",
+          "explanation": "殭屍網路攻擊電商系統，與115手冊第261點第2款資安駭侵案類相符，得依個案尋求科技犯罪單位協助。",
+          "correction": "保全攻擊時間、系統日誌、流量及設備資料，依法蒐證並評估專業支援。",
           "trueStatement": true
         },
         {
           "text": "某虛擬通貨平臺業者利用平臺網路洗錢",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：收到恐嚇電子郵件不當然屬本題科技犯罪中心所列的系統、網路攻擊等案件類型，仍應依法受理。",
+          "explanation": "虛擬通貨平臺洗錢未必同時涉及個資外洩、資安駭侵或妨害電腦使用；115手冊第261點未把所有網路洗錢一律列入。當年度未選C不能代替現行分工原件。",
+          "correction": "須核犯罪態樣及現行虛擬資產／洗錢分工規定，不能單憑利用網路即宣稱一定屬此專責案類。",
           "trueStatement": true
         },
         {
           "text": "某醫院伺服器遭勒索軟體（Wannacry）封鎖",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：收到恐嚇電子郵件不當然屬本題科技犯罪中心所列的系統、網路攻擊等案件類型，仍應依法受理。",
+          "explanation": "勒索軟體封鎖醫院伺服器，與115手冊第261點資安駭侵及妨害電腦使用重大案件的範圍相符。",
+          "correction": "依法保全系統及揮發性資料、評估服務中斷風險，再依個案請求科技犯罪專責支援。",
           "trueStatement": true
         }
       ],
@@ -2743,13 +2753,22 @@
       "paperTrack": "內軌",
       "paperNumber": 33,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "changed",
+        "law": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。本題有版本或現行適用落差，核對日不是修法日。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "以網路傳送犯案訊息不當然屬科技犯罪專責分類；資安駭侵與一般利用網路犯罪應區分。115手冊已改列個資外洩、資安駭侵、重大兒少性剝削／性影像及其他重大妨害電腦等類型。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ],
+        "effectiveStatus": "mixed"
       },
-      "takeaway": "收到恐嚇電子郵件不當然屬本題科技犯罪中心所列的系統、網路攻擊等案件類型，仍應依法受理。",
+      "takeaway": "以網路傳送犯案訊息不當然屬科技犯罪專責分類；資安駭侵與一般利用網路犯罪應區分。115手冊已改列個資外洩、資安駭侵、重大兒少性剝削／性影像及其他重大妨害電腦等類型。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -2762,8 +2781,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113060&t=A"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "當年度官方A；115手冊第261點已改列案類，不能逕用舊分類排除或納入C。"
     },
     {
       "id": "investigation113_34",
@@ -4182,26 +4206,26 @@
       "options": [
         {
           "text": "社會知名人士",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：與指認人不熟識不屬單一指認例外，通常應依法安排無重大外型差異的列隊指認。",
+          "explanation": "監察院引107年警察注意事項第5點把社會知名人士列為得單一指認情形；現行官方指認文章也列社會（地區）知名人士。",
+          "correction": "知名度例外仍應確認指認人確實具有足以辨認的客觀記憶，避免誘導並完整記錄。",
           "trueStatement": true
         },
         {
           "text": "與指認人不熟識",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "與指認人不熟識不屬單一指認例外，通常應依法安排無重大外型差異的列隊指認。",
+          "explanation": "官方指認文章列互為熟識或長期近距離接觸等降低誤認風險的情況，並沒有僅因不熟識而可單一指認的原則；B方向相反。",
+          "correction": "對陌生嫌疑人原則採外型無重大差異的六名以上真人選擇式列隊，並先描述、先告知未必在列。",
           "trueStatement": false
         },
         {
           "text": "曾與指認人長時間近距離接觸",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：與指認人不熟識不屬單一指認例外，通常應依法安排無重大外型差異的列隊指認。",
+          "explanation": "監察院引107年第5點及115官方文章均把曾長期近距離接觸列為例外類型，可減少單純陌生指認的誤認風險。",
+          "correction": "仍應先問實際接觸時間、距離、視線及確信程度，不能只憑一句曾接觸就省略評估。",
           "trueStatement": true
         },
         {
           "text": "為經當場或持續追緝而逮捕之現行犯者",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：與指認人不熟識不屬單一指認例外，通常應依法安排無重大外型差異的列隊指認。",
+          "explanation": "D與監察院所引107年條文相近，但115官方綜合文章的現行犯例外寫法較具體，含經指認人當場逮捕或其他無誤認之虞；兩者不能任意互換。",
+          "correction": "保留當年D的給分位置；完整現行警察注意事項未取得前，不教成任何警方追緝逮捕的現行犯都可單一指認。",
           "trueStatement": true
         }
       ],
@@ -4218,13 +4242,26 @@
       "paperTrack": "內軌",
       "paperNumber": 48,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）；監察院調查報告・指認程序（完整報告，摘列107年注意事項）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "真人列隊是原則；知名、熟識、長時間近距離接觸或特定現行犯等例外，重點是降低誤認風險。不能因不熟識而反採單一指認。",
+        "sources": [
+          {
+            "title": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）",
+            "url": "https://www.tpc.moj.gov.tw/292885/976681/661783/1396443/post"
+          },
+          {
+            "title": "監察院調查報告・指認程序（完整報告，摘列107年注意事項）",
+            "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/42749"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "與指認人不熟識不屬單一指認例外，通常應依法安排無重大外型差異的列隊指認。",
+      "takeaway": "真人列隊是原則；知名、熟識、長時間近距離接觸或特定現行犯等例外，重點是降低誤認風險。不能因不熟識而反採單一指認。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -4237,8 +4274,17 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113060&t=A"
+        },
+        {
+          "title": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）",
+          "url": "https://www.tpc.moj.gov.tw/292885/976681/661783/1396443/post"
+        },
+        {
+          "title": "監察院調查報告・指認程序（完整報告，摘列107年注意事項）",
+          "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/42749"
         }
-      ]
+      ],
+      "currentAnswer": "當年度官方B；陌生人不是單一指認的當然例外，D的現行完整條件仍待正式注意事項核對。"
     },
     {
       "id": "investigation113_49",

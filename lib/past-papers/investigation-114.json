@@ -1947,26 +1947,26 @@
       "options": [
         {
           "text": "由案件偵辦人員辦理指認作業，以期對案情有充分瞭解",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "原則指派案件偵辦人員以外人員，以避免暗示；列隊、告知未必在列及事前特徵陳述亦須遵守。",
+          "explanation": "官方文章及監察院引第2點均以非案件偵辦人員主持為原則；以熟知案情為由固定讓承辦員主持，可能增加暗示與偏誤。",
+          "correction": "原則由非案件偵辦人員主持，例外須符合正式規定並完整留存程序紀錄。",
           "trueStatement": false
         },
         {
           "text": "指認前，先確認指認人是否確實目擊犯罪嫌疑人之相貌",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原則指派案件偵辦人員以外人員，以避免暗示；列隊、告知未必在列及事前特徵陳述亦須遵守。",
+          "explanation": "監察院62901引警察注意事項第3點，明定指認前應先確認確實目擊嫌疑人相貌，再陳述外型、衣著等並說明記憶確信程度。",
+          "correction": "詳問目擊時間、距離、視線與壓力因素並記錄，不把道聽塗說當作親眼目擊。",
           "trueStatement": true
         },
         {
           "text": "指認前，告知指認人犯罪嫌疑人未必存在於被指認人之中",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原則指派案件偵辦人員以外人員，以避免暗示；列隊、告知未必在列及事前特徵陳述亦須遵守。",
+          "explanation": "官方文章及監察院引第4點都要求指認前告知嫌疑人未必存在於被指認人中，避免指認人以為必須選出一人。",
+          "correction": "在提示人員或照片之前告知，並避免任何話語或安排誘導選擇。",
           "trueStatement": true
         },
         {
           "text": "依指認人描述之犯罪嫌疑人特徵，安排 6 名以上於外型無重大差異之被指認人，供指認人進行列 隊指認",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原則指派案件偵辦人員以外人員，以避免暗示；列隊、告知未必在列及事前特徵陳述亦須遵守。",
+          "explanation": "官方文章及監察院引107年第5點均規定六名以上、外型無重大差異，並依指認人先前描述安排真人選擇式列隊。",
+          "correction": "人數及外型須兼顧；不能只湊足六人而讓嫌疑人因服裝、年齡或戒具明顯突出。",
           "trueStatement": true
         }
       ],
@@ -1983,13 +1983,34 @@
       "paperTrack": "內軌",
       "paperNumber": 22,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）；監察院調查報告・指認程序（完整報告，摘列107年注意事項）；監察院調查報告・南投大學生竊盜案指認程序（完整報告）；警專公開115年新版警察偵查犯罪手冊（完整主文）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "指認不由熟知案情者主持作為原則；先確認目擊、先描述、告知嫌疑人未必在列，再以至少六名外型無重大差異者供列隊選擇。",
+        "sources": [
+          {
+            "title": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）",
+            "url": "https://www.tpc.moj.gov.tw/292885/976681/661783/1396443/post"
+          },
+          {
+            "title": "監察院調查報告・指認程序（完整報告，摘列107年注意事項）",
+            "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/42749"
+          },
+          {
+            "title": "監察院調查報告・南投大學生竊盜案指認程序（完整報告）",
+            "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/62901"
+          },
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "原則指派案件偵辦人員以外人員，以避免暗示；列隊、告知未必在列及事前特徵陳述亦須遵守。",
+      "takeaway": "指認不由熟知案情者主持作為原則；先確認目擊、先描述、告知嫌疑人未必在列，再以至少六名外型無重大差異者供列隊選擇。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -2006,8 +2027,25 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）",
+          "url": "https://www.tpc.moj.gov.tw/292885/976681/661783/1396443/post"
+        },
+        {
+          "title": "監察院調查報告・指認程序（完整報告，摘列107年注意事項）",
+          "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/42749"
+        },
+        {
+          "title": "監察院調查報告・南投大學生竊盜案指認程序（完整報告）",
+          "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/62901"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "當年度官方A；已核官方文章及監察院引文，正式警察指認注意事項現行全文仍待補。"
     },
     {
       "id": "investigation114_23",
@@ -3134,26 +3172,26 @@
       "options": [
         {
           "text": "跟蹤屬「固定觀察」。因偵查對象可能在一定點停留一段時間",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：跟蹤是對特定人、物等偵查對象秘密持續觀察的活動；流動跟蹤與固定監視不可顛倒。",
+          "explanation": "115手冊第90點第1款明定跟蹤是流動或動態觀察，以徒步或車輛跟隨對象。A將其寫為固定觀察，錯置類型。",
+          "correction": "跟蹤屬流動／動態，對象暫停不會自動使整體任務定義改為固定監視。",
           "trueStatement": false
         },
         {
           "text": "監視屬「流動觀察」。因偵查對象可能移動",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：跟蹤是對特定人、物等偵查對象秘密持續觀察的活動；流動跟蹤與固定監視不可顛倒。",
+          "explanation": "115手冊第90點第2款明定監視是固定或靜態觀察，由某些定點持續觀察處所、物品或人員。B把它與跟蹤對調。",
+          "correction": "監視屬固定／靜態；需要追隨移動對象時，可另配合跟蹤。",
           "trueStatement": false
         },
         {
           "text": "監視之目的在發現犯罪嫌疑人之不法行為，並掌握可能犯罪之證據及共犯",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：跟蹤是對特定人、物等偵查對象秘密持續觀察的活動；流動跟蹤與固定監視不可顛倒。",
+          "explanation": "現行第90點把跟蹤與監視共同目的列為發現嫌疑人活動、身分等訊息，C所說蒐得犯罪及共犯資訊可能落在此範圍，不能由當年只選D推出C現行一定錯。",
+          "correction": "應以現行共同目的及具體法定權限判斷，避免教成監視絕不可能蒐得犯罪證據或共犯線索。",
           "trueStatement": false
         },
         {
           "text": "跟蹤乃偵查人員為達成偵查犯罪任務，對特定之人或物等偵查對象所作的一種秘密而持續的觀察 活動",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "跟蹤是對特定人、物等偵查對象秘密持續觀察的活動；流動跟蹤與固定監視不可顛倒。",
+          "explanation": "D描述特定人或物的秘密持續觀察，與現行第90點共同定義的核心相容；但現行還包括車輛、處所及週期性觀察，跟蹤另具有動態特徵。",
+          "correction": "保留當年D給分，現行完整記憶為共同定義加上跟蹤動態、監視靜態，不只背D的舊概括句。",
           "trueStatement": true
         }
       ],
@@ -3170,13 +3208,22 @@
       "paperTrack": "內軌",
       "paperNumber": 36,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "changed",
+        "law": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。本題有版本或現行適用落差，核對日不是修法日。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "115手冊明確把跟蹤定為流動／動態觀察、監視定為固定／靜態觀察，兩者可配合。秘密觀察的行政說明不會另外創設科技監察或侵入私領域的權限。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ],
+        "effectiveStatus": "mixed"
       },
-      "takeaway": "跟蹤是對特定人、物等偵查對象秘密持續觀察的活動；流動跟蹤與固定監視不可顛倒。",
+      "takeaway": "115手冊明確把跟蹤定為流動／動態觀察、監視定為固定／靜態觀察，兩者可配合。秘密觀察的行政說明不會另外創設科技監察或侵入私領域的權限。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -3193,8 +3240,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "當年度官方D；現行第90點合併規範跟蹤與監視，C所述目的未必可再直接排除。"
     },
     {
       "id": "investigation114_37",
@@ -3754,26 +3806,26 @@
       "options": [
         {
           "text": "通緝屬強制處分，會對被告人身自由造成拘束",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "本題官方將通緝定位與實際拘捕分開，通緝本身非直接拘束人身自由的拘提或逮捕行為。",
+          "explanation": "刑訴第87條規範通緝通知／公告後得拘提或逮捕；發布與實際拘束人身自由應分開。法務部10303506850號函也說僅受通緝尚未到案者，沒有已收容於一定場所的依法拘禁狀態。",
+          "correction": "本題當年A給分保留；可確定的是通緝發布不等於已被實際拘禁。本次不由此函擴張宣稱通緝在所有法學分類上一概非強制處分。",
           "trueStatement": false
         },
         {
           "text": "被告已逃亡，得為通緝",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題官方將通緝定位與實際拘捕分開，通緝本身非直接拘束人身自由的拘提或逮捕行為。",
+          "explanation": "刑訴第84條直接明定被告逃亡者得通緝，B有完整現行法條支持。",
+          "correction": "須有逃亡事實；依法以通緝書及通知／公告程序辦理，不以懷疑可能逃亡替代。",
           "trueStatement": true
         },
         {
           "text": "被告藏匿時，得為通緝",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題官方將通緝定位與實際拘捕分開，通緝本身非直接拘束人身自由的拘提或逮捕行為。",
+          "explanation": "刑訴第84條並列被告藏匿者得通緝，C有完整現行法條支持。",
+          "correction": "查明藏匿事實並依通緝書程序辦理；原因消滅或已顯無必要時，依第87條撤銷。",
           "trueStatement": true
         },
         {
           "text": "被告有逃亡之虞，不能通緝",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題官方將通緝定位與實際拘捕分開，通緝本身非直接拘束人身自由的拘提或逮捕行為。",
+          "explanation": "刑訴第84條列已逃亡或藏匿，未列僅有逃亡之虞。逃亡之虞可涉及第76條拘提等另種處分的要件，不能直接替代通緝事實。",
+          "correction": "僅有逃亡之虞而未逃亡、藏匿時，不能僅據此發布通緝；另依法審查相應必要處分。",
           "trueStatement": true
         }
       ],
@@ -3790,13 +3842,26 @@
       "paperTrack": "內軌",
       "paperNumber": 43,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "刑事訴訟法（本次核對之現行全文）；法務部法律字第10303506850號函・受通緝尚未到案與依法拘禁之區別",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "刑訴第84條要求被告已逃亡或藏匿，僅有逃亡之虞不足。通緝發布與依通緝書實際拘提逮捕是不同階段；不要把尚未到案誤認成已被拘禁。",
+        "sources": [
+          {
+            "title": "刑事訴訟法（本次核對之現行全文）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "法務部法律字第10303506850號函・受通緝尚未到案與依法拘禁之區別",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE270783&media=print&type=e"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "本題官方將通緝定位與實際拘捕分開，通緝本身非直接拘束人身自由的拘提或逮捕行為。",
+      "takeaway": "刑訴第84條要求被告已逃亡或藏匿，僅有逃亡之虞不足。通緝發布與依通緝書實際拘提逮捕是不同階段；不要把尚未到案誤認成已被拘禁。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -3813,8 +3878,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "刑事訴訟法（本次核對之現行全文）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "法務部法律字第10303506850號函・受通緝尚未到案與依法拘禁之區別",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE270783&media=print&type=e"
         }
-      ]
+      ],
+      "currentAnswer": "當年度官方A；B、C、D之法定要件已核，A的法律性質與實際拘束應區分。"
     },
     {
       "id": "investigation114_44",

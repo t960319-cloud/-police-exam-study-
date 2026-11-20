@@ -699,26 +699,26 @@
       "options": [
         {
           "text": "警勤區缺額未派補亦未指定代理前，該警勤區相關資料由所長保管",
-          "explanation": "本項符合109年題示版本：警勤區缺額且尚未派補指定代理前，相關資料由所長保管。",
-          "correction": "無須依原題修正。",
+          "explanation": "A為當年官方給分；本輪已取得的112年局部修正表沒有缺額未派補又未指定代理時的資料保管點次，故尚不能獨立確認完整當期及現行要件。",
+          "correction": "保留當年A；補齊109年及現行異動交接全文後再確認保管與電子權限程序。",
           "trueStatement": true
         },
         {
           "text": "警勤區每月應編排 12 小時以上訪查時數，其基準由派出所所長定之",
-          "explanation": "時數基準不是派出所所長自行定之；且第9點在111年考後另有修正。",
-          "correction": "依有權機關及現行第9點基準辦理，勿以所長任意自定。",
+          "explanation": "《警光》811期頁19直接說明111.12.14將每月12小時提升為16小時，支持12小時屬原題時期舊標準。第9點完整修正附件本輪連線503，基準訂定層級未以雜誌倒推。",
+          "correction": "2026勿背12小時；原題「由派出所所長定之」另待第9點正式全文確認。",
           "trueStatement": false
         },
         {
           "text": "派出所所長每月應以督帶勤方式抽訪 3 個警勤區，但偏遠地區得調整抽訪數量",
-          "explanation": "原題版本每人每月督帶抽訪一個或二個警勤區，並非固定三區。",
-          "correction": "三個改為一個或二個，另留法定例外。",
+          "explanation": "原卷確為抽訪3個警勤區且加偏遠地區例外；本輪取得的第2、16、26點對照表並未包含督帶勤抽訪點次，不能據官方A就自行寫成另一個確定數字。",
+          "correction": "抽訪人數、警勤區數與偏遠地區例外均待109年及現行完整原件，不把3個當作現行標準。",
           "trueStatement": false
         },
         {
           "text": "所長應親自指導新到任警勤區員警勤查系統相關操作，使迅速掌握勤區狀況",
-          "explanation": "原規定為所長指派專人指導，不是一定所長親自操作教學。",
-          "correction": "親自指導改為指派專人指導。",
+          "explanation": "原卷把「所長親自指導」與勤查系統操作連在一起；目前已讀的訪查辦法未規定該內部分工，局部修正表也不足證明由何人指導。",
+          "correction": "保留內部教育與操作指導權責待核，不將官方非選項直接寫成法令禁止所長協助。",
           "trueStatement": false
         }
       ],
@@ -734,19 +734,40 @@
       "answerStatus": "官方最終答案已核（無更正紀錄）",
       "amendment": {
         "status": "changed",
-        "law": "警察勤務區訪查作業規定第9點",
-        "date": "111-12-14",
-        "oldRule": "原題依109年版之勤查時數基準及權責設選項；B將基準訂定機關誤寫派出所所長。",
-        "newRule": "考後111.12.14第9點另有修正，警專官方公告附有修正對照表與修正後完整規定。",
-        "note": "當年答案A保留。已確認指定規範考後修正；本次尚未完成新版第9點逐句比對，故不把原題12小時或自行推算時數寫成2026現行基準。其餘點次亦應核最新版。",
+        "law": "警政署《警光》811期2024年2月・頁19落實警勤區查察工作；警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）；警察勤務區訪查辦法現行全文；考選部111年內軌四等警察勤務概要原卷；考選部標準答案；考選部最終答案及更正清冊",
+        "checkedAt": "2026-11-20",
+        "note": "原題明指109年版；已由警政署《警光》811期頁19原文核實111.12.14第9點把每月訪查時數由12提高至16小時。109年全文、現行缺額資料保管與督帶勤／系統指導分工仍未齊備。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "109年考點與111年後16小時分開；有關保管、督帶勤及系統指導的分工不可靠答案反推。",
         "sources": [
           {
-            "title": "警專官方111.12.14第9點修正公告及附件",
-            "url": "https://admin.tpa.edu.tw/p/405-1015-7806%2Cc967.php?Lang=zh-tw"
+            "title": "警政署《警光》811期2024年2月・頁19落實警勤區查察工作",
+            "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=1229247447323119616&module=wg079&type=s"
+          },
+          {
+            "title": "警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+          },
+          {
+            "title": "警察勤務區訪查辦法現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
+          },
+          {
+            "title": "考選部111年內軌四等警察勤務概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+          },
+          {
+            "title": "考選部標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+          },
+          {
+            "title": "考選部最終答案及更正清冊",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
           }
-        ]
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "本項符合109年題示版本：警勤區缺額且尚未派補指定代理前，相關資料由所長保管。",
+      "takeaway": "109年考點與111年後16小時分開；有關保管、督帶勤及系統指導的分工不可靠答案反推。",
       "sources": [
         {
           "title": "考選部111年內軌四等警察勤務概要原卷",
@@ -759,8 +780,21 @@
         {
           "title": "考選部最終答案及更正清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警政署《警光》811期2024年2月・頁19落實警勤區查察工作",
+          "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=1229247447323119616&module=wg079&type=s"
+        },
+        {
+          "title": "警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+        },
+        {
+          "title": "警察勤務區訪查辦法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A；本題按109年版作答。2026複習時數應記16小時以上，不能沿用原題B的12小時；資料保管與抽訪、指導權責尚待完整規定核對。"
     },
     {
       "id": "duty111_12",
@@ -771,26 +805,26 @@
       "options": [
         {
           "text": "腹案日誌表是用來呈現轄區人、地、事、物之概況資料",
-          "explanation": "腹案日誌表用於事前預擬訪查工作，不是警勤區人地事物總體概況表。",
-          "correction": "概況資料應看警勤區概況表。",
+          "explanation": "《警光》777期頁69—70說明預擬腹案日誌送所長確認及其刪除方式；112年第26點又直接以未預擬日誌表或未依所擬日誌實施為違失，可見日誌與訪查規劃及執行紀錄有關。",
+          "correction": "A所稱全部人地事物概況不能取代日誌的規劃功能；概況表精確定義仍待109年第12點全文。",
           "trueStatement": false
         },
         {
           "text": "警勤區概況表是用來標示警勤區內之道路、金融機構、重點人口或重要人士住居所與其他重要治安熱點",
-          "explanation": "以位置呈現道路、機構與熱點是圖資功能，不是概況表的正確對應。",
-          "correction": "依警勤區圖或系統圖層呈現。",
+          "explanation": "B敘述以道路、機構、住居所與熱點位置呈現空間資訊；目前未取得109年第12點的轄境圖、概況表正式定義，不能只用名稱直覺當法規證據。",
+          "correction": "不把空間標示內容背成已核定的概況表定義；待取正式點次後核對。",
           "trueStatement": false
         },
         {
           "text": "警勤區訪查簿是用來登錄治安顧慮人口及記事人口之查訪資料",
-          "explanation": "治安顧慮人口與記事人口的查訪資料有其個別系統卡片；不能概括以本項訪查簿定義取代。",
-          "correction": "依相應戶卡片、記事卡及系統欄位登錄。",
+          "explanation": "《警光》777期頁70「修正警勤區記事簿之記事卡內容」明載記事簿用於查訪對象列管記事卡及註記；治安顧慮人口、性侵害加害人訊息資料每日自動轉入，仍由員警接收確認後建卡列管查訪。C將這類重點人口記事全歸給訪查簿，與已讀說明不同。",
+          "correction": "分開訪查簿與記事簿；重點人口記事卡及註記的系統說明已取得，訪查簿全部內容仍待核；不可把來源訊息自動轉入說成全體記事自動完成。",
           "trueStatement": false
         },
         {
           "text": "警勤區手冊是由勤查系統自動將警勤區訪查簿、記事簿及相關人事地物等資料加以彙整而成",
-          "explanation": "警勤區手冊係系統彙整相關簿冊及人事地物資料形成，符合原題版本。",
-          "correction": "無須依原題修正。",
+          "explanation": "D是官方答案；原卷確為系統自動將訪查簿、記事簿及人事地物資料彙整成手冊。已讀官方777期沒有完整重現這一定義，不能以當年D替代制度原件。",
+          "correction": "考古保留D；目前不得宣稱手冊自動彙整的所有範圍及現行功能均已核完。",
           "trueStatement": true
         }
       ],
@@ -806,10 +840,40 @@
       "answerStatus": "官方最終答案已核（無更正紀錄）",
       "amendment": {
         "status": "review",
-        "note": "本題依指定當年行政規則或學理核對官方答案；完整現行規範或來源仍待核，不把歷史答案當現行法律定論。",
-        "sources": []
+        "law": "警政署《警光》777期2021年4月・頁68—70勤查系統修正重點；新北市政府警察局115年警政訊息・頁33—34引訪查作業規定第10、11、14點；警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）；考選部111年內軌四等警察勤務概要原卷；考選部標準答案；考選部最終答案及更正清冊",
+        "checkedAt": "2026-11-20",
+        "note": "已取得警政署《警光》777期全文，頁69—70直接說明預擬腹案日誌及警勤區記事簿記錄治安顧慮人口、記事人口之資料，並與112年第26點預擬日誌表規定及115年官方資料互證；第12點各簿冊完整定義仍未取得。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "不要混淆事前規劃日誌與人口記事；電子化不代表各類簿冊功能相同。",
+        "sources": [
+          {
+            "title": "警政署《警光》777期2021年4月・頁68—70勤查系統修正重點",
+            "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=836535717369745408&module=wg079&type=s"
+          },
+          {
+            "title": "新北市政府警察局115年警政訊息・頁33—34引訪查作業規定第10、11、14點",
+            "url": "https://www.police.ntpc.gov.tw/dl-41555-efd96196-dd10-4ab6-8e55-c1ce5110048d.html"
+          },
+          {
+            "title": "警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+          },
+          {
+            "title": "考選部111年內軌四等警察勤務概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111070&c=601&s=1109&q=1"
+          },
+          {
+            "title": "考選部標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111070&c=601&s=1109&q=1"
+          },
+          {
+            "title": "考選部最終答案及更正清冊",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "警勤區手冊係系統彙整相關簿冊及人事地物資料形成，符合原題版本。",
+      "takeaway": "不要混淆事前規劃日誌與人口記事；電子化不代表各類簿冊功能相同。",
       "sources": [
         {
           "title": "考選部111年內軌四等警察勤務概要原卷",
@@ -822,8 +886,21 @@
         {
           "title": "考選部最終答案及更正清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警政署《警光》777期2021年4月・頁68—70勤查系統修正重點",
+          "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=836535717369745408&module=wg079&type=s"
+        },
+        {
+          "title": "新北市政府警察局115年警政訊息・頁33—34引訪查作業規定第10、11、14點",
+          "url": "https://www.police.ntpc.gov.tw/dl-41555-efd96196-dd10-4ab6-8e55-c1ce5110048d.html"
+        },
+        {
+          "title": "警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D；已可確認腹案日誌與事前預擬訪查、記事簿與重點人口資料的關係。轄境圖、概況表、訪查簿及手冊自動彙整的完整定義尚待指定109年全文，整題保留待核。"
     },
     {
       "id": "duty111_13",

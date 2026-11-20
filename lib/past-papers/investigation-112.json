@@ -232,26 +232,26 @@
       "options": [
         {
           "text": "實施指認，應指派該案件偵辦人員辦理",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "原則由案件偵辦人員以外之人員辦理指認，以降低暗示及偏誤；特殊例外另依規定。",
+          "explanation": "臺北地檢署官方文章及監察院引警察注意事項第2點均以非案件偵辦人員主持為原則。A把原則寫反。",
+          "correction": "應改為原則指派非案件偵辦人員；如要適用急迫等例外，須依法定程序記錄及錄音錄影。",
           "trueStatement": false
         },
         {
           "text": "應於設置單面鏡之偵詢室或適當處所進行，並全程連續錄音及錄影",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原則由案件偵辦人員以外之人員辦理指認，以降低暗示及偏誤；特殊例外另依規定。",
+          "explanation": "官方文章以單面指認玻璃、單面鏡或雙向視訊之詢問室或適當處所及全程連續錄音錄影為原則；監察院引警察第2點也載單面鏡與錄音錄影。",
+          "correction": "保留題示原則；急迫例外的具體條件仍依正式警察注意事項，不由一般文章擴張。",
           "trueStatement": true
         },
         {
           "text": "指認前應由指認人先就犯罪嫌疑人特徵進行陳述",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原則由案件偵辦人員以外之人員辦理指認，以降低暗示及偏誤；特殊例外另依規定。",
+          "explanation": "監察院62901完整報告引第3點：指認前確認確實目擊相貌，陳述整體相貌、外型、衣著等特徵及確信程度，並問關係、時間距離與視線等。",
+          "correction": "先讓指認人自行描述，再進行指認並留存其原始描述，不先提示嫌疑人特徵供其附和。",
           "trueStatement": true
         },
         {
           "text": "指認前不得向指認人提供任何具暗示或誘導性之指示或資訊",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原則由案件偵辦人員以外之人員辦理指認，以降低暗示及偏誤；特殊例外另依規定。",
+          "explanation": "臺北地檢署官方文章及監察院引第4點都要求指認前不得提供具暗示、誘導性的指示、資訊或安排。",
+          "correction": "先告知嫌疑人未必在列，避免服裝、戒具、照片規格或話語把某人特別標示為嫌疑人。",
           "trueStatement": true
         }
       ],
@@ -268,13 +268,34 @@
       "paperTrack": "內軌",
       "paperNumber": 3,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）；監察院調查報告・指認程序（完整報告，摘列107年注意事項）；監察院調查報告・南投大學生竊盜案指認程序（完整報告）；警專公開115年新版警察偵查犯罪手冊（完整主文）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "主持人原則為非案件偵辦者；單面鏡或適當處所、全程連續錄音錄影、先描述及禁止暗示，都是降低指認錯誤的重要程序。",
+        "sources": [
+          {
+            "title": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）",
+            "url": "https://www.tpc.moj.gov.tw/292885/976681/661783/1396443/post"
+          },
+          {
+            "title": "監察院調查報告・指認程序（完整報告，摘列107年注意事項）",
+            "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/42749"
+          },
+          {
+            "title": "監察院調查報告・南投大學生竊盜案指認程序（完整報告）",
+            "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/62901"
+          },
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "原則由案件偵辦人員以外之人員辦理指認，以降低暗示及偏誤；特殊例外另依規定。",
+      "takeaway": "主持人原則為非案件偵辦者；單面鏡或適當處所、全程連續錄音錄影、先描述及禁止暗示，都是降低指認錯誤的重要程序。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -291,8 +312,25 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）",
+          "url": "https://www.tpc.moj.gov.tw/292885/976681/661783/1396443/post"
+        },
+        {
+          "title": "監察院調查報告・指認程序（完整報告，摘列107年注意事項）",
+          "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/42749"
+        },
+        {
+          "title": "監察院調查報告・南投大學生竊盜案指認程序（完整報告）",
+          "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/62901"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "當年度官方A；四項一般原則已與完整官方文章對照，正式現行警察注意事項全文及全部例外仍待核。"
     },
     {
       "id": "investigation112_04",
@@ -1016,26 +1054,26 @@
       "options": [
         {
           "text": "在犯人藏匿處所及其經常出入場所，秘密埋伏守候，伺機予以逮捕",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：不能刻意挑人車壅塞時拘捕而增加第三人風險；應依安全、環境與警力選擇適當時機。",
+          "explanation": "115手冊第140點第2款包括於室內執行時運用埋伏守候等方法；第141點亦允許視情形俟機誘捕。A的守候方法有一般原件支持，但仍須有合法拘捕原因。",
+          "correction": "先確認拘票、通緝、現行犯或其他法定依據，依環境風險部署，埋伏本身不會創設逮捕權。",
           "trueStatement": true
         },
         {
           "text": "在屋內執行逮捕時，首應注意屋頂、陽台是否容易攀爬脫逃，須嚴加監控",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：不能刻意挑人車壅塞時拘捕而增加第三人風險；應依安全、環境與警力選擇適當時機。",
+          "explanation": "屋頂、陽台可能是逃逸路徑，符合第140點熟悉環境與充分準備的方向，但完整主文未記載一律先監控屋頂陽台的固定次序。",
+          "correction": "將屋頂、陽台等路徑納入整體警戒；不得把本項文字當每案均適用的硬性順序。",
           "trueStatement": true
         },
         {
           "text": "對象駕車時，利用紅綠燈攔截是最好時機，伺機進行逮捕",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：不能刻意挑人車壅塞時拘捕而增加第三人風險；應依安全、環境與警力選擇適當時機。",
+          "explanation": "115手冊第140、141點要求掌握環境、安全及策略，沒有認定紅綠燈攔截於所有情況都最好。本次未取得原題具體時機規範的完整官方原件。",
+          "correction": "依路況、乘客、武器、逃逸及旁人風險判斷；不教成紅綠燈攔截永遠最好的通則。",
           "trueStatement": true
         },
         {
           "text": "在街頭執行逮捕時，應選擇人多、車多時機，因道路擁擠，犯嫌不易逃跑",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "不能刻意挑人車壅塞時拘捕而增加第三人風險；應依安全、環境與警力選擇適當時機。",
+          "explanation": "D以人車擁擠作為優點，會增加旁人受傷、交通混亂與員警執行風險，與115手冊第140、141點安全準備及必要程度的要求不符；官方因此選D。",
+          "correction": "應選擇較可控制、能降低旁人與交通風險的時機地點，並配置必要警戒及支援。",
           "trueStatement": false
         }
       ],
@@ -1052,13 +1090,22 @@
       "paperTrack": "內軌",
       "paperNumber": 12,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "拘捕需確認對象、熟悉環境、顧及團隊與公眾安全；人車多不等於適合執行。紅綠燈、屋頂或陽台只能列為個案風險評估，不能當不問情況的口訣。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "不能刻意挑人車壅塞時拘捕而增加第三人風險；應依安全、環境與警力選擇適當時機。",
+      "takeaway": "拘捕需確認對象、熟悉環境、顧及團隊與公眾安全；人車多不等於適合執行。紅綠燈、屋頂或陽台只能列為個案風險評估，不能當不問情況的口訣。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -1075,8 +1122,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "當年度官方D；安全原則已核，C「紅綠燈是最好時機」的完整勤務原件尚缺。"
     },
     {
       "id": "investigation112_13",
@@ -1777,26 +1829,26 @@
       "options": [
         {
           "text": "查贓的重要性，分別為根據失竊狀況推定嫌犯、循贓緝犯及提高破案效果，增進民眾信心",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題原卷的查贓列舉不能把旅館直接當成所問的易銷贓主要對象；勿與情報諮詢重點場所混用。",
+          "explanation": "115手冊第203、204點確認贓物是主要犯罪證據，須追查並詳辨特徵，有助循贓追查犯嫌。A所列增進信心屬實務目的說明，非由答案鍵單獨證成。",
+          "correction": "將失竊特徵與人、物、時、地相互比對，仍須依法蒐證，不因追贓重要即省略程序。",
           "trueStatement": true
         },
         {
           "text": "易銷贓場所，包含旅館、當舖業、委託寄售業、汽車或機車修配及中古車輛買賣業等，並將其列為 主要查察對象",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "本題原卷的查贓列舉不能把旅館直接當成所問的易銷贓主要對象；勿與情報諮詢重點場所混用。",
+          "explanation": "115手冊第205點列當舖、舊貨、寄售、金飾珠寶及車輛修配保管、中古車買賣等實體業者，沒有把旅館列為一般主要對象。B把場所類別混入。",
+          "correction": "依客觀犯罪連結及法定職權判斷，旅館若有具體贓物線索可依法查處，但不因此成為第205點概括列舉的主要業別。",
           "trueStatement": false
         },
         {
           "text": "對轄內已發生或依客觀合理判斷易發生收受、寄藏、牙保贓物之易銷贓場所，應妥為規劃勤務，實 施查贓作為",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題原卷的查贓列舉不能把旅館直接當成所問的易銷贓主要對象；勿與情報諮詢重點場所混用。",
+          "explanation": "依具體發生或客觀合理風險規劃追贓，與手冊第203至205點方向一致；但所引查贓作業規定關於對象列管與勤務規劃的全文本次未取得。",
+          "correction": "依法定要件與具體事證規劃勤務，不把場所標籤直接當無條件進入、搜索或扣押的授權。",
           "trueStatement": true
         },
         {
           "text": "查贓時之通報至為重要，應將贓物特徵輸入電腦、並製作失物查尋專刊，供其他警察機關或當舖業 協尋",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題原卷的查贓列舉不能把旅館直接當成所問的易銷贓主要對象；勿與情報諮詢重點場所混用。",
+          "explanation": "手冊第204點列明廠牌、規格、號碼、傷痕等應先查明的辨識特徵，支持精確通報的重要性；主文未完整列D的系統輸入及專刊製作流程。",
+          "correction": "通報應精確記錄贓物特徵；系統、專刊與下網作業仍須查正式查贓作業規定，不僅憑本題答案鍵宣稱已核。",
           "trueStatement": true
         }
       ],
@@ -1813,13 +1865,22 @@
       "paperTrack": "內軌",
       "paperNumber": 20,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "查贓先掌握贓物特徵與合法查察依據；手冊主要列當舖、舊貨、寄售、珠寶及車輛相關業者，不能把旅館因案可查等同列為當然主要銷贓對象。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "本題原卷的查贓列舉不能把旅館直接當成所問的易銷贓主要對象；勿與情報諮詢重點場所混用。",
+      "takeaway": "查贓先掌握贓物特徵與合法查察依據；手冊主要列當舖、舊貨、寄售、珠寶及車輛相關業者，不能把旅館因案可查等同列為當然主要銷贓對象。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -1836,8 +1897,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "當年度官方B；115手冊可確認主要查贓對象清單，專刊與查贓勤務細節仍缺完整作業規定。"
     },
     {
       "id": "investigation112_21",
@@ -1849,26 +1915,26 @@
       "options": [
         {
           "text": "初抵現場應優先救護傷患為第一要務，但傷患如是加害人，應先上手銬等候刑事人員到場",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "傷患即使是加害人，也應依安全條件立即救護，不得只上銬等待而延誤救治。",
+          "explanation": "115手冊第51點明定受傷者不論被害人或加害人，均應迅速救護或送醫，並視情形保護或戒護。A把加害人救護延後到刑事人員到場，錯誤。",
+          "correction": "對加害人的必要戒護與迅速救護應兼顧，不能一律先上銬後等待而延誤治療。",
           "trueStatement": false
         },
         {
           "text": "注意犯罪嫌疑人是否藏匿於現場或混雜於圍觀群眾中",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：傷患即使是加害人，也應依安全條件立即救護，不得只上銬等待而延誤救治。",
+          "explanation": "115手冊第54點明文嫌疑人可能仍留現場或混跡圍觀群眾，初抵人員應縝密巡視觀察，及時發現追捕。",
+          "correction": "觀察現場與群眾的可疑動靜，採取辨識、警戒及依法緝捕措施，同時注意救護與證物保全。",
           "trueStatement": true
         },
         {
           "text": "傷患送醫應由警察人員陪同其家屬親自護送，並利用送醫途中探詢案件發生之事實真相",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：傷患即使是加害人，也應依安全條件立即救護，不得只上銬等待而延誤救治。",
+          "explanation": "115手冊第53點僅對護送犯罪嫌疑人以外的傷患明文途中詢問案件真相並記錄；C未加此身分限制，亦不能以途中詢問妨礙救護。",
+          "correction": "應限於適合接受探詢的非嫌疑人傷患，兼顧醫療；對嫌疑人另依刑訴權利保障與詢問程序處理。",
           "trueStatement": true
         },
         {
           "text": "傷患衣物應妥善保存，以利日後檢查需要",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：傷患即使是加害人，也應依安全條件立即救護，不得只上銬等待而延誤救治。",
+          "explanation": "115手冊第53點末句明定傷患衣物應妥善保存，以利日後檢查。此要求有直接完整原件支持。",
+          "correction": "妥善保存並記錄交接；衣物含跡證時仍按其特性採適當方式保全，避免污染或遺失。",
           "trueStatement": true
         }
       ],
@@ -1885,13 +1951,26 @@
       "paperTrack": "內軌",
       "paperNumber": 21,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "changed",
+        "law": "警專公開115年新版警察偵查犯罪手冊（完整主文）；刑事訴訟法（本次核對之現行全文）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。本題有版本或現行適用落差，核對日不是修法日。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "被害人、加害人受傷都要迅速救護，戒護與救護並行。非嫌疑人傷患可於護送途中探詢；嫌疑人仍須遵守詢問、權利告知及錄音等程序，衣物妥善保全。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "刑事訴訟法（本次核對之現行全文）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ],
+        "effectiveStatus": "mixed"
       },
-      "takeaway": "傷患即使是加害人，也應依安全條件立即救護，不得只上銬等待而延誤救治。",
+      "takeaway": "被害人、加害人受傷都要迅速救護，戒護與救護並行。非嫌疑人傷患可於護送途中探詢；嫌疑人仍須遵守詢問、權利告知及錄音等程序，衣物妥善保全。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -1908,8 +1987,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "刑事訴訟法（本次核對之現行全文）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "當年度官方A；115手冊第53點已明限犯罪嫌疑人以外之傷患途中詢問，C不能無條件照讀。"
     },
     {
       "id": "investigation112_22",
@@ -3036,26 +3124,26 @@
       "options": [
         {
           "text": "毒性化學物質",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：112年原卷一氧化二氮屬關注化學物質；關注與毒性化學物質、毒品級別不是同一分類。",
+          "explanation": "毒管法第3條第1款以毒性分類並經公告定義毒性化學物質；本題笑氣在化學署公告清單列關注，不能只因有危害就自動歸毒性類。",
+          "correction": "依實際公告類別判斷，不以日常所稱有毒直接替代法律分類。",
           "trueStatement": false
         },
         {
           "text": "關注化學物質",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "112年原卷一氧化二氮屬關注化學物質；關注與毒性化學物質、毒品級別不是同一分類。",
+          "explanation": "第3條第2款定義關注化學物質；化學署清單及個別列管資料明列一氧化二氮、CAS10024-97-2、L001-01為關注。",
+          "correction": "B符合本題所問列管身分；不表示其無危害或可任意吸食、販售運作。",
           "trueStatement": true
         },
         {
           "text": "既有化學物質",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：112年原卷一氧化二氮屬關注化學物質；關注與毒性化學物質、毒品級別不是同一分類。",
+          "explanation": "第3條第3款的既有化學物質依是否列入既有清冊判別，與是否被公告關注是不同問題。",
+          "correction": "C不能替代本題公告列管答案，也不能反向說笑氣必不可能具有其他登錄管理身分。",
           "trueStatement": false
         },
         {
           "text": "新化學物質",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：112年原卷一氧化二氮屬關注化學物質；關注與毒性化學物質、毒品級別不是同一分類。",
+          "explanation": "第3條第4款以既有清冊以外定義新化學物質，不是因近日被濫用或新聞新報導就成新化學物質。",
+          "correction": "本題依列管公告選關注，勿把新出現社會問題當成法律的新物質定義。",
           "trueStatement": false
         }
       ],
@@ -3066,19 +3154,35 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第36題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 36,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "毒性及關注化學物質管理法第3、24、30條；環境部化學署・關注化學物質清單；環境部化學署列管資料・一氧化二氮（笑氣）L001-01",
+        "checkedAt": "2026-11-20",
+        "note": "已核毒管法定義及化學署現行清單、個別資料；清單公告日期與網頁更新日期分開，不以公告關注推論工業登錄清冊身分。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "笑氣的列管答案是關注；既有／新與毒性／關注不可混作同一分類軸。",
+        "sources": [
+          {
+            "title": "毒性及關注化學物質管理法第3、24、30條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0060012"
+          },
+          {
+            "title": "環境部化學署・關注化學物質清單",
+            "url": "https://www.cha.gov.tw/sp-toch-list-1.html?query=&type=attention"
+          },
+          {
+            "title": "環境部化學署列管資料・一氧化二氮（笑氣）L001-01",
+            "url": "https://www.cha.gov.tw/sp-toch-form-2057-9bd948e6e6204acab29b640d04ff3619-1.html"
+          }
+        ]
       },
-      "takeaway": "112年原卷一氧化二氮屬關注化學物質；關注與毒性化學物質、毒品級別不是同一分類。",
+      "takeaway": "笑氣的列管答案是關注；既有／新與毒性／關注不可混作同一分類軸。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -3095,8 +3199,21 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "毒性及關注化學物質管理法第3、24、30條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=O0060012"
+        },
+        {
+          "title": "環境部化學署・關注化學物質清單",
+          "url": "https://www.cha.gov.tw/sp-toch-list-1.html?query=&type=attention"
+        },
+        {
+          "title": "環境部化學署列管資料・一氧化二氮（笑氣）L001-01",
+          "url": "https://www.cha.gov.tw/sp-toch-form-2057-9bd948e6e6204acab29b640d04ff3619-1.html"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B不變。化學署現行列管清單與L001-01個別頁均列笑氣為關注化學物質；既有／新化學物質是另一清冊登錄分類，不能取代本題的關注列管身分。"
     },
     {
       "id": "investigation112_37",
@@ -3180,26 +3297,26 @@
       "options": [
         {
           "text": "收受、持有或使用他人之特定犯罪所得",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：指定融資性租賃事業有適用金融機構相關規範的情形，不能概括宣稱完全不適用。",
+          "explanation": "收受、持有或使用他人的特定犯罪所得，仍是現行第2條第3款明文。",
+          "correction": "A在法定類型內，個案仍需證明特定犯罪所得、行為與主觀要件，不因接觸他人財物就當然成立。",
           "trueStatement": true
         },
         {
           "text": "意圖掩飾或隱匿特定犯罪所得來源，或使他人逃避刑事追訴，而轉移或變更特定犯罪所得",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：指定融資性租賃事業有適用金融機構相關規範的情形，不能概括宣稱完全不適用。",
+          "explanation": "原題是舊式意圖及轉移變更的文字。現行第2條第1、2款改以隱匿或掩飾來源，以及妨礙、危害調查發現保全沒收追徵等類型審查。",
+          "correction": "依具體行為是否符合現行四款判斷；不能把轉移或變更四字本身當成全部要件，也不能稱原句為現行逐字條文。",
           "trueStatement": true
         },
         {
           "text": "辦理融資性租賃之事業，不適用本法關於金融機構之規定",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "指定融資性租賃事業有適用金融機構相關規範的情形，不能概括宣稱完全不適用。",
+          "explanation": "現行第5條第2項明定辦理融資性租賃、提供虛擬資產服務的事業或人員適用金融機構規定，第4項另有適用範圍指定機制。本項一概說不適用，錯誤。",
+          "correction": "改為在法律及依法指定範圍內適用；不以一項業務名稱推論所有個別業者及所有交易均無條件納入。",
           "trueStatement": false
         },
         {
           "text": "掩飾或隱匿特定犯罪所得之本質、來源、去向、所在、所有權、處分權或其他權益者",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：指定融資性租賃事業有適用金融機構相關規範的情形，不能概括宣稱完全不適用。",
+          "explanation": "原題對本質、來源、去向、所在及權益的長列舉，須與現行第2條隱匿掩飾來源及妨礙追查等款對照，不能只用原文字詞認定犯罪。",
+          "correction": "隱匿、掩飾等具體事實仍可能符合現行定義；須逐款審查特定犯罪所得與行為、主觀要件。",
           "trueStatement": true
         }
       ],
@@ -3210,19 +3327,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第38題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 38,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "changed",
+        "law": "洗錢防制法第2、5條",
+        "checkedAt": "2026-11-20",
+        "note": "已核現行洗錢防制法第2、5條。原題112年列舉與現行重整文字有差異，保留官方C，並未以條次重整宣稱每個舊情境皆改判；具體租賃業者指定範圍另依適用公告。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "融資性租賃不是一概排除；舊題洗錢列舉與現行第2條分開，不把任何資金轉移都當然認成洗錢。",
+        "sources": [
+          {
+            "title": "洗錢防制法第2、5條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0380131"
+          }
+        ]
       },
-      "takeaway": "指定融資性租賃事業有適用金融機構相關規範的情形，不能概括宣稱完全不適用。",
+      "takeaway": "融資性租賃不是一概排除；舊題洗錢列舉與現行第2條分開，不把任何資金轉移都當然認成洗錢。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -3239,8 +3364,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "洗錢防制法第2、5條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0380131"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C保留。現行第5條第2項仍將辦理融資性租賃者納入金融機構規定的適用，具體範圍依同條指定機制。第2條洗錢定義已重整，A、B、D須按現行四款實質要件對照。"
     },
     {
       "id": "investigation112_39",
@@ -3396,26 +3526,26 @@
       "options": [
         {
           "text": "被採樣人之住居所",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "本題法定樣本記載列舉不含住居所；應與個人身分檔案及其他案卷資料區分。",
+          "explanation": "施行細則第6條三款未把住居所列為樣本應記載事項，故選A；條例第7條第2項第1款卻明列通知書須記載住所或居所。",
+          "correction": "只在本題樣本記載清單內排除住居所，不可延伸為通知書也不需或不得記載。",
           "trueStatement": true
         },
         {
           "text": "被採樣人之姓名、性別、出生年月日",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題法定樣本記載列舉不含住居所；應與個人身分檔案及其他案卷資料區分。",
+          "explanation": "細則第6條第1款明列姓名、性別、出生年月日，另有身分證、護照或旅行證件號碼。",
+          "correction": "B是應記載項目，不能因選項未完整列所有證件號碼便否定其所列三項。",
           "trueStatement": false
         },
         {
           "text": "採樣人之姓名、職稱及服務機關",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題法定樣本記載列舉不含住居所；應與個人身分檔案及其他案卷資料區分。",
+          "explanation": "第6條第3款列採樣人的姓名、職稱及服務機關，以辨識採樣責任與來源。",
+          "correction": "C在清單內；仍須依實際執行人員如實記載。",
           "trueStatement": false
         },
         {
           "text": "樣本之型態、數量、採樣時間及採樣地點",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題法定樣本記載列舉不含住居所；應與個人身分檔案及其他案卷資料區分。",
+          "explanation": "第6條第2款明列樣本型態、數量、採樣時間及地點。",
+          "correction": "D在清單內；樣本標識與採樣、保管運送紀錄並行，不能以封袋代替所有記錄。",
           "trueStatement": false
         }
       ],
@@ -3426,19 +3556,35 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第41題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 41,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "去氧核醣核酸採樣條例施行細則第6、8條；去氧核醣核酸採樣條例第7條；去氧核醣核酸樣本採集準則第4、6條",
+        "checkedAt": "2026-11-20",
+        "note": "已直接核細則第6條三款及條例第7條不同文書規定；不以未列樣本欄位推論其他依法必要資料一律禁止蒐集。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "樣本標記、採樣證明書與通知書的法定欄位分開；樣本未列住居所不代表其他文書不得記載。",
+        "sources": [
+          {
+            "title": "去氧核醣核酸採樣條例施行細則第6、8條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080187"
+          },
+          {
+            "title": "去氧核醣核酸採樣條例第7條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080186"
+          },
+          {
+            "title": "去氧核醣核酸樣本採集準則第4、6條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080196"
+          }
+        ]
       },
-      "takeaway": "本題法定樣本記載列舉不含住居所；應與個人身分檔案及其他案卷資料區分。",
+      "takeaway": "樣本標記、採樣證明書與通知書的法定欄位分開；樣本未列住居所不代表其他文書不得記載。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -3455,8 +3601,21 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "去氧核醣核酸採樣條例施行細則第6、8條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080187"
+        },
+        {
+          "title": "去氧核醣核酸採樣條例第7條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080186"
+        },
+        {
+          "title": "去氧核醣核酸樣本採集準則第4、6條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080196"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A不變：本題是樣本本身的記載項目，施行細則第6條未列住居所。採樣通知書的住居所欄位是另一文書要求，不能反向一概刪除。"
     },
     {
       "id": "investigation112_42",

@@ -117,7 +117,8 @@ const weaponCompensation=result.essays.find(e=>e.id==='law113-inner-e2');assert(
 console.log('Essay penalty citations, special transfer period and police-weapons compensation safeguards passed.');
 // Historical oversight reports and custody notices cannot be silently substituted for current full rules.
 const crossEvidence=result.laws.find(l=>l.id==='cross');assert(crossEvidence);assert.equal(crossEvidence.verified,false);assert(crossEvidence.points.some(x=>x.includes('歷史佐證')));assert(crossEvidence.traps.some(x=>x.includes('不能代替完整內規')));
-const oldCross=result.questions.find(q=>q.id==='investigation113_03');assert(oldCross);assert.equal(oldCross.answer,2);assert.equal(oldCross.verified,false);assert.notEqual(oldCross.analysisMode,'answer-key');assert(oldCross.currentAnswer.includes('不能直接'));
+// The complete 115 handbook now supports this question; the broader law card still needs its full rules.
+const oldCross=result.questions.find(q=>q.id==='investigation113_03');assert(oldCross);assert.equal(oldCross.answer,2);assert.equal(oldCross.verified,true);assert.notEqual(oldCross.analysisMode,'answer-key');assert(oldCross.currentAnswer.includes('未攜槍得免通報'));assert(oldCross.options[2].explanation.includes('第31點'));assert(oldCross.amendment.sources.some(s=>s.url.startsWith('https://crime.tpa.edu.tw/')));
 const crossAnswer=result.essays.find(e=>e.id==='s10');assert(crossAnswer);assert.equal(crossAnswer.verified,false);assert(crossAnswer.model.basis.includes('完整要點'));
 const arrestAnswer=result.essays.find(e=>e.id==='s11');assert(arrestAnswer);assert(arrestAnswer.model.basis.includes('第89條拘捕告知'));assert(arrestAnswer.model.basis.includes('第89條之1另規定戒具'));assert(arrestAnswer.model.analysis.includes('以書面將原因通知本人及其指定親友'));
 console.log('Historical cross-jurisdiction evidence and corrected arrest notification citation passed.');
@@ -244,7 +245,8 @@ const notExecuted=result.questions.find(q=>q.id==='law112-outer-06');assert(notE
 const detentionRelease=result.questions.find(q=>q.id==='law114-inner-02');assert(detentionRelease.currentAnswer.includes('停止管收'));assert(detentionRelease.currentAnswer.includes('釋放'));
 const policeCommand=result.questions.find(q=>q.id==='law114-outer-01');assert(policeCommand.options[2].explanation.includes('法律保留'));assert(policeCommand.amendment.sources.some(s=>s.url.includes('id=167483')));
 const equalTreatment=result.questions.find(q=>q.id==='law114-outer-16');assert(equalTreatment.currentAnswer.includes('舊法'));assert(equalTreatment.currentAnswer.includes('現行'));
-for(const id of ['law115-inner-08','law115-inner-16']){const q=result.questions.find(x=>x.id===id);assert.equal(q?.verified,false);assert.equal(q.amendment.status,'review');assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()));}
+for(const id of ['law115-inner-16']){const q=result.questions.find(x=>x.id===id);assert.equal(q?.verified,false);assert.equal(q.amendment.status,'review');assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()));}
+const temporaryAssist=result.questions.find(q=>q.id==='law115-inner-08');assert(temporaryAssist.verified);assert.equal(temporaryAssist.answer,1);assert(temporaryAssist.currentAnswer.includes('個案性、輔助性、臨時性'));assert(temporaryAssist.amendment.sources.some(s=>s.url.startsWith('https://www.moi.gov.tw/News_toggle3.aspx')));
 assert(result.questions.find(q=>q.id==='law115-inner-16').options[0].explanation.includes('公眾得出入'));
 const identityAnswers=result.questions.find(q=>q.id==='law115-outer-21');assert(identityAnswers.verified);assert(identityAnswers.currentAnswer.includes('第67條'));assert(identityAnswers.options[1].correction.includes('其他詢問法源另論'));
 console.log('Procedure and constitutional explanations preserve exam keys and unresolved statutory scope.');
@@ -559,3 +561,44 @@ console.log('Fifty-question replay, unchanged event limit, juvenile priority, di
  assert(q('investigation115_26').options[2].explanation.includes('7月12日0時'));
 }
 console.log('Hundred-question supplements, official final credit, exact event limit, future commencement and retained review passed.');
+
+// The additional fifty are separate from the previous hundred, with explicit source gaps.
+{
+ const extraEvents=['a','b'].map(s=>events.find(e=>e.eventId==='legal-review-20261120-plus50-'+s));
+ assert(extraEvents.every(Boolean));assert.deepEqual(extraEvents.map(e=>e.patches.length),[25,25]);
+ const extraPatches=extraEvents.flatMap(e=>e.patches),extraIds=new Set(extraPatches.map(p=>p.targetId));
+ const previousHundred=new Set(events.filter(e=>e.eventId.startsWith('legal-review-20261120-batch100-')).flatMap(e=>e.patches.map(p=>p.targetId)));
+ assert.equal(extraIds.size,50);assert([...extraIds].every(id=>!previousHundred.has(id)));
+ assert.equal(extraPatches.reduce((n,p)=>n+p.optionOverrides.length,0),200);
+ assert.equal(extraPatches.filter(p=>p.verified).length,13);assert.equal(extraPatches.filter(p=>!p.verified).length,37);
+ const q=id=>result.questions.find(x=>x.id===id);
+ for(const p of extraPatches){assert.equal(q(p.targetId).verified,p.verified);assert.notEqual(q(p.targetId).analysisMode,'answer-key');}
+ // A sample label and a sampling notice have different statutory fields.
+ assert(q('investigation112_41').options[0].explanation.includes('通知書須記載住所或居所'));
+ assert(q('investigation110_04').options[2].explanation.includes('檢察官核發拘票'));
+ assert(q('investigation112_36').takeaway.includes('既有／新'));
+ assert.equal(q('investigation112_38').amendment.status,'changed');
+ assert(q('investigation112_38').options[2].correction.includes('依法指定範圍'));
+ // A demand letter is not an enforcement title; voluntary enforcement requires approval.
+ const tuition=q('law114-outer-07');assert(tuition.verified);assert.equal(tuition.answer,1);
+ assert(tuition.options[2].explanation.includes('觀念通知'));assert(tuition.options[3].explanation.includes('認可'));
+ assert(tuition.amendment.sources.some(s=>s.url.includes('FE307665')));
+ assert.equal(q('law113-inner-20').verified,false);assert(q('law113-inner-20').options[1].explanation.includes('第6條'));
+ const offenderRecords=q('investigation111_48');assert(offenderRecords.verified);assert.equal(offenderRecords.answer,3);
+ assert(offenderRecords.options[0].explanation.includes('舊法第9條'));assert(offenderRecords.currentAnswer.includes('第29條'));
+ assert(offenderRecords.amendment.sources.some(s=>s.url.includes('lnndate=20151223')));
+ // Final all-credit scoring does not make every overtime statement legally correct.
+ assert(q('duty113_01').creditedAll);assert(q('duty113_01').currentAnswer.includes('一律給分'));
+ assert(q('duty113_01').options[0].correction.includes('50改40'));
+ assert(q('duty113_01').options[1].correction.includes('100應改80'));
+ assert.equal(q('duty113_10').answer,2);assert(q('duty113_10').currentAnswer.includes('並非D'));
+ assert(q('duty115_01').verified);assert(q('duty115_01').currentAnswer.includes('16小時以上'));
+ assert.equal(q('duty114_22').verified,false);assert(q('duty114_22').options[3].correction.includes('比例與平等皆要遵守'));
+ assert.equal(q('investigation115_27').verified,false);assert(q('investigation115_27').currentAnswer.includes('附件十三'));
+ assert(q('investigation115_27').options[3].correction.includes('不得不正取供'));
+ // Taipei's official law host is accepted without accepting lookalike domains.
+ const taipei={title:'臺北市法規查詢系統',url:'https://laws.gov.taipei/Law/LawSearch/LawArticleContent/FL004759'};
+ assert(validateLegalEvent({...extraEvents[0],sources:[taipei]},ids));
+ assert.equal(validateLegalEvent({...extraEvents[0],sources:[{...taipei,url:'https://laws.gov.taipei.example.com/law'}]},ids),false);
+}
+console.log('Additional fifty, distinct targets, statutory document fields, contract enforcement, version changes and retained source gaps passed.');

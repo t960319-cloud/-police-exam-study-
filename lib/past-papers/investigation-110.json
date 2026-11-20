@@ -230,26 +230,26 @@
       "options": [
         {
           "text": "受強制採樣之人已自行到場者，可不製作通知書交付",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：本題採樣以唾液優先；通知、既有資料查詢及強制到場均有各別程序，不能省略或逕稱緊急拘提。",
+          "explanation": "施行細則第10條明定，依其他法律到案或自行到場而需強制DNA採樣，仍應製作傳票或通知書當場交付。",
+          "correction": "自行到場不等於可免文書；先確認條例第5條採樣事由。",
           "trueStatement": false
         },
         {
           "text": "被採樣人在去氧核醣核酸資料庫中有資料時，仍應予以採樣",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：本題採樣以唾液優先；通知、既有資料查詢及強制到場均有各別程序，不能省略或逕稱緊急拘提。",
+          "explanation": "樣本採集準則第3條要求先確認資料庫無資料；條例第8條允持採樣證明拒絕再採，並列資料不足、樣本身分可疑、紀錄滅失例外。",
+          "correction": "不能因資料庫已有資料反而一律重採；符合第8條例外時另依法補採。",
           "trueStatement": false
         },
         {
           "text": "通知書經合法送達，被採樣人無正當理由不到場者，得緊急拘提到場採樣",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：本題採樣以唾液優先；通知、既有資料查詢及強制到場均有各別程序，不能省略或逕稱緊急拘提。",
+          "explanation": "條例第7條規定合法通知無正當理由不到場，得報請檢察官核發拘票；不是僅不到場就可依一般緊急拘提逕行採樣。",
+          "correction": "依DNA專屬通知與核票程序；若另有其他法定拘捕事由，另行審查，不能用不到場自動替代。",
           "trueStatement": false
         },
         {
           "text": "執行採樣時應優先採取唾液樣本為宜",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "本題採樣以唾液優先；通知、既有資料查詢及強制到場均有各別程序，不能省略或逕稱緊急拘提。",
+          "explanation": "樣本採集準則第4條明定優先唾液，其次血液，再其次毛髮；其中血液應由醫事人員採取。",
+          "correction": "D符合優先次序，但優先唾液不會免除採樣對象、必要文書及程序保障。",
           "trueStatement": true
         }
       ],
@@ -260,19 +260,35 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第4題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 4,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "去氧核醣核酸採樣條例第5、7、8條；去氧核醣核酸採樣條例施行細則第10條；去氧核醣核酸樣本採集準則第3、4條",
+        "checkedAt": "2026-11-20",
+        "note": "已核條例第5、7、8條、細則第10條及採集準則第3、4條，分清DNA特別程序與一般刑事採證；未把有證明書拒採原則寫成無例外。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "依法通知，重複採樣有三個法定例外；唾液優先，血液由醫事人員採取。",
+        "sources": [
+          {
+            "title": "去氧核醣核酸採樣條例第5、7、8條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080186"
+          },
+          {
+            "title": "去氧核醣核酸採樣條例施行細則第10條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080187"
+          },
+          {
+            "title": "去氧核醣核酸樣本採集準則第3、4條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080196"
+          }
+        ]
       },
-      "takeaway": "本題採樣以唾液優先；通知、既有資料查詢及強制到場均有各別程序，不能省略或逕稱緊急拘提。",
+      "takeaway": "依法通知，重複採樣有三個法定例外；唾液優先，血液由醫事人員採取。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -285,8 +301,21 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "去氧核醣核酸採樣條例第5、7、8條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080186"
+        },
+        {
+          "title": "去氧核醣核酸採樣條例施行細則第10條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080187"
+        },
+        {
+          "title": "去氧核醣核酸樣本採集準則第3、4條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080196"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D不變。DNA特別程序仍須確認法定採樣對象、通知、資料庫既存資料及重複採樣例外，不能直接套刑訴一般採樣或急迫拘提。"
     },
     {
       "id": "investigation110_05",
@@ -868,26 +897,26 @@
       "options": [
         {
           "text": "①②③④⑤⑥",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題錯誤組合為②③④⑤：學校不當然有獨立告訴權、期間原則自知悉犯人起算、共犯涉及告訴不可分，死者生前明示不告訴亦須注意。",
+          "explanation": "①在父母為法定代理人的前提下符合刑訴第233條第1項，並非錯誤；A把六句全部列為錯誤，因此不能成立。②③⑤確有法律問題，④須注意效力及全體共犯，⑥另欠法院核定條件。",
+          "correction": "不能把①也列為錯誤；法定代理人於被害人生存時的獨立告訴，與其死亡後告訴應分開。",
           "trueStatement": true
         },
         {
           "text": "②③④⑤",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "本題錯誤組合為②③④⑤：學校不當然有獨立告訴權、期間原則自知悉犯人起算、共犯涉及告訴不可分，死者生前明示不告訴亦須注意。",
+          "explanation": "B是當年度官方給分的錯誤組合。②學校無當然告訴權；③應自知悉犯人起算；④對一共犯告訴效力及於其他共犯；⑤死亡後不得違反被害人明示不追究之意思。",
+          "correction": "學校可告發；期間由知悉犯人起算六個月；一人告訴效力及全體；死亡後家屬告訴受生前明示意思拘束。另⑥不能省略法院核定要件。",
           "trueStatement": false
         },
         {
           "text": "②③⑤⑥",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題錯誤組合為②③④⑤：學校不當然有獨立告訴權、期間原則自知悉犯人起算、共犯涉及告訴不可分，死者生前明示不告訴亦須注意。",
+          "explanation": "C列入⑥，卻漏掉④的共犯告訴不可分問題。依現行調解條例，⑥若只有調解成立而無法院核定，並非當然不得再告訴。",
+          "correction": "④應說明對一共犯告訴效力及於其他共犯；⑥須查法院核定，不能由調解成立直接推出拒收。",
           "trueStatement": true
         },
         {
           "text": "①③④",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題錯誤組合為②③④⑤：學校不當然有獨立告訴權、期間原則自知悉犯人起算、共犯涉及告訴不可分，死者生前明示不告訴亦須注意。",
+          "explanation": "D誤把①列為錯誤，又未列入②及⑤。刑訴第233條分別規定法定代理人的獨立告訴與被害人死亡後告訴，不能混同。",
+          "correction": "①在法定代理人前提下成立；②學校得告發而非當然告訴；⑤不得與死亡被害人生前明示意思相反。",
           "trueStatement": true
         }
       ],
@@ -904,13 +933,30 @@
       "paperTrack": "內軌",
       "paperNumber": 12,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "刑事訴訟法（本次核對之現行全文）；鄉鎮市調解條例第26至28條；警專公開115年新版警察偵查犯罪手冊（完整主文）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "①未成年被害人的法定代理人得獨立告訴；告訴期間從知悉犯人起算。共犯告訴不可分；調解成立須另查法院核定及撤回意旨，不能一概拒收。",
+        "sources": [
+          {
+            "title": "刑事訴訟法（本次核對之現行全文）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "鄉鎮市調解條例第26至28條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0020003"
+          },
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "本題錯誤組合為②③④⑤：學校不當然有獨立告訴權、期間原則自知悉犯人起算、共犯涉及告訴不可分，死者生前明示不告訴亦須注意。",
+      "takeaway": "①未成年被害人的法定代理人得獨立告訴；告訴期間從知悉犯人起算。共犯告訴不可分；調解成立須另查法院核定及撤回意旨，不能一概拒收。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -923,8 +969,21 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "刑事訴訟法（本次核對之現行全文）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "鄉鎮市調解條例第26至28條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0020003"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "當年度官方B；現行須逐句判斷，⑥省略法院核定要件，不能把B無條件當成現行唯一組合。"
     },
     {
       "id": "investigation110_13",
@@ -936,26 +995,26 @@
       "options": [
         {
           "text": "臺北市政府警察局大安分局",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：原卷同時有匯款與面交情節，最後採信義區面交之管轄判斷；不可只以第一筆匯款或人頭帳戶所在地決定。",
+          "explanation": "依115手冊第22點第1項第1、3款，大安區是接獲詐騙、匯款行為及被害人住居相關地，具有可成立偵處責任的連結；不能因當年度選D就說大安無權偵處。",
+          "correction": "現行受理後應依第22點判斷偵處責任；如需移轉，須依順序與特別規定處理，不能僅以有信義面交就拒收。",
           "trueStatement": false
         },
         {
           "text": "臺中市政府警察局第五分局",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：原卷同時有匯款與面交情節，最後採信義區面交之管轄判斷；不可只以第一筆匯款或人頭帳戶所在地決定。",
+          "explanation": "臺中第五分局是李四住居地；現行第22點第1項第2款尚以報案時已提供確切身分或可立即查知犯罪嫌疑人等為前提，帳戶開立人不當然已證實為犯罪嫌疑人。",
+          "correction": "先確認李四是否具該款所定的可識別嫌疑人身分，再判斷住居／戶籍地偵處責任；不把帳戶人等同有罪者。",
           "trueStatement": false
         },
         {
           "text": "高雄市政府警察局左營分局",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：原卷同時有匯款與面交情節，最後採信義區面交之管轄判斷；不可只以第一筆匯款或人頭帳戶所在地決定。",
+          "explanation": "左營是收款帳戶所屬銀行分行所在地，原題另記帳戶人住苓雅；115手冊第22點沒有單憑銀行開戶分行所在地就一律主辦的規定。",
+          "correction": "應查實際犯罪行為、結果及其他法定分工連結；不能把銀行分行所在地與帳戶人住居地混為一談。",
           "trueStatement": false
         },
         {
           "text": "臺北市政府警察局信義分局",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "原卷同時有匯款與面交情節，最後採信義區面交之管轄判斷；不可只以第一筆匯款或人頭帳戶所在地決定。",
+          "explanation": "信義是現金面交地，符合115手冊第22點犯罪地的連結，但該點同時容許其他地區具有偵處責任；當年度官方選D不等於現行排除其他機關。",
+          "correction": "保留當年D給分；現行需結合特別規定與主協辦協調，不直接宣稱信義是唯一現行主辦。",
           "trueStatement": true
         }
       ],
@@ -972,13 +1031,22 @@
       "paperTrack": "內軌",
       "paperNumber": 13,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "changed",
+        "law": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。本題有版本或現行適用落差，核對日不是修法日。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "面交地、匯款行為地、可識別嫌疑人住居／戶籍地及被害人住居／戶籍地可能各有偵處責任。案件主協辦仍須查特別規定及協調，不可看到銀行分行或帳戶人戶籍就機械移轉。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ],
+        "effectiveStatus": "mixed"
       },
-      "takeaway": "原卷同時有匯款與面交情節，最後採信義區面交之管轄判斷；不可只以第一筆匯款或人頭帳戶所在地決定。",
+      "takeaway": "面交地、匯款行為地、可識別嫌疑人住居／戶籍地及被害人住居／戶籍地可能各有偵處責任。案件主協辦仍須查特別規定及協調，不可看到銀行分行或帳戶人戶籍就機械移轉。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -991,8 +1059,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "當年度官方D；115手冊已改採多項偵處責任，不能把面交地當成現行唯一管轄。"
     },
     {
       "id": "investigation110_14",
@@ -1979,26 +2052,26 @@
       "options": [
         {
           "text": "應立即令犯罪嫌疑人操作電腦將所需證物資料取出",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "不得立即讓嫌疑人自行操作電腦取出資料；應防止刪改並記錄現況，由適當人員依程序蒐證。",
+          "explanation": "115手冊第265點第2款要求讓受搜索人與電腦、手機保持適當距離，避免其接觸刪除檔案、證據，並完整記錄操作。A立即命嫌疑人自行取資料，與該原則相反。",
+          "correction": "先保全設備與資料，防止刪改並記錄操作，再由適任人員依合法程序蒐證；不以嫌疑人自行操作作為預設。",
           "trueStatement": false
         },
         {
           "text": "現場查扣行動裝置，應開啟飛航模式，隔絕其通訊及網路功能",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：不得立即讓嫌疑人自行操作電腦取出資料；應防止刪改並記錄現況，由適當人員依程序蒐證。",
+          "explanation": "隔絕遠端連線可防止資料遭更動，但115手冊第265、266點沒有完整規定所有行動裝置一律開飛航模式的條件及操作次序。本次尚缺被引數位蒐證手冊。",
+          "correction": "依裝置狀態與正式數位蒐證程序選擇通訊隔離方式；本次不能把B的概括用語當成已核操作指令。",
           "trueStatement": true
         },
         {
           "text": "勿安裝或複製任何程式、檔案至數位證物中",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：不得立即讓嫌疑人自行操作電腦取出資料；應防止刪改並記錄現況，由適當人員依程序蒐證。",
+          "explanation": "115手冊第265點第3款直接明定，勿安裝或拷貝任何程式、檔案至受搜索人的電腦或手機等數位證物相關設備。",
+          "correction": "維持證物狀態，避免在原設備另裝程式或寫入檔案；依法蒐取時仍應完整記錄過程。",
           "trueStatement": true
         },
         {
           "text": "扣押電腦應符合比例原則，尤其網路公司應特別注意其影響層面",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：不得立即讓嫌疑人自行操作電腦取出資料；應防止刪改並記錄現況，由適當人員依程序蒐證。",
+          "explanation": "刑訴第122條以必要性限制搜索，第133條以可為證據或得沒收之物等限定扣押。D提醒評估扣押影響符合此方向，但網路公司設備處理細節尚缺完整專用手冊。",
+          "correction": "依證據關聯、必要性及權利影響規劃扣押範圍；不因是網路公司就當然全扣或當然免扣。",
           "trueStatement": true
         }
       ],
@@ -2015,13 +2088,26 @@
       "paperTrack": "內軌",
       "paperNumber": 25,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "警專公開115年新版警察偵查犯罪手冊（完整主文）；刑事訴訟法（本次核對之現行全文）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "搜索時先防止受搜索人接觸刪改資料，完整記錄操作；不能把立即命嫌疑人操作當通則。飛航模式只是通訊隔離的一種方法，須依裝置、資料狀態及正式程序選擇。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "刑事訴訟法（本次核對之現行全文）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "不得立即讓嫌疑人自行操作電腦取出資料；應防止刪改並記錄現況，由適當人員依程序蒐證。",
+      "takeaway": "搜索時先防止受搜索人接觸刪改資料，完整記錄操作；不能把立即命嫌疑人操作當通則。飛航模式只是通訊隔離的一種方法，須依裝置、資料狀態及正式程序選擇。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -2034,8 +2120,17 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "刑事訴訟法（本次核對之現行全文）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "當年度官方A；A、C已由115手冊直接核對，B的飛航模式具體操作仍待數位蒐證原件。"
     },
     {
       "id": "investigation110_26",
@@ -2220,26 +2315,26 @@
       "options": [
         {
           "text": "實施指認，應指派案件偵辦人員辦理為原則",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：已選任辯護人的犯罪嫌疑人參與指認，應通知辯護人到場，並注意避免誘導與完整紀錄。",
+          "explanation": "臺北地檢署官方文章將非承辦且不知悉犯罪嫌疑人之人員列為原則；監察院引107年注意事項第2點亦載非案件偵辦人員。A將原則倒置。",
+          "correction": "原則由非案件偵辦人員主持；急迫或事實上不能為之的例外，應依正式注意事項審查並完整錄音錄影。",
           "trueStatement": false
         },
         {
           "text": "若犯罪嫌疑人已選任辯護人，應通知辯護人到場",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "已選任辯護人的犯罪嫌疑人參與指認，應通知辯護人到場，並注意避免誘導與完整紀錄。",
+          "explanation": "B是當年度官方正解。115手冊第155點確認辯護人得於指認犯罪嫌疑人時在場，官方指認文章也載告知得隨時選任辯護人在場；通知的完整條件仍須核正式注意事項。",
+          "correction": "已選任辯護人時，依指認專門規定辦理通知、等候及紀錄；本次不以一般詢問通知條款代替完整指認程序。",
           "trueStatement": true
         },
         {
           "text": "安排四名以上於外型無重大差異之被指認人，供指認人進行列隊指認",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：已選任辯護人的犯罪嫌疑人參與指認，應通知辯護人到場，並注意避免誘導與完整紀錄。",
+          "explanation": "官方指認文章及監察院引文均為六名以上、外型無重大差異的真人選擇式列隊，C的四名不足。",
+          "correction": "應改為六名以上；並避免以服裝、戒具、外型或安排暗示何人才是嫌疑人。",
           "trueStatement": false
         },
         {
           "text": "二名以上指認人就同一犯罪嫌疑人進行指認，應一起進行",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：已選任辯護人的犯罪嫌疑人參與指認，應通知辯護人到場，並注意避免誘導與完整紀錄。",
+          "explanation": "官方文章載兩位以上指認人應隔離先後為之；監察院引107年注意事項第8點也要求區隔、先後。",
+          "correction": "應分隔且先後指認，避免彼此討論、觀察或互相影響，不應一起進行。",
           "trueStatement": false
         }
       ],
@@ -2256,13 +2351,30 @@
       "paperTrack": "內軌",
       "paperNumber": 28,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）；監察院調查報告・指認程序（完整報告，摘列107年注意事項）；警專公開115年新版警察偵查犯罪手冊（完整主文）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "指認原則由非案件偵辦者主持；真人列隊至少六名、外型無重大差異，多名指認人分隔先後進行。已選任辯護人的通知及等候程序須依專門規定保障。",
+        "sources": [
+          {
+            "title": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）",
+            "url": "https://www.tpc.moj.gov.tw/292885/976681/661783/1396443/post"
+          },
+          {
+            "title": "監察院調查報告・指認程序（完整報告，摘列107年注意事項）",
+            "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/42749"
+          },
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "已選任辯護人的犯罪嫌疑人參與指認，應通知辯護人到場，並注意避免誘導與完整紀錄。",
+      "takeaway": "指認原則由非案件偵辦者主持；真人列隊至少六名、外型無重大差異，多名指認人分隔先後進行。已選任辯護人的通知及等候程序須依專門規定保障。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -2275,8 +2387,21 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）",
+          "url": "https://www.tpc.moj.gov.tw/292885/976681/661783/1396443/post"
+        },
+        {
+          "title": "監察院調查報告・指認程序（完整報告，摘列107年注意事項）",
+          "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/42749"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "當年度官方B；已核官方指認文章及監察院引文，尚缺現行注意事項全文確認辯護人通知細節。"
     },
     {
       "id": "investigation110_29",
@@ -3170,26 +3295,26 @@
       "options": [
         {
           "text": "涉及帳戶匯款之詐欺案件，由發生地之警察機關管轄之",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "原卷匯款詐欺屬犯罪地一般原則的特別分工事項；不可把所有類型一律視為發生地管轄，後續版本須另核。",
+          "explanation": "115手冊第22點第1項第1款把犯罪發生地及跨轄行為、結果地列為偵處責任連結，另保留特別規定優先。A不能再僅依110年答案鍵就一概判為現行錯誤。",
+          "correction": "現行應先核犯罪地及其他偵處連結，再查詐欺特別管轄；本次不指定新的唯一錯誤選項。",
           "trueStatement": false
         },
         {
           "text": "竊車恐嚇取財案件，由車輛失竊地之警察機關管轄之",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原卷匯款詐欺屬犯罪地一般原則的特別分工事項；不可把所有類型一律視為發生地管轄，後續版本須另核。",
+          "explanation": "車輛失竊地可有犯罪地連結，但115手冊第22點沒有完整重述B的竊車恐嚇專則；仍須查本署另訂特別規定。",
+          "correction": "不能只因原題官方未選B就宣稱該專則現行完全不變；須核特別函示與實際犯罪地。",
           "trueStatement": true
         },
         {
           "text": "捷運或輕軌移動車廂內發生案件，由發生地之警察機關管轄之",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原卷匯款詐欺屬犯罪地一般原則的特別分工事項；不可把所有類型一律視為發生地管轄，後續版本須另核。",
+          "explanation": "115手冊第22點第2項第1款仍明文捷運／輕軌移動車廂案件由發生地處理；無法確認時，改由被害人下車停靠站所在地，以確認出站為準，另有協調要點者依其要點。",
+          "correction": "C表達的是發生地可確認時的原則；適用時須一併注意發生地不明與機關協調要點例外。",
           "trueStatement": true
         },
         {
           "text": "犯罪行為之發生或結果橫跨二個以上警察機關管轄區域者，由受理報案或接獲通報在先之機關主辦",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原卷匯款詐欺屬犯罪地一般原則的特別分工事項；不可把所有類型一律視為發生地管轄，後續版本須另核。",
+          "explanation": "115手冊第22點改為多種偵處連結、移轉順序、協調共同偵辦及上級指定；D的跨轄一律由受理或通報在先主辦，已不足完整描述現行主文。",
+          "correction": "依第22點判斷責任並協調主協辦；協調困難應報共同上級或警政署指定，不以受理在先一句取代全套規則。",
           "trueStatement": true
         }
       ],
@@ -3206,13 +3331,22 @@
       "paperTrack": "內軌",
       "paperNumber": 39,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "changed",
+        "law": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。本題有版本或現行適用落差，核對日不是修法日。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "115手冊第22點以多項偵處責任及特別規定優先處理；犯罪地跨轄不再僅用本題舊有受理在先一句概括。捷運／輕軌仍原則由發生地處理，發生地不明另有下車站規則。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ],
+        "effectiveStatus": "mixed"
       },
-      "takeaway": "原卷匯款詐欺屬犯罪地一般原則的特別分工事項；不可把所有類型一律視為發生地管轄，後續版本須另核。",
+      "takeaway": "115手冊第22點以多項偵處責任及特別規定優先處理；犯罪地跨轄不再僅用本題舊有受理在先一句概括。捷運／輕軌仍原則由發生地處理，發生地不明另有下車站規則。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -3225,8 +3359,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "當年度官方A；115手冊管轄規則已有改寫，不能沿用本題單一錯誤選項辨識現行法。"
     },
     {
       "id": "investigation110_40",

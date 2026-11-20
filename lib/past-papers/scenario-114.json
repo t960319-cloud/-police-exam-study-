@@ -428,26 +428,26 @@
       "options": [
         {
           "text": "對於治安顧慮人口，自其刑期執行完畢或假釋出獄後，每個月查訪 1 次，查訪 3 年，期滿改列 記事人口，必要時得增加查訪次數",
-          "explanation": "本項將治安顧慮人口查訪期間寫為3年及期滿改列記事，與本題制度不符。查訪期間及對象須依專法、授權規範及個案狀態認定。",
-          "correction": "依現行治安顧慮人口查訪規範核對法定期間，不背誦「一律3年轉記事」。",
+          "explanation": "查訪辦法第4條規定每月1次，必要時增加；第2條及警職法第15條為執行完畢或假釋出獄後3年內。A前半可直接核；《警光》777期頁70更直接區分原同時具治安顧慮及記事兩類者，3年期滿後另依原記事資格續查，或改列一般人口不再列管，不是一律改記事。",
+          "correction": "不得藉原治安顧慮人口期滿自動延長查訪；改列須另有現行法定資格，並由員警提出、分局防治組承辦人審核核定。此為777期所述系統流程，完整現行內規仍待核。",
           "trueStatement": false
         },
         {
           "text": "對於村（里）鄰長應每 3 個月聯繫拜訪 1 次，其他諮詢對象得視需要實施訪查",
-          "explanation": "村里鄰長聯繫拜訪不是本項所寫每3個月1次；須依警勤區訪查作業規定之特定頻率辦理。",
-          "correction": "將3個月的頻率改為現行作業規定所定頻率，並核對原件。",
+          "explanation": "112年第2點已確認村里鄰長為須定期聯繫對象，但未包含精確期程；本輪沒有第8點全文，不能把B的每3個月寫成現行標準。",
+          "correction": "保留官方非選項，不用答案鍵倒推出期程；每月聯繫之原件仍待取齊。",
           "trueStatement": false
         },
         {
           "text": "警勤區訪查時數每月應編排 16 小時以上，其基準由分局定之，得視勤務需要檢討調整增加時 數，並送警察局備查",
-          "explanation": "依114年原題及官方答案，本項「每月16小時以上、基準由分局定、調整後送局備查」為本題正確選項。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "《警光》811期頁19直接說明111.12.14第9點將每月12提高至16小時，支持C的數字；然而「基準由分局定、送局備查、需要時增加」的完整第9點正式附件本輪503。",
+          "correction": "本題按官方C；16小時可確認，其他權責文字保留待完整點次核對。",
           "trueStatement": true
         },
         {
           "text": "你於代理警勤區期間，每月應增加訪查時數四分之一以上，以利迅速掌握轄區狀況",
-          "explanation": "代理警勤區應增加的訪查時數並非題示四分之一。",
-          "correction": "應依現行警勤區訪查作業規定核定代理加編時數，不沿用四分之一。",
+          "explanation": "代理警勤區須否及如何加編訪查勤務，屬本輪尚缺的完整第9點內容；不能僅由C已選，就把四分之一自行改成一半或其他比例。",
+          "correction": "代理加編比例待正式原文，未核前不提供推測數字作現行背誦。",
           "trueStatement": false
         }
       ],
@@ -464,12 +464,44 @@
       "answerStatus": "官方原答已核；目錄未列更正",
       "amendment": {
         "status": "review",
-        "note": "官方答案C，114年原卷已採每月16小時以上。網路仍有12小時舊資料；精確修正日期、代理加編比例及完整現行原件仍待核，不杜撰修法日。",
-        "checkedAt": "2026-11-09",
-        "oldRule": "部分舊版網頁記載每月12小時。",
-        "newRule": "114年及115年官方試題均已採16小時；正式現行背誦須再核主管機關最新原件。"
+        "law": "警政署《警光》811期2024年2月・頁19落實警勤區查察工作；警政署《警光》777期2021年4月・頁68—70勤查系統修正重點；治安顧慮人口查訪辦法現行全文；警察職權行使法現行全文；警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）；考選部114年四等警察情境實務概要原卷；考選部標準答案",
+        "checkedAt": "2026-11-20",
+        "note": "已由警政署《警光》811期核111.12.14將12→16小時；治安顧慮人口每月查訪與3年期間亦有法律、辦法直接支持。完整第8、9點、代理加編比例及期滿分類規定尚未齊備，故不把原官方C直接升為全題已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "16小時已確認；人口查訪期間、諮詢聯繫期程、代理加編是不同規定，不能混背。",
+        "sources": [
+          {
+            "title": "警政署《警光》811期2024年2月・頁19落實警勤區查察工作",
+            "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=1229247447323119616&module=wg079&type=s"
+          },
+          {
+            "title": "警政署《警光》777期2021年4月・頁68—70勤查系統修正重點",
+            "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=836535717369745408&module=wg079&type=s"
+          },
+          {
+            "title": "治安顧慮人口查訪辦法現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+          },
+          {
+            "title": "警察職權行使法現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          },
+          {
+            "title": "警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+          },
+          {
+            "title": "考選部114年四等警察情境實務概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1005&q=1"
+          },
+          {
+            "title": "考選部標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "警勤區訪查每月時數與代理加編：依114年原題及官方答案，本項「每月16小時以上、基準由分局定、調整後送局備查」為本題正確選項。",
+      "takeaway": "16小時已確認；人口查訪期間、諮詢聯繫期程、代理加編是不同規定，不能混背。",
       "sources": [
         {
           "title": "考選部114年四等警察情境實務概要原卷",
@@ -478,8 +510,29 @@
         {
           "title": "考選部標準答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "警政署《警光》811期2024年2月・頁19落實警勤區查察工作",
+          "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=1229247447323119616&module=wg079&type=s"
+        },
+        {
+          "title": "警政署《警光》777期2021年4月・頁68—70勤查系統修正重點",
+          "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=836535717369745408&module=wg079&type=s"
+        },
+        {
+          "title": "治安顧慮人口查訪辦法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+        },
+        {
+          "title": "警察職權行使法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C；每月16小時已獲官方原刊支持。A每月及3年有法源，但期滿改列記事人口有待分類依據；B的3個月聯繫、C基準分工與D代理加編比例仍須完整作業規定核對。"
     },
     {
       "id": "scene114-07",

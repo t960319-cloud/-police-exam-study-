@@ -21,26 +21,26 @@
       "options": [
         {
           "text": "警察分駐所與派出所兩者均被定位為警察勤務執行機構",
-          "explanation": "警察勤務條例第7條明定分駐所、派出所為勤務執行機構。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "勤務條例第4條區分基本單位、執行機構與規劃監督機構；第7條明定分駐所、派出所均為勤務執行機構。",
+          "correction": "符合第7條；警勤區本身則依第5條為勤務基本單位。",
           "trueStatement": true
         },
         {
           "text": "分駐派出所設置的目的有3個：即組合警勤區、形成治安面以及供作服務站",
-          "explanation": "組合警勤區形成治安面及供作服務站，為分駐派出所的制度目的。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第7條將警勤區規劃、勤務執行及督導交分駐派出所；設置基準第2點原則上以2個以上警勤區組成，並兼顧專業、守護及為民服務任務。選項是對制度目的的概括說明。",
+          "correction": "可按題意理解為組合勤區、整體勤務與服務據點；不是免除設置基準的獨立授權。",
           "trueStatement": true
         },
         {
           "text": "分駐所、派出所設置或裁併所需經費，由該管警察局陳報內政部警政署編列經費",
-          "explanation": "錯在將地方設置經費寫成陳報警政署編列；設置與調整屬地方政府權責，不能直接改由警政署負擔。",
-          "correction": "應依設置基準由該管地方政府負擔；所需警力就現有員額調整。",
+          "explanation": "設置基準第8點逐字明定經費由該管地方政府負擔、所需警力就現有員額調整；第7點僅是地方核准後報警政署備查。",
+          "correction": "改為「由該管地方政府負擔」；不要把警政署備查當成經費編列。",
           "trueStatement": false
         },
         {
           "text": "基於行政裁量權或效率等原因，警察機關在覺得必要時得主動設置分駐派出所",
-          "explanation": "警察機關得依治安、地理、警力等需要評估提案，仍須踐行設置核准程序。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "設置基準第5點列警勤區繁重、案件增加、交通複雜、轄區發展或行政區域調整等得檢討設置事由；第6點仍要求利弊分析及地方政府核准。",
+          "correction": "D可依題意成立，但裁量仍受法定基準、資料評估及核准程序限制，並非機關單方認為需要即可完成設置。",
           "trueStatement": true
         }
       ],
@@ -48,23 +48,44 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察勤務概要｜第1題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 1,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "note": "官方考古答案已核對；題示行政規則或理論文字尚未取得完整最新版原件，不把歷史答案冒稱現行結論。",
+        "status": "none",
+        "law": "警察勤務條例現行全文；全國警察法規資料庫・警察分駐所派出所設置基準全文8點；考選部114年警察勤務概要原卷；考選部標準答案；考選部更正答案",
+        "checkedAt": "2026-11-20",
+        "note": "已讀警察勤務條例第4至9條及警察分駐所派出所設置基準完整8點，經費與警力、核准與備查的分工可直接逐項核對。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "分駐派出所是勤務執行機構；地方政府核准及負擔經費，警察局報警政署備查。",
         "sources": [
           {
-            "title": "本題法規核對",
-            "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&_CSN=0&n=174&page=43&sms=9015"
+            "title": "警察勤務條例現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080026"
+          },
+          {
+            "title": "全國警察法規資料庫・警察分駐所派出所設置基準全文8點",
+            "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000177"
+          },
+          {
+            "title": "考選部114年警察勤務概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1007&q=1"
+          },
+          {
+            "title": "考選部標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1007&q=1"
+          },
+          {
+            "title": "考選部更正答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1007&q=1"
           }
-        ]
+        ],
+        "effectiveStatus": "in-force"
       },
-      "takeaway": "分駐派出所設置經費：錯在將地方設置經費寫成陳報警政署編列；設置與調整屬地方政府權責，不能直接改由警政署負擔。",
+      "takeaway": "分駐派出所是勤務執行機構；地方政府核准及負擔經費，警察局報警政署備查。",
       "sources": [
         {
           "title": "考選部114年警察勤務概要原卷",
@@ -81,8 +102,17 @@
         {
           "title": "公開法規或主管機關說明",
           "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&_CSN=0&n=174&page=43&sms=9015"
+        },
+        {
+          "title": "警察勤務條例現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080026"
+        },
+        {
+          "title": "全國警察法規資料庫・警察分駐所派出所設置基準全文8點",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000177"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C；設置或裁併所需經費由該管地方政府負擔，警力就現有員額調整，不是由警政署編列。"
     },
     {
       "id": "duty114_02",
@@ -488,26 +518,26 @@
       "options": [
         {
           "text": "各直轄市、縣（市）警察局應由勤務指揮中心、督察室（科）及刑警（大）隊共同編組成立複查小組",
-          "explanation": "原卷將勤務指揮中心、督察及刑事單位共同編組列為適當。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "臺北市114.2.7要點第3點確由勤務指揮中心、督察室及刑事警察大隊組成小組；這是已取得的地方實施全文。全國規定尚缺，不據此宣稱每個地方的全部編組均已核。",
+          "correction": "在本題脈絡下保留；全國命令與各地方執行編組仍須各依其適用規定。",
           "trueStatement": true
         },
         {
           "text": "複查小組的召集人由主管督察業務的副主官擔任",
-          "explanation": "最終更正答案將B也列為給分選項；召集人職務的精確規定須核對原件。",
-          "correction": "依最新逐級報告紀律規定核對召集人職務，不僅憑原標答案判正誤。",
+          "explanation": "臺北市要點第3點第1款第2目明定主管「刑事業務」副主官召集，與B的主管「督察業務」不同；114官方M另明列B可給分。",
+          "correction": "召集人應核主管刑事業務副主官；當年度B給分結果不變。",
           "trueStatement": false
         },
         {
           "text": "複查小組負責查核各單位處理民眾報案後，是否確實填報通報單、刑案紀錄表或開具報案三、四聯單",
-          "explanation": "最終更正答案將C列為給分選項；「報案三、四聯單」用語涉及受理證明單制度及規定版本，不可直接當現行名稱背誦。",
-          "correction": "請以現行受（處）理案件證明單及表單規定核對，本題保留B/C皆給分的公告結果。",
+          "explanation": "官方M第7題將C也列為給分選項。已核臺北市114年要點以110報案紀錄及各單位處置為查核對象；原題三、四聯單屬須核版本的舊表單名稱，不能因歷史規定曾用就直接套現行。",
+          "correction": "保留B或C均給分；具體證明單名稱、核發及查核內容待全國完整現行規定。",
           "trueStatement": false
         },
         {
           "text": "各級督察人員應隨時查察受理報案單位是否依規定時效陳報資料，或有無延壓情事",
-          "explanation": "督察人員查察資料陳報時效及有無延壓，符合防止匿報遲報虛報目的。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "111.12.20勤指中心規定第16點禁止遲報、匿報、漏報、謊報，可確認時效與報告紀律的重要性；但未直接重現本項全國督察人員查察義務條文。",
+          "correction": "本項的全國逐級報告紀律規定原文仍待核；不得將相關一般紀律原則稱為該點全文。",
           "trueStatement": true
         }
       ],
@@ -525,10 +555,36 @@
       "answerStatus": "官方最終答案已核",
       "amendment": {
         "status": "review",
-        "note": "官方答案已更正為B或C均給分；這是當年度給分決定，不表示2026年現行規定的兩項敘述都成立。召集人職級及舊表單名稱須核原件。",
-        "sources": []
+        "law": "臺北市政府警察局一一○報案複查小組工作要點・114.2.7全文；警專官方・111.12.20警察機關勤務指揮中心作業規定及附件全文25頁；考選部114年警察勤務概要原卷；考選部標準答案；考選部更正答案",
+        "checkedAt": "2026-11-20",
+        "note": "已回讀114年官方S及M，初答B、最終B或C均給分。另已核臺北市114.2.7複查小組要點全文，召集人確為主管刑事業務副主官；全國逐級報告紀律規定及全國現行表單規定仍未取齊，不能以地方法規代證全國各項。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "本題B／C雙答都要保留；召集人與表單版本是兩個不同查核點。",
+        "sources": [
+          {
+            "title": "臺北市政府警察局一一○報案複查小組工作要點・114.2.7全文",
+            "url": "https://laws.gov.taipei/Law/LawSearch/LawArticleContent/FL004759"
+          },
+          {
+            "title": "警專官方・111.12.20警察機關勤務指揮中心作業規定及附件全文25頁",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+          },
+          {
+            "title": "考選部114年警察勤務概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1007&q=1"
+          },
+          {
+            "title": "考選部標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1007&q=1"
+          },
+          {
+            "title": "考選部更正答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1007&q=1"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "110報案複查小組・官方雙答：最終更正答案將B也列為給分選項；召集人職務的精確規定須核對原件。",
+      "takeaway": "本題B／C雙答都要保留；召集人與表單版本是兩個不同查核點。",
       "sources": [
         {
           "title": "考選部114年警察勤務概要原卷",
@@ -541,6 +597,14 @@
         {
           "title": "考選部更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1007&q=1"
+        },
+        {
+          "title": "臺北市政府警察局一一○報案複查小組工作要點・114.2.7全文",
+          "url": "https://laws.gov.taipei/Law/LawSearch/LawArticleContent/FL004759"
+        },
+        {
+          "title": "警專官方・111.12.20警察機關勤務指揮中心作業規定及附件全文25頁",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
         }
       ],
       "acceptedAnswers": [
@@ -548,7 +612,8 @@
         2
       ],
       "initialAnswer": 1,
-      "correctionNote": "考選部更正：第7題答B或C者均給分。"
+      "correctionNote": "考選部更正：第7題答B或C者均給分。",
+      "currentAnswer": "初始官方答案B；官方最終更正B或C均給分。已核臺北市現行小組由主管刑事業務副主官召集；全國小組組成與舊三、四聯單替換的完整依據仍待核。"
     },
     {
       "id": "duty114_08",
@@ -926,26 +991,26 @@
       "options": [
         {
           "text": "若無需要免予訪查",
-          "explanation": "村里鄰長屬規定定期聯繫的諮詢對象，不是完全視需要免訪。",
-          "correction": "依題示作業規定應每月聯繫拜訪一次以上。",
+          "explanation": "112年第2點定義明寫村（里）鄰長為「須定期聯繫拜訪」對象，A的若無需要即免訪與此定期性不合。",
+          "correction": "不能將村里鄰長全歸入僅視需要聯繫的其他對象。",
           "trueStatement": false
         },
         {
           "text": "每半年1次",
-          "explanation": "半年一次少於本題要求。",
-          "correction": "改為每月一次以上。",
+          "explanation": "原卷B為每半年1次；本輪取得的第2點定義只能證明須定期，沒有半年數字。不能因未選B就宣稱已讀原文排除半年。",
+          "correction": "半年不是本題官方給分；正式頻率仍待第8點原件確認。",
           "trueStatement": false
         },
         {
           "text": "每3個月1次",
-          "explanation": "每3月一次少於本題要求。",
-          "correction": "改為每月一次以上。",
+          "explanation": "原卷C為每3個月1次；本輪沒有第8點全文，不能由定義自行計算期程。",
+          "correction": "3個月不是本題官方給分；勿與其他人口訪查期程相混。",
           "trueStatement": false
         },
         {
           "text": "每月1次以上",
-          "explanation": "原題版本為每月聯繫拜訪一次以上。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "官方S第13題為D；新近官方試題同採每月聯繫，但試題仍不是發布本頻率的法規原件。",
+          "correction": "考古記每月1次以上；實務適用及整題verified須補完整期程條文。",
           "trueStatement": true
         }
       ],
@@ -961,10 +1026,32 @@
       "answerStatus": "官方最終答案已核",
       "amendment": {
         "status": "review",
-        "note": "官方考古答案已核對；題示行政規則或理論文字尚未取得完整最新版原件，不把歷史答案冒稱現行結論。",
-        "sources": []
+        "law": "警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）；考選部114年警察勤務概要原卷；考選部標準答案；考選部更正答案",
+        "checkedAt": "2026-11-20",
+        "note": "已核112.4.24作業規定第2點第4款將村（里）鄰長列為須定期聯繫拜訪之諮詢對象；但該修正表未包含第8點訪查期程，不能由定義或考選部答案單獨證成每月頻率。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "村里鄰長是定期諮詢對象；每月1次以上是官方考古答案，期程條文仍待補齊。",
+        "sources": [
+          {
+            "title": "警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+          },
+          {
+            "title": "考選部114年警察勤務概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1007&q=1"
+          },
+          {
+            "title": "考選部標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1007&q=1"
+          },
+          {
+            "title": "考選部更正答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1007&q=1"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "村里鄰長訪查頻率：原題版本為每月聯繫拜訪一次以上。",
+      "takeaway": "村里鄰長是定期諮詢對象；每月1次以上是官方考古答案，期程條文仍待補齊。",
       "sources": [
         {
           "title": "考選部114年警察勤務概要原卷",
@@ -977,8 +1064,13 @@
         {
           "title": "考選部更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1007&q=1"
+        },
+        {
+          "title": "警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D（每月1次以上）；已核其屬須定期聯繫之諮詢對象。每月頻率的完整現行行政規則原件仍待取得，故未升已核。"
     },
     {
       "id": "duty114_14",
@@ -1552,26 +1644,26 @@
       "options": [
         {
           "text": "警勤區員警缺額者，缺額逾1年未能派補時，分局應於1個月內重新辦理警勤區劃分，檢討合併警勤區事宜",
-          "explanation": "依原題112年版，缺額逾1年仍未派補，分局應於1個月內重新辦理劃分、檢討合併。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "A的缺額逾1年、1個月內重新劃分合併，是官方給分；本輪取得的112年第2、16、26點對照表未包含缺額調整規定，無法獨立完成該期限的原件查核。",
+          "correction": "保留A計分，不將官方答案當作缺額期限的完整現行法源。",
           "trueStatement": true
         },
         {
           "text": "治安顧慮人口自刑期執行完畢或假釋出獄後，每半個月查訪1次，查訪3年，期滿改列一般人口",
-          "explanation": "治安顧慮人口原則每個月一次，不是每半個月一次；必要時得增加。",
-          "correction": "「每半個月」改為「每個月」。",
+          "explanation": "治安顧慮人口查訪辦法第4條明定每個月1次，必要時得增加；警職法第15條及該辦法第2條為刑執行完畢或假釋出獄後3年內。半個月不是一般法定基準。",
+          "correction": "半個月改每個月；期滿資料分類與其他依據續查須另核行政規則，不能擅自延長此類法定期間。",
           "trueStatement": false
         },
         {
           "text": "實施警勤區訪查前，應於勤查系統預擬概況表，送所長核准後實施",
-          "explanation": "應預擬「日誌表」送所長核准，不是概況表；概況表是轄區人地事物資料。",
-          "correction": "「預擬概況表」改為「預擬日誌表」。",
+          "explanation": "115年新北官方資料頁33引作業規定第10點，明載於勤查系統預擬「日誌表」送所長核准；112年第26點也以未預擬日誌表列懲處。",
+          "correction": "將「概況表」改為「日誌表」，送所長核准。",
           "trueStatement": false
         },
         {
           "text": "實施訪查應尊重當事人權益，以誠實信用方法為之，符合平等原則，不得逾越訪查目的之必要範圍",
-          "explanation": "原題將規定的比例原則用語改為平等原則，公告只採A；但平等本身亦為訪查法定要求，不應背成訪查無須平等。",
-          "correction": "依原題文字比對應改為比例原則；實務仍同時遵守平等原則。",
+          "explanation": "115年官方資料頁34引第14點為「符合比例原則」，與D平等用詞不同；然而訪查辦法第4條第4款又明定非有正當理由不得差別待遇。因此只能指出非行政規則逐字引文，不能說D所述平等要求本身違法。",
+          "correction": "比例與平等皆要遵守；官方A給分保留，D的文字比對與實質法律原則分開，整題不升已核。",
           "trueStatement": false
         }
       ],
@@ -1587,15 +1679,48 @@
       "answerStatus": "官方最終答案已核",
       "amendment": {
         "status": "review",
-        "note": "官方考古答案已核對；題示行政規則或理論文字尚未取得完整最新版原件，不把歷史答案冒稱現行結論。 本題D為文字比對爭點，訪查辦法第4條仍含平等及比例要求。",
+        "law": "警察勤務區訪查辦法現行全文；治安顧慮人口查訪辦法現行全文；警察職權行使法現行全文；警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）；新北市政府警察局115年警政訊息・頁33—34引訪查作業規定第10、11、14點；考選部114年警察勤務概要原卷；考選部標準答案；考選部更正答案",
+        "checkedAt": "2026-11-20",
+        "note": "已對讀114原卷，D確為「符合平等原則」。115年新北官方資料頁34引作業規定第14點文字為「符合比例原則」；但現行訪查辦法第4條亦明列不得無正當理由差別待遇，不能為配合官方A而說平等原則不適用。缺額合併完整點次尚缺。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "預擬日誌，重點人口每月查訪；比例與平等都須遵守，文字比對不能變成否定上位法。",
         "sources": [
           {
-            "title": "本題法規核對",
-            "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&_Query=25d792d9-b84f-4643-8a0e-b73c711d52c6&n=8364&page=2&sms=9015"
+            "title": "警察勤務區訪查辦法現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
+          },
+          {
+            "title": "治安顧慮人口查訪辦法現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+          },
+          {
+            "title": "警察職權行使法現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          },
+          {
+            "title": "警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+          },
+          {
+            "title": "新北市政府警察局115年警政訊息・頁33—34引訪查作業規定第10、11、14點",
+            "url": "https://www.police.ntpc.gov.tw/dl-41555-efd96196-dd10-4ab6-8e55-c1ce5110048d.html"
+          },
+          {
+            "title": "考選部114年警察勤務概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114060&c=601&s=1007&q=1"
+          },
+          {
+            "title": "考選部標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1007&q=1"
+          },
+          {
+            "title": "考選部更正答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1007&q=1"
           }
-        ]
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "訪查作業與預擬表單：依原題112年版，缺額逾1年仍未派補，分局應於1個月內重新辦理劃分、檢討合併。",
+      "takeaway": "預擬日誌，重點人口每月查訪；比例與平等都須遵守，文字比對不能變成否定上位法。",
       "sources": [
         {
           "title": "考選部114年警察勤務概要原卷",
@@ -1612,8 +1737,29 @@
         {
           "title": "公開法規或主管機關說明",
           "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&_Query=25d792d9-b84f-4643-8a0e-b73c711d52c6&n=8364&page=2&sms=9015"
+        },
+        {
+          "title": "警察勤務區訪查辦法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
+        },
+        {
+          "title": "治安顧慮人口查訪辦法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+        },
+        {
+          "title": "警察職權行使法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "警專官方112.4.24訪查作業規定第2、16、26點修正總說明及對照表（全文6頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+        },
+        {
+          "title": "新北市政府警察局115年警政訊息・頁33—34引訪查作業規定第10、11、14點",
+          "url": "https://www.police.ntpc.gov.tw/dl-41555-efd96196-dd10-4ab6-8e55-c1ce5110048d.html"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A；B的半月訪查違反現行每月規定，C預擬表單應是日誌表。D與行政規則引文的「比例」用詞有別，但平等原則仍受上位法保障，本輪保留辨義爭點。"
     },
     {
       "id": "duty114_23",

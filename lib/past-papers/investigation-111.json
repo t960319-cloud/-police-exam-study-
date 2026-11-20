@@ -111,26 +111,26 @@
       "options": [
         {
           "text": "犯罪行為之發生或結果橫跨 2 個以上警察機關管轄區域者，由受理報案或接獲通報在先之機關主辦， 其他警察機關將有關資料送請併案偵辦",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：原卷專業警察例外規定的總隊範圍不能任意增加保七；應照當年手冊列舉判斷。",
+          "explanation": "115手冊第22點先以犯罪地、可識別嫌疑人及被害人等連結建立偵處責任，再規定函轉順序、協調共同偵辦及上級指定；未直接沿用A受理在先的概括通則。",
+          "correction": "當年度A的給分位置保留；現行須依第22點完整決定主協辦，不得僅用受理／通報先後。",
           "trueStatement": true
         },
         {
           "text": "犯罪地屬專業警察機關管轄區域者，以該警察機關主辦為原則，其他相關警察機關配合之。惟保二、保 三及保七總隊僅管轄其專責任務案件",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "原卷專業警察例外規定的總隊範圍不能任意增加保七；應照當年手冊列舉判斷。",
+          "explanation": "115手冊第22點明列只管轄專責任務的保安警察第三、七總隊，沒有把保二列入同一但書。B把三個總隊並列，與已核現行文字不符。",
+          "correction": "該但書應寫保三及保七；專業警察機關各自職權與特別管轄，仍依其規定辦理。",
           "trueStatement": false
         },
         {
           "text": "捷運或輕軌移動車廂內發生之案件，由發生地之警察機關管轄",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：原卷專業警察例外規定的總隊範圍不能任意增加保七；應照當年手冊列舉判斷。",
+          "explanation": "115手冊第22點第2項第1款仍規定捷運／輕軌移動車廂內案件由發生地警察機關管轄。",
+          "correction": "保留發生地原則，並注意無法確認發生地與另定協調聯繫要點的例外。",
           "trueStatement": true
         },
         {
           "text": "捷運或輕軌移動車廂內發生之案件，無法確認發生地時，則由被害人下車停靠站所在地警察機關管轄",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：原卷專業警察例外規定的總隊範圍不能任意增加保七；應照當年手冊列舉判斷。",
+          "explanation": "115手冊第22點第2項第1款明定發生地不能確認時由被害人下車停靠站所在地處理，以確認出站為準；機關另有協調要點者依其要點。",
+          "correction": "補記確認出站及協調聯繫要點的條件，不把下車站規則無條件適用於發生地已明的案件。",
           "trueStatement": true
         }
       ],
@@ -147,13 +147,22 @@
       "paperTrack": "內軌",
       "paperNumber": 2,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "changed",
+        "law": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。本題有版本或現行適用落差，核對日不是修法日。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "115手冊明列保三及保七只管轄專責任務，未把保二一併列入該但書。捷運案件仍先確認發生地，再適用下車站或協調要點例外。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ],
+        "effectiveStatus": "mixed"
       },
-      "takeaway": "原卷專業警察例外規定的總隊範圍不能任意增加保七；應照當年手冊列舉判斷。",
+      "takeaway": "115手冊明列保三及保七只管轄專責任務，未把保二一併列入該但書。捷運案件仍先確認發生地，再適用下車站或協調要點例外。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -166,8 +175,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "當年度官方B；依115手冊，A的受理在先通則也有版本落差，不能維持原題作現行單選。"
     },
     {
       "id": "investigation111_03",
@@ -4257,26 +4271,26 @@
       "options": [
         {
           "text": "犯罪資料",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：當年法定檔案列舉不含精神醫療資料；敏感資料不能因偵查方便就概括納入。",
+          "explanation": "111年所適用舊法第9條明列犯罪資料，因此A在原題列舉內。現行第29條改列個人基本資料等，已不以犯罪資料單獨列舉。",
+          "correction": "原題依舊法判斷A屬列舉；現行應依第29條及管理辦法重讀，不能因未單列就說犯罪資料一概不得依法蒐集。",
           "trueStatement": true
         },
         {
           "text": "指紋",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：當年法定檔案列舉不含精神醫療資料；敏感資料不能因偵查方便就概括納入。",
+          "explanation": "舊法第9條及現行第29條都明列指紋；現行管理辦法第2條第3款另具體列全部手指平面印、三面印及掌紋。",
+          "correction": "指紋仍是警政建檔資料，但蒐集及使用須依法律與管理辦法，不因列入清單即能任意公開。",
           "trueStatement": true
         },
         {
           "text": "去氧核醣核酸紀錄",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：當年法定檔案列舉不含精神醫療資料；敏感資料不能因偵查方便就概括納入。",
+          "explanation": "舊法第9條及現行第29條均明列去氧核醣核酸紀錄；現行管理辦法第2條第4款界定為足資比對的遺傳基因型特徵資料。",
+          "correction": "區分DNA樣本與紀錄，依資料蒐集管理辦法及保密規定管理，不把全部醫療資訊一概當DNA紀錄。",
           "trueStatement": true
         },
         {
           "text": "精神醫療資料",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "當年法定檔案列舉不含精神醫療資料；敏感資料不能因偵查方便就概括納入。",
+          "explanation": "精神醫療資料未列於111年舊法第9條，本題官方選D。現行第29條的警政建檔清單也未將精神醫療資料列為其中一項；加害人身心治療另由第31條以下規範。",
+          "correction": "D在原題所問特定法定建檔清單外；不等於其他主管機關於治療處遇中永遠不能依法處理相關資料。",
           "trueStatement": false
         }
       ],
@@ -4287,19 +4301,36 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第48題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 48,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "changed",
+        "law": "性侵害犯罪防治法・104年12月23日版完整歷史法規第9條；性侵害犯罪防治法第29條（112年全文修正後）；性侵害加害人資料蒐集管理辦法第2條",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）逐項核對列示完整官方原件；原題、選項及當年度初始／最終給分均維持。本題有版本或現行適用落差，核對日不是修法日。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "111年所適用舊第9條明列犯罪資料、指紋及DNA，未列精神醫療資料；112年全文修正後改由現第29條規定相片、指紋、DNA及個人基本資料。治療資料與警政建檔資料勿混成同一清單。",
+        "sources": [
+          {
+            "title": "性侵害犯罪防治法・104年12月23日版完整歷史法規第9條",
+            "url": "https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=D0080079&lnndate=20151223&lser=001"
+          },
+          {
+            "title": "性侵害犯罪防治法第29條（112年全文修正後）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
+          },
+          {
+            "title": "性侵害加害人資料蒐集管理辦法第2條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080087"
+          }
+        ],
+        "effectiveStatus": "mixed"
       },
-      "takeaway": "當年法定檔案列舉不含精神醫療資料；敏感資料不能因偵查方便就概括納入。",
+      "takeaway": "111年所適用舊第9條明列犯罪資料、指紋及DNA，未列精神醫療資料；112年全文修正後改由現第29條規定相片、指紋、DNA及個人基本資料。治療資料與警政建檔資料勿混成同一清單。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -4312,8 +4343,21 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "性侵害犯罪防治法・104年12月23日版完整歷史法規第9條",
+          "url": "https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=D0080079&lnndate=20151223&lser=001"
+        },
+        {
+          "title": "性侵害犯罪防治法第29條（112年全文修正後）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
+        },
+        {
+          "title": "性侵害加害人資料蒐集管理辦法第2條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080087"
         }
-      ]
+      ],
+      "currentAnswer": "當年度題型選D；現行已改為第29條的中央警政主管機關建檔制度，應以新列舉重讀題幹。"
     },
     {
       "id": "investigation111_49",

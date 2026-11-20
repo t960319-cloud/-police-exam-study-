@@ -140,26 +140,26 @@
       "options": [
         {
           "text": "內政部警政署刑事警察局執行搜捕時，應報告其機關主管長官，並由偵防中心通報預定前往執行地 點所轄警察局或專業警察機關之勤務指揮中心知照或請求派員會同執行",
-          "explanation": "A所列刑事警察局通報機制為115年原題對應的組織層級；當年官方錯誤選項不是A。",
-          "correction": "區分主管長官報告及勤務指揮系統通報；全國最新版仍待原件核實。",
+          "explanation": "本項列刑事局主管核准及偵防中心對外通報的特定層級。115手冊第31點只載越區通報總則，未完整重述刑事局專用流程。",
+          "correction": "依當年度官方未選A的給分保留；現行具體通報窗口仍需正式注意事項全文核對，不由總則補推。",
           "trueStatement": true
         },
         {
           "text": "跨越警察局轄區者，應通報警察局勤務指揮中心，警察局勤務指揮中心受理報告後，應即報告局 長，並轉報前往辦案地之警察局或專業警察機關之勤務指揮中心知照或請求派員會同執行",
-          "explanation": "B談跨越警察局轄區的通報與會同；當年官方錯誤選項不是B。",
-          "correction": "先辨明跨局與局內跨分局；完整層級應以全國原件為準。",
+          "explanation": "本項列跨警察局轄區向本局勤指中心報告、再轉往辦案地的流程；完整115手冊沒有逐句列出報告局長等層次。",
+          "correction": "實際執行須依正式注意事項與機關勤務指揮流程；本次僅核越區通報總則，不能冒稱B細節完整已核。",
           "trueStatement": true
         },
         {
           "text": "其他各專業警察總隊、局、所、大隊、隊所屬員警越區執行搜捕時，應報告其機關主管長官，並由勤務 指揮中心通報預定前往執行地點所轄警察局或專業警察機關之勤務指揮中心知照或請求派員會同執行",
-          "explanation": "C談專業警察機關越區搜捕；當年官方錯誤選項不是C。",
-          "correction": "依各機關職責及當年題目分析，不把地方規定直接推及所有專業機關。",
+          "explanation": "本項所稱專業總隊、局、所、大隊、隊等通報機制，屬原注意事項的特定程序，本次尚未取得全文原件。",
+          "correction": "不得只因當年答案是D就把C所有層級及窗口當作已核；保留原給分並待正式全文補核。",
           "trueStatement": true
         },
         {
           "text": "越區辦案員警遇情況急迫時，得逕通報當地警察局或分局勤務指揮中心，請求派員會同執行，受理 通報機關應即派員會同，但無查獲或緝捕績效者，事後得免補辦通報事宜",
-          "explanation": "D前段是急迫時逕向當地請求會同，後段因無績效免補與115年官方答案相反。",
-          "correction": "當年答案應保留事後補辦，不以有無績效替代。",
+          "explanation": "115手冊第31點明定情形急迫得逕通報當地局或分局勤指中心，惟事後應補辦通報，沒有無查獲或無績效免補辦的條件。",
+          "correction": "刪除無績效得免補辦；不論是否查獲，均應依規定補辦事後通報。",
           "trueStatement": false
         }
       ],
@@ -178,33 +178,20 @@
       "answerStatus": "官方最終答案已核",
       "amendment": {
         "status": "review",
-        "law": "警察機關通報越區辦案應行注意事項；臺中市刑事警察勤務實施要領",
-        "checkedAt": "2026-11-16",
-        "note": "115年官方答案D；逐項區分警政署刑事局、跨局及專業機關通報與急迫程序。臺中市要領第9點第2款僅可支持該市線上急迫會同架構，全國注意事項完整現行原件及層級仍待核。",
+        "law": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "急迫越區可逕向當地局或分局勤務指揮中心請求會同，但事後應補通報，與是否查獲、是否有績效無關。各級通報層級須查正式注意事項。",
         "sources": [
           {
-            "title": "考選部・115年官方原卷",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=Q"
-          },
-          {
-            "title": "考選部・原始標準答案",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=S"
-          },
-          {
-            "title": "考選部・最終答案清冊",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115060&t=A"
-          },
-          {
-            "title": "考選部・更正答案",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
-          },
-          {
-            "title": "臺中市警察局刑事警察勤務實施要領第9點第2款",
-            "url": "https://law.taichung.gov.tw/LawContent.aspx?id=GL002535&media=print"
+            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
           }
-        ]
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "急迫時得先通報當地請求會同，但事後仍應補辦，不能以無查獲或無績效作為免補理由。",
+      "takeaway": "急迫越區可逕向當地局或分局勤務指揮中心請求會同，但事後應補通報，與是否查獲、是否有績效無關。各級通報層級須查正式注意事項。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -225,9 +212,13 @@
         {
           "title": "臺中市警察局刑事警察勤務實施要領第9點第2款",
           "url": "https://law.taichung.gov.tw/LawContent.aspx?id=GL002535&media=print"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
       ],
-      "currentAnswer": "本題D為115年官方最終答案：題示急迫情形仍有事後補辦要求，不能單以沒有緝捕績效免補。115年原題不能單獨證明現行全國注意事項完整版本；臺中地方要領亦不能代替全國原件。"
+      "currentAnswer": "當年度官方D；急迫事後補報已由完整手冊核對，A至C各級通報流程仍待原注意事項全文。"
     },
     {
       "id": "investigation115_03",
@@ -1413,26 +1404,26 @@
       "options": [
         {
           "text": "實施指認，應指派案件偵辦人員辦理",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：已表示選任辯護人者，應依規定待到場才實施指認；其他選項把主持人、鏡面或告知時機寫錯。",
+          "explanation": "官方指認文章與監察院引第2點均以非案件偵辦人員主持為原則；A寫承辦人員，顛倒原則。",
+          "correction": "原則應指派非案件偵辦人員；例外依正式規定處理並完整留下程序紀錄。",
           "trueStatement": false
         },
         {
           "text": "指認應於設置雙面鏡之偵詢室或適當處所進行，並全程連續錄音及錄影",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：已表示選任辯護人者，應依規定待到場才實施指認；其他選項把主持人、鏡面或告知時機寫錯。",
+          "explanation": "官方文章與監察院引文均使用單面鏡或單面指認玻璃的用語，B寫雙面鏡，並非所引規定的文字。",
+          "correction": "應為設置單面鏡之偵詢室或適當處所，原則全程連續錄音及錄影。",
           "trueStatement": false
         },
         {
           "text": "實施指認後，應告知指認人犯罪嫌疑人未必存在於被指認人之中",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：已表示選任辯護人者，應依規定待到場才實施指認；其他選項把主持人、鏡面或告知時機寫錯。",
+          "explanation": "官方文章與監察院引第4點要求指認前告知嫌疑人未必存在於被指認人中；C把時機延到實施後，已失去預防強迫選擇的作用。",
+          "correction": "須在指認前告知，並在全程紀錄中保留告知及回應。",
           "trueStatement": false
         },
         {
           "text": "若該犯罪嫌疑人到場後表示已選任辯護人，應待辯護人到場始得實施指認",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "已表示選任辯護人者，應依規定待到場才實施指認；其他選項把主持人、鏡面或告知時機寫錯。",
+          "explanation": "D是當年度官方正解。完整115手冊第155點僅確認辯護人得在場；官方綜合文章載得隨時選任，但沒有完整重述已選任後等候的專門條件。",
+          "correction": "保留當年D給分並保障辯護人在場；待正式警察注意事項全文核對其等候、通知及例外，不自行套用其他詢問條款縮限。",
           "trueStatement": true
         }
       ],
@@ -1449,13 +1440,34 @@
       "paperTrack": "內軌",
       "paperNumber": 17,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）；監察院調查報告・指認程序（完整報告，摘列107年注意事項）；監察院調查報告・南投大學生竊盜案指認程序（完整報告）；警專公開115年新版警察偵查犯罪手冊（完整主文）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "單面鏡、非案件偵辦者、指認前告知未必在列，三個時點與角色不能互換。通知或等候辯護人的專門規定，不能用一般詢問例外任意縮減。",
+        "sources": [
+          {
+            "title": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）",
+            "url": "https://www.tpc.moj.gov.tw/292885/976681/661783/1396443/post"
+          },
+          {
+            "title": "監察院調查報告・指認程序（完整報告，摘列107年注意事項）",
+            "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/42749"
+          },
+          {
+            "title": "監察院調查報告・南投大學生竊盜案指認程序（完整報告）",
+            "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/62901"
+          },
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "已表示選任辯護人者，應依規定待到場才實施指認；其他選項把主持人、鏡面或告知時機寫錯。",
+      "takeaway": "單面鏡、非案件偵辦者、指認前告知未必在列，三個時點與角色不能互換。通知或等候辯護人的專門規定，不能用一般詢問例外任意縮減。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -1472,8 +1484,25 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）",
+          "url": "https://www.tpc.moj.gov.tw/292885/976681/661783/1396443/post"
+        },
+        {
+          "title": "監察院調查報告・指認程序（完整報告，摘列107年注意事項）",
+          "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/42749"
+        },
+        {
+          "title": "監察院調查報告・南投大學生竊盜案指認程序（完整報告）",
+          "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/62901"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "當年度官方D；A至C的一般原則已核，D等候辯護人及例外仍待完整現行警察注意事項。"
     },
     {
       "id": "investigation115_18",
@@ -2315,26 +2344,26 @@
       "options": [
         {
           "text": "提出對質問題→針對說詞疑點深入探詢→提出雙方說詞不同點→請雙方就陳述不同處提出證明",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：提出問題、雙方說詞差異、探詢疑點、請求證明；不要在未釐清差異前直接要求舉證。",
+          "explanation": "本項把深入探詢疑點排在提出雙方差異之前，與當年度官方D不同；但手冊第117點只規定隔離及必要對質，沒有載四步驟次序。",
+          "correction": "作答仍依官方D；本次未取得附件十三，不能只由選項對照宣稱A次序違反已核完整表單。",
           "trueStatement": false
         },
         {
           "text": "提出對質問題→請雙方就陳述不同處提出證明→針對說詞疑點深入探詢→提出雙方說詞不同點",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：提出問題、雙方說詞差異、探詢疑點、請求證明；不要在未釐清差異前直接要求舉證。",
+          "explanation": "本項在釐清雙方差異與深入探詢前就請提出證明，與當年度官方D不同；已核刑訴及手冊主文並未明列此四步驟。",
+          "correction": "對質應保持任意陳述及不自證己罪保障；至表單提問次序仍待附件十三核對。",
           "trueStatement": false
         },
         {
           "text": "提出雙方說詞不同點→提出對質問題→針對說詞疑點深入探詢→請雙方就陳述不同處提出證明",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：提出問題、雙方說詞差異、探詢疑點、請求證明；不要在未釐清差異前直接要求舉證。",
+          "explanation": "本項先提出說詞差異再提對質問題，與當年度官方D不同；完整主文只能證明因發現真實必要得對質，無法單憑此確認C具體順序正誤。",
+          "correction": "保留當年給分位置；不得以未取得的附件內容作為已核依據。",
           "trueStatement": false
         },
         {
           "text": "提出對質問題→提出雙方說詞不同點→針對說詞疑點深入探詢→請雙方就陳述不同處提出證明",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "提出問題、雙方說詞差異、探詢疑點、請求證明；不要在未釐清差異前直接要求舉證。",
+          "explanation": "D是當年度官方接受順序：問題、差異、疑點、證明。本次尚缺官方對質筆錄附件十三，故僅標示官方給分，未把次序宣稱為現行完整原件已核。",
+          "correction": "練習依D計分；理解其順序時須記得嫌疑人得緘默、不得不正取供，表單也不會創設強迫舉證責任。",
           "trueStatement": true
         }
       ],
@@ -2351,13 +2380,26 @@
       "paperTrack": "內軌",
       "paperNumber": 27,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "警專公開115年新版警察偵查犯罪手冊（完整主文）；刑事訴訟法（本次核對之現行全文）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "共同嫌疑人原則隔離詢問，因發現真實必要得命對質；對質不等於可強迫自證有罪。原題四步驟官方給分D保留，但附件未取得前不把次序當已完整查核。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "刑事訴訟法（本次核對之現行全文）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ],
+        "effectiveStatus": "unverified"
       },
-      "takeaway": "提出問題、雙方說詞差異、探詢疑點、請求證明；不要在未釐清差異前直接要求舉證。",
+      "takeaway": "共同嫌疑人原則隔離詢問，因發現真實必要得命對質；對質不等於可強迫自證有罪。原題四步驟官方給分D保留，但附件未取得前不把次序當已完整查核。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -2374,8 +2416,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "刑事訴訟法（本次核對之現行全文）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "當年度官方D；已核對質一般權限，四步驟次序仍缺官方對質筆錄附件十三。"
     },
     {
       "id": "investigation115_28",

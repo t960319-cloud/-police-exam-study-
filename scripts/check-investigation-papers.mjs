@@ -6,7 +6,12 @@ import {TOPICS} from '../lib/study-data.ts';
 const years=[110,111,112,113,114,115], topics=new Set(TOPICS.map(t=>t.id)), ids=new Set();
 const norm=s=>s.normalize('NFKC').replace(/[^\p{L}\p{N}]/gu,'');
 let count=0,stable=0,verifiedCount=0,versionChanged=0;
-const reviewedVersionChanges=new Set(['investigation111_04','investigation112_01']);
+const reviewedVersionChanges=new Map([
+ ['investigation111_04','https://crime.tpa.edu.tw/'],
+ ['investigation112_01','https://crime.tpa.edu.tw/'],
+ ['investigation112_38','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0380131'],
+ ['investigation111_48','https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=D0080079'],
+]);
 for(const year of years){
  const paper=JSON.parse(fs.readFileSync(new URL(`../lib/past-papers/investigation-${year}.json`,import.meta.url),'utf8'));
  const source=norm(fs.readFileSync(new URL(`../public/exam-papers/investigation/${year}/question.txt`,import.meta.url),'utf8'));
@@ -30,7 +35,7 @@ for(const year of years){
    if(q.amendment.status==='changed'){
     assert(reviewedVersionChanges.has(q.id),label);versionChanged++;
     assert.equal(q.amendment.checkedAt,'2026-11-20',label);
-    assert(q.amendment.sources.some(s=>s.url.startsWith('https://crime.tpa.edu.tw/')),label);
+    assert(q.amendment.sources.some(s=>s.url.startsWith(reviewedVersionChanges.get(q.id))),label);
    }else{stable++;assert.equal(q.amendment.status,'none',label);}
   }
  }
@@ -48,5 +53,5 @@ for(const file of fs.readdirSync(new URL('../lib/past-papers',import.meta.url)).
  const p=JSON.parse(fs.readFileSync(new URL(`../lib/past-papers/${file}`,import.meta.url),'utf8'));for(const item of [...p.questions??[],...p.essays??[]])assert(!ids.has(item.id),`duplicate existing id ${item.id}`);
 }
 const registry=fs.readFileSync(new URL('../lib/past-exams.ts',import.meta.url),'utf8');for(const y of years){assert(registry.includes(`import i${y} from "./past-papers/investigation-${y}.json"`));assert(registry.includes(`i${y}`));}
-assert.equal(versionChanged,2);
+assert.equal(versionChanged,reviewedVersionChanges.size);
 console.log(JSON.stringify({papers:6,questions:count,transcribedOptions:count*4,officialCorrections:5,allCredit:3,multipleAcceptedSingleAnswers:1,replacedAnswer:1,stableConceptQuestions:stable,verifiedQuestions:verifiedCount,reviewedVersionChanges:versionChanged,externalSubjectAbsent:6,figureReferences:1}));
