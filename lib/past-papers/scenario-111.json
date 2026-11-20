@@ -760,26 +760,26 @@
       "options": [
         {
           "text": "直接逮捕甲",
-          "explanation": "被察覺不會產生現行犯、拘票或緊急拘提事由。",
-          "correction": "另有法定要件才可拘提逮捕。",
+          "explanation": "刑訴第88條現行犯或第88條之1急迫拘提須各有犯罪與事實要件；單純察覺跟蹤不能直接滿足。",
+          "correction": "另有現行犯、合法拘票或急迫拘提等獨立要件始依法拘捕。",
           "trueStatement": false
         },
         {
           "text": "繼續跟監",
-          "explanation": "照舊緊跟可能擴大暴露、危及安全及其他偵查部署。",
-          "correction": "評估中止、交替及通報，不僵化持續。",
+          "explanation": "手冊第93點要求依被察覺之不利情境採因應；第4款已對懷疑並欲詢問者明列保持鎮靜、預擬說詞，非不加處理地持續尾隨。",
+          "correction": "依對象反應、風險與人員部署調整，必要時交替或重新部署。",
           "trueStatement": false
         },
         {
           "text": "保持鎮靜，預擬遭甲詢問時，準備若干合理說詞及因應作為",
-          "explanation": "保持鎮靜並預擬合理因應，可降低暴露與衝突風險。",
-          "correction": "仍須合法蒐證，不得以說詞掩飾違法侵入或誘使犯罪。",
+          "explanation": "手冊第93點第4款明文與C相合。",
+          "correction": "C無須修正；所有跟蹤仍須在合法偵查目的及適當範圍內。",
           "trueStatement": true
         },
         {
           "text": "不予理會",
-          "explanation": "完全不理會可能暴露全案或引發危險。",
-          "correction": "掌握變化、通報指揮並採安全應對。",
+          "explanation": "手冊第93點設有多種掩護及撤離、通知支援等因應；完全不理會對象已察覺的情況不合風險調整要求。",
+          "correction": "保持鎮靜並採取適當說詞、偽裝、換手或支援措施。",
           "trueStatement": false
         }
       ],
@@ -788,23 +788,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等・警察情境實務概要・第11題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 11,
       "answerStatus": "原卷、官方初答及最終更正已核",
       "amendment": {
-        "status": "review",
-        "note": "跟監遭察覺後的預擬說詞與安全應變依原卷整理；刑事偵查跟監SOP完整現行原件仍待核，任何蒐證及人身處分另須合法權源。",
+        "status": "none",
+        "law": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件；全國法規資料庫・刑事訴訟法",
+        "checkedAt": "2026-11-20",
+        "note": "已核115手冊跟蹤及監視完整第90至94點及刑訴第88、88條之1。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "跟監暴露先應變；逮捕須另有法定要件。",
         "sources": [
           {
-            "title": "刑事訴訟法",
+            "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
           }
         ]
       },
-      "takeaway": "保持鎮靜並預擬合理因應，可降低暴露與衝突風險。",
+      "takeaway": "跟監暴露先應變；逮捕須另有法定要件。",
       "sources": [
         {
           "title": "考選部111年內軌四等警察情境實務概要原卷",
@@ -819,10 +827,15 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=111070&c=601&s=1105&q=1"
         },
         {
-          "title": "刑事訴訟法",
+          "title": "全國法規資料庫・刑事訴訟法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C；被察覺本身不是逮捕依據，手冊第93點第4款要求保持鎮靜並預擬合理說詞及因應。"
     },
     {
       "id": "scene111-12",
@@ -1372,26 +1385,26 @@
       "options": [
         {
           "text": "除特定違規態樣外，取締交通違規的科學儀器設置應採固定式，並定期於網站公布其設置地點",
-          "explanation": "本項反映原卷科技取證設置與公告原則；現行第7條之2文字已改以法定度量衡器、網站公告與列舉例外規範。",
-          "correction": "使用現行全文，不把原卷固定式措辭當所有科技設備通則。",
+          "explanation": "現行第7條之2第2項規範屬法定度量衡器之科學儀器取證地點、路段的網站公布及列舉例外，並未保留本項一概應採固定式的文字。",
+          "correction": "依現行第2項核公布義務及各款例外，不能把舊固定式要求當普遍現行規定。",
           "trueStatement": true
         },
         {
           "text": "科技執法科學儀器的設置地點，於一般道路應於 100 公尺至 300 公尺間，明顯標示",
-          "explanation": "一般道路測速取締標誌距離為100至300公尺；這是測速路段規定，不是所有科技執法一概如此。",
-          "correction": "加上測速取締適用範圍。",
+          "explanation": "第7條之2第3項對第2項第9款速度違規取締路段，規定一般道路前方100至300公尺設測速取締標誌；不是所有科技執法一律適用。",
+          "correction": "補上速度違規取締路段前提，距離100至300公尺。",
           "trueStatement": true
         },
         {
           "text": "科技執法科學儀器的設置地點，於高速公路、快速公路應於 300 公尺至 1000 公尺間，明顯標示",
-          "explanation": "高速、快速公路測速標誌距離為300至1000公尺，同須區別非測速科技態樣。",
-          "correction": "本題距離數字無須修正。",
+          "explanation": "同條第3項對速度違規取締路段，在高速公路、快速公路前方300至1000公尺設測速取締標誌；不是每種科技違規取締。",
+          "correction": "補上速度執法前提，保留300至1000公尺。",
           "trueStatement": true
         },
         {
           "text": "若為定點當場攔截製單舉發者，則毋須於前方設置標示",
-          "explanation": "以測速科學儀器取證，不能只因後方安排人員當場攔停就免除前方測速標誌。",
-          "correction": "依第7條之2現行測速路段規定設置標誌；個別設備與態樣另核。",
+          "explanation": "第7條之2第3項以速度取締執法路段要求設標誌，未以當場攔截作免標誌事由；本項一概說定點攔截毋須標示過廣。",
+          "correction": "依速度執法路段設標誌，不能僅以當場製單免除；其他違規種類是否需標示另依其法源。",
           "trueStatement": false
         }
       ],
@@ -1400,24 +1413,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等・警察情境實務概要・第19題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 19,
       "answerStatus": "原卷、官方初答及最終更正已核",
       "amendment": {
-        "status": "review",
-        "law": "道路交通管理處罰條例第7條之2",
-        "note": "原卷D為錯誤；現行條文的科學儀器公告及測速標示適用範圍，不能簡化為所有科技執法。現行全文已核，但本項歷次修正生效沿革及最新設備SOP仍需補核。",
+        "status": "changed",
+        "law": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）；全國法規資料庫・道路交通管理處罰條例沿革及分段施行日期",
+        "checkedAt": "2026-11-20",
+        "note": "現行第7條之2第2項已非一律固定式的舊文字；第3項標誌距離限第2項第9款超速或低於最低速限的取締路段。保留原官方D，另明列A、B、C不能概括套用全體科技執法的現行差異。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "測速標誌只就速度執法路段審；當場攔截不當然免標示。",
         "sources": [
           {
-            "title": "道路交通管理處罰條例（注意部分條文尚未生效）",
+            "title": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+          },
+          {
+            "title": "全國法規資料庫・道路交通管理處罰條例沿革及分段施行日期",
+            "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=K0040012"
           }
         ]
       },
-      "takeaway": "以測速科學儀器取證，不能只因後方安排人員當場攔停就免除前方測速標誌。",
+      "takeaway": "測速標誌只就速度執法路段審；當場攔截不當然免標示。",
       "sources": [
         {
           "title": "考選部111年內軌四等警察情境實務概要原卷",
@@ -1432,10 +1452,15 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=111070&c=601&s=1105&q=1"
         },
         {
-          "title": "道路交通管理處罰條例（注意部分條文尚未生效）",
+          "title": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+        },
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例沿革及分段施行日期",
+          "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=K0040012"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D；現行以科學儀器取締速度違規，不能僅因當場攔截就省測速標誌。A固定式及B/C泛指所有科技執法，亦須依現行第7條之2修正理解。"
     },
     {
       "id": "scene111-20",

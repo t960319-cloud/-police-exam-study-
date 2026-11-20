@@ -268,26 +268,26 @@
       "options": [
         {
           "text": "搜索同意書",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "本題附件列舉不含搜索同意書；須與搜索票影本、測繪圖及證物採驗紀錄表區分。",
+          "explanation": "當年度官方答案列A，但115版手冊第71點已明列自願受搜索同意書或勘察採證同意書為依案情檢附的資料。選項簡稱搜索同意書，不能據此推成所有同意書均被排除。",
+          "correction": "現行應依具體程序檢附自願受搜索同意書或勘察採證同意書；此項不宜繼續當成現行唯一不屬附件者。",
           "trueStatement": false
         },
         {
           "text": "搜索票影本",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題附件列舉不含搜索同意書；須與搜索票影本、測繪圖及證物採驗紀錄表區分。",
+          "explanation": "第71點明列搜索票或鑑定許可書影本。是否檢附取決於本次採證採用的法定程序。",
+          "correction": "執行確有搜索票時，得依案情檢附搜索票影本；不是每件勘察都必然先有搜索票。",
           "trueStatement": true
         },
         {
           "text": "刑案現場測繪圖",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題附件列舉不含搜索同意書；須與搜索票影本、測繪圖及證物採驗紀錄表區分。",
+          "explanation": "第71點明列刑案現場測繪圖，作為呈現現場、跡證相互位置的相關資料。",
+          "correction": "現場測繪圖屬可檢附資料，依案件及實際製作情形附卷。",
           "trueStatement": true
         },
         {
           "text": "刑事案件證物採驗紀錄表",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題附件列舉不含搜索同意書；須與搜索票影本、測繪圖及證物採驗紀錄表區分。",
+          "explanation": "第71點末段明列刑事案件證物採驗紀錄表，與證物清單、照片、測繪圖等同列。",
+          "correction": "依案件檢附證物採驗紀錄表，不能將它排除於勘察報告附件。",
           "trueStatement": true
         }
       ],
@@ -298,19 +298,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第4題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 4,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "changed",
+        "law": "警專公開115年新版警察偵查犯罪手冊；警專刑事警察科・115年手冊官方附件入口",
+        "checkedAt": "2026-11-20",
+        "note": "115版手冊第71點已明列自願受搜索同意書或勘察採證同意書，原題不再適合按現行版本選出唯一A；當年度官方答案及給分不變，現行差異另列。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "115版手冊第71點已明列自願受搜索同意書及勘察採證同意書。現行複習應看具體執行程序，不能再以「同意書一律不附」記憶。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "警專刑事警察科・115年手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "本題附件列舉不含搜索同意書；須與搜索票影本、測繪圖及證物採驗紀錄表區分。",
+      "takeaway": "115版手冊第71點已明列自願受搜索同意書及勘察採證同意書。現行複習應看具體執行程序，不能再以「同意書一律不附」記憶。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -323,8 +335,17 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "115版第71點下，A至D均可能成為依案情檢附的資料；保留當年度官方答案A計分。"
     },
     {
       "id": "investigation111_05",
@@ -1134,26 +1155,26 @@
       "options": [
         {
           "text": "筆錄不得竄改、挖補或留空行，如有增刪更改，應由製作人在其上蓋章，並記明更改字數",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：可引導受詢問人及在場辯護人於螢幕閱覽或朗讀；增刪更改與閱覽順序均須依法留痕。",
+          "explanation": "手冊第121點要求增刪更改由製作人「及受詢問人」蓋章或按指印，刪處保留原字跡並註明更改字數，原項漏掉受詢問人的確認。",
+          "correction": "應由製作人及受詢問人於更正處確認，不得僅由製作人蓋章。",
           "trueStatement": false
         },
         {
           "text": "筆錄繕妥後，應先交在場之辯護人閱覽，並詢其有無錯誤及補充意見",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：可引導受詢問人及在場辯護人於螢幕閱覽或朗讀；增刪更改與閱覽順序均須依法留痕。",
+          "explanation": "第121點明定繕妥後先交「受詢問人」閱覽或朗讀；在場辯護人是協助閱覽，不是優先於受詢問人確認。",
+          "correction": "先由受詢問人閱覽或向其朗讀，再由在場辯護人協助並表示筆錄有無錯誤。",
           "trueStatement": false
         },
         {
           "text": "在場之辯護人請求對記載內容增刪變更者，應即將其陳述事項附記於筆錄",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：可引導受詢問人及在場辯護人於螢幕閱覽或朗讀；增刪更改與閱覽順序均須依法留痕。",
+          "explanation": "第121點對請求增刪、變更設有附記機制，但特別要求附記辯護人陳述時，應先使受詢問人明瞭。本項「應即」附記省略此程序條件。",
+          "correction": "辯護人的陳述應先使受詢問人明瞭後再附記；電腦筆錄如屬錯誤或補充，依同點第2項直接在電腦檔修正。",
           "trueStatement": false
         },
         {
           "text": "以電腦製作筆錄者，得引導受詢問人及在場之辯護人於電腦螢幕閱覽筆錄或向其朗讀",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "可引導受詢問人及在場辯護人於螢幕閱覽或朗讀；增刪更改與閱覽順序均須依法留痕。",
+          "explanation": "第121點第2項明文允許引導受詢問人及在場辯護人於電腦螢幕閱覽，或向其朗讀；有錯誤、補充意見時立即修正電腦檔。",
+          "correction": "電腦閱覽或朗讀均可，但仍須完成受詢問人確認及後續法定簽認程序。",
           "trueStatement": true
         }
       ],
@@ -1164,19 +1185,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第14題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 14,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "警專公開115年新版警察偵查犯罪手冊；警專刑事警察科・115年手冊官方附件入口",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "筆錄先交受詢問人確認；辯護人可協助閱覽及表示意見，但附記辯護人陳述前須使受詢問人明瞭，紙本更正由雙方確認。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "警專刑事警察科・115年手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "可引導受詢問人及在場辯護人於螢幕閱覽或朗讀；增刪更改與閱覽順序均須依法留痕。",
+      "takeaway": "筆錄先交受詢問人確認；辯護人可協助閱覽及表示意見，但附記辯護人陳述前須使受詢問人明瞭，紙本更正由雙方確認。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -1189,8 +1222,17 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D不變。筆錄先交受詢問人確認；辯護人可協助閱覽及表示意見，但附記辯護人陳述前須使受詢問人明瞭，紙本更正由雙方確認。"
     },
     {
       "id": "investigation111_15",
@@ -1666,26 +1708,26 @@
       "options": [
         {
           "text": "對於在軍艦服役之軍人為送達者，應囑託該管長官為之。必要時，得由憲兵將應送達之文書送交該管長 官囑託為之",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：營區長官書面拒絕不當然永久阻卻搜索，須依法律所定的拒絕理由與後續許可程序處理。",
+          "explanation": "軍事聯繫要點第5點第1項規定，對軍隊或軍艦服役軍人之送達，應囑託該管軍事機關或長官；必要時可由憲兵送交囑託。",
+          "correction": "此項符合要點，但受囑託機關仍須完成實際交付、送達證書等後續程序，不能只收文不轉交。",
           "trueStatement": true
         },
         {
           "text": "在軍營內行勘驗者，應由軍事機關聯繫窗口通知該管長官或可為其代表之人在場，並通知實施勘驗處所 之門禁人員放行",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：營區長官書面拒絕不當然永久阻卻搜索，須依法律所定的拒絕理由與後續許可程序處理。",
+          "explanation": "第9點前段規定，在軍營、軍艦或軍事秘密處所搜索、扣押或勘驗，由聯繫窗口通知長官或代表在場及門禁放行。",
+          "correction": "勘驗前應依第9點聯繫在場與門禁，不因程序在軍營內就省略法定調查。",
           "trueStatement": true
         },
         {
           "text": "軍事機關之長官認在其營區搜索，有妨害國家重大利益，出具書面說明理由拒絕進入者，檢察官即不得 以強制力搜索之",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "營區長官書面拒絕不當然永久阻卻搜索，須依法律所定的拒絕理由與後續許可程序處理。",
+          "explanation": "第9點後段不是一經長官書面拒絕就不得強制；檢察官認確無妨害國家重大利益，該管長官仍拒絕時，即得強制搜索。刑訴法第127條保護真正重大利益，第132條另限制強制程度。",
+          "correction": "應改為依書面理由及檢察官審查判斷；認確無妨害國家重大利益而仍拒絕，得以必要強制力搜索。",
           "trueStatement": false
         },
         {
           "text": "軍事機關內遇有非病死或可疑非病死者，應立即通報憲兵隊報請檢察官相驗",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：營區長官書面拒絕不當然永久阻卻搜索，須依法律所定的拒絕理由與後續許可程序處理。",
+          "explanation": "第10點第1項明定軍事機關內遇非病死或可疑非病死，立即通報憲兵隊報請檢察官相驗。",
+          "correction": "依第10點辦理通報相驗；不能由部隊自行認定死因後即免司法相驗程序。",
           "trueStatement": true
         }
       ],
@@ -1696,19 +1738,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第20題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 20,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "檢察機關辦理刑事案件與軍事機關聯繫要點；刑事訴訟法",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "軍事機關的拒絕不當然阻斷搜索。聯繫要點第9點規定長官書面說明、檢察官審查後，認確無妨害國家重大利益而仍拒絕者，得依法強制搜索。",
+        "sources": [
+          {
+            "title": "檢察機關辦理刑事案件與軍事機關聯繫要點",
+            "url": "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=FL073548"
+          },
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "營區長官書面拒絕不當然永久阻卻搜索，須依法律所定的拒絕理由與後續許可程序處理。",
+      "takeaway": "軍事機關的拒絕不當然阻斷搜索。聯繫要點第9點規定長官書面說明、檢察官審查後，認確無妨害國家重大利益而仍拒絕者，得依法強制搜索。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -1721,8 +1775,17 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "檢察機關辦理刑事案件與軍事機關聯繫要點",
+          "url": "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=FL073548"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C不變。軍事機關的拒絕不當然阻斷搜索。聯繫要點第9點規定長官書面說明、檢察官審查後，認確無妨害國家重大利益而仍拒絕者，得依法強制搜索。"
     },
     {
       "id": "investigation111_21",
@@ -1734,26 +1797,26 @@
       "options": [
         {
           "text": "①②③④⑤",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：本題當年列舉組合為保育、勞政及里幹事①②④；其他人仍可通報，但不等於題問的法定列舉身分。",
+          "explanation": "性侵害犯罪防治法第11條第1項列保育、勞政、村里幹事，但沒有把房屋仲介及戶政人員列為這一條的當然責任通報職類。本組多含③⑤。",
+          "correction": "應選①②④；若房仲或戶政人員另兼具法定列舉身分，須依其實際職務另判，不能只看職稱概括排除其他義務。",
           "trueStatement": false
         },
         {
           "text": "①②④⑤",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：本題當年列舉組合為保育、勞政及里幹事①②④；其他人仍可通報，但不等於題問的法定列舉身分。",
+          "explanation": "本組除正確的①②④外，加入⑤戶政人員；第11條列舉沒有此職類。",
+          "correction": "去掉⑤。戶政主管機關在其他協助工作上的職責，不等於戶政人員都被列入第11條責任通報名單。",
           "trueStatement": false
         },
         {
           "text": "①②④",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "本題當年列舉組合為保育、勞政及里幹事①②④；其他人仍可通報，但不等於題問的法定列舉身分。",
+          "explanation": "第11條第1項明列保育人員、勞政人員及村（里）幹事人員。於執行職務知有疑似性侵害應立即通報，至遲24小時。",
+          "correction": "①②④符合列舉，並須同時符合執行職務時知悉疑似情事的條件。",
           "trueStatement": true
         },
         {
           "text": "②④⑤",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：本題當年列舉組合為保育、勞政及里幹事①②④；其他人仍可通報，但不等於題問的法定列舉身分。",
+          "explanation": "本組漏列①保育人員，卻納入⑤戶政人員，與第11條列舉不符。",
+          "correction": "應保留②④，補①並去⑤；時限是立即且至遲24小時。",
           "trueStatement": false
         }
       ],
@@ -1764,19 +1827,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第21題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 21,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "性侵害犯罪防治法",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "性侵害責任通報依職類判斷；保育、勞政、村里幹事列於現行第11條，僅具房仲或戶政人員身分者未列入。",
+        "sources": [
+          {
+            "title": "性侵害犯罪防治法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
+          }
+        ]
       },
-      "takeaway": "本題當年列舉組合為保育、勞政及里幹事①②④；其他人仍可通報，但不等於題問的法定列舉身分。",
+      "takeaway": "性侵害責任通報依職類判斷；保育、勞政、村里幹事列於現行第11條，僅具房仲或戶政人員身分者未列入。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -1789,8 +1860,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "性侵害犯罪防治法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C（①②④）不變。性侵害責任通報依職類判斷；保育、勞政、村里幹事列於現行第11條，僅具房仲或戶政人員身分者未列入。"
     },
     {
       "id": "investigation111_22",
@@ -2440,26 +2516,26 @@
       "options": [
         {
           "text": "6 個月",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：當年一般警示期限為2年，有繼續警示必要者另依法辦理，不是永久有效。",
+          "explanation": "管理辦法第9條第1項定一般期間為逾2年，不是6個月。",
+          "correction": "一般警示期限為2年；6個月不是本條警示失效期間。",
           "trueStatement": false
         },
         {
           "text": "1 年",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：當年一般警示期限為2年，有繼續警示必要者另依法辦理，不是永久有效。",
+          "explanation": "第9條的一年是必要延長時的上限，不是原始警示期間。",
+          "correction": "先有一般2年，續行警示須原通報機關於屆滿前再通報，延長以1次、1年為限。",
           "trueStatement": false
         },
         {
           "text": "2 年",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "當年一般警示期限為2年，有繼續警示必要者另依法辦理，不是永久有效。",
+          "explanation": "第9條第1項明文為自通報起算，逾二年自動失其效力。",
+          "correction": "2年為一般期限；有續行必要時，仍須依法在期滿前另行通報，不能任由銀行無限期延長。",
           "trueStatement": true
         },
         {
           "text": "3 年",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：當年一般警示期限為2年，有繼續警示必要者另依法辦理，不是永久有效。",
+          "explanation": "第9條雖可能因一次一年延長而累計至3年，但原題問沒有續行必要時的一般期間，不能把延長後總長誤作一般期限。",
+          "correction": "一般應選2年；3年只能是在符合法定延長程序下可能出現的總期間。",
           "trueStatement": false
         }
       ],
@@ -2470,19 +2546,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等｜犯罪偵查概要｜第29題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 29,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "存款帳戶及其疑似不法或顯屬異常交易管理辦法",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "一般警示期間自通報起逾2年失效；必要時期限屆滿前再通報，僅可延長1次、1年。",
+        "sources": [
+          {
+            "title": "存款帳戶及其疑似不法或顯屬異常交易管理辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0380199"
+          }
+        ]
       },
-      "takeaway": "當年一般警示期限為2年，有繼續警示必要者另依法辦理，不是永久有效。",
+      "takeaway": "一般警示期間自通報起逾2年失效；必要時期限屆滿前再通報，僅可延長1次、1年。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -2495,8 +2579,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "存款帳戶及其疑似不法或顯屬異常交易管理辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0380199"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C不變。一般警示期間自通報起逾2年失效；必要時期限屆滿前再通報，僅可延長1次、1年。"
     },
     {
       "id": "investigation111_30",

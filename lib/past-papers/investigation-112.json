@@ -22,26 +22,26 @@
       "options": [
         {
           "text": "分駐所、派出所或勤務單位受理報案或發現犯罪，其為特殊、重大刑案者，應直接通報警察局及各 有關單位處理",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "特殊、重大刑案仍須依勤務指揮中心與分局等逐級報告程序辦理，不宜逕把派出所至警察局當成一般程序。",
+          "explanation": "115版手冊第18點明定不論案類，迅速報主管、通報所屬勤務指揮中心、通知所屬偵查隊及轉報相關單位。不能把特殊、重大案一概當成可跳過所屬層級直接報警察局。",
+          "correction": "應依第18點及各級處理刑案逐級報告紀律規定辦理；有緊急聯繫需要，仍須完成法定或內規報告程序。",
           "trueStatement": false
         },
         {
           "text": "分駐所、派出所或勤務單位受理報案或發現犯罪，為普通刑案者，應陳報分局管制",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：特殊、重大刑案仍須依勤務指揮中心與分局等逐級報告程序辦理，不宜逕把派出所至警察局當成一般程序。",
+          "explanation": "普通案也應循第18點迅速報主管、通報所屬勤指中心；第25點另依普通案件的單純程度、是否有續查必要，分配派出所或偵查隊主辦。原項只是舊版案類式概括，並非115版完整程序。",
+          "correction": "不能因屬普通案就只作分局管制而省略即時通報及必要處置；按第18、25點判斷後續分工。",
           "trueStatement": true
         },
         {
           "text": "警察接獲報案，如為他轄案件，應先受理及作必要處置，緊急案件並應迅速通知管轄分局勤務指揮 中心處理",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：特殊、重大刑案仍須依勤務指揮中心與分局等逐級報告程序辦理，不宜逕把派出所至警察局當成一般程序。",
+          "explanation": "第7點要求不論本轄他轄均即受理、反應處置，非本轄在受理處置後移轉；第18點要求迅速通報及轉報相關單位。緊急通知管轄機關是必要處置的具體實行，不得作拒收理由。",
+          "correction": "他轄案件先受理及作必要處置，迅速聯繫有管轄及處理責任單位後依法移轉，不能先以他轄退件。",
           "trueStatement": true
         },
         {
           "text": "警察局受理報案，查係特殊刑案，應列管督導或主持偵辦，並報告警政署刑事警察局偵防犯罪指揮 中心列管處理",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：特殊、重大刑案仍須依勤務指揮中心與分局等逐級報告程序辦理，不宜逕把派出所至警察局當成一般程序。",
+          "explanation": "第19點明定警察局受理或接獲分局轉報特殊、重大或牽連廣泛普通刑案，應列管督導或主持偵辦，並報刑事局偵防中心列管。",
+          "correction": "特殊刑案在警察局層級的督導及向刑事局報告義務仍應履行。",
           "trueStatement": true
         }
       ],
@@ -52,19 +52,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第1題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 1,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "changed",
+        "law": "警專公開115年新版警察偵查犯罪手冊；警專刑事警察科・115年手冊官方附件入口",
+        "checkedAt": "2026-11-20",
+        "note": "115版第18點現採不論案類的統一迅速報告程序，第19、25點分別補充警察局列管與派出所／偵查隊分工。保留112年官方A計分，現行補充不再將B當作完整的全部通報程序。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "115版逐級報告不再單靠普通、特殊或重大案分類背誦。先作必要處置，迅速報告主管、通報所屬勤指中心並通知偵查隊；他轄仍先受理。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "警專刑事警察科・115年手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "特殊、重大刑案仍須依勤務指揮中心與分局等逐級報告程序辦理，不宜逕把派出所至警察局當成一般程序。",
+      "takeaway": "115版逐級報告不再單靠普通、特殊或重大案分類背誦。先作必要處置，迅速報告主管、通報所屬勤指中心並通知偵查隊；他轄仍先受理。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -81,8 +93,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "保留官方A；115版第18點已改採不論案類迅速報主管及所屬勤指中心的統一程序。"
     },
     {
       "id": "investigation112_02",
@@ -355,26 +376,26 @@
       "options": [
         {
           "text": "國防部",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：本題依衛生福利部公告的濫用藥物尿液採集相關規定辦理；採驗法源與檢體技術規範要分清。",
+          "explanation": "辦法第8條指定衛生福利部公告採集規定，並未指定國防部。第10條容許國防部憲兵指揮部辦理部分檢驗，不等於由國防部公告採集規範。",
+          "correction": "採集依衛生福利部公告；國防部所屬採驗或檢驗業務仍須依各適用規範辦理。",
           "trueStatement": false
         },
         {
           "text": "法務部",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：本題依衛生福利部公告的濫用藥物尿液採集相關規定辦理；採驗法源與檢體技術規範要分清。",
+          "explanation": "第8條不是由法務部公告。法務部在主管機關執行情形彙整、所屬人員採驗等事項上有職掌，不能因此替換第8條明定機關。",
+          "correction": "本題所問採集相關規定的公告機關，應改為衛生福利部。",
           "trueStatement": false
         },
         {
           "text": "衛生福利部",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "本題依衛生福利部公告的濫用藥物尿液採集相關規定辦理；採驗法源與檢體技術規範要分清。",
+          "explanation": "第8條全文明定尿液採集應依衛生福利部公告之濫用藥物尿液採集相關規定。",
+          "correction": "應選衛生福利部；仍須區分採集、保存送驗與結果判定等各階段要求。",
           "trueStatement": true
         },
         {
           "text": "內政部",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：本題依衛生福利部公告的濫用藥物尿液採集相關規定辦理；採驗法源與檢體技術規範要分清。",
+          "explanation": "第8條沒有指定內政部；警察機關執行採尿，也不使採集公告機關變成內政部。",
+          "correction": "警察執行特定人員採集尿液時，依本辦法第8條適用衛生福利部公告規定。",
           "trueStatement": false
         }
       ],
@@ -385,19 +406,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第5題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 5,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "特定人員尿液採驗辦法",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "特定人員尿液採驗辦法第8條直接指定依衛生福利部公告的採集規定辦理；採集規範與可送驗機關是不同問題。",
+        "sources": [
+          {
+            "title": "特定人員尿液採驗辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030026"
+          }
+        ]
       },
-      "takeaway": "本題依衛生福利部公告的濫用藥物尿液採集相關規定辦理；採驗法源與檢體技術規範要分清。",
+      "takeaway": "特定人員尿液採驗辦法第8條直接指定依衛生福利部公告的採集規定辦理；採集規範與可送驗機關是不同問題。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -414,8 +443,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "特定人員尿液採驗辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030026"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C不變。特定人員尿液採驗辦法第8條直接指定依衛生福利部公告的採集規定辦理；採集規範與可送驗機關是不同問題。"
     },
     {
       "id": "investigation112_06",
@@ -611,26 +645,26 @@
       "options": [
         {
           "text": "為防止危害或犯罪，認對公共安全、公共秩序將有危害行為，得遴選第三人秘密蒐集相關資料",
-          "explanation": "第12條對防止危害或犯罪之情形，規定得遴選第三人秘密蒐集相關資料。",
-          "correction": "須依第12條原因及第13條核准辦理。",
+          "explanation": "警職法第12條第1項列公共安全、公共秩序或個人法益將有危害行為、或有觸犯刑法之虞等條件，允許遴選第三人秘密蒐集相關資料。",
+          "correction": "有具體危害或犯罪之虞時，仍須依第13條敘明事實並取得適格警察首長核准，不能無特定事實全面蒐情。",
           "trueStatement": true
         },
         {
           "text": "遴選第三人秘密蒐集特定人相關資料，應敘明原因事實，經該直轄（縣）市長核准後實施",
-          "explanation": "第13條規定由該管警察局長或警察分局長核准，非直轄市長或縣市長。",
-          "correction": "應經該管警察局長或警察分局長核准。",
+          "explanation": "警職法第13條第1項明定核准者是該管警察局長或警察分局長，不是直轄市長、縣市長。",
+          "correction": "應改為敘明原因事實，經該管警察局長或分局長核准後實施。",
           "trueStatement": false
         },
         {
           "text": "蒐集工作結束後，警察應與第三人終止合作關係。但有繼續進行蒐集必要且經核准者，得繼續合作 關係",
-          "explanation": "第13條要求工作結束終止合作；例外須新發生第12條第1項原因事實、繼續蒐集必要且經核准。",
-          "correction": "補足新發生原因事實，不能只記必要與核准。",
+          "explanation": "第13條第2項原則要求工作結束即終止合作，例外除必要及核准外，還須「新發生」第12條第1項原因事實。原項只簡寫部分條件，不能理解為得任意延長。",
+          "correction": "須有新發生的法定原因事實、繼續蒐集必要並經核准，才可繼續合作；單純保持聯繫不等於取得無期限蒐情授權。",
           "trueStatement": true
         },
         {
           "text": "該第三人為證人者，適用關於證人保護法之規定",
-          "explanation": "第13條第3項明定第三人為證人者適用證人保護法規定。",
-          "correction": "本項符合第13條第3項。",
+          "explanation": "第13條第3項明定第三人為證人者適用證人保護法；蒐集資料若進入法律程序作證據，另須依相關訴訟法。",
+          "correction": "第三人成為證人時依證人保護法處理，不因身為合作第三人就享有警察職權或免除證據法要求。",
           "trueStatement": true
         }
       ],
@@ -641,26 +675,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第8題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 8,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "警察職權行使法第12、13條",
-        "checkedAt": "2026-11-16",
-        "effectiveStatus": "unverified",
-        "note": "原題續行條件未完整表達，保留待核；保留112年官方答案B。",
+        "status": "none",
+        "law": "警察職權行使法",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "秘密第三人蒐集資料由該管警察局長或分局長核准；第三人不具警察職權，合作延續也須有新發生原因事實、必要及核准。",
         "sources": [
           {
-            "title": "警察職權行使法第12、13、21條",
+            "title": "警察職權行使法",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           }
         ]
       },
-      "takeaway": "第三人蒐情由警察局長或分局長核准；續行須新原因事實、必要及核准。",
+      "takeaway": "秘密第三人蒐集資料由該管警察局長或分局長核准；第三人不具警察職權，合作延續也須有新發生原因事實、必要及核准。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -679,11 +714,11 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
         },
         {
-          "title": "警察職權行使法第12、13、21條",
+          "title": "警察職權行使法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
         }
       ],
-      "currentAnswer": "B為112年官方答案：核准層級為警察局長或警察分局長。C所述繼續合作還須注意第13條「新發生原因事實」等條件，原題文字範圍保留待核。"
+      "currentAnswer": "原官方答案B不變。秘密第三人蒐集資料由該管警察局長或分局長核准；第三人不具警察職權，合作延續也須有新發生原因事實、必要及核准。"
     },
     {
       "id": "investigation112_09",
@@ -1125,26 +1160,26 @@
       "options": [
         {
           "text": "處十年以上有期徒刑",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "本題112年版本以強暴等手段營利使兒少性交或猥褻，官方答案為10年以上有期徒刑；現行刑度須另核版本。",
+          "explanation": "第33條第1項是強制方法使兒少為有對價性交或猥褻，第2項將意圖營利者提高為10年以上徒刑，並併科1千萬元以下罰金；題示具兩層要件。",
+          "correction": "應選10年以上；原題只列徒刑，複習現行完整法定刑須一併注意併科罰金。",
           "trueStatement": true
         },
         {
           "text": "處七年以上有期徒刑",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題112年版本以強暴等手段營利使兒少性交或猥褻，官方答案為10年以上有期徒刑；現行刑度須另核版本。",
+          "explanation": "7年以上是第33條第1項強制方法的基本類型；題目另具意圖營利，應進入第2項加重類型。",
+          "correction": "沒有題示營利意圖時才先看第1項；本題為第2項10年以上。",
           "trueStatement": false
         },
         {
           "text": "處三年以上十年以下有期徒刑",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題112年版本以強暴等手段營利使兒少性交或猥褻，官方答案為10年以上有期徒刑；現行刑度須另核版本。",
+          "explanation": "3年以上10年以下可見於第32條第2項意圖營利引誘、容留、媒介等類型，或第33條第3項後續交付、運送等；不是題示營利強制性交易的第33條第2項。",
+          "correction": "應按強制方法加營利意圖的特別要件選第33條第2項，不可只看性交易及營利而套其他類型。",
           "trueStatement": false
         },
         {
           "text": "處一年以上七年以下有期徒刑",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題112年版本以強暴等手段營利使兒少性交或猥褻，官方答案為10年以上有期徒刑；現行刑度須另核版本。",
+          "explanation": "1年以上7年以下是第32條第1項引誘、容留、招募、媒介、協助等基本類型，題示強暴、脅迫等強制方法且意圖營利，刑度更重。",
+          "correction": "本題應適用第33條第2項10年以上，不能套第32條基本媒介類型。",
           "trueStatement": false
         }
       ],
@@ -1155,19 +1190,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第14題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 14,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "兒童及少年性剝削防制條例",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "強制使兒少從事有對價性行為，加上意圖營利，適用兒少性剝削條例第33條第2項：10年以上有期徒刑，現行另有併科罰金。",
+        "sources": [
+          {
+            "title": "兒童及少年性剝削防制條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050023"
+          }
+        ]
       },
-      "takeaway": "本題112年版本以強暴等手段營利使兒少性交或猥褻，官方答案為10年以上有期徒刑；現行刑度須另核版本。",
+      "takeaway": "強制使兒少從事有對價性行為，加上意圖營利，適用兒少性剝削條例第33條第2項：10年以上有期徒刑，現行另有併科罰金。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -1184,8 +1227,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "兒童及少年性剝削防制條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050023"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A不變。強制使兒少從事有對價性行為，加上意圖營利，適用兒少性剝削條例第33條第2項：10年以上有期徒刑，現行另有併科罰金。"
     },
     {
       "id": "investigation112_15",
@@ -3420,26 +3468,26 @@
       "options": [
         {
           "text": "六十",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：112年原卷涉及犯罪網頁及相關資料應保留180日；不同資料類型與後續修法須另核。",
+          "explanation": "第13條第2項明定180日，60日不足以符合該保存期間。",
+          "correction": "應保留180日；先行限制瀏覽或移除網頁是第1項義務，與保留調查資料並行。",
           "trueStatement": false
         },
         {
           "text": "九十",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：112年原卷涉及犯罪網頁及相關資料應保留180日；不同資料類型與後續修法須另核。",
+          "explanation": "90日不是第13條第2項期間；不能把其他網路資料或案件程序期限挪作本題答案。",
+          "correction": "本題依性侵害犯罪防治法保留180日。",
           "trueStatement": false
         },
         {
           "text": "一百二十",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：112年原卷涉及犯罪網頁及相關資料應保留180日；不同資料類型與後續修法須另核。",
+          "explanation": "120日仍短於第13條第2項的180日。",
+          "correction": "應將犯罪網頁資料、嫌疑人個人資料及網路使用紀錄依法保留180日供司法警察調查。",
           "trueStatement": false
         },
         {
           "text": "一百八十",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "112年原卷涉及犯罪網頁及相關資料應保留180日；不同資料類型與後續修法須另核。",
+          "explanation": "第13條第2項對題示三類資料均規定保留180日，對象為第1項所定平臺、應用服務及接取服務提供者。",
+          "correction": "應選180日；此保存義務不能被解釋成網頁下架後即可立刻刪去其證據資料。",
           "trueStatement": true
         }
       ],
@@ -3450,19 +3498,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第42題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 42,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "性侵害犯罪防治法",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "現行性侵害犯罪防治法第13條第2項要求犯罪網頁、嫌疑人個資及網路使用紀錄保留180日，限制瀏覽或移除不等於刪除調查證據。",
+        "sources": [
+          {
+            "title": "性侵害犯罪防治法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
+          }
+        ]
       },
-      "takeaway": "112年原卷涉及犯罪網頁及相關資料應保留180日；不同資料類型與後續修法須另核。",
+      "takeaway": "現行性侵害犯罪防治法第13條第2項要求犯罪網頁、嫌疑人個資及網路使用紀錄保留180日，限制瀏覽或移除不等於刪除調查證據。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -3479,8 +3535,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "性侵害犯罪防治法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D不變。現行性侵害犯罪防治法第13條第2項要求犯罪網頁、嫌疑人個資及網路使用紀錄保留180日，限制瀏覽或移除不等於刪除調查證據。"
     },
     {
       "id": "investigation112_43",
@@ -3729,26 +3790,26 @@
       "options": [
         {
           "text": "過失犯罪因而發生死亡結果案件，經檢察官提起公訴且由最高法院管轄之第一審案件",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題112年初期適用故意犯罪發生死亡結果且由地方法院管轄的一審案件；後續適用範圍有分階段施行。",
+          "explanation": "國民法官法第5條第1項要求由地方法院管轄第一審，且死亡類型須為故意犯罪因而死亡；本項最高法院及過失兩處均不合。",
+          "correction": "本題應改為故意犯罪因而死亡、檢察官公訴且地方法院第一審，並排除法律另定不適用案件。",
           "trueStatement": false
         },
         {
           "text": "故意犯罪因而發生死亡結果案件，經檢察官提起公訴且由地方法院管轄之第一審案件",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "本題112年初期適用故意犯罪發生死亡結果且由地方法院管轄的一審案件；後續適用範圍有分階段施行。",
+          "explanation": "第5條第1項第2款明列故意犯罪因而發生死亡結果者，且本項具公訴、地方法院第一審條件。",
+          "correction": "在未落入少年刑事案件、毒品危害防制條例案件及其他法定排除時，B適用。",
           "trueStatement": true
         },
         {
           "text": "過失犯罪因而發生死亡結果案件，經檢察官提起公訴且由地方法院管轄之第一審案件",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題112年初期適用故意犯罪發生死亡結果且由地方法院管轄的一審案件；後續適用範圍有分階段施行。",
+          "explanation": "第5條第1項第2款限故意犯罪因而死亡，不包括僅因過失致死。地方法院第一審及公訴本身不足以使過失致死納入。",
+          "correction": "應將過失改為符合第5條列舉之犯罪類型，不能只看有死亡結果。",
           "trueStatement": false
         },
         {
           "text": "故意犯罪因而發生死亡結果案件，經檢察官提起公訴且由高等法院管轄之第一審案件",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題112年初期適用故意犯罪發生死亡結果且由地方法院管轄的一審案件；後續適用範圍有分階段施行。",
+          "explanation": "本項雖寫故意犯罪致死，但法院層級為高等法院第一審，欠缺第5條第1項地方法院管轄條件。",
+          "correction": "故意犯罪致死亦須由地方法院管轄第一審，才符合本題國民參與審判規定。",
           "trueStatement": false
         }
       ],
@@ -3759,19 +3820,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第46題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 46,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "國民法官法",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "國民參與審判以檢察官公訴、地方法院第一審為程序條件。115年起最輕本刑10年以上之罪也納入，另須注意少年及毒品案件等法定排除。",
+        "sources": [
+          {
+            "title": "國民法官法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030320"
+          }
+        ]
       },
-      "takeaway": "本題112年初期適用故意犯罪發生死亡結果且由地方法院管轄的一審案件；後續適用範圍有分階段施行。",
+      "takeaway": "國民參與審判以檢察官公訴、地方法院第一審為程序條件。115年起最輕本刑10年以上之罪也納入，另須注意少年及毒品案件等法定排除。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -3788,8 +3857,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "國民法官法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030320"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B不變。國民參與審判以檢察官公訴、地方法院第一審為程序條件。115年起最輕本刑10年以上之罪也納入，另須注意少年及毒品案件等法定排除。"
     },
     {
       "id": "investigation112_47",

@@ -897,26 +897,26 @@
       "options": [
         {
           "text": "通報巡邏勤務人員",
-          "explanation": "本項為111年公告答案，指該事故類型依當年區分表對線上巡邏人員的通報處理。",
-          "correction": "無須依原題修正；現行區分表全文仍待核。",
+          "explanation": "附件一第一類重大治安事故第(五)目列重要廠礦、庫、水電、生產機構、機場、港口或車站事故；警察局「通報」欄明列巡邏勤務人員。",
+          "correction": "A符合該列；仍須同時依表報告長官及通報其他列名單位。",
           "trueStatement": true
         },
         {
           "text": "通報分局勤務指揮中心",
-          "explanation": "與本題原區分表的指定處理步驟不符，不能只憑一般分局管轄直覺選擇。",
-          "correction": "依該事故類型指定通報巡邏勤務人員。",
+          "explanation": "同列分局是向局勤指中心「轉報」；警察局欄並非將通報分局勤指中心列為本題指定步驟。",
+          "correction": "不得把分局上報局的層級倒置成此列答案；有實際調度需要時另依本文辦理。",
           "trueStatement": false
         },
         {
           "text": "轉報刑事警察局偵防犯罪指揮中心",
-          "explanation": "非所有重要設施事故均直接屬刑事局偵防中心轉報類型。",
-          "correction": "先依事故性質及區分表指定單位通報。",
+          "explanation": "附件一第四類重大及特殊刑案等有轉報刑事警察局偵防犯罪指揮中心；第一類本題重要設施事故的警察局轉報欄為署勤指中心。",
+          "correction": "依事故性質選表列案類；另兼涉刑案時，並行適用相關通報。",
           "trueStatement": false
         },
         {
           "text": "轉報交通部道安委員會",
-          "explanation": "題目列舉設施事故不當然均轉交通部道安委員會。",
-          "correction": "依事故區分表及權責通報。",
+          "explanation": "交通部道安委員會列於附件一第三類重大及重要道路交通事故之警察局轉報欄，非第一類本題列示步驟。",
+          "correction": "本題改為轉報署勤指中心；事故兼涉重大交通情形另核。",
           "trueStatement": false
         }
       ],
@@ -924,18 +924,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等・警察勤務概要・第14題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 14,
       "answerStatus": "官方最終答案已核（無更正紀錄）",
       "amendment": {
-        "status": "review",
-        "note": "本題依指定當年行政規則或學理核對官方答案；完整現行規範或來源仍待核，不把歷史答案當現行法律定論。",
-        "sources": []
+        "status": "none",
+        "law": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+        "checkedAt": "2026-11-20",
+        "note": "已實際讀取111.12.20完整勤務指揮中心規定及附件一；本題逐項核對附件一第一類重大治安事故之警察局欄。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "重大治安事故的警察局欄：通報巡邏、轉報署勤指。",
+        "sources": [
+          {
+            "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+          }
+        ]
       },
-      "takeaway": "本項為111年公告答案，指該事故類型依當年區分表對線上巡邏人員的通報處理。",
+      "takeaway": "重大治安事故的警察局欄：通報巡邏、轉報署勤指。",
       "sources": [
         {
           "title": "考選部111年內軌四等警察勤務概要原卷",
@@ -948,8 +957,13 @@
         {
           "title": "考選部最終答案及更正清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A；重要設施事故列重大治安事故，警察局通報巡邏勤務人員，並轉報署勤指中心。"
     },
     {
       "id": "duty111_15",

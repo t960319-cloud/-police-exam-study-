@@ -213,26 +213,26 @@
       "options": [
         {
           "text": "阿明和阿美已辦理離婚，3 歲兒子小寶的監護權等待法院裁定中，阿明在未經阿美的同意下擅 自帶走小寶，阿美又急又氣報案並要求緊急查尋馬上找到小寶",
-          "explanation": "父母親權或監護尚待裁定，一方帶走子女不當然成立失蹤人口緊急查尋要件；仍須查明所在不明、生命身體危險或其他法定緊急情事。",
-          "correction": "先調查親權、子女所在及危險事證，符合急迫風險即緊急查尋，不代替法院裁定監護。",
+          "explanation": "第6點第(四)款對未滿7歲設家屬擅自帶離例外；本題僅以監護裁判未定、父親帶走，不當然符合緊急查尋。但第3點仍原則立即受理，第5點另有未成年帶離流程。",
+          "correction": "不得因A不屬自動緊急就拒絕報案；另有生命安全、誘拐脅迫或其他重大急迫事實時依第6點其他款審查。",
           "trueStatement": false
         },
         {
           "text": "家屬在社群媒體發文並報案說大學二年級的小珍失蹤 7 天，疑似被人控制",
-          "explanation": "疑遭控制而所在不明，可能涉及被害及人身危險，應立即調查並依緊急查尋要件處理，不能再等待。",
-          "correction": "無須修正；須記錄疑受控制的具體資訊。",
+          "explanation": "第6點第(三)、(六)款涵被誘拐脅迫之虞及其他重大急迫情事；疑被控制有具體線索時，可據以評估緊急查尋，非須等到固定失蹤天數。",
+          "correction": "依具體情資查證急迫性，不能只憑社群貼文即無審查調取資料。",
           "trueStatement": true
         },
         {
           "text": "緊急查尋案件受理後儘速詳細調查失蹤者交往對象及可能去向，積極展開查尋作為，將筆錄連 同查詢電信資料申請表，交勤務指揮中心申請調閱失蹤人的行動電話定位資料",
-          "explanation": "緊急案件應積極查訪、查明可能去向，依法定程序申請定位資料，不能僅因家屬要求便無條件調取。",
-          "correction": "無須修正；定位須有適用法源、核准及紀錄。",
+          "explanation": "第7點第(一)款要求詳細調查背景、交往對象及可能去向，必要時得將筆錄連同電信申請表併傳勤指中心，依相關規定申請定位資料。",
+          "correction": "C的資料調取須保留必要性及依相關法定程序，不能一報案即無條件定位。",
           "trueStatement": true
         },
         {
           "text": "受理後立即請勤務指揮中心通報轄內或轉報他轄線上警力緊急查尋，或請大眾媒體報導協尋",
-          "explanation": "即時通報勤務指揮中心與跨轄線上警力，必要時依法協尋，可把握急迫救援時間。",
-          "correction": "無須修正；公開協尋資料仍應考量隱私及救援安全。",
+          "explanation": "第7點第(二)款規定視個案情形報勤指中心通報轄內、他轄警力，或洽大眾媒體協尋；第5點第(二)款另有公開協尋意願徵詢。",
+          "correction": "依法及依個案通報、協尋；媒體公開應遵守同意、個資及被害保護規定。",
           "trueStatement": true
         }
       ],
@@ -240,31 +240,27 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜警察情境實務概要｜第4題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 4,
       "answerStatus": "官方原卷及當年度答案已核；官方目錄未列本科更正",
       "amendment": {
-        "status": "review",
-        "law": "失蹤人口查尋作業要點",
-        "checkedAt": "2026-11-16",
-        "effectiveStatus": "in-force",
-        "effectiveDate": "112.12.29修正第5點並自即日生效",
-        "note": "第6點兩個兒童年齡款排除家屬擅自帶離；另有急迫事由仍可適用其他款。第7點定位為必要時依相關規定申請，通報或媒體協尋應視個案，完整其他SOP仍需確認。",
+        "status": "none",
+        "law": "全國警察法規資料庫・失蹤人口查尋作業要點全文（112.12.29）",
+        "checkedAt": "2026-11-20",
+        "note": "已核全國警察法規資料庫112.12.29失蹤人口查尋作業要點全文18點，逐項核第5、6、7點。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "親權未定不自動緊急；家屬帶離仍要受理、查有無其他危急。",
         "sources": [
           {
-            "title": "警政署・失蹤人口查尋作業要點全文（第3、5至10、12點）",
+            "title": "全國警察法規資料庫・失蹤人口查尋作業要點全文（112.12.29）",
             "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000200"
-          },
-          {
-            "title": "警政署・失蹤人口查尋作業要點沿革",
-            "url": "https://ou3.npa.gov.tw/law/Law/LawDetailBase/F1000200"
           }
         ]
       },
-      "takeaway": "父母親權或監護尚待裁定，一方帶走子女不當然成立失蹤人口緊急查尋要件；仍須查明所在不明、生命身體危險或其他法定緊急情事。",
+      "takeaway": "親權未定不自動緊急；家屬帶離仍要受理、查有無其他危急。",
       "sources": [
         {
           "title": "考選部・113年四等警察情境實務概要原卷",
@@ -275,7 +271,7 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0905&q=1"
         },
         {
-          "title": "警政署・失蹤人口查尋作業要點全文（第3、5至10、12點）",
+          "title": "全國警察法規資料庫・失蹤人口查尋作業要點全文（112.12.29）",
           "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000200"
         },
         {
@@ -283,7 +279,7 @@
           "url": "https://ou3.npa.gov.tw/law/Law/LawDetailBase/F1000200"
         }
       ],
-      "currentAnswer": "原題A為官方答案；A所列家屬帶離不當然符合年齡款，另有急迫事由仍須個案評估。定位及協尋須依第7點的必要性與個案條件。"
+      "currentAnswer": "原官方答案A；未滿7歲雖為緊急查尋類型，家屬擅自帶離有明文例外。但仍須受理並審查是否另有被誘拐脅迫或其他重大急迫情事。"
     },
     {
       "id": "scene113-05",
@@ -363,26 +359,26 @@
       "options": [
         {
           "text": "治安顧慮人口",
-          "explanation": "治安顧慮人口有警職法第15條及查訪辦法的明確法源，是訪查規定用語。",
-          "correction": "無須修正。",
+          "explanation": "第2點第(一)款用詞即治安顧慮人口。",
+          "correction": "A無須修正；其法源為警職法第15條及查訪辦法第2條。",
           "trueStatement": true
         },
         {
           "text": "記事一人口",
-          "explanation": "原題應為「記事人口」，不是「記事一人口」；不能沿用早期分類名稱。",
-          "correction": "刪除「一」，並依性侵害、家暴等個別法源確認查訪要件。",
+          "explanation": "第2點第(二)款採「記事人口」，依法得定期或不定期查訪之對象，不再列記事一人口。",
+          "correction": "B為本題不屬名稱；不可沿用舊分類創設現行列管依據。",
           "trueStatement": false
         },
         {
           "text": "一般人口",
-          "explanation": "一般人口為治安顧慮及記事人口以外的對象，屬作業規定用語。",
-          "correction": "無須修正；一般訪查須遵守任意及個資限制。",
+          "explanation": "第2點第(三)款列一般人口，指治安顧慮人口及記事人口以外之人。",
+          "correction": "C無須修正；一般人口不等於可強制全面訪查。",
           "trueStatement": true
         },
         {
           "text": "諮詢對象",
-          "explanation": "諮詢對象係為經營社區治安而定期聯繫的地方人士等，屬作業規定用語。",
-          "correction": "無須修正；不得任意發展為無限制監控。",
+          "explanation": "第2點第(四)款用詞即諮詢對象，並列村里鄰長等及其他符合公益治安條件之人。",
+          "correction": "D無須修正；依合法任意訪查及個資目的辦理。",
           "trueStatement": true
         }
       ],
@@ -390,18 +386,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜警察情境實務概要｜第6題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 6,
       "answerStatus": "官方原卷及當年度答案已核；官方目錄未列本科更正",
       "amendment": {
-        "status": "review",
-        "note": "已核核心為「記事人口」而非「記事一」；完整現行定義、範圍與訪查頻率仍須核最新作業規定。 原卷及當年度官方答案已核；現行完整作業規定仍須以最新原件確認。",
-        "sources": []
+        "status": "none",
+        "law": "臺灣警察專科學校行政警察科・112.4.24警察勤務區訪查作業規定第2、16、26點修正對照表（本題僅引完整第2點）；全國法規資料庫・警察勤務區訪查辦法",
+        "checkedAt": "2026-11-20",
+        "note": "112.4.24官方對照表完整第2點即足以核對四個名稱；不將該附件當成其餘作業規定全文。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "四類：治安顧慮、記事、一般、諮詢；無記事一。",
+        "sources": [
+          {
+            "title": "臺灣警察專科學校行政警察科・112.4.24警察勤務區訪查作業規定第2、16、26點修正對照表（本題僅引完整第2點）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+          },
+          {
+            "title": "全國法規資料庫・警察勤務區訪查辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
+          }
+        ]
       },
-      "takeaway": "原題應為「記事人口」，不是「記事一人口」；不能沿用早期分類名稱。",
+      "takeaway": "四類：治安顧慮、記事、一般、諮詢；無記事一。",
       "sources": [
         {
           "title": "考選部・113年四等警察情境實務概要原卷",
@@ -414,8 +423,17 @@
         {
           "title": "警察勤務區訪查辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080161"
+        },
+        {
+          "title": "臺灣警察專科學校行政警察科・112.4.24警察勤務區訪查作業規定第2、16、26點修正對照表（本題僅引完整第2點）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+        },
+        {
+          "title": "全國法規資料庫・警察勤務區訪查辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B；現行已取得第2點用詞為「記事人口」，不分記事一、二人口。"
     },
     {
       "id": "scene113-07",
@@ -781,26 +799,26 @@
       "options": [
         {
           "text": "應讓受搜索人主動操作電腦，俾利迅速取得相關證據",
-          "explanation": "讓受搜索人自行操作可能刪改、加密或傳送資料，破壞證據完整性。",
-          "correction": "由適任人員依法操作、記錄，必要時隔離網路並保全映像。",
+          "explanation": "手冊第265點第2款要求受搜索人與電腦手機等設備保持適當距離，避免接觸刪除檔案證據，並全程錄影或完整記錄操作。",
+          "correction": "不讓受搜索人任意操作；由適任人員依合法取證程序處理並記錄。",
           "trueStatement": false
         },
         {
           "text": "扣押電腦應澈底落實，以免證據不足，並無比例原則適用問題",
-          "explanation": "搜索扣押仍受比例原則與法定範圍限制，不能為求證據一概扣走所有物。",
-          "correction": "依令狀或法定例外與案件關聯、必要性範圍執行。",
+          "explanation": "手冊第265點第1款要求審慎搜索避免影響權益，刑訴第128條及第133條限制搜索標的、可為證據或得沒收之物，不能以澈底為由概括無限查扣。",
+          "correction": "依案件關聯、必要程度與合法令狀範圍搜索扣押，不否認比例限制。",
           "trueStatement": false
         },
         {
           "text": "為利取得相關犯罪證據，可安裝取證程式至受搜索人電腦",
-          "explanation": "任意安裝程式會改變系統及數據，不能只以取得證據為由直接操作。",
-          "correction": "由鑑識人員採合適且可驗證程序，記錄影響，優先保全原始資料。",
+          "explanation": "手冊第265點第3款明定勿安裝或拷貝任何程式、檔案至受搜索人電腦手機等數位設備，以免改動原始證據。",
+          "correction": "使用合適取證方法與工具，不能以取得證據為由任意安裝到原設備。",
           "trueStatement": false
         },
         {
           "text": "電腦檔案之證據應當場列印，並請受搜索人簽名捺印",
-          "explanation": "原卷採當場列印相關電腦檔案並請受搜索人簽名捺印作確認；現代數位證據仍應保留原始檔、雜湊及取得過程。",
-          "correction": "無須修正；不能把列印紙當成原始數位資料的全部替代。",
+          "explanation": "115手冊第265點第4款規定檔案證據應現場存證或依雲端勘察證物鏈平臺規範上鏈，並請受搜索人簽名按指印；原題一律當場列印不是本次附件現文。",
+          "correction": "保留原D給分；現行改為現場存證或依規範上鏈，並請簽名按指印，不把列印當唯一合法方式。",
           "trueStatement": true
         }
       ],
@@ -808,18 +826,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜警察情境實務概要｜第12題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 12,
       "answerStatus": "官方原卷及當年度答案已核；官方目錄未列本科更正",
       "amendment": {
-        "status": "review",
-        "note": "原題D是當年作業選項，現行數位鑑識完整SOP須核原件，列印簽認不是所有電腦搜索一律足夠或必須完成的唯一方法。 原卷及當年度官方答案已核；現行完整作業規定仍須以最新原件確認。",
-        "sources": []
+        "status": "changed",
+        "law": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件；全國法規資料庫・刑事訴訟法",
+        "checkedAt": "2026-11-20",
+        "note": "115公開手冊第265點第4款現文為「現場存證或依雲端勘察證物鏈平臺執行工作計畫規範上鏈」，已非原D強制當場列印的文字。僅確認本次公開附件版本差異，未推稱特定修正發布日。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "隔離受搜索人、防改寫設備；現場存證或規範上鏈，非一律列印。",
+        "sources": [
+          {
+            "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "原卷採當場列印相關電腦檔案並請受搜索人簽名捺印作確認；現代數位證據仍應保留原始檔、雜湊及取得過程。",
+      "takeaway": "隔離受搜索人、防改寫設備；現場存證或規範上鏈，非一律列印。",
       "sources": [
         {
           "title": "考選部・113年四等警察情境實務概要原卷",
@@ -832,8 +863,17 @@
         {
           "title": "刑事訴訟法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        },
+        {
+          "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D保留；按115公開手冊，D須改讀為現場存證或依規範上鏈，並請受搜索人簽名按指印。原四選項字面已無完全相合的現行正確項。"
     },
     {
       "id": "scene113-13",

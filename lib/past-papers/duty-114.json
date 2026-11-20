@@ -365,26 +365,26 @@
       "options": [
         {
           "text": "詢問受測者飲用酒類結束時間，若距檢測已達15分鐘即可檢測；未達或不告知者，可於漱口或等待滿15分鐘後檢測",
-          "explanation": "題示SOP以飲酒結束至檢測的15分鐘及漱口等方式，降低口腔殘留酒精影響。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "裁罰細則19-2第1項第2款及111版SOP三(四)1(2)均有15分鐘或漱口程序，不告知時間者亦須給漱口或等待的選擇。",
+          "correction": "依規定詢問、告知並供漱口；不是每次均可立即檢測。",
           "trueStatement": true
         },
         {
           "text": "必須全程連續錄影",
-          "explanation": "全程連續錄影用於保存告知、操作、受測反應與檢測結果。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "裁罰細則19-2第1項開頭明定檢測過程全程連續錄影，111版SOP亦列為檢測前應執行事項。",
+          "correction": "全程連續錄影；完整現行SOP是否另有設備例外配套，仍須核原文。",
           "trueStatement": true
         },
         {
           "text": "必須明確告知拒絕檢測的詳細法律效果，包含各次累犯加罰金額及可能公布姓名照片等",
-          "explanation": "原題問檢測前所有人都必須執行的事項；拒測時仍須依法告知拒測法律效果。",
-          "correction": "區分普遍檢測前流程與拒測後告知；裁罰細則第19條之2第5項規定拒測應告知法律效果，不能說完全不必告知。",
+          "explanation": "111版SOP三(四)1列檢測前程序，三(六)另列駕駛人拒測時應當場告知詳細法律效果；裁罰細則19-2第5項同有具體罰額與累犯告知清單。因此C作一般檢測前必備清單是官方未採項目，卻不能延伸為拒測也無須告知。",
+          "correction": "保留原官方C的階段區別；一旦進入拒測處理，依法完整告知適用法律效果，不能用本題免除。",
           "trueStatement": false
         },
         {
           "text": "應告知檢測流程，並說明需口含新吹嘴連續吐氣至儀器顯示完成",
-          "explanation": "說明檢測流程及使用新吹嘴、連續吐氣，屬正確檢測操作告知。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "裁罰細則19-2第1項第3款要求告知流程、連續吐氣至取樣完成；111版SOP三(四)1(3)、(4)及2明列準備新吹嘴及開始時插上新吹嘴。",
+          "correction": "D所述一般程序有據；吐氣不足及儀器失敗另依規定重測，不得任意重測成功結果。",
           "trueStatement": true
         }
       ],
@@ -402,35 +402,31 @@
       "answerStatus": "官方最終答案已核",
       "amendment": {
         "status": "review",
-        "law": "違反道路交通管理事件統一裁罰基準及處理細則第19條之2、刑事訴訟法第205條之1及第204條之1、道交條例第35條、111年憲判字第1號",
-        "checkedAt": "2026-11-16",
-        "effectiveStatus": "mixed",
-        "effectiveDate": "道交條例115.8.17修正第35條第6、15項定115.12.31施行",
-        "note": "裁罰細則第19條之2第1項已核：全程連續錄影、詢問飲酒結束時間及15分鐘／漱口、告知吐氣流程；第5項另規定拒測後法律效果告知。該題指定作業程序的完整最新版及新吹嘴細節仍待核，不憑細則自行推翻當年答案。",
+        "law": "全國法規資料庫・違反道路交通管理事件統一裁罰基準及處理細則；臺灣警察專科學校行政警察科・111.12.15取締酒後駕車作業程序完整9頁（非已確認最新版本）；全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）；全國法規資料庫・道路交通管理處罰條例沿革及分段施行日期",
+        "checkedAt": "2026-11-20",
+        "note": "已核裁罰細則19-2全文，並取得111.12.15酒駕SOP完整9頁：其第3頁把一般檢測前流程與拒測後法律效果告知分列。尚未核全最新SOP及115年道交修法配套，原有待核狀態保留；不得解說成拒測前從來不須詳細告知。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "一般檢測流程與拒測後告知分開；C不表示可以不告知拒測法律效果。",
         "sources": [
           {
-            "title": "全國法規資料庫・裁罰基準及處理細則第19條之2",
-            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0080029&flno=19-2"
+            "title": "全國法規資料庫・違反道路交通管理事件統一裁罰基準及處理細則",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080029"
           },
           {
-            "title": "全國法規資料庫・刑事訴訟法第205條之1",
-            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=205-1"
+            "title": "臺灣警察專科學校行政警察科・111.12.15取締酒後駕車作業程序完整9頁（非已確認最新版本）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=QjVkUGRlUmVUYVVodUFhWjBIU293QlZqdUlaUlllb1V0THYxaFcyKzczVExSNlQxbUo3ZGt6TXUxWU9nd1AxNDJnd1BqSCsvZ3B0eUc3UHVhUFVlVGlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RUYzSHZrWXVRYThNM01Mbk1wYitCeVpBamh2VEZ2RkZwZXdoUGJiMjNqTk5wNjN3V0UvSkdSTHZ1TXFxRVRxeG84S2JFVUZEbTdHN0tkcFNjWjZJK2NKeXkrT0pIc2lFdC9RZ09UKzROY0VwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=967"
           },
           {
-            "title": "全國法規資料庫・刑事訴訟法第204條之1",
-            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=204-1"
+            "title": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
           },
           {
-            "title": "全國法規資料庫・道交條例第35條（含分段施行資訊）",
-            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35"
-          },
-          {
-            "title": "憲法法庭・111年憲判字第1號",
-            "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=5304&id=310024"
+            "title": "全國法規資料庫・道路交通管理處罰條例沿革及分段施行日期",
+            "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=K0040012"
           }
         ]
       },
-      "takeaway": "酒測前告知與檢測準備：本題問「檢測前必須」的全部細節；官方否定把各次累犯金額及公布姓名照片等一律要求詳細逐款告知的說法。",
+      "takeaway": "一般檢測流程與拒測後告知分開；C不表示可以不告知拒測法律效果。",
       "sources": [
         {
           "title": "考選部114年警察勤務概要原卷",
@@ -463,9 +459,25 @@
         {
           "title": "憲法法庭・111年憲判字第1號",
           "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=5304&id=310024"
+        },
+        {
+          "title": "全國法規資料庫・違反道路交通管理事件統一裁罰基準及處理細則",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080029"
+        },
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.15取締酒後駕車作業程序完整9頁（非已確認最新版本）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=QjVkUGRlUmVUYVVodUFhWjBIU293QlZqdUlaUlllb1V0THYxaFcyKzczVExSNlQxbUo3ZGt6TXUxWU9nd1AxNDJnd1BqSCsvZ3B0eUc3UHVhUFVlVGlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RUYzSHZrWXVRYThNM01Mbk1wYitCeVpBamh2VEZ2RkZwZXdoUGJiMjNqTk5wNjN3V0UvSkdSTHZ1TXFxRVRxeG84S2JFVUZEbTdHN0tkcFNjWjZJK2NKeXkrT0pIc2lFdC9RZ09UKzROY0VwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=967"
+        },
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+        },
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例沿革及分段施行日期",
+          "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=K0040012"
         }
       ],
-      "currentAnswer": "原題C為當年官方答案。檢測流程包括15分鐘／漱口及連續錄影；若拒測，細則第19條之2第5項仍要求告知法律效果。不可誤解為拒測完全無需告知。"
+      "currentAnswer": "原官方答案C，以題目所問一般「檢測前」標準清單為限；受測人拒測時，裁罰細則19-2第5項及111版SOP均要求告知拒測法律效果，不能概括省略累犯、罰額等法定告知。"
     },
     {
       "id": "duty114_07",
@@ -547,26 +559,26 @@
       "options": [
         {
           "text": "巡邏勤務原則上採定時報告，每小時不得少於1次",
-          "explanation": "原題版本原則採定時報告，每小時至少一次，並須注意另有定點及抽呼要求。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第26點第(四)款第1目原則採定時報告，由各警察局規定時距次數，每小時不得少於一次。",
+          "correction": "A為原則；符合第3目使用GPS警車或登入指定系統載具的例外時，得免定時定點報告。",
           "trueStatement": true
         },
         {
           "text": "員警駕駛有GPS功能警車或攜帶警用行動載具並登入系統者，即可完全免除所有報告義務",
-          "explanation": "錯在「完全免除所有報告義務」；GPS或載具登錄不會免除盤查、緊急事件等必要回報。",
-          "correction": "應依適用作業規定判斷可替代之定時回報，不得概括免除全部報告。",
+          "explanation": "第26點第(四)款第3目僅規定得免定時定點報告；第(二)、(三)款及第(四)款第5目仍分別規範出收勤、備勤離所、盤查前後等報告。",
+          "correction": "刪除「完全免除所有」；只在規定設備啟用與系統管制條件下免定時定點報告。",
           "trueStatement": false
         },
         {
           "text": "員警遇可疑人車，應於盤查前先向勤指中心報告地點、對象特徵等資訊，盤查結束後亦應回報",
-          "explanation": "盤查前報告地點及對象特徵，結束後回報，利於安全及勤務掌握。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第26點第(四)款第5目明列盤查前報地點、外顯行為、衣著、車色號牌等特徵，結束後報勤指以利管制。",
+          "correction": "C無須修正；盤查本身仍須另有警職法第6至8條或刑事程序的合法要件。",
           "trueStatement": true
         },
         {
           "text": "巡邏勤務若違反定時定點報告或勤務抽呼查詢規定，應依警察人員獎懲標準懲處",
-          "explanation": "違反定時定點報告及抽呼規定，須依相關獎懲規範處理。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第26點第(四)款第4目明定違反定時定點報告或勤務抽呼查詢，依警察人員獎懲標準懲處。",
+          "correction": "D依原規定無須修正；合法免報的情形不得當違反義務處理。",
           "trueStatement": true
         }
       ],
@@ -574,18 +586,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察勤務概要｜第8題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 8,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "note": "官方考古答案已核對；題示行政規則或理論文字尚未取得完整最新版原件，不把歷史答案冒稱現行結論。",
-        "sources": []
+        "status": "none",
+        "law": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）；全國法規資料庫・警察職權行使法",
+        "checkedAt": "2026-11-20",
+        "note": "已核111.12.20勤務指揮中心規定完整第26點，非僅摘引GPS單一條款。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "GPS免定時定點，必要事件回報照辦。",
+        "sources": [
+          {
+            "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+          },
+          {
+            "title": "全國法規資料庫・警察職權行使法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+          }
+        ]
       },
-      "takeaway": "GPS不是免除所有勤務報告：錯在「完全免除所有報告義務」；GPS或載具登錄不會免除盤查、緊急事件等必要回報。",
+      "takeaway": "GPS免定時定點，必要事件回報照辦。",
       "sources": [
         {
           "title": "考選部114年警察勤務概要原卷",
@@ -598,8 +623,17 @@
         {
           "title": "考選部更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1007&q=1"
+        },
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+        },
+        {
+          "title": "全國法規資料庫・警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B；GPS或登入雲端勤務派遣系統得免的是定時定點報告，並未免除出收勤、盤查前後及突發狀況報告。"
     },
     {
       "id": "duty114_09",
@@ -1734,25 +1768,25 @@
       "options": [
         {
           "text": "行政中立",
-          "explanation": "行政中立是相關公務原則，但本條明文為政治中立。",
-          "correction": "本題應使用政治中立的法定用語。",
+          "explanation": "第4條明文為「政治中立」，本題問特種勤務條例的法定用語，非選行政中立；其他法律上的行政中立義務仍可能併存。",
+          "correction": "本題改選C政治中立。",
           "trueStatement": false
         },
         {
           "text": "人事中立",
-          "explanation": "人事中立不是本題法定用語。",
+          "explanation": "第4條無人事中立這個用語；條文保障安全對象的職責不得依個人人事關係偏頗。",
           "correction": "改為政治中立。",
           "trueStatement": false
         },
         {
           "text": "政治中立",
-          "explanation": "特種勤務應超出個人、地域及黨派關係，依法保持政治中立。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第4條規定特勤人員及特勤編組人員應超出個人、地域及黨派關係，依法保持政治中立。",
+          "correction": "C無須修正；適用主體為條例所定特勤人員與特勤編組人員。",
           "trueStatement": true
         },
         {
           "text": "文官中立",
-          "explanation": "文官中立不是本條明定答案。",
+          "explanation": "文官中立不是第4條採用的法定用語；本題不能以相近概念替換精確條文。",
           "correction": "改為政治中立。",
           "trueStatement": false
         }
@@ -1761,18 +1795,27 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察勤務概要｜第25題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 25,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "note": "官方考古答案已核對；題示行政規則或理論文字尚未取得完整最新版原件，不把歷史答案冒稱現行結論。",
-        "sources": []
+        "status": "none",
+        "law": "全國法規資料庫・特種勤務條例",
+        "checkedAt": "2026-11-20",
+        "note": "已核特種勤務條例全文，直接適用第4條。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "特勤超出個人、地域、黨派關係，依法保持政治中立。",
+        "sources": [
+          {
+            "title": "全國法規資料庫・特種勤務條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030246"
+          }
+        ]
       },
-      "takeaway": "特種勤務政治中立：特種勤務應超出個人、地域及黨派關係，依法保持政治中立。",
+      "takeaway": "特勤超出個人、地域、黨派關係，依法保持政治中立。",
       "sources": [
         {
           "title": "考選部114年警察勤務概要原卷",
@@ -1785,8 +1828,13 @@
         {
           "title": "考選部更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1007&q=1"
+        },
+        {
+          "title": "全國法規資料庫・特種勤務條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030246"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C；條例第4條用語為政治中立。"
     }
   ],
   "essays": [

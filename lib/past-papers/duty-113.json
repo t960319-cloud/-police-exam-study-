@@ -181,26 +181,26 @@
       "options": [
         {
           "text": "警勤區訪查屬任意性行政行為，為免執行發生偏差，對於拒絕查訪之治安顧慮人口或記事人口， 應通報刑事單位或婦幼單位，依法偵辦以落實犯罪預防的訪查任務",
-          "explanation": "任意性訪查被拒絕，不直接構成應移送偵辦的犯罪，不能僅以拒訪依法偵辦。",
-          "correction": "分別核對治安顧慮、記事人口的專屬義務；僅拒絕一般訪查不得自動刑事化。",
+          "explanation": "訪查辦法第4至7條要求尊重權益、表明身分、同意引導及適當時間；第2條並將治安顧慮人口另依特別法令處理。單純拒訪本身不能概括當成刑事案件偵辦依據。",
+          "correction": "不得僅因拒訪就認定犯罪；發現另有犯罪或依法應通報事實時，依各別法定要件處理。",
           "trueStatement": false
         },
         {
           "text": "警勤區員警實施訪查，得遞送警勤區員警聯繫卡片，載明服務事項及聯繫方法",
-          "explanation": "依法遞送聯繫卡，有助民眾知悉服務事項及聯絡管道。",
-          "correction": "無須修正。",
+          "explanation": "訪查辦法第9條第2款明文允許遞送警勤區員警聯繫卡片、載明聯繫方法；載明合法服務事項與第3條為民服務目的相合。",
+          "correction": "本項法規允許範圍已核；卡片完整現行格式未由本批取得。",
           "trueStatement": true
         },
         {
           "text": "加強與社區（大樓）保全（管理）人員聯繫互動，宣導落實訪客登記，並注意新遷入人口狀況",
-          "explanation": "社區保全聯繫及訪客管理可作社區犯罪預防，仍須遵守個資與必要範圍。",
-          "correction": "無須修正。",
+          "explanation": "第3條第1、3款支持犯罪預防及與社區組織互動；宣導訪客登記、注意新遷入者應受第4條比例與第10條個資目的限制。完整計畫是否另有具體要求未核。",
+          "correction": "不能把社區合作說成可強制民眾交付全部訪客或住戶資料；具體方案保留待核。",
           "trueStatement": true
         },
         {
           "text": "主動清查影響轄區治安、婦幼、交通及安寧秩序等因素，作為預防事故參考，以落實社會治安 調查工作",
-          "explanation": "主動瞭解轄區治安、交通及安寧風險，符合社會治安調查目的。",
-          "correction": "無須修正。",
+          "explanation": "第3條第3款社會治安調查及第2條犯罪預防目的，可支持蒐集與事故預防有關之社區資訊；仍限於必要及正當關聯範圍。",
+          "correction": "以合法必要資料為限；題示計畫的全部工作清單尚待全文核對。",
           "trueStatement": true
         }
       ],
@@ -216,19 +216,23 @@
       "answerStatus": "官方最終答案已核",
       "amendment": {
         "status": "review",
-        "note": "一般任意性訪查的拒絕不當然構成犯罪；治安顧慮、記事人口的特別義務仍應各依專法及最新作業規定核對。",
+        "law": "全國法規資料庫・警察勤務區訪查辦法；全國法規資料庫・警察職權行使法",
+        "checkedAt": "2026-11-20",
+        "note": "已核警察勤務區訪查辦法第2至10條及警職法第15條；A之拒訪不當然構成犯罪、B聯繫卡、C/D社區聯繫目的可核。但題幹社區警政再出發完整當期/現行計畫與訪客登記具體作法未取齊，整題仍待核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "拒訪與犯罪分開；訪查目的不能自行變成偵辦授權。",
         "sources": [
           {
             "title": "全國法規資料庫・警察勤務區訪查辦法",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
           },
           {
-            "title": "警專・最新法令與113年應勤裝備新制公告",
-            "url": "https://www.tpa.edu.tw/p/422-1000-1010.php?Lang=zh-tw"
+            "title": "全國法規資料庫・警察職權行使法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           }
         ]
       },
-      "takeaway": "任意性訪查被拒絕，不直接構成應移送偵辦的犯罪，不能僅以拒訪依法偵辦。",
+      "takeaway": "拒訪與犯罪分開；訪查目的不能自行變成偵辦授權。",
       "sources": [
         {
           "title": "考選部・113年警勤原卷",
@@ -241,8 +245,13 @@
         {
           "title": "全國法規資料庫・警察勤務區訪查辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
+        },
+        {
+          "title": "全國法規資料庫・警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A。一般訪查為任意性措施，不能僅因拒訪即概括依法偵辦；治安顧慮人口及性侵、家暴等特殊對象另須核其各別法源。"
     },
     {
       "id": "duty113_04",
@@ -253,26 +262,26 @@
       "options": [
         {
           "text": "駕駛人單純拒測，應予製單舉發並當場禁止其駕駛、行駛或使用後，人員放行，不得實施血液 之採樣及測試檢定",
-          "explanation": "原題針對單純拒測而無刑事採樣法源的情形，不能僅依行政拒測即強制抽血。",
-          "correction": "無須修正，但另有合法刑事採樣事由時應分別審查。",
+          "explanation": "原題A以單純拒測、尚無不能安全駕駛等犯罪嫌疑為前提；拒測依道交第35條及裁罰細則19-2第5項處理，不因拒測本身即可強採血。111版SOP另有車輛移置保管要求。",
+          "correction": "保留單純拒測不當然強採血；現行車輛處置及有無其他犯罪、急迫醫療事由另核，不能概括免除。",
           "trueStatement": true
         },
         {
           "text": "駕駛人拒測且認有不能安全駕駛之情形，經予以逮捕後，仍拒不接受吐氣檢測，陳報檢察官實 施強制抽血檢測",
-          "explanation": "有具體不能安全駕駛事證、合法逮捕後仍拒測，原題要求走刑事鑑定許可程序，非員警自行抽血。",
-          "correction": "無須修正；仍須依刑訴鑑定及許可書等要件辦理。",
+          "explanation": "刑訴第205條之1規定由鑑定人因必要且經法官或檢察官許可採血，並依第204條之1使用許可書。逮捕仍須先有現行犯等法定要件，不能先以拒測作為逮捕理由。",
+          "correction": "有不能安全駕駛嫌疑不等於可任意逮捕；合法到案、採血必要性、許可及執行人員均須各自合法。",
           "trueStatement": true
         },
         {
           "text": "有客觀事實足認受測者無法實施吐氣酒精濃度檢測時，得於陳報檢察官同意後，送由受委託醫 療或檢驗機構對其實施血液之採樣及測試檢定",
-          "explanation": "一般因客觀原因無法吐氣而採血的程序重點為本人同意；本項將其改成檢察官同意。",
-          "correction": "改為經受測者本人同意後送委託醫療或檢驗機構採血；不同意而要強制採樣須另具完整法源及程序。",
+          "explanation": "裁罰細則第19條之2第4項及111版SOP注意事項(一)4均載「經其同意後」送醫採血；本項以檢察官同意取代本人同意，混淆行政與刑事兩種採證途徑。",
+          "correction": "行政無法吐氣者改成經本人同意；如採刑事強制途徑，另備完整法定要件與鑑定許可。",
           "trueStatement": false
         },
         {
           "text": "肇事駕駛人有飲酒徵兆，且拒測或無法施測認有對肇事駕駛人實施血液酒精濃度測試之合理性 與必要性時，陳報檢察官實施強制抽血檢測",
-          "explanation": "肇事拒測或無法施測仍須具體合理性、必要性及合法刑事程序，不是只因肇事即任意強採。",
-          "correction": "依原題無須修正；現行個案須併核111年憲判字第1號及相關法源。",
+          "explanation": "111憲判1要求客觀有採血合理性、必要性，及原則事前檢察官許可、急迫時事後審查；有酒氣、肇事、拒測等資料須整體判斷，不能由任一事實自動推出強採。115.12.31施行修正尚不能提前援用。",
+          "correction": "補上客觀合理必要與檢察官許可程序；急迫例外依判決及當日適用規定辦理，不把新法24小時等細節提前當現行。",
           "trueStatement": true
         }
       ],
@@ -291,12 +300,36 @@
       "answerStatus": "官方最終答案已核",
       "amendment": {
         "status": "review",
-        "law": "違反道路交通管理事件統一裁罰基準及處理細則第19條之2、刑事訴訟法第205條之1及第204條之1、道交條例第35條、111年憲判字第1號",
-        "checkedAt": "2026-11-16",
-        "effectiveStatus": "mixed",
-        "effectiveDate": "道交條例115.8.17修正第35條第6、15項定115.12.31施行",
-        "note": "已核裁罰細則第19條之2第4項：有客觀事實足認無法吐氣時，經受測者同意，得送委託醫療或檢驗機構採血檢定。該項不能單獨作拒絕者強制採血依據；刑事鑑定、憲判過渡期間及道交未施行新制應分開。完整原SOP與個案現行強制法源仍待核。 行政院115.1.29函確認原道交第35條第6項肇事採樣規定依憲判於113.2.25失效，並說明完成修法前過渡階段依判決所載要件程序辦理；應對照判決主文的過渡期間，不逕自推定所有個案均得強制採血。115年修正第6、15項定115.12.31施行。 判決所定過渡階段，肇事拒測或無法吐氣而有合理性及必要性時，原則報請檢察官核發鑑定許可書；急迫時得先採血，24小時內陳報，檢察官認不應准許者3日內撤銷，受測者10日內得聲請法院撤銷。",
+        "law": "全國法規資料庫・違反道路交通管理事件統一裁罰基準及處理細則；臺灣警察專科學校行政警察科・111.12.15取締酒後駕車作業程序完整9頁（非已確認最新版本）；全國法規資料庫・刑事訴訟法；法務部主管法規查詢系統・111年憲判字第1號判決全文；全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）；全國法規資料庫・道路交通管理處罰條例沿革及分段施行日期",
+        "checkedAt": "2026-11-20",
+        "note": "已取得111.12.15酒駕SOP全文及現行裁罰細則19-2，但拒測SOP完整最新版本及全部沿革未齊。道交第35條第6、15項115.8.17修正文定115.12.31才施行，查核日2026.11.20不得用其新採血授權；亦不得直接把LawAll或舊法連結頁混列條文當作當日適用全文。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。 原道交第35條第6項於113.2.25失效；111憲判1明示過渡程序之24小時陳報、3日撤銷及10日聲請法院撤銷，與115.12.31才施行新法及一般刑事鑑定許可分別處理，不將過渡命令視為無期限概括授權。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "行政無法吐氣採血要同意；刑事強採血另審犯罪、必要性與許可，未施行新法分開。",
         "sources": [
+          {
+            "title": "全國法規資料庫・違反道路交通管理事件統一裁罰基準及處理細則",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080029"
+          },
+          {
+            "title": "臺灣警察專科學校行政警察科・111.12.15取締酒後駕車作業程序完整9頁（非已確認最新版本）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=QjVkUGRlUmVUYVVodUFhWjBIU293QlZqdUlaUlllb1V0THYxaFcyKzczVExSNlQxbUo3ZGt6TXUxWU9nd1AxNDJnd1BqSCsvZ3B0eUc3UHVhUFVlVGlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RUYzSHZrWXVRYThNM01Mbk1wYitCeVpBamh2VEZ2RkZwZXdoUGJiMjNqTk5wNjN3V0UvSkdSTHZ1TXFxRVRxeG84S2JFVUZEbTdHN0tkcFNjWjZJK2NKeXkrT0pIc2lFdC9RZ09UKzROY0VwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=967"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "法務部主管法規查詢系統・111年憲判字第1號判決全文",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=CJ00000053&media=print&type=CJ"
+          },
+          {
+            "title": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+          },
+          {
+            "title": "全國法規資料庫・道路交通管理處罰條例沿革",
+            "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=K0040012"
+          },
           {
             "title": "全國法規資料庫・裁罰基準及處理細則第19條之2",
             "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0080029&flno=19-2"
@@ -320,18 +353,12 @@
           {
             "title": "行政院115.1.29院臺交字第1151002056C號函（臺東縣達仁鄉公所附件）",
             "url": "https://www.ttdaren.gov.tw/home/attachments/article/6586/376540000A_1150026923_ATTACH2.pdf"
-          },
-          {
-            "title": "法務部主管法規查詢系統・111年憲判字第1號判決全文",
-            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=CJ00000053&media=print&type=CJ"
-          },
-          {
-            "title": "全國法規資料庫・道路交通管理處罰條例沿革",
-            "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=K0040012"
           }
-        ]
+        ],
+        "effectiveStatus": "mixed",
+        "effectiveDate": "道交條例115.8.17修正第35條第6、15項定115.12.31施行"
       },
-      "takeaway": "一般因客觀原因無法吐氣而採血的程序重點為本人同意；本項將其改成檢察官同意。",
+      "takeaway": "行政無法吐氣採血要同意；刑事強採血另審犯罪、必要性與許可，未施行新法分開。",
       "sources": [
         {
           "title": "考選部・113年警勤原卷",
@@ -374,11 +401,27 @@
           "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=CJ00000053&media=print&type=CJ"
         },
         {
-          "title": "全國法規資料庫・道路交通管理處罰條例沿革",
+          "title": "全國法規資料庫・道路交通管理處罰條例沿革及分段施行日期",
           "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=K0040012"
+        },
+        {
+          "title": "全國法規資料庫・違反道路交通管理事件統一裁罰基準及處理細則",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080029"
+        },
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.15取締酒後駕車作業程序完整9頁（非已確認最新版本）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=QjVkUGRlUmVUYVVodUFhWjBIU293QlZqdUlaUlllb1V0THYxaFcyKzczVExSNlQxbUo3ZGt6TXUxWU9nd1AxNDJnd1BqSCsvZ3B0eUc3UHVhUFVlVGlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RUYzSHZrWXVRYThNM01Mbk1wYitCeVpBamh2VEZ2RkZwZXdoUGJiMjNqTk5wNjN3V0UvSkdSTHZ1TXFxRVRxeG84S2JFVUZEbTdHN0tkcFNjWjZJK2NKeXkrT0pIc2lFdC9RZ09UKzROY0VwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=967"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
         }
       ],
-      "currentAnswer": "原題C為當年官方答案。細則第19條之2第4項以受測者同意為要件；刑事鑑定採血另依刑訴第205條之1及許可程序，不能把一般同意與強制採血混同。 行政院115.1.29函確認原道交第35條第6項肇事採樣規定依憲判於113.2.25失效，並說明完成修法前過渡階段依判決所載要件程序辦理；應對照判決主文的過渡期間，不逕自推定所有個案均得強制採血。115年修正第6、15項定115.12.31施行。"
+      "currentAnswer": "原官方答案C。無法吐氣的行政採血依裁罰細則19-2第4項須本人同意；涉嫌犯罪之強採血另依刑訴鑑定程序及111憲判1的合理必要、檢察官許可與急迫事後審查要求，不因拒測或肇事一律成立。"
     },
     {
       "id": "duty113_05",
@@ -924,26 +967,26 @@
       "options": [
         {
           "text": "各級勤務指揮中心得遴派專責人員擔任執勤人員，並以十二小時或二十四小時更替方式執勤為 原則",
-          "explanation": "一般勤指執勤更替不能概括以12或24小時作原則，須依勤休規範。",
-          "correction": "依正式勤指及勤休規定編排，不以本項時數直接當通常原則。",
+          "explanation": "第3點是以12小時或8小時更替方式為原則，不是12或24小時。",
+          "correction": "24小時改為8小時；「為原則」並非排除依法必要調整。",
           "trueStatement": false
         },
         {
           "text": "巡邏勤務採定時報告為原則，其時距及次數由各警察分局自行規定，但每一小時不得少於一次",
-          "explanation": "各層定時報告的時距、次數與核定機關不能概括由分局自行決定且每小時僅一次。",
-          "correction": "依勤指規範的適用層級及定時報告要求辦理。",
+          "explanation": "第26點第(四)款第1目採定時報告，其時距次數由各警察局自行規定，每小時至少一次；本項誤為警察分局。",
+          "correction": "由各警察局規定，並注意第3目GPS/登入載具的定時定點報告例外。",
           "trueStatement": false
         },
         {
           "text": "初報首重時效，且主題應明確，案類應清楚；續報內容應周全完整，且不限次數；結報內容應 條理有序，並有後續判斷",
-          "explanation": "初續結報各有目的，不能把不限次數及內容要求任意調換。",
-          "correction": "初報重即時明確，續報隨重要發展，結報作完整結果交代；具體文字以現行原件為準。",
+          "explanation": "第16點第(一)款是續報內容條理有序且不限次數；結報內容周全完整並有後續判斷，本項把兩者的內容要求對調。",
+          "correction": "續報改為條理有序；結報改為周全完整並有後續判斷。",
           "trueStatement": false
         },
         {
           "text": "各單位轄區內發生重大事故（情資）報告處理區分表所列案件，除循主官及業務系統陳報外， 並應向勤務指揮中心通報，俾利勤務派遣及案件管制",
-          "explanation": "重大事故除主官與業務系統外，也須通報勤指中心，才能派遣及管制。",
-          "correction": "無須修正。",
+          "explanation": "第11點明定附件一所列案件除循主官及業務系統陳報，並應向勤指中心通報，俾利派遣與管制。",
+          "correction": "D無須修正；重大事故另依第12點電話及雲端初報、續結報。",
           "trueStatement": true
         }
       ],
@@ -951,18 +994,27 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜警察勤務概要｜第13題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 13,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "note": "重大事故另向勤指中心通報的原則可核；執勤時數、報告頻率及初續結報完整文字仍須現行作業規定。",
-        "sources": []
+        "status": "none",
+        "law": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+        "checkedAt": "2026-11-20",
+        "note": "已讀111.12.20勤務指揮中心規定全文；四選項分別核第3、26、16、11點。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "八或十二小時輪替；時距由警察局定；續報條理、結報周全。",
+        "sources": [
+          {
+            "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+          }
+        ]
       },
-      "takeaway": "重大事故除主官與業務系統外，也須通報勤指中心，才能派遣及管制。",
+      "takeaway": "八或十二小時輪替；時距由警察局定；續報條理、結報周全。",
       "sources": [
         {
           "title": "考選部・113年警勤原卷",
@@ -971,8 +1023,13 @@
         {
           "title": "考選部・113年標準答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113060&c=601&s=0909&q=1"
+        },
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D；重大事故除主官、業務系統陳報外，亦應通報勤指中心。"
     },
     {
       "id": "duty113_14",

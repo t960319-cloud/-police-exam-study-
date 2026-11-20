@@ -773,26 +773,26 @@
       "options": [
         {
           "text": "查訪附近民眾，追查犯嫌",
-          "explanation": "追查犯嫌很重要，但到場見傷患尚未確認死亡時，救護生命優先，並分工追查。",
-          "correction": "先確認生命跡象與救護，其他任務同步分工。",
+          "explanation": "手冊第62、66點有查訪追緝工作，但第51點先要求抵達後探查是否有人受傷並迅速救護，不能以追查取代急救。",
+          "correction": "先分工救護、必要警戒，再依法同步或接續查訪追緝。",
           "trueStatement": false
         },
         {
           "text": "拉起封鎖線，保全現場",
-          "explanation": "封鎖保全應同步安排，但不能因此延誤仍可能存活者的救護。",
-          "correction": "先救護並適度保護證據，另派員封鎖。",
+          "explanation": "第57至60點支持封鎖保全；第51、52點明定救護先行且盡量避免破壞，不可避免時記錄，不能為保全延誤救命。",
+          "correction": "有足夠警力時分工警戒保全，不延誤急救。",
           "trueStatement": false
         },
         {
           "text": "救護該名女性傷患",
-          "explanation": "題目僅稱倒臥與血漬，不能因民眾報稱命案便認定死亡，首要確認並救護傷患。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "第51點規定受傷者不論被害人或加害人均迅速救護送醫，題示尚未確認死亡者先救護最適當。",
+          "correction": "C無須修正；仍先評估現場安全並作必要保護或戒護。",
           "trueStatement": true
         },
         {
           "text": "尋找現場有無凶器",
-          "explanation": "尋凶器及證物不得優先於可救護生命；先確保現場及急救安全。",
-          "correction": "分工搜尋危險物與保全證據，同時先救護。",
+          "explanation": "尋找凶器屬後續勘察或安全控制工作；第51、52點不允為尋證延後急救。若有即時攻擊風險，先採必要安全措施。",
+          "correction": "救護與排除即時危險優先，尋證由其他人員分工或後續依法進行。",
           "trueStatement": false
         }
       ],
@@ -801,24 +801,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察情境實務概要｜第11題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 11,
       "answerStatus": "官方原答已核；目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "原題答案C已核；首重救護的核心明確，完整刑案現場處理SOP版本仍待原件比對。",
-        "checkedAt": "2026-11-09",
+        "status": "none",
+        "law": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件；全國法規資料庫・警察職權行使法",
+        "checkedAt": "2026-11-20",
+        "note": "已核115手冊第51至53點及警職法第5條；倒臥血漬不等於已確認死亡，應先探查傷勢救護。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "先確認生命與救護；現場變動作記錄。",
         "sources": [
           {
-            "title": "刑事訴訟法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+            "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "全國法規資料庫・警察職權行使法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           }
         ]
       },
-      "takeaway": "命案現場尚未確認死亡的救護優先：題目僅稱倒臥與血漬，不能因民眾報稱命案便認定死亡，首要確認並救護傷患。",
+      "takeaway": "先確認生命與救護；現場變動作記錄。",
       "sources": [
         {
           "title": "考選部115年四等警察情境實務概要原卷",
@@ -831,8 +838,17 @@
         {
           "title": "刑事訴訟法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        },
+        {
+          "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "全國法規資料庫・警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C；首要探查有無傷者並迅速救護，必要時保護戒護；盡可能兼顧現場並記錄不可避免之變動。"
     },
     {
       "id": "scene115-12",
@@ -844,26 +860,26 @@
       "options": [
         {
           "text": "調閱行動電話通信紀錄",
-          "explanation": "對相關門號調閱通信紀錄仍須有調查必要及合法調取程序，不能只因偵辦詐欺就無限制取得。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "通保法第11條之1要求紀錄與本案必要性、關連性；偵辦詐欺有第4項檢察官許可調取之特別規定，並非員警得無條件調閱任何電話。",
+          "correction": "A可作合法偵查方向；先確定資料類型與期間，依法取得檢察官許可或調取票等所需程序。",
           "trueStatement": true
         },
         {
           "text": "調閱車手提款地點監視器影像",
-          "explanation": "提款地點監視器有助辨識車手及同夥，須依法調取、保存來源及時間。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "與車手提款行為有關之監視影像可作犯罪證據；刑訴第133條可命持有人提出可為證據之物，警職法第10、17條另有資料蒐用目的限制。",
+          "correction": "B可行但限案件相關、必要範圍，依法調取保存，不任意外洩。",
           "trueStatement": true
         },
         {
           "text": "通訊監察被害人之電話",
-          "explanation": "不應無具體法定要件而監聽被害人電話；被害人身分本身不構成通訊監察授權。",
-          "correction": "改以依法調閱相關紀錄、監視器與金流等證據；確須通訊監察時另審查法定對象、犯罪及必要性。",
+          "explanation": "通保法第5條須法定罪嫌、重大危害、通訊與案有關及補充性並經核發監察書；門號屬被害人不能自動成立。第29條第3款另有通訊一方或事先同意且非不法目的不罰規定，不能解說成絕對不得監察任何被害人門號。",
+          "correction": "C在本題欠缺基礎下不適當；依實際通訊對象、監察目的及授權同意與否分別審查，不能先監聽再補必要性。",
           "trueStatement": false
         },
         {
           "text": "調閱被害人匯款之人頭帳戶交易明細，追查資金流向",
-          "explanation": "依法調取人頭帳戶交易明細可追蹤金流，仍須遵守調取權限及程序。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "被害人匯款及人頭帳戶交易明細與款項流向具有關連，可依刑訴第133條等合法調取保全以追查犯罪所得；仍須符合個別金融資料取得程序。",
+          "correction": "D可作偵查方向；限定相關帳戶、期間及資金範圍，依合法程序調取。",
           "trueStatement": true
         }
       ],
@@ -872,24 +888,35 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察情境實務概要｜第12題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 12,
       "answerStatus": "官方原答已核；目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "官方答案C；通信紀錄與通訊監察之差異須依通保法及現行偵查程序判斷，未將本題選項視為無條件調取授權。",
-        "checkedAt": "2026-11-09",
+        "status": "none",
+        "law": "全國法規資料庫・通訊保障及監察法；全國法規資料庫・刑事訴訟法；全國法規資料庫・警察職權行使法",
+        "checkedAt": "2026-11-20",
+        "note": "已核通保法第5、6、11條之1及29條與刑訴第133條；C解釋限題示無監察被害人電話必要依據，不能說所有被害人電話永遠禁止。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "通信紀錄、影像、金流各守程序；監察電話不能只憑偵辦詐欺泛稱必要。",
         "sources": [
           {
-            "title": "刑事訴訟法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+            "title": "全國法規資料庫・通訊保障及監察法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "全國法規資料庫・警察職權行使法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           }
         ]
       },
-      "takeaway": "電信詐欺偵查與被害人通訊監察：不應無具體法定要件而監聽被害人電話；被害人身分本身不構成通訊監察授權。",
+      "takeaway": "通信紀錄、影像、金流各守程序；監察電話不能只憑偵辦詐欺泛稱必要。",
       "sources": [
         {
           "title": "考選部115年四等警察情境實務概要原卷",
@@ -902,8 +929,21 @@
         {
           "title": "刑事訴訟法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        },
+        {
+          "title": "全國法規資料庫・通訊保障及監察法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "全國法規資料庫・警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C；就題示提款車手案，未交代監察被害人電話之相關性、必要性及法定程序，不能把它當一般偵查選項。若被害人同意通訊一方錄音或有其他法定監察基礎，須另審。"
     },
     {
       "id": "scene115-13",
@@ -915,26 +955,26 @@
       "options": [
         {
           "text": "逕行拘提乙",
-          "explanation": "本題官方答案A。刑訴法第88條之1第1項第1款可因現行犯供述且有事實足認共犯嫌疑重大、情況急迫而逕拘；警察須不及報告檢察官，執行後即報請簽票，不能僅憑供稱就拘提。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "第88條之1第1項第1款須因現行犯供述「且有事實足認共犯嫌疑重大」，並有急迫性；警方依第2項須急迫不及報告檢察官，執行後即報請簽票，不簽應釋放。",
+          "correction": "A只能作法定條件全部具備時的處置，不能只依甲一句話直接拘提乙；並依法告知辯護權及拘提原因等。",
           "trueStatement": true
         },
         {
           "text": "報請法官核發拘票拘提乙",
-          "explanation": "偵查中拘票原則由檢察官簽發，不是警方向法官聲請拘票。",
-          "correction": "有時間時報請檢察官依法簽票；緊急逕拘另依第88條之1。",
+          "explanation": "刑訴第71條之1及第77條等將偵查中警方報請拘提連結檢察官程序，不能把搜索票由法官核發的模式套到一般偵查拘票。",
+          "correction": "依適用程序報請檢察官核發拘票；少年等特別程序另論。",
           "trueStatement": false
         },
         {
           "text": "逕行通知乙到案",
-          "explanation": "通知到案不能取代本題情況急迫下合法緊急拘提的適當處置；通知亦須依職權及要件。",
-          "correction": "有逕拘要件時依法執行；不具急迫要件時，採合法通知或報請檢察官措施。",
+          "explanation": "刑訴第71條之1因調查必要得以通知書通知嫌疑人到場。題示若不具急迫拘提條件，依法通知未必不當，不能僅因官方選A就宣稱C在所有情況均錯。",
+          "correction": "依嫌疑與必要性用合法通知程序；符合逕拘全部要件時，才比較立即拘提的適當性。",
           "trueStatement": false
         },
         {
           "text": "俟將甲移送至地方檢察署後，再向檢察官報告請求傳喚乙",
-          "explanation": "如具急迫及共犯嫌疑重大事實，不須一律等甲解送後才報告處理；延誤可能使共犯脫逃或滅證。",
-          "correction": "即時檢視法定要件並報告，符合不及報告的急迫情況始先逕拘後補報。",
+          "explanation": "刑訴第230、231條要求知有犯罪嫌疑即開始調查並報告，並無必須先移送甲才可報請檢察官的等待限制。",
+          "correction": "即時報告並依檢察官指揮或依法通知、拘提，避免無理由延誤。",
           "trueStatement": false
         }
       ],
@@ -951,16 +991,19 @@
       "answerStatus": "官方原答已核；目錄未列更正",
       "amendment": {
         "status": "review",
-        "note": "官方答案A，但題幹未完整敘明「情況急迫、共犯嫌疑重大、不及報告」等要件。解析補足刑訴法第88條之1限制，不能背成現行犯一供出他人即可拘提。",
-        "checkedAt": "2026-11-09",
+        "law": "全國法規資料庫・刑事訴訟法",
+        "checkedAt": "2026-11-20",
+        "note": "刑訴第88條之1完整要件已核，但題幹僅交代甲供稱乙教唆，未交代事實足認共犯嫌疑重大、情況急迫及不及報告檢察官；不能把官方A改教成一有共犯口供即得逕拘，整題標待核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "共犯供述仍要重大嫌疑與急迫；警方逕拘後即報檢補票。",
         "sources": [
           {
-            "title": "刑事訴訟法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+            "title": "全國法規資料庫・刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
           }
         ]
       },
-      "takeaway": "現行犯供述共犯與緊急逕行拘提：本題官方答案A。刑訴法第88條之1第1項第1款可因現行犯供述且有事實足認共犯嫌疑重大、情況急迫而逕拘；警察須不及報告檢察官，執行後即報請簽票，不能僅憑供稱就拘提。",
+      "takeaway": "共犯供述仍要重大嫌疑與急迫；警方逕拘後即報檢補票。",
       "sources": [
         {
           "title": "考選部115年四等警察情境實務概要原卷",
@@ -973,8 +1016,13 @@
         {
           "title": "刑事訴訟法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "保留原官方答案A。現行僅在第88條之1第1項第1款共犯嫌疑重大、情況急迫，且警方不及報檢察官時得逕拘；缺少這些事實不能無條件選A。"
     },
     {
       "id": "scene115-14",
@@ -986,26 +1034,26 @@
       "options": [
         {
           "text": "當場依妨害公務等罪嫌之現行犯強勢逮捕",
-          "explanation": "甲當場奪棍襲警，應依具體事實以妨害公務、傷害等現行犯依法制止、逮捕並告知權利。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "刑訴第88條對犯罪正在實施中之現行犯得逕行逮捕；本題搶棍襲警持續傷人可依法制止。強制力仍須必要適度，不能以「強勢」作無限用力依據。",
+          "correction": "依法逮捕及適度控制，告知原因權利並注意傷者。",
           "trueStatement": true
         },
         {
           "text": "對空鳴槍警告制止甲",
-          "explanation": "暴力犯罪持續、持危險物攻擊時，應依用槍警械規範判斷是否鳴槍；仍須注意周邊安全及其他可行措施。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "警械條例第4條第1項第5款及第4項第1、3款對生命身體裝備遇襲、奪取可能致傷亡裝備等有使用槍械規定；第6至9條仍要求急迫必要、停止原因消滅、避免第三人及致命部位。105規範第5點有鳴槍情形，未證明任意對空安全。",
+          "correction": "須依威脅程度、替代手段、現場人車及彈道決定；不得把對空鳴槍當任何襲警的固定第一步。",
           "trueStatement": true
         },
         {
           "text": "為減少其他同仁遭受傷害，立即將同仁們帶離現場",
-          "explanation": "以減少同仁傷害為由立即將所有人帶離而放棄正在發生的攻擊及被害同仁保護，不是本題適當處置。",
-          "correction": "依威脅程度調整掩護、支援及必要退避，分工制止、逮捕與救護，不能概括棄置現場。",
+          "explanation": "勤務指揮中心規定第19、22點及手冊第51點支持指揮支援與救護分工；僅為避免任何風險就立即把全員帶離，會留下未受控暴力危害，為原題最不適當。",
+          "correction": "通常應控制、警戒、支援與救護；若確有無法抵禦之立即危險，仍可依法採必要戰術撤離再圍控，不作絕對禁止。",
           "trueStatement": false
         },
         {
           "text": "分配任務立即救護同仁，並呼叫救護車",
-          "explanation": "同時分派救護同仁、呼叫救護車及支援，避免制止犯罪與救護互相排擠。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "115手冊第51點要求受傷者不論身分均迅速救護送醫並為必要保護戒護，分配任務、叫救護車符合此原則。",
+          "correction": "D無須依題意修正；現場暴力未排除時應兼顧救護人員與民眾安全並請求支援。",
           "trueStatement": true
         }
       ],
@@ -1022,20 +1070,35 @@
       "answerStatus": "官方原答已核；目錄未列更正",
       "amendment": {
         "status": "review",
-        "note": "原題官方答案C；鳴槍與強勢逮捕仍須符合警械使用及刑訴法條件，不能將本題解為任何聚眾衝突均可鳴槍。",
-        "checkedAt": "2026-11-09",
+        "law": "全國法規資料庫・警械使用條例；全國法規資料庫・刑事訴訟法；臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件；臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）；臺灣警察專科學校學報・警察使用強制力合法化之研究附錄二105.8.4槍械規範全文（非已確認最新版本）",
+        "checkedAt": "2026-11-20",
+        "note": "已核現行警械使用條例第4、6至10條、刑訴第88條、115手冊第51點；另取得105.8.4槍械規範全文附錄第5、7點，但未核其全部最新沿革。對空鳴槍仍須現場安全必要判斷，整題不升已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "逮捕、用槍、救護各有要件；不教一律撤離或一律鳴槍。",
         "sources": [
           {
-            "title": "警械使用條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+            "title": "全國法規資料庫・警械使用條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
           },
           {
-            "title": "刑事訴訟法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+            "title": "全國法規資料庫・刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+          },
+          {
+            "title": "臺灣警察專科學校學報・警察使用強制力合法化之研究附錄二105.8.4槍械規範全文（非已確認最新版本）",
+            "url": "https://educate.tpa.edu.tw/var/file/4/1004/img/390/507012084.pdf"
           }
         ]
       },
-      "takeaway": "聚眾鬥毆奪棍襲警的任務分工：以減少同仁傷害為由立即將所有人帶離而放棄正在發生的攻擊及被害同仁保護，不是本題適當處置。",
+      "takeaway": "逮捕、用槍、救護各有要件；不教一律撤離或一律鳴槍。",
       "sources": [
         {
           "title": "考選部115年四等警察情境實務概要原卷",
@@ -1052,8 +1115,29 @@
         {
           "title": "刑事訴訟法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        },
+        {
+          "title": "全國法規資料庫・警械使用條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+        },
+        {
+          "title": "臺灣警察專科學校學報・警察使用強制力合法化之研究附錄二105.8.4槍械規範全文（非已確認最新版本）",
+          "url": "https://educate.tpa.edu.tw/var/file/4/1004/img/390/507012084.pdf"
         }
-      ]
+      ],
+      "currentAnswer": "保留原官方答案C。應依法控制暴力現行犯、分工救護及求援；警察戰術撤離可因具體立即危險而必要，不能將原C理解成任何撤離皆違法。B亦非遇襲即可不顧彈道與第三人安全對空開槍。"
     },
     {
       "id": "scene115-15",

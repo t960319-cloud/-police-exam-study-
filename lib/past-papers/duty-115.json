@@ -151,26 +151,26 @@
       "options": [
         {
           "text": "村（里）鄰長",
-          "explanation": "村里鄰長為社區聯繫及諮詢對象。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第2點第(四)款明列須定期聯繫拜訪之村（里）鄰長。",
+          "correction": "A屬列舉；具體訪查頻率仍須另核作業規定相關點。",
           "trueStatement": true
         },
         {
           "text": "記事人口",
-          "explanation": "記事人口是訪查對象的另一分類，不能直接當成諮詢對象類別。",
-          "correction": "應將記事人口與諮詢對象分列，不混成同一分類。",
+          "explanation": "第2點第(二)款另列依法令得定期或不定期查訪的記事人口；不是第(四)款以其記事身分列入諮詢對象。",
+          "correction": "B為本題不屬項；個人若另有村里鄰長等身分，是否具有另一分類應依實際身分及目的判斷。",
           "trueStatement": false
         },
         {
           "text": "各級民意代表",
-          "explanation": "各級民意代表可列諮詢對象，仍須遵守行政中立等規範。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第2點第(四)款確實明列各級民意代表。",
+          "correction": "C無須修正；不能把民代本身說成違法諮詢對象。",
           "trueStatement": true
         },
         {
           "text": "守望相助隊人員",
-          "explanation": "守望相助隊人員可提供社區治安諮詢及聯繫資訊。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第2點第(四)款明列守望相助隊人員。",
+          "correction": "D無須修正；聯繫及資料蒐用仍受法定目的與個資限制。",
           "trueStatement": true
         }
       ],
@@ -178,18 +178,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察勤務概要｜第3題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 3,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "note": "官方考古答案已核對；題示行政規則或理論文字尚未取得完整最新版原件，不把歷史答案冒稱現行結論。",
-        "sources": []
+        "status": "none",
+        "law": "臺灣警察專科學校行政警察科・112.4.24警察勤務區訪查作業規定第2、16、26點修正對照表（本題僅引完整第2點）；全國法規資料庫・警察勤務區訪查辦法",
+        "checkedAt": "2026-11-20",
+        "note": "已核112.4.24官方修正對照表完整第2點第(四)款；該定義足以逐項判斷本題，不宣稱訪查作業規定其餘全文已齊。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "諮詢列里鄰長、守望、社區保全管理、民代及符合公益治安條件之人。",
+        "sources": [
+          {
+            "title": "臺灣警察專科學校行政警察科・112.4.24警察勤務區訪查作業規定第2、16、26點修正對照表（本題僅引完整第2點）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+          },
+          {
+            "title": "全國法規資料庫・警察勤務區訪查辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
+          }
+        ]
       },
-      "takeaway": "諮詢對象與記事人口：記事人口是訪查對象的另一分類，不能直接當成諮詢對象類別。",
+      "takeaway": "諮詢列里鄰長、守望、社區保全管理、民代及符合公益治安條件之人。",
       "sources": [
         {
           "title": "考選部115年警察勤務概要原卷",
@@ -198,8 +211,17 @@
         {
           "title": "考選部標準答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115060&c=241&s=0907&q=1"
+        },
+        {
+          "title": "臺灣警察專科學校行政警察科・112.4.24警察勤務區訪查作業規定第2、16、26點修正對照表（本題僅引完整第2點）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+        },
+        {
+          "title": "全國法規資料庫・警察勤務區訪查辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B；記事人口為獨立類型，非第2點諮詢對象的列舉類型。"
     },
     {
       "id": "duty115_04",
@@ -807,26 +829,26 @@
       "options": [
         {
           "text": "警察分駐所、派出所之調整設置須經中央政府核准",
-          "explanation": "分駐派出所設置調整屬該管地方政府核准權責，非中央政府一律核准。",
-          "correction": "「中央政府」改為「該管地方政府」。",
+          "explanation": "設置基準第6、7點為「該管地方政府」核准，再報警政署備查，非中央核准。",
+          "correction": "中央政府核准改為該管地方政府核准，並依法備查。",
           "trueStatement": false
         },
         {
           "text": "新增設之警察分駐所、派出所設置所需警力，由內政部警政署就其他警察機關員額調整",
-          "explanation": "所需警力原則就現有員額調整，不是警政署一律挪用其他機關員額。",
-          "correction": "改為就現有員額調整。",
+          "explanation": "第8點明定所需警力就現有員額調整，不是警政署向其他警察機關挪員額的本題規則。",
+          "correction": "改為就現有員額調整；其他增員事項須另有合法組織員額程序。",
           "trueStatement": false
         },
         {
           "text": "警察分駐所、派出所經核准調整設置後，該管警察局應報內政部警政署備查",
-          "explanation": "地方政府核准調整設置後，由該管警察局報警政署備查。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第7點明定經該管地方政府核准調整設置後，該管警察局應報警政署備查。",
+          "correction": "C無須修正；事前仍須依第6點資料進行利弊評估。",
           "trueStatement": true
         },
         {
           "text": "警察分駐所、派出所設置或裁併所需經費，由中央政府負擔",
-          "explanation": "設置或裁併經費由該管地方政府負擔，不是一律中央。",
-          "correction": "「中央政府」改為「該管地方政府」。",
+          "explanation": "第8點明定設置或裁併所需經費由該管地方政府負擔。",
+          "correction": "中央政府改為該管地方政府。",
           "trueStatement": false
         }
       ],
@@ -834,23 +856,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察勤務概要｜第13題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 13,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "note": "官方考古答案已核對；題示行政規則或理論文字尚未取得完整最新版原件，不把歷史答案冒稱現行結論。",
+        "status": "none",
+        "law": "全國警察法規資料庫・警察分駐所派出所設置基準全文；全國法規資料庫・警察勤務條例",
+        "checkedAt": "2026-11-20",
+        "note": "已核警察分駐所派出所設置基準全文8點及勤務條例第7條。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "地方核准、署備查；地方經費、現有警力。",
         "sources": [
           {
-            "title": "本題法規核對",
-            "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&_CSN=0&n=174&page=43&sms=9015"
+            "title": "全國警察法規資料庫・警察分駐所派出所設置基準全文",
+            "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000177"
+          },
+          {
+            "title": "全國法規資料庫・警察勤務條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080026"
           }
         ]
       },
-      "takeaway": "分駐派出所調整設置後備查：地方政府核准調整設置後，由該管警察局報警政署備查。",
+      "takeaway": "地方核准、署備查；地方經費、現有警力。",
       "sources": [
         {
           "title": "考選部115年警察勤務概要原卷",
@@ -863,8 +893,17 @@
         {
           "title": "公開法規或主管機關說明",
           "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&_CSN=0&n=174&page=43&sms=9015"
+        },
+        {
+          "title": "全國警察法規資料庫・警察分駐所派出所設置基準全文",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000177"
+        },
+        {
+          "title": "全國法規資料庫・警察勤務條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080026"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C；地方政府核准後報警政署備查，經費地方負擔，警力就現有員額調整。"
     },
     {
       "id": "duty115_14",
@@ -1356,26 +1395,26 @@
       "options": [
         {
           "text": "聯合指揮所之開設區分為一至四級",
-          "explanation": "原題否定一至四級的分級文字；完整分級須核對題示111年12月20日版本。",
-          "correction": "請依原始規定核對聯合指揮所開設分級，不背一至四級。",
+          "explanation": "第5點將聯合指揮所區分一至三級；三級平常、二級社會治安、一級重大治安狀況，沒有第四級。",
+          "correction": "一至四級改為一至三級。",
           "trueStatement": false
         },
         {
           "text": "狀況處置應確實遵守報告快、指揮快、行動快及處罰快之要求",
-          "explanation": "四快為報告快、指揮快、行動快、通訊快，不是處罰快。",
-          "correction": "「處罰快」改為「通訊快」。",
+          "explanation": "第17點四快為報告快、指揮快、行動快、通訊快，並無處罰快。",
+          "correction": "處罰快改為通訊快；裁罰仍須遵守法定程序。",
           "trueStatement": false
         },
         {
           "text": "轄區發生重大事故或案件，應即循「雲端治安管制系統」陳報",
-          "explanation": "依原題作業規定，重大事故或案件循雲端治安管制系統陳報。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第18點第(三)款第3目規定分局重大事故循雲端系統陳報警察局，並報告分局長等；第12點另要求警察局即時電話報署及雲端初結報。",
+          "correction": "C符合本題；不得解讀成只填雲端即可省略即時電話及長官通報。",
           "trueStatement": true
         },
         {
           "text": "巡邏勤務動態管制採定點報告為原則，每一轄區不得少於一次",
-          "explanation": "原則為定時報告，每小時不得少於一次；不是以每一轄區一次定點報告取代。",
-          "correction": "應為定時報告及每小時至少一次，另有管制規定須遵守。",
+          "explanation": "第26點第(四)款第1目採「定時」報告，由警察局規定時距次數，且「每一小時」不得少於一次；本項誤成定點及每一轄區。",
+          "correction": "改為定時、每一小時至少一次，並留意法定免定時定點的設備與系統條件。",
           "trueStatement": false
         }
       ],
@@ -1383,18 +1422,27 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察勤務概要｜第21題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 21,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "note": "官方考古答案已核對；題示行政規則或理論文字尚未取得完整最新版原件，不把歷史答案冒稱現行結論。",
-        "sources": []
+        "status": "none",
+        "law": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+        "checkedAt": "2026-11-20",
+        "note": "本題明指111.12.20版本；已讀該版本全文及附件，逐項核第5、17、18、26點。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "三級常態、四快含通訊；重大事故用雲端陳報。",
+        "sources": [
+          {
+            "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+          }
+        ]
       },
-      "takeaway": "勤務指揮中心雲端陳報：依原題作業規定，重大事故或案件循雲端治安管制系統陳報。",
+      "takeaway": "三級常態、四快含通訊；重大事故用雲端陳報。",
       "sources": [
         {
           "title": "考選部115年警察勤務概要原卷",
@@ -1403,8 +1451,13 @@
         {
           "title": "考選部標準答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115060&c=241&s=0907&q=1"
+        },
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C；分局重大事故循雲端治安管制系統陳報，警察局應立即電話報署並依法初續結報。"
     },
     {
       "id": "duty115_22",
@@ -1579,26 +1632,26 @@
       "options": [
         {
           "text": "涉及二個以上警察機關或其他機關之案件，應由上級警察機關指定管轄後，再行處置",
-          "explanation": "錯在先等上級指定管轄才處置；應先作必要即時處置並協調管轄，爭議再循規定報請指定。",
-          "correction": "先為必要即時處置及聯繫協調；管轄爭議另報共同上級指定，不得延宕救護採證。",
+          "explanation": "第14點規定涉及二個以上警察機關或其他機關的案件，應彼此通報狀況動態並相互支援；未以等候上級指定管轄為全部處置前提，第19點另要求緊急嚴重事故優先。",
+          "correction": "依法即時處置、通報及支援；後續管轄協調與必要保護同步辦理。",
           "trueStatement": false
         },
         {
           "text": "狀況處置應確實遵守報告快、指揮快、行動快及通訊快之要求",
-          "explanation": "報告、指揮、行動、通訊四快為題示要求。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第17點四快正是報告、指揮、行動、通訊快。",
+          "correction": "B無須修正；快仍須合法且適當。",
           "trueStatement": true
         },
         {
           "text": "各級勤務指揮中心受理民眾以簡訊、視訊或APP程式報案時，比照受理110案件程序辦理",
-          "explanation": "簡訊、視訊或APP報案仍比照110案件程序受理，不因媒介不同推諉。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第18點第(四)款規定簡訊、視訊或APP程式報案，比照受理110案件程序。",
+          "correction": "C無須修正；依案況完成記錄、派遣及回報管制。",
           "trueStatement": true
         },
         {
           "text": "各級勤務指揮中心得遴派專責人員擔任執勤人員，以12小時或8小時更替方式執勤為原則",
-          "explanation": "原題規定可遴派專責執勤人員，以12或8小時更替為原則。",
-          "correction": "本項於本題脈絡下無須修正。",
+          "explanation": "第3點規定遴派專責執勤人員，以12或8小時更替為原則。",
+          "correction": "D無須修正；不得改寫成24小時固定班。",
           "trueStatement": true
         }
       ],
@@ -1606,18 +1659,27 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜警察勤務概要｜第24題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 24,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "note": "官方考古答案已核對；題示行政規則或理論文字尚未取得完整最新版原件，不把歷史答案冒稱現行結論。",
-        "sources": []
+        "status": "none",
+        "law": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+        "checkedAt": "2026-11-20",
+        "note": "已核111.12.20完整勤務指揮中心規定第3、14、17、18點。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "跨機關先依法通報支援；不等指定管轄才保護民眾。",
+        "sources": [
+          {
+            "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+          }
+        ]
       },
-      "takeaway": "跨機關案件不得等管轄再處置：錯在先等上級指定管轄才處置；應先作必要即時處置並協調管轄，爭議再循規定報請指定。",
+      "takeaway": "跨機關先依法通報支援；不等指定管轄才保護民眾。",
       "sources": [
         {
           "title": "考選部115年警察勤務概要原卷",
@@ -1626,8 +1688,13 @@
         {
           "title": "考選部標準答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115060&c=241&s=0907&q=1"
+        },
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A；跨機關案件須彼此通報並相互支援，不得因尚待指定管轄即一概不處置。"
     },
     {
       "id": "duty115_25",

@@ -22,26 +22,26 @@
       "options": [
         {
           "text": "警察法第 2 條規定將私權保護排除於警察任務範圍外",
-          "explanation": "警察法第2條包含保護人民生命身體自由及財產，不能說私權保護全面排除。",
-          "correction": "改為警察任務包括保護人民權益；純私人契約爭議原則循私法處理。",
+          "explanation": "警察法第2條規定依法維持公共秩序、保護社會安全、防止一切危害及促進福利，並沒有「私權保護排除」文字。警職法也以保障人民權益為目的。",
+          "correction": "改為「單純私權爭議原則循民事救濟；是否需警察介入仍看犯罪、危害及具體職權法源」，勿虛稱第2條明文排除。",
           "trueStatement": false
         },
         {
           "text": "警察不受理民事案件係違法不作為",
-          "explanation": "單純退貨契約糾紛並不當然產生警察替當事人解決契約的義務；若同時涉及詐欺等犯罪或立即危害，則應依法受理。",
-          "correction": "區分單純私權爭議與具犯罪嫌疑的報案，不可一概推拒。",
+          "explanation": "國賠或其他違法不作為須先有具體依法應作為的義務。單憑退貨雙方意見不同，不能推得警察有代為決定契約效力或強令退款的義務。",
+          "correction": "限於題示純民事爭議判斷；如另有犯罪嫌疑或立即危害，應依相應法源受理，不能一概不處理。",
           "trueStatement": false
         },
         {
           "text": "警察應依民法規定受理甲之報案",
-          "explanation": "民法提供契約與消費者救濟依據，不是要求警察依民法裁判或受理私人退貨的通則。",
-          "correction": "協助說明申訴、調解或訴訟途徑；若有犯罪則依法受理。",
+          "explanation": "民法規範私人權利義務，並不是警察受理、裁判退貨爭議的一般職權授權。警察法第9條各職權也須依法行使，不能只因存在民法請求便由警察強制。",
+          "correction": "改為告知消費爭議申訴、調解或民事訴訟等救濟途徑；若有犯罪事證則另依刑事法定程序辦理。",
           "trueStatement": false
         },
         {
           "text": "警察不介入民事紛爭之觀點與「警察公共原則」相關",
-          "explanation": "警察公共原則意指警察任務以維護公共利益為核心，原則不替代民事私權救濟；但警察仍應處理犯罪及急迫危害。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "警察公共原則將警察任務重點放在公共秩序、安全及危害防止，解釋為何通常不代替當事人以公權力處理單純契約退貨爭執；不是創設全面拒收所有涉私權報案的豁免。",
+          "correction": "本題D可保留，並補上涉及犯罪、公共秩序或急迫危害時，仍須依法履行警察職責。",
           "trueStatement": true
         }
       ],
@@ -50,24 +50,35 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第1題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 1,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察法第2、9條；警察職權行使法第1、2、3條；國家賠償法第2條第2項：怠於執行職務",
+        "checkedAt": "2026-11-20",
+        "note": "已核警察法第2、9條及警職法第1至3條。警察公共原則不能解作所有私權一律不保護；題目只呈現單純退貨契約爭議，D為官方答案。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "警察原則不代替民事裁判；涉及犯罪或急迫危害時仍依法律處理，不能因當事人有契約就一律推拒。",
         "sources": [
           {
-            "title": "警察法",
+            "title": "警察法第2、9條",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+          },
+          {
+            "title": "警察職權行使法第1、2、3條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+          },
+          {
+            "title": "國家賠償法第2條第2項：怠於執行職務",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=I0020004"
           }
         ]
       },
-      "takeaway": "警察公共原則意指警察任務以維護公共利益為核心，原則不替代民事私權救濟；但警察仍應處理犯罪及急迫危害。",
+      "takeaway": "警察原則不代替民事裁判；涉及犯罪或急迫危害時仍依法律處理，不能因當事人有契約就一律推拒。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -78,10 +89,19 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115060&c=441&s=0903&q=1"
         },
         {
-          "title": "警察法",
+          "title": "警察法第2、9條",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+        },
+        {
+          "title": "警察職權行使法第1、2、3條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        },
+        {
+          "title": "國家賠償法第2條第2項：怠於執行職務",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=I0020004"
         }
-      ]
+      ],
+      "currentAnswer": "當年官方答案D，依題示單純契約糾紛仍可成立。警察法第2條沒有明文排除私權保護，但也不是授權警察替法院裁斷退貨。若報案另有詐欺、危害等具體事實，須依法另行受理調查。"
     },
     {
       "id": "law115-outer-02",
@@ -725,26 +745,26 @@
       "options": [
         {
           "text": "對甲處以怠金",
-          "explanation": "怠金用於間接強制義務履行，與酒醉者需急迫救護不同。",
-          "correction": "評估立即救護及第19條管束要件。",
+          "explanation": "行政執行法第27、28條的怠金是促使履行行政法上行為不行為義務的間接強制。醉倒路邊需救護，並非題示已有經合法限期而不履行的返家義務。",
+          "correction": "改為立即評估生命身體危險，必要時依警職法第19條救護管束，不以怠金處理失去自我保護能力。",
           "trueStatement": false
         },
         {
           "text": "對甲進行直接強制其返家",
-          "explanation": "不能僅因醉酒就強制回家；須查明危險並選擇適當救護方式。",
-          "correction": "必要時依第19條管束並通知、交由適當人員保護。",
+          "explanation": "直接強制以實力實現既有義務內容，須符合法定前提。題目沒有合法命令返家及執行條件；而送家、送醫或交適當人保護應依個別危險與能力選擇。",
+          "correction": "刪去一律直接強制返家；先採足以救護且侵害最小的合法措施，符合要件時始得管束。",
           "trueStatement": false
         },
         {
           "text": "對甲進行間接強制其返家",
-          "explanation": "間接強制不是本題即刻救護的合適措施。",
-          "correction": "評估生命身體危險及管束必要性。",
+          "explanation": "代履行、怠金等間接強制是行政義務履行機制，無法用來即時排除昏醉者的生命身體風險；也不能憑醉酒創設返家義務。",
+          "correction": "改依即時救護需求審查管束或其他適當救護，不以間接強制迫使返家。",
           "trueStatement": false
         },
         {
           "text": "對甲進行管束",
-          "explanation": "酒醉且非管束不能救護本人生命身體危險或預防他人危險時，得為管束；危險消除即終止，最長24小時。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "警職法第19條第1項第1款明定酒醉且非管束不能救護本人或預防他人生命身體危險者得管束；第2項要求危險結束即終止、最長24小時並即時通知或交由適當人保護。",
+          "correction": "本題D須連同危險及必要性條件理解；本人清醒、危險消除或有足夠較小侵害措施時，不能仍一律管束至24小時。",
           "trueStatement": true
         }
       ],
@@ -753,24 +773,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第10題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 10,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警察職權行使法第3、19、20條；行政執行法第27、28、36、37條",
+        "checkedAt": "2026-11-20",
+        "note": "已核警職法第3、19、20條及行政執行法第27、28、36、37條。官方答案D依題示醉倒路邊需要救護的情境理解，管束仍須符合非管束不能救護或預防危險。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "管束是危害救護的即時強制；不是處罰醉酒，更不是當然把人強送回家。",
         "sources": [
           {
-            "title": "警察職權行使法",
+            "title": "警察職權行使法第3、19、20條",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+          },
+          {
+            "title": "行政執行法第27、28、36、37條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
           }
         ]
       },
-      "takeaway": "酒醉且非管束不能救護本人生命身體危險或預防他人危險時，得為管束；危險消除即終止，最長24小時。",
+      "takeaway": "管束是危害救護的即時強制；不是處罰醉酒，更不是當然把人強送回家。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -781,10 +808,15 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115060&c=441&s=0903&q=1"
         },
         {
-          "title": "警察職權行使法",
+          "title": "警察職權行使法第3、19、20條",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        },
+        {
+          "title": "行政執行法第27、28、36、37條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
         }
-      ]
+      ],
+      "currentAnswer": "當年官方答案D。醉倒並非當然可拘束；須有本人生命身體危險或他人危險，且非管束不能救護或預防。怠金、間接或直接強制返家都不能取代此必要性審查。"
     },
     {
       "id": "law115-outer-11",
@@ -796,26 +828,26 @@
       "options": [
         {
           "text": "甲之言詞係人受罰時之常情，乙不得因此將其移送地檢署",
-          "explanation": "是否涉刑法須依具體言語、合法執勤及主客觀條件判斷，不能一律不得移送。",
-          "correction": "依事證與法律要件判斷，不因受罰情緒逕排除。",
+          "explanation": "113憲判5要求當場侮辱公務員須基於妨害公務主觀目的，且足以影響公務執行；不能只憑粗話即定罪，也不能僅以受罰常情就一律禁止依法移送調查。",
+          "correction": "改為依言詞脈絡、妨害公務目的及影響等具體事證判斷犯罪嫌疑；合法執勤同樣是必要前提。",
           "trueStatement": false
         },
         {
           "text": "甲之言詞係因交通違規行為而起，故不涉及刑事責任",
-          "explanation": "源於交通舉發不當然排除刑事責任。",
-          "correction": "查明合法執職、言詞脈絡及其他犯罪要件。",
+          "explanation": "言詞因交通舉發而起，只說明背景，並不當然排除刑責。是否符合刑法第140條應依113憲判5限縮要件判斷；對職務本身公然侮辱罪部分已失效。",
+          "correction": "刪除「故不涉及刑事責任」；不能以起因取代構成要件，也不得沿用已失效的侮辱職務罪部分。",
           "trueStatement": false
         },
         {
           "text": "甲之言詞是否涉及刑事責任或社維法之行政責任未臻明確，故乙應依無罪推定原則處理",
-          "explanation": "無罪推定要求有充分證據方能定罪，但並非有不確定性就不得依法受理調查。",
-          "correction": "依法調查並注意無罪推定與言論自由。",
+          "explanation": "刑訴法第154條的無罪推定要求定罪須有證據，不等於犯罪嫌疑不明時不得受理或調查。社維處理辦法第30條同樣要求依證據認定違序事實。",
+          "correction": "改為在無罪推定及言論自由保障下依法蒐集有利不利事證，分別審查刑法及社維法的構成要件。",
           "trueStatement": false
         },
         {
           "text": "乙將甲移送地檢署後，不得再依社維法規定對甲之同一行為進行裁罰",
-          "explanation": "官方選D；社維法第85條第1款以言行尚未達強暴、脅迫或侮辱程度為要件，已構成相同侮辱行為時不得將該款當成自動加罰依據。",
-          "correction": "不可泛化為刑事移送後均不得社維裁罰：第38條但書對停止營業、勒令歇業、罰鍰、沒入另有規定；第85條第1款仍須依法執行職務，且言行尚未達強暴、脅迫或侮辱程度。",
+          "explanation": "就題示同一已達侮辱程度的行為，第85條第1款「尚未達…侮辱之程度」不合，不能再套該款處罰。但第38條本有但書；釋字808僅使同一行為經刑事有罪確定後再罰鍰部分失效，非以移送時即全面排除。",
+          "correction": "將結論限於本案同一行為不符合第85條第1款；若作一般原則，另按第38條及釋字808區分刑事確定、罰鍰與其他處分。",
           "trueStatement": true
         }
       ],
@@ -824,28 +856,47 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第11題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 11,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "社維法第38條但書對停止營業、勒令歇業、罰鍰或沒入另有規定；不可把官方答案概括背成刑事移送後一切社維罰鍰均不得處罰。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "社會秩序維護法第38、85條；違反社會秩序維護法案件處理辦法第18、30條；中華民國刑法第140條（須依憲判限縮）；刑事訴訟法第154條；憲法法庭113年憲判字第5號判決全文；司法院釋字第808號解釋文及理由",
+        "checkedAt": "2026-11-20",
+        "note": "已核社維法第38、85條、處理辦法第18條、釋字808及113年憲判字第5號全文。D只能按本案同一侮辱行為不符合第85條第1款解釋；單純移送刑事不等於一般社維程序或處罰全被排除。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "先審查是否真正構成侮辱公務員罪，再看社維第85條的較低程度要件；移送、判決確定與一罪不二罰是不同階段。",
         "sources": [
           {
-            "title": "社會秩序維護法",
+            "title": "社會秩序維護法第38、85條",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
           },
           {
-            "title": "違反社會秩序維護法案件處理辦法",
+            "title": "違反社會秩序維護法案件處理辦法第18、30條",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+          },
+          {
+            "title": "中華民國刑法第140條（須依憲判限縮）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0000001"
+          },
+          {
+            "title": "刑事訴訟法第154條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+          },
+          {
+            "title": "憲法法庭113年憲判字第5號判決全文",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=CJ00005772&media=print&type=CJ"
+          },
+          {
+            "title": "司法院釋字第808號解釋文及理由",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C808&type=c"
           }
         ]
       },
-      "takeaway": "官方選D；社維法第85條第1款以言行尚未達強暴、脅迫或侮辱程度為要件，已構成相同侮辱行為時不得將該款當成自動加罰依據。",
+      "takeaway": "先審查是否真正構成侮辱公務員罪，再看社維第85條的較低程度要件；移送、判決確定與一罪不二罰是不同階段。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -856,14 +907,31 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115060&c=441&s=0903&q=1"
         },
         {
-          "title": "社會秩序維護法",
+          "title": "社會秩序維護法第38、85條",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
         },
         {
-          "title": "違反社會秩序維護法案件處理辦法",
+          "title": "違反社會秩序維護法案件處理辦法第18、30條",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+        },
+        {
+          "title": "中華民國刑法第140條（須依憲判限縮）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0000001"
+        },
+        {
+          "title": "刑事訴訟法第154條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        },
+        {
+          "title": "憲法法庭113年憲判字第5號判決全文",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=CJ00005772&media=print&type=CJ"
+        },
+        {
+          "title": "司法院釋字第808號解釋文及理由",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C808&type=c"
         }
-      ]
+      ],
+      "currentAnswer": "當年官方答案D保留。本案第85條第1款要求言行尚未達強暴、脅迫或侮辱程度，不能對同一已達侮辱程度行為再依該款裁罰。但D不可泛化為「一移送刑事，所有社維裁罰即禁止」；釋字808對同一行為罰鍰的禁止另以刑事有罪判決確定為其範圍。"
     },
     {
       "id": "law115-outer-12",
@@ -1351,26 +1419,26 @@
       "options": [
         {
           "text": "由於甲只是口頭喧嘩，警察只能再次禁止甲，不得對之處罰",
-          "explanation": "政府機關或其他辦公處所任意喧嘩，不聽禁止，符合第86條可處罰要件。",
-          "correction": "依法查證地點與不聽禁止後裁處。",
+          "explanation": "第86條不以暴力為必要，任意喧嘩且不聽禁止即有處罰可能；但仍須證明屬政府機關或其他辦公處所及符合行為要件。",
+          "correction": "改為依法調查是否成立第86條；不能僅因只有口頭喧嘩就說法律絕對不准處罰。",
           "trueStatement": false
         },
         {
           "text": "警察應以妨礙公務之刑事現行犯逮捕甲",
-          "explanation": "僅喧嘩且不聽禁止不當然構成刑事妨害公務現行犯。",
-          "correction": "依具體行為及構成要件判斷，勿逕以刑事現行犯處理。",
+          "explanation": "刑法第135條原則以對依法執勤公務員施強暴、脅迫為要件；題目只有喧嘩，不可直接等同刑事妨害公務現行犯。若另有侮辱等行為，亦須另核其要件。",
+          "correction": "改為先依法認定具體行為，沒有刑事現行犯要件不得逕行刑事逮捕。",
           "trueStatement": false
         },
         {
           "text": "警察因已進行過禁止，應於訊問後，作成處分書",
-          "explanation": "第86條專處罰鍰或申誡，符合要件由警察依法調查訊問後作成處分書；另注意輕微案件法定例外。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "第86條屬選處罰鍰或申誡的案件，依第43條第1項第2款，訊問後除有繼續調查必要外，警察應作處分書。此分流來自法定處罰種類，不是「已禁止」本身。",
+          "correction": "C依題設成立；補上繼續調查例外。符合第44條情節輕微且事實明確時，另可在法定範圍內逕行處分。",
           "trueStatement": true
         },
         {
           "text": "警察因已進行過禁止，應於訊問後，移請簡易庭裁處",
-          "explanation": "第86條非含拘留之法定處罰類型，非此原因一律移簡易庭。",
-          "correction": "按第43條由警察機關依法處分。",
+          "explanation": "第45條移簡易庭的是第43條所列之外案件；第86條不含拘留、停止營業或勒令歇業，通常由警察處分，不能因不聽禁止就改變事務管轄。",
+          "correction": "改為依第43條由警察機關處分；另有不同犯罪或違序行為時，依各該法定處罰種類另行分流。",
           "trueStatement": false
         }
       ],
@@ -1379,24 +1447,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第18題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 18,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "題示門口是否屬政府機關或其他辦公處所，仍需依具體場址及個案解釋。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "社會秩序維護法第43、44、45、46、86條；中華民國刑法第135條",
+        "checkedAt": "2026-11-20",
+        "note": "社維法第43至46、86條及刑法第135條全文已核。按題示機關門口屬機關辦公處所、任意喧嘩且不聽禁止的考題設定，C為警察處分分流；實務仍應確認場址與行為事實。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "政府機關辦公處所任意喧嘩不聽禁止，走第86條及第43條警察處分；需繼續調查時不能強求立即裁罰。",
         "sources": [
           {
-            "title": "社會秩序維護法",
+            "title": "社會秩序維護法第43、44、45、46、86條",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+          },
+          {
+            "title": "中華民國刑法第135條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0000001"
           }
         ]
       },
-      "takeaway": "第86條專處罰鍰或申誡，符合要件由警察依法調查訊問後作成處分書；另注意輕微案件法定例外。",
+      "takeaway": "政府機關辦公處所任意喧嘩不聽禁止，走第86條及第43條警察處分；需繼續調查時不能強求立即裁罰。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -1407,10 +1482,15 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115060&c=441&s=0903&q=1"
         },
         {
-          "title": "社會秩序維護法",
+          "title": "社會秩序維護法第43、44、45、46、86條",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+        },
+        {
+          "title": "中華民國刑法第135條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0000001"
         }
-      ]
+      ],
+      "currentAnswer": "當年官方答案C。第86條法定處罰為3000元以下罰鍰或申誡，依第43條由警察機關處分；不因已禁止就改移法院。單純喧嘩也不當然構成刑事妨害公務。"
     },
     {
       "id": "law115-outer-19",
@@ -1570,26 +1650,26 @@
       "options": [
         {
           "text": "姓名",
-          "explanation": "警職法第7條第1項第2款明列姓名，查證仍須符合第6條要件及必要性。",
-          "correction": "本題非A。",
+          "explanation": "社維法第67條第1項第2款明列姓名，警職法第7條亦明列身分查證可詢問姓名；均須先具備依法調查或查察的前提，不能藉此任意盤查。",
+          "correction": "本題姓名屬該款列舉事項；仍須合法攔查及確認本人，不能只因拒答就省略合法性審查。",
           "trueStatement": true
         },
         {
           "text": "性別",
-          "explanation": "警職法第7條第1項第2款未明列性別；但文字有「等」，不宜推論任何情況均不得詢問。",
-          "correction": "本題官方答案為B；具體適用及其他法源待核。",
+          "explanation": "性別沒有列在社維法第67條第1項第2款的姓名、住所、居所三項內，故為本題官方答案。第43條處分書等其他程序會另記性別，不代表可用第67條處罰拒答性別。",
+          "correction": "保留B為本題答案；把既有「警職法未明列所以一律不得問」改為「未列入社維第67條本款制裁事項」，其他詢問法源另論。",
           "trueStatement": false
         },
         {
           "text": "住所",
-          "explanation": "住居所為該款列示事項，住所包含在住居所內。",
-          "correction": "仍須符合必要性及個資相關規定。",
+          "explanation": "住所為社維法第67條第1項第2款直接列舉的資料，與警職法第7條所稱住居所亦相應；目的在依法辨識與聯繫，不代表可無限制蒐集生活資訊。",
+          "correction": "住所屬本題詢問事項；仍須依合法目的及必要範圍詢問，不因其為列舉便免除個資與比例要求。",
           "trueStatement": true
         },
         {
           "text": "居所",
-          "explanation": "該款列住居所，包含居所。",
-          "correction": "與地址資料應依目的及必要性處理。",
+          "explanation": "居所也由第67條第1項第2款明文列舉。住所與居所雖可相同，法律分別列示，不能因已詢住所即認居所從來不在可詢問之列。",
+          "correction": "居所屬本題事項；應如實區分固定生活中心與實際居住資料，避免把兩者當成必然同一地址。",
           "trueStatement": true
         }
       ],
@@ -1598,30 +1678,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第21題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 21,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "law": "警察職權行使法第6、7條；社會秩序維護法第43條",
-        "checkedAt": "2026-11-17",
-        "effectiveStatus": "unverified",
-        "note": "警職法列舉身分查證事項含「等」；社維法處分書另明列性別，題示交通舉發之具體法源及性別詢問範圍仍待核。",
+        "status": "none",
+        "law": "社會秩序維護法第67條第1項第2款及第43條；警察職權行使法第6、7條",
+        "checkedAt": "2026-11-20",
+        "note": "本次直接核社維法第67條第1項第2款：依法調查查察時不實或拒絕陳述的事項是姓名、住所、居所，並無性別。警職法第7條詢問清單含「等」，與第67條制裁範圍不同，不應混為全面禁止詢問性別。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "「可以為合法目的詢問哪些資料」與「拒答哪三項會落入社維第67條」要分開；本題記姓名、住所、居所。",
         "sources": [
           {
-            "title": "警察職權行使法第6、7條",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+            "title": "社會秩序維護法第67條第1項第2款及第43條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
           },
           {
-            "title": "社會秩序維護法第24、26、39、43、45、46、55至58、81、86、87條",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+            "title": "警察職權行使法第6、7條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
           }
         ]
       },
-      "takeaway": "未明列不等於任何執法程序都禁止記載性別；適用法源待進一步確認。",
+      "takeaway": "「可以為合法目的詢問哪些資料」與「拒答哪三項會落入社維第67條」要分開；本題記姓名、住所、居所。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -1632,15 +1713,19 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115060&c=441&s=0903&q=1"
         },
         {
-          "title": "社會秩序維護法",
+          "title": "社會秩序維護法第67條第1項第2款及第43條",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
         },
         {
           "title": "警察職權行使法第6、7條",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "警察職權行使法第6、7條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
         }
       ],
-      "currentAnswer": "B為官方答案：警職法第7條第1項第2款列舉身分查證可詢問姓名、出生資料、國籍、住居所及身分證號，未明列性別；該款「等」字及其他法律程序仍須分開判斷。"
+      "currentAnswer": "當年官方答案B。依社維法第67條第1項第2款列舉，姓名、住所、居所屬該款事項，性別未列。這不能延伸為任何合法執法程序都不得詢問或記載性別；合法查察前提與其他資料必要性仍須個別審查。"
     },
     {
       "id": "law115-outer-22",
@@ -1652,26 +1737,26 @@
       "options": [
         {
           "text": "相當因果關係",
-          "explanation": "國家賠償範圍通常以相當因果關係判斷，並須另符合違法、可歸責及損害等要件。",
-          "correction": "本項在本題條件下無須修正。",
+          "explanation": "國賠法第5條使國家賠償在本法外適用民法；最高法院48年台上481號官方要旨明示損害、責任原因事實及二者相當因果關係為損害賠償成立要件。",
+          "correction": "A可保留；仍須另證公權力、故意過失、不法侵害及實際損害等適用責任類型的要件，不能僅憑相當性直接判全額國賠。",
           "trueStatement": true
         },
         {
           "text": "條件因果關係",
-          "explanation": "純條件說僅問無此行為有無結果，不能直接界定本題所問賠償範圍。",
-          "correction": "依相當因果關係進一步篩選。",
+          "explanation": "條件關係只處理事實原因的初步篩選，未充分限制過遠、偶然的損害範圍；本題問賠償責任及範圍所採判準，官方要旨用相當因果關係。",
+          "correction": "改為在事實條件關係之外，進一步判斷相當因果關係，不以純粹「若無則不生」測試作全部賠償結論。",
           "trueStatement": false
         },
         {
           "text": "分配因果關係",
-          "explanation": "題示分配因果並非本題官方採用之賠償界定。",
-          "correction": "改為相當因果關係。",
+          "explanation": "「分配因果關係」不是本題官方要旨對損害賠償成立所採的名稱；數人責任分配也不能取代個別行為與損害的相當性判斷。",
+          "correction": "改為相當因果關係；如另有共同侵權或責任分擔問題，應另外依其法源處理。",
           "trueStatement": false
         },
         {
           "text": "創設因果關係",
-          "explanation": "題示創設因果並非本題官方採用之賠償界定。",
-          "correction": "改為相當因果關係。",
+          "explanation": "「創設因果關係」也不是此處界定警察不法行為賠償的法定或官方要旨用語。創設風險等其他理論概念，不能直接代替本題相當性要求。",
+          "correction": "改為相當因果關係，並以具體損害、原因事實及通常發生可能性說明，避免只背抽象名詞。",
           "trueStatement": false
         }
       ],
@@ -1680,24 +1765,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年外軌四等｜警察法規概要｜第22題",
       "paperYear": 115,
       "paperTrack": "外軌",
       "paperNumber": 22,
       "answerStatus": "考選部原始答案已核；官方目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "已核對考選部原卷、標準答案與列示法規；全部歷史版本、函釋與後續修正仍待逐項核對。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "國家賠償法第2、5條全文；全國法規資料庫：最高法院48年台上字第481號判例要旨及現行效力編註",
+        "checkedAt": "2026-11-20",
+        "note": "已核國賠法第2、5條全文及官方資料庫收錄48年台上字第481號判例要旨，支持相當因果關係。舊判例現效力與一般最高法院裁判相同，不能稱仍有舊制判例的特別拘束力。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "先確認事實上的原因，再依通常情形與經驗法則判斷相當性；有因果關係也不代表國賠其他要件自動具備。",
         "sources": [
           {
-            "title": "行政程序法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030055"
+            "title": "國家賠償法第2、5條全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=I0020004"
+          },
+          {
+            "title": "全國法規資料庫：最高法院48年台上字第481號判例要旨及現行效力編註",
+            "url": "https://law.moj.gov.tw/LawClass/ExContent.aspx?ty=J&JC=A&JNO=481&JYEAR=48&JNUM=001&JCASE=%E5%8F%B0%E4%B8%8A"
           }
         ]
       },
-      "takeaway": "國家賠償範圍通常以相當因果關係判斷，並須另符合違法、可歸責及損害等要件。",
+      "takeaway": "先確認事實上的原因，再依通常情形與經驗法則判斷相當性；有因果關係也不代表國賠其他要件自動具備。",
       "sources": [
         {
           "title": "考選部115年一般警察四等警察法規概要原卷",
@@ -1710,8 +1802,17 @@
         {
           "title": "行政程序法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030055"
+        },
+        {
+          "title": "國家賠償法第2、5條全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=I0020004"
+        },
+        {
+          "title": "全國法規資料庫：最高法院48年台上字第481號判例要旨及現行效力編註",
+          "url": "https://law.moj.gov.tw/LawClass/ExContent.aspx?ty=J&JC=A&JNO=481&JYEAR=48&JNUM=001&JCASE=%E5%8F%B0%E4%B8%8A"
         }
-      ]
+      ],
+      "currentAnswer": "當年官方答案A。警察不法公權力行為的損害賠償，除國賠法責任要件外，行為與損害間須有相當因果關係；不是只要時間先後或「沒有這個行為就沒有損害」即一律賠償。"
     },
     {
       "id": "law115-outer-23",

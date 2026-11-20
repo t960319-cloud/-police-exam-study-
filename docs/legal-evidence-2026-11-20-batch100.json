@@ -1,0 +1,4081 @@
+{
+  "checkedAt": "2026-11-20",
+  "timezone": "Asia/Taipei",
+  "baselineGit": "61ed7c66d3d8fbbbc09ae73d5b8b712f6859d90e",
+  "previousDeployment": 44,
+  "requestedBatchSize": 100,
+  "supplementedQuestions": 100,
+  "reviewedOptions": 400,
+  "verifiedInCitedScope": 75,
+  "retainedReview": 25,
+  "eventIds": [
+    "legal-review-20261120-batch100-a",
+    "legal-review-20261120-batch100-b",
+    "legal-review-20261120-batch100-c",
+    "legal-review-20261120-batch100-d"
+  ],
+  "eventPatchCounts": [
+    25,
+    25,
+    25,
+    25
+  ],
+  "preservedCuratedEvents": 41,
+  "targets": [
+    "law110-inner-03",
+    "law110-inner-25",
+    "law111-inner-13",
+    "law112-inner-10",
+    "law112-inner-12",
+    "law112-inner-21",
+    "law112-inner-22",
+    "law112-inner-23",
+    "law112-inner-24",
+    "law112-outer-20",
+    "law113-inner-01",
+    "law113-inner-05",
+    "law113-inner-10",
+    "law113-outer-01",
+    "law113-outer-06",
+    "law113-outer-08",
+    "law113-outer-12",
+    "law113-outer-16",
+    "law114-inner-10",
+    "law114-inner-11",
+    "law114-inner-12",
+    "law114-inner-14",
+    "law114-inner-15",
+    "law114-inner-16",
+    "law114-inner-17",
+    "law114-inner-18",
+    "law114-inner-19",
+    "law114-inner-21",
+    "law114-outer-05",
+    "law114-outer-14",
+    "law114-outer-15",
+    "law114-outer-20",
+    "law115-inner-11",
+    "law115-inner-16",
+    "law115-outer-01",
+    "law115-outer-10",
+    "law115-outer-11",
+    "law115-outer-18",
+    "law115-outer-21",
+    "law115-outer-22",
+    "investigation110_21",
+    "investigation110_24",
+    "investigation110_31",
+    "investigation110_43",
+    "investigation111_04",
+    "investigation111_14",
+    "investigation111_20",
+    "investigation111_21",
+    "investigation111_29",
+    "investigation112_01",
+    "investigation112_05",
+    "investigation112_08",
+    "investigation112_14",
+    "investigation112_42",
+    "investigation112_46",
+    "investigation113_13",
+    "investigation113_30",
+    "investigation113_31",
+    "investigation113_34",
+    "investigation113_40",
+    "investigation114_11",
+    "investigation114_24",
+    "investigation114_27",
+    "investigation114_34",
+    "investigation114_50",
+    "investigation115_19",
+    "investigation115_21",
+    "investigation115_23",
+    "investigation115_26",
+    "investigation115_28",
+    "duty110_10",
+    "duty110_19",
+    "duty111_14",
+    "duty112_04",
+    "duty112_18",
+    "duty112_22",
+    "duty112_24",
+    "duty113_03",
+    "duty113_04",
+    "duty113_13",
+    "duty114_06",
+    "duty114_08",
+    "duty114_25",
+    "duty115_03",
+    "duty115_13",
+    "duty115_21",
+    "duty115_24",
+    "scene110-01",
+    "scene110-04",
+    "scene111-11",
+    "scene111-19",
+    "scene113-04",
+    "scene113-06",
+    "scene113-12",
+    "scene114-11",
+    "scene114-13",
+    "scene115-11",
+    "scene115-12",
+    "scene115-13",
+    "scene115-14"
+  ],
+  "reviewResults": [
+    {
+      "targetId": "law110-inner-03",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警械使用條例第13、14條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+        },
+        {
+          "title": "各機關學校團體駐衛警察設置管理辦法第2至4條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080106"
+        },
+        {
+          "title": "警察役役男使用警械管理辦法第2、3條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0040030"
+        },
+        {
+          "title": "特種勤務條例第3、13條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030246"
+        },
+        {
+          "title": "警械許可定製售賣持有管理辦法第7條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080046"
+        }
+      ],
+      "handbookPoints": [
+        "警械條例第13條的準用對象，須連同執行的法定職務判斷。",
+        "保全單位申請持有警械的許可，不等同保全人員取得警察職權。"
+      ],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "law110-inner-25",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "公務人員行政中立法第2、17條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110036"
+        },
+        {
+          "title": "人事行政總處115年1月工友管理法規釋例彙編：工友管理要點第8點",
+          "url": "https://www.dgpa.gov.tw/ebook/book008/files/downloads/1150106%E5%B7%A5%E5%8F%8B%E7%AE%A1%E7%90%86%E6%B3%95%E8%A6%8F%E9%87%8B%E4%BE%8B%E5%BD%99%E7%B7%A8-%E9%9B%BB%E5%AD%90%E6%9B%B8.pdf"
+        },
+        {
+          "title": "銓敘部114年8月行政中立法Q&A第14題",
+          "url": "https://www.mocs.gov.tw/FileUpload/111-14015/Documents/11408%E4%B8%AD%E7%AB%8B%E6%B3%95Q%26A%E5%B0%88%E8%BC%AF.pdf"
+        }
+      ],
+      "handbookPoints": [
+        "行政中立法第17條的依法聘僱人員，不等於所有依勞動契約僱用的工友。",
+        "工友中立義務與違反後的處理，依工友管理要點及工作規則、勞動契約判斷。"
+      ],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "law111-inner-13",
+      "officialAnswer": "B",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警械使用條例第13條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+        },
+        {
+          "title": "駐衛警察使用警械管理辦法第2至4、8條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080053"
+        },
+        {
+          "title": "警察役役男使用警械管理辦法第2條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0040030"
+        },
+        {
+          "title": "海岸巡防機關器械使用條例第1至6條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0090010"
+        }
+      ],
+      "handbookPoints": [
+        "駐衛警察用其他警械原則由設置單位申請配發，特殊治安或急迫情況得逕行配發。",
+        "警察役役男依專門辦法準用；海巡用械依海巡器械專法。"
+      ],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "law112-inner-10",
+      "officialAnswer": "D",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "行政程序法第150、159至161條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
+        },
+        {
+          "title": "警察職權行使法第12條第4項",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "警察遴選第三人蒐集資料辦法全文及第1條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146"
+        },
+        {
+          "title": "拘留所設置管理辦法第6條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080086"
+        },
+        {
+          "title": "偶發性及緊急性集會遊行認定處理原則全文",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1002151"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "A、B完整現行行政規則原件缺漏，verified維持false。"
+      ]
+    },
+    {
+      "targetId": "law112-inner-12",
+      "officialAnswer": "B",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "行政程序法第150、159、161條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
+        },
+        {
+          "title": "警察職權行使法第12、15條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "治安顧慮人口查訪辦法第1條及全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+        },
+        {
+          "title": "警察遴選第三人蒐集資料辦法第1條及全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "未取得B作業規定完整現行原件，僅補足母法、辦法與行政規則的一般效力比較。"
+      ]
+    },
+    {
+      "targetId": "law112-inner-21",
+      "officialAnswer": "C",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "警察職權行使法第15至17條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "治安顧慮人口查訪辦法第2至9條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+        },
+        {
+          "title": "警察人員人事條例第6、10條之1",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
+        },
+        {
+          "title": "森林法第50、52條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=M0040001"
+        },
+        {
+          "title": "最高法院93年度台上字第860號刑事判決全文",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=B%2C93%2C%E5%8F%B0%E4%B8%8A%2C860%2C001&kw=&type=J1"
+        },
+        {
+          "title": "內政部常見問答：治安顧慮人口資料不得任意提供里長",
+          "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&_Query=8aad0325-4cff-40ef-8903-22b6257c01a1&n=174&page=23&sms=9015"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "93台上860現行效力等同一般最高法院裁判，不將歷史判例稱為仍具特殊拘束力的現行判例。",
+        "C完整行政作業原件及例外未核，verified=false。"
+      ]
+    },
+    {
+      "targetId": "law112-inner-22",
+      "officialAnswer": "A",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "社會秩序維護法第18、18條之1、19、45條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "法律原件已核，但題幹省略必要刑度，現行唯一正解的完整性仍待核。"
+      ]
+    },
+    {
+      "targetId": "law112-inner-23",
+      "officialAnswer": "A",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "社會秩序維護法第33、35、43、45、55至59、68、72條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+        },
+        {
+          "title": "違反社會秩序維護法案件處理辦法第11、15至17條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+        },
+        {
+          "title": "內政部103年11月19日台內警字第1030890653號函：專業警察核准名單",
+          "url": "https://ou3.npa.gov.tw/law/Law/GetFile/1EMRNB9"
+        },
+        {
+          "title": "臺東地院111年度東秩字第12號：藉端滋擾合理範圍個案",
+          "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TTDM%2C111%2C%E6%9D%B1%E7%A7%A9%2C12%2C20220520%2C1"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "B沒有取得能完整排除一般地域管轄的現行原件，整題維持false。",
+        "案件處理辦法第11條仍使用舊款次文字「第72條第3款」，本題引用時以現行母法第72條第2款內容對照，不照抄成現行款次。"
+      ]
+    },
+    {
+      "targetId": "law112-inner-24",
+      "officialAnswer": "D",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "社會秩序維護法第7、20、51、55至57、77條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+        },
+        {
+          "title": "違反社會秩序維護法案件處理辦法第5、41條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+        },
+        {
+          "title": "法務部109年1月31日法律字第10903501010號函全文",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE336786&media=print&type=E"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "原題D未分程序、實體及既判力範圍，A亦缺經濟條件，故題目完整性維持待核。"
+      ]
+    },
+    {
+      "targetId": "law112-outer-20",
+      "officialAnswer": "C",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "警察職權行使法第15至17條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "治安顧慮人口查訪辦法第2至9條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "C完整內部列管作業原件未取得，維持false；A、B、D法定內容已核。"
+      ]
+    },
+    {
+      "targetId": "law113-inner-01",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警械使用條例第14條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+        },
+        {
+          "title": "訴願法第4條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030020"
+        },
+        {
+          "title": "社會秩序維護法第45、55、58條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+        }
+      ],
+      "handbookPoints": [
+        "警械條例第14條沒入未經許可持有警械，循行政訴願救濟。",
+        "社維法的聲明異議或抗告，不能只憑處罰也叫沒入而移植適用。"
+      ],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "law113-inner-05",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "行政程序法第15、19條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
+        },
+        {
+          "title": "法務部103年5月6日法律字第10303505740號函全文",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE268438&media=print&type=E"
+        },
+        {
+          "title": "法務部106年12月13日法律字第10603508070號函全文",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?etype=etype1&id=FE306003&type=E"
+        }
+      ],
+      "handbookPoints": [
+        "行政協助以請求及補充性為核心，不生管轄移轉。",
+        "行為須在被請求機關合法權限範圍內；本來依法由其自行完成的職務，不是補充協助。"
+      ],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "law113-inner-10",
+      "officialAnswer": "B",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "社會秩序維護法第43、45、58、63條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+        },
+        {
+          "title": "警械使用條例第14條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+        },
+        {
+          "title": "法務部81年3月11日（81）法律字第03386號函全文",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE076546&media=print&type=E"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "81年函只是歷史函釋，明示另公告查禁及法院個案判斷，不能拿它代替現行查禁公告。"
+      ]
+    },
+    {
+      "targetId": "law113-outer-01",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "社會秩序維護法第7、63條第1項第5款",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+        },
+        {
+          "title": "臺中地院114年度中秩字第181號官方新聞稿：公共議題評論及公共安寧要件",
+          "url": "https://www.judicial.gov.tw/tw/cp-1888-1423781-9f1e8-1.html"
+        }
+      ],
+      "handbookPoints": [
+        "散布不實訊息還須足以影響公共安寧，才是社維法第63條第1項第5款的處罰對象。",
+        "社維法第7條原則也處罰過失，不能把善意或無故意當作唯一免責依據。"
+      ],
+      "evidenceNotes": [
+        "114中秩181新聞稿作為評論及公共安寧要件的例證，不冒充原題A的同一裁判。"
+      ]
+    },
+    {
+      "targetId": "law113-outer-06",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警察職權行使法第2條第3項",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "保訓會114佐升正訓練教材第94頁：相當職務以上長官及92年令釋",
+          "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D"
+        }
+      ],
+      "handbookPoints": [
+        "警職法主管長官的相當性，依組織及實際勤務指揮監督功能判斷。",
+        "職務等階或陞遷序列不能單獨取代實際指揮監督層級。"
+      ],
+      "evidenceNotes": [
+        "直接下載PDF數次404，但官方網頁讀取工具成功開啟完整PDF，相關第94頁文字及原始工具回應另存supervisorTrainingWeb.json。",
+        "教材引用原函，未冒稱已取得92年令的原始正本。"
+      ]
+    },
+    {
+      "targetId": "law113-outer-08",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "社會秩序維護法第35條第3項",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+        },
+        {
+          "title": "內政部103年11月19日台內警字第1030890653號核准專業警察社維管轄函全文",
+          "url": "https://ou3.npa.gov.tw/law/Law/GetFile/1EMRNB9"
+        }
+      ],
+      "handbookPoints": [
+        "內政部核准名單列保二、航警、國道、鐵警及基隆、臺中、高雄、花蓮四港務總隊。",
+        "保一支援地方執勤與專業警察依法核准的社維管轄不同。"
+      ],
+      "evidenceNotes": [
+        "核准函為單頁掃描PDF，已轉圖目視全文並人工轉錄主旨及核准名單，未將空白pdftotext結果當作已讀全文。"
+      ]
+    },
+    {
+      "targetId": "law113-outer-12",
+      "officialAnswer": "A",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "考選部113年外軌警察法規標準答案更正：第12題一律給分",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=113060&c=401&s=0903&q=1"
+        },
+        {
+          "title": "中華民國刑法第266、268條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+        },
+        {
+          "title": "社會秩序維護法第38、84條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+        },
+        {
+          "title": "違反社會秩序維護法案件處理辦法第13條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070"
+        }
+      ],
+      "handbookPoints": [
+        "113外軌第12題正式一律給分，A只是歷史初答，不能改成唯一計分鍵。",
+        "刑法第266條第2項明定網路賭博；第268條另要求營利供給場所或聚眾。"
+      ],
+      "evidenceNotes": [
+        "verified指正式更正及現行適用條文已核，並非認定四個選項在法律命題上全部正確。",
+        "來源及給分已查，原題選項精確性仍列review，verified保留false，避免納入無疑義現行練習。"
+      ]
+    },
+    {
+      "targetId": "law113-outer-16",
+      "officialAnswer": "D",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "警察人員人事條例第31條全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005"
+        },
+        {
+          "title": "中華民國刑法第41條第2至6項",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+        }
+      ],
+      "handbookPoints": [
+        "刑事判決免職須核對確定、緩刑、易科罰金及易服社會勞動等要件。",
+        "第31條第1項第6至11款免職處分確定後執行，未確定前應先停職。"
+      ],
+      "evidenceNotes": [
+        "B字面有要件省略，保留官方D但說明完整法定條件；verified不代表B省略的文字可在個案省略審查。",
+        "來源及給分已查，原題選項精確性仍列review，verified保留false，避免納入無疑義現行練習。"
+      ]
+    },
+    {
+      "targetId": "law114-inner-10",
+      "officialAnswer": "D",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "考選部114年內軌警察法規更正公告：第10題一律給分",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1002&q=1"
+        },
+        {
+          "title": "行政訴訟法第3條之1、第237條之2至第237條之5",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030154"
+        },
+        {
+          "title": "道路交通管理處罰條例第9條及頁首施行狀態",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+        },
+        {
+          "title": "司法院行政訴訟裁判費徵收標準：交通裁決起訴300元",
+          "url": "https://www.judicial.gov.tw/tw/cp-171-279528-d332e-1.html"
+        }
+      ],
+      "handbookPoints": [
+        "114內軌第10題正式一律給分，原始D不再是唯一計分答案。",
+        "交通裁決起訴期間在行政訴訟法第237條之3，管轄在第237條之2；起訴每件300元。"
+      ],
+      "evidenceNotes": [
+        "依當次官方現行頁面確認第9條不在尚未施行條文清單；整部道交條例存在待施行部分不影響本題第9條的期限核對。",
+        "來源及給分已查，原題選項精確性仍列review，verified保留false，避免納入無疑義現行練習。"
+      ]
+    },
+    {
+      "targetId": "law114-inner-11",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "公務人員保障法第4、25、26、27、30、77、78條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0120001"
+        },
+        {
+          "title": "保訓會114公審決字第001130號：警佐升警正訓練不及格復審決定全文",
+          "url": "https://web13.csptc.gov.tw/SearchContent.aspx?IN_ID=186814"
+        }
+      ],
+      "handbookPoints": [
+        "升官等訓練不及格的行政處分循保障法復審，受理審議機關為保訓會。",
+        "復審原則自處分達到次日起30日；管理措施申訴、再申訴與行政處分復審不同。"
+      ],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "law114-inner-12",
+      "officialAnswer": "B",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "警察職權行使法第3、4、19、20、30、31條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        },
+        {
+          "title": "行政執行法施行細則第35、36條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030056"
+        },
+        {
+          "title": "國家賠償法第2條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=I0020004"
+        },
+        {
+          "title": "考選部114年警察內軌四等警察法規概要最終標準答案更正",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1002&q=1"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已實讀上述法規全文；更正公告第12題仍列B，未列D給分。",
+        "未取得對本題D文字爭議的官方解釋，verified維持false。"
+      ]
+    },
+    {
+      "targetId": "law114-inner-14",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "社會秩序維護法第41、42、45、50、52條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+        },
+        {
+          "title": "警察職權行使法第6、7條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        },
+        {
+          "title": "刑事訴訟法第71、77、88條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        },
+        {
+          "title": "考選部114年警察內軌四等警察法規概要答案更正：第14題A或B均給分",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1002&q=1"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "官方更正原文「第14題答Ａ或Ｂ者均給分」已從官方PDF讀取。"
+      ]
+    },
+    {
+      "targetId": "law114-inner-15",
+      "officialAnswer": "D",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "警察職權行使法第3條第3項",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        },
+        {
+          "title": "刑事訴訟法第158條之4",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        },
+        {
+          "title": "考選部114年警察內軌四等警察法規概要答案更正：第15題B或D均給分",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1002&q=1"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "官方PDF已確認B、D均給分。",
+        "本輪嘗試取得92台上4558號，官方頁回查無資料；未把此失敗頁列入sources或稱已閱裁判。"
+      ]
+    },
+    {
+      "targetId": "law114-inner-16",
+      "officialAnswer": "C",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "111年憲判字第1號判決全文：主文及人身自由、身體權、強制取證理由",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=CJ00000053&media=print&type=CJ"
+        },
+        {
+          "title": "道路交通管理處罰條例第35條及分段生效狀態",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0040012"
+        },
+        {
+          "title": "刑事訴訟法第205條之1",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        },
+        {
+          "title": "行政院115年10月29日令：第35條第6、15項自115年12月31日施行",
+          "url": "https://gazette.nat.gov.tw/egFront/e_detail.do?metaid=169134"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已讀完整憲判主文與理由；未把原主文過渡程序無期限擴張為所有今日案件授權。",
+        "個案於核對日可適用之強制法源及程序仍待完整釐清，因此verified維持false。"
+      ]
+    },
+    {
+      "targetId": "law114-inner-17",
+      "officialAnswer": "D",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "警察人員人事條例第35條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+        },
+        {
+          "title": "公務人員退休資遣撫卹法第17、19條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0080034"
+        },
+        {
+          "title": "公務人員保障法第22、23條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0120001"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "欠缺具體危勞職務範圍與年齡核備公告，不用一般法最低界線冒充偵查佐實際年齡。"
+      ]
+    },
+    {
+      "targetId": "law114-inner-18",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "changed",
+      "sources": [
+        {
+          "title": "社會秩序維護法第3、4、8、9、72、78、84條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+        },
+        {
+          "title": "中華民國刑法第266條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0000001"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "第72條現行全文明列不聽禁止；本輪確認法律本體，並指出題目省略要件，未反推其他選項必成立。"
+      ]
+    },
+    {
+      "targetId": "law114-inner-19",
+      "officialAnswer": "D",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "集會遊行法第6、8、10、11條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        },
+        {
+          "title": "司法院釋字第445號解釋文及理由",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C445&type=c"
+        },
+        {
+          "title": "司法院釋字第718號解釋文及理由",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=c"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "AIT特定現址公告未取得，待核。",
+        "釋字445不同意見書不作解釋主文；D依解釋文的明顯而立即危險限縮。"
+      ]
+    },
+    {
+      "targetId": "law114-inner-21",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警察人員人事條例第28、31、33、34條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+        },
+        {
+          "title": "考選部114年內軌警察法規概要最終標準答案：第21題A",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1002&q=1"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "原題B文字採一般規則，完整解析已補第33條最高年功俸例外，未將省略例外自動視作另一官方給分答案。"
+      ]
+    },
+    {
+      "targetId": "law114-outer-05",
+      "officialAnswer": "C",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "行政程序法第92、100、102、103、110條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030055"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "缺少D相關完整裁判，未以法條或官方答案替代實務事實判斷。"
+      ]
+    },
+    {
+      "targetId": "law114-outer-14",
+      "officialAnswer": "B",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "社會秩序維護法第23、31、32、43、44、45條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+        },
+        {
+          "title": "法務部81年6月12日（81）法律字第08668號函全文",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE076579&media=print&type=E"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "A法院收文時點的精確操作依據尚缺，verified維持false。"
+      ]
+    },
+    {
+      "targetId": "law114-outer-15",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警械使用條例第1、10條之1、11條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+        },
+        {
+          "title": "警械使用調查小組組織及運作辦法第2條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080218"
+        },
+        {
+          "title": "行政程序法第150條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030055"
+        },
+        {
+          "title": "警察機關配備警械種類沿革：113年7月8日公告",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailBase/F1002295"
+        },
+        {
+          "title": "警察機關配備警械種類完整官方附件",
+          "url": "https://ou3.npa.gov.tw/law/Law/GetFile/KIL08H"
+        },
+        {
+          "title": "警察機關配備警械種類修正總說明及對照表",
+          "url": "https://ou3.npa.gov.tw/law/Law/GetFile/1T4XW4P"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "官方完整附件已下載並轉文核讀；僅節錄名稱及與本題有關授權、種類，不在草稿抄存整張表。"
+      ]
+    },
+    {
+      "targetId": "law114-outer-20",
+      "officialAnswer": "B",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "社會秩序維護法第22、23、41、43、44、45、46、48、92條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+        },
+        {
+          "title": "違反社會秩序維護法案件處理辦法第30、31條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+        },
+        {
+          "title": "刑事訴訟法第306條：經合法傳喚無正當理由不到庭之程序",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "第48條直接規範警察缺席裁處；法院程序另依第46、92條及刑訴準用，未將第48條文誤寫為直接授權所有法院。"
+      ]
+    },
+    {
+      "targetId": "law115-inner-11",
+      "officialAnswer": "B",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "集會遊行法第6條全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        },
+        {
+          "title": "司法院釋字第445號：禁制區規定的目的及核准例外",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C445&type=c"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "100公尺具體公告未取得，故即使選B的法條列舉可確定，仍不標整題已核。"
+      ]
+    },
+    {
+      "targetId": "law115-inner-16",
+      "officialAnswer": "C",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "集會遊行法第2、8條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058"
+        },
+        {
+          "title": "司法院釋字第718號解釋文及理由：緊急及偶發集遊",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=c"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "A場所可出入性及法定選舉活動事實未明，維持待核；不更動原題及官方答案C。"
+      ]
+    },
+    {
+      "targetId": "law115-outer-01",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警察法第2、9條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+        },
+        {
+          "title": "警察職權行使法第1、2、3條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        },
+        {
+          "title": "國家賠償法第2條第2項：怠於執行職務",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=I0020004"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "「公共原則」為本題學理名稱；法條支持任務及具體職權區分，不宣稱第2條有直接寫出這四字。"
+      ]
+    },
+    {
+      "targetId": "law115-outer-10",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警察職權行使法第3、19、20條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        },
+        {
+          "title": "行政執行法第27、28、36、37條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "題示醉倒路邊按考題救護情境解釋，解析不把任何飲酒本身視為當然管束要件。"
+      ]
+    },
+    {
+      "targetId": "law115-outer-11",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "社會秩序維護法第38、85條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+        },
+        {
+          "title": "違反社會秩序維護法案件處理辦法第18、30條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+        },
+        {
+          "title": "中華民國刑法第140條（須依憲判限縮）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0000001"
+        },
+        {
+          "title": "刑事訴訟法第154條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        },
+        {
+          "title": "憲法法庭113年憲判字第5號判決全文",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=CJ00005772&media=print&type=CJ"
+        },
+        {
+          "title": "司法院釋字第808號解釋文及理由",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C808&type=c"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "第140條法條頁仍顯示侮辱職務文字，已另讀113憲判5，未將失效部分當成有效犯罪構成要件。",
+        "釋字808是刑事有罪確定後再處罰鍰之範圍；未把刑事移送本身誤作相同時點。"
+      ]
+    },
+    {
+      "targetId": "law115-outer-18",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "社會秩序維護法第43、44、45、46、86條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+        },
+        {
+          "title": "中華民國刑法第135條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0000001"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "以題示門口屬機關辦公處所的考題前提說明；個案場址需事證確認，未認所有鄰近道路一律屬第86條處所。"
+      ]
+    },
+    {
+      "targetId": "law115-outer-21",
+      "officialAnswer": "B",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "社會秩序維護法第67條第1項第2款及第43條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+        },
+        {
+          "title": "警察職權行使法第6、7條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已從官方全文直接讀到第67條第1項第2款，不再只以警職法第7條是否列性別作迂迴判斷。"
+      ]
+    },
+    {
+      "targetId": "law115-outer-22",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "國家賠償法第2、5條全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=I0020004"
+        },
+        {
+          "title": "全國法規資料庫：最高法院48年台上字第481號判例要旨及現行效力編註",
+          "url": "https://law.moj.gov.tw/LawClass/ExContent.aspx?ty=J&JC=A&JNO=481&JYEAR=48&JNUM=001&JCASE=%E5%8F%B0%E4%B8%8A"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "官方資料庫此頁提供判例要旨及效力編註，並非本輪取得完整舊案判決全文；本題引用範圍明定為該官方要旨的一般損害賠償原則，未宣稱已查本案全文。"
+      ]
+    },
+    {
+      "targetId": "investigation110_21",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "handbookPoints": [
+        148,
+        153
+      ],
+      "evidenceNotes": [
+        "手冊第148點：PDF第24頁（印刷第22頁）；第153點：PDF第25頁（印刷第23頁）。",
+        "依本次實讀刑訴法第29、30、150及245條核對；不將行政手冊當成剝奪法律權利的獨立授權。"
+      ]
+    },
+    {
+      "targetId": "investigation110_24",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "當舖業法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080075"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "investigation110_31",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "毒品危害防制條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000008"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "毒品危害防制條例附表三・第三級毒品",
+          "url": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000318789&lan=C"
+        },
+        {
+          "title": "刑事警察局毒品資料・一粒眠（硝甲西泮）",
+          "url": "https://www.cib.npa.gov.tw/ch/app/drup/view?id=1972&module=drup&serno=98c69a30-d59b-4c44-b620-83730d4c2001"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "一粒眠成分依刑事警察局原頁確認為硝甲西泮，未誤認為FM2的氟硝西泮；兩者雖同列第三級，仍分別識別。",
+        "刑訴法第229條第1項第1款包含警政署署長；控制下交付法源為毒品條例第32條之1、之2。"
+      ]
+    },
+    {
+      "targetId": "investigation110_43",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "通訊保障及監察法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "通保法第11條之1已按本批實際讀取的現行全文說明，不沿用舊版最重本刑三年以上的概括調取門檻。"
+      ]
+    },
+    {
+      "targetId": "investigation111_04",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "changed",
+      "sources": [
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "handbookPoints": [
+        69,
+        71
+      ],
+      "evidenceNotes": [
+        "第69、71點均在PDF第12頁（印刷第10頁）。第71點已實際讀到同意書名稱，沒有只依當年度鍵推論其他選項。"
+      ]
+    },
+    {
+      "targetId": "investigation111_14",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "handbookPoints": [
+        121,
+        122
+      ],
+      "evidenceNotes": [
+        "第121點：PDF第20頁（印刷第18頁）；第122點：PDF第21頁（印刷第19頁），點號位於換頁符後亦已納入。"
+      ]
+    },
+    {
+      "targetId": "investigation111_20",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "檢察機關辦理刑事案件與軍事機關聯繫要點",
+          "url": "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=FL073548"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已讀110年5月13日修正後官方要點全文，第5、9、10、14點；第14點明定司法警察機關有聯繫必要時準用。"
+      ]
+    },
+    {
+      "targetId": "investigation111_21",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "性侵害犯罪防治法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "111年原題舊法條次與現行條次不同，本批直接引用本次實讀現行第11條，不把舊第8條當成現行條號。"
+      ]
+    },
+    {
+      "targetId": "investigation111_29",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "存款帳戶及其疑似不法或顯屬異常交易管理辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0380199"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "investigation112_01",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "changed",
+      "sources": [
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "handbookPoints": [
+        7,
+        18,
+        19,
+        25
+      ],
+      "evidenceNotes": [
+        "第7點：PDF第3頁；第18、19點：PDF第4頁；第25點：PDF第6至7頁。",
+        "本題原文的舊案類式分流與115版文字已不同。已核範圍為115版主文所明定的原則；未聲稱另已下載逐級報告紀律規定全文。"
+      ]
+    },
+    {
+      "targetId": "investigation112_05",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "特定人員尿液採驗辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030026"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "investigation112_08",
+      "officialAnswer": "B",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "手冊第46點只概括轉介警職法；本題核准、終止合作及保護義務直接以已讀警職法第12、13條全文為據。"
+      ]
+    },
+    {
+      "targetId": "investigation112_14",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "兒童及少年性剝削防制條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050023"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "investigation112_42",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "性侵害犯罪防治法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "investigation112_46",
+      "officialAnswer": "B",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "國民法官法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030320"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已讀第5、113條全文。第5條第1項第1款最輕本刑10年以上之罪自115年1月1日起施行；本題B仍正確，但現行適用範圍不再只有故意致死。"
+      ]
+    },
+    {
+      "targetId": "investigation113_13",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "handbookPoints": [
+        64,
+        65,
+        66
+      ],
+      "evidenceNotes": [
+        "第64至66點均為PDF第11頁（印刷第9頁）。第64點第2項逐字列的是分局長、刑大隊長、鑑識主管或代理人；本題偵查隊長採同節普通案件由偵查隊負責的現場交接原則理解，不虛稱第64點逐字列有偵查隊長。"
+      ]
+    },
+    {
+      "targetId": "investigation113_30",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "中華民國刑法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+        },
+        {
+          "title": "性騷擾防治法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050074"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "investigation113_31",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "銀行法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0380001"
+        },
+        {
+          "title": "法務部調查局・銀行防制地下通匯指引（地下通匯刑事責任及運作方式）",
+          "url": "https://www.mjib.gov.tw/EditPage/?PageID=e9302a06-6f0e-472b-b67c-2cea81cadb05"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "實際讀取調查局官方頁所載完整「銀行防制地下通匯指引」相關段落，並以本批重新讀取的現行銀行法第29、125條核對法源。",
+        "該官方指引引用最高法院91台上6499、92台上1934的定義；本批未聲稱已另讀兩件裁判全文，資料不在本題另行建立裁判全文核對狀態。"
+      ]
+    },
+    {
+      "targetId": "investigation113_34",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "去氧核醣核酸採樣條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080186"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "原題後句「非條例所定之得拒絕原因」措辭與前句有落差；本題四選項及官方C實際在比對第8條第2項「不得援證明書拒採」的三款例外，解說明示此讀法，未改題幹。"
+      ]
+    },
+    {
+      "targetId": "investigation113_40",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "通訊保障及監察法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+        },
+        {
+          "title": "中華民國刑法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+        },
+        {
+          "title": "兒童及少年性剝削防制條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050023"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "A的藥事法罪名對照依通保法第5條第1項第5款所列法條及罪名理解；本題不涉及藥事法刑度、販賣與製造之細部分界。"
+      ]
+    },
+    {
+      "targetId": "investigation114_11",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "通訊保障及監察法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+        },
+        {
+          "title": "通訊保障及監察法施行細則",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060053"
+        },
+        {
+          "title": "法務部107年7月17日法律字第10703509920號函・說明二",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?etype=etype5&id=FE313706&kw=&type=E"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "本批實際在線讀取的是完整官方107函，該函引用最高法院106年度台非259號判決；本批未取得該裁判全文。官方裁判PDF嘗試回503，其他接口僅有空殼或查無資料，已留真實紀錄。",
+        "解說不以「儲存」一詞一概排除通訊；判斷傳遞是否完成及接收方可否支配，亦不將歷史訊息等同不受法律保護。"
+      ]
+    },
+    {
+      "targetId": "investigation114_24",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "handbookPoints": [
+        199,
+        200,
+        201,
+        203,
+        206
+      ],
+      "evidenceNotes": [
+        "第200、201、203、206點皆在PDF第32頁（印刷第30頁），第199點自PDF第31頁起。",
+        "已核刑訴法第93、93條之1、154及156條；未引用已廢止解送人犯辦法作為查贓或拘束人身自由依據。"
+      ]
+    },
+    {
+      "targetId": "investigation114_27",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "跟蹤騷擾防制法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080211"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "特別保留第3條第2項對密切關係人的與性／性別無關例外；官方A不被擴成無例外命題。"
+      ]
+    },
+    {
+      "targetId": "investigation114_34",
+      "officialAnswer": "B",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "通訊保障及監察法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "法務部107年7月17日法律字第10703509920號函・說明二",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?etype=etype5&id=FE313706&kw=&type=E"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "本批已讀完整官方107函，函引用106年度台非259號判決；未取得該判決全文，不宣稱完成裁判全文核對。",
+        "本題是一般制度比較；對已結束通訊仍適用一般隱私、個資及合法搜索扣押保障。"
+      ]
+    },
+    {
+      "targetId": "investigation114_50",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "組織犯罪防制條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000013"
+        },
+        {
+          "title": "證人保護法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030161"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "handbookPoints": [
+        255,
+        256,
+        259,
+        260
+      ],
+      "evidenceNotes": [
+        "第255、256、259、260點均在PDF第39頁（印刷第37頁），第254點位於換頁後亦已正確解析。"
+      ]
+    },
+    {
+      "targetId": "investigation115_19",
+      "officialAnswer": "B",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "檢察機關與司法警察機關辦理刑事案件防範冒名頂替應行注意事項",
+          "url": "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=FL010181"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "實際讀取法務部主管法規系統103年7月3日修正之全文；引用第2點，不以官方鍵推算期限。"
+      ]
+    },
+    {
+      "targetId": "investigation115_21",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "檢察機關辦理刑事訴訟案件應行注意事項",
+          "url": "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=FL010166"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已讀114年9月16日修正後注意事項全文第20點，並讀現行刑訴法第88條之1；未將手冊替代法律作為強制處分授權。"
+      ]
+    },
+    {
+      "targetId": "investigation115_23",
+      "officialAnswer": "B",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "通訊保障及監察法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "handbookPoints": [
+        186
+      ],
+      "evidenceNotes": [
+        "115版手冊第186點（PDF第30頁／印刷第28頁）僅概括一年及重行聲請；本題二日前的精確期限直接依現行通保法第12條第1項核對。"
+      ]
+    },
+    {
+      "targetId": "investigation115_26",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "民事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0010001"
+        },
+        {
+          "title": "民法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "handbookPoints": [
+        99
+      ],
+      "evidenceNotes": [
+        "手冊第99點跨PDF第16至17頁（印刷第14至15頁）；現行民訴第138條第2項為「經十日發生效力」。",
+        "只按題示通常事實計算，不補造某一年度、休假或其他送達障礙事實。"
+      ]
+    },
+    {
+      "targetId": "investigation115_28",
+      "officialAnswer": "B",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "證人保護法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030161"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+        }
+      ],
+      "handbookPoints": [
+        105
+      ],
+      "evidenceNotes": [
+        "第105點跨PDF第17至18頁（印刷第15至16頁）；法條第2、3、4、15條已實讀。",
+        "證人保護法第15條文字為有保護必要時準用，未加入手冊所述須到場作證之限制來限縮法律本身的保護範圍。"
+      ]
+    },
+    {
+      "targetId": "duty110_10",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+        },
+        {
+          "title": "彰化縣警察局・警民交流答覆：停等紅燈手持使用手機仍屬行駛狀態",
+          "url": "https://www.chpb.gov.tw/MessageBoard/C005500?PageIndex=391"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "duty110_19",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "changed",
+      "sources": [
+        {
+          "title": "法務部主管法規查詢系統・司法院釋字第785號解釋文及理由書全文",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C785&media=print&type=c"
+        },
+        {
+          "title": "全國法規資料庫・公務員服務法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020038"
+        },
+        {
+          "title": "全國法規資料庫・警察勤務條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080026"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "duty111_14",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "duty112_04",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "臺灣警察專科學校行政警察科・112.4.24警察勤務區訪查作業規定第2、16、26點修正對照表（本題僅引完整第2點）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+        },
+        {
+          "title": "全國法規資料庫・治安顧慮人口查訪辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+        },
+        {
+          "title": "全國法規資料庫・警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "duty112_18",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "全國法規資料庫・治安顧慮人口查訪辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+        },
+        {
+          "title": "全國法規資料庫・警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "duty112_22",
+      "officialAnswer": "B",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+        },
+        {
+          "title": "全國法規資料庫・道路交通事故處理辦法（92.09.24訂定）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080090"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "duty112_24",
+      "officialAnswer": "B",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "duty113_03",
+      "officialAnswer": "A",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "全國法規資料庫・警察勤務區訪查辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
+        },
+        {
+          "title": "全國法規資料庫・警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "duty113_04",
+      "officialAnswer": "C",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "全國法規資料庫・違反道路交通管理事件統一裁罰基準及處理細則",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080029"
+        },
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.15取締酒後駕車作業程序完整9頁（非已確認最新版本）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=QjVkUGRlUmVUYVVodUFhWjBIU293QlZqdUlaUlllb1V0THYxaFcyKzczVExSNlQxbUo3ZGt6TXUxWU9nd1AxNDJnd1BqSCsvZ3B0eUc3UHVhUFVlVGlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RUYzSHZrWXVRYThNM01Mbk1wYitCeVpBamh2VEZ2RkZwZXdoUGJiMjNqTk5wNjN3V0UvSkdSTHZ1TXFxRVRxeG84S2JFVUZEbTdHN0tkcFNjWjZJK2NKeXkrT0pIc2lFdC9RZ09UKzROY0VwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=967"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "法務部主管法規查詢系統・111年憲判字第1號判決全文",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=CJ00000053&media=print&type=CJ"
+        },
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+        },
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例沿革",
+          "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=K0040012"
+        },
+        {
+          "title": "全國法規資料庫・裁罰基準及處理細則第19條之2",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0080029&flno=19-2"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法第205條之1",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=205-1"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法第204條之1",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=C0010001&flno=204-1"
+        },
+        {
+          "title": "全國法規資料庫・道交條例第35條（含分段施行資訊）",
+          "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35"
+        },
+        {
+          "title": "憲法法庭・111年憲判字第1號",
+          "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=5304&id=310024"
+        },
+        {
+          "title": "行政院115.1.29院臺交字第1151002056C號函（臺東縣達仁鄉公所附件）",
+          "url": "https://www.ttdaren.gov.tw/home/attachments/article/6586/376540000A_1150026923_ATTACH2.pdf"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "目前僅完整取得111.12.15酒駕SOP；尚缺拒測SOP完整最新發布及沿革，不升整題已核。",
+        "保留前批已查的失效日、過渡24小時／3日／10日與115.12.31未生效分段；仍待最新完整SOP與空檔解釋。"
+      ]
+    },
+    {
+      "targetId": "duty113_13",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "duty114_06",
+      "officialAnswer": "C",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "全國法規資料庫・違反道路交通管理事件統一裁罰基準及處理細則",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080029"
+        },
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.15取締酒後駕車作業程序完整9頁（非已確認最新版本）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=QjVkUGRlUmVUYVVodUFhWjBIU293QlZqdUlaUlllb1V0THYxaFcyKzczVExSNlQxbUo3ZGt6TXUxWU9nd1AxNDJnd1BqSCsvZ3B0eUc3UHVhUFVlVGlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RUYzSHZrWXVRYThNM01Mbk1wYitCeVpBamh2VEZ2RkZwZXdoUGJiMjNqTk5wNjN3V0UvSkdSTHZ1TXFxRVRxeG84S2JFVUZEbTdHN0tkcFNjWjZJK2NKeXkrT0pIc2lFdC9RZ09UKzROY0VwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=967"
+        },
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+        },
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例沿革及分段施行日期",
+          "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=K0040012"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "完整111版SOP第3頁已核，未取得完整最新修訂及115配套沿革；本題維持verified:false。"
+      ]
+    },
+    {
+      "targetId": "duty114_08",
+      "officialAnswer": "B",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+        },
+        {
+          "title": "全國法規資料庫・警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "duty114_25",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "全國法規資料庫・特種勤務條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030246"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "duty115_03",
+      "officialAnswer": "B",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "臺灣警察專科學校行政警察科・112.4.24警察勤務區訪查作業規定第2、16、26點修正對照表（本題僅引完整第2點）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+        },
+        {
+          "title": "全國法規資料庫・警察勤務區訪查辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "duty115_13",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "全國警察法規資料庫・警察分駐所派出所設置基準全文",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000177"
+        },
+        {
+          "title": "全國法規資料庫・警察勤務條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080026"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "duty115_21",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "duty115_24",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "scene110-01",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+        },
+        {
+          "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        }
+      ],
+      "handbookPoints": [
+        "23(2)2"
+      ],
+      "evidenceNotes": [
+        "附件一第四類(二)4明列對物或場所槍擊；115手冊第23點第(二)款第2目用語為槍擊案件，兩份規範表述層次分開。"
+      ]
+    },
+    {
+      "targetId": "scene110-04",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "全國法規資料庫・警察勤務區訪查辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
+        },
+        {
+          "title": "全國法規資料庫・治安顧慮人口查訪辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "scene111-11",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "handbookPoints": [
+        "90",
+        "91",
+        "92",
+        "93",
+        "94"
+      ],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "scene111-19",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "changed",
+      "sources": [
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+        },
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例沿革及分段施行日期",
+          "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=K0040012"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "scene113-04",
+      "officialAnswer": "A",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "全國警察法規資料庫・失蹤人口查尋作業要點全文（112.12.29）",
+          "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000200"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "scene113-06",
+      "officialAnswer": "B",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "臺灣警察專科學校行政警察科・112.4.24警察勤務區訪查作業規定第2、16、26點修正對照表（本題僅引完整第2點）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+        },
+        {
+          "title": "全國法規資料庫・警察勤務區訪查辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "scene113-12",
+      "officialAnswer": "D",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "changed",
+      "sources": [
+        {
+          "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "handbookPoints": [
+        "265",
+        "266"
+      ],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "scene114-11",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "全國法規資料庫・偵查不公開作業辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "scene114-13",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+        }
+      ],
+      "handbookPoints": [
+        "90",
+        "91",
+        "92",
+        "93",
+        "94"
+      ],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "scene115-11",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "全國法規資料庫・警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        }
+      ],
+      "handbookPoints": [
+        "51",
+        "52",
+        "53",
+        "57",
+        "62",
+        "66"
+      ],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "scene115-12",
+      "officialAnswer": "C",
+      "verified": true,
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "全國法規資料庫・通訊保障及監察法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "全國法規資料庫・警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": []
+    },
+    {
+      "targetId": "scene115-13",
+      "officialAnswer": "A",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "全國法規資料庫・刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "待核重點是題幹與原命題所預設之急迫事實，不是缺少刑訴全文；禁止擴成逕拘的一般教學結論。"
+      ]
+    },
+    {
+      "targetId": "scene115-14",
+      "officialAnswer": "C",
+      "verified": false,
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "全國法規資料庫・警械使用條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+        },
+        {
+          "title": "臺灣警察專科學校學報・警察使用強制力合法化之研究附錄二105.8.4槍械規範全文（非已確認最新版本）",
+          "url": "https://educate.tpa.edu.tw/var/file/4/1004/img/390/507012084.pdf"
+        }
+      ],
+      "handbookPoints": [
+        "51"
+      ],
+      "evidenceNotes": [
+        "尚未取得槍械規範最新全部沿革；105完整官方附錄只能證明所載版本，不把第5點當作無條件現行對空射擊授權。"
+      ]
+    }
+  ],
+  "retrievals": [
+    {
+      "key": "handbook115",
+      "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968",
+      "retrievedAt": "2026-11-19T22:44:30.612683+00:00",
+      "response": "200 200 application/octet-stream",
+      "exitCode": 0,
+      "sha256": "d94a126e781162ca142a9fc462f80a101f2c3a8d7ed3e718cbed132b581af658",
+      "bytes": 810586,
+      "rawPath": "/tmp/police-batch100-source-handbook115",
+      "textPath": "/tmp/police-batch100-source-handbook115.txt"
+    },
+    {
+      "key": "handbook-index",
+      "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php",
+      "retrievedAt": "2026-11-19T22:44:30.612990+00:00",
+      "response": "200 200 text/html; charset=UTF-8",
+      "exitCode": 0,
+      "sha256": "4ebd3e24e86e187ff0f56b7414b8b220b15ac5174c09a06a4f35a1e095b27b46",
+      "bytes": 28229,
+      "rawPath": "/tmp/police-batch100-source-handbook-index",
+      "textPath": "/tmp/police-batch100-source-handbook-index.txt"
+    },
+    {
+      "key": "D0080042",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042",
+      "retrievedAt": "2026-11-19T22:44:14.322445+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "4b32cd19ed427c70a49e3cc426c41d63cd1181367fbc9deedd2e173e39f837f8",
+      "bytes": 53396,
+      "rawPath": "/tmp/police-batch100-law-a-D0080042.html",
+      "textPath": "/tmp/police-batch100-law-a-D0080042.txt"
+    },
+    {
+      "key": "S0110036",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110036",
+      "retrievedAt": "2026-11-19T22:44:14.345742+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "1bf9d4db9f55b3bd533fecf2e57f064ead93cc474131aa41aa52de7554dfe087",
+      "bytes": 54127,
+      "rawPath": "/tmp/police-batch100-law-a-S0110036.html",
+      "textPath": "/tmp/police-batch100-law-a-S0110036.txt"
+    },
+    {
+      "key": "S0020005",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020005",
+      "retrievedAt": "2026-11-19T22:44:15.528786+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "ae0615db3b51755c8b545240fa8c226a739c199c25a1af47e615c6183952ac51",
+      "bytes": 85436,
+      "rawPath": "/tmp/police-batch100-law-a-S0020005.html",
+      "textPath": "/tmp/police-batch100-law-a-S0020005.txt"
+    },
+    {
+      "key": "D0080145",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145",
+      "retrievedAt": "2026-11-19T22:44:15.318450+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "455bd3c189d68c5aa4649d67bd752433098bf95eb9c0058bf7816f9b66b0936f",
+      "bytes": 67604,
+      "rawPath": "/tmp/police-batch100-law-a-D0080145.html",
+      "textPath": "/tmp/police-batch100-law-a-D0080145.txt"
+    },
+    {
+      "key": "D0080146",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146",
+      "retrievedAt": "2026-11-19T22:44:15.411116+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "dff517aa129fd37bafca1c0d6cec7a3ca4d31efed9133f95c5438a827e2de87a",
+      "bytes": 51297,
+      "rawPath": "/tmp/police-batch100-law-a-D0080146.html",
+      "textPath": "/tmp/police-batch100-law-a-D0080146.txt"
+    },
+    {
+      "key": "D0080086",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080086",
+      "retrievedAt": "2026-11-19T22:44:15.820375+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "4f726e1d215b8e8f93fa5ab3a87d814c6fd81319f2919ec74f8f6b7c11c9c446",
+      "bytes": 68386,
+      "rawPath": "/tmp/police-batch100-law-a-D0080086.html",
+      "textPath": "/tmp/police-batch100-law-a-D0080086.txt"
+    },
+    {
+      "key": "D0080147",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147",
+      "retrievedAt": "2026-11-19T22:44:15.899485+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "3264d9f72790a001763beda2008e78886e26cac3b1d2436bb2768a7f6ee0008c",
+      "bytes": 49115,
+      "rawPath": "/tmp/police-batch100-law-a-D0080147.html",
+      "textPath": "/tmp/police-batch100-law-a-D0080147.txt"
+    },
+    {
+      "key": "M0040001",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=M0040001",
+      "retrievedAt": "2026-11-19T22:44:16.002483+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "4ae6088d0fe39ae1f3e6a856fada6f3146aa56ac86d64ebfc7141c75c9174ec5",
+      "bytes": 87978,
+      "rawPath": "/tmp/police-batch100-law-a-M0040001.html",
+      "textPath": "/tmp/police-batch100-law-a-M0040001.txt"
+    },
+    {
+      "key": "D0080067",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067",
+      "retrievedAt": "2026-11-19T22:44:16.814126+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "c28a817cf8774d1e5ae814eab326401ad402f0c679ccc9c5c5d21caa71eb4b72",
+      "bytes": 99337,
+      "rawPath": "/tmp/police-batch100-law-a-D0080067.html",
+      "textPath": "/tmp/police-batch100-law-a-D0080067.txt"
+    },
+    {
+      "key": "D0080070",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080070",
+      "retrievedAt": "2026-11-19T22:44:16.746961+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "6dcf2327179cab0176517f6682d173200e16e889ee9aeca8e35eff78db2c0aae",
+      "bytes": 75718,
+      "rawPath": "/tmp/police-batch100-law-a-D0080070.html",
+      "textPath": "/tmp/police-batch100-law-a-D0080070.txt"
+    },
+    {
+      "key": "C0000001",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001",
+      "retrievedAt": "2026-11-19T22:44:20.231813+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "ed4345cba626bf97ce93fe30a0ed179ecc0f6bc5b1b275f08ff7c780716869f7",
+      "bytes": 272769,
+      "rawPath": "/tmp/police-batch100-law-a-C0000001.html",
+      "textPath": "/tmp/police-batch100-law-a-C0000001.txt"
+    },
+    {
+      "key": "A0030154",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030154",
+      "retrievedAt": "2026-11-19T22:44:19.997446+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "f31ea979cc873e433247b1f14afb96ea0ea291ad6ca04627ffbd43f7e5a71648",
+      "bytes": 267246,
+      "rawPath": "/tmp/police-batch100-law-a-A0030154.html",
+      "textPath": "/tmp/police-batch100-law-a-A0030154.txt"
+    },
+    {
+      "key": "K0040012",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012",
+      "retrievedAt": "2026-11-19T22:44:17.889858+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "0d101998fafbbb7be8329520b0dab060f0bf728c2cca843e76a156079ccedd80",
+      "bytes": 192325,
+      "rawPath": "/tmp/police-batch100-law-a-K0040012.html",
+      "textPath": "/tmp/police-batch100-law-a-K0040012.txt"
+    },
+    {
+      "key": "S0120001",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0120001",
+      "retrievedAt": "2026-11-19T22:44:18.131897+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "9ce28f1b3ebf1713f69b1079c42b8ac4f9e95eedbbb72a50f731d65ffb068bd8",
+      "bytes": 116783,
+      "rawPath": "/tmp/police-batch100-law-a-S0120001.html",
+      "textPath": "/tmp/police-batch100-law-a-S0120001.txt"
+    },
+    {
+      "key": "adminProcedure",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055",
+      "retrievedAt": "2026-11-19T22:44:18.877855+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "8c560ae8443561734130046884fa178eb972620179b4d6cad2a6ebdc528e735a",
+      "bytes": 150377,
+      "rawPath": "/tmp/police-batch100-law-a-adminProcedure.html",
+      "textPath": "/tmp/police-batch100-law-a-adminProcedure.txt"
+    },
+    {
+      "key": "forestJudgment",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=B%2C93%2C%E5%8F%B0%E4%B8%8A%2C860%2C001&kw=&type=J1",
+      "retrievedAt": "2026-11-19T22:44:18.005984+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "8da8137879159ebad245f88e670a54dfc2477819d2eea4ae1e90d8d3349dda6b",
+      "bytes": 53860,
+      "rawPath": "/tmp/police-batch100-law-a-forestJudgment.html",
+      "textPath": "/tmp/police-batch100-law-a-forestJudgment.txt"
+    },
+    {
+      "key": "socialRelief",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE336786&media=print&type=E",
+      "retrievedAt": "2026-11-19T22:44:18.411178+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "d5b705f75bfac83145b6a9616d4034252e738c86ddd85a344308859cfb6cf462",
+      "bytes": 20868,
+      "rawPath": "/tmp/police-batch100-law-a-socialRelief.html",
+      "textPath": "/tmp/police-batch100-law-a-socialRelief.txt"
+    },
+    {
+      "key": "thirdParty",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080146",
+      "retrievedAt": "2026-11-19T22:44:19.129901+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "85c69ff8c6e8adebe13c20dce9b4446e2e129ec6ef5b2787ffc3d258c172cca0",
+      "bytes": 51297,
+      "rawPath": "/tmp/police-batch100-law-a-thirdParty.html",
+      "textPath": "/tmp/police-batch100-law-a-thirdParty.txt"
+    },
+    {
+      "key": "spontaneous",
+      "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1002151",
+      "retrievedAt": "2026-11-19T22:44:21.126294+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "cf97dc6a5f65ee69f55c9258bbed36ea4c0394015b270b92eb056f75ebf6de9b",
+      "bytes": 15540,
+      "rawPath": "/tmp/police-batch100-law-a-spontaneous.html",
+      "textPath": "/tmp/police-batch100-law-a-spontaneous.txt"
+    },
+    {
+      "key": "dutyMen",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0040030",
+      "retrievedAt": "2026-11-19T22:45:57.915735+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "6a8676ddf270605cd8dfe168cf5c2aba271cb681faab9dbeab5dfee7db31523f",
+      "bytes": 45994,
+      "rawPath": "/tmp/police-batch100-law-a-dutyMen.html",
+      "textPath": "/tmp/police-batch100-law-a-dutyMen.txt"
+    },
+    {
+      "key": "specialService",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030246",
+      "retrievedAt": "2026-11-19T22:45:58.002758+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "a7cb0c400e61595d182a149f70eb2c135e140930731d3f4ec57d628f0a6f5055",
+      "bytes": 57764,
+      "rawPath": "/tmp/police-batch100-law-a-specialService.html",
+      "textPath": "/tmp/police-batch100-law-a-specialService.txt"
+    },
+    {
+      "key": "guardWeapons",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080053",
+      "retrievedAt": "2026-11-19T22:45:58.002395+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "1a24ba3fae6cc6673328dc67e87e643774d29ddcbb37a1a8691b1a0051b8abde",
+      "bytes": 47043,
+      "rawPath": "/tmp/police-batch100-law-a-guardWeapons.html",
+      "textPath": "/tmp/police-batch100-law-a-guardWeapons.txt"
+    },
+    {
+      "key": "guardPlacement",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080106",
+      "retrievedAt": "2026-11-19T22:45:58.067829+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "33541a5f604edae9205017eeb1e85c71cf075d9c649e61d1590e957a64b0dfb2",
+      "bytes": 58105,
+      "rawPath": "/tmp/police-batch100-law-a-guardPlacement.html",
+      "textPath": "/tmp/police-batch100-law-a-guardPlacement.txt"
+    },
+    {
+      "key": "weaponLicensing",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080046",
+      "retrievedAt": "2026-11-19T22:45:58.000261+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "0b0d58ed143a8838258efdea5763e545f648acb283470458da950a62a96dcc2c",
+      "bytes": 57790,
+      "rawPath": "/tmp/police-batch100-law-a-weaponLicensing.html",
+      "textPath": "/tmp/police-batch100-law-a-weaponLicensing.txt"
+    },
+    {
+      "key": "neutralQandA",
+      "url": "https://www.mocs.gov.tw/FileUpload/111-14015/Documents/11408%E4%B8%AD%E7%AB%8B%E6%B3%95Q%26A%E5%B0%88%E8%BC%AF.pdf",
+      "retrievedAt": "2026-11-19T22:45:59.423649+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "da69bb9dcd09a645e798f4101f324dc98d5cb36dfeab5fc5dd4262ac5580f1e0",
+      "bytes": 594115,
+      "rawPath": "/tmp/police-batch100-law-a-neutralQandA.html",
+      "textPath": "/tmp/police-batch100-law-a-neutralQandA.txt"
+    },
+    {
+      "key": "noiseRuling",
+      "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TTDM%2C111%2C%E6%9D%B1%E7%A7%A9%2C12%2C20220520%2C1",
+      "retrievedAt": "2026-11-19T22:45:59.414293+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "210a725240ad595ecdeb92c8b4c9abc8b0460405387433ccebc06fd0178fc5ed",
+      "bytes": 23532,
+      "rawPath": "/tmp/police-batch100-law-a-noiseRuling.html",
+      "textPath": "/tmp/police-batch100-law-a-noiseRuling.txt"
+    },
+    {
+      "key": "coastAct",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0090010",
+      "retrievedAt": "2026-11-19T22:47:21.911385+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "0e8093f283351a99ed63c39e52074e927612da2a34f0aa4cf7460e93ce28078c",
+      "bytes": 54838,
+      "rawPath": "/tmp/police-batch100-law-a-coastAct.html",
+      "textPath": "/tmp/police-batch100-law-a-coastAct.txt"
+    },
+    {
+      "key": "workers115",
+      "url": "https://www.dgpa.gov.tw/ebook/book008/files/downloads/1150106%E5%B7%A5%E5%8F%8B%E7%AE%A1%E7%90%86%E6%B3%95%E8%A6%8F%E9%87%8B%E4%BE%8B%E5%BD%99%E7%B7%A8-%E9%9B%BB%E5%AD%90%E6%9B%B8.pdf",
+      "retrievedAt": "2026-11-19T22:47:23.921159+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "be7d873f2b2d323811b21efe16cd64631f13ea85059b11f154f7157dcb70c200",
+      "bytes": 3949364,
+      "rawPath": "/tmp/police-batch100-law-a-workers115.html",
+      "textPath": "/tmp/police-batch100-law-a-workers115.txt"
+    },
+    {
+      "key": "M113outer",
+      "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=113060&c=401&s=0903&q=1",
+      "retrievedAt": "2026-11-19T22:47:22.345054+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "c1b8dec5f1565eba3e240ebe535d3a4f8deba9d69185eaa140b5a1234c8649fd",
+      "bytes": 46630,
+      "rawPath": "/tmp/police-batch100-law-a-M113outer.html",
+      "textPath": "/tmp/police-batch100-law-a-M113outer.txt"
+    },
+    {
+      "key": "M114inner",
+      "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1002&q=1",
+      "retrievedAt": "2026-11-19T22:47:22.051205+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "5e71d819e03de2b43cd8ee3c889b9ade4be63a7879cfd862a5b7436e872d9cc3",
+      "bytes": 48441,
+      "rawPath": "/tmp/police-batch100-law-a-M114inner.html",
+      "textPath": "/tmp/police-batch100-law-a-M114inner.txt"
+    },
+    {
+      "key": "MOJassistance103",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE268438&media=print&type=E",
+      "retrievedAt": "2026-11-19T22:48:57.603197+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "6c99522b281f36f512c821ad326a9a25de94dcf7abdf190fe089718142a8ba19",
+      "bytes": 19409,
+      "rawPath": "/tmp/police-batch100-law-a-MOJassistance103.html",
+      "textPath": "/tmp/police-batch100-law-a-MOJassistance103.txt"
+    },
+    {
+      "key": "MOJassistance106",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?etype=etype1&id=FE306003&type=E",
+      "retrievedAt": "2026-11-19T22:48:57.335233+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "6a67607e77712bb1dfad17ce0a31cc77044b64d2c911d096ea43642718a08edc",
+      "bytes": 22296,
+      "rawPath": "/tmp/police-batch100-law-a-MOJassistance106.html",
+      "textPath": "/tmp/police-batch100-law-a-MOJassistance106.txt"
+    },
+    {
+      "key": "specialJurisdiction",
+      "url": "https://ou3.npa.gov.tw/law/Law/GetFile/1EMRNB9",
+      "retrievedAt": "2026-11-19T22:48:59.081971+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "41edcd78656f721d73e44044e19ebfa785f8ea1ff3e74429015da55da4bac3bd",
+      "bytes": 40838,
+      "rawPath": "/tmp/police-batch100-law-a-specialJurisdiction.html",
+      "textPath": "/tmp/police-batch100-law-a-specialJurisdiction.txt"
+    },
+    {
+      "key": "promotionRelief",
+      "url": "https://web13.csptc.gov.tw/SearchContent.aspx?IN_ID=186814",
+      "retrievedAt": "2026-11-19T22:48:58.569226+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "edf79c9648fb1a3c1e2d4f3dd44875ebe55936145b264e54b66a2c6a4510ad3e",
+      "bytes": 22998,
+      "rawPath": "/tmp/police-batch100-law-a-promotionRelief.html",
+      "textPath": "/tmp/police-batch100-law-a-promotionRelief.txt"
+    },
+    {
+      "key": "gasRule",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE076546&media=print&type=E",
+      "retrievedAt": "2026-11-19T22:48:57.227955+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "af4faf1401c58a5fc045ca479c431e59c6e15311bfc8573f76e252fd9a20a608",
+      "bytes": 8008,
+      "rawPath": "/tmp/police-batch100-law-a-gasRule.html",
+      "textPath": "/tmp/police-batch100-law-a-gasRule.txt"
+    },
+    {
+      "key": "rumorNews114",
+      "url": "https://www.judicial.gov.tw/tw/cp-1888-1423781-9f1e8-1.html",
+      "retrievedAt": "2026-11-19T22:48:58.876238+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "7bcdd4bd01f3f227a28c3b46b59eafc8de66afa54180c22f487cf7ebd57eff61",
+      "bytes": 46355,
+      "rawPath": "/tmp/police-batch100-law-a-rumorNews114.html",
+      "textPath": "/tmp/police-batch100-law-a-rumorNews114.txt"
+    },
+    {
+      "key": "supervisorTraining114",
+      "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D",
+      "retrievedAt": "2026-11-19T22:48:58.388622+00:00",
+      "response": "HTTP Error 404: Not Found",
+      "exitCode": 1,
+      "sha256": "",
+      "bytes": 0,
+      "rawPath": "/tmp/police-batch100-law-a-supervisorTraining114.html",
+      "textPath": "/tmp/police-batch100-law-a-supervisorTraining114.txt"
+    },
+    {
+      "key": "appeals",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030020",
+      "retrievedAt": "2026-11-19T22:53:26.704924+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "c3e2ed1fd5bee391fc60a4b8ebd4c53914d6fead47e9fcdcb52f90badb6b65e6",
+      "bytes": 99123,
+      "rawPath": "/tmp/police-batch100-law-a-appeals.html",
+      "textPath": "/tmp/police-batch100-law-a-appeals.txt"
+    },
+    {
+      "key": "trafficFeeTable",
+      "url": "https://www.judicial.gov.tw/tw/cp-171-279528-d332e-1.html",
+      "retrievedAt": "2026-11-19T22:53:26.515288+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "95aa6c3a6f0b9c61d424f2cc74c980bca10a8c22eb282c3ad1a87450e42f38f1",
+      "bytes": 49851,
+      "rawPath": "/tmp/police-batch100-law-a-trafficFeeTable.html",
+      "textPath": "/tmp/police-batch100-law-a-trafficFeeTable.txt"
+    },
+    {
+      "key": "visitPrivacy",
+      "url": "https://www.moi.gov.tw/News_toggle3.aspx?PageSize=30&_Query=8aad0325-4cff-40ef-8903-22b6257c01a1&n=174&page=23&sms=9015",
+      "retrievedAt": "2026-11-19T22:53:28.357365+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "3932e367d2a128903f482e12c633842b43511ae112bbaa8787dfe2cfbd27427f",
+      "bytes": 161823,
+      "rawPath": "/tmp/police-batch100-law-a-visitPrivacy.html",
+      "textPath": "/tmp/police-batch100-law-a-visitPrivacy.txt"
+    },
+    {
+      "key": "supervisorTrainingWeb",
+      "url": "https://ws.csptc.gov.tw/Download.ashx?n=MTE05L2Q5Y2H5q2jX%2Be3muS4iuewoeWgsTIo5Yuk5YuZ5Z%2B36KGMLuitpuWvn%2BWft%2BWLpC7liJHkuovms5Xku6QpX%2BitpuWvn%2BS6uuWToS5wZGY%3D&u=LzAwMS9VcGxvYWQvNy9yZWxmaWxlLzEyMDIwLzQzMTIzL2E4MDUxY2I2LTQ0NzMtNDgyNC1hOTYxLTY4Y2NiYzYxYzFhZC5wZGY%3D",
+      "retrievedAt": "2026-11-19T23:00:02.705766+00:00",
+      "response": "web.run open succeeded; application/pdf, 2431 lines; HTTP status not exposed",
+      "exitCode": 0,
+      "sha256": "ec59716f71ef4d8e42f1112f454a6801c88f8b42e34175dd3224132610e5ca95",
+      "bytes": 10558,
+      "rawPath": "/tmp/police-batch100-law-a-supervisorTrainingWeb.json",
+      "textPath": "/tmp/police-batch100-law-a-supervisorTrainingWeb.txt"
+    },
+    {
+      "key": "powers",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145",
+      "retrievedAt": "2026-11-19T22:45:00.011240+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "4f5b3a6c7b543892fb811357e1b81dcb4d0ab86a556e5f6717098a18206a2810",
+      "bytes": 67604,
+      "rawPath": "/tmp/police-batch100-law-b-powers.html",
+      "textPath": "/tmp/police-batch100-law-b-powers.txt"
+    },
+    {
+      "key": "social",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067",
+      "retrievedAt": "2026-11-19T22:45:00.537838+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "135ed502bc10f28221dc9895254e2266c8f2069e64d5779c0a874cab893a3114",
+      "bytes": 99337,
+      "rawPath": "/tmp/police-batch100-law-b-social.html",
+      "textPath": "/tmp/police-batch100-law-b-social.txt"
+    },
+    {
+      "key": "criminalprocedure",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001",
+      "retrievedAt": "2026-11-19T22:45:07.593412+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "4d2aa5229cbeda2b513e2916e2f58f66219461dfbea2f420061eb0b2dc8168b7",
+      "bytes": 461227,
+      "rawPath": "/tmp/police-batch100-law-b-criminalprocedure.html",
+      "textPath": "/tmp/police-batch100-law-b-criminalprocedure.txt"
+    },
+    {
+      "key": "traffic",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=K0040012",
+      "retrievedAt": "2026-11-19T22:45:01.326463+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "ee3318c17b0fb40ffbee5c131f1c782d3481660ffa082688f734cf9917ca2848",
+      "bytes": 192325,
+      "rawPath": "/tmp/police-batch100-law-b-traffic.html",
+      "textPath": "/tmp/police-batch100-law-b-traffic.txt"
+    },
+    {
+      "key": "personnel",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005",
+      "retrievedAt": "2026-11-19T22:45:00.210021+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "28cf40680e146b77223011f5d282dab06fd645a035a04b9ae8070e4d8ab58810",
+      "bytes": 85436,
+      "rawPath": "/tmp/police-batch100-law-b-personnel.html",
+      "textPath": "/tmp/police-batch100-law-b-personnel.txt"
+    },
+    {
+      "key": "guarantee",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0120001",
+      "retrievedAt": "2026-11-19T22:45:00.634553+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "4da44b911f062f21c7e10fae38578db9ef3f8db5eca5efb2fb445e04826cd85d",
+      "bytes": 116783,
+      "rawPath": "/tmp/police-batch100-law-b-guarantee.html",
+      "textPath": "/tmp/police-batch100-law-b-guarantee.txt"
+    },
+    {
+      "key": "assembly",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080058",
+      "retrievedAt": "2026-11-19T22:45:00.671019+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "031348c483553394816304f1b7d581aafe2c77083cd7344b767991487241d667",
+      "bytes": 62607,
+      "rawPath": "/tmp/police-batch100-law-b-assembly.html",
+      "textPath": "/tmp/police-batch100-law-b-assembly.txt"
+    },
+    {
+      "key": "adminprocedure",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030055",
+      "retrievedAt": "2026-11-19T22:45:03.229650+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "98223dce558e96078a85388951e92ae33f50af81e77d420a3aea1da4bc538601",
+      "bytes": 150377,
+      "rawPath": "/tmp/police-batch100-law-b-adminprocedure.html",
+      "textPath": "/tmp/police-batch100-law-b-adminprocedure.txt"
+    },
+    {
+      "key": "socialprocedure",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070",
+      "retrievedAt": "2026-11-19T22:45:02.240516+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "1dc277e8651e838b7260167b92df2ecc0a5bcc4111a217bbc60e0d7e99d67751",
+      "bytes": 75718,
+      "rawPath": "/tmp/police-batch100-law-b-socialprocedure.html",
+      "textPath": "/tmp/police-batch100-law-b-socialprocedure.txt"
+    },
+    {
+      "key": "weapons",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042",
+      "retrievedAt": "2026-11-19T22:45:02.344664+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "38ac471c5d254fc01e2555ad506d4012fab04bfac5aaead8231458a1556d46fa",
+      "bytes": 53396,
+      "rawPath": "/tmp/police-batch100-law-b-weapons.html",
+      "textPath": "/tmp/police-batch100-law-b-weapons.txt"
+    },
+    {
+      "key": "weaponsinvestigation",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080218",
+      "retrievedAt": "2026-11-19T22:45:01.441828+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "ecaee5357d6c71ff46793bb746842f0c6847a91056b8da0b4666c65ec2d0d9d6",
+      "bytes": 53814,
+      "rawPath": "/tmp/police-batch100-law-b-weaponsinvestigation.html",
+      "textPath": "/tmp/police-batch100-law-b-weaponsinvestigation.txt"
+    },
+    {
+      "key": "policelaw",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001",
+      "retrievedAt": "2026-11-19T22:45:02.605005+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "7bca5e0eb7a1eaee78925518b6f5911d511f6e89a5b437cd21e822ba947f5001",
+      "bytes": 51410,
+      "rawPath": "/tmp/police-batch100-law-b-policelaw.html",
+      "textPath": "/tmp/police-batch100-law-b-policelaw.txt"
+    },
+    {
+      "key": "ex445",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C445&type=c",
+      "retrievedAt": "2026-11-19T22:46:26.781522+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "a200d53446cfdd29c29164d0af33b21da2a65422fcee6a3c1c9bc1a2da968890",
+      "bytes": 287477,
+      "rawPath": "/tmp/police-batch100-law-b-ex445.html",
+      "textPath": "/tmp/police-batch100-law-b-ex445.txt"
+    },
+    {
+      "key": "ex718",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C718&type=c",
+      "retrievedAt": "2026-11-19T22:46:28.284453+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "167c61cbd2ad19c29f36b8312cd874f2ba6de7c9a4352de28932e0e5e6978a96",
+      "bytes": 772569,
+      "rawPath": "/tmp/police-batch100-law-b-ex718.html",
+      "textPath": "/tmp/police-batch100-law-b-ex718.txt"
+    },
+    {
+      "key": "contraband",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE076579&media=print&type=E",
+      "retrievedAt": "2026-11-19T22:46:26.694905+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "43deea6ad79ecbb8047063b0234608c6a6247218cec24a2c0985b3ca5faa34c0",
+      "bytes": 8342,
+      "rawPath": "/tmp/police-batch100-law-b-contraband.html",
+      "textPath": "/tmp/police-batch100-law-b-contraband.txt"
+    },
+    {
+      "key": "adminexecution-current",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030023",
+      "retrievedAt": "2026-11-19T22:46:26.710640+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "75818617b91c0ade6ab7474f6b898b7b44f0c20c4cf8cf71ef4e9a7237906210",
+      "bytes": 74914,
+      "rawPath": "/tmp/police-batch100-law-b-adminexecution-current.html",
+      "textPath": "/tmp/police-batch100-law-b-adminexecution-current.txt"
+    },
+    {
+      "key": "comp-current",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=I0020004",
+      "retrievedAt": "2026-11-19T22:47:20.684272+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "3edac3895d4b144bf8eede2e252c2946c325a7e6f26cbbb0ee7422cf9568fb95",
+      "bytes": 52238,
+      "rawPath": "/tmp/police-batch100-law-b-comp-current.html",
+      "textPath": "/tmp/police-batch100-law-b-comp-current.txt"
+    },
+    {
+      "key": "blood-full",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=CJ00000053&media=print&type=CJ",
+      "retrievedAt": "2026-11-19T22:47:51.285873+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "16b6b594b65e869b2ca5c6eca4bde8319d9ba18d4a610908b91e95ea421f438e",
+      "bytes": 91367,
+      "rawPath": "/tmp/police-batch100-law-b-blood-full.html",
+      "textPath": "/tmp/police-batch100-law-b-blood-full.txt"
+    },
+    {
+      "key": "retirement",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0080034",
+      "retrievedAt": "2026-11-19T22:48:26.785685+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "baf6e5d82244f878c96b6b10717989c9be3c141aab21cd976086561346a834aa",
+      "bytes": 158790,
+      "rawPath": "/tmp/police-batch100-law-b-retirement.html",
+      "textPath": "/tmp/police-batch100-law-b-retirement.txt"
+    },
+    {
+      "key": "blood-effective",
+      "url": "https://gazette.nat.gov.tw/egFront/e_detail.do?metaid=169134",
+      "retrievedAt": "2026-11-19T22:48:26.715932+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "b46714a8faafbbe66d3c48c7f9bfd1957079723f0ab0fad99101b989c4e93936",
+      "bytes": 12692,
+      "rawPath": "/tmp/police-batch100-law-b-blood-effective.html",
+      "textPath": "/tmp/police-batch100-law-b-blood-effective.txt"
+    },
+    {
+      "key": "civil-cause-full",
+      "url": "https://law.moj.gov.tw/LawClass/ExContent.aspx?ty=J&JC=A&JNO=481&JYEAR=48&JNUM=001&JCASE=%E5%8F%B0%E4%B8%8A",
+      "retrievedAt": "2026-11-19T22:50:40.149466+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "a51df3b500e9b8bd20d8b2f4cbcd3ab38febb0eaf0ff3652f1124cafa5def547",
+      "bytes": 43450,
+      "rawPath": "/tmp/police-batch100-law-b-civil-cause-full.html",
+      "textPath": "/tmp/police-batch100-law-b-civil-cause-full.txt"
+    },
+    {
+      "key": "npa-types-fullbase",
+      "url": "https://ou3.npa.gov.tw/law/Law/LawDetailBase/F1002295",
+      "retrievedAt": "2026-11-19T22:51:10.925731+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "03c8f8c2213171c762350eceeccd3c5f2fc461797957c48312002947343ad5e9",
+      "bytes": 10670,
+      "rawPath": "/tmp/police-batch100-law-b-npa-types-fullbase.html",
+      "textPath": "/tmp/police-batch100-law-b-npa-types-fullbase.txt"
+    },
+    {
+      "key": "exam114correction",
+      "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114060&c=601&s=1002&q=1",
+      "retrievedAt": "2026-11-19T22:52:52.137216+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "5e71d819e03de2b43cd8ee3c889b9ade4be63a7879cfd862a5b7436e872d9cc3",
+      "bytes": 48441,
+      "rawPath": "/tmp/police-batch100-law-b-exam114correction.html",
+      "textPath": "/tmp/police-batch100-law-b-exam114correction.txt"
+    },
+    {
+      "key": "adminexecutionrules",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030056",
+      "retrievedAt": "2026-11-19T22:53:14.087152+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "e49a475419422c77fb7a53f8511f4c20f361600f15f9815a45cc88b26c6bf6df",
+      "bytes": 65540,
+      "rawPath": "/tmp/police-batch100-law-b-adminexecutionrules.html",
+      "textPath": "/tmp/police-batch100-law-b-adminexecutionrules.txt"
+    },
+    {
+      "key": "weapons-types-summary",
+      "url": "https://ou3.npa.gov.tw/law/Law/GetFile/1T4XW4P",
+      "retrievedAt": "2026-11-19T22:53:14.730279+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "59bfdd175a4ec1ac5c4aab8e9f3cc6e188f6635ba971a7c0fb0574d81c62b6d7",
+      "bytes": 94291,
+      "rawPath": "/tmp/police-batch100-law-b-weapons-types-summary.html",
+      "textPath": "/tmp/police-batch100-law-b-weapons-types-summary.txt"
+    },
+    {
+      "key": "weapons-types-attachment",
+      "url": "https://ou3.npa.gov.tw/law/Law/GetFile/KIL08H",
+      "retrievedAt": "2026-11-19T22:53:30.631845+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "3b4c12c2df05cd7b30ff55276381f07670bb5e0ca4e664793db5b841c6f3a3e3",
+      "bytes": 62677,
+      "rawPath": "/tmp/police-batch100-law-b-weapons-types-attachment.html",
+      "textPath": "/tmp/police-batch100-law-b-weapons-types-attachment.txt"
+    },
+    {
+      "key": "criminalcode",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0000001",
+      "retrievedAt": "2026-11-19T22:54:11.021785+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "093fcd95cf2f49aaf91b23a2232e28dbf64a4545c53071bfca2d4d4dbf4426d5",
+      "bytes": 272769,
+      "rawPath": "/tmp/police-batch100-law-b-criminalcode.html",
+      "textPath": "/tmp/police-batch100-law-b-criminalcode.txt"
+    },
+    {
+      "key": "insult-constitution-full",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=CJ00005772&media=print&type=CJ",
+      "retrievedAt": "2026-11-19T22:54:43.306210+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "5d001044a2232496383bd9942e47dbd0b10b32a9c2af86957adcec0936b647a5",
+      "bytes": 116465,
+      "rawPath": "/tmp/police-batch100-law-b-insult-constitution-full.html",
+      "textPath": "/tmp/police-batch100-law-b-insult-constitution-full.txt"
+    },
+    {
+      "key": "ex808",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C808&type=c",
+      "retrievedAt": "2026-11-19T22:54:58.341692+00:00",
+      "response": "200",
+      "exitCode": 0,
+      "sha256": "9732b9afa8014483ff42ce0a8cca325e8fdaf2a73bece71784ca787e5df8dfac",
+      "bytes": 29757,
+      "rawPath": "/tmp/police-batch100-law-b-ex808.html",
+      "textPath": "/tmp/police-batch100-law-b-ex808.txt"
+    },
+    {
+      "key": "criminal",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001",
+      "retrievedAt": "2026-11-19T22:47:08.890018+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "52a892bc0c8123448007809b038dd4d4df6d7648bb9212b1efc2696912d9027c",
+      "bytes": 461227,
+      "rawPath": "/tmp/police-batch100-investigation-criminal",
+      "textPath": "/tmp/police-batch100-investigation-criminal.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "penal",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001",
+      "retrievedAt": "2026-11-19T22:47:08.890318+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "d3cae9dc40b3ff9056373c3aa84c9e050aa710e705aeafe968569292b2ab5890",
+      "bytes": 272769,
+      "rawPath": "/tmp/police-batch100-investigation-penal",
+      "textPath": "/tmp/police-batch100-investigation-penal.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "pawn",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080075",
+      "retrievedAt": "2026-11-19T22:47:08.891422+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "bc1ee66db2d70c6397afa49261ca8227053303e2eec97c2232f47c5ebd8262c3",
+      "bytes": 66780,
+      "rawPath": "/tmp/police-batch100-investigation-pawn",
+      "textPath": "/tmp/police-batch100-investigation-pawn.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "drug",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000008",
+      "retrievedAt": "2026-11-19T22:47:08.893240+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "a1b8f66595bacde5e86206d86019725da333f23a01674ed22346f07292606b0c",
+      "bytes": 87425,
+      "rawPath": "/tmp/police-batch100-investigation-drug",
+      "textPath": "/tmp/police-batch100-investigation-drug.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "sex",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079",
+      "retrievedAt": "2026-11-19T22:47:11.416775+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "f9a439fd63bdb7603bf328c13b9b6c05c09afc3439abb1ffef5302c606286cc6",
+      "bytes": 94520,
+      "rawPath": "/tmp/police-batch100-investigation-sex",
+      "textPath": "/tmp/police-batch100-investigation-sex.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "deposit",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0380199",
+      "retrievedAt": "2026-11-19T22:47:11.879222+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "dabb4010f9d5e72a20280e0fe056c3b3a3b93e4b42670b07ab51817a621a137e",
+      "bytes": 61168,
+      "rawPath": "/tmp/police-batch100-investigation-deposit",
+      "textPath": "/tmp/police-batch100-investigation-deposit.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "urine",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030026",
+      "retrievedAt": "2026-11-19T22:47:12.764460+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "5de762bcc86bb8daab13ec2535a18fa0470f6a76f5c44bc1700b70f07c842987",
+      "bytes": 51353,
+      "rawPath": "/tmp/police-batch100-investigation-urine",
+      "textPath": "/tmp/police-batch100-investigation-urine.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "police-powers",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145",
+      "retrievedAt": "2026-11-19T22:47:13.442296+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "cb6b21e8cf082d4ce6de8c7f530890c433e7968ece71e466f14171a350baf9bd",
+      "bytes": 67604,
+      "rawPath": "/tmp/police-batch100-investigation-police-powers",
+      "textPath": "/tmp/police-batch100-investigation-police-powers.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "sex-child",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050023",
+      "retrievedAt": "2026-11-19T22:47:13.868815+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "d55fa46a3f7cf70e05f99cef3f347bc68935ef1974dee1639ad43bfa319433f7",
+      "bytes": 98911,
+      "rawPath": "/tmp/police-batch100-investigation-sex-child",
+      "textPath": "/tmp/police-batch100-investigation-sex-child.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "national-judges",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030320",
+      "retrievedAt": "2026-11-19T22:47:14.593629+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "8b5e3e38aaf10ab4a2b066279643dc796095623301f4ff24bfc7b66fdd6f8347",
+      "bytes": 126800,
+      "rawPath": "/tmp/police-batch100-investigation-national-judges",
+      "textPath": "/tmp/police-batch100-investigation-national-judges.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "bank",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0380001",
+      "retrievedAt": "2026-11-19T22:47:15.243788+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "14d4facf99cf9de7a142dfecaef8ddf8e966dece590caad0bff54549380f7a8b",
+      "bytes": 179358,
+      "rawPath": "/tmp/police-batch100-investigation-bank",
+      "textPath": "/tmp/police-batch100-investigation-bank.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "dna",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080186",
+      "retrievedAt": "2026-11-19T22:47:15.633382+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "827f3f9584ec72d60354a9b097640709f4ae97f8920681484274d7c967ff5828",
+      "bytes": 54505,
+      "rawPath": "/tmp/police-batch100-investigation-dna",
+      "textPath": "/tmp/police-batch100-investigation-dna.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "telecom",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044",
+      "retrievedAt": "2026-11-19T22:47:16.230414+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "0f098f6a6175baeee849c17789eac672227004fb66f3d593cb88fce50bdecf8a",
+      "bytes": 82611,
+      "rawPath": "/tmp/police-batch100-investigation-telecom",
+      "textPath": "/tmp/police-batch100-investigation-telecom.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "stalking",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080211",
+      "retrievedAt": "2026-11-19T22:47:17.092404+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "87a143961213644fc17ea53a684ef2ce3f34bffbc9d2220f600f6bf53129733a",
+      "bytes": 62498,
+      "rawPath": "/tmp/police-batch100-investigation-stalking",
+      "textPath": "/tmp/police-batch100-investigation-stalking.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "civil-procedure",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0010001",
+      "retrievedAt": "2026-11-19T22:47:17.200198+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "4990e049e6e9a4d8eea6f71a494062f690176ec3c0bd80c5c74274d00994db6f",
+      "bytes": 447649,
+      "rawPath": "/tmp/police-batch100-investigation-civil-procedure",
+      "textPath": "/tmp/police-batch100-investigation-civil-procedure.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "witness",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030161",
+      "retrievedAt": "2026-11-19T22:47:17.904265+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "bb3bb54285ced465138dde60b4475cc6cba548918b7a2bfa28849a77626657b0",
+      "bytes": 63321,
+      "rawPath": "/tmp/police-batch100-investigation-witness",
+      "textPath": "/tmp/police-batch100-investigation-witness.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "organized",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000013",
+      "retrievedAt": "2026-11-19T22:47:18.427955+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "5f3217fad76edf2d52f5ae6d1a30bb7d129e91152904ace91aca555357e0f148",
+      "bytes": 55550,
+      "rawPath": "/tmp/police-batch100-investigation-organized",
+      "textPath": "/tmp/police-batch100-investigation-organized.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "telecom-rules",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060053",
+      "retrievedAt": "2026-11-19T22:49:24.115489+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "3b8c21362128a588c9ba255a2eaf5269f33c967d38e05264ce0ac91c7586d809",
+      "bytes": 74493,
+      "rawPath": "/tmp/police-batch100-investigation-telecom-rules",
+      "textPath": "/tmp/police-batch100-investigation-telecom-rules.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "civil",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001",
+      "retrievedAt": "2026-11-19T22:49:24.115747+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "efb22b9afdec8ac42adab375c49644b449490c337cad8d66d569834829f7651c",
+      "bytes": 718742,
+      "rawPath": "/tmp/police-batch100-investigation-civil",
+      "textPath": "/tmp/police-batch100-investigation-civil.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "sex-harassment",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050074",
+      "retrievedAt": "2026-11-19T22:49:24.116651+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "4bae32ef12b15bc6f9350c44187357b0d66ebd1652d2fb19e6f5920d80482355",
+      "bytes": 73908,
+      "rawPath": "/tmp/police-batch100-investigation-sex-harassment",
+      "textPath": "/tmp/police-batch100-investigation-sex-harassment.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "sex-offender-data",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080087",
+      "retrievedAt": "2026-11-19T22:49:24.119209+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "3af5d16616646aa76943a4fe3f2a83044841ff944a52b4ecda8379fd69085fb3",
+      "bytes": 55638,
+      "rawPath": "/tmp/police-batch100-investigation-sex-offender-data",
+      "textPath": "/tmp/police-batch100-investigation-sex-offender-data.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "prosecutor-notes",
+      "url": "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=FL010166",
+      "retrievedAt": "2026-11-19T22:49:24.855147+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "83d808d58559d380762ecf56d4a4818ca6040ceef62fb09d7bcd0a7fb74a0a54",
+      "bytes": 290722,
+      "rawPath": "/tmp/police-batch100-investigation-prosecutor-notes",
+      "textPath": "/tmp/police-batch100-investigation-prosecutor-notes.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "anti-imposter",
+      "url": "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=FL010181",
+      "retrievedAt": "2026-11-19T22:49:25.650487+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "248ac56c3fc8f24816bd8fba8ffd400cd3a380354893de67b0c6823e821e7d9b",
+      "bytes": 36932,
+      "rawPath": "/tmp/police-batch100-investigation-anti-imposter",
+      "textPath": "/tmp/police-batch100-investigation-anti-imposter.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "mjib-remittance",
+      "url": "https://www.mjib.gov.tw/EditPage/?PageID=e9302a06-6f0e-472b-b67c-2cea81cadb05",
+      "retrievedAt": "2026-11-19T22:49:26.013046+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "97c4628c0b77b5fda66952b090ccf739222898429588b2ee5966e5f128121492",
+      "bytes": 95325,
+      "rawPath": "/tmp/police-batch100-investigation-mjib-remittance",
+      "textPath": "/tmp/police-batch100-investigation-mjib-remittance.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "drug-third-list",
+      "url": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000318789&lan=C",
+      "retrievedAt": "2026-11-19T22:50:27.781007+00:00",
+      "response": "200 application/pdf",
+      "exitCode": 0,
+      "sha256": "8bfda8f452797298341eada9895317cf5d9e2eea66508ebd1e9206146bdc7496",
+      "bytes": 328305,
+      "rawPath": "/tmp/police-batch100-investigation-drug-third-list",
+      "textPath": "/tmp/police-batch100-investigation-drug-third-list.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "telecom-judgment",
+      "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TPSM%2C106%2C%E5%8F%B0%E9%9D%9E%2C259%2C20180530%2C1",
+      "retrievedAt": "2026-11-19T22:50:27.781323+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "1c533c7a1d59a9d80b6cef9d9835a06cfc3677fc406f0c4330542c4434b5bd1c",
+      "bytes": 5291,
+      "rawPath": "/tmp/police-batch100-investigation-telecom-judgment",
+      "textPath": "/tmp/police-batch100-investigation-telecom-judgment.txt",
+      "verificationResult": "未取得裁判全文，不列已讀判決來源；該原始回應僅供失敗取回診斷。"
+    },
+    {
+      "key": "telecom-letter",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?etype=etype5&id=FE313706&kw=&type=E",
+      "retrievedAt": "2026-11-19T22:50:27.782549+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "c05f8628ff288f2d0406eb346b5ca0f567fd636fa5f95e6260c8473f7e1a3a6b",
+      "bytes": 20975,
+      "rawPath": "/tmp/police-batch100-investigation-telecom-letter",
+      "textPath": "/tmp/police-batch100-investigation-telecom-letter.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "military-contact",
+      "url": "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=FL073548",
+      "retrievedAt": "2026-11-19T22:51:29.406356+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "164497693978cad1931c52625eab32e8f64bbb5b369fb20fb104d4036fc6d053",
+      "bytes": 34993,
+      "rawPath": "/tmp/police-batch100-investigation-military-contact",
+      "textPath": "/tmp/police-batch100-investigation-military-contact.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "drug-erimin",
+      "url": "https://www.cib.npa.gov.tw/ch/app/drup/view?id=1972&module=drup&serno=98c69a30-d59b-4c44-b620-83730d4c2001",
+      "retrievedAt": "2026-11-19T22:51:29.406813+00:00",
+      "response": "200 text/html; charset=UTF-8",
+      "exitCode": 0,
+      "sha256": "5f2ea0bda3bca705f1f77af739cbf29124403b401321d7793ba59645f1d31742",
+      "bytes": 83037,
+      "rawPath": "/tmp/police-batch100-investigation-drug-erimin",
+      "textPath": "/tmp/police-batch100-investigation-drug-erimin.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "telecom-judgment-pdf",
+      "url": "https://tps.judicial.gov.tw/tw/dl-11926-5ef74e73449c40b78698cea2969d8e7c.html",
+      "retrievedAt": "2026-11-19T22:51:29.407094+00:00",
+      "response": "503 text/plain",
+      "exitCode": 0,
+      "sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6",
+      "bytes": 91,
+      "rawPath": "/tmp/police-batch100-investigation-telecom-judgment-pdf",
+      "textPath": "/tmp/police-batch100-investigation-telecom-judgment-pdf.txt",
+      "verificationResult": "未取得裁判全文，不列已讀判決來源；該原始回應僅供失敗取回診斷。"
+    },
+    {
+      "key": "telecom-judgment-moj",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=B%2C106%2C%E5%8F%B0%E9%9D%9E%2C259%2C001&type=J",
+      "retrievedAt": "2026-11-19T22:52:00.963424+00:00",
+      "response": "200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "1155ded0a7f9ca2864e7b10410d9d179da1e96dc6a63832394dc79a54e1baa96",
+      "bytes": 9146,
+      "rawPath": "/tmp/police-batch100-investigation-telecom-judgment-moj",
+      "textPath": "/tmp/police-batch100-investigation-telecom-judgment-moj.txt",
+      "verificationResult": "未取得裁判全文，不列已讀判決來源；該原始回應僅供失敗取回診斷。"
+    },
+    {
+      "key": "handbook115",
+      "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968",
+      "retrievedAt": "2026-11-19T22:44:30.612683+00:00",
+      "response": "200 200 application/octet-stream",
+      "exitCode": 0,
+      "sha256": "d94a126e781162ca142a9fc462f80a101f2c3a8d7ed3e718cbed132b581af658",
+      "bytes": 810586,
+      "rawPath": "/tmp/police-batch100-source-handbook115",
+      "textPath": "/tmp/police-batch100-source-handbook115.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "handbook-index",
+      "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php",
+      "retrievedAt": "2026-11-19T22:44:30.612990+00:00",
+      "response": "200 200 text/html; charset=UTF-8",
+      "exitCode": 0,
+      "sha256": "4ebd3e24e86e187ff0f56b7414b8b220b15ac5174c09a06a4f35a1e095b27b46",
+      "bytes": 28229,
+      "rawPath": "/tmp/police-batch100-source-handbook-index",
+      "textPath": "/tmp/police-batch100-source-handbook-index.txt",
+      "verificationResult": "本次已實際線上取回完整原件；引用範圍另見excerpts。"
+    },
+    {
+      "key": "visits",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147",
+      "retrievedAt": "2026-11-19T22:45:58.412303+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "2a25a147456d6fdfbe7ab28ea84a66ccd9e32cfddc869df14d10d95ba3226ac0",
+      "bytes": 49191,
+      "rawPath": "/tmp/police-batch100-duty-scene-visits.html",
+      "textPath": "/tmp/police-batch100-duty-scene-visits.txt"
+    },
+    {
+      "key": "district-visits",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161",
+      "retrievedAt": "2026-11-19T22:45:58.413040+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "ffbe1f89e1280975e12fc87d359a40cedd2226aa0753dcdb0b019e454a4a2921",
+      "bytes": 49417,
+      "rawPath": "/tmp/police-batch100-duty-scene-district-visits.html",
+      "textPath": "/tmp/police-batch100-duty-scene-district-visits.txt"
+    },
+    {
+      "key": "powers",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145",
+      "retrievedAt": "2026-11-19T22:45:58.414287+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "54f39660b4b63e7c8777be7a3bfa84aad29e44d440cc22d28894b540f8d4fb60",
+      "bytes": 67680,
+      "rawPath": "/tmp/police-batch100-duty-scene-powers.html",
+      "textPath": "/tmp/police-batch100-duty-scene-powers.txt"
+    },
+    {
+      "key": "criminal-procedure",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001",
+      "retrievedAt": "2026-11-19T22:45:58.415373+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "f738af1200dc60a81e9346283b2b3dd2553777e92cc44230f29b6097a8651145",
+      "bytes": 461303,
+      "rawPath": "/tmp/police-batch100-duty-scene-criminal-procedure.html",
+      "textPath": "/tmp/police-batch100-duty-scene-criminal-procedure.txt"
+    },
+    {
+      "key": "disclosure",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010028",
+      "retrievedAt": "2026-11-19T22:45:58.416021+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "df93c15266caee58332527600ba700cc2df1a647fdb1da07a7424991a5b98542",
+      "bytes": 55614,
+      "rawPath": "/tmp/police-batch100-duty-scene-disclosure.html",
+      "textPath": "/tmp/police-batch100-duty-scene-disclosure.txt"
+    },
+    {
+      "key": "duty",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080026",
+      "retrievedAt": "2026-11-19T22:45:58.417276+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "83ba1348f73dde5f841e2c9f49df8ef7499cb87e32ab4a8c75e83d7604a26112",
+      "bytes": 59461,
+      "rawPath": "/tmp/police-batch100-duty-scene-duty.html",
+      "textPath": "/tmp/police-batch100-duty-scene-duty.txt"
+    },
+    {
+      "key": "road-act",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012",
+      "retrievedAt": "2026-11-19T22:45:59.154382+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "4c28c0255d38f005b6d09923356793acc5d93f2ab78983048f42d2beb667ff90",
+      "bytes": 192401,
+      "rawPath": "/tmp/police-batch100-duty-scene-road-act.html",
+      "textPath": "/tmp/police-batch100-duty-scene-road-act.txt"
+    },
+    {
+      "key": "road-fine",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080029",
+      "retrievedAt": "2026-11-19T22:45:59.206054+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "184543b25edba29723dd173924abff741f42b0dca2fbcd4ef7e44f0e3d268dee",
+      "bytes": 132255,
+      "rawPath": "/tmp/police-batch100-duty-scene-road-fine.html",
+      "textPath": "/tmp/police-batch100-duty-scene-road-fine.txt"
+    },
+    {
+      "key": "special-duty",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030246",
+      "retrievedAt": "2026-11-19T22:45:59.238466+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "a69b310142c10542b2638fade1061217025d41c73c394a5271b43f95b84f5714",
+      "bytes": 57840,
+      "rawPath": "/tmp/police-batch100-duty-scene-special-duty.html",
+      "textPath": "/tmp/police-batch100-duty-scene-special-duty.txt"
+    },
+    {
+      "key": "station",
+      "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000177",
+      "retrievedAt": "2026-11-19T22:45:59.358311+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "adc8b57bbc948daa43f9e589e741f252e8818c1f9e7e4a624df5c8b415a01d82",
+      "bytes": 14932,
+      "rawPath": "/tmp/police-batch100-duty-scene-station.html",
+      "textPath": "/tmp/police-batch100-duty-scene-station.txt"
+    },
+    {
+      "key": "communications",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044",
+      "retrievedAt": "2026-11-19T22:45:59.816077+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "643e4d2a67814d092f9abeed5a96986520ce4aa888f95e8975aa71d60f85de70",
+      "bytes": 82687,
+      "rawPath": "/tmp/police-batch100-duty-scene-communications.html",
+      "textPath": "/tmp/police-batch100-duty-scene-communications.txt"
+    },
+    {
+      "key": "road-accidents",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080090",
+      "retrievedAt": "2026-11-19T22:48:22.102857+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "65fd168464ccfdbb5598a77cd91d7c0419f9323c1630efea3bd9658832eb2575",
+      "bytes": 57357,
+      "rawPath": "/tmp/police-batch100-duty-scene-road-accidents.html",
+      "textPath": "/tmp/police-batch100-duty-scene-road-accidents.txt"
+    },
+    {
+      "key": "actual-weapons",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042",
+      "retrievedAt": "2026-11-19T22:48:22.103646+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "b479d035ba5b6daaf5582bf793170a6569f28e310ae194f999800305469248a7",
+      "bytes": 53472,
+      "rawPath": "/tmp/police-batch100-duty-scene-actual-weapons.html",
+      "textPath": "/tmp/police-batch100-duty-scene-actual-weapons.txt"
+    },
+    {
+      "key": "public-service",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0020038",
+      "retrievedAt": "2026-11-19T22:48:22.104027+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "b1c650892f8f8309525fb36c4e1e5280cd1f381717f9778273eb032d894004ce",
+      "bytes": 60525,
+      "rawPath": "/tmp/police-batch100-duty-scene-public-service.html",
+      "textPath": "/tmp/police-batch100-duty-scene-public-service.txt"
+    },
+    {
+      "key": "phone-guidance",
+      "url": "https://www.chpb.gov.tw/MessageBoard/C005500?PageIndex=391",
+      "retrievedAt": "2026-11-19T22:48:22.104997+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "c0b73b9c17d6badf976b367716036599e8dc2acb5d31d8403d5a34892ccdd16f",
+      "bytes": 175383,
+      "rawPath": "/tmp/police-batch100-duty-scene-phone-guidance.html",
+      "textPath": "/tmp/police-batch100-duty-scene-phone-guidance.txt"
+    },
+    {
+      "key": "missing",
+      "url": "https://ou3.npa.gov.tw/law/Law/LawDetailAll/F1000200",
+      "retrievedAt": "2026-11-19T22:48:22.113240+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "607d186db8998f2eefe735d2c3f9f9ae87b5c436422306e76fd29a062f4a60f1",
+      "bytes": 27688,
+      "rawPath": "/tmp/police-batch100-duty-scene-missing.html",
+      "textPath": "/tmp/police-batch100-duty-scene-missing.txt"
+    },
+    {
+      "key": "gun-regulation",
+      "url": "https://educate.tpa.edu.tw/var/file/4/1004/img/390/507012084.pdf",
+      "retrievedAt": "2026-11-19T22:48:22.831934+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "129c217ebacd58c3ae98fe05d5a3969b5cde51955b1fe65b4ab4d116c2e8e8f4",
+      "bytes": 993686,
+      "rawPath": "/tmp/police-batch100-duty-scene-gun-regulation.html",
+      "textPath": "/tmp/police-batch100-duty-scene-gun-regulation.txt"
+    },
+    {
+      "key": "drunk-history",
+      "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=K0040012",
+      "retrievedAt": "2026-11-19T22:48:24.868430+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "139664e6d3fbb04a6daa044f725e713a28ac4ba3ae56bf2c0d066e339e9137df",
+      "bytes": 77848,
+      "rawPath": "/tmp/police-batch100-duty-scene-drunk-history.html",
+      "textPath": "/tmp/police-batch100-duty-scene-drunk-history.txt"
+    },
+    {
+      "key": "interpretation785-moj",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=D%2C785&media=print&type=c",
+      "retrievedAt": "2026-11-19T22:49:53.490809+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "4c1d850151447bc45ca97e234143f9847a76a71ad0c6fb35ad10def0713e88d8",
+      "bytes": 79155,
+      "rawPath": "/tmp/police-batch100-duty-scene-interpretation785-moj.html",
+      "textPath": "/tmp/police-batch100-duty-scene-interpretation785-moj.txt"
+    },
+    {
+      "key": "visits-apr2023-pdf",
+      "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967",
+      "retrievedAt": "2026-11-19T22:50:40.303955+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "111ff6fbedaeb9cb5f43bcf3298610f0bd4924a5cad289fb8b43a005fa3d95c1",
+      "bytes": 111852,
+      "rawPath": "/tmp/police-batch100-duty-scene-visits-apr2023-pdf.html",
+      "textPath": "/tmp/police-batch100-duty-scene-visits-apr2023-pdf.txt"
+    },
+    {
+      "key": "breath-sop-entry-pdf",
+      "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=QjVkUGRlUmVUYVVodUFhWjBIU293QlZqdUlaUlllb1V0THYxaFcyKzczVExSNlQxbUo3ZGt6TXUxWU9nd1AxNDJnd1BqSCsvZ3B0eUc3UHVhUFVlVGlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RUYzSHZrWXVRYThNM01Mbk1wYitCeVpBamh2VEZ2RkZwZXdoUGJiMjNqTk5wNjN3V0UvSkdSTHZ1TXFxRVRxeG84S2JFVUZEbTdHN0tkcFNjWjZJK2NKeXkrT0pIc2lFdC9RZ09UKzROY0VwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=967",
+      "retrievedAt": "2026-11-19T22:50:40.305108+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "377cb490ae6a205692b81dfb53ee62ca1f9cb43143285c85c0e0899851b6f8ca",
+      "bytes": 331559,
+      "rawPath": "/tmp/police-batch100-duty-scene-breath-sop-entry-pdf.html",
+      "textPath": "/tmp/police-batch100-duty-scene-breath-sop-entry-pdf.txt"
+    },
+    {
+      "key": "dispatch-entry-pdf",
+      "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967",
+      "retrievedAt": "2026-11-19T22:50:40.305504+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "91b0ea2625f396c3cd72863e06ab85d4bd3f5a68cd79b5d91077ca756841ff72",
+      "bytes": 511009,
+      "rawPath": "/tmp/police-batch100-duty-scene-dispatch-entry-pdf.html",
+      "textPath": "/tmp/police-batch100-duty-scene-dispatch-entry-pdf.txt"
+    },
+    {
+      "key": "handbook115",
+      "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968",
+      "retrievedAt": "2026-11-19T22:50:40.305922+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "d94a126e781162ca142a9fc462f80a101f2c3a8d7ed3e718cbed132b581af658",
+      "bytes": 810586,
+      "rawPath": "/tmp/police-batch100-duty-scene-handbook115.html",
+      "textPath": "/tmp/police-batch100-duty-scene-handbook115.txt"
+    },
+    {
+      "key": "blood-judgment",
+      "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=CJ00000053&media=print&type=CJ",
+      "retrievedAt": "2026-11-19T22:52:11.657781+00:00",
+      "response": 200,
+      "exitCode": 0,
+      "sha256": "0eb4e8edae6dd3c4aa8886f67162f08a80b8506f3ea72696e2f1ba14df1fca8f",
+      "bytes": 91442,
+      "rawPath": "/tmp/police-batch100-duty-scene-blood-judgment.html",
+      "textPath": "/tmp/police-batch100-duty-scene-blood-judgment.txt"
+    },
+    {
+      "key": "retained-blood-judgment",
+      "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=5304&id=310024",
+      "retrievedAt": "2026-11-20T08:30:30.952456+00:00",
+      "response": "503 200 text/plain",
+      "exitCode": 22,
+      "sha256": null,
+      "bytes": 0,
+      "rawPath": null
+    },
+    {
+      "key": "retained-blood-order",
+      "url": "https://www.ttdaren.gov.tw/home/attachments/article/6586/376540000A_1150026923_ATTACH2.pdf",
+      "retrievedAt": "2026-11-20T08:30:30.952781+00:00",
+      "response": "200 200 application/pdf",
+      "exitCode": 0,
+      "sha256": "15e6f4bd4cba87c9991512c37011f9ddfc2776e76bbb3db6488bb6a6982eb240",
+      "bytes": 283325,
+      "rawPath": "/tmp/police-batch100-source-retained-blood-order"
+    }
+  ],
+  "sourceTexts": [
+    "legal-sources/batch100-law-a-excerpt.txt",
+    "legal-sources/batch100-law-b-excerpt.txt",
+    "legal-sources/batch100-investigation-excerpt.txt",
+    "legal-sources/batch100-duty-scene-excerpt.txt"
+  ],
+  "deferredCandidates": [
+    {
+      "id": "law113-inner-19",
+      "reason": "本輪不選；加給支給對象及B、C複數官方給分需另取得完整現行薪給表、支給要件與歷史對照，不能僅憑職稱。",
+      "group": "law-a"
+    },
+    {
+      "id": "law113-inner-20",
+      "reason": "本輪不選；監視器、武器彈藥、尿液採驗及擴大臨檢的具體經費編列與補助分工需完整預算及補助原件。",
+      "group": "law-a"
+    },
+    {
+      "id": "law113-outer-22",
+      "reason": "本輪不選；109年教材不能取代舉牌、代理決定及移送書/活動表記載的最新完整內規。",
+      "group": "law-a"
+    },
+    {
+      "id": "law114-inner-13",
+      "reason": "移送性、保護性及再逮捕管束涉及學理分類與兒少安置、司法處遇機構各別特別法；目前不足以逐項完整確認，不以官方答案B反推A、C均已核正確。",
+      "group": "law-b"
+    },
+    {
+      "id": "law114-outer-07",
+      "reason": "未取得適用版本的警專公費生完整行政契約及自願接受執行約定，不能只由行政程序法第148條概括斷定該契約能否直接執行。",
+      "group": "law-b"
+    },
+    {
+      "id": "law115-inner-08",
+      "reason": "完整現行警察職務協助注意事項及113.7.1修正全文未取得；保留候選既有資料，不把立法院答覆節錄當作完整內規。",
+      "group": "law-b"
+    },
+    {
+      "id": "investigation110_12",
+      "reason": "告訴六點含被害人死亡後獨立與繼受告訴權、調解成立與法院核定效力交錯，現有題幹與鍵不能代替逐案實務原件核對；本批不以摘要湊已核。",
+      "group": "investigation"
+    },
+    {
+      "id": "investigation111_48",
+      "reason": "現行性侵害犯罪防治法29條及加害人資料辦法2條已改列相片、指紋、DNA及個人基本資料；舊題A犯罪資料是否應納其他應記事項，不得僅憑舊鍵斷言。完整新舊規範對照另處理。",
+      "group": "investigation"
+    },
+    {
+      "id": "investigation114_43",
+      "reason": "通緝法律性質需適切裁判或官方法理原件，不能只由刑訴84條逃亡／藏匿要件推斷A的性質命題。",
+      "group": "investigation"
+    },
+    {
+      "id": "investigation115_27",
+      "reason": "115版官方PDF主文第117點雖提附件13，但本次完整PDF未含附件13對質筆錄範例；未另取得原件，不能把精確四段提問次序算已核。",
+      "group": "investigation"
+    },
+    {
+      "id": "duty113_03",
+      "reason": "已核警察勤務區訪查辦法第2至10條及警職法第15條；A之拒訪不當然構成犯罪、B聯繫卡、C/D社區聯繫目的可核。但題幹社區警政再出發完整當期/現行計畫與訪客登記具體作法未取齊，整題仍待核。",
+      "group": "duty-scene"
+    },
+    {
+      "id": "duty113_04",
+      "reason": "已取得111.12.15酒駕SOP全文及現行裁罰細則19-2，但拒測SOP完整最新版本及全部沿革未齊。道交第35條第6、15項115.8.17修正文定115.12.31才施行，查核日2026.11.20不得用其新採血授權；亦不得直接把LawAll或舊法連結頁混列條文當作當日適用全文。",
+      "group": "duty-scene"
+    },
+    {
+      "id": "duty114_06",
+      "reason": "已核裁罰細則19-2全文，並取得111.12.15酒駕SOP完整9頁：其第3頁把一般檢測前流程與拒測後法律效果告知分列。尚未核全最新SOP及115年道交修法配套，原有待核狀態保留；不得解說成拒測前從來不須詳細告知。",
+      "group": "duty-scene"
+    },
+    {
+      "id": "scene115-13",
+      "reason": "刑訴第88條之1完整要件已核，但題幹僅交代甲供稱乙教唆，未交代事實足認共犯嫌疑重大、情況急迫及不及報告檢察官；不能把官方A改教成一有共犯口供即得逕拘，整題標待核。",
+      "group": "duty-scene"
+    },
+    {
+      "id": "scene115-14",
+      "reason": "已核現行警械使用條例第4、6至10條、刑訴第88條、115手冊第51點；另取得105.8.4槍械規範全文附錄第5、7點，但未核其全部最新沿革。對空鳴槍仍須現場安全必要判斷，整題不升已核。",
+      "group": "duty-scene"
+    }
+  ],
+  "scope": "100題每選項補充；已核與待核逐題列示，不以官方答案鍵取代法源或將手冊等同強制權。歷史題保留原題及全部給分，現行條文、施行階段與版本差異分開；欠完整內規或個案裁判者保留待核。未宣稱全站或所有沿革已核完。",
+  "finalReview": {
+    "reviewedByIntegrator": true,
+    "supplemented": 100,
+    "options": 400,
+    "verified": 75,
+    "reviewRetained": 25,
+    "originalAndFinalOfficialScoringPreserved": true,
+    "eventSources": "每事件列各題主要法源；每題amendment.sources保留完整精確來源，不提高30來源或40更新上限。",
+    "clarifications": [
+      "官方全給分與原選項不精確仍保留review，不列解除待核。",
+      "112.4.24訪查修正表舊性侵法條號限於該版，不當2026條號。",
+      "保留既有採血失效日、24小時／3日／10日過渡及115.12.31未施行分段。",
+      "同車乘客補回駕駛人測得酒精或毒品的法定前提及例外。"
+    ]
+  },
+  "sourceAvailabilityNote": {
+    "constitutionalCourtPage": "本次重讀舊憲法法庭網址回HTTP503；保留真實失敗紀錄。",
+    "alternativeCompleteJudgment": [
+      "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=CJ00000053&media=print&type=CJ",
+      "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=CJ00000053&media=print&type=CJ"
+    ],
+    "scope": "同一111憲判1完整判決已由法務部官方全文頁實際讀取；未把503頁稱為本次成功來源。舊施行令附件重新取回200並保留雜湊。"
+  }
+}

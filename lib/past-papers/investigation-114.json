@@ -869,26 +869,26 @@
       "options": [
         {
           "text": "該法所稱有線及無線電信，包含電信事業及設置公眾電信網路者所設公共通訊系統、通訊網路及專 用電信",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：通保法通訊監察與已結束、已儲存資料的搜索取證不同；不能一概把過去所有內容歸為監察客體。",
+          "explanation": "通保法施行細則第2條第1項明列公共通訊系統、通訊網路及專用電信，與本項相符。通保法第3條第2項仍要求合理隱私或秘密期待。",
+          "correction": "有線、無線電信不以公眾網路為限；具體是否受保障，仍須判斷合理秘密期待。",
           "trueStatement": true
         },
         {
           "text": "該法所稱郵件及書信，包含信函及明信片等具通信性質之文件或物品",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：通保法通訊監察與已結束、已儲存資料的搜索取證不同；不能一概把過去所有內容歸為監察客體。",
+          "explanation": "施行細則第2條第2項列信函、明信片等具有通信性質的文件或物品，本項是其概括表述。",
+          "correction": "郵件書信包含明信片等通信物品，但不是所有公開印刷品不問情境皆有同等秘密期待。",
           "trueStatement": true
         },
         {
           "text": "該法所稱言論及談話，包含以手語所為之意思表達",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：通保法通訊監察與已結束、已儲存資料的搜索取證不同；不能一概把過去所有內容歸為監察客體。",
+          "explanation": "施行細則第2條第3項明定，言論談話以手語或其他方式表達意思者也包含在內。",
+          "correction": "手語等非口語的意思交換亦可納入，仍應有通訊性質及合理秘密期待。",
           "trueStatement": true
         },
         {
           "text": "該法所保障者，包含進行中及過去已結束之各類通訊內容",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "通保法通訊監察與已結束、已儲存資料的搜索取證不同；不能一概把過去所有內容歸為監察客體。",
+          "explanation": "本批實讀法務部107年法律字第10703509920號函說明二，明確區分現時或未來通訊與過去已結束內容；後者原則依刑訴搜索扣押等規定取得，不能概括說各類歷史內容皆是通訊監察客體。",
+          "correction": "應區分通訊是否已完成傳遞並處於接收方支配；已結束內容仍受資訊隱私、個資及合法取證程序保護，並非可任意調閱。",
           "trueStatement": false
         }
       ],
@@ -899,19 +899,39 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第11題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 11,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "通訊保障及監察法；通訊保障及監察法施行細則；法務部107年7月17日法律字第10703509920號函・說明二；刑事訴訟法",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "通保法與施行細則保障具合理秘密期待的通訊過程；已傳遞結束、受領人可支配的歷史內容，仍受一般隱私及合法搜索扣押程序保障。",
+        "sources": [
+          {
+            "title": "通訊保障及監察法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+          },
+          {
+            "title": "通訊保障及監察法施行細則",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060053"
+          },
+          {
+            "title": "法務部107年7月17日法律字第10703509920號函・說明二",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?etype=etype5&id=FE313706&kw=&type=E"
+          },
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "通保法通訊監察與已結束、已儲存資料的搜索取證不同；不能一概把過去所有內容歸為監察客體。",
+      "takeaway": "通保法與施行細則保障具合理秘密期待的通訊過程；已傳遞結束、受領人可支配的歷史內容，仍受一般隱私及合法搜索扣押程序保障。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -928,8 +948,25 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "通訊保障及監察法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+        },
+        {
+          "title": "通訊保障及監察法施行細則",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060053"
+        },
+        {
+          "title": "法務部107年7月17日法律字第10703509920號函・說明二",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?etype=etype5&id=FE313706&kw=&type=E"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D不變。通保法與施行細則保障具合理秘密期待的通訊過程；已傳遞結束、受領人可支配的歷史內容，仍受一般隱私及合法搜索扣押程序保障。"
     },
     {
       "id": "investigation114_12",
@@ -2075,26 +2112,26 @@
       "options": [
         {
           "text": "犯罪嫌疑人雖經自白，仍應調查其他證據以察其是否與事實相符",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：有必要且依法核准可帶同嫌疑人查證，不可為防逃而一律禁止；仍需落實安全戒護。",
+          "explanation": "手冊第200點要求自白後仍調查其他證據；刑訴法第156條第2項也禁止僅以被告或共犯自白作有罪判決唯一證據。",
+          "correction": "自白不能代替調查及保全客觀證據，應查證供述與現場、贓證物是否吻合。",
           "trueStatement": true
         },
         {
           "text": "若主嫌犯與共犯及證人之供詞有所矛盾，應深入查證犯罪嫌疑人之供述是否實在",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：有必要且依法核准可帶同嫌疑人查證，不可為防逃而一律禁止；仍需落實安全戒護。",
+          "explanation": "手冊第201點第3款明列主嫌、共犯及證人供詞矛盾不實應深入查明；前兩款也要求符合情理、經驗及現場跡證。",
+          "correction": "有矛盾時應逐項查證，不可逕取對定罪有利的其中一份供詞。",
           "trueStatement": true
         },
         {
           "text": "為防止犯罪嫌疑人脫逃，應禁止帶同犯罪嫌疑人查證",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "有必要且依法核准可帶同嫌疑人查證，不可為防逃而一律禁止；仍需落實安全戒護。",
+          "explanation": "手冊第206點明定必要時得帶同犯罪嫌疑人查證，並注意安全及防脫逃；本項一律禁止過於絕對。這是作業指導，不是獨立拘禁授權。",
+          "correction": "有必要且具合法程序依據時可帶同查證，須遵守法定解送時限、戒護及人身自由保障，不能為查贓而任意延長拘束。",
           "trueStatement": false
         },
         {
           "text": "犯罪所得之贓物，不問其為直接或間接得來，均為犯罪主要證據",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：有必要且依法核准可帶同嫌疑人查證，不可為防逃而一律禁止；仍需落實安全戒護。",
+          "explanation": "手冊第203點明列犯罪所得贓物不問直接或間接得來，均為犯罪主要證據，須認真追查。實際犯罪事實仍依刑訴法第154條以證據認定。",
+          "correction": "直接、間接犯罪所得都應追查；個別物件仍須依法律及具體關聯性蒐證、扣押，不能僅因手冊稱主要證據就免除證明責任。",
           "trueStatement": true
         }
       ],
@@ -2105,19 +2142,35 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第24題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 24,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "警專公開115年新版警察偵查犯罪手冊；刑事訴訟法；警專刑事警察科・115年手冊官方附件入口",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "自白仍須補強查證；必要時可依法帶同查贓，但必須有合法的人身自由限制依據，不能由手冊自行創設強制帶行權。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "警專刑事警察科・115年手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "有必要且依法核准可帶同嫌疑人查證，不可為防逃而一律禁止；仍需落實安全戒護。",
+      "takeaway": "自白仍須補強查證；必要時可依法帶同查贓，但必須有合法的人身自由限制依據，不能由手冊自行創設強制帶行權。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -2134,8 +2187,21 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C不變。自白仍須補強查證；必要時可依法帶同查贓，但必須有合法的人身自由限制依據，不能由手冊自行創設強制帶行權。"
     },
     {
       "id": "investigation114_25",
@@ -2303,26 +2369,26 @@
       "options": [
         {
           "text": "跟蹤騷擾行為，除須對特定人反覆或持續為之，且違反其意願外，並須與性或性別有關",
-          "explanation": "A是114年官方答案，符合第3條第1項的一般規定；同條第2項另有針對特定關係人、與性或性別無關的情形。",
-          "correction": "掌握第3條第1項，另記第2項特別規定，避免誤認全法一律要求相關。",
+          "explanation": "跟騷法第3條第1項一般類型確實包含反覆或持續、違反意願及與性或性別有關；並還要求心生畏怖且足影響日常生活或社會活動。第2項擴及配偶、血親等密切關係人時，明有與性或性別無關的例外。",
+          "correction": "A在第3條第1項範圍內可成立；不得背成全法所有被害對象一律須有性或性別關聯，也不能省略畏怖及生活影響要件。",
           "trueStatement": true
         },
         {
           "text": "警察機關受理跟蹤騷擾行為案件後，應即依職權或被害人之請求，核發書面告誡予行為人",
-          "explanation": "第4條受理後應立即調查；經調查有犯罪嫌疑者才依職權或請求核發書面告誡，非所有受理案件均立即核發。",
-          "correction": "先即時調查，符第4條第2項要件再核發書面告誡。",
+          "explanation": "第4條第1項是受理即開始調查、製作書面紀錄及權利告知；第2項須經調查有跟騷犯罪嫌疑，才依職權或請求核發告誡。",
+          "correction": "受理先調查，不是接獲任何報案就不經判斷立即發書面告誡。",
           "trueStatement": false
         },
         {
           "text": "配偶中之一人經警察機關依規定為書面告誡後 2 年內，再為跟蹤騷擾行為者，被害人得依跟蹤騷 擾防制法向法院聲請保護令",
-          "explanation": "第5條第4項將家庭成員間跟騷的民事保護令導向家庭暴力防治法，而非本法保護令規定。",
-          "correction": "配偶等家庭成員間應依家庭暴力防治法聲請民事保護令。",
+          "explanation": "第5條第1項雖定告誡後2年內再犯得聲請保護令，但第4項將家庭成員及現有或曾有親密關係之未同居伴侶，改依家暴法聲請民事保護令。配偶屬家庭成員。",
+          "correction": "配偶間應依家暴法聲請保護令，不適用本法保護令規定；不能只套第5條第1項2年。",
           "trueStatement": false
         },
         {
           "text": "行為人經檢察官訊問後，認其犯攜帶凶器或其他危險物品實行跟蹤騷擾行為之罪嫌疑重大，有事實 足認為有反覆實行之虞，而有羈押之必要者，得羈押之",
-          "explanation": "第21條的羈押判斷以法官訊問為前提，非檢察官訊問後即可依該條羈押。",
-          "correction": "符合第21條條件時，應由法官依法訊問並判斷羈押。",
+          "explanation": "第21條明定經「法官」訊問，符合第18條第2項或第19條罪嫌重大、反覆實行之虞及羈押必要，始得羈押。本項把法官換成檢察官。",
+          "correction": "應由法官訊問並審查法定要件決定羈押；檢察官訊問後可依法聲請，不能自行作成羈押決定。",
           "trueStatement": false
         }
       ],
@@ -2333,26 +2399,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第27題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 27,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "跟蹤騷擾防制法第3至5、21條",
-        "checkedAt": "2026-11-16",
-        "effectiveStatus": "unverified",
-        "note": "114年官方答案A。第3條第1項的一般構成與第2項對特定關係人的特別情形應區分；原題A概括性用語之適用界線保留待核，不變更官方計分。",
+        "status": "none",
+        "law": "跟蹤騷擾防制法",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "跟騷一般類型須與性或性別有關，另須反覆或持續、違反意願、心生畏怖並足以影響生活。告誡先調查；配偶間保護令走家暴法，羈押由法官決定。",
         "sources": [
           {
-            "title": "跟蹤騷擾防制法第3至5、21條",
+            "title": "跟蹤騷擾防制法",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080211"
           }
         ]
       },
-      "takeaway": "一般構成須與性或性別有關；另留意第3條第2項特定關係人的特殊情形。",
+      "takeaway": "跟騷一般類型須與性或性別有關，另須反覆或持續、違反意願、心生畏怖並足以影響生活。告誡先調查；配偶間保護令走家暴法，羈押由法官決定。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -2371,11 +2438,11 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
         },
         {
-          "title": "跟蹤騷擾防制法第3至5、21條",
+          "title": "跟蹤騷擾防制法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080211"
         }
       ],
-      "currentAnswer": "A為114年官方答案，與第3條第1項一般構成要件相符；但第3條第2項另對特定人之配偶、直系血親、同居親屬或社會生活關係密切者，規定一定與性或性別無關的跟騷情形。不能把A擴張成全法毫無例外的結論。"
+      "currentAnswer": "原官方答案A（以第3條第1項一般被害人類型為範圍；第2項另有密切關係人例外）不變。跟騷一般類型須與性或性別有關，另須反覆或持續、違反意願、心生畏怖並足以影響生活。告誡先調查；配偶間保護令走家暴法，羈押由法官決定。"
     },
     {
       "id": "investigation114_28",
@@ -2873,26 +2940,26 @@
       "options": [
         {
           "text": "執行期間不同",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：監察重在進行中通訊，搜索處理已存在物件或資料，B把監察也寫成既存會話而混淆。",
+          "explanation": "通保法第12條設定通訊監察期間，第5、6條每次不逾30日等；刑訴法第128條第2項第4款則要求搜索票記載有效期間及逾期不得執行。兩者時間結構不同。",
+          "correction": "監察期間與搜索票可執行的有效期間分別判斷，不能把搜索票有效期間理解成可無限制持續監聽。",
           "trueStatement": true
         },
         {
           "text": "通訊監察針對已存在之會話或通訊；搜索針對已存在之物",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "監察重在進行中通訊，搜索處理已存在物件或資料，B把監察也寫成既存會話而混淆。",
+          "explanation": "法務部107年法律字第10703509920號函說明二明列通訊監察重在現時或未來通訊過程，過去已結束內容應走刑訴搜索扣押。本項將監察對象說成已存在之會話，顛倒了核心差異。",
+          "correction": "應改為通訊監察針對現時或未來通訊；欲取已結束通訊紀錄內容，應依法採搜索、扣押或其他適用程序，且仍須保障隱私。",
           "trueStatement": false
         },
         {
           "text": "皆為對人民隱私權之干預",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：監察重在進行中通訊，搜索處理已存在物件或資料，B把監察也寫成既存會話而混淆。",
+          "explanation": "通保法第2、3條保護秘密通訊並限制必要範圍，刑訴法第122、128條對身體、物件、電磁紀錄及處所搜索設條件與令狀要求，二者均涉及人民隱私。",
+          "correction": "皆有隱私干預，仍須分別依法律要件、必要性及程序執行，不能因有一種令狀就代替另一種。",
           "trueStatement": true
         },
         {
           "text": "令狀之記載不同",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：監察重在進行中通訊，搜索處理已存在物件或資料，B把監察也寫成既存會話而混淆。",
+          "explanation": "通保法第11條列監察對象、通訊種類號碼、監察期間方法等；刑訴法第128條第2項則列應搜索人、應扣押物、搜索處所及票載有效期間等，記載項目不相同。",
+          "correction": "應依各該法律核對不同令狀的法定記載，不能用一般搜索票概括替代持續截取通訊的監察書。",
           "trueStatement": true
         }
       ],
@@ -2903,19 +2970,35 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第34題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 34,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "通訊保障及監察法；刑事訴訟法；法務部107年7月17日法律字第10703509920號函・說明二",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "通訊監察針對現時或未來的通訊過程，搜索依特定標的及程序尋找既存人或物、電磁紀錄；二者都限制隱私，但令狀內容及執行時間結構不同。",
+        "sources": [
+          {
+            "title": "通訊保障及監察法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+          },
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "法務部107年7月17日法律字第10703509920號函・說明二",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?etype=etype5&id=FE313706&kw=&type=E"
+          }
+        ]
       },
-      "takeaway": "監察重在進行中通訊，搜索處理已存在物件或資料，B把監察也寫成既存會話而混淆。",
+      "takeaway": "通訊監察針對現時或未來的通訊過程，搜索依特定標的及程序尋找既存人或物、電磁紀錄；二者都限制隱私，但令狀內容及執行時間結構不同。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -2932,8 +3015,21 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "通訊保障及監察法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "法務部107年7月17日法律字第10703509920號函・說明二",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?etype=etype5&id=FE313706&kw=&type=E"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B不變。通訊監察針對現時或未來的通訊過程，搜索依特定標的及程序尋找既存人或物、電磁紀錄；二者都限制隱私，但令狀內容及執行時間結構不同。"
     },
     {
       "id": "investigation114_35",
@@ -4190,26 +4286,26 @@
       "options": [
         {
           "text": "犯罪證物之蒐集，應注意公司企劃書、帳冊（不含電腦磁片，因可能另涉個人隱私）等物件",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "帳冊及電腦儲存資料均可能是證據，隱私應以合法程序保障，不能概括排除磁片等數位媒體。",
+          "explanation": "115版手冊第256點明定應針對涉嫌人數位設備落實查扣及鑑識分析；原項因隱私就一律排除電腦磁片，與此不符。刑訴法第128、133條仍要求合法搜索及扣押。",
+          "correction": "公司帳冊、企劃及相關數位資料都可能是證物；應依案情、票載及法定程序蒐集，不能先以可能涉及隱私為由排除全部數位證據。",
           "trueStatement": false
         },
         {
           "text": "應注意蒐證是否符合組織犯罪防制條例之要件",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：帳冊及電腦儲存資料均可能是證據，隱私應以合法程序保障，不能概括排除磁片等數位媒體。",
+          "explanation": "手冊第255點明定偵辦應注意符合組織犯罪條例各犯罪態樣構成要件；現行組織犯罪防制條例第2條也對犯罪組織定義設條件。",
+          "correction": "應具體查明犯罪組織及所涉犯罪要件，不可只以幫派名稱或多人參與替代構成要件。",
           "trueStatement": true
         },
         {
           "text": "對組織犯罪案件之證人，或與其有利害關係密切之人，應依證人保護法克盡保密與保護責任",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：帳冊及電腦儲存資料均可能是證據，隱私應以合法程序保障，不能概括排除磁片等數位媒體。",
+          "explanation": "手冊第259點明列證人、密切利害關係人、檢舉人及被害人，應依證人保護法與組織犯罪條例克盡保密保護；證人保護法第4、15條亦有相應法源。",
+          "correction": "保護責任不限證人本人，仍須按法定要件對具保護必要之人採適當措施。",
           "trueStatement": true
         },
         {
           "text": "關於組織犯罪案件檢舉人身分資料，不得移入移送法院審理之文書",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：帳冊及電腦儲存資料均可能是證據，隱私應以合法程序保障，不能概括排除磁片等數位媒體。",
+          "explanation": "手冊第260點明定幫派涉組織犯罪檢舉人身分資料另行封存，不得附入移送法院審理文書；組織犯罪條例第12條對證人資料另有封存規定。",
+          "correction": "應另封存身分資料及依法移交處理，不得把可識別檢舉人的資料混入通常送審文書。",
           "trueStatement": true
         }
       ],
@@ -4220,19 +4316,43 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第50題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 50,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "警專公開115年新版警察偵查犯罪手冊；刑事訴訟法；組織犯罪防制條例；證人保護法；警專刑事警察科・115年手冊官方附件入口",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "組織犯罪蒐證包含數位設備與資料；同時依法保障證人、檢舉人身分。數位隱私透過合法程序保障，不是把電腦磁片先行整類排除。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "組織犯罪防制條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000013"
+          },
+          {
+            "title": "證人保護法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030161"
+          },
+          {
+            "title": "警專刑事警察科・115年手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "帳冊及電腦儲存資料均可能是證據，隱私應以合法程序保障，不能概括排除磁片等數位媒體。",
+      "takeaway": "組織犯罪蒐證包含數位設備與資料；同時依法保障證人、檢舉人身分。數位隱私透過合法程序保障，不是把電腦磁片先行整類排除。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -4249,8 +4369,29 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "組織犯罪防制條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000013"
+        },
+        {
+          "title": "證人保護法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030161"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A不變。組織犯罪蒐證包含數位設備與資料；同時依法保障證人、檢舉人身分。數位隱私透過合法程序保障，不是把電腦磁片先行整類排除。"
     }
   ],
   "essays": []

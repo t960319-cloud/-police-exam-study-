@@ -27,26 +27,26 @@
       "options": [
         {
           "text": "警察機關應作成沒入處分；行為人對該處分如有不服，應向該管簡易庭提起訴願",
-          "explanation": "單純持有警棍的沒入屬警械條例處分，非向簡易庭提訴願；法院也不受理訴願。",
-          "correction": "單純持有警棍的沒入屬警械條例處分，非向簡易庭提訴願；法院也不受理訴願。",
+          "explanation": "第14條由警察機關沒入未經許可持有的警械，性質為行政處分；簡易庭並非訴願受理機關。題述前半符合未經許可前提，後半救濟機關錯置。",
+          "correction": "改為依訴願法向有管轄權的上級行政機關提起訴願，不是向簡易庭提訴願。",
           "trueStatement": false
         },
         {
           "text": "警察機關應移請該管簡易庭裁處並沒入；行為人對該裁定如有不服，應向該管普通庭提起抗告",
-          "explanation": "本題不是社維法拘留移簡易庭案件，不能套用抗告程序。",
-          "correction": "本題不是社維法拘留移簡易庭案件，不能套用抗告程序。",
+          "explanation": "單純未經許可持有警棍係第14條的警察機關沒入，不是因法定本罰含拘留而移送簡易庭的社維案件。普通庭抗告是社維法第45、58條所指移送裁定的救濟。",
+          "correction": "改為警察機關依第14條沒入，並循行政訴願；如另有社維違序行為，該行為的裁處及救濟另論。",
           "trueStatement": false
         },
         {
           "text": "警察機關應作成沒入處分；行為人對該處分如有不服，應向該管直轄市政府、縣（市）政府提 起訴願",
-          "explanation": "警察依警械條例沒入後，不服循行政爭訟，先向有權直轄市、縣市政府訴願。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "第14條明定未經許可持有警械由警察機關沒入。地方警察機關所為處分，依訴願法第4條的機關隸屬層級，向該管直轄市政府或縣、市政府訴願，符合原題通常的地方警察情境。",
+          "correction": "C在未經許可及地方警察機關處分前提下成立；實際受理訴願機關仍應依作成處分的機關層級及隸屬確認。",
           "trueStatement": true
         },
         {
           "text": "警察機關應作成沒入處分；行為人對該處分如有不服，應向該管簡易庭提起聲明異議",
-          "explanation": "聲明異議適用社維警察處分，不是所有警察沒入處分都適用。",
-          "correction": "聲明異議適用社維警察處分，不是所有警察沒入處分都適用。",
+          "explanation": "向簡易庭聲明異議是社維法第55條針對警察依該法所作處分的特別救濟；不能僅因兩種處分名稱同為沒入，就把警械條例第14條行政處分套入社維程序。",
+          "correction": "改循訴願法及行政訴訟；只有另依社維法裁處的部分，才適用其聲明異議制度。",
           "trueStatement": false
         }
       ],
@@ -54,28 +54,35 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜警察法規概要｜第1題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 1,
       "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "警械使用條例第14條；訴願法第4條；社會秩序維護法第45、55、58條",
+        "checkedAt": "2026-11-20",
+        "note": "2026-11-20（Asia/Taipei）核讀。已核警械條例第14條及訴願法第4條的現行全文。原題「單純持有」須以未經許可且確屬受管制警棍為前提；合法持有不能一律沒入，亦不將攜帶滋事或其他社維行為混入本題。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "同樣叫沒入，依警械條例第14條作成的行政處分與社維裁處，救濟路徑不同。",
         "sources": [
           {
-            "title": "警械使用條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080042"
+            "title": "警械使用條例第14條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
           },
           {
-            "title": "警械使用事件補償辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+            "title": "訴願法第4條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030020"
+          },
+          {
+            "title": "社會秩序維護法第45、55、58條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           }
         ]
       },
-      "takeaway": "警察依警械條例沒入後，不服循行政爭訟，先向有權直轄市、縣市政府訴願。",
+      "takeaway": "同樣叫沒入，依警械條例第14條作成的行政處分與社維裁處，救濟路徑不同。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -93,8 +100,21 @@
         {
           "title": "警械使用事件補償辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080219"
+        },
+        {
+          "title": "警械使用條例第14條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+        },
+        {
+          "title": "訴願法第4條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030020"
+        },
+        {
+          "title": "社會秩序維護法第45、55、58條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
         }
-      ]
+      ],
+      "currentAnswer": "C。在未經許可單純持有受管制警棍的前提，依警械條例第14條由警察機關沒入，循行政訴願救濟；非社維法聲明異議。"
     },
     {
       "id": "law113-inner-02",
@@ -349,26 +369,26 @@
       "options": [
         {
           "text": "以「基於請求」之方式為適用前提",
-          "explanation": "行政協助原則由其他機關依法提出請求，非自行取代其法定權限。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "行政程序法第19條第2、3項以請求無隸屬關係的機關協助為制度前提，原則書面、緊急時可不用書面；法務部兩函也明指平行或不相隸屬機關基於請求互助。",
+          "correction": "本項可保留；須把請求前提與書面形式分開，緊急例外是書面形式的例外。",
           "trueStatement": true
         },
         {
           "text": "僅限於公法上之行政行為，不包括私法行為",
-          "explanation": "行政協助是公法行政合作，不能將私法行為一概納入。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "103年及106年函均說明第19條行政協助限於公法上行政行為，不包括私經濟行政的私法行為；政府處分財產若屬私法行為，不因當事人都是政府機關就適用該條。",
+          "correction": "本項依第19條行政協助概念無須修正；其他合作或契約制度應另找依據。",
           "trueStatement": true
         },
         {
           "text": "因被請求機關主要是提供輔助性之行為，其目的則在協助請求機關完成主要行為，故不生管轄 權移轉之情形",
-          "explanation": "協助不移轉主要事項管轄權，請求與被請求機關各依權責。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "被請求機關只提供補充性輔助，請求機關仍就主要行政行為負責；103年函明確區別第15條權限委託的管轄移轉與第19條行政協助。",
+          "correction": "本項無須修正；不能將受協助機關誤認為已全面接手請求機關的行政權限。",
           "trueStatement": true
         },
         {
           "text": "請求機關所要求之協助行為，屬被請求機關依法應執行之職務上行為",
-          "explanation": "原本就是被請求機關自己法定職務者，非本題補充協助；應與本於自己權限執行區分。",
-          "correction": "原本就是被請求機關自己法定職務者，非本題補充協助；應與本於自己權限執行區分。",
+          "explanation": "103年函用語為「屬其職權範圍，而非屬其職務範圍之行為」：協助行為必須是合法能做的事，卻不是本來依法就由被請求機關負主要執行責任的事。本項將兩者混為一談。",
+          "correction": "改成「在被請求機關權限範圍內，提供非其本身主要法定職務的補充性協助」；權限外或依法不得為之者，依第19條應拒絕。",
           "trueStatement": false
         }
       ],
@@ -376,32 +396,35 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜警察法規概要｜第5題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 5,
       "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
       "amendment": {
-        "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。",
-        "checkedAt": "2026-11-10",
+        "status": "none",
+        "law": "行政程序法第15、19條；法務部103年5月6日法律字第10303505740號函全文；法務部106年12月13日法律字第10603508070號函全文",
+        "checkedAt": "2026-11-20",
+        "note": "2026-11-20（Asia/Taipei）核讀。已讀行政程序法第19條及法務部103年法律字10303505740、106年法律字10603508070兩函全文。兩函明分權限範圍內提供輔助與本來依法應自行執行的職務，並確認不含私法行為及不生管轄移轉。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "行政協助有請求及補充性，不移轉管轄；機關自己的法定職務不因收到請求才變成協助。",
         "sources": [
           {
-            "title": "警察法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080001"
+            "title": "行政程序法第15、19條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
           },
           {
-            "title": "警察法施行細則",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080002"
+            "title": "法務部103年5月6日法律字第10303505740號函全文",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE268438&media=print&type=E"
           },
           {
-            "title": "警察人員人事條例",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+            "title": "法務部106年12月13日法律字第10603508070號函全文",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?etype=etype1&id=FE306003&type=E"
           }
         ]
       },
-      "takeaway": "原本就是被請求機關自己法定職務者，非本題補充協助；應與本於自己權限執行區分。",
+      "takeaway": "行政協助有請求及補充性，不移轉管轄；機關自己的法定職務不因收到請求才變成協助。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -423,8 +446,21 @@
         {
           "title": "警察人員人事條例",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=S0020005"
+        },
+        {
+          "title": "行政程序法第15、19條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030055"
+        },
+        {
+          "title": "法務部103年5月6日法律字第10303505740號函全文",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE268438&media=print&type=E"
+        },
+        {
+          "title": "法務部106年12月13日法律字第10603508070號函全文",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?etype=etype1&id=FE306003&type=E"
         }
-      ]
+      ],
+      "currentAnswer": "D。被請求機關須在權限範圍內提供補充協助，但協助事項不是本來就應由其自行執行的主要法定職務。"
     },
     {
       "id": "law113-inner-06",
@@ -720,26 +756,26 @@
       "options": [
         {
           "text": "由警察機關處分沒入",
-          "explanation": "如符無正當理由攜帶危險器械等法定要件，因有拘留法定刑應移簡易庭，不是警察逕處沒入。",
-          "correction": "如符無正當理由攜帶危險器械等法定要件，因有拘留法定刑應移簡易庭，不是警察逕處沒入。",
+          "explanation": "警械條例第14條是未經許可定製、售賣、持有警械的行政沒入；本題若成立社維法第63條的攜帶違序行為，其法定本罰含拘留，不能逕由警察只作沒入而略過法院。",
+          "correction": "須先確認適用警械管理或社維行為規範；不能把所有噴霧器都直接等同第14條得沒入的警械。",
           "trueStatement": false
         },
         {
           "text": "由警察機關移送該管簡易庭裁定",
-          "explanation": "原題以攜帶違序物品處理，移簡易庭；實際案件仍須認定用途、危險性及有無正當理由，非一律有罪。",
-          "correction": "無須修正；依題示及當年度法制判斷。",
+          "explanation": "如屬無正當理由攜帶具有殺傷力化學製劑等，或攜帶已公告查禁器械，社維法第63條本罰包含拘留，依第45條應由警察訊問後移送簡易庭，這是原題B的程序方向。",
+          "correction": "保留B的條件式說明，補足器物、公告或無正當理由等成立前提；不能當作任何民用防身噴霧均必須裁罰。",
           "trueStatement": true
         },
         {
           "text": "由警察機關移送該管普通庭裁定",
-          "explanation": "初始裁處為簡易庭，不是普通庭；普通庭主要受理抗告。",
-          "correction": "初始裁處為簡易庭，不是普通庭；普通庭主要受理抗告。",
+          "explanation": "社維法第45條的第一階段移送機關是地方法院簡易庭；普通庭依第58條處理對簡易庭移送裁定的抗告，不是警察初次直接移送普通庭。",
+          "correction": "改為先移送簡易庭；有法定不服時再循普通庭抗告程序。",
           "trueStatement": false
         },
         {
           "text": "不罰",
-          "explanation": "不能一概不罰，但防身合理攜帶也不能僅憑物品名稱推定違法。",
-          "correction": "不能一概不罰，但防身合理攜帶也不能僅憑物品名稱推定違法。",
+          "explanation": "沒有任何資料證明符合第63條的處罰要件時，不能因名稱就推定有罪；但一概說不罰也忽略具殺傷力且無正當理由或已公告查禁的情況。81年函特別提醒列為警械與已公告查禁並非當然相同。",
+          "correction": "改為「不符合具體處罰要件者不罰，符合第63條者依法移送」；本題完整公告及器物判定仍待核。",
           "trueStatement": false
         }
       ],
@@ -755,20 +791,27 @@
       "answerStatus": "官方Q原卷、S初始答案已核；另核M更正。",
       "amendment": {
         "status": "review",
-        "note": "原卷及當年官方答案已核；本題涉及授權辦法、行政規則、實務解釋或近期修法，現行完整原件逐條對照仍待核，不將當年答案冒稱最新法結論。114.06.11社維法僅修正第9、64、72、89條，須以具體引用條號確認影響，不能僅因全法修正就改原題答案。",
-        "checkedAt": "2026-11-10",
+        "law": "社會秩序維護法第43、45、58、63條；警械使用條例第14條；法務部81年3月11日（81）法律字第03386號函全文",
+        "checkedAt": "2026-11-20",
+        "note": "2026-11-20（Asia/Taipei）核讀。已核社維法第63條第1項第1、8款及第43、45條，並讀法務部81年法律字03386函全文。原題未交代噴霧器成分、是否具殺傷力、正當理由、是否屬公告查禁品；目前未取得能完整涵蓋原題器物及時點的現行公告，不能說凡攜帶一律違法移送。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "先確認器物及行為的處罰要件，再決定移送簡易庭；攜帶、單純持有及依法許可不可混為一談。",
         "sources": [
           {
-            "title": "社會秩序維護法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080067"
+            "title": "社會秩序維護法第43、45、58、63條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
           },
           {
-            "title": "違反社會秩序維護法案件處理辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+            "title": "警械使用條例第14條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+          },
+          {
+            "title": "法務部81年3月11日（81）法律字第03386號函全文",
+            "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE076546&media=print&type=E"
           }
         ]
       },
-      "takeaway": "原題以攜帶違序物品處理，移簡易庭；實際案件仍須認定用途、危險性及有無正當理由，非一律有罪。",
+      "takeaway": "先確認器物及行為的處罰要件，再決定移送簡易庭；攜帶、單純持有及依法許可不可混為一談。",
       "checkedAt": "2026-11-10",
       "sources": [
         {
@@ -786,8 +829,21 @@
         {
           "title": "違反社會秩序維護法案件處理辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080070"
+        },
+        {
+          "title": "社會秩序維護法第43、45、58、63條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080067"
+        },
+        {
+          "title": "警械使用條例第14條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+        },
+        {
+          "title": "法務部81年3月11日（81）法律字第03386號函全文",
+          "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE076546&media=print&type=E"
         }
-      ]
+      ],
+      "currentAnswer": "保留官方B。若符合社維法第63條的危險物或公告查禁器械要件，警察應移送簡易庭；單有「攜帶瓦斯噴霧器」不足排除合法防身等情形。"
     },
     {
       "id": "law113-inner-11",

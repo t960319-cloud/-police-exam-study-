@@ -204,26 +204,26 @@
       "options": [
         {
           "text": "私立醫療機構駐衛警察",
-          "explanation": "正確。經核准之私立醫療機構駐衛警察執勤得依規定準用。",
-          "correction": "當年此敘述無須修正；經核准之私立醫療機構駐衛警察執勤得依規定準用。",
+          "explanation": "私立醫療機構是駐衛警察設置管理辦法第2條所列得申請設置的單位。依法核准設置的駐衛警察於執行職務時，依警械使用條例第13條準用；醫院一般保全或其他員工不因此成為駐衛警察。",
+          "correction": "保留本項，但須具備依法核准設置及執行職務的前提，不能擴及所有醫院警衛。",
           "trueStatement": true
         },
         {
           "text": "警察役役男",
-          "explanation": "正確。警察役役男依法執勤使用警械時依特別規定準用。",
-          "correction": "當年此敘述無須修正；警察役役男依法執勤使用警械時依特別規定準用。",
+          "explanation": "警察役役男使用警械管理辦法第2條明定，執勤遇警械使用條例第2至4條情形得使用警械，其種類、時機、程序及注意事項準用警械使用條例；役男身分本身並非警察官。",
+          "correction": "本項無須改為不準用；依專門辦法確認準用事項，而非直接套用警察人員身分。",
           "trueStatement": true
         },
         {
           "text": "特勤人員",
-          "explanation": "正確。特勤人員依特勤相關法律規定準用。",
-          "correction": "當年此敘述無須修正；特勤人員依特勤相關法律規定準用。",
+          "explanation": "特種勤務條例第13條第2項規定，特勤人員執行特種勤務使用槍械及其他特勤裝備，除該條特別規定外，準用警械使用條例。第3條另區分特勤人員與特勤編組人員。",
+          "correction": "本項成立於法定特勤人員執行特種勤務的範圍；不能只因臨時納入編組便概括取得相同準用資格。",
           "trueStatement": true
         },
         {
           "text": "保全人員",
-          "explanation": "錯誤。保全人員不因保全身分取得準用警械使用條例的資格。",
-          "correction": "保全人員不因保全身分取得準用警械使用條例的資格。",
+          "explanation": "保全人員未因職稱列入警械使用條例第13條的準用人員。警械許可定製售賣持有管理辦法第7條雖容許僱用保全的單位申請購置特定警械，這是持有管理許可，不是授予警察用械職權。",
+          "correction": "D是原題所問的不屬者；改成「保全單位得依法申請持有特定警械，但保全人員不因此準用整部警械使用條例」。",
           "trueStatement": false
         }
       ],
@@ -232,38 +232,43 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等・警察法規概要・第3題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 3,
       "answerStatus": "原卷及官方初答已核；官方索引未列本卷更正答案",
       "amendment": {
-        "status": "review",
-        "note": "保留當年官方給分。修正公布111-10-19，依公布日起施行及中央法規標準法第13條第三日起生效（111-10-21）。本題逐項仍需區分所問條文，未被修正的要件不因整部法修正而一律變錯。 本題另涉及準用或舊行政規則原件，尚待核實，不以修法摘要代替原件。",
+        "status": "none",
+        "law": "警械使用條例第13、14條；各機關學校團體駐衛警察設置管理辦法第2至4條；警察役役男使用警械管理辦法第2、3條；特種勤務條例第3、13條；警械許可定製售賣持有管理辦法第7條",
+        "checkedAt": "2026-11-20",
+        "note": "2026-11-20（Asia/Taipei）核讀。本題身分準用規定仍可由現行警械使用條例第13條、警察役役男使用警械管理辦法第2條及特種勤務條例第13條確認；111年警械使用條例其他條文修正不等於本題準用身分全面變動。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "辨別「準用的身分及職務」與「經許可持有器械」；駐衛警察須依法核准設置。",
         "sources": [
           {
-            "title": "全國法規資料庫・警械使用條例",
+            "title": "警械使用條例第13、14條",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
           },
           {
-            "title": "總統府111年10月19日警械使用條例修正公布",
-            "url": "https://www.president.gov.tw/Page/294/48515"
+            "title": "各機關學校團體駐衛警察設置管理辦法第2至4條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080106"
           },
           {
-            "title": "警政署113年7月8日警械種類修正說明",
-            "url": "https://www.npa.gov.tw/ch/app/data/view?id=2306&module=wg076&serno=c68cb25c-51a7-4927-b3ad-0e59a47de01d"
+            "title": "警察役役男使用警械管理辦法第2、3條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0040030"
+          },
+          {
+            "title": "特種勤務條例第3、13條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030246"
+          },
+          {
+            "title": "警械許可定製售賣持有管理辦法第7條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080046"
           }
-        ],
-        "checkedAt": "2026-11-10",
-        "effectiveStatus": "unverified",
-        "law": "警械使用條例",
-        "date": "111-10-19",
-        "effectiveDate": "111-10-21",
-        "oldRule": "考試時第1條由行政院訂警械種類及規格；第12條設各該級政府給付及故意求償制度。",
-        "newRule": "111年10月修正第1條種類改由內政部定、第4條增逕行射擊四款；第11條區分違法國賠與合法致第三人損失補償，第12條刪除。113年7月8日另將警械種類規格表改名警察機關配備警械種類。"
+        ]
       },
-      "takeaway": "保全人員不因保全身分取得準用警械使用條例的資格。",
+      "takeaway": "辨別「準用的身分及職務」與「經許可持有器械」；駐衛警察須依法核准設置。",
       "sources": [
         {
           "title": "考選部110年內軌四等警察法規概要原卷",
@@ -274,10 +279,27 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1202&q=1"
         },
         {
-          "title": "全國法規資料庫・警械使用條例",
+          "title": "警械使用條例第13、14條",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+        },
+        {
+          "title": "各機關學校團體駐衛警察設置管理辦法第2至4條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080106"
+        },
+        {
+          "title": "警察役役男使用警械管理辦法第2、3條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0040030"
+        },
+        {
+          "title": "特種勤務條例第3、13條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030246"
+        },
+        {
+          "title": "警械許可定製售賣持有管理辦法第7條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080046"
         }
-      ]
+      ],
+      "currentAnswer": "D。保全人員不因保全身分取得警械使用條例的準用資格；經許可持有特定警械與取得公權力是兩回事。"
     },
     {
       "id": "law110-inner-04",
@@ -1897,26 +1919,26 @@
       "options": [
         {
           "text": "適用公務人員行政中立法之規定",
-          "explanation": "錯誤。工友不屬第2條依法任用派用有給專任公務員。",
-          "correction": "工友不屬第2條依法任用派用有給專任公務員。",
+          "explanation": "中立法第2條所稱公務人員是法定機關依法任用、派用的有給專任人員及公立學校依法任用的職員。工友與機關間屬私法僱傭關係，不能因在警察機關工作即納入該條。",
+          "correction": "改為「工友不因任職警察機關而直接適用行政中立法」。",
           "trueStatement": false
         },
         {
           "text": "準用公務人員行政中立法之規定",
-          "explanation": "錯誤。工友未列第17條法定準用人員，勿與依法僱用人員混淆。",
-          "correction": "工友未列第17條法定準用人員，勿與依法僱用人員混淆。",
+          "explanation": "第17條第5款的依法聘用、僱用人員，不能單看「僱用」二字而包括工友。銓敘部114年Q&A第14題明確說明技工、工友、駕駛及一般臨時人員未列為適用或準用對象。",
+          "correction": "改為「工友依工友管理要點等辦理中立事項，不是第17條所稱依法僱用人員」。",
           "trueStatement": false
         },
         {
           "text": "另依行政規則規範之",
-          "explanation": "正確。工友行政中立另依工友管理相關行政規則辦理。",
-          "correction": "當年此敘述無須修正；工友行政中立另依工友管理相關行政規則辦理。",
+          "explanation": "工友管理要點第8點准許加入政黨，但禁止介入黨政派系紛爭、上班或服勤時從事政黨活動、動用行政資源助選等；違反者依工作規則、勞動契約及考核獎懲處理，故屬另依行政規則規範。",
+          "correction": "本項無須修正；應補記具體依據為工友管理要點第8點，並依適用的地方或機關工作規則辦理。",
           "trueStatement": true
         },
         {
           "text": "無須行政中立",
-          "explanation": "錯誤。非直接適用不等於沒有行政中立規範。",
-          "correction": "非直接適用不等於沒有行政中立規範。",
+          "explanation": "中立法未將工友列為適用或準用人員，不代表沒有中立義務。工友管理要點第8點已明定辦理事務應維持中立，也保留涉及其他法律責任時依各該法律處理。",
+          "correction": "改為「仍須遵守工友管理要點及工作規則、勞動契約等行政中立規範」。",
           "trueStatement": false
         }
       ],
@@ -1925,25 +1947,35 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等・警察法規概要・第25題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 25,
       "answerStatus": "原卷及官方初答已核；官方索引未列本卷更正答案",
       "amendment": {
-        "status": "review",
-        "note": "當年原題及官方答案已核；涉及行政規則、特別準用或歷史人事條文，尚未取得完整對應原件或版本對照，現行結論保留待核，不能只按當年答案推定至今相同。",
+        "status": "none",
+        "law": "公務人員行政中立法第2、17條；人事行政總處115年1月工友管理法規釋例彙編：工友管理要點第8點；銓敘部114年8月行政中立法Q&A第14題",
+        "checkedAt": "2026-11-20",
+        "note": "2026-11-20（Asia/Taipei）核讀。已讀現行行政中立法第2、17條，並讀人事行政總處115年1月工友管理法規釋例彙編所收工友管理要點全文第8點及銓敘部114年8月Q&A第14題；未把「依法僱用人員」誤當所有私法勞動契約工友。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "工友不是中立法第2條直接適用或第17條法定準用的對象，但有行政規則及勞動關係上的中立義務。",
         "sources": [
           {
-            "title": "全國法規資料庫・公務人員行政中立法",
+            "title": "公務人員行政中立法第2、17條",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110036"
+          },
+          {
+            "title": "人事行政總處115年1月工友管理法規釋例彙編：工友管理要點第8點",
+            "url": "https://www.dgpa.gov.tw/ebook/book008/files/downloads/1150106%E5%B7%A5%E5%8F%8B%E7%AE%A1%E7%90%86%E6%B3%95%E8%A6%8F%E9%87%8B%E4%BE%8B%E5%BD%99%E7%B7%A8-%E9%9B%BB%E5%AD%90%E6%9B%B8.pdf"
+          },
+          {
+            "title": "銓敘部114年8月行政中立法Q&A第14題",
+            "url": "https://www.mocs.gov.tw/FileUpload/111-14015/Documents/11408%E4%B8%AD%E7%AB%8B%E6%B3%95Q%26A%E5%B0%88%E8%BC%AF.pdf"
           }
-        ],
-        "checkedAt": "2026-11-10",
-        "effectiveStatus": "unverified"
+        ]
       },
-      "takeaway": "工友行政中立另依工友管理相關行政規則辦理。",
+      "takeaway": "工友不是中立法第2條直接適用或第17條法定準用的對象，但有行政規則及勞動關係上的中立義務。",
       "sources": [
         {
           "title": "考選部110年內軌四等警察法規概要原卷",
@@ -1954,14 +1986,23 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110070&c=601&s=1202&q=1"
         },
         {
-          "title": "全國法規資料庫・公務人員行政中立法",
+          "title": "公務人員行政中立法第2、17條",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110036"
         },
         {
           "title": "全國法規資料庫・行政中立法施行細則",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110037"
+        },
+        {
+          "title": "人事行政總處115年1月工友管理法規釋例彙編：工友管理要點第8點",
+          "url": "https://www.dgpa.gov.tw/ebook/book008/files/downloads/1150106%E5%B7%A5%E5%8F%8B%E7%AE%A1%E7%90%86%E6%B3%95%E8%A6%8F%E9%87%8B%E4%BE%8B%E5%BD%99%E7%B7%A8-%E9%9B%BB%E5%AD%90%E6%9B%B8.pdf"
+        },
+        {
+          "title": "銓敘部114年8月行政中立法Q&A第14題",
+          "url": "https://www.mocs.gov.tw/FileUpload/111-14015/Documents/11408%E4%B8%AD%E7%AB%8B%E6%B3%95Q%26A%E5%B0%88%E8%BC%AF.pdf"
         }
-      ]
+      ],
+      "currentAnswer": "C。工友另依工友管理要點、工作規則及勞動契約等規範維持行政中立。"
     }
   ],
   "essays": [

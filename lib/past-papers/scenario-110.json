@@ -23,26 +23,26 @@
       "options": [
         {
           "text": "特殊刑案",
-          "explanation": "原卷對物或場所槍擊列為特殊刑案；不以有人傷亡為必要。",
-          "correction": "本題無須修正，仍須核對現行手冊分類。",
+          "explanation": "勤務指揮中心附件一第四類(二)4明列對物或場所槍擊；115手冊第23點第(二)款第2目亦將槍擊案件列為特殊。本案營業場所大門遭槍擊相合。",
+          "correction": "A無須修正；若再查有其他重大犯罪，並依實際案情處理及通報。",
           "trueStatement": true
         },
         {
           "text": "重大刑案",
-          "explanation": "不能僅因使用槍械，就忽略本題對物槍擊的特定通報分類。",
-          "correction": "依原卷以特殊刑案陳報。",
+          "explanation": "附件一第四類(一)重大刑案列故意殺人、強盜、重大恐嚇取財等；本題僅對場所槍擊未交代此等犯行，不能取代明列特殊案類。",
+          "correction": "依已知案情列特殊；如另有重大恐嚇取財等事實，另行並列或調整。",
           "trueStatement": false
         },
         {
           "text": "一般刑案",
-          "explanation": "無傷亡不等於一般刑案；槍擊場所仍高度影響治安。",
-          "correction": "改為特殊刑案。",
+          "explanation": "對物或場所槍擊已被明列為特殊刑案，不能因無人傷亡改作一般刑案。",
+          "correction": "改列特殊刑案。",
           "trueStatement": false
         },
         {
           "text": "牽連廣泛之普通刑案",
-          "explanation": "牽連廣泛的分類不能取代本題已明列的對物槍擊。",
-          "correction": "依特定分類辦理並逐級通報。",
+          "explanation": "題目未呈現牽連廣泛情節；且已有對場所槍擊的特殊刑案明文分類。",
+          "correction": "不用推測牽連範圍來取代具體案類，依附件一及手冊明文。",
           "trueStatement": false
         }
       ],
@@ -51,18 +51,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等・警察情境實務概要・第1題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 1,
       "answerStatus": "原卷、官方初答及最終更正已核",
       "amendment": {
-        "status": "review",
-        "note": "原卷與官方答案已核；對物槍擊的現行分類、通報層級及時限，仍須核對115年警察偵查犯罪手冊原件。不要只因原卷答案A便認定現行全部通報流程相同。",
-        "sources": []
+        "status": "none",
+        "law": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）；臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件",
+        "checkedAt": "2026-11-20",
+        "note": "已核完整勤務指揮中心規定附件一第四類及115手冊第23點；對物槍擊之特殊刑案分類有直接原文。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "對物、場所槍擊仍是特殊刑案。",
+        "sources": [
+          {
+            "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+          },
+          {
+            "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ]
       },
-      "takeaway": "原卷對物或場所槍擊列為特殊刑案；不以有人傷亡為必要。",
+      "takeaway": "對物、場所槍擊仍是特殊刑案。",
       "sources": [
         {
           "title": "考選部110年內軌四等警察情境實務概要原卷",
@@ -75,8 +88,17 @@
         {
           "title": "考選部最終更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
+        },
+        {
+          "title": "臺灣警察專科學校行政警察科・111.12.20警察機關勤務指揮中心作業規定全文及附件（25頁）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VWJZZ1JxeS8zQmh0MUtsemIyYVFwK2xLVTR4TFE5dGNDOUFWU2ZWZ2RPZ1Bwa2lVWndHaWFVWGs4VkZ4WE13ckU3LzBENlFyMDF6YTg3YlZHTi96akNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=ckFVU21mT1Roa2JxdW1rOTJSVDVuT0tzNFo3bXN5bXJ1Y1lKSnhRdy9pTElZeTFQR1FicFlURm4rZXBYWVNYRUR1ODhpcHBjMUhyaGhCZXNiajdFR1h1Wnd1NnlrR3JCdmRITUtvcHdpVGtXRmdNZU9FQmluczdWQjd4R3lxNVl3Ui92SEZDQUFRc2lCQUNmUjlrUGdBK0trTmNhUk4rUjlmN3BOT3lFL3RFcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=967"
+        },
+        {
+          "title": "臺灣警察專科學校刑事警察科・公開標示115年新版偵查犯罪手冊完整附件",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "保留官方答案A；對物或場所槍擊，包含對空及警告性鳴槍，屬特殊刑案；有無人受傷不是唯一分類標準。"
     },
     {
       "id": "scene110-02",
@@ -231,26 +253,26 @@
       "options": [
         {
           "text": "查訪治安顧慮人口及記事人口，掌握其動態",
-          "explanation": "治安顧慮人口與記事人口須各依合法查訪依據，不能任意擴增對象。",
-          "correction": "本題脈絡無須修正；個別法源及資料用途仍須審查。",
+          "explanation": "治安顧慮人口查訪辦法第3、4條列工作、交往、生活等必要資料及定期查訪；一般訪查對記事對象仍須依其個別特別法，不可任意擴張。",
+          "correction": "本項可作合法訪查目標；掌握動態限法定必要範圍及適當方式。",
           "trueStatement": true
         },
         {
           "text": "提供民眾住宅安全防竊檢測服務",
-          "explanation": "提供住宅安全評估屬犯罪預防及為民服務；應尊重受訪人意思。",
-          "correction": "經同意提供防竊檢測，不得藉機強制進屋。",
+          "explanation": "訪查辦法第9條第3款允為指導家戶社區治安，提供治安評估服務，住宅安全防竊檢測可在同意及適當範圍內辦理。",
+          "correction": "須尊重受訪者權益並取得進入同意，不得強制檢測。",
           "trueStatement": true
         },
         {
           "text": "與諮詢對象如里長、民力等聯繫互動，蒐集轄區治安資訊",
-          "explanation": "與里長、民力互動可蒐集社區治安資訊，但仍受目的必要性及個資限制。",
-          "correction": "本題無須修正。",
+          "explanation": "訪查辦法第3條第1、3款及第9條允社區治安聯繫互動與諮詢；應遵守第4條必要及正當關聯、第10條個資保密。",
+          "correction": "C無須依題意修正；不能以諮詢合作迴避個資目的限制。",
           "trueStatement": true
         },
         {
           "text": "查訪時得隨意進入民宅，並可與被約訪民眾約在 22 時後實施",
-          "explanation": "訪查不是進入住宅的強制權；應經同意引導。題內作業規範的另約時間也不是可任意排在22時後。",
-          "correction": "刪除隨意進宅及22時後，改為經同意、按法定及勤務時間限制訪查。",
+          "explanation": "訪查辦法第6條要求經住居人等同意並引導始得進入；第7條原則日間，但另約時間者例外，仍不得干擾正常作息。治安顧慮人口辦法第6條亦允另約。",
+          "correction": "刪除隨意進入。22時後非絕對禁止，須有事先約定及不干擾作息等條件，不能將D全句每一段都說成違法。",
           "trueStatement": false
         }
       ],
@@ -259,27 +281,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等・警察情境實務概要・第4題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 4,
       "answerStatus": "原卷、官方初答及最終更正已核",
       "amendment": {
-        "status": "review",
-        "note": "訪查辦法的同意進入、日間及另約時間原則已核；題內22時界線涉及警勤區訪查作業規定，最新完整原件仍待核對。無論何版均不得任意進入民宅。",
+        "status": "none",
+        "law": "全國法規資料庫・警察勤務區訪查辦法；全國法規資料庫・治安顧慮人口查訪辦法",
+        "checkedAt": "2026-11-20",
+        "note": "已核訪查辦法全文及治安顧慮人口查訪辦法全文；本題D同時混入無同意進入與夜間約定，兩部分分開判斷。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "訪查進入要同意引導；夜間可另約，仍避干擾。",
         "sources": [
           {
-            "title": "警察勤務區訪查辦法",
+            "title": "全國法規資料庫・警察勤務區訪查辦法",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
           },
           {
-            "title": "治安顧慮人口查訪辦法",
+            "title": "全國法規資料庫・治安顧慮人口查訪辦法",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
           }
         ]
       },
-      "takeaway": "訪查不是進入住宅的強制權；應經同意引導。題內作業規範的另約時間也不是可任意排在22時後。",
+      "takeaway": "訪查進入要同意引導；夜間可另約，仍避干擾。",
       "sources": [
         {
           "title": "考選部110年內軌四等警察情境實務概要原卷",
@@ -294,14 +320,15 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110070&c=601&s=1205&q=1"
         },
         {
-          "title": "警察勤務區訪查辦法",
+          "title": "全國法規資料庫・警察勤務區訪查辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
         },
         {
-          "title": "治安顧慮人口查訪辦法",
+          "title": "全國法規資料庫・治安顧慮人口查訪辦法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D；不得隨意進宅。與受訪者另約夜間並非一概違法，但仍須避免干擾正常作息，不能用夜間約定治癒擅自進入。"
     },
     {
       "id": "scene110-05",

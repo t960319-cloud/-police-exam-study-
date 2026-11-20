@@ -1036,26 +1036,26 @@
       "options": [
         {
           "text": "對於現場附近之環境、交通狀況及案發當時之天候、風向、氣溫、照明等進行必要之觀察",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：先聽取初抵人員或分駐派出所主管對發現經過與初步處理的報告，再部署調查。",
+          "explanation": "手冊第66點第2款把天候、交通及環境觀察列為調查組具體任務；第64點第2項的首要指揮交接則是先聽初抵人員報告。",
+          "correction": "環境觀察要做，但就題目抵達後「首應」之順序，先接收初抵員警報告再安排。",
           "trueStatement": false
         },
         {
           "text": "注意週期性出現之人、事、物查訪",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：先聽取初抵人員或分駐派出所主管對發現經過與初步處理的報告，再部署調查。",
+          "explanation": "週期出現的人、事、物查訪同屬第66點第2款的調查工作，不是取代現場狀況交接的第一步。",
+          "correction": "先掌握已作處理及調查，再依現場需要查訪週期出現之人事物。",
           "trueStatement": false
         },
         {
           "text": "訪問被害人、報案人、發現人或其他關係人，瞭解案發時及案發前後，有無發現任何可疑之人、事、 物等，俾發掘可能之線索",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：先聽取初抵人員或分駐派出所主管對發現經過與初步處理的報告，再部署調查。",
+          "explanation": "訪問被害人、報案人及其他關係人列於第66點第1款，屬後續現場調查的重要工作；仍應先完成第64點的報告交接。",
+          "correction": "接收初步報告後，再分派或實施關係人訪問，避免重複及漏接已知線索。",
           "trueStatement": false
         },
         {
           "text": "聽取最先抵達現場人員或分駐所或派出所所長報告現場發現或發生經過、初步處理及調查情形",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "先聽取初抵人員或分駐派出所主管對發現經過與初步處理的報告，再部署調查。",
+          "explanation": "第64點第2項明定相關指揮人員抵達現場後，首應聽最先抵達現場人員或所長報告發生經過、初步處理及調查。普通案由偵查隊負責，本題按此現場交接原則選D。",
+          "correction": "先聽報告、掌握現場及已採措施，再依第65、66點部署人員及具體調查任務。",
           "trueStatement": true
         }
       ],
@@ -1066,19 +1066,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第13題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 13,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "警專公開115年新版警察偵查犯罪手冊；警專刑事警察科・115年手冊官方附件入口",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "現場指揮人員先聽初抵員警報告，掌握已知案情、處理與現場變動，再部署調查組的觀察、訪問及搜尋。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "警專刑事警察科・115年手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "先聽取初抵人員或分駐派出所主管對發現經過與初步處理的報告，再部署調查。",
+      "takeaway": "現場指揮人員先聽初抵員警報告，掌握已知案情、處理與現場變動，再部署調查組的觀察、訪問及搜尋。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -1091,8 +1103,17 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113060&t=A"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D不變。現場指揮人員先聽初抵員警報告，掌握已知案情、處理與現場變動，再部署調查組的觀察、訪問及搜尋。"
     },
     {
       "id": "investigation113_14",
@@ -2411,26 +2432,26 @@
       "options": [
         {
           "text": "砸毀他人車輛案件",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：偷竊一般遊客錢包不屬本題告訴乃論；親屬間財產犯罪另有特別規定。",
+          "explanation": "刑法第354條一般毀損他人物品，依第357條須告訴乃論。題示一般砸毀車輛，在無其他加重或另罪事實下，屬此類。",
+          "correction": "毀損車輛通常依第354、357條告訴乃論；若另具公共危險等其他犯罪要件，須分罪判斷，不能概括為所有砸車都只能告訴。",
           "trueStatement": true
         },
         {
           "text": "車禍不慎造成他人受傷案件",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：偷竊一般遊客錢包不屬本題告訴乃論；親屬間財產犯罪另有特別規定。",
+          "explanation": "車禍過失造成他人傷害，屬刑法第284條過失傷害；第287條明定第284條之罪須告訴乃論。",
+          "correction": "本項過失傷害須告訴乃論；若造成死亡或另涉其他罪，不能沿用同一結論。",
           "trueStatement": true
         },
         {
           "text": "趁人不及抗拒親吻案件",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：偷竊一般遊客錢包不屬本題告訴乃論；親屬間財產犯罪另有特別規定。",
+          "explanation": "性騷擾防治法第25條第1項以意圖性騷擾、乘人不及抗拒親吻等行為為要件，第2項明定須告訴乃論。若情節已構成刑法強制猥褻等性侵害，應另判，不是一切親吻都屬此條。",
+          "correction": "在題目所指乘不及抗拒之性騷擾類型內，須告訴乃論；勿將此例外擴成所有強制或違反意願親吻均須告訴。",
           "trueStatement": true
         },
         {
           "text": "偷竊遊客錢包案件",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "偷竊一般遊客錢包不屬本題告訴乃論；親屬間財產犯罪另有特別規定。",
+          "explanation": "刑法第320條一般竊盜沒有概括告訴乃論要求；第324條第2項另對特定親屬間竊盜設例外。題示一般偷竊遊客錢包，未具該親屬例外。",
+          "correction": "一般遊客錢包竊盜應依法調查移送，不以被害人提出告訴為訴追必要條件；特定親屬案件另依第324條。",
           "trueStatement": false
         }
       ],
@@ -2441,19 +2462,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第30題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 30,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "中華民國刑法；性騷擾防治法",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "一般竊取遊客錢包屬非告訴乃論。毀損、過失傷害及符合性騷擾法第25條的乘不及抗拒親吻，則各有告訴乃論規定及適用界線。",
+        "sources": [
+          {
+            "title": "中華民國刑法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+          },
+          {
+            "title": "性騷擾防治法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050074"
+          }
+        ]
       },
-      "takeaway": "偷竊一般遊客錢包不屬本題告訴乃論；親屬間財產犯罪另有特別規定。",
+      "takeaway": "一般竊取遊客錢包屬非告訴乃論。毀損、過失傷害及符合性騷擾法第25條的乘不及抗拒親吻，則各有告訴乃論規定及適用界線。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -2466,8 +2499,17 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113060&t=A"
+        },
+        {
+          "title": "中華民國刑法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+        },
+        {
+          "title": "性騷擾防治法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050074"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D不變。一般竊取遊客錢包屬非告訴乃論。毀損、過失傷害及符合性騷擾法第25條的乘不及抗拒親吻，則各有告訴乃論規定及適用界線。"
     },
     {
       "id": "investigation113_31",
@@ -2479,26 +2521,26 @@
       "options": [
         {
           "text": "於國外甲地交付金錢（如美金），於國內乙地收付金錢（如新臺幣），中間並未透過銀行匯出",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "兩地收付不同幣別、以帳面抵銷移轉資金而未經許可的匯兌，是本題所指地下匯兌。",
+          "explanation": "調查局「銀行防制地下通匯指引」第2、3部分說明，不經現金輸送，藉他地特定人資金清算，經常替客戶收付異地款項即屬匯兌模式。本項境外收外幣、境內付臺幣的兩地結算正合此型態。",
+          "correction": "在有經營業務且無法律特許的前提下，A為地下匯兌；銀行法第29條第1項仍保留「法律另有規定」例外，原題概括說任何個人或公司都不得辦理，不能當成無例外法律命題。",
           "trueStatement": true
         },
         {
           "text": "於國內與銀樓業者配合假裝刷信用卡購買黃金，實際上是銀樓業者直接給付金錢",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：兩地收付不同幣別、以帳面抵銷移轉資金而未經許可的匯兌，是本題所指地下匯兌。",
+          "explanation": "刷卡假買黃金而實際交付現金，題示重點為刷卡換現，沒有記載替客戶辦理異地款項收付與兩地資金清算。",
+          "correction": "此描述本身不足認定匯兌；若另有詐欺、違約或金融違法事實，須分別調查，不能由未選本項推成行為合法。",
           "trueStatement": false
         },
         {
           "text": "於國外購買大量高單價奢侈品，委託航空公司空服員或工作人員利用職務之便，攜行通關，避免 關稅",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：兩地收付不同幣別、以帳面抵銷移轉資金而未經許可的匯兌，是本題所指地下匯兌。",
+          "explanation": "利用航空人員夾帶奢侈品規避關稅，題示是貨物通關問題，沒有指明為客戶移轉兩地款項。",
+          "correction": "本項描述不足認定地下匯兌；涉及的通關、稅捐或其他犯罪應依具體事實另判。",
           "trueStatement": false
         },
         {
           "text": "於國內與虛擬通貨個人業者（俗稱幣商），私下進行交易",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：兩地收付不同幣別、以帳面抵銷移轉資金而未經許可的匯兌，是本題所指地下匯兌。",
+          "explanation": "私下與幣商交易虛擬資產，尚未交代替客戶異地代收、代付或兩地清算的業務事實，不能僅憑私下交易就認定地下匯兌。",
+          "correction": "應查明實際金流與服務內容；虛擬資產若被用於替客戶經常辦理異地款項移轉，仍可能涉及匯兌，不能一概排除。",
           "trueStatement": false
         }
       ],
@@ -2509,19 +2551,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第31題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 31,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "銀行法；法務部調查局・銀行防制地下通匯指引（地下通匯刑事責任及運作方式）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "地下匯兌重點在經常替客戶辦理異地款項收付，藉兩地資金清算完成移轉；不必有實體現鈔或銀行匯款跨境流動。",
+        "sources": [
+          {
+            "title": "銀行法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0380001"
+          },
+          {
+            "title": "法務部調查局・銀行防制地下通匯指引（地下通匯刑事責任及運作方式）",
+            "url": "https://www.mjib.gov.tw/EditPage/?PageID=e9302a06-6f0e-472b-b67c-2cea81cadb05"
+          }
+        ]
       },
-      "takeaway": "兩地收付不同幣別、以帳面抵銷移轉資金而未經許可的匯兌，是本題所指地下匯兌。",
+      "takeaway": "地下匯兌重點在經常替客戶辦理異地款項收付，藉兩地資金清算完成移轉；不必有實體現鈔或銀行匯款跨境流動。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -2534,8 +2588,17 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113060&t=A"
+        },
+        {
+          "title": "銀行法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0380001"
+        },
+        {
+          "title": "法務部調查局・銀行防制地下通匯指引（地下通匯刑事責任及運作方式）",
+          "url": "https://www.mjib.gov.tw/EditPage/?PageID=e9302a06-6f0e-472b-b67c-2cea81cadb05"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A不變。地下匯兌重點在經常替客戶辦理異地款項收付，藉兩地資金清算完成移轉；不必有實體現鈔或銀行匯款跨境流動。"
     },
     {
       "id": "investigation113_32",
@@ -2712,26 +2775,26 @@
       "options": [
         {
           "text": "原採樣本無法取得足以識別基因特徵之資料",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：已有證明原則得拒絕重採，但法定例外另定；樣本資料與另一樣本重複不是本題列舉的重採理由。",
+          "explanation": "DNA採樣條例第8條第2項第1款正是原採樣本無法取得足以識別基因特徵資料，此時不適用出具證明書拒採的原則。",
+          "correction": "屬得再次採樣的法定例外，並非本題欲選的例外以外情形。",
           "trueStatement": true
         },
         {
           "text": "有事實足認原採樣本可能非受採樣人所有",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：已有證明原則得拒絕重採，但法定例外另定；樣本資料與另一樣本重複不是本題列舉的重採理由。",
+          "explanation": "第8條第2項第2款明列，有事實足認原樣本可能非受採樣人所有時，仍得依法再採。",
+          "correction": "須有具體事實支持樣本身分可疑，不能無理由僅以懷疑反覆採樣。",
           "trueStatement": true
         },
         {
           "text": "原採樣本與另一樣本資料有重複情形",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "已有證明原則得拒絕重採，但法定例外另定；樣本資料與另一樣本重複不是本題列舉的重採理由。",
+          "explanation": "第8條第2項三款沒有列「與另一樣本資料重複」。單純資料重複不能自動等同資料不足、非本人樣本或紀錄滅失。",
+          "correction": "在沒有其他法定例外事實下，仍得出具採樣證明書拒絕再次採樣；若重複情形另有事實足認非本人樣本，才另依第2款判斷。",
           "trueStatement": false
         },
         {
           "text": "由原採樣本取得之去氧核醣核酸紀錄滅失",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：已有證明原則得拒絕重採，但法定例外另定；樣本資料與另一樣本重複不是本題列舉的重採理由。",
+          "explanation": "第8條第2項第3款明列由原樣本取得的DNA紀錄滅失，屬得再採樣的例外。",
+          "correction": "應確認是紀錄滅失；不是因已有其他重複紀錄便可逕行套用。",
           "trueStatement": true
         }
       ],
@@ -2742,19 +2805,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第34題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 34,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "去氧核醣核酸採樣條例",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "DNA採樣證明書原則可用來拒絕重複採樣；第8條第2項僅列資料不足、樣本身分可疑及紀錄滅失三個例外。",
+        "sources": [
+          {
+            "title": "去氧核醣核酸採樣條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080186"
+          }
+        ]
       },
-      "takeaway": "已有證明原則得拒絕重採，但法定例外另定；樣本資料與另一樣本重複不是本題列舉的重採理由。",
+      "takeaway": "DNA採樣證明書原則可用來拒絕重複採樣；第8條第2項僅列資料不足、樣本身分可疑及紀錄滅失三個例外。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -2767,8 +2838,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113060&t=A"
+        },
+        {
+          "title": "去氧核醣核酸採樣條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080186"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C（不是不得拒絕再次採樣的法定例外）不變。DNA採樣證明書原則可用來拒絕重複採樣；第8條第2項僅列資料不足、樣本身分可疑及紀錄滅失三個例外。"
     },
     {
       "id": "investigation113_35",
@@ -3231,26 +3307,26 @@
       "options": [
         {
           "text": "製造或輸入偽藥或禁藥者",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：過失致死不在本題列舉可聲請監察的罪嫌範圍；仍須符合關連性與最後手段性。",
+          "explanation": "通保法第5條第1項第5款明列藥事法第82條第1項及其未遂等罪；製造或輸入偽藥、禁藥屬其列舉範圍。",
+          "correction": "此類罪名可以進入通訊監察的法定審查，仍須滿足第5條本文其他必要條件並依法聲請。",
           "trueStatement": true
         },
         {
           "text": "引誘兒童或少年為有對價之性交或猥褻行為者",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：過失致死不在本題列舉可聲請監察的罪嫌範圍；仍須符合關連性與最後手段性。",
+          "explanation": "引誘兒少為有對價性交或猥褻，屬兒少性剝削條例第32條第1項類型；通保法第5條第1項第12款明列該條項。",
+          "correction": "屬得聲請的列舉罪嫌；法條列舉並不代表每件案件都可自動核准監聽。",
           "trueStatement": true
         },
         {
           "text": "意圖為自己或第三人不法之所有，以恐嚇使人將本人或第三人之物交付者",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：過失致死不在本題列舉可聲請監察的罪嫌範圍；仍須符合關連性與最後手段性。",
+          "explanation": "意圖不法所有，以恐嚇使人交付財物是刑法第346條恐嚇取財；通保法第5條第1項第2款明列此罪。",
+          "correction": "本罪已列舉，不因其最輕本刑未達第1款標準就一概不能聲請。",
           "trueStatement": true
         },
         {
           "text": "因過失致人於死者",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "過失致死不在本題列舉可聲請監察的罪嫌範圍；仍須符合關連性與最後手段性。",
+          "explanation": "刑法第276條單純過失致死並非最輕本刑3年以上之罪，也未列於通保法第5條第1項其餘各款。死亡結果本身不能取代列舉罪名要求。",
+          "correction": "單憑過失致死嫌疑，不能依第5條核發通訊監察書；若另具其他法定罪嫌，應另外審查。",
           "trueStatement": false
         }
       ],
@@ -3261,19 +3337,35 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第40題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 40,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "通訊保障及監察法；中華民國刑法；兒童及少年性剝削防制條例",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "通訊監察不只看罪名是否列舉，還須符合重大危害、通訊關聯及不能或難以其他方法取證。單純過失致死不在第5條所列罪嫌內。",
+        "sources": [
+          {
+            "title": "通訊保障及監察法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+          },
+          {
+            "title": "中華民國刑法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+          },
+          {
+            "title": "兒童及少年性剝削防制條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050023"
+          }
+        ]
       },
-      "takeaway": "過失致死不在本題列舉可聲請監察的罪嫌範圍；仍須符合關連性與最後手段性。",
+      "takeaway": "通訊監察不只看罪名是否列舉，還須符合重大危害、通訊關聯及不能或難以其他方法取證。單純過失致死不在第5條所列罪嫌內。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -3286,8 +3378,21 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113060&t=A"
+        },
+        {
+          "title": "通訊保障及監察法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+        },
+        {
+          "title": "中華民國刑法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+        },
+        {
+          "title": "兒童及少年性剝削防制條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050023"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D不變。通訊監察不只看罪名是否列舉，還須符合重大危害、通訊關聯及不能或難以其他方法取證。單純過失致死不在第5條所列罪嫌內。"
     },
     {
       "id": "investigation113_41",

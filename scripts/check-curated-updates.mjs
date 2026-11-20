@@ -57,7 +57,7 @@ console.log('Missing-person source review preserves conditional deadlines, withd
 // Official missing-person rules: retain historical keys and the limits on children and follow-up.
 const missingLaw=result.laws.find(l=>l.id==='missing');assert(missingLaw);assert(missingLaw.verified);assert(missingLaw.sources.some(s=>s.url.endsWith('/F1000200')));assert(missingLaw.points.some(p=>p.includes('7日內')&&p.includes('3個月')&&p.includes('3年以上')));assert(missingLaw.traps.some(p=>p.includes('24小時不是報案等待期')));
 for(const [id,answer] of [['duty112_20',2],['scene115-09',2]]){const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.answer,answer);assert(q.verified);assert(q.currentAnswer);}
-const familyCase=result.questions.find(q=>q.id==='scene113-04');assert(familyCase);assert.equal(familyCase.answer,0);assert.equal(familyCase.verified,false);assert(familyCase.currentAnswer.includes('其他緊急事由')||familyCase.currentAnswer.includes('急迫事由'));
+const familyCase=result.questions.find(q=>q.id==='scene113-04');assert(familyCase);assert.equal(familyCase.answer,0);assert.equal(familyCase.verified,true);assert(familyCase.currentAnswer.includes('其他重大急迫情事'));assert(familyCase.options[0].correction.includes('不得因A不屬自動緊急就拒絕報案'));
 const missingEssayFollowup=result.essays.find(e=>e.id==='s03');assert(missingEssayFollowup);assert(missingEssayFollowup.model.analysis.includes('7日內'));assert(missingEssayFollowup.model.analysis.includes('每3個月'));assert(missingEssayFollowup.model.analysis.includes('每年1次'));
 console.log('Official missing-person cases, family exception, follow-up and original answers passed.');
 // Restraints and repeal have distinct scopes; an old escort regulation cannot be cited as current.
@@ -70,8 +70,8 @@ const chaseLaw=result.laws.find(l=>l.id==='chase');assert(chaseLaw);assert.equal
 const chaseEssay=result.essays.find(e=>e.id==='duty111_s01');assert(chaseEssay);assert.equal(chaseEssay.verified,false);assert(chaseEssay.model.analysis.includes('單憑逃逸或慌張不當然構成現行犯'));assert(chaseEssay.model.analysis.includes('最新完整SOP'));
 console.log('Chase legal basis, safety limits and unresolved SOP version passed.');
 // A refusal warning is still required; consensual sampling is separate from compelled sampling.
-const bloodConsent=result.questions.find(q=>q.id==='duty113_04');assert(bloodConsent);assert.equal(bloodConsent.answer,2);assert(bloodConsent.currentAnswer.includes('受測者同意'));assert.equal(bloodConsent.verified,false);
-const breathNotice=result.questions.find(q=>q.id==='duty114_06');assert(breathNotice);assert.equal(breathNotice.answer,2);assert(breathNotice.options[2].correction.includes('拒測應告知法律效果'));assert.equal(breathNotice.verified,false);
+const bloodConsent=result.questions.find(q=>q.id==='duty113_04');assert(bloodConsent);assert.equal(bloodConsent.answer,2);assert(bloodConsent.currentAnswer.includes('本人同意'));assert.equal(bloodConsent.verified,false);
+const breathNotice=result.questions.find(q=>q.id==='duty114_06');assert(breathNotice);assert.equal(breathNotice.answer,2);assert(breathNotice.options[2].explanation.includes('拒測時應當場告知'));assert.equal(breathNotice.verified,false);
 const oldBlood=result.questions.find(q=>q.id==='scene110-17');assert(oldBlood);assert.equal(oldBlood.answer,1);assert.equal(oldBlood.verified,false);assert(oldBlood.currentAnswer.includes('本人同意'));
 console.log('Consent, refusal notification, phased enactment and original blood-question answers passed.');
 // Historical exam answers do not establish the missing national rules' current full text.
@@ -87,7 +87,7 @@ const domestic=result.questions.find(q=>q.id==='investigation115_14');assert(dom
 const gpsPeriod=result.questions.find(q=>q.id==='investigation115_24');assert(gpsPeriod.currentAnswer.includes('不足24小時以1日計'));assert(gpsPeriod.currentAnswer.includes('期滿2日前'));
 // The later fifty-question review resolves the full notice branches in article 153-7.
 const gpsNotice=result.questions.find(q=>q.id==='investigation115_25');assert.equal(gpsNotice.answer,1);assert.equal(gpsNotice.verified,true);assert.notEqual(gpsNotice.analysisMode,'answer-key');assert(gpsNotice.options[0].correction.includes('法院許可或補行許可'));assert(gpsNotice.currentAnswer.includes('短期免法院許可'));assert(gpsNotice.amendment.sources.some(s=>s.url.includes('C0010001')));
-const passenger=result.questions.find(q=>q.id==='duty112_24');assert.equal(passenger.answer,1);assert.equal(passenger.verified,false);assert(passenger.currentAnswer.includes('駕駛人測得'));assert(passenger.currentAnswer.includes('30日內'));
+const passenger=result.questions.find(q=>q.id==='duty112_24');assert.equal(passenger.answer,1);assert.equal(passenger.verified,true);assert(passenger.currentAnswer.includes('駕駛人測得'));assert(passenger.currentAnswer.includes('30日內'));assert(passenger.options[0].explanation.includes('0.25'));
 console.log('Statute-backed options, GPS notice branches, passenger prerequisites and original answers passed.');
 // Statutory investigation corrections preserve the historic keys and show all option explanations.
 for(const [id,answer] of [['investigation114_06',3],['investigation114_16',0],['investigation114_19',1],['investigation114_39',1],['investigation114_44',1],['investigation114_48',0]]){
@@ -101,13 +101,13 @@ for(const [id,answer] of [['investigation111_12',3],['investigation111_31',3],['
  const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.answer,answer);assert(q.verified);assert.notEqual(q.analysisMode,'answer-key');assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()));
 }
 const urgentMonitoring=result.questions.find(q=>q.id==='investigation112_09');assert.equal(urgentMonitoring.answer,3);assert.equal(urgentMonitoring.verified,true);assert(urgentMonitoring.currentAnswer.includes('24小時'));assert(urgentMonitoring.currentAnswer.includes('48小時'));assert(urgentMonitoring.options[3].correction.includes('檢察官陳報法院'));
-const stalking=result.questions.find(q=>q.id==='investigation114_27');assert.equal(stalking.answer,0);assert.equal(stalking.verified,false);assert(stalking.currentAnswer.includes('第3條第2項'));assert(stalking.currentAnswer.includes('性別無關'));
+const stalking=result.questions.find(q=>q.id==='investigation114_27');assert.equal(stalking.answer,0);assert.equal(stalking.verified,true);assert(stalking.options[0].explanation.includes('第2項'));assert(stalking.options[0].explanation.includes('性或性別無關'));
 console.log('Communication deadlines and records, arrest-warrant copies, and stalking exceptions passed.');
 // Reused statutes across historical years must keep exceptions and the original paper keys.
 for(const [id,answer] of [['investigation110_15',0],['investigation110_16',1],['investigation110_29',2],['investigation111_28',0],['investigation111_32',1],['investigation111_38',0],['investigation111_39',3],['investigation111_40',2],['investigation111_47',0],['investigation112_35',2],['investigation113_04',1],['investigation113_19',2],['investigation113_21',2]]){
  const q=result.questions.find(q=>q.id===id);assert(q);assert.equal(q.answer,answer);assert(q.verified);assert.notEqual(q.analysisMode,'answer-key');
 }
-const informantRenewal=result.questions.find(q=>q.id==='investigation112_08');assert.equal(informantRenewal.answer,1);assert.equal(informantRenewal.verified,false);assert(informantRenewal.options[2].explanation.includes('新發生'));
+const informantRenewal=result.questions.find(q=>q.id==='investigation112_08');assert.equal(informantRenewal.answer,1);assert.equal(informantRenewal.verified,true);assert(informantRenewal.options[2].explanation.includes('新發生'));
 const nightClass=result.questions.find(q=>q.id==='investigation113_21');assert(nightClass.currentAnswer.includes('本身不在'));assert(nightClass.currentAnswer.includes('其他合法例外'));
 const protectedLegislator=result.questions.find(q=>q.id==='investigation110_16');assert(protectedLegislator.currentAnswer.includes('現行犯'));assert(protectedLegislator.currentAnswer.includes('通緝'));
 console.log('Cross-year legal explanations preserve exceptions, warrant limits and original exam answers.');
@@ -244,9 +244,9 @@ const notExecuted=result.questions.find(q=>q.id==='law112-outer-06');assert(notE
 const detentionRelease=result.questions.find(q=>q.id==='law114-inner-02');assert(detentionRelease.currentAnswer.includes('停止管收'));assert(detentionRelease.currentAnswer.includes('釋放'));
 const policeCommand=result.questions.find(q=>q.id==='law114-outer-01');assert(policeCommand.options[2].explanation.includes('法律保留'));assert(policeCommand.amendment.sources.some(s=>s.url.includes('id=167483')));
 const equalTreatment=result.questions.find(q=>q.id==='law114-outer-16');assert(equalTreatment.currentAnswer.includes('舊法'));assert(equalTreatment.currentAnswer.includes('現行'));
-for(const id of ['law115-inner-08','law115-inner-16','law115-outer-21']){const q=result.questions.find(x=>x.id===id);assert.equal(q?.verified,false);assert.equal(q.amendment.status,'review');assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()));}
-assert(result.questions.find(q=>q.id==='law115-inner-16').amendment.note.includes('公眾得出入'));
-assert(result.questions.find(q=>q.id==='law115-outer-21').currentAnswer.includes('「等」'));
+for(const id of ['law115-inner-08','law115-inner-16']){const q=result.questions.find(x=>x.id===id);assert.equal(q?.verified,false);assert.equal(q.amendment.status,'review');assert(q.options.every(o=>o.explanation.trim()&&o.correction.trim()));}
+assert(result.questions.find(q=>q.id==='law115-inner-16').options[0].explanation.includes('公眾得出入'));
+const identityAnswers=result.questions.find(q=>q.id==='law115-outer-21');assert(identityAnswers.verified);assert(identityAnswers.currentAnswer.includes('第67條'));assert(identityAnswers.options[1].correction.includes('其他詢問法源另論'));
 console.log('Procedure and constitutional explanations preserve exam keys and unresolved statutory scope.');
 
 // Historical administrative cases support learning without silently certifying later rules.
@@ -273,30 +273,30 @@ const correctedPowers=result.questions.find(q=>q.id==='law114-inner-23');
 assert(correctedPowers?.verified);assert.equal(correctedPowers.answer,0);assert.deepEqual(correctedPowers.acceptedAnswers,[0,1]);
 assert(correctedPowers.currentAnswer.includes('A或B均給分'));assert(correctedPowers.amendment.sources.some(s=>s.url.includes('t=M&code=114060')));
 const salaryException=result.questions.find(q=>q.id==='law114-inner-21');
-assert.equal(salaryException?.verified,false);assert(salaryException.options[1].explanation.includes('最高俸額'));assert(salaryException.options[1].explanation.includes('2個月'));
+assert.equal(salaryException?.verified,true);assert(salaryException.options[1].explanation.includes('最高俸額'));assert(salaryException.options[1].explanation.includes('2個月'));
 const dismissalConditions=result.questions.find(q=>q.id==='law113-outer-16');
-assert.equal(dismissalConditions?.verified,false);assert(dismissalConditions.options[1].explanation.includes('情節重大'));assert(dismissalConditions.options[3].correction.includes('其他免職款'));
+assert.equal(dismissalConditions?.verified,false);assert(dismissalConditions.options[1].explanation.includes('情節重大'));assert(dismissalConditions.options[3].correction.includes('其他免職事由'));
 const executionRelief=result.questions.find(q=>q.id==='law114-outer-09');
 assert(executionRelief?.verified);assert(executionRelief.currentAnswer.includes('行政處分性質'));assert(executionRelief.options[1].explanation.includes('10日'));assert(executionRelief.options[1].explanation.includes('30日'));
 const thirdParty=result.questions.find(q=>q.id==='law114-inner-01');
 assert(thirdParty?.verified);assert(thirdParty.currentAnswer.includes('民事訴訟'));assert(thirdParty.options[3].explanation.includes('施行細則'));
 const regulationClass=result.questions.find(q=>q.id==='law112-inner-10');
-assert.equal(regulationClass?.verified,false);assert(regulationClass.currentAnswer.includes('仍待查'));assert.equal(regulationClass.answer,3);
+assert.equal(regulationClass?.verified,false);assert(regulationClass.currentAnswer.includes('仍待補核'));assert.equal(regulationClass.answer,3);assert(regulationClass.options[0].correction.includes('仍待核'));
 console.log('Corrected scoring, execution remedies and incomplete personnel or regulation conditions remain distinct.');
 
 // Administrative opinions and criminal elements constrain old answer-key explanations.
 const socialFinality=result.questions.find(q=>q.id==='law112-inner-24');
-assert.equal(socialFinality?.verified,false);assert.equal(socialFinality.answer,3);assert(socialFinality.currentAnswer.includes('既判力範圍'));assert(socialFinality.options[3].correction.includes('程序裁定'));assert(socialFinality.amendment.sources.some(s=>s.url.includes('FE336786')));
+assert.equal(socialFinality?.verified,false);assert.equal(socialFinality.answer,3);assert(socialFinality.options[3].explanation.includes('程序駁回'));assert(socialFinality.options[3].correction.includes('既判力'));assert(socialFinality.amendment.sources.some(s=>s.url.includes('FE336786')));
 const businessSanction=result.questions.find(q=>q.id==='law112-inner-22');
 assert.equal(businessSanction?.verified,false);assert.equal(businessSanction.answer,0);assert(businessSanction.options[0].explanation.includes('有期徒刑以上'));
 const barredGoods=result.questions.find(q=>q.id==='law114-outer-14');
 assert.equal(barredGoods?.verified,false);assert(barredGoods.options[3].explanation.includes('單獨沒入'));assert(barredGoods.amendment.sources.some(s=>s.url.includes('FE076579')));
 const watchForest=result.questions.find(q=>q.id==='law112-inner-21');
-assert.equal(watchForest?.verified,false);assert(watchForest.options[0].correction.includes('尚未運走'));assert(watchForest.options[3].explanation.includes('曾列'));
+assert.equal(watchForest?.verified,false);assert(watchForest.options[0].explanation.includes('仍留在森林'));assert(watchForest.options[3].explanation.includes('曾列'));
 const weaponsPermit=result.questions.find(q=>q.id==='law115-inner-19');
 assert(weaponsPermit?.verified);assert.equal(weaponsPermit.answer,2);assert(weaponsPermit.options[3].correction.includes('警械執照'));assert(weaponsPermit.options[3].correction.includes('拋射式'));
 const assemblyRadius=result.questions.find(q=>q.id==='law115-inner-11');
-assert.equal(assemblyRadius?.verified,false);assert(assemblyRadius.options[3].correction.includes('實際公告'));assert(assemblyRadius.options[2].correction.includes('核准例外'));
+assert.equal(assemblyRadius?.verified,false);assert(assemblyRadius.options[3].explanation.includes('實際100公尺邊界'));assert(assemblyRadius.options[0].correction.includes('核准例外'));
 console.log('Court finality, forfeiture, forest cases, equipment permits and assembly boundaries remain distinct.');
 
 // Essay corrections must preserve the four shooting conditions and identify their source.
@@ -439,7 +439,9 @@ const supportAndCounsel=result.questions.find(q=>q.id==='investigation115_47');a
 const embassyConsent=result.questions.find(q=>q.id==='investigation111_23');assert(embassyConsent.options[1].explanation.includes('同意進入不等於同意所有後續行為'));
 for(const id of ['investigation111_17','investigation115_30'])assert(result.questions.find(q=>q.id===id).currentAnswer.includes('十二小時'));
 const interceptionAuthority=result.questions.find(q=>q.id==='investigation115_44');assert(interceptionAuthority.currentAnswer.includes('司法聲請、核發及執行管制仍須完成'));
-for(const id of ['investigation111_04','investigation111_14','investigation112_21','investigation114_07'])assert.equal(result.questions.find(q=>q.id===id).verified,false);
+for(const id of ['investigation112_21','investigation114_07'])assert.equal(result.questions.find(q=>q.id===id).verified,false);
+const reportAttachments=result.questions.find(q=>q.id==='investigation111_04');assert(reportAttachments.verified);assert.equal(reportAttachments.amendment.status,'changed');assert(reportAttachments.options[0].explanation.includes('自願受搜索同意書'));
+const recordConfirmation=result.questions.find(q=>q.id==='investigation111_14');assert(recordConfirmation.verified);assert(recordConfirmation.options[2].correction.includes('先使受詢問人明瞭'));
 console.log('Thirty-question acceptance, concurrent police responsibility, inquiry rights and distinct judicial authorization passed.');
 
 const procedureBatch30=events.find(e=>e.eventId==='legal-review-20261119-procedure30');assert(procedureBatch30);
@@ -511,3 +513,49 @@ for(const id of ['investigation110_42','investigation112_04','investigation112_1
  assert(!batch50Patches.some(p=>p.targetId===id));
 }
 console.log('Fifty-question replay, unchanged event limit, juvenile priority, disclosure limits and independent legal thresholds passed.');
+
+// A hundred supplements are distinct from the subset cleared for current study.
+{
+ const hundredEvents=['a','b','c','d'].map(s=>events.find(e=>e.eventId==='legal-review-20261120-batch100-'+s));
+ assert(hundredEvents.every(Boolean));assert.deepEqual(hundredEvents.map(e=>e.patches.length),[25,25,25,25]);
+ const hundredPatches=hundredEvents.flatMap(e=>e.patches);
+ assert.equal(new Set(hundredPatches.map(p=>p.targetId)).size,100);
+ assert.equal(hundredPatches.reduce((n,p)=>n+p.optionOverrides.length,0),400);
+ assert.equal(hundredPatches.filter(p=>p.verified).length,75);
+ assert.equal(hundredPatches.filter(p=>!p.verified).length,25);
+ assert(validateLegalEvent({...hundredEvents[0],patches:hundredPatches.slice(0,40)},ids));
+ assert.equal(validateLegalEvent({...hundredEvents[0],patches:hundredPatches.slice(0,41)},ids),false);
+ const q=id=>result.questions.find(x=>x.id===id);
+ for(const p of hundredPatches){
+  const target=q(p.targetId);assert(target);assert.equal(target.verified,p.verified);
+  assert.notEqual(target.analysisMode,'answer-key');
+  assert(target.options.every(o=>o.explanation.trim()&&o.correction.trim()));
+ }
+ // Invalid original single-choice wording does not erase the official all-credit decision.
+ for(const id of ['law113-outer-12','law114-inner-10']){
+  assert(q(id).creditedAll);assert.equal(q(id).verified,false);
+  assert(q(id).currentAnswer.includes('一律給分'));
+ }
+ assert(q('law113-outer-12').options[0].correction.includes('第266條第2項'));
+ assert(q('law114-inner-10').options[2].correction.includes('第237條之3'));
+ assert(q('law114-inner-10').options[3].correction.includes('300元'));
+ assert.deepEqual(q('law114-inner-14').acceptedAnswers,[0,1]);
+ assert.deepEqual(q('law114-inner-15').acceptedAnswers,[1,3]);
+ // Record duties, disclosures and collection powers have separate legal grounds.
+ assert(q('duty114_08').options.some(o=>o.explanation.includes('定時定點')));
+ assert(q('law115-outer-21').options[1].correction.includes('其他詢問法源'));
+ assert(q('investigation115_28').options[2].correction.includes('不可因此推論'));
+ assert(q('investigation114_11').options[3].correction.includes('並非可任意調閱'));
+ // A later edition or announced amendment must not silently rewrite the original exam.
+ assert.equal(q('scene113-12').answer,3);assert.equal(q('scene113-12').amendment.status,'changed');
+ assert(q('scene113-12').options[3].correction.includes('不把列印當唯一合法方式'));
+ assert.equal(q('law114-inner-16').verified,false);
+ assert.equal(q('law114-inner-16').amendment.effectiveStatus,'mixed');
+ assert.equal(q('law114-inner-16').amendment.effectiveDate,'2026-12-31');
+ assert(q('duty113_04').amendment.note.includes('115.12.31'));
+ assert.equal(q('scene115-13').verified,false);assert(q('scene115-13').options[0].correction.includes('不能只依甲一句話'));
+ assert.equal(q('scene115-14').verified,false);assert(q('scene115-14').options[1].correction.includes('不得把對空鳴槍當'));
+ assert(q('investigation115_23').options[2].correction.includes('3日前可屬提前提出'));
+ assert(q('investigation115_26').options[2].explanation.includes('7月12日0時'));
+}
+console.log('Hundred-question supplements, official final credit, exact event limit, future commencement and retained review passed.');

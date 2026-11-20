@@ -1599,26 +1599,26 @@
       "options": [
         {
           "text": "偵查中選任辯護人不以律師為限；惟須經機關首長同意",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "偵查階段選任辯護人以律師為限；非律師特許與審判階段規定不可混用。",
+          "explanation": "刑訴法第29條明定辯護人應由律師充任；非律師例外限於審判中經審判長許可。手冊第148點也明定偵查中以律師為限。",
+          "correction": "應改為偵查中選任辯護人以律師為限，機關首長同意不能代替此法定資格。",
           "trueStatement": false
         },
         {
           "text": "偵查中之辯護人，不得於執行搜索或扣押時在場",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：偵查階段選任辯護人以律師為限；非律師特許與審判階段規定不可混用。",
+          "explanation": "手冊第153點列有偵查中辯護人不得於搜索或扣押時在場；刑訴法第150條第1項給予當事人及「審判中」辯護人在場權，沒有賦予一般偵查辯護人當然搜索在場權。這不等於任何情形均絕對禁止律師在場。",
+          "correction": "本項依題示一般偵查辯護規範作答；律師如另具適法在場身分或經合法安排在場，須另判，不可由此限制當事人本人在場或辯護人於詢問時的權利。",
           "trueStatement": true
         },
         {
           "text": "犯罪嫌疑人選任辯護人應提出委任書狀，不以司法狀紙為限",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：偵查階段選任辯護人以律師為限；非律師特許與審判階段規定不可混用。",
+          "explanation": "刑訴法第30條要求提出委任書狀；手冊第148點第2項明載不以司法狀紙為限。",
+          "correction": "提出足以表達委任辯護人意思的書狀即可，不必使用指定司法狀紙。",
           "trueStatement": true
         },
         {
           "text": "檢察官發交繼續追查贓證或共犯之被告，如已委任辯護人者，於詢問時亦應通知該辯護人到場",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：偵查階段選任辯護人以律師為限；非律師特許與審判階段規定不可混用。",
+          "explanation": "手冊第148點末項專門規定，檢察官發交繼續追查贓證或共犯的被告，已委任辯護人者於詢問時也應通知到場；刑訴法第245條第6項另定一般詢問通知及急迫例外。",
+          "correction": "發交續查不會使既有委任失效；仍應通知辯護人詢問時間、處所，並依法律處理急迫例外。",
           "trueStatement": true
         }
       ],
@@ -1629,19 +1629,35 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第21題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 21,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "警專公開115年新版警察偵查犯罪手冊；刑事訴訟法；警專刑事警察科・115年手冊官方附件入口",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "偵查中辯護人以律師為限；非律師須經審判長許可的例外只在審判中。詢問在場權與搜索、扣押在場規定應分別判斷。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "警專刑事警察科・115年手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "偵查階段選任辯護人以律師為限；非律師特許與審判階段規定不可混用。",
+      "takeaway": "偵查中辯護人以律師為限；非律師須經審判長許可的例外只在審判中。詢問在場權與搜索、扣押在場規定應分別判斷。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -1654,8 +1670,21 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A不變。偵查中辯護人以律師為限；非律師須經審判長許可的例外只在審判中。詢問在場權與搜索、扣押在場規定應分別判斷。"
     },
     {
       "id": "investigation110_22",
@@ -1869,26 +1898,26 @@
       "options": [
         {
           "text": "當舖業收當物品時，應查驗持當人之身分證件並在當票正聯內捺印指紋，始可收當",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：護照、身分證等依法不得收當，不能把身分文件當一般可質押物品。",
+          "explanation": "當舖業法第15條第1項規定，查驗身分後由持當人於「當票副聯」捺指紋，原項寫正聯不符。第2項原則為左拇指三面指紋，殘缺及無手指另有例外。",
+          "correction": "把當票正聯改為副聯，並依左拇指、其他手指及無手指的法定例外辦理。",
           "trueStatement": false
         },
         {
           "text": "持當人可以動產或不動產為擔保，向當舖業借款",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：護照、身分證等依法不得收當，不能把身分文件當一般可質押物品。",
+          "explanation": "第3條第3、4、5、8款均以動產定義持當人、質當、收當及質當物；不動產不在當舖質當標的內。",
+          "correction": "持當人應以動產為擔保並交付當舖，不能概括加入不動產。",
           "trueStatement": false
         },
         {
           "text": "各地警察機關可隨時跨轄查察當舖業",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：護照、身分證等依法不得收當，不能把身分文件當一般可質押物品。",
+          "explanation": "第23條授權「當地警察機關」視需要查察，並不是各地警察可以不受管轄及協調程序限制，隨時自行跨轄查察。",
+          "correction": "依當地管轄及法定勤務程序視需要查察；跨轄辦案另須遵守相關管轄、通報及合法調查要求。",
           "trueStatement": false
         },
         {
           "text": "當舖業不得收當護照、身分證",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "護照、身分證等依法不得收當，不能把身分文件當一般可質押物品。",
+          "explanation": "第16條第1項第5款禁止收當政府核發之證照及私人身分證明文件，護照、身分證屬此類。",
+          "correction": "護照、身分證不得作為質當物；不能因持當人同意就排除此項禁止。",
           "trueStatement": true
         }
       ],
@@ -1899,19 +1928,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第24題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 24,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "當舖業法",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "當舖質當以動產為標的，指紋捺在當票副聯；護照、身分證屬不得收當的政府證照或身分證明文件。",
+        "sources": [
+          {
+            "title": "當舖業法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080075"
+          }
+        ]
       },
-      "takeaway": "護照、身分證等依法不得收當，不能把身分文件當一般可質押物品。",
+      "takeaway": "當舖質當以動產為標的，指紋捺在當票副聯；護照、身分證屬不得收當的政府證照或身分證明文件。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -1924,8 +1961,13 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "當舖業法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080075"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D不變。當舖質當以動產為標的，指紋捺在當票副聯；護照、身分證屬不得收當的政府證照或身分證明文件。"
     },
     {
       "id": "investigation110_25",
@@ -2415,26 +2457,26 @@
       "options": [
         {
           "text": "製造、運輸、販賣毒品而混合二種以上之毒品者，適用其中較低級別毒品之法定刑",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：跨國毒品案件控制下交付須依偵查計畫與檢察總長核可程序辦理，不能視為一般任意蒐情。",
+          "explanation": "毒品危害防制條例第9條第3項對犯前五條之罪而混合兩種以上毒品者，適用其中「最高級別」毒品的法定刑，並加重至二分之一。",
+          "correction": "應改為適用最高級別毒品法定刑並依法加重，不能選較低級別。",
           "trueStatement": false
         },
         {
           "text": "施用一粒眠者，處 1 年以下有期徒刑",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：跨國毒品案件控制下交付須依偵查計畫與檢察總長核可程序辦理，不能視為一般任意蒐情。",
+          "explanation": "刑事警察局一粒眠原件及現行附表三第23項均顯示硝甲西泮（Nimetazepam）為第三級毒品。單純無正當理由施用，依第11條之1第2項為罰鍰及毒品危害講習，非本項一年以下徒刑。",
+          "correction": "成年人無正當理由單純施用第三級毒品，原則依第11條之1處1萬至5萬元罰鍰及4至8小時講習；少年及另涉其他犯罪者，須另依其專屬規定判斷。",
           "trueStatement": false
         },
         {
           "text": "為偵辦跨國性毒品犯罪得由警政署長向最高檢察署提出偵查計畫書，經檢察總長核可後，實施控制 下交付調查犯罪",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "跨國毒品案件控制下交付須依偵查計畫與檢察總長核可程序辦理，不能視為一般任意蒐情。",
+          "explanation": "第32條之1允許刑訴法第229條司法警察官由其最上級機關首長向最高檢察署提偵查計畫，經檢察總長核可核發偵查指揮書；警政署長符合此制度角色。第32條之2第4款明載控制下交付必要性。",
+          "correction": "警政署長提出並經檢察總長核可的程序可成立，但仍須完整計畫及相關機關配合，非警察自行決定即可實施。",
           "trueStatement": true
         },
         {
           "text": "觀察、勒戒及強制戒治之費用，一律由國庫支出",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：跨國毒品案件控制下交付須依偵查計畫與檢察總長核可程序辦理，不能視為一般任意蒐情。",
+          "explanation": "第30條第1項原則向受處分人或受處分少年的扶養義務人收取費用並解繳國庫；自首或貧困無力負擔者得免繳，不是一律由國庫支出。",
+          "correction": "應依第30條向法定繳費對象收取，自首或貧困無力負擔時適用免繳例外。",
           "trueStatement": false
         }
       ],
@@ -2445,19 +2487,39 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第31題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 31,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "毒品危害防制條例；刑事訴訟法；毒品危害防制條例附表三・第三級毒品；刑事警察局毒品資料・一粒眠（硝甲西泮）",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "控制下交付須依毒品危害防制條例第32條之1、之2提出計畫並經檢察總長核可；混合毒品刑度及勒戒費用各有特別規定。",
+        "sources": [
+          {
+            "title": "毒品危害防制條例",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000008"
+          },
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "毒品危害防制條例附表三・第三級毒品",
+            "url": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000318789&lan=C"
+          },
+          {
+            "title": "刑事警察局毒品資料・一粒眠（硝甲西泮）",
+            "url": "https://www.cib.npa.gov.tw/ch/app/drup/view?id=1972&module=drup&serno=98c69a30-d59b-4c44-b620-83730d4c2001"
+          }
+        ]
       },
-      "takeaway": "跨國毒品案件控制下交付須依偵查計畫與檢察總長核可程序辦理，不能視為一般任意蒐情。",
+      "takeaway": "控制下交付須依毒品危害防制條例第32條之1、之2提出計畫並經檢察總長核可；混合毒品刑度及勒戒費用各有特別規定。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -2470,8 +2532,25 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "毒品危害防制條例",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000008"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "毒品危害防制條例附表三・第三級毒品",
+          "url": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000318789&lan=C"
+        },
+        {
+          "title": "刑事警察局毒品資料・一粒眠（硝甲西泮）",
+          "url": "https://www.cib.npa.gov.tw/ch/app/drup/view?id=1972&module=drup&serno=98c69a30-d59b-4c44-b620-83730d4c2001"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C不變。控制下交付須依毒品危害防制條例第32條之1、之2提出計畫並經檢察總長核可；混合毒品刑度及勒戒費用各有特別規定。"
     },
     {
       "id": "investigation110_32",
@@ -3392,26 +3471,26 @@
       "options": [
         {
           "text": "司法警察發現犯罪嫌疑人居無定所，且犯罪嫌疑重大者，得逕行逮捕之",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：依法使用通知書通知到場，與拘提、緊急搜索及調取通信紀錄不同，不應混同所需令狀與許可。",
+          "explanation": "居無定所是刑訴法第76條第1款得不經傳喚逕行拘提的事由之一，仍應踐行法定拘提程序；不是第88條之1所列可由警察急迫無票拘提的獨立事由，更非可任意逮捕。",
+          "correction": "應依法報請核發拘票或符合其他法定無票拘捕要件；僅居無定所且嫌疑重大，不能逕自逮捕。",
           "trueStatement": false
         },
         {
           "text": "警察機關偵辦刑案因情況急迫，基於案情需要必須調取通信紀錄者，即可逕行調取之",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：依法使用通知書通知到場，與拘提、緊急搜索及調取通信紀錄不同，不應混同所需令狀與許可。",
+          "explanation": "現行通保法第11條之1第2、3項原則採調取票及司法警察官報請檢察官許可；第4項列舉犯罪得經檢察官許可調取，第5項急迫調取仍有24小時補行聲請要求。單憑案情需要不能逕自調取。",
+          "correction": "應先區分通信紀錄、網路流量紀錄及通訊使用者資料，依第11條之1的令狀、許可或法定例外辦理；同條用戶同意例外也不能憑空假設存在。",
           "trueStatement": false
         },
         {
           "text": "警察機關因調查犯罪之必要時，得使用通知書，通知犯罪嫌疑人、證人到場說明案情",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "依法使用通知書通知到場，與拘提、緊急搜索及調取通信紀錄不同，不應混同所需令狀與許可。",
+          "explanation": "刑訴法第71條之1及第196條之1分別允許司法警察官或司法警察因犯罪調查、蒐證必要，以通知書通知犯罪嫌疑人、證人到場，不要求先經檢察官許可或法院發票。",
+          "correction": "可依法使用通知書；犯罪嫌疑人無正當理由不到場時，另須依法報請拘票，通知書本身沒有直接強制到場效力。",
           "trueStatement": true
         },
         {
           "text": "偵查中警察機關有相當理由認為情況急迫，非迅速搜索，證據有滅失之虞者，得逕行執行緊急搜索",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：依法使用通知書通知到場，與拘提、緊急搜索及調取通信紀錄不同，不應混同所需令狀與許可。",
+          "explanation": "題示為保全證據的急迫搜索，刑訴法第131條第2項由檢察官認有法定急迫情況，逕行或指揮執行，並非警察只要自認急迫即可。第1項追捕等其他緊急搜索事由另有規定。",
+          "correction": "應依第131條第2項由檢察官依法決定或指揮，並依第3項於實施後3日內陳報；不能把保全證據與追捕現行犯等不同無票搜索類型混用。",
           "trueStatement": false
         }
       ],
@@ -3422,19 +3501,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第43題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 43,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "刑事訴訟法；通訊保障及監察法",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "合法通知犯罪嫌疑人或證人到場，不以先取得令狀為必要；拘提、通信紀錄調取及急迫搜索則各有條件和事後審查。",
+        "sources": [
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "通訊保障及監察法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+          }
+        ]
       },
-      "takeaway": "依法使用通知書通知到場，與拘提、緊急搜索及調取通信紀錄不同，不應混同所需令狀與許可。",
+      "takeaway": "合法通知犯罪嫌疑人或證人到場，不以先取得令狀為必要；拘提、通信紀錄調取及急迫搜索則各有條件和事後審查。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -3447,8 +3538,17 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "通訊保障及監察法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C不變。合法通知犯罪嫌疑人或證人到場，不以先取得令狀為必要；拘提、通信紀錄調取及急迫搜索則各有條件和事後審查。"
     },
     {
       "id": "investigation110_44",

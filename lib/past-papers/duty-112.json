@@ -222,26 +222,26 @@
       "options": [
         {
           "text": "訪查對象包括治安顧慮人口、記事人口、諮詢對象及一般人口",
-          "explanation": "四類訪查對象的組合為治安顧慮、記事、諮詢及一般人口，為原題規範分類。",
-          "correction": "無須修正。",
+          "explanation": "112.4.24修正後第2點分列治安顧慮人口、記事人口、一般人口及諮詢對象，四類正與A相合。",
+          "correction": "A無須修正；分類須依法定目的處理個資。",
           "trueStatement": true
         },
         {
           "text": "治安顧慮人口係指依社會秩序維護法暨治安顧慮人口查訪辦法第二條規定，得定期實施查訪 對象",
-          "explanation": "治安顧慮人口查訪的授權基礎不是社會秩序維護法。",
-          "correction": "應改為警察職權行使法及治安顧慮人口查訪辦法。",
+          "explanation": "第2點第(一)款明引警察職權行使法第15條及治安顧慮人口查訪辦法第2條，並非社會秩序維護法。",
+          "correction": "將社會秩序維護法改為警察職權行使法第15條。",
           "trueStatement": false
         },
         {
           "text": "記事人口係指依性侵害犯罪防治法暨少年事件處理法，應登記、報到之加害人以及應實施查訪 之相對人",
-          "explanation": "記事人口包含依法須登記報到、查訪的特定對象，不是本項概括引用少年事件處理法即可完整界定。",
-          "correction": "應依訪查作業規定所列性侵害、家庭暴力、跟蹤騷擾等適用類型逐項確認，不以少年事件處理法概括替代。",
+          "explanation": "112.4.24修正表第2點第(二)款，當時以性侵害犯罪防治法相關登記報到及家庭暴力防治法第48條查訪相對人界定記事人口；本項錯以少年事件處理法替代家庭暴力防治法。該版所寫性侵法第7、41、42條為當時引法，不直接當作2026現行條號。",
+          "correction": "依該版第2點確認性侵及家暴法上的對象類型；具體當日登記、報到、查訪義務須再對照現行各法，不任意擴列少年事件對象。",
           "trueStatement": false
         },
         {
           "text": "諮詢對象是指須定期聯繫拜訪之村（里）鄰長、守望相助隊人員、社區（大樓）保全（管理） 人員、各級民意代表與其他特定對象之人",
-          "explanation": "本項將各級民意代表及其他特定對象概括列入定期諮詢訪查對象，不符合本題所定範圍。",
-          "correction": "依作業規定限定的適當諮詢對象建立聯繫，不概括納入所有民意代表或特定對象。",
+          "explanation": "第2點第(四)款確實列村里鄰長、守望相助、社區保全管理、各級民意代表；其最後範圍是其他「熱心為民服務及維護地方治安之人」，不是不受條件限制的其他特定對象。",
+          "correction": "保留各級民意代表；把其他特定對象改為其他熱心為民服務及維護地方治安之人。",
           "trueStatement": false
         }
       ],
@@ -249,27 +249,35 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜警察勤務概要｜第4題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 4,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "note": "警察勤務區訪查作業規定有112年4月、9月等版本修正；本題保留原公告答案A，完整現行分類及例外須核發布原件。",
+        "status": "none",
+        "law": "臺灣警察專科學校行政警察科・112.4.24警察勤務區訪查作業規定第2、16、26點修正對照表（本題僅引完整第2點）；全國法規資料庫・治安顧慮人口查訪辦法；全國法規資料庫・警察職權行使法",
+        "checkedAt": "2026-11-20",
+        "note": "本題只需用詞定義，已核112.4.24官方修正對照表完整第2點；不據此宣稱其餘109/112作業規定全文均齊備。另修正舊解說：各級民意代表本身確屬諮詢對象，D錯在未保留其他人之公益治安條件。 修正表所引性侵法條號限於當時版本，不推定為2026現行條次；本題已核範圍為四類用詞及原題引法比較。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "四類人口；民代可為諮詢對象，其他人仍須符合公益治安條件。",
         "sources": [
           {
-            "title": "警專・最新法令與113年應勤裝備新制公告",
-            "url": "https://www.tpa.edu.tw/p/422-1000-1010.php?Lang=zh-tw"
+            "title": "臺灣警察專科學校行政警察科・112.4.24警察勤務區訪查作業規定第2、16、26點修正對照表（本題僅引完整第2點）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
           },
           {
-            "title": "全國法規資料庫・警察勤務區訪查辦法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080161"
+            "title": "全國法規資料庫・治安顧慮人口查訪辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+          },
+          {
+            "title": "全國法規資料庫・警察職權行使法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           }
         ]
       },
-      "takeaway": "四類訪查對象的組合為治安顧慮、記事、諮詢及一般人口，為原題規範分類。",
+      "takeaway": "四類人口；民代可為諮詢對象，其他人仍須符合公益治安條件。",
       "sources": [
         {
           "title": "考選部・112年警勤原卷",
@@ -278,8 +286,21 @@
         {
           "title": "考選部・112年標準答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112070&c=601&s=1209&q=1"
+        },
+        {
+          "title": "臺灣警察專科學校行政警察科・112.4.24警察勤務區訪查作業規定第2、16、26點修正對照表（本題僅引完整第2點）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=NGNGZHFiRmV2OVVCQmMwQUZOZHNBNEZucVh6SjF1SXhmeHEzWlpwc2pXTllVSnhpWFNna1dVVjZxTDU5bkdhS256T29KMFZnTFBraThrZ0RpczlodUNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=R3hHYldXRUs2ZWhodGNGaW90TlJ3bDNtRTl4UG9vdHVTdytXQUhMeGF4NUpQbHBzbzlURFd0UXI3YUtwMVN3Z21aVnljTi9YTHI1SWlTU2c1Vko4VEE5WmVYaWNNbTBjTG5TUUQ3RGZpbmVQYk5oNkVCWlZUZ0FQK3l1cFdjaTlsc3d1MXhBY2lySytrYWwvQklTSE9wMXdqWmdkTVVnTW8zZ0FlUnVzNHVRWVdMNS81aVM2VjIrd2NpTFdYN1Q4cExCZDFWbi9vcy92aStWdzF1eDNtY3pURXBjNkZMNVEzK2Q3L1A1UFNwOWNnS3hJR2I5bTlZQjQ3SmZBeHJaRktWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
+        },
+        {
+          "title": "全國法規資料庫・治安顧慮人口查訪辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+        },
+        {
+          "title": "全國法規資料庫・警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A；第2點有四類。D並非因列入民意代表而錯，而是把「其他熱心為民服務及維護地方治安之人」放寬成其他特定對象。"
     },
     {
       "id": "duty112_05",
@@ -1176,26 +1197,26 @@
       "options": [
         {
           "text": "曾犯「槍砲彈藥刀械管制條例」所定出租出借槍砲彈藥之罪者屬治安顧慮查訪對象",
-          "explanation": "不能將所有出租、出借槍砲彈藥罪名直接擴張為本題列管查訪對象；須依警職法及辦法列舉範圍。",
-          "correction": "逐一比對法定列管罪名及執行完畢、假釋等要件。",
+          "explanation": "查訪辦法第2條第1項第14款列製造、運輸、販賣、持有槍砲彈藥之罪，未單獨列出租、出借；另須符合刑執行完畢或假釋出獄後期間。",
+          "correction": "不能僅以曾犯出租出借罪逕列本款；須核是否另具法定列管事由。",
           "trueStatement": false
         },
         {
           "text": "警察發現治安顧慮查訪對象有違法之虞時，應優先開具告誡書並通報相關人員周知",
-          "explanation": "查訪是預防再犯及必要關懷，不是先開告誡書並向他人公開。",
-          "correction": "依法勸告、必要處置並保護個資，另有違法嫌疑再依法處理。",
+          "explanation": "查訪辦法第8條規定發現違法之虞時，以勸告或其他適當方法促其不再犯，並無本項一律先開告誡書、通報周知的規定；第5條另要求避免影響名譽。",
+          "correction": "依法勸告或其他適當措施；不得無法源公開其資訊。",
           "trueStatement": false
         },
         {
           "text": "治安顧慮人口由戶籍地警察機關每個月實施查訪 1 次，且為重視人權，不得因任何原因增加查 訪次數",
-          "explanation": "通常查訪頻率不等於任何情形均不得增加；有法定必要及具體事實時仍須依法處理。",
-          "correction": "依辦法頻率及例外判斷，不使用「不得因任何原因」的絕對文字。",
+          "explanation": "第4條第1項為戶籍地每月一次，必要時得增加次數；本項一律不得增加與明文相反。",
+          "correction": "改為每月一次，必要時得增加；方式時間仍依第5至7條。",
           "trueStatement": false
         },
         {
           "text": "「治安顧慮人口查訪辦法」係依據「警察職權行使法」第 15 條訂定",
-          "explanation": "治安顧慮人口查訪辦法依警職法第15條授權訂定。",
-          "correction": "無須修正。",
+          "explanation": "查訪辦法第1條明載依警職法第15條第3項訂定。",
+          "correction": "D無須修正；第15條第2項仍有三年及假釋撤銷不計入等期限規定。",
           "trueStatement": true
         }
       ],
@@ -1203,23 +1224,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜警察勤務概要｜第18題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 18,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "note": "警職法第15條授權已核；細部列管罪名、查訪頻率與異常動態應連同治安顧慮人口查訪辦法及實施規定核對。",
+        "status": "none",
+        "law": "全國法規資料庫・治安顧慮人口查訪辦法；全國法規資料庫・警察職權行使法",
+        "checkedAt": "2026-11-20",
+        "note": "已核治安顧慮人口查訪辦法完整10條及警職法第15條。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "製造、運輸、販賣、持有的列舉，不任意擴成出租出借；必要時可加訪。",
         "sources": [
+          {
+            "title": "全國法規資料庫・治安顧慮人口查訪辦法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+          },
           {
             "title": "全國法規資料庫・警察職權行使法",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           }
         ]
       },
-      "takeaway": "治安顧慮人口查訪辦法依警職法第15條授權訂定。",
+      "takeaway": "製造、運輸、販賣、持有的列舉，不任意擴成出租出借；必要時可加訪。",
       "sources": [
         {
           "title": "考選部・112年警勤原卷",
@@ -1228,8 +1257,17 @@
         {
           "title": "考選部・112年標準答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112070&c=601&s=1209&q=1"
+        },
+        {
+          "title": "全國法規資料庫・治安顧慮人口查訪辦法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080147"
+        },
+        {
+          "title": "全國法規資料庫・警察職權行使法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D；辦法授權為警職法第15條第3項。"
     },
     {
       "id": "duty112_19",
@@ -1473,26 +1511,26 @@
       "options": [
         {
           "text": "微型電動二輪車依其使用性質屬於「小型輕型機車」種類",
-          "explanation": "微型電動二輪車依法屬慢車類型，不是小型輕型機車。",
-          "correction": "將車種改為慢車之微型電動二輪車。",
+          "explanation": "道交條例第69條第1項第1款第3目將符合規格之微型電動二輪車列為自行車，屬慢車，並非小型輕型機車。",
+          "correction": "改為慢車中的自行車類，仍須符合型式審驗、速率與重量條件。",
           "trueStatement": false
         },
         {
           "text": "駕駛人發生道路交通事故，無人傷亡且車輛尚能行駛，車輛位置及現場痕跡證據之標繪，得採 用攝影或錄影等設備記錄",
-          "explanation": "無人傷亡且車輛可行駛，現場位置及痕跡可採攝影、錄影記錄，並依程序移車。",
-          "correction": "無須修正。",
+          "explanation": "道路交通事故處理辦法第3條第2項明定，無人傷亡且車輛尚能行駛之事故，車輛位置及痕跡證據標繪得採攝影或錄影記錄；同條第1項第4款要求先記錄後移至不妨礙交通處。",
+          "correction": "B無須修正；受傷事故另有當事人均同意等不同移車條件。",
           "trueStatement": true
         },
         {
           "text": "汽車駕駛人在道路上蛇行，或以其他危險方式駕車，因而致人受傷或死亡，依法應負刑事責任 者，加重其刑至二分之一",
-          "explanation": "本項把加重事由與危險駕車情形概括混用，非本題正確法定加重敘述。",
-          "correction": "應按道交條例第86條具體列舉情形及事故結果逐一審查，不概括推定。",
+          "explanation": "道交條例第86條是符合列舉危險駕駛事由、因而致傷亡且依法負刑責時「得」加重，不能僅依蛇行或其他危險方式概括一律應加重。",
+          "correction": "依第86條逐項核對行為及因果關係，並保留「得」的裁量文字。",
           "trueStatement": false
         },
         {
           "text": "臨時停車係指車輛因上、下人、客，裝卸物品，其停止時間未滿 5 分鐘，引擎未熄火，保持立 即行駛之狀態",
-          "explanation": "臨時停車的法定時間是未滿3分鐘，不是5分鐘。",
-          "correction": "改為未滿3分鐘，並保留上下客、裝卸及保持立即行駛狀態等要件。",
+          "explanation": "第3條第10款臨時停車為因上下人客、裝卸物品，停止未滿三分鐘並保持立即行駛狀態；不是五分鐘，也未以引擎不熄火作此定義要件。",
+          "correction": "改為未滿三分鐘、保持立即行駛狀態。",
           "trueStatement": false
         }
       ],
@@ -1500,23 +1538,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜警察勤務概要｜第22題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 22,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "note": "道交條例及事故規範後續多次修正；本題車種與影像記錄原則可對照現行，刑度加重條件及事故處理細節仍應逐款核對。",
+        "status": "none",
+        "law": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）；全國法規資料庫・道路交通事故處理辦法（92.09.24訂定）",
+        "checkedAt": "2026-11-20",
+        "note": "已核道交條例第3、69、86條及事故處理辦法第3條；115.3.31施行的第86條仍不支持蛇行即一律「應」加重。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "先標繪記錄再移車；微型電動二輪車屬慢車，臨停未滿三分鐘。",
         "sources": [
           {
-            "title": "警專・最新法令與113年應勤裝備新制公告",
-            "url": "https://www.tpa.edu.tw/p/422-1000-1010.php?Lang=zh-tw"
+            "title": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+          },
+          {
+            "title": "全國法規資料庫・道路交通事故處理辦法（92.09.24訂定）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080090"
           }
         ]
       },
-      "takeaway": "無人傷亡且車輛可行駛，現場位置及痕跡可採攝影、錄影記錄，並依程序移車。",
+      "takeaway": "先標繪記錄再移車；微型電動二輪車屬慢車，臨停未滿三分鐘。",
       "sources": [
         {
           "title": "考選部・112年警勤原卷",
@@ -1525,8 +1571,17 @@
         {
           "title": "考選部・112年標準答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112070&c=601&s=1209&q=1"
+        },
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+        },
+        {
+          "title": "全國法規資料庫・道路交通事故處理辦法（92.09.24訂定）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080090"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B；無人傷亡且車輛可行駛，得以攝影錄影記錄位置及痕跡證據。"
     },
     {
       "id": "duty112_23",
@@ -1612,26 +1667,26 @@
       "options": [
         {
           "text": "同車乘客如未滿 20 歲者，應予放行",
-          "explanation": "第35條第8項的適用年齡為年滿18歲，未滿20歲不等於均免於該項處罰。",
-          "correction": "依是否年滿18歲及法定例外、駕駛人檢測條件判斷。",
+          "explanation": "道交條例第35條第8項處罰年滿18歲同車乘客，前提為駕駛人經測試有該項所列酒精濃度（吐氣每公升0.25毫克或血液0.05%以上）或毒品等情形；18、19歲不因未滿20就一律免責。",
+          "correction": "改為未滿18歲不在本項同車乘客處罰範圍；另有法定例外者依例外。",
           "trueStatement": false
         },
         {
           "text": "同車乘客如年滿 70 歲者，應予放行",
-          "explanation": "年滿70歲乘客是第35條第8項明定的乘客罰鍰例外。",
-          "correction": "本題112年官方答案為B；其他獨立法定處置仍需個案判斷。",
+          "explanation": "第35條第8項但書明列年滿70歲者不在本項乘客罰鍰範圍內。",
+          "correction": "B是本題例外；放行限於本項事由，不能排除另有拘提、逮捕等獨立要件。",
           "trueStatement": true
         },
         {
           "text": "同車乘客如為心智障礙者，處罰其監護人",
-          "explanation": "心智障礙乘客為第35條第8項例外；本款並無因此自動改罰監護人的規定。",
-          "correction": "依法律分別判斷，不因本項乘客罰則直接轉罰監護人。",
+          "explanation": "同條但書將心智障礙乘客排除處罰，未規定轉罰其監護人；不得由監護關係創設連帶責任。",
+          "correction": "本項乘客處罰不適用，不改罰監護人。",
           "trueStatement": false
         },
         {
           "text": "經製單舉發而對於交通違規稽查舉發不符或有異議者，可於 20 日內向處罰機關陳述意見",
-          "explanation": "第9條規定接獲違反道路交通管理事件通知單後，不服舉發事實者應於30日內向處罰機關陳述意見。",
-          "correction": "將20日改為接獲通知單後30日，並區分對裁決的救濟程序。",
+          "explanation": "第9條第1項規定不服舉發事實，應於接獲通知單後30日內向處罰機關陳述意見，並非20日。",
+          "correction": "20日改為30日；對正式裁決的司法救濟另循規定。",
           "trueStatement": false
         }
       ],
@@ -1639,30 +1694,27 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜警察勤務概要｜第24題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 24,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "道路交通管理處罰條例第35條第8項、第9條",
-        "checkedAt": "2026-11-16",
-        "effectiveStatus": "unverified",
-        "note": "保留112年官方答案B。依115.10.31生效的第35條第8項及第9條補充乘客例外、門檻與陳述意見；完整同車乘客作業程序仍待核。",
+        "status": "none",
+        "law": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
+        "checkedAt": "2026-11-20",
+        "note": "第35條同車乘客例外及第9條陳述意見期限已核；原題涉及乘客處罰的四項可由法律直接判斷，未把整份同車乘客SOP稱已取得。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "同車處罰起點十八歲；七十歲、心智障礙、運輸業乘客例外；陳述三十日。",
         "sources": [
           {
-            "title": "道路交通管理處罰條例第35條",
-            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=35"
-          },
-          {
-            "title": "道路交通管理處罰條例第9條",
-            "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=9"
+            "title": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
           }
         ]
       },
-      "takeaway": "乘客罰則依駕駛人檢測結果及乘客條件判斷；舉發異議原則30日內陳述意見。",
+      "takeaway": "同車處罰起點十八歲；七十歲、心智障礙、運輸業乘客例外；陳述三十日。",
       "sources": [
         {
           "title": "考選部・112年警勤原卷",
@@ -1679,9 +1731,13 @@
         {
           "title": "道路交通管理處罰條例第9條",
           "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=K0040012&flno=9"
+        },
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例（含尚未生效條文提示）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
         }
       ],
-      "currentAnswer": "B為112年官方答案。道交條例第35條第8項以駕駛人測得所列酒精或毒品情形為前提，年滿18歲同車乘客原則受罰，年滿70歲、心智障礙或汽車運輸業乘客除外；例外不代表可忽略其他獨立法定處置。接獲通知單後不服舉發事實，依第9條於30日內向處罰機關陳述意見。"
+      "currentAnswer": "原官方答案B。道交條例第35條第8項以駕駛人測得吐氣酒精每公升0.25毫克或血液0.05%以上，或有該項所列毒品等情形為前提；年滿18歲同車乘客原則受罰，年滿70歲、心智障礙及汽車運輸業乘客除外。例外不排除其他獨立合法處置。不服舉發事實，依第9條於接獲通知單後30日內陳述意見。"
     },
     {
       "id": "duty112_25",

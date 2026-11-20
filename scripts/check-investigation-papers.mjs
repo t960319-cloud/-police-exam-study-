@@ -5,7 +5,8 @@ import {TOPICS} from '../lib/study-data.ts';
 
 const years=[110,111,112,113,114,115], topics=new Set(TOPICS.map(t=>t.id)), ids=new Set();
 const norm=s=>s.normalize('NFKC').replace(/[^\p{L}\p{N}]/gu,'');
-let count=0,stable=0;
+let count=0,stable=0,verifiedCount=0,versionChanged=0;
+const reviewedVersionChanges=new Set(['investigation111_04','investigation112_01']);
 for(const year of years){
  const paper=JSON.parse(fs.readFileSync(new URL(`../lib/past-papers/investigation-${year}.json`,import.meta.url),'utf8'));
  const source=norm(fs.readFileSync(new URL(`../public/exam-papers/investigation/${year}/question.txt`,import.meta.url),'utf8'));
@@ -24,7 +25,14 @@ for(const year of years){
   assert(q.takeaway.trim(),label);assert(q.amendment.note.trim(),label);assert(q.sources.some(s=>s.url===paper.meta.questionUrl),label);
   if(final[i]!=='#')assert(isAnswerCorrect(q,[final.charCodeAt(i)-65]),`${label}: final answer`);
   if(!q.correctionNote){assert.notEqual(final[i],'#',`${label}: missing correction`);assert.equal(initial[i],final[i],`${label}: unexplained key change`);}
-  if(q.verified){stable++;assert.equal(q.amendment.status,'none',label);}
+  if(q.verified){
+   verifiedCount++;
+   if(q.amendment.status==='changed'){
+    assert(reviewedVersionChanges.has(q.id),label);versionChanged++;
+    assert.equal(q.amendment.checkedAt,'2026-11-20',label);
+    assert(q.amendment.sources.some(s=>s.url.startsWith('https://crime.tpa.edu.tw/')),label);
+   }else{stable++;assert.equal(q.amendment.status,'none',label);}
+  }
  }
 }
 const load=y=>JSON.parse(fs.readFileSync(new URL(`../lib/past-papers/investigation-${y}.json`,import.meta.url),'utf8'));
@@ -40,4 +48,5 @@ for(const file of fs.readdirSync(new URL('../lib/past-papers',import.meta.url)).
  const p=JSON.parse(fs.readFileSync(new URL(`../lib/past-papers/${file}`,import.meta.url),'utf8'));for(const item of [...p.questions??[],...p.essays??[]])assert(!ids.has(item.id),`duplicate existing id ${item.id}`);
 }
 const registry=fs.readFileSync(new URL('../lib/past-exams.ts',import.meta.url),'utf8');for(const y of years){assert(registry.includes(`import i${y} from "./past-papers/investigation-${y}.json"`));assert(registry.includes(`i${y}`));}
-console.log(JSON.stringify({papers:6,questions:count,transcribedOptions:count*4,officialCorrections:5,allCredit:3,multipleAcceptedSingleAnswers:1,replacedAnswer:1,stableConceptQuestions:stable,externalSubjectAbsent:6,figureReferences:1}));
+assert.equal(versionChanged,2);
+console.log(JSON.stringify({papers:6,questions:count,transcribedOptions:count*4,officialCorrections:5,allCredit:3,multipleAcceptedSingleAnswers:1,replacedAnswer:1,stableConceptQuestions:stable,verifiedQuestions:verifiedCount,reviewedVersionChanges:versionChanged,externalSubjectAbsent:6,figureReferences:1}));

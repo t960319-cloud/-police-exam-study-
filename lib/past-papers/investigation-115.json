@@ -1557,26 +1557,26 @@
       "options": [
         {
           "text": "5 日",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：未帶證件且依規定補送照片、指紋及口卡資料者，本題移送後7日內補送並於移送書載明。",
+          "explanation": "防範冒名頂替注意事項第2點明文為移送後「一週內」，不是5日。",
+          "correction": "期限應為一週即7日；不影響先查明確為本人後始移送的前提。",
           "trueStatement": false
         },
         {
           "text": "7 日",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "未帶證件且依規定補送照片、指紋及口卡資料者，本題移送後7日內補送並於移送書載明。",
+          "explanation": "第2點明定照片、指紋卡、口卡影本不能隨案移送時，應於案件移送後一週內補送，並於移送書載明。",
+          "correction": "7日符合一週；補送期限針對附件資料，不是准許先將身分完全未查明的人任意移送。",
           "trueStatement": true
         },
         {
           "text": "10 日",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：未帶證件且依規定補送照片、指紋及口卡資料者，本題移送後7日內補送並於移送書載明。",
+          "explanation": "10日長於第2點的一週，並無本項10日補送期間。",
+          "correction": "應改為移送後一週內補送，並事先在移送書記明補送。",
           "trueStatement": false
         },
         {
           "text": "14 日",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：未帶證件且依規定補送照片、指紋及口卡資料者，本題移送後7日內補送並於移送書載明。",
+          "explanation": "14日是兩週，與第2點一週內不符。",
+          "correction": "不能將一週誤記為兩週；仍須即時拍照、採紋、調口卡核身。",
           "trueStatement": false
         }
       ],
@@ -1587,19 +1587,27 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第19題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 19,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "檢察機關與司法警察機關辦理刑事案件防範冒名頂替應行注意事項",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "到案未帶證件而無法確認身分時，先查明本人再移送；照片、指紋及口卡原則隨案送，不能隨案者於移送後一週內補送並註明。",
+        "sources": [
+          {
+            "title": "檢察機關與司法警察機關辦理刑事案件防範冒名頂替應行注意事項",
+            "url": "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=FL010181"
+          }
+        ]
       },
-      "takeaway": "未帶證件且依規定補送照片、指紋及口卡資料者，本題移送後7日內補送並於移送書載明。",
+      "takeaway": "到案未帶證件而無法確認身分時，先查明本人再移送；照片、指紋及口卡原則隨案送，不能隨案者於移送後一週內補送並註明。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -1616,8 +1624,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "檢察機關與司法警察機關辦理刑事案件防範冒名頂替應行注意事項",
+          "url": "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=FL010181"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B不變。到案未帶證件而無法確認身分時，先查明本人再移送；照片、指紋及口卡原則隨案送，不能隨案者於移送後一週內補送並註明。"
     },
     {
       "id": "investigation115_20",
@@ -1701,26 +1714,26 @@
       "options": [
         {
           "text": "未滿 14 歲之人",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "檢察官審核逕行拘提理由，對未滿14歲者不予簽發；少年其他到案措施須另依法律。",
+          "explanation": "檢察機關辦理刑事訴訟案件應行注意事項第20點明定，理由不合刑訴法第88條之1或被拘人未滿14歲時，應不予簽發並即釋放。",
+          "correction": "本題門檻是未滿14歲；須區分本條逕行拘提與少年事件其他法定通知、同行或逮捕程序。",
           "trueStatement": true
         },
         {
           "text": "未滿 16 歲之人",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：檢察官審核逕行拘提理由，對未滿14歲者不予簽發；少年其他到案措施須另依法律。",
+          "explanation": "第20點沒有將不予簽發年齡定為未滿16歲；並另要求14歲以上未滿18歲少年按少年法院程序移送。",
+          "correction": "應選未滿14歲；已滿14歲也不能只看年齡就核票，仍要審查急迫性及第88條之1事由。",
           "trueStatement": false
         },
         {
           "text": "未滿 18 歲之人",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：檢察官審核逕行拘提理由，對未滿14歲者不予簽發；少年其他到案措施須另依法律。",
+          "explanation": "未滿18歲雖屬少年範圍，但第20點禁止簽發此種拘票的明定門檻不是全體少年，而是未滿14歲。",
+          "correction": "不可把少年身分與此種拘票的14歲門檻混同；少年案件應另遵其專屬程序保障。",
           "trueStatement": false
         },
         {
           "text": "未滿 20 歲之人",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：檢察官審核逕行拘提理由，對未滿14歲者不予簽發；少年其他到案措施須另依法律。",
+          "explanation": "未滿20歲是舊成年年齡印象，並非第20點就此種拘票規定的門檻。",
+          "correction": "本題依第20點選未滿14歲，不能以成年年齡取代拘票的特別規定。",
           "trueStatement": false
         }
       ],
@@ -1731,19 +1744,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第21題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 21,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "檢察機關辦理刑事訴訟案件應行注意事項；刑事訴訟法",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "逕行拘提後檢察官仍須實質審查拘票；檢察注意事項第20點明定未滿14歲不予簽發此種拘票，不表示少年一切合法強制程序都被排除。",
+        "sources": [
+          {
+            "title": "檢察機關辦理刑事訴訟案件應行注意事項",
+            "url": "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=FL010166"
+          },
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "檢察官審核逕行拘提理由，對未滿14歲者不予簽發；少年其他到案措施須另依法律。",
+      "takeaway": "逕行拘提後檢察官仍須實質審查拘票；檢察注意事項第20點明定未滿14歲不予簽發此種拘票，不表示少年一切合法強制程序都被排除。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -1760,8 +1785,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "檢察機關辦理刑事訴訟案件應行注意事項",
+          "url": "https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=FL010166"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A不變。逕行拘提後檢察官仍須實質審查拘票；檢察注意事項第20點明定未滿14歲不予簽發此種拘票，不表示少年一切合法強制程序都被排除。"
     },
     {
       "id": "investigation115_22",
@@ -1882,26 +1916,26 @@
       "options": [
         {
           "text": "1 日前",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：至遲期滿2日前釋明具體理由聲請；續行不是自動延長，仍須符合期間上限。",
+          "explanation": "通保法第12條第1項明定至遲2日前，1日前已晚於該法定最遲時點。",
+          "correction": "應於期滿2日前提出，不能只在1日前補送。",
           "trueStatement": false
         },
         {
           "text": "2 日前",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "至遲期滿2日前釋明具體理由聲請；續行不是自動延長，仍須符合期間上限。",
+          "explanation": "第12條第1項明定釋明具體理由、至遲期滿2日前提出聲請；第五、六條續行累計不得逾一年，超過須重行聲請。",
+          "correction": "應選2日前，且達一年上限時不能只當作同一監察書無限延期，須依法重新聲請審查。",
           "trueStatement": true
         },
         {
           "text": "3 日前",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：至遲期滿2日前釋明具體理由聲請；續行不是自動延長，仍須符合期間上限。",
+          "explanation": "3日前提早提出固然沒有違反「至遲2日前」，但法條問的最遲期限不是3日前。",
+          "correction": "3日前可屬提前提出；本題法定最遲答案仍是2日前。",
           "trueStatement": false
         },
         {
           "text": "4 日前",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：至遲期滿2日前釋明具體理由聲請；續行不是自動延長，仍須符合期間上限。",
+          "explanation": "4日前也是可能的提早提出時間，並非第12條所定最遲2日前。",
+          "correction": "不能把較保守的提前作業時間當成法律要求的最遲期限。",
           "trueStatement": false
         }
       ],
@@ -1912,19 +1946,35 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第23題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 23,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "通訊保障及監察法；警專公開115年新版警察偵查犯罪手冊；警專刑事警察科・115年手冊官方附件入口",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "通保法第12條第1項要求必要續行時釋明理由，至遲於期滿2日前提出；一年上限後須依第5、6條重行聲請。",
+        "sources": [
+          {
+            "title": "通訊保障及監察法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+          },
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "警專刑事警察科・115年手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "至遲期滿2日前釋明具體理由聲請；續行不是自動延長，仍須符合期間上限。",
+      "takeaway": "通保法第12條第1項要求必要續行時釋明理由，至遲於期滿2日前提出；一年上限後須依第5、6條重行聲請。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -1941,8 +1991,21 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "通訊保障及監察法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B不變。通保法第12條第1項要求必要續行時釋明理由，至遲於期滿2日前提出；一年上限後須依第5、6條重行聲請。"
     },
     {
       "id": "investigation115_24",
@@ -2135,26 +2198,26 @@
       "options": [
         {
           "text": "7 月 10 日 0 時發生效力",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：寄存後經10日生效，7月1日寄存的當日不算，經滿10日於7月12日0時生效。",
+          "explanation": "刑訴法第62條準用民訴送達，民訴第138條第2項須自寄存起經10日；7月10日0時，排除7月1日後尚未經過完整10日。",
+          "correction": "7月2日起計10日，到7月11日終了才滿10日，故不是7月10日0時。",
           "trueStatement": false
         },
         {
           "text": "7 月 11 日 0 時發生效力",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：寄存後經10日生效，7月1日寄存的當日不算，經滿10日於7月12日0時生效。",
+          "explanation": "依民法第120條第2項及第121條第1項，初日不算、期間以末日終了為終止。7月11日0時只是第10日開始，尚未經過該日。",
+          "correction": "須待7月11日終了，即7月12日0時，而非7月11日0時。",
           "trueStatement": false
         },
         {
           "text": "7 月 12 日 0 時發生效力",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "寄存後經10日生效，7月1日寄存的當日不算，經滿10日於7月12日0時生效。",
+          "explanation": "依民訴第138條第2項、民法第120條第2項及第121條第1項，7月1日不算，7月2日至11日共10日，經過後為7月12日0時。",
+          "correction": "C為本題所設通常寄存送達的生效時點；是否成立合法寄存送達，仍先依第138條第1項的送達不能及通知程序判斷。",
           "trueStatement": true
         },
         {
           "text": "7 月 13 日 0 時發生效力",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：寄存後經10日生效，7月1日寄存的當日不算，經滿10日於7月12日0時生效。",
+          "explanation": "7月13日0時把法定等待期間多算一天；排除7月1日後，7月11日終了已經過10日。",
+          "correction": "通常計算為7月12日0時，不必額外再等一天。",
           "trueStatement": false
         }
       ],
@@ -2165,19 +2228,43 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第26題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 26,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "警專公開115年新版警察偵查犯罪手冊；刑事訴訟法；民事訴訟法；民法；警專刑事警察科・115年手冊官方附件入口",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "寄存日不算入，以7月2日為第1日，7月11日為第10日；十日經過後於7月12日0時生送達效力。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "民事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0010001"
+          },
+          {
+            "title": "民法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+          },
+          {
+            "title": "警專刑事警察科・115年手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "寄存後經10日生效，7月1日寄存的當日不算，經滿10日於7月12日0時生效。",
+      "takeaway": "寄存日不算入，以7月2日為第1日，7月11日為第10日；十日經過後於7月12日0時生送達效力。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -2194,8 +2281,29 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "民事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0010001"
+        },
+        {
+          "title": "民法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C不變。寄存日不算入，以7月2日為第1日，7月11日為第10日；十日經過後於7月12日0時生送達效力。"
     },
     {
       "id": "investigation115_27",
@@ -2279,26 +2387,26 @@
       "options": [
         {
           "text": "證人或關係人因到場作證有生命、身體、名譽或財產有遭受危害之虞時，得依證人保護法聲請保護",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題須符合證保法所列案件，願到場陳述見聞並依法接受對質、詰問等條件；保護危害種類與緊急陳報期限另核。",
+          "explanation": "手冊第105點第1款及證人保護法第4條第1項列生命、身體、自由或財產，本項以名譽取代自由。單純名譽損害之虞不是該條列明的獨立保護事由。",
+          "correction": "應改為生命、身體、自由或財產有受危害之虞且有保護必要，依法聲請或採必要措施。",
           "trueStatement": false
         },
         {
           "text": "證人保護法規定之證人，係指其指證之案件為證人保護法第 2 條之刑事案件，且願意在檢察官偵 查中或法院審理中到場作證，陳述自己見聞之犯罪事證，並依法接受對質及詰問者",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "本題須符合證保法所列案件，願到場陳述見聞並依法接受對質、詰問等條件；保護危害種類與緊急陳報期限另核。",
+          "explanation": "手冊第105點第2款結合證人保護法第2、3條，要求案件屬法定範圍，證人願在檢察官偵查或法院審理到場，陳述親身見聞並依法接受對質、詰問。",
+          "correction": "本項符合本題刑事案件證人定義；不能只因被稱作線民或證人就省略案件範圍、作證意願及程序要求。",
           "trueStatement": true
         },
         {
           "text": "檢舉人、告發人、告訴人或嫌疑人須於檢察官偵查中或法院審理中到場作證，而有保護必要者，比 照證人保護法規定辦理",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題須符合證保法所列案件，願到場陳述見聞並依法接受對質、詰問等條件；保護危害種類與緊急陳報期限另核。",
+          "explanation": "手冊第105點第3款及證人保護法第15條第1項列檢舉人、告發人、告訴人或「被害人」，本項換成嫌疑人。嫌疑人另具合法證人等身分與保護要件時應另論。",
+          "correction": "把嫌疑人改為被害人；不可因此推論任何嫌疑人於任何程序都絕無保護可能。",
           "trueStatement": false
         },
         {
           "text": "證人有依證人保護法規定施以保護之必要者，其時間急迫者，得先採取必要之保護措施，並於 5 日 內將所採保護措施陳報檢察官",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題須符合證保法所列案件，願到場陳述見聞並依法接受對質、詰問等條件；保護危害種類與緊急陳報期限另核。",
+          "explanation": "手冊第105點第2項及證人保護法第4條第2項均明定司法警察急迫先採措施後，於7日內陳報檢察官或法院；不是5日。",
+          "correction": "應於7日內陳報；時間急迫得先保護不代表免除後續審查與陳報。",
           "trueStatement": false
         }
       ],
@@ -2309,19 +2417,35 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第28題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 28,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "警專公開115年新版警察偵查犯罪手冊；證人保護法；警專刑事警察科・115年手冊官方附件入口",
+        "checkedAt": "2026-11-20",
+        "note": "已於2026-11-20（Asia/Taipei）以列示官方完整原件逐項核對；當年度官方給分維持原狀，補充說明依本次讀取之現行規定。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "newRule": "證人保護法以願意到場作證、依法對質詰問為基本定義；危害法益包括自由，急迫先保護後應於7日內陳報，不是5日。",
+        "sources": [
+          {
+            "title": "警專公開115年新版警察偵查犯罪手冊",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "證人保護法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030161"
+          },
+          {
+            "title": "警專刑事警察科・115年手冊官方附件入口",
+            "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
+          }
+        ]
       },
-      "takeaway": "本題須符合證保法所列案件，願到場陳述見聞並依法接受對質、詰問等條件；保護危害種類與緊急陳報期限另核。",
+      "takeaway": "證人保護法以願意到場作證、依法對質詰問為基本定義；危害法益包括自由，急迫先保護後應於7日內陳報，不是5日。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -2338,8 +2462,21 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "警專公開115年新版警察偵查犯罪手冊",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "證人保護法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030161"
+        },
+        {
+          "title": "警專刑事警察科・115年手冊官方附件入口",
+          "url": "https://crime.tpa.edu.tw/p/405-1016-10084%2Cc968.php"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B不變。證人保護法以願意到場作證、依法對質詰問為基本定義；危害法益包括自由，急迫先保護後應於7日內陳報，不是5日。"
     },
     {
       "id": "investigation115_29",
