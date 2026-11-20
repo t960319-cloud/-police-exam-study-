@@ -1,0 +1,159 @@
+{
+  "projectId": "appgprj_6af12822277881919dd2fcce0d109104",
+  "liveUrl": "https://police-exam-study.middlelapwing4.chatgpt.site",
+  "sourceCommit": "ce383a5c460df6972a5ed332e2ae479db8eb441d",
+  "version": 46,
+  "versionId": "appgprj_6af12822277881919dd2fcce0d109104~appgver_5b5154a72dd08191b0122600f78e0ec2",
+  "deploymentId": "appgdep_6b0011cc70e08191b4a8074d7403a43d",
+  "status": "succeeded",
+  "deployedAt": "2026-11-20T09:24:41.579808+00:00",
+  "archiveStorage": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_00000000c5548206bb82f71d5107532a",
+    "content_hash": "sha256:c2adeef27b3da9059781ebe2302558ca105a7c980a7c6dac86d8ed8ea7b9d4b9",
+    "size_bytes": 20418560,
+    "file_count": 188
+  },
+  "access": "public",
+  "databaseBinding": "DB",
+  "requestedBatchSize": 50,
+  "supplementedQuestions": 50,
+  "reviewedOptions": 200,
+  "verifiedInCitedScope": 13,
+  "retainedReview": 37,
+  "eventPatchCounts": [
+    25,
+    25
+  ],
+  "disjointFromPrevious100": true,
+  "sourceBranchesVerified": [
+    "GitHub main",
+    "Sites configured source branch"
+  ],
+  "sourceForcePush": false,
+  "accountAcceptance": "本次核對正式匿名法規教材；未執行正式帳號保存、跨裝置或還原驗收。",
+  "localArchive": {
+    "archive": "/tmp/police-release-ce383a5.tar",
+    "sha256": "164ef5ce87fbf8f73a9a71ce1c401857a0d469e0d2c89e3755eadcd5a9f582a6",
+    "fileCount": 188,
+    "bytes": 20602880,
+    "sourceSha": "ce383a5c460df6972a5ed332e2ae479db8eb441d",
+    "databaseBinding": "DB",
+    "eventCompiledIn": [
+      "dist/server/_next/static/route-x-6wB5hJ.js"
+    ]
+  },
+  "readback": {
+    "checkedAt": "2026-11-20T09:24:58.204310+00:00",
+    "api": "https://police-exam-study.middlelapwing4.chatgpt.site/api/legal-updates",
+    "method": "GET",
+    "pages": [
+      {
+        "url": "https://police-exam-study.middlelapwing4.chatgpt.site/api/legal-updates",
+        "response": "200 200",
+        "events": 50,
+        "sha256": "36b67e556f35ac712c0068785035b42bc4582f322e65e7973b988e3572df2d99"
+      }
+    ],
+    "eventCount": 50,
+    "curatedCount": 47,
+    "allCuratedEventsMatch": true,
+    "preservedPreviousEvents": 48,
+    "previousEventsUnchanged": true,
+    "newEventIds": [
+      "legal-review-20261120-plus50-a",
+      "legal-review-20261120-plus50-b"
+    ],
+    "newEventPatchCounts": [
+      25,
+      25
+    ],
+    "newPatchCount": 50,
+    "optionOverrideCount": 200,
+    "verifiedInCitedScope": 13,
+    "reviewRetained": 37,
+    "newTargetIds": [
+      "investigation110_04",
+      "investigation112_41",
+      "investigation112_36",
+      "investigation112_38",
+      "law113-inner-19",
+      "law113-inner-20",
+      "law113-outer-22",
+      "law114-inner-13",
+      "law114-outer-07",
+      "law115-inner-08",
+      "duty110_08",
+      "duty110_13",
+      "duty110_22",
+      "duty111_11",
+      "duty111_12",
+      "duty113_01",
+      "duty113_10",
+      "duty114_01",
+      "duty114_07",
+      "duty114_13",
+      "duty114_22",
+      "duty115_01",
+      "duty115_02",
+      "duty115_08",
+      "duty115_17",
+      "scene110-17",
+      "scene111-02",
+      "scene112-03",
+      "scene112-05",
+      "scene114-06",
+      "investigation110_12",
+      "investigation110_13",
+      "investigation110_25",
+      "investigation110_28",
+      "investigation110_39",
+      "investigation111_02",
+      "investigation111_48",
+      "investigation112_03",
+      "investigation112_12",
+      "investigation112_20",
+      "investigation112_21",
+      "investigation113_03",
+      "investigation113_33",
+      "investigation113_48",
+      "investigation114_22",
+      "investigation114_36",
+      "investigation114_43",
+      "investigation115_02",
+      "investigation115_17",
+      "investigation115_27"
+    ],
+    "hasNextCursor": false,
+    "learningDataWrites": 0
+  },
+  "invariants": {
+    "unchangedQuestions": 910,
+    "unchangedEssays": 66,
+    "unchangedLaws": 33,
+    "unchangedHistory": 45,
+    "changedQuestions": 50,
+    "supplementedQuestions": 50,
+    "reviewedOptions": 200,
+    "verifiedInCitedScope": 13,
+    "retainedReview": 37,
+    "counts": {
+      "questionsNotVerified": 191,
+      "essaysNotVerified": 27,
+      "reviewFilter": 192
+    }
+  },
+  "counts": {
+    "questionsNotVerified": 191,
+    "essaysNotVerified": 27,
+    "reviewFilter": 192
+  },
+  "legalEvidence": "legal-evidence-2026-11-20-plus50.json",
+  "learningRecordsModified": false,
+  "platformReadback": {
+    "id": "appgprj_6af12822277881919dd2fcce0d109104",
+    "version": 46,
+    "access": "public",
+    "url": "https://police-exam-study.middlelapwing4.chatgpt.site"
+  }
+}
