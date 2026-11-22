@@ -602,3 +602,29 @@ console.log('Hundred-question supplements, official final credit, exact event li
  assert.equal(validateLegalEvent({...extraEvents[0],sources:[{...taipei,url:'https://laws.gov.taipei.example.com/law'}]},ids),false);
 }
 console.log('Additional fifty, distinct targets, statutory document fields, contract enforcement, version changes and retained source gaps passed.');
+
+// Reconcile existing production explanations without treating key comparisons as full analyses.
+{
+ const audit=events.find(e=>e.eventId==='legal-review-20261120-existing-explanations-audit');assert(audit);assert.equal(audit.patches.length,37);
+ const q=id=>result.questions.find(q=>q.id===id);
+ const keyOnly=audit.patches.filter(p=>p.targetId.startsWith('investigation'));
+ assert.equal(keyOnly.length,32);
+ for(const p of keyOnly){
+  const item=q(p.targetId);assert.equal(item.verified,false);assert.equal(item.analysisMode,'answer-key');assert.equal(item.amendment.status,'review');
+  assert(item.currentAnswer.includes('完整A～D逐項詳解'));assert(!p.optionOverrides);
+  assert(item.amendment.sources.every(s=>s.url.startsWith('https://wwwq.moex.gov.tw/')));
+ }
+ assert(result.questions.every(q=>!q.verified||q.analysisMode!=='answer-key'));
+ assert(q('q14').options[0].explanation.includes('【歷史題解；現行依據待核】'));
+ assert(q('q24').currentAnswer.includes('10日'));assert(q('q24').options[1].explanation.includes('另一項'));
+ assert(q('q24').amendment.sources.some(s=>s.url.includes('LawHistory.aspx?pcode=C0010001')));
+ assert(!q('q24').amendment.sources.some(s=>s.url.includes('NewsDetail.aspx')));
+ assert(q('scene110-14').currentAnswer.includes('公告拍賣1個月'));
+ const essay=result.essays.find(e=>e.id==='s08'),law=result.laws.find(l=>l.id==='p2052');
+ assert(essay.currentAnswer.includes('24小時'));assert(essay.currentAnswer.includes('10日'));
+ for(const item of [essay,law]){
+  assert(item.amendment.effectiveDate.startsWith('2025-11-13'));assert(item.amendment.note.includes('公布日114.11.11'));
+  assert(item.amendment.sources.some(s=>s.url.includes('A0030133')));
+ }
+}
+console.log('Existing details preserved, overstated key-only verification corrected, and publication/effective dates separated.');

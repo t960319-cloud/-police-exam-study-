@@ -28,6 +28,11 @@ for(const year of years){
   assert(source.includes(norm(q.stem)),`${label}: stem transcription`);assert(!q.stem.includes('[MISSING'),label);assert.equal(q.options.length,4,label);
   for(const o of q.options){assert(source.includes(norm(o.text)),`${label}: option transcription`);assert(o.text.trim());assert(o.explanation.trim());assert(o.correction.trim());}
   assert(q.takeaway.trim(),label);assert(q.amendment.note.trim(),label);assert(q.sources.some(s=>s.url===paper.meta.questionUrl),label);
+  // Official-key comparisons alone cannot certify a complete option explanation.
+  if(q.analysisMode==='answer-key'){
+   assert.equal(q.verified,false,`${label}: key-only content is not a verified explanation`);
+   assert.equal(q.amendment.status,'review',`${label}: missing explanations remain visible for review`);
+  }
   if(final[i]!=='#')assert(isAnswerCorrect(q,[final.charCodeAt(i)-65]),`${label}: final answer`);
   if(!q.correctionNote){assert.notEqual(final[i],'#',`${label}: missing correction`);assert.equal(initial[i],final[i],`${label}: unexplained key change`);}
   if(q.verified){

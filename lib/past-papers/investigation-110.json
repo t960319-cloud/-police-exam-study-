@@ -3910,7 +3910,7 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": true,
+      "verified": false,
       "origin": "110年內軌四等｜犯罪偵查概要｜第46題",
       "paperYear": 110,
       "paperTrack": "內軌",
@@ -3918,9 +3918,22 @@
       "answerStatus": "官方最終答案已核",
       "analysisMode": "answer-key",
       "amendment": {
-        "status": "none",
-        "note": "已依當年度原題及官方答案整理，屬技術概念考點；不據此保證所有實務作法與產品版本均未變更。",
-        "checkedAt": "2026-11-11"
+        "status": "review",
+        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
+        "checkedAt": "2026-11-20",
+        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
+        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
+        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "sources": [
+          {
+            "title": "考選部110年犯罪偵查概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=110070&q=1&s=1405&t=Q"
+          },
+          {
+            "title": "考選部110年犯罪偵查概要標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=110070&q=1&s=1405&t=S"
+          }
+        ]
       },
       "takeaway": "手錶停時、腐敗狀況、傷痕與門窗狀態可反映事件情況；應與接觸性、連結性或暫時性跡證區別。",
       "sources": [
@@ -3936,7 +3949,8 @@
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
         }
-      ]
+      ],
+      "currentAnswer": "保留當年度官方答案C。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
     },
     {
       "id": "investigation110_47",

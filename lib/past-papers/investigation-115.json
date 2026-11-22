@@ -2771,7 +2771,7 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": true,
+      "verified": false,
       "origin": "115年內軌四等｜犯罪偵查概要｜第31題",
       "paperYear": 115,
       "paperTrack": "內軌",
@@ -2779,9 +2779,22 @@
       "answerStatus": "官方最終答案已核",
       "analysisMode": "answer-key",
       "amendment": {
-        "status": "none",
-        "note": "已依當年度原題及官方答案整理，屬技術概念考點；不據此保證所有實務作法與產品版本均未變更。",
-        "checkedAt": "2026-11-11"
+        "status": "review",
+        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
+        "checkedAt": "2026-11-20",
+        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
+        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
+        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "sources": [
+          {
+            "title": "考選部115年犯罪偵查概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=Q"
+          },
+          {
+            "title": "考選部115年犯罪偵查概要標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=S"
+          }
+        ]
       },
       "takeaway": "依空間與物件系統搜尋並觀察偽裝，避免遺漏；仍須在合法搜索範圍內執行。",
       "sources": [
@@ -2801,7 +2814,8 @@
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
         }
-      ]
+      ],
+      "currentAnswer": "保留當年度官方答案B。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
     },
     {
       "id": "investigation115_32",
@@ -3282,7 +3296,7 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": true,
+      "verified": false,
       "origin": "115年內軌四等｜犯罪偵查概要｜第37題",
       "paperYear": 115,
       "paperTrack": "內軌",
@@ -3290,9 +3304,22 @@
       "answerStatus": "官方最終答案已核",
       "analysisMode": "answer-key",
       "amendment": {
-        "status": "none",
-        "note": "已依當年度原題及官方答案整理，屬技術概念考點；不據此保證所有實務作法與產品版本均未變更。",
-        "checkedAt": "2026-11-11"
+        "status": "review",
+        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
+        "checkedAt": "2026-11-20",
+        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
+        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
+        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "sources": [
+          {
+            "title": "考選部115年犯罪偵查概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=Q"
+          },
+          {
+            "title": "考選部115年犯罪偵查概要標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=S"
+          }
+        ]
       },
       "takeaway": "依序登記、分析、研判、運用；先整理資料關係，再做意義與行動判斷。",
       "sources": [
@@ -3312,7 +3339,8 @@
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
         }
-      ]
+      ],
+      "currentAnswer": "保留當年度官方答案D。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
     },
     {
       "id": "investigation115_38",
@@ -3354,7 +3382,7 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": true,
+      "verified": false,
       "origin": "115年內軌四等｜犯罪偵查概要｜第38題",
       "paperYear": 115,
       "paperTrack": "內軌",
@@ -3362,9 +3390,22 @@
       "answerStatus": "官方最終答案已核",
       "analysisMode": "answer-key",
       "amendment": {
-        "status": "none",
-        "note": "已依當年度原題及官方答案整理，屬技術概念考點；不據此保證所有實務作法與產品版本均未變更。",
-        "checkedAt": "2026-11-11"
+        "status": "review",
+        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
+        "checkedAt": "2026-11-20",
+        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
+        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
+        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "sources": [
+          {
+            "title": "考選部115年犯罪偵查概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=Q"
+          },
+          {
+            "title": "考選部115年犯罪偵查概要標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=S"
+          }
+        ]
       },
       "takeaway": "本題核心為個體、事件與關聯，空間不在此列舉分類；與地緣空間分析要區分。",
       "sources": [
@@ -3384,7 +3425,8 @@
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
         }
-      ]
+      ],
+      "currentAnswer": "保留當年度官方答案D。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
     },
     {
       "id": "investigation115_39",
@@ -3929,7 +3971,7 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": true,
+      "verified": false,
       "origin": "115年內軌四等｜犯罪偵查概要｜第45題",
       "paperYear": 115,
       "paperTrack": "內軌",
@@ -3937,9 +3979,22 @@
       "answerStatus": "官方最終答案已核",
       "analysisMode": "answer-key",
       "amendment": {
-        "status": "none",
-        "note": "已依當年度原題及官方答案整理，屬技術概念考點；不據此保證所有實務作法與產品版本均未變更。",
-        "checkedAt": "2026-11-11"
+        "status": "review",
+        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
+        "checkedAt": "2026-11-20",
+        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
+        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
+        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "sources": [
+          {
+            "title": "考選部115年犯罪偵查概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=Q"
+          },
+          {
+            "title": "考選部115年犯罪偵查概要標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=S"
+          }
+        ]
       },
       "takeaway": "不可概括立即關機，須先考量揮發性資料及加密狀態並記錄，扣押範圍仍受比例原則限制。",
       "sources": [
@@ -3959,7 +4014,8 @@
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
         }
-      ]
+      ],
+      "currentAnswer": "保留當年度官方答案C。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
     },
     {
       "id": "investigation115_46",
@@ -4453,7 +4509,7 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": true,
+      "verified": false,
       "origin": "115年內軌四等｜犯罪偵查概要｜第50題",
       "paperYear": 115,
       "paperTrack": "內軌",
@@ -4461,9 +4517,22 @@
       "answerStatus": "官方最終答案已核",
       "analysisMode": "answer-key",
       "amendment": {
-        "status": "none",
-        "note": "已依當年度原題及官方答案整理，屬技術概念考點；不據此保證所有實務作法與產品版本均未變更。",
-        "checkedAt": "2026-11-11"
+        "status": "review",
+        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
+        "checkedAt": "2026-11-20",
+        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
+        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
+        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "sources": [
+          {
+            "title": "考選部115年犯罪偵查概要原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=Q"
+          },
+          {
+            "title": "考選部115年犯罪偵查概要標準答案",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=S"
+          }
+        ]
       },
       "takeaway": "已開機設備先評估蒐集揮發性資料，不應一律關閉所有電源；完整監督鏈需紀錄而非只靠關機。",
       "sources": [
@@ -4483,7 +4552,8 @@
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
         }
-      ]
+      ],
+      "currentAnswer": "保留當年度官方答案D。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
     }
   ],
   "essays": []
