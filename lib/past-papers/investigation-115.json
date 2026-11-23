@@ -502,26 +502,26 @@
       "options": [
         {
           "text": "民眾提供犯罪線索，不論以書面、口頭或其他方式，均應嚴予保密。如其不願出示真實姓名者，可 同意其使用化名、代號或暗語為連絡記號",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：原卷官方選B；受理紀錄、專人專簿及保密作業須依所考版本核對，不能只因選項有保密字樣就判為符合全部程序。",
+          "explanation": "要點第4點逐字允許不願出真名者用化名、代號或暗語聯絡，並要求不論提供方式都嚴予保密，A與原文相符。",
+          "correction": "保密涵蓋足供識別身分資訊；化名聯絡不代表承辦人可免除記錄及保管責任。",
           "trueStatement": true
         },
         {
           "text": "各警察機關受理民眾提供犯罪線索，應予記錄或留存其書面、電磁紀錄等資料，並注意保密，依文 書處理相關規定簽辦，相關卷資應依個人資料保護法管理",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "原卷官方選B；受理紀錄、專人專簿及保密作業須依所考版本核對，不能只因選項有保密字樣就判為符合全部程序。",
+          "explanation": "第5點要求記錄或留存書面、電磁紀錄、保密及依文書規定簽辦，但指定相關卷資依檔案法管理；B將該指定法律替換。",
+          "correction": "將本項指定法名改為檔案法，並補匿名聯絡記號對照資料以密封套密封；這不表示個資法於其他適用情況一概排除。",
           "trueStatement": false
         },
         {
           "text": "民眾逮捕現行犯送交警察機關之處理程序，應依刑事訴訟法第 92 條之規定辦理",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：原卷官方選B；受理紀錄、專人專簿及保密作業須依所考版本核對，不能只因選項有保密字樣就判為符合全部程序。",
+          "explanation": "要點第11點明列依刑訴92條辦理；現行該條規定一般人逮捕現行犯應即交檢警，檢警接受後原則即解送檢察官，並有法定例外。",
+          "correction": "另詢逮捕人姓名、住居所及逮捕事由；獎勵要點不創設比刑訴更廣的逮捕權或任意不解送權。",
           "trueStatement": true
         },
         {
           "text": "不願使用真實姓名之民眾，除核發獎金、獎品外，以不請發獎章、榮譽章、獎狀為原則",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：原卷官方選B；受理紀錄、專人專簿及保密作業須依所考版本核對，不能只因選項有保密字樣就判為符合全部程序。",
+          "explanation": "第12點對不願用真名者，除核發獎金獎品外，以不請發獎章、榮譽章、獎狀為原則，避免表揚方式反使身分外露。",
+          "correction": "原則與一律禁止有別；實際獎勵及具領依要點、保密及本人意願辦理，不擅自公開真名表揚。",
           "trueStatement": true
         }
       ],
@@ -532,19 +532,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第6題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 6,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "原卷官方選B；受理紀錄、專人專簿及保密作業須依所考版本核對，不能只因選項有保密字樣就判為符合全部程序。 本題保留原題用語疑點，現行完整原件與細部理由待核。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "刑事警察局・檢舉及保護措施所載獎勵民眾提供犯罪線索協助破案實施要點全文；全國法規資料庫・刑事訴訟法現行全文",
+        "checkedAt": "2026-11-24",
+        "note": "本輪直接HTTP200取得刑事局完整要點並實讀第4—7、11—13點；刑訴92亦新取全文確認。頁面112.4.14更新日期不當作要點修正日；核對是現有公布原文與本題差異，不宣稱新制定規範。 核讀日2026-11-24（Asia/Taipei）；此為查核日，不作修法日期；保留原題、選項、trueStatement及全部官方原始／最終給分。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
+        "newRule": "指定卷資管理法是檔案法；匿名對照另密封，線索及提供者身分嚴格保密。",
+        "sources": [
+          {
+            "title": "刑事警察局・檢舉及保護措施所載獎勵民眾提供犯罪線索協助破案實施要點全文",
+            "url": "https://www.cib.npa.gov.tw/ch/app/artwebsite/view?id=1450&module=artwebsite&serno=e878fdc5-82f5-4751-99fa-729aee3cced1"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "原卷官方選B；受理紀錄、專人專簿及保密作業須依所考版本核對，不能只因選項有保密字樣就判為符合全部程序。",
+      "takeaway": "指定卷資管理法是檔案法；匿名對照另密封，線索及提供者身分嚴格保密。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -561,8 +573,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "刑事警察局・檢舉及保護措施所載獎勵民眾提供犯罪線索協助破案實施要點全文",
+          "url": "https://www.cib.npa.gov.tw/ch/app/artwebsite/view?id=1450&module=artwebsite&serno=e878fdc5-82f5-4751-99fa-729aee3cced1"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B不變。刑事局公布要點第5點明文為相關卷資依「檔案法」管理，B改成個人資料保護法；不能再用較早專人專簿的簡述當作本題唯一差異。"
     },
     {
       "id": "investigation115_07",
@@ -574,26 +595,26 @@
       "options": [
         {
           "text": "實施現場封鎖，非經勘察組長同意，任何人不得進入，必要時派員於封鎖線外警戒",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：得使用封鎖帶、標示牌、警示閃光燈等器材保全現場；層數、入場許可及跡證移動各有不同條件。",
+          "explanation": "103版第17點及115手冊第57點都是非經現場指揮官同意不得進入；勘察組長負責勘察，不當然就是入場許可的指揮官。",
+          "correction": "將勘察組長改為現場指揮官，進入仍要必要防護及合法職務範圍，不因許可就可任意採證。",
           "trueStatement": false
         },
         {
           "text": "室外現場宜使用帳篷、雨棚或其他物品保全跡證，或為適當之記錄後，移至通風處所，以免跡證遭 受自然力如風吹、雨淋及日曬等所破壞",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：得使用封鎖帶、標示牌、警示閃光燈等器材保全現場；層數、入場許可及跡證移動各有不同條件。",
+          "explanation": "103版第17點與115手冊第61點是適當記錄後移至安全處所／地點；B寫通風，通風不能保證不受雨、污染或其他危害。",
+          "correction": "保全原位優先，必要移置先記錄並選安全條件；不能只以空氣流通當適當保管標準。",
           "trueStatement": false
         },
         {
           "text": "得使用現場封鎖帶、標示牌、警示閃光燈或其他器材，以達成保全現場為原則",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "得使用封鎖帶、標示牌、警示閃光燈等器材保全現場；層數、入場許可及跡證移動各有不同條件。",
+          "explanation": "103版第18點及115手冊第60點均允許封鎖帶、標示牌、警示燈或其他器材，以實現保全現場為重點，C有直接原文支持。",
+          "correction": "器材可依環境搭配，須讓界線可識別且有實際警戒效果；不是只設標示便自動完成保全。",
           "trueStatement": true
         },
         {
           "text": "封鎖範圍以 3 道封鎖線為原則，初期封鎖之範圍應廣，待初步勘察後，視實際需要再行界定封鎖範 圍，必要時得實施交通管制",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：得使用封鎖帶、標示牌、警示閃光燈等器材保全現場；層數、入場許可及跡證移動各有不同條件。",
+          "explanation": "103版第18點確實寫三道及初期宜廣，不能用該舊版直接證明D錯；115手冊第59點已寫範圍及層數視環境事實需要，並非固定三道。",
+          "correction": "保留原C單選給分，D當期鑑識手冊版本仍待核；不憑答案鍵自行改稱二道，也不將舊三道作2026一律規則。",
           "trueStatement": false
         }
       ],
@@ -610,13 +631,25 @@
       "paperTrack": "內軌",
       "paperNumber": 7,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第17、18點；臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第57、59、60、61點",
+        "checkedAt": "2026-11-24",
+        "note": "明列歷史手冊與115主文封鎖層數的不同，不以較舊全文假冒本題115當期完整鑑識手冊。C器材、A許可者與B安全處所可核，D版本缺口使整題維持review。 核讀日2026-11-24（Asia/Taipei）；此為查核日，不作修法日期；保留原題、選項、trueStatement及全部官方原始／最終給分。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
+        "newRule": "器材重在保全效果；許可者、移置安全及層數適用版本分別核對。",
+        "sources": [
+          {
+            "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第17、18點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+          },
+          {
+            "title": "臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第57、59、60、61點",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ]
       },
-      "takeaway": "得使用封鎖帶、標示牌、警示閃光燈等器材保全現場；層數、入場許可及跡證移動各有不同條件。",
+      "takeaway": "器材重在保全效果；許可者、移置安全及層數適用版本分別核對。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -633,8 +666,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第17、18點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第57、59、60、61點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C保留。A把入場許可的現場指揮官換成勘察組長，B把安全處所換成通風；D的三道在103版確有明文，115偵查手冊則依環境需要決定層數，當期鑑識手冊尚缺，須保留版本疑義。"
     },
     {
       "id": "investigation115_08",
@@ -646,26 +688,26 @@
       "options": [
         {
           "text": "5 顆以上",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "本題每槍提供同類型子彈5顆以上供試射；應由專業人員依鑑識與安全程序處理。",
+          "explanation": "A是本題員警使用槍枝比對所列的5顆以上門檻；其目的為提供專業試射所需樣本，不是將每種槍彈案件最低量一律改成5顆。",
+          "correction": "保留A給分並列專門條款缺口；實際樣本數及類型須由權責單位按現行程序確認，不依考古題自行試射。",
           "trueStatement": true
         },
         {
           "text": "6 顆以上",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題每槍提供同類型子彈5顆以上供試射；應由專業人員依鑑識與安全程序處理。",
+          "explanation": "6顆數量超過題示5顆門檻，可能足供更多次比對，但題目問規定最低量，不能因多一顆就把最低量改成6。",
+          "correction": "不把未選B解釋為6顆必須退件；最低門檻、實際送件數與合適比對樣本是不同問題。",
           "trueStatement": false
         },
         {
           "text": "7 顆以上",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題每槍提供同類型子彈5顆以上供試射；應由專業人員依鑑識與安全程序處理。",
+          "explanation": "7顆同樣是較高數量，不能單憑樣本越多越好便認定規範最低數為7；還須核對本題限定員警用槍與同類型。",
+          "correction": "本輪未取得7顆門檻的正式依據；提供量應依專業要求，不由數量代替類型匹配或安全確認。",
           "trueStatement": false
         },
         {
           "text": "8 顆以上",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題每槍提供同類型子彈5顆以上供試射；應由專業人員依鑑識與安全程序處理。",
+          "explanation": "8顆比本題所指最低量更高，並無已讀原文支持最低需8；數量也不能彌補不同類型或不適合試射的樣本。",
+          "correction": "保留最低量考點與原給分，實際依適用專項及收件要求辦理；不把8顆一概說成非法或不可鑑。",
           "trueStatement": false
         }
       ],
@@ -682,13 +724,25 @@
       "paperTrack": "內軌",
       "paperNumber": 8,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第44、45點；臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第72點",
+        "checkedAt": "2026-11-24",
+        "note": "完整103版只核到一般同廠牌3顆，沒有員警用槍5顆特例；115當期特例及最新版鑑識手冊未齊，四項補的是門檻邏輯與適用對象，不宣稱已獨立核實5顆現行數值。 核讀日2026-11-24（Asia/Taipei）；此為查核日，不作修法日期；保留原題、選項、trueStatement及全部官方原始／最終給分。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
+        "newRule": "一般送鑑與員警用槍比對特例分開；問最低提供量不等於禁止提供更多。",
+        "sources": [
+          {
+            "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第44、45點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+          },
+          {
+            "title": "臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第72點",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ]
       },
-      "takeaway": "本題每槍提供同類型子彈5顆以上供試射；應由專業人員依鑑識與安全程序處理。",
+      "takeaway": "一般送鑑與員警用槍比對特例分開；問最低提供量不等於禁止提供更多。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -705,8 +759,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第44、45點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第72點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A保留，但員警用槍比對「同類型5顆以上」的當期專門原文尚未取得。103版第45點一般同廠牌比對寫3顆以上，對象與用語不同，不能拿它證明或推翻本題特例。"
     },
     {
       "id": "investigation115_09",
@@ -718,26 +781,26 @@
       "options": [
         {
           "text": "3 個月",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：本題特定未報案或失聯被害人證物，自採樣蒐集起保管18個月仍無法聯繫或無其他證據才依規定處理。",
+          "explanation": "3個月不是已讀103版第64點第6款的期間；題目起算點是採樣蒐集，不是任意改以鑑定完成或報案日起算。",
+          "correction": "不把較短時間當可提前銷毀的依據；須先確認證物類型、案件狀態及適用完整規範。",
           "trueStatement": false
         },
         {
           "text": "6 個月",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：本題特定未報案或失聯被害人證物，自採樣蒐集起保管18個月仍無法聯繫或無其他證據才依規定處理。",
+          "explanation": "6個月在其他規定另有用途：103版血液胚胎實驗室保存，以及現行性侵法17條特定告訴乃論情境；不等於題示失聯／未報案證物袋期間。",
+          "correction": "先核適用主體、保管者及起算點，不能把不同場景的6個月互換。",
           "trueStatement": false
         },
         {
           "text": "12 個月",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：本題特定未報案或失聯被害人證物，自採樣蒐集起保管18個月仍無法聯繫或無其他證據才依規定處理。",
+          "explanation": "12個月不是第64點第6款一年六個月；只換算成年數或忽略另6個月，會錯置本題所引歷史規格。",
+          "correction": "保留完整期間和前提；期間尚未屆至或另有偵審保存需要時，不能自行用整數年處理。",
           "trueStatement": false
         },
         {
           "text": "18 個月",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "本題特定未報案或失聯被害人證物，自採樣蒐集起保管18個月仍無法聯繫或無其他證據才依規定處理。",
+          "explanation": "103版原文一年六個月即18個月，且仍須失聯或查無其他證據等條件；鑑定書依法保存，證物袋與報告並非同一處理。",
+          "correction": "D可對上歷史原文；本輪未取得115當期及2026完整後續配套，不把18個月教成所有個案可自動銷毀。",
           "trueStatement": true
         }
       ],
@@ -754,13 +817,25 @@
       "paperTrack": "內軌",
       "paperNumber": 9,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第63、64點；全國法規資料庫・性侵害犯罪防治法現行全文",
+        "checkedAt": "2026-11-24",
+        "note": "已新取性侵害犯罪防治法全文並核第17條，與103版第64點完整對讀；115當期手冊及現行全部保管、通知、移送、銷毀配套未齊，故review，避免舊期限成無條件現場指令。 核讀日2026-11-24（Asia/Taipei）；此為查核日，不作修法日期；保留原題、選項、trueStatement及全部官方原始／最終給分。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
+        "newRule": "分清採樣起算、特定失聯情境及其他證物保存制度；期限不是所有性侵物證自動銷毀日。",
+        "sources": [
+          {
+            "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第63、64點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+          },
+          {
+            "title": "全國法規資料庫・性侵害犯罪防治法現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
+          }
+        ]
       },
-      "takeaway": "本題特定未報案或失聯被害人證物，自採樣蒐集起保管18個月仍無法聯繫或無其他證據才依規定處理。",
+      "takeaway": "分清採樣起算、特定失聯情境及其他證物保存制度；期限不是所有性侵物證自動銷毀日。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -777,8 +852,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第63、64點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "全國法規資料庫・性侵害犯罪防治法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D保留。103版第64點第6款直接為失聯或未報案情境，自採樣蒐集起一年六個月；現行性侵法第17條另有告訴乃論未告訴等特別6個月規定，適用場景不可混同。"
     },
     {
       "id": "investigation115_10",
@@ -790,26 +874,26 @@
       "options": [
         {
           "text": "勘察人員發現重要跡證時，應迅速報告調查組長",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：顧及鑑定需要量，必要可全部採取，不足則註明；採取前仍須適當照相及記錄位置。",
+          "explanation": "第24點第1款規定報告勘察組長；調查組長負責調查查訪，與勘察組採證任務的協調角色不同。",
+          "correction": "將本項調查組長改為勘察組長；重要發現仍應循現場指揮分工交流，不代表不可通報其他相關人員。",
           "trueStatement": false
         },
         {
           "text": "重要跡證在採取或製模前，宜先測繪",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：顧及鑑定需要量，必要可全部採取，不足則註明；採取前仍須適當照相及記錄位置。",
+          "explanation": "第24點第3款對採取、製模前優先要求照相，留住原貌；測繪可補位置尺寸，但不能把條文的照相直接換成測繪。",
+          "correction": "依需要兼作位置與測量紀錄，同時先保留採取前影像，不以畫圖取代必要照片。",
           "trueStatement": false
         },
         {
           "text": "採取跡證宜顧及鑑定之需要量，必要時得全部採取，無法採取足夠數量時，應予註明",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "顧及鑑定需要量，必要可全部採取，不足則註明；採取前仍須適當照相及記錄位置。",
+          "explanation": "第24點第5款明列顧及鑑定需要量，需全採者全採，不足時註明；C符合數量、完整性與限制揭示的原則。",
+          "correction": "按待鑑問題及物性決定，記清數量與不足原因；不是任何案件都可無差別把現場物品全部取走。",
           "trueStatement": true
         },
         {
           "text": "無法採取之跡證，將原物留置現場並妥善包裝，協請鑑定人員前往鑑驗",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：顧及鑑定需要量，必要可全部採取，不足則註明；採取前仍須適當照相及記錄位置。",
+          "explanation": "第24點第7款是無法採取之跡證將原物妥包送鑑，D改為留置現場並請人到場，不能當成所引條文的同一程序。",
+          "correction": "原物能否移動、送鑑及有無特殊危害應專業評估；不能說到場鑑驗在任何個案都被禁止。",
           "trueStatement": false
         }
       ],
@@ -826,13 +910,25 @@
       "paperTrack": "內軌",
       "paperNumber": 10,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第24點；臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第66、68、71點",
+        "checkedAt": "2026-11-24",
+        "note": "103版完整第24點足供具體辨析，115主文再確認調查／勘察分工；115指定版鑑識手冊最新完整沿革未齊，整題保留待核。 核讀日2026-11-24（Asia/Taipei）；此為查核日，不作修法日期；保留原題、選項、trueStatement及全部官方原始／最終給分。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
+        "newRule": "先辨識及記錄，再按需要量採取；採不到足量要註明，無法分離時評估原物送鑑。",
+        "sources": [
+          {
+            "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第24點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+          },
+          {
+            "title": "臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第66、68、71點",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ]
       },
-      "takeaway": "顧及鑑定需要量，必要可全部採取，不足則註明；採取前仍須適當照相及記錄位置。",
+      "takeaway": "先辨識及記錄，再按需要量採取；採不到足量要註明，無法分離時評估原物送鑑。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -849,8 +945,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第24點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第66、68、71點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C保留。103版第24點明列報告勘察組長、重要跡證採取或製模前先照相、顧及鑑定需要量、不足註明及無法採取時妥包原物送鑑，不能任意改換角色或流程。"
     },
     {
       "id": "investigation115_11",
@@ -862,26 +967,26 @@
       "options": [
         {
           "text": "半徑 100 公里",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：原卷Facebook安珀警報範圍為發生地半徑160公里，不能混用半徑、直徑或其他地區數值。",
+          "explanation": "半徑100公里表示從中心至邊界100公里，直徑200公里；已讀官方資料所述160公里範圍與此不同，不能只因都是公里就互換。",
+          "correction": "原題選B的半徑160公里；完整計畫對中心位置及適用條件仍待核，不用個人估算改變發布距離。",
           "trueStatement": false
         },
         {
           "text": "半徑 160 公里",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "原卷Facebook安珀警報範圍為發生地半徑160公里，不能混用半徑、直徑或其他地區數值。",
+          "explanation": "內政部官方統計說明，安珀警報向失蹤兒童最後位置160公里內的臉書用戶動態時報推播，可支持以中心向外160公里的半徑概念。",
+          "correction": "此為已讀官方概況資料，尚非題指定執行計畫全文；題幹發生地點、每名發布一次及其條件，仍須以完整計畫核對。",
           "trueStatement": true
         },
         {
           "text": "直徑 250 公里",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：原卷Facebook安珀警報範圍為發生地半徑160公里，不能混用半徑、直徑或其他地區數值。",
+          "explanation": "直徑250公里換算半徑為125公里，與官方概況所述距最後位置160公里內不同；直徑和半徑不是同一量。",
+          "correction": "如以半徑160公里表達，同一圓形範圍的直徑為320公里；不得把250公里當作160公里的另一種寫法。",
           "trueStatement": false
         },
         {
           "text": "直徑 300 公里",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：原卷Facebook安珀警報範圍為發生地半徑160公里，不能混用半徑、直徑或其他地區數值。",
+          "explanation": "直徑300公里相當於半徑150公里，比原題160公里半徑少10公里；數值接近仍不符合所問計畫的距離。",
+          "correction": "應保留半徑160公里的原題答案，並補核計畫正式版本，不能以四捨五入把300公里直徑視為正確。",
           "trueStatement": false
         }
       ],
@@ -898,13 +1003,25 @@
       "paperTrack": "內軌",
       "paperNumber": 11,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "內政部109年性別統計分析〈人口與失蹤人口概況〉印刷第82頁安珀警報說明；刑事警察局「安珀警報—兒童綁架預警系統」公開頁",
+        "checkedAt": "2026-11-24",
+        "note": "官方內政部統計PDF第82頁可核距最後位置160公里內推播，刑事局公開頁亦有系統及案類；但題指定共同執行計畫全文未取得，發生地與最後位置、每名一次及現行完整條件仍待核。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
+        "newRule": "半徑與直徑要分清；推播警報是協尋工具，其中心位置、條件及內容須依計畫，不能自行擴大發布範圍。",
+        "sources": [
+          {
+            "title": "內政部109年性別統計分析〈人口與失蹤人口概況〉印刷第82頁安珀警報說明",
+            "url": "https://ws.moi.gov.tw/Download.ashx?icon=.pdf&n=Mi00IOWbm%2BOAgeWksei5pOS6uuWPo%2BamguazgS5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvMC8xNDk1MS82ZGM1NWE3YS1hMmM4LTRjYTQtOWM4Mi04ZDRmYjJmYTcwODMucGRm"
+          },
+          {
+            "title": "刑事警察局「安珀警報—兒童綁架預警系統」公開頁",
+            "url": "https://www.cib.npa.gov.tw/ch/app/data/list?module=wg137&id=2069"
+          }
+        ]
       },
-      "takeaway": "原卷Facebook安珀警報範圍為發生地半徑160公里，不能混用半徑、直徑或其他地區數值。",
+      "takeaway": "半徑與直徑要分清；推播警報是協尋工具，其中心位置、條件及內容須依計畫，不能自行擴大發布範圍。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -921,8 +1038,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "內政部109年性別統計分析〈人口與失蹤人口概況〉印刷第82頁安珀警報說明",
+          "url": "https://ws.moi.gov.tw/Download.ashx?icon=.pdf&n=Mi00IOWbm%2BOAgeWksei5pOS6uuWPo%2BamguazgS5wZGY%3D&u=LzAwMS9VcGxvYWQvNDAwL3JlbGZpbGUvMC8xNDk1MS82ZGM1NWE3YS1hMmM4LTRjYTQtOWM4Mi04ZDRmYjJmYTcwODMucGRm"
+        },
+        {
+          "title": "刑事警察局「安珀警報—兒童綁架預警系統」公開頁",
+          "url": "https://www.cib.npa.gov.tw/ch/app/data/list?module=wg137&id=2069"
         }
-      ]
+      ],
+      "currentAnswer": "保留115年官方答案B（半徑160公里）。160公里的一般範圍有官方資料支持，但指定計畫完整版本與發布要件未齊，仍待核。"
     },
     {
       "id": "investigation115_12",
@@ -934,26 +1060,26 @@
       "options": [
         {
           "text": "對於室內陳設，宜拍攝各房間之陳設及原始狀態",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：本題官方選C；無尺及有尺近攝、比例尺放置位置及平行攝影的完整要領須核手冊，勿只憑摘要推翻當年答案。",
+          "explanation": "第30點第2款要求拍各房間陳設及原始狀態，A可讓物品配置、翻動或破壞與其他跡證互相對照。",
+          "correction": "先記錄再依法必要移動；不為畫面整齊整理室內或把事後重擺當原貌。",
           "trueStatement": true
         },
         {
           "text": "對於陳屍處所，宜由不同方向拍攝，以瞭解現場全貌與屍體及跡證相關位置",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：本題官方選C；無尺及有尺近攝、比例尺放置位置及平行攝影的完整要領須核手冊，勿只憑摘要推翻當年答案。",
+          "explanation": "第30點第3款要求從不同方向拍陳屍處所，說明現場全貌及屍體、物證相關位置，與B相符。",
+          "correction": "結合全景、相對位置及細部，不僅拍屍體近照而漏記其所在環境。",
           "trueStatement": true
         },
         {
           "text": "拍攝跡證在現場之位置、外觀及特徵，有比對需要時，應分別拍攝不放置與放置比例尺之平行近攝影像",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "本題官方選C；無尺及有尺近攝、比例尺放置位置及平行攝影的完整要領須核手冊，勿只憑摘要推翻當年答案。",
+          "explanation": "第30點第4款逐字為不放與放比例尺之垂直近攝照片；C改了原文。為減少形變，需說清垂直係光軸對待攝平面，感光面可與之平行。",
+          "correction": "依原文用垂直近攝並保存無尺、有尺影像；不把感光面平行證物面也當錯，完整115攝影專章仍待核。",
           "trueStatement": false
         },
         {
           "text": "於相驗前宜先拍攝屍體整體情況，另配合法醫師解剖之重點，拍攝創傷之形狀及大小",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：本題官方選C；無尺及有尺近攝、比例尺放置位置及平行攝影的完整要領須核手冊，勿只憑摘要推翻當年答案。",
+          "explanation": "第30點第5款要求相驗前整體照，並配合法醫解剖重點記創傷形狀大小，必要時放尺；D符合不同階段紀錄。",
+          "correction": "法醫檢驗與警方攝影依權責配合，照片不能代替相驗或解剖，也不可因攝影延誤必要救護。",
           "trueStatement": true
         }
       ],
@@ -970,13 +1096,25 @@
       "paperTrack": "內軌",
       "paperNumber": 12,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "本題官方選C；無尺及有尺近攝、比例尺放置位置及平行攝影的完整要領須核手冊，勿只憑摘要推翻當年答案。 本題保留原題用語疑點，現行完整原件與細部理由待核。",
-        "checkedAt": "2026-11-11"
+        "law": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第28、29、30點；全國法規資料庫・刑事訴訟法現行全文",
+        "checkedAt": "2026-11-24",
+        "note": "103版完整五款與現行刑訴218條相驗分工已核；115當期完整命案攝影專章及術語沿革未齊，故review；保留原卷平行用語而非自行改題。 核讀日2026-11-24（Asia/Taipei）；此為查核日，不作修法日期；保留原題、選項、trueStatement及全部官方原始／最終給分。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
+        "newRule": "原貌、位置與尺度互補；鏡頭主軸對跡證平面垂直，勿把不同參照面的術語混用。",
+        "sources": [
+          {
+            "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第28、29、30點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "本題官方選C；無尺及有尺近攝、比例尺放置位置及平行攝影的完整要領須核手冊，勿只憑摘要推翻當年答案。",
+      "takeaway": "原貌、位置與尺度互補；鏡頭主軸對跡證平面垂直，勿把不同參照面的術語混用。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -993,8 +1131,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第28、29、30點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C保留。103版第30點第4款原文是無尺、有尺「垂直近攝」，原卷C寫平行近攝；須分辨鏡頭主軸與感光平面的幾何關係，不能將所有「平行」一律說成錯。"
     },
     {
       "id": "investigation115_13",
@@ -1514,26 +1661,26 @@
       "options": [
         {
           "text": "警察局應每半年全面清查轄內有照及無照之易銷贓場所 1 次，詳填「易銷贓場所調查表」",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：本題當舖收當物品登記資料每2星期影印2份交轄區分局；清查頻率、下網及查贓次數不可混記。",
+          "explanation": "全面清查有照、無照的易銷贓場所，涉及列管場所範圍及執行週期。本次已讀當舖業法只規定當地警察得視需要查察，未直接設定所有易銷贓場所每半年的統一週期。",
+          "correction": "不能用視需要自行推算成半年一次，亦不以本題未選A直接編造其他頻率；待完整查贓作業規定核對，行政查察與刑事搜索依據分別審查。",
           "trueStatement": false
         },
         {
           "text": "查獲上網之失竊物或贓物，應於 12 小時內以電子傳遞陳報內政部警政署（刑事警察局）下網",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：本題當舖收當物品登記資料每2星期影印2份交轄區分局；清查頻率、下網及查贓次數不可混記。",
+          "explanation": "查獲上網失竊物後應使協尋資料反映實況，避免後續誤查；115手冊30點亦要求通報事項有結果即回報。但該一般原則沒有直接證成此處12小時及指定下網程序。",
+          "correction": "以適用系統與權責規定辦理回報、撤銷或下網，不以12小時作為已核期限；詳細門檻、通知對象與時間起算仍待專門規定。",
           "trueStatement": false
         },
         {
           "text": "警察分局應依規定查察轄內當舖業者，命其備置「收當物品登記簿」，並於每 2 星期將資料影印 2 份送交轄區警察分局",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "本題當舖收當物品登記資料每2星期影印2份交轄區分局；清查頻率、下網及查贓次數不可混記。",
+          "explanation": "當舖業法22條明定備登記簿記載持當人與收當物品資料，每二星期以影印本二份送主管機關備查，支持C的期間與份數。警察分局的收件分工則是另層次行政安排。",
+          "correction": "保留當年C；法條原文是送主管機關，不能直接把分局等同第2條的地方主管機關，也不能把兩星期誤記為每月或兩個月。",
           "trueStatement": true
         },
         {
           "text": "警察局、警察分局及分駐所或派出所，每月應妥適規劃 4 次以上之查贓勤務",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：本題當舖收當物品登記資料每2星期影印2份交轄區分局；清查頻率、下網及查贓次數不可混記。",
+          "explanation": "查贓勤務須按案情及地方計畫安排；當舖業法23條是視需要查察，並未規定所有警察局、分局、分駐所與派出所一律每月4次以上。",
+          "correction": "不能把一般查察職掌推成固定勤務次數；完整查贓規定未齊前，不另造正確次數，且勤務規劃不會免除每次取證的合法要件。",
           "trueStatement": false
         }
       ],
@@ -1550,13 +1697,25 @@
       "paperTrack": "內軌",
       "paperNumber": 18,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "當舖業法第2、22至25條：登記簿、查察與可疑物通報；警察偵查犯罪手冊115年版第8、15至17、30點（主文）",
+        "checkedAt": "2026-11-24",
+        "note": "實讀當舖業法2、22至25條及115手冊第30點。22條寫送主管機關，2條定中央內政部、地方政府；地方內部分工由分局收件須另有查贓規定。尚未取得該完整最新規定，A半年、B12小時、D每月4次不自行填別的數字；保留review，法條不直接等同授權無限制搜索場所。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
+        "newRule": "當舖須依法備簿與定期送查，警察得視需要查察；兩星期與二份有法條依據，查贓其他頻率、下網時效不可只靠原答案反推。",
+        "sources": [
+          {
+            "title": "當舖業法第2、22至25條：登記簿、查察與可疑物通報",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080075"
+          },
+          {
+            "title": "警察偵查犯罪手冊115年版第8、15至17、30點（主文）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ]
       },
-      "takeaway": "本題當舖收當物品登記資料每2星期影印2份交轄區分局；清查頻率、下網及查贓次數不可混記。",
+      "takeaway": "當舖須依法備簿與定期送查，警察得視需要查察；兩星期與二份有法條依據，查贓其他頻率、下網時效不可只靠原答案反推。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -1573,8 +1732,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "當舖業法第2、22至25條：登記簿、查察與可疑物通報",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080075"
+        },
+        {
+          "title": "警察偵查犯罪手冊115年版第8、15至17、30點（主文）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "保留115年官方答案C。當舖業法22條可確認登記簿與每二星期影印二份送主管機關；收件分工及A、B、D清查、下網、勤務時限仍待完整查贓規定核對。"
     },
     {
       "id": "investigation115_19",
@@ -1671,26 +1839,26 @@
       "options": [
         {
           "text": "欠稅紀錄",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "輸入協尋前查核車籍、違規及拖吊等紀錄，欠稅不是本題列舉查證項目。",
+          "explanation": "欠稅紀錄屬稅捐履行情況，不能單憑欠稅就認定車輛未失竊或拒絕受理。已讀官方歷史程序明列不論欠稅等情形，查屬實均應受理。",
+          "correction": "原題把欠稅列為不在輸入前必查清單者，保留A給分；本次未取得現行完整清單，不擴張成警方任何案件都不得依法查稅務資料。",
           "trueStatement": true
         },
         {
           "text": "車籍紀錄",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：輸入協尋前查核車籍、違規及拖吊等紀錄，欠稅不是本題列舉查證項目。",
+          "explanation": "車籍可用於核對車號、所有人及車輛識別，避免把不同車輛或錯誤車號建立協尋；官方歷史程序也允許行照同遭竊時，依身分及車籍查證受理。",
+          "correction": "查證要依實際資料辦理，不因行照不在就逕拒報案；現行案管欄位及資料輸入責任仍待指定作業規定全文。",
           "trueStatement": false
         },
         {
           "text": "違規紀錄",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：輸入協尋前查核車籍、違規及拖吊等紀錄，欠稅不是本題列舉查證項目。",
+          "explanation": "違規紀錄可能提供近期車輛使用、舉發地點或是否涉及移置的查證線索，與單純欠稅的性質不同；但本次已讀歷史程序沒有列出完整現行輸入前清單。",
+          "correction": "不能以原答案A反推違規紀錄的每種內容都一律必查；這項是否及如何列為必查，仍保留現行指定規定原件的查證缺口。",
           "trueStatement": false
         },
         {
           "text": "拖吊紀錄",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：輸入協尋前查核車籍、違規及拖吊等紀錄，欠稅不是本題列舉查證項目。",
+          "explanation": "車輛不在原處可能是違規拖吊或其他移置，未必是失竊。已讀官方歷史程序要求必要時向汽車或廢棄機車拖吊場確認，以避免誤報失竊。",
+          "correction": "應核對拖吊、移置與報案情況，再依事實建檔；歷史2頁程序不能替代現在案管系統完整規定，亦不能因可能拖吊就拒絕受理或不查證。",
           "trueStatement": false
         }
       ],
@@ -1707,13 +1875,21 @@
       "paperTrack": "內軌",
       "paperNumber": 20,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "新竹縣政府警察局公開《受理汽機車失竊（含車牌失竊）案件處理程序》完整2頁（歷史版，工具解析存本）",
+        "checkedAt": "2026-11-24",
+        "note": "已讀新竹警察官方歷史版完整2頁，直接列拖吊及車籍查核、欠稅不影響受理；但題指定現行《案件管理系統車輛協尋案類作業規定》全文未取得，違規紀錄與輸入前完整查證清單仍待核。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
+        "newRule": "先查明是不是同一輛車、是否已被移置，再正確建立協尋；欠稅與是否應受理失竊案件是不同問題。",
+        "sources": [
+          {
+            "title": "新竹縣政府警察局公開《受理汽機車失竊（含車牌失竊）案件處理程序》完整2頁（歷史版，工具解析存本）",
+            "url": "https://www.hccp.gov.tw/uploaddowndoc?file=Servicescase%2F201605041324461.pdf&filedisplay=%E5%8F%97%E7%90%86%E6%B1%BD%E8%BB%8A%E3%80%81%E6%A9%9F%E8%BB%8A%EF%BC%88%E5%90%AB%E8%BB%8A%E7%89%8C%EF%BC%89%E5%A4%B1%E7%AB%8A.pdf&flag=pdf"
+          }
+        ]
       },
-      "takeaway": "輸入協尋前查核車籍、違規及拖吊等紀錄，欠稅不是本題列舉查證項目。",
+      "takeaway": "先查明是不是同一輛車、是否已被移置，再正確建立協尋；欠稅與是否應受理失竊案件是不同問題。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -1730,8 +1906,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "新竹縣政府警察局公開《受理汽機車失竊（含車牌失竊）案件處理程序》完整2頁（歷史版，工具解析存本）",
+          "url": "https://www.hccp.gov.tw/uploaddowndoc?file=Servicescase%2F201605041324461.pdf&filedisplay=%E5%8F%97%E7%90%86%E6%B1%BD%E8%BB%8A%E3%80%81%E6%A9%9F%E8%BB%8A%EF%BC%88%E5%90%AB%E8%BB%8A%E7%89%8C%EF%BC%89%E5%A4%B1%E7%AB%8A.pdf&flag=pdf"
         }
-      ]
+      ],
+      "currentAnswer": "保留115年官方答案A。欠稅不能被當成拒絕失竊報案的理由；其他三項與辨識車輛、判斷移置或失竊有關，精確必查清單仍待現行案管規定。"
     },
     {
       "id": "investigation115_21",
@@ -2834,26 +3015,26 @@
       "options": [
         {
           "text": "右大拇指→左大拇指→右食指→右中指",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：本題順序為左拇、右拇、左食、左中；與其他筆錄或建檔捺印順序不可混用。",
+          "explanation": "A從右拇開始，與現行採驗尿液實施辦法第13條以左拇封緘不同；左拇不能用時下一指才是右拇，並非可一開始任選。",
+          "correction": "先辨明本題是尿液容器封緘，不能套用其他建檔或文書的捺印習慣。",
           "trueStatement": false
         },
         {
           "text": "右大拇指→左大拇指→右食指→左中指",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：本題順序為左拇、右拇、左食、左中；與其他筆錄或建檔捺印順序不可混用。",
+          "explanation": "B除先右拇不符外，在右食後接左中亦與已讀替代順序不合；順序不是左右手交替任意選。",
+          "correction": "不能按自己方便改換手指；替代捺印應記實際指別及不能使用前一指的情況。",
           "trueStatement": false
         },
         {
           "text": "左大拇指→右大拇指→左食指→左中指",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "本題順序為左拇、右拇、左食、左中；與其他筆錄或建檔捺印順序不可混用。",
+          "explanation": "現行辦法第13條為左拇封緘，無法使用時依右拇、左食、左中接續，對應C前四指；這是替代序，不是一次全部印四指。",
+          "correction": "保留C並說清依序替代及註明指別；完整115當期／2026警察作業原件尚缺，不誤稱全篇現行已核。",
           "trueStatement": true
         },
         {
           "text": "左大拇指→右大拇指→左食指→右中指",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：本題順序為左拇、右拇、左食、左中；與其他筆錄或建檔捺印順序不可混用。",
+          "explanation": "D前三指相同，但第四指寫右中；所讀順序第四應左中，其後才沿左手其他指及右手食中等依序處理。",
+          "correction": "將第四指辨為左中，並記錄實際指名；不只背C，也避免把替代程序理解為一張封條必蓋四指。",
           "trueStatement": false
         }
       ],
@@ -2870,13 +3051,25 @@
       "paperTrack": "內軌",
       "paperNumber": 32,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "全國法規資料庫・採驗尿液實施辦法現行全文；司法院刑事廳110年9月關於強制採尿之研究意見（歷史文書與所引封緘程序）",
+        "checkedAt": "2026-11-24",
+        "note": "本輪新取現行採驗尿液實施辦法全文，第13條直接支持相同順序，第1、2條限定依毒品條例25條之適用人員；另讀司法院110文書。警察對一般犯罪嫌疑人之採驗作業規定完整當期原件未齊，不以此辦法取代全部警察作業程序，故review。 核讀日2026-11-24（Asia/Taipei）；此為查核日，不作修法日期；保留原題、選項、trueStatement及全部官方原始／最終給分。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
+        "newRule": "封緘先左拇；替代指別依序並註明原因及指別，與其他筆錄捺印程序分開。",
+        "sources": [
+          {
+            "title": "全國法規資料庫・採驗尿液實施辦法現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030029"
+          },
+          {
+            "title": "司法院刑事廳110年9月關於強制採尿之研究意見（歷史文書與所引封緘程序）",
+            "url": "https://cons.judicial.gov.tw/download/download.aspx?id=465551"
+          }
+        ]
       },
-      "takeaway": "本題順序為左拇、右拇、左食、左中；與其他筆錄或建檔捺印順序不可混用。",
+      "takeaway": "封緘先左拇；替代指別依序並註明原因及指別，與其他筆錄捺印程序分開。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -2893,8 +3086,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "全國法規資料庫・採驗尿液實施辦法現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030029"
+        },
+        {
+          "title": "司法院刑事廳110年9月關於強制採尿之研究意見（歷史文書與所引封緘程序）",
+          "url": "https://cons.judicial.gov.tw/download/download.aspx?id=465551"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C保留。現行採驗尿液實施辦法第13條直接列左拇、右拇、左食、左中順序；惟該辦法依毒品條例25條有特定適用對象，本題所指警察作業規定完整版本仍待核，不將二者全部等同。"
     },
     {
       "id": "investigation115_33",
@@ -2906,26 +3108,26 @@
       "options": [
         {
           "text": "犯罪者核心人格不會改變",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：理論上簽名特徵比因環境調整的作案手法穩定，不能說隨時空任意變更；剖繪是篩選線索而非定罪證據。",
+          "explanation": "王伯頎文章將核心人格相對穩定列基本假定，用以由反覆行為推論特質；A在本題問理論核心的脈絡下對應該前提。",
+          "correction": "穩定是分析假定，並非證明任何人的人格永不變；個案仍需資料驗證及考慮發展、疾病或情境。",
           "trueStatement": true
         },
         {
           "text": "犯罪的作案手法都很類似",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：理論上簽名特徵比因環境調整的作案手法穩定，不能說隨時空任意變更；剖繪是篩選線索而非定罪證據。",
+          "explanation": "研究所列作案手法類似，是比較相關案件行為模式的推論基礎；應限同一行為者或待比對模式，非所有犯罪者都用同一方法。",
+          "correction": "手法可因學習、工具與機會調整；相似不能單獨認定同一犯人，不同也不能立即排除。",
           "trueStatement": true
         },
         {
           "text": "刑案現場反映犯罪者人格",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：理論上簽名特徵比因環境調整的作案手法穩定，不能說隨時空任意變更；剖繪是篩選線索而非定罪證據。",
+          "explanation": "研究定義從現場、犯罪型態及被害人特性推論犯罪者特徵，故C屬此理論的觀察出發點。",
+          "correction": "現場也受被害人、救護、他人介入及環境影響；需區分觀察事實與心理推論，不將現場直接等同人格診斷。",
           "trueStatement": true
         },
         {
           "text": "簽名特徵隨時空情境改變",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "理論上簽名特徵比因環境調整的作案手法穩定，不能說隨時空任意變更；剖繪是篩選線索而非定罪證據。",
+          "explanation": "官方刊載文章列簽名特徵將維持不變，D改成隨時空改變，與本題理論假定相反；簽名關注行為的心理意義，不只是為完成犯罪所需動作。",
+          "correction": "以相對穩定理解理論，別把外在表現逐項僵化；具體變化仍須分析，不能以剖繪結果取代法定證據及證明。",
           "trueStatement": false
         }
       ],
@@ -2936,19 +3138,27 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第33題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 33,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "法務部刊載王伯頎〈極度暴力犯罪的可能思考〉・犯罪剖繪假定",
+        "checkedAt": "2026-11-24",
+        "note": "本輪直接取得19頁官方刊載研究，實讀印刷186頁犯罪剖繪定義及四項假定；核對範圍是本題理論內容，不將其學術假定冒稱現行法或普遍實證定律。 核讀日2026-11-24（Asia/Taipei）；此為查核日，不作修法日期；保留原題、選項、trueStatement及全部官方原始／最終給分。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
+        "newRule": "剖繪用行為線索縮小範圍；區別理論假定、作案需要與心理意義，不能憑剖繪定罪。",
+        "sources": [
+          {
+            "title": "法務部刊載王伯頎〈極度暴力犯罪的可能思考〉・犯罪剖繪假定",
+            "url": "https://topics.moj.gov.tw/media/20210930/%E6%A5%B5%E5%BA%A6%E6%9A%B4%E5%8A%9B%E7%8A%AF%E7%BD%AA%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%9D%E8%80%83-%E4%BB%A52018%E5%B9%B45-8%E6%9C%88%E7%9A%84%E6%AE%BA%E4%BA%BA%E5%88%86%E5%B1%8D%E6%A1%88%E4%BB%B6%E7%82%BA%E4%BE%8B.pdf?mediaDL=true"
+          }
+        ]
       },
-      "takeaway": "理論上簽名特徵比因環境調整的作案手法穩定，不能說隨時空任意變更；剖繪是篩選線索而非定罪證據。",
+      "takeaway": "剖繪用行為線索縮小範圍；區別理論假定、作案需要與心理意義，不能憑剖繪定罪。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -2965,8 +3175,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "法務部刊載王伯頎〈極度暴力犯罪的可能思考〉・犯罪剖繪假定",
+          "url": "https://topics.moj.gov.tw/media/20210930/%E6%A5%B5%E5%BA%A6%E6%9A%B4%E5%8A%9B%E7%8A%AF%E7%BD%AA%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%9D%E8%80%83-%E4%BB%A52018%E5%B9%B45-8%E6%9C%88%E7%9A%84%E6%AE%BA%E4%BA%BA%E5%88%86%E5%B1%8D%E6%A1%88%E4%BB%B6%E7%82%BA%E4%BE%8B.pdf?mediaDL=true"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D不變。官方刊載研究直接列犯罪剖繪四項基本假定，簽名特徵較穩定；這些是該理論的推論前提，不是所有犯罪者人格或每個行為絕不改變的自然定律。"
     },
     {
       "id": "investigation115_34",
@@ -3443,26 +3658,26 @@
       "options": [
         {
           "text": "5 公克",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題專業人員酌採0.5公克，以紙包後置尼龍證物袋；不是一般人可自行取樣操作的指示。",
+          "explanation": "5公克是歷史第48點0.5公克的十倍，不是小數點省略後仍等量；未知火炸藥不能以量較多就更適合送驗。",
+          "correction": "本項不符已讀歷史數值，實際取樣交專業權責並依現行規程，本題不提供自行取樣操作。",
           "trueStatement": false
         },
         {
           "text": "0.5 公克",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "本題專業人員酌採0.5公克，以紙包後置尼龍證物袋；不是一般人可自行取樣操作的指示。",
+          "explanation": "103版第48點第1款直接列0.5公克且由爆裂物處理人員採取，B數值與其一致；115手冊第70點仍要求安全排除後由專業人員必要少量取樣。",
+          "correction": "B僅對上歷史數字；當期尼龍包材及完整現行專項未核，不推成任何物質、狀態均可照量裝袋。",
           "trueStatement": true
         },
         {
           "text": "0.25 公克",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題專業人員酌採0.5公克，以紙包後置尼龍證物袋；不是一般人可自行取樣操作的指示。",
+          "explanation": "0.25公克是0.5的一半，並非該歷史條款的原文；也不能只因量小就推定一定足以鑑驗或安全。",
+          "correction": "所需量取決於適用方法及專業規範；不得靠本題選項自行減量、試驗或處理。",
           "trueStatement": false
         },
         {
           "text": "3 公克",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：本題專業人員酌採0.5公克，以紙包後置尼龍證物袋；不是一般人可自行取樣操作的指示。",
+          "explanation": "3公克為歷史0.5的六倍，與第48點所列數字不同；且數量不是唯一要求，物質狀態、容器及危害均重要。",
+          "correction": "不將3公克當通用送驗量；依權責交專業單位安全處置與確認程序。",
           "trueStatement": false
         }
       ],
@@ -3479,13 +3694,25 @@
       "paperTrack": "內軌",
       "paperNumber": 39,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第48點；臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第70、72點",
+        "checkedAt": "2026-11-24",
+        "note": "已核103歷史取樣量與115安全原則；115當期及最新完整鑑識手冊、尼龍專用包材原文未齊，故review，明示數字不是無條件現場作業指令。 核讀日2026-11-24（Asia/Taipei）；此為查核日，不作修法日期；保留原題、選項、trueStatement及全部官方原始／最終給分。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
+        "newRule": "這是專業送鑑規格的歷史數值辨析；安全排除、專業權責與適用版本優先。",
+        "sources": [
+          {
+            "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第48點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+          },
+          {
+            "title": "臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第70、72點",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ]
       },
-      "takeaway": "本題專業人員酌採0.5公克，以紙包後置尼龍證物袋；不是一般人可自行取樣操作的指示。",
+      "takeaway": "這是專業送鑑規格的歷史數值辨析；安全排除、專業權責與適用版本優先。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -3502,8 +3729,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第48點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第70、72點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B保留。103版第48點確為專業人員酌採0.5公克，但其包材寫專用塑膠證物袋，題示尼龍的當期完整版本仍缺；不可把考題數量變成一般人操作或運送爆炸物的指示。"
     },
     {
       "id": "investigation115_40",
@@ -3608,26 +3844,26 @@
       "options": [
         {
           "text": "4 小時",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：原卷宜案發後8小時內儘速採集未清洗、擦拭或救護的手部殘跡；越早保全越能避免逸失。",
+          "explanation": "4小時在歷史8小時內，早採可減少逸失，但題目問手冊所列期限，不是問是否可提前4小時採。",
+          "correction": "未選A不代表4小時不可採；應在合法及安全程序下及早保全，不能等到門檻才開始。",
           "trueStatement": false
         },
         {
           "text": "6 小時",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：原卷宜案發後8小時內儘速採集未清洗、擦拭或救護的手部殘跡；越早保全越能避免逸失。",
+          "explanation": "6小時亦可能在歷史窗內，但不是第49點手部條款所寫8小時；殘跡可隨擦拭、活動及環境流失，不存在一律保留到某時刻的保證。",
+          "correction": "保留實際時間、手部狀態及介入行為，鑑定須評估採集限制，不由時數單獨下結論。",
           "trueStatement": false
         },
         {
           "text": "8 小時",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "原卷宜案發後8小時內儘速採集未清洗、擦拭或救護的手部殘跡；越早保全越能避免逸失。",
+          "explanation": "第49點第2款直接寫8小時內儘速及未清洗、擦拭、救護的手部，C對上所讀歷史條款，限定對象與狀態均不可省略。",
+          "correction": "8小時是歷史採證建議窗，不是過時就必然毫無鑑驗價值的法律界線；最新程序仍須專業確認。",
           "trueStatement": true
         },
         {
           "text": "12 小時",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：原卷宜案發後8小時內儘速採集未清洗、擦拭或救護的手部殘跡；越早保全越能避免逸失。",
+          "explanation": "第49點第3款12小時針對其他相關射擊殘跡的最外層衣物，另有未洗及未受血污染條件，不是第2款手部期限。",
+          "correction": "分開手部和衣物；實際若超過建議窗應如實記錄並評估，不擅自丟棄證物或直接認定無殘跡。",
           "trueStatement": false
         }
       ],
@@ -3644,13 +3880,25 @@
       "paperTrack": "內軌",
       "paperNumber": 41,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第49點；臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第72點",
+        "checkedAt": "2026-11-24",
+        "note": "已實讀完整103第49點並區分手部8及衣物12小時；115當期與現行完整GSR專項及方法驗證未齊，故review；不以舊時效作排他採證或保證檢出指令。 核讀日2026-11-24（Asia/Taipei）；此為查核日，不作修法日期；保留原題、選項、trueStatement及全部官方原始／最終給分。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
+        "newRule": "越早保全越好；手部與衣物的歷史時間條件分開，陰性也不等於未開槍。",
+        "sources": [
+          {
+            "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第49點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+          },
+          {
+            "title": "臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第72點",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ]
       },
-      "takeaway": "原卷宜案發後8小時內儘速採集未清洗、擦拭或救護的手部殘跡；越早保全越能避免逸失。",
+      "takeaway": "越早保全越好；手部與衣物的歷史時間條件分開，陰性也不等於未開槍。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -3667,8 +3915,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第49點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第72點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C保留。103版第49點對未洗、未擦、未救護的手部殘跡列案發後8小時內儘速採集；12小時另是其他條件的外層衣物，不可混用，也不可等到接近8小時才處理。"
     },
     {
       "id": "investigation115_42",
@@ -3680,26 +3937,26 @@
       "options": [
         {
           "text": "10 公克（顆）",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "本題相關物質全部採集秤重並依規定酌採10公克或顆送鑑；採樣由專業人員依法實施。",
+          "explanation": "第51點第2款直接列酌採10公克（顆），不足者得全數送鑑，A數值與歷史原文一致；相關物質仍先全部採集秤重。",
+          "correction": "10不是一律只扣10或所有樣品都能取滿10；依物性、危害、分類與收件規格由專業人員處理。",
           "trueStatement": true
         },
         {
           "text": "12 公克（顆）",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題相關物質全部採集秤重並依規定酌採10公克或顆送鑑；採樣由專業人員依法實施。",
+          "explanation": "12公克／顆比歷史條款列的10多2，並不是該條明定酌採值；總證物量與抽送量不能混為一談。",
+          "correction": "未選B不表示個別專業鑑驗永遠不得要求12；本題原文數字與實際方法需求應分別確認。",
           "trueStatement": false
         },
         {
           "text": "14 公克（顆）",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題相關物質全部採集秤重並依規定酌採10公克或顆送鑑；採樣由專業人員依法實施。",
+          "explanation": "14公克／顆不是第51點第2款原文，樣本較重也不自動更有代表性；不同容器、批次或外觀可能需分別評估。",
+          "correction": "按規範分類、標示及抽送，不把不同物質混樣湊數；完整現行抽樣技術規範仍待核。",
           "trueStatement": false
         },
         {
           "text": "16 公克（顆）",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題相關物質全部採集秤重並依規定酌採10公克或顆送鑑；採樣由專業人員依法實施。",
+          "explanation": "16公克／顆不是已讀條款的酌採數，亦不能由送驗量直接推算全案純度或純質淨重。",
+          "correction": "保留全量秤重、樣本同一性及代表性紀錄，定量由適用鑑驗方法處理，不依選項數字自行推計。",
           "trueStatement": false
         }
       ],
@@ -3716,13 +3973,25 @@
       "paperTrack": "內軌",
       "paperNumber": 42,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第51點；臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第68、72點",
+        "checkedAt": "2026-11-24",
+        "note": "完整103第51點支持歷史10數值與不足全送等條件；115當期及2026完整毒品採證、危害控制與代表性抽樣專項未齊，保留review，不把舊條單一數字當全部送鑑規則。 核讀日2026-11-24（Asia/Taipei）；此為查核日，不作修法日期；保留原題、選項、trueStatement及全部官方原始／最終給分。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
+        "newRule": "先合法保全、分類秤重，再依專業規範代表性送鑑；送驗數量不等於毒品總重或純質淨重。",
+        "sources": [
+          {
+            "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第51點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+          },
+          {
+            "title": "臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第68、72點",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ]
       },
-      "takeaway": "本題相關物質全部採集秤重並依規定酌採10公克或顆送鑑；採樣由專業人員依法實施。",
+      "takeaway": "先合法保全、分類秤重，再依專業規範代表性送鑑；送驗數量不等於毒品總重或純質淨重。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -3739,8 +4008,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=M"
+        },
+        {
+          "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第51點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第68、72點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A保留。103版第51點對疑似毒品工廠相關物質全採秤重後酌採10公克／顆，不足可全送；這與扣押總量、代表性抽樣及純度定量分屬不同問題。"
     },
     {
       "id": "investigation115_43",

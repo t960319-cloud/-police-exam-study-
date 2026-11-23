@@ -511,7 +511,8 @@ assert(fiftyQ('investigation114_04').options[2].explanation.includes('無確切�
 assert(fiftyQ('investigation114_04').currentAnswer.includes('得減刑'));
 assert(fiftyQ('investigation114_04').currentAnswer.includes('一般裁判參考'));
 for(const id of ['investigation110_42','investigation112_04','investigation112_12','investigation112_25','investigation112_37','investigation113_33','investigation113_43','investigation114_36']){
- assert.equal(fiftyQ(id).verified,false);
+ const later=events.filter(e=>e.eventId.startsWith('legal-review-20261124-last42-')).flatMap(e=>e.patches).find(p=>p.targetId===id);
+ assert.equal(fiftyQ(id).verified,later?.verified??false);
  assert(!batch50Patches.some(p=>p.targetId===id));
 }
 console.log('Fifty-question replay, unchanged event limit, juvenile priority, disclosure limits and independent legal thresholds passed.');
@@ -674,7 +675,48 @@ console.log('Existing details preserved, overstated key-only verification correc
  assert(q('investigation113_29').sources.some(s=>s.url.startsWith('https://www.cipa.jp/')));
  const technical={title:'ETSI technical standard',url:'https://www.etsi.org/deliver/standard.pdf'};
  assert.equal(validateLegalEvent({...keyEvents[0],sources:[technical]},ids),false);
- assert.equal(result.questions.filter(q=>q.analysisMode==='answer-key').length,42);
+ // This was the inventory after the fifty; later researched supplements may complete the remainder.
+ assert.equal(evidence.inventory.answerKeyComparisons,42);
  assert(result.questions.filter(q=>q.analysisMode==='answer-key').every(q=>!q.verified));
 }
 console.log('Fifty key-only supplements, preserved audit history, technical limitations and separate verification counts passed.');
+
+// Complete the remaining key comparisons while retaining unresolved legal and version questions.
+{
+ const lastEvents=['a','b'].map(s=>events.find(e=>e.eventId==='legal-review-20261124-last42-'+s));
+ assert(lastEvents.every(Boolean));assert.deepEqual(lastEvents.map(e=>e.patches.length),[21,21]);
+ const lastPatches=lastEvents.flatMap(e=>e.patches),lastIds=new Set(lastPatches.map(p=>p.targetId));
+ assert.equal(lastIds.size,42);assert.equal(lastPatches.reduce((n,p)=>n+p.optionOverrides.length,0),168);
+ const evidence=JSON.parse(fs.readFileSync(new URL('../docs/legal-evidence-2026-11-24-last42.json',import.meta.url),'utf8'));
+ assert.equal(evidence.previousKeyOnlyQuestions,42);assert.equal(evidence.remainingKeyOnlyQuestions,0);
+ assert.deepEqual([...lastIds].sort(),evidence.targets.toSorted());
+ assert.equal(lastPatches.filter(p=>p.verified).length,evidence.verifiedInCitedScope);
+ assert.equal(lastPatches.filter(p=>!p.verified).length,evidence.retainedReview);
+ const priorIds=new Set(events.filter(e=>e.eventId.startsWith('legal-review-20261123-key50-')).flatMap(e=>e.patches.map(p=>p.targetId)));
+ assert([...lastIds].every(id=>!priorIds.has(id)));
+ const q=id=>result.questions.find(x=>x.id===id);
+ for(const p of lastPatches){
+  const item=q(p.targetId);assert.equal(item.verified,p.verified);assert.notEqual(item.analysisMode,'answer-key');
+  assert.equal(item.amendment.checkedAt,'2026-11-24');
+  assert(p.optionOverrides.every(o=>o.explanation.length>=12&&o.correction.length>=12));
+  if(!item.verified)assert(['review','changed'].includes(item.amendment.status));
+ }
+ assert.equal(result.questions.filter(q=>q.analysisMode==='answer-key').length,0);
+ assert.equal(result.questions.length,910);assert.equal(result.essays.length,66);assert.equal(result.laws.length,33);
+ for(const id of ['investigation112_07','investigation114_03'])assert(q(id).creditedAll);
+ assert.deepEqual(q('investigation114_49').acceptedAnswers,[0,2,3]);
+ assert(q('investigation110_18').options[1].explanation.includes('業務單位'));
+ assert(q('investigation110_18').options[2].correction.includes('1個月'));
+ assert(q('investigation110_34').options[1].explanation.includes('100之2'));
+ assert(q('investigation110_35').options[2].correction.includes('先具備前二項'));
+ assert(q('investigation115_18').options[2].correction.includes('主管機關'));
+ assert(q('investigation110_42').options[3].correction.includes('取代搜索票'));
+ assert.equal(q('investigation115_07').verified,false);
+ assert(q('investigation115_07').options[3].explanation.includes('三道'));
+ assert(q('investigation115_07').options[3].correction.includes('不憑答案鍵'));
+ assert.equal(q('investigation115_08').verified,false);
+ assert(q('investigation115_08').amendment.note.includes('3顆'));
+ assert(q('investigation115_09').options[3].correction.includes('自動銷毀'));
+ assert(q('investigation115_33').options[3].correction.includes('相對穩定'));
+}
+console.log('All remaining 42 comparisons completed, 168 options, original special grading and explicit version gaps passed.');

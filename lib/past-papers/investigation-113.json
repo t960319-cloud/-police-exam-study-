@@ -588,26 +588,26 @@
       "options": [
         {
           "text": "現場封鎖得使用現場封鎖帶、搭配警用機車，以達成保全現場",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：初期封鎖應廣並按危害評估調整，不能只限廁所而忽略周圍安全範圍。",
+          "explanation": "115手冊第60點得使用封鎖帶、標示牌、警示燈或其他器材保全現場；機車可依現場需要輔助辨識界線，器材不是固定封閉清單。",
+          "correction": "器材配置須實際形成安全警戒，不能因拉帶或停車就省略人員疏離與危害評估。",
           "trueStatement": true
         },
         {
           "text": "現場警戒人員應觀察圍觀群眾之可疑動靜，蒐集有利破案之情報線索",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：初期封鎖應廣並按危害評估調整，不能只限廁所而忽略周圍安全範圍。",
+          "explanation": "第58點明定警戒人員除警戒外，觀察圍觀者可疑動靜並蒐集有利破案線索；103版第16點亦要求留意嫌犯混於群眾。",
+          "correction": "觀察與蒐證仍應依法，不把圍觀或好奇本身等同犯罪，也不能因此忽略警戒本務。",
           "trueStatement": true
         },
         {
           "text": "現場初期封鎖之範圍應以無障礙公共廁所為主",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "初期封鎖應廣並按危害評估調整，不能只限廁所而忽略周圍安全範圍。",
+          "explanation": "第59點規定初期範圍應廣，層數視環境與事實需要；爆裂物危害可能超出放置物的廁所，C以廁所為主過度限縮。",
+          "correction": "按實際危害、建物及人流設定警戒，請專業單位評估後調整，不能只按房間邊界決定。",
           "trueStatement": false
         },
         {
           "text": "初抵現場人員應對清潔人員就案件發現情形及疑似爆裂物之現狀、位置及動態變化情形，進行初步 查訪與記錄",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：初期封鎖應廣並按危害評估調整，不能只限廁所而忽略周圍安全範圍。",
+          "explanation": "第62點要求初抵人員對發現人就案件發現情形及人、物、跡證現狀位置和變動初步查訪記錄，正對應清潔人員的資訊。",
+          "correction": "在安全範圍查訪並記錄原話與時間；不要求發現人返回接近或搬動可疑物來示範。",
           "trueStatement": true
         }
       ],
@@ -618,19 +618,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第7題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 7,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第57、58、59、60、62、70點；法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第16、18點",
+        "checkedAt": "2026-11-24",
+        "note": "已重新取得115完整主文並逐點核讀，本題核對的是初期保全原則；不把行政手冊當搜索、限制人身或個別爆裂物安全距離的獨立授權。 核讀日2026-11-24（Asia/Taipei）；此為查核日，不作修法日期；保留原題、選項、trueStatement及全部官方原始／最終給分。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
+        "newRule": "先保人員安全及廣域警戒，再依專業危害評估調整，並記錄發現情形。",
+        "sources": [
+          {
+            "title": "臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第57、58、59、60、62、70點",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第16、18點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+          }
+        ]
       },
-      "takeaway": "初期封鎖應廣並按危害評估調整，不能只限廁所而忽略周圍安全範圍。",
+      "takeaway": "先保人員安全及廣域警戒，再依專業危害評估調整，並記錄發現情形。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -643,8 +655,17 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113060&t=A"
+        },
+        {
+          "title": "臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第57、58、59、60、62、70點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第16、18點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C不變。115偵查手冊第57至62及70點直接支持封鎖器材、群眾觀察、初期廣範圍與發現人查訪；疑似爆裂物不應只把廁所本體當安全界線。"
     },
     {
       "id": "investigation113_08",
@@ -3930,26 +3951,26 @@
       "options": [
         {
           "text": "依檢察官與司法警察機關執行職務聯繫辦法規定，警察逮捕或拘提犯罪嫌疑人後，應於逮捕或拘提 之時起 24 小時內，將人犯解送檢察官訊問",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "原卷A混用職務聯繫辦法的法源及解送時限規定；拘捕起算、法定不計入時間與指定處所解送應分別查核。",
+          "explanation": "檢警聯繫辦法第7條第2項明定，除依法得不解送者外，自逮捕或拘提起16小時內解送檢察官；本項將警察原則解送期間寫成24小時。",
+          "correction": "如檢察官命即時解送即應即送；有繼續調查必要而不能在16小時內解送，應依第3項先報許可並在指定期限內解交。不能把16小時或24小時當可任意用滿的等待期。",
           "trueStatement": false
         },
         {
           "text": "依提審法規定，人民被逮捕、拘禁時，逮捕、拘禁之機關應即將逮捕、拘禁之原因、時間、地點在 24 小時內以書面告知本人及其指定之親友",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原卷A混用職務聯繫辦法的法源及解送時限規定；拘捕起算、法定不計入時間與指定處所解送應分別查核。",
+          "explanation": "提審法第2條要求立即以書面告知原因、時間、地點及得聲請提審意旨，至遲不得超過24小時；本人及其指定親友均在告知範圍。",
+          "correction": "本項24小時是最遲界線，不是准許拖到期滿才告知；完整內容還包括聲請提審意旨，不通國語時另有可理解語文的告知要求。",
           "trueStatement": true
         },
         {
           "text": "依刑事訴訟法規定，為調查犯罪情形，通知證人之通知書應於應到 24 小時前送達",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原卷A混用職務聯繫辦法的法源及解送時限規定；拘捕起算、法定不計入時間與指定處所解送應分別查核。",
+          "explanation": "刑訴第196條之1通知證人，準用第175條第4項：原則應於到場期日24小時前送達。通知必須留給證人合理準備與到場時間。",
+          "correction": "第175條第4項另有急迫情形例外，不能教成一切案件均不得少於24小時；警察通知證人與法院、檢察官傳喚證人的文書也應區分。",
           "trueStatement": true
         },
         {
           "text": "依刑事訴訟法規定，拘提或因通緝逮捕之被告，應於 24 小時內解送指定之處所",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：原卷A混用職務聯繫辦法的法源及解送時限規定；拘捕起算、法定不計入時間與指定處所解送應分別查核。",
+          "explanation": "刑訴第91條要求拘提或因通緝逮捕者「應即」解送指定處所；24小時內不能到達，則依命拘提或通緝者，先送較近法院或檢察機關核對其人。",
+          "correction": "本項可作一般時限概括，仍須補上應即解送與不能到達的替代措施，並依第93條之1處理法定不計入時間，不得發生不必要遲延。",
           "trueStatement": true
         }
       ],
@@ -3960,19 +3981,35 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第43題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 43,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "status": "none",
+        "law": "檢察官與司法警察機關執行職務聯繫辦法第7、8條；提審法第2條；刑事訴訟法（本輪重新取得現行全文）",
+        "checkedAt": "2026-11-24",
+        "note": "已以現行檢警聯繫辦法第7條、提審法第2條、刑訴第175條第4項與196條之1、第91及93條之1逐項核對；A把原則16小時誤寫24小時。各選項另補即時義務及法定例外。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
+        "newRule": "解送原則16小時、提審告知至遲24小時、證人通知原則提前24小時，三種程序不可混用。",
+        "sources": [
+          {
+            "title": "檢察官與司法警察機關執行職務聯繫辦法第7、8條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030008"
+          },
+          {
+            "title": "提審法第2條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010008"
+          },
+          {
+            "title": "刑事訴訟法（本輪重新取得現行全文）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "原卷A混用職務聯繫辦法的法源及解送時限規定；拘捕起算、法定不計入時間與指定處所解送應分別查核。",
+      "takeaway": "解送原則16小時、提審告知至遲24小時、證人通知原則提前24小時，三種程序不可混用。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -3985,8 +4022,21 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113060&t=A"
+        },
+        {
+          "title": "檢察官與司法警察機關執行職務聯繫辦法第7、8條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030008"
+        },
+        {
+          "title": "提審法第2條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010008"
+        },
+        {
+          "title": "刑事訴訟法（本輪重新取得現行全文）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "A。檢警聯繫辦法原則是拘捕起16小時內解送，命即時解送應即解送；繼續調查不能按時者，須報檢察官許可並遵指定時限。"
     },
     {
       "id": "investigation113_44",

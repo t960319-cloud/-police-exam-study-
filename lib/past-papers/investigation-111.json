@@ -654,26 +654,26 @@
       "options": [
         {
           "text": "由外而內：以現場為中心，向外延伸，由點而線，由平面至立體",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：地面、門窗牆壁、天花板為由低而高；其他選項把由外而內、由近而遠或顯潛順序混寫。",
+          "explanation": "A的以現場為中心向外延伸，是103版第23點第2款由近而遠的文字，不是第1款由外而內。",
+          "correction": "由外而內應為戶外逐步及於戶內中心；不可只背標題而忽略動線內容。",
           "trueStatement": false
         },
         {
           "text": "由近而遠：從戶外逐步勘察及於戶內現場中心",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：地面、門窗牆壁、天花板為由低而高；其他選項把由外而內、由近而遠或顯潛順序混寫。",
+          "explanation": "B的戶外進至戶內中心，是第23點第1款由外而內，與本項標示的由近而遠不符。",
+          "correction": "由近而遠是在掌握中心後向外延伸、由點至線及立體追跡；兩種面向可按需要協同安排。",
           "trueStatement": false
         },
         {
           "text": "由低而高：由地面開始勘察，依次是門、窗、牆壁，而後及於天花板",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "地面、門窗牆壁、天花板為由低而高；其他選項把由外而內、由近而遠或顯潛順序混寫。",
+          "explanation": "第23點第3款逐列地面、門窗牆壁再天花板，正是C由低而高；同款另提醒廣闊現場可尋制高點全面觀察。",
+          "correction": "保留低而高原則及整體觀察例外，不能教成在任何危險或特殊現場都機械照固定順序。",
           "trueStatement": true
         },
         {
           "text": "由潛至顯：現場跡證潛伏者先行勘察，再逐步發掘明顯之跡證",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：地面、門窗牆壁、天花板為由低而高；其他選項把由外而內、由近而遠或顯潛順序混寫。",
+          "explanation": "第23點第5款是由顯至潛，先勘察明顯跡證，再發掘潛在跡證；D將順序與標題一併顛倒。",
+          "correction": "先適當記錄易見跡證，再依性質找潛伏痕跡，同時注意易逝、污染及方法先後。",
           "trueStatement": false
         }
       ],
@@ -690,13 +690,25 @@
       "paperTrack": "內軌",
       "paperNumber": 8,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第23點；臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第67點",
+        "checkedAt": "2026-11-24",
+        "note": "103版原文完整支持四項差異；尚未取得111指定版及2026完整鑑識手冊沿革，因此版本仍待核；115主文僅補彈性原則。 核讀日2026-11-24（Asia/Taipei）；此為查核日，不作修法日期；保留原題、選項、trueStatement及全部官方原始／最終給分。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
+        "newRule": "外內看進入方向，近遠看向外延伸；低高看垂直次序，顯潛看跡證是否易見。",
+        "sources": [
+          {
+            "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第23點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+          },
+          {
+            "title": "臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第67點",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ]
       },
-      "takeaway": "地面、門窗牆壁、天花板為由低而高；其他選項把由外而內、由近而遠或顯潛順序混寫。",
+      "takeaway": "外內看進入方向，近遠看向外延伸；低高看垂直次序，顯潛看跡證是否易見。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -709,8 +721,17 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第23點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "臺灣警察專科學校公開115版警察偵查犯罪手冊（本輪重新取得完整主文）・第67點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C保留。103版第23點完整列五項步驟；A、B交換外內與近遠的定義，D倒轉顯潛，C才是由地面往天花板的低高次序。"
     },
     {
       "id": "investigation111_09",
