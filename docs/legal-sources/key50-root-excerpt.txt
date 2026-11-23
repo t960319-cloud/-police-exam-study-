@@ -1,0 +1,619 @@
+本輪50題逐項詳解之來源節錄：root
+查核日：2026-11-23（Asia/Taipei）。只保存實讀引用範圍；歷史手冊、現行法規、研習摘要、標準及教學資料的效力不同。原卷只證明原題及給分，非技術定義的代用品。失敗、假PDF及無法解碼原件不作已讀依據。
+
+【ETSI三種邏輯功能與部分HI1資訊借用HI2例外】
+https://www.etsi.org/deliver/etsi_es/201600_201699/201671/03.02.01_60/es_201671v030201p.pdf
+原文擷取行106–124
+5.1.0           General........................................................................................................................................................ 22
+5.1.1           Manual interface ......................................................................................................................................... 23
+5.1.2           Electronic interface ..................................................................................................................................... 23
+5.2           Handover Interface port 2 (HI2) ....................................................................................................................... 23
+5.3           Handover Interface port 3 (HI3) ....................................................................................................................... 23
+6        Specific identifiers for LI .......................................................................................................................23
+6.0           General ............................................................................................................................................................. 23
+6.1           Lawful Interception IDentifier (LIID) .............................................................................................................. 24
+6.2           Communication IDentifier (CID) ..................................................................................................................... 24
+6.2.0           General........................................................................................................................................................ 24
+6.2.1           Network IDentifier (NID) ........................................................................................................................... 24
+6.2.2           Communication Identity Number (CIN) - optional .................................................................................... 25
+7        HI1: Interface port for administrative information .................................................................................25
+7.0           General ............................................................................................................................................................. 25
+7.1           Information for the activation of lawful interception ....................................................................................... 25
+7.2           LI notifications towards the LEMF .................................................................................................................. 26
+8        HI2: Interface port for Intercept Related Information ............................................................................26
+8.0           General ............................................................................................................................................................. 26
+8.1           Data transmission protocols ............................................................................................................................. 26
+
+原文擷取行1230–1247
+5             Overview of Handover Interface
+
+5.0           General
+The generic Handover Interface adopts a three-port structure such that administrative information (HI1), Intercept
+Related Information (HI2) and the Content of Communication (HI3) are logically separated.
+
+Figure 1 shows a block diagram with the relevant entities for Lawful Interception (LI).
+
+The outer circle represents the NWO/AP/SvP's domain with respect to lawful interception. It contains the network
+internal functions, the Internal Network Interface (INI), the administration function and the mediation functions for IRI
+and CC. The inner circle contains the internal functions of the network (e.g. switching, routing, and handling of the
+communication process). Within the network internal function the results of interception (IRI, CC) are generated in the
+IIF.
+
+The Internal Interception Functions (IIF) provide the Content of Communication (CC) and the Intercept Related
+Information (IRI), respectively, at the Internal Network Interface INI. For both kinds of information, mediation
+functions may be used, which provide the final representation of the standardized Handover Interfaces at the
+NWO/AP/SvP's domain boundary.
+
+原文擷取行1281–1298
+No direct access to the switching function shall be given to the LEMF. Activation, deactivation or modification of an
+interception in the switching function shall only be possible by the NWO/AP/SvP.
+
+As an option, in direction to the LEA, some HI1 related information (e.g. fault reporting) may be delivered directly
+using the HI2 mechanism. As an additional option, in direction to the LEA, some HI1 related information may be
+delivered directly, for example, as part of a lawful authorization procedure.
+
+Further description of HI1 is given in clause 7.
+
+
+
+
+                                                          ETSI
+
+                                                             23                          ETSI ES 201 671 V3.2.1 (2018-05)
+
+
+5.1.1         Manual interface
+
+原文擷取行1312–1329
+the probability of errors.
+
+
+5.2           Handover Interface port 2 (HI2)
+The Handover Interface port 2 shall transport the IRI from the NWO/AP/SvP's IIF to the LEMF.
+
+The delivery shall be performed via data communication methods which are suitable for the network infrastructure and
+for the kind and volume of data to be transmitted.
+
+The delivery can in principle be made via different types of lower communication layers, which should be standard or
+widely used data communication protocols.
+
+The individual IRI parameters shall be coded using ASN.1 and the Basic Encoding Rules (BER). The format of the
+parameter's information content shall be based on existing telecommunication standards, where possible.
+
+The individual IRI parameters have to be sent to the LEMF at least once (if available).
+
+The IRI records are transmitted individually, or as an option, IRI records can be aggregated for delivery to the same
+
+原文擷取行1338–1355
+by a signalling system.
+
+
+5.3           Handover Interface port 3 (HI3)
+The appropriate form of HI3 depends upon the technology being intercepted, see clause 9.
+
+
+
+6             Specific identifiers for LI
+
+6.0           General
+Specific identifiers are necessary to identify a target for interception uniquely and to correlate between the data, which
+is conveyed over the different Handover Interfaces (HI1, HI2 and HI3). The identifiers, which apply to all
+communication technologies, are defined in the clauses below. Additional technology specific identifiers are defined in
+related annexes.
+
+
+
+
+原文擷取行1454–1471
+7             HI1: Interface port for administrative information
+
+7.0           General
+The interface HI1 is typically bi-directional. It is used to hand over the requests for lawful interception to the
+NWO/AP/SvP, such as orders for activation, deactivation and modification, and the corresponding notifications, and
+send other information to the LEA.
+
+There shall be no direct control over the NWO/AP/SvP's equipment by the LEA/LEMF.
+
+
+7.1           Information for the activation of lawful interception
+The HI1 interface may be realized as manual or electronic processing, see clause 5.1.
+
+If the LEA requests lawful interception, the NWO/AP/SvP needs a minimum set of information to activate lawful
+interception in the network.
+
+The LEA shall provide the following information, for activation of LI:
+
+【Bitcoin原始論文：隱私與交易連結限制】
+https://bitcoin.org/bitcoin.pdf
+原文擷取行290–310
+10. Privacy
+The traditional banking model achieves a level of privacy by limiting access to information to the
+parties involved and the trusted third party. The necessity to announce all transactions publicly
+precludes this method, but privacy can still be maintained by breaking the flow of information in
+another place: by keeping public keys anonymous. The public can see that someone is sending
+an amount to someone else, but without information linking the transaction to anyone. This is
+similar to the level of information released by stock exchanges, where the time and size of
+individual trades, the "tape", is made public, but without telling who the parties were.
+
+             Traditional Privacy Model
+
+
+                  Identities           Transactions      Trusted      Counterparty   Public
+                                                        Third Party
+
+
+
+             New Privacy Model
+
+
+                  Identities             Transactions       Public
+
+原文擷取行315–341
+    As an additional firewall, a new key pair should be used for each transaction to keep them
+from being linked to a common owner. Some linking is still unavoidable with multi-input
+transactions, which necessarily reveal that their inputs were owned by the same owner. The risk
+is that if the owner of a key is revealed, linking could reveal other transactions that belonged to
+the same owner.
+
+11. Calculations
+We consider the scenario of an attacker trying to generate an alternate chain faster than the honest
+chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such
+as creating value out of thin air or taking money that never belonged to the attacker. Nodes are
+not going to accept an invalid transaction as payment, and honest nodes will never accept a block
+containing them. An attacker can only try to change one of his own transactions to take back
+money he recently spent.
+    The race between the honest chain and an attacker chain can be characterized as a Binomial
+Random Walk. The success event is the honest chain being extended by one block, increasing its
+lead by +1, and the failure event is the attacker's chain being extended by one block, reducing the
+gap by -1.
+    The probability of an attacker catching up from a given deficit is analogous to a Gambler's
+Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an
+infinite number of trials to try to reach breakeven. We can calculate the probability he ever
+reaches breakeven, or that an attacker ever catches up with the honest chain, as follows [8]:
+
+   p = probability an honest node finds the next block
+   q = probability the attacker finds the next block
+   qz = probability the attacker will ever catch up from z blocks behind
+
+【警專：區塊鏈完整性與追溯性研究】
+https://educate.tpa.edu.tw/var/file/4/1004/img/390/535350963.pdf
+原文擷取行179–190
+
+
+
+的方式連結成一個不可逆的鏈條，從而保證資料的完整性、安全性和可追溯性。
+區塊鏈技術在各個領域都有廣泛的應用價值，例如證明資料的存在性、執行智慧
+合約、連接物聯網設備、驗證身分、預測市場走勢、交易各種資產、促進電子商
+務、建立社交通訊平台、儲存檔案資料、提供資料應用程式介面（Application
+Programming Interface, API）等。2019 年，為了防範假照片的流傳，《紐約時報》
+發起了一項名為新聞溯源（News Provenance）的專案，利用區塊鏈技術記錄照片
+的來源和修改歷程。區塊鏈是一種分散式的資料庫系統，可儲存虛擬貨幣「比特
+幣」等數位資產的交易紀錄，並確保其不可篡改和不可抹除。因此，區塊鏈也可
+以用來傳播和記錄各種信息，例如文字、影音等。這樣一來，即使原始網站被刪
+
+原文擷取行197–211
+塊鏈由北京網際網路法院主導建立，旨在提供電子證據平台給區塊鏈產業。同年 4
+月，法務部調查局舉行「正義鏈盟－證物鏈與區塊鏈的交響曲」研討會，邀集司
+法、區塊鏈等相關產、官、學界人士參與，並分享調查局如何運用區塊鏈技術保
+全數位證據的能力與實例3。2022 年 6 月正式啟動「司法聯盟鏈（Blockchain-applied
+Judicial Alliance for Digital Era, b-JADE）是臺灣司法界的一項創新科技應用，由法
+務部、司法院、高檢署、警政署和調查局組成初始會員，各自建立節點，確保聯
+盟鏈的安全和持續性。此聯盟鏈的前身就是法務部調查局推動的「數位鑑識報告
+上鏈和雲端證據上鏈」
+         ，也是臺灣在金融業之外的區塊鏈應用實例，展現了臺灣司
+法區塊鏈的發展潛力4，成為臺灣司法界重要科技應用的里程碑。
+     區塊鏈的不可篡改性，雖然有助於永久保存訊息，但也與歐盟一般資料保護
+規範（General Data Protection Regulation,以下簡稱 GDPR）第 17 條中的被遺忘權
+產生衝突。被遺忘權是指資料當事人在特定條件下，可以要求資料控制者刪除其
+
+
+
+原文擷取行363–374
+（一）美國－《麻州證物蒐集、處理、儲藏、保存之最佳實務操作手冊》10
+              美國法庭採用交互詰問制度，對於證物的管理有嚴格的規範。執法者
+         必須遵守證物監管鏈的要求，在勘察、採證或送驗證物的過程中，確保證
+         物的完整性和可追溯性。勘察人員在刑案現場進行拍攝和採集指紋時，都
+         要在相片和指紋膠片的背面標示拍攝者或採證者的職稱和簽章、時間與地
+         點等資訊。證物包裝後，相關人員也要在騎縫處簽章負責。鑑識實驗室人
+         員在收到和處理證物時，也要在每一個步驟或流程上簽章並記錄處理的詳
+         細情形，並將資料輸入電腦系統，讓證物送驗和收發單位能夠隨時監督證
+         物的鑑定進度。美國鑑識科學實驗室主管協會/實驗室認證委員會（ASCLD/
+         LAB）針對證物監管鏈，制定了國際認證計畫的標準，其主要內容包括：
+         1. 建立完整的證物保管程序，並採取適當的措施，以防止證物遺失、汙染
+           或變質。
+
+【官方OSINT定義及公開來源範圍】
+https://www.anws.gov.tw/Epaper/EpaperDetailC004560.aspx?Cond=d27046e6-4e17-48db-a128-6d2380837890&KeyID=78f9e3a6-df3f-4764-881d-7bc8bcd1c141
+原文擷取行8–21
+114-01-16
+                        政風電子報第227期
+有效辨識爭議訊息-淺談公開來源情資技術
+法務部調查局認知戰研究中心／藍啟源
+在資訊爆炸的時代， 公開來源情資技術(Open Source Intelligence Technology，下稱：OSINT)不僅在日常生活中扮演重要角色，更在國家安全和國際衝突中發揮關鍵作用，換言之，OSINT正悄然改變著人們的生活。
+什麼是OSINT
+在情報學領域，OSINT被定義為「透過對公開資訊分析後所得情報或從半公開資料或消息中獲取情報」。美國國家情報總監(Director of National Intelligence，DNI)則定義為「專門從公開或商業可用資訊中獲取的情報，目的在解決特定的情報事項或要求」。
+拋開生硬的用詞，OSINT技術就是指通過公開可得的資料收集和分析情報的技術與方法；包括網際網路、社交媒體、新聞報導、政府公開文件、商業數據等，都可能是這些資料的來源。隨著數位時代來臨，大量資訊在網路儲存且易於獲取和分析，更加重OSINT的重要性。
+網際網路時代，個人數位足跡與公開資訊能拼湊出行為模式和事件全貌，但面對巨量資料，OSINT技術的核心在於知道所欲了解的資訊有哪些網路資源，並且如何查找。與其說OSINT是新技術，不如說它是一種思維方式。關鍵在於熟悉數位時代下取得證據的來源、建構事實的方式，並在正確的方向上尋找答案。
+日常生活中OSINT 的應用
+在日常生活中，OSINT的應用無處不在。例如肇事逃逸案件，過去往往難以追查；但現今已可以透過路口監控、商家監視器，甚至社群媒體徵集行車紀錄器影像，迅速找出肇事車輛。
+在商業領域，OSINT同樣發揮著重要作用。企業可通過多方面的公開資料，例如檢索公司商業登記資料、登記票據信用交換所的信用紀錄、環保署的汙染紀錄、智慧財產局的商標註冊情況，甚至是上市公司的財務報表及營收情況等，來評估合作夥伴或競爭對手。這些資訊不僅能幫助評估公司的現況，還能預測其未來發展趨勢。
+在一般民事交易，OSINT也扮演著助手角色。例如買房或租房時，民眾可藉查詢建築物第二類謄本，了解房產歷史和所有權變更情況，避免誤向人頭或二房東承租，亦可透過新聞媒體資料查詢建物是否曾發生「非自然死亡案件」。在車輛交易中，則可利用監理系統查詢驗車里程數，降低誤購變造里程車輛的風險。
+OSINT在突發事件中的重要性
+
+【刑事訴訟法鑑定報告要求】
+https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001
+原文擷取行1273–1303
+第 206 條
+鑑定之經過及其結果，應命鑑定人以言詞或書面報告。
+鑑定人有數人時，得使其共同報告之。但意見不同者，應使其各別報告。
+第一項之言詞或書面報告，應包括以下事項：
+一、鑑定人之專業能力有助於事實認定。
+二、鑑定係以足夠之事實或資料為基礎。
+三、鑑定係以可靠之原理及方法作成。
+四、前款之原理及方法係以可靠方式適用於鑑定事項。
+以書面報告者，於審判中應使實施鑑定之人到庭以言詞說明。但經當事人明示同意書面報告得為證據者，不在此限。
+前項書面報告如經實施鑑定之人於審判中以言詞陳述該書面報告之作成為真正者，得為證據。
+第 206-1 條
+行鑑定時，如有必要，法院或檢察官得通知當事人、代理人或辯護人到場。
+第一百六十八條之一第二項之規定，於前項情形準用之。
+第 207 條
+鑑定有不完備者，得命增加人數或命他人繼續或另行鑑定。
+第 208 條
+法院或檢察官得囑託醫院、學校或其他相當之機關、機構或團體為鑑定，或審查他人之鑑定，除本條另有規定外，準用第二百零三條至第二百零六條之一之規定；其須以言詞報告或說明時，得命實施鑑定或審查之人為之。
+前項情形，其實施鑑定或審查之人，應由第一百九十八條第一項之人充之，並準用第二百零二條之規定，及應於書面報告具名。
+第一項之書面報告有下列情形之一者，得為證據：
+一、當事人明示同意。
+二、依法令具有執掌鑑定、鑑識或檢驗等業務之機關所實施之鑑定。
+三、經主管機關認證之機構或團體所實施之鑑定。
+當事人於審判中得向法院聲請囑託醫院、學校或其他相當之機關、機構或團體為鑑定或審查他人之鑑定，並準用第一百九十八條第二項之規定。
+當事人於審判中得委任醫院、學校或其他相當之機關、機構或團體為鑑定或審查他人之鑑定，並準用第一項至第三項及第一百九十八條第二項之規定。
+前項情形，當事人得因鑑定之必要，向審判長或受命法官聲請將關於鑑定之物，交付受委任之醫院、學校或其他相當之機關、機構或團體，並準用第一百六十三條至第一百六十三條之二之規定。
+因第五項委任鑑定或審查他人之鑑定所生之費用，由委任之人負擔。
+第一百六十三條第一項、第一百六十六條至第一百六十七條之七、第二百零二條之規定，於第一項、第四項及第五項由實施鑑定或審查之人為言詞報告或說明之情形準用之。
+第 209 條
+鑑定人於法定之日費、旅費外，得向法院請求相當之報酬及預行酌給或償還因鑑定所支出之費用。
+第 210 條
+訊問依特別知識得知已往事實之人者，適用關於人證之規定。
+
+【個資法必要範圍及公務機關蒐集利用】
+https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021
+原文擷取行104–117
+第 5 條
+個人資料之蒐集、處理或利用，應尊重當事人之權益，依誠實及信用方法為之，不得逾越特定目的之必要範圍，並應與蒐集之目的具有正當合理之關聯。
+第 6 條
+有關病歷、醫療、基因、性生活、健康檢查及犯罪前科之個人資料，不得蒐集、處理或利用。但有下列情形之一者，不在此限：
+一、法律明文規定。
+二、公務機關執行法定職務或非公務機關履行法定義務必要範圍內，且事前或事後有適當安全維護措施。
+三、當事人自行公開或其他已合法公開之個人資料。
+四、公務機關或學術研究機構基於醫療、衛生或犯罪預防之目的，為統計或學術研究而有必要，且資料經過提供者處理後或經蒐集者依其揭露方式無從識別特定之當事人。
+五、為協助公務機關執行法定職務或非公務機關履行法定義務必要範圍內，且事前或事後有適當安全維護措施。
+六、經當事人書面同意。但逾越特定目的之必要範圍或其他法律另有限制不得僅依當事人書面同意蒐集、處理或利用，或其同意違反其意願者，不在此限。
+依前項規定蒐集、處理或利用個人資料，準用第八條、第九條規定；其中前項第六款之書面同意，準用第七條第一項、第二項及第四項規定，並以書面為之。
+第 7 條
+第十五條第二款及第十九條第一項第五款所稱同意，指當事人經蒐集者告知本法所定應告知事項後，所為允許之意思表示。
+第十六條第七款、第二十條第一項第六款所稱同意，指當事人經蒐集者明確告知特定目的外之其他利用目的、範圍及同意與否對其權益之影響後，單獨所為之意思表示。
+
+原文擷取行168–186
+第 15 條
+公務機關對個人資料之蒐集或處理，除第六條第一項所規定資料外，應有特定目的，並符合下列情形之一者：
+一、執行法定職務必要範圍內。
+二、經當事人同意。
+三、對當事人權益無侵害。
+第 16 條
+公務機關對個人資料之利用，除第六條第一項所規定資料外，應於執行法定職務必要範圍內為之，並與蒐集之特定目的相符。但有下列情形之一者，得為特定目的外之利用：
+一、法律明文規定。
+二、為維護國家安全或增進公共利益所必要。
+三、為免除當事人之生命、身體、自由或財產上之危險。
+四、為防止他人權益之重大危害。
+五、公務機關或學術研究機構基於公共利益為統計或學術研究而有必要，且資料經過提供者處理後或經蒐集者依其揭露方式無從識別特定之當事人。
+六、有利於當事人權益。
+七、經當事人同意。
+第 17 條
+公務機關應將下列事項公開於電腦網站，或以其他適當方式供公眾查閱；其有變更者，亦同：
+一、個人資料檔案名稱。
+二、保有機關名稱及聯絡方式。
+三、個人資料檔案保有之依據及特定目的。
+
+【犯罪網路模型研究：節點、事件、關係與地點】
+https://eim.cpu.edu.tw/var/file/73/1073/img/1026/2009104.pdf
+原文擷取行143–160
+論性分析的發展路徑最後於 1960 到 1970 年代之間在哈佛大學再次產生學術的匯集，
+進而逐漸建構與形塑出當代社會網路的分析基礎與概念整合。
+     社會學家開始利用圖形來表達組織或群體的社會關係已經有一段時日
+(Sageman,1994)，在這些圖形中，節點( node )用來表示組織或群體內的成員，邊線( edge )
+用來表示成員間的連結關係，連結的強度則以邊線的粗細或賦予權重表示，例如溝通的
+頻率，而節點與邊線為網路分析的基本要素；並且基於網路的屬性開始開發電腦程式來
+分析組織或群體的特性，例如成員位於網路的中心性( centrality )是否具有差異，成員的
+中心性可說是網路分析的重要概念。近年來，研究學者利用開發的軟體並結合有高度運
+算能力的計算機，從事大型網路的分析，這些網路擁有上千個以上的節點及數以萬計的
+連結，例如網際網路的視覺化運算(Cheswick and Burch,2000)。
+
+
+(二)犯罪網路
+    Bauman 的社會系統論述中指出犯罪的世界是一種社會排除 (social exclusion )的世
+界。因此，犯罪的組織型式相對的在這個社會排除的小生活世界當中孕生與發展。這些
+組織成員可以把他們視為一個網路，犯罪世界如同是社會生活系統的一部份，犯罪組織
+成員之間所建構的網路關係亦是社會複雜網路結構中的部分組成犯罪成員在犯罪網路
+之間，透過他們之間所存在的弱聯繫方式來取得犯罪的資訊及建構出其完整的互動通路
+
+原文擷取行302–317
+被以節點(node)來顯示，並利用網路連接的邊線粗細來表達他們之間相互的關聯強度。
+一些技術已被開發用來將電腦資料庫中結構式資料紀錄建構成以網路的型態來展現，例
+如COPLINK Detect是一種基於概念空間的方法，這方法是由Chen及Lynch所發展出來，
+圖形中的節點代表實體的紀錄(人、組織、車輛、地點)，在這樣的網路中，假如他們一
+同出現在相同的犯罪事件中，這關聯性將會存在，而且次數或頻率越高，則表示之間的
+相關性就越強，這種概念空間的方法主要是以統計為基礎的方法；Goldberg及Senator也
+建議[27]在金融犯罪的調查期間可以將在交易的資料紀錄以結合及連結的操作來執行，
+像個人是否有共有的地址、共有的銀行帳號或者相關的交易，這技術已被美國國家司法
+部所採用用來偵測洗錢的交易及活動。另外，一些其他的技術也能建立網路，這些技術
+是利用萃取非結構性資料或文字文件，例如偵查人員利用書報文件並依個人習慣繪出案
+件的連結分析圖形。
+
+
+(2)連結分析
+    路徑分析，最短路徑演算法是學者經常研究的對象，包括PFS及二元Dijkstra演算法
+計算出兩節點間的最短路徑，Chen及Lynch也曾提出修改後的PFS演算法，並利用其他
+
+【司法院科學證據可靠性研習摘要】
+https://www.judicial.gov.tw/tw/cp-1454-728990-60889-1.html
+原文擷取行193–203
+（一）證人錯誤指認：金副教授先邀請與會者參與「看不見的大猩猩」實驗。美國相關實驗皆已證明詢問者使用不同動詞、證人受到危險物品威脅、多數證人間記憶相互污染、跨種族指認等，均為影響記憶之因素。人類記憶歷經編碼、儲存、提取3階段，原始記憶不斷被新增、改變或遺忘，致使錯誤記憶如真實記憶般真實，於判斷證人證詞時不可不慎。
+此種誤認之防錯機制，除採雙盲程序、嫌疑人於成列指認時不得有引起注意之重大不同、翔實記載證人即時陳述自信程度、全程錄音錄影等措施外，金副教授利用事件影片，播畢後再請與會者對影片中的6名男子進行成列指認，不少與會者亦無法正確指認。金副教授藉此過程強調指認程序告知「真正行為人不一定在成列中」之重要性，避免指認人迫於壓力挑選一個「最像」嫌犯的人，而落入冤錯案的風險。
+（二）除DNA技術外，沒有一個鑑識科學完全符合科學標準：金副教授以美國知名Mayfield指紋比對（2004年西班牙馬德里鐵路大爆炸，FBI 根據指紋辨識認為當時人不在西班牙的美國籍律師Bradon Mayfield為嫌犯。後西班牙警方逮捕指紋更為相符之阿爾及利亞籍嫌犯，證明Mayfield與該案無關）為例說明，各國對於特徵點比對數量未有一致規範，亦無錯誤率可供參照，指紋比對技術是以鑑定者之詮釋及脈絡所進行的主觀判斷，極易受到認知錯誤的影響。而現今刑事鑑識科學被普遍認為是經得起任何質疑的破案利器，科學具有與時俱進不斷改變的本質，美國法院亦自早期以特定領域所普遍接受為判準之Frye法則，轉為注重可偽證性、可被測試、錯誤率、標準作業程序等科學方法之Daubert法則，科學家僅是以現有技術依循科學方法提出「某種可能性的解釋方法」，而非提供審判者「答案」。故我國依刑事訴訟法第198條選任之鑑定人，其專業固然無庸置疑，惟審判者不應高度仰賴其結論，應審視其鑑定程序是否符合科學方法；且實務上應對鑑定人行交互詰問，避免其僅以鑑定報告代之而淪為「書證」的角色。
+在政策方面，金副教授建議鑑識機關應獨立於犯罪偵查機關。美國檢察機關逐漸意識到冤錯案問題確實存在，許多地區性檢察機關開始在檢察署內部成立「定罪完善小組」，主動擔負平反冤錯案的任務，並尋找導致冤錯案之系統性原因，亦值得我國參考。
+檔案下載
+第2126期第4版(2022-10-07)
+PDF
+發布日期 : 111-10-07
+更新日期 : 111-10-07
+發布單位 : 參事室
+盡其在我 樂活人生 — 記述莊秋桃前院長...
+
+【政府公開照片EXIF欄位實例】
+https://media.nmmba.gov.tw/News_Content_Media.aspx?n=53&s=29753&sms=10198
+原文擷取行120–137
+加入購物車
+拍攝日期
+108/11/13 上午 09:51:59
+機型
+Canon PowerShot G16
+焦距
+2
+曝光時間
+1/250
+GPS經度
+GPS緯度
+說明
+拍攝地點
+小琉球威尼斯沈船
+關連媒體
+陰陽海
+陰陽海
+加入購物車
+
+【Exif3.1欄位、可選GPS與時間等標籤】
+https://www.cipa.jp/std/documents/download_e.html?CIPA_DC-008-2026-E
+原文擷取行2080–2092
+4.6.5.4.3.        Model
+The model name or model number of the equipment. This is the model name or model number of the DSC,
+scanner, video digitizer or other equipment that generated the image. When the field is left blank, it is treated
+as unknown.
+
+    Tag       =    272 (110.H)
+    Type      =    ASCII or UTF-8
+    Count     =    Any
+    Default   =    None
+
+4.6.5.4.4.        Software
+This tag records the name and version of the software or firmware of the camera or image input device used
+to generate the image. The detailed format is not specified, but it is recommended that the example shown
+
+原文擷取行2550–2562
+4.6.6.6.1.        DateTimeOriginal
+A tag used to record the date and time when the image was captured. The format is "YYYY:MM:DD
+HH:MM:SS" with time shown in 24-hour format, and the date and time separated by one blank character
+[20.H]. When the date and time are unknown, all the character spaces except colons (":") should be filled
+with blank characters, or else the field should be filled with blank characters. The character string length is
+20 Bytes including NULL for termination. When the field is left blank, it is treated as unknown.
+
+    Tag       =    36867 (9003.H)
+    Type      =    ASCII
+    Count     =    20
+    Default   =    None
+                                                      52
+
+
+原文擷取行4497–4509
+Pointer to GPS Info IFD                          GPSInfo IFD Pointer           34853 8825     O      O      O         O
+   Notation
+   M : Mandatory (shall be recorded)
+
+                                                                        93
+
+  JEITA CP-3451H                                                                               CIPA DC-008-2026
+
+  R      : Recommended
+  O      : Optional
+  N      : It is not allowed to record
+  J      : It is not allowed to record (included in JPEG marker)
+
+
+原文擷取行4516–4540
+F number                                     FNumber                    33437 829D     O      O      O         O
+Exposure program                             ExposureProgram            34850 8822     O      O      O         O
+Spectral sensitivity                         SpectralSensitivity        34852 8824     O      O      O         O
+Photographic Sensitivity                     PhotographicSensitivity 34855 8827        O      O      O         O
+Optoelectric coefficient                     OECF                       34856 8828     O      O      O         O
+Sensitivity Type                             SensitivityType            34864 8830     O      O      O         O
+Standard Output Sensitivity                  StandardOutputSensitivity 34865 8831      O      O      O         O
+Recommended Exposure Index                   RecommendedExposureIndex 34866 8832       O      O      O         O
+ISOSpeed                                     ISOSpeed                   34867 8833     O      O      O         O
+ISOSpeed Latitude yyy                        ISOSpeedLatitudeyyy        34868 8834     O      O      O         O
+ISOSpeed Latitude zzz                        ISOSpeedLatitudezzz        34869 8835     O      O      O         O
+Exif Version                                 ExifVersion                36864 9000     M      M      M         M
+Date and time original image was generated   DateTimeOriginal           36867 9003     O      O      O         O
+Date and time image was made digital data    DateTimeDigitized          36868 9004     O      O      O         O
+Offset data of DateTime                      OffsetTime                 36880 9010     O      O      O         O
+Offset data of DateTimeOriginal              OffsetTimeOriginal         36881 9011     O      O      O         O
+Offset data of DateTimeDigitized             OffsetTimeDigitized        36882 9012     O      O      O         O
+Meaning of each component                    ComponentsConfiguration 37121 9101        N      N      N         M
+Image compression mode                       CompressedBitsPerPixel 37122 9102         N      N      N         O
+Shutter speed                                ShutterSpeedValue          37377 9201     O      O      O         O
+Aperture                                     ApertureValue              37378 9202     O      O      O         O
+Brightness                                   BrightnessValue            37379 9203     O      O      O         O
+Exposure bias                                ExposureBiasValue          37380 9204     O      O      O         O
+Maximum lens aperture                        MaxApertureValue           37381 9205     O      O      O         O
+Subject distance                             SubjectDistance            37382 9206     O      O      O         O
+
+原文擷取行4744–4756
+Pointer to GPS Info IFD                          GPSInfo IFD Pointer           34853 8825     O     O        O       O
+   Notation
+   M : Mandatory (shall be recorded)
+   R   : Recommended
+   O : Optional
+   N   : It is not allowed to record
+   J   : It is not allowed to record (included in JPEG marker)
+
+
+   4.7. JPEG Marker Segments Used in Exif
+   In addition to the compressed data (entropy coded data), a compressed file contains one each of the marker
+   segments APP1, DQT, DHT, SOF and SOS. The compressed data begins with an SOI and ends with an EOI
+   marker. No specification is made regarding data arrays that come after EOI. A restart marker (DRI, RSTm)
+
+【Windows事件記錄服務啟停與非預期停止】
+https://learn.microsoft.com/zh-tw/security-updates/security/20214425
+原文擷取行344–354
+您可以利用這些事件識別碼來注意到一些安全性問題：
+**電腦關機/重新啟動。**事件識別碼 513 顯示 Windows 正在關機。知道伺服器曾經在何時關閉或重新啟動是很重要的事。有一些是正當的理由，例如安裝了驅動程式或應用程式而需要重新開機，或者因為要進行維護而關閉或重新啟動伺服器；然而，攻擊者也可能為了在啟動期間取得系統的存取權而迫使伺服器重新開機。您應該要注意所有電腦關閉的情況，並和事件日誌做個比對。
+許多攻擊都需要重新啟動電腦。經由調查事件日誌，您可以判斷伺服器曾經在何時重新啟動，以及此項重新啟動是計畫中的重新啟動，或是未列入計畫的重新啟動。事件識別碼 513 顯示 Windows 正在啟動，系統記錄檔中還會自動產生一系列的其他事件。這些事件包括事件識別碼 6005，此事件是指出事件日誌服務已經啟動。
+除了此項目之外，請在系統記錄檔中尋找兩個不同的事件日誌項目中的其中一個項目。如果先前的關機是乾淨的，例如系統管理員要重新啟動電腦，那麼系統記錄檔中就會記錄事件識別碼 6006，亦即事件日誌服務已經停止。經由檢查此項目的詳細資料，您可以判斷出是哪一個使用者起始此項關機作業。
+如果此項重新啟動是肇因於無法預期的重新啟動，就會產生事件識別碼 6008，指出系統上次在 <date> 的 <time> 發生意外的關機。這可能是暗示曾經發生拒絕服務攻擊的事件，而造成電腦關機。但請記得，這也可能是電源中斷所造成，或是裝置驅動程式失敗所造成。
+如果此項重新啟動是由藍色螢幕所造成，系統記錄檔中就會記錄事件識別碼 1001，其來源則標示為 Save Dump。您可以在事件的詳細資料中檢視藍色螢幕實際的錯誤訊息。
+請注意：如果要包含事件識別碼 1001 的記錄項目，您必須在 [控制台] 的 [系統] 小程式的修復設定區段中選取 [將事件寫入系統記錄檔中] 核取方塊。
+**修改或清除安全性記錄檔。**攻擊者可能會試圖修改安全性記錄檔、在攻擊期間停用稽核或是清除安全性記錄檔以避免被偵測。如果您注意到有一段很長的時間安全性記錄檔中沒有產生任何項目，就應該尋找事件識別碼 612 與 517 以判斷是哪一個使用者修改了稽核原則。您應該將產生的所有事件識別碼 517 和指出安全性記錄檔被清除的實體記錄檔做個比對。如果有人非法清除安全性記錄檔，可能是想試圖隱藏那些存在先前的安全性記錄檔中的事件。您可以在事件的詳細資料中找到清除記錄檔的使用者名稱。
+原則變更
+稽核原則定義要稽核環境的哪些變更，可幫助您判斷是否有人試圖攻擊您的環境；然而，決心進行破壞的攻擊者會伺機修改稽核原則本身，這樣系統就不會稽核攻擊者所做的任何變更。
+如果您稽核原則的變更，就會看見試圖修改稽核原則的事件，以及變更其他原則與使用者權利的事件。成員伺服器與網域控制站基準原則會稽核成功與失敗的原則變更事件。您會在事件日誌中看見下列事件。
+
+原文擷取行541–549
+在此工具的 [Choose Log Files to search] 區段中，只選取 [System] 記錄檔。
+在此工具的 [Event Types] 區段中，選取 [Error] 與 [Informational]。
+在 [Event IDs] 方塊中，輸入下列事件識別碼： 1001 6005 6006 6008
+在按一下 [Search] 按鈕之前，請先確認您定義的搜尋條件如下圖所示，然後按一下 [Search]。
+當搜尋完成時，您可以在記錄檔目錄中檢視搜尋結果，搜尋結果應該會在搜尋完成時自動開啟。
+檢查記錄項目
+從 [File] 功能表，選取 [Open Log Directory]。
+在 C:\Temp 資料夾中，按兩下某個網域控制站的輸出檔，以檢視 EventCombMT 工具所記錄的特定事件。您應該會看見類似下面的輸出：
+1001,INFORMATIONAL,Save Dump,Wed Nov 28 05:45:50 2001,,The computer has rebooted from a bugcheck.The bugcheck was:0x000000d1 (0x00000004, 0x00000002, 0x00000000, 0x84c983dc).
+
+【Windows內建事件日誌診斷】
+https://learn.microsoft.com/zh-tw/troubleshoot/windows-client/performance/windows-boot-issues-troubleshooting
+原文擷取行190–200
+畫面上，嘗試使用 [安全模式]
+或 [安全模式 (含網路功能)]
+啟動電腦。 如果上述任何一種都有效，請使用事件檢視器協助找出並診斷啟動問題的原因。 若要檢視記錄在事件記錄檔中的事件，請遵循下列步驟：
+可使用下列方法之一來開啟事件檢視器：
+進入
+開始
+選單，然後選擇
+管理工具
+>
+事件檢視器
+。
+
+【Microsoft指令原件：ping】
+https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ping
+原文擷取行47–58
+Verifies IP-level connectivity to another TCP/IP computer by sending Internet Control Message Protocol (ICMP) echo Request messages. The receipt of the corresponding echo Reply messages is displayed, along with round-trip times. ping is the primary TCP/IP command used to troubleshoot connectivity, reachability, and name resolution. Used without parameters, this command displays Help content.
+You can also use this command to test both the computer name and the IP address of the computer. If pinging the IP address is successful, but pinging the computer name isn't, you might have a name resolution problem. In this case, make sure the computer name you're specifying can be resolved through the local Hosts file, by using Domain Name System (DNS) queries, or through NetBIOS name resolution techniques.
+Note
+This command is available only if the Internet Protocol (TCP/IP) is installed as a component in the properties of a network adapter in Network Connections.
+Syntax
+ping [/t] [/a] [/n <count>] [/l <size>] [/f] [/I <TTL>] [/v <TOS>] [/r <count>] [/s <count>] [{/j <hostlist> | /k <hostlist>}] [/w <timeout>] [/R] [/S <Srcaddr>] [/4] [/6] <targetname>
+Parameters
+Parameter
+Description
+/t
+Specifies ping continue sending echo Request messages to the destination until interrupted. To interrupt and display statistics, press CTRL+BREAK. To interrupt and quit this command, press CTRL+C.
+/a
+
+【Microsoft指令原件：ipconfig】
+https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ipconfig
+原文擷取行47–58
+Displays all current TCP/IP network configuration values and refreshes Dynamic Host Configuration Protocol (DHCP) and Domain Name System (DNS) settings. Used without parameters,
+ipconfig
+displays Internet Protocol version 4 (IPv4) and IPv6 addresses, subnet mask, and default gateway for all adapters.
+Syntax
+ipconfig [/allcompartments] [/all] [/renew [<adapter>]] [/release [<adapter>]] [/renew6[<adapter>]] [/release6 [<adapter>]] [/flushdns] [/displaydns] [/registerdns] [/showclassid <adapter>] [/setclassid <adapter> [<classID>]]
+Parameters
+Parameter
+Description
+/all
+Displays the full TCP/IP configuration for all adapters. Adapters can represent physical interfaces, such as installed network adapters, or logical interfaces, such as dial-up connections.
+/displaydns
+Displays the contents of the DNS client resolver cache, which includes both entries preloaded from the local Hosts file and any recently obtained resource records for name queries resolved by the computer. The DNS Client service uses this information to resolve frequently queried names quickly, before querying its configured DNS servers.
+
+【Microsoft指令原件：tracert】
+https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert
+原文擷取行47–59
+This diagnostic tool determines the path taken to a destination by sending Internet Control Message Protocol (ICMP) echo Request or ICMPv6 messages to the destination with incrementally increasing time to live (TTL) field values. Each router along the path is required to decrement the TTL in an IP packet by at least 1 before forwarding it. Effectively, the TTL is a maximum link counter. When the TTL on a packet reaches 0, the router is expected to return an ICMP time Exceeded message to the source computer.
+This command determines the path by sending the first echo Request message with a TTL of 1 and incrementing the TTL by 1 on each subsequent transmission until the target responds or the maximum number of hops is reached. The maximum number of hops is 30 by default and can be specified using the
+/h
+parameter.
+The path is determined by examining the ICMP time Exceeded messages returned by intermediate routers and the echo Reply message returned by the destination. However, some routers don't return time Exceeded messages for packets with expired TTL values and are invisible to the
+tracert
+command. In this case, a row of asterisks (
+*
+) is displayed for that hop. The path displayed is the list of near/side router interfaces of the routers in the path between a source host and a destination. The near/side interface is the interface of the router that is closest to the sending host in the path.
+Important
+This command is available only if the Internet Protocol (TCP/IP) protocol is installed as a component in the properties of a network adapter in Network Connections.
+To trace a path and provide network latency and packet loss for each router and link in the path, use the
+pathping command
+
+【Microsoft指令原件：nslookup】
+https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup
+原文擷取行47–58
+Displays information that you can use to diagnose Domain Name System (DNS) infrastructure. Before using this tool, you should be familiar with how DNS works. The nslookup command-line tool is available only if you have installed the TCP/IP protocol.
+Syntax
+nslookup [exit | finger | help | ls | lserver | root | server | set | view] [options]
+Parameters
+Parameter
+Description
+nslookup exit
+Exits the nslookup command-line tool.
+nslookup finger
+Connects with the finger server on the current computer.
+nslookup help
+Displays a short summary of subcommands.
+
+【2018年公開講義：Google搜尋語法】
+https://webnas.bhes.ntpc.edu.tw/wordpress/wp-content/uploads/2018/12/%E6%96%B0%E5%8C%97%E5%B8%82%E7%B6%B2_-%E7%B6%B2%E8%B7%AF%E6%94%BB%E9%98%B2%E5%AF%A6%E5%8B%99_20181211_%E8%AC%9B%E7%BE%A9%E7%89%88.pdf
+原文擷取行329–347
+
+                 inurl
+intitle
+          site
+
+
+intext
+
+
+
+                         尋找特定檔案
+                         類型：filetype
+
+https://www.exploit-db.com
+
+GHDB,https://www.exploit-db.com/google-hacking-database
+
+Ethical Hacking 101
+
+【警察偵查犯罪手冊115年版第44點：情報處理程序（印刷頁7）】
+https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968
+四十四、情報之處理，應依登記、分析、研判及運用等程序為之。有運用價值之可靠情報，
+ 應派人循線偵查及蒐集證據。所報未詳盡者，應指導原報人繼續深入調查，或另交其他
+ 適當人員深入調查；不能運用者，得銷毀之。
+
+四十五、諮詢人員提供情報線索，應詳核其動機、目的與可靠性。因而及時防止治安事故
+ 發生，或偵破重大案件時，應立即簽報，予以適當獎勵及支應必要費用。
+  前項獎勵及費用之核發，應依警察機關獎勵民眾提供犯罪線索協助破案實施要點辦理。

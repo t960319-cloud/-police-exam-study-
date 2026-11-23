@@ -1,0 +1,2285 @@
+{
+  "checkedAt": "2026-11-23",
+  "timezone": "Asia/Taipei",
+  "baselineGit": "6e0df0fe3659367c6983eb450607c1eafc626f03",
+  "previousDeployment": 47,
+  "requestedBatchSize": 50,
+  "supplementedQuestions": 50,
+  "reviewedOptions": 200,
+  "verifiedInCitedScope": 16,
+  "retainedReview": 34,
+  "previousAuditCorrectedQuestionsIncluded": [
+    "investigation110_46",
+    "investigation112_27",
+    "investigation112_28",
+    "investigation112_29",
+    "investigation112_30",
+    "investigation112_31",
+    "investigation112_32",
+    "investigation112_33",
+    "investigation112_34",
+    "investigation112_39",
+    "investigation112_40",
+    "investigation112_43",
+    "investigation112_45",
+    "investigation112_47",
+    "investigation112_48",
+    "investigation112_50",
+    "investigation113_05",
+    "investigation113_11",
+    "investigation113_14",
+    "investigation113_15",
+    "investigation113_16",
+    "investigation113_24",
+    "investigation113_25",
+    "investigation113_26",
+    "investigation113_29",
+    "investigation113_37",
+    "investigation114_18",
+    "investigation115_31",
+    "investigation115_37",
+    "investigation115_38",
+    "investigation115_45",
+    "investigation115_50"
+  ],
+  "eventIds": [
+    "legal-review-20261123-key50-a",
+    "legal-review-20261123-key50-b"
+  ],
+  "eventPatchCounts": [
+    25,
+    25
+  ],
+  "preservedCuratedEvents": 48,
+  "preservedProductionEvents": 51,
+  "targets": [
+    "investigation112_28",
+    "investigation112_32",
+    "investigation112_43",
+    "investigation112_45",
+    "investigation112_50",
+    "investigation113_16",
+    "investigation113_25",
+    "investigation113_29",
+    "investigation115_37",
+    "investigation115_38",
+    "investigation110_02",
+    "investigation110_03",
+    "investigation110_46",
+    "investigation111_06",
+    "investigation112_31",
+    "investigation111_15",
+    "investigation112_13",
+    "investigation112_15",
+    "investigation112_25",
+    "investigation112_30",
+    "investigation112_34",
+    "investigation112_39",
+    "investigation112_48",
+    "investigation113_05",
+    "investigation113_06",
+    "investigation113_24",
+    "investigation113_26",
+    "investigation113_36",
+    "investigation113_37",
+    "investigation114_08",
+    "investigation112_27",
+    "investigation112_29",
+    "investigation112_33",
+    "investigation112_40",
+    "investigation112_47",
+    "investigation113_11",
+    "investigation113_14",
+    "investigation113_15",
+    "investigation114_18",
+    "investigation115_31",
+    "investigation115_45",
+    "investigation115_50",
+    "investigation110_07",
+    "investigation110_08",
+    "investigation110_14",
+    "investigation110_26",
+    "investigation110_32",
+    "investigation110_40",
+    "investigation112_37",
+    "investigation114_31"
+  ],
+  "reviewResults": [
+    {
+      "targetId": "investigation112_28",
+      "officialAnswer": "A",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "考選部112年犯罪偵查概要原卷（題意範圍）",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
+        },
+        {
+          "title": "考選部112年犯罪偵查概要標準答案（當年給分）",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
+        }
+      ],
+      "technicalSources": [
+        {
+          "title": "ETSI ES 201 671 V3.2.1（2018-05），第5.0、5.1、7.0節",
+          "url": "https://www.etsi.org/deliver/etsi_es/201600_201699/201671/03.02.01_60/es_201671v030201p.pdf"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "實讀ETSI ES 201 671 V3.2.1（2018-05）第5.0、5.1、7.0節；A可依三種邏輯功能理解。B列舉管理通知，原則歸HI1，但第5.1節明示部分HI1資訊（例如故障通報）得經HI2機制傳送，故不寫成所有告警絕不可走HI2。命題使用的具體版本與實作設定未齊，保留待核。ETSI是技術交付規格，不能代替我國通訊監察的法定核准。考選部來源只證明題目及給分，功能依據為另列ETSI原件。"
+      ]
+    },
+    {
+      "targetId": "investigation112_32",
+      "officialAnswer": "B",
+      "verified": true,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "考選部112年犯罪偵查概要原卷（題意範圍）",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
+        },
+        {
+          "title": "考選部112年犯罪偵查概要標準答案（當年給分）",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
+        }
+      ],
+      "technicalSources": [
+        {
+          "title": "Microsoft：Windows開機問題疑難排解（系統／應用程式事件日誌）",
+          "url": "https://learn.microsoft.com/zh-tw/troubleshoot/windows-client/performance/windows-boot-issues-troubleshooting"
+        },
+        {
+          "title": "Microsoft：Windows事件記錄服務之6005、6006及6008（舊版文件）",
+          "url": "https://learn.microsoft.com/zh-tw/security-updates/security/20214425"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已實讀Microsoft開機疑難排解與舊版Windows事件記錄文件。已核限Windows工具及日誌語意；舊版6005、6006、6008範例須依目標系統版本解讀。現場先保存原始日誌及環境，避免為驗證而反覆開關機改變證據。Microsoft技術來源另列，原卷僅用於保留當年題意與給分。"
+      ]
+    },
+    {
+      "targetId": "investigation112_43",
+      "officialAnswer": "D",
+      "verified": true,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "臺灣警察專科學校：區塊鏈應用於證物監管鏈之研究，頁118–119及限制討論",
+          "url": "https://educate.tpa.edu.tw/var/file/4/1004/img/390/535350963.pdf"
+        }
+      ],
+      "technicalSources": [
+        {
+          "title": "Satoshi Nakamoto：Bitcoin: A Peer-to-Peer Electronic Cash System，第2、10、11節",
+          "url": "https://bitcoin.org/bitcoin.pdf"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "依警專區塊鏈研究與Bitcoin原始論文第2、10、11節核對。已核限題目所考的公開鏈基本特性，並補明聯盟鏈、共識攻擊、輸入資料及假名的限制；未宣稱所有加密貨幣均相同、所有地址都能直接找出持有人。"
+      ]
+    },
+    {
+      "targetId": "investigation112_45",
+      "officialAnswer": "A",
+      "verified": true,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "考選部112年犯罪偵查概要原卷（題意範圍）",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
+        },
+        {
+          "title": "考選部112年犯罪偵查概要標準答案（當年給分）",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
+        }
+      ],
+      "technicalSources": [
+        {
+          "title": "Microsoft Windows Commands：ping",
+          "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ping"
+        },
+        {
+          "title": "Microsoft Windows Commands：ipconfig",
+          "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ipconfig"
+        },
+        {
+          "title": "Microsoft Windows Commands：tracert",
+          "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert"
+        },
+        {
+          "title": "Microsoft Windows Commands：nslookup",
+          "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已逐一實讀Microsoft四個Windows指令原始文件。題幹TCP/IP參數是否正常應限縮理解為基礎連通診斷，不能由一次ping斷言所有TCP或應用服務正常。原卷來源只保留題意及給分，實際技術定義見Microsoft文件。"
+      ]
+    },
+    {
+      "targetId": "investigation112_50",
+      "officialAnswer": "D",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "考選部112年犯罪偵查概要原卷（題意範圍）",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
+        },
+        {
+          "title": "考選部112年犯罪偵查概要標準答案（當年給分）",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
+        }
+      ],
+      "technicalSources": [
+        {
+          "title": "2018年國網中心網路攻防實務講義：Google Hacking搜尋語法表（板橋國小公開存本）",
+          "url": "https://webnas.bhes.ntpc.edu.tw/wordpress/wp-content/uploads/2018/12/%E6%96%B0%E5%8C%97%E5%B8%82%E7%B6%B2_-%E7%B6%B2%E8%B7%AF%E6%94%BB%E9%98%B2%E5%AF%A6%E5%8B%99_20181211_%E8%AC%9B%E7%BE%A9%E7%89%88.pdf"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已實讀2018年國網資安訓練之公立學校公開講義，其中intitle、site及filetype表格可供歷史教學概念對照。Google官方頁直接取得429，另由web工具讀到的現行搜尋說明只涵蓋site、filetype等部分項目；國圖連結410未取得，不假稱已讀完整。OR及當前完整語法原件尚不足，保留review；搜尋結果本身也不是司法證據真實性的保證。"
+      ]
+    },
+    {
+      "targetId": "investigation113_16",
+      "officialAnswer": "A",
+      "verified": true,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "民航局飛航服務總臺：有效辨識爭議訊息—淺談公開來源情資技術",
+          "url": "https://www.anws.gov.tw/Epaper/EpaperDetailC004560.aspx?Cond=d27046e6-4e17-48db-a128-6d2380837890&KeyID=78f9e3a6-df3f-4764-881d-7bc8bcd1c141"
+        },
+        {
+          "title": "個人資料保護法第5、15、16條（公開資料仍受目的及必要範圍限制）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "以飛航服務總臺公開來源情資文章及個資法第5、15、16條核對。已核限基本名詞區別，未將社群一切內容都視為公開資料，亦未把OSINT當成侵入帳戶、繞過權限或不限目的蒐集個資的授權。"
+      ]
+    },
+    {
+      "targetId": "investigation113_25",
+      "officialAnswer": "D",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "刑事訴訟法第206、208條：鑑定經過、結果及可靠性要求",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "司法院：美國冤錯案研究的經驗與啟示（科學證據審查之研習摘要）",
+          "url": "https://www.judicial.gov.tw/tw/cp-1454-728990-60889-1.html"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已實讀刑訴第206、208條與司法院科學證據研習摘要。法條要求報告經過與結果並揭示四項基礎，不是強制所有數位報告僅能有兩個標題。D的問題在把個人經驗分析當成必備、且未交代可審查基礎，不能反寫成法律禁止一切經驗或專業推論。A至C的原始教材格式未齊，保留待核；研習摘要不是裁判全文或新的鑑定授權。"
+      ]
+    },
+    {
+      "targetId": "investigation113_29",
+      "officialAnswer": "A",
+      "verified": true,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "國立海洋生物博物館公開影像之EXIF欄位實例（GPS欄位空白）",
+          "url": "https://media.nmmba.gov.tw/News_Content_Media.aspx?n=53&s=29753&sms=10198"
+        }
+      ],
+      "technicalSources": [
+        {
+          "title": "CIPA DC-008-2026：Exif3.1，4.6節及表17、18（公開下載原件）",
+          "url": "https://www.cipa.jp/std/documents/download_e.html?CIPA_DC-008-2026-E"
+        },
+        {
+          "title": "CIPA影像標準目錄：Exif版本及發布日期",
+          "url": "https://www.cipa.jp/e/std/std-sec.html"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已透過CIPA公開下載表單取得並實讀Exif3.1（CIPA DC-008-2026）第4.6節及標籤支援表17、18；GPSInfo指標、FNumber與DateTimeOriginal列為Optional。海生館公開照片EXIF實例也有GPS欄位空白。現行標準用於補充同名格式概念，不倒推113年命題時已採用2026版；另明示非每張照片必有GPS及時間。"
+      ]
+    },
+    {
+      "targetId": "investigation115_37",
+      "officialAnswer": "D",
+      "verified": true,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警察偵查犯罪手冊115年版第44點：情報處理程序（印刷頁7）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        44
+      ],
+      "evidenceNotes": [
+        "實讀115年版手冊第44點原文及相鄰情報規定，確認四個程序的明列順序。手冊同點並區分可靠有價值、欠完備及不適用情報之後續處理；已核限這項程序，不把手冊視為另行侵害權利的強制處分依據。"
+      ]
+    },
+    {
+      "targetId": "investigation115_38",
+      "officialAnswer": "D",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "考選部115年犯罪偵查概要原卷（題意範圍；給分另見既有標準答案來源）",
+          "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=241&code=115060&q=1&s=1106&t=Q"
+        }
+      ],
+      "technicalSources": [
+        {
+          "title": "中央警察大學：模糊最短路徑應用於犯罪網路模型之研究，第4節（2009）",
+          "url": "https://eim.cpu.edu.tw/var/file/73/1073/img/1026/2009104.pdf"
+        }
+      ],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已實讀中央警察大學2009年犯罪網路模型研究第4節，文中節點可包括人、組織、車輛與地點，並以案件事件與關係邊建模。它支持圖模型說明，不足以確認原題所用三項分類的排他性；故保留當年D及review，不教成連結分析永不包含地點。該篇屬研究方法來源，並非搜索、調閱或個資蒐集授權。"
+      ]
+    },
+    {
+      "targetId": "investigation110_02",
+      "officialAnswer": "A",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第33點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "取得的是103.3.11完整歷史版，可直接證明五款原文；尚未取得110年指定版及2026完整沿革，因此不把舊版全文誤標為目前整體作業已核。"
+      ]
+    },
+    {
+      "targetId": "investigation110_03",
+      "officialAnswer": "D",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第47、48、55、58點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "警專公開115版警察偵查犯罪手冊（完整主文）・第70、72點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        70,
+        72
+      ],
+      "evidenceNotes": [
+        "已核103版四種證物原文及115主文專業排爆／依鑑識手冊辦理原則；完整最新分項採證與包裝規範未齊，數量和容器不得僅依舊考古鍵決定。"
+      ]
+    },
+    {
+      "targetId": "investigation110_46",
+      "officialAnswer": "C",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第16、32、34、36點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "新北市政府警察局112年〈玻璃毀損案偵查與鑑識之研究〉",
+          "url": "https://www.rde.ntpc.gov.tw/userfiles/1160700/files/2_%E7%8E%BB%E7%92%83%E6%AF%80%E6%90%8D%E6%A1%88%E5%81%B5%E6%9F%A5%E8%88%87%E9%91%91%E8%AD%98%E4%B9%8B%E7%A0%94%E7%A9%B6.pdf"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "官方歷史手冊可證門窗情況性與易逝跡證要求，新北研究可證五類名稱及型態外觀概念；完整分類教材各項例示仍缺，不用原C替代全部定義。"
+      ]
+    },
+    {
+      "targetId": "investigation111_06",
+      "officialAnswer": "A",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第16點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "警專公開115版警察偵查犯罪手冊（完整主文）・第54點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        54
+      ],
+      "evidenceNotes": [
+        "103版原文完整支持一般事項與第4款三目之區分，115手冊另證嫌犯警戒仍必要；111指定版／鑑識手冊完整最新沿革未齊，仍保留待核。"
+      ]
+    },
+    {
+      "targetId": "investigation112_31",
+      "officialAnswer": "A",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "法務部刑政中心刊載・溫哲彥〈影像處理技術於偵查與鑑識之應用—由二維到三維空間〉",
+          "url": "https://www.cprc.moj.gov.tw/media/8768/79291473538.pdf?mediadl=true"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第55點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已讀官方影像研究之資料／資訊界線及影音原檔原則；尚缺四種中文觀察法之完整指定教材，因此逐項補說明但保留分類待核。"
+      ]
+    },
+    {
+      "targetId": "investigation111_15",
+      "officialAnswer": "B",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第59點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "去氧核醣核酸採樣條例施行細則現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080187"
+        },
+        {
+          "title": "去氧核醣核酸樣本採集準則現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080196"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已讀103版第59點與現行DNA規範；111指定手冊及目前所有參考檢體技術數量沿革未齊，保留待核；不將一般自願採樣規定當成任何犯罪偵查強採授權。"
+      ]
+    },
+    {
+      "targetId": "investigation112_13",
+      "officialAnswer": "B",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第20、27、66點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "警專公開115版警察偵查犯罪手冊（完整主文）・第71點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        71
+      ],
+      "evidenceNotes": [
+        "完整歷史版與115主文可證多種紀錄，現行分項標示／包裝的全部技術規範未齊，尤其D的絕對用語須限於避免證物混裝污染，整題保留待核。"
+      ]
+    },
+    {
+      "targetId": "investigation112_15",
+      "officialAnswer": "D",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第17、22、23、34點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "基隆市警察局114.10.20赴美現場重建研習報告・第21—23頁（web工具實讀）",
+          "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已核歷史手冊顯至潛、戶外防護、案件別調整及114官方研習報告跡證顯現；各搜尋方法完整指定教材與全部例外仍待核。"
+      ]
+    },
+    {
+      "targetId": "investigation112_25",
+      "officialAnswer": "C",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第17、22、58、61、62、66點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "陰乾及防護有完整歷史原文；B盲摸與D污染文書之指定安全教材／最新完整規範未取得，補釋適用界線並保留待核，不用官方C推定D於所有情況都可銷毀。"
+      ]
+    },
+    {
+      "targetId": "investigation112_30",
+      "officialAnswer": "C",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第29、30、32、33點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "法務部刑政中心刊載・溫哲彥〈影像處理技術於偵查與鑑識之應用—由二維到三維空間〉",
+          "url": "https://www.cprc.moj.gov.tw/media/8768/79291473538.pdf?mediadl=true"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "歷史版有尺無尺、現場記錄與圖面基本要求已核；鳥瞰／立視圖全部原始定義及當期教材未齊，整題仍待核。"
+      ]
+    },
+    {
+      "targetId": "investigation112_34",
+      "officialAnswer": "A",
+      "verified": true,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "法務部刑政中心刊載・溫哲彥〈影像處理技術於偵查與鑑識之應用—由二維到三維空間〉",
+          "url": "https://www.cprc.moj.gov.tw/media/8768/79291473538.pdf?mediadl=true"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第55點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已讀官方刊載影像研究印刷240頁之強化／還原直接比較及三維紀錄章節，並以歷史影音保存規定補充原檔界線；已核是本題技術概念，不宣稱任意演算法輸出均有證據能力。"
+      ]
+    },
+    {
+      "targetId": "investigation112_39",
+      "officialAnswer": "B",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "基隆市警察局114.10.20赴美現場重建研習報告・第21—23頁（web工具實讀）",
+          "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已讀官方研習報告可攜式儀器定位；刑事局98期相關PDF直接503、web工具又因內容過大未取得，不以檢索片段冒稱已讀全文。拉曼各項技術機型原件尚缺，因此整題保留待核。"
+      ]
+    },
+    {
+      "targetId": "investigation112_48",
+      "officialAnswer": "B",
+      "verified": true,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警專公開115版警察偵查犯罪手冊（完整主文）・第51、52、54、55、57、70點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第16、22點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        51,
+        52,
+        54,
+        55,
+        57,
+        70
+      ],
+      "evidenceNotes": [
+        "已直接核115完整主文救護、嫌犯處理及排除危害相關點次；歷史鑑識手冊只補現場觀察與安全原則，不將行政手冊當拘捕或搜索的獨立授權。"
+      ]
+    },
+    {
+      "targetId": "investigation113_05",
+      "officialAnswer": "C",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "基隆市警察局114.10.20赴美現場重建研習報告・第7、10—11頁（web工具實讀）",
+          "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第20、34點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "114官方報告有四向連結及三種關係說明，但未逐字列完整四端點教材；本輪不只憑C鍵把缺失定義當已核，保持待核及證物污染界線。"
+      ]
+    },
+    {
+      "targetId": "investigation113_06",
+      "officialAnswer": "B",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "新北市政府警察局112年〈玻璃毀損案偵查與鑑識之研究〉",
+          "url": "https://www.rde.ntpc.gov.tw/userfiles/1160700/files/2_%E7%8E%BB%E7%92%83%E6%AF%80%E6%90%8D%E6%A1%88%E5%81%B5%E6%9F%A5%E8%88%87%E9%91%91%E8%AD%98%E4%B9%8B%E7%A0%94%E7%A9%B6.pdf"
+        },
+        {
+          "title": "基隆市警察局114.10.20赴美現場重建研習報告・第21—23頁（web工具實讀）",
+          "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第16、62點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已讀新北112官方型態性研究及114官方研習報告型態性跡證章節，與原題文字存在分類疑義；未取得命題教材或正式更正，不改原B及全部給分，仍待核。"
+      ]
+    },
+    {
+      "targetId": "investigation113_24",
+      "officialAnswer": "A",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "刑事警察局指紋科・指紋科學小百科主題2：指紋的特性（web工具全文主文存本）",
+          "url": "https://www.cib.npa.gov.tw/ch/app/data/view?id=1956&module=wg124&serno=48084470-6d7c-4d6a-88ef-4107fdfbb682"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第57點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已由web工具實讀刑事局五特性文章全文主文，直接HTTP503另存失敗；尚缺完整指紋粉末作業專章，因此保留A鍵並補物理／化學界線，未宣稱全題技術原件已核。"
+      ]
+    },
+    {
+      "targetId": "investigation113_26",
+      "officialAnswer": "A",
+      "verified": true,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "基隆市警察局114.10.20赴美現場重建研習報告・第7、10—11頁（web工具實讀）",
+          "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第41、46點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已直接讀114官方研習報告第7頁Locard原則及103手冊肇逃微物比對處理。核對是本題概念與例子辨別，不宣稱每次接觸皆必然留下足供鑑定之可檢出物或單一物證足以定罪。"
+      ]
+    },
+    {
+      "targetId": "investigation113_36",
+      "officialAnswer": "D",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第27、28、30點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "警專公開115版警察偵查犯罪手冊（完整主文）・第52點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "基隆市警察局114.10.20赴美現場重建研習報告・第7、10—11頁（web工具實讀）",
+          "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        52
+      ],
+      "evidenceNotes": [
+        "歷史完整第28點與115救護必要變動記錄已核；原題所引完整113當期／最新攝影專章未齊，保留待核，不把照相後重擺當成法定程序。"
+      ]
+    },
+    {
+      "targetId": "investigation113_37",
+      "officialAnswer": "A",
+      "verified": true,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "刑事警察局指紋科・指紋科學小百科主題2：指紋的特性（web工具全文主文存本）",
+          "url": "https://www.cib.npa.gov.tw/ch/app/data/view?id=1956&module=wg124&serno=48084470-6d7c-4d6a-88ef-4107fdfbb682"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已由web.open實讀刑事局指紋科官方全文主文五特性，包含真皮層損傷及短期不滅例外；直接HTTP503與web工具成功分別記錄，不將網頁更新當規範變動。"
+      ]
+    },
+    {
+      "targetId": "investigation114_08",
+      "officialAnswer": "A",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "去氧核醣核酸樣本採集準則現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080196"
+        },
+        {
+          "title": "去氧核醣核酸採樣條例現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080186"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第58、59、64、65點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "已核現行DNA準則第3、4條與條例重採原則及103歷史手冊；114指定版與現行全部性侵證物保管規範未齊。以歷史版支持題目辨識，同時撤除無條件期滿銷毀的讀法，整題仍待核。"
+      ]
+    },
+    {
+      "targetId": "investigation112_27",
+      "officialAnswer": "C",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "官方出國報告《美國社會現況與警政因應措施》（印刷第7頁，剖繪概念及限制）",
+          "url": "https://report.ndc.gov.tw/ReportFront/PageSystem/reportFileDownload/C10504145/001"
+        },
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        82,
+        83
+      ],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "官方出國報告印刷第7頁實讀；它不是本題六階段模型的完整來源。手冊第82、83點提供資料分析與研判依據，不直接規定六階段剖繪。"
+      ]
+    },
+    {
+      "targetId": "investigation112_29",
+      "officialAnswer": "D",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "官方出國報告《美國社會現況與警政因應措施》（印刷第7頁，剖繪概念及限制）",
+          "url": "https://report.ndc.gov.tw/ReportFront/PageSystem/reportFileDownload/C10504145/001"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        82,
+        83
+      ],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "未取得本題四項排序的完整原始教學文件，故verified維持false。"
+      ]
+    },
+    {
+      "targetId": "investigation112_33",
+      "officialAnswer": "C",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "政府機關資訊通報332期：吳典松〈數位證據保全標準作業程序及第一線人員使用工具之簡介〉（104.6，當時草案與工具介紹）",
+          "url": "https://ws.ndc.gov.tw/Download.ashx?icon=..pdf&n=cGFydDEucGRm&u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL1JlbEZpbGUvNTU2Ni83NzYxLzAwNjI5NDEucGRm"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        263,
+        264,
+        265,
+        266
+      ],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "104年資訊通報第2頁實讀：現場完整性、設備識別及揮發性／網路狀態紀錄；文件當時介紹SOP草案，沒有逐項規定本題四步驟。"
+      ]
+    },
+    {
+      "targetId": "investigation112_40",
+      "officialAnswer": "D",
+      "verified": true,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "去氧核醣核酸採樣條例第2、3、6、7條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080186"
+        },
+        {
+          "title": "去氧核醣核酸採樣條例施行細則第2條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080187"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "逐項直接核讀條例第2、3、6、7條及施行細則第2條；統計補充只說明法定頻率與身分／有罪命題不同，未虛構個案命中率。"
+      ]
+    },
+    {
+      "targetId": "investigation112_47",
+      "officialAnswer": "B",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "基隆市政府警察局114年赴美鑑識研習報告（實讀PDF第6–11頁，數位採證技術與保全限制）",
+          "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
+        },
+        {
+          "title": "司法周刊2048期：智財法院邀周士楨科長談營業秘密與數位鑑識（110.4.1）",
+          "url": "https://www.judicial.gov.tw/tw/cp-1429-400841-340f3-1.html"
+        },
+        {
+          "title": "司法周刊2095期：智慧商業法院邀錢世傑助理教授談證據之搜扣及數位鑑識（111.3.4）",
+          "url": "https://www.judicial.gov.tw/tw/cp-1429-598727-61388-1.html"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "基隆研習報告只引實讀第6–11頁，屬技術研習內容，不是臺灣刑事強制處分法源。A細部技術來源缺口明列，故未標已核。"
+      ]
+    },
+    {
+      "targetId": "investigation113_11",
+      "officialAnswer": "D",
+      "verified": true,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "法務部刑事政策研究中心公開研究：魏渝鍹《性侵害犯罪之作案手法分析》（103年，印刷第22頁）",
+          "url": "https://www.cprc.moj.gov.tw/media/8645/611816186774.pdf?mediaDL=true"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "已實讀研究印刷第22頁三概念及前後文；它是官方網站公開的學術研究，不是創設拘捕或搜索權的法規。"
+      ]
+    },
+    {
+      "targetId": "investigation113_14",
+      "officialAnswer": "A",
+      "verified": true,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "通訊保障及監察法第3條之1",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "已讀第3條之1第1至3項全文；第3項網路流量紀錄與前兩項分開，未用新類別倒改原題計分。"
+      ]
+    },
+    {
+      "targetId": "investigation113_15",
+      "officialAnswer": "C",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "基隆市政府警察局114年赴美鑑識研習報告（實讀PDF第6–11頁，數位採證技術與保全限制）",
+          "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
+        },
+        {
+          "title": "司法周刊2048期：智財法院邀周士楨科長談營業秘密與數位鑑識（110.4.1）",
+          "url": "https://www.judicial.gov.tw/tw/cp-1429-400841-340f3-1.html"
+        },
+        {
+          "title": "政府機關資訊通報332期：吳典松〈數位證據保全標準作業程序及第一線人員使用工具之簡介〉（104.6，當時草案與工具介紹）",
+          "url": "https://ws.ndc.gov.tw/Download.ashx?icon=..pdf&n=cGFydDEucGRm&u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL1JlbEZpbGUvNTU2Ni83NzYxLzAwNjI5NDEucGRm"
+        },
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        169,
+        265,
+        266
+      ],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "美國研習報告是技術說明，不當作臺灣搜索、解密或強制要求密碼的授權；現行刑案數位手冊全文缺口及D的適用條件明列。"
+      ]
+    },
+    {
+      "targetId": "investigation114_18",
+      "officialAnswer": "C",
+      "verified": true,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "最高法院113年度台上字第502號刑事判決（113.3.13，最高法院官方裁判彙編完整判決解析文字）",
+          "url": "https://tps.judicial.gov.tw/tw/dl-135532-e6c1b41ca15e48ee898fd6b609769873.html"
+        },
+        {
+          "title": "刑事訴訟法（搜索、扣押及詢問權利保障相關條文）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "官方PDF直接下載HTTP503另留失敗紀錄；成功來源是web工具解析之完整裁判，已讀主文、理由一至五至法官／書記官署名，未冒稱原PDF下載成功。",
+        "判決個案涉及道路上停車異常與必要緊急查察，未推論一般臨檢即得開車門；引用刑訴第130、133及133條之1的搜索／扣押區分。"
+      ]
+    },
+    {
+      "targetId": "investigation115_31",
+      "officialAnswer": "B",
+      "verified": true,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "刑事訴訟法（搜索、扣押及詢問權利保障相關條文）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        169
+      ],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "已讀第169點各款全文；刑訴第122、128、131條之1提供法律層次區分，並非以手冊授權強制搜索。"
+      ]
+    },
+    {
+      "targetId": "investigation115_45",
+      "officialAnswer": "C",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "刑事訴訟法（搜索、扣押及詢問權利保障相關條文）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "政府機關資訊通報332期：吳典松〈數位證據保全標準作業程序及第一線人員使用工具之簡介〉（104.6，當時草案與工具介紹）",
+          "url": "https://ws.ndc.gov.tw/Download.ashx?icon=..pdf&n=cGFydDEucGRm&u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL1JlbEZpbGUvNTU2Ni83NzYxLzAwNjI5NDEucGRm"
+        },
+        {
+          "title": "法務部109年《我國建立完善刑事證物保管制度之研究》附錄4、6（106.3.22證物室作業規定與103.3.11刑事鑑識手冊官方存本）",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        169,
+        265,
+        266
+      ],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "103.3.11鑑識手冊第66點第5款為歷史存本；不是將其稱為2026最新完整原件。",
+        "104.6官方資訊通報明確為當時草案與工具簡介，支持揮發性資料與條件式關機的技術說明，不作為現行強制處分法源。"
+      ]
+    },
+    {
+      "targetId": "investigation115_50",
+      "officialAnswer": "D",
+      "verified": true,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "none",
+      "sources": [
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "政府機關資訊通報332期：吳典松〈數位證據保全標準作業程序及第一線人員使用工具之簡介〉（104.6，當時草案與工具介紹）",
+          "url": "https://ws.ndc.gov.tw/Download.ashx?icon=..pdf&n=cGFydDEucGRm&u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL1JlbEZpbGUvNTU2Ni83NzYxLzAwNjI5NDEucGRm"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        263,
+        264,
+        265,
+        266
+      ],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "104.6資訊通報是法務部人員介紹當時SOP草案與工具之官方文章，實讀全文5頁；用來支持可觀察的技術原理，不冒稱現行刑案數位手冊已完整取得。",
+        "本題屬一般前置與保全概念，A、B直接規定與C、D技術理由已逐項核對；特定機種或案件的關機操作仍須依現行專業程序。"
+      ]
+    },
+    {
+      "targetId": "investigation110_07",
+      "officialAnswer": "B",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        59,
+        145
+      ],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "未取得《警察機關執行圍捕任務規範》官方全文；四選項的編組層級與原版名稱均保持待核。"
+      ]
+    },
+    {
+      "targetId": "investigation110_08",
+      "officialAnswer": "A",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        2
+      ],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "手冊第2點全文已讀，明示仍須遵守背心專門規範；未據一般密行例外反推所有列舉時機均已核實。"
+      ]
+    },
+    {
+      "targetId": "investigation110_14",
+      "officialAnswer": "A",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "法務部109年《我國建立完善刑事證物保管制度之研究》附錄4、6（106.3.22證物室作業規定與103.3.11刑事鑑識手冊官方存本）",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "實讀109研究附錄4（印刷113頁起，106.3.22規定）及附錄6第66點第3至5款（印刷129頁，103.3.11鑑識手冊）。",
+        "精確應設單位條文為鑑識手冊66(4)，不是管理規定第4點；後者第4點是24小時內入室事項。未稱歷史存本是2026最新原件。"
+      ]
+    },
+    {
+      "targetId": "investigation110_26",
+      "officialAnswer": "C",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "changed",
+      "sources": [
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        80,
+        81,
+        289
+      ],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "變動是新讀115版的規範文字與既有舊題教法有差異；未取得修正沿革，不虛構修法日或聲稱110年條文已完整讀取。",
+        "第289點逾7日僅核為列管未破重大刑案另填偵查報告之要求，沒有拿來證明慰問時點。"
+      ]
+    },
+    {
+      "targetId": "investigation110_32",
+      "officialAnswer": "D",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        7,
+        8,
+        10,
+        18,
+        19,
+        21,
+        288
+      ],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "題目有三個不同制度：受理證明、資訊系統更正、重大刑案通報；未以手冊一般原則湊成三個精確規定。"
+      ]
+    },
+    {
+      "targetId": "investigation110_40",
+      "officialAnswer": "C",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "changed",
+      "sources": [
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        19,
+        20,
+        27,
+        28,
+        39,
+        41,
+        42,
+        45,
+        80,
+        81,
+        288,
+        289
+      ],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "已核A、B、D所對應115年條文；C的原始110年門檻及現行刑案處理作業程序缺口保留，故全題verified仍為false。"
+      ]
+    },
+    {
+      "targetId": "investigation112_37",
+      "officialAnswer": "A",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        37,
+        38,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "B的公共電話絕對安全說法未獲直接官方來源支持；保留原給分與trueStatement，不用答案鍵把它改稱現行安全通則。"
+      ]
+    },
+    {
+      "targetId": "investigation114_31",
+      "officialAnswer": "D",
+      "verified": false,
+      "previousAnalysisMode": "answer-key",
+      "reviewedOptions": 4,
+      "amendmentStatus": "review",
+      "sources": [
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        }
+      ],
+      "technicalSources": [],
+      "handbookPoints": [
+        51,
+        52,
+        59,
+        145
+      ],
+      "evidenceNotes": [
+        "2026-11-23（Asia/Taipei）核讀；這是本次核讀日期，不是法規修正或施行日期。",
+        "手冊第145點轉引《警察機關執行圍捕任務規範》，本次未取得該全文；未用一般第59點替代全部特殊圍捕編組／封鎖規定。"
+      ]
+    }
+  ],
+  "retrievals": [
+    {
+      "key": "etsi",
+      "url": "https://www.etsi.org/deliver/etsi_es/201600_201699/201671/03.02.01_60/es_201671v030201p.pdf",
+      "retrievedAt": "2026-11-23T13:08:32.003607+00:00",
+      "response": "200 200 application/pdf",
+      "exitCode": 0,
+      "sha256": "0c4bce915090c19dac3bf6fc1f23cc59747213c561b5f6ff039ec0fe653afd17",
+      "bytes": 833350,
+      "rawPath": "/tmp/police-key50-root-etsi",
+      "textPath": "/tmp/police-key50-root-etsi.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "ncl-search",
+      "url": "https://ref.ncl.edu.tw/images/subject_information/2.%E7%A0%94%E7%A9%B6%E8%B3%87%E6%BA%90%E8%88%87%E8%B3%87%E6%96%99%E7%AE%A1%E7%90%86-%E5%90%B3%E4%BA%AD%E4%BD%91_582ea.pdf",
+      "retrievedAt": "2026-11-23T13:08:32.003932+00:00",
+      "response": "410 200 text/html",
+      "exitCode": 22,
+      "sha256": null,
+      "bytes": 0,
+      "rawPath": null,
+      "textPath": null,
+      "documentAvailable": false,
+      "verificationResult": "直接下載未取得原文，保留真實HTTP／exitCode；不作已讀原件依據。",
+      "group": "root"
+    },
+    {
+      "key": "ncc-network",
+      "url": "https://www.ncc.gov.tw/chinese/files/21022/5190_45768_210225_8.pdf",
+      "retrievedAt": "2026-11-23T13:08:32.004363+00:00",
+      "response": "200 200 text/html",
+      "exitCode": 0,
+      "sha256": "3989425fa108ea7975b519ef9d1558734fefafac731ed2d9448f12828a27a8e4",
+      "bytes": 536,
+      "rawPath": "/tmp/police-key50-root-ncc-network",
+      "textPath": "/tmp/police-key50-root-ncc-network.txt",
+      "documentAvailable": false,
+      "verificationResult": "HTTP200但回傳ClubClient HTML，並非所求PDF；不作指令功能依據。",
+      "group": "root"
+    },
+    {
+      "key": "tpa-chain",
+      "url": "https://educate.tpa.edu.tw/var/file/4/1004/img/390/535350963.pdf",
+      "retrievedAt": "2026-11-23T13:08:32.004914+00:00",
+      "response": "200 200 application/pdf",
+      "exitCode": 0,
+      "sha256": "7f6389e711f5ab73c2bb7f4c32873cfb8b68275f5652c1492369e35b6f3ce271",
+      "bytes": 5182932,
+      "rawPath": "/tmp/police-key50-root-tpa-chain",
+      "textPath": "/tmp/police-key50-root-tpa-chain.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "osint-anws",
+      "url": "https://www.anws.gov.tw/Epaper/EpaperDetailC004560.aspx?Cond=d27046e6-4e17-48db-a128-6d2380837890&KeyID=78f9e3a6-df3f-4764-881d-7bc8bcd1c141",
+      "retrievedAt": "2026-11-23T13:08:32.643026+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "f720ecb51f01493b1114aa460c436edc55b53181c22f559728d275f2d2ad9c71",
+      "bytes": 25487,
+      "rawPath": "/tmp/police-key50-root-osint-anws",
+      "textPath": "/tmp/police-key50-root-osint-anws.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "criminal",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001",
+      "retrievedAt": "2026-11-23T13:08:33.410359+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "e4455376661ea8ba7afe132d3e933cfd377edd99c49d6a690e9f030b2cf0f9ba",
+      "bytes": 461228,
+      "rawPath": "/tmp/police-key50-root-criminal",
+      "textPath": "/tmp/police-key50-root-criminal.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "privacy",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021",
+      "retrievedAt": "2026-11-23T13:08:33.793634+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "0eff503910239c202121ddb0b25163006ff4124db20305b554cc7e3120c41716",
+      "bytes": 98385,
+      "rawPath": "/tmp/police-key50-root-privacy",
+      "textPath": "/tmp/police-key50-root-privacy.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "cpu-link",
+      "url": "https://eim.cpu.edu.tw/var/file/73/1073/img/1026/2009104.pdf",
+      "retrievedAt": "2026-11-23T13:08:36.917924+00:00",
+      "response": "200 200 application/pdf",
+      "exitCode": 0,
+      "sha256": "27169553bd1540ca2dbeb34298486a21432dc21a05610c3d7b9d9ba52dd00b74",
+      "bytes": 430009,
+      "rawPath": "/tmp/police-key50-root-cpu-link",
+      "textPath": "/tmp/police-key50-root-cpu-link.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "expert-science",
+      "url": "https://www.judicial.gov.tw/tw/cp-1454-728990-60889-1.html",
+      "retrievedAt": "2026-11-23T13:08:37.398098+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "ac075a4d45d182c0a998a310802d702a36814163283693e2721bc0ba94c8532b",
+      "bytes": 48482,
+      "rawPath": "/tmp/police-key50-root-expert-science",
+      "textPath": "/tmp/police-key50-root-expert-science.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "exif-data",
+      "url": "https://media.nmmba.gov.tw/News_Content_Media.aspx?n=53&s=29753&sms=10198",
+      "retrievedAt": "2026-11-23T13:08:37.834045+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "378ddc220a4a8f40db23b72cc439c8e27af8896273875cfa271ffa18d44a2be8",
+      "bytes": 93731,
+      "rawPath": "/tmp/police-key50-root-exif-data",
+      "textPath": "/tmp/police-key50-root-exif-data.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "cipa-index",
+      "url": "https://www.cipa.jp/e/std/std-sec.html",
+      "retrievedAt": "2026-11-23T13:08:38.957810+00:00",
+      "response": "200 200 text/html",
+      "exitCode": 0,
+      "sha256": "ac2349d2abb8607032bfd70d94afd612b186695642e589e4dd646ecc4426a62e",
+      "bytes": 48117,
+      "rawPath": "/tmp/police-key50-root-cipa-index",
+      "textPath": "/tmp/police-key50-root-cipa-index.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "windows-logs",
+      "url": "https://learn.microsoft.com/zh-tw/security-updates/security/20214425",
+      "retrievedAt": "2026-11-23T13:08:39.795201+00:00",
+      "response": "200 200 text/html",
+      "exitCode": 0,
+      "sha256": "a7187c9fe3eb369d7f661571cdd17337f2a114bf1481015cad5f9d1efab1e809",
+      "bytes": 131774,
+      "rawPath": "/tmp/police-key50-root-windows-logs",
+      "textPath": "/tmp/police-key50-root-windows-logs.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "windows-boot",
+      "url": "https://learn.microsoft.com/zh-tw/troubleshoot/windows-client/performance/windows-boot-issues-troubleshooting",
+      "retrievedAt": "2026-11-23T13:08:40.095933+00:00",
+      "response": "200 200 text/html",
+      "exitCode": 0,
+      "sha256": "1c55cc35f03396fa14365d9043fa2d583741b9c3afac57b216f0bb0d62e9fb42",
+      "bytes": 67209,
+      "rawPath": "/tmp/police-key50-root-windows-boot",
+      "textPath": "/tmp/police-key50-root-windows-boot.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "ping",
+      "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ping",
+      "retrievedAt": "2026-11-23T13:08:40.118324+00:00",
+      "response": "200 200 text/html",
+      "exitCode": 0,
+      "sha256": "9dbf39f22803a054ddeafa669c0ac52a15fdace1b852d5a3c26b89293540e570",
+      "bytes": 55117,
+      "rawPath": "/tmp/police-key50-root-ping",
+      "textPath": "/tmp/police-key50-root-ping.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "ipconfig",
+      "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ipconfig",
+      "retrievedAt": "2026-11-23T13:08:40.260305+00:00",
+      "response": "200 200 text/html",
+      "exitCode": 0,
+      "sha256": "aa8be50d2e6f1aaf6a868f7577b34fc5058849176212afb7bd9226bfc916e53d",
+      "bytes": 54635,
+      "rawPath": "/tmp/police-key50-root-ipconfig",
+      "textPath": "/tmp/police-key50-root-ipconfig.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "tracert",
+      "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert",
+      "retrievedAt": "2026-11-23T13:08:40.385944+00:00",
+      "response": "200 200 text/html",
+      "exitCode": 0,
+      "sha256": "c17b7003794cfda751fe5a9246d928a67be8f3d1db02536c136f488ff16c83a2",
+      "bytes": 55192,
+      "rawPath": "/tmp/police-key50-root-tracert",
+      "textPath": "/tmp/police-key50-root-tracert.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "nslookup",
+      "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup",
+      "retrievedAt": "2026-11-23T13:08:40.472586+00:00",
+      "response": "200 200 text/html",
+      "exitCode": 0,
+      "sha256": "b3c2a69ae10e3afdc462877c7f33aad8303e3ab21f0cded76e4a64a72b6ec6b7",
+      "bytes": 61244,
+      "rawPath": "/tmp/police-key50-root-nslookup",
+      "textPath": "/tmp/police-key50-root-nslookup.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "tpi-digital",
+      "url": "https://www.tpi.moj.gov.tw/media/151059/721516524239.pdf?mediaDL=true",
+      "retrievedAt": "2026-11-23T13:10:42.946645+00:00",
+      "response": "200 200 application/pdf",
+      "exitCode": 0,
+      "sha256": "4230592432e4419f8ea31e70d9ac081ec83aace509a399a2f3023748cc25f279",
+      "bytes": 9771528,
+      "rawPath": "/tmp/police-key50-root-tpi-digital",
+      "textPath": "/tmp/police-key50-root-tpi-digital.txt",
+      "documentAvailable": false,
+      "verificationResult": "PDF下載成功但文字編碼無法可靠解讀；web.open逾時，不作鑑識報告內容依據。",
+      "group": "root"
+    },
+    {
+      "key": "dgpa-defsop",
+      "url": "https://www.dgpa.gov.tw/uploads/dgpa/files/201701/3c9ad5ea-9a35-4517-beff-952d94fef2b0.pdf",
+      "retrievedAt": "2026-11-23T13:10:42.946994+00:00",
+      "response": "503 200 text/plain",
+      "exitCode": 22,
+      "sha256": null,
+      "bytes": 0,
+      "rawPath": null,
+      "textPath": null,
+      "documentAvailable": false,
+      "verificationResult": "直接下載未取得原文，保留真實HTTP／exitCode；不作已讀原件依據。",
+      "group": "root"
+    },
+    {
+      "key": "cipa-download",
+      "url": "https://www.cipa.jp/std/documents/download_e.html?CIPA_DC-008-2026-E",
+      "retrievedAt": "2026-11-23T13:10:42.947486+00:00",
+      "response": "200 200 text/html",
+      "exitCode": 0,
+      "sha256": "5e70d77bef3446e31a5dc74a724516949ee76727016fd8f2faf2b0d65bc12e7f",
+      "bytes": 3790,
+      "rawPath": "/tmp/police-key50-root-cipa-download",
+      "textPath": "/tmp/police-key50-root-cipa-download.txt",
+      "documentAvailable": true,
+      "verificationResult": "公開下載告知頁，非Exif標準本體；實際PDF另記於cipa-exif。",
+      "group": "root"
+    },
+    {
+      "key": "school-search",
+      "url": "https://webnas.bhes.ntpc.edu.tw/wordpress/wp-content/uploads/2018/12/%E6%96%B0%E5%8C%97%E5%B8%82%E7%B6%B2_-%E7%B6%B2%E8%B7%AF%E6%94%BB%E9%98%B2%E5%AF%A6%E5%8B%99_20181211_%E8%AC%9B%E7%BE%A9%E7%89%88.pdf",
+      "retrievedAt": "2026-11-23T13:13:01.534971+00:00",
+      "response": "200 200 application/pdf",
+      "exitCode": 0,
+      "sha256": "b40a8b50d19b5bc017e91bfef52557eacbec540061d153eef5cc1c61a8bfb43c",
+      "bytes": 20971465,
+      "rawPath": "/tmp/police-key50-root-school-search",
+      "textPath": "/tmp/police-key50-root-school-search.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "cipa-js",
+      "url": "https://www.cipa.jp/std/documents/js/download.js",
+      "retrievedAt": "2026-11-23T13:13:01.535348+00:00",
+      "response": "404 200 text/html; charset=iso-8859-1",
+      "exitCode": 22,
+      "sha256": null,
+      "bytes": 0,
+      "rawPath": null,
+      "textPath": null,
+      "documentAvailable": false,
+      "verificationResult": "直接下載未取得原文，保留真實HTTP／exitCode；不作已讀原件依據。",
+      "group": "root"
+    },
+    {
+      "key": "google-advanced",
+      "url": "https://support.google.com/websearch/answer/35890?hl=zh-Hant",
+      "retrievedAt": "2026-11-23T13:14:45.644597+00:00",
+      "response": "429 200 text/html",
+      "exitCode": 22,
+      "sha256": null,
+      "bytes": 0,
+      "rawPath": null,
+      "textPath": null,
+      "documentAvailable": false,
+      "verificationResult": "直接下載未取得原文，保留真實HTTP／exitCode；不作已讀原件依據。",
+      "group": "root"
+    },
+    {
+      "key": "moex112-q",
+      "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q",
+      "retrievedAt": "2026-11-23T13:14:45.645195+00:00",
+      "response": "200 200 application/pdf",
+      "exitCode": 0,
+      "sha256": "118d6030d6b407243179f929bb8259408f89acf92e5c18bfe66b87a724eeee4c",
+      "bytes": 446328,
+      "rawPath": "/tmp/police-key50-root-moex112-q",
+      "textPath": "/tmp/police-key50-root-moex112-q.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "moex112-s",
+      "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S",
+      "retrievedAt": "2026-11-23T13:14:45.645476+00:00",
+      "response": "200 200 application/pdf",
+      "exitCode": 0,
+      "sha256": "a8f094393003c39a1ebd9fb64f9bbd87773f9cd20d9bcb159698effe08eef2f9",
+      "bytes": 43390,
+      "rawPath": "/tmp/police-key50-root-moex112-s",
+      "textPath": "/tmp/police-key50-root-moex112-s.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "cipa-exif",
+      "url": "https://www.cipa.jp/std/documents/download_e.html?CIPA_DC-008-2026-E",
+      "requestUrl": "https://www.cipa.jp/std/documents/dll.cgi",
+      "method": "POST",
+      "formData": {
+        "dlltarget": "CIPA_DC-008-2026-E"
+      },
+      "retrievedAt": "2026-11-23T13:15:32.971107+00:00",
+      "response": "200 200 text/plain",
+      "exitCode": 0,
+      "rawPath": "/tmp/police-key50-root-cipa-exif",
+      "textPath": "/tmp/police-key50-root-cipa-exif.txt",
+      "sha256": "9cc36399a46ab7aa4a65473bb8a4945d3b044da739b8f16a01b0be11886dcff9",
+      "bytes": 4451181,
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "bitcoin",
+      "url": "https://bitcoin.org/bitcoin.pdf",
+      "retrievedAt": "2026-11-23T13:17:31.914367+00:00",
+      "response": "200 200 application/pdf",
+      "exitCode": 0,
+      "sha256": "b1674191a88ec5cdd733e4240a81803105dc412d6c6708d53ab94fc248f4f553",
+      "bytes": 184292,
+      "rawPath": "/tmp/police-key50-root-bitcoin",
+      "textPath": "/tmp/police-key50-root-bitcoin.txt",
+      "documentAvailable": true,
+      "verificationResult": "已取得實際原文並依逐題列示範圍閱讀；HTTP成功不等於內容已核，具體引用見節錄與逐題註記。",
+      "group": "root"
+    },
+    {
+      "key": "handbook115",
+      "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968",
+      "retrievedAt": "2026-11-23T13:04:56.613634+00:00",
+      "response": "200 200 application/octet-stream",
+      "exitCode": 0,
+      "rawPath": "/tmp/key50-methods-handbook115",
+      "textPath": "/tmp/key50-methods-handbook115.txt",
+      "sha256": "d94a126e781162ca142a9fc462f80a101f2c3a8d7ed3e718cbed132b581af658",
+      "bytes": 810586,
+      "verificationResult": "同一查核日重用本輪已下載之115年警察偵查犯罪手冊原件，核對SHA256並實讀第44點；保留原擷取時間，非另一次HTTP請求。",
+      "documentAvailable": true,
+      "group": "root"
+    },
+    {
+      "key": "dgpa-open-start",
+      "url": "https://www.dgpa.gov.tw/uploads/dgpa/files/201701/3c9ad5ea-9a35-4517-beff-952d94fef2b0.pdf",
+      "rawPath": "/tmp/police-key50-root-dgpa-open-start.txt",
+      "textPath": "/tmp/police-key50-root-dgpa-open-start.txt",
+      "response": "web.open rendered text; not direct HTTP/PDF bytes",
+      "exitCode": 0,
+      "documentFormat": "web-tool-rendered-text",
+      "retrievedAt": "2026-11-23T13:17:33+00:00",
+      "sha256": "3d94395027e2c58635fe813f6330ddadd961db52803734f421a85681f0ba4690",
+      "bytes": 21397,
+      "verificationResult": "僅保存工具實際回傳之渲染文字，非直接PDF下載；DGPA為部分頁段未用作逐題已核依據；Google回傳現行搜尋說明僅部分語法，未補足OR／intitle全部原件。",
+      "group": "root"
+    },
+    {
+      "key": "dgpa-open-end",
+      "url": "https://www.dgpa.gov.tw/uploads/dgpa/files/201701/3c9ad5ea-9a35-4517-beff-952d94fef2b0.pdf",
+      "rawPath": "/tmp/police-key50-root-dgpa-open-end.txt",
+      "textPath": "/tmp/police-key50-root-dgpa-open-end.txt",
+      "response": "web.open rendered text; not direct HTTP/PDF bytes",
+      "exitCode": 0,
+      "documentFormat": "web-tool-rendered-text",
+      "retrievedAt": "2026-11-23T13:17:33+00:00",
+      "sha256": "c136c5b1ccf4e6ec48ff0d15cd059a4de7a8847255d501c12c1938f04a6c581d",
+      "bytes": 19760,
+      "verificationResult": "僅保存工具實際回傳之渲染文字，非直接PDF下載；DGPA為部分頁段未用作逐題已核依據；Google回傳現行搜尋說明僅部分語法，未補足OR／intitle全部原件。",
+      "group": "root"
+    },
+    {
+      "key": "google-web-open",
+      "url": "https://support.google.com/websearch/answer/35890?hl=zh-Hant",
+      "rawPath": "/tmp/police-key50-root-google-web-open.txt",
+      "textPath": "/tmp/police-key50-root-google-web-open.txt",
+      "response": "web.open rendered text; not direct HTTP/PDF bytes",
+      "exitCode": 0,
+      "documentFormat": "web-tool-rendered-text",
+      "retrievedAt": "2026-11-23T13:17:34+00:00",
+      "sha256": "1346298f085321eeaff718c850c5136d460159a65a03576cb69cc1ce57695e3f",
+      "bytes": 7575,
+      "verificationResult": "僅保存工具實際回傳之渲染文字，非直接PDF下載；DGPA為部分頁段未用作逐題已核依據；Google回傳現行搜尋說明僅部分語法，未補足OR／intitle全部原件。",
+      "group": "root"
+    },
+    {
+      "key": "forensics-report2020",
+      "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true",
+      "retrievedAt": "2026-11-23T13:04:48.349684+00:00",
+      "response": "200 200 application/pdf",
+      "exitCode": 0,
+      "sha256": "60ec4bde34955dc7c255f2a9923b4fb30d040642b2c3220ca700c05d30ff209c",
+      "bytes": 9397122,
+      "rawPath": "/tmp/police-key50-forensics-forensics-report2020",
+      "textPath": "/tmp/police-key50-forensics-forensics-report2020.txt",
+      "group": "forensics"
+    },
+    {
+      "key": "handbook115",
+      "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968",
+      "retrievedAt": "2026-11-23T13:04:48.350653+00:00",
+      "response": "200 200 application/octet-stream",
+      "exitCode": 0,
+      "sha256": "d94a126e781162ca142a9fc462f80a101f2c3a8d7ed3e718cbed132b581af658",
+      "bytes": 810586,
+      "rawPath": "/tmp/police-key50-forensics-handbook115",
+      "textPath": "/tmp/police-key50-forensics-handbook115.txt",
+      "group": "forensics"
+    },
+    {
+      "key": "dna",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080186",
+      "retrievedAt": "2026-11-23T13:04:48.351070+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "bd898a488c26ec501402eb4592acf6397ecf2563b1f232f0c8479006769dd81e",
+      "bytes": 54502,
+      "rawPath": "/tmp/police-key50-forensics-dna",
+      "textPath": "/tmp/police-key50-forensics-dna.txt",
+      "group": "forensics"
+    },
+    {
+      "key": "dna-rules",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080187",
+      "retrievedAt": "2026-11-23T13:04:48.351446+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "3381b3b985328c64e5f225e388a6ef2cab002968d179e1ba9ba86261fe0c1b9f",
+      "bytes": 49632,
+      "rawPath": "/tmp/police-key50-forensics-dna-rules",
+      "textPath": "/tmp/police-key50-forensics-dna-rules.txt",
+      "group": "forensics"
+    },
+    {
+      "key": "dna-samples",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080196",
+      "retrievedAt": "2026-11-23T13:04:50.907833+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "sha256": "640099767c5c82ce3075535a31b2e084886259e66b50218db96c01fb34fd5c5b",
+      "bytes": 50411,
+      "rawPath": "/tmp/police-key50-forensics-dna-samples",
+      "textPath": "/tmp/police-key50-forensics-dna-samples.txt",
+      "group": "forensics"
+    },
+    {
+      "key": "ntpc-forensics",
+      "url": "https://www.police.ntpc.gov.tw/cp-3331-4872-1.html/lp-3382-1.html",
+      "retrievedAt": "2026-11-23T13:04:51.151272+00:00",
+      "response": "503 200 text/plain",
+      "exitCode": 22,
+      "sha256": null,
+      "bytes": 0,
+      "rawPath": null,
+      "textPath": null,
+      "group": "forensics"
+    },
+    {
+      "key": "cib-fingerprints",
+      "url": "https://www.cib.npa.gov.tw/ch/app/data/view?id=1956&module=wg124&serno=48084470-6d7c-4d6a-88ef-4107fdfbb682",
+      "retrievedAt": "2026-11-23T13:07:44.672304+00:00",
+      "response": "503 200 text/plain",
+      "exitCode": 22,
+      "sha256": null,
+      "bytes": 0,
+      "rawPath": null,
+      "textPath": null,
+      "group": "forensics"
+    },
+    {
+      "key": "mjib-fingerprints",
+      "url": "https://www.mjib.gov.tw/EditPage/?PageID=4a1b34c4-8d51-4ef5-9bdd-24c744283980",
+      "retrievedAt": "2026-11-23T13:07:44.672589+00:00",
+      "response": "503 200 text/plain",
+      "exitCode": 22,
+      "sha256": null,
+      "bytes": 0,
+      "rawPath": null,
+      "textPath": null,
+      "group": "forensics"
+    },
+    {
+      "key": "cib-raman",
+      "url": "https://www.cib.npa.gov.tw/ch/app/data/doc?detailNo=793329882204499968&module=wg135&type=s",
+      "retrievedAt": "2026-11-23T13:07:44.673034+00:00",
+      "response": "503 200 text/plain",
+      "exitCode": 22,
+      "sha256": null,
+      "bytes": 0,
+      "rawPath": null,
+      "textPath": null,
+      "group": "forensics"
+    },
+    {
+      "key": "image-conference",
+      "url": "https://www.cprc.moj.gov.tw/media/8191/441110205258.pdf?mediaDL=true",
+      "retrievedAt": "2026-11-23T13:07:44.674930+00:00",
+      "response": "200 200 application/pdf",
+      "exitCode": 0,
+      "sha256": "62f7cfc7d2f400b469e1b7300aae6a7b0468ca1e558535df4fa50d171370cac2",
+      "bytes": 5087080,
+      "rawPath": "/tmp/police-key50-forensics-image-conference",
+      "textPath": "/tmp/police-key50-forensics-image-conference.txt",
+      "group": "forensics"
+    },
+    {
+      "key": "image-research",
+      "url": "https://www.cprc.moj.gov.tw/media/8768/79291473538.pdf?mediadl=true",
+      "retrievedAt": "2026-11-23T13:07:47.347115+00:00",
+      "response": "200 200 application/pdf",
+      "exitCode": 0,
+      "sha256": "1da774dc3f372447075b1a294833233d491987b18d95e262ca74723a2bf810a8",
+      "bytes": 1880187,
+      "rawPath": "/tmp/police-key50-forensics-image-research",
+      "textPath": "/tmp/police-key50-forensics-image-research.txt",
+      "group": "forensics"
+    },
+    {
+      "key": "glass-pattern",
+      "url": "https://www.rde.ntpc.gov.tw/userfiles/1160700/files/2_%E7%8E%BB%E7%92%83%E6%AF%80%E6%90%8D%E6%A1%88%E5%81%B5%E6%9F%A5%E8%88%87%E9%91%91%E8%AD%98%E4%B9%8B%E7%A0%94%E7%A9%B6.pdf",
+      "retrievedAt": "2026-11-23T13:07:49.882460+00:00",
+      "response": "200 200 application/pdf",
+      "exitCode": 0,
+      "sha256": "406862c1418f423fe5e30d4ca1f77d332ed92b7d6b9b9e941365b068d3260d70",
+      "bytes": 8943009,
+      "rawPath": "/tmp/police-key50-forensics-glass-pattern",
+      "textPath": "/tmp/police-key50-forensics-glass-pattern.txt",
+      "group": "forensics"
+    },
+    {
+      "key": "usa-forensics-report",
+      "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf",
+      "retrievedAt": "2026-11-23T13:07:50.204650+00:00",
+      "response": "503 200 text/plain",
+      "exitCode": 22,
+      "sha256": null,
+      "bytes": 0,
+      "rawPath": null,
+      "textPath": null,
+      "group": "forensics"
+    },
+    {
+      "key": "bio-typd",
+      "url": "https://www.typd.gov.tw/uploads/files/directline/88-compressed.pdf",
+      "retrievedAt": "2026-11-23T13:07:51.082077+00:00",
+      "response": "503 200 text/plain",
+      "exitCode": 22,
+      "sha256": null,
+      "bytes": 0,
+      "rawPath": null,
+      "textPath": null,
+      "group": "forensics"
+    },
+    {
+      "key": "cib-fingerprints-web",
+      "url": "https://www.cib.npa.gov.tw/ch/app/data/view?id=1956&module=wg124&serno=48084470-6d7c-4d6a-88ef-4107fdfbb682",
+      "retrievedAt": "2026-11-23（web工具未回傳精確擷取時分；capturedAt為本輪存本時間）",
+      "response": "web.open/find工具文字回傳成功；直接HTTP503另記失敗，非原HTML或PDF下載",
+      "exitCode": 0,
+      "sha256": "1516afffc52c70e5fc718b0b5403cf236fc35d2d0cd24d69d8f056310d054b03",
+      "bytes": 8981,
+      "rawPath": "/tmp/police-key50-forensics-web-fingerprint-article.txt",
+      "textPath": "/tmp/police-key50-forensics-web-fingerprint-article.txt",
+      "verificationResult": "官方文章行143–175完整五特性主文；所存檔案為工具文字存本，不冒稱直接HTTP200。",
+      "capturedAt": "2026-11-23T13:11:49.202431+00:00",
+      "group": "forensics"
+    },
+    {
+      "key": "usa-forensics-web",
+      "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf",
+      "retrievedAt": "2026-11-23（web工具未回傳精確擷取時分；capturedAt為本輪存本時間）",
+      "response": "web.open/find工具文字回傳成功；直接HTTP503另記失敗，非原HTML或PDF下載",
+      "exitCode": 0,
+      "sha256": "bfb47cecd9e09e5414033fddd4844a5688a482809e1314533a3f916292a4e888",
+      "bytes": 22726,
+      "rawPath": "/tmp/police-key50-forensics-web-usa.txt",
+      "textPath": "/tmp/police-key50-forensics-web-usa.txt",
+      "verificationResult": "PDF第6–11頁與索引，未將43頁全篇均稱已讀；所存檔案為工具文字存本，不冒稱直接HTTP200。",
+      "capturedAt": "2026-11-23T13:11:49.202488+00:00",
+      "group": "forensics"
+    },
+    {
+      "key": "usa-forensics-web-extra",
+      "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf",
+      "retrievedAt": "2026-11-23（web工具未回傳精確擷取時分；capturedAt為本輪存本時間）",
+      "response": "web.open/find工具文字回傳成功；直接HTTP503另記失敗，非原HTML或PDF下載",
+      "exitCode": 0,
+      "sha256": "40081bedf096acb43f7ece1164661a444df5d39415582a89058e9e7fc6896917",
+      "bytes": 22745,
+      "rawPath": "/tmp/police-key50-forensics-web-usa-extra.txt",
+      "textPath": "/tmp/police-key50-forensics-web-usa-extra.txt",
+      "verificationResult": "find回傳PDF第7頁、第21–23頁等實讀範圍；所存檔案為工具文字存本，不冒稱直接HTTP200。",
+      "capturedAt": "2026-11-23T13:11:49.202568+00:00",
+      "group": "forensics"
+    },
+    {
+      "key": "handbook115",
+      "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968",
+      "retrievedAt": "2026-11-23T13:04:56.613634+00:00",
+      "response": "200 200 application/octet-stream",
+      "exitCode": 0,
+      "rawPath": "/tmp/key50-methods-handbook115",
+      "textPath": "/tmp/key50-methods-handbook115.txt",
+      "sha256": "d94a126e781162ca142a9fc462f80a101f2c3a8d7ed3e718cbed132b581af658",
+      "bytes": 810586,
+      "verificationResult": "已核對下載內容為所列法律全文、官方文章或對應PDF，非系統錯誤頁；具體實讀範圍見題目evidenceNotes與excerpts。",
+      "group": "methods"
+    },
+    {
+      "key": "dna",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080186",
+      "retrievedAt": "2026-11-23T13:04:56.613878+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "rawPath": "/tmp/key50-methods-dna",
+      "textPath": "/tmp/key50-methods-dna.txt",
+      "sha256": "ed3afe1799d65e196a3e77f235b2373b9ea6366eefca1d7acbef31fa05e71681",
+      "bytes": 54502,
+      "verificationResult": "已核對下載內容為所列法律全文、官方文章或對應PDF，非系統錯誤頁；具體實讀範圍見題目evidenceNotes與excerpts。",
+      "group": "methods"
+    },
+    {
+      "key": "dna-rules",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080187",
+      "retrievedAt": "2026-11-23T13:04:56.614097+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "rawPath": "/tmp/key50-methods-dna-rules",
+      "textPath": "/tmp/key50-methods-dna-rules.txt",
+      "sha256": "501890fd7968fe6dbea0f8d09608267c642cbc1a0ac925c6f431200f070fa331",
+      "bytes": 49632,
+      "verificationResult": "已核對下載內容為所列法律全文、官方文章或對應PDF，非系統錯誤頁；具體實讀範圍見題目evidenceNotes與excerpts。",
+      "group": "methods"
+    },
+    {
+      "key": "criminal",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001",
+      "retrievedAt": "2026-11-23T13:04:56.614559+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "rawPath": "/tmp/key50-methods-criminal",
+      "textPath": "/tmp/key50-methods-criminal.txt",
+      "sha256": "f522360f20a576f42ced92851f077eace26fae32df21f6017a73d689edaf470c",
+      "bytes": 461224,
+      "verificationResult": "已核對下載內容為所列法律全文、官方文章或對應PDF，非系統錯誤頁；具體實讀範圍見題目evidenceNotes與excerpts。",
+      "group": "methods"
+    },
+    {
+      "key": "communications",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0060044",
+      "retrievedAt": "2026-11-23T13:04:57.635728+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "rawPath": "/tmp/key50-methods-communications",
+      "textPath": "/tmp/key50-methods-communications.txt",
+      "sha256": "77b87df3c0431fe15b0e5bff68dcb3bee6828333944857efda27f0b98dcf6919",
+      "bytes": 82608,
+      "verificationResult": "已核對下載內容為所列法律全文、官方文章或對應PDF，非系統錯誤頁；具體實讀範圍見題目evidenceNotes與excerpts。",
+      "group": "methods"
+    },
+    {
+      "key": "plainview-pdf",
+      "url": "https://tps.judicial.gov.tw/tw/dl-135532-e6c1b41ca15e48ee898fd6b609769873.html",
+      "retrievedAt": "2026-11-23T13:06:02.199523+00:00",
+      "response": "503 200 text/plain",
+      "exitCode": 22,
+      "rawPath": "/tmp/key50-methods-plainview-pdf",
+      "textPath": "/tmp/key50-methods-plainview-pdf.txt",
+      "error": "curl: (22) The requested URL returned error: 503\n",
+      "group": "methods"
+    },
+    {
+      "key": "digital-sop",
+      "url": "https://www.dgpa.gov.tw/uploads/dgpa/files/201701/3c9ad5ea-9a35-4517-beff-952d94fef2b0.pdf",
+      "retrievedAt": "2026-11-23T13:06:02.199815+00:00",
+      "response": "503 200 text/plain",
+      "exitCode": 22,
+      "rawPath": "/tmp/key50-methods-digital-sop",
+      "textPath": "/tmp/key50-methods-digital-sop.txt",
+      "error": "curl: (22) The requested URL returned error: 503\n",
+      "group": "methods"
+    },
+    {
+      "key": "digital-article",
+      "url": "https://www.judicial.gov.tw/tw/cp-1429-598727-61388-1.html",
+      "retrievedAt": "2026-11-23T13:06:02.200188+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "rawPath": "/tmp/key50-methods-digital-article",
+      "textPath": "/tmp/key50-methods-digital-article.txt",
+      "sha256": "7752823609aaeb9778dc00495c5508f5f3724cffd9fd4bf9a2e8f119821f3ea9",
+      "bytes": 46061,
+      "verificationResult": "已核對下載內容為所列法律全文、官方文章或對應PDF，非系統錯誤頁；具體實讀範圍見題目evidenceNotes與excerpts。",
+      "group": "methods"
+    },
+    {
+      "key": "digital-service",
+      "url": "https://www.judicial.gov.tw/tw/cp-1429-400841-340f3-1.html",
+      "retrievedAt": "2026-11-23T13:06:02.201289+00:00",
+      "response": "200 200 text/html; charset=utf-8",
+      "exitCode": 0,
+      "rawPath": "/tmp/key50-methods-digital-service",
+      "textPath": "/tmp/key50-methods-digital-service.txt",
+      "sha256": "61d027cbd7bb723039a97d468eb3f25eec0c026f6cfe1a777151df67bca02941",
+      "bytes": 45884,
+      "verificationResult": "已核對下載內容為所列法律全文、官方文章或對應PDF，非系統錯誤頁；具體實讀範圍見題目evidenceNotes與excerpts。",
+      "group": "methods"
+    },
+    {
+      "key": "profiling-paper",
+      "url": "https://www.cprc.moj.gov.tw/media/8645/611816186774.pdf?mediaDL=true",
+      "retrievedAt": "2026-11-23T13:06:03.455980+00:00",
+      "response": "200 200 application/pdf",
+      "exitCode": 0,
+      "rawPath": "/tmp/key50-methods-profiling-paper",
+      "textPath": "/tmp/key50-methods-profiling-paper.txt",
+      "sha256": "04e793f9e72b18aa357ac12b0e2a44d72d267a2f8f06adf06bc81749dc243a8a",
+      "bytes": 1941427,
+      "verificationResult": "已核對下載內容為所列法律全文、官方文章或對應PDF，非系統錯誤頁；具體實讀範圍見題目evidenceNotes與excerpts。",
+      "group": "methods"
+    },
+    {
+      "key": "profiling-report",
+      "url": "https://report.ndc.gov.tw/ReportFront/PageSystem/reportFileDownload/C10504145/001",
+      "retrievedAt": "2026-11-23T13:06:04.729054+00:00",
+      "response": "200 200 application/pdf",
+      "exitCode": 0,
+      "rawPath": "/tmp/key50-methods-profiling-report",
+      "textPath": "/tmp/key50-methods-profiling-report.txt",
+      "sha256": "1c60d12b5a1164b2c4ec31bedc8d70c011d8e7d4e6ba54fe55f69f83b0128725",
+      "bytes": 493276,
+      "verificationResult": "已核對下載內容為所列法律全文、官方文章或對應PDF，非系統錯誤頁；具體實讀範圍見題目evidenceNotes與excerpts。",
+      "group": "methods"
+    },
+    {
+      "key": "plainview-query",
+      "url": "https://tps.judicial.gov.tw/tw/dl-135532-e6c1b41ca15e48ee898fd6b609769873.html?view=1",
+      "retrievedAt": "2026-11-23T13:10:02.713861+00:00",
+      "response": "503 200 text/plain",
+      "exitCode": 22,
+      "rawPath": "/tmp/key50-methods-plainview-query",
+      "textPath": "/tmp/key50-methods-plainview-query.txt",
+      "error": "curl: (22) The requested URL returned error: 503\n",
+      "group": "methods"
+    },
+    {
+      "key": "plainview-global",
+      "url": "https://www.judicial.gov.tw/tw/dl-135532-e6c1b41ca15e48ee898fd6b609769873.html",
+      "retrievedAt": "2026-11-23T13:10:02.714250+00:00",
+      "response": "404 200 text/html; charset=utf-8",
+      "exitCode": 22,
+      "rawPath": "/tmp/key50-methods-plainview-global",
+      "textPath": "/tmp/key50-methods-plainview-global.txt",
+      "error": "curl: (22) The requested URL returned error: 404\n",
+      "group": "methods"
+    },
+    {
+      "key": "digital-sop-query",
+      "url": "https://www.dgpa.gov.tw/uploads/dgpa/files/201701/3c9ad5ea-9a35-4517-beff-952d94fef2b0.pdf?view=1",
+      "retrievedAt": "2026-11-23T13:10:02.714489+00:00",
+      "response": "503 200 text/plain",
+      "exitCode": 22,
+      "rawPath": "/tmp/key50-methods-digital-sop-query",
+      "textPath": "/tmp/key50-methods-digital-sop-query.txt",
+      "error": "curl: (22) The requested URL returned error: 503\n",
+      "group": "methods"
+    },
+    {
+      "key": "digital-preservation",
+      "url": "https://ws.ndc.gov.tw/Download.ashx?icon=..pdf&n=cGFydDEucGRm&u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL1JlbEZpbGUvNTU2Ni83NzYxLzAwNjI5NDEucGRm",
+      "retrievedAt": "2026-11-23T13:16:21.021799+00:00",
+      "response": "200 200 application/pdf",
+      "exitCode": 0,
+      "rawPath": "/tmp/key50-methods-digital-preservation",
+      "textPath": "/tmp/key50-methods-digital-preservation.txt",
+      "sha256": "8b47adcb647620db6daef933c374e12bcbe4cfa2467bc9d6dc346b8b01533814",
+      "bytes": 649456,
+      "verificationResult": "已核對下載內容為所列法律全文、官方文章或對應PDF，非系統錯誤頁；具體實讀範圍見題目evidenceNotes與excerpts。",
+      "group": "methods"
+    },
+    {
+      "key": "plainview-parsed",
+      "url": "https://tps.judicial.gov.tw/tw/dl-135532-e6c1b41ca15e48ee898fd6b609769873.html",
+      "retrievedAt": "2026-11-23T13:12:25.983908+00:00",
+      "response": "web.find/open成功讀官方PDF解析文字；原PDF直接curl HTTP503另列失敗",
+      "exitCode": 0,
+      "sha256": "faadeb9c07190dc79f9ae3a9f83da6b147bec39b57822ff9c33a4ba782d6644e",
+      "bytes": 44334,
+      "rawPath": "/tmp/key50-methods-plainview-parsed-response.json",
+      "textPath": "/tmp/key50-methods-plainview-parsed.txt",
+      "verificationResult": "實讀官方彙編之最高法院113年度台上字第502號完整裁判（解析行1031至1232，含主文、理由一至五及法官與書記官署名）；保存工具解析文字回應，不是原始PDF位元檔，未稱原PDF下載成功。",
+      "group": "methods"
+    },
+    {
+      "key": "forensics-report2020",
+      "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true",
+      "retrievedAt": "2026-11-23T13:04:48.349684+00:00",
+      "response": "200 200 application/pdf",
+      "exitCode": 0,
+      "sha256": "60ec4bde34955dc7c255f2a9923b4fb30d040642b2c3220ca700c05d30ff209c",
+      "bytes": 9397122,
+      "rawPath": "/tmp/police-key50-forensics-forensics-report2020",
+      "textPath": "/tmp/police-key50-forensics-forensics-report2020.txt",
+      "verificationResult": "已核對下載內容為所列法律全文、官方文章或對應PDF，非系統錯誤頁；具體實讀範圍見題目evidenceNotes與excerpts。",
+      "group": "methods"
+    },
+    {
+      "key": "usa-forensics-web",
+      "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf",
+      "retrievedAt": "2026-11-23（web工具未回傳精確擷取時分；capturedAt為本輪存本時間）",
+      "response": "web.open/find工具文字回傳成功；直接HTTP503另記失敗，非原HTML或PDF下載",
+      "exitCode": 0,
+      "sha256": "bfb47cecd9e09e5414033fddd4844a5688a482809e1314533a3f916292a4e888",
+      "bytes": 22726,
+      "rawPath": "/tmp/police-key50-forensics-web-usa.txt",
+      "textPath": "/tmp/police-key50-forensics-web-usa.txt",
+      "verificationResult": "PDF第6–11頁與索引，未將43頁全篇均稱已讀；所存檔案為工具文字存本，不冒稱直接HTTP200。",
+      "capturedAt": "2026-11-23T13:11:49.202488+00:00",
+      "group": "methods"
+    }
+  ],
+  "sourceTexts": [
+    "legal-sources/key50-root-excerpt.txt",
+    "legal-sources/key50-forensics-excerpt.txt",
+    "legal-sources/key50-methods-excerpt.txt"
+  ],
+  "scope": "50題由答案對照補成A～D逐項說明，含此前32題過度已核更正者；不是把所有新增詳解一律標已核。現行法、舊版手冊、技術原件與原卷給分各自明列。技術原件列於題目sources及證據，未概括放寬法規事件官方網域規則。所有原題、選項原文及初始／最終官方給分、個人學習資料與既有歷史均保留。",
+  "counts": {
+    "questionsNotVerified": 207,
+    "essaysNotVerified": 27,
+    "reviewFilter": 208
+  },
+  "inventory": {
+    "perOptionAnalyses": 868,
+    "answerKeyComparisons": 42,
+    "questions": 910,
+    "essays": 66,
+    "laws": 33
+  },
+  "learningDataWrites": 0
+}

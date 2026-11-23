@@ -476,26 +476,26 @@
       "options": [
         {
           "text": "犯罪嫌疑人是否藏匿於現場或混雜於圍觀群眾中",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "本題考的是鑑識手冊關於跡證及位置的特別觀察事項；藏匿嫌犯屬安全與初始察看，勿誤讀為不用留意嫌犯。",
+          "explanation": "103版第16點第2款本來就要求注意嫌犯是否藏匿現場或混於群眾；只是未列於同點第4款之三項跡證特別觀察。115手冊第54點亦要求初抵人員巡視追捕。",
+          "correction": "本題選A屬清單層次判讀，不可教成不用觀察嫌犯或現場安全。",
           "trueStatement": false
         },
         {
           "text": "現場物件之異常狀況",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題考的是鑑識手冊關於跡證及位置的特別觀察事項；藏匿嫌犯屬安全與初始察看，勿誤讀為不用留意嫌犯。",
+          "explanation": "第16點第4款第1目就是現場物件異常狀況，可能提示翻動、偽裝或破壞，應依原貌記錄。",
+          "correction": "保留異常狀態及位置，不先整理恢復後才採證。",
           "trueStatement": true
         },
         {
           "text": "門、窗、電燈、電視、音響等設備之原始狀況",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題考的是鑑識手冊關於跡證及位置的特別觀察事項；藏匿嫌犯屬安全與初始察看，勿誤讀為不用留意嫌犯。",
+          "explanation": "第16點第4款第2目逐列門窗、電燈、電視、音響設備之原始狀況，與案件進出及活動經過可能有關。",
+          "correction": "如實記錄開閉、開關及位置；必要變動另列原因、時間與操作人。",
           "trueStatement": true
         },
         {
           "text": "溫度、氣味、顏色、聲音等易於消失之跡證",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題考的是鑑識手冊關於跡證及位置的特別觀察事項；藏匿嫌犯屬安全與初始察看，勿誤讀為不用留意嫌犯。",
+          "explanation": "第16點第4款第3目是溫度、氣味、顏色、聲音等易消失跡證，須掌握觀察時效及條件。",
+          "correction": "迅速記錄可觀察資訊，不把事後回憶取代當時筆記或其他合法紀錄。",
           "trueStatement": true
         }
       ],
@@ -512,13 +512,25 @@
       "paperTrack": "內軌",
       "paperNumber": 6,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第16點；警專公開115版警察偵查犯罪手冊（完整主文）・第54點",
+        "checkedAt": "2026-11-23",
+        "note": "103版原文完整支持一般事項與第4款三目之區分，115手冊另證嫌犯警戒仍必要；111指定版／鑑識手冊完整最新沿革未齊，仍保留待核。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "一般現場安全事項與跡證位置的三項特別觀察清單，層次不同。",
+        "sources": [
+          {
+            "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第16點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+          },
+          {
+            "title": "警專公開115版警察偵查犯罪手冊（完整主文）・第54點",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ]
       },
-      "takeaway": "本題考的是鑑識手冊關於跡證及位置的特別觀察事項；藏匿嫌犯屬安全與初始察看，勿誤讀為不用留意嫌犯。",
+      "takeaway": "一般現場安全事項與跡證位置的三項特別觀察清單，層次不同。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -531,8 +543,17 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第16點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "警專公開115版警察偵查犯罪手冊（完整主文）・第54點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A保留，意思是A不在第16點第4款的三項特別注意清單；絕不是員警可以不注意藏匿嫌犯。第16點第2款及115手冊第54點反而明定須注意。"
     },
     {
       "id": "investigation111_07",
@@ -1258,26 +1279,26 @@
       "options": [
         {
           "text": "執行採取時，優先採取血液檢體，其次為唾液檢體",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：血液由醫事人員採取，本題當年最低量為2毫升；採樣方式及許可不能只看年齡決定。",
+          "explanation": "103版第59點第2款是優先唾液、其次血液；現行樣本採集準則第4條的DNA採樣次序亦為唾液、血液、毛髮。A把先後顛倒。",
+          "correction": "將血液優先改為唾液優先；先核自願參考檢體或依法強採的不同程序，不以次序規定創設採樣權。",
           "trueStatement": false
         },
         {
           "text": "人體血液採取應由醫事人員為之，取至少 2 毫升血液",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "血液由醫事人員採取，本題當年最低量為2毫升；採樣方式及許可不能只看年齡決定。",
+          "explanation": "103版第59點第2款第2目明文醫事人員採血、至少2毫升及EDTA試管冷藏；現行準則亦要求血液由醫事人員採取。",
+          "correction": "B符合已讀歷史版本；2毫升及送驗規格仍須對照適用版本與收件實驗室要求，不當成所有醫療或鑑定採血的唯一規格。",
           "trueStatement": true
         },
         {
           "text": "採取唾液檢體時，須採樣 2 枝棉棒",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：血液由醫事人員採取，本題當年最低量為2毫升；採樣方式及許可不能只看年齡決定。",
+          "explanation": "103版第59點第2款第1目是口腔兩側黏膜採樣三枝棉棒，與C的兩枝不符；採樣部位與工具數量應分開理解。",
+          "correction": "依所引歷史版應為三枝；未取得完整最新技術規格前，不以舊數字一律指導各種採樣套組。",
           "trueStatement": false
         },
         {
           "text": "被採樣人為未成年者，應由檢察官核發鑑定許可書",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：血液由醫事人員採取，本題當年最低量為2毫升；採樣方式及許可不能只看年齡決定。",
+          "explanation": "103版第59點第1款對未成年參考檢體原則要求法定代理人同意，但法律另有規定者依其規定。DNA施行細則第4條另有少年法院裁定程序，並非所有未成年都同一鑑定許可書。",
+          "correction": "先區分自願比對參考檢體、DNA特別強採與刑訴採證；不得把未成年身分本身當成可逕強採的授權。",
           "trueStatement": false
         }
       ],
@@ -1294,13 +1315,29 @@
       "paperTrack": "內軌",
       "paperNumber": 15,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第59點；去氧核醣核酸採樣條例施行細則現行全文；去氧核醣核酸樣本採集準則現行全文",
+        "checkedAt": "2026-11-23",
+        "note": "已讀103版第59點與現行DNA規範；111指定手冊及目前所有參考檢體技術數量沿革未齊，保留待核；不將一般自願採樣規定當成任何犯罪偵查強採授權。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "參考檢體先辨採樣法源；唾液優先，血由醫事人員採取，歷史技術數量與現行版本分開。",
+        "sources": [
+          {
+            "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第59點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+          },
+          {
+            "title": "去氧核醣核酸採樣條例施行細則現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080187"
+          },
+          {
+            "title": "去氧核醣核酸樣本採集準則現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080196"
+          }
+        ]
       },
-      "takeaway": "血液由醫事人員採取，本題當年最低量為2毫升；採樣方式及許可不能只看年齡決定。",
+      "takeaway": "參考檢體先辨採樣法源；唾液優先，血由醫事人員採取，歷史技術數量與現行版本分開。",
       "sources": [
         {
           "title": "考選部・111年官方原卷",
@@ -1313,8 +1350,21 @@
         {
           "title": "考選部・最終答案清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第59點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "去氧核醣核酸採樣條例施行細則現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080187"
+        },
+        {
+          "title": "去氧核醣核酸樣本採集準則現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080196"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B保留。已讀103版第59點為唾液優先、三枝棉棒、醫事人員抽血至少2毫升；未成年自願參考檢體與DNA特別強制採樣、刑訴鑑定採血不可混為一律檢察官許可。"
     },
     {
       "id": "investigation111_16",

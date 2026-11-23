@@ -610,9 +610,12 @@ console.log('Additional fifty, distinct targets, statutory document fields, cont
  const keyOnly=audit.patches.filter(p=>p.targetId.startsWith('investigation'));
  assert.equal(keyOnly.length,32);
  for(const p of keyOnly){
-  const item=q(p.targetId);assert.equal(item.verified,false);assert.equal(item.analysisMode,'answer-key');assert.equal(item.amendment.status,'review');
-  assert(item.currentAnswer.includes('完整A～D逐項詳解'));assert(!p.optionOverrides);
-  assert(item.amendment.sources.every(s=>s.url.startsWith('https://wwwq.moex.gov.tw/')));
+  // Keep the audit's historical finding; a later researched supplement may clear its gap.
+  assert.equal(p.verified,false);assert.equal(p.amendment.status,'review');
+  assert(p.currentAnswer.includes('完整A～D逐項詳解'));assert(!p.optionOverrides);
+  assert(p.amendment.sources.every(s=>s.url.startsWith('https://wwwq.moex.gov.tw/')));
+  const next=events.filter(e=>e.eventId.startsWith('legal-review-20261123-key50-')).flatMap(e=>e.patches).find(n=>n.targetId===p.targetId);
+  assert(next);assert.equal(q(p.targetId).verified,next.verified);assert.notEqual(q(p.targetId).analysisMode,'answer-key');
  }
  assert(result.questions.every(q=>!q.verified||q.analysisMode!=='answer-key'));
  assert(q('q14').options[0].explanation.includes('【歷史題解；現行依據待核】'));
@@ -628,3 +631,50 @@ console.log('Additional fifty, distinct targets, statutory document fields, cont
  }
 }
 console.log('Existing details preserved, overstated key-only verification corrected, and publication/effective dates separated.');
+
+// Fifty key-only questions now have substantive explanations; source clearance is a separate count.
+{
+ const keyEvents=['a','b'].map(s=>events.find(e=>e.eventId==='legal-review-20261123-key50-'+s));
+ assert(keyEvents.every(Boolean));assert.deepEqual(keyEvents.map(e=>e.patches.length),[25,25]);
+ const keyPatches=keyEvents.flatMap(e=>e.patches),keyIds=new Set(keyPatches.map(p=>p.targetId));
+ assert.equal(keyIds.size,50);assert.equal(keyPatches.reduce((n,p)=>n+p.optionOverrides.length,0),200);
+ assert.equal(keyPatches.filter(p=>p.verified).length,16);assert.equal(keyPatches.filter(p=>!p.verified).length,34);
+ const evidence=JSON.parse(fs.readFileSync(new URL('../docs/legal-evidence-2026-11-23-key50.json',import.meta.url),'utf8'));
+ assert.equal(evidence.previousAuditCorrectedQuestionsIncluded.length,32);
+ assert(evidence.previousAuditCorrectedQuestionsIncluded.every(id=>keyIds.has(id)));
+ const q=id=>result.questions.find(x=>x.id===id);
+ for(const p of keyPatches){
+  const item=q(p.targetId);assert.equal(item.verified,p.verified);assert.notEqual(item.analysisMode,'answer-key');
+  assert(p.optionOverrides.every(o=>o.explanation.length>=12&&o.correction.length>=12));
+  assert(p.optionOverrides.every(o=>!o.explanation.includes('本項不在當年度官方接受答案')));
+  assert.equal(item.amendment.checkedAt,'2026-11-23');
+  if(!p.verified)assert(['review','changed'].includes(item.amendment.status));
+ }
+ assert.equal(q('investigation112_28').verified,false);
+ assert(q('investigation112_28').options[1].explanation.includes('HI2機制'));
+ assert(q('investigation112_32').options[1].correction.includes('事件記錄服務啟動'));
+ assert(q('investigation112_45').options[0].correction.includes('ICMP過濾'));
+ assert(q('investigation112_43').options[1].explanation.includes('公鑰'));
+ assert(q('investigation113_29').currentAnswer.includes('不一定存在'));
+ assert(q('investigation113_25').options[3].explanation.includes('不能一律視為違法'));
+ assert(q('investigation115_38').options[3].explanation.includes('地點列為可能節點'));
+ assert(q('investigation111_06').options[0].correction.includes('不可教成不用觀察嫌犯'));
+ assert.equal(q('investigation113_06').verified,false);
+ assert(q('investigation113_06').options[1].correction.includes('分類疑義'));
+ assert(q('investigation113_15').options[3].correction.includes('不得將'));
+ assert(q('investigation114_18').options[2].correction.includes('不能為了發現證物先打開'));
+ assert(q('investigation115_50').options[3].correction.includes('不能把一律關機'));
+ for(const id of ['investigation110_26','investigation110_40']){
+  assert.equal(q(id).verified,false);assert.equal(q(id).amendment.status,'changed');
+  assert(q(id).currentAnswer.includes('第80、81點'));
+ }
+ assert(q('investigation110_40').options[2].correction.includes('第289點的7日是未破偵查報告'));
+ // Vendor/standards references are visible as technical sources without widening legal-source validation.
+ assert(q('investigation112_45').sources.some(s=>s.url.startsWith('https://learn.microsoft.com/')));
+ assert(q('investigation113_29').sources.some(s=>s.url.startsWith('https://www.cipa.jp/')));
+ const technical={title:'ETSI technical standard',url:'https://www.etsi.org/deliver/standard.pdf'};
+ assert.equal(validateLegalEvent({...keyEvents[0],sources:[technical]},ids),false);
+ assert.equal(result.questions.filter(q=>q.analysisMode==='answer-key').length,42);
+ assert(result.questions.filter(q=>q.analysisMode==='answer-key').every(q=>!q.verified));
+}
+console.log('Fifty key-only supplements, preserved audit history, technical limitations and separate verification counts passed.');

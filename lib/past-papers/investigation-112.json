@@ -1140,26 +1140,26 @@
       "options": [
         {
           "text": "物證可協助警察了解犯嫌獨特的犯罪手法及行為模式",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：除攝影、錄影外，尚有筆記、測繪等紀錄；只說僅有兩種過度限縮。",
+          "explanation": "103版第20點第3款要求由跡證研判犯罪時間、方法、手段、工具、過程，支持物證可幫助了解作案方式。",
+          "correction": "物證只能支持經驗與科學容許的推論，仍須與其他資料相互驗證，不由單一痕跡直接推定特定人有罪。",
           "trueStatement": true
         },
         {
           "text": "物證的記錄方式僅有攝影及錄影兩種",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "除攝影、錄影外，尚有筆記、測繪等紀錄；只說僅有兩種過度限縮。",
+          "explanation": "103版第27點除照相、錄影，還有筆記、測繪及錄音；115手冊第71點亦要求勘察報告、照片、測繪圖及採驗紀錄等。B的僅有兩種過度限縮。",
+          "correction": "改為依需要結合影像、文字、測繪、錄音與相關表單，保留原始來源及各項紀錄間的關聯。",
           "trueStatement": false
         },
         {
           "text": "為確保日後之鑑定工作不生混淆，所有物證均必須作適當標記、分類及封存",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：除攝影、錄影外，尚有筆記、測繪等紀錄；只說僅有兩種過度限縮。",
+          "explanation": "103版第66點第1、3款要求包裝標示及各階段交接記錄，目的在識別證物與追蹤保管、送鑑及移送過程。",
+          "correction": "依證物特性選適當標記與分類封存；不能以標記本身破壞待鑑表面或跡證。",
           "trueStatement": true
         },
         {
           "text": "絕不可以將不同物證裝在一個包裝袋，以免造成污染",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：除攝影、錄影外，尚有筆記、測繪等紀錄；只說僅有兩種過度限縮。",
+          "explanation": "第66點第1款要求避免互相污染、分開包裝封緘；D的重點是各別證物不直接混裝。已分別封妥之內袋與外層運輸箱，不能不加區分。",
+          "correction": "保留各別隔離及識別；共同外箱仍須符合安全、溫控與交接規範，並非把已分裝運輸一律說成違法。",
           "trueStatement": true
         }
       ],
@@ -1176,13 +1176,25 @@
       "paperTrack": "內軌",
       "paperNumber": 13,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第20、27、66點；警專公開115版警察偵查犯罪手冊（完整主文）・第71點",
+        "checkedAt": "2026-11-23",
+        "note": "完整歷史版與115主文可證多種紀錄，現行分項標示／包裝的全部技術規範未齊，尤其D的絕對用語須限於避免證物混裝污染，整題保留待核。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "紀錄不只影像；標示、分裝與交接鏈共同避免污染和混淆。",
+        "sources": [
+          {
+            "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第20、27、66點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+          },
+          {
+            "title": "警專公開115版警察偵查犯罪手冊（完整主文）・第71點",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ]
       },
-      "takeaway": "除攝影、錄影外，尚有筆記、測繪等紀錄；只說僅有兩種過度限縮。",
+      "takeaway": "紀錄不只影像；標示、分裝與交接鏈共同避免污染和混淆。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -1199,8 +1211,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第20、27、66點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "警專公開115版警察偵查犯罪手冊（完整主文）・第71點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B保留。103版第27點列照相、錄影、筆記、測繪及錄音五類紀錄，115手冊第71點也包括勘察報告與測繪圖；物證的辨識、標示、分裝及交接另須完整保持。"
     },
     {
       "id": "investigation112_14",
@@ -1297,26 +1318,26 @@
       "options": [
         {
           "text": "現場勘察與搜尋係針對有形、肉眼觀察得到的，不包括肉眼看不見的跡證",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：搜尋可採兩種以上方法並多次進行，依場地、案型及跡證調整，不只限肉眼可見物。",
+          "explanation": "103版第23點第5款為由顯至潛，明顯者先勘察，再發掘潛伏跡證；型態跡證官方研習報告亦談光源及顯現方法。A排除肉眼看不見的跡證不當。",
+          "correction": "應把潛在指紋、微量或需適當光源顯現之跡證納入，並依法、依科學方法採集。",
           "trueStatement": false
         },
         {
           "text": "室內犯罪現場比戶外更易於受到污染及破壞，所以必須掌握蒐證時效",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：搜尋可採兩種以上方法並多次進行，依場地、案型及跡證調整，不只限肉眼可見物。",
+          "explanation": "室內外污染風險要看現場條件。103版第17點特別要求戶外防風雨日曬，不能以室內一律比戶外更易破壞作通則。",
+          "correction": "室內外都應掌握時效；戶外自然力、人員流動及動物等風險應分別評估，不作無條件高低排序。",
           "trueStatement": false
         },
         {
           "text": "刑案現場勘察之基本步驟大同小異，不必因不同的犯罪型態而有所改變",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：搜尋可採兩種以上方法並多次進行，依場地、案型及跡證調整，不只限肉眼可見物。",
+          "explanation": "第34點要求依各類刑案現場特性及位置搜尋跡證，第22點亦對敏感、爆裂物等現場分別處理；不能因基本步驟相似就不調整。",
+          "correction": "依犯罪態樣、空間、危害與證物性質調整策略，保留必要記錄及專業支援。",
           "trueStatement": false
         },
         {
           "text": "現場的搜尋可彈性施以兩種以上之方式，並且非以一次搜尋為限",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "搜尋可採兩種以上方法並多次進行，依場地、案型及跡證調整，不只限肉眼可見物。",
+          "explanation": "D所述彈性組合與再次搜尋可補足第一輪侷限，與完整保全、依特性搜尋的方向相容；但本次尚缺列舉搜尋法及重搜條件的指定原件。",
+          "correction": "保留官方D；再搜尋仍須有合法範圍與現場保全，不能把彈性當成可任意進入搜索的授權。",
           "trueStatement": true
         }
       ],
@@ -1333,13 +1354,25 @@
       "paperTrack": "內軌",
       "paperNumber": 15,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第17、22、23、34點；基隆市警察局114.10.20赴美現場重建研習報告・第21—23頁（web工具實讀）",
+        "checkedAt": "2026-11-23",
+        "note": "已核歷史手冊顯至潛、戶外防護、案件別調整及114官方研習報告跡證顯現；各搜尋方法完整指定教材與全部例外仍待核。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "先評估現場與跡證，再選搜尋方式；看不見不等於沒有，步驟不能僵化套用。",
+        "sources": [
+          {
+            "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第17、22、23、34點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+          },
+          {
+            "title": "基隆市警察局114.10.20赴美現場重建研習報告・第21—23頁（web工具實讀）",
+            "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
+          }
+        ]
       },
-      "takeaway": "搜尋可採兩種以上方法並多次進行，依場地、案型及跡證調整，不只限肉眼可見物。",
+      "takeaway": "先評估現場與跡證，再選搜尋方式；看不見不等於沒有，步驟不能僵化套用。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -1356,8 +1389,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第17、22、23、34點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "基隆市警察局114.10.20赴美現場重建研習報告・第21—23頁（web工具實讀）",
+          "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案D保留。已核官方資料要求依現場特性找可見及潛伏跡證，並保持安全與污染控制；多種搜尋法及重複搜尋的完整指定教材本次未齊。"
     },
     {
       "id": "investigation112_16",
@@ -2275,26 +2317,26 @@
       "options": [
         {
           "text": "當蒐集或處理時，應穿戴橡皮手套及頭套",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：生物跡證宜陰乾，不能以吹風機加熱吹乾，以免破壞或污染檢體。",
+          "explanation": "103版第17、22點要求帽套、口罩、手套、鞋套等必要防護，以保護人員並避免把自身跡證帶入現場。",
+          "correction": "依危害及作業需求選適當手套與防護並適時更換，不因戴手套就可在不同證物間任意接觸。",
           "trueStatement": true
         },
         {
           "text": "在進行蒐證時切勿將手伸入無法看見之處",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：生物跡證宜陰乾，不能以吹風機加熱吹乾，以免破壞或污染檢體。",
+          "explanation": "無法看見處可能有針具、刃物或其他危害；完整官方手冊反覆要求必要防護及疑似爆裂物先專業排除，支持先確認安全的原則。",
+          "correction": "先照明、觀察及辨明危害，再由適當人員使用合宜方法處理，避免盲伸手造成傷害或破壞證物。",
           "trueStatement": true
         },
         {
           "text": "沾有血跡與體液斑之衣物或物品，應以吹風機吹乾後儘速送鑑",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "生物跡證宜陰乾，不能以吹風機加熱吹乾，以免破壞或污染檢體。",
+          "explanation": "103版第58、61、62點要求適合乾燥的生物跡證陰乾、分裝；吹風加熱或吹散可能損害跡證或造成交叉污染。",
+          "correction": "改為依證物性質在受控、避免污染環境陰乾，液態與組織另依冷藏／冷凍規範，不一律吹風。",
           "trueStatement": false
         },
         {
           "text": "任何被血液濺染之報表、標籤或證物標示卡均應毁棄，並重新標寫註明",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：生物跡證宜陰乾，不能以吹風機加熱吹乾，以免破壞或污染檢體。",
+          "explanation": "D涉及受血液污染的行政報表、標籤或證物卡之更換。本次已讀手冊沒有完整重現該一律毀棄原句；文書若本身具證據價值，不得只因染血就自行銷毀。",
+          "correction": "更換污染行政標示時須保持同一性、原記載及原因紀錄；原證物或具證據價值文書之處理，依權責程序另審，不把D當概括銷毀授權。",
           "trueStatement": true
         }
       ],
@@ -2311,13 +2353,21 @@
       "paperTrack": "內軌",
       "paperNumber": 25,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第17、22、58、61、62、66點",
+        "checkedAt": "2026-11-23",
+        "note": "陰乾及防護有完整歷史原文；B盲摸與D污染文書之指定安全教材／最新完整規範未取得，補釋適用界線並保留待核，不用官方C推定D於所有情況都可銷毀。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "安全防護、避免盲摸、自然陰乾；污染文書與原證物分開處理並完整記錄。",
+        "sources": [
+          {
+            "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第17、22、58、61、62、66點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+          }
+        ]
       },
-      "takeaway": "生物跡證宜陰乾，不能以吹風機加熱吹乾，以免破壞或污染檢體。",
+      "takeaway": "安全防護、避免盲摸、自然陰乾；污染文書與原證物分開處理並完整記錄。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -2334,8 +2384,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第17、22、58、61、62、66點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C保留。生物跡證宜陰乾，不能用吹風機概括加熱吹乾；D的受血液污染文書處置，也必須與證物本身及證物交接紀錄分清，不能任意銷毀。"
     },
     {
       "id": "investigation112_26",
@@ -2464,26 +2519,26 @@
       "options": [
         {
           "text": "犯罪剖繪之目的是協助警方找出犯罪者，其方法是根據刑案現場所得到的資訊來推論犯罪者的個 人特徵",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：剖繪須有適合分析的行為及案件資料，不適用所有刑案，也不能代替客觀證據。",
+          "explanation": "從現場行為、犯罪方式及被害人與行為人的互動，推測可能的行為人特徵，是剖繪用來縮小嫌疑人範圍的功能。官方研習報告也區分現場分析、個案專家與統計分析等途徑。",
+          "correction": "應把推論列為待驗證線索，再以實際證據支持或排除；不能由「符合剖繪」直接認定某人犯罪。",
           "trueStatement": true
         },
         {
           "text": "犯罪剖繪技術主要運用於分析「再現率」（reoccurrence）高的犯罪類型，其效用才可發揮到極大",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：剖繪須有適合分析的行為及案件資料，不適用所有刑案，也不能代替客觀證據。",
+          "explanation": "多案中可重複比較的行為模式，有助於辨識案件關聯與建立假說；但再現性、資料品質和行為是否穩定，與「必能發揮極大效用」並非同一件事。",
+          "correction": "本次未取得採用reoccurrence用語及其效用結論的原始教材，保留原題給分並待核此項，不把這個絕對效用說法當成已證實通則。",
           "trueStatement": true
         },
         {
           "text": "犯罪剖繪適用在所有的刑事案件",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "剖繪須有適合分析的行為及案件資料，不適用所有刑案，也不能代替客觀證據。",
+          "explanation": "並非所有刑案都留下足以分析的行為與情境資料；資料不足、案件無可比較模式或存在偽裝時，剖繪的推論力會受限。因此把適用範圍寫成所有刑事案件，超出方法本身的條件。",
+          "correction": "改為依案件性質、資料充分程度與方法的適合性決定是否運用，並持續以客觀跡證檢驗假說。",
           "trueStatement": false
         },
         {
           "text": "犯罪剖繪的產生過程，分別為資料輸入、分析研判、犯罪評估、犯罪剖繪、調查及逮捕等六個步驟",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：剖繪須有適合分析的行為及案件資料，不適用所有刑案，也不能代替客觀證據。",
+          "explanation": "此項列的是特定六階段教學模型，與剖繪的一般概念不同。已讀官方研習報告以五個分析步驟介紹剖繪，並未逐項證成本題從資料輸入到逮捕的六階段名稱。",
+          "correction": "六階段的原始出處、各階段內涵與逮捕是否作為末階段，仍待完整教材核對；不同教學模型不可拼接成唯一法定程序。",
           "trueStatement": true
         }
       ],
@@ -2500,26 +2555,25 @@
       "paperTrack": "內軌",
       "paperNumber": 27,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
-        "checkedAt": "2026-11-20",
-        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
-        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
-        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "law": "官方出國報告《美國社會現況與警政因應措施》（印刷第7頁，剖繪概念及限制）；警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+        "checkedAt": "2026-11-23",
+        "note": "已核剖繪係依犯罪行為、現場及被害人資料縮小偵查範圍的輔助方法；本次官方出國報告採另一種五步驟說明，未取得本題「再現率」及六階段模型的完整原始教材，不能由答案鍵反推全題已核。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "剖繪將可觀察的案件資料轉為可檢驗的偵查假說；不能憑人物特徵推測代替犯罪證據，也不是每一件刑案都適用。",
         "sources": [
           {
-            "title": "考選部112年犯罪偵查概要原卷",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
+            "title": "官方出國報告《美國社會現況與警政因應措施》（印刷第7頁，剖繪概念及限制）",
+            "url": "https://report.ndc.gov.tw/ReportFront/PageSystem/reportFileDownload/C10504145/001"
           },
           {
-            "title": "考選部112年犯罪偵查概要標準答案",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
+            "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
           }
         ]
       },
-      "takeaway": "剖繪須有適合分析的行為及案件資料，不適用所有刑案，也不能代替客觀證據。",
+      "takeaway": "剖繪將可觀察的案件資料轉為可檢驗的偵查假說；不能憑人物特徵推測代替犯罪證據，也不是每一件刑案都適用。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -2536,9 +2590,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "官方出國報告《美國社會現況與警政因應措施》（印刷第7頁，剖繪概念及限制）",
+          "url": "https://report.ndc.gov.tw/ReportFront/PageSystem/reportFileDownload/C10504145/001"
+        },
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
       ],
-      "currentAnswer": "保留當年度官方答案C。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
+      "currentAnswer": "保留112年官方答案C。不限案件條件地宣稱所有刑案均適用，過度概括；B的再現率命題與D六階段名稱、次序仍待原始教材逐項核對。"
     },
     {
       "id": "investigation112_28",
@@ -2550,26 +2612,26 @@
       "options": [
         {
           "text": "HI 介面包含三個部分，各自描述不同功能",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "HI1、HI2、HI3分別承擔管理、監察相關資訊及通訊內容等不同功能，不可互換。",
+          "explanation": "第5.0節將管理資訊、監察相關資訊（IRI）及通訊內容（CC）分別配置HI1、HI2、HI3，三者描述不同交付功能，因此A符合題意。這是邏輯介面分類，不等於必有三條獨立實體線路。",
+          "correction": "以功能記HI1／HI2／HI3，實體承載方式另依適用規格及實作確認。",
           "trueStatement": true
         },
         {
           "text": "電信業者端通知執法機關通訊監察的設定、移除、與系統異常的告警等，用 HI 2 作為資料交換的 介面",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：HI1、HI2、HI3分別承擔管理、監察相關資訊及通訊內容等不同功能，不可互換。",
+          "explanation": "啟用、停用、修改及相關通知原則由HI1管理；但第5.1節明定，送往執法機關的部分HI1資訊，例如故障通報，可選擇經HI2機制傳送。把本項一概等同HI2並不準確，把所有告警一概排除HI2也過度概括。",
+          "correction": "一般管理功能屬HI1；部分管理資訊得借用HI2，須核對版本及部署條件，本題仍保留官方A。",
           "trueStatement": false
         },
         {
           "text": "電信業者傳送被監察目標之通訊的內容，用 HI 2 作為資料交換的介面",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：HI1、HI2、HI3分別承擔管理、監察相關資訊及通訊內容等不同功能，不可互換。",
+          "explanation": "被監察通訊的內容屬CC，交付功能為HI3；HI2主要處理IRI，如通訊相關事件或識別資訊。本項把內容通道與相關資訊通道混為一談。",
+          "correction": "通訊內容對應HI3；監察相關資訊對應HI2，兩者不宜互換。",
           "trueStatement": false
         },
         {
           "text": "執法機關傳送被監察目標之通訊監察相關資訊，用 HI 3 作為資料交換的介面",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：HI1、HI2、HI3分別承擔管理、監察相關資訊及通訊內容等不同功能，不可互換。",
+          "explanation": "IRI的典型交付是電信業者端向執法機關送交HI2資訊；本項同時把方向寫為執法機關傳送，並誤指為HI3。執法機關的監察管理要求則另屬HI1範圍。",
+          "correction": "區分管理要求、IRI與CC，並核對資訊流向；HI3不是執法機關向業者傳送IRI的介面。",
           "trueStatement": false
         }
       ],
@@ -2586,33 +2648,32 @@
       "paperTrack": "內軌",
       "paperNumber": 28,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
-        "checkedAt": "2026-11-20",
-        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
-        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
-        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "law": "考選部112年犯罪偵查概要原卷（題意範圍）；考選部112年犯罪偵查概要標準答案（當年給分）",
+        "checkedAt": "2026-11-23",
+        "note": "實讀ETSI ES 201 671 V3.2.1（2018-05）第5.0、5.1、7.0節；A可依三種邏輯功能理解。B列舉管理通知，原則歸HI1，但第5.1節明示部分HI1資訊（例如故障通報）得經HI2機制傳送，故不寫成所有告警絕不可走HI2。命題使用的具體版本與實作設定未齊，保留待核。ETSI是技術交付規格，不能代替我國通訊監察的法定核准。考選部來源只證明題目及給分，功能依據為另列ETSI原件。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "HI1管理、HI2監察相關資訊、HI3通訊內容是邏輯功能分類；部分HI1告警可選用HI2機制，不能將分類寫成毫無例外的實體線路禁令。",
         "sources": [
           {
-            "title": "考選部112年犯罪偵查概要原卷",
+            "title": "考選部112年犯罪偵查概要原卷（題意範圍）",
             "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
           },
           {
-            "title": "考選部112年犯罪偵查概要標準答案",
+            "title": "考選部112年犯罪偵查概要標準答案（當年給分）",
             "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
           }
         ]
       },
-      "takeaway": "HI1、HI2、HI3分別承擔管理、監察相關資訊及通訊內容等不同功能，不可互換。",
+      "takeaway": "HI1管理、HI2監察相關資訊、HI3通訊內容是邏輯功能分類；部分HI1告警可選用HI2機制，不能將分類寫成毫無例外的實體線路禁令。",
       "sources": [
         {
-          "title": "考選部・112年官方原卷",
+          "title": "考選部112年犯罪偵查概要原卷（題意範圍）",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
         },
         {
-          "title": "考選部・原始標準答案",
+          "title": "考選部112年犯罪偵查概要標準答案（當年給分）",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
         },
         {
@@ -2622,9 +2683,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "ETSI ES 201 671 V3.2.1（2018-05），第5.0、5.1、7.0節",
+          "url": "https://www.etsi.org/deliver/etsi_es/201600_201699/201671/03.02.01_60/es_201671v030201p.pdf"
         }
       ],
-      "currentAnswer": "保留當年度官方答案A。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
+      "currentAnswer": "保留當年度官方答案A。已補足三種邏輯介面的功能與傳送方向；ETSI ES 201 671 V3.2.1第5.1節容許部分HI1資訊藉HI2傳送，B涉及的實作與命題版本仍待核，不另改官方給分。"
     },
     {
       "id": "investigation112_29",
@@ -2636,26 +2701,26 @@
       "options": [
         {
           "text": "②①③④",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：先蒐集資料、閱讀分析、研判動機，再篩出可疑嫌犯，順序為③①④②。",
+          "explanation": "②放在開頭，是尚未蒐集③及分析①就先鎖定可疑嫌犯，容易讓後續資料只服務既定人選；且把③排到閱讀分析之後，欠缺分析所依據的案件素材。",
+          "correction": "本題教學排序應先有③的資料，再做①的閱讀分析；可疑嫌犯範圍要由資料、動機及其他證據支持。",
           "trueStatement": false
         },
         {
           "text": "②③①④",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：先蒐集資料、閱讀分析、研判動機，再篩出可疑嫌犯，順序為③①④②。",
+          "explanation": "此序列雖把資料蒐集放在閱讀分析之前，仍以②可疑嫌犯為出發點。若把嫌犯預設當作已證實事實，容易忽略與其不符的現場或被害人資料。",
+          "correction": "應先蒐集與分析，再形成動機假說及嫌疑人範圍；既有嫌疑人線索也必須接受反證檢查。",
           "trueStatement": false
         },
         {
           "text": "③②①④",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：先蒐集資料、閱讀分析、研判動機，再篩出可疑嫌犯，順序為③①④②。",
+          "explanation": "③先蒐集資料是合理起點，但緊接②就先選嫌犯，尚未經①閱讀分析、④研判動機便完成篩選，與本題由資料導向人選的模型不符。",
+          "correction": "在本題的概念順序中，①和④應位於②之前；動機只是篩選因素之一，不能把動機本身當成犯罪證明。",
           "trueStatement": false
         },
         {
           "text": "③①④②",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "先蒐集資料、閱讀分析、研判動機，再篩出可疑嫌犯，順序為③①④②。",
+          "explanation": "③先形成案件資料基礎，①對資料閱讀分析，④提出動機推論，再以②縮小可疑嫌犯範圍，符合本題的資料導向思路；手冊第83點也將動機、方法、工具與嫌疑人範圍相互連結。",
+          "correction": "此為原題採用的排序；尚待原始教材核對四步驟的精確定義，實務上各步驟可因新增證據反覆修正，並非調查只准單向進行一次。",
           "trueStatement": true
         }
       ],
@@ -2672,26 +2737,25 @@
       "paperTrack": "內軌",
       "paperNumber": 29,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
-        "checkedAt": "2026-11-20",
-        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
-        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
-        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "law": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）；官方出國報告《美國社會現況與警政因應措施》（印刷第7頁，剖繪概念及限制）",
+        "checkedAt": "2026-11-23",
+        "note": "已讀手冊第82、83點及官方研習報告，可支持先有案件資料、再分析動機與嫌疑人範圍的思路；未取得將本題四項固定排為③①④②的完整原始剖繪教材。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "先蒐集犯罪、被害人、現場和環境資料，再分析與提出動機假說，才據以篩選嫌疑人；實際調查仍須讓新證據回饋修正。",
         "sources": [
           {
-            "title": "考選部112年犯罪偵查概要原卷",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
+            "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
           },
           {
-            "title": "考選部112年犯罪偵查概要標準答案",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
+            "title": "官方出國報告《美國社會現況與警政因應措施》（印刷第7頁，剖繪概念及限制）",
+            "url": "https://report.ndc.gov.tw/ReportFront/PageSystem/reportFileDownload/C10504145/001"
           }
         ]
       },
-      "takeaway": "先蒐集資料、閱讀分析、研判動機，再篩出可疑嫌犯，順序為③①④②。",
+      "takeaway": "先蒐集犯罪、被害人、現場和環境資料，再分析與提出動機假說，才據以篩選嫌疑人；實際調查仍須讓新證據回饋修正。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -2708,9 +2772,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "官方出國報告《美國社會現況與警政因應措施》（印刷第7頁，剖繪概念及限制）",
+          "url": "https://report.ndc.gov.tw/ReportFront/PageSystem/reportFileDownload/C10504145/001"
         }
       ],
-      "currentAnswer": "保留當年度官方答案D。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
+      "currentAnswer": "保留112年官方答案D（③①④②）；四步驟模型的原始教材仍待核，不將一般研判原則冒稱為該排序的完整直接法源。"
     },
     {
       "id": "investigation112_30",
@@ -2722,26 +2794,26 @@
       "options": [
         {
           "text": "現場筆記僅可於事後實施",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：鳥瞰式一覽圖便於看整體環境及物證相對位置；近照仍應依需求保留有尺、無尺影像。",
+          "explanation": "103版第32點列抵達現場情形、易逝跡證與談話等內容，第33點第5款要求離場前核對筆記與測繪，A的僅可事後不成立。",
+          "correction": "應及時記錄觀察及變動，補記須識別時間與依據，不把事後印象偽裝成現場原始紀錄。",
           "trueStatement": false
         },
         {
           "text": "近距離物證攝影僅實施有刻度比例尺之拍攝即可",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：鳥瞰式一覽圖便於看整體環境及物證相對位置；近照仍應依需求保留有尺、無尺影像。",
+          "explanation": "第30點第4款明定有比對需要時，應分別拍攝不放及放置比例尺的垂直近攝照片；B說僅有有尺即可過度。",
+          "correction": "依需求保存無尺原貌與有尺尺度影像；放尺前後避免遮擋、碰動及破壞跡證。",
           "trueStatement": false
         },
         {
           "text": "鳥瞰式一覽圖能將現場環境及諸多物證之位置，一目瞭然地完整呈現",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "鳥瞰式一覽圖便於看整體環境及物證相對位置；近照仍應依需求保留有尺、無尺影像。",
+          "explanation": "鳥瞰式圖能表達平面環境與物證相對位置，符合第29、33點要求整體與位置紀錄的方向；官方影像研究亦說明幾何位置紀錄的用途。",
+          "correction": "C按題意為整體配置表現；仍須核實比例、方位、測量與各照片對照，不把示意圖當精密量測結果。",
           "trueStatement": true
         },
         {
           "text": "血跡分布於屋內地面時，適合使用立視圖方式來記錄",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：鳥瞰式一覽圖便於看整體環境及物證相對位置；近照仍應依需求保留有尺、無尺影像。",
+          "explanation": "屋內地面上的血跡分布，首先需表達平面位置與距離；立視圖主要補充高度、牆面或立體關係，不是僅因在屋內就最適合。",
+          "correction": "依地面、牆面、物體的實際位置選平面或立面，必要時併用；本次圖種完整教材尚未取得，保留分類範圍。",
           "trueStatement": false
         }
       ],
@@ -2758,26 +2830,25 @@
       "paperTrack": "內軌",
       "paperNumber": 30,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
-        "checkedAt": "2026-11-20",
-        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
-        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
-        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "law": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第29、30、32、33點；法務部刑政中心刊載・溫哲彥〈影像處理技術於偵查與鑑識之應用—由二維到三維空間〉",
+        "checkedAt": "2026-11-23",
+        "note": "歷史版有尺無尺、現場記錄與圖面基本要求已核；鳥瞰／立視圖全部原始定義及當期教材未齊，整題仍待核。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "筆記及時、近照視需要有尺無尺；平面配置與立面高度用相應圖面表達。",
         "sources": [
           {
-            "title": "考選部112年犯罪偵查概要原卷",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
+            "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第29、30、32、33點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
           },
           {
-            "title": "考選部112年犯罪偵查概要標準答案",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
+            "title": "法務部刑政中心刊載・溫哲彥〈影像處理技術於偵查與鑑識之應用—由二維到三維空間〉",
+            "url": "https://www.cprc.moj.gov.tw/media/8768/79291473538.pdf?mediadl=true"
           }
         ]
       },
-      "takeaway": "鳥瞰式一覽圖便於看整體環境及物證相對位置；近照仍應依需求保留有尺、無尺影像。",
+      "takeaway": "筆記及時、近照視需要有尺無尺；平面配置與立面高度用相應圖面表達。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -2794,9 +2865,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第29、30、32、33點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "法務部刑政中心刊載・溫哲彥〈影像處理技術於偵查與鑑識之應用—由二維到三維空間〉",
+          "url": "https://www.cprc.moj.gov.tw/media/8768/79291473538.pdf?mediadl=true"
         }
       ],
-      "currentAnswer": "保留當年度官方答案C。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
+      "currentAnswer": "原官方答案C保留。103版要求現場筆記、全貌／相對位置照相及必要有尺無尺近照；鳥瞰平面圖和立視圖的完整指定教材仍待補，不能單靠圖名當全部法源。"
     },
     {
       "id": "investigation112_31",
@@ -2808,26 +2887,26 @@
       "options": [
         {
           "text": "逐一畫面分析法",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "逐一畫面分析法以分格慢速觀察確認犯罪細節及順序，與時間區段比對不同。",
+          "explanation": "A直接對應題幹逐格、慢速觀察，以辨別個別動作及順序；官方影像研究亦提醒由原資料獲得的訊息須核實並可重現。",
+          "correction": "逐格檢視同時保留原檔、影格時間與操作紀錄；補幀或強化產物須明示，不能捏造成原始畫面。",
           "trueStatement": true
         },
         {
           "text": "時間次序法",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：逐一畫面分析法以分格慢速觀察確認犯罪細節及順序，與時間區段比對不同。",
+          "explanation": "時間次序法重在按發生時間整理影像線索，與把單一片段逐格檢視的分析尺度不同；題幹未僅要求時間排列。",
+          "correction": "先分清時間線整理與每一影格的細部分析，避免只因都有先後順序就混用名稱。",
           "trueStatement": false
         },
         {
           "text": "時間區段比對法",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：逐一畫面分析法以分格慢速觀察確認犯罪細節及順序，與時間區段比對不同。",
+          "explanation": "時間區段比對關注不同時段影像的比較，用以確認變化或相關線索；題幹描述的是同一犯罪過程內的分格慢看。",
+          "correction": "比較時段須處理設備時差及缺漏；本次未取得四種中文方法的完整原始定義，名稱界線保留待核。",
           "trueStatement": false
         },
         {
           "text": "特定目標比對法",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：逐一畫面分析法以分格慢速觀察確認犯罪細節及順序，與時間區段比對不同。",
+          "explanation": "特定目標比對以選定人、車或物為追查焦點；它可搭配逐格觀察，但不是題幹操作方法名稱的直接對應。",
+          "correction": "辨識同一目標應評估角度、畫質、遮蔽等，不能僅憑畫面相似就作確定身分結論。",
           "trueStatement": false
         }
       ],
@@ -2844,26 +2923,25 @@
       "paperTrack": "內軌",
       "paperNumber": 31,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
-        "checkedAt": "2026-11-20",
-        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
-        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
-        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "law": "法務部刑政中心刊載・溫哲彥〈影像處理技術於偵查與鑑識之應用—由二維到三維空間〉；法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第55點",
+        "checkedAt": "2026-11-23",
+        "note": "已讀官方影像研究之資料／資訊界線及影音原檔原則；尚缺四種中文觀察法之完整指定教材，因此逐項補說明但保留分類待核。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "分格慢看找行為細節是逐一畫面；時間排序、區段比對與目標追蹤各有目的。",
         "sources": [
           {
-            "title": "考選部112年犯罪偵查概要原卷",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
+            "title": "法務部刑政中心刊載・溫哲彥〈影像處理技術於偵查與鑑識之應用—由二維到三維空間〉",
+            "url": "https://www.cprc.moj.gov.tw/media/8768/79291473538.pdf?mediadl=true"
           },
           {
-            "title": "考選部112年犯罪偵查概要標準答案",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
+            "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第55點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
           }
         ]
       },
-      "takeaway": "逐一畫面分析法以分格慢速觀察確認犯罪細節及順序，與時間區段比對不同。",
+      "takeaway": "分格慢看找行為細節是逐一畫面；時間排序、區段比對與目標追蹤各有目的。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -2880,9 +2958,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "法務部刑政中心刊載・溫哲彥〈影像處理技術於偵查與鑑識之應用—由二維到三維空間〉",
+          "url": "https://www.cprc.moj.gov.tw/media/8768/79291473538.pdf?mediadl=true"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第55點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
         }
       ],
-      "currentAnswer": "保留當年度官方答案A。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
+      "currentAnswer": "原官方答案A保留。題幹是把同一犯罪片段分格慢看，核心在逐幀細節及先後；四種中文方法名稱的完整官方分類教材尚未齊，不能把其他三種名稱混稱同一操作。"
     },
     {
       "id": "investigation112_32",
@@ -2894,26 +2980,26 @@
       "options": [
         {
           "text": "電腦網路設定",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：Windows事件檢視器可查系統事件與開關機線索；仍須核對時區、系統時間及紀錄完整性。",
+          "explanation": "網路設定顯示位址、介面及連線參數，可能提供網路活動線索，但不是依時間集中查閱作業系統啟動、停止及異常事件的標準檢視工具。",
+          "correction": "查開關機線索宜讀系統事件日誌；不要把網路設定時間直接當成整機啟停時間。",
           "trueStatement": false
         },
         {
           "text": "事件檢視器",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "Windows事件檢視器可查系統事件與開關機線索；仍須核對時區、系統時間及紀錄完整性。",
+          "explanation": "事件檢視器可查看Windows系統及應用程式日誌，配合啟動、正常停止或意外停止等事件判讀。本項符合題目所問的內建工具；仍要保留日誌、時區與系統時間等前提。",
+          "correction": "6005是事件記錄服務啟動、6006是該服務停止、6008為前次非預期停止的線索，應配合其他事件，不能當成一對一的整機開關機紀錄。",
           "trueStatement": true
         },
         {
           "text": "機碼",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：Windows事件檢視器可查系統事件與開關機線索；仍須核對時區、系統時間及紀錄完整性。",
+          "explanation": "登錄機碼可留下設定或使用痕跡，專業鑑識也可能利用；但本題要找直接查閱開關機相關事件的內建介面，機碼不是事件檢視器的同義詞。",
+          "correction": "登錄痕跡可輔助比對，主要系統事件先由事件檢視器及保存的日誌查閱。",
           "trueStatement": false
         },
         {
           "text": "電腦系統資料夾",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：Windows事件檢視器可查系統事件與開關機線索；仍須核對時區、系統時間及紀錄完整性。",
+          "explanation": "系統資料夾可能存放日誌檔案，但資料夾只是儲存位置，不能直接等同已解讀的事件時間線；作業系統版本也影響具體路徑與格式。",
+          "correction": "保存原始日誌後，以適當工具讀取事件並核對時間與完整性，不以資料夾名稱證明啟停。",
           "trueStatement": false
         }
       ],
@@ -2924,39 +3010,38 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第32題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 32,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
-        "checkedAt": "2026-11-20",
-        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
-        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
-        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "status": "none",
+        "law": "考選部112年犯罪偵查概要原卷（題意範圍）；考選部112年犯罪偵查概要標準答案（當年給分）",
+        "checkedAt": "2026-11-23",
+        "note": "已實讀Microsoft開機疑難排解與舊版Windows事件記錄文件。已核限Windows工具及日誌語意；舊版6005、6006、6008範例須依目標系統版本解讀。現場先保存原始日誌及環境，避免為驗證而反覆開關機改變證據。Microsoft技術來源另列，原卷僅用於保留當年題意與給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "事件檢視器可整理開關機相關系統日誌；事件記錄服務啟停與整機啟停仍要交叉判讀。",
         "sources": [
           {
-            "title": "考選部112年犯罪偵查概要原卷",
+            "title": "考選部112年犯罪偵查概要原卷（題意範圍）",
             "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
           },
           {
-            "title": "考選部112年犯罪偵查概要標準答案",
+            "title": "考選部112年犯罪偵查概要標準答案（當年給分）",
             "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
           }
         ]
       },
-      "takeaway": "Windows事件檢視器可查系統事件與開關機線索；仍須核對時區、系統時間及紀錄完整性。",
+      "takeaway": "事件檢視器可整理開關機相關系統日誌；事件記錄服務啟停與整機啟停仍要交叉判讀。",
       "sources": [
         {
-          "title": "考選部・112年官方原卷",
+          "title": "考選部112年犯罪偵查概要原卷（題意範圍）",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
         },
         {
-          "title": "考選部・原始標準答案",
+          "title": "考選部112年犯罪偵查概要標準答案（當年給分）",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
         },
         {
@@ -2966,9 +3051,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "Microsoft：Windows開機問題疑難排解（系統／應用程式事件日誌）",
+          "url": "https://learn.microsoft.com/zh-tw/troubleshoot/windows-client/performance/windows-boot-issues-troubleshooting"
+        },
+        {
+          "title": "Microsoft：Windows事件記錄服務之6005、6006及6008（舊版文件）",
+          "url": "https://learn.microsoft.com/zh-tw/security-updates/security/20214425"
         }
       ],
-      "currentAnswer": "保留當年度官方答案B。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
+      "currentAnswer": "保留當年度官方答案B。以Windows事件檢視器查閱系統事件作為開關機線索，須核對時間、版本及其他事件；6005／6006直接表示事件記錄服務啟停，不能單憑它們證明每次整機開關機。"
     },
     {
       "id": "investigation112_33",
@@ -2980,26 +3073,26 @@
       "options": [
         {
           "text": "②③①④",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：先確認設備數量、無線訊號、標示連接埠與連接設備，再中斷網路，即④②③①。",
+          "explanation": "②先確認無線訊號、③標示連接，再到①中斷網路後才做④清點，容易在設備尚未辨識完整前改變現場狀態，也可能漏掉其他分享器或儲存設備。",
+          "correction": "依原題模型應先清點④，再確認②與記錄③，最後才做①；這個固定次序仍待特定數位蒐證手冊核對。",
           "trueStatement": false
         },
         {
           "text": "①③②④",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：先確認設備數量、無線訊號、標示連接埠與連接設備，再中斷網路，即④②③①。",
+          "explanation": "①一開始就斷網，可能使目前連線、遠端位址或服務狀態消失；之後才標示③、確認②、清點④，較難重建處置前的網路狀態。",
+          "correction": "應先評估並記錄必要的設備與連線資訊；如有正在遠端毀證等急迫情形，也須由專業人員決定及記錄立即隔離的理由。",
           "trueStatement": false
         },
         {
           "text": "④②③①",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "先確認設備數量、無線訊號、標示連接埠與連接設備，再中斷網路，即④②③①。",
+          "explanation": "④確認設備數量有助建立採證範圍，②辨識無線環境，③留下設備及各埠連接關係，才做①隔離，可減少因拔線而遺失原始拓樸資訊。",
+          "correction": "此為原題採用的流程，不宜擴張成所有網路事故一律不得先隔離；固定步驟及例外仍待完整刑案數位手冊直接核對。",
           "trueStatement": true
         },
         {
           "text": "①③④②",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：先確認設備數量、無線訊號、標示連接埠與連接設備，再中斷網路，即④②③①。",
+          "explanation": "此序列先①改變連線，再③標示，且把②確認無線訊號放在最後；若斷網只拔實體線而未辨識無線通道，仍可能留下遠端操作路徑。",
+          "correction": "處置前應盡可能完成設備清點、無線介面辨識與連線紀錄，並分辨實體斷線是否足以達成隔離目的。",
           "trueStatement": false
         }
       ],
@@ -3016,26 +3109,25 @@
       "paperTrack": "內軌",
       "paperNumber": 33,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
-        "checkedAt": "2026-11-20",
-        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
-        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
-        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "law": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）；政府機關資訊通報332期：吳典松〈數位證據保全標準作業程序及第一線人員使用工具之簡介〉（104.6，當時草案與工具介紹）",
+        "checkedAt": "2026-11-23",
+        "note": "已核現場識別、拍照記錄與網路狀態保全原則，但尚未取得《刑案現場數位證物蒐證手冊》有線／無線設備四項完整流程原件，不能將一般數位保全介紹替代精確排序依據。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "先辨識網路設備與連線關係，有助於保存原始拓樸；隔離時點仍須評估遠端刪除、持續攻擊及揮發性資料流失風險。",
         "sources": [
           {
-            "title": "考選部112年犯罪偵查概要原卷",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
+            "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
           },
           {
-            "title": "考選部112年犯罪偵查概要標準答案",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
+            "title": "政府機關資訊通報332期：吳典松〈數位證據保全標準作業程序及第一線人員使用工具之簡介〉（104.6，當時草案與工具介紹）",
+            "url": "https://ws.ndc.gov.tw/Download.ashx?icon=..pdf&n=cGFydDEucGRm&u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL1JlbEZpbGUvNTU2Ni83NzYxLzAwNjI5NDEucGRm"
           }
         ]
       },
-      "takeaway": "先確認設備數量、無線訊號、標示連接埠與連接設備，再中斷網路，即④②③①。",
+      "takeaway": "先辨識網路設備與連線關係，有助於保存原始拓樸；隔離時點仍須評估遠端刪除、持續攻擊及揮發性資料流失風險。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -3052,9 +3144,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "政府機關資訊通報332期：吳典松〈數位證據保全標準作業程序及第一線人員使用工具之簡介〉（104.6，當時草案與工具介紹）",
+          "url": "https://ws.ndc.gov.tw/Download.ashx?icon=..pdf&n=cGFydDEucGRm&u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL1JlbEZpbGUvNTU2Ni83NzYxLzAwNjI5NDEucGRm"
         }
       ],
-      "currentAnswer": "保留當年度官方答案C。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
+      "currentAnswer": "保留112年官方答案C（④②③①）。已補充先識別、記錄再處置的理由；固定排序及緊急隔離例外仍待特定手冊原件核對。"
     },
     {
       "id": "investigation112_34",
@@ -3066,26 +3166,26 @@
       "options": [
         {
           "text": "影像強化",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "強調原始影像既有特徵而不增加原含資訊稱影像強化；須保留原檔及處理紀錄。",
+          "explanation": "溫哲彥官方刊載研究明以調整對比、亮度使指紋紋路清楚，並說未改變原有紋路資訊，直接符合A影像強化。",
+          "correction": "A符合題意；保留原檔、方法與參數，不能把生成或補繪出的細節當原影像本有的跡證。",
           "trueStatement": true
         },
         {
           "text": "影像還原",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：強調原始影像既有特徵而不增加原含資訊稱影像強化；須保留原檔及處理紀錄。",
+          "explanation": "同研究把影像還原與強化分開，以估算拍攝角度並旋轉處理車牌為例，涉及影像形成／退化的估計與校正。",
+          "correction": "還原與強化可能搭配，但題幹著重既有特徵可讀性，不能僅因結果變清楚就把所有處理一律稱還原。",
           "trueStatement": false
         },
         {
           "text": "影像重建",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：強調原始影像既有特徵而不增加原含資訊稱影像強化；須保留原檔及處理紀錄。",
+          "explanation": "該研究的三維章節利用掃描等資料建立物體幾何與虛擬現場，說明重建模型與單純突出同一影像既有特徵的目的不同。",
+          "correction": "區別空間／模型重建與本題影像強化；重建也須揭示原資料及估計假設，不自動產生確定歷史事實。",
           "trueStatement": false
         },
         {
           "text": "影像壓縮",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：強調原始影像既有特徵而不增加原含資訊稱影像強化；須保留原檔及處理紀錄。",
+          "explanation": "壓縮處理影像編碼、冗餘及資料量；即使採無失真方式維持資訊，也不等於以凸顯特徵、改善觀看辨識為主要目的的強化。",
+          "correction": "分清檔案壓縮與影像分析；有失真壓縮可能損失細節，鑑識應妥善保護原始來源及處理紀錄。",
           "trueStatement": false
         }
       ],
@@ -3096,32 +3196,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第34題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 34,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
-        "checkedAt": "2026-11-20",
-        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
-        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
-        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "status": "none",
+        "law": "法務部刑政中心刊載・溫哲彥〈影像處理技術於偵查與鑑識之應用—由二維到三維空間〉；法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第55點",
+        "checkedAt": "2026-11-23",
+        "note": "已讀官方刊載影像研究印刷240頁之強化／還原直接比較及三維紀錄章節，並以歷史影音保存規定補充原檔界線；已核是本題技術概念，不宣稱任意演算法輸出均有證據能力。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "強化改善既有資訊可讀性；還原處理退化，重建建立模型，壓縮處理編碼容量。",
         "sources": [
           {
-            "title": "考選部112年犯罪偵查概要原卷",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
+            "title": "法務部刑政中心刊載・溫哲彥〈影像處理技術於偵查與鑑識之應用—由二維到三維空間〉",
+            "url": "https://www.cprc.moj.gov.tw/media/8768/79291473538.pdf?mediadl=true"
           },
           {
-            "title": "考選部112年犯罪偵查概要標準答案",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
+            "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第55點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
           }
         ]
       },
-      "takeaway": "強調原始影像既有特徵而不增加原含資訊稱影像強化；須保留原檔及處理紀錄。",
+      "takeaway": "強化改善既有資訊可讀性；還原處理退化，重建建立模型，壓縮處理編碼容量。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -3138,9 +3237,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "法務部刑政中心刊載・溫哲彥〈影像處理技術於偵查與鑑識之應用—由二維到三維空間〉",
+          "url": "https://www.cprc.moj.gov.tw/media/8768/79291473538.pdf?mediadl=true"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第55點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
         }
       ],
-      "currentAnswer": "保留當年度官方答案A。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
+      "currentAnswer": "原官方答案A不變。官方影像鑑識研究以調整亮度、對比強化既有紋路為例，目的在改善可讀性，並未創造原影像不存在的資訊。"
     },
     {
       "id": "investigation112_35",
@@ -3337,26 +3444,26 @@
       "options": [
         {
           "text": "會面地點最好約在上班場所，見面方便又避免在外衍生風紀問題",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "會面地點應兼顧保密與安全，不應一概約在上班場所而暴露諮詢關係。",
+          "explanation": "在工作場所見面可能暴露諮詢對象出入、接觸關係與身分，便利並不足以證明安全；手冊第37、41、42點要求秘密運用、身分保密與交付任務謹慎。",
+          "correction": "應依對象風險、保密需要及接觸交往規定選擇合適方式；不能因避免外出風紀疑慮，就固定把上班場所列為最好會面點。",
           "trueStatement": false
         },
         {
           "text": "儘量避免用本身手機與線民聯絡，利用公共電話是最安全方式",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：會面地點應兼顧保密與安全，不應一概約在上班場所而暴露諮詢關係。",
+          "explanation": "避免因私人手機暴露關係，是可理解的保密考量；但公共電話仍可能受周遭觀察、影像或通聯情境影響，不能僅因不使用個人手機就推論其必然最安全。",
+          "correction": "「最安全」屬過度絕對的用語；應依授權的聯絡機制與個案風險評估。本次沒有讀到足以支持此絕對命題的完整內規，因此不把原題其餘選項全列已核。",
           "trueStatement": true
         },
         {
           "text": "單線聯繫，線民之間不得有縱橫聯繫，以確保其身分安全",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：會面地點應兼顧保密與安全，不應一概約在上班場所而暴露諮詢關係。",
+          "explanation": "單線聯繫及限制不同來源相互認識，目的在減少身分與情報網絡暴露；這與手冊第41、42點的身分保密、謹慎交付任務方向相符。",
+          "correction": "這是保密管理思路，不表示所有實務聯繫細節均已由已讀條文證實；「不得縱橫聯繫」的完整內規文字與例外仍待原件核對。",
           "trueStatement": true
         },
         {
           "text": "線民如遇有不法行為或提供不實情資，應告知法律保障權限，保持距離並採取斷聯措施",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：會面地點應兼顧保密與安全，不應一概約在上班場所而暴露諮詢關係。",
+          "explanation": "來源提供不實情報時，應回到手冊第45點檢查其動機、目的及可靠性；來源涉不法，也不能因曾協助辦案便給予法律豁免或讓其直接參與辦案行動。",
+          "correction": "應遵守接觸交往及刑事處理規定，評估停止運用等措施並保留必要紀錄；不是單純斷聯就可不處理已知犯罪。原題「法律保障權限」與強制斷聯的精確條件仍待內規核對。",
           "trueStatement": true
         }
       ],
@@ -3373,13 +3480,21 @@
       "paperTrack": "內軌",
       "paperNumber": 37,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+        "checkedAt": "2026-11-23",
+        "note": "已核手冊第37至45點秘密運用、來源保密、可靠性與交往規定；但完整情報布建作業內規未取得，B「公共電話最安全」及C、D精確處置文字不能以一般保密原則全部證成。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "保護來源、限制知悉範圍並檢驗情資可靠性；保密不是包庇不法，聯絡工具也沒有脫離情境的一律最安全方案。",
+        "sources": [
+          {
+            "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ]
       },
-      "takeaway": "會面地點應兼顧保密與安全，不應一概約在上班場所而暴露諮詢關係。",
+      "takeaway": "保護來源、限制知悉範圍並檢驗情資可靠性；保密不是包庇不法，聯絡工具也沒有脫離情境的一律最安全方案。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -3396,8 +3511,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "保留112年官方答案A。會面應依保密、安全與交往規範評估；不能逕把工作場所或公共電話教成必然最安全選擇，B至D特定內規仍待核。"
     },
     {
       "id": "investigation112_38",
@@ -3494,26 +3614,26 @@
       "options": [
         {
           "text": "屬於初篩鑑定",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：現場拉曼多屬初篩且常反映主要成分，不能保證辨出所有成分或直接推算純質淨重。",
+          "explanation": "114官方研習報告將可攜式儀器定位為現場樣品偵測、提供偵辦方向及選擇後續採證的工具；本題拉曼初篩須與實驗室確認鑑驗分開。",
+          "correction": "初篩結果應附實際儀器、方法與限制，不能只以現場讀值當最終完整成分報告。",
           "trueStatement": true
         },
         {
           "text": "可檢測出毒品證物的所有成分",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "現場拉曼多屬初篩且常反映主要成分，不能保證辨出所有成分或直接推算純質淨重。",
+          "explanation": "B的所有成分是無條件保證；混合比例、偵測極限、螢光或資料庫等均可能影響光譜辨識，不能從一項命中推出全部化學成分均已排除或列完。",
+          "correction": "改為僅能依儀器條件與方法辨識可檢出的成分，必要時送實驗室分離、確認及其他鑑驗；本輪完整機型原件尚缺。",
           "trueStatement": false
         },
         {
           "text": "檢測結果通常僅為毒品證物的主成分",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：現場拉曼多屬初篩且常反映主要成分，不能保證辨出所有成分或直接推算純質淨重。",
+          "explanation": "題示通常反映主成分，提醒混合物中訊號較強者可能主導辨識；不能反向把通常寫成每一機型、每種樣品都只可能有一成分。",
+          "correction": "主成分與微量摻入物分開理解，實際能否多成分辨識須看經驗證的方法及報告，不用官方B替代所有儀器規格。",
           "trueStatement": true
         },
         {
           "text": "檢測結果無法推估毒品的純質淨重",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：現場拉曼多屬初篩且常反映主要成分，不能保證辨出所有成分或直接推算純質淨重。",
+          "explanation": "純質淨重還涉及淨重與定量純度；現場定性篩驗顯示某成分，不能直接計算其所占純物質重量。",
+          "correction": "依適當秤量與經驗證定量方法計算，明示抽樣、純度及不確定性；不是說所有實驗室拉曼相關方法在原理上一概不能定量。",
           "trueStatement": true
         }
       ],
@@ -3530,26 +3650,21 @@
       "paperTrack": "內軌",
       "paperNumber": 39,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
-        "checkedAt": "2026-11-20",
-        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
-        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
-        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "law": "基隆市警察局114.10.20赴美現場重建研習報告・第21—23頁（web工具實讀）",
+        "checkedAt": "2026-11-23",
+        "note": "已讀官方研習報告可攜式儀器定位；刑事局98期相關PDF直接503、web工具又因內容過大未取得，不以檢索片段冒稱已讀全文。拉曼各項技術機型原件尚缺，因此整題保留待核。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "現場儀器提供初步線索；檢出不等於成分全列，更不等於已測出純度或純質淨重。",
         "sources": [
           {
-            "title": "考選部112年犯罪偵查概要原卷",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
-          },
-          {
-            "title": "考選部112年犯罪偵查概要標準答案",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
+            "title": "基隆市警察局114.10.20赴美現場重建研習報告・第21—23頁（web工具實讀）",
+            "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
           }
         ]
       },
-      "takeaway": "現場拉曼多屬初篩且常反映主要成分，不能保證辨出所有成分或直接推算純質淨重。",
+      "takeaway": "現場儀器提供初步線索；檢出不等於成分全列，更不等於已測出純度或純質淨重。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -3566,9 +3681,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "基隆市警察局114.10.20赴美現場重建研習報告・第21—23頁（web工具實讀）",
+          "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
         }
       ],
-      "currentAnswer": "保留當年度官方答案B。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
+      "currentAnswer": "原官方答案B保留。手持拉曼現場讀值不能保證辨出混合證物全部成分；初篩、主成分辨識與純度／純質淨重定量必須分開。實際機型及全部限制的完整官方技術原件仍待核。"
     },
     {
       "id": "investigation112_40",
@@ -3580,26 +3699,26 @@
       "options": [
         {
           "text": "所稱之主管機關為衛生福利部",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：係特定人口中該DNA型別重複出現的頻率；不等於資料庫命中即百分之百確定同一人。",
+          "explanation": "採樣條例第2條明定主管機關是內政部。採樣可能需要醫事專業協助，不會因此把本條例的主管機關改成衛生福利部。",
+          "correction": "將衛生福利部改為內政部；施行細則第2條另規定由內政部警政署刑事警察局辦理相關業務。",
           "trueStatement": false
         },
         {
           "text": "法院或檢察官認為有必要進行去氧核糖核酸比對時，應以通知單通知受採樣人接受採樣",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：係特定人口中該DNA型別重複出現的頻率；不等於資料庫命中即百分之百確定同一人。",
+          "explanation": "條例第6條規定，法院或檢察官認有比對必要時，以「傳票」通知第5條所列之人接受採樣；本項寫成通知單，文書名稱錯誤。",
+          "correction": "法院或檢察官的傳票，與第7條司法警察機關實施強制採樣前的通知書，要分別記憶；警察經合法通知無正當理由不到場時，得報請檢察官核發拘票。",
           "trueStatement": false
         },
         {
           "text": "去氧核糖核酸係指人體中記載神經傳導訊息之化學物質",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：係特定人口中該DNA型別重複出現的頻率；不等於資料庫命中即百分之百確定同一人。",
+          "explanation": "條例第3條第1款將去氧核醣核酸定義為人體中記載「遺傳訊息」的化學物質。神經傳導是在神經系統傳遞訊號的作用，與法條此處的遺傳訊息不同。",
+          "correction": "將神經傳導訊息改為遺傳訊息；本題在辨識法定名詞，不能因都是人體資訊便混用。",
           "trueStatement": false
         },
         {
           "text": "型別出現頻率係指主管機關所採用之鑑定系統，在特定人口中，去氧核糖核酸型別重複出現之頻率",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "係特定人口中該DNA型別重複出現的頻率；不等於資料庫命中即百分之百確定同一人。",
+          "explanation": "條例第3條第4款的型別出現頻率，正是主管機關採用的鑑定系統中，特定人口內該DNA型別重複出現的頻率。本項保留了鑑定系統與特定人口兩個限定。",
+          "correction": "應依採用系統與相應人口資料解讀頻率；不能把罕見型別、資料庫命中或型別相符，直接換算成被比對者有罪或必為同一人的百分比。",
           "trueStatement": true
         }
       ],
@@ -3610,32 +3729,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第40題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 40,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
-        "checkedAt": "2026-11-20",
-        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
-        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
-        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "status": "none",
+        "law": "去氧核醣核酸採樣條例第2、3、6、7條；去氧核醣核酸採樣條例施行細則第2條",
+        "checkedAt": "2026-11-23",
+        "note": "已以採樣條例第2條、第3條第1款與第4款、第6條及第7條逐項核對；原官方答案D與本次所讀現行條文一致。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "分清主管機關、傳票與通知書，以及DNA型別頻率的定義；頻率不是某人有罪或身分百分之百確定的機率。",
         "sources": [
           {
-            "title": "考選部112年犯罪偵查概要原卷",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
+            "title": "去氧核醣核酸採樣條例第2、3、6、7條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080186"
           },
           {
-            "title": "考選部112年犯罪偵查概要標準答案",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
+            "title": "去氧核醣核酸採樣條例施行細則第2條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080187"
           }
         ]
       },
-      "takeaway": "係特定人口中該DNA型別重複出現的頻率；不等於資料庫命中即百分之百確定同一人。",
+      "takeaway": "分清主管機關、傳票與通知書，以及DNA型別頻率的定義；頻率不是某人有罪或身分百分之百確定的機率。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -3652,9 +3770,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "去氧核醣核酸採樣條例第2、3、6、7條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080186"
+        },
+        {
+          "title": "去氧核醣核酸採樣條例施行細則第2條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080187"
         }
       ],
-      "currentAnswer": "保留當年度官方答案D。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
+      "currentAnswer": "D。主管機關為內政部；法院或檢察官依第6條以傳票通知；DNA記載遺傳訊息；型別出現頻率是特定人口中的頻率。"
     },
     {
       "id": "investigation112_41",
@@ -3852,26 +3978,26 @@
       "options": [
         {
           "text": "去中心化",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：鏈上交易紀錄可追蹤，假名或匿名特徵不等於不可追溯；實際人別仍需其他證據連結。",
+          "explanation": "公開區塊鏈通常由多個節點共同驗證及維護紀錄，去中心化是本題入門分類的特徵。但警專研究的司法聯盟鏈有成員與權限設計，去中心化程度會依架構改變。",
+          "correction": "區分公開鏈與聯盟鏈，不把去中心化解釋為所有鏈均無治理、無管理者或無存取權限。",
           "trueStatement": true
         },
         {
           "text": "匿名性",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：鏈上交易紀錄可追蹤，假名或匿名特徵不等於不可追溯；實際人別仍需其他證據連結。",
+          "explanation": "Bitcoin論文第10節說明公鑰與身分分離的隱私模型，但交易本身公開；當某公鑰持有人被辨識，關聯分析也可能連出其餘交易。因此此處匿名應理解為假名，並非絕對無法識別。",
+          "correction": "地址不是戶籍身分；假名不等於不可追蹤，交易所、裝置及其他證據的連結仍須另外證明。",
           "trueStatement": true
         },
         {
           "text": "不可竄改性",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：鏈上交易紀錄可追蹤，假名或匿名特徵不等於不可追溯；實際人別仍需其他證據連結。",
+          "explanation": "鏈結、雜湊及共識增加回改既有紀錄的難度，可維持監管鏈完整性；但這是依共識與攻擊成本而來的抗竄改能力，不能保證輸入資料原本真實，也不能概括排除重組或共識攻擊。",
+          "correction": "將不可竄改理解為有條件的抗竄改性；真實性、原始採證程序與保管鏈仍須獨立確認。",
           "trueStatement": true
         },
         {
           "text": "不可追溯性",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "鏈上交易紀錄可追蹤，假名或匿名特徵不等於不可追溯；實際人別仍需其他證據連結。",
+          "explanation": "區塊及交易彼此連結，公開紀錄可查驗前後交易與資產流向，因此不可追溯性不是本題所問的一般區塊鏈特徵。可追溯交易，仍不表示單靠地址即可證明誰實際控制資產。",
+          "correction": "本題選D；分開處理鏈上路徑、地址歸屬及犯罪構成的證明。",
           "trueStatement": false
         }
       ],
@@ -3882,32 +4008,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第43題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 43,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
-        "checkedAt": "2026-11-20",
-        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
-        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
-        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "status": "none",
+        "law": "臺灣警察專科學校：區塊鏈應用於證物監管鏈之研究，頁118–119及限制討論",
+        "checkedAt": "2026-11-23",
+        "note": "依警專區塊鏈研究與Bitcoin原始論文第2、10、11節核對。已核限題目所考的公開鏈基本特性，並補明聯盟鏈、共識攻擊、輸入資料及假名的限制；未宣稱所有加密貨幣均相同、所有地址都能直接找出持有人。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "鏈上交易可追溯，公鑰或地址不直接等於真實人別；仍須依法取得鏈外資料並交叉證明。",
         "sources": [
           {
-            "title": "考選部112年犯罪偵查概要原卷",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
-          },
-          {
-            "title": "考選部112年犯罪偵查概要標準答案",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
+            "title": "臺灣警察專科學校：區塊鏈應用於證物監管鏈之研究，頁118–119及限制討論",
+            "url": "https://educate.tpa.edu.tw/var/file/4/1004/img/390/535350963.pdf"
           }
         ]
       },
-      "takeaway": "鏈上交易紀錄可追蹤，假名或匿名特徵不等於不可追溯；實際人別仍需其他證據連結。",
+      "takeaway": "鏈上交易可追溯，公鑰或地址不直接等於真實人別；仍須依法取得鏈外資料並交叉證明。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -3924,9 +4045,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "臺灣警察專科學校：區塊鏈應用於證物監管鏈之研究，頁118–119及限制討論",
+          "url": "https://educate.tpa.edu.tw/var/file/4/1004/img/390/535350963.pdf"
+        },
+        {
+          "title": "Satoshi Nakamoto：Bitcoin: A Peer-to-Peer Electronic Cash System，第2、10、11節",
+          "url": "https://bitcoin.org/bitcoin.pdf"
         }
       ],
-      "currentAnswer": "保留當年度官方答案D。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
+      "currentAnswer": "保留當年度官方答案D。已核公開鏈交易可追溯的概念；匿名性宜理解為假名，難竄改也不是對所有區塊鏈的絕對保證。"
     },
     {
       "id": "investigation112_44",
@@ -4031,26 +4160,26 @@
       "options": [
         {
           "text": "ping",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "ping用於測試主機連通及回應；ipconfig、tracert、nslookup的用途不同。",
+          "explanation": "ping傳送ICMP Echo Request並顯示Echo Reply及往返時間，適合初步檢查本機與目的IP間的連通情形，因此是本題答案。它測的是IP層可達性，不是每個TCP連接埠的服務狀態。",
+          "correction": "有回應不代表所有TCP／應用程式均正常；無回應還須排除防火牆、路由及ICMP過濾等原因。",
           "trueStatement": true
         },
         {
           "text": "ipconfig",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：ping用於測試主機連通及回應；ipconfig、tracert、nslookup的用途不同。",
+          "explanation": "ipconfig顯示或管理本機IP、遮罩、預設閘道、DNS與DHCP等組態，能協助查本地設定，但其主要作用不是向指定遠端主機送Echo請求並觀察回覆。",
+          "correction": "先以ipconfig檢查本機組態，再用適當指令測目的端；不能單憑本機位址已配置就證明遠端可達。",
           "trueStatement": false
         },
         {
           "text": "tracert",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：ping用於測試主機連通及回應；ipconfig、tracert、nslookup的用途不同。",
+          "explanation": "tracert利用遞增TTL顯示往目的端的路由及各跳回應，主要用來定位路徑或中途問題；部分節點不回覆也不必然等於路徑中斷。",
+          "correction": "本題基礎回應測試選ping；需要檢視經過哪些路由器時再用tracert輔助。",
           "trueStatement": false
         },
         {
           "text": "nslookup",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：ping用於測試主機連通及回應；ipconfig、tracert、nslookup的用途不同。",
+          "explanation": "nslookup查詢DNS名稱、位址或其他資源紀錄，測試的是名稱解析。DNS能解析，不保證該位址可達，更不表示目的端應用服務運作正常。",
+          "correction": "將名稱解析與IP連通分開診斷；nslookup不能代替本題的ICMP往返測試。",
           "trueStatement": false
         }
       ],
@@ -4061,39 +4190,38 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第45題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 45,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
-        "checkedAt": "2026-11-20",
-        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
-        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
-        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "status": "none",
+        "law": "考選部112年犯罪偵查概要原卷（題意範圍）；考選部112年犯罪偵查概要標準答案（當年給分）",
+        "checkedAt": "2026-11-23",
+        "note": "已逐一實讀Microsoft四個Windows指令原始文件。題幹TCP/IP參數是否正常應限縮理解為基礎連通診斷，不能由一次ping斷言所有TCP或應用服務正常。原卷來源只保留題意及給分，實際技術定義見Microsoft文件。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "ping測IP層回應；ipconfig看本機組態、tracert看路由、nslookup查DNS，各有不同用途。",
         "sources": [
           {
-            "title": "考選部112年犯罪偵查概要原卷",
+            "title": "考選部112年犯罪偵查概要原卷（題意範圍）",
             "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
           },
           {
-            "title": "考選部112年犯罪偵查概要標準答案",
+            "title": "考選部112年犯罪偵查概要標準答案（當年給分）",
             "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
           }
         ]
       },
-      "takeaway": "ping用於測試主機連通及回應；ipconfig、tracert、nslookup的用途不同。",
+      "takeaway": "ping測IP層回應；ipconfig看本機組態、tracert看路由、nslookup查DNS，各有不同用途。",
       "sources": [
         {
-          "title": "考選部・112年官方原卷",
+          "title": "考選部112年犯罪偵查概要原卷（題意範圍）",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
         },
         {
-          "title": "考選部・原始標準答案",
+          "title": "考選部112年犯罪偵查概要標準答案（當年給分）",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
         },
         {
@@ -4103,9 +4231,25 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "Microsoft Windows Commands：ping",
+          "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ping"
+        },
+        {
+          "title": "Microsoft Windows Commands：ipconfig",
+          "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ipconfig"
+        },
+        {
+          "title": "Microsoft Windows Commands：tracert",
+          "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert"
+        },
+        {
+          "title": "Microsoft Windows Commands：nslookup",
+          "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup"
         }
       ],
-      "currentAnswer": "保留當年度官方答案A。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
+      "currentAnswer": "保留當年度官方答案A。ping以ICMP Echo測試IP層可達性；成功不保證TCP埠及應用服務正常，逾時也可能是ICMP被過濾。"
     },
     {
       "id": "investigation112_46",
@@ -4202,26 +4346,26 @@
       "options": [
         {
           "text": "資料還原技術：因關鍵資料被刪除，數位鑑識人員利用資料還原工具，還原被刪除資料，也會檢視 磁碟中的未配置空間或已刪除的分隔磁區，試圖找出或還原被刪除的資料",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：關鍵字搜尋等鑑識分析原則使用適當複製品並保護原件，不宜直接在原件上反覆操作。",
+          "explanation": "資料還原旨在找回已刪除但尚可辨識的資料。刪除檔案名稱或配置紀錄，不代表相關儲存區立即全數抹除；是否可復原仍取決於覆寫、加密與媒體處理狀態。",
+          "correction": "不可保證刪除資料一定可救回；本次已讀官方來源確認「資料還原」為鑑識類型，但未取得未配置空間與刪除分隔磁區的完整直接教材，該細節仍待核。",
           "trueStatement": true
         },
         {
           "text": "關鍵字搜尋：若已知與案情相關的關鍵字，可利用數位鑑識工具針對數位鑑識原件執行關鍵字搜尋 作業，以利快速找出相關聯的資料或檔案",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "關鍵字搜尋等鑑識分析原則使用適當複製品並保護原件，不宜直接在原件上反覆操作。",
+          "explanation": "把一般關鍵字分析直接放在原件上反覆操作，可能改變存取資訊或其他系統狀態，增加說明證據同一性與未受污染的負擔。已讀官方研習報告要求建立映像、雜湊核對，後續分析在副本進行。",
+          "correction": "改為在經適當取得、驗證及保存的鑑識副本上搜尋；如需現場擷取或其他必須接觸原設備的處置，應交由適任人員操作並完整記錄，不能與後續一般分析混為一談。",
           "trueStatement": false
         },
         {
           "text": "行為分析技術：利用數位鑑識工具找出網頁瀏覽紀錄、下載紀錄或系統登入時間等資訊，進一步分 析判斷使用者可能的行為模式",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：關鍵字搜尋等鑑識分析原則使用適當複製品並保護原件，不宜直接在原件上反覆操作。",
+          "explanation": "網頁、下載、登入等紀錄可用於重建裝置上的操作線索；司法周刊亦說明利用伺服器連線及電腦存取紀錄分析行為軌跡，以篩出可能相關資料。",
+          "correction": "裝置或帳號上的紀錄不當然證明是哪一自然人親自操作，仍須核對共用設備、帳號冒用、遠端存取與其他證據。",
           "trueStatement": true
         },
         {
           "text": "時間序列分析技術：藉由時間序列分析可還原事件發生的前因後果，但時間資訊的正確與否，會嚴 重影響數位鑑識結果",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：關鍵字搜尋等鑑識分析原則使用適當複製品並保護原件，不宜直接在原件上反覆操作。",
+          "explanation": "建立、修改、存取時間是不同欄位，系統時區或時鐘設定也可能不同。司法周刊明示搜扣時應留意這些差異，否則時間排序會誤導事件重建。",
+          "correction": "分析前先記錄時區、時鐘偏差及各種時間欄位的意義；時間序列需與其他紀錄交叉核對，不能只憑單一時間戳直接下結論。",
           "trueStatement": true
         }
       ],
@@ -4238,26 +4382,29 @@
       "paperTrack": "內軌",
       "paperNumber": 47,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
-        "checkedAt": "2026-11-20",
-        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
-        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
-        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "law": "基隆市政府警察局114年赴美鑑識研習報告（實讀PDF第6–11頁，數位採證技術與保全限制）；司法周刊2048期：智財法院邀周士楨科長談營業秘密與數位鑑識（110.4.1）；司法周刊2095期：智慧商業法院邀錢世傑助理教授談證據之搜扣及數位鑑識（111.3.4）",
+        "checkedAt": "2026-11-23",
+        "note": "已取得官方鑑識研習報告第10–11頁的防寫、映像、雜湊與後續分析副本原則，以及司法周刊的行為與時間資料說明；A所列未配置空間、已刪除分隔磁區的完整技術教材尚未取得，保留全題待核。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "先保全原件與可驗證副本，再進行搜尋、行為及時間分析；時間欄位、時區與裝置設定都會影響結論。",
         "sources": [
           {
-            "title": "考選部112年犯罪偵查概要原卷",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
+            "title": "基隆市政府警察局114年赴美鑑識研習報告（實讀PDF第6–11頁，數位採證技術與保全限制）",
+            "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
           },
           {
-            "title": "考選部112年犯罪偵查概要標準答案",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
+            "title": "司法周刊2048期：智財法院邀周士楨科長談營業秘密與數位鑑識（110.4.1）",
+            "url": "https://www.judicial.gov.tw/tw/cp-1429-400841-340f3-1.html"
+          },
+          {
+            "title": "司法周刊2095期：智慧商業法院邀錢世傑助理教授談證據之搜扣及數位鑑識（111.3.4）",
+            "url": "https://www.judicial.gov.tw/tw/cp-1429-598727-61388-1.html"
           }
         ]
       },
-      "takeaway": "關鍵字搜尋等鑑識分析原則使用適當複製品並保護原件，不宜直接在原件上反覆操作。",
+      "takeaway": "先保全原件與可驗證副本，再進行搜尋、行為及時間分析；時間欄位、時區與裝置設定都會影響結論。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -4274,9 +4421,21 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "基隆市政府警察局114年赴美鑑識研習報告（實讀PDF第6–11頁，數位採證技術與保全限制）",
+          "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
+        },
+        {
+          "title": "司法周刊2048期：智財法院邀周士楨科長談營業秘密與數位鑑識（110.4.1）",
+          "url": "https://www.judicial.gov.tw/tw/cp-1429-400841-340f3-1.html"
+        },
+        {
+          "title": "司法周刊2095期：智慧商業法院邀錢世傑助理教授談證據之搜扣及數位鑑識（111.3.4）",
+          "url": "https://www.judicial.gov.tw/tw/cp-1429-598727-61388-1.html"
         }
       ],
-      "currentAnswer": "保留當年度官方答案B。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
+      "currentAnswer": "保留112年官方答案B。後續關鍵字分析應以適當取得並驗證的鑑識副本為原則；資料還原之細部範圍仍待完整技術來源核對。"
     },
     {
       "id": "investigation112_48",
@@ -4288,26 +4447,26 @@
       "options": [
         {
           "text": "了解案件之屬性，以利後續處理；若是嫌犯仍在現場，立即逮捕速將其帶離現場",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：初始察看重在傷患、危險、嫌犯及案件屬性，安排長官巡視路線不是主要目的。",
+          "explanation": "115手冊第54、55點要求觀察現場嫌犯動靜，於依法逮捕後立即帶離；了解案件屬性亦利指揮、支援與後續勘察。",
+          "correction": "須先有合法拘捕依據，不因懷疑身分或僅在現場就能任意逮捕；依法處理後避免嫌犯影響現場。",
           "trueStatement": false
         },
         {
           "text": "觀察現場，預作安排長官到場之巡視路線",
-          "explanation": "本項為當年度官方接受答案B。",
-          "correction": "初始察看重在傷患、危險、嫌犯及案件屬性，安排長官巡視路線不是主要目的。",
+          "explanation": "115手冊第51至57點重點是救護、嫌犯處理與保全；103版第16點亦列全場、人員與跡證觀察，沒有把安排長官巡視當主要目的。",
+          "correction": "應以救護、安全及跡證保全規劃必要動線，不為參訪或巡視改動、清理或污染現場。",
           "trueStatement": true
         },
         {
           "text": "查看是否有潛在之危險？並視危險狀況通報刑事及鑑識單位支援",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：初始察看重在傷患、危險、嫌犯及案件屬性，安排長官巡視路線不是主要目的。",
+          "explanation": "103版第22點對疑似爆裂物要求先專業排除危害，115手冊第70點同樣區分安全排除與後續勘察，說明先看潛在危害有直接依據。",
+          "correction": "依危害程度隔離、通報與請求適當專業支援；不能要求初抵員警自行處理超出能力的危險物。",
           "trueStatement": false
         },
         {
           "text": "探查是否有須立即救護之傷患，以利即時處理",
-          "explanation": "本項不在當年度官方接受答案（B）內。",
-          "correction": "請與本題考點對照：初始察看重在傷患、危險、嫌犯及案件屬性，安排長官巡視路線不是主要目的。",
+          "explanation": "115手冊第51點明定查看傷患，不論被害人或加害人均應迅速救護或送醫；第52點要求盡量避免破壞現場、無法避免則必要記錄。",
+          "correction": "救護不因等待刑事或鑑識人員而一概延後；必要變動及物品交接須記錄。",
           "trueStatement": false
         }
       ],
@@ -4318,32 +4477,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜犯罪偵查概要｜第48題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 48,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
-        "checkedAt": "2026-11-20",
-        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
-        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
-        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "status": "none",
+        "law": "警專公開115版警察偵查犯罪手冊（完整主文）・第51、52、54、55、57、70點；法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第16、22點",
+        "checkedAt": "2026-11-23",
+        "note": "已直接核115完整主文救護、嫌犯處理及排除危害相關點次；歷史鑑識手冊只補現場觀察與安全原則，不將行政手冊當拘捕或搜索的獨立授權。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "初始察看先救命、查危害、辨案情及嫌犯；安全處置與證物保全並行。",
         "sources": [
           {
-            "title": "考選部112年犯罪偵查概要原卷",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
+            "title": "警專公開115版警察偵查犯罪手冊（完整主文）・第51、52、54、55、57、70點",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
           },
           {
-            "title": "考選部112年犯罪偵查概要標準答案",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
+            "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第16、22點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
           }
         ]
       },
-      "takeaway": "初始察看重在傷患、危險、嫌犯及案件屬性，安排長官巡視路線不是主要目的。",
+      "takeaway": "初始察看先救命、查危害、辨案情及嫌犯；安全處置與證物保全並行。",
       "sources": [
         {
           "title": "考選部・112年官方原卷",
@@ -4360,9 +4518,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "警專公開115版警察偵查犯罪手冊（完整主文）・第51、52、54、55、57、70點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第16、22點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
         }
       ],
-      "currentAnswer": "保留當年度官方答案B。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
+      "currentAnswer": "原官方答案B不變。初抵現場優先救護、辨識案件與嫌犯、排除危害並保全跡證；安排長官巡視路線不是初始察看的主要目的。"
     },
     {
       "id": "investigation112_49",
@@ -4467,26 +4633,26 @@
       "options": [
         {
           "text": "site",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：搜尋網頁標題用intitle；site限制網站，filetype限制檔案類型，OR表示擇一條件。",
+          "explanation": "site:用來限制搜尋的網站或網域，例如只看某機關網站下的結果；它限制來源範圍，不要求關鍵字出現在網頁標題。",
+          "correction": "題目問標題範圍，應用intitle:；如另要限定機關網站，可再搭配site:。",
           "trueStatement": false
         },
         {
           "text": "filetype",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：搜尋網頁標題用intitle；site限制網站，filetype限制檔案類型，OR表示擇一條件。",
+          "explanation": "filetype:依檔案格式篩選，例如PDF，篩選的維度是格式而不是標題是否含指定文字。PDF文件即使符合格式，其標題也未必符合搜尋目的。",
+          "correction": "先分清標題條件與檔案類型；需要PDF時可另加filetype:pdf。",
           "trueStatement": false
         },
         {
           "text": "OR",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：搜尋網頁標題用intitle；site限制網站，filetype限制檔案類型，OR表示擇一條件。",
+          "explanation": "OR作為替代條件的邏輯連接概念，例如兩個名稱任一出現即可；它本身不是把搜尋欄位鎖定為網頁標題的運算子。",
+          "correction": "OR與標題限制用途不同；本題不以OR代替intitle:，完整現行語法仍待官方原件補核。",
           "trueStatement": false
         },
         {
           "text": "intitle",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "搜尋網頁標題用intitle；site限制網站，filetype限制檔案類型，OR表示擇一條件。",
+          "explanation": "公開訓練講義將intitle:列為以網頁標題搜尋的語法，與本題指定標題的條件一致，故保留當年D。這項語法不保證搜尋服務收錄所有頁面或完全照字面回傳。",
+          "correction": "以intitle:關鍵字表達標題條件，仍檢查結果標題、原頁與索引更新情形，並保留版本查核缺口。",
           "trueStatement": true
         }
       ],
@@ -4503,33 +4669,32 @@
       "paperTrack": "內軌",
       "paperNumber": 50,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
-        "checkedAt": "2026-11-20",
-        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
-        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
-        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "law": "考選部112年犯罪偵查概要原卷（題意範圍）；考選部112年犯罪偵查概要標準答案（當年給分）",
+        "checkedAt": "2026-11-23",
+        "note": "已實讀2018年國網資安訓練之公立學校公開講義，其中intitle、site及filetype表格可供歷史教學概念對照。Google官方頁直接取得429，另由web工具讀到的現行搜尋說明只涵蓋site、filetype等部分項目；國圖連結410未取得，不假稱已讀完整。OR及當前完整語法原件尚不足，保留review；搜尋結果本身也不是司法證據真實性的保證。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "查標題用intitle:；site:限網站或網域，filetype:限格式，OR連接替代查詢條件，均應實際檢視搜尋結果。",
         "sources": [
           {
-            "title": "考選部112年犯罪偵查概要原卷",
+            "title": "考選部112年犯罪偵查概要原卷（題意範圍）",
             "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
           },
           {
-            "title": "考選部112年犯罪偵查概要標準答案",
+            "title": "考選部112年犯罪偵查概要標準答案（當年給分）",
             "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
           }
         ]
       },
-      "takeaway": "搜尋網頁標題用intitle；site限制網站，filetype限制檔案類型，OR表示擇一條件。",
+      "takeaway": "查標題用intitle:；site:限網站或網域，filetype:限格式，OR連接替代查詢條件，均應實際檢視搜尋結果。",
       "sources": [
         {
-          "title": "考選部・112年官方原卷",
+          "title": "考選部112年犯罪偵查概要原卷（題意範圍）",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=Q"
         },
         {
-          "title": "考選部・原始標準答案",
+          "title": "考選部112年犯罪偵查概要標準答案（當年給分）",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=S"
         },
         {
@@ -4539,9 +4704,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=112070&q=1&s=1405&t=M"
+        },
+        {
+          "title": "2018年國網中心網路攻防實務講義：Google Hacking搜尋語法表（板橋國小公開存本）",
+          "url": "https://webnas.bhes.ntpc.edu.tw/wordpress/wp-content/uploads/2018/12/%E6%96%B0%E5%8C%97%E5%B8%82%E7%B6%B2_-%E7%B6%B2%E8%B7%AF%E6%94%BB%E9%98%B2%E5%AF%A6%E5%8B%99_20181211_%E8%AC%9B%E7%BE%A9%E7%89%88.pdf"
         }
       ],
-      "currentAnswer": "保留當年度官方答案D。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
+      "currentAnswer": "保留當年度官方答案D。已補site、filetype、OR與intitle各自用途；目前讀到的Google官方說明未完整列出本題四種語法，現行完整語法及版本依據仍待補核。"
     }
   ],
   "essays": []

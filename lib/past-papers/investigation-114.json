@@ -653,26 +653,26 @@
       "options": [
         {
           "text": "採取生物跡證參考檢體時，優先採取唾液檢體，其次為血液檢體",
-          "explanation": "本項為當年度官方接受答案A。",
-          "correction": "本題先唾液、後血液；不同組織保存條件及性侵害證物保存期間須依類型判斷。",
+          "explanation": "103版第59點及現行DNA樣本採集準則第4條都列唾液優先、其次血液；普通參考檢體仍先確認合法同意或其他法定採樣依據。",
+          "correction": "A的次序符合所引來源，但不免除法律程序、身分確認及採取方法的個別要求。",
           "trueStatement": true
         },
         {
           "text": "肌肉、骨骼、人體組織等生物跡證無法立即送鑑時，應冷藏暫存",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題先唾液、後血液；不同組織保存條件及性侵害證物保存期間須依類型判斷。",
+          "explanation": "103版第58點第3款明文肌肉、骨骼、人體組織宜冷凍保存，立即送鑑者可冷藏暫存；B把無法立即送鑑寫成冷藏，省略條件。",
+          "correction": "依證物類型、是否立即送鑑及接收實驗室規範維持適當保存；不把所有組織一律以冷藏處理。",
           "trueStatement": false
         },
         {
           "text": "執行去氧核醣核酸採樣前，無須確認被採樣人在去氧核醣核酸資料庫中有無資料",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題先唾液、後血液；不同組織保存條件及性侵害證物保存期間須依類型判斷。",
+          "explanation": "現行DNA樣本採集準則第3條明列先確認身分及資料庫中無資料；條例另規定不得任意重複採樣的規則及例外，C的一律無須確認不當。",
+          "correction": "先查資料庫並核重採例外；不能由已有資料就一律重採，亦不把查無資料當可無法源採樣的授權。",
           "trueStatement": false
         },
         {
           "text": "疑似性侵害案件之被害人血液及胚胎，於鑑定後由實驗室保存 3 個月後銷毀",
-          "explanation": "本項不在當年度官方接受答案（A）內。",
-          "correction": "請與本題考點對照：本題先唾液、後血液；不同組織保存條件及性侵害證物保存期間須依類型判斷。",
+          "explanation": "103版第64點第2款對被害人血液及胚胎寫鑑定後6個月，並非D的3個月；但該歷史段落含其他已需依現行性侵保護制度重核的規定。",
+          "correction": "3個月不符已讀歷史原文；完整現行保管、通知領回與銷毀規範未齊，不直接把舊6個月改當2026所有個案的銷毀期限。",
           "trueStatement": false
         }
       ],
@@ -689,13 +689,29 @@
       "paperTrack": "內軌",
       "paperNumber": 8,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "去氧核醣核酸樣本採集準則現行全文；去氧核醣核酸採樣條例現行全文；法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第58、59、64、65點",
+        "checkedAt": "2026-11-23",
+        "note": "已核現行DNA準則第3、4條與條例重採原則及103歷史手冊；114指定版與現行全部性侵證物保管規範未齊。以歷史版支持題目辨識，同時撤除無條件期滿銷毀的讀法，整題仍待核。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "先依法確認採樣，再按證物性質保存；舊3個月／6個月數字不當成所有現行銷毀期限。",
+        "sources": [
+          {
+            "title": "去氧核醣核酸樣本採集準則現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080196"
+          },
+          {
+            "title": "去氧核醣核酸採樣條例現行全文",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080186"
+          },
+          {
+            "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第58、59、64、65點",
+            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+          }
+        ]
       },
-      "takeaway": "本題先唾液、後血液；不同組織保存條件及性侵害證物保存期間須依類型判斷。",
+      "takeaway": "先依法確認採樣，再按證物性質保存；舊3個月／6個月數字不當成所有現行銷毀期限。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -712,8 +728,21 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "去氧核醣核酸樣本採集準則現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080196"
+        },
+        {
+          "title": "去氧核醣核酸採樣條例現行全文",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080186"
+        },
+        {
+          "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第58、59、64、65點",
+          "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案A保留。現行DNA準則支持唾液優先及先確認資料庫；103版手冊對組織是冷凍為宜、立即送鑑才冷藏暫存，並非無法即送一律冷藏。性侵證物保存期限的完整現行配套未齊，不能用舊手冊直接命令銷毀。"
     },
     {
       "id": "investigation114_09",
@@ -1639,26 +1668,26 @@
       "options": [
         {
           "text": "①④",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：須合法在場、物品證據性明顯且可合法接觸，不以公共場所為唯一適用場域，組合②③④。",
+          "explanation": "①把適用場域限制成公共場所或公眾得出入處，判決並未列此要件；只有④可合法接觸，也不足以取代②合法在場和③證據性明顯。",
+          "correction": "刪除①，補齊②③；私人場所若存在獨立的合法在場與接觸理由，也須逐一審查，而非只看場所名稱。",
           "trueStatement": false
         },
         {
           "text": "僅②③",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：須合法在場、物品證據性明顯且可合法接觸，不以公共場所為唯一適用場域，組合②③④。",
+          "explanation": "②合法在場與③明顯出現只是其中兩個條件。即使隔著某個空間看見疑似證物，仍不能省略④而任意侵入另一受保護空間取得。",
+          "correction": "還要有可合法接觸該證物的理由，三要件應合併判斷；可看見與可進入取物是兩個問題。",
           "trueStatement": false
         },
         {
           "text": "②③④",
-          "explanation": "本項為當年度官方接受答案C。",
-          "correction": "須合法在場、物品證據性明顯且可合法接觸，不以公共場所為唯一適用場域，組合②③④。",
+          "explanation": "判決理由三明列：警察有合法在場理由、可為證據之物十分明顯地出現、警察可以合法接觸該物，對應②③④。這是非附隨搜索扣押時的一目瞭然界線。",
+          "correction": "不能為了發現證物先打開皮包、背包、置物箱或後車廂，再說物品已經明顯出現；另有合法逮捕後附帶搜索時，須依刑訴第130條分別判斷。",
           "trueStatement": true
         },
         {
           "text": "①②③④",
-          "explanation": "本項不在當年度官方接受答案（C）內。",
-          "correction": "請與本題考點對照：須合法在場、物品證據性明顯且可合法接觸，不以公共場所為唯一適用場域，組合②③④。",
+          "explanation": "此組雖含三個真正要件，卻多加①公共場所限制。判決的重點是各項行動有合法基礎，並未把一目瞭然限定於特定場所類型。",
+          "correction": "刪去①即為②③④；合法在場也不自動准許打開密封容器，仍須檢查是否發生另外的搜索。",
           "trueStatement": false
         }
       ],
@@ -1669,32 +1698,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第18題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 18,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
-        "status": "review",
-        "law": "考選部原卷及標準答案；本站詳解完整性盤點",
-        "checkedAt": "2026-11-20",
-        "note": "本輪逐題檢查發現，四項解說仍僅說明是否為官方接受答案，另附短考點，尚不具完整獨立逐項詳解。撤回原技術概念已核標記，改列逐項詳解與適用依據待補核；原題、原選項與初始及最終官方給分均保留。這是既有內容完整性更正，不是發現官方答案錯誤，也不是本輪新增32題詳解。",
-        "oldRule": "原資料以技術概念考點標已核，但解析實為官方答案對照。",
-        "newRule": "官方答案已對原卷確認；A～D獨立詳解及適用依據仍待補核。",
+        "status": "none",
+        "law": "最高法院113年度台上字第502號刑事判決（113.3.13，最高法院官方裁判彙編完整判決解析文字）；刑事訴訟法（搜索、扣押及詢問權利保障相關條文）",
+        "checkedAt": "2026-11-23",
+        "note": "已完整讀取最高法院113年度台上字第502號判決官方彙編解析文字，理由三直接列出三要件及不得開啟密封物等界線；原答案C一致。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "看見物品不當然能扣押；先問為何合法在場、為何明顯可為證據，以及是否可合法接觸，並將額外翻找與附帶搜索分開判斷。",
         "sources": [
           {
-            "title": "考選部114年犯罪偵查概要原卷",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=Q"
+            "title": "最高法院113年度台上字第502號刑事判決（113.3.13，最高法院官方裁判彙編完整判決解析文字）",
+            "url": "https://tps.judicial.gov.tw/tw/dl-135532-e6c1b41ca15e48ee898fd6b609769873.html"
           },
           {
-            "title": "考選部114年犯罪偵查概要標準答案",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=S"
+            "title": "刑事訴訟法（搜索、扣押及詢問權利保障相關條文）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
           }
         ]
       },
-      "takeaway": "須合法在場、物品證據性明顯且可合法接觸，不以公共場所為唯一適用場域，組合②③④。",
+      "takeaway": "看見物品不當然能扣押；先問為何合法在場、為何明顯可為證據，以及是否可合法接觸，並將額外翻找與附帶搜索分開判斷。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -1711,9 +1739,17 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "最高法院113年度台上字第502號刑事判決（113.3.13，最高法院官方裁判彙編完整判決解析文字）",
+          "url": "https://tps.judicial.gov.tw/tw/dl-135532-e6c1b41ca15e48ee898fd6b609769873.html"
+        },
+        {
+          "title": "刑事訴訟法（搜索、扣押及詢問權利保障相關條文）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
       ],
-      "currentAnswer": "保留當年度官方答案C。目前內容為官方答案對照及短考點；完整A～D逐項詳解、技術依據及適用版本仍待補核，暫不另指定確定的現行選項答案。"
+      "currentAnswer": "C（②③④）。合法在場、證據性明顯與可合法接觸須同時具備；不限公共場所，但也不能藉此先搜索再製造一目瞭然。"
     },
     {
       "id": "investigation114_19",
@@ -2743,26 +2779,26 @@
       "options": [
         {
           "text": "警察到達現場後，應探查現場是否有人受傷，加害人優先救護或送醫，其次為被害人",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：本題封鎖層次為攻堅、勘察、警戒與交通；初期封鎖宜廣，救護依急迫程度處理。",
+          "explanation": "手冊第51點規定，受傷者不論被害人或加害人，均應迅速救護或送醫；並沒有加害人一律先救、被害人後救的固定順序。",
+          "correction": "依傷勢、急迫程度與現場安全安排救護，必要時對嫌疑人採取保護或戒護措施；身分不應取代醫療緊急程度判斷。",
           "trueStatement": false
         },
         {
           "text": "關於封鎖現場，初期封鎖線宜小不宜大",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：本題封鎖層次為攻堅、勘察、警戒與交通；初期封鎖宜廣，救護依急迫程度處理。",
+          "explanation": "手冊第59點明定初期封鎖範圍應廣，初步勘察後再依需要界定；若一開始太小，易讓相關跡證或可能進出路徑落在保全範圍外。",
+          "correction": "將宜小不宜大改為初期範圍應廣，並隨勘察與安全評估調整；擴大仍須有事實需要，不能漫無邊界限制人車。",
           "trueStatement": false
         },
         {
           "text": "以四層封鎖警戒線為原則",
-          "explanation": "本項不在當年度官方接受答案（D）內。",
-          "correction": "請與本題考點對照：本題封鎖層次為攻堅、勘察、警戒與交通；初期封鎖宜廣，救護依急迫程度處理。",
+          "explanation": "手冊第59點要求封鎖範圍及層數依環境與事實需要決定，未將四層寫成所有現場原則。功能有四種，也不等於每案必須畫四個同心圈。",
+          "correction": "應依地形、危險範圍、勘察與通行需求配置，另核圍捕規範的特殊安排；本次未取得該全文，不臆造其固定層數或版本。",
           "trueStatement": false
         },
         {
           "text": "封鎖警戒線分別為攻堅、勘察、警戒與交通",
-          "explanation": "本項為當年度官方接受答案D。",
-          "correction": "本題封鎖層次為攻堅、勘察、警戒與交通；初期封鎖宜廣，救護依急迫程度處理。",
+          "explanation": "攻堅著重控制高危險目標，勘察著重跡證保全，警戒防止非必要進出，交通則維持周邊秩序與救援通路；四者在任務上可作區分。",
+          "correction": "原題D給分保留，但這些功能名稱與圍捕規範原文的精確關係尚待核；不把它們直接教成四層固定物理封鎖線。",
           "trueStatement": true
         }
       ],
@@ -2779,13 +2815,21 @@
       "paperTrack": "內軌",
       "paperNumber": 31,
       "answerStatus": "官方最終答案已核",
-      "analysisMode": "answer-key",
       "amendment": {
         "status": "review",
-        "note": "已核對當年度原題、標準答案及最終清冊。考點說明為本站整理，未將相關現行行政規則與法條逐條完整覆核；練習仍依當年官方答案計分。",
-        "checkedAt": "2026-11-11"
+        "law": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+        "checkedAt": "2026-11-23",
+        "note": "手冊第51、59點已直接核救護及初期廣泛封鎖原則；D四項功能及C固定層數涉及另外的圍捕規範，完整官方原件尚未取得。不得把四種任務名稱直接寫成固定四層實體封鎖線。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
+        "newRule": "所有傷者均應迅速救護，封鎖初期範圍宜廣；攻堅、勘察、警戒、交通是不同功能，實際封鎖範圍與層數須依現場決定。",
+        "sources": [
+          {
+            "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ]
       },
-      "takeaway": "本題封鎖層次為攻堅、勘察、警戒與交通；初期封鎖宜廣，救護依急迫程度處理。",
+      "takeaway": "所有傷者均應迅速救護，封鎖初期範圍宜廣；攻堅、勘察、警戒、交通是不同功能，實際封鎖範圍與層數須依現場決定。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -2802,8 +2846,13 @@
         {
           "title": "考選部・更正答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
+        },
+        {
+          "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "保留114年官方答案D。A、B與已讀手冊不符；C不能當所有現場固定層數。D功能分工的完整圍捕規範仍待核，不能逕標全題已核。"
     },
     {
       "id": "investigation114_32",
