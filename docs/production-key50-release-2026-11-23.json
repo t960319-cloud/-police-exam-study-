@@ -1,0 +1,140 @@
+{
+  "projectId": "appgprj_6af12822277881919dd2fcce0d109104",
+  "liveUrl": "https://police-exam-study.middlelapwing4.chatgpt.site",
+  "sourceCommit": "9c025d17f13a43182c623ce294b212bd22e5456a",
+  "version": 48,
+  "versionId": "appgprj_6af12822277881919dd2fcce0d109104~appgver_b8bbb6be021c81918928896bbdf0129d",
+  "deploymentId": "appgdep_6b044070c5388191a2a2afcf75ae981f",
+  "status": "succeeded",
+  "deployedAt": "2026-11-23T13:32:47.390656+00:00",
+  "recordedDateAsiaTaipei": "2026-11-23",
+  "archiveStorage": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_00000000b47c820698eb8be305a5d7d0",
+    "content_hash": "sha256:fa1a73cd5a9f398ccf063e4522883ec4c4dd03787485205980235c0ffb5b8119",
+    "size_bytes": 20940800,
+    "file_count": 188
+  },
+  "localArchive": {
+    "archive": "/tmp/police-release-9c025d1.tar",
+    "sha256": "666549b57a6fc5f66ce93b7c5a0b74b1c2ad1c1b2213d55a97d24c756c47b66d",
+    "fileCount": 188,
+    "bytes": 21125120,
+    "sourceSha": "9c025d17f13a43182c623ce294b212bd22e5456a",
+    "databaseBinding": "DB",
+    "eventCompiledIn": [
+      "dist/server/_next/static/route-CLuE2ODv.js"
+    ]
+  },
+  "platformReadback": {
+    "id": "appgprj_6af12822277881919dd2fcce0d109104",
+    "version": 48,
+    "access": "public",
+    "url": "https://police-exam-study.middlelapwing4.chatgpt.site"
+  },
+  "access": "public",
+  "databaseBinding": "DB",
+  "sourceBranchesVerified": [
+    "GitHub main",
+    "Sites configured source branch"
+  ],
+  "sourceForcePush": false,
+  "preservedCuratedEvents": 48,
+  "preservedProductionEvents": 51,
+  "supplementedQuestions": 50,
+  "reviewedOptions": 200,
+  "verifiedInCitedScope": 16,
+  "retainedReview": 34,
+  "previousAuditQuestionsCompleted": 32,
+  "counts": {
+    "questionsNotVerified": 207,
+    "essaysNotVerified": 27,
+    "reviewFilter": 208
+  },
+  "inventory": {
+    "perOptionAnalyses": 868,
+    "answerKeyComparisons": 42,
+    "questions": 910,
+    "essays": 66,
+    "laws": 33
+  },
+  "readback": {
+    "checkedAt": "2026-11-23T13:33:04.066300+00:00",
+    "api": "https://police-exam-study.middlelapwing4.chatgpt.site/api/legal-updates",
+    "method": "GET",
+    "pages": [
+      {
+        "url": "https://police-exam-study.middlelapwing4.chatgpt.site/api/legal-updates",
+        "response": "200 200",
+        "events": 50,
+        "sha256": "fca6e22fdbcbbe0650d57312ddf5422165b9fb12abb85732ccc89838e6e94c0c"
+      },
+      {
+        "url": "https://police-exam-study.middlelapwing4.chatgpt.site/api/legal-updates?cursor=eyJ0aW1lIjoxNzk1MTY2Mzk0Njg1LCJpZCI6ImxlZ2FsLXJldmlldy0yMDI2MTEyMC1wbHVzNTAtYiJ9",
+        "response": "200 200",
+        "events": 3,
+        "sha256": "26511148e74d1676d2397fb771fd4771504a4786d045583be6bdcde716afa8ad"
+      }
+    ],
+    "eventCount": 53,
+    "curatedCount": 50,
+    "allCuratedEventsMatch": true,
+    "preservedPreviousEvents": 51,
+    "previousEventsUnchanged": true,
+    "newEventIds": [
+      "legal-review-20261123-key50-a",
+      "legal-review-20261123-key50-b"
+    ],
+    "newEventPatchCounts": [
+      25,
+      25
+    ],
+    "supplementedQuestions": 50,
+    "reviewedOptions": 200,
+    "verifiedInCitedScope": 16,
+    "retainedReview": 34,
+    "hasNextCursor": false,
+    "fullReplay": {
+      "all1009ContentsMatchSource": true,
+      "questions": 910,
+      "essays": 66,
+      "laws": 33,
+      "questionsVerified": 703,
+      "questionsNotVerified": 207,
+      "essaysNotVerified": 27,
+      "reviewFilterQuestions": 208,
+      "perOptionAnalyses": 868,
+      "answerKeyComparisons": 42
+    },
+    "learningDataWrites": 0
+  },
+  "invariants": {
+    "unchangedOriginalQuestions": 910,
+    "unchangedEssays": 66,
+    "unchangedLaws": 33,
+    "preservedCuratedEvents": 48,
+    "preservedProductionEvents": 51,
+    "supplementedQuestions": 50,
+    "reviewedOptions": 200,
+    "verifiedInCitedScope": 16,
+    "retainedReview": 34,
+    "previousAuditQuestionsCompleted": 32,
+    "counts": {
+      "questionsNotVerified": 207,
+      "essaysNotVerified": 27,
+      "reviewFilter": 208
+    },
+    "inventory": {
+      "perOptionAnalyses": 868,
+      "answerKeyComparisons": 42,
+      "questions": 910,
+      "essays": 66,
+      "laws": 33
+    },
+    "sourceAndProductionHistoryConverge": true,
+    "learningDataWrites": 0
+  },
+  "evidence": "legal-evidence-2026-11-23-key50.json",
+  "learningRecordsModified": false,
+  "accountAcceptance": "未執行正式帳號保存、跨裝置或還原驗收；匿名教材與全部歷史讀回不代替帳號驗收。"
+}
