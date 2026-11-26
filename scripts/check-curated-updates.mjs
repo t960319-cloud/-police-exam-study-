@@ -14,7 +14,10 @@ for(const e of events){
  assert(Number.isSafeInteger(e.createdAt)&&e.createdAt>previous,`event timestamp ${e.eventId}`);previous=e.createdAt;
 }
 const event=events.find(e=>e.eventId==='legal-correction-20261110-thirdparty-12');assert(event);
-const result=applyLegalEvents(ALL_QUESTIONS,ALL_ESSAYS,events,LAWS);
+// Keep the previous batch assertions on their historical event snapshot.
+// The new batch has its own source hashes, grading invariants and current counts below.
+const historicalEvents=events.filter(e=>!e.eventId.startsWith('legal-review-20261126-verify60-'));
+const result=applyLegalEvents(ALL_QUESTIONS,ALL_ESSAYS,historicalEvents,LAWS);
 const corrected=result.questions.find(q=>q.id==='scene114-12');assert(corrected);
 assert(corrected.options[1].correction.includes('警察分局長'));assert(corrected.options[2].correction.includes('1次'));
 assert.equal(corrected.answer,3);assert.equal(corrected.options.length,4);
@@ -720,3 +723,4 @@ console.log('Fifty key-only supplements, preserved audit history, technical limi
  assert(q('investigation115_33').options[3].correction.includes('相對穩定'));
 }
 console.log('All remaining 42 comparisons completed, 168 options, original special grading and explicit version gaps passed.');
+await import('./check-verified60.mjs');

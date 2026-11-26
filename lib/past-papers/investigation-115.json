@@ -3015,26 +3015,26 @@
       "options": [
         {
           "text": "右大拇指→左大拇指→右食指→右中指",
-          "explanation": "A從右拇開始，與現行採驗尿液實施辦法第13條以左拇封緘不同；左拇不能用時下一指才是右拇，並非可一開始任選。",
-          "correction": "先辨明本題是尿液容器封緘，不能套用其他建檔或文書的捺印習慣。",
+          "explanation": "A以右拇開始且第三、四指為右食、右中，均不符合第10點的左拇優先與替代次序。",
+          "correction": "應先左大拇指，無法使用才右大拇指，再左食、左中；改用其他指紋時依規定附註指名。",
           "trueStatement": false
         },
         {
           "text": "右大拇指→左大拇指→右食指→左中指",
-          "explanation": "B除先右拇不符外，在右食後接左中亦與已讀替代順序不合；順序不是左右手交替任意選。",
-          "correction": "不能按自己方便改換手指；替代捺印應記實際指別及不能使用前一指的情況。",
+          "explanation": "B同樣錯把右拇作第一順位，並把右食提前到左食之前；法定序列不是左右交替任選。",
+          "correction": "先確認左拇能否捺印，再按完整替代順序處理；不得為方便自行變更。",
           "trueStatement": false
         },
         {
           "text": "左大拇指→右大拇指→左食指→左中指",
-          "explanation": "現行辦法第13條為左拇封緘，無法使用時依右拇、左食、左中接續，對應C前四指；這是替代序，不是一次全部印四指。",
-          "correction": "保留C並說清依序替代及註明指別；完整115當期／2026警察作業原件尚缺，不誤稱全篇現行已核。",
+          "explanation": "C完整對應第10點前四順位。左拇無法捺印時才用右拇、左食、左中等替代；依情形不適合捺印且已註明者有例外。",
+          "correction": "保留C；改用其他指紋時由採尿人員附註該指名稱，封緘條另須依規定簽名或核章。",
           "trueStatement": true
         },
         {
           "text": "左大拇指→右大拇指→左食指→右中指",
-          "explanation": "D前三指相同，但第四指寫右中；所讀順序第四應左中，其後才沿左手其他指及右手食中等依序處理。",
-          "correction": "將第四指辨為左中，並記錄實際指名；不只背C，也避免把替代程序理解為一張封條必蓋四指。",
+          "explanation": "D前三順位相同，但第四順位誤作右中；第10點第四順位明列左中，其後左環、左小，再右食等。",
+          "correction": "第四順位改為左中指，且不得把同一條封緘誤解為每次都必須蓋四指。",
           "trueStatement": false
         }
       ],
@@ -3045,31 +3045,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "115年內軌四等｜犯罪偵查概要｜第32題",
       "paperYear": 115,
       "paperTrack": "內軌",
       "paperNumber": 32,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "全國法規資料庫・採驗尿液實施辦法現行全文；司法院刑事廳110年9月關於強制採尿之研究意見（歷史文書與所引封緘程序）",
-        "checkedAt": "2026-11-24",
-        "note": "本輪新取現行採驗尿液實施辦法全文，第13條直接支持相同順序，第1、2條限定依毒品條例25條之適用人員；另讀司法院110文書。警察對一般犯罪嫌疑人之採驗作業規定完整當期原件未齊，不以此辦法取代全部警察作業程序，故review。 核讀日2026-11-24（Asia/Taipei）；此為查核日，不作修法日期；保留原題、選項、trueStatement及全部官方原始／最終給分。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
-        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
-        "newRule": "封緘先左拇；替代指別依序並註明原因及指別，與其他筆錄捺印程序分開。",
+        "status": "none",
+        "law": "警專公開《警察機關執行毒品犯罪嫌疑人尿液採驗作業規定》114.12.29完整30點；全國法規資料庫・刑事訴訟法（第122、133、206、208條）",
+        "checkedAt": "2026-11-26",
+        "note": "已取得題目所指警察作業規定完整30點，第2點適用毒品犯罪嫌疑人，第10點直接列捺印順序及例外；不再以適用毒品條例第25條另一採驗辦法替代。 本次核對的是明列來源與版本的四項分析；保留原題、原選項及全部官方初始／最終給分，不以答案鍵反推各選項一律正確。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "本輪新取現行採驗尿液實施辦法全文，第13條直接支持相同順序，第1、2條限定依毒品條例25條之適用人員；另讀司法院110文書。警察對一般犯罪嫌疑人之採驗作業規定完整當期原件未齊，不以此辦法取代全部警察作業程序，故review。 核讀日2026-11-24（Asia/Taipei）；此為查核日，不作修法日期；保留原題、選項、trueStatement及全部官方原始／最終給分。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "newRule": "尿液封緘先捺左大拇指；無法捺印才依序替代，並記實際指名。不是一次捺四指；不適合捺印且註明者另有例外。",
         "sources": [
           {
-            "title": "全國法規資料庫・採驗尿液實施辦法現行全文",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030029"
+            "title": "警專公開《警察機關執行毒品犯罪嫌疑人尿液採驗作業規定》114.12.29完整30點",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNzhRcm5lYzJVL1c5ejJnd1pCb1RncEVlbHFQTVYzVDFsT3ZIdFZnWEExVTI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkcEprSllIVy9xcFpWNXMxTHhKdmxuOGRMRFVGaHFJUWlFaU44U0NHN3c1a0Y3QVAxeVZ2ZkErRHlkZWdlcERsK0ZNbFdQUmw3a2pMUys2d3Q1Tk9TVysvdDQ1WVU1cEdlQTFUNDZTZVYvcFFSa0ErMmlQTmVVdGNjMmZTcmhMWDNxQnBYNGVQVW9Bc0N6a1ZzVm82Q1BZcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=968"
           },
           {
-            "title": "司法院刑事廳110年9月關於強制採尿之研究意見（歷史文書與所引封緘程序）",
-            "url": "https://cons.judicial.gov.tw/download/download.aspx?id=465551"
+            "title": "全國法規資料庫・刑事訴訟法（第122、133、206、208條）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
           }
         ]
       },
-      "takeaway": "封緘先左拇；替代指別依序並註明原因及指別，與其他筆錄捺印程序分開。",
+      "takeaway": "尿液封緘先捺左大拇指；無法捺印才依序替代，並記實際指名。不是一次捺四指；不適合捺印且註明者另有例外。",
       "sources": [
         {
           "title": "考選部・115年官方原卷",
@@ -3094,9 +3094,17 @@
         {
           "title": "司法院刑事廳110年9月關於強制採尿之研究意見（歷史文書與所引封緘程序）",
           "url": "https://cons.judicial.gov.tw/download/download.aspx?id=465551"
+        },
+        {
+          "title": "警專公開《警察機關執行毒品犯罪嫌疑人尿液採驗作業規定》114.12.29完整30點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNzhRcm5lYzJVL1c5ejJnd1pCb1RncEVlbHFQTVYzVDFsT3ZIdFZnWEExVTI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkcEprSllIVy9xcFpWNXMxTHhKdmxuOGRMRFVGaHFJUWlFaU44U0NHN3c1a0Y3QVAxeVZ2ZkErRHlkZWdlcERsK0ZNbFdQUmw3a2pMUys2d3Q1Tk9TVysvdDQ1WVU1cEdlQTFUNDZTZVYvcFFSa0ErMmlQTmVVdGNjMmZTcmhMWDNxQnBYNGVQVW9Bc0N6a1ZzVm82Q1BZcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=968"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法（第122、133、206、208條）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
       ],
-      "currentAnswer": "原官方答案C保留。現行採驗尿液實施辦法第13條直接列左拇、右拇、左食、左中順序；惟該辦法依毒品條例25條有特定適用對象，本題所指警察作業規定完整版本仍待核，不將二者全部等同。"
+      "currentAnswer": "C。114.12.29警察作業規定第10點直接明定左拇、右拇、左食、左中之依序替代，與原答案一致。"
     },
     {
       "id": "investigation115_33",

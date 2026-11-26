@@ -1,0 +1,646 @@
+{
+  "checkedAt": "2026-11-26",
+  "scope": "獨立複核勤務6＋情境15及鑑識18候選；鑑識17題入本批，ETSI11228留待後批。法律11題另逐條回查，根代理核讀原件與完整判決並執行全庫不變檢查。",
+  "reports": {
+    "scene-duty": {
+      "checkedAt": "2026-11-26",
+      "reviewedAtUTC": "2026-11-26T12:30:20.938120+00:00",
+      "scope": {
+        "questions": 21,
+        "options": 84,
+        "scene": 15,
+        "duty": 6
+      },
+      "method": "獨立逐題核對候選原題四選項、草稿詳解與closedGap，再對讀引用的完整原件之相關條文／SOP段落。原件存在、bytes與SHA256逐件確認；未將舊下載冒稱新HTTP。",
+      "approved": [
+        "scene110-12",
+        "scene111-09",
+        "scene112-03",
+        "scene112-09",
+        "scene112-14",
+        "scene113-13",
+        "scene113-17",
+        "scene114-04",
+        "scene114-10",
+        "scene114-17",
+        "scene114-18",
+        "scene115-01",
+        "scene115-08",
+        "scene115-13",
+        "duty112_11",
+        "duty113_24",
+        "duty114_20",
+        "duty113_06",
+        "duty112_21",
+        "duty111_13"
+      ],
+      "approvedAfterRequiredFix": [
+        "scene115-14"
+      ],
+      "issues": [
+        {
+          "id": "scene115-14",
+          "severity": "medium",
+          "requiredBeforeApproval": true,
+          "reason": "D詳解以「如警械致傷亡」引警械條例10條之2，未明列該條的警察人員使用警械前提。原題是嫌疑人搶走警棍傷害同仁，不能將嫌疑人用械傷人直接涵蓋為本條事件；一般救護義務的結論仍正確。",
+          "suggestedFix": "將D詳解後句改為「本題救護係對受襲受傷同仁的緊急保護；若另有警察人員使用警械致現場人員傷亡，條例第10條之2並明定迅速通報救護或送醫及必要保護、戒護。」其餘選項、官方C及trueStatement均不動。",
+          "sourceEvidence": {
+            "path": "/tmp/police-verify60-correct-weapons-correct.txt",
+            "lines": "115–116",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042",
+            "actualRule": "第10條之2的主體與要件是警察人員使用警械，致現場人員傷亡。"
+          }
+        },
+        {
+          "id": "duty111_13",
+          "severity": "low",
+          "requiredBeforeApproval": false,
+          "reason": "D的警種重組三個列舉未在已引兩份原件逐字出現；原件直接支持的是重組巡邏活動與預警、分權、合作等方向。現稿稱為具體說明尚可，但宜明示是依該理論作涵攝，避免被誤讀為全文逐列此三種勤務。",
+          "suggestedFix": "D說明末句可補「此為依該組織策略所作的涵攝，所引原文未逐字列出本項三類警力。」不必重開待核，也不影響C誤用Analysis的確定結論。",
+          "sourceEvidence": {
+            "paths": [
+              "/tmp/police-plus50-duty-scene-npa-mag811.txt",
+              "/tmp/police-verify60-duty9-camps-tpa.txt"
+            ],
+            "locations": [
+              "警光811期印刷頁71",
+              "警專學報印刷頁221及頁227周邊"
+            ],
+            "facts": "四大工作要項、Bayley日本考察、CAMPS的Adaptation均有直接原文。"
+          }
+        }
+      ],
+      "checkedSources": [
+        {
+          "group": "scene",
+          "title": "gender-handbook",
+          "url": "https://www.mdares.gov.tw/files/mdares/web_structure/6778/A01_1.pdf",
+          "rawPath": "/tmp/v60scene-round5-gender-handbook",
+          "textPath": "/tmp/v60scene-round5-gender-handbook.txt",
+          "bytes": 24355690,
+          "sha256": "b3cbea4367ce9b04ee07ac40016052fe22f6b3fbf0cdb7f4212dfe400ec1019f",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:35:47.892329+00:00"
+        },
+        {
+          "group": "scene",
+          "title": "sex-sop",
+          "url": "https://www.wpb.police.ntpc.gov.tw/dl-36335-67827e93-acc2-4da5-ba66-0af90ab4ca11.html",
+          "rawPath": "/tmp/v60scene-extra-sex-sop",
+          "textPath": "/tmp/v60scene-extra-sex-sop.txt",
+          "bytes": 519370,
+          "sha256": "d7bfc17bce0591627c2ebe3cbbbf3cedd499b6dfbdc8c81fcb09337db93c2f82",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:31:03.178877+00:00"
+        },
+        {
+          "group": "scene",
+          "title": "dv-sop",
+          "url": "https://www.ncpd.gov.tw/df_ufiles/c/%E8%99%95%E7%90%86%E5%AE%B6%E5%BA%AD%E6%9A%B4%E5%8A%9B%E6%A1%88%E4%BB%B6%E4%BD%9C%E6%A5%AD%E7%A8%8B%E5%BA%8F.pdf",
+          "rawPath": "/tmp/v60scene-extra-dv-sop",
+          "textPath": "/tmp/v60scene-extra-dv-sop.txt",
+          "bytes": 294377,
+          "sha256": "51a627b8e5b8babc80709f6ebdf2b7fbc25f5e793b223a9e58938288087a4369",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:31:03.179260+00:00"
+        },
+        {
+          "group": "scene",
+          "title": "traffic-guide",
+          "url": "https://tcrt.taichung.gov.tw/df_ufiles/163/%E4%BA%A4%E9%80%9A%E5%9F%B7%E6%B3%95%E9%98%B2%E8%B2%AA%E6%8C%87%E5%BC%95.pdf",
+          "rawPath": "/tmp/v60scene-traffic-guide",
+          "textPath": "/tmp/v60scene-traffic-guide.txt",
+          "bytes": 3196794,
+          "sha256": "27455bb5e0c6aed54c0f56251d432ad6be4172d7fb8adb19c75079d7cc3268db",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:30:27.228342+00:00"
+        },
+        {
+          "group": "scene",
+          "title": "road-fine",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080029",
+          "rawPath": "/tmp/v60scene-road-fine",
+          "textPath": "/tmp/v60scene-road-fine.txt",
+          "bytes": 132178,
+          "sha256": "092b1a340b1d84b182943a124bb93dd12b34e15c94bddcc3be9dd0eea9e29d64",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:30:27.229050+00:00"
+        },
+        {
+          "group": "scene",
+          "title": "road-act",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012",
+          "rawPath": "/tmp/v60scene-road-act",
+          "textPath": "/tmp/v60scene-road-act.txt",
+          "bytes": 192324,
+          "sha256": "463920ba8f9f5bc185b30cdf7a5bede6e1f084cd6ffa70c49879eefe99fd5595",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:30:29.249714+00:00"
+        },
+        {
+          "group": "scene",
+          "title": "police-prosecutor",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030008",
+          "rawPath": "/tmp/v60scene-police-prosecutor",
+          "textPath": "/tmp/v60scene-police-prosecutor.txt",
+          "bytes": 59135,
+          "sha256": "4046070458323c3810060d1a37b945d61e97a973c9241e8733c0f2f6f2995f9f",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:30:30.069397+00:00"
+        },
+        {
+          "group": "scene",
+          "title": "criminal",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001",
+          "rawPath": "/tmp/v60scene-criminal",
+          "textPath": "/tmp/v60scene-criminal.txt",
+          "bytes": 461226,
+          "sha256": "14187d2ffd1088cbe679ca9c01b680a4c0e5b6b09afa435f00059e24d039243b",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:30:31.719657+00:00"
+        },
+        {
+          "group": "scene",
+          "title": "police-powers",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145",
+          "rawPath": "/tmp/v60scene-police-powers",
+          "textPath": "/tmp/v60scene-police-powers.txt",
+          "bytes": 67603,
+          "sha256": "04fb7a07b37dca984691793ec49bed4cb1eabbb93d18a1bc680ec69a1a83982b",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:30:32.218727+00:00"
+        },
+        {
+          "group": "scene",
+          "title": "sex-assault",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079",
+          "rawPath": "/tmp/v60scene-sex-assault",
+          "textPath": "/tmp/v60scene-sex-assault.txt",
+          "bytes": 94519,
+          "sha256": "aad0555696bd7e53994b28af3c047a8baea27a034e757077fad9f19b3803bc92",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:30:33.248015+00:00"
+        },
+        {
+          "group": "scene",
+          "title": "election-handbook115-taipei",
+          "url": "https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTE15bm05Zyw5pa55YWs6IG35Lq65ZOh6YG46IiJ5Y%2BK5YWo5ZyL5oCn5YWs5rCR5oqV56Wo56Wo6ZaL56Wo5omA5bel5L2c5Lq65ZOh5omL5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzIwL3JlbGZpbGUvMTU2MjQvOTc0NDM2MC83YjRiNDZjMy01MGQyLTRjZDQtYTI4YS00MjRkZGQwZjkxYmQucGRm",
+          "rawPath": "/tmp/v60scene-round7-election-handbook115-taipei",
+          "textPath": "/tmp/v60scene-round7-election-handbook115-taipei.txt",
+          "bytes": 3444659,
+          "sha256": "bb6e894d7b63ad31687100d21e1f4cd77dab4f1490824e011a118bea8cfb05f4",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:38:05.982343+00:00"
+        },
+        {
+          "group": "scene",
+          "title": "election-act",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020010",
+          "rawPath": "/tmp/v60scene-round4-election-act",
+          "textPath": "/tmp/v60scene-round4-election-act.txt",
+          "bytes": 186890,
+          "sha256": "6195f7e75892f9f2d156038d25eb741c5e08ba53d2ca235583804b36517acfce",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:35:33.459283+00:00"
+        },
+        {
+          "group": "scene",
+          "title": "dv-act",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0050071",
+          "rawPath": "/tmp/v60scene-round4-dv-act",
+          "textPath": "/tmp/v60scene-round4-dv-act.txt",
+          "bytes": 109767,
+          "sha256": "6d2dfbeb217adb125e38178c03fa7dd6e9758e82dd3ce4865da7f69067d1c053",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:35:33.459943+00:00"
+        },
+        {
+          "group": "scene",
+          "title": "gear-full",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=d0xwM1JzbmdybnFuUDI5N3Q2VzhIZkROS1pUNEVzTFFZR200UVZsMlJOdWR0RTFOaDNGUFBzT3BYbzBqZEI1ZDlUVDhtUjMrbENFQXUzSGx2azdFblNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkcEprSllIVy9xcFpWNXMxTHhKdmxuOWZpRzhST0k4clFiU2FhS3BnTTJVM1RVNkRaejJZUDM1TTNVZUxWSFFNYXJSb1dHWnFTZE1FTGxhNVU4aGljWDc2dXBoKy9CN1N1L3J5SHREV3MvazZFNHptWnJwdlI2ZHJ6QURBdkpUMno4LzZ3S3VGMUJZUzRNb1p2ZzZqR1lTSU1xYyt1ZDl2YTUxRzhqTERVclV4OGE4eFFhQ0psbHpldTFORVM5anpwQ2xVSCtJVFlYQTZaUEp4QUhIMVpCaz0=&cg=967",
+          "rawPath": "/tmp/police-verify60-duty2-gear-full",
+          "textPath": "/tmp/police-verify60-duty2-gear-full.txt",
+          "bytes": 297604,
+          "sha256": "2441bafd2d9d28704181f12e92fd21bb2c296607d6ad632c13d2f7aed371645c",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:34:09.869830+00:00"
+        },
+        {
+          "group": "scene",
+          "title": "handbook115",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968",
+          "rawPath": "/tmp/police-last42-root-handbook115",
+          "textPath": "/tmp/police-last42-root-handbook115.txt",
+          "bytes": 810586,
+          "sha256": "d94a126e781162ca142a9fc462f80a101f2c3a8d7ed3e718cbed132b581af658",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-23T22:10:45.270687+00:00"
+        },
+        {
+          "group": "scene",
+          "title": "weapons-correct",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042",
+          "rawPath": "/tmp/police-verify60-correct-weapons-correct",
+          "textPath": "/tmp/police-verify60-correct-weapons-correct.txt",
+          "bytes": 53391,
+          "sha256": "8977c84a7576c33ae26ac4f70b3ed6d00e0a5a7d41a083287858630ae3f94826",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:33:43.346076+00:00"
+        },
+        {
+          "group": "scene",
+          "title": "nij-guide",
+          "url": "https://www.ojp.gov/pdffiles1/ncjrs/243598.pdf",
+          "rawPath": "/tmp/f60-add-nij-guide",
+          "textPath": "/tmp/f60-add-nij-guide.txt",
+          "bytes": 15724416,
+          "sha256": "b4edc798d1db938beacb53931e96f630628d1a50bbfbdd1a00f6dfe415571341",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:32:37.215867+00:00"
+        },
+        {
+          "group": "duty",
+          "title": "gear-full",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=d0xwM1JzbmdybnFuUDI5N3Q2VzhIZkROS1pUNEVzTFFZR200UVZsMlJOdWR0RTFOaDNGUFBzT3BYbzBqZEI1ZDlUVDhtUjMrbENFQXUzSGx2azdFblNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkcEprSllIVy9xcFpWNXMxTHhKdmxuOWZpRzhST0k4clFiU2FhS3BnTTJVM1RVNkRaejJZUDM1TTNVZUxWSFFNYXJSb1dHWnFTZE1FTGxhNVU4aGljWDc2dXBoKy9CN1N1L3J5SHREV3MvazZFNHptWnJwdlI2ZHJ6QURBdkpUMno4LzZ3S3VGMUJZUzRNb1p2ZzZqR1lTSU1xYyt1ZDl2YTUxRzhqTERVclV4OGE4eFFhQ0psbHpldTFORVM5anpwQ2xVSCtJVFlYQTZaUEp4QUhIMVpCaz0=&cg=967",
+          "rawPath": "/tmp/police-verify60-duty2-gear-full",
+          "textPath": "/tmp/police-verify60-duty2-gear-full.txt",
+          "bytes": 297604,
+          "sha256": "2441bafd2d9d28704181f12e92fd21bb2c296607d6ad632c13d2f7aed371645c",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:34:09.869830+00:00"
+        },
+        {
+          "group": "duty",
+          "title": "gear-entry",
+          "url": "https://admin.tpa.edu.tw/p/405-1015-8349%2Cc967.php?Lang=zh-tw",
+          "rawPath": "/tmp/police-verify60-duty-gear-entry",
+          "textPath": "/tmp/police-verify60-duty-gear-entry.txt",
+          "bytes": 21200,
+          "sha256": "9f10512a3a935bdec3547589c039e62152f48fbdaddc4a98cd8da483f7f9bc7a",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:32:51.463873+00:00"
+        },
+        {
+          "group": "duty",
+          "title": "gear-explained",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=d0xwM1JzbmdybnFuUDI5N3Q2VzhIZFZMdEt2QXlrT3ROMjlTZU5JcEozNEUvZnBwNmZOYlNjNGpQckUxVXNxblhmNG4wa25jamxTUEZ3YU5HZUJZTmlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkcEprSllIVy9xcFpWNXMxTHhKdmxuOWZpRzhST0k4clFiU2FhS3BnTTJVM1RVNkRaejJZUDM1TTNVZUxWSFFNYXJSb1dHWnFTZE1FTGxhNVU4aGljWDc2dXBoKy9CN1N1L3J5SHREV3MvazZFNHptWnJwdlI2ZHJ6QURBdkpUMno3T2RhY0YrWUEvVWQ3ZEE5S010c3pHTG5pT29QbzNoSjNjT3lvZ0hkK01WOWNPcTdPMVdQd2xhTXVML0FnY3Bqdm8wQzMvS1dvVG95NXZ6TEF0ellNSGtmZEIyT3NCUVpWYkdsMUJWMHBDeEtWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967",
+          "rawPath": "/tmp/police-verify60-duty2-gear-explained",
+          "textPath": "/tmp/police-verify60-duty2-gear-explained.txt",
+          "bytes": 303078,
+          "sha256": "37b9f6e59ae3a4bcd07e1bcc8d17ef278782c71cb64592e8cb0c1cd56c9812a9",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:34:09.870159+00:00"
+        },
+        {
+          "group": "duty",
+          "title": "patrol1130703-0",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VSt4WU5uRGxCcEJqQmxXUzhvR0hMQyttdUlMZ2ZtdllFVTAzcm9pd3lKZ0t6K1Q4Z1l0ZlBQZUxydFNFbWJuL2JUWGR0Y3hweXB5K1Y2NDdBWDZRdXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VXBRQ0wwdkl1YTZ2WGVhL0lMMmQ4bi9SYmZFSytCQUZCeVlWU3RaNzM0Q3IwSmJlU3g3cGkrVkVMbGUrdUNDWU10ZnhFM3ljZlE3SmFpTDZ4TUtkNWx5cXY4WlVYY1R4Y0wxS1JIWEt5YUJYdE1PZDBHQmlnSWNLVGRoRk40SUZhVnBqdCtjbkpsbGtUNTY1eHlHbkFIYWVRcExWaUhNZUhqYTlYRUtvVTB5UW9vRU5rejJnMkZxT0JHVlkwbkcwTVNHRGdYMVU3UzZ0RVk3WU1RemY0cG96QmNWaU14QkpBdEFqMUgwTzEwNXlScWVLMmpVUDNFNDlYSjZMb0JrcXZ5UUpSRUtaSGZ4SG9zY0tiYnh0VmppN2VGY3c3dWtCWkpaV2gwTlRSOFR6c3h1dnFrZlBoVXRHa005TGdmMEU=&cg=967",
+          "rawPath": "/tmp/police-verify60-duty4-patrol1130703-0",
+          "textPath": "/tmp/police-verify60-duty4-patrol1130703-0.txt",
+          "bytes": 229784,
+          "sha256": "f1ac3aa5afe8ce92fc54ae6e7e5900024e1da02486e6fa2bc0f1d1468e1b057c",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:34:45.416677+00:00"
+        },
+        {
+          "group": "duty",
+          "title": "patrol1130703-1",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VSt4WU5uRGxCcEJqQmxXUzhvR0hMRXpSdFZpd1d5V1JaeXU4RHRhR2lCanQ3SHZMQXlFaFZ6WHVucytESFNtUWJUWGR0Y3hweXB5K1Y2NDdBWDZRdXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VXBRQ0wwdkl1YTZ2WGVhL0lMMmQ4bi9SYmZFSytCQUZCeVlWU3RaNzM0Q3IwSmJlU3g3cGkrVkVMbGUrdUNDWU10ZnhFM3ljZlE3SmFpTDZ4TUtkNWx5cXY4WlVYY1R4Y0wxS1JIWEt5YUJYdE1PZDBHQmlnSWNLVGRoRk40SUZhVnBqdCtjbkpsbGtUNTY1eHlHbkFIYWVRcExWaUhNZUhqYTlYRUtvVTB5UW9vRU5rejJnMkZxT0JHVlkwbkcwTVNHRGdYMVU3UzZ0RVk3WU1RemY0cG96QmNWaU14QkpBdEFqMUgwTzEwNXlScWVLMmpVUDNFNDlYSjZMb0JrcXZ5UUpSRUtaSGZ4SG9zY0tiYnh0VmhmUUlhV2o1UXlWYXhpMTU5aGxySHN1OW1GYVp3K0VLdEx4a2ZHcWhYck0=&cg=967",
+          "rawPath": "/tmp/police-verify60-duty4-patrol1130703-1",
+          "textPath": "/tmp/police-verify60-duty4-patrol1130703-1.txt",
+          "bytes": 436938,
+          "sha256": "fd1c3222cc97c6ca7d1356bc13e5ec25edf617778b1ff6f4b7f8d83d933efb6e",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:34:45.416913+00:00"
+        },
+        {
+          "group": "duty",
+          "title": "patrol1130703-2",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VSt4WU5uRGxCcEJqQmxXUzhvR0hMRWNDVENab2hYY1l4cTJia2g2c0svemtlTnBjSWFCSUwwb2c2a2RnNmFabmJUWGR0Y3hweXB5K1Y2NDdBWDZRdXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VXBRQ0wwdkl1YTZ2WGVhL0lMMmQ4bi9SYmZFSytCQUZCeVlWU3RaNzM0Q3IwSmJlU3g3cGkrVkVMbGUrdUNDWU10ZnhFM3ljZlE3SmFpTDZ4TUtkNWx5cXY4WlVYY1R4Y0wxS1JIWEt5YUJYdE1PZDBHQmlnSWNLVGRoRk40SUZhVnBqdCtjbkpsbGtUNTY1eHlHbkFIYWVRcExWaUhNZUhqYTlYRUtvVTB5UW9vRU5rejJnMkZxT0JHVlkwbkcwTVNHRGdYMVU3UzZ0RVk3WU1RemY0cG96QmNWaU14QkpBdEFqMUgwTzEwNXlScWVLMmpVUDNFNDlYSjZMb0JrcXZ5UUpSRUtaSGZ4SG9zY0tiYnh0VnE3UXc4OXFyOE0rYjRJRFRZbW1yRWt1OW1GYVp3K0VLdEx4a2ZHcWhYck0=&cg=967",
+          "rawPath": "/tmp/police-verify60-duty4-patrol1130703-2",
+          "textPath": "/tmp/police-verify60-duty4-patrol1130703-2.txt",
+          "bytes": 322995,
+          "sha256": "61f4ee22b45b3c5a079ccb7fc13d65f1e93587b016e41edab497019c63f176a7",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:34:45.417095+00:00"
+        },
+        {
+          "group": "duty",
+          "title": "patrol1130703-4",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=VSt4WU5uRGxCcEJqQmxXUzhvR0hMTVpDVW4vUTVNSm1tcGErd2xZY3loWlNwK0J3bDZQSmkzZlh1VndCRE5oVmJUWGR0Y3hweXB5K1Y2NDdBWDZRdXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VXBRQ0wwdkl1YTZ2WGVhL0lMMmQ4bi9SYmZFSytCQUZCeVlWU3RaNzM0Q3IwSmJlU3g3cGkrVkVMbGUrdUNDWU10ZnhFM3ljZlE3SmFpTDZ4TUtkNWx5cXY4WlVYY1R4Y0wxS1JIWEt5YUJYdE1PZDBHQmlnSWNLVGRoRk40SUZhVnBqdCtjbkpsbGtUNTY1eHlHbkFIYWVRcExWaUhNZUhqYTlYRUtvVTB5UW9vRU5rejJnMkZxT0JHVlkwbkcwTVNHRGdYMVU3UzZ0RVk3WU1RemY0cG96QmNWaU14QkpBdEFqMUgwTzEwNXlScWVLMmpVUDNFNDlYSjZMb0JrcXZ5UUpSRUtaSGZ4SG9zY0tiYnh0VnZpcXVMbWNoSWs0RTJBaG1MakE5eEF1OW1GYVp3K0VLdEx4a2ZHcWhYck0=&cg=967",
+          "rawPath": "/tmp/police-verify60-duty4-patrol1130703-4",
+          "textPath": "/tmp/police-verify60-duty4-patrol1130703-4.txt",
+          "bytes": 249488,
+          "sha256": "8f431869d96201c14e4c257aa66cc698e143645f195b303ed8d0b0af80d6f84a",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:34:46.650924+00:00"
+        },
+        {
+          "group": "duty",
+          "title": "nuclear-old102",
+          "url": "https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=D0010012&lnndate=20131230&lser=001",
+          "rawPath": "/tmp/police-verify60-dutyresume-nuclear-old102",
+          "textPath": "/tmp/police-verify60-dutyresume-nuclear-old102.txt",
+          "bytes": 45405,
+          "sha256": "fd97aa90e2ed68b220a69b50edb372e57e9c588adcf5c36139d3f7e0252e9291",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T21:52:51.279007+00:00"
+        },
+        {
+          "group": "duty",
+          "title": "nuclear-law",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0010012",
+          "rawPath": "/tmp/police-verify60-duty10-nuclear-law",
+          "textPath": "/tmp/police-verify60-duty10-nuclear-law.txt",
+          "bytes": 54016,
+          "sha256": "2796bdec12d9f1c00aee36de7efe782237ef8c24e1f0444fa9ddbacfd82883ec",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:38:55.916838+00:00"
+        },
+        {
+          "group": "duty",
+          "title": "nuclear-history",
+          "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=D0010012",
+          "rawPath": "/tmp/police-verify60-duty10-nuclear-history",
+          "textPath": "/tmp/police-verify60-duty10-nuclear-history.txt",
+          "bytes": 38995,
+          "sha256": "218eb75b36a0ed8f61eeeaa2f5eff40c7b6d54170b471f971ad9e175ae03716d",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:38:55.917241+00:00"
+        },
+        {
+          "group": "duty",
+          "title": "npa-mag811",
+          "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=1229247447323119616&module=wg079&type=s",
+          "rawPath": "/tmp/police-plus50-duty-scene-npa-mag811.raw",
+          "textPath": "/tmp/police-plus50-duty-scene-npa-mag811.txt",
+          "bytes": 17889653,
+          "sha256": "cf47979d318ee1d7998c83727b69d0e8c34732326eff10560fe9816abbf20cbc",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-20T09:07:29.577897+00:00"
+        },
+        {
+          "group": "duty",
+          "title": "camps-tpa",
+          "url": "https://educate.tpa.edu.tw/var/file/4/1004/img/155036092.pdf",
+          "rawPath": "/tmp/police-verify60-duty9-camps-tpa",
+          "textPath": "/tmp/police-verify60-duty9-camps-tpa.txt",
+          "bytes": 495360,
+          "sha256": "6cbedaa59f16b1fbdfcbcfd9e16f47cf18d189fdb5596a7621f03bfbacd01c2a",
+          "hashAndBytesConfirmed": true,
+          "originalRetrievedAt": "2026-11-24T08:38:13.768404+00:00"
+        }
+      ],
+      "preservation": "原題、原選項、trueStatement、原官方給分均未由本代理變動；只輸出本審核報告。",
+      "findings": [
+        "巡邏113_06完整113.3.8前版與113.7.3後版均載流程圖同時／持續通報而正文必要時請求支援；草稿如實揭示，不把D硬寫為所有解讀下必錯。",
+        "性侵112_09的C緊急就醫本身合法，原官方B仍保留；14_04等候私密處所與專責、家防官分工有完整SOP直接支持。",
+        "性影像113_13正確區分兒童／心智障礙專業助訊與兒少社工陪同，沒有把所有少年一律列入法19條。",
+        "115選務手冊對入所、陪同、攜票留置程序及獨立刑事現行犯基礎分開處理，未用選務分工否定刑訴拘捕。",
+        "112_14將警方16小時內解送與檢察官命即時解送、繼續調查許可分開；8小時未作額外拘束授權。",
+        "交通114_17前輪越停止線與前懸尚未越輪的勸導門檻、114_18三種卸貨方式及禁止續行、113_17有價與固定障礙及母法廢棄物例外均有直接對照。",
+        "111_09四種血跡衣物選項由NIJ2013印刷43–47頁直接支持；明示為技術指南，未冒稱臺灣2026新版內部SOP。",
+        "裝備113施行10點與核電廠現行13／歷史14條均直接支持，沒有把備勤解為絕對禁槍或把實際派駐班表當已驗收。"
+      ],
+      "unresolvedMaterialSourceGaps": []
+    },
+    "forensics": {
+      "checkedAt": "2026-11-26",
+      "reviewedAtUTC": "2026-11-26T12:30:58.141231+00:00",
+      "reviewedQuestions": 18,
+      "reviewedOptions": 72,
+      "approved": [
+        "investigation115_32",
+        "investigation110_14",
+        "investigation110_25",
+        "investigation110_46",
+        "investigation110_45",
+        "investigation112_13",
+        "investigation112_15",
+        "investigation112_27",
+        "investigation112_29",
+        "investigation112_30",
+        "investigation112_39",
+        "investigation112_47",
+        "investigation113_05",
+        "investigation113_15",
+        "investigation113_24",
+        "investigation113_25",
+        "investigation113_36",
+        "investigation112_28"
+      ],
+      "blockingIssues": 0,
+      "issues": [
+        {
+          "id": "investigation112_28",
+          "severity": "minor",
+          "reason": "現稿已保留部分HI1資訊走HI2的例外，方向正確；但B在選用HI2機制交付管理通知時可能成立，宜更直接說明原題並非可由三邏輯功能無條件推出唯一解。",
+          "suggestedFix": "currentAnswer或B詳解加：B於選用HI2機制交付相關管理通知時可能成立；原A給分保留，不保證原題字面在所有實作下只有A正確。不要把設定／移除／告警都寫成絕不可能經HI2。",
+          "sourceEvidence": "ETSI ES201671 V3.2.1 §5.1.0明許some HI1 related information（e.g. fault reporting）以HI2 mechanism送向LEA；§8.1.0在資料傳輸用途另列HI1 type notifications and alarms。實讀/tmp/police-key50-root-etsi.txt lines1252–1266、1513–1526。"
+        },
+        {
+          "id": "investigation115_32",
+          "severity": "minor",
+          "reason": "第10點在左拇無法捺印而替代其他指紋時要求附註該指名稱；C更正中的附註語可精確限定，不必寫成所有正常左拇捺印都另有相同明文義務。",
+          "suggestedFix": "將C correction的「同時由採尿人員附註實際使用的指名」改為「改用其他指紋時由採尿人員附註該指名稱」；其餘封緘簽名核章與順序正確。",
+          "sourceEvidence": "114.12.29尿液作業規定第10點第二項；/tmp/f60-tpa-urine-procedure.txt lines59–67。"
+        },
+        {
+          "id": "investigation110_14",
+          "severity": "minor",
+          "reason": "第20點是各層主管定期實地督導，現稿D提「分局層級的權責管理」並不錯，但讀者可能混為第20點創設設室義務。",
+          "suggestedFix": "D explanation具體寫「第2點明列分局設室，第20點另定分局分局長及偵查隊長等定期實地督導」。",
+          "sourceEvidence": "114.5.28證物室作業規定第2、20點；/tmp/f60-tpa-evidence-room.txt全文。歷史103/106來源已在原題sources保留。"
+        },
+        {
+          "id": "investigation110_25",
+          "severity": "minor",
+          "reason": "NIST800101r1直接說飛航操作有風險、部分服務如GPS不一定停止及應隔離所有radio networks，但未逐字以Wi-Fi／Bluetooth記憶設定為例。現稿機型差異的警語技術上合理，宜不使讀者誤以為該兩具體例子是NIST原句。",
+          "suggestedFix": "若不另增裝置原廠來源，可將B explanation末句改為「不能只憑飛航圖示即認為所有無線通訊均已隔離，應依機型逐項確認實際功能及隔離效果」。",
+          "sourceEvidence": "NIST800101r1 §4.3 /tmp/f60-initial-nist-mobile.txt lines1730–1760。本次嘗試Apple官方108785僅429，未當成功來源。"
+        },
+        {
+          "id": "investigation113_15",
+          "severity": "minor",
+          "reason": "同11025，避免把現代機型Wi-Fi／Bluetooth設定細節寫成2014 NIST直接原句。",
+          "suggestedFix": "A explanation可改「飛航模式是NIST列出的隔離方法之一，需操作設備且應記錄；應依機型確認所有相關無線通訊的實際隔離效果，不能只看圖示」。",
+          "sourceEvidence": "NIST800101r1 §4.3；Apple官方嘗試429不能算已讀來源。"
+        }
+      ],
+      "checkedSources": [
+        {
+          "key": "nist86",
+          "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-86.pdf",
+          "rawPath": "/tmp/f60-initial-nist86",
+          "textPath": "/tmp/f60-initial-nist86.txt",
+          "bytes": 2818618,
+          "sha256": "ea7eb645bcd3feaf3ab9ea7dfc3c8987a08bf260c40682df1e5e8292bf9fe9b4",
+          "matchesRecordedHashAndBytes": true,
+          "retrievedAt": "2026-11-24T08:31:02.261290+00:00",
+          "reviewedAsStoredOriginal": true
+        },
+        {
+          "key": "nist-mobile",
+          "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-101r1.pdf",
+          "rawPath": "/tmp/f60-initial-nist-mobile",
+          "textPath": "/tmp/f60-initial-nist-mobile.txt",
+          "bytes": 1338568,
+          "sha256": "efd3f02258276fb294d62a73bb0a6ec80051fd625d5197584220beaface31718",
+          "matchesRecordedHashAndBytes": true,
+          "retrievedAt": "2026-11-24T08:31:02.261546+00:00",
+          "reviewedAsStoredOriginal": true
+        },
+        {
+          "key": "nij-guide",
+          "url": "https://www.ojp.gov/pdffiles1/ncjrs/243598.pdf",
+          "rawPath": "/tmp/f60-add-nij-guide",
+          "textPath": "/tmp/f60-add-nij-guide.txt",
+          "bytes": 15724416,
+          "sha256": "b4edc798d1db938beacb53931e96f630628d1a50bbfbdd1a00f6dfe415571341",
+          "matchesRecordedHashAndBytes": true,
+          "retrievedAt": "2026-11-24T08:32:37.215867+00:00",
+          "reviewedAsStoredOriginal": true
+        },
+        {
+          "key": "fingerprint7",
+          "url": "https://www.ojp.gov/pdffiles1/nij/225327.pdf",
+          "rawPath": "/tmp/f60-core-fingerprint7",
+          "textPath": "/tmp/f60-core-fingerprint7.txt",
+          "bytes": 2457918,
+          "sha256": "9a248549b19c65a95634784ada87e80b9d1ee521c0b5b19ca64c7544618cde70",
+          "matchesRecordedHashAndBytes": true,
+          "retrievedAt": "2026-11-24T08:36:37.231388+00:00",
+          "reviewedAsStoredOriginal": true
+        },
+        {
+          "key": "fourway-lee",
+          "url": "https://www.avensonline.org/fulltextarticles/JFI-2330-0396-01-0004.html",
+          "rawPath": "/tmp/f60-extra-fourway-lee",
+          "textPath": "/tmp/f60-extra-fourway-lee.txt",
+          "bytes": 82852,
+          "sha256": "c8bb9b3e729b0761367bf03710e8456dc16308751bfb9510325f72b344c3ef2c",
+          "matchesRecordedHashAndBytes": true,
+          "retrievedAt": "2026-11-24T08:38:34.280548+00:00",
+          "reviewedAsStoredOriginal": true
+        },
+        {
+          "key": "fbi-profiling1",
+          "url": "https://vault.fbi.gov/Criminal%20Profiling/Criminal%20Profiling%20Part%2001/at_download/file",
+          "rawPath": "/tmp/f60-core-fbi-profiling1",
+          "textPath": "/tmp/f60-core-fbi-profiling1.txt",
+          "bytes": 2166796,
+          "sha256": "f2b54451cc407797238127bf81540c38e4c1477db593012438f5bcde6b87fb1e",
+          "matchesRecordedHashAndBytes": true,
+          "retrievedAt": "2026-11-24T08:36:37.231842+00:00",
+          "reviewedAsStoredOriginal": true
+        },
+        {
+          "key": "swg83",
+          "url": "https://www.swgdrug.org/Documents/Recommendations/SWGDRUG%20Recommendations%20Version%208.3%20Sept012026_Final.pdf",
+          "rawPath": "/tmp/f60-standards-swg83",
+          "textPath": "/tmp/f60-standards-swg83.txt",
+          "bytes": 2061895,
+          "sha256": "320eaf8beee461957e5d1f1b060e35ca762aaa0a99e25224caa110db7e6ccf52",
+          "matchesRecordedHashAndBytes": true,
+          "retrievedAt": "2026-11-24T08:35:58.164150+00:00",
+          "reviewedAsStoredOriginal": true
+        },
+        {
+          "key": "trunarc",
+          "url": "https://www.thermofisher.com/us/en/home/industrial/safety-security-threat-detection/instruments/trunarc-handheld-narcotics-analyzer.html",
+          "rawPath": "/tmp/f60-core-trunarc",
+          "textPath": "/tmp/f60-core-trunarc.txt",
+          "bytes": 586591,
+          "sha256": "8d7331af95ddef9e3575c9331d94b101c10fd8bf063bce21ee6c590bc9a4282d",
+          "matchesRecordedHashAndBytes": true,
+          "retrievedAt": "2026-11-24T08:36:37.233022+00:00",
+          "reviewedAsStoredOriginal": true
+        },
+        {
+          "key": "evidence-room",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiN2VSRWhsQjJSbnV0SFJwU1JqYmVlNG44dnJTOUYyWEY3NUFmaHh2V3JzMEpIN21xT2l3c1I2bEt0RVB4NzFDZ1NsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbXVOSDJxdjIvOWE3ME1HOEtaQjJJOFlLdkpjdnNRR3puTGdWcWJvbFBvcEtaQm5PeUM4Q2UrdG9zUmZUd1ZWVVhzcVhKeThZU2hDMmY2N3owbFMwZEVwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968",
+          "rawPath": "/tmp/f60-tpa-evidence-room",
+          "textPath": "/tmp/f60-tpa-evidence-room.txt",
+          "bytes": 243840,
+          "sha256": "59d9014879cbf4b6afc1a67ccdfab72d12a4dea9c62bb0407a36f392a093d999",
+          "matchesRecordedHashAndBytes": true,
+          "retrievedAt": "2026-11-24T08:32:03.669569+00:00",
+          "reviewedAsStoredOriginal": true
+        },
+        {
+          "key": "evidence-management",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiOWhrNGRKQlVVUnpBWUV1UXdKSitwaWp3bFloUjhDOHFjcHR1VEVDZnkxSDI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbXVOSDJxdjIvOWE3ME1HOEtaQjJJODgwRUFBdEdpSDRIZmhxaFl0Z0UyVWY1WW9QQU1VNDNlVDFwaTNCZVlZZHdWclR2dkUvTjh3YS9jR28vbzBsZWd5NmNGVmJkWnQ2NDN3SndrM2NaZFc=&cg=968",
+          "rawPath": "/tmp/f60-tpa-evidence-management",
+          "textPath": "/tmp/f60-tpa-evidence-management.txt",
+          "bytes": 319740,
+          "sha256": "246b29e797859dfd4fabb36edf830de1e24e8678b79ca6a7383432f8305c074d",
+          "matchesRecordedHashAndBytes": true,
+          "retrievedAt": "2026-11-24T08:32:03.669960+00:00",
+          "reviewedAsStoredOriginal": true
+        },
+        {
+          "key": "urine-procedure",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNzhRcm5lYzJVL1c5ejJnd1pCb1RncEVlbHFQTVYzVDFsT3ZIdFZnWEExVTI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkcEprSllIVy9xcFpWNXMxTHhKdmxuOGRMRFVGaHFJUWlFaU44U0NHN3c1a0Y3QVAxeVZ2ZkErRHlkZWdlcERsK0ZNbFdQUmw3a2pMUys2d3Q1Tk9TVysvdDQ1WVU1cEdlQTFUNDZTZVYvcFFSa0ErMmlQTmVVdGNjMmZTcmhMWDNxQnBYNGVQVW9Bc0N6a1ZzVm82Q1BZcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=968",
+          "rawPath": "/tmp/f60-tpa-urine-procedure",
+          "textPath": "/tmp/f60-tpa-urine-procedure.txt",
+          "bytes": 294519,
+          "sha256": "9a17889f84edaa38b2d919905fbbe3d3681ef1a1de9b61d29789f4f165c94b66",
+          "matchesRecordedHashAndBytes": true,
+          "retrievedAt": "2026-11-24T08:32:03.670204+00:00",
+          "reviewedAsStoredOriginal": true
+        },
+        {
+          "key": "etsi",
+          "url": "https://www.etsi.org/deliver/etsi_es/201600_201699/201671/03.02.01_60/es_201671v030201p.pdf",
+          "rawPath": "/tmp/police-key50-root-etsi",
+          "textPath": "/tmp/police-key50-root-etsi.txt",
+          "bytes": 833350,
+          "sha256": "0c4bce915090c19dac3bf6fc1f23cc59747213c561b5f6ff039ec0fe653afd17",
+          "matchesRecordedHashAndBytes": true,
+          "retrievedAt": "2026-11-23T13:08:32.003607+00:00",
+          "reviewedAsStoredOriginal": true
+        }
+      ],
+      "additionalSourceAttempts": [
+        {
+          "key": "apple-airplane",
+          "url": "https://support.apple.com/en-us/108785",
+          "retrievedAt": "2026-11-26T12:30:05.892244+00:00",
+          "response": "429 200 text/html",
+          "exitCode": 22
+        }
+      ],
+      "scope": "逐題對照原題四選項及新完整來源。通用技術依原始國際文件可核；未將103手冊假冒現行。核對既有12件原始檔hash/bytes，ETSI三功能與例外、Lee四端點／分類、FBI五階段與第六目標、NIST隔離／工作副本／報告、NIJ攝影／測繪／搜尋／微物、114證物室／尿液規定均實讀相關完整段。已核表示列明來源範圍的分析可核，不保證原題無條件唯一答案或所有選項字面全真。所有issues為可直接修正的精確性建議，不要求重新研究。"
+    }
+  },
+  "publishedPrecisionFixes": [
+    "scene115-14：10條之2須警察使用警械致傷亡",
+    "duty111_13：三類警力為理論涵攝，非來源逐字列舉",
+    "investigation115_32：改用其他指紋時附註指名",
+    "investigation110_14：第20點為定期督導，第2點為設室義務",
+    "investigation110_25、investigation113_15：以實際無線隔離效果表述，不冒稱NIST逐列現代機型設定"
+  ],
+  "unselectedPrepared": [
+    "investigation112_28"
+  ],
+  "invariants": {
+    "verifiedQuestions": 60,
+    "reviewedOptions": 240,
+    "verifiedEssays": 2,
+    "preservedQuestionOriginals": 910,
+    "preservedEssayOriginals": 66,
+    "preservedLaws": 33,
+    "preservedCuratedEvents": 52,
+    "preservedProductionEvents": 55,
+    "unselectedRawObjectsUnchanged": true,
+    "originalScoringAndAllocationUnchanged": true,
+    "sourceAndProductionHistoryConverge": true,
+    "counts": {
+      "questionsNotVerified": 137,
+      "essaysNotVerified": 25,
+      "reviewFilter": 138
+    },
+    "learningDataWrites": 0
+  },
+  "learningDataWrites": 0
+}

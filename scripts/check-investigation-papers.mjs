@@ -11,7 +11,11 @@ const reviewedVersionChanges=new Map([
  ['investigation112_01','https://crime.tpa.edu.tw/'],
  ['investigation112_38','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0380131'],
  ['investigation111_48','https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=D0080079'],
+ ['investigation111_02','https://crime.tpa.edu.tw/'],
+ ['investigation112_21','https://crime.tpa.edu.tw/'],
+ ['investigation114_36','https://crime.tpa.edu.tw/'],
 ]);
+const newlyReviewedVersions=new Set(['investigation111_02','investigation112_21','investigation114_36']);
 for(const year of years){
  const paper=JSON.parse(fs.readFileSync(new URL(`../lib/past-papers/investigation-${year}.json`,import.meta.url),'utf8'));
  const source=norm(fs.readFileSync(new URL(`../public/exam-papers/investigation/${year}/question.txt`,import.meta.url),'utf8'));
@@ -39,7 +43,8 @@ for(const year of years){
    verifiedCount++;
    if(q.amendment.status==='changed'){
     assert(reviewedVersionChanges.has(q.id),label);versionChanged++;
-    assert.equal(q.amendment.checkedAt,'2026-11-20',label);
+    assert.equal(q.amendment.checkedAt,newlyReviewedVersions.has(q.id)?'2026-11-26':'2026-11-20',label);
+    if(newlyReviewedVersions.has(q.id))assert.equal(q.amendment.effectiveStatus,'mixed',label);
     assert(q.amendment.sources.some(s=>s.url.startsWith(reviewedVersionChanges.get(q.id))),label);
    }else{stable++;assert.equal(q.amendment.status,'none',label);}
   }

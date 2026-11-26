@@ -402,26 +402,26 @@
       "options": [
         {
           "text": "被害人（victim）",
-          "explanation": "114基隆官方研習報告第7頁說明人與人、人與物、人與現場間的四向連結。被害人是須連結的案件關係人，可由接觸痕跡與物證重建相關行為。",
-          "correction": "驗證被害人、物證及現場關係，不能因身分為被害人就自動認定其全部敘述正確。",
+          "explanation": "被害人是作者列明的四端點之一，衣物、身體及其活動可與嫌疑人、現場和物證建立待驗證關係。",
+          "correction": "四端點不是保證任何接觸都與犯罪有關，仍須查轉移時間及其他成因。",
           "trueStatement": true
         },
         {
           "text": "犯罪嫌疑人（suspect）",
-          "explanation": "嫌疑人與被害人、現場及物證的連結，是物證研判的重要問題；報告強調藉此驗證或排除證詞與偵查線索。",
-          "correction": "連結須有具體證物與可檢驗分析，不由被列為嫌疑人反推一定在場或犯罪。",
+          "explanation": "犯罪嫌疑人同為四端點之一，可透過適法採取及分析的跡證建立或排除其關聯。",
+          "correction": "不能只因圖上有連線就視為犯罪已證明，應保留來源及推論強度。",
           "trueStatement": true
         },
         {
           "text": "偵查人員（investigator）",
-          "explanation": "偵查人員負責蒐證、記錄、推論與防污染；若把自身列入原始犯罪端點，容易混淆案件實際接觸與採證後介入造成的痕跡。",
-          "correction": "本題按官方選C；偵查者的採證、接觸與交接仍須記錄，但屬證物監管及排除污染的另個層次。",
+          "explanation": "作者完整列舉沒有偵查人員；偵查者執行採證、分析與重建，是模型使用者而非本題端點。",
+          "correction": "選C；偵查者的DNA、鞋印等可能造成污染，仍需控制，但不改變這份模型的四項名稱。",
           "trueStatement": false
         },
         {
           "text": "刑案現場（crime scene）",
-          "explanation": "犯罪現場是物證與人員相對位置、進出與活動經過的場域，103版第20及34點要求依特性及位置搜尋、研判。",
-          "correction": "以客觀位置和痕跡連結現場；不能因證物被帶到某處就不查明它與原犯罪地的關係。",
+          "explanation": "犯罪現場是作者列明端點之一；物證原位置及環境關係為其與人及行為連結的分析基礎。",
+          "correction": "犯罪現場可有主、次及多處，不能把四端點誤解成每案只有一個地點。",
           "trueStatement": true
         }
       ],
@@ -432,31 +432,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第5題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 5,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "基隆市警察局114.10.20赴美現場重建研習報告・第7、10—11頁（web工具實讀）；法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第20、34點",
-        "checkedAt": "2026-11-23",
-        "note": "114官方報告有四向連結及三種關係說明，但未逐字列完整四端點教材；本輪不只憑C鍵把缺失定義當已核，保持待核及證物污染界線。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
-        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
-        "newRule": "人、場、物的關聯須由證據建立；偵查者管理與分析，不替代犯罪事實端點。",
+        "status": "none",
+        "law": "考選部・113年官方原卷",
+        "checkedAt": "2026-11-26",
+        "note": "新增Lee／Pagliaro2013完整作者原文，Linkage Principle及Recognition段落均直接列完整四端點，解除先前官方研習摘要未全列的缺口。 本次核對的是明列來源與版本的四項分析；保留原題、原選項及全部官方初始／最終給分，不以答案鍵反推各選項一律正確。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "114官方報告有四向連結及三種關係說明，但未逐字列完整四端點教材；本輪不只憑C鍵把缺失定義當已核，保持待核及證物污染界線。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "newRule": "四面向連結：suspect、victim、crime scene、physical evidence。偵查者的工作是查證連結，並控制自身帶來的污染或認知偏誤。",
         "sources": [
           {
-            "title": "基隆市警察局114.10.20赴美現場重建研習報告・第7、10—11頁（web工具實讀）",
-            "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
-          },
-          {
-            "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第20、34點",
-            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+            "title": "考選部・113年官方原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=113060&q=1&s=1105&t=Q"
           }
         ]
       },
-      "takeaway": "人、場、物的關聯須由證據建立；偵查者管理與分析，不替代犯罪事實端點。",
+      "takeaway": "四面向連結：suspect、victim、crime scene、physical evidence。偵查者的工作是查證連結，並控制自身帶來的污染或認知偏誤。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -477,9 +473,13 @@
         {
           "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第20、34點",
           "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "Lee／Pagliaro〈Forensic Evidence and Crime Scene Investigation〉（2013）・作者原文",
+          "url": "https://www.avensonline.org/fulltextarticles/JFI-2330-0396-01-0004.html"
         }
       ],
-      "currentAnswer": "原官方答案C保留。本題四向連結所討論的是嫌疑人、被害人、現場與物證之間的證據關聯；偵查人員是分析與維護證物鏈的人，不因參與偵查就成其中一個原始犯罪端點。完整四端點指定教材仍待核。"
+      "currentAnswer": "C。作者原文直接列四端點為嫌疑人、被害人、犯罪現場及物證；偵查人員負責建立連結，並非該模型列出的端點。"
     },
     {
       "id": "investigation113_06",
@@ -1300,26 +1300,26 @@
       "options": [
         {
           "text": "開啟飛航模式",
-          "explanation": "飛航模式可作為隔離行動網路的方法之一，但已讀官方研習報告提醒部分設備在飛航模式下仍可能保留Wi-Fi等連線，單看飛航圖示不足以證明已完全隔離。",
-          "correction": "應由適任人員確認Wi-Fi、藍牙及其他無線介面的實際狀態；如操作會造成鎖定或資料改變風險，評估屏蔽容器等方式，並保留處置紀錄。",
+          "explanation": "飛航模式是NIST列出的隔離方法之一，需操作設備且應記錄；應依機型確認所有相關無線通訊的實際隔離效果，不能只看圖示，也不能忽略操作造成的資料變動。",
+          "correction": "依裝置及鎖定狀態決定是否操作，確認隔離效果；A不是任意解鎖或無條件按鍵命令。",
           "trueStatement": true
         },
         {
           "text": "防止詐欺集團主嫌透過雲端技術刪除手機資料",
-          "explanation": "仍可連網的裝置可能接收遠端指令或同步刪除，故避免遠端抹除是採證保全的重要目標。保全不能只管現場持有人，也要注意網路可達性。",
-          "correction": "選擇隔離方式時須兼顧裝置現況與後續擷取需求；隔離並不授權擴大讀取帳號、雲端內容或其他超出合法搜索範圍的資料。",
+          "explanation": "NIST指出遠端通訊可能覆寫或更動資料，保存時應阻絕相關無線連線並確認隔離效果。",
+          "correction": "避免雲端抹除是合理目標；屏蔽袋也可能漏訊號，仍應驗證、供電與紀錄。",
           "trueStatement": true
         },
         {
           "text": "立即關閉電源以維持證物的監督鍊（chain of custody）完整性",
-          "explanation": "監管鏈在於證物發現、操作、保管及交接可追溯，並不是把電源關掉就自然完整。立即關機還可能使記憶體狀態消失，或在重啟後遇到更強的鎖定與加密障礙。",
-          "correction": "先評估資料與安全風險，再決定維持供電、隔離或關機；每一步都記錄時間、人員、理由及設備狀態，而非以「維持監管鏈」作為一律關機的理由。",
+          "explanation": "NIST明說關機可能在重啟時觸發PIN或安全碼並增加取得困難。監管鏈靠同一性、交接及過程紀錄維持，不是單靠關機。",
+          "correction": "原官方選C；應依裝置、電量、加密及風險判斷，不能為了監管鏈就一律立即關機。",
           "trueStatement": false
         },
         {
           "text": "立即將密碼保護功能移除",
-          "explanation": "解除或移除密碼可能協助後續取證，也可能改變裝置設定或資料狀態，且是否能依法取得或使用密碼，與單純防止螢幕上鎖並非同一問題。",
-          "correction": "不得將「立即移除密碼保護」當成普遍必做事項；須評估合法取證範圍、裝置機制、當事人權利與專業操作方式。本項原始技術條件未核齊，故全題仍待核。",
+          "explanation": "NIST指出認證通常不能在未先滿足認證要求時停用。移除保護亦會改變設備狀態，須有合法及必要理由。",
+          "correction": "D不是所有查扣裝置都應立即解除；先取得或保留合法認證資訊，由專業人員評估並記錄操作。",
           "trueStatement": true
         }
       ],
@@ -1330,39 +1330,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第15題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 15,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "基隆市政府警察局114年赴美鑑識研習報告（實讀PDF第6–11頁，數位採證技術與保全限制）；司法周刊2048期：智財法院邀周士楨科長談營業秘密與數位鑑識（110.4.1）；政府機關資訊通報332期：吳典松〈數位證據保全標準作業程序及第一線人員使用工具之簡介〉（104.6，當時草案與工具介紹）；警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
-        "checkedAt": "2026-11-23",
-        "note": "已核手機隔離、遠端抹除、鎖定／加密與監管鏈的一般風險；D「立即移除密碼保護」對權限、裝置狀態及操作影響缺乏限定，不能當成所有機種通則。未取得本題所據完整刑案數位手冊，保留待核。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
-        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
-        "newRule": "保全手機須同時評估遠端毀證與關機後鎖定風險，完整記錄每次操作與交接；飛航、關機和解除密碼都不是免評估的固定動作。",
+        "status": "none",
+        "law": "全國法規資料庫・刑事訴訟法（第122、133、206、208條）",
+        "checkedAt": "2026-11-26",
+        "note": "新增NIST800-101r1第4.3節、採證決策樹及第5節，直接說明飛航、關機與屏蔽各有缺點，以及認證通常須先成功驗證才可停用；題幹未明指特定臺灣手冊。 本次核對的是明列來源與版本的四項分析；保留原題、原選項及全部官方初始／最終給分，不以答案鍵反推各選項一律正確。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "已核手機隔離、遠端抹除、鎖定／加密與監管鏈的一般風險；D「立即移除密碼保護」對權限、裝置狀態及操作影響缺乏限定，不能當成所有機種通則。未取得本題所據完整刑案數位手冊，保留待核。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "newRule": "先記錄裝置狀態、隔離遠端連線及保持可追蹤保管；供電、鎖定、加密和驗證資訊須由適任人員依裝置狀態評估。",
         "sources": [
           {
-            "title": "基隆市政府警察局114年赴美鑑識研習報告（實讀PDF第6–11頁，數位採證技術與保全限制）",
-            "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
-          },
-          {
-            "title": "司法周刊2048期：智財法院邀周士楨科長談營業秘密與數位鑑識（110.4.1）",
-            "url": "https://www.judicial.gov.tw/tw/cp-1429-400841-340f3-1.html"
-          },
-          {
-            "title": "政府機關資訊通報332期：吳典松〈數位證據保全標準作業程序及第一線人員使用工具之簡介〉（104.6，當時草案與工具介紹）",
-            "url": "https://ws.ndc.gov.tw/Download.ashx?icon=..pdf&n=cGFydDEucGRm&u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL1JlbEZpbGUvNTU2Ni83NzYxLzAwNjI5NDEucGRm"
-          },
-          {
-            "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
-            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+            "title": "全國法規資料庫・刑事訴訟法（第122、133、206、208條）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
           }
         ]
       },
-      "takeaway": "保全手機須同時評估遠端毀證與關機後鎖定風險，完整記錄每次操作與交接；飛航、關機和解除密碼都不是免評估的固定動作。",
+      "takeaway": "先記錄裝置狀態、隔離遠端連線及保持可追蹤保管；供電、鎖定、加密和驗證資訊須由適任人員依裝置狀態評估。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -1391,9 +1379,17 @@
         {
           "title": "警察偵查犯罪手冊（臺灣警察專科學校公開115年版）",
           "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法（第122、133、206、208條）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "NIST SP 800-101 Rev.1（2014）・行動裝置隔離、保存及報告",
+          "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-101r1.pdf"
         }
       ],
-      "currentAnswer": "保留113年官方答案C。立即關機不能自動維持監管鏈；A須確認其他無線介面，D須經合法權限與專業評估，均不得寫成一律照做。"
+      "currentAnswer": "原官方C保留。立即一律關機不能確保監管鏈，並可能觸發鎖定或失去可取資料；D移除密碼也須先有合法權限、正確認證及必要性，不是每案立即做。"
     },
     {
       "id": "investigation113_16",
@@ -2147,26 +2143,26 @@
       "options": [
         {
           "text": "水分",
-          "explanation": "刑事局指紋科說明汗孔分泌汗液、亦可沾皮脂而觸物留痕，且水分等會隨時間散失。A是本題答案，但粉末顯現不能簡化成水與鋁的單一化學反應。",
-          "correction": "依適用指紋處理程序理解殘留物與粉末附著；採證時間、表面及殘留狀態都會影響效果。",
+          "explanation": "NIJ第7.3.1節指出粉末微粒物理附著於非多孔表面的水性及油性殘留物。A是原題四項中最符合粉末顯現機理者。",
+          "correction": "保留A，同時把題幹反應理解為附著顯現，不能宣稱鋁粉只與水發生專一化學反應。",
           "trueStatement": true
         },
         {
           "text": "蛋白質",
-          "explanation": "蛋白質是可能存在於生物材料的成分概念；本題是鋁粉粉末顯現，不以列出蛋白質就證明其為該粉末法特定反應標的。",
-          "correction": "區分粉末附著與特定化學／生物檢測方法，不能用成分名稱替代方法原理及驗證。",
+          "explanation": "指紋殘留可有多種有機成分，但NIJ將粉末法說明為物理附著，沒有把蛋白質作鋁粉專一反應物。",
+          "correction": "不能因汗液含蛋白質就推定它是這種顯現法的主要選項。",
           "trueStatement": false
         },
         {
           "text": "胺基酸",
-          "explanation": "胺基酸可作某些化學顯現方法的反應對象，但不能因此把鋁粉粉末法也歸為同一反應。103版第57點另指向指紋鑑識作業手冊，本次完整專章尚缺。",
-          "correction": "先辨識實際試劑及方法；不能把其他化學顯現法的反應物直接套到鋁粉。",
+          "explanation": "NIJ第7.4節另說寧海德林等胺基酸試劑，與第7.3節粉末物理附著不同。",
+          "correction": "將胺基酸反應法與鋁粉刷顯法分開，不把各類指紋技術混為一種。",
           "trueStatement": false
         },
         {
           "text": "尿素",
-          "explanation": "尿素是汗液可能涉及的成分，但汗液含某物質不等於每種採指紋方法皆以其為選擇性反應標的。官方五特性文章未提供鋁粉與尿素反應的直接支持。",
-          "correction": "D不能由汗液含尿素推成正解；方法對象與殘留成分清單分開，完整粉末專章仍待補核。",
+          "explanation": "尿素可能存在汗液殘留，但不是NIJ粉末法所述的專一顯現反應標的。",
+          "correction": "成分存在不等於該方法直接偵測該成分；本題應回到粉末附著的機理。",
           "trueStatement": false
         }
       ],
@@ -2177,31 +2173,27 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第24題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 24,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "刑事警察局指紋科・指紋科學小百科主題2：指紋的特性（web工具全文主文存本）；法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第57點",
-        "checkedAt": "2026-11-23",
-        "note": "已由web工具實讀刑事局五特性文章全文主文，直接HTTP503另存失敗；尚缺完整指紋粉末作業專章，因此保留A鍵並補物理／化學界線，未宣稱全題技術原件已核。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
-        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
-        "newRule": "粉末法先理解物理附著顯現；汗液含多種成分，不把水分當唯一永久存在的物質。",
+        "status": "none",
+        "law": "考選部・113年官方原卷",
+        "checkedAt": "2026-11-26",
+        "note": "新增NIJ《The Fingerprint Sourcebook》第7章完整68頁，第7.3.1節直接說aqueous and oily components，第7.3.2節列鋁金屬片粉末；補足先前欠缺的粉末作業專章。 本次核對的是明列來源與版本的四項分析；保留原題、原選項及全部官方初始／最終給分，不以答案鍵反推各選項一律正確。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "已由web工具實讀刑事局五特性文章全文主文，直接HTTP503另存失敗；尚缺完整指紋粉末作業專章，因此保留A鍵並補物理／化學界線，未宣稱全題技術原件已核。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "newRule": "粉末法利用細微顆粒對指紋殘留物的物理附著來顯現紋線；胺基酸顯現試劑與粉末法應分開。",
         "sources": [
           {
-            "title": "刑事警察局指紋科・指紋科學小百科主題2：指紋的特性（web工具全文主文存本）",
-            "url": "https://www.cib.npa.gov.tw/ch/app/data/view?id=1956&module=wg124&serno=48084470-6d7c-4d6a-88ef-4107fdfbb682"
-          },
-          {
-            "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第57點",
-            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+            "title": "考選部・113年官方原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=113060&q=1&s=1105&t=Q"
           }
         ]
       },
-      "takeaway": "粉末法先理解物理附著顯現；汗液含多種成分，不把水分當唯一永久存在的物質。",
+      "takeaway": "粉末法利用細微顆粒對指紋殘留物的物理附著來顯現紋線；胺基酸顯現試劑與粉末法應分開。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -2222,9 +2214,13 @@
         {
           "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第57點",
           "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "美國NIJ《The Fingerprint Sourcebook》第7章・潛在指紋顯現（2011）",
+          "url": "https://www.ojp.gov/pdffiles1/nij/225327.pdf"
         }
       ],
-      "currentAnswer": "原官方答案A保留。指紋汗液等殘留可供粉末附著顯現；題目說產生反應不宜直接解讀成鋁粉只與水分發生特定化學反應。完整粉末法專章未取得，保留技術依據待核。"
+      "currentAnswer": "A最符合本題粉末物理黏附概念。NIJ原文說粉末附著於指紋殘留的水性與油性成分，不是鋁粉專一與某種水分子化學反應。"
     },
     {
       "id": "investigation113_25",
@@ -2236,26 +2232,26 @@
       "options": [
         {
           "text": "數位鑑識報告應以易於供偵查人員、檢察官、法官及律師等閱讀理解為導向，要避免過多的專業術 語或專有名詞",
-          "explanation": "報告要讓訴訟參與者理解資料、方法及結論，過多未解釋術語可能妨礙審查；但必要的技術名稱仍應準確使用，不能為易讀而省略工具、參數、限制及可重現步驟。",
-          "correction": "以清楚說明或附註解釋必要術語；易讀是溝通要求，不是刪除技術依據的理由。",
+          "explanation": "NIST800-86第3.4節要求依受眾調整報告；偵查、審判與管理者需求有別，可理解的文字有助判讀。",
+          "correction": "保留必要專業精確性，對不可避免的術語加解釋，不因避免術語而省略方法或限制。",
           "trueStatement": true
         },
         {
           "text": "數位鑑識報告內容主要為「結論與鑑識過程」二大部分",
-          "explanation": "刑訴第206條明定應報告鑑定經過及結果，與本項兩大內容方向相符；但同條另要求專業能力、充分資料、可靠原理方法及可靠適用，並未把報告格式限定成僅有兩個章節。",
-          "correction": "結論及過程可作組織架構，仍須完整交代法律要求與限制；原教材二分法來源繼續待核。",
+          "explanation": "刑訴第206條要求鑑定經過與結果，NIST亦要求方法、發現及結論；B可作主要內容的概括，而不是強制僅有兩章。",
+          "correction": "報告仍應包括資格、資料基礎、可靠原理及其適用等法定事項，不能以兩大部分為由刪除必要內容。",
           "trueStatement": true
         },
         {
           "text": "數位鑑識人員撰寫數位鑑識報告時，必要時可以用名詞解釋的方式補充說明",
-          "explanation": "用名詞解釋說明雜湊值、映像或時間欄位等，有助讀者理解，但名詞表不能代替採證程序、驗證方法與結論推導，也不能消除工具誤差。",
-          "correction": "必要時加註名詞定義，同時保留足以查驗資料及方法的具體記錄。",
+          "explanation": "依讀者需求補充術語與方法說明，符合NIST報告可理解及可供重現審查的目的。",
+          "correction": "名詞解釋要準確並對應案件方法，不能只堆術語或用套語替代實際分析。",
           "trueStatement": true
         },
         {
           "text": "數位鑑識過程中應包含鑑識人員個人經驗的分析研判",
-          "explanation": "個人經驗分析不是所有鑑定必備的法定內容，更不能以主觀直覺代替充分資料與可靠方法；但專業訓練及經驗可以形成可說明、可審查的推論，不能一律視為違法。",
-          "correction": "本題保留D；把觀察事實、專業推論與不確定性分開，依刑訴第206條揭示其可審查基礎。",
+          "explanation": "D將鑑識人員個人經驗分析寫成應包含，並未揭示可靠基礎；法律要求足夠事實、可靠原理與可靠適用，而非未經檢證的直覺。",
+          "correction": "原D給分保留；有基礎、可說明的專業經驗並非一律禁止，應寫明推論依據、替代解釋與限制。",
           "trueStatement": false
         }
       ],
@@ -2266,31 +2262,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第25題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 25,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "刑事訴訟法第206、208條：鑑定經過、結果及可靠性要求；司法院：美國冤錯案研究的經驗與啟示（科學證據審查之研習摘要）",
-        "checkedAt": "2026-11-23",
-        "note": "已實讀刑訴第206、208條與司法院科學證據研習摘要。法條要求報告經過與結果並揭示四項基礎，不是強制所有數位報告僅能有兩個標題。D的問題在把個人經驗分析當成必備、且未交代可審查基礎，不能反寫成法律禁止一切經驗或專業推論。A至C的原始教材格式未齊，保留待核；研習摘要不是裁判全文或新的鑑定授權。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
-        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
-        "newRule": "鑑定須交代經過、結果與可審查的可靠性基礎；清楚寫作可用名詞解釋，個人經驗不能單獨取代事實與方法。",
+        "status": "none",
+        "law": "全國法規資料庫・刑事訴訟法（第122、133、206、208條）",
+        "checkedAt": "2026-11-26",
+        "note": "新增NIST800-86第3.4節讀者、替代解釋及方法記錄，800-101r1第6.3節完整報告內容，並核刑訴第206、208條。法條未限定只能兩個標題，也未禁止有基礎的專業經驗。 本次核對的是明列來源與版本的四項分析；保留原題、原選項及全部官方初始／最終給分，不以答案鍵反推各選項一律正確。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "已實讀刑訴第206、208條與司法院科學證據研習摘要。法條要求報告經過與結果並揭示四項基礎，不是強制所有數位報告僅能有兩個標題。D的問題在把個人經驗分析當成必備、且未交代可審查基礎，不能反寫成法律禁止一切經驗或專業推論。A至C的原始教材格式未齊，保留待核；研習摘要不是裁判全文或新的鑑定授權。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "newRule": "報告兼顧讀者可理解及可重現；解釋術語、記錄方法與結果，區分資料、推論和限制，不以無法查核的個人直覺作結論。",
         "sources": [
           {
-            "title": "刑事訴訟法第206、208條：鑑定經過、結果及可靠性要求",
+            "title": "全國法規資料庫・刑事訴訟法（第122、133、206、208條）",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
-          },
-          {
-            "title": "司法院：美國冤錯案研究的經驗與啟示（科學證據審查之研習摘要）",
-            "url": "https://www.judicial.gov.tw/tw/cp-1454-728990-60889-1.html"
           }
         ]
       },
-      "takeaway": "鑑定須交代經過、結果與可審查的可靠性基礎；清楚寫作可用名詞解釋，個人經驗不能單獨取代事實與方法。",
+      "takeaway": "報告兼顧讀者可理解及可重現；解釋術語、記錄方法與結果，區分資料、推論和限制，不以無法查核的個人直覺作結論。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -2305,15 +2297,23 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113060&t=A"
         },
         {
-          "title": "刑事訴訟法第206、208條：鑑定經過、結果及可靠性要求",
+          "title": "全國法規資料庫・刑事訴訟法（第122、133、206、208條）",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         },
         {
           "title": "司法院：美國冤錯案研究的經驗與啟示（科學證據審查之研習摘要）",
           "url": "https://www.judicial.gov.tw/tw/cp-1454-728990-60889-1.html"
+        },
+        {
+          "title": "NIST SP 800-86（2006）・原始技術指引，非臺灣強制處分法源",
+          "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-86.pdf"
+        },
+        {
+          "title": "NIST SP 800-101 Rev.1（2014）・行動裝置隔離、保存及報告",
+          "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-101r1.pdf"
         }
       ],
-      "currentAnswer": "保留當年度官方答案D。已按刑訴第206條補上報告的資料、方法、適用及結果要求；專業經驗並非一律禁止，但不能以不可檢驗的個人印象取代可靠依據。原題兩大部分等特定教材來源仍待補核。"
+      "currentAnswer": "原官方D保留，但不能教成禁止經驗判斷。鑑定經過、結果及可靠依據必須可審查；個人經驗既非每份報告的必填欄，也不能代替客觀事實與可靠方法。"
     },
     {
       "id": "investigation113_26",
@@ -3224,26 +3224,26 @@
       "options": [
         {
           "text": "拍攝重要跡證為顯示其大小，應於其旁放置比例尺",
-          "explanation": "103版第28點第2款明定重要跡證旁放比例尺以顯示大小；第30點第4款另對有比對需要時要求有尺、無尺垂直近照。",
-          "correction": "放尺應避免遮擋、接觸或改動跡證；依需要同時保留無尺原貌影像。",
+          "explanation": "比例尺可顯示重要跡證大小，NIJ要求適當細部及比例記錄，並先保留無尺原貌照片。",
+          "correction": "尺放在適當平面、避免遮擋或污染，不是所有照片都必須放尺。",
           "trueStatement": true
         },
         {
           "text": "重大複雜之刑案現場，宜增用錄影記錄現場原貌",
-          "explanation": "第28點第3款明定重大複雜現場宜增用錄影記錄原貌，錄影可補充空間及連續觀察，但不取代必要照片、筆記及測繪。",
-          "correction": "依現場需要結合不同紀錄方法，保存原始時間及操作資訊。",
+          "explanation": "NIJ p17把錄影列為照片的補充，可協助呈現重大複雜現場及路徑空間關係。",
+          "correction": "錄影不能取代必要的高解析細部照片、文字與測繪紀錄。",
           "trueStatement": true
         },
         {
           "text": "數位原始檔案，製作備份，並注意保密",
-          "explanation": "第28點第4款為數位原始檔製作備份並注意保密；114官方研習亦強調完整性及資料未遭變動的可驗證性。",
-          "correction": "保護原始檔與存取權限，分析副本及處理步驟另留紀錄，不能只留經編修的結果。",
+          "explanation": "原始數位影像應保留並製作受控備份，配合權限及交接保存，才能檢查同一性及後續加工。",
+          "correction": "不覆寫原檔；衍生裁切或增強應另存並保留處理說明，保密仍須依證物管理程序。",
           "trueStatement": true
         },
         {
           "text": "照相後應將有觸碰或移動跡證回復原位置",
-          "explanation": "第28點是照相前勿觸碰移動；不會因此產生照相後可任意碰觸並擺回的授權。移動會改變原貌，擺回也不能消除其發生事實。",
-          "correction": "必要救護、排除危險或依法採證如致變動，記明原因、時間、操作及前後狀態，不製造看似未變動的現場。",
+          "explanation": "NIJ要求移動前記錄原狀，並註明為何、由誰及如何變動。拍完後一律把跡證重擺回去會製造來源或位置混淆。",
+          "correction": "必要救護或採證可移動，但應留可追溯紀錄；不能任意重建擺設冒充原貌。",
           "trueStatement": false
         }
       ],
@@ -3254,35 +3254,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "113年內軌四等｜犯罪偵查概要｜第36題",
       "paperYear": 113,
       "paperTrack": "內軌",
       "paperNumber": 36,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第27、28、30點；警專公開115版警察偵查犯罪手冊（完整主文）・第52點；基隆市警察局114.10.20赴美現場重建研習報告・第7、10—11頁（web工具實讀）",
-        "checkedAt": "2026-11-23",
-        "note": "歷史完整第28點與115救護必要變動記錄已核；原題所引完整113當期／最新攝影專章未齊，保留待核，不把照相後重擺當成法定程序。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
-        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
-        "newRule": "先拍原貌再依法必要採證；移動有紀錄，不能用擺回去取代紀錄。",
+        "status": "none",
+        "law": "警專公開《警察機關刑案證物管理注意事項》114.3.11完整18點",
+        "checkedAt": "2026-11-26",
+        "note": "新增NIJ完整指南pp16–22、27–32及NIST原始資料完整性章，直接說原狀、尺度、錄影輔助及變動記錄；題幹並未明指某版臺灣手冊。 本次核對的是明列來源與版本的四項分析；保留原題、原選項及全部官方初始／最終給分，不以答案鍵反推各選項一律正確。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "歷史完整第28點與115救護必要變動記錄已核；原題所引完整113當期／最新攝影專章未齊，保留待核，不把照相後重擺當成法定程序。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "newRule": "現場原貌須在移動前保存；必要移動記明原因、時間及人員，圖像保留原檔及備份，照片與錄影相互補充。",
         "sources": [
           {
-            "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第27、28、30點",
-            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
-          },
-          {
-            "title": "警專公開115版警察偵查犯罪手冊（完整主文）・第52點",
-            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
-          },
-          {
-            "title": "基隆市警察局114.10.20赴美現場重建研習報告・第7、10—11頁（web工具實讀）",
-            "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
+            "title": "警專公開《警察機關刑案證物管理注意事項》114.3.11完整18點",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiOWhrNGRKQlVVUnpBWUV1UXdKSitwaWp3bFloUjhDOHFjcHR1VEVDZnkxSDI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbXVOSDJxdjIvOWE3ME1HOEtaQjJJODgwRUFBdEdpSDRIZmhxaFl0Z0UyVWY1WW9QQU1VNDNlVDFwaTNCZVlZZHdWclR2dkUvTjh3YS9jR28vbzBsZWd5NmNGVmJkWnQ2NDN3SndrM2NaZFc=&cg=968"
           }
         ]
       },
-      "takeaway": "先拍原貌再依法必要採證；移動有紀錄，不能用擺回去取代紀錄。",
+      "takeaway": "現場原貌須在移動前保存；必要移動記明原因、時間及人員，圖像保留原檔及備份，照片與錄影相互補充。",
       "sources": [
         {
           "title": "考選部・113年官方原卷",
@@ -3307,9 +3299,21 @@
         {
           "title": "基隆市警察局114.10.20赴美現場重建研習報告・第7、10—11頁（web工具實讀）",
           "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1762227400945.pdf"
+        },
+        {
+          "title": "警專公開《警察機關刑案證物管理注意事項》114.3.11完整18點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiOWhrNGRKQlVVUnpBWUV1UXdKSitwaWp3bFloUjhDOHFjcHR1VEVDZnkxSDI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbXVOSDJxdjIvOWE3ME1HOEtaQjJJODgwRUFBdEdpSDRIZmhxaFl0Z0UyVWY1WW9QQU1VNDNlVDFwaTNCZVlZZHdWclR2dkUvTjh3YS9jR28vbzBsZWd5NmNGVmJkWnQ2NDN3SndrM2NaZFc=&cg=968"
+        },
+        {
+          "title": "NIJ／NFSTC《Crime Scene Investigation: A Guide for Law Enforcement》（2013完整本）",
+          "url": "https://www.ojp.gov/pdffiles1/ncjrs/243598.pdf"
+        },
+        {
+          "title": "NIST SP 800-86（2006）・原始技術指引，非臺灣強制處分法源",
+          "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-86.pdf"
         }
       ],
-      "currentAnswer": "原官方答案D保留。103版第28點要求照相前勿觸碰移動，並不是照完後就可挪動再假裝恢復原狀；必要採證或救護變動須記錄而非偽造原始現場。"
+      "currentAnswer": "D錯誤；應先記錄原狀及任何必要變動，不為拍照後回復原位而重擺跡證。A比例尺、B錄影輔助及C原始檔保存均需維持紀錄完整。"
     },
     {
       "id": "investigation113_37",

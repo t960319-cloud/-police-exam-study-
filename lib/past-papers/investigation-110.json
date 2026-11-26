@@ -1016,26 +1016,26 @@
       "options": [
         {
           "text": "①②③④⑤⑥",
-          "explanation": "①在父母為法定代理人的前提下符合刑訴第233條第1項，並非錯誤；A把六句全部列為錯誤，因此不能成立。②③⑤確有法律問題，④須注意效力及全體共犯，⑥另欠法院核定條件。",
-          "correction": "不能把①也列為錯誤；法定代理人於被害人生存時的獨立告訴，與其死亡後告訴應分開。",
+          "explanation": "①在父母為法定代理人時，依刑訴233條第1項可獨立告訴，不能將六句全部列為錯誤。②學校僅得告發、③知悉犯人起算、⑤死後告訴限制，則各有直接法條可核。",
+          "correction": "排除把①一律列為錯誤的讀法；另須對④的告訴對象與效力、⑥的法院核定分別判斷。",
           "trueStatement": true
         },
         {
           "text": "②③④⑤",
-          "explanation": "B是當年度官方給分的錯誤組合。②學校無當然告訴權；③應自知悉犯人起算；④對一共犯告訴效力及於其他共犯；⑤死亡後不得違反被害人明示不追究之意思。",
-          "correction": "學校可告發；期間由知悉犯人起算六個月；一人告訴效力及全體；死亡後家屬告訴受生前明示意思拘束。另⑥不能省略法院核定要件。",
+          "explanation": "B是官方給分。②學校非當然告訴權人；③應自知悉犯人起算；⑤死後不得違反被害人生前明示意思。④若意指告訴效力僅及一人，違反239條；若只是先指名一人提出，仍可發生及全體的效力。",
+          "correction": "保留B給分，但應明示④的兩種讀法；⑥還省略法院核定，不能把B無條件當作現行唯一錯誤組合。",
           "trueStatement": false
         },
         {
           "text": "②③⑤⑥",
-          "explanation": "C列入⑥，卻漏掉④的共犯告訴不可分問題。依現行調解條例，⑥若只有調解成立而無法院核定，並非當然不得再告訴。",
-          "correction": "④應說明對一共犯告訴效力及於其他共犯；⑥須查法院核定，不能由調解成立直接推出拒收。",
+          "explanation": "⑥只有調解成立而未經法院核定，不能依調解條例27條一概拒絕受理；法院核定及偵審中撤回效果另依26至28條。C也未處理④意圖將告訴效力排除其他共犯時的法律問題。",
+          "correction": "⑥先查法院核定及適用情形；④區分只指名一人提出與排除其他共犯效力，不直接另宣稱C為新正解。",
           "trueStatement": true
         },
         {
           "text": "①③④",
-          "explanation": "D誤把①列為錯誤，又未列入②及⑤。刑訴第233條分別規定法定代理人的獨立告訴與被害人死亡後告訴，不能混同。",
-          "correction": "①在法定代理人前提下成立；②學校得告發而非當然告訴；⑤不得與死亡被害人生前明示意思相反。",
+          "explanation": "D將①列錯，卻漏掉②學校無當然告訴權與⑤死後不得違反明示意思等明確問題；其組合無法完整呈現233、237、239、240條。",
+          "correction": "生存時法定代理人獨立告訴與死亡後親屬告訴應分開；告發、期間及共犯效力亦須分別判斷。",
           "trueStatement": true
         }
       ],
@@ -1046,34 +1046,29 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第12題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 12,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "刑事訴訟法（本次核對之現行全文）；鄉鎮市調解條例第26至28條；警專公開115年新版警察偵查犯罪手冊（完整主文）",
-        "checkedAt": "2026-11-20",
-        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
-        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "status": "none",
+        "law": "刑事訴訟法・第84至87、95、100之1至100之3、233、237至240條；鄉鎮市調解條例・第26至28條",
+        "checkedAt": "2026-11-26",
+        "note": "刑訴第233、237、239、240條及調解條例第26至28條已逐句核實。原題⑥僅寫調解成立，省略法院核定；④如只是指名一人提出告訴，與企圖排除其他共犯的告訴效力不同。這是原題語意與條件問題，不等待或臆造官方釋疑補入事實；原B及官方給分不變。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
         "newRule": "①未成年被害人的法定代理人得獨立告訴；告訴期間從知悉犯人起算。共犯告訴不可分；調解成立須另查法院核定及撤回意旨，不能一概拒收。",
         "sources": [
           {
-            "title": "刑事訴訟法（本次核對之現行全文）",
+            "title": "刑事訴訟法・第84至87、95、100之1至100之3、233、237至240條",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
           },
           {
-            "title": "鄉鎮市調解條例第26至28條",
+            "title": "鄉鎮市調解條例・第26至28條",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0020003"
-          },
-          {
-            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
-            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
           }
-        ],
-        "effectiveStatus": "unverified"
+        ]
       },
       "takeaway": "①未成年被害人的法定代理人得獨立告訴；告訴期間從知悉犯人起算。共犯告訴不可分；調解成立須另查法院核定及撤回意旨，不能一概拒收。",
       "sources": [
@@ -1090,11 +1085,11 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=110070&t=A"
         },
         {
-          "title": "刑事訴訟法（本次核對之現行全文）",
+          "title": "刑事訴訟法・第84至87、95、100之1至100之3、233、237至240條",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         },
         {
-          "title": "鄉鎮市調解條例第26至28條",
+          "title": "鄉鎮市調解條例・第26至28條",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0020003"
         },
         {
@@ -1102,7 +1097,7 @@
           "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
       ],
-      "currentAnswer": "當年度官方B；現行須逐句判斷，⑥省略法院核定要件，不能把B無條件當成現行唯一組合。"
+      "currentAnswer": "當年度官方B保留；依完整現行法，⑥未載法院核定，④亦須區分只指名一人與效力限於一人，不能將B宣稱為無條件的現行唯一組合。"
     },
     {
       "id": "investigation110_13",
@@ -1196,26 +1191,26 @@
       "options": [
         {
           "text": "派出所",
-          "explanation": "103年鑑識手冊第66點第4款列警察局刑事鑑識中心、刑警大隊、鑑識科課及分局偵查隊，未將派出所列入這份應設證物室名單。",
-          "correction": "只能說未列於該版名單；派出所取得證物仍須妥適採取、包裝、封緘及依權責移交，不能把未設室誤認為沒有保全義務。",
+          "explanation": "103歷史手冊設室名單未列派出所；114.5.28第2點設室義務仍定在各直轄市、縣市警察局及其分局，沒有另把派出所列為該義務機關。",
+          "correction": "A是原題應選項；派出所採得證物仍須妥善封存、列冊及依權責交接。",
           "trueStatement": false
         },
         {
           "text": "警察局鑑識科",
-          "explanation": "警察局鑑識科是103年手冊第66點第4款明列應設刑案證物室的單位，與科、課等鑑識單位的採證及證物保管功能相連。",
-          "correction": "此結論已由歷史版直接核對；最新規範的組織名稱與分工仍待完整原件，不因各地編制名稱不同便自行擴張名單。",
+          "explanation": "警察局鑑識科是原歷史名單的鑑識單位；現行第3點第1款由刑事鑑識中心（科）督導控管現場勘察採證所得證物。",
+          "correction": "辨明舊名單與現行分工；不能由科的督導責任推論所有證物都由該科單獨保管。",
           "trueStatement": true
         },
         {
           "text": "警察局刑警大隊",
-          "explanation": "警察局刑警大隊同列於103年手冊第66點第4款；106年證物室管理規定也區分偵查搜索取得物證與鑑識現場採取跡證的保管權責。",
-          "correction": "應依各證物來源與機關分工辦理保管及交接；設室不等於任何證物都須一律送同一處，更不免除清單及流向紀錄。",
+          "explanation": "刑事警察大隊在歷史名單內；114.5.28第3點第2款明定其督導搜索、扣押及任意提出或交付留存證物。",
+          "correction": "依取得途徑及機關分工登記保管，不以刑警大隊名稱概括取代全機關設室義務。",
           "trueStatement": true
         },
         {
           "text": "分局偵查隊",
-          "explanation": "分局偵查隊同為103年手冊第66點第4款列舉單位；106年證物室管理規定第2點另要求直轄市、縣市警察局及分局設置刑案證物室。",
-          "correction": "區分機關層級的設置義務與機關內承辦單位；本題原給分保留，但當年度與最新完整版本仍須補核。",
+          "explanation": "分局偵查隊是歷史手冊名單項目；現行第2點明列分局設室，第20點另定分局長及偵查隊長等定期實地督導，不能把督導規定當成設室義務的創設條文。",
+          "correction": "D須以機關層級與內部分工分別理解；不是派出所取得證物便可以不移交。",
           "trueStatement": true
         }
       ],
@@ -1226,27 +1221,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第14題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 14,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "法務部109年《我國建立完善刑事證物保管制度之研究》附錄4、6（106.3.22證物室作業規定與103.3.11刑事鑑識手冊官方存本）",
-        "checkedAt": "2026-11-23",
-        "note": "已取得103.3.11《刑事鑑識手冊》第66點第4款官方歷史存本，直接列出B、C、D而未列A；另讀106.3.22證物室管理規定。尚未取得最新完整鑑識手冊，故保留版本適用待核。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
-        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
-        "newRule": "應設專用證物室的單位與第一線受理、暫存或移交責任要分開；未列為設室單位，不表示可以任意保管證物。",
+        "status": "none",
+        "law": "警專公開《警察機關刑案證物室作業規定》114.5.28完整23點；警專公開《警察機關刑案證物管理注意事項》114.3.11完整18點",
+        "checkedAt": "2026-11-26",
+        "note": "新取得114.5.28完整23點，直接核第2、3點設室與督導、第20點分局長及偵查隊長等定期實地督導；與既有103歷史存本及106規定對讀。現行第2點使用機關層級，不能把舊手冊科隊名單原封當成新條文。 本次核對的是明列來源與版本的四項分析；保留原題、原選項及全部官方初始／最終給分，不以答案鍵反推各選項一律正確。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "已取得103.3.11《刑事鑑識手冊》第66點第4款官方歷史存本，直接列出B、C、D而未列A；另讀106.3.22證物室管理規定。尚未取得最新完整鑑識手冊，故保留版本適用待核。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "newRule": "設室義務、刑事鑑識與刑事警察督導責任、取得證物的保全及移交義務是三件事。未設證物室不等於無須保全證物。",
         "sources": [
           {
-            "title": "法務部109年《我國建立完善刑事證物保管制度之研究》附錄4、6（106.3.22證物室作業規定與103.3.11刑事鑑識手冊官方存本）",
-            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+            "title": "警專公開《警察機關刑案證物室作業規定》114.5.28完整23點",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiN2VSRWhsQjJSbnV0SFJwU1JqYmVlNG44dnJTOUYyWEY3NUFmaHh2V3JzMEpIN21xT2l3c1I2bEt0RVB4NzFDZ1NsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbXVOSDJxdjIvOWE3ME1HOEtaQjJJOFlLdkpjdnNRR3puTGdWcWJvbFBvcEtaQm5PeUM4Q2UrdG9zUmZUd1ZWVVhzcVhKeThZU2hDMmY2N3owbFMwZEVwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "警專公開《警察機關刑案證物管理注意事項》114.3.11完整18點",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiOWhrNGRKQlVVUnpBWUV1UXdKSitwaWp3bFloUjhDOHFjcHR1VEVDZnkxSDI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbXVOSDJxdjIvOWE3ME1HOEtaQjJJODgwRUFBdEdpSDRIZmhxaFl0Z0UyVWY1WW9QQU1VNDNlVDFwaTNCZVlZZHdWclR2dkUvTjh3YS9jR28vbzBsZWd5NmNGVmJkWnQ2NDN3SndrM2NaZFc=&cg=968"
           }
         ]
       },
-      "takeaway": "應設專用證物室的單位與第一線受理、暫存或移交責任要分開；未列為設室單位，不表示可以任意保管證物。",
+      "takeaway": "設室義務、刑事鑑識與刑事警察督導責任、取得證物的保全及移交義務是三件事。未設證物室不等於無須保全證物。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -1263,9 +1262,17 @@
         {
           "title": "法務部109年《我國建立完善刑事證物保管制度之研究》附錄4、6（106.3.22證物室作業規定與103.3.11刑事鑑識手冊官方存本）",
           "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "警專公開《警察機關刑案證物室作業規定》114.5.28完整23點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiN2VSRWhsQjJSbnV0SFJwU1JqYmVlNG44dnJTOUYyWEY3NUFmaHh2V3JzMEpIN21xT2l3c1I2bEt0RVB4NzFDZ1NsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbXVOSDJxdjIvOWE3ME1HOEtaQjJJOFlLdkpjdnNRR3puTGdWcWJvbFBvcEtaQm5PeUM4Q2UrdG9zUmZUd1ZWVVhzcVhKeThZU2hDMmY2N3owbFMwZEVwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "警專公開《警察機關刑案證物管理注意事項》114.3.11完整18點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiOWhrNGRKQlVVUnpBWUV1UXdKSitwaWp3bFloUjhDOHFjcHR1VEVDZnkxSDI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbXVOSDJxdjIvOWE3ME1HOEtaQjJJODgwRUFBdEdpSDRIZmhxaFl0Z0UyVWY1WW9QQU1VNDNlVDFwaTNCZVlZZHdWclR2dkUvTjh3YS9jR28vbzBsZWd5NmNGVmJkWnQ2NDN3SndrM2NaZFc=&cg=968"
         }
       ],
-      "currentAnswer": "依已讀103年鑑識手冊第66點第4款，A不在列舉中，與110年原答案A一致；是否為最新完整規範及110年適用版本，仍待核。"
+      "currentAnswer": "原答案A保留；派出所不在歷史列舉，也不是114.5.28規定第2點所定警察局及分局的設室層級。B～D的舊單位名稱須與現行督導分工分開。"
     },
     {
       "id": "investigation110_15",
@@ -2205,26 +2212,26 @@
       "options": [
         {
           "text": "應立即令犯罪嫌疑人操作電腦將所需證物資料取出",
-          "explanation": "115手冊第265點第2款要求讓受搜索人與電腦、手機保持適當距離，避免其接觸刪除檔案、證據，並完整記錄操作。A立即命嫌疑人自行取資料，與該原則相反。",
-          "correction": "先保全設備與資料，防止刪改並記錄操作，再由適任人員依合法程序蒐證；不以嫌疑人自行操作作為預設。",
+          "explanation": "立即命嫌疑人操作會增加刪除、加密及遠端指令等風險。115手冊第265點第2款要求使其與電腦、手機保持適當距離，A與此相反。",
+          "correction": "先控制現場、記錄設備，再由適任人員按授權範圍處理；必要詢問密碼不等於放任操作。",
           "trueStatement": false
         },
         {
           "text": "現場查扣行動裝置，應開啟飛航模式，隔絕其通訊及網路功能",
-          "explanation": "隔絕遠端連線可防止資料遭更動，但115手冊第265、266點沒有完整規定所有行動裝置一律開飛航模式的條件及操作次序。本次尚缺被引數位蒐證手冊。",
-          "correction": "依裝置狀態與正式數位蒐證程序選擇通訊隔離方式；本次不能把B的概括用語當成已核操作指令。",
+          "explanation": "飛航模式是NIST列出的隔離方法之一，需操作設備且應記錄；不能只憑飛航圖示即認為所有無線通訊均已隔離，應依機型逐項確認實際功能及隔離效果。",
+          "correction": "依裝置狀態選飛航、屏蔽或其他方法，確認效果並紀錄；避免把B當成無條件操作命令。",
           "trueStatement": true
         },
         {
           "text": "勿安裝或複製任何程式、檔案至數位證物中",
-          "explanation": "115手冊第265點第3款直接明定，勿安裝或拷貝任何程式、檔案至受搜索人的電腦或手機等數位證物相關設備。",
-          "correction": "維持證物狀態，避免在原設備另裝程式或寫入檔案；依法蒐取時仍應完整記錄過程。",
+          "explanation": "115手冊第265點第3款要求勿向受搜索人的數位設備安裝或拷貝程式、檔案；NIST亦要求控制寫入、保留原始與作業副本。",
+          "correction": "以經驗證程序取得資料，必要的即時取證也須記錄變動，不能任意在原設備另裝工具。",
           "trueStatement": true
         },
         {
           "text": "扣押電腦應符合比例原則，尤其網路公司應特別注意其影響層面",
-          "explanation": "刑訴第122條以必要性限制搜索，第133條以可為證據或得沒收之物等限定扣押。D提醒評估扣押影響符合此方向，但網路公司設備處理細節尚缺完整專用手冊。",
-          "correction": "依證據關聯、必要性及權利影響規劃扣押範圍；不因是網路公司就當然全扣或當然免扣。",
+          "explanation": "刑訴法第122、133條要求必要性與證據關聯。NIST800-86第3.1節要求評估取得方法、資源和影響，企業網路不宜無差別全扣。",
+          "correction": "依合法範圍選設備或資料蒐取方式，兼顧第三人資料與營運影響；比例原則不是一概免扣。",
           "trueStatement": true
         }
       ],
@@ -2235,32 +2242,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第25題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 25,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "警專公開115年新版警察偵查犯罪手冊（完整主文）；刑事訴訟法（本次核對之現行全文）",
-        "checkedAt": "2026-11-20",
-        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
-        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
-        "newRule": "搜索時先防止受搜索人接觸刪改資料，完整記錄操作；不能把立即命嫌疑人操作當通則。飛航模式只是通訊隔離的一種方法，須依裝置、資料狀態及正式程序選擇。",
+        "status": "none",
+        "law": "全國法規資料庫・刑事訴訟法（第122、133、206、208條）；警專公開115年新版警察偵查犯罪手冊（完整主文）",
+        "checkedAt": "2026-11-26",
+        "note": "新增完整NIST SP800-101r1第4.3節及SP800-86第3.1、4.2節，補足飛航模式、操作改變與大型網路蒐取的具體技術限制；與115手冊第265點及刑訴法對照。 本次核對的是明列來源與版本的四項分析；保留原題、原選項及全部官方初始／最終給分，不以答案鍵反推各選項一律正確。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "newRule": "先依法保全、記錄狀態與隔離遠端連線，再由適任人員蒐取；避免嫌疑人操作及任意寫入原件，扣押範圍須符合必要性。",
         "sources": [
+          {
+            "title": "全國法規資料庫・刑事訴訟法（第122、133、206、208條）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
           {
             "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
             "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
-          },
-          {
-            "title": "刑事訴訟法（本次核對之現行全文）",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
           }
-        ],
-        "effectiveStatus": "unverified"
+        ]
       },
-      "takeaway": "搜索時先防止受搜索人接觸刪改資料，完整記錄操作；不能把立即命嫌疑人操作當通則。飛航模式只是通訊隔離的一種方法，須依裝置、資料狀態及正式程序選擇。",
+      "takeaway": "先依法保全、記錄狀態與隔離遠端連線，再由適任人員蒐取；避免嫌疑人操作及任意寫入原件，扣押範圍須符合必要性。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -2279,11 +2285,19 @@
           "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         },
         {
-          "title": "刑事訴訟法（本次核對之現行全文）",
+          "title": "全國法規資料庫・刑事訴訟法（第122、133、206、208條）",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "NIST SP 800-101 Rev.1（2014）・行動裝置隔離、保存及報告",
+          "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-101r1.pdf"
+        },
+        {
+          "title": "NIST SP 800-86（2006）・原始技術指引，非臺灣強制處分法源",
+          "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-86.pdf"
         }
       ],
-      "currentAnswer": "當年度官方A；A、C已由115手冊直接核對，B的飛航模式具體操作仍待數位蒐證原件。"
+      "currentAnswer": "A最明確錯誤；依115手冊第265點應隔離受搜索人與設備。B飛航模式須看裝置狀態並確認隔離效果，不能保證所有無線功能均關閉。"
     },
     {
       "id": "investigation110_26",
@@ -4083,26 +4097,26 @@
       "options": [
         {
           "text": "逃逸之車輛所遺留的油漆碎片，應使用鑷子進行採集為宜",
-          "explanation": "油漆碎片可作拼合及層序比對，適當工具可避免徒手污染；103版第24、46點要求適當採取並防不同位置間交叉污染。",
-          "correction": "依碎片脆性及附著情形選工具，勿夾碎或破壞待鑑面；本次未取得當期明列鑷子的完整專項原件。",
+          "explanation": "NIJ指南pp89–91列清潔平滑鑷子採取可夾取之微物，並直接以撞擊物、周圍及衣鞋上的油漆為例。",
+          "correction": "依碎片大小及脆性選鑷子，僅用足夠夾力，保護層序與拼合邊緣，不是所有油漆都只能用鑷子。",
           "trueStatement": true
         },
         {
           "text": "現場跡證應以尋找車體的散落物，為破案之重要關鍵證物",
-          "explanation": "103版第41、46點要求尋找肇逃車輛相關微物及車禍碎片；散落物可幫助連結車、現場及被害人。",
-          "correction": "散落物是重要線索，仍須辨別事故前既存物與本案碎片，不因在附近就推定屬肇事車。",
+          "explanation": "車體散落物及油漆、玻璃等轉移物能連結涉案車與事故地點；指南要求記錄找到位置並蒐集適當比對樣本。",
+          "correction": "查明屬本次事故或先前既存物，以其他資料驗證來源，不能只因近現場即認定同車。",
           "trueStatement": true
         },
         {
           "text": "現場肇事車輛撞擊下產生之血跡、油漆片、玻璃等證物，應加以留存紀錄",
-          "explanation": "血跡、油漆及玻璃可能分別提供生物、材質、破裂或拼合資訊；採取前的位置和狀態紀錄是後續解讀基礎。",
-          "correction": "分項記錄、採取、封存及標示，不把不同證物混裝；鑑定結論須與事故其他資料互證。",
+          "explanation": "指南要求採前記錄微物位置、外觀與相對關係；血液、玻璃、油漆提供不同鑑驗資訊。",
+          "correction": "分項記錄、分裝與保留標識及交接，避免混裝使來源不明。",
           "trueStatement": true
         },
         {
           "text": "現場拍照不宜從各種不同角度與地點拍攝，應以現場重要跡證為拍攝核心，以避免失真",
-          "explanation": "第29點直接要求現場全貌從不同角度、地點拍攝；D禁止多角度反而可能漏失空間及相對位置資訊。",
-          "correction": "結合全景、位置及細部照片；需要尺度比對時另採合適垂直近攝，不能用單一視點代替全部記錄。",
+          "explanation": "指南p30要求全景從周圍多位置、多角度拍攝，p31再記中距離與細部關係。D禁止多角度會漏失空間資訊。",
+          "correction": "應結合全景、位置及細部；要比對尺寸時另用適當近攝與比例尺，不以單一角度替代完整紀錄。",
           "trueStatement": false
         }
       ],
@@ -4113,27 +4127,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第45題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 45,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第24、28、29、30、41、46點",
-        "checkedAt": "2026-11-24",
-        "note": "已核103版事故跡證、工具與攝影原文；110當期及現行完整事故專項採證規格未齊，保留待核。 核讀日2026-11-24（Asia/Taipei）；此為查核日，不作修法日期；保留原題、選項、trueStatement及全部官方原始／最終給分。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
-        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
-        "newRule": "全貌、相對位置、細部互相對照；碎片的來源連結須經採集、保全與比對。",
+        "status": "none",
+        "law": "考選部・110年官方原卷",
+        "checkedAt": "2026-11-26",
+        "note": "新取得NIJ完整指南攝影pp30–32、微物pp74–75與鑷子採集pp89–91，補足A工具及各項記錄的專項依據；技術原理與臺灣法定進入／扣押權分開。 本次核對的是明列來源與版本的四項分析；保留原題、原選項及全部官方初始／最終給分，不以答案鍵反推各選項一律正確。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "已核103版事故跡證、工具與攝影原文；110當期及現行完整事故專項採證規格未齊，保留待核。 核讀日2026-11-24（Asia/Taipei）；此為查核日，不作修法日期；保留原題、選項、trueStatement及全部官方原始／最終給分。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "newRule": "肇逃現場同時保全全景、相對位置與碎片細節；鑷子須清潔且力道適當，防壓碎油漆層或破壞可比對邊緣。",
         "sources": [
           {
-            "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第24、28、29、30、41、46點",
-            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+            "title": "考選部・110年官方原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=110070&q=1&s=1405&t=Q"
           }
         ]
       },
-      "takeaway": "全貌、相對位置、細部互相對照；碎片的來源連結須經採集、保全與比對。",
+      "takeaway": "肇逃現場同時保全全景、相對位置與碎片細節；鑷子須清潔且力道適當，防壓碎油漆層或破壞可比對邊緣。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -4150,9 +4164,13 @@
         {
           "title": "法務部刑政中心109年研究報告附錄6・103.3.11刑事鑑識手冊（歷史完整原文）・第24、28、29、30、41、46點",
           "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
+        },
+        {
+          "title": "NIJ／NFSTC《Crime Scene Investigation: A Guide for Law Enforcement》（2013完整本）",
+          "url": "https://www.ojp.gov/pdffiles1/ncjrs/243598.pdf"
         }
       ],
-      "currentAnswer": "原官方答案D保留。103版第29點要求從不同角度、地點記錄全貌，肇逃碎片則須保存位置、轉移及比對關係；不能把避免失真誤解為只拍單一角度。"
+      "currentAnswer": "D錯誤。NIJ2013完整指南要求全景由多處、多角度拍攝；油漆、玻璃等微物要保留位置並以適當工具分別採集。"
     },
     {
       "id": "investigation110_46",
@@ -4164,26 +4182,26 @@
       "options": [
         {
           "text": "因人對人、人對物或物對物間接觸所生成的證物",
-          "explanation": "A著重人與人、人與物或物與物接觸後物質轉移的形成機制；與門窗狀態、相對位置所反映的事件情況不同。",
-          "correction": "辨別接觸留下何種物質及其方向，不能只因發現在現場就一律稱情況性。",
+          "explanation": "A描述物理接觸造成物質交換；Lee原文在Transfer evidence下說明人、人與物、物與物接觸所生跡證，屬形成機制。",
+          "correction": "應查所轉移物質及其方向；接觸轉移不是情況性跡證的定義。",
           "trueStatement": false
         },
         {
           "text": "從現場遺留的凶器、指紋、衣物等物證，可連結到嫌犯曾至現場",
-          "explanation": "B強調物證把嫌疑人連到現場的關連功能；指紋、衣物等也可能具有其他分類性質，不能把關連用途當成情況性定義。",
-          "correction": "應分開證物本身、形成機制與它所證明的人地關聯，不以物品名稱單獨決定所有分類。",
+          "explanation": "B描述凶器、指紋、衣物等將嫌疑人與現場建立關聯的證明功能，較接近associative evidence，與場景狀態不同。",
+          "correction": "同一物證亦可能兼具轉移與關連功能，不把分類當互斥法定類型。",
           "trueStatement": false
         },
         {
           "text": "手錶停止的時間、屍體腐敗狀況、傷痕位置與形態、現場門窗關閉、開啟等、抽屜開啟位置等情形 所呈現的跡證",
-          "explanation": "103版第36點將門窗開關明列情況性跡證，第32點要求記錄原始狀態；C所列停時、位置、腐敗與開閉狀態，是本題所問的事件情況線索。",
-          "correction": "依現場實際狀態及相互關係記錄；停時或腐敗只能提供推論線索，不可直接等同確切犯罪時間。",
+          "explanation": "C由停時、屍體狀態、傷勢位置、門窗及抽屜開閉反映事發狀態。原文明列身體狀態、窗戶位置與物證精確位置為conditional例子。",
+          "correction": "保留C；仍須驗證停錶、腐敗等其他成因，不能直接等同犯罪時點。",
           "trueStatement": true
         },
         {
           "text": "室內現場有無汽油味、瓦斯味、屍臭味、車輛引擎溫度、輪胎印痕、交通號誌等情形，須加以記明 筆錄或照相、錄影方式記錄之",
-          "explanation": "氣味、溫度、聲音等可能隨時間迅速改變，第16點第4款及第32點要求及時記錄。D混列多項觀察，不能把每項都不加區分稱為同一情況性類別。",
-          "correction": "先保全易逝資訊並記明觀察條件；輪胎印痕、號誌等仍須依具體性質分別判斷。",
+          "explanation": "氣味及引擎溫度是原文transient典型例子，須及時記錄。D又混列輪胎印痕、號誌，可能另具型態或情況性，不能整串全當一類。",
+          "correction": "先保全易逝資訊，再依每種跡證性質分析；不是說輪胎與號誌一律不可能具有情況意義。",
           "trueStatement": false
         }
       ],
@@ -4194,31 +4212,27 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "110年內軌四等｜犯罪偵查概要｜第46題",
       "paperYear": 110,
       "paperTrack": "內軌",
       "paperNumber": 46,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第16、32、34、36點；新北市政府警察局112年〈玻璃毀損案偵查與鑑識之研究〉",
-        "checkedAt": "2026-11-23",
-        "note": "官方歷史手冊可證門窗情況性與易逝跡證要求，新北研究可證五類名稱及型態外觀概念；完整分類教材各項例示仍缺，不用原C替代全部定義。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
-        "oldRule": "原資料僅為官方答案對照與短考點，完整A～D逐項詳解及適用依據未齊。",
-        "newRule": "情況性看現場狀態及位置；接觸轉移、案件連結與易逝性是不同分類面向。",
+        "status": "none",
+        "law": "考選部・110年官方原卷",
+        "checkedAt": "2026-11-26",
+        "note": "新取得Lee／Pagliaro2013作者原文完整分類，直接列transient、conditional、pattern、transfer、associative等及實例；補足先前只有中文名稱及少數手冊例示的缺口。 本次核對的是明列來源與版本的四項分析；保留原題、原選項及全部官方初始／最終給分，不以答案鍵反推各選項一律正確。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "官方歷史手冊可證門窗情況性與易逝跡證要求，新北研究可證五類名稱及型態外觀概念；完整分類教材各項例示仍缺，不用原C替代全部定義。 核讀日2026-11-23（Asia/Taipei）；已核範圍限所引內容，不以網頁更新或本次查核日當修法日，保留原題及全部官方給分。 本輪補齊A～D逐項說明，保留原題、原選項及官方初始與最終給分；補充詳解與已核範圍分開，查核日不是修法日。",
+        "newRule": "依證物所反映的形成機制、時間易變性、場景狀態與關連功能分類；分類是分析工具，同一物證可能具有多種意義。",
         "sources": [
           {
-            "title": "法務部刑政中心109年證物保管研究・附錄6所載103.3.11刑事鑑識手冊（歷史完整原文）・第16、32、34、36點",
-            "url": "https://www.cprc.moj.gov.tw/media/20210462/109%E5%B9%B4%E5%A7%94%E8%A8%97%E7%A0%94%E7%A9%B6%E6%A1%88-%E6%9E%97%E8%A3%95%E9%A0%86%E7%AD%89-%E6%88%91%E5%9C%8B%E5%BB%BA%E7%AB%8B%E5%AE%8C%E5%96%84%E5%88%91%E4%BA%8B%E8%AD%89%E7%89%A9%E4%BF%9D%E7%AE%A1%E5%88%B6%E5%BA%A6%E4%B9%8B%E7%A0%94%E7%A9%B6-%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?mediaDL=true"
-          },
-          {
-            "title": "新北市政府警察局112年〈玻璃毀損案偵查與鑑識之研究〉",
-            "url": "https://www.rde.ntpc.gov.tw/userfiles/1160700/files/2_%E7%8E%BB%E7%92%83%E6%AF%80%E6%90%8D%E6%A1%88%E5%81%B5%E6%9F%A5%E8%88%87%E9%91%91%E8%AD%98%E4%B9%8B%E7%A0%94%E7%A9%B6.pdf"
+            "title": "考選部・110年官方原卷",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=110070&q=1&s=1405&t=Q"
           }
         ]
       },
-      "takeaway": "情況性看現場狀態及位置；接觸轉移、案件連結與易逝性是不同分類面向。",
+      "takeaway": "依證物所反映的形成機制、時間易變性、場景狀態與關連功能分類；分類是分析工具，同一物證可能具有多種意義。",
       "sources": [
         {
           "title": "考選部・110年官方原卷",
@@ -4239,9 +4253,13 @@
         {
           "title": "新北市政府警察局112年〈玻璃毀損案偵查與鑑識之研究〉",
           "url": "https://www.rde.ntpc.gov.tw/userfiles/1160700/files/2_%E7%8E%BB%E7%92%83%E6%AF%80%E6%90%8D%E6%A1%88%E5%81%B5%E6%9F%A5%E8%88%87%E9%91%91%E8%AD%98%E4%B9%8B%E7%A0%94%E7%A9%B6.pdf"
+        },
+        {
+          "title": "Lee／Pagliaro〈Forensic Evidence and Crime Scene Investigation〉（2013）・作者原文",
+          "url": "https://www.avensonline.org/fulltextarticles/JFI-2330-0396-01-0004.html"
         }
       ],
-      "currentAnswer": "原官方答案C保留。103版明把門窗開關列情況性跡證；應分清接觸轉移、關連與易逝觀察。完整指定教材對所有分類及例示的定義尚未取得，整題仍待核。"
+      "currentAnswer": "C符合本題情況性跡證。Lee／Pagliaro原文明列身體狀態、門窗位置及現場物證精確位置；類別可交疊，不能只憑名稱作排他結論。"
     },
     {
       "id": "investigation110_47",

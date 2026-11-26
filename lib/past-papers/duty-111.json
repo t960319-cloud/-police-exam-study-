@@ -911,26 +911,26 @@
       "options": [
         {
           "text": "「增加警察的責任心與成就感」是社區警政的四大工作要項之一",
-          "explanation": "增加警察責任心與成就感，為原題所據社區警政工作要項。",
-          "correction": "無須依本題學理修正。",
+          "explanation": "警光811期頁71說明Moore等人主張四大實務內涵：社區犯罪預防、重組巡邏活動、增加警察責任心與成就感、指揮分權化。A確實列其中一項。",
+          "correction": "保留此學理內容；勿把四大實務工作要項與CAMPS四核心混為同一清單。",
           "trueStatement": true
         },
         {
           "text": "「CAMPS」係學者 Bayley 參考日本警政制度後，提出之社區警政操作性定義",
-          "explanation": "本項CAMPS與Bayley參考日本警政的脈絡為題目採用的學理。",
-          "correction": "無須依本題學理修正。",
+          "explanation": "同頁記載Bayley於1972、1973年赴日考察並發展社區警政觀點，再列諮詢、調適、動員、問題解決為操作性核心；警專學報頁221亦以Bayley著作說明CAMPS。",
+          "correction": "可按該學理理解日本考察脈絡；這不表示世界各國社區警政僅有一種組織模式。",
           "trueStatement": true
         },
         {
           "text": "CAMPS 係由諮詢（Consultation）、分析（Analysis）、動員（Mobilization）、問題解決（Problem Solving）等單字的第 1 個字母縮寫而成",
-          "explanation": "CAMPS的A通常指Adaptation（調適），不是Analysis（分析）；S亦應連同Problem Solving理解。",
-          "correction": "Analysis改為Adaptation（調適）。",
+          "explanation": "兩個完整公開來源都將A列為Adaptation（調適），C誤用Analysis（分析）。分析是SARA問題解決過程的階段之一，不能換掉CAMPS原字。",
+          "correction": "將Analysis改為Adaptation；Problem Solving共同形成PS兩字母。",
           "trueStatement": false
         },
         {
           "text": "社區警政將巡邏活動重組成預警式巡邏，亦即機動巡邏、刑警與社區警察巡邏勤務等的重組與合作",
-          "explanation": "社區警政重視不同巡邏力量重組與預警式合作，不是只增加機動車巡數量。",
-          "correction": "無須依本題學理修正。",
+          "explanation": "重組巡邏活動屬四大工作要項，並與預警、分權、授權、合作等組織策略相連。題述機動巡邏、刑警與社區巡邏的合作，是這種重組方向的具體說明，不是排斥其他合法勤務。 此為依該組織策略所作的涵攝，所引原文未逐字列出本項三類警力。",
+          "correction": "依當地問題及警民夥伴關係協調不同警力；不把學理方向當成命令每個機關採同一固定編組。",
           "trueStatement": true
         }
       ],
@@ -938,18 +938,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "111年內軌四等・警察勤務概要・第13題",
       "paperYear": 111,
       "paperTrack": "內軌",
       "paperNumber": 13,
       "answerStatus": "官方最終答案已核（無更正紀錄）",
       "amendment": {
-        "status": "review",
-        "note": "本題依指定當年行政規則或學理核對官方答案；完整現行規範或來源仍待核，不把歷史答案當現行法律定論。",
-        "sources": []
+        "status": "none",
+        "law": "警政署《警光》811期（2024.2）頁71・社區警政、CAMPS及四大實務要項；臺灣警察專科學校《警專學報》6卷2期・經典詮釋在警政治理的應用（2015.10）頁221",
+        "checkedAt": "2026-11-26",
+        "note": "本輪新對讀已實際下載的警政署《警光》811期頁71與警專學報完整文章頁221。前者直接列四大實務工作要項、Bayley日本實察及CAMPS；後者也完整列出四核心英文。解除原先僅官方答案、學理完整依據未齊的缺口；兩篇為學理出版物，非新增法規命令，既有擷取時間如實保留。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "本題依指定當年行政規則或學理核對官方答案；完整現行規範或來源仍待核，不把歷史答案當現行法律定論。",
+        "newRule": "CAMPS＝諮詢、調適、動員、問題解決；不要混入SARA的分析階段。",
+        "sources": [
+          {
+            "title": "警政署《警光》811期（2024.2）頁71・社區警政、CAMPS及四大實務要項",
+            "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=1229247447323119616&module=wg079&type=s"
+          },
+          {
+            "title": "臺灣警察專科學校《警專學報》6卷2期・經典詮釋在警政治理的應用（2015.10）頁221",
+            "url": "https://educate.tpa.edu.tw/var/file/4/1004/img/155036092.pdf"
+          }
+        ]
       },
-      "takeaway": "CAMPS的A通常指Adaptation（調適），不是Analysis（分析）；S亦應連同Problem Solving理解。",
+      "takeaway": "CAMPS＝諮詢、調適、動員、問題解決；不要混入SARA的分析階段。",
       "sources": [
         {
           "title": "考選部111年內軌四等警察勤務概要原卷",
@@ -962,8 +975,17 @@
         {
           "title": "考選部最終答案及更正清冊",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111070&t=A"
+        },
+        {
+          "title": "警政署《警光》811期（2024.2）頁71・社區警政、CAMPS及四大實務要項",
+          "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=1229247447323119616&module=wg079&type=s"
+        },
+        {
+          "title": "臺灣警察專科學校《警專學報》6卷2期・經典詮釋在警政治理的應用（2015.10）頁221",
+          "url": "https://educate.tpa.edu.tw/var/file/4/1004/img/155036092.pdf"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案C。CAMPS的A為Adaptation（調適），不是Analysis（分析）；四大實務工作要項、Bayley日本考察脈絡與重組巡邏的預警及合作方向，分別由警政署與警專完整公開學理來源補核。這是學理辨識，不是強制處分授權。"
     },
     {
       "id": "duty111_14",

@@ -743,26 +743,26 @@
       "options": [
         {
           "text": "日間騎乘機車巡邏",
-          "explanation": "日間機車巡邏不是本題所據規範一概應著防彈衣的正解；不能由未選本項推論永遠免穿。",
-          "correction": "依勤務風險及現行攜行規定辦理。",
+          "explanation": "第3點第3款第1目將機車日勤定為6時至18時，由分局長或相當職務以上長官視天候及治安狀況律定，並非完全免穿。",
+          "correction": "日間機車依主管律定；夜勤及深夜勤均應穿著防彈衣。",
           "trueStatement": false
         },
         {
           "text": "汽車巡邏",
-          "explanation": "依112年原題所據規定，汽車巡邏屬應著防彈衣的勤務。",
-          "correction": "當年度答案無須修正；113年後應改核整併後規定。",
+          "explanation": "第3點第2款第1目明定汽車巡邏員警在車內外均應著防彈衣，支持本題B的穿著方向。",
+          "correction": "保留原官方B；現行整併規範直接要求車內外均著。",
           "trueStatement": true
         },
         {
           "text": "守望（交通整理）或值班",
-          "explanation": "守望（交通整理）或值班不是本題明定的通常應穿勤務選項。",
-          "correction": "是否穿著仍依現行規定及特殊風險決定。",
+          "explanation": "第5點守望及第6點值班把防彈衣列為主管律定裝備，並不是本題汽車巡邏同一種一律穿著規範。",
+          "correction": "依守望、值班的勤務風險與主管律定穿著，不解為一律免穿。",
           "trueStatement": false
         },
         {
           "text": "備勤",
-          "explanation": "備勤待命不等於所有情況都已進入須著防彈衣的執行狀態。",
-          "correction": "出勤任務及危險程度改變時，按現行規定穿戴。",
+          "explanation": "第7點備勤依勤務性質、地點及實需律定裝備；突發出勤或臨時派遣時改依所擔服勤務攜裝。",
+          "correction": "分開待命狀態與受派執行任務，任務需要時仍須穿著。",
           "trueStatement": false
         }
       ],
@@ -770,27 +770,35 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜警察勤務概要｜第11題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 11,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "changed",
-        "note": "警專公告113.01.01生效「警察機關執行勤務之警力數編配及應勤裝備攜行規定」；本題引用的舊穿戴規定應改與新規範對照，不得由112答案推論其他勤務永遠免穿。新制全文具體穿戴表仍待補核。",
+        "status": "none",
+        "law": "警專公開・113.1.1生效警察機關執行勤務之警力數編配及應勤裝備攜行規定全文10點；警專公告・警力數編配及應勤裝備攜行規定113.1.1生效；警專公開・警力數編配及應勤裝備攜行規定總說明與逐點說明全文",
+        "checkedAt": "2026-11-26",
+        "note": "本輪已讀警專公開113.1.1生效規定全文10點及逐點說明，補足原註所缺新制穿戴表。新制整併與當年B給分分開，未把新制生效日當作本題答案改變日。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "警專公告113.01.01生效「警察機關執行勤務之警力數編配及應勤裝備攜行規定」；本題引用的舊穿戴規定應改與新規範對照，不得由112答案推論其他勤務永遠免穿。新制全文具體穿戴表仍待補核。",
+        "newRule": "汽車巡邏車內外均著防彈衣；機車日勤可視天候治安律定，夜勤及深夜勤均應穿。",
         "sources": [
           {
-            "title": "警專・最新法令與113年應勤裝備新制公告",
-            "url": "https://www.tpa.edu.tw/p/422-1000-1010.php?Lang=zh-tw"
+            "title": "警專公開・113.1.1生效警察機關執行勤務之警力數編配及應勤裝備攜行規定全文10點",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=d0xwM1JzbmdybnFuUDI5N3Q2VzhIZkROS1pUNEVzTFFZR200UVZsMlJOdWR0RTFOaDNGUFBzT3BYbzBqZEI1ZDlUVDhtUjMrbENFQXUzSGx2azdFblNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkcEprSllIVy9xcFpWNXMxTHhKdmxuOWZpRzhST0k4clFiU2FhS3BnTTJVM1RVNkRaejJZUDM1TTNVZUxWSFFNYXJSb1dHWnFTZE1FTGxhNVU4aGljWDc2dXBoKy9CN1N1L3J5SHREV3MvazZFNHptWnJwdlI2ZHJ6QURBdkpUMno4LzZ3S3VGMUJZUzRNb1p2ZzZqR1lTSU1xYyt1ZDl2YTUxRzhqTERVclV4OGE4eFFhQ0psbHpldTFORVM5anpwQ2xVSCtJVFlYQTZaUEp4QUhIMVpCaz0=&cg=967"
+          },
+          {
+            "title": "警專公告・警力數編配及應勤裝備攜行規定113.1.1生效",
+            "url": "https://admin.tpa.edu.tw/p/405-1015-8349%2Cc967.php?Lang=zh-tw"
+          },
+          {
+            "title": "警專公開・警力數編配及應勤裝備攜行規定總說明與逐點說明全文",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=d0xwM1JzbmdybnFuUDI5N3Q2VzhIZFZMdEt2QXlrT3ROMjlTZU5JcEozNEUvZnBwNmZOYlNjNGpQckUxVXNxblhmNG4wa25jamxTUEZ3YU5HZUJZTmlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkcEprSllIVy9xcFpWNXMxTHhKdmxuOWZpRzhST0k4clFiU2FhS3BnTTJVM1RVNkRaejJZUDM1TTNVZUxWSFFNYXJSb1dHWnFTZE1FTGxhNVU4aGljWDc2dXBoKy9CN1N1L3J5SHREV3MvazZFNHptWnJwdlI2ZHJ6QURBdkpUMno3T2RhY0YrWUEvVWQ3ZEE5S010c3pHTG5pT29QbzNoSjNjT3lvZ0hkK01WOWNPcTdPMVdQd2xhTXVML0FnY3Bqdm8wQzMvS1dvVG95NXZ6TEF0ellNSGtmZEIyT3NCUVpWYkdsMUJWMHBDeEtWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
           }
-        ],
-        "law": "警察機關執行勤務之警力數編配及應勤裝備攜行規定",
-        "date": "2024-01-01",
-        "oldRule": "112題依舊防彈衣及頭盔規定，選汽車巡邏。",
-        "newRule": "113年起應另核警力數與應勤裝備攜行規定及勤務風險。"
+        ]
       },
-      "takeaway": "依112年原題所據規定，汽車巡邏屬應著防彈衣的勤務。",
+      "takeaway": "汽車巡邏車內外均著防彈衣；機車日勤可視天候治安律定，夜勤及深夜勤均應穿。",
       "sources": [
         {
           "title": "考選部・112年警勤原卷",
@@ -799,8 +807,21 @@
         {
           "title": "考選部・112年標準答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112070&c=601&s=1209&q=1"
+        },
+        {
+          "title": "警專公開・113.1.1生效警察機關執行勤務之警力數編配及應勤裝備攜行規定全文10點",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=d0xwM1JzbmdybnFuUDI5N3Q2VzhIZkROS1pUNEVzTFFZR200UVZsMlJOdWR0RTFOaDNGUFBzT3BYbzBqZEI1ZDlUVDhtUjMrbENFQXUzSGx2azdFblNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkcEprSllIVy9xcFpWNXMxTHhKdmxuOWZpRzhST0k4clFiU2FhS3BnTTJVM1RVNkRaejJZUDM1TTNVZUxWSFFNYXJSb1dHWnFTZE1FTGxhNVU4aGljWDc2dXBoKy9CN1N1L3J5SHREV3MvazZFNHptWnJwdlI2ZHJ6QURBdkpUMno4LzZ3S3VGMUJZUzRNb1p2ZzZqR1lTSU1xYyt1ZDl2YTUxRzhqTERVclV4OGE4eFFhQ0psbHpldTFORVM5anpwQ2xVSCtJVFlYQTZaUEp4QUhIMVpCaz0=&cg=967"
+        },
+        {
+          "title": "警專公告・警力數編配及應勤裝備攜行規定113.1.1生效",
+          "url": "https://admin.tpa.edu.tw/p/405-1015-8349%2Cc967.php?Lang=zh-tw"
+        },
+        {
+          "title": "警專公開・警力數編配及應勤裝備攜行規定總說明與逐點說明全文",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=d0xwM1JzbmdybnFuUDI5N3Q2VzhIZFZMdEt2QXlrT3ROMjlTZU5JcEozNEUvZnBwNmZOYlNjNGpQckUxVXNxblhmNG4wa25jamxTUEZ3YU5HZUJZTmlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkcEprSllIVy9xcFpWNXMxTHhKdmxuOWZpRzhST0k4clFiU2FhS3BnTTJVM1RVNkRaejJZUDM1TTNVZUxWSFFNYXJSb1dHWnFTZE1FTGxhNVU4aGljWDc2dXBoKy9CN1N1L3J5SHREV3MvazZFNHptWnJwdlI2ZHJ6QURBdkpUMno3T2RhY0YrWUEvVWQ3ZEE5S010c3pHTG5pT29QbzNoSjNjT3lvZ0hkK01WOWNPcTdPMVdQd2xhTXVML0FnY3Bqdm8wQzMvS1dvVG95NXZ6TEF0ellNSGtmZEIyT3NCUVpWYkdsMUJWMHBDeEtWUWY0aE5oY0RwazhuRUFjZlZrR1E9PQ==&cg=967"
         }
-      ]
+      ],
+      "currentAnswer": "112年原官方答案B保留；113.1.1生效整併規定第3點第2款仍要求汽車巡邏員警於車內外均著防彈衣。日間機車、守望、值班及備勤另依各點與主管律定，不能由本題推論一律不必穿。"
     },
     {
       "id": "duty112_12",
@@ -1452,26 +1473,26 @@
       "options": [
         {
           "text": "核電廠自聘保全人員",
-          "explanation": "電廠保全可能配合安全工作，但本題問警察機關任務分工。",
-          "correction": "應選保安警察第二總隊。",
+          "explanation": "電廠自聘保全可有內部保安或協作職責，但兩版辦事細則都將派駐各核電廠的警察安全維護列為保二大隊職掌，本題問的是專責警察分工。",
+          "correction": "區分電廠自聘保全與保二的法定警察任務；專責答案為保安警察第二總隊。",
           "trueStatement": false
         },
         {
           "text": "保安警察第二總隊",
-          "explanation": "保安警察第二總隊負責相關重要設施及核電廠安全維護勤務。",
-          "correction": "無須修正；實際編組隨設施與任務狀況核定。",
+          "explanation": "考試當時第14條及現行第13條均明列台電各核電廠之安全維護，並有配合核安、反恐、緊急應變演習的任務，故B有直接法規依據。",
+          "correction": "保留B；任務配置應依現行細則，不把舊條號14一直當成現行條號。",
           "trueStatement": true
         },
         {
           "text": "核電廠所在地警察分局",
-          "explanation": "所在地分局可依法協調支援，但不是本題專責機關。",
-          "correction": "改為保安警察第二總隊。",
+          "explanation": "所在地分局仍可依普通警察管轄、支援及個別法定權限處理案件，但不因此變成本題所問派駐核電廠的專責總隊。",
+          "correction": "分局的地方職責與支援不排除保二專責分工，不能以所在地關係取代答案。",
           "trueStatement": false
         },
         {
           "text": "保安警察第八總隊",
-          "explanation": "本題專責任務不是保安警察第八總隊。",
-          "correction": "改為保安警察第二總隊。",
+          "explanation": "完整辦事細則明列任務由保安警察第二總隊大隊掌理，並非本選項所稱第八總隊；不能由總隊編號任意推定核安職掌。",
+          "correction": "本題專責警察機關改為保安警察第二總隊。",
           "trueStatement": false
         }
       ],
@@ -1479,18 +1500,35 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜警察勤務概要｜第21題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 21,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "note": "本題保留112年警察任務分工標準答案B；核能設施運轉、除役及警衛編組屬時效資訊，2026實際勤務配置仍應核主管機關。",
-        "sources": []
+        "status": "none",
+        "law": "全國法規資料庫・102.12.30保安警察第二總隊辦事細則歷史全文（第14條）；全國法規資料庫・114.11.5保安警察第二總隊辦事細則現行全文（第13條）；全國法規資料庫・保安警察第二總隊辦事細則沿革",
+        "checkedAt": "2026-11-26",
+        "note": "已取得102.12.30歷史全文、現行114.11.5辦事細則及沿革，核對核電廠列示從舊第14條移至現行第13條且任務持續存在。電廠除役或停機不當然廢止法定安全維護分工；本輪不作2026實際派駐編班已驗收的宣稱。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "本題保留112年警察任務分工標準答案B；核能設施運轉、除役及警衛編組屬時效資訊，2026實際勤務配置仍應核主管機關。",
+        "newRule": "保二負責核電廠專責安全維護；其他機關或保全依法配合，不取代專責分工。",
+        "sources": [
+          {
+            "title": "全國法規資料庫・102.12.30保安警察第二總隊辦事細則歷史全文（第14條）",
+            "url": "https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=D0010012&lnndate=20131230&lser=001"
+          },
+          {
+            "title": "全國法規資料庫・114.11.5保安警察第二總隊辦事細則現行全文（第13條）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0010012"
+          },
+          {
+            "title": "全國法規資料庫・保安警察第二總隊辦事細則沿革",
+            "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=D0010012"
+          }
+        ]
       },
-      "takeaway": "保安警察第二總隊負責相關重要設施及核電廠安全維護勤務。",
+      "takeaway": "保二負責核電廠專責安全維護；其他機關或保全依法配合，不取代專責分工。",
       "sources": [
         {
           "title": "考選部・112年警勤原卷",
@@ -1499,8 +1537,21 @@
         {
           "title": "考選部・112年標準答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112070&c=601&s=1209&q=1"
+        },
+        {
+          "title": "全國法規資料庫・102.12.30保安警察第二總隊辦事細則歷史全文（第14條）",
+          "url": "https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=D0010012&lnndate=20131230&lser=001"
+        },
+        {
+          "title": "全國法規資料庫・114.11.5保安警察第二總隊辦事細則現行全文（第13條）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0010012"
+        },
+        {
+          "title": "全國法規資料庫・保安警察第二總隊辦事細則沿革",
+          "url": "https://law.moj.gov.tw/LawClass/LawHistory.aspx?pcode=D0010012"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B。112考試適用的102.12.30辦事細則第14條第2、7款，以及現行114.11.5版第13條第2、7款，均明列保二大隊派駐各核能發電廠安全維護及核安、反恐、應變演習支援。此核的是法定任務分工，並未查驗各廠今日實際班表與人數。"
     },
     {
       "id": "duty112_22",

@@ -286,26 +286,26 @@
       "options": [
         {
           "text": "通知警察分局性侵害案件專責人員接案處理",
-          "explanation": "應通知性侵害案件專責人員，以專業程序接案，降低重複陳述。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "A符合SOP確認性侵案件後通知警察（分）局專責人員接案的分工；法第10條亦要求由經專業訓練的專責人員處理。",
+          "correction": "受理後立即通知，不以案件在他轄或尚待專責到場為由推諉。",
           "trueStatement": true
         },
         {
           "text": "同時知會警察分局防治組家庭暴力防治官",
-          "explanation": "依分局婦幼及專責分工知會家防官，協助被害人保護、資源及後續服務。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "B符合SOP同步知會偵查隊值日小隊及防治組家防官即時介入協助的安排，不是先等某一單位辦完才聯繫另一單位。",
+          "correction": "同步通知及協調，必要救護、戒護與保全不得因行政分工延誤。",
           "trueStatement": true
         },
         {
           "text": "必要時派員協助現場戒護及證據保全",
-          "explanation": "現場與證據可能滅失時，應先協助戒護、保存，專責分工不免除緊急保全義務。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "C符合SOP第一頁必要時派員協助現場戒護及證據保全，陌生人性侵為所列例示。",
+          "correction": "依跡證流失風險及現場需要安排保全，並持續兼顧被害人安全。",
           "trueStatement": true
         },
         {
           "text": "被害人等候警察分局專責人員到達期間，請其在派出所會客區等候",
-          "explanation": "不宜讓被害人在一般公開會客區等候，以免案情、身分暴露或造成二度傷害。",
-          "correction": "改為安置於具隱私、安全且舒適的適當空間，必要時安排同性別員警或專人陪伴。",
+          "explanation": "D不符合SOP：等候期間應由適當員警安撫，陪同至溫馨會談室或其他安全隱密處所，以保護隱私；一般開放會客區欠此保障。",
+          "correction": "安排安全隱密處所並持續陪同關懷，不讓被害人暴露於不必要接觸與旁聽。",
           "trueStatement": false
         }
       ],
@@ -314,24 +314,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察情境實務概要｜第4題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 4,
       "answerStatus": "官方原答已核；目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "原卷官方答案D；隱私與避免二度傷害的核心可確認，分局防治組、家防官及專責人員分工仍應依現行SOP核對。",
-        "checkedAt": "2026-11-09",
+        "status": "none",
+        "law": "新北市政府警察局・處理性侵害案件作業程序修正規定（完整5頁）；全國法規資料庫・性侵害犯罪防治法第7、10、15、18至22條",
+        "checkedAt": "2026-11-26",
+        "note": "完整5頁性侵害SOP第一頁逐字涵蓋四個選項的權責及等候處所，並以現行性侵害犯罪防治法第10、15、18至22條核其專責及保護基礎。公開SOP未載明修正發布日期，不以下載日假稱修法日。 本輪核對的是所列法源與明示版本之完整分析；原題及官方初始／最終給分均保留，題設省略條件不由答案鍵補造。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "原卷官方答案D；隱私與避免二度傷害的核心可確認，分局防治組、家防官及專責人員分工仍應依現行SOP核對。",
+        "newRule": "通知專責人員、同步知會家防官、必要戒護與證據保全，並在等候期間持續保護隱私。",
         "sources": [
           {
-            "title": "警政署執法程序公開說明",
-            "url": "https://www.npa.gov.tw/ch/app/faq/view%3Fmodule%3Dfaq%26id%3D2144%26serno%3DA1087140"
+            "title": "新北市政府警察局・處理性侵害案件作業程序修正規定（完整5頁）",
+            "url": "https://www.wpb.police.ntpc.gov.tw/dl-36335-67827e93-acc2-4da5-ba66-0af90ab4ca11.html"
+          },
+          {
+            "title": "全國法規資料庫・性侵害犯罪防治法第7、10、15、18至22條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
           }
         ]
       },
-      "takeaway": "性侵害被害人的隱私安置：不宜讓被害人在一般公開會客區等候，以免案情、身分暴露或造成二度傷害。",
+      "takeaway": "通知專責人員、同步知會家防官、必要戒護與證據保全，並在等候期間持續保護隱私。",
       "sources": [
         {
           "title": "考選部114年四等警察情境實務概要原卷",
@@ -344,8 +351,17 @@
         {
           "title": "警政署執法程序公開說明",
           "url": "https://www.npa.gov.tw/ch/app/faq/view%3Fmodule%3Dfaq%26id%3D2144%26serno%3DA1087140"
+        },
+        {
+          "title": "新北市政府警察局・處理性侵害案件作業程序修正規定（完整5頁）",
+          "url": "https://www.wpb.police.ntpc.gov.tw/dl-36335-67827e93-acc2-4da5-ba66-0af90ab4ca11.html"
+        },
+        {
+          "title": "全國法規資料庫・性侵害犯罪防治法第7、10、15、18至22條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
         }
-      ]
+      ],
+      "currentAnswer": "D。等候性侵專責人員期間，應安撫並陪同至溫馨會談室或安全隱密處所，不能以一般開放會客區當作例行等候安排。"
     },
     {
       "id": "scene114-05",
@@ -757,26 +773,26 @@
       "options": [
         {
           "text": "適當區隔刑案現場，於適當範圍拉起封鎖線",
-          "explanation": "先辨識核心及可能證物區域，適度拉設封鎖線，避免人員踩踏與污染。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "A符合115手冊57、59點：必要時封鎖現場，範圍及層數按現場事實調整，派員警戒並管理入場，以保全跡證。",
+          "correction": "封鎖須必要、適當並可依勘察調整，不任意擴大或長期維持。",
           "trueStatement": true
         },
         {
           "text": "對於死者原則上不可接觸或移動",
-          "explanation": "題目已明定被害人死亡，原則保留位置姿態，由檢察官、鑑識等依法處理；若存活狀況未明則救護優先。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "B在確認死亡、無救護或其他急迫安全必要時，應保留屍體位置與跡證原狀，通報檢察官相驗，不任意搬動。必要合法勘驗或防護處置並非一概禁止。",
+          "correction": "保全、記錄並依相驗及專業勘察指示處理；不能為拍攝或方便而任意改變原狀。",
           "trueStatement": true
         },
         {
           "text": "對於前來拍攝之媒體，不須制止及干涉",
-          "explanation": "不能完全不管媒體接近、拍攝可能妨害現場保全或暴露偵查秘密的情況；亦非可一律禁止封鎖線外合法採訪。",
-          "correction": "依封鎖、隱私與偵查保密需要適度管理；不得放任侵入污染，也不得無差別限制合法採訪。",
+          "explanation": "C錯在一律不制止、不管理。115手冊57點未經現場指揮官同意不得入封鎖區，76、77點另保護死者、家屬及隱私；但不能擴張為禁止封鎖線外所有合法拍攝。",
+          "correction": "按必要性管理入場、遮蔽屍體及保護隱私，對合法採訪不得概括禁止。",
           "trueStatement": false
         },
         {
           "text": "查訪附近之民眾；搜索現場，找尋證物",
-          "explanation": "依法訪查及搜索勘察現場，尋找、標示及保全證物，注意程序合法與證物鏈。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "D符合115手冊62、64至68點現場及鄰近查訪、搜索與勘察分工。若涉及對人、住宅或物件的刑訴搜索，仍須票載或法定例外，手冊本身不創設搜索權。",
+          "correction": "依法訪查及保全證物，區分現場觀察和具有強制性的搜索措施。",
           "trueStatement": true
         }
       ],
@@ -785,24 +801,35 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察情境實務概要｜第10題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 10,
       "answerStatus": "官方原答已核；目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "官方答案C；現場封鎖與媒體接近管理須依現行刑案現場及偵查不公開規範核對，不能理解成警察得全面禁止拍攝。",
-        "checkedAt": "2026-11-09",
+        "status": "none",
+        "law": "臺灣警察專科學校公開・警察偵查犯罪手冊115年版第3、51至68、76至77點；全國法規資料庫・刑事訴訟法；全國法規資料庫・警察職權行使法第3、4、6、7、19、20、29條",
+        "checkedAt": "2026-11-26",
+        "note": "本輪完整對照115偵查手冊第3、57至68、76至77點及刑訴第218條，已能直接說明現場封鎖、調查分工、相驗及家屬媒體接觸保護。屍體不任意移動的證物原狀技術原則另參照NIJ2013現場指南，未冒稱查到另一份最新版鑑識手冊。 本輪核對的是所列法源與明示版本之完整分析；原題及官方初始／最終給分均保留，題設省略條件不由答案鍵補造。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "官方答案C；現場封鎖與媒體接近管理須依現行刑案現場及偵查不公開規範核對，不能理解成警察得全面禁止拍攝。",
+        "newRule": "死亡現場先封鎖、保全及通報相驗；媒體接近管制與一般公眾區域拍攝應分別審查。",
         "sources": [
           {
-            "title": "刑事訴訟法",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+            "title": "臺灣警察專科學校公開・警察偵查犯罪手冊115年版第3、51至68、76至77點",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "全國法規資料庫・警察職權行使法第3、4、6、7、19、20、29條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           }
         ]
       },
-      "takeaway": "命案現場媒體與證物保全：不能完全不管媒體接近、拍攝可能妨害現場保全或暴露偵查秘密的情況；亦非可一律禁止封鎖線外合法採訪。",
+      "takeaway": "死亡現場先封鎖、保全及通報相驗；媒體接近管制與一般公眾區域拍攝應分別審查。",
       "sources": [
         {
           "title": "考選部114年四等警察情境實務概要原卷",
@@ -815,8 +842,25 @@
         {
           "title": "刑事訴訟法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        },
+        {
+          "title": "臺灣警察專科學校公開・警察偵查犯罪手冊115年版第3、51至68、76至77點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "全國法規資料庫・警察職權行使法第3、4、6、7、19、20、29條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
+        },
+        {
+          "title": "NIJ/NFSTC・Crime Scene Investigation: A Guide for Law Enforcement（2013）血液跡證第43至47頁",
+          "url": "https://www.ojp.gov/pdffiles1/ncjrs/243598.pdf"
         }
-      ]
+      ],
+      "currentAnswer": "C。應保全現場及死者尊嚴，管理進入封鎖線與避免洩密；不能放任媒體進場，也不能因此全面禁止封鎖線外合法採訪。"
     },
     {
       "id": "scene114-11",
@@ -1351,26 +1395,26 @@
       "options": [
         {
           "text": "告知違規行為及違反之法規，並對甲舉發違規",
-          "explanation": "本題官方答案A：依法認定違規，告知事實及違反法規並舉發；不能將任何輕微越線都當必須勸導。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "A依題示前輪已越線，已不符特定越線勸導款；依違規事實告知法規並舉發，是本題原答案。仍應核實號誌、標線、時點及其他法定例外。",
+          "correction": "不可僅因車身部分越線就認定本題類型；須分清前懸及前輪位置。",
           "trueStatement": true
         },
         {
           "text": "隨即對甲實施勸導，避免因猶豫而衍生困擾",
-          "explanation": "勸導非單純為避免員警猶豫；須有法定得勸導事由並審酌個案。",
-          "correction": "依個案及裁罰處理細則判斷，不以「避免困擾」代替法律標準。",
+          "explanation": "B在尚未確認是否符合細則第12條勸導條件前，不能只為避免猶豫而直接勸導免舉發。本題前輪已越線，不符第1項第3款。",
+          "correction": "先審查勸導事由與輕微性等條件，再決定是否得勸導。",
           "trueStatement": false
         },
         {
           "text": "對甲實施勸導，選擇於無礙交通之處實施，並作成書面紀錄，請其簽名",
-          "explanation": "選擇無礙交通處、作書面紀錄是施以勸導時的程序，不能反推本案一定符合勸導事由。",
-          "correction": "先判斷是否得勸導，再依規定辦理，不能將程序規範當實體免罰依據。",
+          "explanation": "C所載無礙交通、書面與簽名，是對得勸導案件的程序要求；程序做完不會使本來不符越線勸導條件的行為變成得免舉發。",
+          "correction": "勸導有實體門檻，符合後才適用場所、記錄及簽名程序。",
           "trueStatement": false
         },
         {
           "text": "對甲實施勸導，但有客觀事實足認無法當場執行勸導程序時，得免予勸導",
-          "explanation": "有客觀事實無法當場勸導，可免予勸導的規定，不是任意放行或免除舉發的授權。",
-          "correction": "辨別免予勸導與免予舉發，不可混同。",
+          "explanation": "D客觀不能當場勸導得免勸導，是第12條針對原已得勸導情形的例外；不是對任意違規免舉發的概括授權。",
+          "correction": "先確認得勸導，再核有無免當場勸導原因，不能顛倒次序。",
           "trueStatement": false
         }
       ],
@@ -1379,24 +1423,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察情境實務概要｜第17題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 17,
       "answerStatus": "官方原答已核；目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "本題官方答案A；勸導事由及裁罰處理細則已有後續修正，須以行為當時有效版本核對適用範圍。",
-        "checkedAt": "2026-11-09",
+        "status": "none",
+        "law": "全國法規資料庫・違反道路交通管理事件統一裁罰基準及處理細則第12、13、16、17條；全國法規資料庫・道路交通管理處罰條例（注意分期施行）",
+        "checkedAt": "2026-11-26",
+        "note": "已完整核讀115.10.30修正之裁罰細則第12條：第1項第3款容許前懸伸越但前輪未越線之特定勸導，並有情節與危害等門檻；第3項以下才是勸導方式。原題前輪已越線，不能直接套用本款；未把整部細則最後修正日當成本款此次一定改變。 本輪核對的是所列法源與明示版本之完整分析；原題及官方初始／最終給分均保留，題設省略條件不由答案鍵補造。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "本題官方答案A；勸導事由及裁罰處理細則已有後續修正，須以行為當時有效版本核對適用範圍。",
+        "newRule": "區分車身前懸越線、前輪未越線與前輪已越線；勸導程序不能取代對勸導事由的審查。",
         "sources": [
           {
-            "title": "違反道路交通管理事件統一裁罰基準及處理細則",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080029"
+            "title": "全國法規資料庫・違反道路交通管理事件統一裁罰基準及處理細則第12、13、16、17條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080029"
+          },
+          {
+            "title": "全國法規資料庫・道路交通管理處罰條例（注意分期施行）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
           }
         ]
       },
-      "takeaway": "交通勤務中輕微越線違規處理：本題官方答案A：依法認定違規，告知事實及違反法規並舉發；不能將任何輕微越線都當必須勸導。",
+      "takeaway": "區分車身前懸越線、前輪未越線與前輪已越線；勸導程序不能取代對勸導事由的審查。",
       "sources": [
         {
           "title": "考選部114年四等警察情境實務概要原卷",
@@ -1409,8 +1460,17 @@
         {
           "title": "違反道路交通管理事件統一裁罰基準及處理細則",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080029"
+        },
+        {
+          "title": "全國法規資料庫・違反道路交通管理事件統一裁罰基準及處理細則第12、13、16、17條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080029"
+        },
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例（注意分期施行）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
         }
-      ]
+      ],
+      "currentAnswer": "A。僅依題示前輪已超越停止線，不符合細則第12條第1項第3款「前輪尚未超越」的勸導條件；有其他法定例外則另行判斷。"
     },
     {
       "id": "scene114-18",
@@ -1422,26 +1482,26 @@
       "options": [
         {
           "text": "可請駕駛人配合駛往卸貨分裝場卸貨分裝",
-          "explanation": "可依安全與合法動線前往卸貨分裝場辦理，保持必要監管。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "A屬完整SOP所列卸貨方式之一：請駕駛配合駛往卸貨分裝場。仍應依禁止通行規定與現場安全管理安排，不能讀成駕駛可自由續駛。",
+          "correction": "以執法管制及安全卸載為目的安排必要移動，不作一般道路繼續營運放行。",
           "trueStatement": true
         },
         {
           "text": "可請駕駛人逕駛往目的地卸貨",
-          "explanation": "超載應改善危險，不能以目的地卸貨為由允許超載車繼續完成原本運輸。",
-          "correction": "改於合適卸貨分裝場、現地或安全可行的原裝載場改善，不能直接放行至目的地。",
+          "explanation": "B錯在逕准繼續駛往原目的地，未先排除逾20%超載的通行風險，亦不是完整SOP所列三種卸貨分裝安排。",
+          "correction": "當場禁止違規續行，依法協調安全卸貨或保管方式，不以最後一定會卸貨為由放行。",
           "trueStatement": false
         },
         {
           "text": "可請駕駛人僱用其他車輛於現地卸貨分裝",
-          "explanation": "在不影響道路安全的合適地點，得由駕駛僱車協助卸貨分裝。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "C屬完整SOP所列方式：僱用其他車輛於現地卸貨分裝，須兼顧道路、安全、裝載與後續過磅確認等實際條件。",
+          "correction": "選擇可安全作業的位置及合適車輛，保存卸貨前後紀錄。",
           "trueStatement": true
         },
         {
           "text": "可請駕駛人配合駛回原裝載之砂石場、碎解洗選場卸貨分裝",
-          "explanation": "依SOP評估得回原裝載場卸貨分裝，仍須有安全動線及必要監管，非任意放行。",
-          "correction": "本項在本題脈絡下無須修正。",
+          "explanation": "D屬完整SOP所列配合駛回原裝載砂石場、碎解洗選場卸貨方式；同樣是管制下排除超載的安排，不是駕駛自行選擇任意路程。",
+          "correction": "依現場安全及法定禁止通行要求協調，不可把SOP例示當成超載車自由行駛許可。",
           "trueStatement": true
         }
       ],
@@ -1450,18 +1510,35 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜警察情境實務概要｜第18題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 18,
       "answerStatus": "官方原答已核；目錄未列更正",
       "amendment": {
-        "status": "review",
-        "note": "官方答案B；題示超過核重20%卸貨分裝的完整現行SOP與交通裁罰規範待原件比對。",
-        "checkedAt": "2026-11-09"
+        "status": "none",
+        "law": "臺中市交通事件裁決處・交通執法防貪指引（114年10月；內附112超載及113道路障礙完整SOP）；全國法規資料庫・違反道路交通管理事件統一裁罰基準及處理細則第12、13、16、17條；全國法規資料庫・道路交通管理處罰條例（注意分期施行）",
+        "checkedAt": "2026-11-26",
+        "note": "完整核讀交通指引印刷50至52頁所附112.7.12三頁SOP及現行裁罰細則第13條。法律文字以「逾20%」與「未逾20%」分界，SOP有「20%以上」簡稱，本題已明寫逾20%，不將剛好20%擴入禁止續行門檻；協調必要移動應置於安全管制下。 本輪核對的是所列法源與明示版本之完整分析；原題及官方初始／最終給分均保留，題設省略條件不由答案鍵補造。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "官方答案B；題示超過核重20%卸貨分裝的完整現行SOP與交通裁罰規範待原件比對。",
+        "newRule": "卸貨分裝場、現地另車、配合駛回原裝載場是SOP所列方式；不是授權超載車自由續行。",
+        "sources": [
+          {
+            "title": "臺中市交通事件裁決處・交通執法防貪指引（114年10月；內附112超載及113道路障礙完整SOP）",
+            "url": "https://tcrt.taichung.gov.tw/df_ufiles/163/%E4%BA%A4%E9%80%9A%E5%9F%B7%E6%B3%95%E9%98%B2%E8%B2%AA%E6%8C%87%E5%BC%95.pdf"
+          },
+          {
+            "title": "全國法規資料庫・違反道路交通管理事件統一裁罰基準及處理細則第12、13、16、17條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080029"
+          },
+          {
+            "title": "全國法規資料庫・道路交通管理處罰條例（注意分期施行）",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
+          }
+        ]
       },
-      "takeaway": "大型車超載卸貨分裝地點：超載應改善危險，不能以目的地卸貨為由允許超載車繼續完成原本運輸。",
+      "takeaway": "卸貨分裝場、現地另車、配合駛回原裝載場是SOP所列方式；不是授權超載車自由續行。",
       "sources": [
         {
           "title": "考選部114年四等警察情境實務概要原卷",
@@ -1470,8 +1547,21 @@
         {
           "title": "考選部標準答案",
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114060&c=601&s=1005&q=1"
+        },
+        {
+          "title": "臺中市交通事件裁決處・交通執法防貪指引（114年10月；內附112超載及113道路障礙完整SOP）",
+          "url": "https://tcrt.taichung.gov.tw/df_ufiles/163/%E4%BA%A4%E9%80%9A%E5%9F%B7%E6%B3%95%E9%98%B2%E8%B2%AA%E6%8C%87%E5%BC%95.pdf"
+        },
+        {
+          "title": "全國法規資料庫・違反道路交通管理事件統一裁罰基準及處理細則第12、13、16、17條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080029"
+        },
+        {
+          "title": "全國法規資料庫・道路交通管理處罰條例（注意分期施行）",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0040012"
         }
-      ]
+      ],
+      "currentAnswer": "B。不得任由超過核重20%的違規車輛繼續駛往原目的地卸貨；須依法停止通行及安排卸貨分裝。"
     },
     {
       "id": "scene114-19",

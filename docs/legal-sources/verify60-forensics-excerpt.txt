@@ -1,0 +1,50 @@
+60題選擇＋2題申論法源／適用版本查證：forensics
+查核日2026-11-26（Asia/Taipei）。原件擷取時間保留實際UTC，前次成功存本重用不冒稱重新請求；HTTP200仍核對實際文件。以下為實讀節錄或明示核讀摘記，資料種類與版本見逐題註記。
+
+【警專公開《警察機關刑案證物室作業規定》114.5.28完整23點】
+https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiN2VSRWhsQjJSbnV0SFJwU1JqYmVlNG44dnJTOUYyWEY3NUFmaHh2V3JzMEpIN21xT2l3c1I2bEt0RVB4NzFDZ1NsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbXVOSDJxdjIvOWE3ME1HOEtaQjJJOFlLdkpjdnNRR3puTGdWcWJvbFBvcEtaQm5PeUM4Q2UrdG9zUmZUd1ZWVVhzcVhKeThZU2hDMmY2N3owbFMwZEVwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968
+實讀完整23點；定位：第2點為警察局及分局設室；第3點依勘察採證、搜索扣押或任意提出交付分刑事鑑識及刑警大隊督導；第20點為分局管理。此本修正114.5.28、印表日期2026.5.5，印表日不是修正日。
+
+【警專公開《警察機關執行毒品犯罪嫌疑人尿液採驗作業規定》114.12.29完整30點】
+https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNzhRcm5lYzJVL1c5ejJnd1pCb1RncEVlbHFQTVYzVDFsT3ZIdFZnWEExVTI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkcEprSllIVy9xcFpWNXMxTHhKdmxuOGRMRFVGaHFJUWlFaU44U0NHN3c1a0Y3QVAxeVZ2ZkErRHlkZWdlcERsK0ZNbFdQUmw3a2pMUys2d3Q1Tk9TVysvdDQ1WVU1cEdlQTFUNDZTZVYvcFFSa0ErMmlQTmVVdGNjMmZTcmhMWDNxQnBYNGVQVW9Bc0N6a1ZzVm82Q1BZcFZCL2lFMkZ3T21UeWNRQng5V1Fa&cg=968
+實讀完整30點；定位：第2點適用毒品犯罪嫌疑人，第3點採樣須有法律依據；第10點封緘左拇優先，無法捺印才依右拇、左食、左中等替代並註明指名，另有依情況不適合捺印且註明之例外。修正114.12.29、印表2026.5.5。
+
+【警專公開《警察機關刑案證物管理注意事項》114.3.11完整18點】
+https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiOWhrNGRKQlVVUnpBWUV1UXdKSitwaWp3bFloUjhDOHFjcHR1VEVDZnkxSDI5a3VZQlhQVjU3REZaNzJ0VWpHQlNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkbXVOSDJxdjIvOWE3ME1HOEtaQjJJODgwRUFBdEdpSDRIZmhxaFl0Z0UyVWY1WW9QQU1VNDNlVDFwaTNCZVlZZHdWclR2dkUvTjh3YS9jR28vbzBsZWd5NmNGVmJkWnQ2NDN3SndrM2NaZFc=&cg=968
+實讀完整18點，作為證物識別、適當包裝、保管與移交等現行國內管理依據；不是任意搜索或強制採取身體樣本的授權。
+
+【NIST SP 800-86（2006）・原始技術指引，非臺灣強制處分法源】
+https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-86.pdf
+實讀完整原文；定位：3.1蒐取方法與規劃；3.4報告的讀者與替代解釋；4.1刪除資料、未配置空間與已刪除volume；4.2主副本與工作副本；4.2.3時間戳；4.3資料分析與隱藏分割區；7章應用活動紀錄。原文2006不是2026法規。
+
+【NIST SP 800-101 Rev.1（2014）・行動裝置隔離、保存及報告】
+https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-101r1.pdf
+實讀完整原文；定位：4.3（印刷28–32）飛航、關機、屏蔽三方法各有缺點，可能因關機觸發認證，屏蔽亦可能漏訊號；認證通常須先滿足才能停用。4.6決策樹為可依政策調整範本；6.3報告須含必要方法、結果、工具、監管與結論。出版2014，不保證後來各型號固定操作。
+
+【NIJ／NFSTC《Crime Scene Investigation: A Guide for Law Enforcement》（2013完整本）】
+https://www.ojp.gov/pdffiles1/ncjrs/243598.pdf
+實讀完整180頁PDF。定位：印刷16–22現場筆記、測繪、水平鳥瞰、垂直立面與展開圖；27–32攝影與原狀、比例尺、多角度及錄影補充；42–46搜尋模式及依情境選法；74–75微物防污染與包裝；89–91清潔鑷子採取及油漆、玻璃位置；146離場前系統巡查。此為2013原始技術指南，不是臺灣搜索權法源。
+
+【美國NIJ《The Fingerprint Sourcebook》第7章・潛在指紋顯現（2011）】
+https://www.ojp.gov/pdffiles1/nij/225327.pdf
+完整第7章68頁；定位：7.3.1（印刷7–11）粉末微粒對指紋殘留的水性、油性部分作物理附著；7.3.2列鋁等金屬片粉末，7.3.3提醒刷粉方法與避免破壞；7.4另論胺基酸試劑。不能把鋁粉顯現說成只對水的專一化學反應。
+
+【Lee／Pagliaro〈Forensic Evidence and Crime Scene Investigation〉（2013）・作者原文】
+https://www.avensonline.org/fulltextarticles/JFI-2330-0396-01-0004.html
+2013作者開放取用全文（CC BY），已讀Linkage Principle、Physical Evidence、Features and Process。直接列四端點為嫌疑人、被害人、現場及物證；分類為易逝、情況、型態、轉移等，情況例包括身體狀態、窗戶與物證位置，易逝例為氣味溫度，並明言分類方法非單一互斥法定類型。
+
+【FBI公開Douglas等〈Criminal Profiling from Crime Scene Analysis〉（1986）原論文存本】
+https://vault.fbi.gov/Criminal%20Profiling/Criminal%20Profiling%20Part%2001/at_download/file
+FBI公開彙編收錄Douglas等1986原論文；已讀The Criminal-Profile-Generating Process，五主要階段加以逮捕為第六目標；資料輸入包括案件、現場、被害人與法醫材料，避免先給可疑嫌犯資料使剖繪迎合特定人。並讀同彙編不適合所有暴力案的說明。此為方法模型而非證明有罪的定論。
+
+【Thermo Fisher TruNarc原廠技術說明・現場推定檢測的限制】
+https://www.thermofisher.com/us/en/home/industrial/safety-security-threat-detection/instruments/trunarc-handheld-narcotics-analyzer.html
+原廠目前Delta/Tau頁與FAQ：以現場推定檢測為定位，說明螢光、低濃度等限制及額外試劑套件；不把2026新型能力倒推112題的未知機型。
+
+【SWGDRUG Recommendations 8.3（2026-09-01）・分析方案與方法限制】
+https://www.swgdrug.org/Documents/Recommendations/SWGDRUG%20Recommendations%20Version%208.3%20Sept012026_Final.pdf
+Version8.3（2026.9.1）完整本；定位PartIII B 3.1.2：樣品複雜度、解析度與濃度可限制分析選擇性；定性分析方案與定量測量分開。僅摘要限制，不複製長段原文。
+
+【ETSI ES 201 671 V3.2.1（2018-05）第5、7–9節・技術交付介面原件】
+https://www.etsi.org/deliver/etsi_es/201600_201699/201671/03.02.01_60/es_201671v030201p.pdf
+完整ES201671 V3.2.1（2018.05），第5.0節三個邏輯功能；第5.1.0節管理資訊及部分HI1資訊可用HI2機制傳送的選用條件；第5.2/8節IRI，5.3/9節CC。核對的是本版明定功能，未主張每一業者採同一實體實作。

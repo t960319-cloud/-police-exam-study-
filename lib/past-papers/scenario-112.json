@@ -167,26 +167,26 @@
       "options": [
         {
           "text": "攔停並告知事由，詢問姓名身分證號或令其出示身分證件",
-          "explanation": "第6條須合理懷疑犯罪／犯罪之虞或其他列舉具體事實，第7條才允許攔停、詢問及令出證件，第4條另要求表明身分與告知事由。僅看見警車而走快，不能脫離全部客觀情境認定合理懷疑。",
-          "correction": "應先說明具體合法攔查事由；不能教成只要走避就一定可查證。",
+          "explanation": "A尚須警職法第6條的客觀合理懷疑等法定事由；如僅見轉身快走，仍須綜合時地及其他具體事實。具查證原因時，應表明身分、告知事由，再詢問或請出示證件。",
+          "correction": "攔查合法性不能僅由民眾走避或事後答覆推定，須先核具體事由。",
           "trueStatement": true
         },
         {
           "text": "乙詢問你︰「我只是尿急，為什麼攔我？」時，係表示異議，應就攔查原因說明，認為乙異議 有理由即停止盤查",
-          "explanation": "第29條允許當場陳述理由表示異議；認有理由應立即停止或更正，無理由得繼續，經請求應製作紀錄交付。乙的尿急說明須納入重新評估。",
-          "correction": "有理由即停止或更正；不能因異議就處罰，也不能一提出異議就無條件放棄合法措施。",
+          "explanation": "B質問攔查原因可構成對措施的異議。員警依第29條認有理由，應停止或更正；認無理由得繼續合法措施，且應依人民請求製作並交付異議紀錄。",
+          "correction": "異議應實質說明及審查，不因提異議就視為拒絕配合或另行處罰。",
           "trueStatement": true
         },
         {
           "text": "乙抗拒攔查並轉身欲離去致你無法查證身分，你可以依法使用強制力上銬管束，帶回勤務處所 查證",
-          "explanation": "第7條帶往以詢問、出示證明顯然無法查證為前提，帶往非遇抗拒不得用強制力，從攔停起不逾3小時且須報勤指及通知親友或律師。第19、20條管束及警銬另有各自要件，不能一有抗拒就自動全數適用。",
-          "correction": "分別檢驗查證、帶往、必要強制、管束、警銬；不得為逼問身分而援引管束。",
+          "explanation": "C把抗拒查證直接連到上銬管束及帶所，混淆法源。第7條帶往查證須查證顯有困難等條件；第19條管束及第20條警銬另有要件，不能以抗拒一語全部代替。",
+          "correction": "各別檢查查證、帶往、管束、戒具的必要與法定要件，並遵守帶往查證時限及通知程序。",
           "trueStatement": false
         },
         {
           "text": "你可以攜帶拋射式電擊槍、防割手套、戰術臂盾等裝備以維執勤安全",
-          "explanation": "依法攜行防護裝備與在個案對人使用是不同層次；現行警械條例要求依法使用且不得逾必要程度。僅有本題裝備清單，尚不足證明各裝備的現行分類及攜行核准程序均已核。",
-          "correction": "可用適法裝備維安，但使用仍須個別法源與比例；D整份攜行規範本輪未齊，整題不升已核。",
+          "explanation": "D所列防割手套、電擊器及戰術臂盾可作執勤安全裝備。113年施行完整規定第3點分別列需要時手套、主管律定電擊器與車上臂盾等，並非每次巡邏全部一律攜用。",
+          "correction": "依勤務及主管律定攜行；可以攜帶不等於可無條件對人民使用。",
           "trueStatement": true
         }
       ],
@@ -194,40 +194,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜警察情境實務概要｜第3題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 3,
       "answerStatus": "官方原卷及當年度答案已核；官方目錄未列本科更正",
       "amendment": {
-        "status": "review",
-        "law": "警察職權行使法現行全文；警械使用條例現行全文・第10條之2至第10條之3；考選部・112年四等警察情境實務概要原卷；考選部・112年本科標準答案（目錄未另列更正）",
-        "checkedAt": "2026-11-20",
-        "note": "已核警職法第4、6、7、19、20、29條全文，明確區分身分查證、帶往查證、管束與警銬；但A的走避是否具體足以合理懷疑及D攜行完整現行規範尚未齊備。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
-        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
-        "newRule": "帶往查證最長3小時與管束最長24小時不同；抗拒查證不當然就是管束與上銬原因。",
+        "status": "none",
+        "law": "全國法規資料庫・警察職權行使法第3、4、6、7、19、20、29條；臺灣警察專科學校公開・警察機關執行勤務之警力數編配及應勤裝備攜行規定（113年1月1日施行；完整10點）",
+        "checkedAt": "2026-11-26",
+        "note": "現行警職法第4、6、7、19、20、29條及完整113年施行裝備規定第3點已逐項對照。原A的走避僅是可評估事實，不能單憑轉身快走便倒推合法攔查；D的電擊器、防割手套及戰術臂盾則在完整裝備規定有具體攜行與主管律定依據。 本輪核對的是所列法源與明示版本之完整分析；原題及官方初始／最終給分均保留，題設省略條件不由答案鍵補造。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "已核警職法第4、6、7、19、20、29條全文，明確區分身分查證、帶往查證、管束與警銬；但A的走避是否具體足以合理懷疑及D攜行完整現行規範尚未齊備。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
+        "newRule": "先有具體合理懷疑才查證；帶往查證最長3小時並有程序保障，管束及上銬各須獨立法定條件。",
         "sources": [
           {
-            "title": "警察職權行使法現行全文",
+            "title": "全國法規資料庫・警察職權行使法第3、4、6、7、19、20、29條",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
           },
           {
-            "title": "警械使用條例現行全文・第10條之2至第10條之3",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
-          },
-          {
-            "title": "考選部・112年四等警察情境實務概要原卷",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112070&c=601&s=1205&q=1"
-          },
-          {
-            "title": "考選部・112年本科標準答案（目錄未另列更正）",
-            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112070&c=601&s=1205&q=1"
+            "title": "臺灣警察專科學校公開・警察機關執行勤務之警力數編配及應勤裝備攜行規定（113年1月1日施行；完整10點）",
+            "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=d0xwM1JzbmdybnFuUDI5N3Q2VzhIZkROS1pUNEVzTFFZR200UVZsMlJOdWR0RTFOaDNGUFBzT3BYbzBqZEI1ZDlUVDhtUjMrbENFQXUzSGx2azdFblNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkcEprSllIVy9xcFpWNXMxTHhKdmxuOWZpRzhST0k4clFiU2FhS3BnTTJVM1RVNkRaejJZUDM1TTNVZUxWSFFNYXJSb1dHWnFTZE1FTGxhNVU4aGljWDc2dXBoKy9CN1N1L3J5SHREV3MvazZFNHptWnJwdlI2ZHJ6QURBdkpUMno4LzZ3S3VGMUJZUzRNb1p2ZzZqR1lTSU1xYyt1ZDl2YTUxRzhqTERVclV4OGE4eFFhQ0psbHpldTFORVM5anpwQ2xVSCtJVFlYQTZaUEp4QUhIMVpCaz0=&cg=967"
           }
-        ],
-        "effectiveStatus": "unverified"
+        ]
       },
-      "takeaway": "帶往查證最長3小時與管束最長24小時不同；抗拒查證不當然就是管束與上銬原因。",
+      "takeaway": "先有具體合理懷疑才查證；帶往查證最長3小時並有程序保障，管束及上銬各須獨立法定條件。",
       "sources": [
         {
           "title": "考選部・112年四等警察情境實務概要原卷",
@@ -242,15 +233,19 @@
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145"
         },
         {
-          "title": "警察職權行使法現行全文",
+          "title": "全國法規資料庫・警察職權行使法第3、4、6、7、19、20、29條",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080145"
         },
         {
           "title": "警械使用條例現行全文・第10條之2至第10條之3",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080042"
+        },
+        {
+          "title": "臺灣警察專科學校公開・警察機關執行勤務之警力數編配及應勤裝備攜行規定（113年1月1日施行；完整10點）",
+          "url": "https://admin.tpa.edu.tw/app/index.php?Action=downloadfile&file=d0xwM1JzbmdybnFuUDI5N3Q2VzhIZkROS1pUNEVzTFFZR200UVZsMlJOdWR0RTFOaDNGUFBzT3BYbzBqZEI1ZDlUVDhtUjMrbENFQXUzSGx2azdFblNsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=VnpFeGxPQWtoUnFzYzc5dEpTdExkcEprSllIVy9xcFpWNXMxTHhKdmxuOWZpRzhST0k4clFiU2FhS3BnTTJVM1RVNkRaejJZUDM1TTNVZUxWSFFNYXJSb1dHWnFTZE1FTGxhNVU4aGljWDc2dXBoKy9CN1N1L3J5SHREV3MvazZFNHptWnJwdlI2ZHJ6QURBdkpUMno4LzZ3S3VGMUJZUzRNb1p2ZzZqR1lTSU1xYyt1ZDl2YTUxRzhqTERVclV4OGE4eFFhQ0psbHpldTFORVM5anpwQ2xVSCtJVFlYQTZaUEp4QUhIMVpCaz0=&cg=967"
         }
       ],
-      "currentAnswer": "原官方答案C；走避不等於當然可以上銬管束。先有合法查證基礎，再分別審查帶往、強制力、管束與警銬要件，不能把不同法源串成自動流程。"
+      "currentAnswer": "原官方答案C保留。身分查證、帶往查證、管束與上銬是不同措施；只因走避或抗拒查證，不能自動併用全部強制手段。"
     },
     {
       "id": "scene112-04",
@@ -649,26 +644,26 @@
       "options": [
         {
           "text": "初步人別詢問及案情瞭解，確認屬性侵害案件後，應先通報當地性侵害防治中心後，再通知偵 查隊值日小隊即時介入",
-          "explanation": "不能因先通報防治中心而延後刑事專責人員的即時介入；各項通報及採證應依急迫性並行。",
-          "correction": "改為立即連繫分局專責偵查人員及防治網絡，勿設一律先後等待。",
+          "explanation": "A錯在把通報防治中心設為通知偵查隊介入的前置順序。SOP確認性侵後即通知專責人員，並同時知會偵查隊值日小隊及家防官。",
+          "correction": "專責介入、必要救護與保全並行，不因先通報其他網絡而延誤。",
           "trueStatement": false
         },
         {
           "text": "受理瞭解案情確認為陌生人性侵案件後；必要時，協助被害人證據保全，同時通知分局專責人 員及防治組家庭暴力防治官",
-          "explanation": "原卷以B為正確，重點在即時保全證據並通知性侵專責及婦幼防治人員，不因他轄而拒絕處理。",
-          "correction": "無須修正；專責人員名稱及分工以現行組織規定為準。",
+          "explanation": "B符合完整SOP第一頁：陌生人性侵案件必要時派員戒護及保全，同時通知分局專責人員與防治組家防官即時協助。",
+          "correction": "依急迫需要先保護人身與跡證，後續他轄資料移轉不得取代立即受理。",
           "trueStatement": true
         },
         {
           "text": "受理後情況緊急時，應協助被害人就醫驗傷採證，並通報當地性侵害防治中心",
-          "explanation": "緊急就醫驗傷採證本身必要，但原題要求最適當的完整專責通報與分工，不能僅將一般員警協助、通報中心當成全部程序。",
-          "correction": "與B的專責偵查及婦幼通報併行；不得因核對通報分工而延誤救護。",
+          "explanation": "C的緊急就醫驗傷、採證與通報方向本身合法，完整SOP也列必要時協助被害人就醫及專責通報防治中心。官方單選B並不能反推出C一律不應辦理。",
+          "correction": "實務應立即救護並協調專責人員及通報，不把C背成不須救護的反面規則。",
           "trueStatement": false
         },
         {
           "text": "受理報案後將處理情形填寫於員警工作紀錄簿，應將被害人個人資料詳實記載，以利後續追蹤",
-          "explanation": "性侵被害人資料須特別保密，工作紀錄不得任意完整揭露可識別資料。",
-          "correction": "改用代號及必要最少資訊，身分資料依規定密封、分離或限制存取。",
+          "explanation": "D記錄處理情形仍須保密，完整SOP第一頁明定注意被害人身分保密、避免個資洩漏，不能以追蹤方便為由在一般工作紀錄簿任意揭露完整個資。",
+          "correction": "依必要範圍和保密機制記錄；身分對照與可識別資料依專用規範保管。",
           "trueStatement": false
         }
       ],
@@ -676,18 +671,35 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜警察情境實務概要｜第9題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 9,
       "answerStatus": "官方原卷及當年度答案已核；官方目錄未列本科更正",
       "amendment": {
-        "status": "review",
-        "note": "本題B／C涉及原SOP專責人員介入及通報分工；C的緊急救護方向並非不必做，現行完整原件仍待核，勿背成「先通報才救護」。 原卷及當年度官方答案已核；現行完整作業規定仍須以最新原件確認。",
-        "sources": []
+        "status": "none",
+        "law": "新北市政府警察局・處理性侵害案件作業程序修正規定（完整5頁）；全國法規資料庫・性侵害犯罪防治法第7、10、15、18至22條；臺灣警察專科學校公開・警察偵查犯罪手冊115年版第3、51至68、76至77點",
+        "checkedAt": "2026-11-26",
+        "note": "已讀完整5頁性侵害SOP，第一頁直接列專責人員、偵查隊值日小隊、家防官、現場戒護、證據保全及就醫；第二頁列通報防治中心，第4頁列他轄程序。原題單選B與C的文字重疊已如實說明，不冒稱C緊急救護屬錯誤。 本輪核對的是所列法源與明示版本之完整分析；原題及官方初始／最終給分均保留，題設省略條件不由答案鍵補造。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "本題B／C涉及原SOP專責人員介入及通報分工；C的緊急救護方向並非不必做，現行完整原件仍待核，勿背成「先通報才救護」。 原卷及當年度官方答案已核；現行完整作業規定仍須以最新原件確認。",
+        "newRule": "他轄性侵仍先受理；立即通知專責人員並同步協調家防官，必要救護和證據保全不能等待行政移轉。",
+        "sources": [
+          {
+            "title": "新北市政府警察局・處理性侵害案件作業程序修正規定（完整5頁）",
+            "url": "https://www.wpb.police.ntpc.gov.tw/dl-36335-67827e93-acc2-4da5-ba66-0af90ab4ca11.html"
+          },
+          {
+            "title": "全國法規資料庫・性侵害犯罪防治法第7、10、15、18至22條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
+          },
+          {
+            "title": "臺灣警察專科學校公開・警察偵查犯罪手冊115年版第3、51至68、76至77點",
+            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+          }
+        ]
       },
-      "takeaway": "原卷以B為正確，重點在即時保全證據並通知性侵專責及婦幼防治人員，不因他轄而拒絕處理。",
+      "takeaway": "他轄性侵仍先受理；立即通知專責人員並同步協調家防官，必要救護和證據保全不能等待行政移轉。",
       "sources": [
         {
           "title": "考選部・112年四等警察情境實務概要原卷",
@@ -704,8 +716,21 @@
         {
           "title": "刑事訴訟法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        },
+        {
+          "title": "新北市政府警察局・處理性侵害案件作業程序修正規定（完整5頁）",
+          "url": "https://www.wpb.police.ntpc.gov.tw/dl-36335-67827e93-acc2-4da5-ba66-0af90ab4ca11.html"
+        },
+        {
+          "title": "全國法規資料庫・性侵害犯罪防治法第7、10、15、18至22條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080079"
+        },
+        {
+          "title": "臺灣警察專科學校公開・警察偵查犯罪手冊115年版第3、51至68、76至77點",
+          "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
-      ]
+      ],
+      "currentAnswer": "原官方答案B保留。B符合專責及證據保全分工；C的緊急就醫、採證及通報本身也有依據，不得教成C違法或先完成通報才救護。"
     },
     {
       "id": "scene112-10",
@@ -977,26 +1002,26 @@
       "options": [
         {
           "text": "檢察官 6 小時，警察機關 18 小時",
-          "explanation": "本題警檢辦案時限分配並非警18、檢6；又不得把分配時數當成得用滿的拘禁授權。",
-          "correction": "依原題採警16、檢8，並依法扣除不計入時間及儘速移送。",
+          "explanation": "A把警察一般偵辦時限寫為18小時，與聯繫辦法第7條第2項16小時內解送要求不符；不是只要總和24就可任意分配。",
+          "correction": "一般以警方16小時內解送、檢察官在共用法定時限內處理為原則。",
           "trueStatement": false
         },
         {
           "text": "檢察官 8 小時，警察機關 16 小時",
-          "explanation": "本題官方答案為警察機關16小時、檢察官8小時；憲法及刑訴法對人身自由24小時要求仍為上限，須儘速辦理。",
-          "correction": "無須修正；原題「移送法院」是整體憲法要求，警方通常先移送檢察官。",
+          "explanation": "B對應通常16／8分配，但法律文字是警方16小時內解送，不保證警方每案都可用滿16小時；檢察官命即時解送者應立即解送。",
+          "correction": "區分通常分工與整體拘束時限，8小時不得用作額外延長人身拘束的授權。",
           "trueStatement": true
         },
         {
           "text": "檢察官、警察機關各 12 小時",
-          "explanation": "各12小時不是本題警檢分配標準。",
-          "correction": "改為警16小時、檢8小時。",
+          "explanation": "C各12小時不是本辦法的一般規定。警方可提前完成即解送，但不能把實際可能12小時解送，誤稱法定固定一半分配。",
+          "correction": "依第7條16小時一般上限及個案指揮解送，不另創固定12／12規則。",
           "trueStatement": false
         },
         {
           "text": "檢察官 16 小時，警察機關 8 小時",
-          "explanation": "將警檢時數顛倒。",
-          "correction": "改為檢8小時、警16小時。",
+          "explanation": "D反置通常分配；警方8小時可提早完成，並不表示規範將16小時固定保留給檢察官。",
+          "correction": "檢察官和警方共用法定時限，不以本選項反置的數字作通案標準。",
           "trueStatement": false
         }
       ],
@@ -1004,18 +1029,31 @@
       "lawIds": [],
       "difficulty": "進階",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "112年內軌四等｜警察情境實務概要｜第14題",
       "paperYear": 112,
       "paperTrack": "內軌",
       "paperNumber": 14,
       "answerStatus": "官方原卷及當年度答案已核；官方目錄未列本科更正",
       "amendment": {
-        "status": "review",
-        "note": "16／8為實務分配作業要求，不是逮捕或羈押的獨立法源；現行警檢時限分配函示完整原件仍待核。 原卷及當年度官方答案已核；現行完整作業規定仍須以最新原件確認。",
-        "sources": []
+        "status": "none",
+        "law": "全國法規資料庫・檢察官與司法警察機關執行職務聯繫辦法第7條；全國法規資料庫・刑事訴訟法",
+        "checkedAt": "2026-11-26",
+        "note": "完整檢察官與司法警察機關執行職務聯繫辦法第7條已核，直接規定16小時、命即時解送及繼續調查須經許可；刑訴第92、93、93條之1另規定解送、羈押聲請與不計入時間。題幹把警察直接移送法院作概括描述，通常程序應先解送檢察官，再由檢察官依法向法院聲請羈押。 本輪核對的是所列法源與明示版本之完整分析；原題及官方初始／最終給分均保留，題設省略條件不由答案鍵補造。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "16／8為實務分配作業要求，不是逮捕或羈押的獨立法源；現行警檢時限分配函示完整原件仍待核。 原卷及當年度官方答案已核；現行完整作業規定仍須以最新原件確認。",
+        "newRule": "16小時是檢警聯繫辦法的一般解送要求；即時解送命令、許可延長調查與法定不計入時間另依法審查。",
+        "sources": [
+          {
+            "title": "全國法規資料庫・檢察官與司法警察機關執行職務聯繫辦法第7條",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030008"
+          },
+          {
+            "title": "全國法規資料庫・刑事訴訟法",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          }
+        ]
       },
-      "takeaway": "本題官方答案為警察機關16小時、檢察官8小時；憲法及刑訴法對人身自由24小時要求仍為上限，須儘速辦理。",
+      "takeaway": "16小時是檢警聯繫辦法的一般解送要求；即時解送命令、許可延長調查與法定不計入時間另依法審查。",
       "sources": [
         {
           "title": "考選部・112年四等警察情境實務概要原卷",
@@ -1028,8 +1066,17 @@
         {
           "title": "刑事訴訟法",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0010001"
+        },
+        {
+          "title": "全國法規資料庫・檢察官與司法警察機關執行職務聯繫辦法第7條",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0030008"
+        },
+        {
+          "title": "全國法規資料庫・刑事訴訟法",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         }
-      ]
+      ],
+      "currentAnswer": "B。一般應於逮捕或拘提起16小時內解送檢察官；8小時是通常24小時共用框架下的餘額，並非檢察官可另加24小時。"
     },
     {
       "id": "scene112-15",

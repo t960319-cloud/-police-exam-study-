@@ -2168,7 +2168,7 @@
       "options": [
         {
           "text": "由案件偵辦人員辦理指認作業，以期對案情有充分瞭解",
-          "explanation": "官方文章及監察院引第2點均以非案件偵辦人員主持為原則；以熟知案情為由固定讓承辦員主持，可能增加暗示與偏誤。",
+          "explanation": "官方文章及監察院引第2點及115官方文章均以非案件偵辦人員主持為原則；以熟知案情為由固定讓承辦員主持，可能增加暗示與偏誤。",
           "correction": "原則由非案件偵辦人員主持，例外須符合正式規定並完整留存程序紀錄。",
           "trueStatement": false
         },
@@ -2198,38 +2198,33 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第22題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 22,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）；監察院調查報告・指認程序（完整報告，摘列107年注意事項）；監察院調查報告・南投大學生竊盜案指認程序（完整報告）；警專公開115年新版警察偵查犯罪手冊（完整主文）",
-        "checkedAt": "2026-11-20",
-        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
-        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "status": "none",
+        "law": "臺北地檢署115年5月8日〈淺談指認程序〉完整官方文章；監察院南投大學生竊盜案調查報告・完整公開本第1至4頁指認規範摘引；監察院調查報告・107年警察指認注意事項第2至8點官方摘引",
+        "checkedAt": "2026-11-26",
+        "note": "已實讀115年5月8日臺北地檢完整指認文章，與監察院完整公開調查報告對照。本題問一般原則，四項均被直接覆蓋，足以解除原先一概要求整份注意事項全文才可核的保留。這是逐項原則核對，不宣稱已取得最新警察注意事項全文、全部例外或完整修正沿革；官方文章、監察院摘引與正式規範全文的種類明確區分。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
         "newRule": "指認不由熟知案情者主持作為原則；先確認目擊、先描述、告知嫌疑人未必在列，再以至少六名外型無重大差異者供列隊選擇。",
         "sources": [
           {
-            "title": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）",
+            "title": "臺北地檢署115年5月8日〈淺談指認程序〉完整官方文章",
             "url": "https://www.tpc.moj.gov.tw/292885/976681/661783/1396443/post"
           },
           {
-            "title": "監察院調查報告・指認程序（完整報告，摘列107年注意事項）",
-            "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/42749"
-          },
-          {
-            "title": "監察院調查報告・南投大學生竊盜案指認程序（完整報告）",
+            "title": "監察院南投大學生竊盜案調查報告・完整公開本第1至4頁指認規範摘引",
             "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/62901"
           },
           {
-            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
-            "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
+            "title": "監察院調查報告・107年警察指認注意事項第2至8點官方摘引",
+            "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/42749"
           }
-        ],
-        "effectiveStatus": "unverified"
+        ]
       },
       "takeaway": "指認不由熟知案情者主持作為原則；先確認目擊、先描述、告知嫌疑人未必在列，再以至少六名外型無重大差異者供列隊選擇。",
       "sources": [
@@ -2250,15 +2245,15 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
         },
         {
-          "title": "臺灣臺北地方檢察署・淺談指認程序（115年5月8日完整文章）",
+          "title": "臺北地檢署115年5月8日〈淺談指認程序〉完整官方文章",
           "url": "https://www.tpc.moj.gov.tw/292885/976681/661783/1396443/post"
         },
         {
-          "title": "監察院調查報告・指認程序（完整報告，摘列107年注意事項）",
+          "title": "監察院調查報告・107年警察指認注意事項第2至8點官方摘引",
           "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/42749"
         },
         {
-          "title": "監察院調查報告・南投大學生竊盜案指認程序（完整報告）",
+          "title": "監察院南投大學生竊盜案調查報告・完整公開本第1至4頁指認規範摘引",
           "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/62901"
         },
         {
@@ -2266,7 +2261,7 @@
           "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
       ],
-      "currentAnswer": "當年度官方A；已核官方文章及監察院引文，正式警察指認注意事項現行全文仍待補。"
+      "currentAnswer": "當年度官方A；本題四項一般指認原則均有完整官方文章或監察院所引警察規範直接支持。"
     },
     {
       "id": "investigation114_23",
@@ -3499,7 +3494,7 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "正確",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第36題",
       "paperYear": 114,
       "paperTrack": "內軌",
@@ -3507,14 +3502,14 @@
       "answerStatus": "官方最終答案已核",
       "amendment": {
         "status": "changed",
-        "law": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
-        "checkedAt": "2026-11-20",
-        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。本題有版本或現行適用落差，核對日不是修法日。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
-        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "law": "警專公開115年新版警察偵查犯罪手冊・完整主文第31、51至55、90點",
+        "checkedAt": "2026-11-26",
+        "note": "完整第90點已足以逐項核對：跟蹤動態、監視靜態，二者共同目的為掌握嫌疑人活動與身分等訊息，可配合實施。當年官方D維持，但現行文字未將C目的排斥在外；本輪確認的是現行版本範圍，不臆造精確修正日或把手冊當新增偵查強制權。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。本題有版本或現行適用落差，核對日不是修法日。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
         "newRule": "115手冊明確把跟蹤定為流動／動態觀察、監視定為固定／靜態觀察，兩者可配合。秘密觀察的行政說明不會另外創設科技監察或侵入私領域的權限。",
         "sources": [
           {
-            "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+            "title": "警專公開115年新版警察偵查犯罪手冊・完整主文第31、51至55、90點",
             "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
           }
         ],
@@ -3539,11 +3534,11 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
         },
         {
-          "title": "警專公開115年新版警察偵查犯罪手冊（完整主文）",
+          "title": "警專公開115年新版警察偵查犯罪手冊・完整主文第31、51至55、90點",
           "url": "https://crime.tpa.edu.tw/app/index.php?Action=downloadfile&file=MXhJelg5YUJjalIzWEx5c3JvZFJiNjlsUFRna1JNYitCM0JQb3pSNE9SaUpRbFR3dUpVcTByM2FXcUJxRGZabEFDMW1pRk41NDBsKy80RFZQZlNsRXlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=RTcwK3dOSmFwdnlqVzFTUXRPZlM4aDFnQWFqeVUxNUNCSmRKdTdYb05HV1lEZDdKbkJWcTNqMEwwRlNXcEROSjFQM3Bjbkg1QlhKMEdCUmsxQm4wS1FKUVM4T25HczJaRlEvQTAvMzgyd1FwVkIvaUUyRndPbVR5Y1FCeDlXUVo=&cg=968"
         }
       ],
-      "currentAnswer": "當年度官方D；現行第90點合併規範跟蹤與監視，C所述目的未必可再直接排除。"
+      "currentAnswer": "當年度官方D；115年手冊第90點採共同定義與目的，再區分跟蹤動態、監視靜態，不能再把C所說蒐得犯罪與共犯資訊一概排除。"
     },
     {
       "id": "investigation114_37",
@@ -4103,8 +4098,8 @@
       "options": [
         {
           "text": "通緝屬強制處分，會對被告人身自由造成拘束",
-          "explanation": "刑訴第87條規範通緝通知／公告後得拘提或逮捕；發布與實際拘束人身自由應分開。法務部10303506850號函也說僅受通緝尚未到案者，沒有已收容於一定場所的依法拘禁狀態。",
-          "correction": "本題當年A給分保留；可確定的是通緝發布不等於已被實際拘禁。本次不由此函擴張宣稱通緝在所有法學分類上一概非強制處分。",
+          "explanation": "刑訴87條容許通緝後依法拘提或逮捕，但發布通緝不等於當下已將被告拘禁。法務部函亦僅支持尚未到案與已拘禁的區別，不足推成通緝在所有理論分類上都非強制處分。",
+          "correction": "保留官方A給分；應說明通緝發布與後續實際拘束自由是不同階段，並避免把A的整句反面寫成排他的學理結論。",
           "trueStatement": false
         },
         {
@@ -4133,30 +4128,29 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第43題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 43,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "刑事訴訟法（本次核對之現行全文）；法務部法律字第10303506850號函・受通緝尚未到案與依法拘禁之區別",
-        "checkedAt": "2026-11-20",
-        "note": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
-        "oldRule": "原解析的條件、例外、版本差異或逐選項依據尚待補充，保留原官方給分。",
+        "status": "none",
+        "law": "刑事訴訟法・第84至87、95、100之1至100之3、233、237至240條；法務部10303506850號函・通緝未到案不等於已受拘禁",
+        "checkedAt": "2026-11-26",
+        "note": "刑訴84至87條完整規範逃亡或藏匿、通緝書、公告及拘提逮捕。法務部10303506850函僅證明受通緝尚未到案不等於已受拘禁，不證明所有學理上通緝均不屬強制處分。本輪已把A的分類與人身實際拘束分開，保留原官方給分，不臆造題目未說明的分類理論。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "已於2026-11-20（Asia/Taipei）補充列示官方原件可證明的內容；原題、選項及當年度初始／最終給分均維持。整題仍有下列明示缺口，未升為已核。 本批保留原題、原選項及當年官方給分；已核限於所列來源與明示範圍，查核日非修法日。",
         "newRule": "刑訴第84條要求被告已逃亡或藏匿，僅有逃亡之虞不足。通緝發布與依通緝書實際拘提逮捕是不同階段；不要把尚未到案誤認成已被拘禁。",
         "sources": [
           {
-            "title": "刑事訴訟法（本次核對之現行全文）",
+            "title": "刑事訴訟法・第84至87、95、100之1至100之3、233、237至240條",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
           },
           {
-            "title": "法務部法律字第10303506850號函・受通緝尚未到案與依法拘禁之區別",
+            "title": "法務部10303506850號函・通緝未到案不等於已受拘禁",
             "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE270783&media=print&type=e"
           }
-        ],
-        "effectiveStatus": "unverified"
+        ]
       },
       "takeaway": "刑訴第84條要求被告已逃亡或藏匿，僅有逃亡之虞不足。通緝發布與依通緝書實際拘提逮捕是不同階段；不要把尚未到案誤認成已被拘禁。",
       "sources": [
@@ -4177,15 +4171,15 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
         },
         {
-          "title": "刑事訴訟法（本次核對之現行全文）",
+          "title": "刑事訴訟法・第84至87、95、100之1至100之3、233、237至240條",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         },
         {
-          "title": "法務部法律字第10303506850號函・受通緝尚未到案與依法拘禁之區別",
+          "title": "法務部10303506850號函・通緝未到案不等於已受拘禁",
           "url": "https://mojlaw.moj.gov.tw/LawContentExShow.aspx?id=FE270783&media=print&type=e"
         }
       ],
-      "currentAnswer": "當年度官方A；B、C、D之法定要件已核，A的法律性質與實際拘束應區分。"
+      "currentAnswer": "當年度官方A；刑訴84至87條已核，通緝發布與實際拘提逮捕應分開，A不得被簡化成「通緝絕非強制處分」的學理斷言。"
     },
     {
       "id": "investigation114_44",
@@ -4370,26 +4364,26 @@
       "options": [
         {
           "text": "就身體之搜索而言，僅本人具同意權限",
-          "explanation": "身體搜索直接涉及該人的身體自主與隱私；一般情形下，不可僅憑配偶、家人或房屋所有人的同意，替另一具意思能力的人作身體搜索決定。",
-          "correction": "須審查本人自願同意或另有獨立法定搜索依據；場所管領權不能轉換成同意搜索他人身體的權限。",
+          "explanation": "同意搜索是受搜索人自主放棄相應隱私保障；身體搜索原則上由本人決定，不能因夫妻或共居就由另一人代為放棄本人身體隱私。這與依法得強制搜索的情形應分開。",
+          "correction": "A依本題一般同意搜索情境保留；不得用共同居住或財產管領權代替本人身體搜索的自願同意。",
           "trueStatement": true
         },
         {
           "text": "就物件、宅第之搜索而言，是否具同意權限，以就搜索標的有無管領、支配之權利為斷",
-          "explanation": "物件或住居的同意權限，重點在是否對該標的具有實際、合法的管領或支配關係，不能只看戶籍、親屬稱謂或誰替警方開門。",
-          "correction": "應具體確認同意範圍，是共同空間、專用房間或個人封閉物；本次僅核法律基本要求，最高院此項完整權限說理仍待原判決。",
+          "explanation": "110台上6095要求同意者對搜索標的具有共通進入、接近及相互使用的完整管領支配權限。重點是對該標的的實際權限，不只看所有權名義或報案人身分。",
+          "correction": "依各處所、物件的管領及支配範圍審查權限；對公共客廳有權，不當然對他人的專用房間或私人物件也有權。",
           "trueStatement": true
         },
         {
           "text": "同居共財之配偶間，對於同居處所原則上肯認具共同管領權限，而各具同意權限",
-          "explanation": "配偶共同生活、共用處所，可能具有共同管領權，但這是對共同管領部分的原則分析；不能只因婚姻關係便推定一方對另一方所有私有物與專用空間都有同意權。",
-          "correction": "仍須核實共同使用情況、搜索標的與同意範圍，並另看有無在場反對；原題所據裁判全文未齊，不能把配偶關係當成全面代為同意。",
+          "explanation": "判決原則肯認同居共財配偶對共享處所的同意權，原案客廳由夫妻共同居住使用，並非一方專用。仍須有完整共同管領，且查明使用約定與搜索時反對等限制。",
+          "correction": "C的原則性敘述保留；不能把配偶身分直接擴大為對任何處所或物件都能同意。",
           "trueStatement": true
         },
         {
           "text": "縱其中一人於搜索時為積極反對，其他具共同管領權限者仍具合法之同意權限",
-          "explanation": "在場且有共同管領權的一方已積極反對時，另一方的同意能否對抗其反對，與無人反對時由共同管領人同意不同；本項把其他人同意一律視為有效，忽略反對者的權利。",
-          "correction": "不能以另一共住者簽字就排除反對，應停止依該同意擴張搜索，另判斷令狀或法定例外。110台上6095等官方全文尚未取得，精確條件保留待核。",
+          "explanation": "判決的風險承擔論述以沒有明確使用限制或搜索時積極反對等情形為前提。D一概宣稱即使其中共同管領人搜索時明確反對仍可由他人同意，抹去了判決列明的界線。",
+          "correction": "D為原題應選項；在場共同管領人明確反對時，不得僅憑另一人的同意概括搜索，應另審有無令狀或其他合法搜索事由。",
           "trueStatement": false
         }
       ],
@@ -4400,27 +4394,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第46題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 46,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "刑事訴訟法（本輪重新取得現行全文）",
-        "checkedAt": "2026-11-24",
-        "note": "已核刑訴131條之1自願同意、出示證件及筆錄要求；共同管領、在場積極反對等裁判層次仍待最高法院110台上6095等官方完整原件，不以一般條文直接證成全部四項。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
-        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
-        "newRule": "同意是否自願與同意人是否有權，必須各別審查；對共同空間有權，不等於對他人身體或私有專用物也有權。",
+        "status": "none",
+        "law": "刑事訴訟法第122、131條之1（搜索及自願同意）；最高法院110年度台上字第6095號刑事判決全文（111.6.8；同意權限與共同管領）",
+        "checkedAt": "2026-11-26",
+        "note": "已取得並實讀最高法院110台上6095官方完整判決理由三，直接核對共同管領權限、適格第三人、同居共財配偶及積極反對的限制；判決日期為111.6.8，不把案號年度110當作作成日。原案為家暴報案後配偶同意搜索共享客廳、另一方在場未反對，沒有把原案改寫成警方得忽略明確反對。刑訴131條之1的自願性、證件及筆錄程序仍另須符合。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "已核刑訴131條之1自願同意、出示證件及筆錄要求；共同管領、在場積極反對等裁判層次仍待最高法院110台上6095等官方完整原件，不以一般條文直接證成全部四項。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "newRule": "自願性與同意權限須各別審查；配偶或共居身分不會自動授權搜索他人身體、專用房間及所有私有物。",
         "sources": [
           {
-            "title": "刑事訴訟法（本輪重新取得現行全文）",
+            "title": "刑事訴訟法第122、131條之1（搜索及自願同意）",
             "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+          },
+          {
+            "title": "最高法院110年度台上字第6095號刑事判決全文（111.6.8；同意權限與共同管領）",
+            "url": "https://judgment.judicial.gov.tw/FJUD/data.aspx?ty=JD&id=TPSM%2c110%2c%e5%8f%b0%e4%b8%8a%2c6095%2c20220608%2c1&ot=in"
           }
         ]
       },
-      "takeaway": "同意是否自願與同意人是否有權，必須各別審查；對共同空間有權，不等於對他人身體或私有專用物也有權。",
+      "takeaway": "自願性與同意權限須各別審查；配偶或共居身分不會自動授權搜索他人身體、專用房間及所有私有物。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -4439,11 +4437,15 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
         },
         {
-          "title": "刑事訴訟法（本輪重新取得現行全文）",
+          "title": "刑事訴訟法第122、131條之1（搜索及自願同意）",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+        },
+        {
+          "title": "最高法院110年度台上字第6095號刑事判決全文（111.6.8；同意權限與共同管領）",
+          "url": "https://judgment.judicial.gov.tw/FJUD/data.aspx?ty=JD&id=TPSM%2c110%2c%e5%8f%b0%e4%b8%8a%2c6095%2c20220608%2c1&ot=in"
         }
       ],
-      "currentAnswer": "保留114年官方答案D。同意人須有相應標的權限，不能因一位共住者答應，就無條件忽略另一位在場共同管領人的明確反對。"
+      "currentAnswer": "保留114年官方答案D。110台上6095（判決作成於111.6.8）以完整共同管領權限及無明確使用限制、搜索時無積極反對為前提，不能一概忽略在場共同管領人的明確反對。"
     },
     {
       "id": "investigation114_47",
@@ -4455,26 +4457,26 @@
       "options": [
         {
           "text": "汽車引擎箱",
-          "explanation": "引擎箱通常與乘員座艙分隔，必須另作開啟等動作，不能僅因被捕者是駕駛，就當然視為其在拘捕時可立即取用武器或滅證的地方。",
-          "correction": "若要搜索引擎箱，應另檢查搜索票、有效同意或其他法定例外等依據；原題A給分保留，具體裁判對各區域的界線仍待官方原件核對。",
+          "explanation": "最高院111台上3032理由三要求搜索限於被拘捕者能立即控制的空間。引擎箱通常與乘員艙隔離，並非坐在駕駛位即可即時取用之處，依一般題設判斷為A；判決本身未逐列本題引擎箱。",
+          "correction": "如欲另搜引擎箱，應另核搜索票、合法同意或其他法定無票例外；不能只因駕駛被捕就把整車所有部分納入附帶搜索。",
           "trueStatement": false
         },
         {
           "text": "汽車前座置物箱",
-          "explanation": "前座置物箱可能位於駕駛座鄰近可觸及處，但實際距離、是否鎖閉及拘捕時人員已被如何控制，均會影響立即控制的判斷。",
-          "correction": "不能寫成每次逮捕駕駛都自動能搜前座置物箱；應說明本案與安全、證物保全目的及立即控制範圍的關聯。",
+          "explanation": "理由三以座位附近等立即控制空間為例。前座置物箱可能位於駕駛可及處，仍須依拘捕時位置、箱體鎖閉及安全滅證風險具體判斷，不是僅看名稱即一律可搜。",
+          "correction": "就具體拘捕關係判斷是否屬立即控制範圍；若欠此關聯，另查其他合法搜索依據，不能自動擴張。",
           "trueStatement": true
         },
         {
           "text": "隨身攜帶物品",
-          "explanation": "刑訴第130條明列隨身攜帶物件為拘捕附帶搜索標的，與放在遠處、已脫離拘捕對象實際控制的其他物件不同。",
-          "correction": "仍應有合法拘捕且不逾必要程度；隨身物件中的數位設備內容或其他高度隱私資料，不能僅因物件可搜就不加區分地全面讀取。",
+          "explanation": "刑訴130條明列隨身攜帶物；111台上3032的具體案件也肯認拘提、控制隨身背包後待支援到場的附帶搜索。是否得讀取其中數位內容，仍不得僅由物件可搜便推成無限制權限。",
+          "correction": "須先有合法拘捕，按立即控制與必要範圍執行；保全物件與深度讀取其數位資料應分別查合法依據。",
           "trueStatement": true
         },
         {
           "text": "置於汽車副駕駛座之皮包",
-          "explanation": "副駕駛座皮包可能位於駕駛立即觸及的乘員空間內，與封閉引擎箱不同，但仍須看拘捕當時的實際位置與控制能力，而非只看物件名稱。",
-          "correction": "如已明顯超出其可控制範圍或涉及他人專有物，應另核相應搜索依據；未取得本題具體車輛裁判全文，不把所有副座皮包概括列為必然可搜。",
+          "explanation": "副座皮包可能位於駕駛座附近可立即取用之處，可依判決的立即控制原則判斷；如實際距離、拘捕位置或他人專有權益不同，結論亦可能不同。原判決不是副座皮包案件。",
+          "correction": "依現場具體控制能力與權益關係審查；超出附帶搜索界線時，須另有合法依據，不把所有副座皮包必然列為可搜。",
           "trueStatement": true
         }
       ],
@@ -4485,31 +4487,31 @@
       "lawIds": [],
       "difficulty": "基礎",
       "target": "錯誤",
-      "verified": false,
+      "verified": true,
       "origin": "114年內軌四等｜犯罪偵查概要｜第47題",
       "paperYear": 114,
       "paperTrack": "內軌",
       "paperNumber": 47,
       "answerStatus": "官方最終答案已核",
       "amendment": {
-        "status": "review",
-        "law": "刑事訴訟法（本輪重新取得現行全文）；警政署《警光》793期〈盤查受檢人查獲毒品犯罪案例分析〉印刷第26至32頁（111.8）",
-        "checkedAt": "2026-11-24",
-        "note": "刑訴130條及立即控制的附帶搜索目的已核，但汽車引擎箱、前座置物箱與副座皮包的具體裁判限制，仍待最高院111台上3032等官方完整判決，保留待核；不將交通工具四字擴成整車無條件搜索。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
-        "oldRule": "原資料僅為官方答案對照與短考點，完整逐項說明與適用依據尚待補充。",
-        "newRule": "車輛附帶搜索的範圍來自拘捕與立即控制的實際關係，不是凡屬同一輛車就全部可搜。",
+        "status": "none",
+        "law": "最高法院111年度台上字第3032號完整刑事判決・理由三（111年7月13日）；刑事訴訟法・第130條拘捕附帶搜索範圍",
+        "checkedAt": "2026-11-26",
+        "note": "新取得最高法院111台上3032完整官方判決，理由三直接闡明立即控制界線，並以交通工具座位附近及行李空間說明。該案事實為拘提後等待支援搜索隨身背包，並非直接裁決本題四種汽車物件。以下對引擎箱、置物箱與副座皮包的分析，是依判決原則對題目事實的涵攝；不冒稱法院逐一列過本題四項，不把車內物件概括都列為可搜。 已核係本題詳解列明範圍之法源、技術或適用版本完成核對，不表示原題省略條件、官方特殊給分或原件差異不存在。保留原題與原官方給分；查核日不是修法日。",
+        "oldRule": "刑訴130條及立即控制的附帶搜索目的已核，但汽車引擎箱、前座置物箱與副座皮包的具體裁判限制，仍待最高院111台上3032等官方完整判決，保留待核；不將交通工具四字擴成整車無條件搜索。 本輪補足A～D逐項說明，保留原題、原選項及官方初始／最終給分；補充與法源已核分別計數，查核日不是修法日。",
+        "newRule": "駕駛人被拘捕不表示整車均可搜。引擎箱通常非立即控制範圍；前座置物箱、隨身物、副座皮包仍按拘捕時具體可及範圍與合法依據判斷。",
         "sources": [
           {
-            "title": "刑事訴訟法（本輪重新取得現行全文）",
-            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+            "title": "最高法院111年度台上字第3032號完整刑事判決・理由三（111年7月13日）",
+            "url": "https://judgment.judicial.gov.tw/FJUD/data.aspx?ty=JD&id=TPSM%2C111%2C%E5%8F%B0%E4%B8%8A%2C3032%2C20220713%2C1"
           },
           {
-            "title": "警政署《警光》793期〈盤查受檢人查獲毒品犯罪案例分析〉印刷第26至32頁（111.8）",
-            "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=1021308714184871936&module=wg079&type=s"
+            "title": "刑事訴訟法・第130條拘捕附帶搜索範圍",
+            "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
           }
         ]
       },
-      "takeaway": "車輛附帶搜索的範圍來自拘捕與立即控制的實際關係，不是凡屬同一輛車就全部可搜。",
+      "takeaway": "駕駛人被拘捕不表示整車均可搜。引擎箱通常非立即控制範圍；前座置物箱、隨身物、副座皮包仍按拘捕時具體可及範圍與合法依據判斷。",
       "sources": [
         {
           "title": "考選部・114年官方原卷",
@@ -4528,15 +4530,19 @@
           "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=601&code=114060&q=1&s=1206&t=M"
         },
         {
-          "title": "刑事訴訟法（本輪重新取得現行全文）",
+          "title": "刑事訴訟法・第130條拘捕附帶搜索範圍",
           "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
         },
         {
           "title": "警政署《警光》793期〈盤查受檢人查獲毒品犯罪案例分析〉印刷第26至32頁（111.8）",
           "url": "https://police.npa.gov.tw/ch/app/data/doc?detailNo=1021308714184871936&module=wg079&type=s"
+        },
+        {
+          "title": "最高法院111年度台上字第3032號完整刑事判決・理由三（111年7月13日）",
+          "url": "https://judgment.judicial.gov.tw/FJUD/data.aspx?ty=JD&id=TPSM%2C111%2C%E5%8F%B0%E4%B8%8A%2C3032%2C20220713%2C1"
         }
       ],
-      "currentAnswer": "保留114年官方答案A。引擎箱通常超出駕駛在拘捕時立即可控制區域；前座置物箱與副座物件也仍須依拘捕當時控制範圍判斷。"
+      "currentAnswer": "當年度官方A；依刑訴130條與最高院111台上3032，汽車附帶搜索仍以被拘捕者能立即控制的空間為界，B、D也不是每案當然可搜。"
     },
     {
       "id": "investigation114_48",
